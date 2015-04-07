@@ -1,5 +1,6 @@
 import collections
 import csv
+import datetime
 import operator
 import pathlib
 import re
@@ -67,12 +68,26 @@ def valid_codename(string):
     except TypeError:
         return False
 
-def get_dynamics(cultures):
+def get_province_id():
+    province_id = {}
+    for path in rootpath.glob('SWMH/history/provinces/*.txt'):
+        number = int(path.name.split(' - ', maxsplit=1)[0])
+        with path.open(encoding='cp1252') as f:
+            s = f.read()
+        tree = parse(tokenize(s))
+        try:
+            title = next(v for n, v in tree if n == 'title')
+        except StopIteration:
+            continue
+        province_id[title] = 'PROV{}'.format(number)
+    return province_id
+
+def get_dynamics(cultures, province_id):
     path = rootpath / 'SWMH/common/landed_titles/swmh_landed_titles.txt'
     with path.open(encoding='cp1252') as f:
         s = f.read()
     landed_titles = parse(tokenize(s))
-    dynamics = collections.defaultdict(list)
+    dynamics = collections.defaultdict(set)
 
     def recurse(v, n=None):
         for n1, v1 in v:
@@ -80,7 +95,9 @@ def get_dynamics(cultures):
                 continue
             for n2, v2 in v1:
                 if n2 in cultures:
-                    dynamics[n1].append(v2)
+                    dynamics[n1].add(v2)
+                    if n1 in province_id:
+                        dynamics[province_id[n1]].add(v2)
             recurse(v1, n1)
 
     recurse(landed_titles)
@@ -97,15 +114,15 @@ def get_cultures():
 def main():
     csv.register_dialect('ckii', delimiter=';')
     english = collections.defaultdict(str)
-    dynamics = collections.defaultdict(list)
     for path in sorted(rootpath.glob('English SWMH/localisation/*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
                 if row[0] not in english:
                     english[row[0]] = row[1]
     
+    province_id = get_province_id()
     cultures = get_cultures()
-    dynamics = get_dynamics(cultures)
+    dynamics = get_dynamics(cultures, province_id)
 
     for inpath in rootpath.glob('SWMH/localisation/*.csv'):
         outpath = rootpath / 'SED2/templates' / inpath.name
