@@ -19,11 +19,9 @@ def main():
             swmhrows = [row for row in csv.reader(csvfile, dialect='ckii')]
         sed2rows = []
         for row in swmhrows:
-            if row[0].startswith('#') or sed2[row[0]] == '':
-                loc = row[1]
-            else:
-                loc = sed2[row[0]]
-            row[1] = row[2] = row[3] = row[5] = loc
+            if not row[0].startswith('#'):
+                row[1] = sed2[row[0]]
+                row[2:] = [''] * (len(row) - 2)
             sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)

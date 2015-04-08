@@ -101,6 +101,8 @@ def get_dynamics(cultures, province_id):
             recurse(v1, n1)
 
     recurse(landed_titles)
+    for k, v in province_id.items():
+        dynamics[v].add(k)
 
     return dynamics
 
