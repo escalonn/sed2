@@ -13,7 +13,7 @@ PROV391;;Norðmœri;;c_nordland
 PROV275;;Strindafylki;;c_trondelag
 PROV278;;Hálogaland;;c_halogaland
 PROV277;;Naumdœlfylki;;c_naumadal
-PROV389;;Finnmörk;;Finnmárku,c_finnmark
+PROV389;;Finnmörk;;c_finnmark,Finnmárku
 PROV276;;Heiðmørk;;c_hedmark
 PROV282;;Jamtaland;;c_jamtland
 PROV284;;Herjárdalr;;c_herjedalen
@@ -21,7 +21,7 @@ PROV273;;Hringaríki;;c_oppland
 ########################################;;;;
 #Danish;;;;
 ########################################;;;;
-PROV264;;Sliesvík;;Schleswig,c_slesvig
+PROV264;;Sliesvík;;c_slesvig,Schleswig
 PROV265;;Fyun;;c_fyn
 PROV266;;Østær Syäland;;c_sjaelland
 PROV267;;Ábúsýsl;;c_jylland
@@ -32,9 +32,9 @@ PROV6;;Blekyng;;c_blekinge
 #Swedish;;;;
 ########################################;;;;
 PROV298;;Njudung;;c_smaland
-PROV294;;Nerike;;c_narke,Nerke,Nerike
-PROV297;;Lödöse;;Lødøse,c_vastergotland
-PROV288;;Värmilland;;Værmland,Vermland,c_varmland
+PROV294;;Nerike;;c_narke,Nerike,Nerke
+PROV297;;Lödöse;;c_vastergotland,Lødøse
+PROV288;;Värmilland;;c_varmland,Vermland,Værmland
 PROV285;;Alir;;c_halsingland
 PROV283;;Sunded;;c_medelpad
 PROV280;;Norrland;;c_vasterbotten,Norlanti
@@ -43,42 +43,42 @@ PROV290;;Tiundaland;;c_uppland
 #Polish;;;;
 ########################################;;;;
 PROV428;;Kujawy;;c_kujawy
-PROV429;;Gniezno;;Gnesen,c_gnieznienskie
-PROV430;;Lubusz;;Lubusz,c_lubusz
-PROV431;;Poznan;;Posen,c_poznanskie
+PROV429;;Gniezno;;c_gnieznienskie,Gnesen
+PROV430;;Lubusz;;c_lubusz,Lubusz
+PROV431;;Poznan;;c_poznanskie,Posen
 PROV432;;Kalisz;;c_kaliskie
 PROV435;;Glogów;;c_lower_silesia,Glogau
 PROV434;;Wroclaw;;c_upper_silesia,Breslau
-PROV527;;Krakow;;Krakau,c_krakowskie
-PROV528;;Sieradz;;Schieratz,c_sieradzko-leczyckie
+PROV527;;Krakow;;c_krakowskie,Krakau
+PROV528;;Sieradz;;c_sieradzko-leczyckie,Schieratz
 PROV530;;Czersk;;c_czersk
 PROV531;;Sandomierz;;c_sandomierskie
-PROV532;;Sacz;;Sandez,c_sacz
+PROV532;;Sacz;;c_sacz,Sandez
 ########################################;;;;
 #Balkans;;;;
 ########################################;;;;
-PROV459;;Krk;;c_veglia,Veglia,Vegl,Curicta,Kyrikon
-PROV460;;Zagorje;;Varasdino,Varasdinion,c_varadzin,Varasdinum,Warasdin,Varasd
-PROV462;;Vukova;;Wukowar,Vlco,c_krizevci
-PROV464;;Lika;;Licca,c_senj
+PROV459;;Krk;;c_veglia,Vegl,Veglia,Kyrikon,Curicta
+PROV460;;Zagorje;;c_varadzin,Warasdin,Varasd,Varasdino,Varasdinum,Varasdinion
+PROV462;;Vukova;;c_krizevci,Wukowar,Vlco
+PROV464;;Lika;;c_senj,Licca
 PROV466;;Podgorje;;c_zachlumia
-PROV503;;Podrinje;;Drinus,Dreinos,c_hum
+PROV503;;Podrinje;;c_hum,Drinus,Dreinos
 PROV504;;Rama;;c_rama
-PROV465;;Zadar;;Jadres,Jadhara,Iadera,Jatara,Diadora,c_zadar,Zara
+PROV465;;Zadar;;c_zadar,Jadres,Zara,Jatara,Iadera,Diadora,Jadhara
 PROV467;;Cetina;;c_split,Tiluriumu
-PROV505;;Belgrad;;c_belgrade,Singidunum,Belgrád,Singidounon,Belgrado
-PROV469;;Crna Gora;;Dioclea,c_zeta,Karadag
-PROV507;;Kran;;Seuthopolis,Hasat,c_nikopolis
-PROV498;;Zagore;;Zagora,c_mesembria
-PROV493;;Plovdiv;;Philippoupolis,c_philippopolis,Filibe,Philippopolis
-PROV508;;Preslav;;Stamboluk,Durostolon,Dorostorum,c_dorostotum
-PROV500;;Sredets;;Sofya,Serdica,c_serdica
-PROV499;;Tarnovo;;c_tyrnovo,Tirnova,Moesia Secunda
-PROV508;;Niš;;Stamboluk,Durostolon,Dorostorum,c_dorostotum
-PROV471;;Ohrid;;Ohri,Lychnidus,Lychnidos,c_ochrid,Ohrida
-PROV494;;Adrianopol;;c_adrianopolis,Adrianopolis,Edirne,Adrianupleos,Hadrianopolis
-PROV468;;Dubrovnik;;Raguia,Ragusa,Ragusium,c_ragusa
-PROV510;;Konstanta;;Constantia,Constanta,Köstence,c_constantia,Konstantia
+PROV505;;Belgrad;;c_belgrade,Belgrád,Singidounon,Singidunum,Belgrado
+PROV469;;Crna Gora;;c_zeta,Dioclea,Karadag
+PROV507;;Kran;;c_nikopolis,Seuthopolis,Hasat
+PROV498;;Zagore;;c_mesembria,Zagora
+PROV493;;Plovdiv;;c_philippopolis,Philippopolis,Philippoupolis,Filibe
+PROV508;;Preslav;;c_dorostotum,Durostolon,Dorostorum,Stamboluk
+PROV500;;Sredets;;c_serdica,Serdica,Sofya
+PROV499;;Tarnovo;;c_tyrnovo,Moesia Secunda,Tirnova
+PROV508;;Niš;;c_dorostotum,Durostolon,Dorostorum,Stamboluk
+PROV471;;Ohrid;;c_ochrid,Lychnidos,Lychnidus,Ohri,Ohrida
+PROV494;;Adrianopol;;c_adrianopolis,Adrianopolis,Adrianupleos,Hadrianopolis,Edirne
+PROV468;;Dubrovnik;;c_ragusa,Ragusa,Ragusium,Raguia
+PROV510;;Konstanta;;c_constantia,Konstantia,Constantia,Köstence,Constanta
 ########################################;;;;
 #German territories;;;;
 ########################################;;;;
@@ -97,23 +97,23 @@ PROV244;;Zähringen;;c_bern
 PROV447;;Ortenburg;;c_passau
 PROV127;;Blâmont;;c_lorraine
 PROV133;;Vaudémont;;c_saintois
-PROV117;;Leuven;;Leuven,Louvain,Löwen,c_brabant
+PROV117;;Leuven;;c_brabant,Löwen,Louvain,Leuven
 PROV122;;Wertheim;;c_leiningen
-PROV92;;Antwerp;;Anvers,c_breda,Antorf,Antwerpen
+PROV92;;Antwerp;;c_breda,Antorf,Anvers,Antwerpen
 PROV94;;Mons;;c_hainaut,Bergen
 PROV263;;Eselsfleth;;c_holstein
-PROV458;;Merania;;Meraniae,Meránia,Meranije,Merano,c_istria,Meranien
+PROV458;;Merania;;c_istria,Merano,Meranien,Meránia,Meraniae,Meranije
 ########################################;;;;
 #Bohemia;;;;
 ########################################;;;;
-PROV438;;Hradec;;Königgrätz,Hradec,c_hradec
+PROV438;;Hradec;;c_hradec,Hradec,Königgrätz
 PROV440;;Olomovc;;c_olomouc,Olomouc,Olomuniec,Olmütz
-PROV439;;Plzen;;Plzen,Pilsen,c_plzen
-PROV362;;Doudleby;;Doudleby,Sud Böhmen,c_domazlice
+PROV439;;Plzen;;c_plzen,Plzen,Pilsen
+PROV362;;Doudleby;;c_domazlice,Doudleby,Sud Böhmen
 PROV363;;Litomirice;;c_litomerice,Leitmeritz,Litomerice
 PROV436;;Kladsko;;c_boleslav,Kladsko,Klodsko,Glatz
-PROV437;;Praha;;c_praha,Praha,Prag
-PROV508;;Boruy;;Stamboluk,Durostolon,Dorostorum,c_dorostotum
+PROV437;;Praha;;c_praha,Prag,Praha
+PROV508;;Boruy;;c_dorostotum,Durostolon,Dorostorum,Stamboluk
 PROV446;;Znoymo;;c_znojmo,Znojmo,Znaym
 ########################################;;;;
 #Burgundy;;;;
@@ -133,48 +133,48 @@ PROV347;;Melfi;;c_apulia
 ########################################;;;;
 #Wales;;;;
 ########################################;;;;
-PROV19;;Glywysing;;c_glamorgan,Glamorgan,Glywysing
-PROV18;;Dyfed;;Dyfed,Pembroke,c_dyfed
+PROV19;;Glywysing;;c_glamorgan,Glywysing,Glamorgan
+PROV18;;Dyfed;;c_dyfed,Dyfed,Pembroke
 PROV65;;Maelor;;c_powys,Powys Fadog,Powis Fadog
 ########################################;;;;
 #Hungary;;;;
 ########################################;;;;
 PROV442;;Trencsén;;c_trencin,Trencsén,Trencín,Trentschin
-PROV443;;Nyitra;;c_nitra,Nitra,Neutra,Nyitra
-PROV444;;Visegrád;;Ostrihom,c_esztergom
-PROV445;;Pozsony;;Pozsony,Prešporok,Pressburg,c_pressburg
+PROV443;;Nyitra;;c_nitra,Nyitra,Nitra,Neutra
+PROV444;;Visegrád;;c_esztergom,Ostrihom
+PROV445;;Pozsony;;c_pressburg,Pozsony,Prešporok,Pressburg
 PROV450;;Sopron;;c_sopron
 PROV451;;Fejér;;c_fejer
-PROV452;;Tolna;;Blatnohrad,c_pecs
-PROV453;;Csongrád;;Stolicný Belehrad,c_szekezfehervar
+PROV452;;Tolna;;c_pecs,Blatnohrad
+PROV453;;Csongrád;;c_szekezfehervar,Stolicný Belehrad
 PROV454;;Kolon;;c_vas
-PROV517;;Temes;;c_temes,Temesch,Temeš,Tamiš
+PROV517;;Temes;;c_temes,Temeš,Temesch,Tamiš
 PROV518;;Bodrog;;c_bacs
 PROV519;;Fehér;;c_feher
 PROV520;;Bihar;;c_bihar
 PROV522;;Szatmár;;c_pest
-PROV523;;Heves;;Jager,c_heves
-PROV524;;Gyõr;;Vjura,Raab,Ráb,c_gemer,Jura
-PROV525;;Árva;;Arwa,c_orava,Orawa,Orava,Árva
-PROV533;;Borsod;;Scharosch,c_saris,Šariš
+PROV523;;Heves;;c_heves,Jager
+PROV524;;Gyõr;;c_gemer,Ráb,Jura,Vjura,Raab
+PROV525;;Árva;;c_orava,Árva,Orava,Arwa,Orawa
+PROV533;;Borsod;;c_saris,Šariš,Scharosch
 PROV537;;Somogy;;c_bereg
-PROV538;;Abauj;;Abov,Abaujwar,c_abauj
+PROV538;;Abauj;;c_abauj,Abov,Abaujwar
 PROV539;;Veszprém;;c_marmaros
 PROV540;;Doboka;;c_szekelyfold
 ########################################;;;;
 #Sicily;;;;
 ########################################;;;;
 PROV339;;Messina;;c_messina,Messene
-PROV340;;Palermu;;Panarmos,Balharm,c_palermo
+PROV340;;Palermu;;c_palermo,Balharm,Panarmos
 PROV341;;Tràpani;;c_trapani,Drepanon,Mazar
-PROV342;;Girgenti;;Agrigenton,Kerkent,c_agrigento
+PROV342;;Girgenti;;c_agrigento,Agrigenton,Kerkent
 PROV343;;Sarausa;;c_siracusa,Syrakousa
 ########################################;;;;
 #Italy;;;;
 ########################################;;;;
-PROV338;;Gerace;;Rhegion,c_reggio
+PROV338;;Gerace;;c_reggio,Rhegion
 PROV348;;Monte Sant'Angelo;;c_foggia
-PROV337;;Tarsia;;Kroton,c_consenza
+PROV337;;Tarsia;;c_consenza,Kroton
 PROV331;;Grosseto;;c_piombino
 PROV332;;Santa Fiora;;c_orbetello
 PROV333;;Roma;;c_roma
@@ -223,22 +223,22 @@ PROV100;;Avranches;;c_avranches
 ########################################;;;;
 #Iberia;;;;
 ########################################;;;;
-PROV154;;Asturias de Santillana;;Astúries de Santillana,Sant'ianna,Asturies de Santillana,Santillanako Asturias,c_asturias_de_santillana,Astúrias de Santilhana,Asturies de Sainte-Julianne
-PROV155;;Asturias de Oviedo;;Astúrias d'Oviedo,Astúries d'Oviedo,c_asturias_de_oviedo,Uffiddu,Asturies d'Uviéu,Asturies d'Ouviet,Obiedoko Asturias
-PROV156;;Trastámara;;Trastamara,Trastâmara,Trastamare,Qruniyyah,Trastàmara,c_coruna
-PROV158;;Oporto;;c_porto,Oporto,Porto,Portu,Uburtu,Porteau
-PROV165;;Carmona;;Carmonne,Karmona,c_cadiz,Qarmuna
-PROV173;;Tortosa;;c_tarragona,Tortose,Turtusha
-PROV174;;Albarracín;;Albarrazín,Albarrasí,Albarratzin,Aben Razin,c_albarracin
-PROV178;;Alarcón;;Alarcon,Alarcó,al-Urqub,c_la_mancha,Alarkon
-PROV179;;Villena;;c_almansa,Bilena,Vilhena,Villène,Bilyana
+PROV154;;Asturias de Santillana;;c_asturias_de_santillana,Sant'ianna,Santillanako Asturias,Astúries de Santillana,Asturies de Santillana,Astúrias de Santilhana,Asturies de Sainte-Julianne
+PROV155;;Asturias de Oviedo;;c_asturias_de_oviedo,Uffiddu,Astúrias d'Oviedo,Asturies d'Uviéu,Astúries d'Oviedo,Obiedoko Asturias,Asturies d'Ouviet
+PROV156;;Trastámara;;c_coruna,Qruniyyah,Trastamare,Trastâmara,Trastamara,Trastàmara
+PROV158;;Oporto;;c_porto,Uburtu,Porto,Portu,Oporto,Porteau
+PROV165;;Carmona;;c_cadiz,Qarmuna,Karmona,Carmonne
+PROV173;;Tortosa;;c_tarragona,Turtusha,Tortose
+PROV174;;Albarracín;;c_albarracin,Aben Razin,Albarrazín,Albarrasí,Albarratzin
+PROV178;;Alarcón;;c_la_mancha,al-Urqub,Alarcó,Alarkon,Alarcon
+PROV179;;Villena;;c_almansa,Bilyana,Bilena,Vilhena,Villène
 PROV183;;Mérida;;c_aracena,Marida,Merida
-PROV195;;Talavera;;Talabira,Talabera,c_caceres
-PROV182;;Sevilla;;Isbiliya,Sevilha,Sebilla,c_sevilla,Séville
+PROV195;;Talavera;;c_caceres,Talabira,Talabera
+PROV182;;Sevilla;;c_sevilla,Isbiliya,Sebilla,Séville,Sevilha
 ########################################;;;;
 #Anatolia;;;;
 ########################################;;;;
-PROV735;;Marash;;Doliche,c_teluch
+PROV735;;Marash;;c_teluch,Doliche
 PROV734;;Ravendal;;c_aintab
 ########################################;;;;
 #Syria;;;;
@@ -261,10 +261,10 @@ PROV729;;Alqaim;;c_tadmor
 PROV733;;Halab;;c_aleppo
 PROV722;;Elim;;c_petra
 PROV769;;Toron;;c_safed
-PROV779;;Naples;;Nablus,c_beersheb
-PROV776;;St-Abraham;;El-Khail,c_hebron
+PROV779;;Naples;;c_beersheb,Nablus
+PROV776;;St-Abraham;;c_hebron,El-Khail
 PROV782;;Negev desert;;
-PROV774;;Jérusalem;;Al-Quds,c_jerusalem,Kudüs
+PROV774;;Jérusalem;;c_jerusalem,Al-Quds,Kudüs
 PROV781;;Darom;;c_darum
 PROV786;;Jabal Katrina;;c_eilat
 PROV785;;Nekhel;;c_sinai
@@ -283,9 +283,9 @@ PROV654;;Subala;;c_rummah
 ########################################;;;;
 #Rhos;;;;
 ########################################;;;;
-PROV414;;Novgorod;;Holmgarðr,c_novgorod
+PROV414;;Novgorod;;c_novgorod,Holmgarðr
 PROV412;;Torzhok;;c_torzhok
-PROV409;;Ladoga;;Aldeigjuborg,c_bezhetsky_verh
+PROV409;;Ladoga;;c_bezhetsky_verh,Aldeigjuborg
 PROV404;;Tudozerskij;;c_zaozerye
 PROV413;;Pskov;;c_pskov
 PROV415;;Luki;;c_velikiye_luki
@@ -299,10 +299,10 @@ PROV395;;Orlec;;c_north_dvina
 PROV394;;Pomorye;;c_trans-portage
 PROV570;;Tver;;c_tver
 PROV571;;Uglich;;c_uglich
-PROV574;;Rostov;;Ráðstofa,c_rostov
+PROV574;;Rostov;;c_rostov,Ráðstofa
 PROV572;;Yaroslavl;;c_yaroslavl
 PROV407;;Kostroma;;c_kostroma
-PROV583;;Suzdal;;Súrsdalar,c_suzdal
+PROV583;;Suzdal;;c_suzdal,Súrsdalar
 PROV582;;Vladimir;;c_vladimir
 PROV573;;Perejaslavl'-Zalesskij;;c_pereyaslavl_zalessky
 PROV402;;Veliky Ustug;;c_veliky_ustug
@@ -312,7 +312,7 @@ PROV585;;Gorodets-Radilov;;c_gorodez
 PROV580;;Riazan';;c_ryazan
 PROV578;;Kolomna;;c_kolomna
 PROV577;;Pronsk;;c_pronsk
-PROV581;;Murom;;Móramar,c_murom
+PROV581;;Murom;;c_murom,Móramar
 PROV575;;Moskva;;c_moskva
 PROV587;;Mozajsk;;c_mozhaysk
 PROV419;;Polotsk;;c_polotsk,Pallteskja
@@ -321,7 +321,7 @@ PROV550;;Minsk;;c_minsk
 PROV547;;Kiev;;c_kiev,Kœnugarðr
 PROV544;;Korsun;;c_korsun
 PROV555;;Perejaslavl;;c_pereyaslavl
-PROV568;;Smolensk;;Smaleskja,c_smolensk
+PROV568;;Smolensk;;c_smolensk,Smaleskja
 PROV551;;Mstislavl;;c_mstislavl
 PROV418;;Krasen;;c_orsha
 PROV410;;Toropec;;c_toropets
@@ -342,42 +342,42 @@ PROV546;;Terebovl;;c_terebovl
 #Finland;;;;
 ########################################;;;;
 PROV387;;Olonec;;c_kola
-PROV382;;Finland;;Suomi,c_finland
+PROV382;;Finland;;c_finland,Suomi
 PROV381;;Nyland;;c_nyland,Uusimaa
-PROV392;;Kexholm;;Korela,c_kexholm,Käkisalmi
-PROV383;;Tavastland;;Häme,Yam,c_tavasts
-PROV384;;Satakunda;;Satakunta,c_satakunta
-PROV390;;Savolax;;Savo,c_savolaks
-PROV386;;Kvänland;;Kainuu,c_kemi,Kænlandi,Cwenaland
+PROV392;;Kexholm;;c_kexholm,Käkisalmi,Korela
+PROV383;;Tavastland;;c_tavasts,Häme,Yam
+PROV384;;Satakunda;;c_satakunta,Satakunta
+PROV390;;Savolax;;c_savolaks,Savo
+PROV386;;Kvänland;;c_kemi,Kænlandi,Cwenaland,Kainuu
 PROV385;;Österbotten;;c_osterbotten,Pohjanmaa
 ########################################;;;;
 #Pomerania;;;;
 ########################################;;;;
-PROV367;;Schlawe-Stolp;;Slupsk-Slawno,Slëpsk-Slowno,c_slupsk
-PROV308;;Gützkow;;Hologost,Waløgost,c_wolgast,Wologoszcz
-PROV304;;Rügen;;Rygen,Rugia,c_rugen,Rugye,Rana
+PROV367;;Schlawe-Stolp;;c_slupsk,Slupsk-Slawno,Slëpsk-Slowno
+PROV308;;Gützkow;;c_wolgast,Wologoszcz,Hologost,Waløgost
+PROV304;;Rügen;;c_rugen,Rugia,Rana,Rugye,Rygen
 ########################################;;;;
 #Baltics;;;;
 ########################################;;;;
-PROV369;;Chelmno;;Kulmas,Kulm,c_chelminskie,Chelmno
-PROV370;;Warmia;;Varmé,Ermland,Warmia,c_marienburg
-PROV371;;Sambi;;Sambija,Sambi,Samland,c_sambia
+PROV369;;Chelmno;;c_chelminskie,Chelmno,Kulmas,Kulm
+PROV370;;Warmia;;c_marienburg,Ermland,Warmia,Varmé
+PROV371;;Sambi;;c_sambia,Samland,Sambija,Sambi
 PROV372;;Karšuva;;c_memel
 PROV373;;Vredecuren;;c_kurs,Vanema
 PROV374;;Opemele;;c_zemigalians,Upmale
-PROV375;;Tholowa;;Tãlava,c_lettigalians
+PROV375;;Tholowa;;c_lettigalians,Tãlava
 PROV377;;Saccalia;;c_livs,Sakala,Sackele
-PROV379;;Ugaunia;;Ugaunija,Ugandi,Uggenois,c_dorpat
+PROV379;;Ugaunia;;c_dorpat,Ugandi,Ugaunija,Uggenois
 PROV420;;Lietuva;;c_aukshayts
 PROV421;;Žëmaitëjë;;c_zhmud
-PROV422;;Skalva;;Schalauen,c_scalovia
-PROV423;;Sùduva;;Sudauen,c_sudovia
+PROV422;;Skalva;;c_scalovia,Schalauen
+PROV423;;Sùduva;;c_sudovia,Sudauen
 PROV426;;Dainava;;c_yatvyagi
-PROV427;;Galindia;;Galindowie,Galinda,Galinden,c_galindia
-PROV416;;Rositten;;Rëzne,c_west_dvina,Rzezyca
-PROV378;;Harria;;Harju,c_reval,Harria,Harrien,Hæriæ
+PROV427;;Galindia;;c_galindia,Galinden,Galindowie,Galinda
+PROV416;;Rositten;;c_west_dvina,Rëzne,Rzezyca
+PROV378;;Harria;;c_reval,Hæriæ,Harria,Harju,Harrien
 PROV380;;Vironia;;c_narva,Virland,Virumaa,Viruzeme,Wierland
-PROV376;;Osilia;;Ösel,Saaremaa,Saarenmaa,Sãmsala,Eysýsla,c_osel,Øsel,Oysl
+PROV376;;Osilia;;c_osel,Øsel,Ösel,Eysýsla,Oysl,Saarenmaa,Saaremaa,Sãmsala
 ########################################;;;;
 #Africa-Maghreb;;;;
 ########################################;;;;
@@ -416,27 +416,27 @@ PROV849;;Gran Canaria;;c_canarias,Gran Canaria,Tamãran
 #Ireland;;;;
 ########################################;;;;
 PROV5;;Antrim;;c_ulster,Aontroim
-PROV7;;Louth;;Lughbhaidh,Lú,Lhoo,Loth,c_oriel
-PROV8;;Leitrim;;Leitrim,c_breifne,Liatroim,Lheeahtrim
-PROV9;;Mayo;;Mageo,c_connacht,Maigh Eo
-PROV12;;Kilkenny;;Kilkanice,Cheeill Chennee,c_ossory,Chill Chainnigh
-PROV13;;Clare;;An Chláire,An Chláir,Yn Chlaair,c_thomond
-PROV14;;Kerry;;Cheree,c_desmond,Ciarraighe,Chiarraí
-PROV15;;Waterford;;Wæterford,c_ormond,Veðrafjorðr,An Déise
-PROV16;;Wexford;;Veisafjorð,Waesfjord,Loch Garman,c_leinster
+PROV7;;Louth;;c_oriel,Lughbhaidh,Lú,Lhoo,Loth
+PROV8;;Leitrim;;c_breifne,Liatroim,Lheeahtrim,Leitrim
+PROV9;;Mayo;;c_connacht,Maigh Eo,Mageo
+PROV12;;Kilkenny;;c_ossory,Chill Chainnigh,Kilkanice,Cheeill Chennee
+PROV13;;Clare;;c_thomond,An Chláir,An Chláire,Yn Chlaair
+PROV14;;Kerry;;c_desmond,Ciarraighe,Chiarraí,Cheree
+PROV15;;Waterford;;c_ormond,An Déise,Veðrafjorðr,Wæterford
+PROV16;;Wexford;;c_leinster,Loch Garman,Veisafjorð,Waesfjord
 ########################################;;;;
 #Iceland and other stuff;;;;
 PROV1;;Vesturland;;c_vestisland
 PROV2;;Austurland;;c_austisland
 PROV33;;Færeyar;;c_faereyar
 PROV34;;Hjaltland;;c_shetland,Hjaltland
-PROV35;;Suðreyar;;Sgitheanach,Skíð,c_innse_gall,Skye
+PROV35;;Suðreyar;;c_innse_gall,Sgitheanach,Skye,Skíð
 PROV36;;Orkneyar;;c_orkney,Arcaibh
 PROV37;;Katanes;;c_caithness,Cataibh,Sutherland,Suþland,Suðrland
 ########################################;;;;
 #England;;;;
 ########################################;;;;
-PROV57;;West York Ridding;;Jorvík,Eoforwic,c_york,Ebrauc,Évèroui,Efrog
+PROV57;;West York Ridding;;c_york,Jorvík,Eoforwic,Efrog,Ebrauc,Évèroui
 #Egypt;;;;
 ########################################;;;;
 PROV789;;Ushmún Tannáh;;c_pelusia

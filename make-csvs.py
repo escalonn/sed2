@@ -87,7 +87,9 @@ def get_dynamics(cultures, province_id):
     with path.open(encoding='cp1252') as f:
         s = f.read()
     landed_titles = parse(tokenize(s))
-    dynamics = collections.defaultdict(set)
+    dynamics = collections.defaultdict(list)
+    for k, v in province_id.items():
+        dynamics[v].append(k)
 
     def recurse(v, n=None):
         for n1, v1 in v:
@@ -95,15 +97,14 @@ def get_dynamics(cultures, province_id):
                 continue
             for n2, v2 in v1:
                 if n2 in cultures:
-                    dynamics[n1].add(v2)
-                    if n1 in province_id:
-                        dynamics[province_id[n1]].add(v2)
+                    if v2 not in dynamics[n1]:
+                        dynamics[n1].append(v2)
+                    if n1 in province_id and v2 not in dynamics[province_id[n1]]:
+                        dynamics[province_id[n1]].append(v2)
             recurse(v1, n1)
 
     recurse(landed_titles)
-    for k, v in province_id.items():
-        dynamics[v].add(k)
-
+   
     return dynamics
 
 def get_cultures():
