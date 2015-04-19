@@ -84,8 +84,12 @@ def get_province_id():
 
 def get_dynamics(cultures, province_id):
     path = rootpath / 'SWMH/SWMH/common/landed_titles/swmh_landed_titles.txt'
-    with path.open(encoding='cp1252') as f:
-        s = f.read()
+    with path.open(encoding='cp1252', errors='replace') as f:
+        try:
+            s = f.read()
+        except UnicodeDecodeError:
+            print(path)
+            raise
     landed_titles = parse(tokenize(s))
     dynamics = collections.defaultdict(list)
     for k, v in province_id.items():
