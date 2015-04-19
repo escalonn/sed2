@@ -70,7 +70,7 @@ def valid_codename(string):
 
 def get_province_id():
     province_id = {}
-    for path in rootpath.glob('SWMH/history/provinces/*.txt'):
+    for path in rootpath.glob('SWMH/SWMH/history/provinces/*.txt'):
         number = int(path.name.split(' - ', maxsplit=1)[0])
         with path.open(encoding='cp1252') as f:
             s = f.read()
@@ -83,7 +83,7 @@ def get_province_id():
     return province_id
 
 def get_dynamics(cultures, province_id):
-    path = rootpath / 'SWMH/common/landed_titles/swmh_landed_titles.txt'
+    path = rootpath / 'SWMH/SWMH/common/landed_titles/swmh_landed_titles.txt'
     with path.open(encoding='cp1252') as f:
         s = f.read()
     landed_titles = parse(tokenize(s))
@@ -108,7 +108,7 @@ def get_dynamics(cultures, province_id):
     return dynamics
 
 def get_cultures():
-    path = rootpath / 'SWMH/common/cultures/00_cultures.txt'
+    path = rootpath / 'SWMH/SWMH/common/cultures/00_cultures.txt'
     with path.open(encoding='cp1252') as f:
         s = f.read()
     tree = parse(tokenize(s))
@@ -127,7 +127,7 @@ def main():
     cultures = get_cultures()
     dynamics = get_dynamics(cultures, province_id)
 
-    for inpath in rootpath.glob('SWMH/localisation/*.csv'):
+    for inpath in rootpath.glob('SWMH/SWMH/localisation/*.csv'):
         outpath = rootpath / 'SED2/templates' / inpath.name
         prev_map = collections.defaultdict(str)
         if outpath.exists():

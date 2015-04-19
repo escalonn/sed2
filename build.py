@@ -10,7 +10,7 @@ def main():
         shutil.rmtree(str(build))
     build.mkdir()
     (build / 'localisation').mkdir()
-    for inpath in rootpath.glob('SWMH/localisation/*.csv'):
+    for inpath in rootpath.glob('SWMH/SWMH/localisation/*.csv'):
         templatepath = rootpath / 'SED2/templates' / inpath.name
         outpath = build / 'localisation' / inpath.name
         with templatepath.open(encoding='cp1252', newline='') as csvfile:
