@@ -10,6 +10,7 @@ import funcparserlib.lexer
 import funcparserlib.parser
 
 rootpath = pathlib.Path('..')
+oldswmhpath = rootpath / 'SWMH/SWMH'
 swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
 
 def tokenize(string):
@@ -70,9 +71,9 @@ def valid_codename(string):
     except TypeError:
         return False
 
-def get_province_id():
+def get_province_id(where):
     province_id = {}
-    for path in sorted(swmhpath.glob('history/provinces/*.txt')):
+    for path in sorted(where.glob('history/provinces/*.txt')):
         number = int(path.name.split(' - ', maxsplit=1)[0])
         with path.open(encoding='cp1252') as f:
             s = f.read()
@@ -84,7 +85,7 @@ def get_province_id():
         province_id[title] = 'PROV{}'.format(number)
     return province_id
 
-def get_dynamics(cultures, prov_id):
+def get_dynamics(where, cultures, prov_id):
     dynamics = collections.defaultdict(list)
     for k, v in prov_id.items():
         dynamics[v].append(k)
@@ -101,7 +102,7 @@ def get_dynamics(cultures, prov_id):
                         dynamics[prov_id[n1]].append(v2)
             recurse(v1, n1)
 
-    for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+    for path in sorted(where.glob('common/landed_titles/*.txt')):
         with path.open(encoding='cp1252') as f:
             try:
                 s = f.read()
@@ -112,9 +113,9 @@ def get_dynamics(cultures, prov_id):
         recurse(landed_titles)
     return dynamics
 
-def get_cultures():
+def get_cultures(where):
     cultures = []
-    for path in sorted(swmhpath.glob('common/cultures/*.txt')):
+    for path in sorted(where.glob('common/cultures/*.txt')):
         with path.open(encoding='cp1252') as f:
             s = f.read()
         tree = parse(tokenize(s))
@@ -129,9 +130,17 @@ def main():
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
                 english[row[0]] = row[1]
-    province_id = get_province_id()
-    cultures = get_cultures()
-    dynamics = get_dynamics(cultures, province_id)
+    oldswmh = collections.defaultdict(str)
+    for path in sorted(oldswmhpath.glob('localisation/*.csv')):
+        with path.open(newline='', encoding='cp1252') as csvfile:
+            for row in csv.reader(csvfile, dialect='ckii'):
+                oldswmh[row[0]] = row[1]
+    old_province_id = get_province_id(oldswmhpath)
+    old_cultures = get_cultures(oldswmhpath)
+    old_dynamics = get_dynamics(oldswmhpath, old_cultures, old_province_id)
+    province_id = get_province_id(swmhpath)
+    cultures = get_cultures(swmhpath)
+    dynamics = get_dynamics(swmhpath, cultures, province_id)
     prev_map = collections.defaultdict(str)
 
     templates = rootpath / 'SED2/templates'
@@ -144,16 +153,21 @@ def main():
     templates.mkdir()
     for inpath in sorted(swmhpath.glob('localisation/*.csv')):
         outpath = templates / inpath.name
+        out_rows = []
         with inpath.open(newline='', encoding='cp1252') as csvfile:
             try:
-                rows = [[row[0], prev_map[row[0]], row[1], english[row[0]],
-                         ','.join(dynamics[row[0]])]
-                        for row in csv.reader(csvfile, dialect='ckii')]
+                for row in csv.reader(csvfile, dialect='ckii'):
+                    out_row = [row[0], prev_map[row[0]], row[1],
+                               english[row[0]], ','.join(dynamics[row[0]])]
+                    if (row[1] != oldswmh[row[0]] or
+                        dynamics[row[0]] != old_dynamics[row[0]]):
+                        out_row[1] = ''
+                    out_rows.append(out_row)
             except UnicodeDecodeError:
                 print(inpath)
                 raise
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
-            csv.writer(csvfile, dialect='ckii').writerows(rows)
+            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
 if __name__ == '__main__':
     main()
