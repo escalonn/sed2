@@ -2,14 +2,16 @@ import csv
 import pathlib
 import shutil
 
+rootpath = pathlib.Path('..')
+swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
+
 def main():
     csv.register_dialect('ckii', delimiter=';')
-    rootpath = pathlib.Path('..')
     build = rootpath / 'SED2/build'
     if build.exists():
         shutil.rmtree(str(build))
     (build / 'localisation').mkdir(parents=True)
-    for inpath in rootpath.glob('SWMH/SWMH/localisation/*.csv'):
+    for inpath in sorted(swmhpath.glob('localisation/*.csv')):
         templatepath = rootpath / 'SED2/templates' / inpath.name
         outpath = build / 'localisation' / inpath.name
         with templatepath.open(encoding='cp1252', newline='') as csvfile:
