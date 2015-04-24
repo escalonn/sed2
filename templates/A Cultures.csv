@@ -1,8 +1,8 @@
 saxon;Anglo-Saxon;Angelcynn;;Saxon
 cornish;Cornish;Kernowek;;Cornish
 cumbric;Cumbric;Cumbri;;Cumbric
-langobardisch;Lombard;Langobardo;;Langobardish
-ugricbaltic;;Eestlased;;
+langobardisch;Lombardic;Langobardo;;Langobardish
+ugricbaltic;Estonian;Eestlased;;
 livonian;Livonian;Livonijas;;Livonian
 bosnian;Bosnian;Bosanski;;Bosnian
 arberian;Albanian;Arbëreshë;;Albanian
@@ -44,9 +44,9 @@ lithuanian;Lithuanian;Lietuviu;;Lithuanian
 finnish;Finnish;Suomalainen;;Finnish
 lappish;Sami;Sámi;;Sami
 russian;Russian;Russkiy;;Russian
-greek;;Graikós;;Greek
-east_gothic;;Góthos;;
-armenian;;Hay;;Armenian
+greek;Greek;Graikós;;Greek
+east_gothic;Goth;Góthos;;
+armenian;Armenian;Hay;;Armenian
 somali;Somali;Somali;;Somali
 andalusian_arabic;Andalusian;Andalusí;;Andalusian
 corsican;Corsican;Corsu;;Corsican
@@ -55,9 +55,9 @@ tuscan;Tuscan;Toscano;;Tuscan
 ligurian;Ligurian;Ligure;;Ligurian
 arpitan;Arpitan;Arpitan;;Arpitan
 italian;Lombard;Lombardo;;Lombard
-dalmatian;;Dalmata;;
+dalmatian;Dalmatian;Dalmata;;
 central_italian;Central Italian;Mediano;;Central Italian
-southern_italian;Neapolitan;Meridionale;;Southern Italian
+southern_italian;Southern Italian;Meridionale;;Southern Italian
 neapolitan;Neapolitan;Neapolitano;;Neapolitan
 berber;Berber;Iznagen;;Berber
 tuareg;Tuareg;Kel Tamashek;;Tuareg
@@ -72,21 +72,21 @@ mongol;Mongol;Mongolchuud;;Mongol
 kurdish;Kurdish;Kurdi;;Kurdish
 ethiopian;Ethiopian;Ye-Ityoppya;;Ethiopian
 georgian;Georgian;Kartvelebi;;Georgian
-alan;;Alan;;Alan
-caucasian_avar;;Avaral;;
+alan;Alan;Alan;;Alan
+caucasian_avar;Avar;Avaral;;
 aragonese;Aragonese;Aragonesa;;Aragonese
 leonese;Leonese;Leonesa;;Leonese
 obotrite;Obotrite;Abordite;;Obotrite
 lutici;Lutician;Lutici;;Liutician
 galician;Galician;Gallega;;Galician
 maghreb_arabic;Maghrebian;Maghreb;;Maghreb Arabic
-samoyed;;Nenetsi;;Bjarmian
+samoyed;Nenets;Nenetsi;;Bjarmian
 karelian;Karelian;Karjalainen;;
 vepsian;Vepsian;Vepsalainen;;
 mari;Mari;Mejralainen;;
 #ingrian;;Inkerilainen;;
-khanty;;Mansi;;
-mordvin;;Mokshet;;
+khanty;Mansi;Mansi;;
+mordvin;Mordvin;Mokshet;;
 ########################################;;;;
 #Groups;;;;
 ########################################;;;;
@@ -104,7 +104,7 @@ soninke;Soninke;Soninke;;Soninke
 wolof;Wolof;Wolof;;Wolof
 nubian;Nubian;Nubian;;Nubian
 songhai;Songhai;Songhai;;Songhai
-tagelmust;Tuareg;Tagelmust;;Veiled Sanhája
+tagelmust;Tagelmust;Tagelmust;;Veiled Sanhája
 hausa;Hausa;Hausa;;Hausa
 kanuri;Kanuri;Kanuri;;Kanuri
 zaghawa;Zaghawa;Zaghawa;;Zaghawa
@@ -113,42 +113,42 @@ daju;Daju;Daju;;Daju
 falashim;Beta Israel;Beta Yisrael;;Beta Yisrael
 afar;Afar;Afar;;Afar
 ########################################;;;;
-khorasani;;Khorasani;;
-khwarezmi;;Khwarezmi;;
-soghdian;;Soghdian;;
-saka;;Saka;;
-tokharian;;Tokharí;;
-daylamite;;Daylamí;;
-pashtun;;Pashto;;
-uighur;;Uighur;;
-qirghiz;;Qirghiz;;
-tajik;;Tajik;;
-cuman;;Qipçaq;;Kipchak
-karluk;;Qarluq;;
+khorasani;Khorasani;Khorasani;;
+khwarezmi;Khwarezmian;Khwarezmi;;
+soghdian;Soghdian;Soghdian;;
+saka;Scythian;Saka;;
+tokharian;Tocharian;Tokharí;;
+daylamite;Dailamite;Daylamí;;
+pashtun;Pashtun;Pashto;;
+uighur;Uyghur;Uighur;;
+qirghiz;Kyrgyz;Qirghiz;;
+tajik;Tajik;Tajik;;
+cuman;Kipchak;Qipçaq;;Kipchak
+karluk;Karluk;Qarluq;;
 pecheneg;Pecheneg;Beçenek;;Pecheneg
-khazar;;Qasar;;
-kabar;;Qabar;;
-oghuz;;Oghuz;;
-turkmen;;Türkmen;;
-pahlavi;;Parsig;;
-persian;;Pársí;;
+khazar;Khazar;Qasar;;
+kabar;Kabar;Qabar;;
+oghuz;Oghuz;Oghuz;;
+turkmen;Turkmen;Türkmen;;
+pahlavi;Pahlavi;Parsig;;
+persian;Persian;Pársí;;
 #;;;;
-bashkir;;Bashqurd;;
-kasogi;;Adyghe;;
-szekely;;Székely;;
+bashkir;Bashkir;Bashqurd;;
+kasogi;Circassian;Adyghe;;
+szekely;Székely;Székely;;
 #HRE;;;;
-german;;Diutsch;;German
-dutch;;Dietsch;;Dutch
-low_german;;Düdisch;;
-low_saxon;;Sehsisk;;
-thuringan;;Duringisk;;
-old_frankish;;Frenkisc;;
-franconian;;Frenkisk;;
-low_frankish;;Frankisk;;
-bavarian;;Beiarisk;;
-swabian;;Alamannisk;;
-frisian;;Fresisk;;Frisian
+german;German;Diutsch;;German
+dutch;Dutch;Dietsch;;Dutch
+low_german;Low German;Düdisch;;
+low_saxon;Low Saxon;Sehsisk;;
+thuringan;Thuringian;Duringisk;;
+old_frankish;Frankish;Frenkisc;;
+franconian;Franconian;Frenkisk;;
+low_frankish;Low Frankish;Frankisk;;
+bavarian;Bavarian;Beiarisk;;
+swabian;Swabian;Alamannisk;;
+frisian;Frisian;Fresisk;;Frisian
 #More Persia;;;;
-qufs;;Kufichi;;
-khalaj;;Khaláj;;
-brahui;;Brahui;;
+qufs;Qufs;Kufichi;;
+khalaj;Khalaj;Khaláj;;
+brahui;Brahui;Brahui;;
