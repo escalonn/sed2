@@ -130,14 +130,6 @@ def main():
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
                 english[row[0]] = row[1]
-    oldswmh = collections.defaultdict(str)
-    for path in sorted(oldswmhpath.glob('localisation/*.csv')):
-        with path.open(newline='', encoding='cp1252') as csvfile:
-            for row in csv.reader(csvfile, dialect='ckii'):
-                oldswmh[row[0]] = row[1]
-    old_province_id = get_province_id(oldswmhpath)
-    old_cultures = get_cultures(oldswmhpath)
-    old_dynamics = get_dynamics(oldswmhpath, old_cultures, old_province_id)
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, province_id)
@@ -159,9 +151,6 @@ def main():
                 for row in csv.reader(csvfile, dialect='ckii'):
                     out_row = [row[0], prev_map[row[0]], row[1],
                                english[row[0]], ','.join(dynamics[row[0]])]
-                    if (row[1] != oldswmh[row[0]] or
-                        dynamics[row[0]] != old_dynamics[row[0]]):
-                        out_row[1] = ''
                     out_rows.append(out_row)
             except UnicodeDecodeError:
                 print(inpath)
