@@ -150,7 +150,7 @@ def main():
             try:
                 for row in csv.reader(csvfile, dialect='ckii'):
                     out_row = [row[0], prev_map[row[0]], row[1],
-                               english[row[0]], ','.join(dynamics[row[0]])]
+                               ','.join(dynamics[row[0]]), english[row[0]]]
                     out_rows.append(out_row)
             except UnicodeDecodeError:
                 print(inpath)
