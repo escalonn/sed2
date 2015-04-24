@@ -4,11 +4,13 @@ import datetime
 import operator
 import pathlib
 import re
+import shutil
 import funcparserlib
 import funcparserlib.lexer
 import funcparserlib.parser
 
 rootpath = pathlib.Path('..')
+swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
 
 def tokenize(string):
     token_specs = [
@@ -70,7 +72,7 @@ def valid_codename(string):
 
 def get_province_id():
     province_id = {}
-    for path in rootpath.glob('SWMH/SWMH/history/provinces/*.txt'):
+    for path in sorted(swmhpath.glob('history/provinces/*.txt')):
         number = int(path.name.split(' - ', maxsplit=1)[0])
         with path.open(encoding='cp1252') as f:
             s = f.read()
@@ -82,17 +84,9 @@ def get_province_id():
         province_id[title] = 'PROV{}'.format(number)
     return province_id
 
-def get_dynamics(cultures, province_id):
-    path = rootpath / 'SWMH/SWMH/common/landed_titles/swmh_landed_titles.txt'
-    with path.open(encoding='cp1252', errors='replace') as f:
-        try:
-            s = f.read()
-        except UnicodeDecodeError:
-            print(path)
-            raise
-    landed_titles = parse(tokenize(s))
+def get_dynamics(cultures, prov_id):
     dynamics = collections.defaultdict(list)
-    for k, v in province_id.items():
+    for k, v in prov_id.items():
         dynamics[v].append(k)
 
     def recurse(v, n=None):
@@ -103,20 +97,30 @@ def get_dynamics(cultures, province_id):
                 if n2 in cultures:
                     if v2 not in dynamics[n1]:
                         dynamics[n1].append(v2)
-                    if n1 in province_id and v2 not in dynamics[province_id[n1]]:
-                        dynamics[province_id[n1]].append(v2)
+                    if n1 in prov_id and v2 not in dynamics[prov_id[n1]]:
+                        dynamics[prov_id[n1]].append(v2)
             recurse(v1, n1)
 
-    recurse(landed_titles)
-   
+    for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+        with path.open(encoding='cp1252') as f:
+            try:
+                s = f.read()
+            except UnicodeDecodeError:
+                print(path)
+                raise
+        landed_titles = parse(tokenize(s))
+        recurse(landed_titles)
     return dynamics
 
 def get_cultures():
-    path = rootpath / 'SWMH/SWMH/common/cultures/00_cultures.txt'
-    with path.open(encoding='cp1252') as f:
-        s = f.read()
-    tree = parse(tokenize(s))
-    return [n2 for _, v in tree for n2, v2 in v if isinstance(v2, list)]
+    cultures = []
+    for path in sorted(swmhpath.glob('common/cultures/*.txt')):
+        with path.open(encoding='cp1252') as f:
+            s = f.read()
+        tree = parse(tokenize(s))
+        cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
+                                                                         list))
+    return cultures
 
 def main():
     csv.register_dialect('ckii', delimiter=';')
@@ -124,24 +128,30 @@ def main():
     for path in sorted(rootpath.glob('English SWMH/localisation/*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                if row[0] not in english:
-                    english[row[0]] = row[1]
-    
+                english[row[0]] = row[1]
     province_id = get_province_id()
     cultures = get_cultures()
     dynamics = get_dynamics(cultures, province_id)
+    prev_map = collections.defaultdict(str)
 
-    for inpath in rootpath.glob('SWMH/SWMH/localisation/*.csv'):
-        outpath = rootpath / 'SED2/templates' / inpath.name
-        prev_map = collections.defaultdict(str)
-        if outpath.exists():
-            with outpath.open(newline='', encoding='cp1252') as csvfile:
-                prev_map.update(tuple(row[:2])
+    templates = rootpath / 'SED2/templates'
+    for path in sorted(templates.glob('*.csv')):
+        with path.open(newline='', encoding='cp1252') as csvfile:
+            prev_map.update(tuple(row[:2])
                                 for row in csv.reader(csvfile, dialect='ckii'))
+    if templates.exists():
+        shutil.rmtree(str(templates))
+    templates.mkdir()
+    for inpath in sorted(swmhpath.glob('localisation/*.csv')):
+        outpath = templates / inpath.name
         with inpath.open(newline='', encoding='cp1252') as csvfile:
-            rows = [[row[0], prev_map[row[0]], row[1], english[row[0]],
-                     ','.join(dynamics[row[0]])]
-                    for row in csv.reader(csvfile, dialect='ckii')]
+            try:
+                rows = [[row[0], prev_map[row[0]], row[1], english[row[0]],
+                         ','.join(dynamics[row[0]])]
+                        for row in csv.reader(csvfile, dialect='ckii')]
+            except UnicodeDecodeError:
+                print(inpath)
+                raise
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(rows)
 

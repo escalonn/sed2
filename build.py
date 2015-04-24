@@ -8,8 +8,7 @@ def main():
     build = rootpath / 'SED2/build'
     if build.exists():
         shutil.rmtree(str(build))
-    build.mkdir()
-    (build / 'localisation').mkdir()
+    (build / 'localisation').mkdir(parents=True)
     for inpath in rootpath.glob('SWMH/SWMH/localisation/*.csv'):
         templatepath = rootpath / 'SED2/templates' / inpath.name
         outpath = build / 'localisation' / inpath.name
