@@ -130,13 +130,13 @@ k_burgundy;;Bourgogne;Burgund;Burgundy
 k_burgundy_adj;;Bourguignon;;Burgundian
 d_upper_burgundy;Upper Burgundy;Haute Bourgogne;;Upper Burgundy
 d_upper_burgundy_adj;;Bourguignon;;Upper Burgundian
-d_lyon;Lyon;Lyon;;Lyon
+d_lyon;Lyon;Lyon;Lugdunum,Lougdounon;Lyon
 d_lyon_adj;;Lyonnaise;;Lyonais
 d_aosta;Aosta;Aosta;;Aosta
 d_aosta_adj;Savoyard;Savoyard;;Savoyard
 d_basel;Basel;Basel;;Basel
 d_basel_adj;;Baslerische;;Swiss
-d_arles;;Arles;;Arle
+d_arles;;Arles;Arelate;Arle
 d_arles_adj;;Arlésien;;Occitan
 d_provence;Provence;Provença;;Provence
 d_provence_adj;;Provençal;;Provencal
@@ -378,7 +378,7 @@ d_auvergne;Auvergne;Auvèrnhe;;Auvergne
 d_auvergne_adj;Auvergne;Auvèrnhenan;;Auvergnian
 d_limousin;Limousin;Lemosin;;Limousin
 d_limousin_adj;Limousin;Lemosinan;;Limousain
-d_toulouse;Toulouse;Tolosa;;Toulouse
+d_toulouse;Toulouse;Tolosa;Tolosa;Toulouse
 d_toulouse_adj;Toulouse;Tolosa;;Toulousian
 d_septimania;Septimania;Septimania;;Septimania
 d_septimania_adj;Septimanian;Septimania;;Septimanian
@@ -390,7 +390,7 @@ d_gevaudan;Gévaudan;Gévaudan;;Gévaudan
 d_gevaudan_adj;Gévaudan;Gévaudan;;Gévaudan
 #France;;;;
 d_poitou_adj;;Poitevin;;Poitou
-d_archreims;Reims;Reims;;Reims
+d_archreims;Reims;Reims;Remos;Reims
 d_archreims_adj;Reims;Reims;;Reimsian
 d_champagne;Champagne;Champagne;;Champagne
 d_champagne_adj;Champagne;Champagne;;Champagne
@@ -481,7 +481,7 @@ d_tripoli_adj_tuareg;;Tarabulan;;
 #######################;;;;
 e_spain;Spain;España;Isbaniyya,Espainia,Espanya,España,Espanha,Espagne;
 e_spain_adj;Spanish;Española;;
-k_portugal;Portugal;Portugal;Burtughal;Portugal
+k_portugal;Portugal;Portugal;Burtughal,Lusitania,Lysitania;Portugal
 k_portugal_adj;Portuguese;Portuguesa;;Portuguese
 d_beja;Alentejo;Alentejo;Taghr al-Adna,Alentiexu,Oltratacho,Alentexo,Alenteix,Loin-du-Tage;Alentejo
 d_beja_adj;Alentejo;Alentejana;;Alentejan
@@ -491,17 +491,17 @@ d_beira;Beira;Beira;Qulumriyah,Beire;Beira
 d_beira_adj;Beira;Beiroa;;Beiroan
 d_portucale;Portugal;Portucale;;Portucale
 d_portucale_adj;Portuguese;Portucalense;;Portucalense
-k_aragon;Aragon;Aragón;Aragu'un,Aragó,Aragoi,Aragão,Aragon;Aragón
+k_aragon;Aragon;Aragón;Aragu'un,Aragó,Aragoi,Aragão,Aragon,Tarraconensis,Tarrakonesia;Aragón
 k_aragon_adj;Aragonese;Aragonesa;;Aragonese
 k_castille;Castile;Castilla;al-Qila,Gaztela,Castella,Castiella,Castela,Castille;Castile
 k_castille_adj;Castilian;Castellana;;Castilian
-k_leon;León;León;al-Uyun,Llión,Lleó,Leão,Leyón;León
+k_leon;León;León;al-Uyun,Llión,Lleó,Leão,Leyón,Gallaecia,Kallaikia;León
 k_leon_adj;Leonese;Leonesa;;Leonese
 k_navarra;Navarre;Navarra;Bashkiyya,Nafarroa,Navarre;Navarra
 k_navarra_adj;Navarrese;Navarra;;Navarrese
 d_navarra;Navarre;Navarra;Bashkiyya,Nafarroa,Navarre;Navarra
 d_navarra_adj;Navarrese;Navarra;;Navarrese
-k_andalusia;Al-Andalus;Al-Andalus;;Al-Andalus
+k_andalusia;Al-Andalus;Al-Andalus;Carthaginiensis;Al-Andalus
 k_andalusia_adj;Andalusi;Andalusí;;Andalusian
 d_castilla;Castille;Castilla;al-Qila,Gaztela,Castella,Castiella,Castela,Castille;Castile
 d_castilla_adj;Castilian;Castellana;;Castilian
@@ -509,19 +509,19 @@ d_leon;León;León;al-Uyun,Llión,Lleó,Leão,Leyón;León
 d_leon_adj;Leonese;Leonesa;;Leonese
 d_aragon;Aragon;Aragón;Aragu'un,Aragó,Aragoi,Aragão,Aragon;Aragón
 d_aragon_adj;Aragonese;Aragonesa;;Aragonese
-d_catalunya_nova;Catalunya Nova;Catalunya Nova;Turtusha,Katalunia Berria,Cataluña Nueva,Cataluña Nova,Catalunha Nova,Catalunya Nova,Nouvelle Catalogne;Catalunya Nova
+d_catalunya_nova;Catalunya Nova;Catalunya Nova;Turtusha,Katalunia Berria,Cataluña Nueva,Cataluña Nova,Catalunha Nova,Catalunya Nova,Nouvelle Catalogne,Tarraco,Tarrakon;Catalunya Nova
 d_catalunya_nova_adj;Catalan;Catalana;;Catalan
 d_catalunya_vella;Catalunya Vella;Catalunya Vella;;Catalunya Vella
 d_catalunya_vella_adj;Catalan;Catalana;;Catalan
 d_la_mancha;La Mancha;La Mancha;al-Mányà,La Manxa,Mantxa,A Mancha,Mancha;La Mancha
 d_la_mancha_adj;La Mancha;Manchega;;Manchian
-d_cordoba;Córdoba;Córdoba;Qurtubah,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova;Córdoba
+d_cordoba;Córdoba;Córdoba;Qurtubah,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;Córdoba
 d_cordoba_adj;Córdoba;Cordobesa;;Cordoban
 d_badajoz;Estremadura;Extremadura;Balad al-Iawz,Badaxoz,Badalhouce;Extremadura
 d_badajoz_adj;Extremaduran;Extremeña;;Extremaduran
-d_galicia;Galicia;Galicia;Galisiyya,Galice,Galiza,Galizia,Galícia;Galicia
+d_galicia;Galicia;Galicia;Galisiyya,Galice,Galiza,Galizia,Galícia,Gallaecia,Kallaikia;Galicia
 d_galicia_adj;Galician;Gallega;;Galician
-d_granada;Granada;Granada;Gharnaatah,Grenade;Granada
+d_granada;Granada;Granada;Gharnaatah,Grenade,Iliberri,Illiberis;Granada
 d_granada_adj;Granadan;Granadina;;Granadine
 d_mallorca;Majorca;Mallorca;Mayurqa,Maiorka,Maiorca,Majorque;Mallorca
 d_mallorca_adj;Majorcan;Mallorquina;;Mallorquin
@@ -533,17 +533,17 @@ d_ribatejo;Ribatejo;Ribatejo;Belatha,Ribatexo,Ribatiexu,Ribatacho,Rivière-du-Tag
 d_ribatejo_adj;Ribatejo;Ribatejana;;Ribatejan
 d_salamanca;Salamanca;Salamanca;al-Mantiqa,Salamanque;Salamanca
 d_salamanca_adj;Salmantinian;Salmantina;;Salmantin
-d_segovia;Segovia;Segovia;Siqubiyyah,Segobia,Segòvia,Segóvia,Ségovie;Segovia
+d_segovia;Segovia;Segovia;Siqubiyyah,Segobia,Segòvia,Segóvia,Ségovie,Segovia,Segoubia;Segovia
 d_segovia_adj;Segovian;Segoviana;;Segovian
-d_sevilla;Seville;Sevilla;Isbiliya,Sebilla,Séville,Sevilha;Sevilla
+d_sevilla;Seville;Sevilla;Isbiliya,Sebilla,Séville,Sevilha,Hispalis,Ispalis;Sevilla
 d_sevilla_adj;Sevillan;Sevillana;;Sevillan
 d_teruel;Teruel;Teruel;Tirwal;Teruel
 d_teruel_adj;Teruel;Turolense;;Turolens
-d_toledo;Toledo;Toledo;Tulaytulah,Tolède;Toledo
+d_toledo;Toledo;Toledo;Tulaytulah,Tolède,Toletum,Toleton;Toledo
 d_toledo_adj;Toledo;Toledana;;Toledan
-d_valencia;Valencia;Valencia;Balansiyya,València,Balentzia,Valência,Valence;Valencia
+d_valencia;Valencia;Valencia;Balansiyya,València,Balentzia,Valência,Valence,Valentia,Oualentia;Valencia
 d_valencia_adj;Valencian;Valenciana;;Valencian
-d_zaragoza;;Zaragoza;Saraqusta,Saragossa,Saragoça,Saragosse;Zaragoza
+d_zaragoza;;Zaragoza;Saraqusta,Saragossa,Saragoça,Saragosse,Caesaraugusta,Kaisaraugousta;Zaragoza
 d_zaragoza_adj;Zaragozan;Zaragozana;;Zaragozan
 ###################;;;;
 #Sahara;;;;
@@ -1131,7 +1131,7 @@ d_somerset_adj_cumbric;Somerset;Gwynntguican;;Gwynntguican
 d_somerset_adj_welsh;Somerset;Gwynntguican;;Gwynntguican
 d_somerset_adj_breton;Somerset;Gwynntguican;;Gwynntguican
 d_somerset_adj_cornish;Somerset;Gwynntguican;;Gwynntguican
-d_york;York;York;Jorvík,Eoforwic,Deifr,Évèroui;York
+d_york;York;York;Jorvík,Eoforwic,Deifr,Évèroui,Eboracum,Eborakon;York
 d_york_adj;York;Yorkish;;Yorkish
 d_york_adj_norse;York;Jorvíkr;;Jorvíkr
 d_york_adj_norwegian;York;Jorvíkr;;Jorvíkr
@@ -1148,7 +1148,7 @@ d_york_adj_cornish;York;Deifran;;Deifran
 d_york_adj_scottish;York;Deifran;;Deifran
 d_york_adj_breton;York;Deifran;;Deifran
 #Ireland;;;;
-k_ireland;Ireland;Éire;Éire,Èirinn,Nerin,Iwerddon,Íraland;
+k_ireland;Ireland;Éire;Éire,Èirinn,Nerin,Iwerddon,Íraland,Ireland;
 k_ireland_adj;Irish;hÉireann;;
 d_oneill;O'Neill;O'Neill;Uí Néill;O'Neill
 d_oneill_adj;O'Neill;O'Neill;;O'Neill
@@ -1623,7 +1623,7 @@ d_dyrrachion_adj_corsican;;Durazzian;;
 d_dyrrachion_adj_sardinian;;Durazzian;;
 d_dyrrachion_adj_sicilian;;Durazzian;;
 d_dyrrachion_adj_italian;;Durazzian;;
-d_dyrrachion;;Dyrráchiou;Drac,Durazzo,Durrës,Diraç;
+d_dyrrachion;;Dyrráchiou;Drac,Durazzo,Durazzu,Durazo,Durrës,Diraç;
 d_epirus_adj;;Nikopolean;;
 d_epirus_adj_oghuz;;Yanyan;;
 d_epirus_adj_turkmen;;Yanyan;;
@@ -3053,7 +3053,7 @@ k_sistan;;Sístán;;
 k_persia_adj;;Pársí;;
 k_persia;;Pársa;;
 k_mavarannahr_adj;;Mavár-an-Nahrí;;
-k_mavarannahr;;Mavár-an-Nahr;;
+k_mavarannahr;;Mavár-an-Nahr;Sogdiana,Sogdiane;
 k_khorasan_adj;;Khoarásání;;
 k_khorasan;;Khoarásán;;
 k_kafarestan_adj;;Kábulistání;;
@@ -3069,7 +3069,7 @@ d_ustyurt;;Ust-Yurt;;
 d_tabarestan_adj;;Tabarestání;;
 d_tabarestan;;Tabarestán;;
 d_soghd_adj;;Soghdí;;
-d_soghd;;Soghd;;
+d_soghd;;Soghd;Sogdiana,Sogdiane;
 d_sistan_adj;Sistan;Sístání;;Sístání
 d_sistan;Sistan;Sístán;;Sístán
 d_shash_adj;;Cháchí;;
@@ -3077,11 +3077,11 @@ d_shash;;Chách;;
 d_qocho_adj;;Qochoí;;
 d_qocho;;Qocho;;
 d_nishapur_adj;;Níshápúrí;;
-d_nishapur;;Níshápúr;;
+d_nishapur;;Níshápúr;Hyrcania,Hyrkania;
 d_merv_adj;;Marï;;
 d_merv;;Marï;;
 d_makran_adj;Makran;Makrání;;Makrání
-d_makran;Makran;Makrán;;Makrán
+d_makran;Makran;Makrán;Gedrosia;Makrán
 d_khwarazm_adj;;Khorazmí;;
 d_khwarazm;;Khorazm;;
 d_khottal_adj;;Khatlóní;;
@@ -3089,7 +3089,7 @@ d_khottal;;Khatlón;;
 d_khoar_adj;Khoar;Khoarí;;Khoarí
 d_khoar;Khoar;Khoar;;Khoar
 d_kerman_adj;;Kermání;;
-d_kerman;;Kermán;;
+d_kerman;;Kermán;Carmania,Karmania;
 d_kashgar_adj;;Kashgarí;;
 d_kashgar;;Kashgar;;
 d_jebal_adj;;Jebalí;;
@@ -3097,7 +3097,7 @@ d_jebal;;Jebal;;
 d_jand_adj;;Jandí;;
 d_jand;;Jand;;
 d_herat_adj;;Herátí;;
-d_herat;;Herát;;
+d_herat;;Herát;Aria,Areia;
 d_gurgan_adj;;Gorgání;;
 d_gurgan;;Gorgán;;
 d_gilan_adj;;Gílání;;
@@ -3105,15 +3105,15 @@ d_gilan;;Gílán;;
 d_ferghana_adj;;Ferghána;;
 d_ferghana;;Ferghána;;
 d_fars_adj;;Pársí;;
-d_fars;;Párs;;
+d_fars;;Párs;Persis;
 d_dasht-i-qipchaq_adj;;Dasht-e-Qipchaqí;;
 d_dasht-i-qipchaq;;Dasht-e-Qipchaq;;
 d_balkh_adj;;Balkhí;;
-d_balkh;;Balkh;;
+d_balkh;;Balkh;Bactriana,Baktriane;
 d_ayaguz_adj;;Ayaguzí;;
 d_ayaguz;;Ayaguz;;
 d_ahwaz_adj;;Ahwází;;
-d_ahwaz;;Ahwáz;;
+d_ahwaz;;Ahwáz;Susiana,Sousiane;
 d_ustrushana;;Ustrushání;;
 d_ustrushana_adj;;Ustrushána;;
 d_jungaria;;Jungaria;;
@@ -3276,7 +3276,7 @@ d_mesopotamia_adj_andalusian_arabic;;Arzan ar-Rûmi;;
 d_mesopotamia_adj_sicilian_arabic;;Arzan ar-Rûmi;;
 d_mesopotamia_adj_bedouin_arabic;;Arzan ar-Rûmi;;
 d_mesopotamia_adj_kurdish;;Erzîromi;;
-d_armenia;;Hayk;Hayk,Anion,al-Arminiya,Ermeniyye,Anî;
+d_armenia;;Hayk;Hayk,Anion,al-Arminiya,Ermenistan,Anî;
 d_armenia_adj;;Haykian;;
 d_armenia_adj_oghuz;;Ermeniyyan;;
 d_armenia_adj_turkmen;;Ermeniyyan;;
