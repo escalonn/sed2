@@ -149,9 +149,10 @@ def main():
         with inpath.open(newline='', encoding='cp1252') as csvfile:
             try:
                 for row in csv.reader(csvfile, dialect='ckii'):
-                    out_row = [row[0], prev_map[row[0]], row[1],
-                               ','.join(dynamics[row[0]]), english[row[0]]]
-                    out_rows.append(out_row)
+                    if not re.fullmatch(r'[ekdcb]_.*_adj_.*', row[0]):
+                        out_row = [row[0], prev_map[row[0]], row[1],
+                                   ','.join(dynamics[row[0]]), english[row[0]]]
+                        out_rows.append(out_row)
             except UnicodeDecodeError:
                 print(inpath)
                 raise
