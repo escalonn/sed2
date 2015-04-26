@@ -1,68 +1,13 @@
 import collections
 import csv
-import datetime
 import pathlib
 import re
 import shutil
-import funcparserlib
-import funcparserlib.lexer
-import funcparserlib.parser
+import ck2parser
 
 rootpath = pathlib.Path('..')
 oldswmhpath = rootpath / 'SWMH/SWMH'
 swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
-
-def tokenize(string):
-    token_specs = [
-        ('comment', (r'#.*',)),
-        ('whitespace', (r'\s+',)),
-        ('op', (r'[={}]',)),
-        ('date', (r'\d*\.\d*\.\d*',)),
-        ('number', (r'\d+(\.\d+)?',)),
-        ('quoted_string', (r'"[^"#]*"',)),
-        ('unquoted_string', (r'[^\s"#={}]+',))
-    ]
-    useless = ['comment', 'whitespace']
-    inner_tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
-    return (tok for tok in inner_tokenize(string) if tok.type not in useless)
-
-def parse(tokens):
-    def unquote(string):
-        return string[1:-1]
-
-    def make_number(string):
-        try:
-            return int(string)
-        except ValueError:
-            return float(string)
-
-    def make_date(string):
-        # CKII appears to default to 0, not 1, but that's awkward to handle
-        # with datetime, and it only comes up for b_embriaco anyway
-        year, month, day = ((int(x) if x else 1) for x in string.split('.'))
-        return datetime.date(year, month, day)
-
-    def some(tok_type):
-        return (funcparserlib.parser.some(lambda tok: tok.type == tok_type) >>
-                (lambda tok: tok.value))
-
-    def op(string):
-        return funcparserlib.parser.skip(funcparserlib.parser.a(
-            funcparserlib.lexer.Token('op', string)))
-
-    many = funcparserlib.parser.many
-    fwd = funcparserlib.parser.with_forward_decls
-    endmark = funcparserlib.parser.skip(funcparserlib.parser.finished)
-    unquoted_string = some('unquoted_string')
-    quoted_string = some('quoted_string') >> unquote
-    number = some('number') >> make_number
-    date = some('date') >> make_date
-    key = unquoted_string | quoted_string | number | date
-    value = fwd(lambda: obj | key)
-    pair = fwd(lambda: key + op('=') + value)
-    obj = fwd(lambda: op('{') + many(pair | value) + op('}'))
-    toplevel = many(pair | value) + endmark
-    return toplevel.parse(list(tokens))
 
 def valid_codename(string):
     try:
@@ -74,7 +19,7 @@ def get_province_id(where):
     province_id = collections.OrderedDict()
     for path in sorted(where.glob('history/provinces/*.txt')):
         with path.open(encoding='cp1252') as f:
-            tree = parse(tokenize(f.read()))
+            tree = ck2parser.parse(f.read())
         try:
             title = next(v for n, v in tree if n == 'title')
         except StopIteration:
@@ -102,14 +47,14 @@ def get_dynamics(where, cultures, prov_id):
 
     for path in sorted(where.glob('common/landed_titles/*.txt')):
         with path.open(encoding='cp1252') as f:
-            recurse(parse(tokenize(f.read())))
+            recurse(ck2parser.parse(f.read()))
     return dynamics
 
 def get_cultures(where):
     cultures = []
     for path in sorted(where.glob('common/cultures/*.txt')):
         with path.open(encoding='cp1252') as f:
-            tree = parse(tokenize(f.read()))
+            tree = ck2parser.parse(f.read())
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
                                                                          list))
     return cultures
