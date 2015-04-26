@@ -1,7 +1,6 @@
 import collections
 import csv
 import datetime
-import operator
 import pathlib
 import re
 import shutil
@@ -72,28 +71,27 @@ def valid_codename(string):
         return False
 
 def get_province_id(where):
-    province_id = {}
+    province_id = collections.OrderedDict()
     for path in sorted(where.glob('history/provinces/*.txt')):
-        number = int(path.name.split(' - ', maxsplit=1)[0])
         with path.open(encoding='cp1252') as f:
-            s = f.read()
-        tree = parse(tokenize(s))
+            tree = parse(tokenize(f.read()))
         try:
             title = next(v for n, v in tree if n == 'title')
         except StopIteration:
             continue
+        number = int(path.name.split(' - ', maxsplit=1)[0])
         province_id[title] = 'PROV{}'.format(number)
     return province_id
 
 def get_dynamics(where, cultures, prov_id):
-    dynamics = collections.defaultdict(list)
-    for k, v in prov_id.items():
-        dynamics[v].append(k)
+    dynamics = collections.defaultdict(list,
+                                       [(v, [k]) for k, v in prov_id.items()])
 
     def recurse(v, n=None):
         for n1, v1 in v:
             if not valid_codename(n1):
                 continue
+            assert n1 not in dynamics
             for n2, v2 in v1:
                 if n2 in cultures:
                     if v2 not in dynamics[n1]:
@@ -104,21 +102,14 @@ def get_dynamics(where, cultures, prov_id):
 
     for path in sorted(where.glob('common/landed_titles/*.txt')):
         with path.open(encoding='cp1252') as f:
-            try:
-                s = f.read()
-            except UnicodeDecodeError:
-                print(path)
-                raise
-        landed_titles = parse(tokenize(s))
-        recurse(landed_titles)
+            recurse(parse(tokenize(f.read())))
     return dynamics
 
 def get_cultures(where):
     cultures = []
     for path in sorted(where.glob('common/cultures/*.txt')):
         with path.open(encoding='cp1252') as f:
-            s = f.read()
-        tree = parse(tokenize(s))
+            tree = parse(tokenize(f.read()))
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
                                                                          list))
     return cultures
@@ -142,7 +133,10 @@ def main():
                                 for row in csv.reader(csvfile, dialect='ckii'))
     if templates.exists():
         shutil.rmtree(str(templates))
-    templates.mkdir()
+    try:
+        templates.mkdir()
+    except PermissionError:
+        templates.mkdir()
     for inpath in sorted(swmhpath.glob('localisation/*.csv')):
         outpath = templates / inpath.name
         out_rows = []

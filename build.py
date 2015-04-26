@@ -1,5 +1,6 @@
 import csv
 import pathlib
+import re
 import shutil
 
 rootpath = pathlib.Path('..')
@@ -15,15 +16,15 @@ def main():
         templatepath = rootpath / 'SED2/templates' / inpath.name
         outpath = build / 'localisation' / inpath.name
         with templatepath.open(encoding='cp1252', newline='') as csvfile:
-            sed2 = {row[0]: row[1] for row in csv.reader(csvfile, dialect='ckii')}
-        with inpath.open(encoding='cp1252', newline='') as csvfile:
-            swmhrows = [row for row in csv.reader(csvfile, dialect='ckii')]
+            sed2 = {r[0]: r[1] for r in csv.reader(csvfile, dialect='ckii')}
         sed2rows = []
-        for row in swmhrows:
-            if not row[0].startswith('#'):
-                row[1] = sed2[row[0]]
-                row[2:] = [''] * (len(row) - 2)
-            sed2rows.append(row)
+        with inpath.open(encoding='cp1252', newline='') as csvfile:
+            for row in csv.reader(csvfile, dialect='ckii'):
+                if (not row[0].startswith('#') and
+                    not re.fullmatch(r'[ekdcb]_.*_adj_.*', row[0])):
+                    row[1] = sed2[row[0]]
+                    row[2:] = [''] * (len(row) - 2)
+                    sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
