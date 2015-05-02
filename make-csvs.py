@@ -78,20 +78,16 @@ def main():
                                 for row in csv.reader(csvfile, dialect='ckii'))
     if templates.exists():
         shutil.rmtree(str(templates))
-    try:
-        templates.mkdir()
-    except PermissionError:
-        templates.mkdir()
+    templates.mkdir()
     for inpath in sorted(swmhpath.glob('localisation/*.csv')):
         outpath = templates / inpath.name
         out_rows = []
         with inpath.open(newline='', encoding='cp1252') as csvfile:
             try:
                 for row in csv.reader(csvfile, dialect='ckii'):
-                    if not re.fullmatch(r'[ekdcb]_.*_adj_.*', row[0]):
-                        out_row = [row[0], prev_map[row[0]], row[1],
-                                   ','.join(dynamics[row[0]]), english[row[0]]]
-                        out_rows.append(out_row)
+                    out_row = [row[0], prev_map[row[0]], row[1],
+                               ','.join(dynamics[row[0]]), english[row[0]]]
+                    out_rows.append(out_row)
             except UnicodeDecodeError:
                 print(inpath)
                 raise
