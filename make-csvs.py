@@ -6,7 +6,7 @@ import shutil
 import ck2parser
 
 rootpath = pathlib.Path('..')
-oldswmhpath = rootpath / 'SWMH/SWMH'
+# oldswmhpath = rootpath / 'SWMH/SWMH'
 swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
 
 def valid_codename(string):
@@ -69,28 +69,43 @@ def main():
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, province_id)
-    prev_map = collections.defaultdict(str)
+    prev_loc = collections.defaultdict(str)
+    prev_lt = collections.defaultdict(list)
 
     templates = rootpath / 'SED2/templates'
-    for path in sorted(templates.glob('*.csv')):
+    templates_loc = templates / 'localisation'
+    for path in sorted(templates_loc.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_map.update(tuple(row[:2])
+            prev_loc.update(tuple(row[:2])
                                 for row in csv.reader(csvfile, dialect='ckii'))
+    templates_lt = templates / 'common/landed_titles'
+    for path in sorted(templates_lt.glob('*.csv')):
+        with path.open(newline='', encoding='cp1252') as csvfile:
+            for row in csv.reader(csvfile, dialect='ckii'):
+                prev_lt[row[0]].append(row[1:]) # TODO or something
     if templates.exists():
         shutil.rmtree(str(templates))
-    templates.mkdir()
+    templates_loc.mkdir(parents=True)
+    templates_lt.mkdir(parents=True)
     for inpath in sorted(swmhpath.glob('localisation/*.csv')):
-        outpath = templates / inpath.name
+        outpath = templates_loc / inpath.name
         out_rows = []
         with inpath.open(newline='', encoding='cp1252') as csvfile:
-            try:
-                for row in csv.reader(csvfile, dialect='ckii'):
-                    out_row = [row[0], prev_map[row[0]], row[1],
-                               ','.join(dynamics[row[0]]), english[row[0]]]
-                    out_rows.append(out_row)
-            except UnicodeDecodeError:
-                print(inpath)
-                raise
+            for row in csv.reader(csvfile, dialect='ckii'):
+                out_row = [row[0], prev_map[row[0]], row[1],
+                           ','.join(dynamics[row[0]]), english[row[0]]]
+                out_rows.append(out_row)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+    for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+        outpath = templates_lt / inpath.with_suffix('.csv').name
+        out_rows = []
+        with inpath.open(encoding='cp1252') as f:
+            item = ck2parser.parse(f.read())
+        # TODO something something using prev_lt and item
+        # out_row = [row[0], prev_map[row[0]], row[1],
+        #            ','.join(dynamics[row[0]]), english[row[0]]]
+        # out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 

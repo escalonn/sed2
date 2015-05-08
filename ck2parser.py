@@ -53,3 +53,18 @@ toplevel = many(pair | value) + endmark
 
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
+
+def to_string(item, indent=0, quote=False):
+    if isinstance(x, tuple):
+        # quote all RHS strings
+        return to_string(x[0]) + ' = ' + to_string(x[1], quote=True)
+    elif isinstance(x, list):
+        sep = '\n' + '\t' * indent
+        return ('{' + sep + '\t' +
+                sep.join(to_string(x, indent + 1) for x in item) + sep + '}')
+    elif isinstance(x, datetime.date):
+        return x.year + '.' + x.month + '.' + x.day
+    elif isinstance(x, str):
+        return '"' + x + '"' if quote else x
+    else:
+        return str(item)
