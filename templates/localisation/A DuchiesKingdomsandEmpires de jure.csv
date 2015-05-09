@@ -20,7 +20,7 @@ d_berg_adj;Lower Rhenish;Niederrheinische;;Jülich-Klevian
 d_koln;Cologne;Köln;Keulen,Cologne;Cologne
 d_koln_adj;Cologne;Kölsche;;Colognian
 d_liege;Liège;Liége;Lüttich,Luik,Liége;Liege
-d_liege_adj;Liège;liégeois;;Liegian
+d_liege_adj;Liège;Liégeois;;Liegian
 d_hainaut;Hainaut;Hainaut;Hennegau,Henegouwen;Hainaut
 d_hainaut_adj;Walloon;Wallon;;Wallonian
 #Saxony;;;;
@@ -352,7 +352,7 @@ d_lesser_poland_adj;Lesser Polish;Malopolskie;;Lesser Polish
 d_mazovia;Mazovia;Mazowsze;;Mazovia
 d_mazovia_adj;Mazovian;Mazowieckie;;Mazovian
 d_kuyavia;Kujawy;Kujawy;;Kuyavia
-d_kuyavia_adj;Kujawy;kujawsko;;Kuyavian
+d_kuyavia_adj;Kujawy;Kujawsko;;Kuyavian
 d_silesia;Silesia;Slask;;Silesia
 d_silesia_adj;Silesian;Slaski;;Silesian
 d_sieradzko-leczyckie;Sieradz-Leczyca;Sieradz-Leczyca;;Sieradz-Leczyca
@@ -453,8 +453,11 @@ d_antioch_adj_levantine_arabic;;Awasiman;;
 d_antioch_adj_egyptian_arabic;;Awasiman;;
 d_antioch_adj_andalusian_arabic;;Awasiman;;
 d_antioch_adj_sicilian_arabic;;Awasiman;;
-d_antioch_adj_berber;;Awasiman;;
+d_antioch_adj_sanhaja;;Awasiman;;
+d_antioch_adj_tagelmust;;Awasiman;;
 d_antioch_adj_tuareg;;Awasiman;;
+d_antioch_adj_masmuda;;Awasiman;;
+d_antioch_adj_zanata;;Awasiman;;
 d_edessa_adj_oghuz;;Urfan;;
 d_edessa_adj_turkmen;;Urfan;;
 d_edessa_adj_turkish;;Urfan;;
@@ -465,8 +468,11 @@ d_edessa_adj_levantine_arabic;;Ruhan;;
 d_edessa_adj_egyptian_arabic;;Ruhan;;
 d_edessa_adj_andalusian_arabic;;Ruhan;;
 d_edessa_adj_sicilian_arabic;;Ruhan;;
-d_edessa_adj_berber;;Ruhan;;
+d_edessa_adj_sanhaja;;Ruhan;;
+d_edessa_adj_tagelmust;;Ruhan;;
 d_edessa_adj_tuareg;;Ruhan;;
+d_edessa_adj_masmuda;;Ruhan;;
+d_edessa_adj_zanata;;Ruhan;;
 d_tripoli_adj_greek;;Phoenican;;
 d_tripoli_adj_bedouin_arabic;;Tarabulan;;
 d_tripoli_adj_maghreb_arabic;;Tarabulan;;
@@ -474,8 +480,11 @@ d_tripoli_adj_levantine_arabic;;Tarabulan;;
 d_tripoli_adj_egyptian_arabic;;Tarabulan;;
 d_tripoli_adj_andalusian_arabic;;Tarabulan;;
 d_tripoli_adj_sicilian_arabic;;Tarabulan;;
-d_tripoli_adj_berber;;Tarabulan;;
+d_tripoli_adj_sanhaja;;Tarabulan;;
+d_tripoli_adj_tagelmust;;Tarabulan;;
 d_tripoli_adj_tuareg;;Tarabulan;;
+d_tripoli_adj_masmuda;;Tarabulan;;
+d_tripoli_adj_zanata;;Tarabulan;;
 #######################;;;;
 #Iberian peninsula;;;;
 #######################;;;;
@@ -1516,8 +1525,11 @@ d_adrianopolis_adj_egyptian_arabic;;Maqaduniyan;;
 d_adrianopolis_adj_sicilian_arabic;;Maqaduniyan;;
 d_adrianopolis_adj_andalusian_arabic;;Maqaduniyan;;
 d_adrianopolis_adj_bedouin_arabic;;Maqaduniyan;;
-d_adrianopolis_adj_berber;;Maqaduniyan;;
+d_adrianopolis_adj_sanhaja;;Maqaduniyan;;
+d_adrianopolis_adj_tagelmust;;Maqaduniyan;;
 d_adrianopolis_adj_tuareg;;Maqaduniyan;;
+d_adrianopolis_adj_masmuda;;Maqaduniyan;;
+d_adrianopolis_adj_zanata;;Maqaduniyan;;
 #######################;;;;
 #Byzzie;;;;
 #######################;;;;
@@ -1999,7 +2011,6 @@ k_khazaria_adj_bedouin_arabic;;Khazar;;
 k_khazaria_adj_egyptian_arabic;;Khazar;;
 k_khazaria_adj_andalusian_arabic;;Khazar;;
 k_khazaria_adj_sicilian_arabic;;Khazar;;
-k_khazaria_adj_berber;;Khazar;;
 k_khazaria_adj_sanhaja;;Khazar;;
 k_khazaria_adj_tagelmust;;Khazar;;
 k_khazaria_adj_tuareg;;Khazar;;
@@ -2152,7 +2163,6 @@ d_itil_adj_bedouin_arabic;;Atilian;;
 d_itil_adj_egyptian_arabic;;Atilian;;
 d_itil_adj_andalusian_arabic;;Atilian;;
 d_itil_adj_sicilian_arabic;;Atilian;;
-d_itil_adj_berber;;Atilian;;
 d_itil_adj_sanhaja;;Atilian;;
 d_itil_adj_tagelmust;;Atilian;;
 d_itil_adj_tuareg;;Atilian;;
@@ -2186,7 +2196,6 @@ d_saray_adj_bedouin_arabic;;Saraian;;
 d_saray_adj_egyptian_arabic;;Saraian;;
 d_saray_adj_andalusian_arabic;;Saraian;;
 d_saray_adj_sicilian_arabic;;Saraian;;
-d_saray_adj_berber;;Saraian;;
 d_saray_adj_sanhaja;;Saraian;;
 d_saray_adj_tagelmust;;Saraian;;
 d_saray_adj_tuareg;;Saraian;;
@@ -2213,7 +2222,6 @@ k_alania_adj_bedouin_arabic;;Al-Lanian;;
 k_alania_adj_egyptian_arabic;;Al-Lanian;;
 k_alania_adj_andalusian_arabic;;Al-Lanian;;
 k_alania_adj_sicilian_arabic;;Al-Lanian;;
-k_alania_adj_berber;;Al-Lanian;;
 k_alania_adj_sanhaja;;Al-Lanian;;
 k_alania_adj_tagelmust;;Al-Lanian;;
 k_alania_adj_tuareg;;Al-Lanian;;
@@ -2253,7 +2261,6 @@ d_alania_adj_bedouin_arabic;;Al-Lanian;;
 d_alania_adj_egyptian_arabic;;Al-Lanian;;
 d_alania_adj_andalusian_arabic;;Al-Lanian;;
 d_alania_adj_sicilian_arabic;;Al-Lanian;;
-d_alania_adj_berber;;Al-Lanian;;
 d_alania_adj_sanhaja;;Al-Lanian;;
 d_alania_adj_tagelmust;;Al-Lanian;;
 d_alania_adj_tuareg;;Al-Lanian;;
@@ -2293,7 +2300,6 @@ d_sarir_adj_bedouin_arabic;;Al-Sariran;;
 d_sarir_adj_egyptian_arabic;;Al-Sariran;;
 d_sarir_adj_andalusian_arabic;;Al-Sariran;;
 d_sarir_adj_sicilian_arabic;;Al-Sariran;;
-d_sarir_adj_berber;;Al-Sariran;;
 d_sarir_adj_sanhaja;;Al-Sariran;;
 d_sarir_adj_tagelmust;;Al-Sariran;;
 d_sarir_adj_tuareg;;Al-Sariran;;
@@ -2391,7 +2397,6 @@ d_zichia_adj_bedouin_arabic;;Sircasaan;;
 d_zichia_adj_egyptian_arabic;;Sircasaan;;
 d_zichia_adj_andalusian_arabic;;Sircasaan;;
 d_zichia_adj_sicilian_arabic;;Sircasaan;;
-d_zichia_adj_berber;;Sircasaan;;
 d_zichia_adj_sanhaja;;Sircasaan;;
 d_zichia_adj_tagelmust;;Sircasaan;;
 d_zichia_adj_tuareg;;Sircasaan;;
@@ -2781,7 +2786,6 @@ d_bashkirs_adj_bedouin_arabic;;Bashghird;;
 d_bashkirs_adj_egyptian_arabic;;Bashghird;;
 d_bashkirs_adj_andalusian_arabic;;Bashghird;;
 d_bashkirs_adj_sicilian_arabic;;Bashghird;;
-d_bashkirs_adj_berber;;Bashghird;;
 d_bashkirs_adj_sanhaja;;Bashghird;;
 d_bashkirs_adj_tagelmust;;Bashghird;;
 d_bashkirs_adj_tuareg;;Bashghird;;

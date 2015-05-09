@@ -111,13 +111,13 @@ def main():
     templates_loc = templates / 'localisation'
     for path in sorted(templates_loc.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_loc.update(row[0]: row[1]
-                            for row in csv.reader(csvfile, dialect='ckii'))
+            prev_loc.update({row[0]: row[1]
+                             for row in csv.reader(csvfile, dialect='ckii')})
     templates_lt = templates / 'common/landed_titles'
     for path in sorted(templates_lt.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_lt.update((row[0], row[1]): row[2]
-                           for row in csv.reader(csvfile, dialect='ckii'))
+            prev_lt.update({(row[0], row[1]): row[2]
+                            for row in csv.reader(csvfile, dialect='ckii')})
     if templates.exists():
         shutil.rmtree(str(templates))
     templates_loc.mkdir(parents=True)
@@ -127,7 +127,7 @@ def main():
         out_rows = []
         with inpath.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                out_row = [row[0], prev_map[row[0]], row[1],
+                out_row = [row[0], prev_loc[row[0]], row[1],
                            ','.join(dynamics[row[0]]), english[row[0]]]
                 out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
@@ -152,7 +152,7 @@ def main():
             yield from recurse(v2)
 
     rows = []
-    for path in sorted(where.glob('common/landed_titles/*.txt')):
+    for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
         with path.open(encoding='cp1252') as f:
             rows.extend(recurse(ck2parser.parse(f.read())))
 
