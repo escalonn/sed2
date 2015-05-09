@@ -60,7 +60,6 @@ def get_dynamics(where, cultures, prov_id):
         for n1, v1 in v:
             if not valid_codename(n1):
                 continue
-            assert n1 not in dynamics
             for n2, v2 in v1:
                 if n2 in cultures:
                     if v2 not in dynamics[n1]:
@@ -83,6 +82,17 @@ def get_cultures(where):
                                                                          list))
     return cultures
 
+def get_religions(where):
+    religions = []
+    rel_groups = []
+    for path in sorted(where.glob('common/religions/*.txt')):
+        with path.open(encoding='cp1252') as f:
+            item = ck2parser.parse(f.read())
+        religions.extend(n2 for _, v in item for n2, v2 in v if isinstance(v2,
+                        list) and n2 not in ['male_names', 'female_names'])
+        rel_groups.extend(n for n, v in item)
+    return religions, rel_groups
+
 def main():
     csv.register_dialect('ckii', delimiter=';')
     english = collections.defaultdict(str)
@@ -92,21 +102,22 @@ def main():
                 english[row[0]] = row[1]
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
+    religions, rel_groups = get_religions(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, province_id)
     prev_loc = collections.defaultdict(str)
-    prev_lt = collections.defaultdict(list)
+    prev_lt = collections.defaultdict(str)
 
     templates = rootpath / 'SED2/templates'
     templates_loc = templates / 'localisation'
     for path in sorted(templates_loc.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_loc.update(tuple(row[:2])
-                                for row in csv.reader(csvfile, dialect='ckii'))
+            prev_loc.update(row[0]: row[1]
+                            for row in csv.reader(csvfile, dialect='ckii'))
     templates_lt = templates / 'common/landed_titles'
     for path in sorted(templates_lt.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            for row in csv.reader(csvfile, dialect='ckii'):
-                prev_lt[row[0]].append(row[1:]) # TODO or something
+            prev_lt.update((row[0], row[1]): row[2]
+                           for row in csv.reader(csvfile, dialect='ckii'))
     if templates.exists():
         shutil.rmtree(str(templates))
     templates_loc.mkdir(parents=True)
@@ -121,15 +132,38 @@ def main():
                 out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+
+    lt_keys = ['title', 'title_female', 'foa', 'title_prefix', 'short_name',
+        'name_tier', 'location_ruler_title', 'dynasty_title_names',
+        'male_names'] + cultures
+
+    def recurse(v):
+        for n2, v2 in v:
+            if not valid_codename(n2):
+                continue
+            items = []
+            for n3, v3 in v2:
+                if n3 in lt_keys:
+                    if not isinstance(v3, str):
+                        v3 = ' '.join(v3)
+                    items.append((n3, v3))
+            yield from ([n2, n3, v3] for n3, v3 in sorted(items,
+                        key=lambda x: lt_keys.index(x[0])))
+            yield from recurse(v2)
+
+    rows = []
+    for path in sorted(where.glob('common/landed_titles/*.txt')):
+        with path.open(encoding='cp1252') as f:
+            rows.extend(recurse(ck2parser.parse(f.read())))
+
     for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
         outpath = templates_lt / inpath.with_suffix('.csv').name
         out_rows = []
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
-        # TODO something something using prev_lt and item
-        # out_row = [row[0], prev_map[row[0]], row[1],
-        #            ','.join(dynamics[row[0]]), english[row[0]]]
-        # out_rows.append(out_row)
+        for row in recurse(item):
+            out_row = [row[0], row[1], prev_lt[row[0], row[1]], row[2]]
+            out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 

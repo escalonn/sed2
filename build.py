@@ -8,6 +8,21 @@ rootpath = pathlib.Path('..')
 swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
 sed2path = rootpath / 'SED2'
 
+def valid_codename(string):
+    try:
+        return re.match(r'[ekdcb]_', string)
+    except TypeError:
+        return False
+
+def get_cultures(where):
+    cultures = []
+    for path in sorted(where.glob('common/cultures/*.txt')):
+        with path.open(encoding='cp1252') as f:
+            tree = ck2parser.parse(f.read())
+        cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
+                                                                         list))
+    return cultures
+
 def main():
     csv.register_dialect('ckii', delimiter=';')
     templates_loc = sed2path / 'templates/localisation'
@@ -24,7 +39,8 @@ def main():
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
-            sed2 = {r[0]: r[1] for r in csv.reader(csvfile, dialect='ckii')}
+            sed2 = {row[0]: row[1]
+                    for row in csv.reader(csvfile, dialect='ckii')}
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
@@ -35,23 +51,34 @@ def main():
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
+    cultures = get_cultures(swmhpath)
+    lt_keys = ['title', 'title_female', 'foa', 'title_prefix', 'short_name',
+        'name_tier', 'location_ruler_title', 'dynasty_title_names',
+        'male_names'] + cultures
+
+    def update_tree(v, sed2):
+        for n2, v2 in v:
+            if valid_codename(n2) and sed2[n2]:
+                index = next(i for i, (n3, _) in enumerate(v2)
+                             if valid_codename(n3), default=len(v2))
+                v2.insert(index, sed2[n2])
+                update_tree(v2, sed2)
+
     for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
         template = templates_lt / inpath.name
         outpath = build_lt / inpath.name
+        sed2 = collections.defaultdict(list)
         with template.open(encoding='cp1252', newline='') as csvfile:
-            # TODO 
-            # sed2 = {r[0]: r[1] for r in csv.reader(csvfile, dialect='ckii')}
-            pass
+            for title, key, value in csv.reader(csvfile, dialect='ckii'):
+                if value:
+                    if key == 'male_names':
+                        value = re.findall(r'\w+|"[\w\s]*"', value)
+                    sed2[title].append((key, value))
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
-        # TODO fix up item
-        pass
+            update_tree(item, sed2)
         with outpath.open('w', encoding='cp1252') as f:
             f.write(ck2parser.to_string(item))
 
 if __name__ == '__main__':
     main()
-
-
-# if (not row[0].startswith('#') and
-#     not re.fullmatch(r'[ekdcb]_.*_adj_.*', row[0])):
