@@ -49,6 +49,12 @@ def main():
                 if not row[0].startswith('#'):
                     row[1] = sed2[row[0]]
                     row[2:] = [''] * (len(row) - 2)
+                    if not row[1]:
+                        default = re.fullmatch(r'([ekdcb]_.*_adj)_.*', row[0])
+                        if default:
+                            row[1] = sed2[default]
+                    if not row[1]:
+                        print('warning: empty value in row {}'.format(row))
                     sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
@@ -59,7 +65,6 @@ def main():
         'male_names'] + cultures
 
     def update_tree(v, sed2, lt_keys):
-        import pprint
         for n2, v2 in v:
             if valid_codename(n2):
                 for n3, v3 in reversed(v2):
@@ -86,7 +91,7 @@ def main():
             item = ck2parser.parse(f.read())
             update_tree(item, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252') as f:
-            f.write(ck2parser.to_string(item, indent=-1, fq_keys=cultures))
+            f.write(ck2parser.to_string(item, fq_keys=cultures))
 
 if __name__ == '__main__':
     main()

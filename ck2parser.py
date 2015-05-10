@@ -55,7 +55,7 @@ toplevel = many(pair | value) + endmark
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
 
-def to_string(x, indent=0, force_quote=False, fq_keys=[]):
+def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
     if isinstance(x, tuple):
         return '{} = {}'.format(to_string(x[0]),
             to_string(x[1], indent, force_quote=(x[0] in fq_keys),

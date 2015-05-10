@@ -164,6 +164,11 @@ def main():
         for row in recurse(item):
             out_row = [row[0], row[1], prev_lt[row[0], row[1]], row[2]]
             out_rows.append(out_row)
+        # TODO: work out how to allow adding new lines like:
+        #     e_khazaria;short_name;yes;
+        # without this script deleting them
+        # for key, value in prev_lt:
+        #     if not any(out_rows)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
