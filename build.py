@@ -1,3 +1,4 @@
+import collections
 import csv
 import pathlib
 import re
@@ -32,6 +33,7 @@ def main():
     build_lt = build / 'common/landed_titles'
     if build.exists():
         shutil.rmtree(str(build))
+    assert not build.exists()
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
 
@@ -56,29 +58,37 @@ def main():
         'name_tier', 'location_ruler_title', 'dynasty_title_names',
         'male_names'] + cultures
 
-    def update_tree(v, sed2):
+    def update_tree(v, sed2, lt_keys):
+        import pprint
         for n2, v2 in v:
-            if valid_codename(n2) and sed2[n2]:
-                index = next(i for i, (n3, _) in enumerate(v2)
-                             if valid_codename(n3), default=len(v2))
-                v2.insert(index, sed2[n2])
-                update_tree(v2, sed2)
+            if valid_codename(n2):
+                for n3, v3 in reversed(v2):
+                    if n3 in lt_keys:
+                        v2.remove((n3, v3))
+                if sed2[n2]:
+                    index = next((i for i, (n3, _) in enumerate(v2)
+                                  if valid_codename(n3)), len(v2))
+                    v2[index:index] = sed2[n2]
+                update_tree(v2, sed2, lt_keys)
 
-    for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
-        template = templates_lt / inpath.name
+    for inpath in sorted(swmhpath.glob('common/landed_titles/l*.txt')):
+        template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2 = collections.defaultdict(list)
         with template.open(encoding='cp1252', newline='') as csvfile:
-            for title, key, value in csv.reader(csvfile, dialect='ckii'):
-                if value:
+            for title, key, val, *_ in csv.reader(csvfile, dialect='ckii'):
+                if val:
                     if key == 'male_names':
-                        value = re.findall(r'\w+|"[\w\s]*"', value)
-                    sed2[title].append((key, value))
+                        print(repr(val))
+                        val = [x.strip('"')
+                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
+                        print(repr(val))
+                    sed2[title].append((key, val))
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
-            update_tree(item, sed2)
+            update_tree(item, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252') as f:
-            f.write(ck2parser.to_string(item))
+            f.write(ck2parser.to_string(item, indent=-1, fq_keys=cultures))
 
 if __name__ == '__main__':
     main()

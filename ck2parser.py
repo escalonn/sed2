@@ -1,4 +1,5 @@
 import datetime
+import re
 import funcparserlib
 import funcparserlib.lexer
 import funcparserlib.parser
@@ -54,17 +55,22 @@ toplevel = many(pair | value) + endmark
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
 
-def to_string(x, indent=0, quote=False):
+def to_string(x, indent=0, force_quote=False, fq_keys=[]):
     if isinstance(x, tuple):
-        # quote all RHS strings
-        return to_string(x[0]) + ' = ' + to_string(x[1], indent, quote=True)
-    elif isinstance(x, list):
+        return '{} = {}'.format(to_string(x[0]),
+            to_string(x[1], indent, force_quote=(x[0] in fq_keys),
+                      fq_keys=fq_keys))
+    if isinstance(x, list):
+        if indent == -1:
+            return '\n'.join(to_string(y, 0, fq_keys=fq_keys) for y in x)
+        if not x:
+            return '{}'
         sep = '\n' + '\t' * (indent + 1)
         return ('{' + sep +
-                sep.join(to_string(y, indent + 1) for y in x) + sep + '}')
-    elif isinstance(x, datetime.date):
-        return x.year + '.' + x.month + '.' + x.day
-    elif isinstance(x, str):
-        return '"' + x + '"' if quote else x
-    else:
-        return str(x)
+            sep.join(to_string(y, indent + 1, fq_keys=fq_keys) for y in x)
+            + '\n' + '\t' * indent + '}')
+    if isinstance(x, datetime.date):
+        return '{0.year}.{0.month}.{0.day}'.format(x)
+    if isinstance(x, str):
+        return '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
+    return str(x)

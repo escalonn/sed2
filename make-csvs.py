@@ -145,7 +145,7 @@ def main():
             for n3, v3 in v2:
                 if n3 in lt_keys:
                     if not isinstance(v3, str):
-                        v3 = ' '.join(v3)
+                        v3 = ' '.join(ck2parser.to_string(s) for s in v3)
                     items.append((n3, v3))
             yield from ([n2, n3, v3] for n3, v3 in sorted(items,
                         key=lambda x: lt_keys.index(x[0])))
