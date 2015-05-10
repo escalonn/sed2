@@ -71,7 +71,7 @@ def main():
                     v2[index:index] = sed2[n2]
                 update_tree(v2, sed2, lt_keys)
 
-    for inpath in sorted(swmhpath.glob('common/landed_titles/l*.txt')):
+    for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2 = collections.defaultdict(list)
