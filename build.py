@@ -79,10 +79,8 @@ def main():
             for title, key, val, *_ in csv.reader(csvfile, dialect='ckii'):
                 if val:
                     if key == 'male_names':
-                        print(repr(val))
                         val = [x.strip('"')
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
-                        print(repr(val))
                     sed2[title].append((key, val))
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
