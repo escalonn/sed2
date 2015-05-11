@@ -147,8 +147,7 @@ def main():
                     if not isinstance(v3, str):
                         v3 = ' '.join(ck2parser.to_string(s) for s in v3)
                     items.append((n3, v3))
-            yield from ([n2, n3, v3] for n3, v3 in sorted(items,
-                        key=lambda x: lt_keys.index(x[0])))
+            yield n2, items
             yield from recurse(v2)
 
     rows = []
@@ -161,14 +160,13 @@ def main():
         out_rows = []
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
-        for row in recurse(item):
-            out_row = [row[0], row[1], prev_lt[row[0], row[1]], row[2]]
-            out_rows.append(out_row)
-        # TODO: work out how to allow adding new lines like:
-        #     e_khazaria;short_name;yes;
-        # without this script deleting them
-        # for key, value in prev_lt:
-        #     if not any(out_rows)
+        for title, pairs in recurse(item):
+            for (t, k), v in prev_lt.items():
+                if t == title and not any(k == k2 for k2, _ in pairs):
+                    pairs.append((k, ''))
+            for key, val in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
+                out_row = [title, key, prev_lt[title, key], val]
+                out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
