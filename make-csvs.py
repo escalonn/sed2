@@ -95,13 +95,15 @@ def main():
     vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
-    flags = collections.defaultdict(str)
+    flags = collections.defaultdict(set)
+    auto_flags = set('v')
 
     templates = rootpath / 'SED2/templates'
     for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0]: row[1]
                              for row in csv.reader(csvfile, dialect='ckii')})
+            flags[row[0]] |= set(row[5]) - auto_flags
     for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_lt.update({(row[0], row[1]): row[2]
@@ -131,10 +133,10 @@ def main():
                 for row in csv.reader(csvfile, dialect='ckii'):
                     if not row[0].startswith('b_'):
                         if row[0] in vanilla:
-                            flags[row[0]] += 'v'
+                            flags[row[0]].add('v')
                         out_row = [row[0], prev_loc[row[0]], row[1],
                                    ','.join(dynamics[row[0]]), english[row[0]],
-                                   flags[row[0]]]
+                                   ''.join(sorted(flags[row[0]]))]
                         out_rows.append(out_row)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
@@ -169,9 +171,9 @@ def main():
                         out_rows.append(out_row)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
-        print('Updating templates...')
-        if templates.exists():
-            shutil.rmtree(str(templates))
+        while templates.exists():
+            print('Removing old templates...')
+            shutil.rmtree(str(templates), ignore_errors=True)
         shutil.copytree(str(templates_t), str(templates))
 if __name__ == '__main__':
     main()
