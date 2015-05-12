@@ -561,8 +561,8 @@ c_leuchenberg;title;LANDGRAVE;LANDGRAVE
 c_leuchenberg;title_female;LANDGRAVINE;LANDGRAVINE
 c_leuchenberg;foa;LANDGRAVE_FOA;LANDGRAVE_FOA
 c_leuchenberg;title_prefix;LANDGRAVE_OF;LANDGRAVE_OF
-c_niederbayern;greek;;Castra Regina
-c_niederbayern;roman;;Castra Regina
+c_niederbayern;greek;Castra Regina;Castra Regina
+c_niederbayern;roman;Castra Regina;Castra Regina
 b_straubing;greek;;Sorviodurum
 b_straubing;roman;;Sorviodurum
 b_regensburg;name_tier;count;count
@@ -604,8 +604,8 @@ c_osterreich;title;MARGRAVE;MARGRAVE
 c_osterreich;title_female;MARGRAVINE;MARGRAVINE
 c_osterreich;foa;MARGRAVE_FOA;MARGRAVE_FOA
 c_osterreich;title_prefix;MARGRAVE_OF;MARGRAVE_OF
-c_osterreich;greek;;Ouindobouna
-c_osterreich;roman;;Vindobona
+c_osterreich;greek;Vindobona;Ouindobouna
+c_osterreich;roman;Vindobona;Vindobona
 b_wien;greek;;Ouindobouna
 b_wien;roman;;Vindobona
 b_stpolten;greek;;Cetium
@@ -625,8 +625,8 @@ d_carinthia;title;MARGRAVE;MARGRAVE
 d_carinthia;title_female;MARGRAVINE;MARGRAVINE
 d_carinthia;foa;MARGRAVE_FOA;MARGRAVE_FOA
 d_carinthia;title_prefix;MARGRAVE_OF;MARGRAVE_OF
-d_carinthia;greek;;Noricum Mediterraneum
-d_carinthia;roman;;Noricum Mediterraneum
+d_carinthia;greek;Noricum Mediterraneum;Noricum Mediterraneum
+d_carinthia;roman;Noricum Mediterraneum;Noricum Mediterraneum
 c_krain;title;MARGRAVE;MARGRAVE
 c_krain;title_female;MARGRAVINE;MARGRAVINE
 c_krain;foa;MARGRAVE_FOA;MARGRAVE_FOA
@@ -1062,9 +1062,9 @@ b_sazava;moravian;;Sázava
 b_zbraslav;german;;Königsaal
 b_zbraslav;bohemian;;Zbraslav
 b_zbraslav;moravian;;Zbraslav
-c_domazlice;german;;Sudböhmen
-c_domazlice;bohemian;;Jižní Czechy
-c_domazlice;moravian;;Jižní Czechy
+c_domazlice;german;South Bohemia;Sudböhmen
+c_domazlice;bohemian;South Bohemia;Jižní Czechy
+c_domazlice;moravian;South Bohemia;Jižní Czechy
 b_doudleby;german;;Teindles
 b_doudleby;bohemian;;Doudleby
 b_doudleby;moravian;;Doudleby
@@ -1387,17 +1387,17 @@ k_byzantium;ligurian;;Tessalonica
 k_byzantium;italian;;Tessalonica
 k_byzantium;venetian;;Tessalonica
 k_byzantium;dalmatian;;Tessalonica
-d_aegean_islands;sardinian;;dell'arcipelago
-d_aegean_islands;sicilian;;dell'arcipelago
-d_aegean_islands;corsican;;dell'arcipelago
-d_aegean_islands;central_italian;;dell'arcipelago
-d_aegean_islands;southern_italian;;dell'arcipelago
-d_aegean_islands;neapolitan;;dell'arcipelago
-d_aegean_islands;tuscan;;dell'arcipelago
-d_aegean_islands;ligurian;;dell'arcipelago
-d_aegean_islands;italian;;dell'arcipelago
-d_aegean_islands;venetian;;dell'arcipelago
-d_aegean_islands;dalmatian;;dell'arcipelago
+d_aegean_islands;sardinian;Naxos;dell'arcipelago
+d_aegean_islands;sicilian;Naxos;dell'arcipelago
+d_aegean_islands;corsican;Naxos;dell'arcipelago
+d_aegean_islands;central_italian;Naxos;dell'arcipelago
+d_aegean_islands;southern_italian;Naxos;dell'arcipelago
+d_aegean_islands;neapolitan;Naxos;dell'arcipelago
+d_aegean_islands;tuscan;Naxos;dell'arcipelago
+d_aegean_islands;ligurian;Naxos;dell'arcipelago
+d_aegean_islands;italian;Naxos;dell'arcipelago
+d_aegean_islands;venetian;Naxos;dell'arcipelago
+d_aegean_islands;dalmatian;Naxos;dell'arcipelago
 c_kaliopolis;turkish;;Gelibolu
 c_kaliopolis;turkmen;;Gelibolu
 c_kaliopolis;oghuz;;Gelibolu
@@ -1407,9 +1407,9 @@ b_gallipoli;oghuz;;Gelibolu
 b_madyta;turkish;;Maydos
 b_madyta;turkmen;;Maydos
 b_madyta;oghuz;;Maydos
-c_kyzikos;turkish;;Erdek
-c_kyzikos;turkmen;;Erdek
-c_kyzikos;oghuz;;Erdek
+c_kyzikos;turkish;Erdek;Erdek
+c_kyzikos;turkmen;Erdek;Erdek
+c_kyzikos;oghuz;Erdek;Erdek
 b_pegai;turkish;;Biga
 b_pegai;turkmen;;Biga
 b_pegai;oghuz;;Biga
@@ -1422,9 +1422,9 @@ b_kyzikos;oghuz;;Aydincik
 b_panormos;turkish;;Bandirma
 b_panormos;turkmen;;Bandirma
 b_panormos;oghuz;;Bandirma
-c_abydos;turkish;;Canakkale
-c_abydos;turkmen;;Canakkale
-c_abydos;oghuz;;Canakkale
+c_abydos;turkish;Çanakkale;Canakkale
+c_abydos;turkmen;Çanakkale;Canakkale
+c_abydos;oghuz;Çanakkale;Canakkale
 b_abydos;turkish;;Canakkale
 b_abydos;turkmen;;Canakkale
 b_abydos;oghuz;;Canakkale
@@ -1437,17 +1437,17 @@ b_lampsakos;oghuz;;Lapseki
 c_naxos;turkish;;Kiklad
 c_naxos;turkmen;;Kiklad
 c_naxos;oghuz;;Kiklad
-c_naxos;sardinian;;Nasso
-c_naxos;sicilian;;Nasso
-c_naxos;corsican;;Nasso
-c_naxos;central_italian;;Nasso
-c_naxos;southern_italian;;Nasso
-c_naxos;neapolitan;;Nasso
-c_naxos;tuscan;;Nasso
-c_naxos;ligurian;;Nasso
-c_naxos;italian;;Nasso
-c_naxos;venetian;;Nasso
-c_naxos;dalmatian;;Nasso
+c_naxos;sardinian;Naxos;Nasso
+c_naxos;sicilian;Naxos;Nasso
+c_naxos;corsican;Naxos;Nasso
+c_naxos;central_italian;Naxos;Nasso
+c_naxos;southern_italian;Naxos;Nasso
+c_naxos;neapolitan;Naxos;Nasso
+c_naxos;tuscan;Naxos;Nasso
+c_naxos;ligurian;Naxos;Nasso
+c_naxos;italian;Naxos;Nasso
+c_naxos;venetian;Naxos;Nasso
+c_naxos;dalmatian;Naxos;Nasso
 b_naxos;turkish;;Naksa
 b_naxos;turkmen;;Naksa
 b_naxos;oghuz;;Naksa
@@ -1539,20 +1539,20 @@ b_chios;oghuz;;Sakiz
 b_samos;turkish;;Sisam
 b_samos;turkmen;;Sisam
 b_samos;oghuz;;Sisam
-c_lesbos;turkish;;Midilli
-c_lesbos;turkmen;;Midilli
-c_lesbos;oghuz;;Midilli
-c_lesbos;sardinian;;Lesbos
-c_lesbos;sicilian;;Lesbos
-c_lesbos;corsican;;Lesbos
-c_lesbos;central_italian;;Lesbos
-c_lesbos;southern_italian;;Lesbos
-c_lesbos;neapolitan;;Lesbos
-c_lesbos;tuscan;;Lesbos
-c_lesbos;ligurian;;Lesbos
-c_lesbos;italian;;Lesbos
-c_lesbos;venetian;;Lesbos
-c_lesbos;dalmatian;;Lesbos
+c_lesbos;turkish;Lesbos;Midilli
+c_lesbos;turkmen;Lesbos;Midilli
+c_lesbos;oghuz;Lesbos;Midilli
+c_lesbos;sardinian;Lesbos;Lesbos
+c_lesbos;sicilian;Lesbos;Lesbos
+c_lesbos;corsican;Lesbos;Lesbos
+c_lesbos;central_italian;Lesbos;Lesbos
+c_lesbos;southern_italian;Lesbos;Lesbos
+c_lesbos;neapolitan;Lesbos;Lesbos
+c_lesbos;tuscan;Lesbos;Lesbos
+c_lesbos;ligurian;Lesbos;Lesbos
+c_lesbos;italian;Lesbos;Lesbos
+c_lesbos;venetian;Lesbos;Lesbos
+c_lesbos;dalmatian;Lesbos;Lesbos
 b_mytilene;turkish;;Midilli
 b_mytilene;turkmen;;Midilli
 b_mytilene;oghuz;;Midilli
