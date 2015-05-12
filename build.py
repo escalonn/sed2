@@ -31,9 +31,9 @@ def main():
     build = sed2path / 'build'
     build_loc = build / 'localisation'
     build_lt = build / 'common/landed_titles'
-    if build.exists():
-        shutil.rmtree(str(build))
-    assert not build.exists()
+    while build.exists():
+        print('Removing old build...')
+        shutil.rmtree(str(build)‚ ignore_errors=True)
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
 
@@ -41,7 +41,7 @@ def main():
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
-            sed2 = {row[0]: row[1]
+            sed2 = {row[0].rstrip(): row[1].rstrip()
                     for row in csv.reader(csvfile, dialect='ckii')}
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:

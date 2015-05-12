@@ -99,7 +99,7 @@ def main():
     templates = rootpath / 'SED2/templates'
     for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_loc.update({row[0]: row[1]
+            prev_loc.update({row[0].rstrip(): row[1].rstrip()
                              for row in csv.reader(csvfile, dialect='ckii')})
     for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
@@ -126,6 +126,7 @@ def main():
         for inpath in sorted(swmhpath.glob('localisation/*.csv')):
             outpath = templates_t / 'localisation' / inpath.name
             out_rows = []
+            col_width = [0, 8]
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
                     if not row[0].startswith('b_'):
@@ -133,6 +134,11 @@ def main():
                                    ','.join(dynamics[row[0]]), english[row[0]],
                                    vanilla.get(row[0], '')]
                         out_rows.append(out_row)
+                        if len(row[0]) > col_width[0] and '#' not in row[0]:
+                            col_width[0] = len(row[0])
+            for out_row in out_rows:
+                for col, width in enumerate(col_width):
+                    out_row[col] = out_row[col].ljust(width)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
