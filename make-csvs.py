@@ -3,17 +3,29 @@ import csv
 import pathlib
 import re
 import shutil
+import tempfile
 import ck2parser
 
 rootpath = pathlib.Path('..')
 # oldswmhpath = rootpath / 'SWMH/SWMH'
 swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
+vanillapath = pathlib.Path(
+    'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
 
 def valid_codename(string):
     try:
         return re.match(r'[ekdcb]_', string)
     except TypeError:
         return False
+
+def get_locs(where):
+    locs = {}
+    for path in sorted(where.glob('localisation/*.csv')):
+        with path.open(newline='', encoding='cp1252',
+                       errors='replace') as csvfile:
+            for row in csv.reader(csvfile, dialect='ckii'):
+                locs[row[0]] = row[1]
+    return locs
 
 def get_province_id(where):
     province_id = collections.OrderedDict()
@@ -80,43 +92,20 @@ def main():
     cultures = get_cultures(swmhpath)
     religions, rel_groups = get_religions(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, province_id)
+    vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
+    flags = collections.defaultdict(str)
 
     templates = rootpath / 'SED2/templates'
-    templates_loc = templates / 'localisation'
-    for path in sorted(templates_loc.glob('*.csv')):
+    for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0]: row[1]
                              for row in csv.reader(csvfile, dialect='ckii')})
-    templates_lt = templates / 'common/landed_titles'
-    for path in sorted(templates_lt.glob('*.csv')):
+    for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            try:
-                prev_lt.update({(row[0], row[1]): row[2]
-                    for row in csv.reader(csvfile, dialect='ckii')})
-            except IndexError:
-                print(path)
-                raise
-    if templates.exists():
-        shutil.rmtree(str(templates))
-    templates_loc.mkdir(parents=True)
-    templates_lt.mkdir(parents=True)
-    for inpath in sorted(swmhpath.glob('localisation/*.csv')):
-        outpath = templates_loc / inpath.name
-        out_rows = []
-        with inpath.open(newline='', encoding='cp1252') as csvfile:
-            for row in csv.reader(csvfile, dialect='ckii'):
-                if not row[0].startswith('b_'):
-                    out_row = [row[0], prev_loc[row[0]], row[1],
-                               ','.join(dynamics[row[0]]), english[row[0]]]
-                    out_rows.append(out_row)
-        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
-            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
-
-    lt_keys = ['title', 'title_female', 'foa', 'title_prefix', 'short_name',
-        'name_tier', 'location_ruler_title', 'dynasty_title_names',
-        'male_names'] + cultures
+            prev_lt.update({(row[0], row[1]): row[2]
+                            for row in csv.reader(csvfile, dialect='ckii')})
 
     def recurse(v):
         for n2, v2 in v:
@@ -131,30 +120,58 @@ def main():
             yield n2, items
             yield from recurse(v2)
 
-    rows = []
-    for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
-        with path.open(encoding='cp1252') as f:
-            rows.extend(recurse(ck2parser.parse(f.read())))
+    with tempfile.TemporaryDirectory() as td:
+        templates_t = pathlib.Path(td)
+        (templates_t / 'localisation').mkdir(parents=True)
+        (templates_t / 'common/landed_titles').mkdir(parents=True)
+        for inpath in sorted(swmhpath.glob('localisation/*.csv')):
+            outpath = templates_t / 'localisation' / inpath.name
+            out_rows = []
+            with inpath.open(newline='', encoding='cp1252') as csvfile:
+                for row in csv.reader(csvfile, dialect='ckii'):
+                    if not row[0].startswith('b_'):
+                        if row[0] in vanilla:
+                            flags[row[0]] += 'v'
+                        out_row = [row[0], prev_loc[row[0]], row[1],
+                                   ','.join(dynamics[row[0]]), english[row[0]],
+                                   flags[row[0]]]
+                        out_rows.append(out_row)
+            with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+                csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
-    for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
-        outpath = templates_lt / inpath.with_suffix('.csv').name
-        out_rows = []
-        with inpath.open(encoding='cp1252') as f:
-            item = ck2parser.parse(f.read())
-        for title, pairs in recurse(item):
-            # here disabled for now: preservation of modifiers added to
-            # template and not found in landed_titles (slow)
-            # for (t, k), v in prev_lt.items():
-            #     if t == title and not any(k == k2 for k2, _ in pairs):
-            #         pairs.append((k, ''))
-            # for key, val in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
-            # also disabled: barony stuff
-            if not title.startswith('b_'):
-                for key, v in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
-                    out_row = [title, key, prev_lt[title, key], v]
-                    out_rows.append(out_row)
-        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
-            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+        lt_keys_not_cultures = ['title', 'title_female', 'foa', 'title_prefix',
+            'short_name', 'name_tier', 'location_ruler_title',
+            'dynasty_title_names', 'male_names']
+        lt_keys = lt_keys_not_cultures + cultures
 
+        rows = []
+        for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+            with path.open(encoding='cp1252') as f:
+                rows.extend(recurse(ck2parser.parse(f.read())))
+
+        for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+            outpath = (templates_t / 'common/landed_titles' /
+                       inpath.with_suffix('.csv').name)
+            out_rows = []
+            with inpath.open(encoding='cp1252') as f:
+                item = ck2parser.parse(f.read())
+            for title, pairs in recurse(item):
+                # here disabled for now: preservation of modifiers added to
+                # template and not found in landed_titles (slow)
+                # for (t, k), v in prev_lt.items():
+                #     if t == title and not any(k == k2 for k2, _ in pairs):
+                #         pairs.append((k, ''))
+                # also disabled: barony stuff
+                if not title.startswith('b_'):
+                    for key, value in sorted(pairs,
+                        key=lambda x: lt_keys.index(x[0])):
+                        out_row = [title, key, prev_lt[title, key], value]
+                        out_rows.append(out_row)
+            with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+                csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+        print('Updating templates...')
+        if templates.exists():
+            shutil.rmtree(str(templates))
+        shutil.copytree(str(templates_t), str(templates))
 if __name__ == '__main__':
     main()
