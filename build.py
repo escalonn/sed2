@@ -46,8 +46,8 @@ def main():
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                if not row[0].startswith('#') and sed2[row[0]]:
-                    row[1] = sed2[row[0]]
+                if not row[0].startswith('#') and sed2.get(row[0], True):
+                    row[1] = sed2.get(row[0], row[1])
                     row[2:] = [''] * (len(row) - 2)
                     sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
@@ -61,13 +61,18 @@ def main():
     def update_tree(v, sed2, lt_keys):
         for n2, v2 in v:
             if valid_codename(n2):
-                for n3, v3 in reversed(v2):
-                    if n3 in lt_keys:
-                        v2.remove((n3, v3))
-                if sed2[n2]:
-                    index = next((i for i, (n3, _) in enumerate(v2)
-                                  if valid_codename(n3)), len(v2))
-                    v2[index:index] = sed2[n2]
+                if n2.startswith('b_'):
+                    for n3, v3 in reversed(v2):
+                        if n3 in cultures:
+                            v2.remove((n3, v3))
+                else:
+                    for n3, v3 in reversed(v2):
+                        if n3 in lt_keys:
+                            v2.remove((n3, v3))
+                    if sed2[n2]:
+                        index = next((i for i, (n3, _) in enumerate(v2)
+                                      if valid_codename(n3)), len(v2))
+                        v2[index:index] = sed2[n2]
                 update_tree(v2, sed2, lt_keys)
 
     for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):

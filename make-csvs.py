@@ -92,8 +92,12 @@ def main():
     templates_lt = templates / 'common/landed_titles'
     for path in sorted(templates_lt.glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_lt.update({(row[0], row[1]): row[2]
-                            for row in csv.reader(csvfile, dialect='ckii')})
+            try:
+                prev_lt.update({(row[0], row[1]): row[2]
+                    for row in csv.reader(csvfile, dialect='ckii')})
+            except IndexError:
+                print(path)
+                raise
     if templates.exists():
         shutil.rmtree(str(templates))
     templates_loc.mkdir(parents=True)
@@ -103,9 +107,10 @@ def main():
         out_rows = []
         with inpath.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                out_row = [row[0], prev_loc[row[0]], row[1],
-                           ','.join(dynamics[row[0]]), english[row[0]]]
-                out_rows.append(out_row)
+                if not row[0].startswith('b_'):
+                    out_row = [row[0], prev_loc[row[0]], row[1],
+                               ','.join(dynamics[row[0]]), english[row[0]]]
+                    out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
@@ -143,9 +148,11 @@ def main():
             #     if t == title and not any(k == k2 for k2, _ in pairs):
             #         pairs.append((k, ''))
             # for key, val in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
-            for key, val in pairs:
-                out_row = [title, key, prev_lt[title, key], val]
-                out_rows.append(out_row)
+            # also disabled: barony stuff
+            if not title.startswith('b_'):
+                for key, v in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
+                    out_row = [title, key, prev_lt[title, key], v]
+                    out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 

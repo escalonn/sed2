@@ -65,6 +65,8 @@ def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
             return '\n'.join(to_string(y, 0, fq_keys=fq_keys) for y in x)
         if not x:
             return '{}'
+        if len(x) == 3 and all(isinstance(item, int) for item in x):
+            return '{ {} {} {} }'.format(*x)
         sep = '\n' + '\t' * (indent + 1)
         return ('{' + sep +
             sep.join(to_string(y, indent + 1, fq_keys=fq_keys) for y in x)
