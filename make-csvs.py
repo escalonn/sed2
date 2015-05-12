@@ -1,27 +1,3 @@
-# title/title_female, a way to override what the proper ruler title is for
-# weird titles.  E.g., might contain "Pimp" in a CK2 mod about NYC feudalism
-# and their equivalent of mercenary companies.
-# title_prefix, you get this one.  used to be commonly like "Tribe of" for
-# general-purpose tribes.  breaking out the pieces of the full title displayed
-# in game like this allows the script to display different components of the
-# title in different ways, depending upon usage.
-# foa, form of address, "Your Grace" (not even sure what uses this)
-# also a foa_female IIRC
-# short_name means the game won't attempt to prefix the title name with its
-# rank-based default title_prefix (e.g., displaying "Kingdom of <TITLE>" vs.
-# "<TITLE>") when displaying the title name.
-# location_ruler_title is very weird and really only applies to the Pope or
-# other landless titles.  it means that places in which the game shows the
-# title holder's name will get an "in <their current landed capital's name>"
-# appended to their ruler title ("title" keyword equiv).  so "Pope in Arles,"
-# etc.
-# dynasty_title_names is only used to disabled dynasty-based title naming when
-# it would otherwise be called for due to ruler culture.
-# e.g., k_rum uses this so that it's never called Seljuk or what have you
-# despite the holders always having a culture that is dynasty_title_names = yes
-# --> can't actually force dynasty_title_names = yes from a title definition
-# (only no), if you wanted the inverse behavior
-
 import collections
 import csv
 import pathlib
@@ -161,10 +137,13 @@ def main():
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
         for title, pairs in recurse(item):
-            for (t, k), v in prev_lt.items():
-                if t == title and not any(k == k2 for k2, _ in pairs):
-                    pairs.append((k, ''))
-            for key, val in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
+            # here disabled for now: preservation of modifiers added to
+            # template and not found in landed_titles (slow)
+            # for (t, k), v in prev_lt.items():
+            #     if t == title and not any(k == k2 for k2, _ in pairs):
+            #         pairs.append((k, ''))
+            # for key, val in sorted(pairs, key=lambda x: lt_keys.index(x[0])):
+            for key, val in pairs:
                 out_row = [title, key, prev_lt[title, key], val]
                 out_rows.append(out_row)
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:

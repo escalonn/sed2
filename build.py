@@ -46,15 +46,9 @@ def main():
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                if not row[0].startswith('#'):
+                if not row[0].startswith('#') and sed2[row[0]]:
                     row[1] = sed2[row[0]]
                     row[2:] = [''] * (len(row) - 2)
-                    if not row[1]:
-                        default = re.fullmatch(r'([ekdcb]_.*_adj)_.*', row[0])
-                        if default:
-                            row[1] = sed2[default]
-                    if not row[1]:
-                        print('warning: empty value in row {}'.format(row))
                     sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
