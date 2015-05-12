@@ -968,7 +968,7 @@ k_england_adj_breton;;Lloegyran;;Lloegyran;
 k_england_adj_cornish;;Lloegyran;;Lloegyran;
 d_hereford;Hereford;Mercia;Hereford,Mierce,Dobunnia;Mercia;v
 d_hereford_adj;Hereford;Mercian;;Mercian;v
-d_hereford_adj_english;;Herefordish;;Herefordish;v
+d_hereford_adj_english;Hereford;Herefordish;;Herefordish;v
 d_hereford_adj_norse;;Miercer;;Miercer;
 d_hereford_adj_swedish;;Miercer;;Miercer;
 d_hereford_adj_norwegian;;Miercer;;Miercer;
@@ -1017,7 +1017,7 @@ d_norfolk_adj_norsegaelic;;Austænglr;;Austænglr;
 d_norfolk_adj_gothic;;Austænglr;;Austænglr;
 d_norfolk_adj_danish;;Austænglr;;Austænglr;
 d_norfolk_adj_saxon;;Éastængleisc;;Éastængleisc;
-d_norfolk_adj_english;;Norfolkan;;Norfolkan;v
+d_norfolk_adj_english;Norfolk;Norfolkan;;Norfolkan;v
 d_norfolk_adj_cornish;;Wentan;;Wentan;
 d_norfolk_adj_breton;;Wentan;;Wentan;
 d_norfolk_adj_welsh;;Wentan;;Wentan;
@@ -1084,7 +1084,7 @@ d_lancaster_adj_gothic;;Lonceasterir;;Lonceasterir;
 d_lancaster_adj_danish;;Lonceasterir;;Lonceasterir;
 d_lancaster_adj_saxon;;Lonceasterisc;;Lonceasterisc;
 d_lancaster_adj_irish;;Rhegedian;;Rhegedian;
-d_lancaster_adj_welsh;;Rhegedian;;Rhegedian;v
+d_lancaster_adj_welsh;Lancastrian;Rhegedian;;Rhegedian;v
 d_lancaster_adj_cumbric;;Rhegedian;;Rhegedian;
 d_lancaster_adj_breton;;Rhegedian;;Rhegedian;
 d_lancaster_adj_cornish;;Rhegedian;;Rhegedian;
@@ -1092,7 +1092,7 @@ d_lancaster_adj_scottish;;Rhegedian;;Rhegedian;
 d_lancaster_adj_norman;;Loncastre;;Loncastre;
 d_bedford;Bedford;Middle Anglia;Bedford,Miðængle,Middleængle,Calchwynedd,Cynwidion;Middle Anglia;v
 d_bedford_adj;Bedford;Middle Anglian;;Middle Anglian;v
-d_bedford_adj_english;;Bedfordish;;Bedfordish;v
+d_bedford_adj_english;Bedford;Bedfordish;;Bedfordish;v
 d_bedford_adj_norse;;Miðænglr;;Miðænglr;
 d_bedford_adj_swedish;;Miðænglr;;Miðænglr;
 d_bedford_adj_norwegian;;Miðænglr;;Miðænglr;
@@ -1125,7 +1125,7 @@ d_northumberland_adj_cornish;;Brynaichan;;Brynaichan;
 d_northumberland_adj_breton;;Brynaichan;;Brynaichan;
 d_somerset;Somerset;Wessex;Somerset,Westseaxe,Caer Gwynntguic;Wessex;v
 d_somerset_adj;Somerset;Wessexish;;Wessexish;v
-d_somerset_adj_english;;Somersetan;;Somersetan;v
+d_somerset_adj_english;Somerset;Somersetan;;Somersetan;v
 d_somerset_adj_norse;;Vestseaxr;;Vestseaxr;
 d_somerset_adj_swedish;;Vestseaxr;;Vestseaxr;
 d_somerset_adj_norwegian;;Vestseaxr;;Vestseaxr;
@@ -1142,13 +1142,13 @@ d_somerset_adj_breton;;Gwynntguican;;Gwynntguican;
 d_somerset_adj_cornish;;Gwynntguican;;Gwynntguican;
 d_york;York;York;Jorvík,Eoforwic,Deifr,Évèroui,Eboracum,Eborakon;York;v
 d_york_adj;York;Yorkish;;Yorkish;v
-d_york_adj_norse;;Jorvíkr;;Jorvíkr;v
-d_york_adj_norwegian;;Jorvíkr;;Jorvíkr;v
+d_york_adj_norse;York;Jorvíkr;;Jorvíkr;v
+d_york_adj_norwegian;York;Jorvíkr;;Jorvíkr;v
 d_york_adj_icelandic;;Jorvíkr;;Jorvíkr;
 d_york_adj_norsegaelic;;Jorvíkr;;Jorvíkr;
-d_york_adj_swedish;;Jorvíkr;;Jorvíkr;v
+d_york_adj_swedish;York;Jorvíkr;;Jorvíkr;v
 d_york_adj_gothic;;Jorvíkr;;Jorvíkr;
-d_york_adj_danish;;Jorvíkr;;Jorvíkr;v
+d_york_adj_danish;York;Jorvíkr;;Jorvíkr;v
 d_york_adj_saxon;;Eoforwicna;;Eoforwicna;
 d_york_adj_cumbric;;Deifran;;Deifran;
 d_york_adj_welsh;;Deifran;;Deifran;
@@ -1267,7 +1267,7 @@ k_scotland_adj_saxon;;Scotisc;;Scotisc;
 d_galloway;Galloway;Galloway;Gall Ghaidheal,Galloway;Galloway;v
 d_galloway_adj;Galloway;Gallowayan;;Gallowayan;v
 d_galloway_adj_cumbric;;Gall Ghaidhealan;;Gall Ghaidhealan;
-d_galloway_adj_welsh;;Gall Ghaidhealan;;Gall Ghaidhealan;v
+d_galloway_adj_welsh;Galloway;Gall Ghaidhealan;;Gall Ghaidhealan;v
 d_galloway_adj_irish;;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_cornish;;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_scottish;;Gall Ghaidhealan;;Gall Ghaidhealan;
@@ -1618,7 +1618,7 @@ k_cyprus_adj_italian;;Ciproan;;;
 k_cyprus_adj_frankish;;Chyprean;;;
 k_cyprus_adj_norman;;Chyprean;;;
 k_trebizond;Trebizond;Trebizond;;;v
-k_trebizond_adj;;Trebizondian;;;v
+k_trebizond_adj;Trebizond;Trebizondian;;;v
 d_dyrrachion_adj;Durrës;Dyrrachian;;;v
 d_dyrrachion_adj_oghuz;;Diraçan;;;
 d_dyrrachion_adj_turkmen;;Diraçan;;;
