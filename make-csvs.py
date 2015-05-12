@@ -95,15 +95,12 @@ def main():
     vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
-    flags = collections.defaultdict(set)
-    auto_flags = set('v')
 
     templates = rootpath / 'SED2/templates'
     for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0]: row[1]
                              for row in csv.reader(csvfile, dialect='ckii')})
-            flags[row[0]] |= set(row[5]) - auto_flags
     for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_lt.update({(row[0], row[1]): row[2]
@@ -132,11 +129,9 @@ def main():
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
                     if not row[0].startswith('b_'):
-                        if row[0] in vanilla:
-                            flags[row[0]].add('v')
                         out_row = [row[0], prev_loc[row[0]], row[1],
                                    ','.join(dynamics[row[0]]), english[row[0]],
-                                   ''.join(sorted(flags[row[0]]))]
+                                   vanilla.get(row[0], '')]
                         out_rows.append(out_row)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
