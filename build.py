@@ -33,7 +33,7 @@ def main():
     build_lt = build / 'common/landed_titles'
     while build.exists():
         print('Removing old build...')
-        shutil.rmtree(str(build)‚ ignore_errors=True)
+        shutil.rmtree(str(build), ignore_errors=True)
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
 

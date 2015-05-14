@@ -1,0 +1,1020 @@
+e_rebels = {
+	rebel = yes
+	landless = yes
+	primary = yes
+	culture = swedish
+	tribe = yes
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+}
+e_pirates = {
+	pirate = yes
+	landless = yes
+	primary = yes
+	culture = swedish
+	tribe = yes
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+}
+k_papal_state = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	capital = 333
+	landless = yes
+	controls_religion = catholic
+	religion = catholic
+	primary = yes
+	title = POPE
+	foa = POPE_FOA
+	short_name = yes
+	location_ruler_title = yes
+	dynasty_title_names = no
+	male_names = {
+		Ioannes:13
+		Benedictus:10
+		Gregorius:8
+		Innocentius:7
+		Clemens:5
+		Leo:5
+		Nicolaus:5
+		Stephanus:5
+		Urbanus:5
+		Coelestinus:4
+		Hadrianus:4
+		Alexander:3
+		Bonifatius:3
+		Honorius:3
+		Anastasius:2
+		Callistus:2
+		Eugenius:2
+		Lucius:2
+		Marinus:2
+		Martinus:2
+		Sergius:2
+		Silvester:2
+		Victor:2
+		Agapitus:1
+		Damasus:1
+		Formosus:1
+		Gelasius:1
+		Landus:1
+		Paschalis:1
+		Paulus:1
+		Pius:1
+		Romanus:1
+		Theodorus:1
+		Xystus:1
+	}
+}
+k_orthodox = {
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	capital = 496
+	landless = yes
+	controls_religion = orthodox
+	religion = orthodox
+	primary = yes
+	title = ECUMENICAL_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Alexios
+		Alexandros
+		Anastasios
+		Anthimos
+		Athanasios
+		Antonios
+		Basileios
+		Dionysios
+		Dositheos
+		Eustathios
+		Eustratios
+		Euthymios
+		Gabriel
+		Gennadios
+		Georgios
+		Gerasimos
+		Germanos
+		Gregorios
+		Ieremias
+		Ignatios
+		Ioakeim
+		Ioannes
+		Ioseph
+		Isidoros
+		Kallinikos
+		Kallistos
+		Konstantinos
+		Kosmas
+		Kyrillos
+		Leon
+		Leontios
+		Loukas
+		Makarios
+		Manuel
+		Markos
+		Matthaios
+		Maximos
+		Meletios
+		Methodios
+		Metrophanes
+		Michael
+		Neophytos
+		Nephon
+		Nikephoros
+		Niketas
+		Nikolaos
+		Pavlos
+		Petros
+		Photios
+		Polykarpos
+		Sergios
+		Stephanos
+		Sophronios
+		Theodoros
+		Theodosios
+		Theodotos
+		Theophylaktos
+		Thomas
+		Timotheos
+	}
+}
+e_sunni = {
+	color = { 40 160 40 }
+	color2 = { 220 220 0 }
+	capital = 719
+	religion = sunni
+	allow = {
+		always = no
+	}
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+e_shiite = {
+	color = { 60 190 60 }
+	color2 = { 220 220 0 }
+	capital = 719
+	religion = shiite
+	allow = {
+		always = no
+	}
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+e_golden_horde = {
+	color = { 243 180 17 }
+	capital = 622
+	landless = yes
+	tribe = yes
+	culture = mongol
+	religion = tengri_pagan
+}
+e_il-khanate = {
+	color = { 120 180 20 }
+	capital = 622
+	landless = yes
+	tribe = yes
+	culture = mongol
+	religion = tengri_pagan
+}
+e_mongol_empire = {
+	color = { 255 255 255 }
+	color2 = { 255 20 20 }
+	capital = 622
+	landless = yes
+	tribe = yes
+	culture = mongol
+	religion = tengri_pagan
+}
+e_timurids = {
+	color = { 120 20 20 }
+	capital = 900
+	landless = yes
+	tribe = yes
+	culture = mongol
+	religion = sunni
+}
+d_miaphysite = {
+	color = { 217 155 177 }
+	color2 = { 220 220 0 }
+	capital = 802
+	landless = yes
+	controls_religion = miaphysite
+	religion = miaphysite
+	primary = yes
+	title = COPTIC_POPE
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Abraham
+		Alexandros
+		Alexios
+		Agatho
+		Anastasios
+		Andronikos
+		Athanasios
+		Benjamin
+		Christodolos
+		Cosmas
+		Kyril
+		Damian
+		Demetrius
+		Dioscorus
+		Gabriel
+		Yohannes
+		Iosephos
+		Isaakios
+		Iakobos
+		Makarios
+		Markianos
+		Markos
+		Matheos
+		Khail
+		Mina
+		Petros
+		Philotheos
+		Shenouda
+		Simeon
+		Theodoros
+		Theophilus
+		Timotheos
+		Zacharias
+	}
+}
+d_monophysite = {
+	color = { 200 115 167 }
+	color2 = { 220 220 0 }
+	capital = 802
+	landless = yes
+	controls_religion = monophysite
+	religion = monophysite
+	primary = yes
+	title = MONOPHYSITE_POPE
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Abraham
+		Alexandros
+		Alexios
+		Agatho
+		Anastasius
+		Andronicus
+		Athanasios
+		Benjamin
+		Christodolos
+		Cosmas
+		Cyril
+		Damian
+		Demetrius
+		Dioscorus
+		Gabriel
+		Ioannes
+		Iosephos
+		Isaakios
+		Iakobos
+		Makarios
+		Markianos
+		Matheos
+		Michail
+		Mina
+		Petros
+		Philotheos
+		Shenouda
+		Simeon
+		Theodoros
+		Theophilus
+		Timotheos
+		Zacharias
+	}
+}
+d_nestorian = {
+	color = { 180 137 97 }
+	color2 = { 220 220 0 }
+	capital = 764
+	landless = yes
+	controls_religion = nestorian
+	religion = nestorian
+	primary = yes
+	title = PATRIARCH_IN_THE_EAST
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Aba
+		Abraham
+		Eliya
+		Denha
+		Emmanuel
+		Giwargis
+		Hnanisho
+		Ishoyahb
+		Makkikha
+		Maremmeh
+		Pethion
+		Sabrisho
+		Shemon
+		Sargis
+		Surin
+		Theodosios
+		Timotheos
+		Yahballaha
+		Yohannan
+	}
+}
+d_paulician = {
+	color = { 195 130 157 }
+	color2 = { 255 255 255 }
+	capital = 496
+	landless = yes
+	controls_religion = paulician
+	religion = paulician
+	primary = yes
+	title = PAULICIAN_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Alexios
+		Alexandros
+		Anastasios
+		Anthimos
+		Athanasios
+		Antonios
+		Basileios
+		Dionysios
+		Dositheos
+		Eustathios
+		Eustratios
+		Euthymios
+		Gabriel
+		Gennadios
+		Georgios
+		Gerasimos
+		Germanos
+		Gregorios
+		Ieremias
+		Ignatios
+		Ioakeim
+		Ioannes
+		Ioseph
+		Isidoros
+		Kallinikos
+		Kallistos
+		Konstantinos
+		Kosmas
+		Kyrillos
+		Leon
+		Leontios
+		Loukas
+		Makarios
+		Manuel
+		Markos
+		Matthaios
+		Maximos
+		Meletios
+		Methodios
+		Metrophanes
+		Michael
+		Neophytos
+		Nephon
+		Nikephoros
+		Niketas
+		Nikolaos
+		Pavlos
+		Petros
+		Photios
+		Polykarpos
+		Sergios
+		Stephanos
+		Sophronios
+		Theodoros
+		Theodosios
+		Theodotos
+		Theophylaktos
+		Thomas
+		Timotheos
+	}
+}
+d_monothelite = {
+	color = { 180 170 65 }
+	color2 = { 220 220 0 }
+	capital = 764
+	landless = yes
+	controls_religion = monothelite
+	religion = monothelite
+	primary = yes
+	title = MONOTHELITE_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Alexios
+		Alexandros
+		Anastasios
+		Anthimos
+		Athanasios
+		Antonios
+		Basileios
+		Dionysios
+		Dositheos
+		Eustathios
+		Eustratios
+		Euthymios
+		Gabriel
+		Gennadios
+		Georgios
+		Gerasimos
+		Germanos
+		Gregorios
+		Ieremias
+		Ignatios
+		Ioakeim
+		Ioannes
+		Ioseph
+		Isidoros
+		Kallinikos
+		Kallistos
+		Konstantinos
+		Kosmas
+		Kyrillos
+		Leon
+		Leontios
+		Loukas
+		Makarios
+		Manuel
+		Markos
+		Matthaios
+		Maximos
+		Meletios
+		Methodios
+		Metrophanes
+		Michael
+		Neophytos
+		Nephon
+		Nikephoros
+		Niketas
+		Nikolaos
+		Pavlos
+		Petros
+		Photios
+		Polykarpos
+		Sergios
+		Stephanos
+		Sophronios
+		Theodoros
+		Theodosios
+		Theodotos
+		Theophylaktos
+		Thomas
+		Timotheos
+	}
+}
+d_fraticelli = {
+	color = { 198 249 255 }
+	color2 = { 220 220 0 }
+	capital = 333
+	allow = {
+		always = no
+	}
+	landless = yes
+	controls_religion = fraticelli
+	religion = fraticelli
+	primary = yes
+	title = POPE
+	foa = POPE_FOA
+	short_name = yes
+	location_ruler_title = yes
+	dynasty_title_names = no
+	male_names = {
+		Ioannes:13
+		Benedictus:10
+		Gregorius:8
+		Innocentius:7
+		Clemens:5
+		Leo:5
+		Nicolaus:5
+		Stephanus:5
+		Urbanus:5
+		Coelestinus:4
+		Hadrianus:4
+		Alexander:3
+		Bonifatius:3
+		Honorius:3
+		Anastasius:2
+		Callistus:2
+		Eugenius:2
+		Lucius:2
+		Marinus:2
+		Martinus:2
+		Sergius:2
+		Silvester:2
+		Victor:2
+		Agapitus:1
+		Damasus:1
+		Formosus:1
+		Gelasius:1
+		Landus:1
+		Paschalis:1
+		Paulus:1
+		Pius:1
+		Romanus:1
+		Theodorus:1
+		Xystus:1
+	}
+}
+d_iconoclast = {
+	color = { 153 50 125 }
+	color2 = { 220 220 0 }
+	capital = 496
+	allow = {
+		always = no
+	}
+	landless = yes
+	controls_religion = iconoclast
+	religion = iconoclast
+	primary = yes
+	title = ECUMENICAL_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
+	male_names = {
+		Alexios
+		Antonios
+		Athanasios
+		Basileios
+		Chariton
+		Dionysios
+		Dositheos
+		Eustathios
+		Eustratios
+		Euthymios
+		Gennadios
+		Georgios
+		Gerasimos
+		Germanos
+		Gregoras
+		Ioannes
+		Iosephos
+		Isidoros
+		Kallistos
+		Konstantinos
+		Kosmas
+		Leon
+		Leontios
+		Loukas
+		Makarios
+		Manuel
+		Maximos
+		Metrophanes
+		Michael
+		Neophytos
+		Nephon
+		Niketas
+		Nikolaos
+		Nilos
+		Matthaios
+		Paulos
+		Sergios
+		Sisinnios
+		Symeon
+		Theodoros
+		Theodosios
+		Theodotos
+	}
+}
+d_yazidi = {
+	color = { 20 50 160 }
+	color2 = { 220 220 0 }
+	capital = 697
+	dignity = 80
+	religion = yazidi
+	controls_religion = yazidi
+	allow = {
+		piety = 1000
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0
+			0
+			3
+			0
+			0
+			11
+			11
+		}
+		religion = yazidi
+	}
+	title = SHEIKH
+	title_female = SHEIKHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+d_ibadi = {
+	color = { 20 130 20 }
+	color2 = { 220 220 0 }
+	capital = 719
+	creation_requires_capital = no
+	dignity = 80
+	religion = ibadi
+	controls_religion = ibadi
+	allow = {
+		OR = {
+			trait = mirza
+			trait = sayyid
+			piety = 1000
+		}
+		OR = {
+			AND = {
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = {
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = controls_jerusalem_damascus_baghdad
+				hidden_tooltip = {
+					774 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					728 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					693 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0
+			0
+			0
+			8
+			0
+			2
+			2
+		}
+		religion = ibadi
+	}
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+d_kharijite = {
+	color = { 10 110 10 }
+	color2 = { 220 220 0 }
+	capital = 719
+	creation_requires_capital = no
+	dignity = 80
+	religion = kharijite
+	controls_religion = kharijite
+	allow = {
+		piety = 1000
+		OR = {
+			custom_tooltip = {
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = controls_jerusalem_damascus_baghdad
+				hidden_tooltip = {
+					774 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					728 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					693 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0
+			0
+			0
+			8
+			0
+			2
+			2
+		}
+		religion = kharijite
+	}
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+d_hurufi = {
+	color = { 80 220 80 }
+	color2 = { 220 220 0 }
+	capital = 719
+	creation_requires_capital = no
+	dignity = 100
+	religion = hurufi
+	controls_religion = hurufi
+	allow = {
+		OR = {
+			trait = mirza
+			trait = sayyid
+			piety = 1000
+		}
+		OR = {
+			AND = {
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = {
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = controls_jerusalem_damascus_baghdad
+				hidden_tooltip = {
+					774 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					728 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					693 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0
+			0
+			0
+			7
+			1
+			7
+			7
+		}
+		religion = hurufi
+	}
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+}
+d_jewish = {
+	color = { 0 80 255 }
+	capital = 774
+	landless = yes
+	controls_religion = jewish
+	religion = jewish
+	primary = yes
+	title = HEAD_KOHEN_GADOL
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_norse_pagan_reformed = {
+	color = { 155 155 235 }
+	color2 = { 220 220 0 }
+	capital = 290
+	creation_requires_capital = no
+	allow = {
+		religion = norse_pagan_reformed
+		num_of_holy_sites = 3
+		piety = 500
+	}
+	dignity = 100
+	controls_religion = norse_pagan_reformed
+	religion = norse_pagan_reformed
+	title = FYLKIR
+	title_female = FYLKJA
+	foa = FYLKIR_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_tengri_pagan_reformed = {
+	color = { 100 80 100 }
+	color2 = { 220 220 0 }
+	capital = 594
+	landless = yes
+	controls_religion = tengri_pagan_reformed
+	religion = tengri_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_baltic_pagan_reformed = {
+	color = { 122 165 70 }
+	color2 = { 220 220 0 }
+	capital = 366
+	landless = yes
+	controls_religion = baltic_pagan_reformed
+	religion = baltic_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_finnish_pagan_reformed = {
+	color = { 240 240 220 }
+	color2 = { 220 220 0 }
+	capital = 381
+	landless = yes
+	controls_religion = finnish_pagan_reformed
+	religion = finnish_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_slavic_pagan_reformed = {
+	color = { 175 50 136 }
+	color2 = { 220 220 0 }
+	capital = 515
+	landless = yes
+	controls_religion = slavic_pagan_reformed
+	religion = slavic_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_aztec_reformed = {
+	color = { 245 245 135 }
+	color2 = { 220 220 0 }
+	capital = 1
+	landless = yes
+	controls_religion = aztec_reformed
+	religion = aztec_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_west_african_pagan_reformed = {
+	color = { 91 49 13 }
+	color2 = { 220 220 0 }
+	capital = 925
+	landless = yes
+	controls_religion = west_african_pagan_reformed
+	religion = west_african_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_zun_pagan_reformed = {
+	color = { 220 255 0 }
+	color2 = { 220 220 0 }
+	capital = 1183
+	landless = yes
+	controls_religion = zun_pagan_reformed
+	religion = zun_pagan_reformed
+	primary = yes
+	title = HEAD_PRIEST
+	title_female = HEAD_PRIESTESS
+	foa = HEAD_PRIEST_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
+d_zoroastrian = {
+	color = { 180 120 40 }
+	color2 = { 220 220 0 }
+	capital = 646
+	landless = yes
+	controls_religion = zoroastrian
+	religion = zoroastrian
+	primary = yes
+	title = HEAD_MOABADAN_MOABAD
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
