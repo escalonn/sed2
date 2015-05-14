@@ -125,7 +125,9 @@ def main():
         (templates_t / 'common/landed_titles').mkdir(parents=True)
         for inpath in sorted(swmhpath.glob('localisation/*.csv')):
             outpath = templates_t / 'localisation' / inpath.name
-            out_rows = []
+            out_rows = [
+                ['#CODE', 'SED2', 'SWMH', 'OTHERSWMH', 'SED1', 'VANILLA']
+            ]
             col_width = [0, 8]
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
@@ -136,8 +138,8 @@ def main():
                         out_rows.append(out_row)
                         if len(row[0]) > col_width[0] and '#' not in row[0]:
                             col_width[0] = len(row[0])
-            for out_row in out_rows:
-                if '#' not in out_row[0]:
+            for i, out_row in enumerate(out_rows):
+                if '#' not in out_row[0] or i == 0:
                     for col, width in enumerate(col_width):
                         out_row[col] = out_row[col].ljust(width)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
@@ -156,7 +158,9 @@ def main():
         for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
-            out_rows = []
+            out_rows = [
+                ['#TITLE', 'KEY', 'SED2VALUE', 'SWMHVALUE']
+            ]
             with inpath.open(encoding='cp1252') as f:
                 item = ck2parser.parse(f.read())
             for title, pairs in recurse(item):
