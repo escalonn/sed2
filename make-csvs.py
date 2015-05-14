@@ -137,8 +137,9 @@ def main():
                         if len(row[0]) > col_width[0] and '#' not in row[0]:
                             col_width[0] = len(row[0])
             for out_row in out_rows:
-                for col, width in enumerate(col_width):
-                    out_row[col] = out_row[col].ljust(width)
+                if '#' not in out_row[0]:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
