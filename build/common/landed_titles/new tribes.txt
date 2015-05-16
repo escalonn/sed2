@@ -326,11 +326,6 @@ d_radimichi = {
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
-d_qarluq = {
-	color = { 65 100 130 }
-	culture = karluk
-	capital = 1577
-}
 d_naimans = {
 	color = { 75 195 50 }
 	culture = mongol
@@ -408,6 +403,28 @@ d_bula_chopan = {
 		always = no
 	}
 }
+d_uighurs = {
+	color = { 113 91 255 }
+	culture = uighur
+	allow = {
+		always = no
+	}
+	capital = 1570
+	title = Idiqut
+	foa = Idiqut_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_qirghiz = {
+	color = { 147 21 39 }
+	culture = kirghiz
+	allow = {
+		always = no
+	}
+	capital = 1580
+	title = Elteber
+	foa = Elteber_FOA
+	title_prefix = Elteberluq_OF
+}
 d_salgur = {
 	color = { 154 92 24 }
 	color2 = { 255 255 255 }
@@ -425,6 +442,85 @@ d_tekule = {
 	allow = {
 		always = no
 	}
+}
+d_oghuz = {
+	color = { 143 22 61 }
+	culture = turkish
+	allow = {
+		always = no
+	}
+	capital = 900
+	title = Yabghu
+	foa = Yabghu_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_iraqiya_oghuz = {
+	color = { 210 45 45 }
+	culture = oghuz
+	allow = {
+		always = no
+	}
+	capital = 683
+}
+d_qarluq = {
+	color = { 65 100 130 }
+	culture = karluk
+	capital = 1577
+}
+d_yaghma = {
+	color = { 58 110 170 }
+	culture = karluk
+	allow = {
+		always = no
+	}
+	capital = 1568
+	title = Yabghu
+	foa = Yabghu_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_chigil = {
+	color = { 65 100 130 }
+	culture = karluk
+	allow = {
+		always = no
+	}
+	capital = 1573
+	title = Yabghu
+	foa = Yabghu_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_basmils = {
+	color = { 147 21 39 }
+	culture = karluk
+	allow = {
+		always = no
+	}
+	capital = 1574
+	title = Yabghu
+	foa = Yabghu_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_tukhsi = {
+	color = { 147 21 39 }
+	culture = karluk
+	allow = {
+		always = no
+	}
+	capital = 1572
+	title = Yabghu
+	foa = Yabghu_FOA
+	title_prefix = Yabghuluq_OF
+}
+d_qipchaq = {
+	color = { 137 41 59 }
+	culture = cuman
+	allow = {
+		always = no
+	}
+	capital = 1576
+	title = Opa
+	foa = Opa_FOA
+	title_prefix = Kuren_OF
 }
 d_ay_opa = {
 	color = { 33 1 66 }
@@ -569,6 +665,19 @@ d_kabars = {
 	allow = {
 		always = no
 	}
+}
+d_zunbil = {
+	color = { 255 150 81 }
+	culture = pashtun
+	capital = 852
+}
+d_shabankara = {
+	color = { 244 190 91 }
+	culture = kurdish
+	allow = {
+		always = no
+	}
+	capital = 642
 }
 d_brodniks = {
 	color = { 181 70 28 }

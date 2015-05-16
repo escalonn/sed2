@@ -1413,6 +1413,14 @@ e_hre = {
 				b_eerbeek = {}
 				b_leuvenheim = {}
 			}
+			allow = {
+				OR = {
+					has_landed_title = c_gelre
+					any_vassal = {
+						has_landed_title = c_gelre
+					}
+				}
+			}
 		}
 		d_frisia = {
 			color = { 7 18 161 }
@@ -1464,6 +1472,26 @@ e_hre = {
 				b_dokkum = {}
 				b_assen = {}
 				b_harlingen = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_ostfriesland
+					any_vassal = {
+						has_landed_title = c_ostfriesland
+					}
+				}
+				OR = {
+					has_landed_title = c_frisia
+					any_vassal = {
+						has_landed_title = c_frisia
+					}
+				}
+				OR = {
+					has_landed_title = c_westfriesland
+					any_vassal = {
+						has_landed_title = c_westfriesland
+					}
+				}
 			}
 		}
 		allow = {
@@ -1716,6 +1744,20 @@ e_hre = {
 				b_scaaarpone = {}
 				b_toul = {}
 			}
+			allow = {
+				OR = {
+					has_landed_title = c_bar
+					any_vassal = {
+						has_landed_title = c_bar
+					}
+				}
+				OR = {
+					has_landed_title = c_pontamousson
+					any_vassal = {
+						has_landed_title = c_pontamousson
+					}
+				}
+			}
 		}
 		allow = {
 			OR = {
@@ -1800,6 +1842,20 @@ e_hre = {
 				b_namur = {}
 				b_andenne = {}
 				b_dinant = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_brabant
+					any_vassal = {
+						has_landed_title = c_brabant
+					}
+				}
+				OR = {
+					has_landed_title = c_brussel
+					any_vassal = {
+						has_landed_title = c_brussel
+					}
+				}
 			}
 		}
 		d_liege = {
@@ -1886,6 +1942,20 @@ e_hre = {
 				b_dachin = {}
 				b_lecateau = {}
 			}
+			allow = {
+				OR = {
+					has_landed_title = c_hainaut
+					any_vassal = {
+						has_landed_title = c_hainaut
+					}
+				}
+				OR = {
+					has_landed_title = c_valenciennes
+					any_vassal = {
+						has_landed_title = c_valenciennes
+					}
+				}
+			}
 		}
 		d_limburg = {
 			color = { 87 87 128 }
@@ -1908,6 +1978,14 @@ e_hre = {
 				b_prum = {}
 				b_ham = {}
 				b_duren = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_limburg
+					any_vassal = {
+						has_landed_title = c_limburg
+					}
+				}
 			}
 		}
 		d_koln = {
@@ -1987,9 +2065,31 @@ e_hre = {
 			c_aachen = {
 				color = { 138 138 138 }
 				color2 = { 255 255 255 }
-				b_pfalzaachen = {}
+				b_pfalzaachen = {
+					used_for_dynasty_names = no
+				}
 				b_burtscheid = {}
 				b_aachen = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_kleve
+					any_vassal = {
+						has_landed_title = c_kleve
+					}
+				}
+				OR = {
+					has_landed_title = c_julich
+					any_vassal = {
+						has_landed_title = c_julich
+					}
+				}
+				OR = {
+					has_landed_title = c_berg
+					any_vassal = {
+						has_landed_title = c_berg
+					}
+				}
 			}
 		}
 		allow = {
@@ -2307,6 +2407,33 @@ e_hre = {
 				b_brehna = {}
 				b_torgau = {}
 			}
+			c_weimar = {
+				color = { 183 183 183 }
+				color2 = { 255 255 255 }
+				culture = thuringian
+				b_weimar = {}
+				b_jena = {}
+				b_walkenried = {}
+				b_nordhausen = {}
+				b_memelsen = {}
+				b_gotha = {}
+				b_apoldoa = {}
+				b_gera = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_wittenberg
+					any_vassal = {
+						has_landed_title = c_wittenberg
+					}
+				}
+				OR = {
+					has_landed_title = c_anhalt
+					any_vassal = {
+						has_landed_title = c_anhalt
+					}
+				}
+			}
 		}
 		d_meissen = {
 			color = { 200 193 40 }
@@ -2414,19 +2541,6 @@ e_hre = {
 				b_homburg_everstein = {}
 				b_northeim = {}
 			}
-			c_weimar = {
-				color = { 183 183 183 }
-				color2 = { 255 255 255 }
-				culture = thuringian
-				b_weimar = {}
-				b_jena = {}
-				b_walkenried = {}
-				b_nordhausen = {}
-				b_memelsen = {}
-				b_gotha = {}
-				b_apoldoa = {}
-				b_gera = {}
-			}
 			c_braunschweig = {
 				color = { 192 192 192 }
 				color2 = { 255 255 255 }
@@ -2437,6 +2551,20 @@ e_hre = {
 				b_wolfenbuttel = {}
 				b_helmstedt = {}
 				b_gandersheim = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_luneburg
+					any_vassal = {
+						has_landed_title = c_luneburg
+					}
+				}
+				OR = {
+					has_landed_title = c_braunschweig
+					any_vassal = {
+						has_landed_title = c_braunschweig
+					}
+				}
 			}
 		}
 		allow = {
@@ -3084,10 +3212,6 @@ e_hre = {
 			color2 = { 255 255 255 }
 			culture = bavarian
 			capital = 456
-			title = MARGRAVE
-			title_female = MARGRAVINE
-			foa = MARGRAVE_FOA
-			title_prefix = MARGRAVE_OF
 			greek = "Noricum Mediterraneum"
 			roman = "Noricum Mediterraneum"
 			c_krain = {
@@ -3188,6 +3312,14 @@ e_hre = {
 				b_duino = {}
 				b_umag = {}
 				b_muggia = {}
+			}
+			allow = {
+				OR = {
+					has_landed_title = c_istria
+					any_vassal = {
+						has_landed_title = c_istria
+					}
+				}
 			}
 		}
 		d_aquileia = {
@@ -8795,8 +8927,6 @@ k_pomerania = {
 			b_arkona = {
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
 			}
 			b_rugard = {}
 			b_putbus = {}
@@ -10619,7 +10749,10 @@ e_russia = {
 				color = { 175 189 131 }
 				color2 = { 255 255 255 }
 				b_vyazma = {}
-				b_verigino = {}
+				b_verigino = {
+					holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
+				}
 				b_sychyovka = {}
 				b_oscen = {}
 				b_rzhev = {}
@@ -10787,10 +10920,7 @@ e_russia = {
 				color = { 144 161 101 }
 				color2 = { 255 255 255 }
 				b_staryaladoga = {}
-				b_tikhvin = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed
-				}
+				b_tikhvin = {}
 				b_pikalyovo = {}
 				b_kirishi = {}
 			}
@@ -11899,7 +12029,10 @@ k_perm = {
 			color = { 116 131 71 }
 			color2 = { 255 255 255 }
 			b_kirov = {}
-			b_bolvansky = {}
+			b_bolvansky = {
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed
+			}
 			b_kaigorod = {}
 			b_kotelnich = {}
 		}
@@ -24573,115 +24706,6 @@ d_mazovians = {
 	}
 	title_prefix = TRIBE_OF
 }
-d_uighurs = {
-	color = { 113 91 255 }
-	culture = uighur
-	allow = {
-		always = no
-	}
-	capital = 1570
-	title = Idiqut
-	foa = Idiqut_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_oghuz = {
-	color = { 143 22 61 }
-	culture = turkish
-	allow = {
-		always = no
-	}
-	capital = 900
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_yaghma = {
-	color = { 58 110 170 }
-	culture = karluk
-	allow = {
-		always = no
-	}
-	capital = 1568
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_chigil = {
-	color = { 65 100 130 }
-	culture = karluk
-	allow = {
-		always = no
-	}
-	capital = 1573
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_basmils = {
-	color = { 147 21 39 }
-	culture = karluk
-	allow = {
-		always = no
-	}
-	capital = 1574
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_qipchaq = {
-	color = { 137 41 59 }
-	culture = cuman
-	allow = {
-		always = no
-	}
-	capital = 1576
-	title = Opa
-	foa = Opa_FOA
-	title_prefix = Kuren_OF
-}
-d_qirghiz = {
-	color = { 147 21 39 }
-	culture = kirghiz
-	allow = {
-		always = no
-	}
-	capital = 1580
-	title = Elteber
-	foa = Elteber_FOA
-	title_prefix = Elteberluq_OF
-}
-d_tukhsi = {
-	color = { 147 21 39 }
-	culture = karluk
-	allow = {
-		always = no
-	}
-	capital = 1572
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-d_zunbil = {
-	color = { 255 150 81 }
-	culture = pashtun
-	capital = 852
-}
-d_shabankara = {
-	color = { 244 190 91 }
-	culture = kurdish
-	allow = {
-		always = no
-	}
-	capital = 642
-}
-d_iraqiya_oghuz = {
-	color = { 210 45 45 }
-	culture = oghuz
-	allow = {
-		always = no
-	}
-	capital = 683
-}
 k_moravia = {
 	color = { 125 25 65 }
 	culture = moravian
@@ -24818,6 +24842,7 @@ k_tekke = {
 }
 k_trinacria = {
 	color = { 249 232 247 }
+	capital = 340
 	allow = {
 		OR = {
 			religion = catholic

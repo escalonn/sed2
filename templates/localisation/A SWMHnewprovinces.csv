@@ -1,5 +1,5 @@
 #CODE    ;SED2    ;SWMH;OTHERSWMH;SED1;VANILLA
-#CODE;;ENGLISH;;ENGLISH;ENGLISH
+#CODE;SED2;ENGLISH;;ENGLISH;ENGLISH
 ########################################;;;;;
 #New provinces;;;;;
 ########################################;;;;;
@@ -101,7 +101,7 @@ PROV1004 ;        ;Požega;c_pozega,Incerum;;Baltic Sea
 PROV1005 ;Zarand  ;Zaránd;c_zarand;;Sea of Åland
 PROV1006 ;Krassó  ;Krassó;c_krasso;;Gulf of Finland
 PROV1007 ;Königssondergau;Königssondergau;c_konigssondergau;;Gulf of Bothnia
-PROV1008 ;Zweibrücken;Zweibrücken;c_zweibrucken;;Gulf of Bothnia
+PROV1008 ;        ;Zweibrücken;c_zweibrucken,Tweebruggen,Zweibrücken,Deux Ponts;;Gulf of Bothnia
 PROV1009 ;Mark    ;Mark;c_mark;;Baie de la Seine
 PROV1010 ;Sunnmøre;Sunnmœri;c_sunmore;;Îles de la Manche
 PROV1011 ;        ;Arbër;c_arbanon,Arbanon,Arbër,Arvanid;;Mauretanian Coast
@@ -112,14 +112,14 @@ PROV1015 ;        ;Skopje;c_skopje,Skopia,Shkupi,Üsküp,Parleap;;Northern Bay of 
 PROV1016 ;        ;Traianopolis;c_traianopolis,Dimotika,Demotika;;Celtic Sea
 PROV1017 ;Veluwe  ;Veluwe;c_arnhem;;Western Cyclades
 PROV1018 ;Vianden ;Vianden;c_vianden;;Päijänne
-PROV1019 ;Brussels;Brussel;c_brussel;;Irish Sea
+PROV1019 ;Brussels;Brussel;c_brussel,Brüssel,Bruxelles,Broekzele;;Irish Sea
 PROV1020 ;Schaumburg;Schaumburg;c_schaumburg;;Western Mediterranean
 PROV1021 ;Arlon   ;Arlon;c_arlon,Arel,Aarlen;;Golfo de Valencia
-PROV1022 ;Valenciennes;Valenciennes;c_valenciennes;;Islas Baleares
+PROV1022 ;Valenciennes;Valenciennes;c_valenciennes,Valencijn;;Islas Baleares
 PROV1023 ;Orkdalen;Orkdœlafylki;c_orkanger;;Ponant
-PROV1024 ;Cambrai ;Cambrai;c_cambrai;;Mediterranean Sea
+PROV1024 ;Cambrai ;Cambrai;c_cambrai,Kamerijk,Kamerich;;Mediterranean Sea
 PROV1025 ;Rendsburg;Reynoldsburgh;c_reinholdsburg;;Golfe du Lion
-PROV1026 ;Aachen  ;Aachen;c_aachen;;Lake Léman
+PROV1026 ;Aachen  ;Aachen;c_aachen,Aken,Aix-la-Chapelle;;Lake Léman
 PROV1027 ;        ;Væstær Syaland;c_western_sjaelland;;Côte d'Azur
 PROV1028 ;Pont-à-Mousson;Pont-á-Mousson;c_pontamousson;;Ligurian Sea
 PROV1029 ;Teck    ;Teck;c_teck;;Tyrrhenian Sea
@@ -149,13 +149,13 @@ PROV1052 ;Hardsyssel;Harthæsysæl;c_western_jylland;;Vistula
 PROV1053 ;Dannenberg;Dannenberg;c_dannenberg;;Vistula
 PROV1054 ;Henneberg;Henneberg;c_henneberg;;Vistula
 PROV1055 ;Pultusk ;Pultusk;c_pultusk;;Vistula
-PROV1056 ;Namur   ;Namur;c_namur;;Dniester
+PROV1056 ;Namur   ;Namur;c_namur,Namür,Namen;;Dniester
 PROV1057 ;Limburg ;Limburg;c_limburg;;Dniester
 PROV1058 ;Zutphen ;Zutphen;c_zutphen,Zutfent,Sutfen;;Danube
 PROV1059 ;Overijssel;Oversticht;c_oversticht,Oaversticht;;Danube
 PROV1060 ;La Roche-en-Ardenne;La Roche;c_laroche;;Danube
 PROV1061 ;Chiny   ;Chiny;c_chiny;;Danube
-PROV1062 ;Sponheim;Sponheim;c_sponheim;;Northern Caspian Sea
+PROV1062 ;Sponheim;Sponheim;c_sponheim,Spanheim;;Northern Caspian Sea
 PROV1063 ;Berg    ;Berg;c_berg;;Danube
 PROV1064 ;Lower Lusatia;Niederlausitz;c_niederlausitz;;Southern Caspian Sea
 PROV1065 ;Dithmarschen;Dithmarschen;c_dithmarschen,Thetmærsch;;Danube
@@ -296,7 +296,7 @@ PROV1199 ;Segovia ;Segovia;c_segovia,Siqubiyyah,Segobia,Segòvia,Segóvia,Ségovie,
 PROV1200 ;        ;Setúbal;c_setubal,Xetubre,Setubal,Caetobriga,Kaitobrie;;Kanara
 PROV1201 ;        ;Guadalajara;c_guadalajara,Wad al-Hiyara,Guadalachara,Guadalaxara,Guadalaiara;;Kongu
 PROV1202 ;Álava   ;Álava;c_alava,Alabba,Araba,Alava,Àlaba;;Kudalasangama
-PROV1203 ;Gipuzkoa;Guipúzcoa;c_guipuzcoa;;Idatarainadu
+PROV1203 ;Gipuzkoa;Guipúzcoa;c_guipuzcoa,Ybbusqa,Gipuzkoa,Guipuzcua,Guipuscoa,Guipúscoa;;Idatarainadu
 PROV1204 ;        ;Tudela;c_tudela,al-Tutili,Tutera,Tudèle;;Nellore
 PROV1205 ;        ;Sobrarbe;c_sobrarbe,Subrarb,Sobrarb;;Narim
 PROV1206 ;        ;Ribagorza;c_ribagorza,Ribbagursa,Ribagorça,Ribagorce;;Taradavadi
