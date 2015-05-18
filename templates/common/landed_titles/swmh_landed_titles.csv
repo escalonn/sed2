@@ -3093,19 +3093,19 @@ k_jerusalem;tagelmust;;Filastin
 k_jerusalem;masmuda;;Filastin
 k_jerusalem;zanata;;Filastin
 k_jerusalem;tuareg;;Filastin
-d_jerusalem;andalusian_arabic;;Filastin
-d_jerusalem;greek;;Palaestina Prima
-d_jerusalem;bedouin_arabic;;Filastin
-d_jerusalem;maghreb_arabic;;Filastin
-d_jerusalem;levantine_arabic;;Filastin
-d_jerusalem;egyptian_arabic;;Filastin
-d_jerusalem;sicilian_arabic;;Filastin
-d_jerusalem;sanhaja;;Filastin
-d_jerusalem;tagelmust;;Filastin
-d_jerusalem;masmuda;;Filastin
-d_jerusalem;zanata;;Filastin
-d_jerusalem;tuareg;;Filastin
-d_jerusalem;roman;;Palaestina Prima
+d_jerusalem;andalusian_arabic;Palestine;Filastin
+d_jerusalem;greek;Palaestina Prima;Palaestina Prima
+d_jerusalem;bedouin_arabic;Palestine;Filastin
+d_jerusalem;maghreb_arabic;Palestine;Filastin
+d_jerusalem;levantine_arabic;Palestine;Filastin
+d_jerusalem;egyptian_arabic;Palestine;Filastin
+d_jerusalem;sicilian_arabic;Palestine;Filastin
+d_jerusalem;sanhaja;Palestine;Filastin
+d_jerusalem;tagelmust;Palestine;Filastin
+d_jerusalem;masmuda;Palestine;Filastin
+d_jerusalem;zanata;Palestine;Filastin
+d_jerusalem;tuareg;Palestine;Filastin
+d_jerusalem;roman;Palaestina Prima;Palaestina Prima
 c_jerusalem;andalusian_arabic;;Al-Quds
 c_jerusalem;greek;;Hierosolyma
 c_jerusalem;turkish;;Kudüs
@@ -3151,7 +3151,7 @@ c_hebron;zanata;;El-Khail
 c_hebron;tuareg;;El-Khail
 c_hebron;roman;;Hebron
 d_acre;andalusian_arabic;;Akka
-d_acre;greek;;Tyros
+d_acre;greek;Tyre;Tyros
 d_acre;bedouin_arabic;;Akka
 d_acre;maghreb_arabic;;Akka
 d_acre;levantine_arabic;;Akka
@@ -3162,7 +3162,7 @@ d_acre;tagelmust;;Akka
 d_acre;masmuda;;Akka
 d_acre;zanata;;Akka
 d_acre;tuareg;;Akka
-d_acre;roman;;Tyrus
+d_acre;roman;Tyre;Tyrus
 c_acre;andalusian_arabic;;Akka
 c_acre;greek;;Ptolemais
 c_acre;bedouin_arabic;;Akka
@@ -3189,8 +3189,8 @@ c_tyrus;masmuda;;Sur
 c_tyrus;zanata;;Sur
 c_tyrus;tuareg;;Sur
 c_tyrus;roman;;Tyrus
-d_oultrejourdain;greek;;Palaestina Salutaris
-d_oultrejourdain;roman;;Palaestina Salutaris
+d_oultrejourdain;greek;Palaestina Salutaris;Palaestina Salutaris
+d_oultrejourdain;roman;Palaestina Salutaris;Palaestina Salutaris
 c_monreal;andalusian_arabic;;Shobak
 c_monreal;bedouin_arabic;;Shobak
 c_monreal;maghreb_arabic;;Shobak
@@ -3231,19 +3231,19 @@ c_ascalon;tuareg;;Asqalan
 c_ibelin;greek;;Iamnia
 d_galilee;title;PRINCE;PRINCE
 d_galilee;short_name;yes;yes
-d_galilee;andalusian_arabic;;Al-Jalil
-d_galilee;greek;;Palaestina Secunda
-d_galilee;bedouin_arabic;;Al-Jalil
-d_galilee;maghreb_arabic;;Al-Jalil
-d_galilee;levantine_arabic;;Al-Jalil
-d_galilee;egyptian_arabic;;Al-Jalil
-d_galilee;sicilian_arabic;;Al-Jalil
-d_galilee;sanhaja;;Al-Jalil
-d_galilee;tagelmust;;Al-Jalil
-d_galilee;masmuda;;Al-Jalil
-d_galilee;zanata;;Al-Jalil
-d_galilee;tuareg;;Al-Jalil
-d_galilee;roman;;Palaestina Secunda
+d_galilee;andalusian_arabic;Galilee;Al-Jalil
+d_galilee;greek;Palaestina Secunda;Palaestina Secunda
+d_galilee;bedouin_arabic;Galilee;Al-Jalil
+d_galilee;maghreb_arabic;Galilee;Al-Jalil
+d_galilee;levantine_arabic;Galilee;Al-Jalil
+d_galilee;egyptian_arabic;Galilee;Al-Jalil
+d_galilee;sicilian_arabic;Galilee;Al-Jalil
+d_galilee;sanhaja;Galilee;Al-Jalil
+d_galilee;tagelmust;Galilee;Al-Jalil
+d_galilee;masmuda;Galilee;Al-Jalil
+d_galilee;zanata;Galilee;Al-Jalil
+d_galilee;tuareg;Galilee;Al-Jalil
+d_galilee;roman;Palaestina Secunda;Palaestina Secunda
 c_nazareth;andalusian_arabic;;An-Nasirah
 c_nazareth;bedouin_arabic;;An-Nasirah
 c_nazareth;maghreb_arabic;;An-Nasirah
@@ -4490,13 +4490,13 @@ c_osel;mordvin;;Saarenmaa
 c_osel;lettigallish;;Sãmsala
 c_osel;lithuanian;;Sãmsala
 c_osel;prussian;;Saaremaa
-e_russia;norse;;Garðaríki
-e_russia;swedish;;Garðaríki
-e_russia;norwegian;;Garðaríki
-e_russia;danish;;Garðaríki
-e_russia;gothic;;Garðaríki
-e_russia;anglonorse;;Garðaríki
-e_russia;norsegaelic;;Garðaríki
+e_russia;norse;Gardariki;Garðaríki
+e_russia;swedish;Gardariki;Garðaríki
+e_russia;norwegian;Gardariki;Garðaríki
+e_russia;danish;Gardariki;Garðaríki
+e_russia;gothic;Gardariki;Garðaríki
+e_russia;anglonorse;Gardariki;Garðaríki
+e_russia;norsegaelic;Gardariki;Garðaríki
 d_vladimir;norse;;Súrsdalar
 d_vladimir;swedish;;Súrsdalar
 d_vladimir;norwegian;;Súrsdalar
@@ -4595,13 +4595,13 @@ c_smolensk;danish;;Smaleskja
 c_smolensk;gothic;;Smaleskja
 c_smolensk;anglonorse;;Smaleskja
 c_smolensk;norsegaelic;;Smaleskja
-k_novgorod;norse;;Holmgarðr
-k_novgorod;swedish;;Holmgarðr
-k_novgorod;norwegian;;Holmgarðr
-k_novgorod;danish;;Holmgarðr
-k_novgorod;gothic;;Holmgarðr
-k_novgorod;anglonorse;;Holmgarðr
-k_novgorod;norsegaelic;;Holmgarðr
+k_novgorod;norse;Veliky Novgorod;Holmgarðr
+k_novgorod;swedish;Veliky Novgorod;Holmgarðr
+k_novgorod;norwegian;Veliky Novgorod;Holmgarðr
+k_novgorod;danish;Veliky Novgorod;Holmgarðr
+k_novgorod;gothic;Veliky Novgorod;Holmgarðr
+k_novgorod;anglonorse;Veliky Novgorod;Holmgarðr
+k_novgorod;norsegaelic;Veliky Novgorod;Holmgarðr
 d_novgorod;norse;;Holmgarðr
 d_novgorod;swedish;;Holmgarðr
 d_novgorod;norwegian;;Holmgarðr
@@ -8741,10 +8741,10 @@ c_menorca;maghreb_arabic;;Manurqa
 c_menorca;levantine_arabic;;Manurqa
 c_menorca;egyptian_arabic;;Manurqa
 c_menorca;sicilian_arabic;;Manurqa
-k_africa;greek;;Africae
-k_africa;roman;;Africae
-d_tunis;greek;;Africa Proconsularis
-d_tunis;roman;;Africa Proconsularis
+k_africa;greek;Africa;Africae
+k_africa;roman;Africa;Africae
+d_tunis;greek;Africa;Africa Proconsularis
+d_tunis;roman;Africa;Africa Proconsularis
 c_tunis;greek;;Karchedon
 c_tunis;roman;;Carthago
 c_medjerda;greek;;Hadrumetum
@@ -8757,8 +8757,8 @@ c_mahdia;greek;;Thapsus
 c_mahdia;roman;;Thapsus
 c_sfax;greek;;Taparura
 c_sfax;roman;;Taparura
-d_qamuda;greek;;Byzacena
-d_qamuda;roman;;Byzacena
+d_qamuda;greek;Byzacena;Byzacena
+d_qamuda;roman;Byzacena;Byzacena
 c_gabes;greek;;Tacape
 c_gabes;roman;;Tacapae
 c_djerba;greek;;Girba
@@ -8779,8 +8779,8 @@ c_labda;greek;;Quintiliana
 c_labda;roman;;Quintiliana
 c_zawiya;greek;;Abrotonon
 c_zawiya;roman;;Abrotonum
-d_kabylia;greek;;Numidia Cirtensis
-d_kabylia;roman;;Numidia Cirtensis
+d_kabylia;greek;Numidia Cirtensis;Numidia Cirtensis
+d_kabylia;roman;Numidia Cirtensis;Numidia Cirtensis
 c_beni_yanni;greek;;Igilgili
 c_beni_yanni;roman;;Igilgili
 c_constantine;greek;;Cirta
@@ -8791,8 +8791,8 @@ c_annaba;greek;;Hippo Regius
 c_annaba;roman;;Hippo Regius
 c_setif;greek;;Setifis
 c_setif;roman;;Setifis
-d_zab;greek;;Numidia Militiana
-d_zab;roman;;Numidia Militiana
+d_zab;greek;Numidia Militiana;Numidia Militiana
+d_zab;roman;Numidia Militiana;Numidia Militiana
 c_ouled_nail;greek;;Dimmidi
 c_ouled_nail;roman;;Dimmidi
 c_biskra;greek;;Vescera
@@ -8801,8 +8801,8 @@ c_tell_atlas;greek;;Lambaesis
 c_tell_atlas;roman;;Lambaesis
 c_tabassa;greek;;Theveste
 c_tabassa;roman;;Theveste
-d_alger;greek;;Mauretania Caesariensis
-d_alger;roman;;Mauretania Caesariensis
+d_alger;greek;Mauretania Caesariensis;Mauretania Caesariensis
+d_alger;roman;Mauretania Caesariensis;Mauretania Caesariensis
 c_atlas_mnt;greek;;Ala Miliaria
 c_atlas_mnt;roman;;Ala Miliaria
 c_lemdiyya;greek;;Auzia
@@ -8811,20 +8811,20 @@ c_al_djazair;greek;;Iol Caesarea
 c_al_djazair;roman;;Iol Caesarea
 c_snassen;greek;;Cartenna
 c_snassen;roman;;Cartenna
-d_tlemcen;greek;;Mauretania Siga
-d_tlemcen;roman;;Mauretania Siga
+d_tlemcen;greek;Siga;Mauretania Siga
+d_tlemcen;roman;Siga;Mauretania Siga
 c_orania;greek;;Siga
 c_orania;roman;;Siga
-d_tangiers;greek;;Mauretania Tingitana
-d_tangiers;roman;;Mauretania Tingitana
+d_tangiers;greek;Mauretania Tingitana;Mauretania Tingitana
+d_tangiers;roman;Mauretania Tingitana;Mauretania Tingitana
 c_tangiers;greek;;Tingis
 c_tangiers;roman;;Tingis
 c_cebta;greek;;Septem
 c_cebta;roman;;Septem
 c_malila;greek;;Rusaddir
 c_malila;roman;;Rusaddir
-d_fes;greek;;Mauretania Volubilis
-d_fes;roman;;Mauretania Volubilis
+d_fes;greek;Volubilis;Mauretania Volubilis
+d_fes;roman;Volubilis;Mauretania Volubilis
 c_fes;greek;;Volubilis
 c_fes;roman;;Volubilis
 c_infa;greek;;Anfus
@@ -8844,11 +8844,11 @@ c_fuerteventura;zanata;;Mahãr-at
 d_madeira;castillan;;Leiname
 d_madeira;aragonese;;Leiname
 d_madeira;leonese;;Leiname
-d_madeira;armenian;;Erythia
-d_madeira;greek;;Erythia
-d_madeira;alan;;Erythia
-d_madeira;arberian;;Erythia
-d_madeira;georgian;;Erythia
+d_madeira;armenian;Erythia;Erythia
+d_madeira;greek;Erythia;Erythia
+d_madeira;alan;Erythia;Erythia
+d_madeira;arberian;Erythia;Erythia
+d_madeira;georgian;Erythia;Erythia
 d_madeira;sardinian;;Lolegname
 d_madeira;sicilian;;Lolegname
 d_madeira;corsican;;Lolegname
@@ -8860,7 +8860,7 @@ d_madeira;ligurian;;Lolegname
 d_madeira;italian;;Lolegname
 d_madeira;venetian;;Lolegname
 d_madeira;dalmatian;;Lolegname
-d_madeira;roman;;Erythia
+d_madeira;roman;Erythia;Erythia
 c_madeira;castillan;;Leiname
 c_madeira;aragonese;;Leiname
 c_madeira;leonese;;Leiname
@@ -8903,14 +8903,14 @@ c_porto_santo;roman;;Paena
 e_arabia;short_name;yes;yes
 k_egypt;greek;;Aigyptos
 k_egypt;roman;;Aegyptus
-d_alexandria;greek;;Aigyptos
-d_alexandria;roman;;Aegyptus
+d_alexandria;greek;Egypt;Aigyptos
+d_alexandria;roman;Egypt;Aegyptus
 c_al_alamayn;greek;;Paraitonion
 c_al_alamayn;roman;;Paraetonium
 c_quattara;greek;;Ammonion
 c_quattara;roman;;Ammonium
-d_damietta;greek;;Augustamnike
-d_damietta;roman;;Augustamnica
+d_damietta;greek;Augustamnica;Augustamnike
+d_damietta;roman;Augustamnica;Augustamnica
 c_gabiyaha;frankish;;Rosette
 c_gabiyaha;norman;;Rosette
 c_gabiyaha;greek;;Bolbitinon
@@ -8932,8 +8932,8 @@ c_pelusia;greek;;Thennesos
 c_pelusia;roman;;Thennisus
 c_bilbays;greek;;Bilbeis
 c_bilbays;roman;;Bilbeis
-d_cairo;greek;;Arkadia
-d_cairo;roman;;Arcadia
+d_cairo;greek;Arcadia Aegypti;Arkadia
+d_cairo;roman;Arcadia Aegypti;Arcadia
 c_cairo;greek;;Phystaton
 c_cairo;roman;;Babylon
 c_manupura;greek;;Athribis
@@ -8956,8 +8956,8 @@ c_bahriya;greek;;Oasis Mikra
 c_bahriya;roman;;Oasis Parva
 c_fayyum;greek;;Arsinoë
 c_fayyum;roman;;Arsinoë
-d_aswan;greek;;Thebaïs
-d_aswan;roman;;Thebais
+d_aswan;greek;the Thebaid;Thebaïs
+d_aswan;roman;the Thebaid;Thebais
 c_quena;greek;;Myos Hormos
 c_quena;roman;;Myos Hormos
 c_manfalut;greek;;Manbalot
@@ -9000,24 +9000,24 @@ c_aydhab;greek;;Berenike
 c_aydhab;roman;;Berenice
 c_suakin;greek;;Limen Evangelis
 c_suakin;roman;;Limen Evangelis
-e_britannia;norse;;Bretland
-e_britannia;swedish;;Bretland
-e_britannia;norwegian;;Bretland
-e_britannia;danish;;Bretland
-e_britannia;gothic;;Bretland
-e_britannia;saxon;;Bryttania
-e_britannia;anglonorse;;Bretland
-e_britannia;frankish;;Bretaigne
-e_britannia;arpitan;;Bretaigne
-e_britannia;norman;;Bretaigne
-e_britannia;greek;;Albion
-e_britannia;irish;;Cruithn
-e_britannia;scottish;;Cruithn
-e_britannia;cumbric;;Prydein
-e_britannia;cornish;;Brythain
-e_britannia;welsh;;Prydein
-e_britannia;breton;;Brythain
-e_britannia;norsegaelic;;Cruithn
+e_britannia;norse;Britain;Bretland
+e_britannia;swedish;Britain;Bretland
+e_britannia;norwegian;Britain;Bretland
+e_britannia;danish;Britain;Bretland
+e_britannia;gothic;Britain;Bretland
+e_britannia;saxon;Britain;Bryttania
+e_britannia;anglonorse;Britain;Bretland
+e_britannia;frankish;Britain;Bretaigne
+e_britannia;arpitan;Britain;Bretaigne
+e_britannia;norman;Britain;Bretaigne
+e_britannia;greek;Albion;Albion
+e_britannia;irish;Britain;Cruithn
+e_britannia;scottish;Britain;Cruithn
+e_britannia;cumbric;Prydain;Prydein
+e_britannia;cornish;Britain;Brythain
+e_britannia;welsh;Prydain;Prydein
+e_britannia;breton;Britain;Brythain
+e_britannia;norsegaelic;Britain;Cruithn
 k_england;norse;;Ænglandi
 k_england;swedish;;Ænglandi
 k_england;norwegian;;Ænglandi
@@ -9028,15 +9028,15 @@ k_england;saxon;;Ænglaland
 k_england;anglonorse;;Ænglandi
 k_england;frankish;;Angleterre
 k_england;norman;;Angliétèrre
-k_england;greek;;Brittannia
-k_england;irish;;Lloegyr
-k_england;scottish;;Lloegyr
-k_england;cumbric;;Lloegyr
-k_england;cornish;;Lloegyr
-k_england;welsh;;Lloegyr
-k_england;breton;;Lloegyr
+k_england;greek;Britannia;Brittannia
+k_england;irish;Logres;Lloegyr
+k_england;scottish;Logres;Lloegyr
+k_england;cumbric;Logres;Lloegyr
+k_england;cornish;Logres;Lloegyr
+k_england;welsh;Logres;Lloegyr
+k_england;breton;Logres;Lloegyr
 k_england;norsegaelic;;Ænglandi
-k_england;roman;;Britanniae
+k_england;roman;the Britains;Britanniae
 d_somerset;norse;;Westseaxe
 d_somerset;swedish;;Westseaxe
 d_somerset;norwegian;;Westseaxe
@@ -11000,13 +11000,13 @@ c_uibhist;irish;;Uibhist
 c_uibhist;scottish;;Uibhist
 c_uibhist;welsh;;Uibhist
 c_uibhist;norsegaelic;;Uibhist
-d_mzab;greek;;Gaetulia
-d_mzab;roman;;Gaetulia
+d_mzab;greek;Getulia;Gaetulia
+d_mzab;roman;Getulia;Gaetulia
 c_ghadames;greek;;Cydamus
 c_ghadames;roman;;Cydamus
 k_fezzan;short_name;yes;yes
-d_fezzan;greek;;Garamantia
-d_fezzan;roman;;Garamantia
+d_fezzan;greek;Garamantia;Garamantia
+d_fezzan;roman;Garamantia;Garamantia
 c_waddan;greek;;Gholaia
 c_waddan;roman;;Gholaia
 c_sebha;greek;;Sabae
