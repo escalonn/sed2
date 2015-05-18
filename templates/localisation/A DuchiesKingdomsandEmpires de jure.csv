@@ -35,7 +35,7 @@ d_holstein                              ;Holstein;Holstein;;Holstein;Holstein
 d_holstein_adj                          ;Holstein;Holsteinische;;Holsteinian;Holsteiner
 d_brunswick                             ;Brunswick-Lüneburg;Braunschweig-Lüneburg;;Braunschweig-Lüneburg;Brunswick
 d_brunswick_adj                         ;Brunswickian;Braunschweigische;;Braunschweigian;Brunswickian
-d_brandenburg                           ;Northern March;Nordmark;Branibór,Braniborz,Brennaburg,Brenna;Nordmark;Brandenburg
+d_brandenburg                           ;the Northern March;Nordmark;Branibór,Braniborz,Brennaburg,Brenna;Nordmark;Brandenburg
 d_brandenburg_adj                       ;Northern March;Nordmärkisch;;Nordmarkian;Brandenburger
 d_bishopmunster                         ;Münster ;Münster;;Münster;
 d_bishopmunster_adj                     ;        ;Münstersche;;Münsterian;
@@ -235,7 +235,7 @@ d_dalmatia_adj_georgian                 ;        ;Dalmatiasan;;;
 d_dalmatia_adj_armenian                 ;        ;Dalmatiasan;;;
 d_dalmatia_adj_german                   ;        ;Dalmatische;;;
 d_krk                                   ;Krk     ;Krk;Vegl,Veglia,Kyrikon,Curicta;Veglia;
-d_krk_adj                               ;Krk     ;Krku;;Veglian;
+d_krk_adj                               ;        ;Krku;;Veglian;
 d_krk_adj_german                        ;        ;Veglisch;;;
 d_krk_adj_italian                       ;        ;Veglian;;;
 d_krk_adj_venetian                      ;        ;Veglian;;;
@@ -327,7 +327,7 @@ d_urbino_adj                            ;Urbino  ;Urbinian;;Urbinian;
 #Siciliy;;;;;
 k_sicily                                ;Sicily  ;Sicilia;Suburbicaria,Italías;Sicily;Sicily
 k_sicily_adj                            ;Sicilian;Siciliani;;Sicilian;Sicilian
-d_tarent                                ;Taranto ;Principato di Taranto;;Taranto;
+d_tarent                                ;Principality of Taranto;Principato di Taranto;;Taranto;
 d_tarent_adj                            ;Tarantino;Tarantian;;Tarantian;
 d_loritello                             ;Loritello;Loritello;;Loritello;
 d_loritello_adj                         ;        ;Loritellan;;Loritellan;
@@ -337,12 +337,12 @@ d_sicily                                ;Sicily  ;Sicilia;Sikelias,Siqilliyah;Si
 d_sicily_adj                            ;Sicilian;Siciliani;;Sicilian;Sicilian
 d_apulia                                ;Apulia  ;Puglia;Apulia et Calabria,Longobardias;Apulia;Apulia
 d_apulia_adj                            ;Apulian ;Pugliani;;Apulian;Apulian
-d_alvito                                ;Samnium ;Alvito;Samnium,Samnitis;Alvito;
-d_alvito_adj                            ;Samnite ;Alvitian;;Alvitian;
+d_alvito                                ;Alvito  ;Alvito;Samnium,Samnitis;Alvito;
+d_alvito_adj                            ;        ;Alvitian;;Alvitian;
 ####################;;;;;
 #Poland-Lithuanian commonwealth;;;;;
-e_poland                                ;Polish–Lithuanian Commonwealth;Polska-Lietuva;;Poland-Lithuania;
-e_poland_adj                            ;Polish–Lithuanian;Polski-Lietuvo;;Polish-Lithuanian;
+e_poland                                ;Poland  ;Polska-Lietuva;;Poland-Lithuania;
+e_poland_adj                            ;Polish  ;Polski-Lietuvo;;Polish-Lithuanian;
 #Poland;;;;;
 k_poland                                ;Poland  ;Polska;Pulinaland;Poland;Poland
 k_poland_adj                            ;Polish  ;Polski;;Polish;Polish
@@ -385,7 +385,7 @@ d_septimania                            ;Septimania;Septimania;;Septimania;
 d_septimania_adj                        ;Septimanian;Septimania;;Septimanian;
 d_archberry                             ;Berry   ;Berry;;Berry;
 d_archberry_adj                         ;        ;Berrichon;;Berrian;
-d_foix                                  ;Pyrenees;Pirenèus;;Foix;
+d_foix                                  ;the Pyrenees;Pirenèus;;Foix;
 d_foix_adj                              ;Pyrenean;Pirenèusen;;Foix;
 d_gevaudan                              ;Gévaudan;Gévaudan;;Gévaudan;
 d_gevaudan_adj                          ;        ;Gévaudan;;Gévaudan;
@@ -427,38 +427,38 @@ d_diyareast                             ;Diyar Rabi'a;Diyar Rabi'a;;Diyar Rabi'a
 d_diyareast_adj                         ;Rabi`ah ;Rabian;;Rabian;
 d_jazira                                ;Diyar Mudar;Diyar Mudar;Euphratensis;Diyar Mudar;Jazira
 d_jazira_adj                            ;Diyar Mudar;Mudaran;;Mudaren;Jaziran
-d_jazira_adj_greek                      ;        ;Euphratensian;;;
-d_homs                                  ;Homs    ;Hims;Syria Salutaris;Homs;
+d_jazira_adj_greek                      ;Euphratensian;Euphratensian;;;
+d_homs                                  ;Hims    ;Hims;Syria Salutaris;Homs;
 d_homs_adj                              ;Homsi   ;Himsan;;Homsian;
-d_homs_adj_greek                        ;        ;Syria Salutaran;;;
+d_homs_adj_greek                        ;Syrian  ;Syria Salutaran;;;
 d_jordan                                ;Jordan  ;al-Urdunn;Arabia Prima;al-Urdunn;
 d_jordan_adj                            ;Jordanian;al-Urdunnan;;al-Urdunnan;
-d_jordan_adj_greek                      ;        ;Arabia Priman;;;
+d_jordan_adj_greek                      ;Arabian ;Arabia Priman;;;
 d_damascus                              ;Damascus;Dimashq;Phoenice Libanensis;Damascus;Damascus
 d_damascus_adj                          ;Damascene;Dimashqan;;Damascus;Damascan
-d_damascus_adj_greek                    ;        ;Phoenice Libanensian;;;
+d_damascus_adj_greek                    ;Phoenician;Phoenice Libanensian;;;
 d_aleppo                                ;Qinnasrin;Qinnasrin;Syria Prima;Aleppo;Aleppo
 d_aleppo_adj                            ;Qinnasrin;Qinnasrinan;;Aleppan;Aleppan
-d_aleppo_adj_greek                      ;        ;Syria Priman;;;
+d_aleppo_adj_greek                      ;Syrian  ;Syria Priman;;;
 k_syria                                 ;Syria   ;Al-Sham;Oriens;Syria;Syria
 k_syria_adj                             ;Syrian  ;Al-Shaman;;Syrian;Syrian
 k_aljazira                              ;Upper Mesopotamia;Al Jazira;Assyria;Al Jazira;
 k_aljazira_adj                          ;Upper Mesopotamian;Jaziran;;Jaziran;
-k_aljazira_adj_greek                    ;        ;Assyrian;;;
+k_aljazira_adj_greek                    ;Assyrian;Assyrian;;;
 d_mosul_adj_greek                       ;        ;Mepsilan;;;
-d_antioch                               ;Antioch ;Principauté d'Antioche;Jund 'Awasim,Ducate Antioch,Ducate Antiok;Antioch;Antioch
+d_antioch                               ;Principality of Antioch;Principauté d'Antioche;Jund 'Awasim,Ducate Antioch,Ducate Antiok;Antioch;Antioch
 d_antioch_adj                           ;Antiochene;Antiochean;;Antiochean;Antiochian
-d_antioch_adj_bedouin_arabic            ;        ;Awasiman;;;
-d_antioch_adj_maghreb_arabic            ;        ;Awasiman;;;
-d_antioch_adj_levantine_arabic          ;        ;Awasiman;;;
-d_antioch_adj_egyptian_arabic           ;        ;Awasiman;;;
-d_antioch_adj_andalusian_arabic         ;        ;Awasiman;;;
-d_antioch_adj_sicilian_arabic           ;        ;Awasiman;;;
-d_antioch_adj_sanhaja                   ;        ;Awasiman;;;
-d_antioch_adj_tagelmust                 ;        ;Awasiman;;;
-d_antioch_adj_tuareg                    ;        ;Awasiman;;;
-d_antioch_adj_masmuda                   ;        ;Awasiman;;;
-d_antioch_adj_zanata                    ;        ;Awasiman;;;
+d_antioch_adj_bedouin_arabic            ;al-Awasim;Awasiman;;;
+d_antioch_adj_maghreb_arabic            ;al-Awasim;Awasiman;;;
+d_antioch_adj_levantine_arabic          ;al-Awasim;Awasiman;;;
+d_antioch_adj_egyptian_arabic           ;al-Awasim;Awasiman;;;
+d_antioch_adj_andalusian_arabic         ;al-Awasim;Awasiman;;;
+d_antioch_adj_sicilian_arabic           ;al-Awasim;Awasiman;;;
+d_antioch_adj_sanhaja                   ;al-Awasim;Awasiman;;;
+d_antioch_adj_tagelmust                 ;al-Awasim;Awasiman;;;
+d_antioch_adj_tuareg                    ;al-Awasim;Awasiman;;;
+d_antioch_adj_masmuda                   ;al-Awasim;Awasiman;;;
+d_antioch_adj_zanata                    ;al-Awasim;Awasiman;;;
 d_edessa_adj_oghuz                      ;        ;Urfan;;;
 d_edessa_adj_turkmen                    ;        ;Urfan;;;
 d_edessa_adj_turkish                    ;        ;Urfan;;;
@@ -474,7 +474,7 @@ d_edessa_adj_tagelmust                  ;        ;Ruhan;;;
 d_edessa_adj_tuareg                     ;        ;Ruhan;;;
 d_edessa_adj_masmuda                    ;        ;Ruhan;;;
 d_edessa_adj_zanata                     ;        ;Ruhan;;;
-d_tripoli_adj_greek                     ;        ;Phoenican;;;
+d_tripoli_adj_greek                     ;Phoenician;Phoenican;;;
 d_tripoli_adj_bedouin_arabic            ;        ;Tarabulan;;;
 d_tripoli_adj_maghreb_arabic            ;        ;Tarabulan;;;
 d_tripoli_adj_levantine_arabic          ;        ;Tarabulan;;;

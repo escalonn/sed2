@@ -3280,18 +3280,18 @@ c_safed;egyptian_arabic;;Safad
 c_safed;sicilian_arabic;;Safad
 c_safed;ashkenazi;;Tsfat
 c_safed;roman;;Paneas
-k_antioch;andalusian_arabic;;Awasim
+k_antioch;andalusian_arabic;al-Awasim;Awasim
 k_antioch;greek;;Antiócheias
-k_antioch;bedouin_arabic;;Awasim
-k_antioch;maghreb_arabic;;Awasim
-k_antioch;levantine_arabic;;Awasim
-k_antioch;egyptian_arabic;;Awasim
-k_antioch;sicilian_arabic;;Awasim
-k_antioch;sanhaja;;Awasim
-k_antioch;tagelmust;;Awasim
-k_antioch;masmuda;;Awasim
-k_antioch;zanata;;Awasim
-k_antioch;tuareg;;Awasim
+k_antioch;bedouin_arabic;al-Awasim;Awasim
+k_antioch;maghreb_arabic;al-Awasim;Awasim
+k_antioch;levantine_arabic;al-Awasim;Awasim
+k_antioch;egyptian_arabic;al-Awasim;Awasim
+k_antioch;sicilian_arabic;al-Awasim;Awasim
+k_antioch;sanhaja;al-Awasim;Awasim
+k_antioch;tagelmust;al-Awasim;Awasim
+k_antioch;masmuda;al-Awasim;Awasim
+k_antioch;zanata;al-Awasim;Awasim
+k_antioch;tuareg;al-Awasim;Awasim
 k_antioch;roman;;Principatus Antiochenus
 d_edessa;name_tier;count;count
 d_edessa;andalusian_arabic;;Ar-Ruha
@@ -3349,23 +3349,23 @@ c_kaisun;levantine_arabic;;Kaisum
 c_kaisun;egyptian_arabic;;Kaisum
 c_kaisun;sicilian_arabic;;Kaisum
 d_antioch;short_name;yes;yes
-d_antioch;andalusian_arabic;;Jund 'Awasim
-d_antioch;armenian;;Ducate Antiok
-d_antioch;greek;;Ducate Antioch
-d_antioch;alan;;Ducate Antioch
-d_antioch;sicilian_greek;;Ducate Antioch
-d_antioch;arberian;;Ducate Antioch
-d_antioch;georgian;;Ducate Antiok
-d_antioch;bedouin_arabic;;Jund 'Awasim
-d_antioch;maghreb_arabic;;Jund 'Awasim
-d_antioch;levantine_arabic;;Jund 'Awasim
-d_antioch;egyptian_arabic;;Jund 'Awasim
-d_antioch;sicilian_arabic;;Jund 'Awasim
-d_antioch;sanhaja;;Jund 'Awasim
-d_antioch;tagelmust;;Jund 'Awasim
-d_antioch;masmuda;;Jund 'Awasim
-d_antioch;zanata;;Jund 'Awasim
-d_antioch;tuareg;;Jund 'Awasim
+d_antioch;andalusian_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;armenian;Ducate of Antioch;Ducate Antiok
+d_antioch;greek;Ducate of Antioch;Ducate Antioch
+d_antioch;alan;Ducate of Antioch;Ducate Antioch
+d_antioch;sicilian_greek;Ducate of Antioch;Ducate Antioch
+d_antioch;arberian;Ducate of Antioch;Ducate Antioch
+d_antioch;georgian;Ducate of Antioch;Ducate Antiok
+d_antioch;bedouin_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;maghreb_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;levantine_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;egyptian_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;sicilian_arabic;Jund al-Awasim;Jund 'Awasim
+d_antioch;sanhaja;Jund al-Awasim;Jund 'Awasim
+d_antioch;tagelmust;Jund al-Awasim;Jund 'Awasim
+d_antioch;masmuda;Jund al-Awasim;Jund 'Awasim
+d_antioch;zanata;Jund al-Awasim;Jund 'Awasim
+d_antioch;tuareg;Jund al-Awasim;Jund 'Awasim
 c_antiocheia;andalusian_arabic;;Antakiya
 c_antiocheia;armenian;;Antiok
 c_antiocheia;turkish;;Antakiya
@@ -3405,7 +3405,7 @@ c_archa;egyptian_arabic;;Fâmieh
 c_archa;sicilian_arabic;;Fâmieh
 d_tripoli;name_tier;count;count
 d_tripoli;andalusian_arabic;;Tarabulus
-d_tripoli;greek;;Phoenice
+d_tripoli;greek;Phoenice;Phoenice
 d_tripoli;bedouin_arabic;;Tarabulus
 d_tripoli;maghreb_arabic;;Tarabulus
 d_tripoli;levantine_arabic;;Tarabulus
@@ -3416,7 +3416,7 @@ d_tripoli;tagelmust;;Tarabulus
 d_tripoli;masmuda;;Tarabulus
 d_tripoli;zanata;;Tarabulus
 d_tripoli;tuareg;;Tarabulus
-d_tripoli;roman;;Phoenice
+d_tripoli;roman;Phoenice;Phoenice
 c_tortosa;andalusian_arabic;;Antartus
 c_tortosa;greek;;Antarados
 c_tortosa;bedouin_arabic;;Antartus
@@ -3466,11 +3466,11 @@ c_gibelet;masmuda;;Jebail
 c_gibelet;zanata;;Jebail
 c_gibelet;tuareg;;Jebail
 c_gibelet;roman;;Byblus
-k_syria;greek;;Oriens
-k_syria;roman;;Oriens
+k_syria;greek;the East;Oriens
+k_syria;roman;the East;Oriens
 d_aleppo;title_prefix;JUND_OF;JUND_OF
-d_aleppo;greek;;Syria Prima
-d_aleppo;roman;;Syria Prima
+d_aleppo;greek;Syria Prima;Syria Prima
+d_aleppo;roman;Syria Prima;Syria Prima
 c_aleppo;frankish;;Halapia
 c_aleppo;norman;;Halapia
 c_aleppo;greek;;Berroia
@@ -3486,8 +3486,8 @@ c_kafrtab;roman;;Arra
 c_hama;greek;;Epiphania
 c_hama;roman;;Epiphania
 d_homs;title_prefix;JUND_OF;JUND_OF
-d_homs;greek;;Syria Salutaris
-d_homs;roman;;Syria Salutaris
+d_homs;greek;Syria Secunda;Syria Salutaris
+d_homs;roman;Syria Secunda;Syria Salutaris
 c_homs;frankish;;La Chamelle
 c_homs;norman;;La Chamelle
 c_homs;greek;;Emesa
@@ -3495,8 +3495,8 @@ c_homs;roman;;Emesa
 c_salamiyah;greek;;Salamias
 c_salamiyah;roman;;Salamias
 d_damascus;title_prefix;JUND_OF;JUND_OF
-d_damascus;greek;;Phoenice Libanensis
-d_damascus;roman;;Phoenice Libanensis
+d_damascus;greek;Phoenice Libanensis;Phoenice Libanensis
+d_damascus;roman;Phoenice Libanensis;Phoenice Libanensis
 c_damascus;frankish;;Damascus
 c_damascus;norman;;Damascus
 c_damascus;greek;;Damaskos
@@ -3512,8 +3512,8 @@ c_suwaida;roman;;Philippopolis
 c_irbid;greek;;Arbela
 c_irbid;roman;;Arbela
 d_jordan;title_prefix;JUND_OF;JUND_OF
-d_jordan;greek;;Arabia Prima
-d_jordan;roman;;Arabia Prima
+d_jordan;greek;Arabia Petraea;Arabia Prima
+d_jordan;roman;Arabia Petraea;Arabia Prima
 c_amman;frankish;;Ahamant
 c_amman;norman;;Ahamant
 c_amman;greek;;Philadelpheia
@@ -3524,8 +3524,8 @@ c_madaba;frankish;;Gerasa
 c_madaba;norman;;Gerasa
 c_madaba;greek;;Gerasa
 c_madaba;roman;;Gerasa
-k_aljazira;greek;;Assyria
-k_aljazira;roman;;Assyria
+k_aljazira;greek;Assyria;Assyria
+k_aljazira;roman;Assyria;Assyria
 d_mosul;greek;;Mepsila
 d_mosul;roman;;Mepsila
 c_mosul;greek;;Mepsila
@@ -3541,8 +3541,8 @@ c_nisibin;egyptian_arabic;;Barqa'id
 c_nisibin;sicilian_arabic;;Barqa'id
 c_sinjar;greek;;Singara
 c_sinjar;roman;;Singara
-d_jazira;greek;;Euphratensis
-d_jazira;roman;;Euphratensis
+d_jazira;greek;Euphratensis;Euphratensis
+d_jazira;roman;Euphratensis;Euphratensis
 c_asas;greek;;Kallinikos
 c_asas;roman;;Callinicum
 c_al_bichri;greek;;Kirkesion
@@ -3943,7 +3943,7 @@ k_poland;icelandic;;Pulinaland
 k_poland;gothic;;Pulinaland
 k_poland;anglonorse;;Pulinaland
 k_poland;norsegaelic;;Pulinaland
-d_greater_poland;german;;Posen
+d_greater_poland;german;Poznan;Posen
 c_gnieznienskie;norse;;Gnesen
 c_gnieznienskie;swedish;;Gnesen
 c_gnieznienskie;norwegian;;Gnesen
@@ -7284,7 +7284,7 @@ c_sangermano;roman;;Aquinum
 c_gaeta;name_tier;duke;duke
 c_gaeta;greek;;Kaiete
 c_gaeta;roman;;Caieta
-d_apulia;greek;;Longobardias
+d_apulia;greek;Longobardia;Longobardias
 d_apulia;roman;;Apulia et Calabria
 c_apulia;greek;;Potentia
 c_foggia;greek;;Sepius
@@ -7306,8 +7306,8 @@ c_lecce;roman;;Hydruntum
 c_conversano;greek;;Brendesion
 d_salerno;greek;;Lukania
 c_salerno;greek;;Salernon
-d_alvito;greek;;Samnitis
-d_alvito;roman;;Samnium
+d_alvito;greek;Samnium;Samnitis
+d_alvito;roman;Samnium;Samnium
 c_celano;greek;;Caelanum
 c_celano;roman;;Caelanum
 d_calabria;greek;;Kalavrias
