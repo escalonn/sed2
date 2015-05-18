@@ -10446,15 +10446,15 @@ c_ormond;cornish;;An Déise
 c_ormond;welsh;;An Déise
 c_ormond;breton;;An Déise
 c_ormond;norsegaelic;;Veðrafjorðr
-k_scotland;norse;;Skotlandi
-k_scotland;swedish;;Skotlandi
-k_scotland;norwegian;;Skotlandi
-k_scotland;danish;;Skotlandi
-k_scotland;icelandic;;Skotlandi
-k_scotland;gothic;;Skotlandi
-k_scotland;english;;Scotland
-k_scotland;saxon;;Scotland
-k_scotland;anglonorse;;Skotlandi
+k_scotland;norse;Scotland;Skotlandi
+k_scotland;swedish;Scotland;Skotlandi
+k_scotland;norwegian;Scotland;Skotlandi
+k_scotland;danish;Scotland;Skotlandi
+k_scotland;icelandic;Scotland;Skotlandi
+k_scotland;gothic;Scotland;Skotlandi
+k_scotland;english;Scotland;Scotland
+k_scotland;saxon;Scotland;Scotland
+k_scotland;anglonorse;Scotland;Skotlandi
 k_scotland;irish;;Alba
 k_scotland;scottish;;Alba
 k_scotland;cumbric;;Alba
@@ -10599,13 +10599,13 @@ c_salcraig;norsegaelic;;Salcraig
 d_albany;english;;Albany
 d_albany;saxon;;Albany
 d_albany;anglonorse;;Albany
-d_albany;irish;;An Mhaorine
-d_albany;scottish;;An Mhaorine
-d_albany;cumbric;;An Mhaorine
-d_albany;cornish;;An Mhaorine
-d_albany;welsh;;An Mhaorine
-d_albany;breton;;An Mhaorine
-d_albany;norsegaelic;;An Mhaorine
+d_albany;irish;Kincardine;An Mhaorine
+d_albany;scottish;Kincardine;An Mhaorine
+d_albany;cumbric;Kincardine;An Mhaorine
+d_albany;cornish;Kincardine;An Mhaorine
+d_albany;welsh;Kincardine;An Mhaorine
+d_albany;breton;Kincardine;An Mhaorine
+d_albany;norsegaelic;Kincardine;An Mhaorine
 c_gowrie;english;;Gowrie
 c_gowrie;saxon;;Gowrie
 c_gowrie;anglonorse;;Gowrie
@@ -10817,7 +10817,7 @@ k_ellan_vannin;gothic;;Mön
 k_ellan_vannin;english;;Mann
 k_ellan_vannin;saxon;;Mann
 k_ellan_vannin;anglonorse;;Mön
-k_ellan_vannin;irish;;Dál Riata
+k_ellan_vannin;irish;Dál Riata;Dál Riata
 k_ellan_vannin;scottish;;Vannin
 k_ellan_vannin;cumbric;;Manau
 k_ellan_vannin;cornish;;Manav
@@ -10852,19 +10852,19 @@ c_isle_of_man;scottish;;Vannin
 c_isle_of_man;cumbric;;Manau
 c_isle_of_man;welsh;;Manau
 c_isle_of_man;norsegaelic;;Vannin
-d_hebrides;norse;;Laithlinn
-d_hebrides;swedish;;Laithlinn
-d_hebrides;norwegian;;Laithlinn
-d_hebrides;danish;;Laithlinn
-d_hebrides;icelandic;;Laithlinn
-d_hebrides;gothic;;Laithlinn
+d_hebrides;norse;Lochlann;Laithlinn
+d_hebrides;swedish;Lochlann;Laithlinn
+d_hebrides;norwegian;Lochlann;Laithlinn
+d_hebrides;danish;Lochlann;Laithlinn
+d_hebrides;icelandic;Lochlann;Laithlinn
+d_hebrides;gothic;Lochlann;Laithlinn
 d_hebrides;english;;Inner Hebrides
 d_hebrides;saxon;;Inner Hebrides
-d_hebrides;anglonorse;;Laithlinn
-d_hebrides;irish;;Airer Ghaidheal
-d_hebrides;scottish;;Airer Ghaidheal
-d_hebrides;welsh;;Airer Ghaidheal
-d_hebrides;norsegaelic;;Laithlinn
+d_hebrides;anglonorse;Lochlann;Laithlinn
+d_hebrides;irish;Argyll;Airer Ghaidheal
+d_hebrides;scottish;Argyll;Airer Ghaidheal
+d_hebrides;welsh;Argyll;Airer Ghaidheal
+d_hebrides;norsegaelic;Lochlann;Laithlinn
 c_argyll;english;;Argyll
 c_argyll;saxon;;Argyll
 c_argyll;anglonorse;;Argyll
@@ -10918,19 +10918,19 @@ c_bod;irish;;Eilean Bhòid
 c_bod;scottish;;Eilean Bhòid
 c_bod;welsh;;Eilean Bhòid
 c_bod;norsegaelic;;Eilean Bhòid
-d_orkney;norse;;Norðreyjar
-d_orkney;swedish;;Norðreyjar
-d_orkney;norwegian;;Norðreyjar
-d_orkney;danish;;Norðreyjar
-d_orkney;icelandic;;Norðreyjar
-d_orkney;gothic;;Norðreyjar
-d_orkney;anglonorse;;Norðreyjar
+d_orkney;norse;the Northern Isles;Norðreyjar
+d_orkney;swedish;the Northern Isles;Norðreyjar
+d_orkney;norwegian;the Northern Isles;Norðreyjar
+d_orkney;danish;the Northern Isles;Norðreyjar
+d_orkney;icelandic;the Northern Isles;Norðreyjar
+d_orkney;gothic;the Northern Isles;Norðreyjar
+d_orkney;anglonorse;the Northern Isles;Norðreyjar
 d_orkney;irish;;Arcaibh
 d_orkney;scottish;;Arcaibh
 d_orkney;cornish;;Arcaibh
 d_orkney;welsh;;Arcaibh
 d_orkney;breton;;Arcaibh
-d_orkney;norsegaelic;;Norðreyjar
+d_orkney;norsegaelic;the Northern Isles;Norðreyjar
 c_shetland;norse;;Hjaltland
 c_shetland;swedish;;Hjaltland
 c_shetland;norwegian;;Hjaltland
@@ -10941,15 +10941,15 @@ c_orkney;cornish;;Arcaibh
 c_orkney;welsh;;Arcaibh
 c_orkney;breton;;Arcaibh
 c_orkney;norsegaelic;;Arcaibh
-d_western_isles;norse;;Suðreyjar
-d_western_isles;swedish;;Suðreyjar
-d_western_isles;norwegian;;Suðreyjar
-d_western_isles;danish;;Suðreyjar
-d_western_isles;icelandic;;Suðreyjar
-d_western_isles;gothic;;Suðreyjar
+d_western_isles;norse;the Hebrides;Suðreyjar
+d_western_isles;swedish;the Hebrides;Suðreyjar
+d_western_isles;norwegian;the Hebrides;Suðreyjar
+d_western_isles;danish;the Hebrides;Suðreyjar
+d_western_isles;icelandic;the Hebrides;Suðreyjar
+d_western_isles;gothic;the Hebrides;Suðreyjar
 d_western_isles;english;;Outer Hebrides
 d_western_isles;saxon;;Outer Hebrides
-d_western_isles;anglonorse;;Suðreyjar
+d_western_isles;anglonorse;the Hebrides;Suðreyjar
 d_western_isles;irish;;Innse Gall
 d_western_isles;scottish;;Innse Gall
 d_western_isles;welsh;;Innse Gall

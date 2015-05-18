@@ -1142,7 +1142,7 @@ d_somerset_adj_welsh                    ;Wintonian;Gwynntguican;;Gwynntguican;
 d_somerset_adj_breton                   ;Wintonian;Gwynntguican;;Gwynntguican;
 d_somerset_adj_cornish                  ;Wintonian;Gwynntguican;;Gwynntguican;
 d_york                                  ;York    ;York;Jorvík,Eoforwic,Deifr,Évèroui,Eboracum,Eborakon;York;York
-d_york_adj                              ;        ;Yorkish;;Yorkish;Yorkist
+d_york_adj                              ;York    ;Yorkish;;Yorkish;Yorkist
 d_york_adj_norse                        ;        ;Jorvíkr;;Jorvíkr;Jorvik
 d_york_adj_norwegian                    ;        ;Jorvíkr;;Jorvíkr;Jorvik
 d_york_adj_icelandic                    ;        ;Jorvíkr;;Jorvíkr;
@@ -1185,12 +1185,12 @@ k_ellan_vannin_adj_norse                ;        ;Mönr;;Mönr;
 k_ellan_vannin_adj_danish               ;        ;Mönr;;Mönr;
 k_ellan_vannin_adj_cumbric              ;        ;Manau;;Manau;
 k_ellan_vannin_adj_welsh                ;        ;Manau;;Manau;
-k_ellan_vannin_adj_irish                ;        ;Dál Riataan;;Dál Riataan;
+k_ellan_vannin_adj_irish                ;Dál Riata;Dál Riataan;;Dál Riataan;
 k_ellan_vannin_adj_cornish              ;        ;Manav;;Manav;
 k_ellan_vannin_adj_scottish             ;        ;Vannin;;Vannin;
 k_ellan_vannin_adj_breton               ;        ;Manav;;Manav;
 #;;;;;
-d_ellan_vannin                          ;Isle of Man;Man;Mano,Vannin,Manau,Mann,Mön;Man;
+d_ellan_vannin                          ;the Isle of Man;Man;Mano,Vannin,Manau,Mann,Mön;Man;
 d_ellan_vannin_adj                      ;Manx    ;Mannish;;Mannish;
 d_ellan_vannin_adj_norwegian            ;        ;Mönr;;Mönr;
 d_ellan_vannin_adj_icelandic            ;        ;Mönr;;Mönr;
@@ -1206,15 +1206,15 @@ d_ellan_vannin_adj_cornish              ;        ;Manav;;Manav;
 d_ellan_vannin_adj_scottish             ;        ;Vannin;;Vannin;
 d_ellan_vannin_adj_breton               ;        ;Manav;;Manav;
 #;;;;;
-d_western_isles                         ;Outer Hebrides;Outer Hebrides;Innse Gall,Outer Hebrides,Suðreyjar;Outer Hebrides;The Isles
+d_western_isles                         ;the Outer Hebrides;Outer Hebrides;Innse Gall,Outer Hebrides,Suðreyjar;Outer Hebrides;The Isles
 d_western_isles_adj                     ;Outer Hebridean;Outer Hebridan;;Outer Hebridan;Islander
-d_western_isles_adj_norwegian           ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_icelandic           ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_norsegaelic         ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_swedish             ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_gothic              ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_norse               ;        ;Suðreyjarir;;Suðreyjarir;
-d_western_isles_adj_danish              ;        ;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_norwegian           ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_icelandic           ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_norsegaelic         ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_swedish             ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_gothic              ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_norse               ;Hebridean;Suðreyjarir;;Suðreyjarir;
+d_western_isles_adj_danish              ;Hebridean;Suðreyjarir;;Suðreyjarir;
 d_western_isles_adj_cumbric             ;        ;Innse Gallish;;Innse Gallish;
 d_western_isles_adj_welsh               ;        ;Innse Gallish;;Innse Gallish;
 d_western_isles_adj_irish               ;        ;Innse Gallish;;Innse Gallish;
@@ -1222,31 +1222,31 @@ d_western_isles_adj_cornish             ;        ;Innse Gallish;;Innse Gallish;
 d_western_isles_adj_scottish            ;        ;Innse Gallish;;Innse Gallish;
 d_western_isles_adj_breton              ;        ;Innse Gallish;;Innse Gallish;
 #;;;;;
-d_hebrides                              ;Inner Hebrides;Inner Hebrides;Airer Ghaidheal,Laithlinn,Inner Hebrides;Inner Hebrides;
+d_hebrides                              ;the Inner Hebrides;Inner Hebrides;Airer Ghaidheal,Laithlinn,Inner Hebrides;Inner Hebrides;
 d_hebrides_adj                          ;Inner Hebridean;Inner Hebridan;;Inner Hebridan;
-d_hebrides_adj_norwegian                ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_icelandic                ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_norsegaelic              ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_swedish                  ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_gothic                   ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_norse                    ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_danish                   ;        ;Laithlinnr;;Laithlinnr;
-d_hebrides_adj_cumbric                  ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
-d_hebrides_adj_welsh                    ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
-d_hebrides_adj_irish                    ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
-d_hebrides_adj_cornish                  ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
-d_hebrides_adj_scottish                 ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
-d_hebrides_adj_breton                   ;        ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_norwegian                ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_icelandic                ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_norsegaelic              ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_swedish                  ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_gothic                   ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_norse                    ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_danish                   ;Lochlann;Laithlinnr;;Laithlinnr;
+d_hebrides_adj_cumbric                  ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_welsh                    ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_irish                    ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_cornish                  ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_scottish                 ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
+d_hebrides_adj_breton                   ;Argyll  ;Airer Ghaidhealish;;Airer Ghaidhealish;
 #;;;;;
 d_orkney                                ;Orkney  ;Orkney;Norðreyjar,Arcaibh;Orkney;Orkney
 d_orkney_adj                            ;Orcadian;Orkneyan;;Orkneyan;Orknian
-d_orkney_adj_norwegian                  ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_icelandic                  ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_norsegaelic                ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_swedish                    ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_gothic                     ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_norse                      ;        ;Norðreyjarir;;Norðreyjarir;
-d_orkney_adj_danish                     ;        ;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_norwegian                  ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_icelandic                  ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_norsegaelic                ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_swedish                    ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_gothic                     ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_norse                      ;Northern Isles;Norðreyjarir;;Norðreyjarir;
+d_orkney_adj_danish                     ;Northern Isles;Norðreyjarir;;Norðreyjarir;
 d_orkney_adj_cumbric                    ;        ;Arcaibhish;;Arcaibhish;
 d_orkney_adj_welsh                      ;        ;Arcaibhish;;Arcaibhish;
 d_orkney_adj_irish                      ;        ;Arcaibhish;;Arcaibhish;
@@ -1254,21 +1254,21 @@ d_orkney_adj_cornish                    ;        ;Arcaibhish;;Arcaibhish;
 d_orkney_adj_scottish                   ;        ;Arcaibhish;;Arcaibhish;
 d_orkney_adj_breton                     ;        ;Arcaibhish;;Arcaibhish;
 ######;;;;;
-k_scotland                              ;Scotland;Alba;Alba,Scotland,Skotlandi;Alba;Scotland
-k_scotland_adj_norwegian                ;        ;Skozkr;;Skozkr;
-k_scotland_adj_icelandic                ;        ;Skozkr;;Skozkr;
-k_scotland_adj_norsegaelic              ;        ;Skozkr;;Skozkr;
-k_scotland_adj_swedish                  ;        ;Skozkr;;Skozkr;
-k_scotland_adj_gothic                   ;        ;Skozkr;;Skozkr;
-k_scotland_adj_norse                    ;        ;Skozkr;;Skozkr;
-k_scotland_adj_danish                   ;        ;Skozkr;;Skozkr;
-k_scotland_adj_english                  ;        ;Scotish;;Scotish;
-k_scotland_adj_saxon                    ;        ;Scotisc;;Scotisc;
+k_scotland                              ;Alba    ;Alba;Alba,Scotland,Skotlandi;Alba;Scotland
+k_scotland_adj_norwegian                ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_icelandic                ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_norsegaelic              ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_swedish                  ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_gothic                   ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_norse                    ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_danish                   ;Scottish;Skozkr;;Skozkr;
+k_scotland_adj_english                  ;Scottish;Scotish;;Scotish;
+k_scotland_adj_saxon                    ;Scottish;Scotisc;;Scotisc;
 #;;;;;
 d_galloway                              ;Galloway;Galloway;Gall Ghaidheal,Galloway;Galloway;Galloway
 d_galloway_adj                          ;Galloway;Gallowayan;;Gallowayan;Gallowayan
 d_galloway_adj_cumbric                  ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
-d_galloway_adj_welsh                    ;Galloway;Gall Ghaidhealan;;Gall Ghaidhealan;Strathclyde
+d_galloway_adj_welsh                    ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;Strathclyde
 d_galloway_adj_irish                    ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_cornish                  ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_scottish                 ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
@@ -1284,14 +1284,14 @@ d_lothian_adj_cornish                   ;        ;Lleuddiniawn;;Lleuddiniawn;
 d_lothian_adj_scottish                  ;        ;Lodainn;;Lodainn;
 d_lothian_adj_breton                    ;        ;Lleuddiniawn;;Lleuddiniawn;
 #;;;;;
-d_albany                                ;Scotland;Albany;An Mhaorine,Albany;Albany;Albany
-d_albany_adj                            ;Scottish;Alban;;Alban;Albanite
-d_albany_adj_cumbric                    ;        ;An Mhaorine;;An Mhaorine;
-d_albany_adj_welsh                      ;        ;An Mhaorine;;An Mhaorine;
-d_albany_adj_irish                      ;        ;An Mhaorine;;An Mhaorine;
-d_albany_adj_cornish                    ;        ;An Mhaorine;;An Mhaorine;
-d_albany_adj_scottish                   ;        ;An Mhaorine;;An Mhaorine;
-d_albany_adj_breton                     ;        ;An Mhaorine;;An Mhaorine;
+d_albany                                ;Albany  ;Albany;An Mhaorine,Albany;Albany;Albany
+d_albany_adj                            ;Albany  ;Alban;;Alban;Albanite
+d_albany_adj_cumbric                    ;Kincardine;An Mhaorine;;An Mhaorine;
+d_albany_adj_welsh                      ;Kincardine;An Mhaorine;;An Mhaorine;
+d_albany_adj_irish                      ;Kincardine;An Mhaorine;;An Mhaorine;
+d_albany_adj_cornish                    ;Kincardine;An Mhaorine;;An Mhaorine;
+d_albany_adj_scottish                   ;Kincardine;An Mhaorine;;An Mhaorine;
+d_albany_adj_breton                     ;Kincardine;An Mhaorine;;An Mhaorine;
 #;;;;;
 d_moray                                 ;Moray   ;Moray;Moireabh,Moireibh,Moray;Moray;Moray
 d_moray_adj                             ;Moray   ;Morayan;;Morayan;Moray
@@ -1348,7 +1348,7 @@ k_wales_adj_breton                      ;        ;Cymry;;Cymry;
 d_deheubarth                            ;Deheubarth;Deheubarth;Deheubarth;Deheubarth;Deheubarth
 d_deheubarth_adj                        ;Deheubarth;Deheubarthish;;Deheubarthish;Deheubarthian
 d_gwynedd                               ;Gwynedd ;Gwynedd;Gwynedd;Gwynedd;Gwynedd
-d_gwynedd_adj                           ;Gwynedd ;Gwyneddish;;Gwyneddish;Gwyneddian
+d_gwynedd_adj                           ;Gwyneddian;Gwyneddish;;Gwyneddish;Gwyneddian
 d_morgannwg                             ;Glamorgan;Glamorgan;Morgannwg,Glamorgan;Glamorgan;
 d_morgannwg_adj                         ;        ;Glamorganish;;Glamorganish;
 d_powys                                 ;Powys   ;Powis;Powys,Powis;Powis;Powys
