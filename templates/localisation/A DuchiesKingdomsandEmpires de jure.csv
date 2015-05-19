@@ -2605,10 +2605,10 @@ d_vorskla_adj_bosnian                   ;        ;Vor'skolian;;;
 ########;;;;;
 #Volga Bulgaria;;;;;
 ########;;;;;
-k_volga_bulgaria                        ;        ;Bolgar;Povolzhye,Dentü-Mogyer,Bulgar;;Volga Bulgaria
-k_volga_bulgaria_adj                    ;        ;Bolgar;;;Volga Bulgarian
-k_volga_bulgaria_russian                ;        ;Povolzhyeskiy;;;
-k_volga_bulgaria_hungarian              ;        ;Dentü-Mogyerian;;;
+k_volga_bulgaria                        ;Volga Bulgaria;Bolgar;Povolzhye,Dentü-Mogyer,Bulgar;;Volga Bulgaria
+k_volga_bulgaria_adj                    ;Volga Bulgarian;Bolgar;;;Volga Bulgarian
+k_volga_bulgaria_russian                ;Volga   ;Povolzhyeskiy;;;
+k_volga_bulgaria_hungarian              ;Dentumoger;Dentü-Mogyerian;;;
 k_volga_bulgaria_adj_bohemian           ;        ;Bulgar;;;
 k_volga_bulgaria_adj_moravian           ;        ;Bulgar;;;
 k_volga_bulgaria_adj_serbian            ;        ;Bulgar;;;
@@ -2617,8 +2617,8 @@ k_volga_bulgaria_adj_bulgarian          ;        ;Bulgar;;;
 k_volga_bulgaria_adj_karantanci         ;        ;Bulgar;;;
 k_volga_bulgaria_adj_bosnian            ;        ;Bulgar;;;
 #;;;;;
-d_bulgar                                ;        ;Bolgar;Bulgar;;Bolghar
-d_bulgar_adj                            ;        ;Bolgar;;;Bulgarian
+d_bulgar                                ;Volga Bulgaria;Bolgar;Bulgar;;Bolghar
+d_bulgar_adj                            ;Volga Bulgarian;Bolgar;;;Bulgarian
 d_bulgar_adj_bohemian                   ;        ;Bulgar;;;
 d_bulgar_adj_moravian                   ;        ;Bulgar;;;
 d_bulgar_adj_russian                    ;        ;Bulgarskiy;;;
@@ -2628,13 +2628,13 @@ d_bulgar_adj_bulgarian                  ;        ;Bulgar;;;
 d_bulgar_adj_karantanci                 ;        ;Bulgar;;;
 d_bulgar_adj_bosnian                    ;        ;Bulgar;;;
 #;;;;;
-d_podonye                               ;        ;Qaratayak;Podonye,Voronežas,Woronesch,Voronež;;
+d_podonye                               ;Voronezh;Qaratayak;Podonye,Voronežas,Woronesch,Voronež;;
 d_podonye_adj                           ;        ;Qaratayakan;;;
 d_podonye_adj_pecheneg                  ;        ;Karatayakan;;;
 d_podonye_adj_oghuz                     ;        ;Karatayakan;;;
 d_podonye_adj_turkmen                   ;        ;Karatayakan;;;
 d_podonye_adj_turkish                   ;        ;Karatayakan;;;
-d_podonye_adj_russian                   ;        ;Podonyskiy;;;
+d_podonye_adj_russian                   ;Podonye ;Podonyskiy;;;
 d_podonye_adj_polish                    ;        ;Voronežian;;;
 d_podonye_adj_pommeranian               ;        ;Voronežian;;;
 d_podonye_adj_bohemian                  ;        ;Voronežian;;;
@@ -2657,7 +2657,7 @@ d_podonye_adj_prussian                  ;        ;Voronežasian;;;
 d_podonye_adj_lettigallish              ;        ;Voronežasian;;;
 d_podonye_adj_lithuanian                ;        ;Voronežas;;;
 #;;;;;
-d_samara                                ;        ;Samar;Samara;;
+d_samara                                ;Samara  ;Samar;Samara;;
 d_samara_adj                            ;        ;Samar;;;
 d_samara_adj_lithuanian                 ;        ;Samaraian;;;
 d_samara_adj_polish                     ;        ;Samaraian;;;
@@ -2713,7 +2713,7 @@ d_samara_adj_east_gothic                ;        ;Samaraian;;;
 d_samara_adj_greek                      ;        ;Samaraian;;;
 d_samara_adj_alan                       ;        ;Samaraian;;;
 #;;;;;
-d_mordva                                ;        ;Mokša;Mäqshä,Mukshi,Muqshi,Jov;Mordva;
+d_mordva                                ;Moksha  ;Mokša;Mäqshä,Mukshi,Muqshi,Jov;Mordva;
 d_mordva_adj                            ;        ;Mokšan;;Mordvan;
 d_mordva_adj_bashkir                    ;        ;Muqshian;;;
 d_mordva_adj_bolghar                    ;        ;Mäqshän;;;
@@ -2741,7 +2741,7 @@ d_mordva_adj_finnish                    ;        ;Jovian;;;
 d_mordva_adj_ugricbaltic                ;        ;Jovian;;;
 d_mordva_adj_livonian                   ;        ;Jovian;;;
 #;;;;;
-d_sura                                  ;        ;Sura;Šur,Sär,Siri;;
+d_sura                                  ;Sura    ;Sura;Šur,Sär,Siri;;
 d_sura_adj                              ;        ;Suran;;;
 d_sura_adj_bashkir                      ;        ;Sarian;;;
 d_sura_adj_bolghar                      ;        ;Särian;;;
@@ -2769,8 +2769,8 @@ d_sura_adj_finnish                      ;        ;Šurian;;;
 d_sura_adj_ugricbaltic                  ;        ;Šurian;;;
 d_sura_adj_livonian                     ;        ;Šurian;;;
 #;;;;;
-d_bashkirs                              ;        ;Bashqurdlar;Baškirye,Baškiria,Bašqurdlär,Bashghirdistan,al-Bashghird;;
-d_bashkirs_adj                          ;        ;Bashqurd;;;
+d_bashkirs                              ;Bashkortostan;Bashqurdlar;Baškirye,Baškiria,Bašqurdlär,Bashghirdistan,al-Bashghird;;
+d_bashkirs_adj                          ;Bashkir ;Bashqurd;;;
 d_bashkirs_adj_polish                   ;        ;Baškir;;;
 d_bashkirs_adj_pommeranian              ;        ;Baškir;;;
 d_bashkirs_adj_bohemian                 ;        ;Baškir;;;
