@@ -25,7 +25,6 @@ def get_cultures(where):
     return cultures
 
 def main():
-    csv.register_dialect('ckii', delimiter=';')
     templates_loc = sed2path / 'templates/localisation'
     templates_lt = sed2path / 'templates/common/landed_titles'
     build = sed2path / 'build'

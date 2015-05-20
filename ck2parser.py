@@ -1,3 +1,4 @@
+import csv
 import datetime
 import re
 import funcparserlib
@@ -15,6 +16,9 @@ token_specs = [
 ]
 useless = ['comment', 'whitespace']
 tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
+
+csv.register_dialect('ckii', delimiter=';', doublequote=False,
+                     quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
 
 def unquote(string):
     return string[1:-1]

@@ -82,7 +82,6 @@ def get_religions(where):
     return religions, rel_groups
 
 def main():
-    csv.register_dialect('ckii', delimiter=';')
     english = collections.defaultdict(str)
     for path in sorted(rootpath.glob('English SWMH/localisation/*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
