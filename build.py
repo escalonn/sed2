@@ -45,7 +45,8 @@ def main():
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                if not row[0].startswith('#') and sed2.get(row[0], True):
+                if (row[0] and not row[0].startswith('#') and
+                    sed2.get(row[0], True)):
                     row[1] = sed2.get(row[0], row[1])
                     row[2:] = [''] * (len(row) - 2)
                     sed2rows.append(row)
