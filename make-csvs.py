@@ -99,11 +99,13 @@ def main():
     for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0].rstrip(): row[1].rstrip()
-                             for row in csv.reader(csvfile, dialect='ckii')})
+                             for row in csv.reader(csvfile, dialect='ckii')
+                             if row[0] and '#' not in row[0]})
     for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_lt.update({(row[0], row[1]): row[2]
-                            for row in csv.reader(csvfile, dialect='ckii')})
+                            for row in csv.reader(csvfile, dialect='ckii')
+                            if row[0] and '#' not in row[0]})
 
     def recurse(v):
         for n2, v2 in v:
@@ -130,7 +132,9 @@ def main():
             col_width = [0, 8]
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
-                    if not row[0].startswith('b_'):
+                    if row[0] and not row[0].startswith('b_'):
+                        if '#' in row[0]:
+                            row = [','.join(row)] + [''] * (len(row) - 1)
                         out_row = [row[0], prev_loc[row[0]], row[1],
                                    ','.join(dynamics[row[0]]), english[row[0]],
                                    vanilla.get(row[0], '')]
