@@ -40,7 +40,7 @@ def main():
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
-            sed2 = {row[0].rstrip(): row[1].rstrip()
+            sed2 = {row[0].strip(): row[1].strip()
                     for row in csv.reader(csvfile, dialect='ckii')}
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
@@ -81,8 +81,9 @@ def main():
         sed2 = collections.defaultdict(list)
         with template.open(encoding='cp1252', newline='') as csvfile:
             for title, key, val, *_ in csv.reader(csvfile, dialect='ckii'):
+                title, key, val = title.strip(), key.strip(), val.strip()
                 if val:
-                    if key == 'male_names':
+                    if key in ['male_names', 'female_names']:
                         val = [x.strip('"')
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
                     sed2[title].append((key, val))

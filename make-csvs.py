@@ -98,12 +98,12 @@ def main():
     templates = rootpath / 'SED2/templates'
     for path in sorted((templates / 'localisation').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_loc.update({row[0].rstrip(): row[1].rstrip()
+            prev_loc.update({row[0].strip(): row[1].strip()
                              for row in csv.reader(csvfile, dialect='ckii')
                              if row[0] and '#' not in row[0]})
     for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
         with path.open(newline='', encoding='cp1252') as csvfile:
-            prev_lt.update({(row[0], row[1]): row[2]
+            prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv.reader(csvfile, dialect='ckii')
                             if row[0] and '#' not in row[0]})
 
@@ -139,8 +139,8 @@ def main():
                                    ','.join(dynamics[row[0]]), english[row[0]],
                                    vanilla.get(row[0], '')]
                         out_rows.append(out_row)
-                        if len(row[0]) > col_width[0] and '#' not in row[0]:
-                            col_width[0] = len(row[0])
+                        if '#' not in row[0]:
+                            col_width[0] = max(len(row[0]), col_width[0])
             for i, out_row in enumerate(out_rows):
                 if '#' not in out_row[0] or i == 0:
                     for col, width in enumerate(col_width):
@@ -153,17 +153,13 @@ def main():
             'dynasty_title_names', 'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
-        rows = []
-        for path in sorted(swmhpath.glob('common/landed_titles/*.txt')):
-            with path.open(encoding='cp1252') as f:
-                rows.extend(recurse(ck2parser.parse(f.read())))
-
         for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
             out_rows = [
-                ['#TITLE', 'KEY', 'SED2VALUE', 'SWMHVALUE']
+                ['#TITLE', 'KEY', 'SED2', 'SWMH']
             ]
+            col_width = [0, 0, 8]
             with inpath.open(encoding='cp1252') as f:
                 item = ck2parser.parse(f.read())
             for title, pairs in recurse(item):
@@ -178,6 +174,11 @@ def main():
                         key=lambda x: lt_keys.index(x[0])):
                         out_row = [title, key, prev_lt[title, key], value]
                         out_rows.append(out_row)
+                        for c in range(2):
+                            col_width[c] = max(len(out_row[c]), col_width[c])
+            for out_row in out_rows:
+                for col, width in enumerate(col_width):
+                    out_row[col] = out_row[col].ljust(width)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
         while templates.exists():
