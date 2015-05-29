@@ -32,9 +32,9 @@ PROV935  ;Amalfi  ;Amalfi;c_amalfi;;Amalfi
 PROV936  ;        ;Hvar;c_hvar,Lesina,Pharos,Pharina;;Cyclades
 PROV937  ;Marsicovetere;Marsico;c_marsico;;Sea of Crete
 PROV938  ;Polimlje;Polimlje;c_polimlje;;Coast of Egypt
-PROV939  ;        ;Phrygía;c_polybotos,Karahisar-i Sahib;;Nile Delta
+#PROV939,Phrygía,Phrygía,Phrygía,,Phrygía,,,,,x,,,,;;;;;
 PROV940  ;        ;Mosynopolis;c_mosynopolis,Gyumyurdzina,Gümülcine;;Sea of Palestine
-PROV941  ;        ;Amaseia;c_amasia,Amâsiyya,Amasée;;Eastern Mediterranean
+#PROV941,Amaseia,Amaseia,Amaseia,,Amaseia,,,,,x,,,,;;;;;
 PROV942  ;Saarbrücken;Saarbrücken;c_saarbrucken,Saarbrücken,Sarrebruck,Saarbruggen;;Western Aegean Sea
 PROV943  ;        ;Knin;c_knin,Tininum;;Näsijärvi
 PROV944  ;        ;Brac;c_brac,Bratz,Brazza,Bretia;;Aral Sea
@@ -62,9 +62,9 @@ PROV965  ;        ;Travunija;c_travunija,Terbounia,Trebigne;;Strait of Dover
 PROV966  ;Vorotynsk;Vorotynsk;c_vorotynsk;;The Solent
 PROV967  ;        ;Eivissa;c_eivissa,Yebisah,Eivissa,Ibiza,Ibiça,Ibice;;Land's End
 PROV968  ;        ;Saone;c_saone,al-Ladiqiya,Laodikeia;;St. George's Channel
-PROV969  ;        ;Sision;c_sis,Kozan,Sis,Sisiya,Sisa;;Sea of Azov
+#PROV969,Sision,Sision,Sision,,Sision,,,,,x,,,,;;;;;
 PROV970  ;Comburg-Rothenburg;Comburg-Röthenburg;c_comburg;;Cabo de Finisterre
-PROV971  ;        ;Philadelpheia;c_philadelphia,Philadelphée,Philadelphea,Ala Šehir;;Bodensee
+#PROV971,Philadelpheia,Philadelpheia,Philadelpheia,,Philadelpheia,,,,,x,,,,;;;;;
 PROV972  ;Pitten  ;Pitten;c_pitten;;Kara-Bogaz Gol
 PROV973  ;Berks   ;Bearroc;c_berks;;Waddenzee
 PROV974  ;        ;Buckingham;c_bucks,Buccingaham;;Bay of Biscay
@@ -163,7 +163,7 @@ PROV1066 ;Wagria  ;Wagrien;c_wargrien;;Danube
 PROV1067 ;Fjordane;Firðafylki;c_foerde;;Danube
 PROV1068 ;Riga    ;Rìga;c_toreida,Toreida,Turaida,Thoreveda;;Danube
 PROV1069 ;Nicosia ;Nikosia;c_nicosia,Lefkosa,Nigosia,Nicosie,Nicosia;;Danube
-PROV1070 ;        ;Vithynion;c_vithynion,Claudiopolis,Bôlî;;Dnieper
+#PROV1070,Vithynion,Vithynion,Vithynion,,Vithynion,,,,,x,,,,;;;;;
 PROV1071 ;Skara   ;Skara;c_skara;;Dnieper
 PROV1072 ;Fjärdhundraland;Fjädrundaland;c_fjadrundaland;;Dnieper
 PROV1073 ;Attundaland;Attundaland;c_attundaland;;Desna
@@ -228,7 +228,7 @@ PROV1131 ;        ;Vicenza;c_bassano,Vicetia,Ouïketía;;Karmanta
 PROV1132 ;        ;Celano;c_celano,Caelanum;;Kirghiz
 PROV1133 ;        ;Rimini;c_rimini,Ariminum,Ariminon;;Vadodara
 PROV1134 ;Enna    ;Castru Jani;c_enna;;Bhumilka
-PROV1135 ;        ;Conversano;c_conversano,Brendesion;;Valabhi
+PROV1135 ;        ;Conversano;c_conversano,Hyria;;Valabhi
 PROV1136 ;        ;Catanzaro;c_catanzaro,Croton,Kroton;;Dvaraka
 PROV1137 ;        ;Guidi;c_guidi,Pistoria;;Mansura
 PROV1138 ;        ;Volterra;c_volterra,Volaterrae,Ouolaterrai;;Bhakkar
@@ -311,10 +311,10 @@ PROV1214 ;Trancoso;Trancoso;c_trancoso,Tranqusu,Trankoso,Trancosu,Trancose;;Tiru
 PROV1215 ;        ;Leiria;c_leiria,Liriyya,Lleiria,Léiry;;Dakhina Desa
 PROV1216 ;        ;Alcaraz;c_alcaraz,al-Karas,Alkaraz;;Talakad
 PROV1217 ;        ;Logroño;c_logrono,Luhjruun,Logronyo,Logroñu,Logronho,Logrogne;;Nandagiri
-PROV1218 ;        ;Sebasteia;c_sebastia,Sebasta,Sébaste,Sivas;;Alampur
+#PROV1218,Sebasteia,Sebasteia,Sebasteia,,Sebasteia,,,,,x,,,,;;;;;
 PROV1219 ;        ;Laranda;c_laranda,Qarâman;;Potapi
 PROV1220 ;        ;Kaisun;c_kaisun,Kaisum,Kaison;;Goa
-PROV1221 ;        ;Anemourion;c_anamur,Anamur,Stalemura,Stallimuri,Ma'muriya;;Vijayawada
+#PROV1221,Anemourion,Anemourion,Anemourion,,Anemourion,,,,,x,,,,;;;;;
 PROV1222 ;In Salah;In Salah;c_insalah;;Rajamahendravaram
 PROV1223 ;        ;Ghadamés;c_ghadames,Cydamus;;Ishim
 PROV1224 ;Takedda ;Tekkeda;c_tekkada;;Kalinganagar
@@ -1075,25 +1075,25 @@ PROV1978 ;        ;Coast of Malabar;;;
 PROV1979 ;        ;Indus Delta;;;
 PROV1980 ;        ;Indus A;;;
 PROV1981 ;        ;Indus B;;;
-PROV1982 ;        ;Aiolía;c_adramyttion,Edremit;;
-PROV1983 ;        ;Mysía;c_akhyraous,Mysie,Karasi;;
-PROV1984 ;        ;Amastris;c_amastris,Amasra;;
-PROV1985 ;        ;Amorion;c_amorion,Amûriyye;;
+#PROV1982,Aiolía,Aiolía,Aiolía,,Aiolía,,,,,x,,,,;;;;;
+#PROV1983,Mysía,Mysía,Mysía,,Mysía,,,,,x,,,,;;;;;
+#PROV1984,Amastris,Amastris,Amastris,,Amastris,,,,,x,,,,;;;;;
+#PROV1985,Amorion,Amorion,Amorion,,Amorion,,,,,x,,,,;;;;;
 #PROV1986,Arkadia,Arkadia,Arkadia,,Arkadia,,,,,x,,,,;;;;;
-PROV1987 ;        ;Archelaïs;c_archelais,Ak Saray;;
-PROV1988 ;        ;Skoutarion;c_chrysopolis,Chrysopolis,Crisopoli,Üsküdar;;
-PROV1989 ;        ;Euchaita;c_eukhaita,Çorum;;
-PROV1990 ;        ;Gangra;c_gangra,Çankiri;;
-PROV1991 ;        ;Mesochaldia;c_mesochaldea,Gümüshane;;
-PROV1992 ;        ;Mylasa;c_mylasa,Menteše;;
-PROV1993 ;        ;Neokaisareia;c_neokaisareia,Néocésarée,Néoésarée,Niksar,Nikisar;;
+#PROV1987,Archelaïs,Archelaïs,Archelaïs,,Archelaïs,,,,,x,,,,;;;;;
+#PROV1988,Skoutarion,Skoutarion,Skoutarion,,Skoutarion,,,,,x,,,,;;;;;
+#PROV1989,Euchaita,Euchaita,Euchaita,,Euchaita,,,,,x,,,,;;;;;
+#PROV1990,Gangra,Gangra,Gangra,,Gangra,,,,,x,,,,;;;;;
+#PROV1991,Mesochaldia,Mesochaldia,Mesochaldia,,Mesochaldia,,,,,x,,,,;;;;;
+#PROV1992,Mylasa,Mylasa,Mylasa,,Mylasa,,,,,x,,,,;;;;;
+#PROV1993,Neokaisareia,Neokaisareia,Neokaisareia,,Neokaisareia,,,,,x,,,,;;;;;
 #PROV1994,Neai Patrai,Neai Patrai,Neai Patrai,,Neai Patrai,,,,,x,,,,;;;;;
-PROV1995 ;        ;Nyssa;c_nyssa,Kuš Hisar;;
+#PROV1995,Nyssa,Nyssa,Nyssa,,Nyssa,,,,,x,,,,;;;;;
 #PROV1996,Raidestos,Raidestos,Raidestos,,Raidestos,,,,,x,,,,;;;;;
-PROV1997 ;        ;Sangarios;c_sangarios,Sögüt;;
-PROV1998 ;        ;Tephrike;c_tephrike,Divrigi,Tewrik;;
-PROV1999 ;        ;Boiotía;c_thebai,Estives,Stivas,Istife;;
+#PROV1997,Sangarios,Sangarios,Sangarios,,Sangarios,,,,,x,,,,;;;;;
+#PROV1998,Tephrike,Tephrike,Tephrike,,Tephrike,,,,,x,,,,;;;;;
+#PROV1999,Boiotía,Boiotía,Boiotía,,Boiotía,,,,,x,,,,;;;;;
 #PROV2000,Lydía,Lydía,Lydía,,Lydía,,,,,x,,,,;;;;;
-PROV2001 ;        ;Tzamandos;c_tzamandos,Sarkisla,Dzamintav;;
-PROV2002 ;        ;Verroia;c_veria,Ber,Karaferye;;
+#PROV2001,Tzamandos,Tzamandos,Tzamandos,,Tzamandos,,,,,x,,,,;;;;;
+#PROV2002,Verroia,Verroia,Verroia,,Verroia,,,,,x,,,,;;;;;
 PROV2003 ;        ;Ran of Kutch;;;

@@ -482,6 +482,18 @@ k_armenia_minor = {
 		religion_group = christian
 	}
 }
+k_bagratid_grand_principality = {
+	color = { 117 178 81 }
+	culture = armenian
+	capital = 681
+	allow = {
+		culture = armenian
+		religion_group = christian
+	}
+	title = ISHKHAN
+	foa = ISHKHAN_FOA
+	title_prefix = ISHKHAN_OF
+}
 d_pagania = {
 	color = { 114 230 1 }
 	capital = 1330
