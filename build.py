@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import collections
 import csv
 import pathlib
@@ -90,7 +92,7 @@ def main():
         with inpath.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
             update_tree(item, sed2, lt_keys)
-        with outpath.open('w', encoding='cp1252') as f:
+        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(ck2parser.to_string(item, fq_keys=cultures))
 
 if __name__ == '__main__':
