@@ -91,7 +91,7 @@ def main():
                 english[row[0]] = row[1]
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
-    religions, rel_groups = get_religions(swmhpath)
+    religions, rel_groups = get_religions(vanillapath)
     dynamics = get_dynamics(swmhpath, cultures, province_id)
     vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
