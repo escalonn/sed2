@@ -3922,43 +3922,8 @@ e_hre = {
 			ruled_years = 5
 			war = no
 			is_adult = yes
-			NOT = {
-				AND = {
-					e_hre = {
-						has_holder = yes
-					}
-					de_jure_liege = e_hre
-				}
-			}
-			OR = {
-				has_landed_title = k_franconia
-				AND = {
-					has_landed_title = k_saxony
-					any_demesne_title = {
-						tier = KING
-						NOT = {
-							title = k_saxony
-						}
-					}
-				}
-				AND = {
-					has_landed_title = k_bavaria
-					any_demesne_title = {
-						tier = king
-						NOT = {
-							title = k_bavaria
-						}
-					}
-				}
-				AND = {
-					has_landed_title = k_schwaben
-					any_demesne_title = {
-						tier = king
-						NOT = {
-							title = k_schwaben
-						}
-					}
-				}
+			e_hre = {
+				has_holder = no
 			}
 		}
 	}
@@ -3976,50 +3941,16 @@ e_hre = {
 				prestige = 2500
 				AND = {
 					NOT = {
-						any_demesne_title = {
-							tier = emperor
-						}
+						tier = EMPEROR
 					}
 					prestige = 700
 				}
 			}
-			OR = {
-				AND = {
-					has_landed_title = d_upper_lorraine
-					has_landed_title = d_brabant
-					de_jure_liege = k_lotharingia
+			FROM = {
+				or = {
+					has_holder = yes
+					is_titular = no
 				}
-				AND = {
-					has_landed_title = k_upper_lorraine
-					has_landed_title = k_lower_lorraine
-				}
-			}
-		}
-		gain_effect = {
-			k_lotharingia = {
-				de_jure_liege = e_hre
-			}
-			primary_title = {
-				k_lotharingia = {
-					grant_title = ROOT
-					copy_title_laws = PREV
-				}
-			}
-			k_upper_lorraine = {
-				any_direct_de_jure_vassal_title = {
-					de_jure_liege = k_lotharingia
-				}
-			}
-			k_lower_lorraine = {
-				any_direct_de_jure_vassal_title = {
-					de_jure_liege = k_lotharingia
-				}
-			}
-			k_upper_lorraine = {
-				destroy_landed_title = THIS
-			}
-			k_lower_lorraine = {
-				destroy_landed_title = THIS
 			}
 		}
 	}
