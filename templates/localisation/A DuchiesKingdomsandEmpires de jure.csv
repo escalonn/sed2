@@ -3023,6 +3023,18 @@ d_lausitz                               ;Lusatia ;Lausitz;;Lausitz;
 d_lausitz_adj                           ;Lusatian;Lausitzische;;Lausitzsche;
 d_lubusz                                ;Lebus   ;Lebus;Lubusz,Lubuš;Lebus;
 d_lubusz_adj                            ;        ;Lubuska;;Lubuska;
+d_rugen                                 ;Rügen   ;Rügen;Rujána,Rugia,Rana,Rugye,Rygen;;
+d_rugen_adj                             ;Rügish  ;Rügish;;;
+d_rugen_adj_north_germanic              ;        ;Rygian;;;
+d_rugen_adj_bohemian                    ;        ;Ruján;;;
+d_rugen_adj_polish                      ;        ;Ruján;;;
+d_rugen_adj_pommeranian                 ;        ;Ranan;;;
+d_rugen_adj_moravian                    ;        ;Ruján;;;
+d_rugen_adj_croatian                    ;        ;Rugish;;;
+d_rugen_adj_bosnian                     ;        ;Rugish;;;
+d_rugen_adj_karantanci                  ;        ;Rugish;;;
+d_rugen_adj_bulgarian                   ;        ;Rugish;;;
+d_rugen_adj_russian                     ;        ;Rugish;;;
 #Livonia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_terra                                 ;Livonia ;Livonia;Liivinmaa,Liivimaa,Lïvõmõ,Livonija,Livland,Liwoni,Livonsko;Livonia;
 k_terra_adj                             ;Livonian;Livonian;;Livonian;
@@ -3140,8 +3152,8 @@ d_tabriz                                ;Gilan   ;Daylam;;Daylam;Tabriz
 d_tabriz_adj                            ;Gilanian;Daylamí;;Daylamí;Tabrizi
 k_maghreb                               ;Maghreb ;Maghreb;;Maghreb;
 k_maghreb_adj                           ;Maghrebi;Maghrebian;;Maghrebian;
-#####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-#Scandinavia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#Scandinavia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 e_scandinavia                           ;Denmark ;Nordmannia;Norðurríki,Thule;Nordmannia;Scandinavia
 e_scandinavia_adj                       ;Danish  ;Nordmannian;;Nordmannian;Scandinavian
@@ -3151,10 +3163,10 @@ e_scandinavia_adj_icelandic             ;Norwegian;Norðr;;Norðan;
 e_scandinavia_adj_gothic                ;Norwegian;Norðr;;Norðan;
 e_scandinavia_adj_swedish               ;Norwegian;Norðr;;Norðan;
 e_scandinavia_adj_norwegian             ;Norwegian;Norðr;;Norðan;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_norway                                ;Norway  ;Norégr;;Norway;Norway
 k_norway_adj                            ;Norwegian;Norskr;;Norwegian;Norwegian
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_ostlandet                             ;Viken   ;Víken;;Víken;Ostlandet
 d_ostlandet_adj                         ;        ;Víkian;;Vikan;Ostlander
 d_trondelag                             ;Trøndelag;Þrœndalóg;;Þrœndalóg;Trøndelag
@@ -3171,12 +3183,12 @@ d_halogaland                            ;Hålogaland;Hálogaland;;Hálogaland;
 d_halogaland_adj                        ;        ;Hálogalandr;;Hálogalandr;
 d_faereyar                              ;the Faroe Islands;Faereyar;;Faereyar;
 d_faereyar_adj                          ;Faroese ;Faereyar;;Faereyar;
-##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_sweden                                ;Sweden  ;Sviaríki;Sviþjod;Sweden;Sweden
 k_sweden_adj                            ;Swedish ;Svenskr;;Swedish;Swedish
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_uppland_adj_norse                     ;Svealand;Sviþjodish;;;Swedish
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_halsingland                           ;Hälsingland;Hälsingland;;Hälsingland;
 d_halsingland_adj                       ;        ;Hälsinglandish;;Norrländish;
 d_sodermandland                         ;Södermanland;Södermanland;;;
@@ -3190,20 +3202,20 @@ d_vastergotland_adj_norse               ;        ;Vestrgautlandish;;;
 d_vastergotland_adj_norwegian           ;        ;Vestrgautlandish;;;
 d_ostergotland_adj_norse                ;        ;Austrgautlandish;;;
 d_ostergotland_adj_norwegian            ;        ;Austrgautlandish;;;
-###,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+###,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_denmark                               ;Denmark ;Danmark;Denemearc,Danmörk;Denmark;Denmark
 k_denmark_adj                           ;Danish  ;Danskr;;Danish;Danish
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_jylland                               ;Jutland ;Jutland;Jütland;Jylland;
 d_jylland_adj                           ;Jutlandic;Jutlandish;;Jyllandian;
 d_slesvig                               ;Schleswig;Sliesvík;Schleswig,Sleswig,Sillende,Sillendi,Sleeswyk;Schleswig;Jylland
 d_slesvig_adj                           ;Schleswigian;Sliesvíkr;;Schleswigian;Jyllander
 d_halland                               ;Halland ;Halland;;;
 d_halland_adj                           ;Hallandish;Hallandish;;;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_sjaelland                             ;Zealand ;Syaland;;Syäland;Sjælland
 d_sjaelland_adj                         ;Zealand ;Syalandish;;Syälander;Sjællander
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_bornholm                              ;Bornholm;Burghændæholm;Borgundarhólmi;Burghændæholm;
 d_bornholm_adj                          ;        ;Burghændæholmr;;Burghændæholmr;
 d_bornholm_adj_norse                    ;        ;Borgundarhólmir;;Borgundarhólmir;
@@ -3211,16 +3223,16 @@ d_bornholm_adj_norwegian                ;        ;Borgundarhólmir;;Borgundarhólm
 #,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,;;;;;
 d_skane                                 ;Scania  ;Skaane;Sconeg;Skane;Skåne
 d_skane_adj                             ;Scanian ;Skaanske;;Skanske;Scanian
-##Iceland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##Iceland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_iceland                               ;Iceland ;Ísland;;Iceland;
 k_iceland_adj                           ;Icelandic;Íslandskr;;Icelandic;
 d_iceland                               ;Iceland ;Ísland;;Iceland;Iceland
 d_iceland_adj                           ;Icelandic;Íslandskr;;Icelandic;Icelandic
-##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-#Caucasus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-#Armenia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#Caucasus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#Armenia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_armenia                               ;Armenia ;Hayk;;Armenia;Armenia
 k_armenia_adj                           ;Armenian;Hayeren;;;Armenian
 d_vaspurakan                            ;Vaspurakan;Vaspurakan;Vaasprakania,Van,Wan;Vaspurakan;
@@ -3303,7 +3315,7 @@ d_abkhazia                              ;Abkhazia;Apkhazeti;Lazica,Lazike;;Abkha
 d_abkhazia_adj                          ;Abkhazian;Apkhazetian;;;Abkhazian
 d_kartli                                ;Kartli  ;Kartli;Iberia;;Kartli
 d_kartli_adj                            ;Kartlian;Kartlian;;;Kartlian
-##Shirvan/Arran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##Shirvan/Arran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_caucasian_albania                     ;Caucasian Albania;Arran;;;
 k_caucasian_albania_adj                 ;Caucasian Albanian;Arran;;;
 d_shirvan                               ;Shirvan ;Shirwan;;;

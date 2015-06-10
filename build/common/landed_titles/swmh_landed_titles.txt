@@ -3372,7 +3372,7 @@ e_hre = {
 		catholic = 3000
 		name_tier = duke
 		d_augsburg = {
-			color = { 110 110 110 }
+			color = { 255 160 122 }
 			color2 = { 255 255 255 }
 			culture = swabian
 			capital = 955
@@ -9244,25 +9244,6 @@ k_pomerania = {
 			b_kozalin = {}
 			b_belgard = {}
 		}
-		c_rugen = {
-			color = { 201 201 201 }
-			color2 = { 255 255 255 }
-			name_tier = duke
-			b_charenza = {}
-			b_greifswald = {}
-			b_stralsund = {}
-			b_barth = {}
-			b_neuenkamp = {}
-			b_arkona = {
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-			}
-			b_rugard = {}
-			b_putbus = {}
-			b_ralswiek = {}
-			b_hiddensee = {}
-			b_eldenaabbey = {}
-		}
 		c_slupsk = {
 			color = { 6 155 25 }
 			color2 = { 255 255 255 }
@@ -9270,6 +9251,30 @@ k_pomerania = {
 			b_darlowo = {}
 			b_slupsk = {}
 			b_slawno = {}
+		}
+	}
+	d_rugen = {
+		color = { 130 93 74 }
+		color2 = { 255 255 255 }
+		capital = 304
+		culture = pommeranian
+		c_rugen = {
+			color = { 201 201 201 }
+			color2 = { 255 255 255 }
+			b_charenza = {}
+			b_arkona = {
+				holy_site = slavic_pagan
+				holy_site = slavic_pagan_reformed
+			}
+			b_rugard = {}
+			b_putbus = {}
+		}
+		c_barth = {
+			color = { 201 201 201 }
+			color2 = { 255 255 255 }
+			b_stralsund = {}
+			b_barth = {}
+			b_eldenaabbey = {}
 		}
 	}
 	d_brandenburg = {
@@ -25592,7 +25597,7 @@ k_ottoman = {
 	capital = 742
 }
 k_rum = {
-	color = { 144 182 161 }
+	color = { 18 125 91 }
 	culture = turkish
 	capital = 759
 	allow = {

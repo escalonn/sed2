@@ -44,7 +44,7 @@ PROV947  ;Brecknockshire;Brycheiniog;c_brycheiniog,Brycheiniog,Brecknock;;Sea of
 PROV948  ;Hesse   ;Hessen;c_hessen;;Gulf of Varna
 PROV949  ;Powys Wenwynwyn;Powys Wenwynwyn;c_powys_wenwynwyn,Powys Wenwynwyn,Powis Wenwynwyn;;Coast of Taurida
 PROV950  ;        ;Ellæmsysæl;c_southern_jylland,Süderjütland,Sillende,Sillendi,Sinlendi;;Black Sea
-PROV951  ;Schwerin;Schwerin;c_schwerin;;Coast of Kolkhida
+PROV951  ;Schwerin;Schwerin;c_schwerin,Zwierzyn,Zverzín,Zuarin,Zvierzín;;Coast of Kolkhida
 PROV952  ;Hanau   ;Hanau;c_frankfurt;;Caspian Sea
 PROV953  ;Bentheim;Bentheim;c_bentheim;;Coast of Morocco
 PROV954  ;Zeitz   ;Zeitz;c_zeitz;;Strait of Gibraltar
@@ -360,7 +360,7 @@ PROV1263 ;Opava   ;Opava;c_opava,Opava,Opawa,Troppau;;Burhanpur
 PROV1264 ;Kuenring;Kuenring;c_kuenring;;Nandurbar
 PROV1265 ;Žatec   ;Zatec;c_zatec,Žatec,Saaz;;Sagar
 PROV1266 ;An Nafud;An Nafud;;;Somnath
-PROV1267 ;Swina   ;Szvuine;c_szvuine;;Vardhamana
+PROV1267 ;the Swina;Swine;c_szvuine,Jómsburgh,Jómsborg,Szvuine,Švuine;;Vardhamana
 PROV1268 ;Koporye ;Koporje;c_koporje;;Dhamalpur
 PROV1269 ;Staraya Russa;Rusa;c_russa;;Canda
 PROV1270 ;Porkhov ;Porhov;c_porkhov;;Kiranapura
@@ -394,9 +394,9 @@ PROV1297 ;        ;Pomesania;c_pomesania,Pomesanien,Pomezania,Pameddi;;Debul
 PROV1298 ;        ;Pogesania;c_pogesania,Pogesanien,Pogezania,Pagudé;;Chanderi
 PROV1299 ;        ;Bartia;c_bartia,Barten,Barcja,Barcia,Barta;;Candhoba
 PROV1300 ;        ;Nadruvia;c_nadruvia,Nadrauen,Nadrowia,Nadruva;;Kota
-PROV1301 ;Swiecie ;Swiecie;c_swiecie;;Mahoba
+PROV1301 ;Czluchów;Schlochau;c_swiecie,Swiecie,Swiéce;;Mahoba
 PROV1302 ;Santok  ;Santok;c_santok;;Chitrakut
-PROV1303 ;Neumark ;Neumark;c_neumark;;Ranikot
+PROV1303 ;Neumark ;Neumark;c_neumark,Cedynia,Cedyne,Cediniô,Cedynye;;Ranikot
 PROV1304 ;Southern Zealand;Syndræ Syaland;c_southern_sjaelland;;Ludrava
 PROV1305 ;Ashmyany;Asmena;c_asmena;;Lake Balkhash
 PROV1306 ;Zaslawye;Izjaslavl';c_zaslawye;;Tura
@@ -406,7 +406,7 @@ PROV1309 ;Vaiga   ;Vaiga;c_vaiga;;Indus
 PROV1310 ;Northern Scania;Nørræ Skane;c_northern_skane;;Indus
 PROV1311 ;Finnveden;Finnveden;c_finnveden;;Ganges
 PROV1312 ;Modruš  ;Modruš;c_modrus,Terponus,Terponos;;Ganges
-PROV1313 ;Bialogard;Belgard;c_belgard;;Ganges
+PROV1313 ;Bialogard;Belgard;c_belgard,Belehrad,Bialogard,Biologard,Bielehrad;;Ganges
 PROV1314 ;Rawa    ;Rawa;c_rawamazovia;;Ganges
 PROV1315 ;Leczyca ;Leczyca;c_leczyca;;Ganges
 PROV1316 ;Savona  ;Savona;c_savona,Savo;;Brahmaputra
@@ -557,7 +557,7 @@ PROV1460 ;        ;Bod;c_bod,Eilean Bhòid,Bute,Bót;;
 PROV1461 ;Aberdeen;Obar Dheathain;c_obardheathain,Obar Dheathain,Aberdeen;;
 PROV1462 ;Kincardine;Cinn Chardainn;c_cinnchardainn,Cinn Chàrdainn,Kincardine;;
 PROV1463 ;Socotra ;Socotra;c_socotra;;
-PROV1464 ;Clackmannan;Chlach Mhannainn;;;
+PROV1464 ;Barth   ;Barth;c_barth,Bardo;;
 PROV1465 ;Dunbartonshire;Dun Breatainn;c_dunbreatainn,Dùn Breatainn,Lennox,Alt Clut;;
 PROV1466 ;        ;Rinn Friu;c_rinnfriu,Strathclyde;;
 PROV1467 ;        ;Na Puballan;c_napuballan,Na Pùballan,Peebles;;
@@ -850,9 +850,9 @@ PROV1753 ;        ;Portugal Coast;;;
 PROV1754 ;        ;Golfo de Cadiz;;;
 PROV1755 ;        ;Tyrifjorden;;;
 PROV1756 ;        ;Dead Sea;;;
-PROV1757 ;        ;North Atlantic;;;
+PROV1757 ;        ;Gulf of Riga;;;
 PROV1758 ;        ;North Atlantic;;;
-PROV1759 ;        ;North Sea;;;
+PROV1759 ;        ;Southern Coast of Norway;;;
 PROV1760 ;        ;North Sea;;;
 PROV1761 ;        ;North Sea;;;
 PROV1762 ;        ;North Sea;;;
@@ -868,14 +868,14 @@ PROV1771 ;        ;North Sea;;;
 PROV1772 ;        ;Øresund;;;
 PROV1773 ;        ;Gulf of Heligoland;;;
 PROV1774 ;        ;Kattegat;;;
-PROV1775 ;        ;Gulf of Danzig;;;
+PROV1775 ;        ;Kolberger Heide;;;
 PROV1776 ;        ;Bight of Hanö;;;
-PROV1777 ;        ;Baltic Sea;;;
+PROV1777 ;        ;Gulf of Danzig;;;
 PROV1778 ;        ;Sea of Åland;;;
 PROV1779 ;        ;Gulf of Finland;;;
 PROV1780 ;        ;Gulf of Bothnia;;;
 PROV1781 ;        ;Gulf of Bothnia;;;
-PROV1782 ;        ;Baie de la Seine;;;
+PROV1782 ;        ;Adriatic Sea;;;
 PROV1783 ;        ;Îles de la Manche;;;
 PROV1784 ;        ;Mauretanian Coast;;;
 PROV1785 ;        ;Lake Peipus;;;
@@ -918,7 +918,7 @@ PROV1821 ;        ;Lake Ilmen;;;
 PROV1822 ;        ;Lake Vörts;;;
 PROV1823 ;        ;Plyussa;;;
 PROV1824 ;        ;Volkhov;;;
-PROV1825 ;        ;Lake Virihaure;;;
+PROV1825 ;        ;Mediterranean Sea;;;
 PROV1826 ;        ;Lake Vastenjaure;;;
 PROV1827 ;        ;Gautelfr;;;
 PROV1828 ;        ;Salsvatnet;;;
