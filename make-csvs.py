@@ -10,7 +10,7 @@ import ck2parser
 
 rootpath = pathlib.Path('..')
 # oldswmhpath = rootpath / 'SWMH/SWMH'
-swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
+swmhpath = rootpath / 'SWMH-BETA/SWMH'
 vanillapath = pathlib.Path(
     'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
 

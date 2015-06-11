@@ -8,7 +8,7 @@ import shutil
 import ck2parser
 
 rootpath = pathlib.Path('..')
-swmhpath = rootpath / 'SWMH-BETA/SWMH_EE'
+swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
 def valid_codename(string):
