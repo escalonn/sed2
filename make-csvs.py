@@ -14,15 +14,9 @@ swmhpath = rootpath / 'SWMH-BETA/SWMH'
 vanillapath = pathlib.Path(
     'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
 
-def valid_codename(string):
-    try:
-        return re.match(r'[ekdcb]_', string)
-    except TypeError:
-        return False
-
 def get_locs(where):
     locs = {}
-    for path in sorted(where.glob('localisation/*.csv')):
+    for path in ck2parser.files(where, 'localisation/*.csv'):
         with path.open(newline='', encoding='cp1252',
                        errors='replace') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
@@ -31,7 +25,7 @@ def get_locs(where):
 
 def get_province_id(where):
     province_id = collections.OrderedDict()
-    for path in sorted(where.glob('history/provinces/*.txt')):
+    for path in ck2parser.files(where, 'history/provinces/*.txt'):
         with path.open(encoding='cp1252') as f:
             tree = ck2parser.parse(f.read())
         try:
@@ -48,7 +42,7 @@ def get_dynamics(where, cultures, prov_id):
 
     def recurse(v, n=None):
         for n1, v1 in v:
-            if not valid_codename(n1):
+            if not ck2parser.is_codename(n1):
                 continue
             for n2, v2 in v1:
                 if n2 in cultures:
@@ -58,14 +52,14 @@ def get_dynamics(where, cultures, prov_id):
                         dynamics[prov_id[n1]].append(v2)
             recurse(v1, n1)
 
-    for path in sorted(where.glob('common/landed_titles/*.txt')):
+    for path in ck2parser.files(where, 'common/landed_titles/*.txt'):
         with path.open(encoding='cp1252') as f:
             recurse(ck2parser.parse(f.read()))
     return dynamics
 
 def get_cultures(where):
     cultures = []
-    for path in sorted(where.glob('common/cultures/*.txt')):
+    for path in ck2parser.files(where, 'common/cultures/*.txt'):
         with path.open(encoding='cp1252') as f:
             tree = ck2parser.parse(f.read())
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
@@ -75,7 +69,7 @@ def get_cultures(where):
 def get_religions(where):
     religions = []
     rel_groups = []
-    for path in sorted(where.glob('common/religions/*.txt')):
+    for path in ck2parser.files(where, 'common/religions/*.txt'):
         with path.open(encoding='cp1252') as f:
             item = ck2parser.parse(f.read())
         religions.extend(n2 for _, v in item for n2, v2 in v if isinstance(v2,
@@ -85,7 +79,7 @@ def get_religions(where):
 
 def main():
     english = collections.defaultdict(str)
-    for path in sorted(rootpath.glob('English SWMH/localisation/*.csv')):
+    for path in ck2parser.files(rootpath, 'English SWMH/localisation/*.csv'):
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
                 english[row[0]] = row[1]
@@ -98,12 +92,12 @@ def main():
     prev_lt = collections.defaultdict(str)
 
     templates = rootpath / 'SED2/templates'
-    for path in sorted((templates / 'localisation').glob('*.csv')):
+    for path in ck2parser.files(templates, 'localisation/*.csv'):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0].strip(): row[1].strip()
                              for row in csv.reader(csvfile, dialect='ckii')
                              if row[0] and '#' not in row[0]})
-    for path in sorted((templates / 'common/landed_titles').glob('*.csv')):
+    for path in ck2parser.files(templates, 'common/landed_titles/*.csv'):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv.reader(csvfile, dialect='ckii')
@@ -111,7 +105,7 @@ def main():
 
     def recurse(v):
         for n2, v2 in v:
-            if not valid_codename(n2):
+            if not ck2parser.is_codename(n2):
                 continue
             items = []
             for n3, v3 in v2:
@@ -126,7 +120,7 @@ def main():
         templates_t = pathlib.Path(td)
         (templates_t / 'localisation').mkdir(parents=True)
         (templates_t / 'common/landed_titles').mkdir(parents=True)
-        for inpath in sorted(swmhpath.glob('localisation/*.csv')):
+        for inpath in ck2parser.files(swmhpath, 'localisation/*.csv'):
             outpath = templates_t / 'localisation' / inpath.name
             out_rows = [
                 ['#CODE', 'SED2', 'SWMH', 'OTHERSWMH', 'SED1', 'VANILLA']
@@ -155,7 +149,7 @@ def main():
             'dynasty_title_names', 'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
-        for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+        for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
             out_rows = [

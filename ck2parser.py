@@ -2,10 +2,23 @@
 
 import csv
 import datetime
+import operator
 import re
 import funcparserlib
 import funcparserlib.lexer
 import funcparserlib.parser
+
+csv.register_dialect('ckii', delimiter=';', doublequote=False,
+                     quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
+
+def files(where, glob):
+    yield from sorted(where.glob(glob), key=operator.attrgetter('parts'))
+
+def is_codename(string):
+    try:
+        return re.match(r'[ekdcb]_', string)
+    except TypeError:
+        return False
 
 token_specs = [
     ('comment', (r'#.*',)),
@@ -18,9 +31,6 @@ token_specs = [
 ]
 useless = ['comment', 'whitespace']
 tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
-
-csv.register_dialect('ckii', delimiter=';', doublequote=False,
-                     quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
 
 def unquote(string):
     return string[1:-1]

@@ -11,15 +11,9 @@ rootpath = pathlib.Path('..')
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
-def valid_codename(string):
-    try:
-        return re.match(r'[ekdcb]_', string)
-    except TypeError:
-        return False
-
 def get_cultures(where):
     cultures = []
-    for path in sorted(where.glob('common/cultures/*.txt')):
+    for path in ck2parser.files(where, 'common/cultures/*.txt'):
         with path.open(encoding='cp1252') as f:
             tree = ck2parser.parse(f.read())
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
@@ -38,7 +32,7 @@ def main():
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
 
-    for inpath in sorted(swmhpath.glob('localisation/*.csv')):
+    for inpath in ck2parser.files(swmhpath, 'localisation/*.csv'):
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
@@ -62,7 +56,7 @@ def main():
 
     def update_tree(v, sed2, lt_keys):
         for n2, v2 in v:
-            if valid_codename(n2):
+            if ck2parser.is_codename(n2):
                 if n2.startswith('b_'):
                     for n3, v3 in reversed(v2):
                         if n3 in cultures:
@@ -73,11 +67,11 @@ def main():
                             v2.remove((n3, v3))
                     if sed2[n2]:
                         index = next((i for i, (n3, _) in enumerate(v2)
-                                      if valid_codename(n3)), len(v2))
+                                      if ck2parser.is_codename(n3)), len(v2))
                         v2[index:index] = sed2[n2]
                 update_tree(v2, sed2, lt_keys)
 
-    for inpath in sorted(swmhpath.glob('common/landed_titles/*.txt')):
+    for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2 = collections.defaultdict(list)
