@@ -3291,11 +3291,7 @@ e_hre = {
 				color2 = { 255 255 255 }
 				culture = karantanci
 				b_mitterburg = {}
-				b_brsec = {}
-				b_pinguente = {}
-				b_pietrapelosa = {}
 				b_motovun = {}
-				b_lupoglav = {}
 				b_pican = {}
 				b_labin = {}
 			}
@@ -3305,13 +3301,9 @@ e_hre = {
 				culture = karantanci
 				b_triest = {}
 				b_pula = {}
-				b_rovinj = {}
 				b_pirano = {}
 				b_koper = {}
-				b_porec = {}
 				b_duino = {}
-				b_umag = {}
-				b_muggia = {}
 			}
 			allow = {
 				OR = {
@@ -5501,7 +5493,7 @@ e_byzantium = {
 		color = { 113 88 101 }
 		color2 = { 255 255 255 }
 		capital = 499
-		culture = greek
+		culture = bulgarian
 		allow = {
 			religion_group = christian
 			liege = {
@@ -5542,28 +5534,27 @@ e_byzantium = {
 				color2 = { 255 255 255 }
 				b_serdica = {}
 				b_vratsa = {}
-				b_etropole = {}
 				b_breznik = {}
-				b_samokov = {}
 				b_samundzhievo = {}
+				b_etropole = {}
 			}
 			c_dorostotum = {
 				color = { 162 47 205 }
 				color2 = { 255 255 255 }
 				b_preslav = {}
-				b_silistra = {}
-				b_shumen = {}
-				b_cherven_bulgaria = {}
-				b_ivanovo = {}
 				b_pliska = {}
+				b_ivanovo = {}
+				b_silistra = {}
+				b_cherven_bulgaria = {}
+				b_shumen = {}
 			}
 			c_nikopolis = {
 				color = { 160 45 203 }
 				color2 = { 255 255 255 }
 				b_kran = {}
 				b_silven = {}
-				b_tryavna = {}
 				b_kteina = {}
+				b_tryavna = {}
 			}
 		}
 		d_karvuna = {
@@ -5623,25 +5614,21 @@ e_byzantium = {
 				color = { 216 77 168 }
 				color2 = { 255 255 20 }
 				b_adrianopolis = {}
-				b_matochina = {}
-				b_lyutitsa = {}
 				b_versinikia = {}
-				b_mezek = {}
+				b_lyutitsa = {}
 				b_kardzahli = {}
 				b_perperikon = {}
+				b_matochina = {}
 			}
 			c_philippopolis = {
 				color = { 219 80 171 }
 				color2 = { 255 255 20 }
 				b_tespina = {}
-				b_plovdiv = {}
-				b_ustra = {}
 				b_asenscastle_petrich = {}
-				b_bachkovo = {}
-				b_krichim = {}
+				b_plovdiv = {}
 				b_perushtitsa = {}
 				b_steinmahos = {}
-				b_kuklen = {}
+				b_bachkovo = {}
 			}
 			c_mesembria = {
 				color = { 207 92 250 }
@@ -5650,12 +5637,9 @@ e_byzantium = {
 				b_pomorie = {}
 				b_yambol = {}
 				b_aetos_bulgaria = {}
-				b_markeli = {}
-				b_sozopol = {}
-				b_lardea = {}
 				b_rusokastro = {}
 				b_debelt = {}
-				b_bourgas = {}
+				b_sozopol = {}
 			}
 			c_kopsis = {
 				color = { 60 15 43 }
@@ -5672,11 +5656,11 @@ e_byzantium = {
 			c_vidin = {
 				color = { 124 105 60 }
 				color2 = { 255 255 255 }
+				east_gtohic = Bononia
 				b_vidin = {}
 				b_archar = {}
 				b_svrljig = {}
 				b_kozal = {}
-				b_klisurski = {}
 				b_belogradchik = {}
 			}
 			c_branicevo = {
@@ -5685,13 +5669,8 @@ e_byzantium = {
 				b_branicevo = {}
 				b_golubac = {}
 				b_cuprija_ravno = {}
-				b_manasija = {}
-				b_ram_branicevo = {}
-				b_sutjeska = {}
-				b_ravanica_monestary = {}
-				b_stalac = {}
 				b_krusevac = {}
-				b_zhdrelo = {}
+				b_ram_branicevo = {}
 				b_kucevo = {}
 			}
 		}
@@ -5800,7 +5779,6 @@ e_byzantium = {
 				b_pec_hvosno = {}
 				b_zvecan = {}
 				b_pristina = {}
-				b_vushtri = {}
 				b_strpce = {}
 			}
 			c_macva = {
@@ -5809,8 +5787,6 @@ e_byzantium = {
 				b_macva = {}
 				b_debrc = {}
 				b_uzice = {}
-				b_valjevo = {}
-				b_tronosa = {}
 			}
 			c_belgrade = {
 				color = { 150 124 61 }
@@ -5831,24 +5807,15 @@ e_byzantium = {
 				b_borac = {}
 				b_rogatica = {}
 				b_vlasenica = {}
-				b_srebnica = {}
-				b_kuclat = {}
-				b_dobrun = {}
-				b_srebrnica = {}
-				b_hoca = {}
 			}
 			c_polimlje = {
 				color = { 81 50 20 }
 				color2 = { 255 255 255 }
 				b_berane = {}
+				b_mileseva = {}
 				b_prijepolje = {}
 				b_brskovo = {}
-				b_jezera = {}
 				b_foca = {}
-				b_ustipraca = {}
-				b_gorazde = {}
-				b_bukovica = {}
-				b_mileseva = {}
 			}
 			c_zachlumia = {
 				color = { 166 57 57 }
@@ -5857,10 +5824,7 @@ e_byzantium = {
 				b_kljuc = {}
 				b_zaborani = {}
 				b_stolac = {}
-				b_konjic = {}
 				b_gacko = {}
-				b_nevesinje = {}
-				b_ljubinje = {}
 				b_biskup = {}
 			}
 		}
@@ -5881,35 +5845,26 @@ e_byzantium = {
 				color = { 131 96 15 }
 				color2 = { 255 255 255 }
 				b_podgorica = {}
+				b_dioclea = {}
 				b_skadar = {}
 				b_zabljak_crnojevica = {}
-				b_cetinje = {}
 				b_drivast = {}
-				b_dioclea = {}
-				b_danj = {}
 			}
 			c_primorje = {
 				color = { 151 96 15 }
 				color2 = { 255 255 255 }
 				b_kotor = {}
+				b_kraljic_krajina = {}
 				b_bar = {}
 				b_ulcinj = {}
-				b_risan = {}
-				b_herceg_novi = {}
 				b_budva = {}
-				b_perast = {}
-				b_kraljic_krajina = {}
 			}
 			c_travunija = {
 				color = { 145 35 35 }
 				color2 = { 255 255 255 }
 				b_trebinje = {}
 				b_onogost = {}
-				b_moraca = {}
 				b_medun = {}
-				b_bileca = {}
-				b_klobuk = {}
-				b_vrm = {}
 			}
 		}
 		allow = {
@@ -5940,10 +5895,7 @@ e_byzantium = {
 				b_cavtat = {}
 				b_lokrum = {}
 				b_mljet = {}
-				b_zaton = {}
 				b_slano = {}
-				b_kolocep = {}
-				b_sipan = {}
 			}
 		}
 		allow = {
@@ -6873,7 +6825,6 @@ e_hungary = {
 				b_slankamen = {}
 				b_sremska_mitrovica = {}
 				b_morovic = {}
-				b_berkasovo = {}
 			}
 			c_krizevci = {
 				color = { 186 139 139 }
@@ -6881,9 +6832,8 @@ e_hungary = {
 				b_vukovar = {}
 				b_ilok = {}
 				b_osijek = {}
-				b_dakovo = {}
-				b_nasice = {}
 				b_gorjani = {}
+				b_dakovo = {}
 			}
 		}
 		d_pest = {
@@ -6986,14 +6936,10 @@ e_hungary = {
 				color2 = { 255 255 255 }
 				culture = bosnian
 				b_bobovac = {}
-				b_vrhbosna = {}
 				b_visoki = {}
-				b_kraljeva_sutjeska = {}
 				b_mile = {}
 				b_olovac = {}
-				b_hodidjed = {}
 				b_mostre = {}
-				b_praca = {}
 			}
 			c_rama = {
 				color = { 197 118 118 }
@@ -7012,10 +6958,6 @@ e_hungary = {
 				b_jajce = {}
 				b_greben_castle = {}
 				b_bjelaj = {}
-				b_kotor_varos = {}
-				b_kljucnasani = {}
-				b_bosanski_petrovac = {}
-				b_zemljanik = {}
 			}
 			c_zavrsje = {
 				color = { 177 138 118 }
@@ -7026,19 +6968,26 @@ e_hungary = {
 				b_duvno = {}
 				b_humac = {}
 			}
+		}
+		d_usora_i_soli = {
+			color = { 145 157 140 }
+			color2 = { 255 255 255 }
+			capital = 463
+			culture = bosnian
+			c_soli = {
+				color = { 90 166 41 }
+				color2 = { 255 255 255 }
+				culture = bosnian
+				b_soli = {}
+				b_srebenik = {}
+			}
 			c_usora = {
 				color = { 200 121 121 }
 				color2 = { 255 255 255 }
 				culture = bosnian
-				b_soli = {}
 				b_dobojgrad = {}
-				b_srebnik = {}
 				b_tesanj = {}
-				b_modrica = {}
-				b_maglaj = {}
-				b_zvornik = {}
 				b_tolisa = {}
-				b_doborgrad = {}
 			}
 		}
 	}
@@ -7072,7 +7021,6 @@ e_hungary = {
 				b_knin = {}
 				b_cucevo = {}
 				b_necven = {}
-				b_kamicak = {}
 				b_gradina_drnis = {}
 			}
 			c_bribir = {
@@ -7082,18 +7030,14 @@ e_hungary = {
 				b_vrana = {}
 				b_biograd_na_moru = {}
 				b_skradin = {}
-				b_trosenj = {}
 			}
 			c_zadar = {
 				color = { 188 141 141 }
 				color2 = { 255 255 255 }
 				b_zadar = {}
 				b_nin = {}
-				b_novigrad_zadar = {}
 				b_obrovac = {}
-				b_cissa_pag = {}
 				b_pag = {}
-				b_maun_monestary = {}
 			}
 			c_omis = {
 				color = { 66 17 21 }
@@ -7102,8 +7046,6 @@ e_hungary = {
 				b_makarska = {}
 				b_gabela = {}
 				b_imotski = {}
-				b_zmijavci = {}
-				b_brstanik = {}
 			}
 		}
 		d_krk = {
@@ -7114,10 +7056,10 @@ e_hungary = {
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
 				b_krk = {}
-				b_baska = {}
 				b_omisalj = {}
 				b_dobrinj = {}
 				b_vrbnik_krk = {}
+				b_baska = {}
 			}
 			c_cres = {
 				color = { 174 65 65 }
@@ -7135,19 +7077,14 @@ e_hungary = {
 				color2 = { 255 255 255 }
 				b_hvar_stari_grad = {}
 				b_jelsa = {}
-				b_vrboska = {}
-				b_galsenik_castle_hvar = {}
 				b_vis = {}
-				b_komiza = {}
 			}
 			c_korcula = {
 				color = { 106 143 59 }
 				color2 = { 255 255 255 }
 				b_korcula = {}
 				b_blato = {}
-				b_krkar = {}
 				b_lastovo = {}
-				b_cara_korcula = {}
 			}
 			c_brac = {
 				color = { 143 140 58 }
@@ -7155,7 +7092,6 @@ e_hungary = {
 				b_nerezisca = {}
 				b_supetar = {}
 				b_bol_brac = {}
-				b_murciva = {}
 			}
 		}
 		d_croatia = {
@@ -7168,11 +7104,8 @@ e_hungary = {
 				b_vodicevo_una = {}
 				b_zrin = {}
 				b_blagaj_japra = {}
-				b_unac = {}
 				b_stenicnjak = {}
-				b_novigrad_vodica = {}
 				b_bosanska_krupa = {}
-				b_cetin = {}
 				b_dubica = {}
 			}
 			c_modrus = {
@@ -7182,37 +7115,28 @@ e_hungary = {
 				b_trsat = {}
 				b_rijeka = {}
 				b_grobnik_vinodol = {}
-				b_drivenik = {}
-				b_bakar_modrus = {}
-				b_grizane = {}
-				b_hrejlin = {}
 			}
 			c_senj = {
 				color = { 170 61 61 }
 				color2 = { 255 255 255 }
 				b_senj = {}
 				b_udbina_krbava = {}
-				b_brinje = {}
 				b_bihac = {}
-				b_kaseg = {}
 			}
 			c_okic = {
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
 				b_okic = {}
+				b_topusko = {}
 				b_ozalj = {}
 				b_samobor = {}
-				b_buzim = {}
-				b_topusko = {}
 			}
 			c_vrbas = {
 				color = { 100 121 121 }
 				color2 = { 255 255 255 }
 				b_vrbaski_grad = {}
-				b_kozarac = {}
-				b_zvecaj = {}
-				b_glaz_ukrina = {}
 				b_liplje = {}
+				b_kozarac = {}
 			}
 		}
 		d_slavonia = {
@@ -7228,10 +7152,7 @@ e_hungary = {
 				b_gradec_zagreb = {}
 				b_kaptol = {}
 				b_bozjakovina = {}
-				b_vrbovec = {}
-				b_gornji_tkalec = {}
 				b_medvedgrad = {}
-				b_caszma = {}
 				b_sisak = {}
 			}
 			c_pozega = {
@@ -7240,9 +7161,6 @@ e_hungary = {
 				b_pozega = {}
 				b_brod = {}
 				b_kutjevo = {}
-				b_kobas = {}
-				b_cernik_pozega = {}
-				b_zapolje_pozega = {}
 			}
 			c_varadzin = {
 				color = { 191 143 143 }
@@ -7250,14 +7168,7 @@ e_hungary = {
 				b_kraprina = {}
 				b_varazdin = {}
 				b_vitrovica = {}
-				b_belecgrad = {}
-				b_loborgrad = {}
-				b_knegine = {}
 				b_krizevci = {}
-				b_krapina = {}
-				b_lepoglava = {}
-				b_vaska = {}
-				b_sromana_zagorje = {}
 			}
 		}
 	}
@@ -20120,10 +20031,6 @@ k_canarias = {
 			color2 = { 255 255 255 }
 			b_machico = {}
 			b_camara = {}
-		}
-		c_porto_santo = {
-			color = { 43 17 60 }
-			color2 = { 255 255 255 }
 			b_porto_santo = {}
 		}
 	}
