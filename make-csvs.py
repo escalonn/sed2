@@ -169,6 +169,10 @@ def main():
                     for key, value in sorted(pairs,
                         key=lambda x: lt_keys.index(x[0])):
                         out_row = [title, key, prev_lt[title, key], value]
+                        # don't allow changes to anything but dynamic names...
+                        # just for now
+                        if key in lt_keys_not_cultures:
+                            out_row[2] = value
                         out_rows.append(out_row)
                         for c in range(2):
                             col_width[c] = max(len(out_row[c]), col_width[c])
