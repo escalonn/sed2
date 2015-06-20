@@ -2949,8 +2949,6 @@ c_gemer                         ;roman               ;        ;Arrabona
 c_sopron                        ;german              ;        ;Ödenburg
 c_sopron                        ;greek               ;        ;Skarabantia
 c_sopron                        ;roman               ;        ;Scarabantia
-c_marmaros                      ;german              ;        ;Maramuresch
-c_marmaros                      ;romanian            ;        ;Maramures
 d_nyitra                        ;german              ;        ;Neutra
 d_nyitra                        ;bohemian            ;        ;Nitra
 d_nyitra                        ;moravian            ;        ;Nitra
@@ -3018,20 +3016,64 @@ d_ujavar                        ;name_tier           ;count   ;count
 c_abauj                         ;german              ;        ;Abaujwar
 c_abauj                         ;moravian            ;        ;Abov
 d_csanad                        ;german              ;        ;Tschanad
+d_csanad                        ;greek               ;Morisena;Morisena
+d_csanad                        ;east_gothic         ;Morisena;Morisena
+d_csanad                        ;romanian            ;        ;Cenad
+d_csanad                        ;bohemian            ;        ;Chanád
+d_csanad                        ;moravian            ;        ;Chanad
+d_csanad                        ;roman               ;Morisena;Morisena
 c_csanad                        ;german              ;        ;Tschanad
-c_temes                         ;german              ;        ;Temesch
-c_temes                         ;romanian            ;        ;Timsoara
+c_csanad                        ;greek               ;        ;Morisena
+c_csanad                        ;east_gothic         ;        ;Morisena
+c_csanad                        ;romanian            ;        ;Cenad
+c_csanad                        ;bohemian            ;        ;Chanád
+c_csanad                        ;moravian            ;        ;Chanad
+c_csanad                        ;roman               ;        ;Morisena
+c_krasso                        ;romanian            ;        ;Carashova
+c_krasso                        ;turkish             ;        ;Adakale
+c_krasso                        ;turkmen             ;        ;Adakale
+c_krasso                        ;oghuz               ;        ;Adakale
+c_krasso                        ;pecheneg            ;        ;Adakale
+c_krasso                        ;croatian            ;        ;Karaševo
+c_krasso                        ;serbian             ;        ;Karaševo
+c_krasso                        ;bosnian             ;        ;Karaševo
+c_temes                         ;german              ;        ;Temes
+c_temes                         ;romanian            ;        ;Timish
 c_temes                         ;moravian            ;        ;Temeš
-c_temes                         ;serbian             ;        ;Tamiš
+c_temes                         ;croatian            ;        ;Temiš
+c_temes                         ;serbian             ;        ;Temiš
+c_temes                         ;bosnian             ;        ;Temiš
+c_temes                         ;bulgarian           ;        ;Timiš
+c_temes                         ;roman               ;        ;Tymes
+d_bacs                          ;german              ;        ;Batsch
+d_bacs                          ;romanian            ;        ;Baci
+d_bacs                          ;turkish             ;        ;Baç
+d_bacs                          ;turkmen             ;        ;Baç
+d_bacs                          ;oghuz               ;        ;Baç
+d_bacs                          ;pecheneg            ;        ;Baç
+d_bacs                          ;bohemian            ;        ;Bách
+d_bacs                          ;moravian            ;        ;Bách
+d_bacs                          ;croatian            ;        ;Bach
+d_bacs                          ;serbian             ;        ;Bach
+d_bacs                          ;bosnian             ;        ;Bach
+c_bacs                          ;german              ;        ;Batsch
+c_bacs                          ;romanian            ;        ;Baci
+c_bacs                          ;turkish             ;        ;Baç
+c_bacs                          ;turkmen             ;        ;Baç
+c_bacs                          ;oghuz               ;        ;Baç
+c_bacs                          ;pecheneg            ;        ;Baç
+c_bacs                          ;bohemian            ;        ;Bách
+c_bacs                          ;moravian            ;        ;Bách
+c_bacs                          ;croatian            ;        ;Bach
+c_bacs                          ;serbian             ;        ;Bach
+c_bacs                          ;bosnian             ;        ;Bach
 c_szekezfehervar                ;german              ;        ;Stuhlweißenburg
 c_szekezfehervar                ;romanian            ;        ;Ciongrad
 c_szekezfehervar                ;bohemian            ;        ;Czernohrad
 c_szekezfehervar                ;moravian            ;        ;Cierny hrad
 d_syrmia                        ;german              ;        ;Syrmien
-d_syrmia                        ;armenian            ;        ;Syrmia
 d_syrmia                        ;greek               ;Pannonia Secunda;Pannonia Secunda
-d_syrmia                        ;east_gothic         ;        ;Syrmia
-d_syrmia                        ;georgian            ;        ;Syrmia
+d_syrmia                        ;east_gothic         ;Pannonia Secunda;Pannonia Secunda
 d_syrmia                        ;turkish             ;        ;Sirem
 d_syrmia                        ;russian             ;Szeged  ;Segedín
 d_syrmia                        ;moravian            ;        ;Sriem
@@ -3056,7 +3098,14 @@ c_krizevci                      ;greek               ;        ;Moursa
 c_krizevci                      ;hungarian           ;        ;Vlco
 c_krizevci                      ;szekely             ;        ;Vlco
 c_krizevci                      ;roman               ;        ;Mursa
+c_zarand                        ;romanian            ;        ;Zarand
 c_bihar                         ;romanian            ;        ;Bihor
+c_bihar                         ;bohemian            ;        ;Bihár
+c_bihar                         ;moravian            ;        ;Bihár
+c_bekes                         ;german              ;        ;Bekesch
+c_bekes                         ;romanian            ;        ;Bischish
+c_bekes                         ;bohemian            ;        ;Békéš
+c_bekes                         ;moravian            ;        ;Békéš
 d_transylvania                  ;german              ;        ;Siebenbürgen
 d_transylvania                  ;romanian            ;        ;Ardeal
 d_transylvania                  ;turkish             ;        ;Erdehstan
@@ -3078,8 +3127,8 @@ c_feher                         ;oghuz               ;        ;Belgrad-i Erdel
 c_feher                         ;pecheneg            ;        ;Belgrad-i Erdel
 c_burzenland                    ;german              ;        ;Tara Bârsei
 c_burzenland                    ;romanian            ;        ;Tara Bârsei
-c_pest                          ;german              ;        ;Sathmar
-c_pest                          ;romanian            ;        ;Satmar
+c_marmaros                      ;german              ;        ;Sathmar
+c_marmaros                      ;romanian            ;        ;Maramures
 c_vrhbosna                      ;greek               ;        ;Vrelobosna
 c_vrhbosna                      ;east_gothic         ;        ;Vrelobosna
 c_vrhbosna                      ;turkish             ;        ;Saraybosna
