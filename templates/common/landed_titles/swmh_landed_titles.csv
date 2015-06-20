@@ -3036,6 +3036,7 @@ d_syrmia                        ;turkish             ;        ;Sirem
 d_syrmia                        ;russian             ;Szeged  ;Segedín
 d_syrmia                        ;moravian            ;        ;Sriem
 d_syrmia                        ;hungarian           ;        ;Szerém
+d_syrmia                        ;szekely             ;        ;Szerém
 d_syrmia                        ;roman               ;Pannonia Secunda;Pannonia Secunda
 c_syrmia                        ;german              ;        ;Syrmien
 c_syrmia                        ;armenian            ;        ;Syrmia
@@ -3048,30 +3049,53 @@ c_syrmia                        ;oghuz               ;        ;Sirem
 c_syrmia                        ;pecheneg            ;        ;Sirem
 c_syrmia                        ;russian             ;        ;Segedín
 c_syrmia                        ;moravian            ;        ;Sriem
-c_syrmia                        ;hungarian           ;        ;Szerém
-c_syrmia                        ;szekely             ;        ;Szerém
+c_syrmia                        ;hungarian           ;        ;Bolgyán
+c_syrmia                        ;szekely             ;        ;Bolgyán
 c_krizevci                      ;german              ;        ;Wukowar
 c_krizevci                      ;greek               ;        ;Moursa
 c_krizevci                      ;hungarian           ;        ;Vlco
 c_krizevci                      ;szekely             ;        ;Vlco
 c_krizevci                      ;roman               ;        ;Mursa
 c_bihar                         ;romanian            ;        ;Bihor
-c_vrhbosna                      ;armenian            ;        ;Vrelobosna
+d_transylvania                  ;german              ;        ;Siebenbürgen
+d_transylvania                  ;romanian            ;        ;Ardeal
+d_transylvania                  ;turkish             ;        ;Erdehstan
+d_transylvania                  ;turkmen             ;        ;Erdehstan
+d_transylvania                  ;oghuz               ;        ;Erdehstan
+d_transylvania                  ;pecheneg            ;        ;Erdehstan
+d_transylvania                  ;polish              ;        ;Siedmiogród
+d_transylvania                  ;bohemian            ;        ;Sedmohradsko
+d_transylvania                  ;moravian            ;        ;Sedmohradsko
+c_szekelyfold                   ;german              ;        ;Thorenburg
+c_szekelyfold                   ;romanian            ;        ;Turda
+c_feher                         ;german              ;        ;Weißenburg
+c_feher                         ;low_german          ;        ;Weyssenburg
+c_feher                         ;low_saxon           ;        ;Weyssenburg
+c_feher                         ;romanian            ;        ;Alba de Jos
+c_feher                         ;turkish             ;        ;Belgrad-i Erdel
+c_feher                         ;turkmen             ;        ;Belgrad-i Erdel
+c_feher                         ;oghuz               ;        ;Belgrad-i Erdel
+c_feher                         ;pecheneg            ;        ;Belgrad-i Erdel
+c_burzenland                    ;german              ;        ;Tara Bârsei
+c_burzenland                    ;romanian            ;        ;Tara Bârsei
+c_pest                          ;german              ;        ;Sathmar
+c_pest                          ;romanian            ;        ;Satmar
 c_vrhbosna                      ;greek               ;        ;Vrelobosna
 c_vrhbosna                      ;east_gothic         ;        ;Vrelobosna
-c_vrhbosna                      ;arberian            ;        ;Vrelobosna
-c_vrhbosna                      ;georgian            ;        ;Vrelobosna
 c_vrhbosna                      ;turkish             ;        ;Saraybosna
+c_vrhbosna                      ;turkmen             ;        ;Saraybosna
+c_vrhbosna                      ;oghuz               ;        ;Saraybosna
+c_vrhbosna                      ;pecheneg            ;        ;Saraybosna
 c_zavrsje                       ;greek               ;        ;Delminithós
+c_zavrsje                       ;east_gothic         ;        ;Delminithós
 c_zavrsje                       ;roman               ;        ;Delminium
 c_soli                          ;german              ;        ;Salinae
-c_soli                          ;armenian            ;        ;Salines
 c_soli                          ;greek               ;        ;Salines
 c_soli                          ;east_gothic         ;        ;Salines
-c_soli                          ;alan                ;        ;Salines
-c_soli                          ;arberian            ;        ;Salines
-c_soli                          ;georgian            ;        ;Salines
 c_soli                          ;turkish             ;        ;Tuzla
+c_soli                          ;turkmen             ;        ;Tuzla
+c_soli                          ;oghuz               ;        ;Tuzla
+c_soli                          ;pecheneg            ;        ;Tuzla
 c_soli                          ;hungarian           ;        ;Só
 c_soli                          ;szekely             ;        ;Só
 c_soli                          ;sardinian           ;        ;Sale
@@ -3087,8 +3111,10 @@ c_soli                          ;venetian            ;        ;Sale
 c_soli                          ;dalmatian           ;        ;Sale
 c_soli                          ;roman               ;        ;Salines
 k_croatia                       ;greek               ;Illyricum;Illyrikon
+k_croatia                       ;east_gothic         ;Illyricum;Illyrikon
 k_croatia                       ;roman               ;Illyricum;Illyricum
 c_split                         ;greek               ;        ;Spálathos
+c_split                         ;east_gothic         ;        ;Spálathos
 c_split                         ;roman               ;        ;Spalatum
 c_knin                          ;greek               ;        ;Tininum
 c_knin                          ;roman               ;        ;Tininum
@@ -3110,11 +3136,8 @@ c_zadar                         ;frankish            ;        ;Jadres
 c_zadar                         ;arpitan             ;        ;Jadres
 c_zadar                         ;norman              ;        ;Jadres
 c_zadar                         ;andalusian_arabic   ;        ;Jadhara
-c_zadar                         ;armenian            ;        ;Diadora
 c_zadar                         ;greek               ;        ;Diadora
-c_zadar                         ;alan                ;        ;Diadora
-c_zadar                         ;arberian            ;        ;Diadora
-c_zadar                         ;georgian            ;        ;Diadora
+c_zadar                         ;east_gothic         ;        ;Diadora
 c_zadar                         ;bedouin_arabic      ;        ;Jadhara
 c_zadar                         ;maghreb_arabic      ;        ;Jadhara
 c_zadar                         ;levantine_arabic    ;        ;Jadhara
@@ -3138,14 +3161,12 @@ c_zadar                         ;venetian            ;        ;Jatara
 c_zadar                         ;dalmatian           ;        ;Zara
 c_zadar                         ;roman               ;        ;Iadera
 c_omis                          ;greek               ;        ;Almiyssion
+c_omis                          ;east_gothic         ;        ;Almiyssion
 c_omis                          ;bosnian             ;        ;Drijeva
 c_omis                          ;roman               ;        ;Onaeum
 d_krk                           ;german              ;        ;Vegl
-d_krk                           ;armenian            ;        ;Kyrikon
 d_krk                           ;greek               ;        ;Kyrikon
-d_krk                           ;alan                ;        ;Kyrikon
-d_krk                           ;arberian            ;        ;Kyrikon
-d_krk                           ;georgian            ;        ;Kyrikon
+d_krk                           ;east_gothic         ;        ;Kyrikon
 d_krk                           ;sardinian           ;        ;Veglia
 d_krk                           ;sicilian            ;        ;Veglia
 d_krk                           ;corsican            ;        ;Veglia
@@ -3159,11 +3180,8 @@ d_krk                           ;venetian            ;        ;Veglia
 d_krk                           ;dalmatian           ;        ;Veglia
 d_krk                           ;roman               ;        ;Curicta
 c_veglia                        ;german              ;        ;Vegl
-c_veglia                        ;armenian            ;        ;Kyrikon
 c_veglia                        ;greek               ;        ;Kyrikon
-c_veglia                        ;alan                ;        ;Kyrikon
-c_veglia                        ;arberian            ;        ;Kyrikon
-c_veglia                        ;georgian            ;        ;Kyrikon
+c_veglia                        ;east_gothic         ;        ;Kyrikon
 c_veglia                        ;sardinian           ;        ;Veglia
 c_veglia                        ;sicilian            ;        ;Veglia
 c_veglia                        ;corsican            ;        ;Veglia
@@ -3178,6 +3196,7 @@ c_veglia                        ;dalmatian           ;        ;Veglia
 c_veglia                        ;roman               ;        ;Curicta
 c_cres                          ;german              ;        ;Kersch
 c_cres                          ;greek               ;        ;Chersos
+c_cres                          ;east_gothic         ;        ;Chersos
 c_cres                          ;sardinian           ;        ;Cherso
 c_cres                          ;sicilian            ;        ;Cherso
 c_cres                          ;corsican            ;        ;Cherso
@@ -3190,11 +3209,8 @@ c_cres                          ;italian             ;        ;Cherso
 c_cres                          ;venetian            ;        ;Cherso
 c_cres                          ;dalmatian           ;        ;Cherso
 c_cres                          ;roman               ;        ;Crepsa
-d_dalmatian_islands             ;armenian            ;        ;Pharos
 d_dalmatian_islands             ;greek               ;        ;Pharos
-d_dalmatian_islands             ;alan                ;        ;Pharos
-d_dalmatian_islands             ;arberian            ;        ;Pharos
-d_dalmatian_islands             ;georgian            ;        ;Pharos
+d_dalmatian_islands             ;east_gothic         ;        ;Pharos
 d_dalmatian_islands             ;sardinian           ;        ;Lesina
 d_dalmatian_islands             ;sicilian            ;        ;Lesina
 d_dalmatian_islands             ;corsican            ;        ;Lesina
@@ -3208,6 +3224,7 @@ d_dalmatian_islands             ;venetian            ;        ;Lesina
 d_dalmatian_islands             ;dalmatian           ;        ;Lesina
 d_dalmatian_islands             ;roman               ;        ;Pharina
 c_hvar                          ;greek               ;        ;Pharos
+c_hvar                          ;east_gothic         ;        ;Pharos
 c_hvar                          ;sardinian           ;        ;Lesina
 c_hvar                          ;sicilian            ;        ;Lesina
 c_hvar                          ;corsican            ;        ;Lesina
@@ -3222,6 +3239,7 @@ c_hvar                          ;dalmatian           ;        ;Lesina
 c_hvar                          ;roman               ;        ;Pharina
 c_korcula                       ;german              ;        ;Kurzel
 c_korcula                       ;greek               ;        ;Kòrkyra Melaèn
+c_korcula                       ;east_gothic         ;        ;Kòrkyra Melaèn
 c_korcula                       ;sardinian           ;        ;Curzola
 c_korcula                       ;sicilian            ;        ;Curzola
 c_korcula                       ;corsican            ;        ;Curzola
@@ -3276,13 +3294,11 @@ c_zagreb                        ;szekely             ;        ;Zágráb
 c_zagreb                        ;dalmatian           ;        ;Zagabria
 c_zagreb                        ;roman               ;        ;Andautonia
 c_pozega                        ;greek               ;        ;Incerum
+c_pozega                        ;greek               ;        ;Incerum
 c_pozega                        ;roman               ;        ;Incerum
 c_varadzin                      ;german              ;        ;Warasdin
-c_varadzin                      ;armenian            ;        ;Varasdinion
 c_varadzin                      ;greek               ;        ;Varasdinion
-c_varadzin                      ;alan                ;        ;Varasdinion
-c_varadzin                      ;arberian            ;        ;Varasdinion
-c_varadzin                      ;georgian            ;        ;Varasdinion
+c_varadzin                      ;east_gothic         ;        ;Varasdinion
 c_varadzin                      ;hungarian           ;        ;Varasd
 c_varadzin                      ;szekely             ;        ;Varasd
 c_varadzin                      ;sardinian           ;        ;Varasdino
