@@ -507,80 +507,80 @@ city_barony_of_norman                                 ;Bailiwick of;Bailiwick of
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #POLISH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-baron_polish                                          ;        ;Kasztelan;;Castellan;
-baron_female_polish                                   ;        ;Kasztelana;;Castellan;
+baron_polish                                          ;Castellan;Kasztelan;;Castellan;
+baron_female_polish                                   ;Castellan;Kasztelana;;Castellan;
 baron_title_ruler_consort_polish                      ;        ;Kasztelan;;Castellan;
 baron_title_ruler_consort_female_polish               ;        ;Kasztelana;;Castellan;
-count_polish                                          ;        ;Starosta;;;
-count_female_polish                                   ;        ;Staroscina;;;
+count_polish                                          ;Starosta;Starosta;;;
+count_female_polish                                   ;Staroscina;Staroscina;;;
 count_title_ruler_consort_polish                      ;        ;Starosta;;;
 count_title_ruler_consort_female_polish               ;        ;Staroscina;;;
-duke_polish                                           ;        ;Ksiaze;;;
-duke_female_polish                                    ;        ;Ksiezna;;;
+duke_polish                                           ;Duke    ;Ksiaze;;;
+duke_female_polish                                    ;Duchess ;Ksiezna;;;
 duke_title_ruler_consort_polish                       ;        ;Ksiaze;;;
 duke_title_ruler_consort_female_polish                ;        ;Ksiezna;;;
-king_polish                                           ;        ;Król;;;
-king_female_polish                                    ;        ;Królowa;;;
+king_polish                                           ;King    ;Król;;;
+king_female_polish                                    ;Queen   ;Królowa;;;
 king_title_ruler_consort_polish                       ;        ;Król;;;
 king_title_ruler_consort_female_polish                ;        ;Królowa;;;
-emperor_polish                                        ;        ;Cesarz;;;
-emperor_female_polish                                 ;        ;Cesarzowa;;;
+emperor_polish                                        ;Emperor ;Cesarz;;;
+emperor_female_polish                                 ;Empress ;Cesarzowa;;;
 emperor_title_ruler_consort_female_polish             ;        ;Cesarzowa;;;
-barony_of_polish                                      ;        ;Kasztelania of;;;
-county_of_polish                                      ;        ;Starostwo of;;;
-duchy_of_polish                                       ;        ;Ksiestwo of;;;
-city_baron_polish                                     ;        ;Burmistrz;;;
-city_count_polish                                     ;        ;Wójt;;;
-temple_count_polish                                   ;        ;Biskup;;;
-temple_county_of_polish                               ;        ;Diecezja of;;;
+barony_of_polish                                      ;Castellany of;Kasztelania of;;;
+county_of_polish                                      ;Starostwo of ;Starostwo of;;;
+duchy_of_polish                                       ;Duchy of;Ksiestwo of;;;
+city_baron_polish                                     ;Mayor   ;Burmistrz;;;
+city_count_polish                                     ;Vogt    ;Wójt;;;
+temple_count_polish                                   ;Bishop  ;Biskup;;;
+temple_county_of_polish                               ;Diocese of;Diecezja of;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Pommerian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-count_pommeranian                                     ;        ;Knjes;;;
-duke_pommeranian                                      ;        ;Prince;;Prince;
+count_pommeranian                                     ;Duke    ;Knjes;;;
+duke_pommeranian                                      ;Prince  ;Prince;;Prince;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Croatian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-count_croatian                                        ;        ;Župan;;;
-duke_croatian                                         ;        ;Ban;;Ban;
-county_of_croatian                                    ;        ;Županije;;;
-duchy_of_croatian                                     ;        ;Banate of;;;
+count_croatian                                        ;Župan   ;Župan;;;
+duke_croatian                                         ;Ban     ;Ban;;Ban;
+county_of_croatian                                    ;County of;Županije;;;
+duchy_of_croatian                                     ;Banate of;Banate of;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Serbian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-count_serbian                                         ;        ;Župan;;;
-duke_serbian                                          ;        ;Veliki Župan;;;
-king_serbian                                          ;        ;Kralj;;Czar;
-emperor_serbian                                       ;        ;Tsar;;;
+count_serbian                                         ;Župan   ;Župan;;;
+duke_serbian                                          ;Grand prince;Veliki Župan;;;
+king_serbian                                          ;Kralj   ;Kralj;;Czar;
+emperor_serbian                                       ;Tsar    ;Tsar;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Bulgarian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-king_bulgarian                                        ;        ;Tsar;;Czar;
+king_bulgarian                                        ;Tsar    ;Tsar;;Czar;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #PAGAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-temple_duke_norse_pagan                               ;        ;Hofgoði;;Hofgoði;
-temple_duke_female_norse_pagan                        ;        ;Hofgyðja;;Hofgyðja;
-count_norse_pagan                                     ;        ;Thane;;Thane;
-count_norse_pagan_female                              ;        ;Thane;;Thane;
-baron_norse_pagan                                     ;        ;Hersir;;Hersir;Þegn
-baron_norse_pagan_female                              ;        ;Hersir;;Hersir;
-temple_king_norse_pagan                               ;        ;Allsherjargoði;;Allsherjargoði;
-temple_baron_norse_pagan                              ;        ;Goði;;Goði;Godi
-city_baron_norse_pagan                                ;        ;Ålderman;;Ålderman;
-city_count_norse_pagan                                ;        ;Lagman;;Lagman;
+temple_duke_norse_pagan                               ;Hofgoði ;Hofgoði;;Hofgoði;
+temple_duke_female_norse_pagan                        ;Hofgyðja;Hofgyðja;;Hofgyðja;
+count_norse_pagan                                     ;Thegn   ;Thane;;Thane;
+count_norse_pagan_female                              ;Thegn   ;Thane;;Thane;
+baron_norse_pagan                                     ;Hersir  ;Hersir;;Hersir;Þegn
+baron_norse_pagan_female                              ;Hersir  ;Hersir;;Hersir;
+temple_king_norse_pagan                               ;Allsherjargoði;Allsherjargoði;;Allsherjargoði;
+temple_baron_norse_pagan                              ;Gothi   ;Goði;;Goði;Godi
+city_baron_norse_pagan                                ;Alderman;Ålderman;;Ålderman;
+city_count_norse_pagan                                ;Lawspeaker;Lagman;;Lagman;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #JEWISH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-job_spiritual_jewish_group                            ;        ;Chief Rabbi;;Chief Rabbi;Court Rabbi
-temple_baron_jewish_group                             ;        ;Rabbi;;Rabbi;Rabbi
-temple_count_jewish_group                             ;        ;Great Rabbi;;Great Rabbi;Kohen
-temple_duke_jewish_group                              ;        ;Melech;;Melech;Rabban
-temple_king_jewish_group                              ;        ;Melech haMelachim;;Melech haMelachim;Nasi
-temple_kingdom_of_jewish_group                        ;        ;Great Sanhedrin of;;Great Sanhedrin of;Theocracy of
-temple_duchy_of_jewish_group                          ;        ;Lesser Sanhedrin of;;Lesser Sanhedrin of;
-temple_county_of_jewish_group                         ;        ;Beth din of;;Beth din of;Theocracy of
-temple_barony_of_jewish_group                         ;        ;Synagogue of;;Synagogue of;Temple of
+job_spiritual_jewish_group                            ;Chief Rabbi;Chief Rabbi;;Chief Rabbi;Court Rabbi
+temple_baron_jewish_group                             ;Rabbi   ;Rabbi;;Rabbi;Rabbi
+temple_count_jewish_group                             ;Great rabbi;Great Rabbi;;Great Rabbi;Kohen
+temple_duke_jewish_group                              ;Malik   ;Melech;;Melech;Rabban
+temple_king_jewish_group                              ;King of Kings;Melech haMelachim;;Melech haMelachim;Nasi
+temple_kingdom_of_jewish_group                        ;Great Sanhedrin of;Great Sanhedrin of;;Great Sanhedrin of;Theocracy of
+temple_duchy_of_jewish_group                          ;Lesser Sanhedrin of;Lesser Sanhedrin of;;Lesser Sanhedrin of;
+temple_county_of_jewish_group                         ;Beth din of;Beth din of;;Beth din of;Theocracy of
+temple_barony_of_jewish_group                         ;Synagogue of;Synagogue of;;Synagogue of;Temple of
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #HUNGARIAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
