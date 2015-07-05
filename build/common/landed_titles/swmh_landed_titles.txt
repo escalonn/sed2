@@ -23056,6 +23056,38 @@ e_britannia = {
 			}
 		}
 	}
+	k_old_north = {
+		color = { 82 92 157 }
+		culture = cumbric
+		capital = 1466
+		allow = {
+			AND = {
+				OR = {
+					culture = cumbric
+					culture = breton
+					culture = welsh
+				}
+				OR = {
+					has_landed_title = d_strathclyde
+					any_vassal = {
+						has_landed_title = d_strathclyde
+					}
+				}
+				OR = {
+					has_landed_title = d_northumberland
+					any_vassal = {
+						has_landed_title = d_northumberland
+					}
+				}
+				OR = {
+					has_landed_title = d_lancaster
+					any_vassal = {
+						has_landed_title = d_lancaster
+					}
+				}
+			}
+		}
+	}
 	allow = {
 		OR = {
 			religion_group = christian
