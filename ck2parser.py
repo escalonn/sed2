@@ -26,7 +26,7 @@ token_specs = [
     ('op', (r'[={}]',)),
     ('date', (r'\d*\.\d*\.\d*',)),
     ('number', (r'\d+(\.\d+)?',)),
-    ('quoted_string', (r'"[^"#]*"',)),
+    ('quoted_string', (r'"[^"#\r\n]*"',)),
     ('unquoted_string', (r'[^\s"#={}]+',))
 ]
 useless = ['comment', 'whitespace']
@@ -70,6 +70,15 @@ toplevel = many(pair | value) + endmark
 
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
+
+def parse_file(path, encoding='cp1252'):
+    with path.open(encoding=encoding) as f:
+        try:
+            tree = parse(f.read())
+        except funcparserlib.parser.NoParseError:
+            print(path)
+            raise
+    return tree
 
 def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
     if isinstance(x, tuple):

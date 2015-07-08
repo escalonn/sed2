@@ -14,8 +14,7 @@ sed2path = rootpath / 'SED2'
 def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
-        with path.open(encoding='cp1252') as f:
-            tree = ck2parser.parse(f.read())
+        tree = ck2parser.parse_file(path)
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
                                                                          list))
     return cultures
@@ -83,9 +82,8 @@ def main():
                         val = [x.strip('"')
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
                     sed2[title].append((key, val))
-        with inpath.open(encoding='cp1252') as f:
-            item = ck2parser.parse(f.read())
-            update_tree(item, sed2, lt_keys)
+        item = ck2parser.parse_file(inpath)
+        update_tree(item, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(ck2parser.to_string(item, fq_keys=cultures))
 

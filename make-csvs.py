@@ -9,7 +9,6 @@ import tempfile
 import ck2parser
 
 rootpath = pathlib.Path('..')
-# oldswmhpath = rootpath / 'SWMH/SWMH'
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 vanillapath = pathlib.Path(
     'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
@@ -26,8 +25,7 @@ def get_locs(where):
 def get_province_id(where):
     province_id = collections.OrderedDict()
     for path in ck2parser.files(where, 'history/provinces/*.txt'):
-        with path.open(encoding='cp1252') as f:
-            tree = ck2parser.parse(f.read())
+        tree = ck2parser.parse_file(path)
         try:
             title = next(v for n, v in tree if n == 'title')
         except StopIteration:
@@ -53,15 +51,13 @@ def get_dynamics(where, cultures, prov_id):
             recurse(v1, n1)
 
     for path in ck2parser.files(where, 'common/landed_titles/*.txt'):
-        with path.open(encoding='cp1252') as f:
-            recurse(ck2parser.parse(f.read()))
+        recurse(ck2parser.parse_file(path))
     return dynamics
 
 def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
-        with path.open(encoding='cp1252') as f:
-            tree = ck2parser.parse(f.read())
+        tree = ck2parser.parse_file(path)
         cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
                                                                          list))
     return cultures
@@ -70,8 +66,7 @@ def get_religions(where):
     religions = []
     rel_groups = []
     for path in ck2parser.files(where, 'common/religions/*.txt'):
-        with path.open(encoding='cp1252') as f:
-            item = ck2parser.parse(f.read())
+        item = ck2parser.parse_file(path)
         religions.extend(n2 for _, v in item for n2, v2 in v if isinstance(v2,
                         list) and n2 not in ['male_names', 'female_names'])
         rel_groups.extend(n for n, v in item)
@@ -156,8 +151,7 @@ def main():
                 ['#TITLE', 'KEY', 'SED2', 'SWMH']
             ]
             col_width = [0, 0, 8]
-            with inpath.open(encoding='cp1252') as f:
-                item = ck2parser.parse(f.read())
+            item = ck2parser.parse_file(inpath)
             for title, pairs in recurse(item):
                 # here disabled for now: preservation of modifiers added to
                 # template and not found in landed_titles (slow)
