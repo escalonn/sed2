@@ -203,7 +203,7 @@ d_pest_adj                              ;Bihar   ;Biharországian;;Pestian;Pesti
 d_pest_adj_romanian                     ;        ;Bihorian;;;
 d_pest_adj_moravian                     ;        ;Bihárian;;;
 d_pest_adj_bohemian                     ;        ;Bihárian;;;
-d_transylvania                          ;Transylvania;Erdélyország;Ardeal,Sedmohradsko,Siebenbürgen,Erdehstan,Siedmiogród;Transsylvania;Transylvania
+d_transylvania                          ;Transylvania;Erdélyország;Ardeal,Sedmohradsko,Siebenbürgen,Zevenburgen,Erdehstan,Siedmiogród;Transsylvania;Transylvania
 d_transylvania_adj                      ;Transylvanian;Erdélyországian;;Transsylvanian;Transylvanian
 d_transylvania_adj_romanian             ;        ;Ardealian;;;
 d_transylvania_adj_moravian             ;        ;Sedmohradskoian;;;
@@ -220,7 +220,7 @@ d_ujavar                                ;Abaúj   ;Újavár;;Újavár;
 d_ujavar_adj                            ;        ;Újavárian;;Újavárian;
 d_gyor                                  ;Gyor    ;Gyõr;Ráb,Jura,Vjura,Raab,Pannonia Scarabantia,Pannonia Skarabantia;Gyõr;
 d_gyor_adj                              ;        ;Gyõrian;;Gyõrian;
-d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sriem,Syrmien,Segedín,Szerém,Sirem;Syrmia;
+d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sriem,Syrmien,Szerém,Sirem;Syrmia;
 d_syrmia_adj                            ;Syrmian ;Srem;;Syrmian;
 d_syrmia_adj_greek                      ;        ;Syrmian;;;
 d_syrmia_adj_armenian                   ;        ;Syrmian;;;
@@ -384,7 +384,7 @@ d_lesser_poland                         ;Lesser Poland;Malopolska;;Lesser Poland
 d_lesser_poland_adj                     ;Lesser Polish;Malopolskie;;Lesser Polish;Lesser Polish
 d_mazovia                               ;Mazovia ;Mazowsze;;Mazovia;Mazovia
 d_mazovia_adj                           ;Mazovian;Mazowieckie;;Mazovian;Mazovian
-d_kuyavia                               ;Kujawy  ;Kujawy;;Kuyavia;Kuyavia
+d_kuyavia                               ;Kujawy  ;Kujawy;Kujavija,Kujawien;Kuyavia;Kuyavia
 d_kuyavia_adj                           ;Kujawy  ;Kujawsko;;Kuyavian;Kuyavian
 d_silesia                               ;Silesia ;Slask;;Silesia;Silesia
 d_silesia_adj                           ;Silesian;Slaski;;Silesian;Silesian
@@ -1436,16 +1436,30 @@ k_ragusa_adj_arpitan                    ;        ;Ragusan;;;
 k_ragusa_adj_occitan                    ;        ;Ragusan;;;
 k_ragusa_adj_german                     ;        ;Ragusian;;;
 #Serbia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-k_serbia                                ;Serbia  ;Srbija;Serblías,Rashkës,Moesia Prima;Serbia;Serbia
+k_serbia                                ;Serbia  ;Srbija;Serblías,Moesia Prima;Serbia;Serbia
 k_serbia_adj                            ;Serbian ;Srbi;;Serbian;Serbian
-d_rashka                                ;Serbia  ;Srbija;Serblías,Rashkës,Moesia Prima;Rascia;Rashka
-d_rashka_adj                            ;Serbian ;Srbi;;Rascian;Rashkan
-d_rashka_adj_greek                      ;        ;Serblían;;;
-d_rashka_adj_armenian                   ;        ;Rascian;;;
-d_rashka_adj_georgian                   ;        ;Rascian;;;
-d_rashka_adj_alan                       ;        ;Rascian;;;
+k_serbia_adj_greek                      ;        ;Serblían;;;
+k_serbia_adj_east_gothic                ;        ;Serblían;;;
+d_rashka                                ;Raška   ;Raška;Rascia,Rashkës,Moesia Prima;Rascia;Rashka
+d_rashka_adj                            ;Raškan  ;Raškan;;Rascian;Rashkan
+d_rashka_adj_greek                      ;        ;Rascian;;;
+d_rashka_adj_east_gothic                ;        ;Rascian;;;
 d_rashka_adj_arberian                   ;        ;Rashkësi;;;
 d_rashka_adj_roman                      ;Moesian ;Moesia Priman;;;
+d_macva_adj                             ;        ;Macvan;;;
+d_macva_adj_greek                       ;Užice   ;Capedounian;;;
+d_macva_adj_east_gothic                 ;Užice   ;Capedounian;;;
+d_macva_adj_german                      ;        ;Matschvan;;;
+d_macva_adj_low_german                  ;        ;Matschvan;;;
+d_macva_adj_low_saxon                   ;        ;Matschvan;;;
+d_macva_adj_thuringian                  ;        ;Matschvan;;;
+d_macva_adj_swabian                     ;        ;Matschvan;;;
+d_macva_adj_bavarian                    ;        ;Matschvan;;;
+d_macva_adj_franconian                  ;        ;Matschvan;;;
+d_macva_adj_low_frankish                ;        ;Matschvan;;;
+d_macva_adj_dutch                       ;        ;Matschvan;;;
+d_macva_adj_hungarian                   ;        ;Macsóan;;;
+d_macva_adj_szekely                     ;        ;Macsóan;;;
 d_hum                                   ;Zachlumia;Zahumlje;Hum,Zachloumia,Chelmania;Hum;
 d_hum_adj                               ;Zachlumian;Zahumljean;;Huminan;
 d_hum_adj_arberian                      ;        ;Zachloumian;;;
@@ -1478,7 +1492,7 @@ d_dioclea_adj_turkish                   ;Shkodër ;Iskodran;;;
 #Bulgaria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_bulgaria                              ;Bulgaria;Balgariya;;Bulgaria;Bulgaria
 k_bulgaria_adj                          ;Bulgarian;Bâlgarski;;Bulgarian;Bulgarian
-d_ohrid                                 ;Ohrid   ;Ohrid;Bulgaria,Üsküp;Ohrid;
+d_ohrid                                 ;Ohrid   ;Ohrid;Bulgaria,Ohër,Üsküp;Ohrid;
 d_ohrid_adj                             ;        ;Ohridan;;Ohridan;
 d_ohrid_adj_greek                       ;Bulgarian;Bulgarian;;;
 d_ohrid_adj_arberian                    ;Bulgarian;Bulgarian;;;
@@ -2972,7 +2986,7 @@ d_vyatka_adj_pecheneg                   ;        ;Noqratan;;;
 d_vyatka_adj_karluk                     ;        ;Noqratan;;;
 d_vyatka_adj_avar                       ;        ;Nukhratan;;;
 d_vyatka_adj_khitan                     ;        ;Noqratan;;;
-#Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_finland                               ;Finland ;Suomi;Østærland,Österland,Finlandi,Cwenaland,Suomi;Finland;Finland
 k_finland_adj                           ;Finnish ;Suomalainen;;Finnish;Finnish
 d_finland                               ;Finland ;Suomi;Østærland,Österland,Finlandi,Suomi;Finland;Finland
@@ -3025,22 +3039,22 @@ d_rugen_adj_bosnian                     ;        ;Rugish;;;
 d_rugen_adj_karantanci                  ;        ;Rugish;;;
 d_rugen_adj_bulgarian                   ;        ;Rugish;;;
 d_rugen_adj_russian                     ;        ;Rugish;;;
-#Livonia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#Livonia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_terra                                 ;Livonia ;Livonia;Liivinmaa,Liivimaa,Lïvõmõ,Livonija,Livland,Liwoni,Livonsko;Livonia;
 k_terra_adj                             ;Livonian;Livonian;;Livonian;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_talava                                ;Talava  ;Tholowa;Tãlava,Lotygola,Lotowa;Talava;
 d_talava_adj                            ;Talavian;Talavian;;;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_livonia                               ;Livonia ;Livland;Liivinmaa,Liivimaa,Lïvõmõ,Livonija,Liwoni,Livonsko,Livland;Saare-Lääne;Livonia
 d_livonia_adj                           ;Livonian;Livonian;;Saare-Läänian;Livonian
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_zemigalia                             ;Semigallia;Zemgali;Zemgãl,Ziemgala,Zemgale,Semigalia,Semgallen;Zemgali;
 d_zemigalia_adj                         ;Semigallian;Zemgalian;;Zemgalian;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_osel_wiek                             ;Ösel–Wiek;Ösel–Wiek;Saare-Lääne;Ösel–Wiek;
 d_osel_wiek_adj                         ;        ;Saare-Läänian;;Saare-Läänian;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_dorpat                                ;Ugandi  ;Ugandi;Ugandi,Ugaunija,Dorpat;Ugandi;
 d_dorpat_adj                            ;Ugaunian;Ugandian;;Ugandian;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
@@ -3129,7 +3143,7 @@ d_qohistan                              ;Quhistan;Qohistan;;;
 d_qohistan_adj                          ;        ;Qohistani;;;
 d_mafaza                                ;Dasht-e Lut;Mafáza;;;
 d_mafaza_adj                            ;        ;Mafází;;;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_dehestan                              ;Dehistan/Mishrian;Dehestán;;Dehestán;
 d_dehestan_adj                          ;        ;Dehestání;;Dehestání;
 d_hamadan                               ;Khuzestan;Khúzestán;;Khúzestán;Hamadan
@@ -3192,17 +3206,17 @@ d_vastergotland_adj_norse               ;        ;Vestrgautlandish;;;
 d_vastergotland_adj_norwegian           ;        ;Vestrgautlandish;;;
 d_ostergotland_adj_norse                ;        ;Austrgautlandish;;;
 d_ostergotland_adj_norwegian            ;        ;Austrgautlandish;;;
-###,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+###,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_denmark                               ;Denmark ;Danmark;Denemearc,Danmörk;Denmark;Denmark
 k_denmark_adj                           ;Danish  ;Danskr;;Danish;Danish
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_jylland                               ;Jutland ;Jutland;Jütland;Jylland;
 d_jylland_adj                           ;Jutlandic;Jutlandish;;Jyllandian;
 d_slesvig                               ;Schleswig;Sliesvík;Schleswig,Sleswig,Sillende,Sillendi,Sleeswyk;Schleswig;Jylland
 d_slesvig_adj                           ;Schleswigian;Sliesvíkr;;Schleswigian;Jyllander
 d_halland                               ;Halland ;Halland;;;
 d_halland_adj                           ;Hallandish;Hallandish;;;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_sjaelland                             ;Zealand ;Syaland;;Syäland;Sjælland
 d_sjaelland_adj                         ;Zealand ;Syalandish;;Syälander;Sjællander
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
@@ -3218,7 +3232,7 @@ k_iceland                               ;Iceland ;Ísland;;Iceland;
 k_iceland_adj                           ;Icelandic;Íslandskr;;Icelandic;
 d_iceland                               ;Iceland ;Ísland;;Iceland;Iceland
 d_iceland_adj                           ;Icelandic;Íslandskr;;Icelandic;Icelandic
-##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Caucasus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
@@ -3305,7 +3319,7 @@ d_abkhazia                              ;Abkhazia;Apkhazeti;Lazica,Lazike;;Abkha
 d_abkhazia_adj                          ;Abkhazian;Apkhazetian;;;Abkhazian
 d_kartli                                ;Kartli  ;Kartli;Iberia;;Kartli
 d_kartli_adj                            ;Kartlian;Kartlian;;;Kartlian
-##Shirvan/Arran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+##Shirvan/Arran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_caucasian_albania                     ;Caucasian Albania;Arran;;;
 k_caucasian_albania_adj                 ;Caucasian Albanian;Arran;;;
 d_shirvan                               ;Shirvan ;Shirwan;;;
