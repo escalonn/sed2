@@ -3995,16 +3995,14 @@ e_byzantium = {
 		culture = greek
 		allow = {
 			religion_group = christian
-			OR = {
-				liege = {
-					NOT = {
-						has_landed_title = e_byzantium
-					}
+			liege = {
+				NOT = {
+					has_landed_title = e_byzantium
 				}
-				liege = {
-					NOT = {
-						has_landed_title = e_roman_empire
-					}
+			}
+			liege = {
+				NOT = {
+					has_landed_title = e_roman_empire
 				}
 			}
 		}
@@ -4301,16 +4299,14 @@ e_byzantium = {
 		culture = greek
 		allow = {
 			religion_group = christian
-			OR = {
-				liege = {
-					NOT = {
-						has_landed_title = e_byzantium
-					}
+			liege = {
+				NOT = {
+					has_landed_title = e_byzantium
 				}
-				liege = {
-					NOT = {
-						has_landed_title = e_roman_empire
-					}
+			}
+			liege = {
+				NOT = {
+					has_landed_title = e_roman_empire
 				}
 			}
 		}
@@ -4629,16 +4625,14 @@ e_byzantium = {
 		capital = 750
 		allow = {
 			religion = orthodox
-			OR = {
-				liege = {
-					NOT = {
-						has_landed_title = e_byzantium
-					}
+			liege = {
+				NOT = {
+					has_landed_title = e_byzantium
 				}
-				liege = {
-					NOT = {
-						has_landed_title = e_roman_empire
-					}
+			}
+			liege = {
+				NOT = {
+					has_landed_title = e_roman_empire
 				}
 			}
 		}
@@ -5226,16 +5220,14 @@ e_byzantium = {
 		culture = greek
 		allow = {
 			religion = orthodox
-			OR = {
-				liege = {
-					NOT = {
-						has_landed_title = e_byzantium
-					}
+			liege = {
+				NOT = {
+					has_landed_title = e_byzantium
 				}
-				liege = {
-					NOT = {
-						has_landed_title = e_roman_empire
-					}
+			}
+			liege = {
+				NOT = {
+					has_landed_title = e_roman_empire
 				}
 			}
 		}
