@@ -29,7 +29,7 @@ token_specs = [
     ('quoted_string', (r'"[^"#\r\n]*"',)),
     ('unquoted_string', (r'[^\s"#={}]+',))
 ]
-useless = ['comment', 'whitespace']
+useless = ['whitespace']
 tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
 
 def unquote(string):
@@ -58,8 +58,7 @@ def op(string):
 many = funcparserlib.parser.many
 fwd = funcparserlib.parser.with_forward_decls
 endmark = funcparserlib.parser.skip(funcparserlib.parser.finished)
-comments = many(some(lambda tok: tok.type == 'comment') >>
-                (lambda tok: tok.value))                                        # list(str)
+comments = many(some('comment'))                                                # list(str)
 unquoted_string = some('unquoted_string')                                       # str
 quoted_string = some('quoted_string') >> unquote                                # str
 number = some('number') >> make_number                                          # Number
@@ -111,14 +110,14 @@ def to_string(x, indent=-1, fq_keys=[], force_quote=False):
             to_string(x[0], indent),
             (sep + sep.join(to_string(y, indent + 1, fq_keys) for y in x[1]) +
              '\n' + '\t' * indent) if x[1] else '',
-            (to_string(x[2][:-1], indent + 1) + to_string(x[2][-1], indent)
-             if x[2] else ''))
+            ('\t' + to_string(x[2][:-1], indent + 1) + x[2][-1] +
+             '\n' + '\t' * indent if x[2] else ''))
     if isinstance(x, list):
         # comments
         if not x:
             return ''
         if isinstance(x[0], str):
-            ws = '\n' + '\t' * (indent + 1)
+            ws = '\n' + '\t' * indent
             return ws.join(x) + ws
     if isinstance(x, datetime.date):
         return '{0.year}.{0.month}.{0.day}'.format(x)
