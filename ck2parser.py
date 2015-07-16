@@ -82,7 +82,7 @@ def parse_file(path, encoding='cp1252'):
             raise
     return tree
 
-def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
+def to_string(x, indent=-1, fq_keys=[], force_quote=False):
     if isinstance(x, str):
         # unquoted_string or quoted_string
         return '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
@@ -93,23 +93,26 @@ def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
                 to_string(x[0], indent),
                 to_string(x[1]),
                 to_string(x[2], indent),
-                to_string(x[3], indent, force_quote=(x[1] in fq_keys),
-                          fq_keys=fq_keys))
+                to_string(x[3], indent, fq_keys, x[1] in fq_keys))
         if len(x) == 2 and not isinstance(x[1], list):
             # key
-            return to_string(x[0], indent) + to_string(x[1])
+            return (to_string(x[0], indent) +
+                    to_string(x[1], force_quote=force_quote))
         if indent == -1:
             # top-level many(pair | value)
-            return ('\n'.join(to_string(y, 0, fq_keys=fq_keys) for y in x[0]) +
+            return ('\n'.join(to_string(y, 0, fq_keys) for y in x[0]) +
                     to_string(x[1]))
         # obj
-        if not x[0]:
-            return '{}'
-        if len(x[0]) == 3 and all(isinstance(item, int) for item in x[0]):
-            return '{{ {} {} {} }}'.format(*x[0])
+        if (not x[0] and len(x[1]) == 3 and not x[2] and
+            all(len(y) == 2 and not y[0] and isinstance(y[1], int) for y in x[1])):
+            return '{{ {0[1]} {1[1]} {2[1]} }}'.format(*x[1])
         sep = '\n' + '\t' * (indent + 1)
-        return ('{' + sep + sep.join(to_string(y, indent + 1, fq_keys=fq_keys)
-                for y in x[0]) + '\n' + '\t' * indent + '}')
+        return '{}{{{}{}}}'.format(
+            to_string(x[0], indent),
+            (sep + sep.join(to_string(y, indent + 1, fq_keys) for y in x[1]) +
+             '\n' + '\t' * indent) if x[1] else '',
+            (to_string(x[2][:-1], indent + 1) + to_string(x[2][-1], indent)
+             if x[2] else ''))
     if isinstance(x, list):
         # comments
         if not x:
@@ -119,6 +122,4 @@ def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
             return ws.join(x) + ws
     if isinstance(x, datetime.date):
         return '{0.year}.{0.month}.{0.day}'.format(x)
-    if isinstance(x, str):
-        return '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
     return str(x)

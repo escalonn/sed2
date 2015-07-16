@@ -56,33 +56,22 @@ def main():
         'male_names'] + cultures
 
     def update_tree(v, sed2, lt_keys):
-        from pprint import pprint
-        for q in v:
-            try:
-                _, n2, _, v2 = q
-            except ValueError:
-                pprint(v)
-                raise
         for _, n2, _, v2 in v:
             if ck2parser.is_codename(n2):
                 if n2.startswith('b_'):
                     for p in reversed(v2[1]):
-                        _, n3, _, v3 = p
+                        _, n3, *_ = p
                         if n3 in cultures:
                             v2[1].remove(p)
                 else:
                     for p in reversed(v2[1]):
-                        _, n3, _, v3 = p
+                        _, n3, *_ = p
                         if n3 in lt_keys:
                             v2[1].remove(p)
                     if sed2[n2]:
-                        try:
-                            index = next((i for i, (_, n3, *_) in enumerate(v2[1])
-                                          if ck2parser.is_codename(n3)), len(v2[1]))
-                        except ValueError:
-                            pprint(v2[1])
-                            raise
-                        v2[1][index:index] = [([], n_, [], ([], v_))
+                        index = next((i for i, (_, n3, *_) in enumerate(v2[1])
+                                     if ck2parser.is_codename(n3)), len(v2[1]))
+                        v2[1][index:index] = [([], n_, [], v_)
                                               for n_, v_ in sed2[n2]]
                 update_tree(v2[1], sed2, lt_keys)
 
@@ -95,8 +84,11 @@ def main():
                 title, key, val = title.strip(), key.strip(), val.strip()
                 if val:
                     if key in ['male_names', 'female_names']:
-                        val = [x.strip('"')
-                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
+                        val = ([], [x.strip('"')
+                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)],
+                               [])
+                    else:
+                        val = [], val
                     sed2[title].append((key, val))
         item = ck2parser.parse_file(inpath)
         update_tree(item[0], sed2, lt_keys)
