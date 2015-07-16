@@ -27,7 +27,9 @@ def get_province_id(where):
     for path in ck2parser.files(where, 'history/provinces/*.txt'):
         tree = ck2parser.parse_file(path)
         try:
-            title = next(v for n, v in tree if n == 'title')
+            # print(*tree[0][:3], sep='\n')
+            # raise SystemExit()
+            title = next(v[1] for _, n, _, v in tree[0] if n == 'title')
         except StopIteration:
             continue
         number = int(path.name.split(' - ', maxsplit=1)[0])
@@ -39,37 +41,41 @@ def get_dynamics(where, cultures, prov_id):
                                        [(v, [k]) for k, v in prov_id.items()])
 
     def recurse(v, n=None):
-        for n1, v1 in v:
+        for _, n1, _, v1 in v:
             if not ck2parser.is_codename(n1):
                 continue
-            for n2, v2 in v1:
+            for _, n2, _, v2 in v1[1]:
                 if n2 in cultures:
-                    if v2 not in dynamics[n1]:
-                        dynamics[n1].append(v2)
-                    if n1 in prov_id and v2 not in dynamics[prov_id[n1]]:
-                        dynamics[prov_id[n1]].append(v2)
-            recurse(v1, n1)
+                    if v2[1] not in dynamics[n1]:
+                        dynamics[n1].append(v2[1])
+                    if n1 in prov_id and v2[1] not in dynamics[prov_id[n1]]:
+                        dynamics[prov_id[n1]].append(v2[1])
+            recurse(v1[1], n1)
 
     for path in ck2parser.files(where, 'common/landed_titles/*.txt'):
-        recurse(ck2parser.parse_file(path))
+        recurse(ck2parser.parse_file(path)[0])
     return dynamics
 
 def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
         tree = ck2parser.parse_file(path)
-        cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
-                                                                         list))
+        cultures.extend(n2 for _, _, _, v in tree[0]
+                        for _, n2, _, v2 in v[1]
+                        if isinstance(v2[1], list) and
+                        n2 not in ['male_names', 'female_names'])
     return cultures
 
 def get_religions(where):
     religions = []
     rel_groups = []
     for path in ck2parser.files(where, 'common/religions/*.txt'):
-        item = ck2parser.parse_file(path)
-        religions.extend(n2 for _, v in item for n2, v2 in v if isinstance(v2,
-                        list) and n2 not in ['male_names', 'female_names'])
-        rel_groups.extend(n for n, v in item)
+        tree = ck2parser.parse_file(path)
+        religions.extend(n2 for _, _, _, v in tree[0]
+                         for _, n2, _, v2 in v[1]
+                         if isinstance(v2[1], list) and
+                         n2 not in ['male_names', 'female_names'])
+        rel_groups.extend(n for _, n, *_ in tree[0])
     return religions, rel_groups
 
 def main():
@@ -81,6 +87,10 @@ def main():
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
     religions, rel_groups = get_religions(vanillapath)
+    # print(cultures)
+    # print(religions)
+    # print(rel_groups)
+    # raise SystemExit()
     dynamics = get_dynamics(swmhpath, cultures, province_id)
     vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
@@ -99,17 +109,18 @@ def main():
                             if row[0] and '#' not in row[0]})
 
     def recurse(v):
-        for n2, v2 in v:
+        for _, n2, _, v2 in v:
             if not ck2parser.is_codename(n2):
                 continue
             items = []
-            for n3, v3 in v2:
+            for _, n3, _, v3 in v2[1]:
                 if n3 in lt_keys:
-                    if not isinstance(v3, str):
-                        v3 = ' '.join(ck2parser.to_string(s) for s in v3)
-                    items.append((n3, v3))
+                    val = v3[1]
+                    if not isinstance(val, str):
+                        val = ' '.join(ck2parser.to_string(s) for s in val)
+                    items.append((n3, val))
             yield n2, items
-            yield from recurse(v2)
+            yield from recurse(v2[1])
 
     with tempfile.TemporaryDirectory() as td:
         templates_t = pathlib.Path(td)
@@ -152,7 +163,7 @@ def main():
             ]
             col_width = [0, 0, 8]
             item = ck2parser.parse_file(inpath)
-            for title, pairs in recurse(item):
+            for title, pairs in recurse(item[0]):
                 # here disabled for now: preservation of modifiers added to
                 # template and not found in landed_titles (slow)
                 # for (t, k), v in prev_lt.items():

@@ -15,8 +15,10 @@ def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
         tree = ck2parser.parse_file(path)
-        cultures.extend(n2 for _, v in tree for n2, v2 in v if isinstance(v2,
-                                                                         list))
+        cultures.extend(n2 for _, _, _, v in tree[0]
+                        for _, n2, _, v2 in v[1]
+                        if isinstance(v2[1], list) and
+                        n2 not in ['male_names', 'female_names'])
     return cultures
 
 def main():
@@ -54,21 +56,35 @@ def main():
         'male_names'] + cultures
 
     def update_tree(v, sed2, lt_keys):
-        for n2, v2 in v:
+        from pprint import pprint
+        for q in v:
+            try:
+                _, n2, _, v2 = q
+            except ValueError:
+                pprint(v)
+                raise
+        for _, n2, _, v2 in v:
             if ck2parser.is_codename(n2):
                 if n2.startswith('b_'):
-                    for n3, v3 in reversed(v2):
+                    for p in reversed(v2[1]):
+                        _, n3, _, v3 = p
                         if n3 in cultures:
-                            v2.remove((n3, v3))
+                            v2[1].remove(p)
                 else:
-                    for n3, v3 in reversed(v2):
+                    for p in reversed(v2[1]):
+                        _, n3, _, v3 = p
                         if n3 in lt_keys:
-                            v2.remove((n3, v3))
+                            v2[1].remove(p)
                     if sed2[n2]:
-                        index = next((i for i, (n3, _) in enumerate(v2)
-                                      if ck2parser.is_codename(n3)), len(v2))
-                        v2[index:index] = sed2[n2]
-                update_tree(v2, sed2, lt_keys)
+                        try:
+                            index = next((i for i, (_, n3, *_) in enumerate(v2[1])
+                                          if ck2parser.is_codename(n3)), len(v2[1]))
+                        except ValueError:
+                            pprint(v2[1])
+                            raise
+                        v2[1][index:index] = [([], n_, [], ([], v_))
+                                              for n_, v_ in sed2[n2]]
+                update_tree(v2[1], sed2, lt_keys)
 
     for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
         template = templates_lt / inpath.with_suffix('.csv').name
@@ -83,7 +99,7 @@ def main():
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)]
                     sed2[title].append((key, val))
         item = ck2parser.parse_file(inpath)
-        update_tree(item, sed2, lt_keys)
+        update_tree(item[0], sed2, lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(ck2parser.to_string(item, fq_keys=cultures))
 

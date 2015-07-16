@@ -58,15 +58,17 @@ def op(string):
 many = funcparserlib.parser.many
 fwd = funcparserlib.parser.with_forward_decls
 endmark = funcparserlib.parser.skip(funcparserlib.parser.finished)
-unquoted_string = some('unquoted_string')
-quoted_string = some('quoted_string') >> unquote
-number = some('number') >> make_number
-date = some('date') >> make_date
-key = unquoted_string | quoted_string | number | date
-value = fwd(lambda: obj | key)
-pair = fwd(lambda: key + op('=') + value)
-obj = fwd(lambda: op('{') + many(pair | value) + op('}'))
-toplevel = many(pair | value) + endmark
+comments = many(some(lambda tok: tok.type == 'comment') >>
+                (lambda tok: tok.value))                                        # list(str)
+unquoted_string = some('unquoted_string')                                       # str
+quoted_string = some('quoted_string') >> unquote                                # str
+number = some('number') >> make_number                                          # Number
+date = some('date') >> make_date                                                # datetime.date
+key = comments + (unquoted_string | quoted_string | number | date)              # tuple(list(str), *)
+value = fwd(lambda: obj | key)                                                  # tuple
+pair = key + comments + op('=') + value                                         # tuple(list(str), *, list(str), tuple)
+obj = fwd(lambda: comments + op('{') + many(pair | value) + comments + op('}')) # tuple(list(str), list(tuple), list(str))
+toplevel = many(pair | value) + comments + endmark                              # tuple(list(tuple), list(str))
 
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
@@ -81,21 +83,40 @@ def parse_file(path, encoding='cp1252'):
     return tree
 
 def to_string(x, indent=-1, force_quote=False, fq_keys=[]):
+    if isinstance(x, str):
+        # unquoted_string or quoted_string
+        return '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
     if isinstance(x, tuple):
-        return '{} = {}'.format(to_string(x[0]),
-            to_string(x[1], indent, force_quote=(x[0] in fq_keys),
-                      fq_keys=fq_keys))
-    if isinstance(x, list):
+        if len(x) == 4:
+            # pair
+            return '{}{} {}= {}'.format(
+                to_string(x[0], indent),
+                to_string(x[1]),
+                to_string(x[2], indent),
+                to_string(x[3], indent, force_quote=(x[1] in fq_keys),
+                          fq_keys=fq_keys))
+        if len(x) == 2 and not isinstance(x[1], list):
+            # key
+            return to_string(x[0], indent) + to_string(x[1])
         if indent == -1:
-            return '\n'.join(to_string(y, 0, fq_keys=fq_keys) for y in x)
-        if not x:
+            # top-level many(pair | value)
+            return ('\n'.join(to_string(y, 0, fq_keys=fq_keys) for y in x[0]) +
+                    to_string(x[1]))
+        # obj
+        if not x[0]:
             return '{}'
-        if len(x) == 3 and all(isinstance(item, int) for item in x):
-            return '{{ {} {} {} }}'.format(*x)
+        if len(x[0]) == 3 and all(isinstance(item, int) for item in x[0]):
+            return '{{ {} {} {} }}'.format(*x[0])
         sep = '\n' + '\t' * (indent + 1)
-        return ('{' + sep +
-            sep.join(to_string(y, indent + 1, fq_keys=fq_keys) for y in x)
-            + '\n' + '\t' * indent + '}')
+        return ('{' + sep + sep.join(to_string(y, indent + 1, fq_keys=fq_keys)
+                for y in x[0]) + '\n' + '\t' * indent + '}')
+    if isinstance(x, list):
+        # comments
+        if not x:
+            return ''
+        if isinstance(x[0], str):
+            ws = '\n' + '\t' * (indent + 1)
+            return ws.join(x) + ws
     if isinstance(x, datetime.date):
         return '{0.year}.{0.month}.{0.day}'.format(x)
     if isinstance(x, str):
