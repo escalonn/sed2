@@ -29,7 +29,7 @@ token_specs = [
     ('quoted_string', (r'"[^"#\r\n]*"',)),
     ('unquoted_string', (r'[^\s"#={}]+',))
 ]
-useless = ['whitespace']
+useless = ['whitespace', 'comment']
 tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
 
 def unquote(string):
