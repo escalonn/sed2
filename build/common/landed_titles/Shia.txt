@@ -2,9 +2,11 @@ k_shiite = {
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
 	capital = 719
+	# Mecca
 	creation_requires_capital = no
 	dignity = 100
 	religion = shiite
+	# Controls a religion
 	controls_religion = shiite
 	assimilate = no
 	allow = {
@@ -25,6 +27,7 @@ k_shiite = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
 					719 = {
+						# Mecca
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -33,6 +36,7 @@ k_shiite = {
 						}
 					}
 					718 = {
+						# Medina
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -46,6 +50,7 @@ k_shiite = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
 					774 = {
+						# Jerusalem
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -54,6 +59,7 @@ k_shiite = {
 						}
 					}
 					728 = {
+						# Damascus
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -62,6 +68,7 @@ k_shiite = {
 						}
 					}
 					693 = {
+						# Baghdad
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT

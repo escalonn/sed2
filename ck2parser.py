@@ -22,7 +22,8 @@ def is_codename(string):
 
 token_specs = [
     ('comment', (r'#.*',)),
-    ('whitespace', (r'\s+',)),
+    ('whitespace', (r'[ \t]+',)),
+    ('newline', (r'\r?\n',)),
     ('op', (r'[={}]',)),
     ('date', (r'\d*\.\d*\.\d*',)),
     ('number', (r'\d+(\.\d+)?',)),
@@ -55,15 +56,68 @@ def op(string):
     return funcparserlib.parser.skip(funcparserlib.parser.a(
         funcparserlib.lexer.Token('op', string)))
 
+
+class Commented(object):
+    def __init__(self, parent=None, pre_comments=[], post_comment=None):
+        self.parent = parent
+        self.indent = parent.indent + 1 if parent else 0
+        self.pre_comments = pre_comments
+        self.post_comment = post_comment
+
+    def __str__(self):
+        s = indent * '\t'
+        if pre_comments:
+            s += ('\n' + s).join(pre_comments) + '\n'
+        s += self.value.__str__() + ' ' + post_comment + '\n'
+        return s
+
+    def inline_str(self, col):
+        s = indent * '\t'
+        if pre_comments:
+            s += ('\n' + s).join(pre_comments) + '\n'
+        s += self.value.__str__() + ' ' + post_comment + '\n'
+        return s
+
+class CK2String(Commented):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.value = str(*args, **kwargs)
+    
+class CK2Int(Commented):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.value = int(*args, **kwargs)
+    
+class CK2Float(Commented):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.value = float(*args, **kwargs)
+    
+class CK2Date(Commented):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.value = datetime.date(*args, **kwargs)
+
+    def __str__(self):
+        return '{0.year}.{0.month}.{0.day}'.format(self.value)
+    
+class CK2Op(Commented):
+    def __init__(self, *args, **kwargs):
+        self.value = str(*args, **kwargs)
+
 many = funcparserlib.parser.many
+maybe = funcparserlib.parser.maybe
 fwd = funcparserlib.parser.with_forward_decls
 endmark = funcparserlib.parser.skip(funcparserlib.parser.finished)
-comments = many(some('comment'))                                                # list(str)
+nl = funcparserlib.parser.skip(many(lambda tok: tok.type == 'newline'))
+comment = some('comment') + nl                                                  # str
+comments = many(comment)                                                        # list(str)
 unquoted_string = some('unquoted_string')                                       # str
 quoted_string = some('quoted_string') >> unquote                                # str
 number = some('number') >> make_number                                          # Number
 date = some('date') >> make_date                                                # datetime.date
-key = comments + (unquoted_string | quoted_string | number | date)              # tuple(list(str), *)
+key = (comments + (unquoted_string | quoted_string | number | date) >> tuple +
+       nl + maybe(comment) >> tuple)                                            # tuple(list(str), *)
 value = fwd(lambda: obj | key)                                                  # tuple
 pair = key + comments + op('=') + value                                         # tuple(list(str), *, list(str), tuple)
 obj = fwd(lambda: comments + op('{') + many(pair | value) + comments + op('}')) # tuple(list(str), list(tuple), list(str))

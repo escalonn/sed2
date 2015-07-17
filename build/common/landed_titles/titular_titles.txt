@@ -1,3 +1,5 @@
+#List of extra Titular Titles
+#ToG de jure stuff
 d_oxford = {
 	color = { 99 68 5 }
 	capital = 22
@@ -15,19 +17,23 @@ b_kolbatz = {}
 d_yaroslavl = {
 	color = { 178 192 134 }
 	capital = 572
+	# Yaroslavl
 }
 d_vitebsk = {
 	color = { 196 33 55 }
 	capital = 417
+	# Vitebsk
 }
 d_cheremisa = {
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
 	capital = 590
+	# Chuvash
 	allow = {
 		always = no
 	}
 }
+# TITULAR SWMH
 e_ulm = {
 	color = { 110 110 110 }
 	capital = 252
@@ -49,6 +55,7 @@ e_ulm = {
 e_khazaria = {
 	color = { 200 157 81 }
 	capital = 620
+	#Itil
 	allow = {
 		OR = {
 			religion_group = jewish_group
@@ -59,6 +66,7 @@ e_khazaria = {
 		independent = yes
 	}
 }
+#
 e_khitan = {
 	color = { 130 10 50 }
 	capital = 1572
@@ -123,6 +131,7 @@ d_black_caps = {
 e_kaleva = {
 	color = { 144 157 181 }
 	capital = 381
+	#Nyland
 	allow = {
 		culture_group = finno_ugric
 		has_landed_title = k_finland
@@ -133,6 +142,7 @@ e_kaleva = {
 k_geats = {
 	color = { 208 191 99 }
 	capital = 293
+	# Östergötland
 	allow = {
 		OR = {
 			AND = {
@@ -203,6 +213,7 @@ e_germany = {
 	color = { 190 200 190 }
 	color2 = { 220 220 20 }
 	capital = 121
+	# Nassau
 	culture = german
 	allow = {
 		always = no
@@ -210,22 +221,27 @@ e_germany = {
 }
 k_avaria = {
 	color = { 250 120 90 }
+	# Only for the CoA
 	culture = avar
 	capital = 444
+	# Anhalt
 	allow = {
 		always = no
 	}
 }
 k_lombardy = {
 	color = { 234 217 110 }
+	# Only for the CoA
 	culture = lombard
 	capital = 234
+	# Anhalt
 	allow = {
 		always = no
 	}
 }
 d_lauenburg = {
 	capital = 1098
+	#Lauenburg
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -244,6 +260,7 @@ d_lauenburg = {
 }
 d_sangermano = {
 	capital = 935
+	#Sangermano
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -257,6 +274,7 @@ k_salerno = {
 	color = { 0 132 250 }
 	culture = langobardisch
 	capital = 336
+	# Salerno
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -267,6 +285,7 @@ d_austrialombardic = {
 	color = { 4 33 122 }
 	culture = langobardisch
 	capital = 319
+	#Verona
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -278,7 +297,9 @@ d_neustria = {
 	color = { 4 33 11 }
 	culture = langobardisch
 	capital = 234
+	#Pavia
 	dignity = 15
+	# Counted as having 15 more counties than it does
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -292,6 +313,7 @@ d_tuscia = {
 	color = { 250 241 220 }
 	culture = langobardisch
 	capital = 323
+	#Lucca
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -303,6 +325,7 @@ k_duklja = {
 	color = { 224 186 36 }
 	culture = serbian
 	capital = 469
+	#Zeta
 	allow = {
 		k_serbia = {
 			has_holder = no
@@ -366,8 +389,10 @@ e_occitania = {
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
 	capital = 214
+	# Toulouse
 	culture = occitan
 	dignity = 100
+	# Counted as having 100 more counties than it does
 	allow = {
 		OR = {
 			culture = occitan
@@ -420,10 +445,13 @@ e_occitania = {
 	}
 	name_tier = king
 }
+# Titular Darrigan
+# The county of Flanders had more autonomy than other regions under the French crown. They did lose the independence wars # in the 13th and 14th century. But what if they had won?
 k_flanders = {
 	color = { 255 120 0 }
 	color2 = { 255 255 255 }
 	capital = 78
+	# Brugge
 	allow = {
 		has_landed_title = d_flanders
 		OR = {
@@ -444,18 +472,23 @@ k_flanders = {
 		}
 	}
 }
+# ARKO
 d_narbonne = {
+	#titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
 	capital = 214
+	# Toulouse
 	culture = occitan
 	allow = {
 		always = no
 	}
 }
+# King
 d_paulicians = {
 	color = { 78 33 125 }
 	capital = 1998
+	#Tephrike
 	allow = {
 		OR = {
 			culture = greek
@@ -464,10 +497,38 @@ d_paulicians = {
 		religion = paulician
 	}
 }
+#d_melitene = {
+#	color={ 11 34 128 }
+#	culture = levantine_arabic
+#	capital = 707 #Melitene
+#
+#	allow = {
+#		OR = {
+#		culture = levantine_arabic
+#		culture = kurdish
+#		culture = turkish
+#		}
+#
+#		religion_group = muslim
+#	}
+#}
+#
+#d_lori = {
+#	color={ 12 33 130 }
+#	culture = armenian
+#	capital = 1013 #Lori
+#
+#	allow = {
+#		culture = armenian
+#
+#		religion_group = christian
+#	}
+#}
 k_armenia_minor = {
 	color = { 14 30 131 }
 	culture = armenian
 	capital = 735
+	#Teluch
 	allow = {
 		culture = armenian
 		religion_group = christian
@@ -488,6 +549,7 @@ k_bagratid_grand_principality = {
 d_pagania = {
 	color = { 114 230 1 }
 	capital = 1330
+	#Omis
 	allow = {
 		OR = {
 			culture = serbian
@@ -513,6 +575,7 @@ d_rhodos = {
 d_dahlak = {
 	color = { 255 164 17 }
 	capital = 1592
+	#Dahlak
 	allow = {
 		OR = {
 			culture = bedouin_arabic
@@ -525,6 +588,7 @@ d_dahlak = {
 d_siraf = {
 	color = { 40 200 200 }
 	capital = 1594
+	#Siraf
 	allow = {
 		OR = {
 			culture = persian

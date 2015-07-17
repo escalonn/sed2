@@ -1,44 +1,60 @@
+# HOLY ORDERS
 d_knights_templar = {
 	color = { 230 230 230 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
 	capital = 138
+	# Always exists
 	landless = yes
 	holy_order = yes
 	mercenary_type = knights_templar_composition
 	culture = frankish
+	# Parent Religion 
 	religion = catholic
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to banking, etc
 	monthly_income = 10
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
+	# (Must be an integer between 1 and 512)
 }
 d_teutonic_order = {
 	color = { 50 50 50 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
 	capital = 258
+	# Always exists
 	landless = yes
 	holy_order = yes
 	mercenary_type = teutonic_order_composition
+	# Parent Religion 
 	religion = catholic
 	culture = german
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 4
 	title = HOCHMEISTER
 	foa = HOCHMEISTER_FOA
+	# (Must be an integer between 1 and 512)
 }
 d_livonian_brothers_of_the_sword = {
 	color = { 124 44 108 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
 	capital = 377
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion
 	religion = catholic
 	culture = german
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 3
+	# (Must be an integer between 1 and 512)
 	mercenary_type = teutonic_order_composition
 	title = HOCHMEISTER
 	foa = HOCHMEISTER_FOA
@@ -48,12 +64,17 @@ d_knights_hospitaler = {
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
 	capital = 333
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = occitan
+	# Parent Religion 
 	religion = catholic
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = knights_hospitaler_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -64,12 +85,18 @@ d_hashshashin = {
 	graphical_culture = hashshashingfx
 	capital = 693
 	holy_order = yes
+	# Always exists
 	landless = yes
 	culture = persian
+	# Parent Religion 
 	religion = shiite
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = hashshashin_composition
 	title = GRANDHEADMASTER
 	foa = GRANDHEADMASTER_FOA
@@ -80,12 +107,18 @@ d_bektashi = {
 	graphical_culture = bektashigfx
 	capital = 753
 	holy_order = yes
+	# Always exists
 	landless = yes
 	culture = persian
+	# Parent Religion 
 	religion = sunni
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = bektashi_composition
 	title = DEDEBABA
 	foa = GRANDHEADMASTER_FOA
@@ -96,12 +129,18 @@ d_haruriyyah = {
 	graphical_culture = bektashigfx
 	capital = 693
 	holy_order = yes
+	# Always exists
 	landless = yes
 	culture = bedouin_arabic
+	# Parent Religion 
 	religion = ibadi
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = haruriyyah_composition
 	title = DEDEBABA
 	foa = GRANDHEADMASTER_FOA
@@ -111,12 +150,17 @@ d_jomsvikings = {
 	color2 = { 255 255 255 }
 	graphical_culture = norseholygfx
 	capital = 303
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = norse_pagan
 	culture = norse
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = jomsvikings_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -125,12 +169,17 @@ d_immortals = {
 	color = { 180 205 20 }
 	graphical_culture = immortalsgfx
 	capital = 637
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = zoroastrian
 	culture = persian
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = immortals_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -139,12 +188,17 @@ d_zealots = {
 	color = { 20 100 255 }
 	graphical_culture = jewishholygfx
 	capital = 774
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = jewish
 	culture = ashkenazi
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = zealots_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -153,12 +207,17 @@ d_holy_sepulchre = {
 	color = { 120 0 145 }
 	graphical_culture = orthodoxholygfx
 	capital = 774
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = orthodox
 	culture = greek
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = holy_sepulchre_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -167,12 +226,17 @@ d_saint_anthony = {
 	color = { 180 165 70 }
 	graphical_culture = holygfx
 	capital = 875
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = miaphysite
 	culture = ethiopian
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = saint_anthony_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -181,12 +245,17 @@ d_saint_addai = {
 	color = { 180 80 140 }
 	graphical_culture = holygfx
 	capital = 693
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = nestorian
 	culture = persian
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = saint_addai_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -194,12 +263,17 @@ d_saint_addai = {
 d_sky_lords = {
 	color = { 220 200 140 }
 	capital = 898
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = tengri_pagan_reformed
 	culture = cuman
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = sky_lords_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -208,12 +282,17 @@ d_spirit_guardians = {
 	color = { 120 120 55 }
 	graphical_culture = westafricanholygfx
 	capital = 925
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = west_african_pagan_reformed
 	culture = manden
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = spirit_guardians_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -222,12 +301,17 @@ d_warriors_perun = {
 	color = { 100 140 100 }
 	graphical_culture = slavicholygfx
 	capital = 547
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = slavic_pagan_reformed
 	culture = russian
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = warriors_perun_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -236,12 +320,17 @@ d_chosen_perkunas = {
 	color = { 200 45 45 }
 	graphical_culture = balticholygfx
 	capital = 374
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = baltic_pagan_reformed
 	culture = lettigallish
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = chosen_perkunas_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -250,12 +339,17 @@ d_sons_kaleva = {
 	color = { 140 130 105 }
 	graphical_culture = finnishholygfx
 	capital = 392
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = finnish_pagan_reformed
 	culture = finnish
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = sons_kaleva_composition
 	title = WARCHIEF
 	foa = WARCHIEF_FOA
@@ -264,12 +358,17 @@ d_huitzilopochtli = {
 	color = { 255 200 0 }
 	graphical_culture = aztecholygfx
 	capital = 843
+	# Always exists
 	landless = yes
 	holy_order = yes
+	# Parent Religion 
 	religion = aztec_reformed
 	culture = nahuatl
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = huitzilopochtli_composition
 	title = HIGHPRIEST
 	foa = GRANDMASTER_FOA
@@ -278,12 +377,17 @@ d_knights_santiago = {
 	color = { 255 130 0 }
 	graphical_culture = holygfx
 	capital = 157
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = castillan
+	# Parent Religion 
 	religion = catholic
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = knights_santiago_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -292,12 +396,17 @@ d_knights_calatrava = {
 	color = { 230 100 0 }
 	graphical_culture = holygfx
 	capital = 196
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = castillan
+	# Parent Religion 
 	religion = catholic
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 6
+	# (Must be an integer between 1 and 512)
 	mercenary_type = knights_calatrava_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -306,12 +415,17 @@ d_followers_arjuna = {
 	color = { 255 0 0 }
 	color2 = { 255 255 255 }
 	capital = 1355
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = hindustani
+	# Parent Religion 
 	religion = hindu
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = followers_arjuna_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -320,12 +434,17 @@ d_ashokas_chosen = {
 	color = { 205 100 0 }
 	color2 = { 255 255 255 }
 	capital = 1355
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = marathi
+	# Parent Religion 
 	religion = buddhist
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = ashokas_chosen_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -334,12 +453,17 @@ d_bulls_rishabha = {
 	color = { 255 100 0 }
 	color2 = { 255 255 255 }
 	capital = 1355
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = kannada
+	# Parent Religion 
 	religion = jain
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = bulls_rishabha_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
@@ -347,25 +471,36 @@ d_bulls_rishabha = {
 d_zun_warriors = {
 	color = { 230 255 0 }
 	capital = 852
+	# Always exists
 	landless = yes
 	holy_order = yes
 	culture = pashtun
+	# Parent Religion 
 	religion = zun_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
+	# Extra income due to donations, etc
 	monthly_income = 2
+	# (Must be an integer between 1 and 512)
 	mercenary_type = zun_warriors_composition
 	title = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
+# MERCS
 d_sunni_turkic_company = {
 	color = { 130 173 70 }
 	color2 = { 255 255 255 }
 	capital = 621
+	# Kangly
+	# Parent Religion 
 	religion = sunni
 	culture = turkish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_turkic_company_composition
@@ -376,17 +511,23 @@ d_sunni_cuman_company = {
 	color = { 134 155 30 }
 	color2 = { 255 255 255 }
 	capital = 616
+	# Yaik
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = sunni
 	culture = cuman
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_cuman_company_composition
@@ -397,17 +538,23 @@ d_sunni_berber_company = {
 	color = { 85 155 33 }
 	color2 = { 255 255 255 }
 	capital = 833
+	# Atlas
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = sunni
 	culture = maghreb_arabic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = berber_company_composition
@@ -418,17 +565,23 @@ d_sunni_bedouin_company = {
 	color = { 45 155 35 }
 	color2 = { 255 255 255 }
 	capital = 862
+	# Halaban
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = sunni
 	culture = bedouin_arabic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = bedouin_company_composition
@@ -439,11 +592,16 @@ d_shiite_turkic_company = {
 	color = { 135 170 60 }
 	color2 = { 255 255 255 }
 	capital = 621
+	# Kangly
+	# Parent Religion 
 	religion = shiite
 	culture = turkish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_turkic_company_composition
@@ -454,17 +612,23 @@ d_shiite_cuman_company = {
 	color = { 130 150 30 }
 	color2 = { 255 255 255 }
 	capital = 616
+	# Yaik
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = shiite
 	culture = cuman
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_cuman_company_composition
@@ -475,17 +639,23 @@ d_shiite_berber_company = {
 	color = { 90 150 30 }
 	color2 = { 255 255 255 }
 	capital = 833
+	# Atlas
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = shiite
 	culture = maghreb_arabic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = berber_company_composition
@@ -496,17 +666,23 @@ d_shiite_bedouin_company = {
 	color = { 40 150 30 }
 	color2 = { 255 255 255 }
 	capital = 862
+	# Halaban
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
 	}
+	# Parent Religion 
 	religion = shiite
 	culture = bedouin_arabic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = bedouin_company_composition
@@ -517,13 +693,19 @@ d_white_company = {
 	color = { 235 235 235 }
 	color2 = { 255 255 255 }
 	capital = 72
+	# Essex
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = white_company_composition
@@ -534,13 +716,19 @@ d_great_company = {
 	color = { 100 100 100 }
 	color2 = { 255 255 255 }
 	capital = 361
+	# Niederbayern
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = great_company_composition
@@ -551,13 +739,19 @@ d_company_of_st_george = {
 	color = { 50 50 200 }
 	color2 = { 255 255 255 }
 	capital = 235
+	# Lombardia
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = company_of_st_george_composition
@@ -568,13 +762,19 @@ d_star_company = {
 	color = { 200 80 200 }
 	color2 = { 255 255 255 }
 	capital = 353
+	# Ferrara
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = star_company_composition
@@ -585,13 +785,19 @@ d_little_hat_company = {
 	color = { 100 200 80 }
 	color2 = { 255 255 255 }
 	capital = 354
+	# mantua
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = little_hat_company_composition
@@ -602,13 +808,19 @@ d_rose_company = {
 	color = { 230 150 150 }
 	color2 = { 255 255 255 }
 	capital = 355
+	# Padua
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = rose_company_composition
@@ -619,14 +831,20 @@ d_catalan_company = {
 	color = { 230 100 100 }
 	color2 = { 255 255 255 }
 	capital = 204
+	# Barcelona
 	mercenary = yes
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = catalan
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = catalan_company_composition
@@ -637,14 +855,20 @@ d_navarrese_company = {
 	color = { 150 150 100 }
 	color2 = { 255 255 255 }
 	capital = 152
+	# Navarre
 	mercenary = yes
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = basque
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = navarrese_company_composition
@@ -655,13 +879,19 @@ d_swiss_company = {
 	color = { 150 40 40 }
 	color2 = { 255 255 255 }
 	capital = 239
+	# Geneve
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = swiss_company_composition
@@ -672,14 +902,20 @@ d_breton_company = {
 	color = { 150 40 40 }
 	color2 = { 255 255 255 }
 	capital = 102
+	# Penthievre
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = breton
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = breton_company_composition
@@ -690,6 +926,8 @@ d_victual_brothers = {
 	color = { 160 160 160 }
 	color2 = { 255 255 255 }
 	capital = 370
+	# Marienburg
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion = norse_pagan
@@ -701,11 +939,15 @@ d_victual_brothers = {
 			religion_group = christian
 		}
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
 	mercenary_type = victual_brothers_composition
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 0.25
 	title = CAPTAIN
@@ -716,10 +958,14 @@ d_varangian_guard = {
 	color2 = { 255 255 255 }
 	graphical_culture = orthodoxholygfx
 	capital = 290
+	# Uppland
+	# Parent Religion 
 	religion = orthodox
 	culture = norse
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
 	strength_growth_per_century = 0.1
 	mercenary_type = varangian_guard_composition
@@ -730,11 +976,16 @@ d_cuman_company = {
 	color = { 160 160 80 }
 	color2 = { 255 255 255 }
 	capital = 616
+	# Yaik
+	# Parent Religion 
 	religion = orthodox
 	culture = cuman
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = cuman_company_composition
@@ -745,17 +996,23 @@ d_rus_company = {
 	color = { 80 80 160 }
 	color2 = { 255 255 255 }
 	capital = 547
+	# Kiev
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = pagan_group
 			religion_group = christian
 		}
 	}
+	# Parent Religion 
 	religion = orthodox
 	culture = russian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = rus_company_composition
@@ -766,11 +1023,16 @@ d_pecheneg_company = {
 	color = { 100 100 30 }
 	color2 = { 255 255 255 }
 	capital = 542
+	# Olvia
+	# Parent Religion 
 	religion = orthodox
 	culture = pecheneg
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = pecheneg_company_composition
@@ -781,11 +1043,16 @@ d_bulgarian_company = {
 	color = { 100 50 30 }
 	color2 = { 255 255 255 }
 	capital = 508
+	# Dorostotum
+	# Parent Religion 
 	religion = orthodox
 	culture = bulgarian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = bulgarian_company_composition
@@ -796,11 +1063,16 @@ d_turkic_company = {
 	color = { 100 50 30 }
 	color2 = { 255 255 255 }
 	capital = 621
+	# Kangly
+	# Parent Religion 
 	religion = orthodox
 	culture = turkish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = turkic_company_composition
@@ -811,13 +1083,19 @@ d_lombard_band = {
 	color = { 150 60 60 }
 	color2 = { 255 255 255 }
 	capital = 235
+	# Lombardia
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = lombard_band_composition
@@ -828,13 +1106,19 @@ d_swiss_band = {
 	color = { 150 40 40 }
 	color2 = { 255 255 255 }
 	capital = 239
+	# Geneve
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = swiss_band_composition
@@ -845,14 +1129,20 @@ d_breton_band = {
 	color = { 150 65 65 }
 	color2 = { 255 255 255 }
 	capital = 102
+	# Penthievre
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = breton
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = breton_band_composition
@@ -863,14 +1153,20 @@ d_catalan_band = {
 	color = { 230 100 100 }
 	color2 = { 255 255 255 }
 	capital = 204
+	# Barcelona
 	mercenary = yes
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = catalan
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = catalan_band_composition
@@ -881,14 +1177,20 @@ d_saxon_band = {
 	color = { 220 90 90 }
 	color2 = { 255 255 255 }
 	capital = 57
+	# York
 	mercenary = yes
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = saxon
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = saxon_band_composition
@@ -899,11 +1201,16 @@ d_cuman_band = {
 	color = { 160 160 80 }
 	color2 = { 255 255 255 }
 	capital = 616
+	# Yaik
+	# Parent Religion 
 	religion = orthodox
 	culture = cuman
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = cuman_band_composition
@@ -914,17 +1221,23 @@ d_rus_band = {
 	color = { 80 80 160 }
 	color2 = { 255 255 255 }
 	capital = 547
+	# Kiev
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
 	}
+	# Parent Religion 
 	religion = orthodox
 	culture = russian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = rus_band_composition
@@ -935,17 +1248,23 @@ d_finnish_band = {
 	color = { 131 35 35 }
 	color2 = { 255 255 255 }
 	capital = 383
+	# Häme
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
 	}
+	# Parent Religion 
 	religion = finnish_pagan
 	culture = finnish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = finnish_band_composition
@@ -956,17 +1275,23 @@ d_lappish_band = {
 	color = { 101 69 30 }
 	color2 = { 255 255 255 }
 	capital = 386
+	# Kemi
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
 	}
+	# Parent Religion 
 	religion = finnish_pagan
 	culture = lappish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = lappish_band_composition
@@ -977,17 +1302,23 @@ d_lithuanian_band = {
 	color = { 169 90 95 }
 	color2 = { 255 255 255 }
 	capital = 421
+	# Lietuva / Zhmud
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
 	}
+	# Parent Religion 
 	religion = baltic_pagan
 	culture = lithuanian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = lithuanian_band_composition
@@ -998,17 +1329,23 @@ d_abyssinian_band = {
 	color = { 180 135 60 }
 	color2 = { 255 255 255 }
 	capital = 875
+	# Axum
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 	}
+	# Parent Religion 
 	religion = miaphysite
 	culture = ethiopian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = abyssinian_band_composition
@@ -1019,17 +1356,23 @@ d_nubian_band = {
 	color = { 155 165 80 }
 	color2 = { 255 255 255 }
 	capital = 878
+	# Hayya
+	# Hire Trigger
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 	}
+	# Parent Religion 
 	religion = miaphysite
 	culture = nubian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = nubian_band_composition
@@ -1040,14 +1383,20 @@ d_scottish_band = {
 	color = { 30 90 182 }
 	color2 = { 255 255 255 }
 	capital = 43
+	# Gowrie
+	# Hire Trigger
 	allow = {
 		always = yes
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = scottish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = scottish_band_composition
@@ -1058,14 +1407,20 @@ d_irish_band = {
 	color = { 112 255 70 }
 	color2 = { 255 255 255 }
 	capital = 10
+	# Kildare
+	# Hire Trigger
 	allow = {
 		always = yes
 	}
+	# Parent Religion 
 	religion = catholic
 	culture = irish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = irish_band_composition
@@ -1076,14 +1431,20 @@ d_alan_band = {
 	color = { 245 210 90 }
 	color2 = { 255 255 255 }
 	capital = 603
+	# Alania
+	# Hire Trigger
 	allow = {
 		always = yes
 	}
+	# Parent Religion 
 	religion = orthodox
 	culture = alan
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = alan_band_composition
@@ -1094,11 +1455,16 @@ d_pecheneg_band = {
 	color = { 100 100 30 }
 	color2 = { 255 255 255 }
 	capital = 542
+	# Olvia
+	# Parent Religion 
 	religion = orthodox
 	culture = pecheneg
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = pecheneg_band_composition
@@ -1109,11 +1475,16 @@ d_bulgarian_band = {
 	color = { 100 50 30 }
 	color2 = { 255 255 255 }
 	capital = 508
+	# Dorostotum
+	# Parent Religion 
 	religion = orthodox
 	culture = bulgarian
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = bulgarian_band_composition
@@ -1124,11 +1495,16 @@ d_turkic_band = {
 	color = { 100 50 30 }
 	color2 = { 255 255 255 }
 	capital = 621
+	# Kangly
+	# Parent Religion 
 	religion = orthodox
 	culture = turkish
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = turkic_band_composition
@@ -1140,12 +1516,17 @@ d_mamluks = {
 	color2 = { 255 255 255 }
 	graphical_culture = bektashigfx
 	capital = 796
+	# Cairo
+	# Hire Trigger
 	allow = {
 		religion_group = muslim
 	}
+	# Parent Religion 
 	religion = shiite
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = mamluks_composition
@@ -1153,17 +1534,24 @@ d_mamluks = {
 	foa = CAPTAIN_FOA
 }
 d_venetian_navy = {
+	# Now "Adriatic Galleys"
 	color = { 60 175 170 }
 	color2 = { 255 255 255 }
 	capital = 356
+	# Venice
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 		year = 1066
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = naval_merc_composition
 	title = CAPTAIN
@@ -1171,17 +1559,24 @@ d_venetian_navy = {
 	short_name = yes
 }
 d_genoese_navy = {
+	# Now "Ligurian Galleys"
 	color = { 224 161 120 }
 	color2 = { 255 255 255 }
 	capital = 233
+	# Genoa
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 		year = 1066
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = naval_merc_composition
 	title = CAPTAIN
@@ -1189,17 +1584,24 @@ d_genoese_navy = {
 	short_name = yes
 }
 d_hanseatic_navy = {
+	# Now "Baltic Cogs"
 	color = { 150 150 150 }
 	color2 = { 255 255 255 }
 	capital = 262
+	# Lübeck
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 		year = 1066
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = naval_merc_composition
 	title = CAPTAIN
@@ -1207,17 +1609,24 @@ d_hanseatic_navy = {
 	short_name = yes
 }
 d_frisian_navy = {
+	# Now "North Sea Cogs"
 	color = { 245 80 20 }
 	color2 = { 255 255 255 }
 	capital = 80
+	# Holland
+	# Hire Trigger
 	allow = {
 		religion_group = christian
 		year = 1066
 	}
+	# Parent Religion 
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = naval_merc_composition
 	title = CAPTAIN
@@ -1228,15 +1637,21 @@ d_maghreb_corsairs = {
 	color = { 174 237 125 }
 	color2 = { 255 255 255 }
 	capital = 816
+	# Mahdia
+	# Hire Trigger
 	allow = {
 		religion_group = muslim
 		year = 1066
 	}
+	# Parent Religion 
 	religion = sunni
 	culture = maghreb_arabic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = naval_merc_composition
 	title = CAPTAIN
@@ -1248,12 +1663,17 @@ d_ghilman = {
 	color2 = { 255 255 255 }
 	graphical_culture = bektashigfx
 	capital = 627
+	# Kara-Kum
+	# Hire Trigger
 	allow = {
 		religion_group = muslim
 	}
+	# Parent Religion 
 	religion = sunni
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = ghilman_composition
@@ -1264,38 +1684,51 @@ d_ghanan_band = {
 	color = { 108 123 48 }
 	color2 = { 255 255 255 }
 	capital = 913
+	# Ghana
+	# Hire Trigger
 	allow = {
 		culture_group = west_african
 	}
+	# Parent Religion 
 	religion = west_african_pagan
 	culture = manden
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = ghanan_band_composition
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
 }
+# EMPIRES
 e_hre = {
 	color = { 224 195 65 }
 	color2 = { 220 220 20 }
 	capital = 1026
+	# Aachen
 	religion = catholic
 	culture = german
 	short_name = yes
 	k_frisia = {
 		color = { 255 120 0 }
 		color2 = { 220 220 20 }
+		#('Dutch' Low Saxon), "Freeslaand" ('German' Low Saxon)
 		culture = frisian
 		capital = 82
+		#Dorestad
 		catholic = 1500
+		# Crusade target weight
 		norse_pagan_reformed = 300
+		# Crusade target weight
 		d_holland = {
 			color = { 250 150 20 }
 			color2 = { 240 140 10 }
 			capital = 80
+			#Holland
 			culture = low_frankish
 			name_tier = count
 			c_holland = {
@@ -1335,6 +1768,7 @@ e_hre = {
 			color = { 17 104 8 }
 			color2 = { 240 140 10 }
 			capital = 82
+			#Utrecht
 			culture = low_frankish
 			name_tier = count
 			c_sticht = {
@@ -1353,7 +1787,8 @@ e_hre = {
 				color = { 159 160 161 }
 				color2 = { 255 255 255 }
 				culture = low_saxon
-				b_deventer = {}
+				b_deventer = {	#(Plattdüütsch also uses Dèventer, but the more local variety Nedersaksies doesnn't)
+				}
 				b_kampen = {}
 				b_zwolle = {}
 				b_coevorden = {}
@@ -1383,6 +1818,7 @@ e_hre = {
 			color = { 64 105 139 }
 			color2 = { 240 125 10 }
 			capital = 83
+			#Gelre
 			culture = low_frankish
 			c_arnhem = {
 				color = { 159 159 159 }
@@ -1426,7 +1862,9 @@ e_hre = {
 			color = { 7 18 161 }
 			color2 = { 240 125 10 }
 			capital = 84
+			#Frisia
 			culture = frisian
+			#(German Low Saxon, Dutch Low Saxon: "Fraisland")
 			c_ostfriesland = {
 				color = { 162 162 162 }
 				color2 = { 255 255 255 }
@@ -1514,10 +1952,12 @@ e_hre = {
 			}
 		}
 	}
+	# END k_frisia
 	k_upper_lorraine = {
 		color = { 250 150 20 }
 		color2 = { 220 220 20 }
 		capital = 127
+		#Lorraine - Nancy
 		culture = franconian
 		catholic = 4000
 		name_tier = duke
@@ -1551,6 +1991,7 @@ e_hre = {
 			color = { 38 172 57 }
 			color2 = { 214 140 0 }
 			capital = 115
+			#Luxembourg
 			culture = franconian
 			c_arlon = {
 				color = { 147 147 147 }
@@ -1605,6 +2046,7 @@ e_hre = {
 			color = { 37 114 179 }
 			color2 = { 255 204 0 }
 			capital = 124
+			# Pfalz
 			culture = franconian
 			title = PALATINE
 			title_female = PALATINEA
@@ -1656,6 +2098,7 @@ e_hre = {
 			color = { 255 166 0 }
 			color2 = { 255 166 0 }
 			capital = 127
+			#Lorraine	
 			culture = frankish
 			c_metz = {
 				color = { 114 114 114 }
@@ -1718,6 +2161,7 @@ e_hre = {
 			color = { 38 24 109 }
 			color2 = { 255 166 0 }
 			capital = 1028
+			#Pont-a-Mousson
 			culture = frankish
 			c_verdun = {
 				color = { 111 111 111 }
@@ -1776,18 +2220,22 @@ e_hre = {
 			}
 		}
 	}
+	# END k_upper_lorraine
 	k_lower_lorraine = {
 		color = { 255 204 20 }
 		color2 = { 255 204 0 }
 		capital = 92
+		#Antwerpen
 		culture = low_frankish
 		catholic = 4000
+		# Crusade target weight
 		norse_pagan_reformed = 50
 		name_tier = duke
 		d_brabant = {
 			color = { 38 38 38 }
 			color2 = { 240 204 10 }
 			capital = 1019
+			#Brussel
 			culture = low_frankish
 			dignity = 10
 			c_brabant = {
@@ -1826,7 +2274,8 @@ e_hre = {
 				color2 = { 255 255 255 }
 				b_breda = {}
 				b_lier = {}
-				b_turnhout = {}
+				b_turnhout = {	# French
+				}
 				b_antwerpen = {}
 				b_tilburg = {}
 				b_bergenopzoom = {}
@@ -1862,6 +2311,7 @@ e_hre = {
 			color = { 250 79 0 }
 			color2 = { 240 79 0 }
 			capital = 116
+			#Liege
 			culture = frankish
 			c_liege = {
 				color = { 144 144 144 }
@@ -1909,6 +2359,7 @@ e_hre = {
 			color = { 85 3 196 }
 			color2 = { 240 204 10 }
 			capital = 94
+			#Mons/Bergen
 			culture = frankish
 			name_tier = count
 			c_hainaut = {
@@ -1961,10 +2412,12 @@ e_hre = {
 			color = { 87 87 128 }
 			color2 = { 240 51 0 }
 			capital = 1057
+			#Limburg
 			culture = low_frankish
 			c_limburg = {
 				color = { 149 150 153 }
 				color2 = { 255 255 255 }
+				#frankish = "Limbourg"   
 				b_limburg = {}
 				b_valkenburg = {}
 				b_maastricht = {}
@@ -1992,6 +2445,7 @@ e_hre = {
 			color = { 27 78 32 }
 			color2 = { 255 255 255 }
 			capital = 119
+			#Köln
 			culture = franconian
 			dignity = 10
 			title = FE
@@ -2023,6 +2477,7 @@ e_hre = {
 			color = { 240 209 56 }
 			color2 = { 255 255 255 }
 			capital = 1063
+			#Berg
 			culture = franconian
 			c_julich = {
 				color = { 138 138 138 }
@@ -2067,7 +2522,8 @@ e_hre = {
 				b_pfalzaachen = {
 					used_for_dynasty_names = no
 				}
-				b_burtscheid = {}
+				b_burtscheid = {	#frankish = "Borcette" 
+				}
 				b_aachen = {}
 			}
 			allow = {
@@ -2108,20 +2564,27 @@ e_hre = {
 			}
 		}
 	}
+	# END k_lower_lorraine
 	k_saxony = {
 		color = { 78 98 40 }
 		color2 = { 220 220 20 }
 		capital = 257
+		#Braunschweig
 		culture = low_saxon
 		catholic = 2500
+		# Crusade target weight
 		norse_pagan_reformed = 200
+		# Crusade target weight
 		slavic_pagan_reformed = 200
+		# Crusade target weight
 		baltic_pagan_reformed = 50
 		name_tier = duke
+		# Crusade target weight
 		d_angria = {
 			color = { 180 155 85 }
 			color2 = { 255 255 255 }
 			capital = 259
+			# Celle
 			culture = low_saxon
 			c_mark = {
 				color = { 141 161 141 }
@@ -2166,10 +2629,12 @@ e_hre = {
 			color = { 181 9 53 }
 			color2 = { 255 255 255 }
 			capital = 1079
+			# Tecklenburg
 			culture = low_saxon
 			c_tecklenburg = {
 				color = { 213 213 213 }
 				color2 = { 255 255 255 }
+				#b_osnabruck = {} # c_osnabruck
 				b_wildeshausen = {}
 				b_tecklenburg = {}
 				b_quackenbruck = {}
@@ -2197,6 +2662,7 @@ e_hre = {
 			color = { 106 128 191 }
 			color2 = { 255 255 255 }
 			capital = 87
+			#Osnabrück
 			culture = low_saxon
 			title = FE
 			foa = FE_FOA
@@ -2205,6 +2671,7 @@ e_hre = {
 				color = { 213 213 213 }
 				color2 = { 255 255 255 }
 				b_osnabruck = {}
+				#b_wildeshausen = {} # c_tecklenburg
 				b_ravensberg = {}
 				b_werhta = {}
 				b_diepholz = {}
@@ -2219,6 +2686,7 @@ e_hre = {
 			color = { 240 189 63 }
 			color2 = { 255 255 255 }
 			capital = 88
+			#Münster
 			culture = low_saxon
 			title = FE
 			foa = FE_FOA
@@ -2244,6 +2712,7 @@ e_hre = {
 			color = { 178 24 23 }
 			color2 = { 255 255 255 }
 			capital = 848
+			#Bremen
 			culture = low_saxon
 			title = FE
 			foa = FE_FOA
@@ -2270,6 +2739,7 @@ e_hre = {
 			color = { 152 112 112 }
 			color2 = { 255 255 255 }
 			capital = 263
+			#Holstein
 			culture = low_saxon
 			c_holstein = {
 				color = { 219 219 219 }
@@ -2342,6 +2812,7 @@ e_hre = {
 			color = { 133 50 75 }
 			color2 = { 255 255 255 }
 			capital = 1074
+			#Magdeburg
 			culture = low_saxon
 			title = FE
 			foa = FE_FOA
@@ -2363,6 +2834,7 @@ e_hre = {
 			color = { 129 154 112 }
 			color2 = { 255 255 255 }
 			capital = 310
+			#Anhalt
 			culture = thuringian
 			c_anhalt = {
 				color = { 184 184 184 }
@@ -2388,6 +2860,7 @@ e_hre = {
 				b_blankenburg = {}
 				b_halberstedt = {}
 				b_quedlinburg = {}
+				#b_querfurt = {} # c_anhalt
 				b_braunlage = {}
 			}
 			c_wittenberg = {
@@ -2438,6 +2911,7 @@ e_hre = {
 			color = { 200 193 40 }
 			color2 = { 255 255 255 }
 			capital = 312
+			#Meissen
 			culture = thuringian
 			title = MARGRAVE
 			title_female = MARGRAVINE
@@ -2463,6 +2937,7 @@ e_hre = {
 				b_voigtsberg = {}
 				b_ronneburg = {}
 				b_schoneck = {}
+				#b_gera = {} # c_weimar
 				b_greiz = {}
 			}
 			c_merseburg = {
@@ -2484,6 +2959,7 @@ e_hre = {
 			color = { 47 71 31 }
 			color2 = { 255 255 255 }
 			capital = 309
+			#Altmark
 			culture = low_saxon
 			c_altmark = {
 				color = { 189 189 189 }
@@ -2500,6 +2976,7 @@ e_hre = {
 			color = { 224 182 85 }
 			color2 = { 255 255 255 }
 			capital = 258
+			#Luneburg
 			culture = low_saxon
 			c_luneburg = {
 				color = { 195 195 195 }
@@ -2580,17 +3057,21 @@ e_hre = {
 			}
 		}
 	}
+	# END k_saxony
 	k_franconia = {
 		color = { 130 100 100 }
 		color2 = { 220 220 20 }
 		capital = 1007
+		#Königssondergau
 		culture = franconian
 		catholic = 4000
 		name_tier = duke
+		# Crusade target weight
 		d_rheinfranken = {
 			color = { 100 99 100 }
 			color2 = { 255 255 255 }
 			capital = 122
+			#Leiningen, should be Worms
 			culture = franconian
 			c_leiningen = {
 				color = { 126 126 126 }
@@ -2637,6 +3118,7 @@ e_hre = {
 			color = { 231 221 198 }
 			color2 = { 255 255 255 }
 			capital = 254
+			#Wurzburg
 			culture = franconian
 			c_henneberg = {
 				color = { 39 82 255 }
@@ -2679,6 +3161,7 @@ e_hre = {
 			color = { 218 61 23 }
 			color2 = { 255 255 255 }
 			capital = 123
+			#Mainz
 			culture = franconian
 			title = FE
 			foa = FE_FOA
@@ -2704,6 +3187,7 @@ e_hre = {
 			color = { 2 23 110 }
 			color2 = { 255 255 255 }
 			capital = 255
+			#Thuringen
 			culture = thuringian
 			title = LANDGRAVE
 			title_female = LANDGRAVINE
@@ -2735,6 +3219,7 @@ e_hre = {
 			color = { 8 64 255 }
 			color2 = { 255 255 255 }
 			capital = 120
+			#Hesse
 			culture = franconian
 			title = LANDGRAVE
 			title_female = LANDGRAVINE
@@ -2801,18 +3286,23 @@ e_hre = {
 			}
 		}
 	}
+	# END k_franconia
 	k_bavaria = {
 		color = { 56 67 158 }
 		color2 = { 220 220 20 }
 		capital = 361
+		#Regensburg
 		culture = bavarian
 		catholic = 3000
+		# Crusade target weight
 		slavic_pagan_reformed = 50
 		name_tier = duke
+		# Crusade target weight
 		d_niederbayern = {
 			color = { 241 246 190 }
 			color2 = { 255 255 255 }
 			capital = 361
+			#Niederbayern
 			culture = bavarian
 			greek = "Raetia Secunda"
 			roman = "Raetia Secunda"
@@ -2871,6 +3361,7 @@ e_hre = {
 			color = { 126 28 19 }
 			color2 = { 255 255 255 }
 			capital = 316
+			#Tirol
 			culture = bavarian
 			name_tier = count
 			c_tirol = {
@@ -2919,6 +3410,7 @@ e_hre = {
 			color = { 240 189 63 }
 			color2 = { 255 255 255 }
 			capital = 313
+			#Bamberg
 			culture = franconian
 			title = FE
 			foa = FE_FOA
@@ -2943,6 +3435,7 @@ e_hre = {
 			color = { 101 116 136 }
 			color2 = { 255 255 255 }
 			capital = 314
+			#Nürnberg
 			culture = franconian
 			title = BURGRAVE
 			title_female = BURGRAVINE
@@ -2994,6 +3487,7 @@ e_hre = {
 			color = { 81 151 200 }
 			color2 = { 255 255 255 }
 			capital = 360
+			#Oberbayern
 			culture = bavarian
 			greek = "Raetia Prima"
 			roman = "Raetia Prima"
@@ -3032,6 +3526,7 @@ e_hre = {
 			color = { 164 33 33 }
 			color2 = { 255 255 255 }
 			capital = 448
+			#Salzburg
 			culture = bavarian
 			title = FE
 			foa = FE_FOA
@@ -3058,6 +3553,7 @@ e_hre = {
 			color = { 188 0 7 }
 			color2 = { 255 255 255 }
 			capital = 449
+			#Österreich
 			culture = bavarian
 			greek = "Noricum Ripense"
 			roman = "Noricum Ripense"
@@ -3086,6 +3582,7 @@ e_hre = {
 				b_maissau = {}
 			}
 			c_innsbruck = {
+				# Traungau
 				color = { 84 84 84 }
 				color2 = { 255 255 255 }
 				b_steyr = {}
@@ -3147,18 +3644,23 @@ e_hre = {
 			}
 		}
 	}
+	# END k_bavaria
 	k_carinthia = {
 		color = { 165 255 250 }
 		color2 = { 220 220 20 }
 		capital = 456
+		#Kärnten
 		culture = karantanci
 		catholic = 2500
+		# Crusade target weight	
 		slavic_pagan_reformed = 150
 		name_tier = duke
+		# Crusade target weight
 		d_styria = {
 			color = { 77 157 97 }
 			color2 = { 255 255 255 }
 			capital = 455
+			#Steiermark
 			culture = bavarian
 			c_steiermark = {
 				color = { 45 45 45 }
@@ -3316,6 +3818,7 @@ e_hre = {
 			color = { 167 136 62 }
 			color2 = { 255 255 255 }
 			capital = 358
+			# Aquileia
 			culture = venetian
 			c_aquileia = {
 				color = { 37 140 129 }
@@ -3354,13 +3857,16 @@ e_hre = {
 			}
 		}
 	}
+	# END k_carinthia
 	k_schwaben = {
 		color = { 57 142 157 }
 		color2 = { 220 220 20 }
 		capital = 250
+		#Bodman, hence Bodensee (Lake Constance)
 		culture = swabian
 		catholic = 3000
 		name_tier = duke
+		# Crusade target weight
 		d_augsburg = {
 			color = { 255 160 122 }
 			color2 = { 255 255 255 }
@@ -3463,6 +3969,7 @@ e_hre = {
 			color = { 111 19 32 }
 			color2 = { 200 106 0 }
 			capital = 134
+			#Sundgau
 			culture = swabian
 			c_nordgau = {
 				color = { 96 96 96 }
@@ -3516,12 +4023,14 @@ e_hre = {
 			color2 = { 200 106 0 }
 			culture = swabian
 			capital = 244
+			#Zähringen
 			c_schwyz = {
 				color = { 167 28 66 }
 				color2 = { 255 255 255 }
 				b_schwyz = {}
 				b_engelberg = {}
 				b_luzern = {}
+				#b_zug = {}
 				b_altrapperswill = {}
 				b_einsideln = {}
 			}
@@ -3584,6 +4093,7 @@ e_hre = {
 			color2 = { 255 255 255 }
 			culture = swabian
 			capital = 1029
+			#Teck
 			c_teck = {
 				color = { 81 81 81 }
 				color2 = { 255 255 255 }
@@ -3622,6 +4132,7 @@ e_hre = {
 				b_villingen = {}
 				b_baar = {}
 				b_haslach = {}
+				#b_zollern = {} # c_hohenzollern
 				b_wolfach = {}
 				b_donaueschingen = {}
 			}
@@ -3651,12 +4162,14 @@ e_hre = {
 			color = { 164 102 0 }
 			color2 = { 255 255 255 }
 			capital = 252
+			#Burgau
 			culture = swabian
 			title = MARGRAVE
 			title_female = MARGRAVINE
 			foa = MARGRAVE_FOA
 			title_prefix = MARGRAVE_OF
 			c_schwaben = {
+				# Montfort
 				color = { 81 81 81 }
 				color2 = { 255 255 255 }
 				b_bregenz = {}
@@ -3727,16 +4240,20 @@ e_hre = {
 			}
 		}
 	}
+	# END k_schwaben
 	k_bohemia = {
 		color = { 176 110 32 }
 		color2 = { 255 255 255 }
 		capital = 437
+		# Praha
 		culture = bohemian
 		catholic = 400
+		# Crusade target weight
 		d_bohemia = {
 			color = { 195 110 11 }
 			color2 = { 255 255 255 }
 			capital = 437
+			# Praha
 			culture = bohemian
 			title = DB
 			foa = DB_FOA
@@ -3845,6 +4362,7 @@ e_hre = {
 			color = { 157 101 35 }
 			color2 = { 255 255 255 }
 			capital = 440
+			# Olomouc
 			culture = moravian
 			title = DM
 			foa = DM_FOA
@@ -3904,10 +4422,12 @@ e_hre = {
 			has_landed_title = d_moravia
 		}
 	}
+	# END k_bohemia
 	k_germany = {
 		color = { 130 100 100 }
 		color2 = { 220 220 255 }
 		capital = 952
+		#Frankfurt
 		culture = franconian
 		dignity = 31
 		allow = {
@@ -3923,8 +4443,10 @@ e_hre = {
 		color = { 144 80 60 }
 		color2 = { 220 220 255 }
 		capital = 128
+		#Metz
 		culture = low_frankish
 		dignity = 30
+		# One more than Burgundy
 		allow = {
 			ruled_years = 5
 			war = no
@@ -3950,8 +4472,10 @@ e_hre = {
 		FROM = {
 			has_holder = yes
 		}
+		# Only allow usurp. Should only be created by decision.
 	}
 }
+# END e_hre
 e_roman_empire = {
 	color = { 167 10 100 }
 	color2 = { 255 255 255 }
@@ -3961,6 +4485,7 @@ e_roman_empire = {
 	religion = orthodox
 	allow = {
 		always = no
+		# Only created through special event
 	}
 	title = Emperor
 	title_female = Empress
@@ -3970,8 +4495,10 @@ e_byzantium = {
 	color = { 154 39 197 }
 	color2 = { 255 255 20 }
 	capital = 496
+	#Byzantion
 	culture = greek
 	religion = orthodox
+	# The Emperor can revoke duchies at no prestige cost and no opinion penalty with other vassals
 	duchy_revokation = yes
 	has_top_de_jure_capital = yes
 	purple_born_heirs = yes
@@ -3992,6 +4519,7 @@ e_byzantium = {
 		color = { 217 59 59 }
 		color2 = { 23 255 255 }
 		capital = 496
+		# Byzantion
 		culture = greek
 		allow = {
 			not = {
@@ -4001,8 +4529,11 @@ e_byzantium = {
 			}
 		}
 		orthodox = 5000
+		# Crusade target weight
 		catholic = 2000
+		# Crusade target weight
 		zoroastrian_group = 100
+		# Crusade target weight
 		d_aegean_islands = {
 			color = { 104 8 103 }
 			color2 = { 255 255 255 }
@@ -4108,10 +4639,15 @@ e_byzantium = {
 			color2 = { 255 255 255 }
 			capital = 496
 			orthodox = 250
+			# Crusade target weight
 			catholic = 125
+			# Crusade target weight
 			sunni = 225
+			# Crusade target weight
 			shiite = 100
+			# Crusade target weight
 			c_rhadestos = {
+				#
 				color = { 176 80 143 }
 				color2 = { 255 255 255 }
 				b_selymbria = {}
@@ -4126,9 +4662,13 @@ e_byzantium = {
 				color = { 180 84 147 }
 				color2 = { 255 255 255 }
 				orthodox = 500
+				# Crusade target weight
 				catholic = 300
+				# Crusade target weight
 				sunni = 350
+				# Crusade target weight
 				shiite = 100
+				# Crusade target weight
 				top_de_jure_capital = yes
 				holy_site = orthodox
 				holy_site = nestorian
@@ -4162,6 +4702,7 @@ e_byzantium = {
 			turkmen = "Serres"
 			oghuz = "Serres"
 			pecheneg = "Serres"
+			# Strymon
 			c_traianopolis = {
 				color = { 216 77 168 }
 				color2 = { 255 255 255 }
@@ -4274,6 +4815,7 @@ e_byzantium = {
 				b_porta = {}
 			}
 			c_neopatras = {
+				#
 				color = { 212 72 164 }
 				color2 = { 255 255 255 }
 				b_zetounion = {}
@@ -4284,6 +4826,7 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_byzantium
 	k_epirus = {
 		color = { 60 126 200 }
 		color2 = { 23 255 255 }
@@ -4297,12 +4840,16 @@ e_byzantium = {
 			}
 		}
 		capital = 473
+		# Arta
 		orthodox = 400
+		# Crusade target weight
 		catholic = 100
+		# Crusade target weight
 		muslim = 25
 		title = DESPOT
 		foa = DESPOT_FOA
 		title_prefix = DESPOT_OF
+		# Crusade target weight
 		d_dyrrachion = {
 			color = { 38 38 38 }
 			color2 = { 255 255 255 }
@@ -4409,7 +4956,9 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_epirus
 	k_achaea = {
+		#
 		color = { 213 217 101 }
 		color2 = { 23 255 255 }
 		culture = frankish
@@ -4423,7 +4972,9 @@ e_byzantium = {
 			}
 		}
 		orthodox = 300
+		# Crusade target weight
 		catholic = 150
+		# Crusade target weight
 		muslim = 25
 		title = PRINCE
 		title_female = PRINCE_female
@@ -4562,11 +5113,13 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_achaea
 	k_candia = {
 		color = { 107 75 104 }
 		color2 = { 23 255 255 }
 		culture = italian
 		capital = 480
+		# Chandax
 		allow = {
 			not = {
 				realm = {
@@ -4575,7 +5128,9 @@ e_byzantium = {
 			}
 		}
 		orthodox = 300
+		# Crusade target weight
 		catholic = 150
+		# Crusade target weight
 		muslim = 25
 		d_krete = {
 			color = { 45 34 77 }
@@ -4602,11 +5157,13 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_candia
 	k_nikaea = {
 		color = { 94 154 92 }
 		color2 = { 255 255 255 }
 		culture = greek
 		capital = 750
+		# Nikaea
 		allow = {
 			religions = orthodox
 			realm = {
@@ -4617,7 +5174,9 @@ e_byzantium = {
 			}
 		}
 		orthodox = 400
+		# Crusade target weight
 		catholic = 25
+		# Crusade target weight
 		muslim = 200
 		title = KINGEMPEROR
 		foa = KINGEMPEROR_FOA
@@ -4637,6 +5196,7 @@ e_byzantium = {
 				b_pompeiopolis = {}
 			}
 			c_amastris = {
+				#
 				color = { 231 74 177 }
 				color2 = { 255 255 255 }
 				b_amastris = {}
@@ -4652,6 +5212,7 @@ e_byzantium = {
 			}
 		}
 		d_boukellarion = {
+			#
 			color = { 80 159 20 }
 			color2 = { 255 255 255 }
 			capital = 753
@@ -4911,9 +5472,11 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_nikaea
 	k_anatolia = {
 		color = { 201 81 9 }
 		color2 = { 255 255 255 }
+		# Will not be named "Seljuk", etc.
 		culture = greek
 		capital = 759
 		allow = {
@@ -4924,7 +5487,9 @@ e_byzantium = {
 			}
 		}
 		orthodox = 400
+		# Crusade target weight
 		catholic = 100
+		# Crusade target weight
 		muslim = 250
 		dynasty_title_names = no
 		frankish = "Anatolia"
@@ -4932,6 +5497,7 @@ e_byzantium = {
 		turkish = "Rum"
 		turkmen = "Rum"
 		oghuz = "Rum"
+		# Crusade target weight
 		d_charsianon = {
 			color = { 143 23 130 }
 			color2 = { 255 255 255 }
@@ -4961,6 +5527,7 @@ e_byzantium = {
 			}
 		}
 		d_cappadocia = {
+			#
 			color = { 109 95 80 }
 			color2 = { 255 255 255 }
 			capital = 760
@@ -4976,6 +5543,7 @@ e_byzantium = {
 				b_magida = {}
 			}
 			c_archelais = {
+				#
 				color = { 246 77 187 }
 				color2 = { 255 255 255 }
 				b_archelais = {}
@@ -5136,10 +5704,12 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_anatolia
 	k_cyprus = {
 		color = { 248 246 137 }
 		color2 = { 255 255 255 }
 		capital = 1069
+		# Nicosia		
 		culture = greek
 		allow = {
 			religion_group = christian
@@ -5150,7 +5720,9 @@ e_byzantium = {
 			}
 		}
 		orthodox = 400
+		# Crusade target weight
 		catholic = 400
+		# Crusade target weight
 		muslim = 100
 		d_cyprus = {
 			color = { 85 138 236 }
@@ -5192,10 +5764,12 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_cyprus
 	k_trebizond = {
 		color = { 83 89 54 }
 		color2 = { 255 255 255 }
 		capital = 678
+		# Trapezous
 		culture = greek
 		allow = {
 			religion = orthodox
@@ -5207,6 +5781,7 @@ e_byzantium = {
 			}
 		}
 		orthodox = 400
+		# Crusade target weight
 		muslim = 75
 		title = KINGEMPEROR
 		foa = KINGEMPEROR_FOA
@@ -5353,14 +5928,19 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_trebizond
 	k_cilician = {
 		color = { 255 249 189 }
 		color2 = { 255 255 255 }
 		capital = 969
+		#	Sis
 		culture = armenian
 		catholic = 300
+		# Crusade target weight
 		orthodox = 300
+		# Crusade target weight
 		muslim = 150
+		# Crusade target weight
 		allow = {
 			not = {
 				realm = {
@@ -5433,6 +6013,7 @@ e_byzantium = {
 			turkish = "Karaman"
 			turkmen = "Silifke"
 			oghuz = "Silifke"
+			#	Seleukeia
 			c_seleukeia = {
 				color = { 147 208 60 }
 				color2 = { 255 255 255 }
@@ -5455,10 +6036,12 @@ e_byzantium = {
 			}
 		}
 	}
+	#END k_cilician
 	k_bulgaria = {
 		color = { 113 88 101 }
 		color2 = { 255 255 255 }
 		capital = 499
+		# Tyrnovo
 		culture = bulgarian
 		allow = {
 			not = {
@@ -5468,8 +6051,11 @@ e_byzantium = {
 			}
 		}
 		orthodox = 300
+		# Crusade target weight
 		catholic = 100
+		# Crusade target weight
 		muslim = 25
+		# Crusade target weight
 		d_turnovo = {
 			color = { 88 80 112 }
 			color2 = { 255 255 255 }
@@ -5511,6 +6097,7 @@ e_byzantium = {
 				b_shumen = {}
 			}
 			c_nikopolis = {
+				# Kran
 				color = { 160 45 203 }
 				color2 = { 255 255 255 }
 				b_kran = {}
@@ -5525,6 +6112,7 @@ e_byzantium = {
 			capital = 509
 			greek = "Scythia Minor"
 			east_gothic = "Scythia Minor"
+			# Karvuna
 			c_karvuna = {
 				color = { 210 95 253 }
 				color2 = { 255 255 255 }
@@ -5548,6 +6136,7 @@ e_byzantium = {
 			color = { 146 0 5 }
 			color2 = { 255 255 20 }
 			capital = 494
+			# Adrianopolis
 			culture = greek
 			andalusian_arabic = "Macedonia"
 			greek = "Macedonia"
@@ -5609,6 +6198,7 @@ e_byzantium = {
 			color = { 122 103 58 }
 			color2 = { 255 255 255 }
 			capital = 506
+			# Vidin
 			c_vidin = {
 				color = { 124 105 60 }
 				color2 = { 255 255 255 }
@@ -5641,7 +6231,9 @@ e_byzantium = {
 			turkmen = "Skopje"
 			oghuz = "Skopje"
 			pecheneg = "Skopje"
+			# Skopje
 			c_skopje = {
+				#Skopje/Prilep
 				color = { 139 29 101 }
 				color2 = { 255 255 20 }
 				b_prilep = {}
@@ -5695,13 +6287,17 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_bulgaria
 	k_serbia = {
 		color = { 113 98 61 }
 		color2 = { 255 255 255 }
 		culture = serbian
 		capital = 502
+		# Rashka
 		orthodox = 300
+		# Crusade target weight
 		catholic = 250
+		# Crusade target weight
 		muslim = 25
 		roman = "Moesia Superior"
 		d_rashka = {
@@ -5758,6 +6354,7 @@ e_byzantium = {
 			color = { 179 94 13 }
 			color2 = { 255 255 255 }
 			capital = 466
+			# Zachlumia
 			c_hum = {
 				color = { 176 143 64 }
 				color2 = { 255 255 255 }
@@ -5775,6 +6372,7 @@ e_byzantium = {
 				b_foca = {}
 			}
 			c_zachlumia = {
+				#Pogorje
 				color = { 166 57 57 }
 				color2 = { 255 255 255 }
 				b_blagaj = {}
@@ -5796,6 +6394,7 @@ e_byzantium = {
 			oghuz = "Shkodër"
 			pecheneg = "Shkodër"
 			roman = "Duklja"
+			# Zeta
 			c_zeta = {
 				color = { 131 96 15 }
 				color2 = { 255 255 255 }
@@ -5831,13 +6430,18 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_serbia
 	k_ragusa = {
 		color = { 102 33 88 }
 		color2 = { 255 255 255 }
 		orthodox = 300
+		# Crusade target weight
 		catholic = 400
+		# Crusade target weight
 		muslim = 25
+		# Crusade target weight
 		capital = 468
+		# Ragusa
 		d_ragusa = {
 			color = { 195 38 57 }
 			color2 = { 255 255 255 }
@@ -5862,14 +6466,19 @@ e_byzantium = {
 			}
 		}
 	}
+	# END k_ragusa
 }
+# END e_byzantium
 k_armenia = {
 	color = { 254 203 44 }
 	color2 = { 255 255 255 }
 	capital = 681
+	#	Ani
 	culture = armenian
 	orthodox = 300
+	# Crusade target weight
 	muslim = 200
+	# Crusade target weight
 	allow = {
 		not = {
 			realm = {
@@ -5885,6 +6494,7 @@ k_armenia = {
 		turkish = "Syunik"
 		turkmen = "Syunik"
 		oghuz = "Syunik"
+		# Suenik
 		c_suenik = {
 			color = { 166 238 26 }
 			color2 = { 255 255 255 }
@@ -5949,6 +6559,7 @@ k_armenia = {
 		egyptian_arabic = "Van"
 		sicilian_arabic = "Van"
 		kurdish = "Van"
+		# Vaspurakan
 		c_vaspurakan = {
 			color = { 162 191 44 }
 			color2 = { 255 255 255 }
@@ -5991,6 +6602,7 @@ k_armenia = {
 			holy_site = zun_pagan
 			holy_site = zun_pagan_reformed
 			holy_site = zoroastrian
+			# The Great Fire of Adur Gushnasp
 			b_oroumieh = {}
 			b_khoy = {}
 			b_takhtesoleyman = {}
@@ -6007,6 +6619,7 @@ k_armenia = {
 		capital = 681
 		greek = "Ani"
 		kurdish = "Ani"
+		# Ani
 		c_dwin = {
 			color = { 165 194 47 }
 			color2 = { 255 255 255 }
@@ -6048,6 +6661,7 @@ k_armenia = {
 		color2 = { 255 255 255 }
 		capital = 1080
 		georgian = "Lori"
+		# Lori
 		c_lori = {
 			color = { 165 194 47 }
 			color2 = { 255 255 255 }
@@ -6087,6 +6701,7 @@ k_armenia = {
 		levantine_arabic = "Diyar Bakr"
 		egyptian_arabic = "Diyar Bakr"
 		sicilian_arabic = "Diyar Bakr"
+		# Amida
 		c_amida = {
 			color = { 129 166 48 }
 			color2 = { 255 255 255 }
@@ -6123,6 +6738,7 @@ k_armenia = {
 		egyptian_arabic = "Manzikert"
 		sicilian_arabic = "Manzikert"
 		kurdish = "Manzikert"
+		# Taron
 		c_mesopotamia = {
 			color = { 121 158 40 }
 			color2 = { 255 255 255 }
@@ -6161,6 +6777,7 @@ k_armenia = {
 		egyptian_arabic = "Erzurum"
 		sicilian_arabic = "Erzurum"
 		kurdish = "Erzurum"
+		# Theodosipolis		
 		c_theodosiopolis = {
 			color = { 101 152 34 }
 			color2 = { 255 255 255 }
@@ -6194,18 +6811,23 @@ k_armenia = {
 		}
 	}
 }
+# END k_armenia
 e_carpathia = {
 	color = { 150 51 51 }
 	color2 = { 255 255 255 }
 	capital = 444
+	# Esztergom
 	culture = hungarian
 	k_wallachia = {
 		color = { 238 192 69 }
 		color2 = { 255 255 255 }
 		capital = 515
+		# Tirgoviste		
 		culture = romanian
 		muslim = 25
+		# Crusade target weight
 		catholic = 100
+		# Crusade target weight
 		orthodox = 200
 		title = VOIEVODAT
 		foa = VOIEVODAT_FOA
@@ -6214,6 +6836,7 @@ e_carpathia = {
 			color = { 63 130 253 }
 			color2 = { 255 255 255 }
 			capital = 515
+			# Tirgoviste
 			culture = romanian
 			c_tirgoviste = {
 				color = { 244 198 75 }
@@ -6250,6 +6873,7 @@ e_carpathia = {
 			color = { 109 2 3 }
 			color2 = { 255 255 255 }
 			capital = 516
+			# Craiova
 			culture = romanian
 			c_severin = {
 				color = { 247 201 185 }
@@ -6270,13 +6894,17 @@ e_carpathia = {
 			}
 		}
 	}
+	# END k_wallachia
 	k_moldau = {
 		color = { 176 0 0 }
 		color2 = { 255 255 255 }
 		capital = 1147
+		# Bacau
 		culture = romanian
 		muslim = 25
+		# Crusade target weight
 		catholic = 100
+		# Crusade target weight
 		orthodox = 200
 		title = VOIEVODAT
 		foa = VOIEVODAT_FOA
@@ -6285,6 +6913,7 @@ e_carpathia = {
 			color = { 200 5 17 }
 			color2 = { 255 255 255 }
 			capital = 1146
+			# Iasi
 			culture = romanian
 			short_name = yes
 			c_bacau = {
@@ -6318,6 +6947,7 @@ e_carpathia = {
 			color = { 98 127 40 }
 			color2 = { 255 255 255 }
 			capital = 512
+			# Bender
 			culture = romanian
 			short_name = yes
 			c_birlad = {
@@ -6346,16 +6976,20 @@ e_carpathia = {
 			}
 		}
 	}
+	# END k_moldau
 	k_hungary = {
 		color = { 187 70 70 }
 		color2 = { 255 255 255 }
 		capital = 444
+		# Esztergom
 		culture = hungarian
 		catholic = 500
+		# Crusade target weight
 		d_esztergom = {
 			color = { 95 77 27 }
 			color2 = { 255 255 255 }
 			capital = 451
+			# Fejer 
 			culture = hungarian
 			german = "Esztergom"
 			greek = "Pannonia Valeria"
@@ -6412,6 +7046,7 @@ e_carpathia = {
 			color = { 91 80 250 }
 			color2 = { 255 255 255 }
 			capital = 524
+			# Gemer
 			culture = hungarian
 			c_gemer = {
 				color = { 202 33 33 }
@@ -6463,6 +7098,7 @@ e_carpathia = {
 			color = { 54 77 27 }
 			color2 = { 255 255 255 }
 			capital = 443
+			# Nitra
 			culture = moravian
 			c_nitra = {
 				color = { 194 25 25 }
@@ -6545,6 +7181,7 @@ e_carpathia = {
 			color = { 100 121 75 }
 			color2 = { 255 255 255 }
 			capital = 452
+			# Pecs
 			culture = hungarian
 			german = "Pécs"
 			greek = "Pannonia Prima"
@@ -6606,6 +7243,7 @@ e_carpathia = {
 			color = { 210 55 55 }
 			color2 = { 255 255 255 }
 			capital = 1153
+			# Ungvar
 			culture = hungarian
 			c_saris = {
 				color = { 158 17 17 }
@@ -6655,6 +7293,7 @@ e_carpathia = {
 			color = { 74 130 183 }
 			color2 = { 255 255 255 }
 			capital = 538
+			# Abauj
 			culture = hungarian
 			name_tier = count
 			c_abauj = {
@@ -6701,6 +7340,7 @@ e_carpathia = {
 			color = { 48 102 76 }
 			color2 = { 255 255 255 }
 			capital = 521
+			# Csanad
 			culture = hungarian
 			greek = "Morisena"
 			east_gothic = "Morisena"
@@ -6732,6 +7372,7 @@ e_carpathia = {
 			color = { 210 95 55 }
 			color2 = { 255 255 255 }
 			capital = 518
+			# Bacs
 			culture = hungarian
 			c_bacs = {
 				color = { 156 130 67 }
@@ -6743,6 +7384,7 @@ e_carpathia = {
 				b_obecse = {}
 			}
 			c_szekezfehervar = {
+				#Csongrád
 				color = { 189 74 74 }
 				color2 = { 255 255 255 }
 				b_csongrad = {}
@@ -6758,6 +7400,7 @@ e_carpathia = {
 			greek = "Pannonia Secunda"
 			east_gothic = "Pannonia Secunda"
 			roman = "Pannonia Secunda"
+			# Syrmia
 			c_syrmia = {
 				color = { 186 79 62 }
 				color2 = { 255 255 255 }
@@ -6766,6 +7409,7 @@ e_carpathia = {
 				b_morovic = {}
 			}
 			c_krizevci = {
+				# Vukova
 				color = { 186 139 139 }
 				color2 = { 255 255 255 }
 				b_vukovar = {}
@@ -6779,6 +7423,7 @@ e_carpathia = {
 			color = { 150 51 51 }
 			color2 = { 255 255 255 }
 			capital = 520
+			# Bihar
 			culture = hungarian
 			c_zarand = {
 				color = { 179 70 70 }
@@ -6814,8 +7459,10 @@ e_carpathia = {
 			color = { 63 31 95 }
 			color2 = { 255 255 255 }
 			capital = 539
+			# Szatmár
 			culture = hungarian
 			c_szekelyfold = {
+				# Torda
 				color = { 237 54 54 }
 				color2 = { 255 255 255 }
 				culture = szekely
@@ -6825,6 +7472,7 @@ e_carpathia = {
 				b_kukullovar = {}
 			}
 			c_feher = {
+				# Fehér
 				color = { 245 62 62 }
 				color2 = { 255 255 255 }
 				b_gyulafehervar = {}
@@ -6833,6 +7481,7 @@ e_carpathia = {
 				b_nagyenyed = {}
 			}
 			c_burzenland = {
+				# Barcaság
 				color = { 24 42 67 }
 				color2 = { 255 255 255 }
 				b_feketehalom = {}
@@ -6840,6 +7489,7 @@ e_carpathia = {
 				b_brasso = {}
 			}
 			c_marmaros = {
+				# Szatmár
 				color = { 176 67 67 }
 				color2 = { 255 255 255 }
 				culture = romanian
@@ -6852,18 +7502,24 @@ e_carpathia = {
 			}
 		}
 	}
+	# END k_hungary
 	k_bosnia = {
 		color = { 0 86 148 }
 		color2 = { 200 0 0 }
 		capital = 504
+		# Visoko/Bobovac
 		culture = bosnian
 		orthodox = 200
+		# Crusade target weight
 		catholic = 300
+		# Crusade target weight
 		muslim = 25
+		# Crusade target weight
 		d_bosnia = {
 			color = { 62 121 201 }
 			color2 = { 255 255 255 }
 			capital = 1002
+			# Jajce
 			culture = bosnian
 			c_vrhbosna = {
 				color = { 197 118 118 }
@@ -6907,6 +7563,7 @@ e_carpathia = {
 			color = { 145 157 140 }
 			color2 = { 255 255 255 }
 			capital = 463
+			# Usora
 			culture = bosnian
 			c_soli = {
 				color = { 90 166 41 }
@@ -6923,12 +7580,15 @@ e_carpathia = {
 			}
 		}
 	}
+	# END k_bosnia
 	k_croatia = {
 		color = { 184 184 0 }
 		color2 = { 255 255 255 }
 		capital = 943
+		# Knin
 		culture = croatian
 		orthodox = 150
+		# Crusade target weight
 		catholic = 300
 		greek = "Illyricum"
 		east_gothic = "Illyricum"
@@ -6937,6 +7597,7 @@ e_carpathia = {
 			color = { 69 66 128 }
 			color2 = { 255 255 255 }
 			capital = 467
+			# Split(Cetina)
 			c_split = {
 				color = { 186 139 139 }
 				color2 = { 255 255 255 }
@@ -6985,6 +7646,7 @@ e_carpathia = {
 			color = { 208 186 170 }
 			color2 = { 255 255 255 }
 			capital = 459
+			# Veglia/Krk
 			c_veglia = {
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
@@ -7031,6 +7693,7 @@ e_carpathia = {
 			color = { 162 53 53 }
 			color2 = { 255 255 255 }
 			capital = 959
+			# Vodica
 			c_vodica = {
 				color = { 100 121 121 }
 				color2 = { 255 255 255 }
@@ -7050,6 +7713,7 @@ e_carpathia = {
 				b_grobnik_vinodol = {}
 			}
 			c_senj = {
+				#Lika
 				color = { 170 61 61 }
 				color2 = { 255 255 255 }
 				b_senj = {}
@@ -7096,6 +7760,7 @@ e_carpathia = {
 				b_kutjevo = {}
 			}
 			c_varadzin = {
+				#Zagorje as base name
 				color = { 191 143 143 }
 				color2 = { 255 255 255 }
 				b_kraprina = {}
@@ -7105,6 +7770,7 @@ e_carpathia = {
 			}
 		}
 	}
+	# Creation/usurpation trigger
 	allow = {
 		religion_group = christian
 		AND = {
@@ -7119,25 +7785,31 @@ e_carpathia = {
 		}
 	}
 }
+# END e_carpathia
 k_jerusalem = {
 	color = { 180 180 180 }
 	color2 = { 255 255 255 }
 	capital = 774
+	# Jerusalem
 	culture = levantine_arabic
 	assimilate = no
+	# Creation/Usurp Trigger
 	allow = {
 		religion_group = christian
 	}
+	# Creation Effect
 	gain_effect = {
 		prestige = 5000
 		piety = 2000
 	}
 	christian = 1000
+	# Crusade target weight
 	muslim = 125
 	d_jerusalem = {
 		color = { 223 224 199 }
 		color2 = { 255 255 255 }
 		christian = 500
+		# Crusade target weight
 		muslim = 250
 		capital = 774
 		andalusian_arabic = "Palestine"
@@ -7153,10 +7825,12 @@ k_jerusalem = {
 		zanata = "Palestine"
 		tuareg = "Palestine"
 		roman = "Palaestina Prima"
+		# Jerusalem
 		c_jerusalem = {
 			color = { 45 251 69 }
 			color2 = { 255 255 255 }
 			christian = 1000
+			# Crusade target weight
 			muslim = 500
 			holy_site = catholic
 			holy_site = orthodox
@@ -7217,6 +7891,7 @@ k_jerusalem = {
 		capital = 772
 		greek = "Tyre"
 		roman = "Tyre"
+		# Antioch 
 		c_acre = {
 			color = { 47 253 71 }
 			color2 = { 255 255 255 }
@@ -7246,6 +7921,7 @@ k_jerusalem = {
 		capital = 778
 		greek = "Palaestina Salutaris"
 		roman = "Palaestina Salutaris"
+		# Monreal
 		c_monreal = {
 			color = { 47 253 52 }
 			color2 = { 255 255 255 }
@@ -7277,6 +7953,7 @@ k_jerusalem = {
 		color = { 225 65 34 }
 		color2 = { 255 255 255 }
 		capital = 780
+		# Ascalon
 		c_jaffa = {
 			color = { 8 202 40 }
 			color2 = { 255 255 255 }
@@ -7285,6 +7962,7 @@ k_jerusalem = {
 			b_jaffa = {}
 			b_lydda = {}
 			b_mirabel = {}
+			#b_ramleh = {} # c_ibelin
 			b_yazur = {}
 			b_beitdejan = {}
 		}
@@ -7387,14 +8065,18 @@ k_jerusalem = {
 		}
 	}
 }
+# END k_jerusalem
 k_antioch = {
 	color = { 50 76 150 }
 	color2 = { 255 255 255 }
 	culture = armenian
 	capital = 764
 	catholic = 300
+	# Crusade target weight
 	orthodox = 300
+	# Crusade target weight
 	muslim = 150
+	# Crusade target weight
 	allow = {
 		religion_group = christian
 	}
@@ -7454,7 +8136,9 @@ k_antioch = {
 		color = { 91 139 188 }
 		color2 = { 255 255 255 }
 		capital = 764
+		# Antioch
 		christian = 400
+		# Crusade target weight
 		muslim = 200
 		short_name = yes
 		andalusian_arabic = "Jund al-Awasim"
@@ -7575,15 +8259,19 @@ k_antioch = {
 		}
 	}
 }
+# END k_antioch
 k_syria = {
 	color = { 145 130 88 }
 	color2 = { 255 255 255 }
 	capital = 728
+	# Damascus
 	culture = levantine_arabic
 	orthodox = 200
+	# Crusade target weight
 	muslim = 200
 	greek = "the East"
 	roman = "the East"
+	# Crusade target weight
 	d_aleppo = {
 		color = { 85 232 20 }
 		color2 = { 255 255 255 }
@@ -7591,6 +8279,7 @@ k_syria = {
 		title_prefix = JUND_OF
 		greek = "Syria Prima"
 		roman = "Syria Prima"
+		# Aleppo
 		c_aleppo = {
 			color = { 91 238 26 }
 			color2 = { 255 255 255 }
@@ -7635,6 +8324,7 @@ k_syria = {
 		title_prefix = JUND_OF
 		greek = "Syria Secunda"
 		roman = "Syria Secunda"
+		# Homs
 		c_homs = {
 			color = { 93 240 28 }
 			color2 = { 255 255 255 }
@@ -7667,6 +8357,7 @@ k_syria = {
 		title_prefix = JUND_OF
 		greek = "Phoenice Libanensis"
 		roman = "Phoenice Libanensis"
+		# Damascus
 		c_damascus = {
 			color = { 125 255 6 }
 			color2 = { 255 255 255 }
@@ -7730,6 +8421,7 @@ k_syria = {
 		title_prefix = JUND_OF
 		greek = "Arabia Petraea"
 		roman = "Arabia Petraea"
+		# Amman
 		c_amman = {
 			color = { 131 255 12 }
 			color2 = { 255 255 255 }
@@ -7767,6 +8459,7 @@ k_syria = {
 		color = { 107 93 66 }
 		color2 = { 255 255 255 }
 		capital = 713
+		# al-Sharqi
 		c_al_mafraq = {
 			color = { 134 255 15 }
 			color2 = { 255 255 255 }
@@ -7780,15 +8473,19 @@ k_syria = {
 		}
 	}
 }
+# END k_syria
 k_aljazira = {
 	color = { 255 2 36 }
 	color2 = { 255 255 255 }
 	capital = 697
+	# Mosul
 	culture = levantine_arabic
 	orthodox = 200
+	# Crusade target weight
 	muslim = 400
 	greek = "Assyria"
 	roman = "Assyria"
+	# Crusade target weight
 	d_mosul = {
 		color = { 89 36 23 }
 		color2 = { 255 255 255 }
@@ -7923,10 +8620,12 @@ k_aljazira = {
 		}
 	}
 }
+# END k_aljazira	
 e_scandinavia = {
 	color = { 6 42 127 }
 	color2 = { 136 157 23 }
 	capital = 266
+	# Sjaelland
 	culture = danish
 	catholic = 100
 	norse = "Norway"
@@ -7938,18 +8637,23 @@ e_scandinavia = {
 	anglonorse = "Norway"
 	greek = "Thule"
 	norsegaelic = "Norway"
+	# Crusade target weight
 	k_denmark = {
 		color = { 224 24 54 }
 		color2 = { 255 255 255 }
 		culture = danish
 		capital = 266
+		# Sjaelland
 		catholic = 100
+		# Crusade target weight
 		norse_pagan_reformed = 400
 		d_skane = {
 			color = { 210 2 2 }
 			color2 = { 255 255 255 }
 			capital = 303
+			# Skåne
 			c_skane = {
+				#Western Skåne
 				color = { 138 39 29 }
 				color2 = { 255 255 255 }
 				b_lomma = {}
@@ -7988,8 +8692,10 @@ e_scandinavia = {
 			color = { 47 81 128 }
 			color2 = { 255 255 255 }
 			capital = 266
+			# Sjaelland
 			culture = danish
 			c_sjaelland = {
+				# Northern Sjælland
 				color = { 99 25 84 }
 				color2 = { 255 255 255 }
 				holy_site = norse_pagan
@@ -8040,6 +8746,7 @@ e_scandinavia = {
 			color = { 217 186 64 }
 			color2 = { 255 255 255 }
 			capital = 1587
+			# Northern Halland
 			c_northern_halland = {
 				color = { 168 162 196 }
 				color2 = { 255 255 255 }
@@ -8168,6 +8875,7 @@ e_scandinavia = {
 			color = { 50 123 71 }
 			color2 = { 255 255 255 }
 			capital = 1182
+			# North Frisia
 			culture = frisian
 		}
 	}
@@ -8176,12 +8884,16 @@ e_scandinavia = {
 		color2 = { 220 220 220 }
 		culture = norwegian
 		capital = 1258
+		# Southiceland
 		catholic = 100
+		# Crusade target weight
 		norse_pagan_reformed = 400
+		# Crusade target weight
 		d_iceland = {
 			color = { 195 190 255 }
 			color2 = { 255 255 255 }
 			capital = 1258
+			# Southiceland
 			c_southisland = {
 				color = { 225 235 245 }
 				color2 = { 255 255 255 }
@@ -8232,14 +8944,18 @@ e_scandinavia = {
 		color = { 62 122 189 }
 		color2 = { 255 255 0 }
 		capital = 290
+		# Uppland		
 		culture = swedish
 		catholic = 100
+		# Crusade target weight
 		norse_pagan_reformed = 400
 		d_uppland = {
 			color = { 87 99 104 }
 			color2 = { 255 255 255 }
 			capital = 290
+			# Uppland
 			norse_pagan_reformed = 500
+			# Crusade target weight
 			dignity = 8
 			culture = swedish
 			norse = "Svealand"
@@ -8306,6 +9022,7 @@ e_scandinavia = {
 			color = { 143 19 45 }
 			color2 = { 255 255 255 }
 			capital = 293
+			# Östergötland
 			culture = gothic
 			c_ostergotland = {
 				color = { 50 170 215 }
@@ -8409,10 +9126,12 @@ e_scandinavia = {
 			}
 		}
 		d_sodermandland = {
+			#Sodermandsland
 			color = { 66 148 186 }
 			color2 = { 255 255 255 }
 			culture = swedish
 			capital = 292
+			# Söder
 			c_varmland = {
 				color = { 159 24 14 }
 				color2 = { 255 255 255 }
@@ -8466,6 +9185,7 @@ e_scandinavia = {
 			color = { 104 147 54 }
 			color2 = { 255 255 255 }
 			capital = 285
+			# Hälsingland
 			culture = swedish
 			c_dalarna = {
 				color = { 5 100 255 }
@@ -8523,6 +9243,7 @@ e_scandinavia = {
 			capital = 301
 			norse = "Götaland"
 			norwegian = "Götaland"
+			# Gotland
 			c_gotland = {
 				color = { 65 80 255 }
 				color2 = { 255 255 255 }
@@ -8542,11 +9263,14 @@ e_scandinavia = {
 		color2 = { 255 255 255 }
 		culture = norwegian
 		capital = 274
+		# Bergenshus
 		catholic = 100
+		# Crusade target weight
 		d_ostlandet = {
 			color = { 145 66 50 }
 			color2 = { 255 255 255 }
 			capital = 272
+			# Vestfold
 			c_vestfold = {
 				color = { 65 5 255 }
 				color2 = { 255 255 255 }
@@ -8631,6 +9355,7 @@ e_scandinavia = {
 			color = { 49 65 17 }
 			color2 = { 255 255 255 }
 			capital = 274
+			# Bergenshus
 			c_bergenshus = {
 				color = { 170 210 154 }
 				color2 = { 255 255 255 }
@@ -8678,7 +9403,9 @@ e_scandinavia = {
 			color = { 80 83 107 }
 			color2 = { 255 255 255 }
 			capital = 391
+			# Nordmøre
 			c_nordland = {
+				# Nordmøre
 				color = { 45 25 255 }
 				color2 = { 255 255 255 }
 				b_bjerkestrand = {}
@@ -8704,6 +9431,7 @@ e_scandinavia = {
 			color = { 43 115 67 }
 			color2 = { 255 255 255 }
 			capital = 275
+			# Tröndelag                   
 			c_trondelag = {
 				color = { 98 38 255 }
 				color2 = { 255 255 255 }
@@ -8741,6 +9469,7 @@ e_scandinavia = {
 			color = { 10 81 97 }
 			color2 = { 255 255 255 }
 			capital = 278
+			# Halgoland                   
 			c_halogaland = {
 				color = { 98 38 255 }
 				color2 = { 255 255 255 }
@@ -8766,6 +9495,7 @@ e_scandinavia = {
 			color = { 161 169 149 }
 			color2 = { 255 255 255 }
 			capital = 282
+			# Jamtland
 			c_jamtland = {
 				color = { 212 126 68 }
 				color2 = { 255 255 255 }
@@ -8784,6 +9514,7 @@ e_scandinavia = {
 			color = { 20 117 179 }
 			color2 = { 255 255 255 }
 			capital = 33
+			# Skæppekød
 			c_faereyar = {
 				color = { 25 115 85 }
 				color2 = { 255 255 255 }
@@ -8797,6 +9528,7 @@ e_scandinavia = {
 			}
 		}
 	}
+	# Creation/usurpation trigger
 	allow = {
 		OR = {
 			religion_group = christian
@@ -8821,14 +9553,19 @@ k_pomerania = {
 	color2 = { 220 220 20 }
 	culture = pommeranian
 	capital = 366
+	#Stettin
 	catholic = 300
+	# Crusade target weight
 	slavic_pagan_reformed = 600
+	# Crusade target weight
 	norse_pagan_reformed = 200
+	# Crusade target weight
 	baltic_pagan_reformed = 150
 	d_mecklemburg = {
 		color = { 78 49 36 }
 		color2 = { 255 255 255 }
 		capital = 260
+		#mecklemburg
 		culture = pommeranian
 		c_mecklemburg = {
 			color = { 207 207 207 }
@@ -8875,6 +9612,7 @@ k_pomerania = {
 		color = { 236 234 46 }
 		color2 = { 255 255 255 }
 		capital = 368
+		# Danzig
 		culture = pommeranian
 		c_danzig = {
 			color = { 250 168 168 }
@@ -8970,6 +9708,7 @@ k_pomerania = {
 		color = { 63 92 65 }
 		color2 = { 255 255 255 }
 		capital = 366
+		# Stettin
 		culture = pommeranian
 		c_stettin = {
 			color = { 51 213 51 }
@@ -9023,6 +9762,7 @@ k_pomerania = {
 		color = { 130 93 74 }
 		color2 = { 255 255 255 }
 		capital = 304
+		# Rugia
 		culture = pommeranian
 		c_rugen = {
 			color = { 201 201 201 }
@@ -9046,6 +9786,7 @@ k_pomerania = {
 		color = { 229 223 200 }
 		color2 = { 255 255 255 }
 		capital = 365
+		#Brandenburg 
 		culture = german
 		title = MARGRAVE
 		title_female = MARGRAVINE
@@ -9090,6 +9831,7 @@ k_pomerania = {
 		color = { 87 87 157 }
 		color2 = { 255 255 255 }
 		capital = 364
+		#Lausitz
 		culture = german
 		title = MARGRAVE
 		title_female = MARGRAVINE
@@ -9165,14 +9907,18 @@ e_poland = {
 		color = { 150 23 23 }
 		color2 = { 200 0 0 }
 		capital = 527
+		# Krakowskie		
 		culture = polish
 		catholic = 100
+		# Crusade target weight
 		slavic_pagan_reformed = 800
+		# Crusade target weight
 		baltic_pagan_reformed = 100
 		d_mazovia = {
 			color = { 147 21 39 }
 			color2 = { 255 255 255 }
 			capital = 529
+			# Plock
 			culture = polish
 			c_plock = {
 				color = { 30 127 2 }
@@ -9218,6 +9964,7 @@ e_poland = {
 			color = { 114 30 41 }
 			color2 = { 255 255 255 }
 			capital = 431
+			# Poznan
 			culture = polish
 			german = "Poznan"
 			c_santok = {
@@ -9276,6 +10023,7 @@ e_poland = {
 			color = { 231 183 14 }
 			color2 = { 255 255 255 }
 			capital = 434
+			#Wroclaw/Breslau
 			c_upper_silesia = {
 				color = { 17 218 10 }
 				color2 = { 255 255 255 }
@@ -9333,6 +10081,7 @@ e_poland = {
 			color = { 17 17 102 }
 			color2 = { 255 255 255 }
 			capital = 531
+			# Wislica
 			culture = polish
 			c_krakowskie = {
 				color = { 6 137 2 }
@@ -9383,6 +10132,7 @@ e_poland = {
 			color = { 119 64 47 }
 			color2 = { 255 255 255 }
 			capital = 428
+			# Kujawy
 			culture = polish
 			c_chelminskie = {
 				color = { 40 145 2 }
@@ -9420,6 +10170,7 @@ e_poland = {
 			color = { 212 210 189 }
 			color2 = { 255 255 255 }
 			capital = 528
+			# Sieradzko-Leczyckie
 			culture = polish
 			c_sieradzko-leczyckie = {
 				color = { 0 255 0 }
@@ -9460,10 +10211,12 @@ e_poland = {
 		title = GRANDDUKE
 		foa = GRANDDUKE_FOA
 		title_prefix = GRANDDUKE_OF
+		# Crusade target weight
 		d_lithuanians = {
 			color = { 166 63 13 }
 			color2 = { 255 255 255 }
 			capital = 420
+			# Aukshayts
 			culture = lithuanian
 			c_aukshayts = {
 				color = { 146 17 17 }
@@ -9514,6 +10267,7 @@ e_poland = {
 			color = { 73 118 83 }
 			color2 = { 255 255 255 }
 			capital = 989
+			# Trakai
 			culture = lithuanian
 			c_trakai = {
 				color = { 149 27 17 }
@@ -9554,6 +10308,7 @@ e_poland = {
 			color = { 150 70 70 }
 			color2 = { 255 255 255 }
 			capital = 421
+			# Samogitia
 			culture = lithuanian
 			c_scalovia = {
 				color = { 190 85 85 }
@@ -9601,6 +10356,7 @@ e_poland = {
 			color = { 80 80 76 }
 			color2 = { 255 255 255 }
 			capital = 371
+			# Sambia
 			culture = prussian
 			c_sambia = {
 				color = { 190 80 80 }
@@ -9670,12 +10426,15 @@ e_poland = {
 		color = { 10 69 106 }
 		color2 = { 255 255 255 }
 		capital = 1285
+		# Zvenyhorod
 		culture = russian
 		catholic = 50
+		# Crusade target weight
 		d_zvenyhorod = {
 			color = { 166 36 100 }
 			color2 = { 255 255 255 }
 			capital = 1285
+			# Zvenyhorod
 			culture = russian
 			c_zvenyhorod = {
 				color = { 254 255 215 }
@@ -9719,6 +10478,7 @@ e_poland = {
 			color = { 36 70 71 }
 			color2 = { 255 255 255 }
 			capital = 536
+			# Galich
 			culture = russian
 			c_galich = {
 				color = { 254 255 215 }
@@ -9767,6 +10527,7 @@ e_poland = {
 			color = { 138 181 117 }
 			color2 = { 255 255 255 }
 			capital = 535
+			# Vladimir Volynsky
 			culture = russian
 			c_vladimir_volynsky = {
 				color = { 255 255 223 }
@@ -9813,6 +10574,7 @@ e_poland = {
 			color = { 138 181 196 }
 			color2 = { 255 255 255 }
 			capital = 425
+			# Podlaise
 			c_podlasie = {
 				color = { 148 100 100 }
 				color2 = { 255 255 255 }
@@ -9844,6 +10606,7 @@ e_poland = {
 			color = { 174 73 43 }
 			color2 = { 255 255 255 }
 			capital = 993
+			# Belz
 			c_belz = {
 				color = { 174 43 43 }
 				color2 = { 255 255 255 }
@@ -9894,14 +10657,19 @@ k_terra = {
 	color = { 85 96 84 }
 	color2 = { 255 255 255 }
 	capital = 1068
+	# Riga/Toreida
 	catholic = 90
+	# Crusade target weight
 	slavic_pagan_reformed = 150
+	# Crusade target weight
 	baltic_pagan_reformed = 500
+	# Crusade target weight
 	finnish_pagan_reformed = 400
 	d_livonia = {
 		color = { 191 191 191 }
 		color2 = { 255 255 255 }
 		capital = 1068
+		# Riga/Toreida
 		culture = livonian
 		c_toreida = {
 			color = { 82 20 80 }
@@ -9950,6 +10718,7 @@ k_terra = {
 		color = { 126 162 210 }
 		color2 = { 255 255 255 }
 		capital = 375
+		# Talava
 		culture = lettigallish
 		russian = "Latgale"
 		c_lettigalians = {
@@ -9981,6 +10750,7 @@ k_terra = {
 		color = { 41 41 77 }
 		color2 = { 255 255 255 }
 		capital = 1307
+		# Bandava
 		culture = livonian
 		c_bandava = {
 			color = { 182 20 20 }
@@ -10017,6 +10787,7 @@ k_terra = {
 		color = { 142 65 139 }
 		color2 = { 255 255 255 }
 		capital = 374
+		# zemgali
 		culture = lettigallish
 		c_zemigalians = {
 			color = { 182 20 20 }
@@ -10047,6 +10818,7 @@ k_terra = {
 		color = { 125 80 50 }
 		color2 = { 255 255 255 }
 		capital = 963
+		# Jersika
 		culture = lettigallish
 		polish = "Polish Livonia"
 		c_jeriska = {
@@ -10072,6 +10844,7 @@ k_terra = {
 		color = { 178 184 27 }
 		color2 = { 255 255 255 }
 		capital = 378
+		# Harrien		
 		culture = ugricbaltic
 		c_reval = {
 			color = { 160 85 85 }
@@ -10104,6 +10877,7 @@ k_terra = {
 		color = { 207 45 45 }
 		color2 = { 255 255 255 }
 		capital = 379
+		# Dorpat
 		culture = ugricbaltic
 		german = "Dorpat"
 		c_dorpat = {
@@ -10144,6 +10918,7 @@ k_terra = {
 		color = { 42 78 48 }
 		color2 = { 255 255 255 }
 		capital = 987
+		# Läänemaa
 		culture = ugricbaltic
 		c_laanemaa = {
 			color = { 170 50 50 }
@@ -10208,6 +10983,7 @@ e_russia = {
 	color = { 66 99 19 }
 	color2 = { 255 255 255 }
 	capital = 547
+	# Kiev
 	culture = russian
 	norse = "Gardariki"
 	swedish = "Gardariki"
@@ -10220,8 +10996,11 @@ e_russia = {
 		color = { 24 78 39 }
 		color2 = { 255 255 255 }
 		capital = 582
+		# Vladimir
 		slavic_pagan_reformed = 350
+		# Crusade target weight
 		baltic_pagan_reformed = 100
+		# Crusade target weight
 		tengri_pagan_reformed = 100
 		finnish_pagan_reformed = 350
 		d_vladimir = {
@@ -10260,17 +11039,22 @@ e_russia = {
 				color2 = { 255 255 255 }
 				b_pereyaslavlzalessky = {}
 				b_yaroslavka = {}
+				#REMOVED: b_nosivka, b_baryshivska, b_pryluky, b_pyryatyn --> c_pereyaslavl
 				b_gavrilovyam = {}
+				# Moved from c_rostov
 				b_rybinsk = {}
+				# Older name Rubansk, est. before 1071.
 				b_nikitskij = {
 					short_name = yes
 				}
+				# Monastery, est. before 1186
 			}
 		}
 		d_nizhny_novgorod = {
 			color = { 166 163 140 }
 			color2 = { 255 255 255 }
 			capital = 584
+			# Nizhny Novgorod
 			c_nizhny_novgorod = {
 				color = { 196 210 152 }
 				color2 = { 255 255 255 }
@@ -10296,6 +11080,7 @@ e_russia = {
 			color = { 143 55 67 }
 			color2 = { 255 255 255 }
 			capital = 402
+			# Ustyg
 			c_veliky_ustug = {
 				color = { 125 140 80 }
 				color2 = { 255 255 255 }
@@ -10316,6 +11101,7 @@ e_russia = {
 			color = { 152 68 45 }
 			color2 = { 255 255 255 }
 			capital = 570
+			# Tver
 			c_tver = {
 				color = { 172 186 128 }
 				color2 = { 255 255 255 }
@@ -10358,6 +11144,7 @@ e_russia = {
 				b_petrovskoye = {}
 				b_nerekhta = {}
 				b_nekrasovskoye = {}
+				#b_gavrilovyam = {} # Moved to c_pereyaslavl_zalessky
 			}
 			c_kostroma = {
 				color = { 181 195 137 }
@@ -10383,6 +11170,7 @@ e_russia = {
 			color = { 199 123 56 }
 			color2 = { 255 255 255 }
 			capital = 575
+			# Moskva
 			c_moskva = {
 				color = { 220 235 176 }
 				color2 = { 255 255 255 }
@@ -10390,6 +11178,7 @@ e_russia = {
 				b_kasira = {}
 				b_peremyslmoskv = {}
 				b_lopasnja = {}
+				#b_belyov = {} # c_kozelsk
 				b_danilovmonestary = {}
 			}
 			c_mozhaysk = {
@@ -10421,6 +11210,7 @@ e_russia = {
 			color = { 186 32 35 }
 			color2 = { 255 255 255 }
 			capital = 580
+			# Ryazan
 			c_ryazan = {
 				color = { 211 225 167 }
 				color2 = { 255 255 255 }
@@ -10478,17 +11268,22 @@ e_russia = {
 			}
 		}
 	}
+	# END k_vladimir
 	k_polotsk = {
 		color = { 119 35 100 }
 		color2 = { 255 255 255 }
 		capital = 419
+		# Polotsk
 		slavic_pagan_reformed = 300
+		# Crusade target weight
 		baltic_pagan_reformed = 300
+		# Crusade target weight
 		finnish_pagan_reformed = 100
 		d_polotsk = {
 			color = { 81 44 107 }
 			color2 = { 255 255 255 }
 			capital = 419
+			# Polotsk
 			dignity = 10
 			c_polotsk = {
 				color = { 125 14 14 }
@@ -10531,6 +11326,7 @@ e_russia = {
 			color = { 88 157 103 }
 			color2 = { 255 255 255 }
 			capital = 550
+			# Minsk
 			c_minsk = {
 				color = { 174 43 43 }
 				color2 = { 255 255 255 }
@@ -10543,11 +11339,14 @@ e_russia = {
 			c_zaslawye = {
 				color = { 174 43 43 }
 				color2 = { 255 255 255 }
+				#b_chervyen = {} # c_minsk 
+				#b_bobruisk = {} # c_minsk
 				b_mir = {}
 				b_valozhyn = {}
 				b_zaslawye = {}
 			}
 			c_lepiel = {
+				# Aka Lahoysk
 				color = { 174 43 43 }
 				color2 = { 255 255 255 }
 				b_lahoysk = {}
@@ -10557,19 +11356,24 @@ e_russia = {
 			}
 		}
 	}
+	# END k_polotsk
 	k_ruthenia = {
 		color = { 220 183 61 }
 		color2 = { 255 255 255 }
 		capital = 547
+		# Kiev
 		culture = russian
 		slavic_pagan_reformed = 500
+		# Crusade target weight
 		baltic_pagan_reformed = 100
+		# Crusade target weight
 		tengri_pagan_reformed = 100
 		finnish_pagan_reformed = 100
 		d_kiev = {
 			color = { 166 176 159 }
 			color2 = { 255 255 255 }
 			capital = 547
+			# Kiev
 			dignity = 10
 			c_kiev = {
 				color = { 106 106 26 }
@@ -10623,10 +11427,12 @@ e_russia = {
 			color = { 144 96 148 }
 			color2 = { 255 255 255 }
 			capital = 555
+			# Pereyaslavl			
 			c_pereyaslavl = {
 				color = { 235 205 118 }
 				color2 = { 255 255 255 }
 				b_pereyaslavl = {}
+				#b_yaroslavka = {} # Donated to c_pereyaslavl_zalessky
 				b_oster = {}
 				b_zolotonosha = {}
 				b_pyryatyn = {}
@@ -10655,6 +11461,7 @@ e_russia = {
 			color = { 92 68 44 }
 			color2 = { 255 255 255 }
 			capital = 567
+			# Novgorod Seversky
 			c_novgorod_seversky = {
 				color = { 19 128 77 }
 				color2 = { 255 255 255 }
@@ -10729,6 +11536,7 @@ e_russia = {
 			color = { 31 75 21 }
 			color2 = { 255 255 255 }
 			capital = 410
+			# toropets
 			c_toropets = {
 				color = { 157 173 113 }
 				color2 = { 255 255 255 }
@@ -10759,6 +11567,7 @@ e_russia = {
 			color = { 65 21 75 }
 			color2 = { 255 255 255 }
 			capital = 552
+			# Turov
 			c_turov = {
 				color = { 166 89 91 }
 				color2 = { 255 255 255 }
@@ -10801,6 +11610,7 @@ e_russia = {
 			color = { 65 117 206 }
 			color2 = { 255 255 255 }
 			capital = 554
+			# Chernigov
 			c_chernigov = {
 				color = { 242 255 197 }
 				color2 = { 255 255 255 }
@@ -10845,6 +11655,7 @@ e_russia = {
 			color = { 166 206 183 }
 			color2 = { 255 255 255 }
 			capital = 1275
+			# Novosil
 			c_novosil = {
 				color = { 242 255 197 }
 				color2 = { 255 255 255 }
@@ -10882,10 +11693,12 @@ e_russia = {
 			}
 		}
 	}
+	# END k_ruthenia
 	k_novgorod = {
 		color = { 224 224 224 }
 		color2 = { 255 255 255 }
 		capital = 414
+		# Novgorod
 		culture = russian
 		norse = "Veliky Novgorod"
 		swedish = "Veliky Novgorod"
@@ -10898,6 +11711,7 @@ e_russia = {
 			color = { 224 224 224 }
 			color2 = { 255 255 255 }
 			capital = 414
+			# Novgorod
 			dignity = 10
 			c_novgorod = {
 				color = { 149 166 106 }
@@ -10956,6 +11770,7 @@ e_russia = {
 			color = { 22 66 139 }
 			color2 = { 255 255 255 }
 			capital = 1269
+			# Russa			
 			c_russa = {
 				color = { 149 166 106 }
 				color2 = { 255 255 255 }
@@ -10990,6 +11805,7 @@ e_russia = {
 			color = { 175 80 50 }
 			color2 = { 255 255 255 }
 			capital = 413
+			# Pskov
 			c_pskov = {
 				color = { 151 167 107 }
 				color2 = { 255 255 255 }
@@ -11009,6 +11825,16 @@ e_russia = {
 			color = { 94 32 63 }
 			color2 = { 255 255 255 }
 			capital = 408
+			# Beloozero
+			#finnish = "Chud"
+			#mordvin = "Chud"
+			#lappish = "Chud"
+			#komi = "Chud"
+			#karelian = "Chud"
+			#samoyed = "Chud"
+			#vepsian = "Chud"
+			#mari = "Chud"
+			#khanty = "Chud"
 			c_beloozero = {
 				color = { 133 148 90 }
 				color2 = { 255 255 255 }
@@ -11049,6 +11875,7 @@ e_russia = {
 		}
 	}
 }
+# END e_russia
 k_taurica = {
 	color = { 90 150 175 }
 	color2 = { 210 180 65 }
@@ -11075,6 +11902,7 @@ k_taurica = {
 		color2 = { 255 255 255 }
 		capital = 559
 		c_lukomorie = {
+			# Lukomorye/Molochona
 			color = { 242 202 96 }
 			color2 = { 255 255 255 }
 			b_kakhovka = {}
@@ -11082,6 +11910,7 @@ k_taurica = {
 			b_kalmius = {}
 		}
 		c_crimea = {
+			# Qirim
 			color = { 250 210 104 }
 			color2 = { 255 255 255 }
 			holy_site = tengri_pagan
@@ -11143,6 +11972,7 @@ k_taurica = {
 		venetian = "Levedia"
 		dalmatian = "Levedia"
 		c_sarkel = {
+			#
 			color = { 244 208 113 }
 			color2 = { 255 255 255 }
 			b_tsimlyansk = {}
@@ -11151,6 +11981,7 @@ k_taurica = {
 			b_starobilsk = {}
 		}
 		c_sugrov = {
+			# Donets
 			color = { 240 204 109 }
 			color2 = { 255 255 255 }
 			b_sugrov = {}
@@ -11159,6 +11990,7 @@ k_taurica = {
 			b_bakhmut = {}
 		}
 		c_sharukan = {
+			# Uda
 			color = { 238 203 121 }
 			color2 = { 255 255 255 }
 			b_sharukan = {}
@@ -11175,6 +12007,7 @@ k_taurica = {
 		russian = "Zaporizhia"
 		polish = "Zaporizhia"
 		c_lower_dniepr = {
+			# Dneipr
 			color = { 246 206 100 }
 			color2 = { 255 255 255 }
 			b_chyhyryn = {}
@@ -11182,6 +12015,7 @@ k_taurica = {
 			b_mykytyn_nikopol = {}
 		}
 		c_chortitza = {
+			#west Samara/Sneporod
 			color = { 234 194 88 }
 			color2 = { 255 255 255 }
 			b_khortytsia = {}
@@ -11189,10 +12023,12 @@ k_taurica = {
 		}
 	}
 	d_vorksla = {
+		#
 		color = { 105 140 80 }
 		color2 = { 255 255 255 }
 		capital = 596
 		c_lower_don = {
+			#Orel
 			color = { 230 190 84 }
 			color2 = { 255 255 255 }
 			b_poltava = {}
@@ -11200,6 +12036,7 @@ k_taurica = {
 			b_zmiiv = {}
 		}
 		c_tana = {
+			# Vorskla
 			color = { 222 183 79 }
 			color2 = { 255 255 255 }
 			b_hotmysl = {}
@@ -11207,6 +12044,7 @@ k_taurica = {
 		}
 	}
 	d_podolia = {
+		#
 		color = { 170 218 153 }
 		color2 = { 255 255 255 }
 		capital = 542
@@ -11259,6 +12097,7 @@ k_taurica = {
 		venetian = "Podolia"
 		dalmatian = "Podolia"
 		c_olvia = {
+			# Beloberezhye/Dykra/Yedisan
 			color = { 229 208 151 }
 			color2 = { 255 255 255 }
 			b_odessa = {}
@@ -11266,12 +12105,14 @@ k_taurica = {
 			b_berezan = {}
 		}
 		c_oleshye = {
+			# Oleshye
 			color = { 238 198 92 }
 			color2 = { 255 255 255 }
 			b_oleshye = {}
 			b_orlik_pervomaisk = {}
 		}
 		c_peresechen = {
+			# Ponyzzia
 			color = { 225 204 147 }
 			color2 = { 255 255 255 }
 			b_bakota_ponyzzia = {}
@@ -11280,10 +12121,13 @@ k_taurica = {
 		}
 	}
 }
+# END k_taurica
 k_khazaria = {
 	color = { 224 142 35 }
 	color2 = { 255 255 255 }
 	capital = 620
+	#	Itil
+	# Creation/Usurp Trigger
 	allow = {
 		religion_group = jewish_group
 	}
@@ -11422,6 +12266,7 @@ k_khazaria = {
 			b_cherkassk = {}
 		}
 		c_kuban = {
+			#
 			color = { 230 191 87 }
 			color2 = { 255 255 255 }
 			b_sapaksi = {}
@@ -11454,6 +12299,7 @@ k_khazaria = {
 		dalmatian = "Gazaria"
 		roman = "Hermonassa"
 		c_tmutarakan = {
+			#Tamatarkha
 			color = { 196 99 162 }
 			color2 = { 255 255 20 }
 			b_tmutarakan = {}
@@ -11470,6 +12316,7 @@ k_khazaria = {
 		}
 	}
 }
+# END k_khazaria
 k_alania = {
 	color = { 140 142 135 }
 	color2 = { 255 255 255 }
@@ -11494,6 +12341,7 @@ k_alania = {
 			b_rim_gora = {}
 		}
 		c_don_portage = {
+			# Terek
 			color = { 246 210 115 }
 			color2 = { 255 255 255 }
 			b_terek = {}
@@ -11540,10 +12388,14 @@ k_alania = {
 		}
 	}
 }
+# END k_alania
 k_turkestan_west = {
 	color = { 172 41 75 }
+	#color={ 250 184 31 }
 	color2 = { 255 255 255 }
 	capital = 900
+	# Jand
+	# Creation/Usurp Trigger
 	allow = {
 		religion_group = jewish_group
 	}
@@ -11553,6 +12405,7 @@ k_turkestan_west = {
 		color = { 198 150 11 }
 		color2 = { 255 255 255 }
 		capital = 895
+		# Yaik
 		c_guryev = {
 			color = { 230 172 16 }
 			color2 = { 255 255 255 }
@@ -11578,6 +12431,7 @@ k_turkestan_west = {
 		color = { 219 199 86 }
 		color2 = { 255 255 255 }
 		capital = 624
+		#	Mangyshlaq
 		c_ustyurt = {
 			color = { 216 196 92 }
 			color2 = { 255 255 255 }
@@ -11604,6 +12458,7 @@ k_turkestan_west = {
 		color = { 210 185 15 }
 		color2 = { 255 255 255 }
 		capital = 893
+		# Turgay
 		c_balkhash = {
 			color = { 220 210 140 }
 			color2 = { 255 255 255 }
@@ -11641,6 +12496,7 @@ k_turkestan_west = {
 		color = { 20 220 146 }
 		color2 = { 255 255 255 }
 		capital = 900
+		# Jand
 		c_jand = {
 			color = { 20 20 146 }
 			color2 = { 255 255 255 }
@@ -11662,10 +12518,13 @@ k_turkestan_west = {
 		}
 	}
 }
+# END k_turkestan_west
 k_turkestan_east = {
 	color = { 200 140 40 }
 	color2 = { 255 255 255 }
 	capital = 1573
+	#	Yetis-su
+	# Creation/Usurp Trigger
 	allow = {
 		religion_group = jewish_group
 	}
@@ -11675,6 +12534,7 @@ k_turkestan_east = {
 		color = { 210 140 45 }
 		color2 = { 255 255 255 }
 		capital = 1573
+		#Yeti-su
 		c_yeti-su = {
 			color = { 210 130 45 }
 			color2 = { 255 255 255 }
@@ -11718,6 +12578,7 @@ k_turkestan_east = {
 		color = { 255 110 70 }
 		color2 = { 255 255 255 }
 		capital = 1567
+		# Kashgar
 		c_naryn = {
 			color = { 250 100 75 }
 			color2 = { 255 255 255 }
@@ -11747,6 +12608,7 @@ k_turkestan_east = {
 		color = { 255 220 80 }
 		color2 = { 255 255 255 }
 		capital = 1569
+		# Kucha
 		c_kucha = {
 			color = { 250 215 75 }
 			color2 = { 255 255 255 }
@@ -11771,6 +12633,7 @@ k_turkestan_east = {
 		color = { 150 195 50 }
 		color2 = { 255 255 255 }
 		capital = 1576
+		# Ayaguz
 		c_ayaguz = {
 			color = { 155 200 55 }
 			color2 = { 255 255 255 }
@@ -11796,6 +12659,7 @@ k_turkestan_east = {
 		color = { 80 200 50 }
 		color2 = { 255 255 255 }
 		capital = 1580
+		# Jungaria
 		c_jungaria = {
 			color = { 85 205 45 }
 			color2 = { 255 255 255 }
@@ -11814,8 +12678,11 @@ k_volga_bulgaria = {
 	color = { 255 255 153 }
 	color2 = { 255 255 255 }
 	capital = 610
+	# Bulgar
 	finnish_pagan_reformed = 350
+	# Crusade target weight
 	slavic_pagan_reformed = 100
+	# Crusade target weight
 	tengri_pagan_reformed = 400
 	muslim = 250
 	russian = "Volga"
@@ -11825,6 +12692,7 @@ k_volga_bulgaria = {
 		color2 = { 255 255 255 }
 		capital = 610
 		c_qazan = {
+			# Qazan/Kazan
 			color = { 199 164 69 }
 			color2 = { 255 255 255 }
 			b_qazan = {}
@@ -11843,6 +12711,7 @@ k_volga_bulgaria = {
 			b_tuxcin = {}
 		}
 		c_ashli = {
+			# Oshel/Ashli
 			color = { 207 172 77 }
 			color2 = { 255 255 255 }
 			b_ashli = {}
@@ -11858,6 +12727,7 @@ k_volga_bulgaria = {
 			b_menzelinsk = {}
 		}
 		c_tyumen = {
+			# Suvar/Suar
 			color = { 219 166 23 }
 			color2 = { 255 255 255 }
 			b_suar = {}
@@ -11870,6 +12740,7 @@ k_volga_bulgaria = {
 		color2 = { 255 255 255 }
 		capital = 890
 		c_khantia = {
+			# Samara/Samar
 			color = { 249 223 152 }
 			color2 = { 255 255 255 }
 			b_samara = {}
@@ -11877,12 +12748,14 @@ k_volga_bulgaria = {
 			b_moran = {}
 		}
 		c_uzens = {
+			# Uzens/Qaraösen
 			color = { 163 130 42 }
 			color2 = { 255 255 255 }
 			b_uzens = {}
 			b_saratov = {}
 		}
 		c_syrt = {
+			# Syrt/Sirt
 			color = { 205 170 75 }
 			color2 = { 255 255 255 }
 			b_karakiya = {}
@@ -11894,6 +12767,7 @@ k_volga_bulgaria = {
 		color2 = { 255 255 255 }
 		capital = 615
 		c_bashkirs = {
+			# Belaya/Aghidhel
 			color = { 209 174 79 }
 			color2 = { 255 255 255 }
 			b_nemzhan = {}
@@ -11901,6 +12775,7 @@ k_volga_bulgaria = {
 			b_ufa = {}
 		}
 		c_pecheneg = {
+			# Sakmar/Haqmar
 			color = { 159 126 38 }
 			color2 = { 255 255 255 }
 			b_kasra_sakmar = {}
@@ -11912,6 +12787,7 @@ k_volga_bulgaria = {
 		color2 = { 255 255 255 }
 		capital = 579
 		c_burtasy = {
+			# Barysh/Barus
 			color = { 243 183 22 }
 			color2 = { 255 255 255 }
 			b_barysh = {}
@@ -11919,6 +12795,7 @@ k_volga_bulgaria = {
 			b_penza = {}
 		}
 		c_khopyor = {
+			# Khoper
 			color = { 167 134 46 }
 			color2 = { 255 255 255 }
 			b_medveditsa = {}
@@ -11939,6 +12816,7 @@ k_volga_bulgaria = {
 		capital = 608
 		russian = "Podonye"
 		c_lower_volga = {
+			# Voroneszh
 			color = { 238 202 107 }
 			color2 = { 255 255 255 }
 			b_voronezh = {}
@@ -11946,6 +12824,7 @@ k_volga_bulgaria = {
 			b_lipetsk = {}
 		}
 		c_desht-i-kipchak = {
+			# Oskol
 			color = { 242 206 111 }
 			color2 = { 255 255 255 }
 			b_osen = {}
@@ -11959,6 +12838,7 @@ k_volga_bulgaria = {
 		color2 = { 255 255 255 }
 		capital = 590
 		c_chuvash = {
+			# Sura
 			color = { 237 177 16 }
 			color2 = { 255 255 255 }
 			b_cheboksary = {}
@@ -11967,6 +12847,7 @@ k_volga_bulgaria = {
 			b_kurmysh = {}
 		}
 		c_mountain_cheremisa = {
+			# Alatyr
 			color = { 240 180 19 }
 			color2 = { 255 255 255 }
 			b_alatyr = {}
@@ -11974,13 +12855,18 @@ k_volga_bulgaria = {
 		}
 	}
 }
+# END k_volga_bulgaria
+##### Finnish
 k_finland = {
 	color = { 140 65 65 }
 	color2 = { 255 255 255 }
 	capital = 381
+	# Uusimaa
 	culture = finnish
 	catholic = 40
+	# Crusade target weight
 	finnish_pagan_reformed = 500
+	# Crusade target weight
 	norse_pagan_reformed = 150
 	swedish = "Österland"
 	danish = "Österland"
@@ -12052,6 +12938,7 @@ k_finland = {
 		color = { 186 5 3 }
 		color2 = { 255 255 255 }
 		capital = 1296
+		# Viipuri
 		culture = karelian
 		c_viipuri = {
 			color = { 125 15 15 }
@@ -12078,6 +12965,7 @@ k_finland = {
 		color = { 131 108 26 }
 		color2 = { 255 255 255 }
 		capital = 385
+		# Osterbotten
 		culture = lappish
 		norse = "Kvenland"
 		norwegian = "Kvenland"
@@ -12123,6 +13011,7 @@ k_finland = {
 		color = { 208 191 5 }
 		color2 = { 255 255 255 }
 		capital = 387
+		# Olonec
 		culture = karelian
 		c_kola = {
 			color = { 135 60 60 }
@@ -12156,6 +13045,7 @@ k_finland = {
 		color = { 66 71 112 }
 		color2 = { 255 255 255 }
 		capital = 411
+		# Vodi
 		culture = karelian
 		c_vodi = {
 			color = { 113 0 0 }
@@ -12175,11 +13065,14 @@ k_finland = {
 		}
 	}
 }
+# END k_finland
 k_perm = {
 	color = { 63 102 207 }
 	color2 = { 255 255 255 }
 	finnish_pagan_reformed = 500
+	# Crusade target weight
 	slavic_pagan_reformed = 100
+	# Crusade target weight
 	tengri_pagan_reformed = 50
 	culture = komi
 	capital = 886
@@ -12187,8 +13080,10 @@ k_perm = {
 		color = { 91 127 2 }
 		color2 = { 255 255 255 }
 		capital = 886
+		# Perm
 		culture = komi
 		c_perm = {
+			# Višera
 			color = { 237 211 140 }
 			color2 = { 255 255 255 }
 			holy_site = finnish_pagan
@@ -12200,12 +13095,14 @@ k_perm = {
 			b_uros = {}
 		}
 		c_votyaki = {
+			# Izh
 			color = { 197 162 67 }
 			color2 = { 255 255 255 }
 			b_sarapul = {}
 			b_izhevsk = {}
 		}
 		c_komi = {
+			# Inva
 			color = { 197 162 67 }
 			color2 = { 255 255 255 }
 			b_kudymkar = {}
@@ -12215,8 +13112,10 @@ k_perm = {
 		color = { 134 102 207 }
 		color2 = { 255 255 255 }
 		capital = 401
+		# Hlynov(Vyatka)
 		culture = mari
 		c_hlynov = {
+			# Vyatka
 			color = { 116 131 71 }
 			color2 = { 255 255 255 }
 			holy_site = finnish_pagan
@@ -12227,6 +13126,7 @@ k_perm = {
 			b_kotelnich = {}
 		}
 		c_merya = {
+			# Šošma
 			color = { 234 174 13 }
 			color2 = { 255 255 255 }
 			b_malmyzh = {}
@@ -12234,6 +13134,7 @@ k_perm = {
 			b_urzhum = {}
 		}
 		c_grassland_cheremisa = {
+			# Vetluga
 			color = { 231 171 10 }
 			color2 = { 255 255 255 }
 			b_vetluga = {}
@@ -12241,6 +13142,7 @@ k_perm = {
 			b_staro_shangskoye = {}
 		}
 		c_kokshaga = {
+			# Kokšaga
 			color = { 10 67 16 }
 			color2 = { 255 255 255 }
 			b_kokshaysk = {}
@@ -12248,11 +13150,13 @@ k_perm = {
 		}
 	}
 	d_pelym = {
+		# Pelym/Polum
 		color = { 191 57 32 }
 		color2 = { 255 255 255 }
 		culture = khanty
 		capital = 892
 		c_mansia = {
+			# Pelym/Polum
 			color = { 178 164 9 }
 			color2 = { 255 255 255 }
 			b_pelym = {}
@@ -12261,6 +13165,7 @@ k_perm = {
 			b_leushi = {}
 		}
 		c_ural = {
+			# Chusovaya
 			color = { 246 220 149 }
 			color2 = { 255 255 255 }
 			b_verkhoturye = {}
@@ -12268,16 +13173,20 @@ k_perm = {
 		}
 	}
 	d_perm_vychegda = {
+		# Vychegda/Ežva
 		color = { 62 105 142 }
 		color2 = { 255 255 255 }
 		capital = 399
+		# Vym
 		culture = komi
 		c_syrj = {
+			# Vym/Jemva
 			color = { 122 137 77 }
 			color2 = { 255 255 255 }
 			b_ust_vym = {}
 		}
 		c_zyriane = {
+			# Vychegda/Ežva
 			color = { 195 160 65 }
 			color2 = { 255 255 255 }
 			b_yarensk = {}
@@ -12286,20 +13195,26 @@ k_perm = {
 		}
 	}
 }
+# END k_perm
 k_bjarmia = {
 	color = { 163 39 80 }
 	color2 = { 255 255 255 }
 	capital = 405
+	# Vaga
 	culture = vepsian
 	finnish_pagan_reformed = 500
+	# Crusade target weight	
 	tengri_pagan_reformed = 50
 	lappish = "Tšuudmi"
 	d_bjarmia = {
+		# Dvina
 		color = { 79 66 42 }
 		color2 = { 255 255 255 }
 		culture = vepsian
 		capital = 395
+		# Northdvina
 		c_bjarmia = {
+			# Pinega
 			color = { 109 124 64 }
 			color2 = { 255 255 255 }
 			b_ust_pinega = {}
@@ -12313,6 +13228,7 @@ k_bjarmia = {
 			b_novokholmogory = {}
 		}
 		c_chud = {
+			# Vaga
 			color = { 138 154 94 }
 			color2 = { 255 255 255 }
 			b_shenkursk = {}
@@ -12327,6 +13243,7 @@ k_bjarmia = {
 		culture = vepsian
 		capital = 403
 		c_romny = {
+			# Lacha
 			color = { 128 143 83 }
 			color2 = { 255 255 255 }
 			b_kargopol = {}
@@ -12344,24 +13261,29 @@ k_bjarmia = {
 		color = { 91 127 151 }
 		color2 = { 255 255 255 }
 		capital = 398
+		# Mezen
 		culture = komi
 		c_ugra = {
+			# Mezen
 			color = { 119 134 74 }
 			color2 = { 255 255 255 }
 			b_mezen_pechora = {}
 			b_yurom = {}
 		}
 		c_samoyeds = {
+			#Ižma
 			color = { 243 217 146 }
 			color2 = { 255 255 255 }
 			b_izhma = {}
 		}
 	}
 }
+# END k_bjarmia
 e_persia = {
 	color = { 51 255 204 }
 	color2 = { 255 255 255 }
 	capital = 646
+	#	Esfahan
 	culture = persian
 	allow = {
 		culture_group = iranian
@@ -12371,6 +13293,7 @@ e_persia = {
 		color = { 51 255 204 }
 		color2 = { 255 255 255 }
 		capital = 646
+		#	Esfahan
 		culture = persian
 		allow = {
 			religion_group = muslim
@@ -12381,15 +13304,19 @@ e_persia = {
 			}
 		}
 		muslim = 400
+		# Crusade target weight
 		zoroastrian_group = 1000
+		# Crusade target weight
 		d_jebal = {
 			color = { 50 240 210 }
 			color2 = { 255 255 255 }
 			capital = 646
+			#	Esfahan
 			c_esfahan = {
 				color = { 55 245 205 }
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
+				# The Great Fire of Adur Farnbag # placeholder_holysite
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_esfahan = {}
@@ -12420,6 +13347,15 @@ e_persia = {
 				b_karadj = {}
 				b_saruk = {}
 			}
+			#			c_kermanshah = {
+			#				color={ 55 230 215 }
+			#				color2={ 255 255 255 }
+			#			
+			#				b_kermanshah = {}
+			#				b_kangivar = {}
+			#				b_hulwan = {}
+			#				b_mahalkufa = {}
+			#			}
 			c_igharayn = {
 				color = { 55 235 205 }
 				color2 = { 255 255 255 }
@@ -12434,6 +13370,7 @@ e_persia = {
 			color = { 255 90 50 }
 			color2 = { 255 255 255 }
 			capital = 663
+			#	Rayy
 			c_rayy = {
 				color = { 250 85 55 }
 				color2 = { 255 255 255 }
@@ -12577,6 +13514,7 @@ e_persia = {
 			color = { 200 90 245 }
 			color2 = { 255 255 255 }
 			capital = 641
+			#	Hormuz
 			c_qeshm = {
 				color = { 205 80 250 }
 				color2 = { 255 255 255 }
@@ -12603,6 +13541,7 @@ e_persia = {
 				always = no
 			}
 			capital = 1533
+			#	Mafaza
 			c_mafaza = {
 				color = { 65 240 215 }
 				color2 = { 255 255 255 }
@@ -12614,6 +13553,7 @@ e_persia = {
 			}
 		}
 		d_ahwaz = {
+			#Khuzestan
 			color = { 184 225 112 }
 			color2 = { 255 255 255 }
 			capital = 648
@@ -12643,6 +13583,7 @@ e_persia = {
 		color = { 50 178 240 }
 		color2 = { 255 255 255 }
 		capital = 666
+		# Gilan
 		culture = persian
 		allow = {
 			religion_group = muslim
@@ -12653,11 +13594,14 @@ e_persia = {
 			}
 		}
 		zoroastrian = 250
+		# Crusade target weight
 		muslim = 350
+		# Crusade target weight
 		d_tabarestan = {
 			color = { 88 143 48 }
 			color2 = { 255 255 255 }
 			capital = 661
+			#	Mazandaran
 			c_mazandaran = {
 				color = { 83 153 43 }
 				color2 = { 255 255 255 }
@@ -12680,10 +13624,12 @@ e_persia = {
 			color = { 68 105 174 }
 			color2 = { 255 255 255 }
 			capital = 666
+			#	Gilan
 			c_gilan = {
 				color = { 72 109 178 }
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
+				# placeholder_holysite
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_rasht_gilan = {}
@@ -12718,6 +13664,7 @@ e_persia = {
 			color = { 35 140 255 }
 			color2 = { 255 255 255 }
 			capital = 633
+			#	Gurgan
 			c_gurgan = {
 				color = { 38 148 250 }
 				color2 = { 255 255 255 }
@@ -12732,6 +13679,7 @@ e_persia = {
 				color2 = { 255 255 255 }
 				b_dihistan = {}
 				b_akhor_dishistan = {}
+				#? possible duplicate
 				b_okarem = {}
 			}
 		}
@@ -12756,7 +13704,9 @@ e_persia = {
 				color = { 164 236 24 }
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
+				# Placeholder
 				holy_site = yazidi
+				#Placeholder
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_urmiah = {}
@@ -12774,6 +13724,7 @@ e_persia = {
 		color = { 99 150 9 }
 		color2 = { 255 255 255 }
 		capital = 630
+		#	Merv
 		allow = {
 			religion_group = muslim
 			liege = {
@@ -12783,7 +13734,9 @@ e_persia = {
 			}
 		}
 		muslim = 300
+		# Crusade target weight
 		zoroastrian = 400
+		# Crusade target weight
 		d_nishapur = {
 			color = { 80 180 20 }
 			color2 = { 255 255 255 }
@@ -12794,6 +13747,7 @@ e_persia = {
 				color = { 82 182 22 }
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
+				# The Great Fire of Adur Burzen-Mehr
 				holy_site = yazidi
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
@@ -12813,7 +13767,9 @@ e_persia = {
 				b_mazinan = {}
 				b_fayrumad = {}
 				b_asadabad_arghiyan = {}
+				#? possible duplicate
 				b_jajarm_arghyian = {}
+				#? possible duplicate
 				b_isfarain = {}
 			}
 			c_abivard = {
@@ -12851,6 +13807,7 @@ e_persia = {
 			color = { 115 150 18 }
 			color2 = { 255 255 255 }
 			capital = 635
+			#	Qohistan
 			c_qohistan = {
 				color = { 105 155 13 }
 				color2 = { 255 255 255 }
@@ -12860,6 +13817,7 @@ e_persia = {
 				b_khur = {}
 				b_khusb = {}
 				b_naband_qohistan = {}
+				# ? possible duplicate
 				b_kuri = {}
 			}
 		}
@@ -12867,6 +13825,7 @@ e_persia = {
 			color = { 153 201 70 }
 			color2 = { 255 255 255 }
 			capital = 630
+			#	Merv
 			c_merv = {
 				color = { 156 204 73 }
 				color2 = { 255 255 255 }
@@ -12982,6 +13941,7 @@ e_persia = {
 		color = { 120 190 90 }
 		color2 = { 255 255 255 }
 		capital = 637
+		# Sistan
 		allow = {
 			religion_group = muslim
 			liege = {
@@ -12991,11 +13951,14 @@ e_persia = {
 			}
 		}
 		muslim = 200
+		# Crusade target weight
 		zoroastrian = 350
+		# Crusade target weight
 		d_sistan = {
 			color = { 122 192 92 }
 			color2 = { 255 255 255 }
 			capital = 637
+			#	Sistan
 			c_farah = {
 				color = { 140 173 84 }
 				color2 = { 255 255 255 }
@@ -13078,6 +14041,7 @@ e_persia = {
 		color = { 180 220 148 }
 		color2 = { 255 255 255 }
 		capital = 903
+		# Samarqand
 		culture = persian
 		allow = {
 			religion_group = muslim
@@ -13088,9 +14052,11 @@ e_persia = {
 			}
 		}
 		muslim = 200
+		# Crusade target weight
 		zoroastrian = 300
 		greek = "Sogdia"
 		roman = "Sogdia"
+		# Crusade target weight
 		d_soghd = {
 			color = { 185 210 142 }
 			color2 = { 255 255 255 }
@@ -13134,12 +14100,14 @@ e_persia = {
 			color = { 168 206 97 }
 			color2 = { 255 255 255 }
 			capital = 1557
+			#	Ustrushana
 			c_ustrushana = {
 				color = { 173 201 92 }
 				color2 = { 255 255 255 }
 				b_bunjiket = {}
 				b_zamin = {}
 				b_dizak_ustrushana = {}
+				#? possible duplicate
 			}
 			c_panjikend = {
 				color = { 163 201 102 }
@@ -13153,6 +14121,7 @@ e_persia = {
 			color = { 98 119 0 }
 			color2 = { 255 255 255 }
 			capital = 1558
+			#	Khojand
 			c_khojand = {
 				color = { 100 122 2 }
 				color2 = { 255 255 255 }
@@ -13187,6 +14156,7 @@ e_persia = {
 			color = { 130 160 75 }
 			color2 = { 255 255 255 }
 			capital = 1561
+			#	Shash
 			c_shash = {
 				color = { 135 165 70 }
 				color2 = { 255 255 255 }
@@ -13210,6 +14180,7 @@ e_persia = {
 			color = { 174 192 91 }
 			color2 = { 255 255 255 }
 			capital = 626
+			# Káth
 			culture = khwarezmi
 			c_kerder = {
 				color = { 178 190 98 }
@@ -13241,6 +14212,7 @@ e_persia = {
 		color = { 50 200 180 }
 		color2 = { 255 255 255 }
 		capital = 1547
+		# Ghazna
 		allow = {
 			religion_group = muslim
 			liege = {
@@ -13253,6 +14225,7 @@ e_persia = {
 			color = { 10 220 160 }
 			color2 = { 255 255 255 }
 			capital = 1547
+			# Ghazna
 			c_ghazna = {
 				color = { 15 215 155 }
 				color2 = { 255 255 255 }
@@ -13288,6 +14261,7 @@ e_persia = {
 			color = { 118 223 170 }
 			color2 = { 255 255 255 }
 			capital = 1556
+			# Khottal
 			c_badakhshan = {
 				color = { 18 2 170 }
 				color2 = { 255 255 255 }
@@ -13346,6 +14320,7 @@ e_persia = {
 		color = { 55 128 67 }
 		color2 = { 255 255 255 }
 		capital = 693
+		# Bagdad
 		culture = levantine_arabic
 		allow = {
 			religion_group = muslim
@@ -13356,11 +14331,14 @@ e_persia = {
 			}
 		}
 		muslim = 350
+		# Crusade target weight
 		zoroastrian = 250
+		# Crusade target weight
 		d_tigris = {
 			color = { 55 115 225 }
 			color2 = { 255 255 255 }
 			capital = 692
+			#al Nadjaf
 			c_al_nadjaf = {
 				color = { 90 130 202 }
 				color2 = { 255 255 255 }
@@ -13371,6 +14349,7 @@ e_persia = {
 				b_rahbah = {}
 				b_jasim = {}
 				b_midhrawi = {}
+				#b_rashid = {} # c_rashid
 				b_jaarah = {}
 			}
 			c_kufa = {
@@ -13423,9 +14402,11 @@ e_persia = {
 			}
 		}
 		d_kermanshah = {
+			# Luristan
 			color = { 58 83 130 }
 			color2 = { 255 255 255 }
 			capital = 657
+			#Luristan
 			c_kermanshah = {
 				color = { 74 111 180 }
 				color2 = { 255 255 255 }
@@ -13463,6 +14444,7 @@ e_persia = {
 			color = { 84 137 235 }
 			color2 = { 255 255 255 }
 			capital = 649
+			#basra
 			c_rummah = {
 				color = { 92 145 243 }
 				color2 = { 255 255 255 }
@@ -13504,6 +14486,7 @@ e_persia = {
 			color = { 125 165 239 }
 			color2 = { 255 255 255 }
 			capital = 693
+			# Bagdad
 			c_karbala = {
 				color = { 125 165 239 }
 				color2 = { 255 255 255 }
@@ -13545,6 +14528,7 @@ e_persia = {
 				color = { 133 173 247 }
 				color2 = { 255 255 255 }
 				b_anah = {}
+				#b_anbar = {}
 				b_rutbah = {}
 				b_hit = {}
 				b_ramadi = {}
@@ -13577,12 +14561,16 @@ e_persia = {
 			}
 		}
 	}
+	# END k_mesopotamia
 }
+# END e_persia
 k_georgia = {
 	color = { 122 26 98 }
 	color2 = { 255 255 255 }
 	capital = 679
+	# Kartli
 	culture = georgian
+	# Creation/usurpation trigger
 	allow = {
 		religion_group = christian
 	}
@@ -13636,6 +14624,7 @@ k_georgia = {
 		color = { 210 204 50 }
 		color2 = { 255 255 255 }
 		capital = 680
+		# Tao
 		c_tao = {
 			color = { 238 183 183 }
 			color2 = { 255 255 255 }
@@ -13658,12 +14647,14 @@ k_georgia = {
 			b_arkhabi = {}
 			b_vardzia = {}
 			b_doliskana = {}
+			#b_gonio = {} # c_guria
 		}
 	}
 	d_kakheti = {
 		color = { 196 131 131 }
 		color2 = { 255 255 255 }
 		capital = 676
+		# Kakheti
 		c_kakheti = {
 			color = { 202 25 40 }
 			color2 = { 255 255 255 }
@@ -13726,6 +14717,7 @@ k_georgia = {
 			b_poti = {}
 			b_martvili = {}
 			b_anaklia = {}
+			#b_seti = {} # c_racha
 			b_khobi = {}
 			b_tsalenjikha = {}
 			b_jvari = {}
@@ -13743,16 +14735,21 @@ k_georgia = {
 		}
 	}
 }
+# END k_georgia
 k_caucasian_albania = {
 	color = { 60 126 98 }
 	color2 = { 255 255 255 }
 	culture = georgian
+	# Creation/usurpation trigger
 	orthodox = 200
+	# Crusade target weight
 	capital = 668
+	# Shirvan
 	d_albania = {
 		color = { 236 132 31 }
 		color2 = { 255 255 255 }
 		capital = 1092
+		# Arran
 		c_arran = {
 			color = { 253 176 176 }
 			color2 = { 255 255 255 }
@@ -13782,6 +14779,7 @@ k_caucasian_albania = {
 		color = { 155 25 65 }
 		color2 = { 255 255 255 }
 		capital = 674
+		# Derbent
 		c_derbent = {
 			color = { 253 147 179 }
 			color2 = { 255 255 255 }
@@ -13806,6 +14804,7 @@ k_caucasian_albania = {
 		color = { 97 147 60 }
 		color2 = { 255 255 255 }
 		capital = 668
+		# Shirvan
 		c_shirvan = {
 			color = { 162 234 22 }
 			color2 = { 255 255 255 }
@@ -13832,17 +14831,21 @@ k_caucasian_albania = {
 		}
 	}
 }
+# END k_caucasian_albania#placeholder
 e_italy = {
 	color = { 51 124 91 }
 	color2 = { 255 255 255 }
 	capital = 235
+	# Lombardia
 	culture = italian
 	name_tier = king
 	k_italy = {
 		color = { 69 135 81 }
 		color2 = { 255 255 255 }
 		capital = 234
+		# Pavia
 		culture = italian
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
@@ -13853,6 +14856,7 @@ e_italy = {
 			color = { 133 82 150 }
 			color2 = { 255 255 255 }
 			capital = 235
+			# Lombardia
 			culture = italian
 			c_lombardia = {
 				color = { 251 237 226 }
@@ -13949,6 +14953,7 @@ e_italy = {
 			color = { 50 123 57 }
 			color2 = { 255 255 255 }
 			capital = 1142
+			# Como
 			culture = italian
 			c_como = {
 				color = { 251 237 226 }
@@ -13992,6 +14997,7 @@ e_italy = {
 			color = { 0 86 148 }
 			color2 = { 255 255 255 }
 			capital = 319
+			# Verona
 			culture = venetian
 			title = MARGRAVE
 			title_female = MARGRAVINE
@@ -14055,6 +15061,7 @@ e_italy = {
 				b_abbaziadisantostefano = {}
 				b_citadella = {}
 				b_doloveneto = {}
+				#b_abbaziadisanpietro = {} # c_verona
 				b_piovedisacco = {}
 				b_castellodisanpelagio = {}
 				b_polverara = {}
@@ -14124,6 +15131,7 @@ e_italy = {
 			color = { 0 66 145 }
 			color2 = { 255 255 255 }
 			capital = 237
+			# Piemonte
 			culture = italian
 			greek = "Alpes Cottiae"
 			roman = "Alpes Cottiae"
@@ -14193,6 +15201,7 @@ e_italy = {
 			color = { 104 12 38 }
 			color2 = { 255 255 255 }
 			capital = 232
+			# Monferrato
 			culture = italian
 			c_monferrato = {
 				color = { 250 244 225 }
@@ -14245,6 +15254,7 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = ligurian
 			capital = 233
+			# Genoa
 			c_genoa = {
 				color = { 253 247 228 }
 				color2 = { 255 255 255 }
@@ -14335,6 +15345,7 @@ e_italy = {
 			color = { 45 102 59 }
 			color2 = { 255 255 255 }
 			capital = 322
+			# Modena
 			culture = italian
 			greek = "Modena"
 			roman = "Modena"
@@ -14565,6 +15576,7 @@ e_italy = {
 			color = { 108 30 40 }
 			color2 = { 255 255 255 }
 			capital = 327
+			# Pisa
 			culture = tuscan
 			c_pisa = {
 				color = { 232 251 226 }
@@ -14603,11 +15615,13 @@ e_italy = {
 		}
 		christian = 8000
 		short_name = yes
+		# Crusade target weight
 		d_ferrara = {
 			color = { 123 189 123 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 353
+			# Ferrara
 			c_ferrara = {
 				color = { 245 251 226 }
 				color2 = { 255 255 255 }
@@ -14650,6 +15664,7 @@ e_italy = {
 			color = { 134 76 145 }
 			color2 = { 255 255 255 }
 			capital = 351
+			# Ravenna
 			culture = italian
 			greek = "Flaminia et Picenum Annonarium"
 			roman = "Flaminia et Picenum Annonarium"
@@ -14717,6 +15732,7 @@ e_italy = {
 			capital = 350
 			greek = "Picenum"
 			roman = "Picenum"
+			#I know that Picenum is Pikentine in Greek, but i would still need a Greek translation of Suburbicarum which i do not have
 			c_ancona = {
 				color = { 224 249 224 }
 				color2 = { 255 255 255 }
@@ -14778,6 +15794,7 @@ e_italy = {
 			color = { 0 85 148 }
 			color2 = { 255 255 255 }
 			capital = 329
+			# Urbino
 			culture = central_italian
 			greek = "Umbria"
 			roman = "Umbria"
@@ -14787,6 +15804,7 @@ e_italy = {
 				b_sanmarino = {}
 				b_montegiardino = {}
 				b_acquaviva = {}
+				# Yes, with a c.
 				b_serravallesanmarino = {}
 			}
 			c_montefeltro = {
@@ -14820,7 +15838,9 @@ e_italy = {
 			color = { 135 45 49 }
 			color2 = { 255 255 255 }
 			christian = 8500
+			# Crusade target weight
 			capital = 349
+			# Spoleto
 			culture = central_italian
 			c_spoleto = {
 				color = { 225 250 235 }
@@ -14864,6 +15884,7 @@ e_italy = {
 			color = { 254 245 160 }
 			color2 = { 255 255 255 }
 			capital = 333
+			# Roma
 			culture = central_italian
 			christian = 9000
 			c_roma = {
@@ -14961,15 +15982,19 @@ e_italy = {
 		color = { 72 96 176 }
 		color2 = { 255 255 255 }
 		capital = 326
+		# Caligari
 		culture = sardinian
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
 		christian = 4000
+		# Crusade target weight
 		d_corsica = {
 			color = { 144 184 115 }
 			color2 = { 255 255 255 }
 			capital = 1101
+			# Alando
 			culture = corsican
 			c_terradicomune = {
 				color = { 226 248 251 }
@@ -15013,6 +16038,7 @@ e_italy = {
 			color = { 132 171 207 }
 			color2 = { 255 255 255 }
 			capital = 326
+			# Cagliari
 			culture = sardinian
 			c_logudoro = {
 				color = { 170 182 225 }
@@ -15088,9 +16114,12 @@ e_italy = {
 		color = { 170 170 210 }
 		color2 = { 255 255 255 }
 		capital = 334
+		#	Napoli
 		culture = southern_italian
 		catholic = 7000
+		# Crusade target weight
 		orthodox = 50
+		# Crusade target weight
 		muslim = 25
 		greek = "Italy"
 		roman = "Italia Suburbicaria"
@@ -15183,6 +16212,7 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 851
+			# Capua
 			c_capua = {
 				color = { 186 202 251 }
 				color2 = { 255 255 255 }
@@ -15300,6 +16330,7 @@ e_italy = {
 			culture = southern_italian
 			capital = 1108
 			name_tier = count
+			# Larino
 			c_larino = {
 				color = { 201 233 52 }
 				color2 = { 255 255 255 }
@@ -15335,6 +16366,7 @@ e_italy = {
 			culture = southern_italian
 			capital = 344
 			short_name = yes
+			# Taranto
 			c_taranto = {
 				color = { 236 225 250 }
 				color2 = { 255 255 255 }
@@ -15384,6 +16416,7 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 336
+			# Salerno
 			c_salerno = {
 				color = { 245 194 199 }
 				color2 = { 255 255 255 }
@@ -15424,6 +16457,7 @@ e_italy = {
 			color = { 193 229 253 }
 			color2 = { 255 255 255 }
 			christian = 300
+			# Crusade target weight
 			culture = southern_italian
 			capital = 1114
 			greek = "Samnium"
@@ -15514,8 +16548,11 @@ e_italy = {
 			color = { 43 97 251 }
 			color2 = { 255 255 255 }
 			capital = 340
+			# Palermo
 			catholic = 250
+			# Crusade target weight
 			orthodox = 50
+			# Crusade target weight
 			muslim = 75
 			name_tier = count
 			c_palermo = {
@@ -15647,15 +16684,19 @@ e_italy = {
 		color = { 52 127 128 }
 		color2 = { 255 255 255 }
 		capital = 356
+		# Venice
 		culture = venetian
 		dignity = 200
+		# Never want the Republic of Genoa to change primary title				
 		christian = 375
+		# Crusade target weight
 		allow = {
 			is_republic = yes
 		}
 		d_venice = {
 			color = { 34 137 126 }
 			capital = 356
+			# Venice
 			c_venezia = {
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
@@ -15683,10 +16724,12 @@ e_italy = {
 		}
 	}
 }
+# END e_italy
 e_france = {
 	color = { 74 133 186 }
 	color2 = { 255 255 255 }
 	capital = 112
+	# Ile de France
 	culture = frankish
 	title = EF
 	foa = EF_FOA
@@ -15695,12 +16738,15 @@ e_france = {
 		color = { 134 0 37 }
 		color2 = { 220 220 0 }
 		capital = 1047
+		# Arles
 		culture = occitan
 		catholic = 4000
+		# Crusade target weight
 		d_savoie = {
 			color = { 113 166 111 }
 			color2 = { 255 255 255 }
 			capital = 237
+			# Savoie
 			culture = arpitan
 			c_savoie = {
 				color = { 107 15 21 }
@@ -15761,6 +16807,7 @@ e_france = {
 			color = { 120 170 220 }
 			color2 = { 255 255 255 }
 			capital = 1041
+			# Aosta
 			culture = arpitan
 			c_aosta = {
 				color = { 107 15 41 }
@@ -15796,6 +16843,7 @@ e_france = {
 			color = { 243 209 23 }
 			color2 = { 220 220 0 }
 			capital = 1047
+			# Arles
 			culture = occitan
 			c_arles = {
 				color = { 0 30 130 }
@@ -15814,6 +16862,7 @@ e_france = {
 			color = { 92 127 157 }
 			color2 = { 255 255 255 }
 			capital = 221
+			# Provence
 			culture = occitan
 			dignity = 5
 			name_tier = count
@@ -15884,6 +16933,7 @@ e_france = {
 			color = { 128 0 40 }
 			color2 = { 255 255 255 }
 			capital = 227
+			# Lyon
 			culture = arpitan
 			c_lyon = {
 				color = { 138 0 20 }
@@ -15907,6 +16957,7 @@ e_france = {
 			color = { 75 50 50 }
 			color2 = { 255 255 255 }
 			capital = 228
+			# Dauphiné Viennois
 			culture = occitan
 			c_dauphine_viennois = {
 				color = { 119 30 54 }
@@ -15918,6 +16969,7 @@ e_france = {
 				b_septeme = {}
 				b_chateaudevirieu = {}
 				b_latourdupin = {}
+				#b_stantoine = {} # c_valentinois, but removed both for now
 			}
 			c_valentinois = {
 				color = { 119 30 54 }
@@ -15957,6 +17009,7 @@ e_france = {
 			color = { 195 183 210 }
 			color2 = { 255 255 255 }
 			capital = 1037
+			# Basel
 			culture = german
 			title = FE
 			foa = FE_FOA
@@ -15979,6 +17032,7 @@ e_france = {
 			color = { 104 2 94 }
 			color2 = { 255 255 255 }
 			capital = 1044
+			# Varais - Baumes
 			culture = frankish
 			title = CPALATIN
 			title_female = CEPALATIN
@@ -16033,15 +17087,19 @@ e_france = {
 				b_yverdon = {}
 				b_estavayer = {}
 				b_avences = {}
+				#b_murten = {} # c_bern (Zähringen)
 			}
 		}
 	}
+	# END k_burgundy
 	k_brittany = {
 		color = { 240 240 240 }
 		color2 = { 0 0 0 }
 		capital = 106
+		# Nantes
 		culture = breton
 		catholic = 2500
+		# Crusade target weight
 		allow = {
 			culture_group = celtic
 		}
@@ -16049,6 +17107,7 @@ e_france = {
 			color = { 210 170 210 }
 			color2 = { 255 255 255 }
 			capital = 106
+			# Nantes
 			culture = breton
 			c_vannes = {
 				color = { 41 32 234 }
@@ -16140,10 +17199,12 @@ e_france = {
 			}
 		}
 	}
+	# END k_brittany
 	k_france = {
 		color = { 0 86 148 }
 		color2 = { 255 216 0 }
 		capital = 112
+		# Ile de France
 		culture = frankish
 		catholic = 4000
 		d_flanders = {
@@ -16219,6 +17280,7 @@ e_france = {
 			color2 = { 255 255 255 }
 			culture = frankish
 			capital = 77
+			# Artois
 			c_artois = {
 				color = { 39 72 212 }
 				color2 = { 255 255 255 }
@@ -16282,6 +17344,7 @@ e_france = {
 			color = { 77 0 107 }
 			color2 = { 255 255 255 }
 			capital = 136
+			# Dijon
 			culture = frankish
 			c_dijon = {
 				color = { 30 168 232 }
@@ -16327,6 +17390,7 @@ e_france = {
 				b_toulonsurarroux = {}
 				b_perrecy = {}
 				b_digoine = {}
+				#now Digoin
 				b_joncy = {}
 			}
 			c_chalons = {
@@ -16346,6 +17410,7 @@ e_france = {
 			color = { 74 133 186 }
 			color2 = { 255 255 255 }
 			capital = 139
+			# Bourges
 			culture = frankish
 			c_bourbon = {
 				color = { 26 173 228 }
@@ -16363,6 +17428,7 @@ e_france = {
 				color2 = { 255 255 255 }
 				b_couzan = {}
 				b_montbrison = {}
+				#b_thiers = {} # c_auvergne
 				b_feurs = {}
 				b_roanne = {}
 				b_charlieu = {}
@@ -16374,6 +17440,7 @@ e_france = {
 			color = { 0 126 128 }
 			color2 = { 255 255 255 }
 			capital = 107
+			# Anjou
 			c_anjou = {
 				color = { 45 26 228 }
 				color2 = { 255 255 255 }
@@ -16428,6 +17495,7 @@ e_france = {
 			color2 = { 255 255 255 }
 			culture = norman
 			capital = 1172
+			# Bayeux
 			c_evreux = {
 				color = { 74 27 229 }
 				color2 = { 255 255 255 }
@@ -16536,6 +17604,7 @@ e_france = {
 			color = { 48 48 95 }
 			color2 = { 255 255 255 }
 			capital = 1171
+			# Alencon
 			c_alencon = {
 				color = { 77 30 232 }
 				color2 = { 255 255 255 }
@@ -16571,6 +17640,7 @@ e_france = {
 			color = { 250 250 250 }
 			color2 = { 255 255 255 }
 			capital = 138
+			# Orleans
 			c_orleans = {
 				color = { 94 32 234 }
 				color2 = { 255 255 255 }
@@ -16600,6 +17670,7 @@ e_france = {
 			color2 = { 255 255 255 }
 			capital = 110
 			name_tier = count
+			# Blois
 			c_chartres = {
 				color = { 98 36 238 }
 				color2 = { 255 255 255 }
@@ -16625,6 +17696,7 @@ e_france = {
 			c_chateaudun = {
 				color = { 98 36 238 }
 				color2 = { 255 255 255 }
+				#b_meung = {} # c_orleans
 				b_chateaudun = {}
 				b_beaugency = {}
 				b_bonneval = {}
@@ -16634,6 +17706,7 @@ e_france = {
 			color = { 200 49 110 }
 			color2 = { 255 255 255 }
 			capital = 139
+			# Bourges
 			c_bourges = {
 				color = { 100 20 40 }
 				color2 = { 255 255 255 }
@@ -16664,6 +17737,7 @@ e_france = {
 			color2 = { 255 255 255 }
 			capital = 137
 			name_tier = count
+			# Nevers
 			c_nevers = {
 				color = { 33 171 235 }
 				color2 = { 255 255 255 }
@@ -16774,6 +17848,7 @@ e_france = {
 				color2 = { 255 255 255 }
 				b_rethel = {}
 				b_grandpre = {}
+				#b_porcien = {} # c_porcien
 				b_buzancy = {}
 				b_mezieres = {}
 				b_attignyardennes = {}
@@ -16792,6 +17867,7 @@ e_france = {
 			color = { 0 50 155 }
 			color2 = { 255 255 255 }
 			capital = 112
+			# Ile de France
 			c_ile_de_france = {
 				color = { 38 144 211 }
 				color2 = { 255 255 255 }
@@ -16862,16 +17938,19 @@ e_france = {
 			}
 		}
 	}
+	# END k_france
 	k_aquitaine = {
 		color = { 54 50 226 }
 		color2 = { 255 255 20 }
 		capital = 149
+		# Bordaeux
 		culture = occitan
 		catholic = 4000
 		d_toulouse = {
 			color = { 200 0 50 }
 			color2 = { 255 255 255 }
 			capital = 214
+			# Toulouse
 			culture = occitan
 			c_toulouse = {
 				color = { 18 24 251 }
@@ -16929,6 +18008,7 @@ e_france = {
 			color = { 0 127 14 }
 			color2 = { 255 255 255 }
 			capital = 219
+			# Gevaudan
 			culture = occitan
 			name_tier = count
 			c_milau = {
@@ -16971,6 +18051,7 @@ e_france = {
 			color = { 235 224 73 }
 			color2 = { 255 255 255 }
 			capital = 210
+			# Foix
 			culture = occitan
 			c_foix = {
 				color = { 24 13 246 }
@@ -17035,6 +18116,7 @@ e_france = {
 			color = { 0 50 180 }
 			color2 = { 255 255 255 }
 			capital = 212
+			# Narbonne
 			culture = occitan
 			c_narbonne = {
 				color = { 14 20 247 }
@@ -17124,6 +18206,7 @@ e_france = {
 			color = { 107 102 68 }
 			color2 = { 255 255 255 }
 			capital = 209
+			# Armagnac
 			culture = occitan
 			c_armagnac = {
 				color = { 30 19 252 }
@@ -17184,8 +18267,10 @@ e_france = {
 			color = { 255 30 50 }
 			color2 = { 255 255 255 }
 			capital = 149
+			# Bordeaux
 			culture = occitan
 			dignity = 10
+			# Counted as having 10 more counties than it does
 			c_bordeaux = {
 				color = { 58 14 247 }
 				color2 = { 255 255 255 }
@@ -17229,6 +18314,7 @@ e_france = {
 			color = { 250 150 0 }
 			color2 = { 255 255 255 }
 			capital = 217
+			# Auvergne
 			culture = occitan
 			c_auvergne = {
 				color = { 26 173 228 }
@@ -17293,6 +18379,7 @@ e_france = {
 			color = { 30 80 200 }
 			color2 = { 255 255 255 }
 			capital = 1141
+			# Poiters
 			culture = occitan
 			c_lusignan = {
 				color = { 28 97 228 }
@@ -17368,6 +18455,7 @@ e_france = {
 			color = { 250 250 250 }
 			color2 = { 255 255 255 }
 			capital = 147
+			# Limoges
 			culture = occitan
 			c_la_marche = {
 				color = { 5 130 46 }
@@ -17406,6 +18494,7 @@ e_france = {
 			}
 		}
 	}
+	# END k_aquitaine
 	allow = {
 		OR = {
 			culture = frankish
@@ -17428,11 +18517,16 @@ e_france = {
 		}
 	}
 }
+# END e_france
 e_spain = {
 	color = { 250 201 20 }
 	color2 = { 255 255 255 }
+	#color={ 233 200 20 }
+	#color={ 224 195 65 }
 	capital = 197
+	# Toledo
 	culture = castillan
+	# Creation/usurpation trigger
 	allow = {
 		war = no
 		ruled_years = 5
@@ -17450,10 +18544,14 @@ e_spain = {
 		color = { 188 150 0 }
 		color2 = { 200 80 10 }
 		capital = 199
+		# Burgos
 		culture = castillan
 		dignity = 0
 		catholic = 250
+		# Crusade target weight
 		sunni = 25
+		# Crusade target weight
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
@@ -17462,6 +18560,7 @@ e_spain = {
 			color2 = { 255 255 255 }
 			capital = 199
 			name_tier = count
+			# Burgos
 			c_burgos = {
 				color = { 109 109 0 }
 				color2 = { 255 255 255 }
@@ -17551,6 +18650,7 @@ e_spain = {
 			color = { 0 113 188 }
 			color2 = { 255 255 255 }
 			capital = 201
+			# Najera
 			c_najera = {
 				color = { 219 181 2 }
 				color2 = { 255 255 255 }
@@ -17573,7 +18673,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 192
+			# Salamanca
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -17594,7 +18696,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 165
+			# Cadiz
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -17615,7 +18719,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 193
+			# Alacantara
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -17636,7 +18742,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 200
+			# Soria
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -17657,7 +18765,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 1196
+			# Palencia
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -17675,12 +18785,17 @@ e_spain = {
 			}
 		}
 	}
+	# END k_castille
 	k_navarra = {
 		color = { 225 22 22 }
 		capital = 152
+		# Navarra
 		culture = basque
 		catholic = 250
+		# Crusade target weight
 		sunni = 15
+		# Crusade target weight
+		# Creation/usurpation trigger
 		allow = {
 			culture = basque
 			religion_group = christian
@@ -17739,14 +18854,19 @@ e_spain = {
 			}
 		}
 	}
+	# END k_navarra
 	k_leon = {
 		color = { 142 53 124 }
 		color2 = { 255 255 255 }
 		capital = 190
+		# Leon
 		culture = castillan
 		dignity = 0
 		catholic = 250
+		# Crusade target weight
 		sunni = 25
+		# Crusade target weight
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
@@ -17876,13 +18996,18 @@ e_spain = {
 			}
 		}
 	}
+	# END k_leon
 	k_aragon = {
 		color = { 255 237 120 }
 		color2 = { 230 0 0 }
 		capital = 204
+		# Barcelona
 		culture = castillan
 		catholic = 250
+		# Crusade target weight
 		sunni = 25
+		# Crusade target weight
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
@@ -17958,6 +19083,7 @@ e_spain = {
 			color = { 167 39 0 }
 			color2 = { 255 255 255 }
 			capital = 204
+			# Barcelona
 			culture = catalan
 			name_tier = count
 			c_barcelona = {
@@ -18093,7 +19219,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 170
+			# Denia
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -18113,7 +19241,9 @@ e_spain = {
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
 			capital = 204
+			# Barcelona
 			dignity = 15
+			# Counted as having 15 more counties than it does
 			allow = {
 				culture_group = iberian
 				religion_group = christian
@@ -18130,13 +19260,18 @@ e_spain = {
 			}
 		}
 	}
+	# END k_aragon
 	k_portugal = {
 		color = { 207 160 255 }
 		color2 = { 255 255 255 }
 		capital = 160
+		#Lisboa
 		culture = portuguese
 		catholic = 250
+		# Crusade target weight
 		sunni = 25
+		# Crusade target weight
+		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
 		}
@@ -18300,12 +19435,15 @@ e_spain = {
 			}
 		}
 	}
+	# END k_portugal
 	k_andalusia = {
 		color = { 140 186 128 }
 		color2 = { 255 255 255 }
 		capital = 181
+		# Córdoba
 		culture = andalusian_arabic
 		catholic = 100
+		# Crusade target weight
 		muslim = 50
 		greek = "Carthaginiensis"
 		roman = "Carthaginiensis"
@@ -18773,6 +19911,7 @@ e_spain = {
 				b_ferreries = {}
 			}
 		}
+		# Creation/usurpation trigger
 		allow = {
 			OR = {
 				culture = maghreb_arabic
@@ -18783,10 +19922,15 @@ e_spain = {
 			}
 		}
 	}
+	# END k_al_andalus
+	# TITULAR SWMH Spain
+	#Kingdom level:
+	#reino de Galicia
 	k_spanish_galicia = {
 		color = { 43 185 186 }
 		color2 = { 255 255 255 }
 		capital = 157
+		# Santiago
 		allow = {
 			culture_group = iberian
 			religion_group = christian
@@ -18819,10 +19963,12 @@ e_spain = {
 			}
 		}
 	}
+	#Principado de Cataluña
 	k_catalunya = {
 		color = { 200 0 50 }
 		color2 = { 255 255 255 }
 		capital = 204
+		# Barcelona
 		allow = {
 			culture_group = iberian
 			religion_group = christian
@@ -18873,10 +20019,13 @@ e_spain = {
 			}
 		}
 	}
+	# END k_catalunya
+	#Reino de Valencia
 	k_valencia = {
 		color = { 200 0 50 }
 		color2 = { 255 255 255 }
 		capital = 171
+		# Valencia
 		allow = {
 			culture_group = iberian
 			religion_group = christian
@@ -18915,10 +20064,13 @@ e_spain = {
 			}
 		}
 	}
+	# END k_valencia
+	#Reino de Granada
 	k_granada = {
 		color = { 200 0 50 }
 		color2 = { 255 255 255 }
 		capital = 180
+		# Granada
 		allow = {
 			culture_group = iberian
 			religion_group = christian
@@ -18957,11 +20109,14 @@ e_spain = {
 			}
 		}
 	}
+	# END k_granada
 	k_asturias = {
 		color = { 49 88 185 }
 		color2 = { 0 0 0 }
 		capital = 155
+		# Asturas de Oviedo
 		dignity = 15
+		# Counted as having 15 more counties than it does
 		allow = {
 			culture_group = iberian
 			religion_group = christian
@@ -18991,22 +20146,31 @@ e_spain = {
 			color = { 19 83 180 }
 			color2 = { 0 0 0 }
 			capital = 155
+			# Asturias de Oviedo
 		}
 	}
+	# END k_asturias
+	# END TITULAR SWMH Spain
 }
+# END e_spain
 e_africa = {
 	color = { 204 1 1 }
 	color2 = { 255 255 255 }
 	culture = maghreb_arabic
 	creation_requires_capital = no
+	# Two potential capitals
 	capital = 817
+	# Tunis
 	k_africa = {
 		color = { 255 204 102 }
 		color2 = { 255 255 255 }
 		capital = 817
+		# Tunis
 		culture = maghreb_arabic
 		orthodox = 10
+		# Crusade target weight
 		catholic = 10
+		# Crusade target weight
 		muslim = 200
 		greek = "Africa"
 		roman = "Africa"
@@ -19133,6 +20297,7 @@ e_africa = {
 			color = { 227 227 200 }
 			color2 = { 255 255 255 }
 			capital = 811
+			# Tripolitana
 			c_tripolitana = {
 				color = { 45 192 107 }
 				color2 = { 255 255 255 }
@@ -19275,6 +20440,7 @@ e_africa = {
 				color2 = { 255 255 255 }
 				b_biskra = {}
 				b_badis = {}
+				#b_khenchela = {} # c_tabassa
 				b_sidiokba = {}
 				b_nebka = {}
 				b_bigou = {}
@@ -19310,13 +20476,17 @@ e_africa = {
 			}
 		}
 	}
+	# END k_africa
 	k_maghreb = {
 		color = { 150 110 210 }
 		color2 = { 255 255 255 }
 		capital = 843
+		# Marrakech
 		culture = sanhaja
 		catholic = 10
+		# Crusade target weight
 		muslim = 100
+		# Crusade target weight
 		d_alger = {
 			color = { 215 113 31 }
 			color2 = { 255 255 255 }
@@ -19410,6 +20580,7 @@ e_africa = {
 				color2 = { 255 255 255 }
 				b_hanyan = {}
 				b_nadruma = {}
+				#b_saida = {} # c_atlas_mnt
 				b_alkasdir = {}
 				b_alancha = {}
 				b_magoura = {}
@@ -19470,6 +20641,7 @@ e_africa = {
 				b_midar = {}
 				b_alhoceima = {}
 				b_driouch = {}
+				#b_geurcif = {} # c_el_rif / Also renamed b_guercif
 			}
 		}
 		d_fes = {
@@ -19518,16 +20690,23 @@ e_africa = {
 			c_el_rif = {
 				color = { 28 240 63 }
 				color2 = { 255 255 255 }
+				#b_melilla = {} # c_malila
+				#b_alhoceima = {} # c_nakur
+				#b_midar = {} # c_nakur
 				b_taza = {}
 				b_ketama = {}
+				#b_nador = {} # c_malila
+				#b_driouch = {} # c_nakur
 				b_saka = {}
 				b_guercif = {}
+				# Renamed
 			}
 		}
 		d_marrakech = {
 			color = { 25 95 73 }
 			color2 = { 255 255 255 }
 			capital = 843
+			# Marrakech
 			c_marrakech = {
 				color = { 45 152 34 }
 				color2 = { 255 255 255 }
@@ -19599,16 +20778,21 @@ e_africa = {
 			}
 		}
 	}
+	# END k_maghreb
 	k_mauretania = {
 		color = { 64 0 128 }
 		color2 = { 255 255 255 }
 		capital = 843
+		# Marrakech
 		catholic = 10
+		# Crusade target weight
 		muslim = 100
+		# Crusade target weight
 		d_draa = {
 			color = { 128 95 73 }
 			color2 = { 255 255 255 }
 			capital = 1363
+			# Draa
 			c_draa = {
 				color = { 49 156 38 }
 				color2 = { 255 255 255 }
@@ -19636,6 +20820,7 @@ e_africa = {
 			color = { 130 180 61 }
 			color2 = { 255 255 255 }
 			capital = 920
+			# Ouadane/Wadán
 			c_ouadane = {
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
@@ -19670,6 +20855,7 @@ e_africa = {
 			color = { 92 188 163 }
 			color2 = { 255 255 255 }
 			capital = 916
+			# Taghaza
 			c_taghaza = {
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
@@ -19693,6 +20879,7 @@ e_africa = {
 			}
 		}
 	}
+	# END k_mauretania
 	allow = {
 		religion_group = muslim
 		ruled_years = 5
@@ -19711,6 +20898,7 @@ e_africa = {
 		}
 	}
 }
+# END e_africa
 k_canarias = {
 	color = { 182 198 176 }
 	color2 = { 255 255 255 }
@@ -19756,22 +20944,27 @@ k_canarias = {
 		}
 	}
 }
+# END k_canarias
 e_arabia = {
 	color = { 21 128 0 }
 	color2 = { 255 255 255 }
 	capital = 718
+	# Medina
 	culture = bedouin_arabic
 	short_name = yes
 	k_arabia = {
 		color = { 45 169 12 }
 		color2 = { 255 255 255 }
 		capital = 718
+		# Medina
 		culture = bedouin_arabic
 		muslim = 200
+		# Crusade target weight
 		d_arabia_petrae = {
 			color = { 121 196 2 }
 			color2 = { 255 255 255 }
 			capital = 784
+			# Al 'Aqabah
 			c_al_aqabah = {
 				color = { 124 199 5 }
 				color2 = { 255 255 255 }
@@ -19820,6 +21013,7 @@ e_arabia = {
 			color = { 32 127 30 }
 			color2 = { 255 255 255 }
 			capital = 651
+			# Damman
 			c_damman = {
 				color = { 14 79 198 }
 				color2 = { 255 255 255 }
@@ -19862,7 +21056,9 @@ e_arabia = {
 			color = { 150 249 43 }
 			color2 = { 255 255 255 }
 			capital = 719
+			# Mecca
 			muslim = 500
+			# Crusade target weight
 			c_hijaz = {
 				color = { 158 253 51 }
 				color2 = { 255 255 255 }
@@ -19879,6 +21075,7 @@ e_arabia = {
 				color = { 162 253 55 }
 				color2 = { 255 255 255 }
 				muslim = 500
+				# Crusade target weight
 				holy_site = sunni
 				holy_site = shiite
 				holy_site = ibadi
@@ -19895,6 +21092,7 @@ e_arabia = {
 				color = { 166 253 59 }
 				color2 = { 255 255 255 }
 				muslim = 1000
+				# Crusade target weight
 				holy_site = sunni
 				holy_site = shiite
 				holy_site = pagan
@@ -19926,6 +21124,7 @@ e_arabia = {
 			color = { 63 119 0 }
 			color2 = { 255 255 255 }
 			capital = 860
+			# Sanaa
 			c_bayda = {
 				color = { 132 251 45 }
 				color2 = { 255 255 255 }
@@ -20002,6 +21201,7 @@ e_arabia = {
 			color = { 93 196 2 }
 			color2 = { 255 255 255 }
 			capital = 868
+			# Muscat
 			c_dhu_zabi = {
 				color = { 96 199 5 }
 				color2 = { 255 255 255 }
@@ -20082,6 +21282,7 @@ e_arabia = {
 			color = { 87 127 199 }
 			color2 = { 255 255 255 }
 			capital = 864
+			# Hail
 			c_rafha = {
 				color = { 174 253 67 }
 				color2 = { 255 255 255 }
@@ -20131,13 +21332,17 @@ e_arabia = {
 			}
 		}
 	}
+	# END k_arabia
 	k_egypt = {
 		color = { 65 36 40 }
 		color2 = { 255 255 255 }
 		capital = 796
+		# Cairo
 		culture = egyptian_arabic
 		orthodox = 20
+		# Crusade target weight
 		catholic = 20
+		# Crusade target weight
 		muslim = 400
 		d_alexandria = {
 			color = { 72 162 212 }
@@ -20217,7 +21422,8 @@ e_arabia = {
 			c_pelusia = {
 				color = { 12 255 83 }
 				color2 = { 255 255 255 }
-				b_ushmuntan = {}
+				b_ushmuntan = {	#The Coptic name of the City translated into Latin, the original Latin or Greek name is not available
+				}
 				b_tinis = {}
 				b_faqus = {}
 				b_alsalihiyah = {}
@@ -20247,8 +21453,10 @@ e_arabia = {
 			c_cairo = {
 				color = { 24 236 119 }
 				color2 = { 255 255 255 }
-				b_cairo = {}
-				b_fustat = {}
+				b_cairo = {	#The Old Roman Fortress and City that turned into Cairo was know as Babylon
+				}
+				b_fustat = {	#Phystaton is the Coptic name of the city translated into Latin
+				}
 				b_qaylub = {}
 				b_alazhar = {}
 				b_helwan = {}
@@ -20332,6 +21540,7 @@ e_arabia = {
 			color = { 229 181 32 }
 			color2 = { 255 255 255 }
 			capital = 1342
+			# Dakhila
 			c_kharija = {
 				color = { 170 135 120 }
 				color2 = { 255 255 255 }
@@ -20499,6 +21708,7 @@ e_arabia = {
 			color = { 100 138 41 }
 			color2 = { 255 255 255 }
 			capital = 785
+			# Nekhel
 			c_farama = {
 				color = { 141 198 5 }
 				color2 = { 255 255 255 }
@@ -20547,6 +21757,7 @@ e_arabia = {
 			}
 		}
 	}
+	# END k_egypt       
 	allow = {
 		realm_size = 120
 		ruled_years = 5
@@ -20557,23 +21768,30 @@ e_arabia = {
 		}
 	}
 }
+# END e_arabia
 e_abyssinia = {
 	color = { 181 133 180 }
 	color2 = { 255 255 255 }
 	capital = 883
+	# Gondar
 	culture = ethiopian
 	k_adal = {
 		color = { 160 0 40 }
 		color2 = { 255 255 255 }
 		capital = 873
+		# Harer
 		culture = somali
 		orthodox = 30
+		# Crusade target weight
 		muslim = 150
+		# Crusade target weight
 		d_berbera = {
 			color = { 153 2 59 }
 			color2 = { 255 255 255 }
 			capital = 872
+			# Berbera
 			c_busaso = {
+				#871
 				color = { 155 4 61 }
 				color2 = { 255 255 255 }
 				b_mosylon = {}
@@ -20586,6 +21804,7 @@ e_abyssinia = {
 				b_buraan = {}
 			}
 			c_berbera = {
+				#872
 				color = { 157 6 63 }
 				color2 = { 255 255 255 }
 				b_berbera = {}
@@ -20602,7 +21821,9 @@ e_abyssinia = {
 			color = { 165 10 20 }
 			color2 = { 255 255 255 }
 			capital = 873
+			# Harer
 			c_harer = {
+				#873
 				color = { 159 8 20 }
 				color2 = { 255 255 255 }
 				b_harar = {}
@@ -20614,6 +21835,7 @@ e_abyssinia = {
 				b_babile = {}
 			}
 			c_ifat = {
+				#1516
 				color = { 162 12 18 }
 				color2 = { 255 255 255 }
 				b_ifat = {}
@@ -20626,7 +21848,9 @@ e_abyssinia = {
 			color = { 28 145 255 }
 			color2 = { 255 255 255 }
 			capital = 874
+			# Tadjoura
 			c_tadjoura = {
+				#874
 				color = { 33 120 250 }
 				color2 = { 255 255 255 }
 				b_tadjoura = {}
@@ -20634,6 +21858,7 @@ e_abyssinia = {
 				b_randa = {}
 			}
 			c_mora = {
+				#1519
 				color = { 33 110 255 }
 				color2 = { 255 255 255 }
 				b_mora_mora = {}
@@ -20641,6 +21866,7 @@ e_abyssinia = {
 				b_dikhil = {}
 			}
 			c_zaila = {
+				#1520
 				color = { 40 130 245 }
 				color2 = { 255 255 255 }
 				b_zeila = {}
@@ -20652,7 +21878,9 @@ e_abyssinia = {
 			color = { 76 165 255 }
 			color2 = { 255 255 255 }
 			capital = 1518
+			# Assab
 			c_bur = {
+				#1509
 				color = { 80 160 250 }
 				color2 = { 255 255 255 }
 				b_kohaito = {}
@@ -20660,12 +21888,14 @@ e_abyssinia = {
 				b_saho = {}
 			}
 			c_danakil = {
+				#1517
 				color = { 85 140 250 }
 				color2 = { 255 255 255 }
 				b_afera = {}
 				b_assale = {}
 			}
 			c_assab = {
+				#1518
 				color = { 85 130 250 }
 				color2 = { 255 255 255 }
 				b_assab = {}
@@ -20678,15 +21908,21 @@ e_abyssinia = {
 		color = { 201 143 68 }
 		color2 = { 255 255 255 }
 		capital = 1514
+		# Angot
 		culture = ethiopian
 		orthodox = 300
+		# Crusade target weight
 		catholic = 10
+		# Crusade target weight
 		muslim = 30
+		# Crusade target weight
 		d_axum = {
 			color = { 198 30 93 }
 			color2 = { 255 255 255 }
 			capital = 875
+			# Aksum
 			c_aksum = {
+				#875
 				color = { 200 32 95 }
 				color2 = { 255 255 255 }
 				holy_site = miaphysite
@@ -20700,6 +21936,7 @@ e_abyssinia = {
 				b_yeha = {}
 			}
 			c_akordat = {
+				#876 Serae
 				color = { 202 34 97 }
 				color2 = { 255 255 255 }
 				b_akordat = {}
@@ -20713,6 +21950,7 @@ e_abyssinia = {
 				b_shambuko = {}
 			}
 			c_tigre = {
+				#1506 Tigre
 				color = { 202 34 97 }
 				color2 = { 255 255 255 }
 				b_tigre = {}
@@ -20720,6 +21958,7 @@ e_abyssinia = {
 				b_wegera = {}
 			}
 			c_intarta = {
+				#1510 Intarta
 				color = { 202 34 97 }
 				color2 = { 255 255 255 }
 				b_wiqro = {}
@@ -20728,10 +21967,12 @@ e_abyssinia = {
 				b_qiha = {}
 			}
 			c_lasta = {
+				#1511 Lasta
 				color = { 202 34 97 }
 				color2 = { 255 255 255 }
 				b_kubar = {}
 				b_debredamo = {}
+				# Debre Damo monastery
 				b_bugena = {}
 				b_sekota = {}
 			}
@@ -20740,7 +21981,9 @@ e_abyssinia = {
 			color = { 0 153 15 }
 			color2 = { 255 255 255 }
 			capital = 1515
+			# Gojjam
 			c_ankober = {
+				#882 Damot (original c_ankober)    
 				color = { 2 150 15 }
 				color2 = { 255 255 255 }
 				b_ankober = {}
@@ -20752,6 +21995,7 @@ e_abyssinia = {
 				b_keyagebriel = {}
 			}
 			c_matamma = {
+				#885 Agaw
 				color = { 5 148 12 }
 				color2 = { 255 255 255 }
 				b_quenzla = {}
@@ -20764,6 +22008,7 @@ e_abyssinia = {
 				b_garo = {}
 			}
 			c_gojjam = {
+				#1515 
 				color = { 8 155 18 }
 				color2 = { 255 255 255 }
 				b_guihon = {}
@@ -20776,7 +22021,9 @@ e_abyssinia = {
 			color = { 148 59 92 }
 			color2 = { 255 255 255 }
 			capital = 883
+			# Gondar
 			c_gondar = {
+				#883 Dembiya
 				color = { 154 65 98 }
 				color2 = { 255 255 255 }
 				b_fasilghebbi = {}
@@ -20789,6 +22036,7 @@ e_abyssinia = {
 				b_dembiya = {}
 			}
 			c_semien = {
+				#1512
 				color = { 157 68 93 }
 				color2 = { 255 255 255 }
 				b_semien = {}
@@ -20796,6 +22044,7 @@ e_abyssinia = {
 				b_deguma = {}
 			}
 			c_begemder = {
+				#1513
 				color = { 150 69 88 }
 				color2 = { 255 255 255 }
 				b_begemdir = {}
@@ -20807,7 +22056,9 @@ e_abyssinia = {
 			color = { 204 140 65 }
 			color2 = { 255 255 255 }
 			capital = 1514
+			# Angot
 			c_antalo = {
+				#884 Amhara
 				color = { 207 142 62 }
 				color2 = { 255 255 255 }
 				b_entoto = {}
@@ -20816,6 +22067,7 @@ e_abyssinia = {
 				b_oromos = {}
 			}
 			c_angot = {
+				#1514 Angot
 				color = { 210 145 59 }
 				color2 = { 255 255 255 }
 				b_lalibela = {}
@@ -20825,6 +22077,7 @@ e_abyssinia = {
 				b_arbit = {}
 			}
 			c_shewa = {
+				#1521 Shewa
 				color = { 207 145 68 }
 				color2 = { 255 255 255 }
 				b_shewa = {}
@@ -20836,17 +22089,23 @@ e_abyssinia = {
 	k_nubia = {
 		color = { 161 172 86 }
 		capital = 793
+		# Makuria
 		allow = {
 			religion_group = christian
 		}
 		orthodox = 300
+		# Crusade target weight
 		catholic = 10
+		# Crusade target weight
 		muslim = 25
+		# Crusade target weight
 		d_alodia = {
 			color = { 128 100 40 }
 			color2 = { 255 255 255 }
 			capital = 1491
+			# Alwa
 			c_soba = {
+				# 1490 Soba
 				color = { 128 93 35 }
 				color2 = { 255 255 255 }
 				b_soba = {}
@@ -20855,6 +22114,7 @@ e_abyssinia = {
 				b_arbagi = {}
 			}
 			c_alwa = {
+				# 1491 Alwa
 				color = { 123 87 30 }
 				color2 = { 255 255 255 }
 				b_alwa = {}
@@ -20862,6 +22122,7 @@ e_abyssinia = {
 				b_kadero = {}
 			}
 			c_butana = {
+				# 1492 Butana
 				color = { 123 95 40 }
 				color2 = { 255 255 255 }
 				b_meruwah = {}
@@ -20872,7 +22133,9 @@ e_abyssinia = {
 		d_nubia = {
 			color = { 141 162 79 }
 			capital = 793
+			# Makuria
 			c_makuria = {
+				# 793 Makuria
 				color = { 135 168 70 }
 				color2 = { 255 255 255 }
 				b_meroe = {}
@@ -20888,6 +22151,7 @@ e_abyssinia = {
 				b_wawa = {}
 			}
 			c_atbara = {
+				# 879 Atbara
 				color = { 130 172 84 }
 				color2 = { 255 255 255 }
 				b_atbara = {}
@@ -20899,6 +22163,7 @@ e_abyssinia = {
 				b_hajaralasla = {}
 			}
 			c_dongola = {
+				# 1230 Dongola
 				color = { 142 172 70 }
 				color2 = { 255 255 255 }
 				b_dongola = {}
@@ -20909,24 +22174,32 @@ e_abyssinia = {
 				b_grnetti = {}
 			}
 			c_abuhammad = {
+				# 1494 Abu Hammad
 				color = { 147 177 77 }
 				color2 = { 255 255 255 }
 				b_abuhammad = {}
+				# NEW
 				b_kurgus = {}
+				# NEW
 				b_alusheir = {}
+				# NEW
 			}
 			c_ghazali = {
+				# 1495 Ghazali
 				color = { 140 160 70 }
 				color2 = { 255 255 255 }
 				holy_site = miaphysite
 				holy_site = monophysite
-				b_ghazali = {}
+				b_ghazali = {	# Originaly in c_nubia
+				}
 			}
 		}
 		d_nobatia = {
 			color = { 174 125 97 }
 			capital = 792
+			# Faras
 			c_nubia = {
+				# 792 Nubia/Faras
 				color = { 170 120 90 }
 				color2 = { 255 255 255 }
 				b_faras = {}
@@ -20938,11 +22211,13 @@ e_abyssinia = {
 				b_debeira = {}
 			}
 			c_sai = {
+				# 1498 Sai
 				color = { 164 116 83 }
 				color2 = { 255 255 255 }
 				b_sai = {}
 			}
 			c_semna = {
+				# 1499 Semna
 				color = { 168 110 95 }
 				color2 = { 255 255 255 }
 				b_semna = {}
@@ -20953,6 +22228,7 @@ e_abyssinia = {
 				b_attiri = {}
 			}
 			c_qasribrim = {
+				# 1500 Qasr Ibrim
 				color = { 160 125 89 }
 				color2 = { 255 255 255 }
 				b_qasribrim = {}
@@ -20966,12 +22242,15 @@ e_abyssinia = {
 		d_elatrun = {
 			color = { 200 130 79 }
 			capital = 1496
+			# El Atrun
 			c_elatrun = {
+				# 1496 El Atrun
 				color = { 210 135 74 }
 				color2 = { 255 255 255 }
 				b_elatrun = {}
 			}
 			c_selima = {
+				# 1497 Selima
 				color = { 205 140 70 }
 				color2 = { 255 255 255 }
 				b_selima = {}
@@ -20981,16 +22260,21 @@ e_abyssinia = {
 	k_sennar = {
 		color = { 200 48 110 }
 		capital = 880
+		# Sennar
 		allow = {
 			religion_group = christian
 		}
 		orthodox = 150
+		# Crusade target weight
 		muslim = 10
+		# Crusade target weight
 		d_sennar = {
 			color = { 200 42 100 }
 			color2 = { 255 255 255 }
 			capital = 880
+			# Sennar
 			c_sennar = {
+				#880
 				color = { 210 42 105 }
 				color2 = { 255 255 255 }
 				b_sennar = {}
@@ -21003,6 +22287,7 @@ e_abyssinia = {
 				b_kinanah = {}
 			}
 			c_asosa = {
+				#881
 				color = { 150 61 94 }
 				color2 = { 255 255 255 }
 				b_asosa = {}
@@ -21019,6 +22304,7 @@ e_abyssinia = {
 			color = { 105 121 97 }
 			color2 = { 255 255 255 }
 			capital = 1484
+			# Uri
 			c_elfasher = {
 				color = { 222 238 106 }
 				color2 = { 255 255 255 }
@@ -21045,14 +22331,20 @@ e_abyssinia = {
 	k_maikelebahr = {
 		color = { 255 67 20 }
 		capital = 1501
+		# Aydhab
 		d_aydhab = {
 			color = { 250 60 15 }
 			color2 = { 255 255 255 }
 			capital = 1501
+			# Aydhab
 			orthodox = 100
+			# Crusade target weight
 			catholic = 10
+			# Crusade target weight
 			muslim = 120
+			# Crusade target weight
 			c_aydhab = {
+				#1501
 				color = { 255 57 25 }
 				color2 = { 255 255 255 }
 				b_aydhab = {}
@@ -21060,11 +22352,13 @@ e_abyssinia = {
 				b_birshalatayn = {}
 			}
 			c_naqis = {
+				#1338
 				color = { 255 57 25 }
 				color2 = { 255 255 255 }
 				b_naqis = {}
 			}
 			c_suakin = {
+				#1503
 				color = { 242 57 18 }
 				color2 = { 255 255 255 }
 				b_alkabli = {}
@@ -21072,6 +22366,7 @@ e_abyssinia = {
 				b_shafia = {}
 			}
 			c_maikele_bahr = {
+				#1502
 				color = { 248 60 12 }
 				color2 = { 255 255 255 }
 				b_sinkat = {}
@@ -21081,25 +22376,30 @@ e_abyssinia = {
 			color = { 240 75 15 }
 			color2 = { 255 255 255 }
 			capital = 878
+			# Badi/Hayya
 			c_hayya = {
+				#878
 				color = { 245 72 15 }
 				color2 = { 255 255 255 }
 				b_badi = {}
 				b_ini = {}
 			}
 			c_marya = {
+				#1507
 				color = { 240 72 18 }
 				color2 = { 255 255 255 }
 				b_marya = {}
 				b_bogos = {}
 			}
 			c_adulis = {
+				#1508
 				color = { 245 78 10 }
 				color2 = { 255 255 255 }
 				b_adulis = {}
 				b_misiwwa = {}
 			}
 			c_dahlak = {
+				#1592
 				color = { 248 80 15 }
 				color2 = { 255 255 255 }
 				b_dahlak = {}
@@ -21110,17 +22410,21 @@ e_abyssinia = {
 			color = { 215 43 28 }
 			color2 = { 255 255 255 }
 			capital = 877
+			# Kassala
 			c_kassala = {
+				#877
 				color = { 210 48 23 }
 				color2 = { 255 255 255 }
 				b_kassala = {}
 			}
 			c_uper_atbara = {
+				#1505
 				color = { 205 53 28 }
 				color2 = { 255 255 255 }
 				b_showak = {}
 			}
 			c_wolqayt = {
+				#1489
 				color = { 215 58 33 }
 				color2 = { 255 255 255 }
 				b_wolqayt = {}
@@ -21160,6 +22464,7 @@ e_britannia = {
 		color = { 191 16 16 }
 		color2 = { 255 255 255 }
 		capital = 26
+		# Winchester
 		dignity = 10
 		catholic = 300
 		greek = "Britannia"
@@ -21170,10 +22475,12 @@ e_britannia = {
 		welsh = "Logres"
 		breton = "Logres"
 		roman = "the Britains"
+		# Crusade target weight
 		d_somerset = {
 			color = { 68 140 48 }
 			color2 = { 255 255 255 }
 			capital = 26
+			# Winchester
 			dignity = 6
 			irish = "Winchester"
 			scottish = "Winchester"
@@ -21251,6 +22558,15 @@ e_britannia = {
 			c_berks = {
 				color = { 220 9 55 }
 				color2 = { 255 255 255 }
+				#norwegian = "Bearruc"
+				#danish = "Bearruc"
+				#swedish = "Bearruc"
+				#anglonorse = "Bearruc"
+				#gothic = "Bearruc"
+				#norse = "Bearruc"
+				#norsegaelic = "Bearruc"
+				#icelandic = "Bearruc"
+				#saxon = "Bearruc"
 				b_abingdon = {}
 				b_wallingford = {}
 				b_windsor = {}
@@ -21262,6 +22578,7 @@ e_britannia = {
 				b_reading = {}
 			}
 		}
+		#End d_somerset
 		d_canterbury = {
 			color = { 130 93 176 }
 			color2 = { 255 255 255 }
@@ -21320,6 +22637,7 @@ e_britannia = {
 				b_selsey = {}
 			}
 		}
+		#End d_canterbury
 		d_cornwall = {
 			color = { 76 97 85 }
 			color2 = { 255 255 255 }
@@ -21364,6 +22682,7 @@ e_britannia = {
 				b_axminster = {}
 			}
 		}
+		#End d_cornwall
 		d_hereford = {
 			color = { 6 42 127 }
 			color2 = { 255 255 255 }
@@ -21375,6 +22694,7 @@ e_britannia = {
 			cornish = "Dobunni"
 			welsh = "Dobunni"
 			breton = "Dobunni"
+			# Hereford	
 			c_gloucester = {
 				color = { 241 60 30 }
 				color2 = { 255 255 255 }
@@ -21453,6 +22773,7 @@ e_britannia = {
 				b_chartley = {}
 			}
 		}
+		#End d_hereford
 		d_bedford = {
 			color = { 205 196 121 }
 			color2 = { 255 255 255 }
@@ -21504,7 +22825,8 @@ e_britannia = {
 				color = { 235 95 15 }
 				color2 = { 255 255 255 }
 				b_buckingham = {}
-				b_aylesbury = {}
+				b_aylesbury = {	# ? one would assume it should be Æglesbyrig
+				}
 				b_bradwell = {}
 				b_wycombe = {}
 				b_amersham = {}
@@ -21530,6 +22852,7 @@ e_britannia = {
 				b_hook_norton = {}
 			}
 		}
+		#End d_bedford
 		d_essex = {
 			color = { 172 99 22 }
 			color2 = { 255 255 255 }
@@ -21553,6 +22876,7 @@ e_britannia = {
 				b_baynardscastle = {}
 				b_fullham = {}
 				b_kensington = {}
+				# They serve an epic iced tea in the orangerie of Kensington garden.
 				b_chelsea = {}
 			}
 			c_essex = {
@@ -21582,10 +22906,13 @@ e_britannia = {
 				b_hatfield = {}
 			}
 		}
+		#End d_essex
 		d_norfolk = {
+			# East Anglia
 			color = { 60 109 121 }
 			color2 = { 255 255 255 }
 			capital = 70
+			# Norfolk
 			dignity = 4
 			english = "Norfolk"
 			irish = "Venta Icenorum"
@@ -21645,6 +22972,7 @@ e_britannia = {
 				b_impington = {}
 			}
 		}
+		#End d_norfolk
 		d_fivebouroughs = {
 			color = { 43 54 99 }
 			color2 = { 255 255 255 }
@@ -21655,6 +22983,7 @@ e_britannia = {
 			cornish = "Elmet"
 			welsh = "Elmet"
 			breton = "Elmet"
+			# Lincoln
 			c_lincoln = {
 				color = { 255 90 20 }
 				color2 = { 255 255 255 }
@@ -21718,6 +23047,7 @@ e_britannia = {
 				b_rufford = {}
 			}
 		}
+		#End d_fiveboroughs
 		d_york = {
 			color = { 207 192 167 }
 			color2 = { 255 255 255 }
@@ -21729,6 +23059,7 @@ e_britannia = {
 			welsh = "Deifr"
 			breton = "Deifr"
 			c_york = {
+				# West ridding / York Vale
 				color = { 200 180 15 }
 				color2 = { 255 255 255 }
 				holy_site = norse_pagan
@@ -21751,6 +23082,7 @@ e_britannia = {
 				b_knaresborough = {}
 			}
 			c_york_moors = {
+				# North Ridding / York Moors
 				color = { 25 180 55 }
 				color2 = { 255 255 255 }
 				b_scarborough = {}
@@ -21765,6 +23097,7 @@ e_britannia = {
 				b_middlesbrough = {}
 			}
 			c_richmond = {
+				# Richmondshire/Gillingshire
 				color = { 212 60 52 }
 				color2 = { 255 255 255 }
 				b_gilling_west = {}
@@ -21772,6 +23105,7 @@ e_britannia = {
 				b_richmond = {}
 			}
 			c_york_wolds = {
+				# East Ridding / York Wolds
 				color = { 255 80 5 }
 				color2 = { 255 255 255 }
 				b_cottingham = {}
@@ -21783,6 +23117,7 @@ e_britannia = {
 				b_howden = {}
 			}
 		}
+		#End d_york
 		d_lancaster = {
 			color = { 121 29 29 }
 			color2 = { 255 255 255 }
@@ -21793,6 +23128,7 @@ e_britannia = {
 			cornish = "Rheged"
 			welsh = "Rheged"
 			breton = "Rheged"
+			# Lancaster			
 			c_lancaster = {
 				color = { 255 50 5 }
 				color2 = { 255 255 255 }
@@ -21832,6 +23168,7 @@ e_britannia = {
 				b_brougham = {}
 			}
 		}
+		#End d_lancaster
 		d_northumberland = {
 			color = { 234 207 99 }
 			color2 = { 255 255 255 }
@@ -21845,7 +23182,8 @@ e_britannia = {
 			c_northumberland = {
 				color = { 255 10 0 }
 				color2 = { 255 255 255 }
-				b_bamburgh = {}
+				b_bamburgh = {	#? Bebbanburg"h" dosn't fit with the Saxon naming scheme, need to investigate further.
+				}
 				b_hexham = {}
 				b_lindisfarne = {}
 				b_warkworth = {}
@@ -21886,10 +23224,12 @@ e_britannia = {
 				b_bewcastle = {}
 			}
 		}
+		#End d_northumberland
 		d_channel_islands = {
 			color = { 232 200 20 }
 			color2 = { 255 255 255 }
 			capital = 1433
+			# Jersey 
 			c_jersey = {
 				color = { 255 50 5 }
 				color2 = { 255 255 255 }
@@ -21898,13 +23238,17 @@ e_britannia = {
 				b_st_peter_port = {}
 			}
 		}
+		#End d_channel_islands
 	}
+	#End k_england
 	k_wales = {
 		color = { 135 25 3 }
 		color2 = { 255 255 255 }
 		capital = 64
+		# Gwynedd
 		culture = welsh
 		catholic = 300
+		# Crusade target weight
 		d_gwynedd = {
 			color = { 99 92 79 }
 			color2 = { 255 255 255 }
@@ -22028,12 +23372,15 @@ e_britannia = {
 			}
 		}
 	}
+	# END k_wales # END k_wales
 	k_ireland = {
 		color = { 3 49 35 }
 		color2 = { 255 255 255 }
 		capital = 11
+		# Dublin
 		culture = irish
 		catholic = 300
+		# Crusade target weight
 		d_oneill = {
 			color = { 70 106 21 }
 			color2 = { 255 255 255 }
@@ -22076,6 +23423,7 @@ e_britannia = {
 			color = { 248 237 39 }
 			color2 = { 243 5 5 }
 			capital = 5
+			# Antrim
 			c_ulster = {
 				color = { 25 230 35 }
 				color2 = { 255 255 255 }
@@ -22098,6 +23446,7 @@ e_britannia = {
 			color = { 30 180 20 }
 			color2 = { 251 140 17 }
 			capital = 7
+			# Louth
 			c_oriel = {
 				color = { 30 180 45 }
 				color2 = { 255 255 255 }
@@ -22125,6 +23474,7 @@ e_britannia = {
 			color = { 54 135 39 }
 			color2 = { 136 0 21 }
 			capital = 8
+			# Leitrim
 			c_breifne = {
 				color = { 29 216 89 }
 				color2 = { 255 255 255 }
@@ -22145,6 +23495,7 @@ e_britannia = {
 			color = { 70 123 126 }
 			color2 = { 255 255 255 }
 			capital = 1440
+			# Galway
 			c_sligo = {
 				color = { 40 230 65 }
 				color2 = { 255 255 255 }
@@ -22154,6 +23505,7 @@ e_britannia = {
 				b_ballymote = {}
 			}
 			c_connacht = {
+				#Aka Mayo
 				color = { 45 130 70 }
 				color2 = { 255 255 255 }
 				b_mayo = {}
@@ -22186,6 +23538,7 @@ e_britannia = {
 			color = { 106 70 126 }
 			color2 = { 255 255 255 }
 			capital = 975
+			# Mide
 			c_annaly = {
 				color = { 55 250 85 }
 				color2 = { 255 255 255 }
@@ -22221,6 +23574,7 @@ e_britannia = {
 			color = { 30 100 80 }
 			color2 = { 255 255 255 }
 			capital = 13
+			# Thomond
 			c_thomond = {
 				color = { 65 210 80 }
 				color2 = { 255 255 255 }
@@ -22245,6 +23599,7 @@ e_britannia = {
 			color = { 60 200 10 }
 			color2 = { 255 255 255 }
 			capital = 1447
+			# Laois
 			c_laois = {
 				color = { 65 210 0 }
 				color2 = { 255 255 255 }
@@ -22268,6 +23623,7 @@ e_britannia = {
 			color = { 51 95 40 }
 			color2 = { 255 255 255 }
 			capital = 10
+			# Kildare
 			c_leinster = {
 				color = { 190 5 37 }
 				color2 = { 255 255 255 }
@@ -22316,6 +23672,7 @@ e_britannia = {
 			color = { 17 93 112 }
 			color2 = { 255 255 255 }
 			capital = 1450
+			# Cork
 			c_desmond = {
 				color = { 90 221 111 }
 				color2 = { 255 255 255 }
@@ -22352,10 +23709,12 @@ e_britannia = {
 			}
 		}
 	}
+	# End k_ireland
 	k_scotland = {
 		color = { 214 143 0 }
 		color2 = { 255 255 255 }
 		capital = 43
+		#Gowrie
 		culture = scottish
 		catholic = 300
 		norse = "Scotland"
@@ -22367,6 +23726,7 @@ e_britannia = {
 		english = "Scotland"
 		saxon = "Scotland"
 		anglonorse = "Scotland"
+		# Crusade target weight
 		d_galloway = {
 			color = { 24 58 121 }
 			color2 = { 255 255 255 }
@@ -22580,6 +23940,7 @@ e_britannia = {
 			color = { 90 226 196 }
 			color2 = { 255 255 255 }
 			capital = 1466
+			#Strathclyde
 			dignity = 5
 			c_dunbreatainn = {
 				color = { 166 66 205 }
@@ -22607,6 +23968,7 @@ e_britannia = {
 			}
 		}
 	}
+	# END k_scotland
 	k_ellan_vannin = {
 		color = { 60 60 118 }
 		color2 = { 255 255 255 }
@@ -22785,6 +24147,7 @@ e_britannia = {
 		color = { 82 92 157 }
 		culture = cumbric
 		capital = 1466
+		#Strathclyde
 		allow = {
 			AND = {
 				OR = {
@@ -22826,19 +24189,24 @@ e_britannia = {
 		}
 	}
 }
+# END e_albion
 e_mali = {
 	color = { 223 139 40 }
 	color2 = { 255 255 255 }
+	#color={ 241 175 15 }
 	capital = 925
+	# Mali		
 	culture = soninke
 	k_ghana = {
 		color = { 90 130 30 }
 		color2 = { 255 255 255 }
 		capital = 913
+		# Ghana
 		d_ghana = {
 			color = { 191 206 231 }
 			color2 = { 255 255 255 }
 			capital = 913
+			# Ghana
 			c_ghana = {
 				color = { 95 135 35 }
 				color2 = { 255 255 255 }
@@ -22872,6 +24240,7 @@ e_mali = {
 			color = { 191 206 73 }
 			color2 = { 255 255 255 }
 			capital = 1377
+			# Mema
 			c_mema = {
 				color = { 100 145 40 }
 				color2 = { 255 255 255 }
@@ -22898,12 +24267,15 @@ e_mali = {
 				b_kaniana = {}
 				b_hambarketolo = {}
 				b_bandiagara = {}
+				#b_femaye = {}
+				#b_derary = {}
 			}
 		}
 		d_tagant = {
 			color = { 191 112 73 }
 			color2 = { 255 255 255 }
 			capital = 912
+			# Aoudaghost
 			c_tagant = {
 				color = { 30 190 100 }
 				color2 = { 255 255 255 }
@@ -22927,6 +24299,7 @@ e_mali = {
 			color = { 90 170 30 }
 			color2 = { 255 255 255 }
 			capital = 919
+			# Oualata			
 			c_oualata = {
 				color = { 90 170 30 }
 				color2 = { 255 255 255 }
@@ -22947,15 +24320,18 @@ e_mali = {
 			}
 		}
 	}
+	# END k_ghana
 	k_mali = {
 		color = { 158 188 61 }
 		color2 = { 255 255 255 }
 		capital = 925
+		# Mali
 		culture = manden
 		d_mali = {
 			color = { 111 174 108 }
 			color2 = { 255 255 255 }
 			capital = 925
+			# Mali
 			c_mali = {
 				color = { 158 188 61 }
 				color2 = { 255 255 255 }
@@ -23001,6 +24377,7 @@ e_mali = {
 			color = { 215 198 14 }
 			color2 = { 255 255 255 }
 			capital = 926
+			# Bambuk
 			c_bambuk = {
 				color = { 190 205 25 }
 				color2 = { 255 255 255 }
@@ -23022,12 +24399,15 @@ e_mali = {
 			color = { 135 66 167 }
 			color2 = { 255 255 255 }
 			capital = 1389
+			# Kala
 			c_sikasso = {
+				#NEW
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_sikasso = {}
 			}
 			c_binduku = {
+				#NEW
 				color = { 160 180 30 }
 				color2 = { 255 255 255 }
 				b_soua = {}
@@ -23035,6 +24415,7 @@ e_mali = {
 				b_oma = {}
 			}
 			c_kala = {
+				#NEW
 				color = { 150 180 40 }
 				color2 = { 255 255 255 }
 				b_segou = {}
@@ -23046,6 +24427,7 @@ e_mali = {
 			color = { 135 66 14 }
 			color2 = { 255 255 255 }
 			capital = 1379
+			# Djolof
 			c_djolof = {
 				color = { 80 140 110 }
 				color2 = { 255 255 255 }
@@ -23074,14 +24456,17 @@ e_mali = {
 			}
 		}
 	}
+	# END k_mali
 	k_takrur = {
 		color = { 46 180 70 }
 		color2 = { 255 255 255 }
 		capital = 1371
+		# Takrur
 		d_takrur = {
 			color = { 41 188 75 }
 			color2 = { 255 255 255 }
 			capital = 1371
+			# Takrur
 			c_takrur = {
 				color = { 43 190 77 }
 				color2 = { 255 255 255 }
@@ -23111,14 +24496,17 @@ e_mali = {
 			}
 		}
 	}
+	# END k_takrur
 	k_songhay = {
 		color = { 85 125 120 }
 		color2 = { 255 255 255 }
 		capital = 914
+		# Gao
 		d_songhay = {
 			color = { 14 135 99 }
 			color2 = { 255 255 255 }
 			capital = 914
+			# Gao
 			c_gao = {
 				color = { 75 120 125 }
 				color2 = { 255 255 255 }
@@ -23159,6 +24547,7 @@ e_mali = {
 			color = { 28 50 148 }
 			color2 = { 255 255 255 }
 			capital = 911
+			# Gao
 			c_timbuktu = {
 				color = { 70 130 110 }
 				color2 = { 255 255 255 }
@@ -23183,6 +24572,7 @@ e_mali = {
 				b_abalessa = {}
 				b_tinzaouten = {}
 				b_guezzam = {}
+				#b_tamanrasset = {} # c_hoggar
 				b_tazrouk = {}
 			}
 			c_mabruk = {
@@ -23195,6 +24585,7 @@ e_mali = {
 			color = { 130 189 86 }
 			color2 = { 255 255 255 }
 			capital = 928
+			# Gurma
 			c_gurma = {
 				color = { 110 140 80 }
 				color2 = { 255 255 255 }
@@ -23220,6 +24611,7 @@ e_mali = {
 			}
 		}
 	}
+	# END k_songhay
 	allow = {
 		ruled_years = 5
 		war = no
@@ -23229,14 +24621,18 @@ e_mali = {
 		}
 	}
 }
+# END e_mali
+### THE SAHARA
 k_sahara = {
 	color = { 196 176 46 }
 	color2 = { 255 255 255 }
 	capital = 1412
+	# Hoggar
 	d_hoggar = {
 		color = { 92 107 163 }
 		color2 = { 255 255 255 }
 		capital = 1412
+		# Hoggar
 		c_hoggar = {
 			color = { 185 200 50 }
 			color2 = { 255 255 255 }
@@ -23263,14 +24659,18 @@ k_sahara = {
 		color = { 245 189 86 }
 		color2 = { 255 255 255 }
 		capital = 1396
+		# Tuat
 		c_figuig = {
 			color = { 135 195 60 }
 			color2 = { 255 255 255 }
 			b_figuig = {}
 			b_bouarfa = {}
 			b_safsaf = {}
+			#b_benitajjit = {} # c_sijilmasa
 			b_ainechchair = {}
 			b_ich = {}
+			#b_bechar = {} # c_sijilmasa
+			#b_boudnib = {} # c_sijilmasa
 		}
 		c_insalah = {
 			color = { 135 190 65 }
@@ -23347,6 +24747,7 @@ k_sahara = {
 		color = { 105 121 97 }
 		color2 = { 255 255 255 }
 		capital = 1225
+		# Agades
 		c_agades = {
 			color = { 222 238 106 }
 			color2 = { 255 255 255 }
@@ -23366,11 +24767,13 @@ k_sahara = {
 		}
 	}
 }
+# END k_sahara
 k_fezzan = {
 	color = { 110 105 60 }
 	color2 = { 255 255 255 }
 	capital = 1404
 	short_name = yes
+	# Murzuk
 	d_fezzan = {
 		color = { 92 107 41 }
 		color2 = { 255 255 255 }
@@ -23425,6 +24828,7 @@ k_fezzan = {
 		color = { 105 107 77 }
 		color2 = { 255 255 255 }
 		capital = 1482
+		# Murzuk
 		c_tibesti = {
 			color = { 200 195 45 }
 			color2 = { 255 255 255 }
@@ -23452,14 +24856,19 @@ k_fezzan = {
 		}
 	}
 }
+# END k_fezzan
+### END SAHARA
+# THE CHAD AND HAUSALAND REGION
 k_kanem = {
 	color = { 255 119 112 }
 	color2 = { 255 255 255 }
 	capital = 1376
+	# Bornu
 	d_bornu = {
 		color = { 220 60 100 }
 		color2 = { 255 255 255 }
 		capital = 1376
+		# Bornu
 		c_bornu = {
 			color = { 225 65 105 }
 			color2 = { 255 255 255 }
@@ -23494,6 +24903,7 @@ k_kanem = {
 		color = { 250 111 111 }
 		color2 = { 255 255 255 }
 		capital = 1329
+		# Kanem
 		c_kanem = {
 			color = { 245 120 110 }
 			color2 = { 255 255 255 }
@@ -23519,6 +24929,7 @@ k_kanem = {
 		color = { 255 145 56 }
 		color2 = { 255 255 255 }
 		capital = 1481
+		# Wadai
 		c_gasga = {
 			color = { 250 140 50 }
 			color2 = { 255 255 255 }
@@ -23535,6 +24946,7 @@ k_kanem = {
 		color = { 230 160 38 }
 		color2 = { 255 255 255 }
 		capital = 1227
+		# Bilma
 		c_bilma = {
 			color = { 230 155 33 }
 			color2 = { 255 255 255 }
@@ -23554,14 +24966,17 @@ k_kanem = {
 		}
 	}
 }
+# END k_kanem
 k_hausaland = {
 	color = { 220 58 200 }
 	color2 = { 255 255 255 }
 	capital = 1328
+	# Kano
 	d_kano = {
 		color = { 205 50 180 }
 		color2 = { 255 255 255 }
 		capital = 914
+		# Gao
 		c_kano = {
 			color = { 195 65 180 }
 			color2 = { 255 255 255 }
@@ -23592,6 +25007,7 @@ k_hausaland = {
 		color = { 187 61 255 }
 		color2 = { 255 255 255 }
 		capital = 911
+		# Gao
 		c_zamfara = {
 			color = { 199 68 250 }
 			color2 = { 255 255 255 }
@@ -23623,6 +25039,7 @@ k_hausaland = {
 		color = { 105 65 97 }
 		color2 = { 255 255 255 }
 		capital = 1321
+		# Gobir
 		c_gobir = {
 			color = { 210 220 45 }
 			color2 = { 255 255 255 }
@@ -23636,18 +25053,22 @@ k_hausaland = {
 		}
 	}
 }
+# END k_hausaland
 e_rajastan = {
 	color = { 255 100 0 }
 	color2 = { 255 255 255 }
 	capital = 1356
+	# Kanyakubja
 	k_sindh = {
 		color = { 225 135 20 }
 		color2 = { 255 255 255 }
 		capital = 1297
+		# Debul
 		d_sauvira = {
 			color = { 230 135 20 }
 			color2 = { 255 255 255 }
 			capital = 1297
+			# Debul
 			c_debul = {
 				color = { 230 155 20 }
 				color2 = { 255 255 255 }
@@ -23706,6 +25127,7 @@ e_rajastan = {
 			color = { 200 105 18 }
 			color2 = { 255 255 255 }
 			capital = 1138
+			# Bhakkar
 			c_bhakkar = {
 				color = { 220 105 18 }
 				color2 = { 255 255 255 }
@@ -23766,6 +25188,7 @@ e_rajastan = {
 			color = { 234 100 21 }
 			color2 = { 255 255 255 }
 			capital = 1338
+			# Multan
 			c_multan = {
 				color = { 234 110 21 }
 				color2 = { 255 255 255 }
@@ -23814,6 +25237,7 @@ e_rajastan = {
 				b_wan_bhachran = {}
 			}
 			c_wana = {
+				# Bori
 				color = { 244 80 5 }
 				color2 = { 255 255 255 }
 				b_bori = {}
@@ -23823,6 +25247,7 @@ e_rajastan = {
 			color = { 180 110 41 }
 			color2 = { 255 255 255 }
 			capital = 1362
+			# Lahur
 			c_lahur = {
 				color = { 180 130 41 }
 				color2 = { 255 255 255 }
@@ -23905,6 +25330,7 @@ e_rajastan = {
 			color = { 255 150 31 }
 			color2 = { 255 255 255 }
 			capital = 1180
+			# Udabhanda
 			c_udabhanda = {
 				color = { 255 130 31 }
 				color2 = { 255 255 255 }
@@ -23966,10 +25392,12 @@ e_rajastan = {
 		color = { 220 150 75 }
 		color2 = { 255 255 255 }
 		capital = 1365
+		# Delhi
 		d_kuru = {
 			color = { 210 65 12 }
 			color2 = { 255 255 255 }
 			capital = 1365
+			# Delhi
 			c_delhi = {
 				color = { 230 65 12 }
 				color2 = { 255 255 255 }
@@ -24008,6 +25436,7 @@ e_rajastan = {
 			color = { 100 25 3 }
 			color2 = { 255 255 255 }
 			capital = 1364
+			# Tribandapura
 			c_hisar = {
 				color = { 100 25 23 }
 				color2 = { 255 255 255 }
@@ -24041,6 +25470,7 @@ e_rajastan = {
 			color = { 150 45 10 }
 			color2 = { 255 255 255 }
 			capital = 1359
+			# Mathura
 			c_mathura = {
 				color = { 170 45 20 }
 				color2 = { 255 255 255 }
@@ -24078,6 +25508,7 @@ e_rajastan = {
 			color = { 195 90 0 }
 			color2 = { 255 255 255 }
 			capital = 1358
+			# Vodamayuta
 			c_vodamayutja = {
 				color = { 195 90 10 }
 				color2 = { 255 255 255 }
@@ -24115,14 +25546,17 @@ e_rajastan = {
 		color = { 155 80 28 }
 		color2 = { 255 255 255 }
 		capital = 1292
+		# Sarasvata Mandala
 		d_gurjara_mandala = {
 			color = { 175 80 20 }
 			color2 = { 255 255 255 }
 			capital = 1292
+			# Sarasvata Mandala
 			c_sarasvata_mandala = {
 				color = { 155 80 20 }
 				color2 = { 255 255 255 }
 				holy_site = hindu
+				#placeholder
 				holy_site = jain
 				b_anahilapataka = {}
 				b_vadnagar = {}
@@ -24160,6 +25594,7 @@ e_rajastan = {
 			color = { 195 50 10 }
 			color2 = { 255 255 255 }
 			capital = 1136
+			# Dvaraka
 			c_dhamalpur = {
 				color = { 195 50 30 }
 				color2 = { 255 255 255 }
@@ -24173,7 +25608,9 @@ e_rajastan = {
 				color = { 175 50 10 }
 				color2 = { 255 255 255 }
 				holy_site = buddhist
+				# placeholder
 				holy_site = jain
+				# placeholder
 				holy_site = hindu
 				b_dvaraka = {}
 				b_lalpur = {}
@@ -24194,6 +25631,7 @@ e_rajastan = {
 			color = { 220 100 50 }
 			color2 = { 255 255 255 }
 			capital = 1134
+			# Bhumilka
 			c_bhumilka = {
 				color = { 220 120 50 }
 				color2 = { 255 255 255 }
@@ -24240,6 +25678,7 @@ e_rajastan = {
 			color = { 200 150 90 }
 			color2 = { 255 255 255 }
 			capital = 1133
+			# Vadodara
 			c_navasarika = {
 				color = { 200 120 90 }
 				color2 = { 255 255 255 }
@@ -24292,10 +25731,12 @@ e_rajastan = {
 		color = { 200 70 0 }
 		color2 = { 255 255 255 }
 		capital = 1346
+		# Ajayameru
 		d_maru = {
 			color = { 194 67 10 }
 			color2 = { 255 255 255 }
 			capital = 1130
+			# Mandavyapura
 			c_mandavyapura = {
 				color = { 194 87 10 }
 				color2 = { 255 255 255 }
@@ -24332,6 +25773,7 @@ e_rajastan = {
 			color = { 144 47 0 }
 			color2 = { 255 255 255 }
 			capital = 1354
+			# Nagauda
 			c_vikramapura = {
 				color = { 144 47 20 }
 				color2 = { 255 255 255 }
@@ -24366,6 +25808,7 @@ e_rajastan = {
 			color = { 150 60 30 }
 			color2 = { 255 255 255 }
 			capital = 1304
+			# Ludrava
 			c_ludrava = {
 				color = { 170 60 30 }
 				color2 = { 255 255 255 }
@@ -24396,6 +25839,7 @@ e_rajastan = {
 			color = { 136 66 32 }
 			color2 = { 255 255 255 }
 			capital = 1345
+			# Medapata
 			c_medapata = {
 				color = { 136 86 32 }
 				color2 = { 255 255 255 }
@@ -24430,6 +25874,7 @@ e_rajastan = {
 			color = { 230 190 51 }
 			color2 = { 255 255 255 }
 			capital = 1346
+			# Ajayameru
 			c_ajayameru = {
 				color = { 210 190 51 }
 				color2 = { 255 255 255 }
@@ -24480,10 +25925,13 @@ e_rajastan = {
 		color = { 255 200 25 }
 		color2 = { 200 0 0 }
 		capital = 1288
+		# Ujjayini
 		d_dadhipadra = {
+			# Avanti
 			color = { 245 200 20 }
 			color2 = { 255 255 255 }
 			capital = 1288
+			# Ujjayini
 			c_dadhipadra = {
 				color = { 245 200 40 }
 				color2 = { 255 255 255 }
@@ -24518,6 +25966,7 @@ e_rajastan = {
 				color = { 205 200 30 }
 				color2 = { 255 255 255 }
 				holy_site = buddhist
+				# placeholder
 				holy_site = jain
 				holy_site = hindu
 				b_ujjayini = {}
@@ -24533,6 +25982,7 @@ e_rajastan = {
 			color = { 210 150 15 }
 			color2 = { 255 255 255 }
 			capital = 1170
+			# Vidisa
 			c_sarangpur = {
 				color = { 210 150 35 }
 				color2 = { 255 255 255 }
@@ -24579,6 +26029,7 @@ e_rajastan = {
 			color = { 150 110 5 }
 			color2 = { 255 255 255 }
 			capital = 1147
+			# Mandapika
 			c_mandapika = {
 				color = { 150 130 5 }
 				color2 = { 255 255 255 }
@@ -24623,10 +26074,12 @@ e_rajastan = {
 		color = { 205 60 10 }
 		color2 = { 255 255 255 }
 		capital = 1356
+		# Kanyakubja
 		d_kanyakubja = {
 			color = { 225 155 77 }
 			color2 = { 255 255 255 }
 			capital = 1356
+			# Kanyakubja
 			c_kanyakubja = {
 				color = { 225 135 77 }
 				color2 = { 255 255 255 }
@@ -24692,6 +26145,7 @@ e_rajastan = {
 			color = { 180 110 40 }
 			color2 = { 255 255 255 }
 			capital = 1250
+			# Ayodhya
 			c_naimisa = {
 				color = { 180 110 60 }
 				color2 = { 255 255 255 }
@@ -24718,6 +26172,7 @@ e_rajastan = {
 				color2 = { 255 255 255 }
 				holy_site = hindu
 				holy_site = buddhist
+				# placeholder
 				b_ayodhya = {}
 				b_ramkot = {}
 				b_ram_janmabhoomi = {}
@@ -24731,6 +26186,7 @@ e_rajastan = {
 			color = { 120 50 10 }
 			color2 = { 255 255 255 }
 			capital = 1301
+			# Mahoba
 			c_mahoba = {
 				color = { 140 50 10 }
 				color2 = { 255 255 255 }
@@ -24770,10 +26226,12 @@ e_rajastan = {
 		}
 	}
 }
+# TITULAR DUCHIES
 d_the_isles = {
 	color = { 10 48 243 }
 	color2 = { 255 255 255 }
 	capital = 36
+	# Orkney
 	allow = {
 		always = no
 	}
@@ -24781,14 +26239,21 @@ d_the_isles = {
 d_abbasid = {
 	color = { 19 180 16 }
 	capital = 636
+	# Baghdad
 	allow = {
 		always = no
 	}
 }
+#d_cumberland = {
+#	color = { 31 186 244 }
+#}
+# Pagan proto-Denmark # what is that supposed to mean?
 d_danes = {
 	color = { 247 77 54 }
+	#tribe = yes
 	dignity = 10
 	capital = 266
+	# Sjaelland
 	allow = {
 		always = no
 	}
@@ -24796,24 +26261,30 @@ d_danes = {
 }
 d_geats = {
 	color = { 35 57 180 }
+	#tribe = yes
 	dignity = 8
 	capital = 297
+	# Västergötland
 	allow = {
 		always = no
 	}
 	culture = norse
 }
 d_sandomiersk = {
+	# OBSOLETE
 	color = { 253 137 137 }
 	capital = 531
+	# Sandomierz
 	allow = {
 		always = no
 	}
 }
 d_sweden = {
 	color = { 55 112 170 }
+	#tribe = yes
 	dignity = 10
 	capital = 290
+	# Uppland
 	allow = {
 		always = no
 	}
@@ -24822,6 +26293,7 @@ d_sweden = {
 d_swiss = {
 	color = { 255 1 1 }
 	capital = 244
+	# Bern
 	allow = {
 		always = no
 	}
@@ -24829,6 +26301,7 @@ d_swiss = {
 d_temes = {
 	color = { 147 121 58 }
 	capital = 517
+	# Temes
 	allow = {
 		always = no
 	}
@@ -24836,6 +26309,7 @@ d_temes = {
 d_wielkopolska = {
 	color = { 252 144 144 }
 	capital = 431
+	# Poznan
 	allow = {
 		always = no
 	}
@@ -24844,6 +26318,8 @@ d_hilal = {
 	color = { 173 150 43 }
 	color2 = { 0 128 128 }
 	capital = 807
+	# c_Senoussi
+	#tribe = yes
 	culture = bedouin_arabic
 	allow = {
 		always = no
@@ -24853,6 +26329,8 @@ d_hilal = {
 d_massufa = {
 	color = { 105 20 0 }
 	capital = 916
+	# Taghaza
+	#tribe = yes
 	culture = sanhaja
 	allow = {
 		always = no
@@ -24864,6 +26342,8 @@ d_massufa = {
 d_lamtuna = {
 	color = { 86 51 13 }
 	capital = 921
+	# Idjil
+	#tribe = yes
 	culture = tagelmust
 	allow = {
 		always = no
@@ -24875,6 +26355,8 @@ d_lamtuna = {
 d_lamta = {
 	color = { 194 116 28 }
 	capital = 846
+	# Ifni
+	#tribe = yes
 	culture = tagelmust
 	allow = {
 		always = no
@@ -24886,6 +26368,8 @@ d_lamta = {
 d_guddala = {
 	color = { 150 56 175 }
 	capital = 921
+	# Idjil			
+	#tribe = yes
 	culture = tagelmust
 	allow = {
 		always = no
@@ -24897,6 +26381,8 @@ d_guddala = {
 d_gazzula = {
 	color = { 150 56 175 }
 	capital = 847
+	# Tharasset			
+	#tribe = yes
 	culture = tagelmust
 	allow = {
 		always = no
@@ -24907,8 +26393,10 @@ d_gazzula = {
 }
 d_targa = {
 	color = { 150 97 51 }
+	#tribe = yes
 	culture = tuareg
 	capital = 1405
+	# Zawila
 	allow = {
 		always = no
 	}
@@ -24918,8 +26406,10 @@ d_targa = {
 }
 d_lawata = {
 	color = { 122 53 19 }
+	#tribe = yes
 	culture = zanata
 	capital = 1363
+	# Draa
 	allow = {
 		always = no
 	}
@@ -24929,8 +26419,10 @@ d_lawata = {
 }
 d_soninke = {
 	color = { 110 50 30 }
+	#tribe = yes
 	culture = soninke
 	capital = 913
+	# Ghana
 	allow = {
 		always = no
 	}
@@ -24939,6 +26431,8 @@ d_soninke = {
 d_zaghawa = {
 	color = { 22 111 22 }
 	capital = 1482
+	# Borkou
+	#tribe = yes
 	culture = zaghawa
 	allow = {
 		always = no
@@ -24949,8 +26443,10 @@ d_zaghawa = {
 }
 d_duguwa = {
 	color = { 143 64 64 }
+	#tribe = yes
 	culture = zaghawa
 	capital = 1228
+	# Gasga
 	allow = {
 		always = no
 	}
@@ -24959,6 +26455,8 @@ d_duguwa = {
 d_musab = {
 	color = { 149 180 17 }
 	capital = 1398
+	# Ghardaiya
+	#tribe = yes
 	culture = zaghawa
 	allow = {
 		always = no
@@ -24970,6 +26468,8 @@ d_musab = {
 d_tanmak = {
 	color = { 85 125 135 }
 	capital = 922
+	# Tadmekka
+	#tribe = yes
 	culture = tagelmust
 	allow = {
 		always = no
@@ -24981,6 +26481,8 @@ d_tanmak = {
 d_azger = {
 	color = { 190 195 50 }
 	capital = 1411
+	# Djanet
+	#tribe = yes
 	culture = sanhaja
 	allow = {
 		always = no
@@ -24992,6 +26494,8 @@ d_azger = {
 d_mazata = {
 	color = { 190 195 50 }
 	capital = 809
+	# Syrte
+	#tribe = yes
 	culture = zanata
 	allow = {
 		always = no
@@ -25003,6 +26507,8 @@ d_mazata = {
 d_azben = {
 	color = { 222 238 106 }
 	capital = 1225
+	# Agadés
+	#tribe = yes
 	culture = tuareg
 	allow = {
 		always = no
@@ -25014,6 +26520,8 @@ d_azben = {
 d_takarkart = {
 	color = { 232 236 108 }
 	capital = 1224
+	# Takkeda
+	#tribe = yes
 	culture = tuareg
 	allow = {
 		always = no
@@ -25025,9 +26533,11 @@ d_takarkart = {
 d_naqis = {
 	color = { 230 230 110 }
 	capital = 1593
+	# Naqis
 	allow = {
 		always = no
 	}
+	#tribe = yes
 	culture = beja
 	title = RAIS
 	foa = RAIS_FOA
@@ -25035,8 +26545,10 @@ d_naqis = {
 }
 d_baqlin = {
 	color = { 230 235 105 }
+	#tribe = yes
 	culture = beja
 	capital = 1502
+	# Maikele Bahr
 	allow = {
 		always = no
 	}
@@ -25046,8 +26558,10 @@ d_baqlin = {
 }
 d_djarin = {
 	color = { 235 240 100 }
+	#tribe = yes
 	culture = beja
 	capital = 1489
+	#Wolqayt
 	allow = {
 		always = no
 	}
@@ -25057,8 +26571,10 @@ d_djarin = {
 }
 d_qataa = {
 	color = { 240 230 100 }
+	#tribe = yes
 	culture = beja
 	capital = 1507
+	#Marya
 	allow = {
 		always = no
 	}
@@ -25068,8 +26584,10 @@ d_qataa = {
 }
 d_bazin = {
 	color = { 225 232 105 }
+	#tribe = yes
 	culture = beja
 	capital = 878
+	#Audlis
 	allow = {
 		always = no
 	}
@@ -25079,8 +26597,10 @@ d_bazin = {
 }
 d_danakil = {
 	color = { 90 150 255 }
+	#tribe = yes
 	culture = afar
 	capital = 1517
+	# Danakil
 	allow = {
 		always = no
 	}
@@ -25090,8 +26610,10 @@ d_danakil = {
 }
 d_silesians = {
 	color = { 231 183 14 }
+	#tribe = yes
 	culture = polish
 	capital = 434
+	# Wroclaw
 	allow = {
 		always = no
 	}
@@ -25099,8 +26621,10 @@ d_silesians = {
 }
 d_polans = {
 	color = { 114 30 41 }
+	#tribe = yes
 	culture = polish
 	capital = 431
+	# Poznan
 	allow = {
 		always = no
 	}
@@ -25108,8 +26632,10 @@ d_polans = {
 }
 d_vistulans = {
 	color = { 119 64 47 }
+	#tribe = yes
 	culture = polish
 	capital = 527
+	# Krakow
 	allow = {
 		always = no
 	}
@@ -25117,24 +26643,30 @@ d_vistulans = {
 }
 d_mazovians = {
 	color = { 147 21 39 }
+	#tribe = yes
 	culture = polish
 	capital = 530
+	# Czersk
 	allow = {
 		always = no
 	}
 	title_prefix = TRIBE_OF
 }
+# TITULAR KINGDOMS
 k_moravia = {
 	color = { 125 25 65 }
 	culture = moravian
 	capital = 441
+	# Brno
 	allow = {
 		always = no
 	}
 }
+# END k_moravia
 k_almohad = {
 	color = { 0 105 56 }
 	capital = 847
+	# Tharasset
 	allow = {
 		always = no
 	}
@@ -25142,6 +26674,7 @@ k_almohad = {
 k_al-murabitids = {
 	color = { 10 105 56 }
 	capital = 847
+	# Tharasset
 	allow = {
 		always = no
 	}
@@ -25149,10 +26682,12 @@ k_al-murabitids = {
 k_aydin = {
 	color = { 238 43 172 }
 	capital = 746
+	# Ephesos
 }
 k_beni_helal = {
 	color = { 128 163 56 }
 	capital = 719
+	# Mecca
 	allow = {
 		always = no
 	}
@@ -25161,15 +26696,19 @@ k_candar = {
 	color = { 238 79 182 }
 	culture = turkish
 	capital = 751
+	# Paphlagonia
 }
 k_eretnid = {
 	color = { 253 182 182 }
 	capital = 1218
+	# Sebastia
 }
 k_fatimids = {
+	# OBSOLETE
 	color = { 10 140 4 }
 	color2 = { 200 200 0 }
 	capital = 796
+	# Cairo
 	culture = egyptian_arabic
 	allow = {
 		always = no
@@ -25178,11 +26717,13 @@ k_fatimids = {
 k_germiyan = {
 	color = { 255 180 180 }
 	capital = 749
+	# Dorylaion
 }
 k_hammadid = {
 	color = { 149 180 17 }
 	culture = beja
 	capital = 1211
+	# Beja
 	allow = {
 		always = no
 	}
@@ -25198,11 +26739,14 @@ k_karaman = {
 	color = { 120 41 92 }
 	culture = turkish
 	capital = 1219
+	# Laranda
 }
 k_magyar = {
 	color = { 187 70 70 }
+	#tribe = yes
 	culture = hungarian
 	capital = 522
+	# Pest
 	allow = {
 		always = no
 	}
@@ -25210,6 +26754,7 @@ k_magyar = {
 k_marinid = {
 	color = { 46 255 5 }
 	capital = 840
+	# Fes
 	allow = {
 		always = no
 	}
@@ -25218,10 +26763,12 @@ k_mentese = {
 	color = { 60 130 20 }
 	culture = turkish
 	capital = 1992
+	# Mylasa
 }
 k_naples = {
 	color = { 218 217 242 }
 	capital = 334
+	# Napoli
 	allow = {
 		always = no
 	}
@@ -25231,11 +26778,13 @@ k_ottoman = {
 	color = { 247 145 30 }
 	culture = turkish
 	capital = 742
+	# Prusa
 }
 k_rum = {
 	color = { 18 125 91 }
 	culture = turkish
 	capital = 759
+	# Will not be named "Seljuk", etc.
 	allow = {
 		always = no
 	}
@@ -25245,11 +26794,16 @@ k_saruhan = {
 	color = { 144 171 225 }
 	culture = turkish
 	capital = 2000
+	# Thyateira
 }
 e_seljuk_turks = {
+	# Seljuk Turks
 	color = { 99 168 74 }
 	capital = 646
+	# Esfahan
 	culture = turkish
+	#tribe=yes
+	#landless = yes
 	allow = {
 		always = no
 	}
@@ -25257,10 +26811,12 @@ e_seljuk_turks = {
 k_tekke = {
 	color = { 244 153 189 }
 	capital = 755
+	# Attaleia
 }
 k_trinacria = {
 	color = { 249 232 247 }
 	capital = 340
+	#	Palermo
 	allow = {
 		OR = {
 			religion = catholic
@@ -25271,6 +26827,7 @@ k_trinacria = {
 k_zenata = {
 	color = { 0 71 189 }
 	capital = 837
+	# Figuig
 	allow = {
 		always = no
 	}
@@ -25278,6 +26835,7 @@ k_zenata = {
 k_zirid = {
 	color = { 90 195 49 }
 	capital = 834
+	# Tlemecen
 	allow = {
 		always = no
 	}
@@ -25285,6 +26843,7 @@ k_zirid = {
 k_ziyanids = {
 	color = { 5 76 194 }
 	capital = 816
+	# Mahdia
 	allow = {
 		always = no
 	}
@@ -25292,14 +26851,17 @@ k_ziyanids = {
 k_makuria = {
 	color = { 165 180 95 }
 	capital = 793
+	# Makuria		
 }
 k_alodia = {
 	color = { 175 100 80 }
 	capital = 1490
+	# Prusa
 }
 k_tiaret = {
 	color = { 149 180 17 }
 	capital = 833
+	# Táhert/c_atlas_mnt
 	allow = {
 		always = no
 	}
@@ -25309,22 +26871,28 @@ k_tiaret = {
 }
 k_israel = {
 	color = { 20 138 255 }
+	# Will not be named "Seljuk", etc.
 	allow = {
 		always = no
+		# Only created through special event
 	}
 	capital = 774
 	title = KING
 	title_female = QUEEN
 	dynasty_title_names = no
+	#Jerusalem
 }
 k_ifat = {
 	color = { 170 10 20 }
 	capital = 873
+	# Harer
 }
 k_blemmyes = {
 	color = { 255 67 20 }
+	#tribe = yes
 	culture = beja
 	capital = 1211
+	# Beja
 	allow = {
 		always = no
 	}
@@ -25332,9 +26900,11 @@ k_blemmyes = {
 k_khwarezmia = {
 	color = { 255 67 20 }
 	capital = 626
+	# Káth
 }
 k_kimek = {
 	color = { 131 70 186 }
+	#tribe = yes
 	culture = cuman
 	capital = 1579
 	title = Khan
@@ -25345,7 +26915,9 @@ k_kerman = {
 	color = { 205 70 255 }
 	culture = turkmen
 	capital = 639
+	# Kerman
 }
+# TITULAR EMPIRES
 e_latin_empire = {
 	color = { 150 105 56 }
 	capital = 496
@@ -25364,6 +26936,7 @@ e_latin_empire = {
 			text = controls_kaliopolis_thrake
 			hidden_tooltip = {
 				495 = {
+					# Kaliopolis
 					owner = {
 						OR = {
 							is_liege_or_above = ROOT
@@ -25372,6 +26945,7 @@ e_latin_empire = {
 					}
 				}
 				497 = {
+					# Thrake
 					owner = {
 						OR = {
 							is_liege_or_above = ROOT
@@ -25384,11 +26958,25 @@ e_latin_empire = {
 	}
 	short_name = yes
 }
+#d_hansa = {
+#	color={ 142 142 142 }
+#	color2={ 255 255 255 }
+#	
+#	allow = {
+#		always = no
+#	}
+#	
+#	capital = 262 # Lübeck
+#	
+#	dignity = 10
+#}
 k_hansa = {
 	color = { 142 142 142 }
 	color2 = { 255 255 255 }
 	capital = 262
+	# Lübeck
 	dignity = 200
+	# Never want the Hanseatic League to change primary title
 	allow = {
 		always = no
 		is_republic = yes
@@ -25397,8 +26985,10 @@ k_hansa = {
 k_genoa = {
 	color = { 234 131 110 }
 	capital = 233
+	# Genoa
 	culture = ligurian
 	dignity = 200
+	# Never want the Republic of Genoa to change primary title
 	allow = {
 		is_republic = yes
 	}
@@ -25407,8 +26997,10 @@ k_pisa = {
 	color = { 196 192 140 }
 	color2 = { 255 255 255 }
 	capital = 327
+	# Pisa
 	culture = tuscan
 	dignity = 200
+	# Never want the Republic of Pisa to change primary title
 	allow = {
 		is_republic = yes
 	}
@@ -25416,17 +27008,22 @@ k_pisa = {
 d_amalfi = {
 	color = { 140 200 230 }
 	capital = 935
+	# Amalfi
 	dignity = 10
 	culture = langobardisch
 	allow = {
 		is_republic = yes
 	}
 }
+### INDIA ###
 e_india = {
+	# Titular, created by special decision only if entire India is united
 	color = { 255 110 0 }
 	capital = 1629
+	# Will not be named "Seljuk", etc.
 	allow = {
 		always = no
+		# Only created through special decision
 	}
 	title = SAMRAT_CHAKRAVARTIN
 	title_female = SAMRAJNI_CHAKRAVARTIN

@@ -16,13 +16,17 @@ e_pirates = {
 	color = { 0 0 0 }
 	color2 = { 0 0 0 }
 }
+# SPECIAL TITLES
 k_papal_state = {
 	color = { 255 249 198 }
 	color2 = { 220 220 0 }
 	capital = 333
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = catholic
 	religion = catholic
+	# Cannot be held as a secondary title
 	primary = yes
 	title = POPE
 	foa = POPE_FOA
@@ -67,12 +71,16 @@ k_papal_state = {
 	}
 }
 k_orthodox = {
+	#	color={ 150 90 30 }
 	color = { 183 60 155 }
 	color2 = { 220 220 0 }
 	capital = 496
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = orthodox
 	religion = orthodox
+	# Cannot be held as a secondary title
 	primary = yes
 	title = ECUMENICAL_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
@@ -141,10 +149,13 @@ k_orthodox = {
 	}
 }
 e_sunni = {
+	# OBSOLETE
 	color = { 40 160 40 }
 	color2 = { 220 220 0 }
 	capital = 719
 	religion = sunni
+	# controls_religion = sunni
+	#	caliphate = yes
 	allow = {
 		always = no
 	}
@@ -154,10 +165,13 @@ e_sunni = {
 	short_name = yes
 }
 e_shiite = {
+	# OBSOLETE
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
 	capital = 719
 	religion = shiite
+	# controls_religion = shiite
+	#	caliphate = yes
 	allow = {
 		always = no
 	}
@@ -169,6 +183,7 @@ e_shiite = {
 e_golden_horde = {
 	color = { 243 180 17 }
 	capital = 622
+	# Always exists
 	landless = yes
 	tribe = yes
 	culture = mongol
@@ -177,6 +192,7 @@ e_golden_horde = {
 e_il-khanate = {
 	color = { 120 180 20 }
 	capital = 622
+	# Always exists
 	landless = yes
 	tribe = yes
 	culture = mongol
@@ -186,6 +202,7 @@ e_mongol_empire = {
 	color = { 255 255 255 }
 	color2 = { 255 20 20 }
 	capital = 622
+	# Always exists
 	landless = yes
 	tribe = yes
 	culture = mongol
@@ -194,18 +211,23 @@ e_mongol_empire = {
 e_timurids = {
 	color = { 120 20 20 }
 	capital = 900
+	# Always exists
 	landless = yes
 	tribe = yes
 	culture = mongol
 	religion = sunni
 }
+#SoA head of religion
 d_miaphysite = {
 	color = { 217 155 177 }
 	color2 = { 220 220 0 }
 	capital = 802
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = miaphysite
 	religion = miaphysite
+	# Cannot be held as a secondary title
 	primary = yes
 	title = COPTIC_POPE
 	foa = POPE_FOA
@@ -251,9 +273,12 @@ d_monophysite = {
 	color = { 200 115 167 }
 	color2 = { 220 220 0 }
 	capital = 802
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = monophysite
 	religion = monophysite
+	# Cannot be held as a secondary title
 	primary = yes
 	title = MONOPHYSITE_POPE
 	foa = POPE_FOA
@@ -298,9 +323,12 @@ d_nestorian = {
 	color = { 180 137 97 }
 	color2 = { 220 220 0 }
 	capital = 764
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = nestorian
 	religion = nestorian
+	# Cannot be held as a secondary title
 	primary = yes
 	title = PATRIARCH_IN_THE_EAST
 	foa = ECUMENICAL_PATRIARCH_FOA
@@ -332,9 +360,12 @@ d_paulician = {
 	color = { 195 130 157 }
 	color2 = { 255 255 255 }
 	capital = 496
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = paulician
 	religion = paulician
+	# Cannot be held as a secondary title
 	primary = yes
 	title = PAULICIAN_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
@@ -406,9 +437,12 @@ d_monothelite = {
 	color = { 180 170 65 }
 	color2 = { 220 220 0 }
 	capital = 764
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = monothelite
 	religion = monothelite
+	# Cannot be held as a secondary title
 	primary = yes
 	title = MONOTHELITE_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
@@ -482,10 +516,14 @@ d_fraticelli = {
 	capital = 333
 	allow = {
 		always = no
+		# Only by special decision
 	}
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = fraticelli
 	religion = fraticelli
+	# Cannot be held as a secondary title
 	primary = yes
 	title = POPE
 	foa = POPE_FOA
@@ -535,10 +573,14 @@ d_iconoclast = {
 	capital = 496
 	allow = {
 		always = no
+		# Only by special decision
 	}
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = iconoclast
 	religion = iconoclast
+	# Cannot be held as a secondary title
 	primary = yes
 	title = ECUMENICAL_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
@@ -593,8 +635,10 @@ d_yazidi = {
 	color = { 20 50 160 }
 	color2 = { 220 220 0 }
 	capital = 697
+	# Mosul
 	dignity = 80
 	religion = yazidi
+	# Controls a religion
 	controls_religion = yazidi
 	allow = {
 		piety = 1000
@@ -621,9 +665,11 @@ d_ibadi = {
 	color = { 20 130 20 }
 	color2 = { 220 220 0 }
 	capital = 719
+	# Mecca
 	creation_requires_capital = no
 	dignity = 80
 	religion = ibadi
+	# Controls a religion
 	controls_religion = ibadi
 	allow = {
 		OR = {
@@ -640,6 +686,7 @@ d_ibadi = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
 					719 = {
+						# Mecca
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -648,6 +695,7 @@ d_ibadi = {
 						}
 					}
 					718 = {
+						# Medina
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -661,6 +709,7 @@ d_ibadi = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
 					774 = {
+						# Jerusalem
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -669,6 +718,7 @@ d_ibadi = {
 						}
 					}
 					728 = {
+						# Damascus
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -677,6 +727,7 @@ d_ibadi = {
 						}
 					}
 					693 = {
+						# Baghdad
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -710,9 +761,11 @@ d_kharijite = {
 	color = { 10 110 10 }
 	color2 = { 220 220 0 }
 	capital = 719
+	# Mecca
 	creation_requires_capital = no
 	dignity = 80
 	religion = kharijite
+	# Controls a religion
 	controls_religion = kharijite
 	allow = {
 		piety = 1000
@@ -721,6 +774,7 @@ d_kharijite = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
 					719 = {
+						# Mecca
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -729,6 +783,7 @@ d_kharijite = {
 						}
 					}
 					718 = {
+						# Medina
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -742,6 +797,7 @@ d_kharijite = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
 					774 = {
+						# Jerusalem
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -750,6 +806,7 @@ d_kharijite = {
 						}
 					}
 					728 = {
+						# Damascus
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -758,6 +815,7 @@ d_kharijite = {
 						}
 					}
 					693 = {
+						# Baghdad
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -791,9 +849,11 @@ d_hurufi = {
 	color = { 80 220 80 }
 	color2 = { 220 220 0 }
 	capital = 719
+	# Mecca
 	creation_requires_capital = no
 	dignity = 100
 	religion = hurufi
+	# Controls a religion
 	controls_religion = hurufi
 	allow = {
 		OR = {
@@ -810,6 +870,7 @@ d_hurufi = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
 					719 = {
+						# Mecca
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -818,6 +879,7 @@ d_hurufi = {
 						}
 					}
 					718 = {
+						# Medina
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -831,6 +893,7 @@ d_hurufi = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
 					774 = {
+						# Jerusalem
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -839,6 +902,7 @@ d_hurufi = {
 						}
 					}
 					728 = {
+						# Damascus
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -847,6 +911,7 @@ d_hurufi = {
 						}
 					}
 					693 = {
+						# Baghdad
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -879,15 +944,20 @@ d_hurufi = {
 d_jewish = {
 	color = { 0 80 255 }
 	capital = 774
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = jewish
 	religion = jewish
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_KOHEN_GADOL
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
+# Pagan heads of religion
 d_norse_pagan_reformed = {
 	color = { 155 155 235 }
 	color2 = { 220 220 0 }
@@ -899,6 +969,8 @@ d_norse_pagan_reformed = {
 		piety = 500
 	}
 	dignity = 100
+	# Counted as having this many more counties than it does
+	# Controls a religion
 	controls_religion = norse_pagan_reformed
 	religion = norse_pagan_reformed
 	title = FYLKIR
@@ -906,115 +978,148 @@ d_norse_pagan_reformed = {
 	foa = FYLKIR_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_tengri_pagan_reformed = {
 	color = { 100 80 100 }
 	color2 = { 220 220 0 }
 	capital = 594
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = tengri_pagan_reformed
 	religion = tengri_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_baltic_pagan_reformed = {
 	color = { 122 165 70 }
 	color2 = { 220 220 0 }
 	capital = 366
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = baltic_pagan_reformed
 	religion = baltic_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_finnish_pagan_reformed = {
 	color = { 240 240 220 }
 	color2 = { 220 220 0 }
 	capital = 381
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = finnish_pagan_reformed
 	religion = finnish_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_slavic_pagan_reformed = {
 	color = { 175 50 136 }
 	color2 = { 220 220 0 }
 	capital = 515
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = slavic_pagan_reformed
 	religion = slavic_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_aztec_reformed = {
 	color = { 245 245 135 }
 	color2 = { 220 220 0 }
 	capital = 1
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = aztec_reformed
 	religion = aztec_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_west_african_pagan_reformed = {
 	color = { 91 49 13 }
 	color2 = { 220 220 0 }
 	capital = 925
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = west_african_pagan_reformed
 	religion = west_african_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_zun_pagan_reformed = {
 	color = { 220 255 0 }
 	color2 = { 220 220 0 }
 	capital = 1183
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = zun_pagan_reformed
 	religion = zun_pagan_reformed
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
 d_zoroastrian = {
 	color = { 180 120 40 }
 	color2 = { 220 220 0 }
 	capital = 646
+	# Always exists
 	landless = yes
+	# Controls a religion
 	controls_religion = zoroastrian
 	religion = zoroastrian
+	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_MOABADAN_MOABAD
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
+	# Will not be named "Seljuk", etc.
 }
