@@ -19,7 +19,10 @@ def get_locs(where):
         with path.open(newline='', encoding='cp1252',
                        errors='replace') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                locs[row[0]] = row[1]
+                try:
+                    locs[row[0]] = row[1]
+                except IndexError:
+                    continue
     return locs
 
 def get_province_id(where):
@@ -27,8 +30,6 @@ def get_province_id(where):
     for path in ck2parser.files(where, 'history/provinces/*.txt'):
         tree = ck2parser.parse_file(path)
         try:
-            # print(*tree[0][:3], sep='\n')
-            # raise SystemExit()
             title = next(v[1] for _, n, _, v in tree[0] if n == 'title')
         except StopIteration:
             continue
