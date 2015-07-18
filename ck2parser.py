@@ -52,76 +52,103 @@ def some(tok_type):
     return (funcparserlib.parser.some(lambda tok: tok.type == tok_type) >>
             (lambda tok: tok.value))
 
-def op(string):
-    return funcparserlib.parser.skip(funcparserlib.parser.a(
-        funcparserlib.lexer.Token('op', string)))
-
-
-class Commented(object):
-    def __init__(self, parent=None, pre_comments=[], post_comment=None):
-        self.parent = parent
-        self.indent = parent.indent + 1 if parent else 0
-        self.pre_comments = pre_comments
-        self.post_comment = post_comment
+class Stringifiable(object):
+    val_str = property(lambda: str(self.value))
 
     def __str__(self):
-        s = indent * '\t'
+        s = self.indent * '\t'
         if pre_comments:
             s += ('\n' + s).join(pre_comments) + '\n'
-        s += self.value.__str__() + ' ' + post_comment + '\n'
+        s += self.val_str
+        if post_comment:
+            s += ' ' + post_comment
+        s += '\n'
         return s
 
     def inline_str(self, col):
-        s = indent * '\t'
+        s = '\n' + self.indent * '\t'
         if pre_comments:
-            s += ('\n' + s).join(pre_comments) + '\n'
-        s += self.value.__str__() + ' ' + post_comment + '\n'
+            s += s.join(pre_comments) + '\n'
+        s += self.val_str
+        if post_comment:
+            s += ' ' + post_comment + '\n' + self.indent * '\t'
         return s
 
+class Commented(Stringifiable):
+    str_to_val = lambda x: x
+    
+    def __init__(self, args):
+        pre_comments, string, post_comment = args
+        # self.parent = None
+        self.indent = 0
+        self.pre_comments = pre_comments
+        self.value = str_to_val(string)
+        self.post_comment = post_comment
+
 class CK2String(Commented):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.value = str(*args, **kwargs)
-    
-class CK2Int(Commented):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.value = int(*args, **kwargs)
-    
-class CK2Float(Commented):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.value = float(*args, **kwargs)
+    pass
+
+class CK2Number(Commented):
+    def str_to_val(string):
+        try:
+            return int(string)
+        except ValueError:
+            return float(string)
     
 class CK2Date(Commented):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.value = datetime.date(*args, **kwargs)
+    def str_to_val(string):
+        # CKII appears to default to 0, not 1, but that's awkward to handle
+        # with datetime, and it only comes up for b_embriaco anyway
+        year, month, day = ((int(x) if x else 1) for x in string.split('.'))
+        return datetime.date(year, month, day)
 
-    def __str__(self):
+    @property
+    def val_str(self):
         return '{0.year}.{0.month}.{0.day}'.format(self.value)
     
 class CK2Op(Commented):
-    def __init__(self, *args, **kwargs):
-        self.value = str(*args, **kwargs)
+    pass
+
+class CK2Pair(Stringifiable):
+    def __init__(self, args):
+        self.key, self.tis, self.value = args
+
+    @property
+    def val_str(self):
+        return ' '.join(x.val_str for x in [self.key, self.tis, self.value])
+
+class CK2Obj(Stringifiable):
+    def __init__(self, args):
+        self.kel, self.contents, self.ker = args
+        self.indent = 0
+
+    @property
+    def val_str(self):
+        for item in self.contents:
+            item.indent = self.indent + 1
+        return ' '.join(x.val_str for x in [self.key, self.tis, self.value])
 
 many = funcparserlib.parser.many
 maybe = funcparserlib.parser.maybe
 fwd = funcparserlib.parser.with_forward_decls
 endmark = funcparserlib.parser.skip(funcparserlib.parser.finished)
 nl = funcparserlib.parser.skip(many(lambda tok: tok.type == 'newline'))
-comment = some('comment') + nl                                                  # str
-comments = many(comment)                                                        # list(str)
-unquoted_string = some('unquoted_string')                                       # str
-quoted_string = some('quoted_string') >> unquote                                # str
-number = some('number') >> make_number                                          # Number
-date = some('date') >> make_date                                                # datetime.date
-key = (comments + (unquoted_string | quoted_string | number | date) >> tuple +
-       nl + maybe(comment) >> tuple)                                            # tuple(list(str), *)
-value = fwd(lambda: obj | key)                                                  # tuple
-pair = key + comments + op('=') + value                                         # tuple(list(str), *, list(str), tuple)
-obj = fwd(lambda: comments + op('{') + many(pair | value) + comments + op('}')) # tuple(list(str), list(tuple), list(str))
-toplevel = many(pair | value) + comments + endmark                              # tuple(list(tuple), list(str))
+comment = some('comment') + nl
+commented = lambda x: many(comment) + x + maybe(comment) >> tuple
+
+def op(string):
+    return commented(funcparserlib.parser.a(
+        funcparserlib.lexer.Token('op', string))) >> CK2Op
+
+unquoted_string = commented(some('unquoted_string')) >> CK2String
+quoted_string = commented(some('quoted_string') >> unquote) >> CK2String
+number = commented(some('number')) >> CK2Number
+date = commented(some('date')) >> CK2Date
+key = unquoted_string | quoted_string | number | date
+value = fwd(lambda: obj | key)
+pair = key + op('=') + value >> CK2Pair
+obj = fwd(lambda: op('{') + many(pair | value) + op('}') >> CK2Obj)
+toplevel = many(pair | value) + many(comments) + endmark
 
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
