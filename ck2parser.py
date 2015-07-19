@@ -11,6 +11,9 @@ import funcparserlib.parser
 csv.register_dialect('ckii', delimiter=';', doublequote=False,
                      quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
 
+TAB_WIDTH = 4
+CHARS_PER_LINE = 120
+
 def files(where, glob):
     yield from sorted(where.glob(glob), key=operator.attrgetter('parts'))
 
@@ -19,6 +22,13 @@ def is_codename(string):
         return re.match(r'[ekdcb]_', string)
     except TypeError:
         return False
+
+def chars(line):
+    n = 0
+    for char in line:
+        assert char != '\n'
+        n += TAB_WIDTH if char == '\t' else 1
+    return n
 
 token_specs = [
     ('comment', (r'#.*',)),
@@ -53,26 +63,54 @@ def some(tok_type):
             (lambda tok: tok.value))
 
 class Stringifiable(object):
-    val_str = property(lambda: str(self.value))
+    def val_str(self):
+        return self.indent * '\t' + self.val_inline_str(self.indent_col)
 
-    def __str__(self):
+    def val_inline_str(self, col):
+        return str(self.value)
+
+    @property
+    def indent(self):
+        return self._indent
+
+    @indent.setter
+    def indent(self, value):
+        self._indent = value
+
+    @property
+    def indent_col(self):
+        return self.indent * TAB_WIDTH
+
+    def str(self):
         s = self.indent * '\t'
-        if pre_comments:
-            s += ('\n' + s).join(pre_comments) + '\n'
-        s += self.val_str
+        if self.pre_comments:
+            s += ('\n' + s).join(self.pre_comments) + '\n'
+        s += self.val_str()
         if post_comment:
-            s += ' ' + post_comment
+            s += ' ' + self.post_comment
         s += '\n'
         return s
 
     def inline_str(self, col):
-        s = '\n' + self.indent * '\t'
-        if pre_comments:
-            s += s.join(pre_comments) + '\n'
-        s += self.val_str
-        if post_comment:
-            s += ' ' + post_comment + '\n' + self.indent * '\t'
-        return s
+        nl = 0
+        sep = '\n' + self.indent * '\t'
+        s = ''
+        if self.pre_comments:
+            if (col > self.indent_col and
+                col + chars(self.pre_comments[0]) > CHARS_PER_LINE):
+                s += sep
+                nl += 1
+            s += sep.join(self.pre_comments) + sep
+            nl += len(self.pre_comments)
+            col = self.indent_col
+        vis, (vnl¸ col) = self.val_inline_str(col)
+        s += vis
+        nl += vnl
+        if self.post_comment:
+            s += ' ' + self.post_comment + sep
+            nl += 1
+            col = self.indent_col
+        return s, (nl, col)
 
 class Commented(Stringifiable):
     str_to_val = lambda x: x
@@ -86,7 +124,8 @@ class Commented(Stringifiable):
         self.post_comment = post_comment
 
 class CK2String(Commented):
-    pass
+    def val_inline_str(self, col):
+        return '"{}"'.format(x) if re.search(r'\s', x) else x
 
 class CK2Number(Commented):
     def str_to_val(string):
@@ -102,31 +141,61 @@ class CK2Date(Commented):
         year, month, day = ((int(x) if x else 1) for x in string.split('.'))
         return datetime.date(year, month, day)
 
-    @property
-    def val_str(self):
-        return '{0.year}.{0.month}.{0.day}'.format(self.value)
+    def val_inline_str(self, col):
+        return '{0.year}.{0.month}.{0.day}'.format(self.value), (0, 0)
     
 class CK2Op(Commented):
     pass
 
 class CK2Pair(Stringifiable):
     def __init__(self, args):
+        self.items = args
         self.key, self.tis, self.value = args
 
-    @property
+    @indent.setter
+    def indent(self, value):
+        self._indent = value
+        for item in self.items:
+            item.indent = value
+
     def val_str(self):
-        return ' '.join(x.val_str for x in [self.key, self.tis, self.value])
+        s = self.key.str()
+        col = chars(s)
+        tis_is = self.key.inline_str(col)
+        col_tis = col + chars(tis_is)
+        if col_tis > CHARS_PER_LINE:
+            tis_s = self.tis.str()
+            s += '\n' + tis_s
+            col = chars(tis_s)
+        else:
+            s += tis_is
+            col = col_tis
+        val_is = self.value.inline_str(col)
+        if col + chars(val_is) > CHARS_PER_LINE:
+            s += '\n' + self.value.str()
+        else:
+            s += val_is
+        return s
+
+    def val_inline_str(self, col):
+        return ' '#.join(x.val_inline_str(col) for x in self.items), (0, 0)
 
 class CK2Obj(Stringifiable):
     def __init__(self, args):
+        self.items = args
         self.kel, self.contents, self.ker = args
         self.indent = 0
 
-    @property
+    @indent.setter
+    def indent(self, value):
+        self._indent = value
+        for item in self.items:
+            item.indent = value
+
     def val_str(self):
         for item in self.contents:
             item.indent = self.indent + 1
-        return ' '.join(x.val_str for x in [self.key, self.tis, self.value])
+        return ' '.join(x.val_str() for x in self.items)
 
 many = funcparserlib.parser.many
 maybe = funcparserlib.parser.maybe
@@ -148,7 +217,7 @@ key = unquoted_string | quoted_string | number | date
 value = fwd(lambda: obj | key)
 pair = key + op('=') + value >> CK2Pair
 obj = fwd(lambda: op('{') + many(pair | value) + op('}') >> CK2Obj)
-toplevel = many(pair | value) + many(comments) + endmark
+toplevel = many(pair | value) + many(comment) + endmark
 
 def parse(s):
     return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
