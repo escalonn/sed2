@@ -27,7 +27,7 @@ def get_province_id(where):
     for path in ck2parser.files(where, 'history/provinces/*.txt'):
         tree = ck2parser.parse_file(path)
         try:
-            title = next(v[1] for _, n, _, v in tree[0] if n == 'title')
+            title = next(v.val for n, v in tree if n.val == 'title')
         except StopIteration:
             continue
         number = int(path.name.split(' - ', maxsplit=1)[0])
@@ -39,29 +39,29 @@ def get_dynamics(where, cultures, prov_id):
                                        [(v, [k]) for k, v in prov_id.items()])
 
     def recurse(v, n=None):
-        for _, n1, _, v1 in v:
-            if not ck2parser.is_codename(n1):
+        for n1, v1 in v:
+            if not ck2parser.is_codename(n1.val):
                 continue
-            for _, n2, _, v2 in v1[1]:
-                if n2 in cultures:
-                    if v2[1] not in dynamics[n1]:
-                        dynamics[n1].append(v2[1])
-                    if n1 in prov_id and v2[1] not in dynamics[prov_id[n1]]:
-                        dynamics[prov_id[n1]].append(v2[1])
-            recurse(v1[1], n1)
+            for n2, v2 in v1:
+                if n2.val in cultures:
+                    if v2.val not in dynamics[n1.val]:
+                        dynamics[n1.val].append(v2.val)
+                    if (n1.val in prov_id and
+                        v2.val not in dynamics[prov_id[n1.val]]):
+                        dynamics[prov_id[n1.val]].append(v2.val)
+            recurse(v1, n1)
 
     for path in ck2parser.files(where, 'common/landed_titles/*.txt'):
-        recurse(ck2parser.parse_file(path)[0])
+        recurse(ck2parser.parse_file(path))
     return dynamics
 
 def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
         tree = ck2parser.parse_file(path)
-        cultures.extend(n2 for _, _, _, v in tree[0]
-                        for _, n2, _, v2 in v[1]
-                        if isinstance(v2[1], list) and
-                        n2 not in ['male_names', 'female_names'])
+        cultures.extend(
+            n2.val for _, v in tree for n2, v2 in v
+            if isinstance(v2, ck2parser.Obj))
     return cultures
 
 def get_religions(where):
@@ -69,11 +69,10 @@ def get_religions(where):
     rel_groups = []
     for path in ck2parser.files(where, 'common/religions/*.txt'):
         tree = ck2parser.parse_file(path)
-        religions.extend(n2 for _, _, _, v in tree[0]
-                         for _, n2, _, v2 in v[1]
-                         if isinstance(v2[1], list) and
-                         n2 not in ['male_names', 'female_names'])
-        rel_groups.extend(n for _, n, *_ in tree[0])
+        religions.extend(n2.val for _, v in tree for n2, v2 in v
+                         if (isinstance(v2, ck2parser.Obj) and
+                             n2.val not in ['male_names', 'female_names']))
+        rel_groups.extend(n.val for n, v in tree)
     return religions, rel_groups
 
 def main():
@@ -85,10 +84,6 @@ def main():
     province_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
     religions, rel_groups = get_religions(vanillapath)
-    # print(cultures)
-    # print(religions)
-    # print(rel_groups)
-    # raise SystemExit()
     dynamics = get_dynamics(swmhpath, cultures, province_id)
     vanilla = get_locs(vanillapath)
     prev_loc = collections.defaultdict(str)
@@ -107,18 +102,19 @@ def main():
                             if row[0] and '#' not in row[0]})
 
     def recurse(v):
-        for _, n2, _, v2 in v:
-            if not ck2parser.is_codename(n2):
+        for n2, v2 in v:
+            if not ck2parser.is_codename(n2.val):
                 continue
             items = []
-            for _, n3, _, v3 in v2[1]:
-                if n3 in lt_keys:
-                    val = v3[1]
-                    if not isinstance(val, str):
-                        val = ' '.join(ck2parser.to_string(s) for s in val)
-                    items.append((n3, val))
-            yield n2, items
-            yield from recurse(v2[1])
+            for n3, v3 in v2:
+                if n3.val in lt_keys:
+                    if isinstance(v3, ck2parser.Obj):
+                        value = ' '.join(s.val for s in v3)
+                    else:
+                        value = v3.val
+                    items.append((n3.val, value))
+            yield n2.val, items
+            yield from recurse(v2)
 
     with tempfile.TemporaryDirectory() as td:
         templates_t = pathlib.Path(td)
@@ -127,8 +123,7 @@ def main():
         for inpath in ck2parser.files(swmhpath, 'localisation/*.csv'):
             outpath = templates_t / 'localisation' / inpath.name
             out_rows = [
-                ['#CODE', 'SED2', 'SWMH', 'OTHERSWMH', 'SED1', 'VANILLA']
-            ]
+                ['#CODE', 'SED2', 'SWMH', 'OTHERSWMH', 'SED1', 'VANILLA']]
             col_width = [0, 8]
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
@@ -148,34 +143,35 @@ def main():
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
-        lt_keys_not_cultures = ['title', 'title_female', 'foa', 'title_prefix',
-            'short_name', 'name_tier', 'location_ruler_title',
-            'dynasty_title_names', 'male_names']
+        lt_keys_not_cultures = [
+            'title', 'title_female', 'foa', 'title_prefix', 'short_name',
+            'name_tier', 'location_ruler_title', 'dynasty_title_names',
+            'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
         for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
             out_rows = [
-                ['#TITLE', 'KEY', 'SED2', 'SWMH']
-            ]
+                ['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
-            item = ck2parser.parse_file(inpath)
-            for title, pairs in recurse(item[0]):
+            tree = ck2parser.parse_file(inpath)
+            for title, pairs in recurse(tree):
                 # here disabled for now: preservation of modifiers added to
                 # template and not found in landed_titles (slow)
                 # for (t, k), v in prev_lt.items():
                 #     if t == title and not any(k == k2 for k2, _ in pairs):
                 #         pairs.append((k, ''))
                 # also disabled: barony stuff
-                if not title.startswith('b_'):
-                    for key, value in sorted(pairs,
-                        key=lambda x: lt_keys.index(x[0])):
-                        out_row = [title, key, prev_lt[title, key], value]
+                if not title.val.startswith('b_'):
+                    for key, value in sorted(
+                        pairs, key=lambda n, _: lt_keys.index(n)):
+                        out_row = [title.val, key.val,
+                                   prev_lt[title.val, key.val], value.val]
                         # don't allow changes to anything but dynamic names...
                         # just for now
-                        if key in lt_keys_not_cultures:
-                            out_row[2] = value
+                        if key.val in lt_keys_not_cultures:
+                            out_row[2] = out_row[3]
                         out_rows.append(out_row)
                         for c in range(2):
                             col_width[c] = max(len(out_row[c]), col_width[c])

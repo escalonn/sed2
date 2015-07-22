@@ -1,18 +1,21 @@
-#!/usr/bin/env python3
-
 import csv
 import datetime
 import operator
 import re
-import funcparserlib
-import funcparserlib.lexer
-import funcparserlib.parser
+from funcparserlib import lexer
+from funcparserlib import parser
 
 csv.register_dialect('ckii', delimiter=';', doublequote=False,
                      quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
 
 TAB_WIDTH = 4
 CHARS_PER_LINE = 120
+
+fq_keys = []
+
+def force_quote(key):
+    global fq_keys
+    return isinstance(key, String) and key.val in fq_keys
 
 def files(where, glob):
     yield from sorted(where.glob(glob), key=operator.attrgetter('parts'))
@@ -38,59 +41,82 @@ token_specs = [
     ('unquoted_string', (r'[^\s"#={}]+',))
 ]
 useless = ['whitespace']
-tokenize = funcparserlib.lexer.make_tokenizer(token_specs)
-
-def unquote(string):
-    return string[1:-1]
-
-def make_number(string):
-    try:
-        return int(string)
-    except ValueError:
-        return float(string)
-
-def make_date(string):
-    # CKII appears to default to 0, not 1, but that's awkward to handle
-    # with datetime, and it only comes up for b_embriaco anyway
-    year, month, day = ((int(x) if x else 1) for x in string.split('.'))
-    return datetime.date(year, month, day)
-
-def some(tok_type):
-    return (funcparserlib.parser.some(lambda tok: tok.type == tok_type) >>
-            (lambda tok: tok.value))
+tokenize = lexer.make_tokenizer(token_specs)
 
 class Stringifiable(object):
-    def __init__(self, args):
+    def __init__(self):
         self.indent = 0
 
     @property
     def indent(self):
         return self._indent
 
+    @indent.setter
+    def indent(self, value):
+        self._indent = value
+
     @property
     def indent_col(self):
         return self.indent * TAB_WIDTH
 
+class ListWrapper(object):
+    def __getattr__(self, name):
+        if name in ['__len__', '__length_hint__', '__getitem__', '__setitem__',
+                    '__delitem__', '__reversed__', '__contains__', 'append',
+                    'count', 'index', 'extend', 'insert', 'pop', 'remove',
+                    'reverse', 'sort',  '__add__', '__radd__', '__iadd__',
+                    '__mul__', '__rmul__', '__imul__']:
+            return getattr(self.contents, name)
+        return super().__getattr__(name)
+
+    def __iter__(self):
+        return iter(self.contents)
+
+class TopLevel(Stringifiable, ListWrapper):
+    def __init__(self, contents, post_comments):
+        self.contents = contents
+        self.post_comments = post_comments
+        super().__init__()
+
+    @property
+    def indent(self):
+        return self._indent
+
+    @indent.setter
+    def indent(self, value):
+        self._indent = value
+        for item in self:
+            item.indent = value
+
+    def str(self):
+        s = '\n'.join(x.str() for x in self)
+        s += '\n'.join(x for x in self.post_comments)
+        s += '\n'
+        return s
+
 class Commented(Stringifiable):
-    def __init__(self, args):
-        super().__init__(args)
-        pre_comments, string, post_comment = args
+    def __init__(self, pre_comments, string, post_comment):
         self.pre_comments = pre_comments
-        self.value = str_to_val(string)
+        self.val = self.str_to_val(string)
         self.post_comment = post_comment
+        super().__init__()
+
+    @classmethod
+    def from_str(cls, string):
+        return cls([], string, None)
 
     @property
     def has_comments(self):
         return self.pre_comments or self.post_comment
 
-    str_to_val = lambda x: x
+    str_to_val = lambda _, x: x
 
     def val_str(self):
         val_is, _ = self.val_inline_str(self.indent_col)
         return self.indent * '\t' + val_is
 
     def val_inline_str(self, col):
-        s = str(self.value)
+        s = str(self.val)
         return s, col + chars(s)
 
     def str(self):
@@ -124,36 +150,60 @@ class Commented(Stringifiable):
             col = self.indent_col
         return s, (nl, col)
 
-class CK2String(Commented):
+class String(Commented):
+    def __init__(self, *args):
+        super().__init__(*args)
+        self.force_quote = False
+
     def val_inline_str(self, col):
-        s = '"{}"'.format(x) if re.search(r'\s', x) else x
+        s = '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
         return s, col + chars(s)
 
-class CK2Number(Commented):
-    def str_to_val(string):
+class Number(Commented):
+    def str_to_val(self, string):
         try:
             return int(string)
         except ValueError:
             return float(string)
     
-class CK2Date(Commented):
-    def str_to_val(string):
+class Date(Commented):
+    def str_to_val(self, string):
         # CKII appears to default to 0, not 1, but that's awkward to handle
         # with datetime, and it only comes up for b_embriaco anyway
         year, month, day = ((int(x) if x else 1) for x in string.split('.'))
         return datetime.date(year, month, day)
 
     def val_inline_str(self, col):
-        s = '{0.year}.{0.month}.{0.day}'.format(self.value)
+        s = '{0.year}.{0.month}.{0.day}'.format(self.val)
         return s, col + chars(s)
     
-class CK2Op(Commented):
+class Op(Commented):
     pass
 
-class CK2Pair(Stringifiable):
-    def __init__(self, args):
-        self.key, self.tis, self.value = args
-        super().__init__(args)
+class Pair(Stringifiable):
+    def __init__(self, key, tis, value):
+        self.key = key
+        self.tis = tis
+        self.value = value
+        if force_quote(self.key):
+            self.value.force_quote = True
+        super().__init__()
+
+    @classmethod
+    def from_kv(cls, key, value):
+        if not isinstance(key, Stringifiable):
+            key = String(key)
+        if not isinstance(value, Stringifiable):
+            value = String(value)
+        return cls(key, Op('='), value)
+
+    def __iter__(self):
+        yield self.key
+        yield self.value
+
+    @property
+    def indent(self):
+        return self._indent
 
     @indent.setter
     def indent(self, value):
@@ -190,7 +240,7 @@ class CK2Pair(Stringifiable):
             nl += 1 + tis_s.count('\n')
             col = self.indent_col
         else:
-            if tis_is[0] = '\n':
+            if tis_is[0] == '\n':
                 s = s[:-1]
                 col -= 1
             s += tis_is
@@ -208,7 +258,7 @@ class CK2Pair(Stringifiable):
             nl += 1 + val_s.count('\n')
             col = self.indent_col
         else:
-            if val_is[0] = '\n':
+            if val_is[0] == '\n':
                 s = s[:-1]
                 col -= 1
             s += val_is
@@ -220,16 +270,26 @@ class CK2Pair(Stringifiable):
                 col = self.indent_col
         return s, (nl, col)
 
-class CK2Obj(Stringifiable):
-    def __init__(self, args):
-        self.kel, self.contents, self.ker = args
-        super().__init__(args)
+class Obj(Stringifiable, ListWrapper):
+    def __init__(self, kel, contents, ker):
+        self.kel = kel
+        self.contents = contents
+        self.ker = ker
+        super().__init__()
+
+    @classmethod
+    def from_iter(cls, contents):
+        return cls(Op('{'), list(contents), Op('}'))
+
+    @property
+    def indent(self):
+        return self._indent
 
     @indent.setter
     def indent(self, value):
         self._indent = value
         self.kel.indent = value
-        for item in self.contents:
+        for item in self:
             item.indent = value + 1
         self.ker.indent = value
 
@@ -250,33 +310,32 @@ class CK2Obj(Stringifiable):
         nl += nl_kel
         col += col_kel
         if (not self.kel.has_comments and not self.ker.has_comments and
-            (not self.contents or
-             (len(self.contents) == 1 and not self.contents[0].has_comments or
-              (all(isinstance(x, Commented) and not x.has_comments
-               for x in self.contents))))):
+            (not self or len(self) == 1 and not self[0].has_comments or
+             (all(isinstance(x, Commented) and not x.has_comments
+                  for x in self)))):
             # attempt one line object
             s_oneline, col_oneline = s, col
-            for item in self.contents:
+            for item in self:
                 item_is, (_, col_item) = item.inline_str(1 + col_oneline)
                 s_oneline += ' ' + item_is
                 col_oneline = col_item
                 if col_oneline + 2 > CHARS_PER_LINE:
                     break
             else:
-                if self.contents:
+                if self:
                     s_oneline += ' '
                     col_oneline += 1
                 ker_is, (_, col_ker) = self.ker.inline_str(col_oneline)
                 s_oneline += ker_is
                 col_oneline = col_ker
                 return s_oneline, (0, col_oneline)
-        if isinstance(self.contents[0], CK2Pair):
+        if isinstance(self[0], Pair):
             if s[-1].isspace():
                 s = s[:-self.indent]
             else:
                 s += '\n'
                 nl += 1
-            for item in self.contents:
+            for item in self:
                 item_s = item.str()
                 s += item_s + '\n'
                 nl += item_s.count('\n') + 1
@@ -285,7 +344,7 @@ class CK2Obj(Stringifiable):
             sep = '\n' + (self.indent + 1) * '\t'
             sep_col = chars(sep)
             col = sep_col
-            for item in self.contents:
+            for item in self:
                 if not s[-1].isspace():
                     s += ' '
                     col += 1
@@ -310,78 +369,62 @@ class CK2Obj(Stringifiable):
         col += col_ker
         return s, (nl, col)
 
-many = funcparserlib.parser.many
-maybe = funcparserlib.parser.maybe
-fwd = funcparserlib.parser.with_forward_decls
-skip = funcparserlib.parser.skip
-endmark = skip(funcparserlib.parser.finished)
-comment = some('comment') + skip(many(lambda tok: tok.type == 'newline'))
-commented = lambda x: many(comment) + x + maybe(comment) >> tuple
+def unquote(string):
+    return string[1:-1]
+
+def some(tok_type):
+    return (parser.some(lambda tok: tok.type == tok_type) >>
+            (lambda tok: tok.value)).named(str(tok_type))
+
+unarg = lambda f: lambda x: f(*x)
+many = parser.many
+maybe = parser.maybe
+skip = parser.skip
+fwd = parser.with_forward_decls
+newlines = many(some('newline'))
+finished = skip(newlines + parser.finished)
+comment = some('comment') + skip(newlines)
+commented = lambda x: (skip(newlines) + many(comment) + x + maybe(comment))
 
 def op(string):
-    return commented(funcparserlib.parser.a(
-        funcparserlib.lexer.Token('op', string))) >> CK2Op
+    return commented(parser.a(lexer.Token('op', string))) >> unarg(Op)
 
-unquoted_string = commented(some('unquoted_string')) >> CK2String
-quoted_string = commented(some('quoted_string') >> unquote) >> CK2String
-number = commented(some('number')) >> CK2Number
-date = commented(some('date')) >> CK2Date
+unquoted_string = commented(some('unquoted_string')) >> unarg(String)
+quoted_string = commented(some('quoted_string') >> unquote) >> unarg(String)
+number = commented(some('number')) >> unarg(Number)
+date = commented(some('date')) >> unarg(Date)
 key = unquoted_string | number | date
 value = fwd(lambda: obj | key | quoted_string)
-pair = key + op('=') + value >> CK2Pair
-obj = op('{') + many(pair) + op('}') >> CK2Obj
-toplevel = many(pair) + many(comment) + endmark
+pair = key + op('=') + value >> unarg(Pair)
+obj = op('{') + many(pair) + op('}') >> unarg(Obj)
+toplevel = many(pair) + many(comment) + finished >> unarg(TopLevel)
+
+# import logging
+# logger = logging.getLogger('funcparserlib')
+# logger.setLevel(logging.DEBUG)
+# ch = logging.StreamHandler()
+# ch.setLevel(logging.DEBUG)
+# formatter = logging.Formatter('%(lineno)d - %(message)s')
+# ch.setFormatter(formatter)
+# logger.addHandler(ch)
 
 def parse(s):
-    return toplevel.parse([t for t in tokenize(s) if t.type not in useless])
+    import pprint
+    tokens = [t for t in tokenize(s) if t.type not in useless]
+    try:
+        tree = toplevel.parse(tokens)
+    except parser.NoParseError:
+        pprint.pprint(list(enumerate(tokens)))
+        raise
+    return tree
 
 def parse_file(path, encoding='cp1252'):
+    if 'Zavrsje' in path.name:
+        parser.debug = True
     with path.open(encoding=encoding) as f:
         try:
             tree = parse(f.read())
-        except funcparserlib.parser.NoParseError:
+        except parser.NoParseError:
             print(path)
             raise
     return tree
-
-def to_string(x, indent=-1, fq_keys=[], force_quote=False):
-    if isinstance(x, str):
-        # unquoted_string or quoted_string
-        return '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
-    if isinstance(x, tuple):
-        if len(x) == 4:
-            # pair
-            return '{}{} {}= {}'.format(
-                to_string(x[0], indent),
-                to_string(x[1]),
-                to_string(x[2], indent),
-                to_string(x[3], indent, fq_keys, x[1] in fq_keys))
-        if len(x) == 2 and not isinstance(x[1], list):
-            # key
-            return (to_string(x[0], indent) +
-                    to_string(x[1], force_quote=force_quote))
-        if indent == -1:
-            # top-level many(pair | value)
-            return ('\n'.join(to_string(y, 0, fq_keys) for y in x[0]) +
-                    to_string(x[1]))
-        # obj
-        if (not x[0] and len(x[1]) == 3 and not x[2] and
-            all(len(y) == 2 and not y[0] and isinstance(y[1], int) for y in x[1])):
-            return '{{ {0[1]} {1[1]} {2[1]} }}'.format(*x[1])
-        sep = '\n' + '\t' * (indent + 1)
-        return '{}{{{}{}}}'.format(
-            to_string(x[0], indent),
-            (sep + sep.join(to_string(y, indent + 1, fq_keys) for y in x[1]) +
-             '\n' + '\t' * indent) if x[1] else '',
-            ('\t' + to_string(x[2][:-1], indent + 1) + x[2][-1] +
-             '\n' + '\t' * indent if x[2] else ''))
-    if isinstance(x, list):
-        # comments
-        if not x:
-            return ''
-        if isinstance(x[0], str):
-            ws = '\n' + '\t' * indent
-            return ws.join(x) + ws
-    if isinstance(x, datetime.date):
-        return '{0.year}.{0.month}.{0.day}'.format(x)
-    return str(x)
