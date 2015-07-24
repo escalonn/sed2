@@ -15,9 +15,8 @@ def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
         tree = ck2parser.parse_file(path)
-        cultures.extend(
-            n2.val for _, v in tree for n2, v2 in v
-            if isinstance(v2, ck2parser.Obj))
+        cultures.extend(n2.val for _, v in tree for n2, v2 in v
+                        if n2.val != 'graphical_cultures')
     return cultures
 
 def main():
