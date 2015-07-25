@@ -59,13 +59,13 @@ def main():
         for n2, v2 in v:
             if ck2parser.is_codename(n2.val):
                 if n2.val.startswith('b_'):
-                    for n3, v3 in reversed(v2):
-                        if n3.val in cultures:
-                            v2.remove((n3, v3))
+                    for p3 in reversed(v2):
+                        if p3.key.val in cultures:
+                            v2.remove(p3)
                 else:
-                    for n3, v3 in reversed(v2):
-                        if n3.val in lt_keys:
-                            v2.remove((n3, v3))
+                    for p3 in reversed(v2):
+                        if p3.key.val in lt_keys:
+                            v2.remove(p3)
                     if sed2[n2.val]:
                         index = next(
                             (i for i, (n3, _) in enumerate(v2)
@@ -83,7 +83,7 @@ def main():
                 if val:
                     if key in ['male_names', 'female_names']:
                         val = ck2parser.Obj.from_iter(
-                            ck2parser.String(x.strip('"'))
+                            ck2parser.String.from_str(x.strip('"'))
                             for x in re.findall(r'[^"\s]+|"[^"]*"', val))
                     sed2[title].append(ck2parser.Pair.from_kv(key, val))
         tree = ck2parser.parse_file(inpath)

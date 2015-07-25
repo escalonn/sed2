@@ -61,13 +61,24 @@ class Stringifiable(object):
 
 class ListWrapper(object):
     def __getattr__(self, name):
-        if name in ['__len__', '__length_hint__', '__getitem__', '__setitem__',
-                    '__delitem__', '__reversed__', '__contains__', 'append',
+        if name in ['__length_hint__', '__delitem__', '__contains__', 'append',
                     'count', 'index', 'extend', 'insert', 'pop', 'remove',
                     'reverse', 'sort',  '__add__', '__radd__', '__iadd__',
                     '__mul__', '__rmul__', '__imul__']:
             return getattr(self.contents, name)
-        return super().__getattr__(name)
+        raise AttributeError(name)
+
+    def __len__(self):
+        return len(self.contents)
+
+    def __getitem__(self, key):
+        return self.contents[key]
+
+    def __setitem__(self, key, value):
+        self.contents[key] = value
+
+    def __reversed__(self):
+        return reversed(self.contents)
 
     def __iter__(self):
         return iter(self.contents)
@@ -124,7 +135,7 @@ class Commented(Stringifiable):
         if self.pre_comments:
             s += ('\n' + s).join(self.pre_comments) + '\n'
         s += self.val_str()
-        if post_comment:
+        if self.post_comment:
             s += ' ' + self.post_comment
         s += '\n'
         return s
@@ -156,7 +167,9 @@ class String(Commented):
         self.force_quote = False
 
     def val_inline_str(self, col):
-        s = '"{}"'.format(x) if force_quote or re.search(r'\s', x) else x
+        s = self.val
+        if self.force_quote or re.search(r'\s', s):
+            s = '"{}"'.format(s)
         return s, col + chars(s)
 
 class Number(Commented):
@@ -192,14 +205,18 @@ class Pair(Stringifiable):
     @classmethod
     def from_kv(cls, key, value):
         if not isinstance(key, Stringifiable):
-            key = String(key)
+            key = String.from_str(key)
         if not isinstance(value, Stringifiable):
-            value = String(value)
-        return cls(key, Op('='), value)
+            value = String.from_str(value)
+        return cls(key, Op.from_str('='), value)
 
     def __iter__(self):
         yield self.key
         yield self.value
+
+    @property
+    def has_comments(self):
+        return any(x.has_comments for x in [self.key, self.tis, self.value])
 
     @property
     def indent(self):
@@ -253,7 +270,7 @@ class Pair(Stringifiable):
         if col > self.indent_col and col_val > CHARS_PER_LINE:
             if not s[-2].isspace():
                 s = s[:-1]
-            val_s = self.val.str()
+            val_s = self.value.str()
             s += '\n' + val_s + self.indent * '\t'
             nl += 1 + val_s.count('\n')
             col = self.indent_col
@@ -279,11 +296,20 @@ class Obj(Stringifiable, ListWrapper):
 
     @classmethod
     def from_iter(cls, contents):
-        return cls(Op('{'), list(contents), Op('}'))
+        return cls(Op.from_str('{'), list(contents), Op.from_str('}'))
 
     @property
     def indent(self):
         return self._indent
+
+    @property
+    def post_comment(self):
+        return self.ker.post_comment
+
+    @property
+    def has_comments(self):
+        return (self.kel.has_comments or self.ker.has_comments or
+                any(x.has_comments for x in self))
 
     @indent.setter
     def indent(self, value):
@@ -302,14 +328,14 @@ class Obj(Stringifiable, ListWrapper):
             s += self_is + '\n'
         return s
 
-    def inline_str(self):
+    def inline_str(self, col):
         s = ''
         nl = 0
         kel_is, (nl_kel, col_kel) = self.kel.inline_str(col)
         s += kel_is
         nl += nl_kel
         col += col_kel
-        if (not self.kel.has_comments and not self.ker.has_comments and
+        if (not self.kel.has_comments and not self.ker.pre_comments and
             (not self or len(self) == 1 and not self[0].has_comments or
              (all(isinstance(x, Commented) and not x.has_comments
                   for x in self)))):
@@ -325,11 +351,12 @@ class Obj(Stringifiable, ListWrapper):
                 if self:
                     s_oneline += ' '
                     col_oneline += 1
-                ker_is, (_, col_ker) = self.ker.inline_str(col_oneline)
+                ker_is, (nl_ker, col_ker) = self.ker.inline_str(col_oneline)
                 s_oneline += ker_is
                 col_oneline = col_ker
-                return s_oneline, (0, col_oneline)
-        if isinstance(self[0], Pair):
+                nl = nl_ker
+                return s_oneline, (nl_ker, col_oneline)
+        if len(self) == 0 or isinstance(self[0], Pair):
             if s[-1].isspace():
                 s = s[:-self.indent]
             else:
@@ -340,9 +367,15 @@ class Obj(Stringifiable, ListWrapper):
                 s += item_s + '\n'
                 nl += item_s.count('\n') + 1
             s += self.indent * '\t'
+            col = self.indent_col
         else:
             sep = '\n' + (self.indent + 1) * '\t'
             sep_col = chars(sep)
+            if s[-1].isspace():
+                s += '\t'
+            else:
+                s += sep
+                nl += 1
             col = sep_col
             for item in self:
                 if not s[-1].isspace():
@@ -381,46 +414,34 @@ many = parser.many
 maybe = parser.maybe
 skip = parser.skip
 fwd = parser.with_forward_decls
-newlines = many(some('newline'))
-finished = skip(newlines + parser.finished)
-comment = some('comment') + skip(newlines)
-commented = lambda x: (skip(newlines) + many(comment) + x + maybe(comment))
 
-def op(string):
-    return commented(parser.a(lexer.Token('op', string))) >> unarg(Op)
-
+nl = skip(many(some('newline')))
+end = nl + skip(parser.finished)
+comment = some('comment')
+commented = lambda x: (many(nl + comment) + nl + x + maybe(comment))
+op = lambda s: commented(parser.a(lexer.Token('op', s))) >> unarg(Op)
 unquoted_string = commented(some('unquoted_string')) >> unarg(String)
 quoted_string = commented(some('quoted_string') >> unquote) >> unarg(String)
 number = commented(some('number')) >> unarg(Number)
 date = commented(some('date')) >> unarg(Date)
-key = unquoted_string | number | date
+
+key = unquoted_string | date | number
 value = fwd(lambda: obj | key | quoted_string)
 pair = key + op('=') + value >> unarg(Pair)
-obj = op('{') + many(pair) + op('}') >> unarg(Obj)
-toplevel = many(pair) + many(comment) + finished >> unarg(TopLevel)
-
-# import logging
-# logger = logging.getLogger('funcparserlib')
-# logger.setLevel(logging.DEBUG)
-# ch = logging.StreamHandler()
-# ch.setLevel(logging.DEBUG)
-# formatter = logging.Formatter('%(lineno)d - %(message)s')
-# ch.setFormatter(formatter)
-# logger.addHandler(ch)
+obj = op('{') + (many(pair | value)) + op('}') >> unarg(Obj)
+toplevel = many(pair) + many(nl + comment) + end >> unarg(TopLevel)
 
 def parse(s):
-    import pprint
     tokens = [t for t in tokenize(s) if t.type not in useless]
-    try:
-        tree = toplevel.parse(tokens)
-    except parser.NoParseError:
-        pprint.pprint(list(enumerate(tokens)))
-        raise
+    # try:
+    tree = toplevel.parse(tokens)
+    # except parser.NoParseError:
+    #     from pprint import pprint
+    #     pprint(list(enumerate(tokens[:20])))
+    #     raise
     return tree
 
 def parse_file(path, encoding='cp1252'):
-    if 'Zavrsje' in path.name:
-        parser.debug = True
     with path.open(encoding=encoding) as f:
         try:
             tree = parse(f.read())

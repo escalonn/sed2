@@ -19,7 +19,8 @@ def get_locs(where):
         with path.open(newline='', encoding='cp1252',
                        errors='replace') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                locs[row[0]] = row[1]
+                if len(row) >= 2:
+                    locs[row[0]] = row[1]
     return locs
 
 def get_province_id(where):
@@ -162,14 +163,13 @@ def main():
                 #     if t == title and not any(k == k2 for k2, _ in pairs):
                 #         pairs.append((k, ''))
                 # also disabled: barony stuff
-                if not title.val.startswith('b_'):
+                if not title.startswith('b_'):
                     for key, value in sorted(
-                        pairs, key=lambda n, _: lt_keys.index(n)):
-                        out_row = [title.val, key.val,
-                                   prev_lt[title.val, key.val], value.val]
+                        pairs, key=lambda p: lt_keys.index(p[0])):
+                        out_row = [title, key, prev_lt[title, key], value]
                         # don't allow changes to anything but dynamic names...
                         # just for now
-                        if key.val in lt_keys_not_cultures:
+                        if key in lt_keys_not_cultures:
                             out_row[2] = out_row[3]
                         out_rows.append(out_row)
                         for c in range(2):
