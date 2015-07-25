@@ -16,19 +16,16 @@ b_zussow = {}
 b_kolbatz = {}
 d_yaroslavl = {
 	color = { 178 192 134 }
-	capital = 572
-	# Yaroslavl
+	capital = 572 # Yaroslavl
 }
 d_vitebsk = {
 	color = { 196 33 55 }
-	capital = 417
-	# Vitebsk
+	capital = 417 # Vitebsk
 }
 d_cheremisa = {
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
-	capital = 590
-	# Chuvash
+	capital = 590 # Chuvash
 	allow = {
 		always = no
 	}
@@ -36,7 +33,7 @@ d_cheremisa = {
 # TITULAR SWMH
 e_ulm = {
 	color = { 110 110 110 }
-	capital = 252
+	capital = 252 #ULM
 	allow = {
 		has_landed_title = c_ulm
 		independent = yes
@@ -54,8 +51,7 @@ e_ulm = {
 }
 e_khazaria = {
 	color = { 200 157 81 }
-	capital = 620
-	#Itil
+	capital = 620 #Itil
 	allow = {
 		OR = {
 			religion_group = jewish_group
@@ -65,11 +61,10 @@ e_khazaria = {
 		has_landed_title = k_khazaria
 		independent = yes
 	}
-}
-#
+} #
 e_khitan = {
 	color = { 130 10 50 }
-	capital = 1572
+	capital = 1572 # Balasaghnun
 	allow = {
 		always = no
 	}
@@ -88,7 +83,7 @@ k_cuman = {
 k_pechenegs = {
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
-	capital = 618
+	capital = 618 # Little Sarai
 	culture = pecheneg
 	allow = {
 		always = no
@@ -130,8 +125,7 @@ d_black_caps = {
 }
 e_kaleva = {
 	color = { 144 157 181 }
-	capital = 381
-	#Nyland
+	capital = 381 #Nyland
 	allow = {
 		culture_group = finno_ugric
 		has_landed_title = k_finland
@@ -141,8 +135,7 @@ e_kaleva = {
 }
 k_geats = {
 	color = { 208 191 99 }
-	capital = 293
-	# Östergötland
+	capital = 293 # Östergötland
 	allow = {
 		OR = {
 			AND = {
@@ -212,36 +205,30 @@ k_geats = {
 e_germany = {
 	color = { 190 200 190 }
 	color2 = { 220 220 20 }
-	capital = 121
-	# Nassau
+	capital = 121 # Nassau
 	culture = german
 	allow = {
 		always = no
 	}
 }
 k_avaria = {
-	color = { 250 120 90 }
-	# Only for the CoA
+	color = { 250 120 90 } # Only for the CoA
 	culture = avar
-	capital = 444
-	# Anhalt
+	capital = 444 # Anhalt
 	allow = {
 		always = no
 	}
 }
 k_lombardy = {
-	color = { 234 217 110 }
-	# Only for the CoA
+	color = { 234 217 110 } # Only for the CoA
 	culture = lombard
-	capital = 234
-	# Anhalt
+	capital = 234 # Anhalt
 	allow = {
 		always = no
 	}
 }
 d_lauenburg = {
-	capital = 1098
-	#Lauenburg
+	capital = 1098 #Lauenburg
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -259,8 +246,7 @@ d_lauenburg = {
 	}
 }
 d_sangermano = {
-	capital = 935
-	#Sangermano
+	capital = 935 #Sangermano
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -273,8 +259,7 @@ d_sangermano = {
 k_salerno = {
 	color = { 0 132 250 }
 	culture = langobardisch
-	capital = 336
-	# Salerno
+	capital = 336 # Salerno
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -284,8 +269,7 @@ k_salerno = {
 d_austrialombardic = {
 	color = { 4 33 122 }
 	culture = langobardisch
-	capital = 319
-	#Verona
+	capital = 319 #Verona
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -296,10 +280,8 @@ d_austrialombardic = {
 d_neustria = {
 	color = { 4 33 11 }
 	culture = langobardisch
-	capital = 234
-	#Pavia
-	dignity = 15
-	# Counted as having 15 more counties than it does
+	capital = 234 #Pavia
+	dignity = 15 # Counted as having 15 more counties than it does
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -312,8 +294,7 @@ d_neustria = {
 d_tuscia = {
 	color = { 250 241 220 }
 	culture = langobardisch
-	capital = 323
-	#Lucca
+	capital = 323 #Lucca
 	allow = {
 		culture = langobardisch
 		religion_group = christian
@@ -324,8 +305,7 @@ d_tuscia = {
 k_duklja = {
 	color = { 224 186 36 }
 	culture = serbian
-	capital = 469
-	#Zeta
+	capital = 469 #Zeta
 	allow = {
 		k_serbia = {
 			has_holder = no
@@ -341,7 +321,7 @@ k_duklja = {
 k_austria = {
 	color = { 188 0 7 }
 	culture = german
-	capital = 449
+	capital = 449 #Österreich
 	allow = {
 		culture = german
 		religion_group = christian
@@ -354,7 +334,7 @@ k_austria = {
 }
 d_smaland = {
 	color = { 88 138 70 }
-	capital = 298
+	capital = 298 # Småland
 	allow = {
 		OR = {
 			has_landed_title = c_smaland
@@ -388,11 +368,9 @@ d_smaland = {
 e_occitania = {
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
-	capital = 214
-	# Toulouse
+	capital = 214 # Toulouse
 	culture = occitan
-	dignity = 100
-	# Counted as having 100 more counties than it does
+	dignity = 100 # Counted as having 100 more counties than it does
 	allow = {
 		OR = {
 			culture = occitan
@@ -450,8 +428,7 @@ e_occitania = {
 k_flanders = {
 	color = { 255 120 0 }
 	color2 = { 255 255 255 }
-	capital = 78
-	# Brugge
+	capital = 78 # Brugge
 	allow = {
 		has_landed_title = d_flanders
 		OR = {
@@ -473,12 +450,10 @@ k_flanders = {
 	}
 }
 # ARKO
-d_narbonne = {
-	#titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
+d_narbonne = { #titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
-	capital = 214
-	# Toulouse
+	capital = 214 # Toulouse
 	culture = occitan
 	allow = {
 		always = no
@@ -487,8 +462,7 @@ d_narbonne = {
 # King
 d_paulicians = {
 	color = { 78 33 125 }
-	capital = 1998
-	#Tephrike
+	capital = 1998 #Tephrike
 	allow = {
 		OR = {
 			culture = greek
@@ -527,8 +501,7 @@ d_paulicians = {
 k_armenia_minor = {
 	color = { 14 30 131 }
 	culture = armenian
-	capital = 735
-	#Teluch
+	capital = 735 #Teluch
 	allow = {
 		culture = armenian
 		religion_group = christian
@@ -537,7 +510,7 @@ k_armenia_minor = {
 k_bagratid_grand_principality = {
 	color = { 117 178 81 }
 	culture = armenian
-	capital = 681
+	capital = 681 #Ani
 	allow = {
 		culture = armenian
 		religion_group = christian
@@ -548,8 +521,7 @@ k_bagratid_grand_principality = {
 }
 d_pagania = {
 	color = { 114 230 1 }
-	capital = 1330
-	#Omis
+	capital = 1330 #Omis
 	allow = {
 		OR = {
 			culture = serbian
@@ -560,7 +532,7 @@ d_pagania = {
 }
 d_rhodos = {
 	color = { 144 230 19 }
-	capital = 483
+	capital = 483 #Rhodos
 	allow = {
 		OR = {
 			culture = greek
@@ -574,8 +546,7 @@ d_rhodos = {
 }
 d_dahlak = {
 	color = { 255 164 17 }
-	capital = 1592
-	#Dahlak
+	capital = 1592 #Dahlak
 	allow = {
 		OR = {
 			culture = bedouin_arabic
@@ -587,8 +558,7 @@ d_dahlak = {
 }
 d_siraf = {
 	color = { 40 200 200 }
-	capital = 1594
-	#Siraf
+	capital = 1594 #Siraf
 	allow = {
 		OR = {
 			culture = persian
@@ -600,7 +570,7 @@ d_siraf = {
 }
 e_wendish_empire = {
 	color = { 65 25 125 }
-	capital = 441
+	capital = 441 # Brno
 	allow = {
 		OR = {
 			religion = catholic

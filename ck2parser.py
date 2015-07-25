@@ -59,35 +59,20 @@ class Stringifiable(object):
     def indent_col(self):
         return self.indent * TAB_WIDTH
 
-class ListWrapper(object):
-    def __getattr__(self, name):
-        if name in ['__length_hint__', '__delitem__', '__contains__', 'append',
-                    'count', 'index', 'extend', 'insert', 'pop', 'remove',
-                    'reverse', 'sort',  '__add__', '__radd__', '__iadd__',
-                    '__mul__', '__rmul__', '__imul__']:
-            return getattr(self.contents, name)
-        raise AttributeError(name)
-
-    def __len__(self):
-        return len(self.contents)
-
-    def __getitem__(self, key):
-        return self.contents[key]
-
-    def __setitem__(self, key, value):
-        self.contents[key] = value
-
-    def __reversed__(self):
-        return reversed(self.contents)
-
-    def __iter__(self):
-        return iter(self.contents)
-
-class TopLevel(Stringifiable, ListWrapper):
+class TopLevel(Stringifiable):
     def __init__(self, contents, post_comments):
         self.contents = contents
         self.post_comments = post_comments
         super().__init__()
+
+    def __len__(self):
+        return len(self.contents)
+
+    def __contains__(self, item):
+        return item in self.contents
+
+    def __iter__(self):
+        return iter(self.contents)
 
     @property
     def indent(self):
@@ -100,9 +85,9 @@ class TopLevel(Stringifiable, ListWrapper):
             item.indent = value
 
     def str(self):
-        s = '\n'.join(x.str() for x in self)
-        s += '\n'.join(x for x in self.post_comments)
-        s += '\n'
+        s = ''.join(x.str() for x in self)
+        if self.post_comments:
+            s += '\n'.join(x for x in self.post_comments) + '\n'
         return s
 
 class Commented(Stringifiable):
@@ -233,7 +218,10 @@ class Pair(Stringifiable):
         s = self.indent * '\t'
         self_is, _ = self.inline_str(self.indent_col)
         if self_is[-1].isspace():
-            s += self_is[:-self.indent]
+            if self.indent:
+                s += self_is[:-self.indent]
+            else:
+                s += self_is
         else:
             s += self_is + '\n'
         return s
@@ -287,7 +275,7 @@ class Pair(Stringifiable):
                 col = self.indent_col
         return s, (nl, col)
 
-class Obj(Stringifiable, ListWrapper):
+class Obj(Stringifiable):
     def __init__(self, kel, contents, ker):
         self.kel = kel
         self.contents = contents
@@ -297,6 +285,15 @@ class Obj(Stringifiable, ListWrapper):
     @classmethod
     def from_iter(cls, contents):
         return cls(Op.from_str('{'), list(contents), Op.from_str('}'))
+
+    def __len__(self):
+        return len(self.contents)
+
+    def __contains__(self, item):
+        return item in self.contents
+
+    def __iter__(self):
+        return iter(self.contents)
 
     @property
     def indent(self):
@@ -323,10 +320,21 @@ class Obj(Stringifiable, ListWrapper):
         s = self.indent * '\t'
         self_is, _ = self.inline_str(self.indent_col)
         if self_is[-1].isspace():
-            s += self_is[:-self.indent]
+            if self.indent:
+                s += self_is[:-self.indent]
+            else:
+                s += self_is
         else:
             s += self_is + '\n'
         return s
+
+    def might_fit_on_line(self):
+        if self.kel.has_comments or self.ker.pre_comments:
+            return False
+        if self.contents and isinstance(self.contents[0], Pair):
+            return False
+        return all(isinstance(x, Commented) and not x.has_comments
+                   for x in self)
 
     def inline_str(self, col):
         s = ''
@@ -335,10 +343,7 @@ class Obj(Stringifiable, ListWrapper):
         s += kel_is
         nl += nl_kel
         col += col_kel
-        if (not self.kel.has_comments and not self.ker.pre_comments and
-            (not self or len(self) == 1 and not self[0].has_comments or
-             (all(isinstance(x, Commented) and not x.has_comments
-                  for x in self)))):
+        if self.might_fit_on_line():
             # attempt one line object
             s_oneline, col_oneline = s, col
             for item in self:
@@ -356,16 +361,17 @@ class Obj(Stringifiable, ListWrapper):
                 col_oneline = col_ker
                 nl = nl_ker
                 return s_oneline, (nl_ker, col_oneline)
-        if len(self) == 0 or isinstance(self[0], Pair):
+        if len(self) == 0 or isinstance(self.contents[0], Pair):
             if s[-1].isspace():
-                s = s[:-self.indent]
+                if self.indent:
+                    s = s[:-self.indent]
             else:
                 s += '\n'
                 nl += 1
             for item in self:
                 item_s = item.str()
-                s += item_s + '\n'
-                nl += item_s.count('\n') + 1
+                s += item_s
+                nl += item_s.count('\n')
             s += self.indent * '\t'
             col = self.indent_col
         else:
@@ -419,7 +425,11 @@ nl = skip(many(some('newline')))
 end = nl + skip(parser.finished)
 comment = some('comment')
 commented = lambda x: (many(nl + comment) + nl + x + maybe(comment))
-op = lambda s: commented(parser.a(lexer.Token('op', s))) >> unarg(Op)
+
+def op(s):
+    return (commented(parser.a(lexer.Token('op', s)) >>
+            (lambda tok: tok.value)) >> unarg(Op))
+
 unquoted_string = commented(some('unquoted_string')) >> unarg(String)
 quoted_string = commented(some('quoted_string') >> unquote) >> unarg(String)
 number = commented(some('number')) >> unarg(Number)

@@ -59,18 +59,19 @@ def main():
         for n2, v2 in v:
             if ck2parser.is_codename(n2.val):
                 if n2.val.startswith('b_'):
-                    for p3 in reversed(v2):
+                    for p3 in reversed(v2.contents):
                         if p3.key.val in cultures:
-                            v2.remove(p3)
+                            v2.contents.remove(p3)
                 else:
-                    for p3 in reversed(v2):
+                    for p3 in reversed(v2.contents):
                         if p3.key.val in lt_keys:
-                            v2.remove(p3)
+                            v2.contents.remove(p3)
                     if sed2[n2.val]:
                         index = next(
                             (i for i, (n3, _) in enumerate(v2)
                              if ck2parser.is_codename(n3.val)), len(v2))
-                        v2[index:index] = sed2[n2.val]
+                        v2.contents[index:index] = sed2[n2.val]
+                        v2.indent = v2.indent
                 update_tree(v2, sed2, lt_keys)
 
     for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
@@ -87,6 +88,9 @@ def main():
                             for x in re.findall(r'[^"\s]+|"[^"]*"', val))
                     sed2[title].append(ck2parser.Pair.from_kv(key, val))
         tree = ck2parser.parse_file(inpath)
+        # from pprint import pprint
+        # # pprint(tree.str())
+        # pprint(tree.contents[0].str())
         update_tree(tree, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
