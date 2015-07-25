@@ -15,10 +15,8 @@ def get_cultures(where):
     cultures = []
     for path in ck2parser.files(where, 'common/cultures/*.txt'):
         tree = ck2parser.parse_file(path)
-        cultures.extend(n2 for _, _, _, v in tree[0]
-                        for _, n2, _, v2 in v[1]
-                        if isinstance(v2[1], list) and
-                        n2 not in ['male_names', 'female_names'])
+        cultures.extend(n2.val for _, v in tree for n2, v2 in v
+                        if n2.val != 'graphical_cultures')
     return cultures
 
 def main():
@@ -51,29 +49,30 @@ def main():
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     cultures = get_cultures(swmhpath)
-    lt_keys = ['title', 'title_female', 'foa', 'title_prefix', 'short_name',
+    lt_keys = [
+        'title', 'title_female', 'foa', 'title_prefix', 'short_name',
         'name_tier', 'location_ruler_title', 'dynasty_title_names',
         'male_names'] + cultures
+    ck2parser.fq_keys = cultures
 
     def update_tree(v, sed2, lt_keys):
-        for _, n2, _, v2 in v:
-            if ck2parser.is_codename(n2):
-                if n2.startswith('b_'):
-                    for p in reversed(v2[1]):
-                        _, n3, *_ = p
-                        if n3 in cultures:
-                            v2[1].remove(p)
+        for n2, v2 in v:
+            if ck2parser.is_codename(n2.val):
+                if n2.val.startswith('b_'):
+                    for p3 in reversed(v2.contents):
+                        if p3.key.val in cultures:
+                            v2.contents.remove(p3)
                 else:
-                    for p in reversed(v2[1]):
-                        _, n3, *_ = p
-                        if n3 in lt_keys:
-                            v2[1].remove(p)
-                    if sed2[n2]:
-                        index = next((i for i, (_, n3, *_) in enumerate(v2[1])
-                                     if ck2parser.is_codename(n3)), len(v2[1]))
-                        v2[1][index:index] = [([], n_, [], v_)
-                                              for n_, v_ in sed2[n2]]
-                update_tree(v2[1], sed2, lt_keys)
+                    for p3 in reversed(v2.contents):
+                        if p3.key.val in lt_keys:
+                            v2.contents.remove(p3)
+                    if sed2[n2.val]:
+                        index = next(
+                            (i for i, (n3, _) in enumerate(v2)
+                             if ck2parser.is_codename(n3.val)), len(v2))
+                        v2.contents[index:index] = sed2[n2.val]
+                        v2.indent = v2.indent
+                update_tree(v2, sed2, lt_keys)
 
     for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
         template = templates_lt / inpath.with_suffix('.csv').name
@@ -84,16 +83,17 @@ def main():
                 title, key, val = title.strip(), key.strip(), val.strip()
                 if val:
                     if key in ['male_names', 'female_names']:
-                        val = ([], [x.strip('"')
-                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)],
-                               [])
-                    else:
-                        val = [], val
-                    sed2[title].append((key, val))
-        item = ck2parser.parse_file(inpath)
-        update_tree(item[0], sed2, lt_keys)
+                        val = ck2parser.Obj.from_iter(
+                            ck2parser.String.from_str(x.strip('"'))
+                            for x in re.findall(r'[^"\s]+|"[^"]*"', val))
+                    sed2[title].append(ck2parser.Pair.from_kv(key, val))
+        tree = ck2parser.parse_file(inpath)
+        # from pprint import pprint
+        # # pprint(tree.str())
+        # pprint(tree.contents[0].str())
+        update_tree(tree, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(ck2parser.to_string(item, fq_keys=cultures))
+            f.write(tree.str())
 
 if __name__ == '__main__':
     main()

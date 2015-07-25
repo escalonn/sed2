@@ -1,7 +1,8 @@
 d_band_of_the_brave = {
 	color = { 91 183 102 }
 	color2 = { 255 255 255 }
-	capital = 52
+	capital = 52 # Northumberland
+	# Hire Trigger
 	allow = {
 		or = {
 			culture = saxon
@@ -14,10 +15,14 @@ d_band_of_the_brave = {
 			culture = english
 		}
 	}
+	# Parent Religion
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = d_band_of_the_brave_composition
 	strength_growth_per_century = 0.25
@@ -27,7 +32,8 @@ d_band_of_the_brave = {
 d_band_of_the_red = {
 	color = { 101 0 0 }
 	color2 = { 255 255 255 }
-	capital = 1258
+	capital = 1258 # Southiceland
+	# Hire Trigger
 	allow = {
 		or = {
 			culture_group = north_germanic
@@ -35,10 +41,14 @@ d_band_of_the_red = {
 			culture = anglonorse
 		}
 	}
+	# Parent Religion
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = d_band_of_the_red_composition
 	strength_growth_per_century = 0.25
@@ -48,14 +58,19 @@ d_band_of_the_red = {
 d_black_gang = {
 	color = { 101 0 0 }
 	color2 = { 255 255 255 }
-	capital = 84
+	capital = 84 # Friesland
+	# Hire Trigger
 	allow = {
 		culture = frisian
 	}
+	# Parent Religion
 	religion = catholic
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = d_black_gang_composition
 	strength_growth_per_century = 0.25
@@ -65,14 +80,19 @@ d_black_gang = {
 d_ulfhedar = {
 	color = { 231 232 227 }
 	color2 = { 255 255 255 }
-	capital = 271
+	capital = 271 # Vestfold
+	# Hire Trigger
 	allow = {
 		religion = norse_pagan
 	}
+	# Parent Religion
 	religion = norse_pagan
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = d_ulfhedar_composition
 	strength_growth_per_century = 0.25
@@ -82,14 +102,19 @@ d_ulfhedar = {
 d_valr = {
 	color = { 20 20 20 }
 	color2 = { 255 255 255 }
-	capital = 301
+	capital = 301 # Gotland
+	# Hire Trigger
 	allow = {
 		religion = norse_pagan
 	}
+	# Parent Religion
 	religion = norse_pagan
 	mercenary = yes
+	# Always exists
 	landless = yes
+	# Cannot be held as a secondary title
 	primary = yes
+	# Cannot be vassalized
 	independent = yes
 	mercenary_type = d_valr_composition
 	strength_growth_per_century = 0.25
