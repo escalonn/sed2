@@ -60,9 +60,7 @@ d_black_gang = {
 	color2 = { 255 255 255 }
 	capital = 84 # Friesland
 	# Hire Trigger
-	allow = {
-		culture = frisian
-	}
+	allow = { culture = frisian }
 	# Parent Religion
 	religion = catholic
 	mercenary = yes
@@ -82,9 +80,7 @@ d_ulfhedar = {
 	color2 = { 255 255 255 }
 	capital = 271 # Vestfold
 	# Hire Trigger
-	allow = {
-		religion = norse_pagan
-	}
+	allow = { religion = norse_pagan }
 	# Parent Religion
 	religion = norse_pagan
 	mercenary = yes
@@ -104,9 +100,7 @@ d_valr = {
 	color2 = { 255 255 255 }
 	capital = 301 # Gotland
 	# Hire Trigger
-	allow = {
-		religion = norse_pagan
-	}
+	allow = { religion = norse_pagan }
 	# Parent Religion
 	religion = norse_pagan
 	mercenary = yes

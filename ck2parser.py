@@ -1,9 +1,13 @@
 import csv
 import datetime
 import operator
+import pathlib
 import re
 from funcparserlib import lexer
 from funcparserlib import parser
+
+vanilladir = pathlib.Path(
+    'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
 
 csv.register_dialect('ckii', delimiter=';', doublequote=False,
                      quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)
@@ -17,8 +21,31 @@ def force_quote(key):
     global fq_keys
     return isinstance(key, String) and key.val in fq_keys
 
-def files(where, glob):
-    yield from sorted(where.glob(glob), key=operator.attrgetter('parts'))
+# give mod dirs in descending lexicographical order of mod name (Z-A),
+# modified for dependencies as necessary.
+def files(glob, *moddirs, basedir=vanilladir):
+    result_paths = {p.relative_to(d): p
+                    for d in (basedir,) + moddirs for p in d.glob(glob)}
+    for _, p in sorted(result_paths.items(), key=lambda t: t[0].parts):
+        yield p
+
+def localisation(moddir=None):
+    def process_csv(path):
+        with path.open(newline='', encoding='cp1252', errors='replace') as f:
+            for row in csv.reader(f, dialect='ckii'):
+                try:
+                    locs[row[0]] = row[1]
+                except IndexError:
+                    continue
+
+    locs = {}
+    loc_glob = 'localisation/*.csv'
+    for path in files(loc_glob):
+        process_csv(path)
+    if moddir:
+        for path in files(loc_glob, basedir=moddir):
+            process_csv(path)
+    return locs
 
 def is_codename(string):
     try:
@@ -27,7 +54,7 @@ def is_codename(string):
         return False
 
 def chars(line):
-    line = line.splitlines()[-1]
+    line = str(line).splitlines()[-1]
     return len(line) + line.count('\t') * (TAB_WIDTH - 1)
 
 token_specs = [
@@ -42,6 +69,15 @@ token_specs = [
 ]
 useless = ['whitespace']
 tokenize = lexer.make_tokenizer(token_specs)
+
+class Comment(object):
+    def __init__(self, string):
+        if string[0] == '#':
+            string = string[1:]
+        self.val = string.strip(' \t')
+
+    def __str__(self):
+        return ('# ' if self.val and self.val[0] != '#' else '#') + self.val
 
 class Stringifiable(object):
     def __init__(self):
@@ -62,7 +98,7 @@ class Stringifiable(object):
 class TopLevel(Stringifiable):
     def __init__(self, contents, post_comments):
         self.contents = contents
-        self.post_comments = post_comments
+        self.post_comments = [Comment(s) for s in post_comments]
         super().__init__()
 
     def __len__(self):
@@ -87,14 +123,14 @@ class TopLevel(Stringifiable):
     def str(self):
         s = ''.join(x.str() for x in self)
         if self.post_comments:
-            s += '\n'.join(x for x in self.post_comments) + '\n'
+            s += '\n'.join(str(c) for c in self.post_comments) + '\n'
         return s
 
 class Commented(Stringifiable):
     def __init__(self, pre_comments, string, post_comment):
-        self.pre_comments = pre_comments
+        self.pre_comments = [Comment(s) for s in pre_comments]
         self.val = self.str_to_val(string)
-        self.post_comment = post_comment
+        self.post_comment = Comment(post_comment) if post_comment else None
         super().__init__()
 
     @classmethod
@@ -118,10 +154,10 @@ class Commented(Stringifiable):
     def str(self):
         s = self.indent * '\t'
         if self.pre_comments:
-            s += ('\n' + s).join(self.pre_comments) + '\n'
+            s += ('\n' + s).join(str(self.pre_comments)) + '\n'
         s += self.val_str()
         if self.post_comment:
-            s += ' ' + self.post_comment
+            s += ' ' + str(self.post_comment)
         s += '\n'
         return s
 
@@ -134,14 +170,14 @@ class Commented(Stringifiable):
                 col + chars(self.pre_comments[0]) > CHARS_PER_LINE):
                 s += sep
                 nl += 1
-            s += sep.join(self.pre_comments) + sep
+            s += sep.join(str(c) for c in self.pre_comments) + sep
             nl += len(self.pre_comments)
             col = self.indent_col
         val_is, col_val = self.val_inline_str(col)
         s += val_is
         col = col_val
         if self.post_comment:
-            s += ' ' + self.post_comment + sep
+            s += ' ' + str(self.post_comment) + sep
             nl += 1
             col = self.indent_col
         return s, (nl, col)
@@ -269,10 +305,6 @@ class Pair(Stringifiable):
             s += val_is
             nl += nl_val
             col = col_val
-            if not self.value.post_comment:
-                s += '\n' + self.indent * '\t'
-                nl += 1
-                col = self.indent_col
         return s, (nl, col)
 
 class Obj(Stringifiable):
@@ -294,6 +326,10 @@ class Obj(Stringifiable):
 
     def __iter__(self):
         return iter(self.contents)
+
+    @property
+    def has_pairs(self):
+        return not self.contents or isinstance(self.contents[0], Pair)
 
     @property
     def indent(self):
@@ -332,7 +368,7 @@ class Obj(Stringifiable):
         if self.kel.has_comments or self.ker.pre_comments:
             return False
         if self.contents and isinstance(self.contents[0], Pair):
-            return False
+            return len(self) == 1 and not self.contents[0].has_comments
         return all(isinstance(x, Commented) and not x.has_comments
                    for x in self)
 
@@ -342,26 +378,26 @@ class Obj(Stringifiable):
         kel_is, (nl_kel, col_kel) = self.kel.inline_str(col)
         s += kel_is
         nl += nl_kel
-        col += col_kel
+        col = col_kel
         if self.might_fit_on_line():
             # attempt one line object
             s_oneline, col_oneline = s, col
             for item in self:
-                item_is, (_, col_item) = item.inline_str(1 + col_oneline)
+                item_is, (nl_item, col_item) = item.inline_str(1 + col_oneline)
                 s_oneline += ' ' + item_is
                 col_oneline = col_item
-                if col_oneline + 2 > CHARS_PER_LINE:
+                if nl_item > 0 or col_oneline + 2 > CHARS_PER_LINE:
                     break
             else:
-                if self:
+                if self.contents:
                     s_oneline += ' '
                     col_oneline += 1
                 ker_is, (nl_ker, col_ker) = self.ker.inline_str(col_oneline)
-                s_oneline += ker_is
-                col_oneline = col_ker
-                nl = nl_ker
-                return s_oneline, (nl_ker, col_oneline)
-        if len(self) == 0 or isinstance(self.contents[0], Pair):
+                if (nl_ker == 0 or
+                    chars(ker_is.splitlines()[0]) > CHARS_PER_LINE):
+                    s_oneline += ker_is
+                    return s_oneline, (nl_ker, col_ker)
+        if self.has_pairs:
             if s[-1].isspace():
                 if self.indent:
                     s = s[:-self.indent]
@@ -405,8 +441,10 @@ class Obj(Stringifiable):
         ker_is, (nl_ker, col_ker) = self.ker.inline_str(col)
         s += ker_is
         nl += nl_ker
-        col += col_ker
+        col = col_ker
         return s, (nl, col)
+
+flag = False
 
 def unquote(string):
     return string[1:-1]

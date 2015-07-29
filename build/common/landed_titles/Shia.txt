@@ -14,9 +14,7 @@ k_shiite = {
 			trait = sayyid
 			piety = 1000
 		}
-		NOT = {
-			has_global_flag = shia_caliphate_revolt_ongoing
-		}
+		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
 		OR = {
 			AND = {
 				trait = sayyid

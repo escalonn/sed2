@@ -1,17 +1,15 @@
 ##############
-#Tribal titles
+# Tribal titles
 ##############
 ######################################
 # Baltic
 ######################################
-#Latvian tribes
+# Latvian tribes
 #####
 d_curonian = {
 	color = { 141 55 29 }
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	capital = 373 # Kurzeme
 	culture = lettigallish
 	title = HIGH_CHIEF
@@ -22,11 +20,9 @@ d_selonians = {
 	color = { 22 96 143 }
 	color2 = { 255 255 255 }
 	culture = lettigallish
-	#tribe = yes
+	# tribe = yes
 	capital = 985 # Selija
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -35,21 +31,17 @@ d_talavians = {
 	color = { 169 41 27 }
 	color2 = { 255 255 255 }
 	culture = lettigallish
-	#tribe = yes
+	# tribe = yes
 	capital = 375 # Talava
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 d_lettigalians = {
 	color = { 126 51 51 }
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	capital = 375 # Letigalia
 	culture = lettigallish
 	title = HIGH_CHIEF
@@ -59,27 +51,23 @@ d_lettigalians = {
 d_zemigalians = {
 	color = { 183 21 21 }
 	culture = lettigallish
-	#tribe = yes
+	# tribe = yes
 	capital = 374 # zemgali
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Lithuanian tribes
+# Lithuanian tribes
 #####
 d_deltuvians = {
 	color = { 81 164 104 }
 	color2 = { 255 255 255 }
 	culture = lithuanian
-	#tribe = yes
+	# tribe = yes
 	capital = 979 # Deltuva
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -87,24 +75,20 @@ d_deltuvians = {
 d_yatviags = {
 	color = { 149 97 97 }
 	capital = 426 # Dainava
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = lithuanian
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Prussian tribes
+# Prussian tribes
 #####
 d_pruthenians = {
 	color = { 159 195 75 }
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	capital = 370 # Marienburg
 	culture = prussian
 	title = HIGH_CHIEF
@@ -114,17 +98,15 @@ d_pruthenians = {
 ######################################
 # West Slavic
 ######################################
-#Wendic tribes
+# Wendic tribes
 #####
 d_veleti = {
 	color = { 115 92 133 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 307 # Werle
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -133,11 +115,9 @@ d_wolinians = {
 	color = { 115 92 56 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 1267 # Szvuine
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -146,11 +126,9 @@ d_chutizi = {
 	color = { 81 126 201 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 310 # Anhalt
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -159,11 +137,9 @@ d_leubuzzi = {
 	color = { 191 188 175 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 430 # Lubusz
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -172,11 +148,9 @@ d_glomacze = { # Aka Dolomici
 	color = { 215 143 156 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 312 # Meissen
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -185,11 +159,9 @@ d_sorbs = {
 	color = { 170 205 110 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 364 # Luzycka
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -198,43 +170,37 @@ d_obotrites = {
 	color = { 100 110 20 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
-	#tribe = yes
+	# tribe = yes
 	capital = 260 # Mecklenburg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Polish tribes
+# Polish tribes
 #####
 d_lendians = { # aka Ledzianie or Lechs
 	color = { 245 163 176 }
 	color2 = { 255 255 255 }
 	culture = polish
-	#tribe = yes
+	# tribe = yes
 	capital = 527 # Krakowskie
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Bohemian and Moravian tribes
+# Bohemian and Moravian tribes
 #####
 d_bohemians = {
 	color = { 191 117 13 }
 	color2 = { 255 255 255 }
 	capital = 437 # Praha
 	culture = bohemian
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	title_prefix = TRIBE_OF
 }
 ######################################
@@ -244,11 +210,9 @@ d_drevlyans = {
 	color = { 115 31 56 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 1280 # Iskorosten
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -257,11 +221,9 @@ d_ulichs = {
 	color = { 39 77 104 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 541 # Peresechen
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -270,11 +232,9 @@ d_volhynians = {
 	color = { 191 165 46 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 535 # Vladimir Volynsky
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -283,11 +243,9 @@ d_buzhans = {
 	color = { 82 81 75 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 1286 # Kamyanetspodilsky
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -296,11 +254,9 @@ d_tivertsi = {
 	color = { 54 92 124 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 1283 # Cern
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -308,10 +264,8 @@ d_tivertsi = {
 d_meshcheras = {
 	color = { 151 71 41 }
 	capital = 580 # Ryazan
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -321,11 +275,9 @@ d_kryvians = { # aka Krivichi
 	color = { 128 133 104 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 419 # Polotsk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -334,11 +286,9 @@ d_severians = { # aka Severiane
 	color = { 120 155 40 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 567 # Novgorod Seversky
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -347,11 +297,9 @@ d_vyatichi = {
 	color = { 169 183 125 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 570 # Tver
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -360,11 +308,9 @@ d_dregovichi = {
 	color = { 100 100 20 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 548 # Pinsk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -373,17 +319,15 @@ d_radimichi = {
 	color = { 110 136 68 }
 	color2 = { 255 255 255 }
 	culture = russian
-	#tribe = yes
+	# tribe = yes
 	capital = 551 # Mstislavl
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 ##############
-#Mongol
+# Mongol
 d_naimans = {
 	color = { 75 195 50 }
 	culture = mongol
@@ -395,136 +339,110 @@ d_naimans = {
 d_yawdi_ertim = { # aka Shining horses
 	color = { 171 21 162 }
 	color2 = { 255 255 255 }
-	capital = 556 #Khortitza
+	capital = 556 # Khortitza
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_kuerchi_chur = { # aka blue horses
 	color = { 44 53 106 }
 	color2 = { 255 255 255 }
-	capital = 558 #Lower dneiper
+	capital = 558 # Lower dneiper
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_qabuqsin_yula = { # aka bark colored horses
 	color = { 147 152 87 }
 	color2 = { 255 255 255 }
-	capital = 557 #Lukomorie
+	capital = 557 # Lukomorie
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_suru_kulbej = { # aka grey horses of the bey.
 	color = { 182 198 176 }
 	color2 = { 255 255 255 }
-	capital = 566 #Sugrov/Donents
+	capital = 566 # Sugrov/Donents
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_qara_bay = { # aka black horses.
 	color = { 38 41 37 }
 	color2 = { 255 255 255 }
-	capital = 511 #Basarabia
+	capital = 511 # Basarabia
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_boru_tolmach = { # aka grey horses of the tolmach.
 	color = { 105 111 102 }
 	color2 = { 255 255 255 }
-	capital = 597 #Azov
+	capital = 597 # Azov
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_yazi_qapan = { # aka darkbrown horses.
 	color = { 145 99 10 }
 	color2 = { 255 255 255 }
-	capital = 1149 #Buzau
+	capital = 1149 # Buzau
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_bula_chopan = { # aka piebald horses
 	color = { 133 102 112 }
 	color2 = { 255 255 255 }
-	capital = 605 #manych
+	capital = 605 # manych
 	culture = pecheneg
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 ######################################
-#Uighur
+# Uighur
 ######################################
 d_uighurs = {
 	color = { 113 91 255 }
-	#tribe = yes
+	# tribe = yes
 	culture = uighur
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1570 # Qarashahr
 	title = Idiqut
 	foa = Idiqut_FOA
 	title_prefix = Yabghuluq_OF
 }
 ######################################
-#Kirghiz
+# Kirghiz
 ######################################
 d_qirghiz = {
 	color = { 147 21 39 }
-	#tribe = yes
+	# tribe = yes
 	culture = kirghiz
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1580 # Jungaria
 	title = Elteber
 	foa = Elteber_FOA
 	title_prefix = Elteberluq_OF
 }
 ######################################
-#Oghuz
+# Oghuz
 ######################################
 # Uzes tribes
 d_salgur = {
 	color = { 154 92 24 }
 	color2 = { 255 255 255 }
 	culture = oghuz
-	#tribe = yes
+	# tribe = yes
 	capital = 607 # Sarpa
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_tekule = {
 	color = { 40 91 60 }
 	color2 = { 255 255 255 }
 	culture = oghuz
-	#tribe = yes
+	# tribe = yes
 	capital = 896 # Op
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_oghuz = {
 	color = { 143 22 61 }
-	#tribe = yes
+	# tribe = yes
 	culture = turkish
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 900 # Jand
 	title = Yabghu
 	foa = Yabghu_FOA
@@ -533,13 +451,11 @@ d_oghuz = {
 d_iraqiya_oghuz = {
 	color = { 210 45 45 }
 	culture = oghuz
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 683 # Amida
 }
 ######################################
-#Karluk
+# Karluk
 ######################################
 d_qarluq = {
 	color = { 65 100 130 }
@@ -548,11 +464,9 @@ d_qarluq = {
 }
 d_yaghma = {
 	color = { 58 110 170 }
-	#tribe = yes
+	# tribe = yes
 	culture = karluk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1568 # Aqsu
 	title = Yabghu
 	foa = Yabghu_FOA
@@ -560,11 +474,9 @@ d_yaghma = {
 }
 d_chigil = {
 	color = { 65 100 130 }
-	#tribe = yes
+	# tribe = yes
 	culture = karluk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1573 # Talas
 	title = Yabghu
 	foa = Yabghu_FOA
@@ -572,11 +484,9 @@ d_chigil = {
 }
 d_basmils = {
 	color = { 147 21 39 }
-	#tribe = yes
+	# tribe = yes
 	culture = karluk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1574 # Emil
 	title = Yabghu
 	foa = Yabghu_FOA
@@ -584,26 +494,22 @@ d_basmils = {
 }
 d_tukhsi = {
 	color = { 147 21 39 }
-	#tribe = yes
+	# tribe = yes
 	culture = karluk
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1572 # Balasaghnun
 	title = Yabghu
 	foa = Yabghu_FOA
 	title_prefix = Yabghuluq_OF
 }
 ######################################
-#Qipchaq
+# Qipchaq
 ######################################
 d_qipchaq = {
 	color = { 137 41 59 }
-	#tribe = yes
+	# tribe = yes
 	culture = cuman
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 1576 # Ayaguz
 	title = Opa
 	foa = Opa_FOA
@@ -614,169 +520,137 @@ d_ay_opa = {
 	color = { 33 1 66 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 898
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_dorut = {
 	color = { 130 50 6 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 895
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_terteroba = {
 	color = { 80 83 50 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 543
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_toqsoba = {
 	color = { 28 30 150 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 565
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_yimek = {
 	color = { 128 30 110 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 608
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_enchogli = {
 	color = { 99 71 16 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 1149
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_olberlig = {
 	color = { 43 60 70 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 619
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_targil = {
 	color = { 240 60 10 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 620
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_qongurogli = {
 	color = { 20 230 190 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 557
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_oren = {
 	color = { 220 200 190 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 597
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_qor = {
 	color = { 20 20 60 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 511
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_burchali = {
 	color = { 14 230 78 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 513
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_chortan = {
 	color = { 146 29 18 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 559
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_ulasgoli = {
 	color = { 89 134 185 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 512
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_urusoba = {
 	color = { 189 10 18 }
 	color2 = { 255 255 255 }
 	culture = cuman
-	#tribe = yes
+	# tribe = yes
 	capital = 556
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 ######################################
-#Khazars
+# Khazars
 ######################################
 d_kabars = {
 	color = { 18 200 18 }
 	color2 = { 255 255 255 }
 	culture = khazar
-	#tribe = yes
+	# tribe = yes
 	capital = 520
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 ######################################
 ######################################
 ######################################
-#Persians
+# Persians
 ######################################
 d_zunbil = {
 	color = { 255 150 81 }
@@ -786,62 +660,52 @@ d_zunbil = {
 d_shabankara = {
 	color = { 244 190 91 }
 	culture = kurdish
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	capital = 642 # Larestan
 }
 ######################################
 ######################################
 ######################################
-#Vlach
+# Vlach
 ######################################
 d_brodniks = {
 	color = { 181 70 28 }
 	color2 = { 255 255 255 }
 	culture = romanian
-	#tribe = yes
+	# tribe = yes
 	capital = 515
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_bolohoveni = {
 	color = { 40 170 88 }
 	color2 = { 255 255 255 }
 	culture = romanian
-	#tribe = yes
+	# tribe = yes
 	capital = 1147
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 ######################################
 ######################################
 ######################################
-#Finns
+# Finns
 ######################################
-#Komi tribes
+# Komi tribes
 #####
 d_zyriane = {
 	color = { 200 170 60 }
 	color2 = { 255 255 255 }
 	culture = komi
 	capital = 400 # Vychegda
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 #####
-#Mari tribes
+# Mari tribes
 #####
 d_maris = {
 	color = { 150 130 45 }
 	capital = 588 # Mari
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -852,43 +716,35 @@ d_maris_vetluga = {
 	color2 = { 255 255 255 }
 	culture = mari
 	capital = 589 # Vetluga
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_meryas = {
 	color = { 131 41 41 }
 	capital = 574 # Rostov / Merya
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 ######
-#Mordvin tribes
+# Mordvin tribes
 ######
 d_mordvins_erza = {
 	color = { 150 47 47 }
 	color2 = { 255 255 255 }
 	culture = mordvin
-	#tribe = yes
+	# tribe = yes
 	capital = 579 # Moksha
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_mordvins = {
 	color = { 148 165 45 }
 	color2 = { 255 255 255 }
 	capital = 591 # Cheremisa(Sura)
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -948,10 +804,8 @@ d_burtas = {
 	color = { 161 100 162 }
 	color2 = { 255 255 255 }
 	capital = 592 # Barysh
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -960,58 +814,48 @@ d_burtas = {
 d_muromians = {
 	color = { 160 120 75 }
 	capital = 581 # Murom
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = mordvin
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 ######
-#Vepsian tribes
+# Vepsian tribes
 ######
 d_lyydians = {
 	color = { 105 138 187 }
 	color2 = { 255 255 255 }
 	culture = vepsian
-	#tribe = yes
+	# tribe = yes
 	capital = 403 # Kargopol
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_chudes = {
 	color = { 113 39 124 }
 	color2 = { 255 255 255 }
 	culture = vepsian
-	#tribe = yes
+	# tribe = yes
 	capital = 406 # Vologda
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
-#Bjarmians
+# Bjarmians
 d_toimians = {
 	color = { 159 150 150 }
 	color2 = { 255 255 255 }
 	culture = vepsian
-	#tribe = yes
+	# tribe = yes
 	capital = 396 # Pinega
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_bjarmians = {
 	color = { 37 21 83 }
 	color2 = { 255 255 255 }
 	culture = vepsian
-	#tribe = yes
+	# tribe = yes
 	capital = 395 # North dvina
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	russian = "the Zavoloshka Chudes"
 	pommeranian = "the Zavoloshka Chudes"
 	polish = "the Zavoloshka Chudes"
@@ -1024,24 +868,20 @@ d_bjarmians = {
 	bulgarian = "the Zavoloshka Chudes"
 }
 ######
-#Karelian tribes
+# Karelian tribes
 ######
 d_livgians = {
 	color = { 99 152 70 }
 	color2 = { 255 255 255 }
 	culture = karelian
-	#tribe = yes
+	# tribe = yes
 	capital = 387 # Olonec
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }
 d_karelians = {
 	color = { 193 192 108 }
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	capital = 388
 	culture = karelian
 	title = HIGH_CHIEF
@@ -1050,10 +890,8 @@ d_karelians = {
 }
 d_horse_karelians = {
 	color = { 63 114 74 }
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	capital = 1296 # Viipuri
 	culture = karelian
 	title = HIGH_CHIEF
@@ -1061,15 +899,13 @@ d_horse_karelians = {
 	title_prefix = TRIBE_OF
 }
 #####
-#Estonian tribes
+# Estonian tribes
 #####
 d_estonia = {
 	color = { 94 60 22 }
 	capital = 378 # Reval
-	allow = {
-		always = no
-	}
-	#tribe = yes
+	allow = { always = no }
+	# tribe = yes
 	culture = ugricbaltic
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1079,11 +915,9 @@ d_ugandians = {
 	color = { 115 143 196 }
 	color2 = { 255 255 255 }
 	culture = ugricbaltic
-	#tribe = yes
+	# tribe = yes
 	capital = 379 # Dorpat
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -1092,11 +926,9 @@ d_oseelians = {
 	color = { 124 124 124 }
 	color2 = { 255 255 255 }
 	culture = ugricbaltic
-	#tribe = yes
+	# tribe = yes
 	capital = 376 # Osel
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -1105,11 +937,9 @@ d_rotalians = {
 	color = { 121 39 17 }
 	color2 = { 255 255 255 }
 	culture = ugricbaltic
-	#tribe = yes
+	# tribe = yes
 	capital = 987 # L‰‰nemaa
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -1118,27 +948,23 @@ d_vironians = {
 	color = { 30 25 90 }
 	color2 = { 255 255 255 }
 	culture = ugricbaltic
-	#tribe = yes
+	# tribe = yes
 	capital = 380 # Narva
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Livonian tribes
+# Livonian tribes
 #####
 d_sakalians = {
 	color = { 21 73 21 }
 	color2 = { 255 255 255 }
 	culture = livonian
-	#tribe = yes
+	# tribe = yes
 	capital = 377 # Sakala
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
@@ -1147,25 +973,21 @@ d_vanemas = {
 	color = { 95 160 73 }
 	color2 = { 255 255 255 }
 	culture = livonian
-	#tribe = yes
+	# tribe = yes
 	capital = 373 # Kurs
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Sami
+# Sami
 #####
 d_sami = {
 	color = { 101 99 35 }
 	capital = 850 # Kandalax
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = lappish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1182,15 +1004,13 @@ d_sami = {
 	bulgarian = "the Sami"
 }
 #####
-#Finns
+# Finns
 #####
 d_satakunta = {
 	color = { 117 47 47 }
-	#tribe = yes
+	# tribe = yes
 	capital = 384 # Satakunta
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = finnish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1198,11 +1018,9 @@ d_satakunta = {
 }
 d_tavasts = {
 	color = { 131 21 21 }
-	#tribe = yes
+	# tribe = yes
 	capital = 383 # Tavast
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = finnish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1210,11 +1028,9 @@ d_tavasts = {
 }
 d_suomi_finns = {
 	color = { 100 11 114 }
-	#tribe = yes
+	# tribe = yes
 	capital = 382 # Finland
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = finnish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1222,26 +1038,22 @@ d_suomi_finns = {
 }
 d_savonians = {
 	color = { 186 125 181 }
-	#tribe = yes
+	# tribe = yes
 	capital = 390 # Savolax
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = finnish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Ingrians
+# Ingrians
 #####
 d_votes = {
 	color = { 1 193 119 }
-	#tribe = yes
+	# tribe = yes
 	capital = 1268 # Koporje
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = ugricbaltic
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1249,26 +1061,22 @@ d_votes = {
 }
 d_ingrians = {
 	color = { 193 40 40 }
-	#tribe = yes
+	# tribe = yes
 	capital = 411 # Ingria
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 	culture = karelian
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 #####
-#Sami
+# Sami
 #####
 d_kylfings = {
 	color = { 11 114 28 }
 	capital = 280 # V‰sterbotten
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = lappish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1277,10 +1085,8 @@ d_kylfings = {
 d_kvens = {
 	color = { 117 47 47 }
 	capital = 385 # ÷sterbotten
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = lappish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
@@ -1289,25 +1095,21 @@ d_kvens = {
 d_kvens_birkarls = {
 	color = { 7 190 23 }
 	capital = 386
-	#tribe = yes
-	allow = {
-		always = no
-	}
+	# tribe = yes
+	allow = { always = no }
 	culture = lappish
 	title = HIGH_CHIEF
 	foa = HIGH_CHIEF_FOA
 	title_prefix = TRIBE_OF
 }
 ####
-#Samoyed
+# Samoyed
 ####
 d_samoyeds = {
 	color = { 217 118 50 }
 	color2 = { 255 255 255 }
 	culture = samoyed
-	#tribe = yes
+	# tribe = yes
 	capital = 397 # Izhma
-	allow = {
-		always = no
-	}
+	allow = { always = no }
 }

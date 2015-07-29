@@ -10,29 +10,27 @@ import ck2parser
 
 rootpath = pathlib.Path('..')
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
-vanillapath = pathlib.Path(
-    'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
-
-def get_locs(where):
-    locs = {}
-    for path in ck2parser.files(where, 'localisation/*.csv'):
-        with path.open(newline='', encoding='cp1252',
-                       errors='replace') as csvfile:
-            for row in csv.reader(csvfile, dialect='ckii'):
-                if len(row) >= 2:
-                    locs[row[0]] = row[1]
-    return locs
 
 def get_province_id(where):
-    province_id = collections.OrderedDict()
-    for path in ck2parser.files(where, 'history/provinces/*.txt'):
-        tree = ck2parser.parse_file(path)
-        try:
-            title = next(v.val for n, v in tree if n.val == 'title')
-        except StopIteration:
-            continue
-        number = int(path.name.split(' - ', maxsplit=1)[0])
-        province_id[title] = 'PROV{}'.format(number)
+    tree = ck2parser.parse_file(where / 'map/default.map')
+    defs = next(v.val for n, v in tree if n.val == 'definitions')
+    id_name = {}
+    with (where / 'map' / defs).open(newline='', encoding='cp1252') as csvfile:
+        for row in csv.reader(csvfile, dialect='ckii'):
+            try:
+                id_name[int(row[0])] = row[4]
+            except (IndexError, ValueError):
+                continue
+    province_id = {}
+    for path in ck2parser.files('history/provinces/*.txt', where):
+        number, name = path.stem.split(' - ')
+        if id_name[int(number)] == name:
+            tree = ck2parser.parse_file(path)
+            try:
+                title = next(v.val for n, v in tree if n.val == 'title')
+            except StopIteration:
+                continue
+            province_id[title] = 'PROV' + number
     return province_id
 
 def get_dynamics(where, cultures, prov_id):
@@ -52,13 +50,13 @@ def get_dynamics(where, cultures, prov_id):
                         dynamics[prov_id[n1.val]].append(v2.val)
             recurse(v1, n1)
 
-    for path in ck2parser.files(where, 'common/landed_titles/*.txt'):
+    for path in ck2parser.files('common/landed_titles/*.txt', where):
         recurse(ck2parser.parse_file(path))
     return dynamics
 
 def get_cultures(where):
     cultures = []
-    for path in ck2parser.files(where, 'common/cultures/*.txt'):
+    for path in ck2parser.files('common/cultures/*.txt', where):
         tree = ck2parser.parse_file(path)
         cultures.extend(n2.val for _, v in tree for n2, v2 in v
                         if n2.val != 'graphical_cultures')
@@ -67,7 +65,7 @@ def get_cultures(where):
 def get_religions(where):
     religions = []
     rel_groups = []
-    for path in ck2parser.files(where, 'common/religions/*.txt'):
+    for path in ck2parser.files('common/religions/*.txt', where):
         tree = ck2parser.parse_file(path)
         religions.extend(n2.val for _, v in tree for n2, v2 in v
                          if (isinstance(v2, ck2parser.Obj) and
@@ -77,25 +75,30 @@ def get_religions(where):
 
 def main():
     english = collections.defaultdict(str)
-    for path in ck2parser.files(rootpath, 'English SWMH/localisation/*.csv'):
+    for path in ck2parser.files('English SWMH/localisation/*.csv',
+                                basedir=rootpath):
         with path.open(newline='', encoding='cp1252') as csvfile:
             for row in csv.reader(csvfile, dialect='ckii'):
-                english[row[0]] = row[1]
-    province_id = get_province_id(swmhpath)
+                try:
+                    english[row[0]] = row[1]
+                except IndexError:
+                    continue
+    prov_id = get_province_id(swmhpath)
     cultures = get_cultures(swmhpath)
-    religions, rel_groups = get_religions(vanillapath)
-    dynamics = get_dynamics(swmhpath, cultures, province_id)
-    vanilla = get_locs(vanillapath)
+    religions, rel_groups = get_religions(swmhpath)
+    dynamics = get_dynamics(swmhpath, cultures, prov_id)
+    vanilla = ck2parser.localisation()
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
 
     templates = rootpath / 'SED2/templates'
-    for path in ck2parser.files(templates, 'localisation/*.csv'):
+    for path in ck2parser.files('localisation/*.csv', basedir=templates):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_loc.update({row[0].strip(): row[1].strip()
                              for row in csv.reader(csvfile, dialect='ckii')
                              if row[0] and '#' not in row[0]})
-    for path in ck2parser.files(templates, 'common/landed_titles/*.csv'):
+    for path in ck2parser.files('common/landed_titles/*.csv',
+                                basedir=templates):
         with path.open(newline='', encoding='cp1252') as csvfile:
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv.reader(csvfile, dialect='ckii')
@@ -120,7 +123,7 @@ def main():
         templates_t = pathlib.Path(td)
         (templates_t / 'localisation').mkdir(parents=True)
         (templates_t / 'common/landed_titles').mkdir(parents=True)
-        for inpath in ck2parser.files(swmhpath, 'localisation/*.csv'):
+        for inpath in ck2parser.files('localisation/*.csv', basedir=swmhpath):
             outpath = templates_t / 'localisation' / inpath.name
             out_rows = [
                 ['#CODE', 'SED2', 'SWMH', 'OTHERSWMH', 'SED1', 'VANILLA']]
@@ -149,7 +152,8 @@ def main():
             'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
-        for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
+        for inpath in ck2parser.files('common/landed_titles/*.txt',
+                                      basedir=swmhpath):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
             out_rows = [

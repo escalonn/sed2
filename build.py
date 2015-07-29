@@ -13,7 +13,7 @@ sed2path = rootpath / 'SED2'
 
 def get_cultures(where):
     cultures = []
-    for path in ck2parser.files(where, 'common/cultures/*.txt'):
+    for path in ck2parser.files('common/cultures/*.txt', where):
         tree = ck2parser.parse_file(path)
         cultures.extend(n2.val for _, v in tree for n2, v2 in v
                         if n2.val != 'graphical_cultures')
@@ -31,7 +31,7 @@ def main():
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
 
-    for inpath in ck2parser.files(swmhpath, 'localisation/*.csv'):
+    for inpath in ck2parser.files('localisation/*.csv', basedir=swmhpath):
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
@@ -74,7 +74,8 @@ def main():
                         v2.indent = v2.indent
                 update_tree(v2, sed2, lt_keys)
 
-    for inpath in ck2parser.files(swmhpath, 'common/landed_titles/*.txt'):
+    for inpath in ck2parser.files('common/landed_titles/*.txt',
+                                  basedir=swmhpath):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2 = collections.defaultdict(list)
