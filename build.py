@@ -7,7 +7,7 @@ import re
 import shutil
 import ck2parser
 
-rootpath = pathlib.Path('..')
+rootpath = pathlib.Path('C:/Users/Nicholas/Documents/CK2')
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
