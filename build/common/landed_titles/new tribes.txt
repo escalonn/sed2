@@ -477,7 +477,7 @@ d_chigil = {
 	# tribe = yes
 	culture = karluk
 	allow = { always = no }
-	capital = 1573 # Talas
+	capital = 1563 # Talas
 	title = Yabghu
 	foa = Yabghu_FOA
 	title_prefix = Yabghuluq_OF
@@ -1111,5 +1111,19 @@ d_samoyeds = {
 	culture = samoyed
 	# tribe = yes
 	capital = 397 # Izhma
+	allow = { always = no }
+}
+######################################
+# nomads for HL compatch
+######################################
+####
+# Persian
+####
+d_baloch = {
+	color = { 217 118 50 }
+	color2 = { 255 255 255 }
+	culture = baloch
+	# tribe = yes
+	capital = 1533 # Mafaza
 	allow = { always = no }
 }

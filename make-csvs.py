@@ -187,5 +187,6 @@ def main():
             print('Removing old templates...')
             shutil.rmtree(str(templates), ignore_errors=True)
         shutil.copytree(str(templates_t), str(templates))
+
 if __name__ == '__main__':
     main()
