@@ -64,8 +64,16 @@ e_khitan = {
 	allow = { always = no }
 	short_name = yes
 }
-k_cuman = {
+k_qipchaq = { # Wild Cumans
 	color = { 45 92 150 }
+	color2 = { 255 255 255 }
+	capital = 619
+	culture = cuman
+	allow = { always = no }
+	dynasty_title_names = no
+}
+k_cuman = { # Non wild Cumans
+	color = { 166 76 99 }
 	color2 = { 255 255 255 }
 	capital = 557
 	culture = cuman

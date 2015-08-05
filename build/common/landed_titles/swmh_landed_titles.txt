@@ -9989,9 +9989,9 @@ k_terra = {
 			b_toreida = {}
 			b_ikskila = {}
 			b_riga = {}
+			b_krimulda = {}
 			b_sigulda = {}
 			b_salaspils = {}
-			b_aizkraukle = {}
 		}
 		c_metsepole = {
 			color = { 182 20 20 }
@@ -10097,6 +10097,7 @@ k_terra = {
 			color = { 182 24 24 }
 			color2 = { 255 255 255 }
 			b_selpils = {}
+			b_aizkraukle = {}
 			b_jaunjelgava = {}
 		}
 		allow = {
@@ -10150,7 +10151,7 @@ k_terra = {
 			color = { 175 55 55 }
 			color2 = { 255 255 255 }
 			b_rakvere = {}
-			b_johvi = {}
+			b_maidla = {}
 			b_varangu = {}
 			b_viru_nigulas = {}
 			b_narva = {}
@@ -24816,7 +24817,6 @@ d_hilal = {
 	# tribe = yes
 	culture = bedouin_arabic
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_massufa = {
 	color = { 105 20 0 }
@@ -24826,7 +24826,6 @@ d_massufa = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_lamtuna = {
 	color = { 86 51 13 }
@@ -24836,7 +24835,6 @@ d_lamtuna = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_lamta = {
 	color = { 194 116 28 }
@@ -24846,7 +24844,6 @@ d_lamta = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_guddala = {
 	color = { 150 56 175 }
@@ -24856,7 +24853,6 @@ d_guddala = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_gazzula = {
 	color = { 150 56 175 }
@@ -24866,7 +24862,6 @@ d_gazzula = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_targa = {
 	color = { 150 97 51 }
@@ -24876,7 +24871,6 @@ d_targa = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_lawata = {
 	color = { 122 53 19 }
@@ -24886,7 +24880,6 @@ d_lawata = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_soninke = {
 	color = { 110 50 30 }
@@ -24894,7 +24887,6 @@ d_soninke = {
 	culture = soninke
 	capital = 913 # Ghana
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_zaghawa = {
 	color = { 22 111 22 }
@@ -24904,7 +24896,6 @@ d_zaghawa = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_duguwa = {
 	color = { 143 64 64 }
@@ -24912,7 +24903,6 @@ d_duguwa = {
 	culture = zaghawa
 	capital = 1228 # Gasga
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_musab = {
 	color = { 149 180 17 }
@@ -24922,7 +24912,6 @@ d_musab = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_tanmak = {
 	color = { 85 125 135 }
@@ -24932,7 +24921,6 @@ d_tanmak = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_azger = {
 	color = { 190 195 50 }
@@ -24942,7 +24930,6 @@ d_azger = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_mazata = {
 	color = { 190 195 50 }
@@ -24952,7 +24939,6 @@ d_mazata = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_azben = {
 	color = { 222 238 106 }
@@ -24962,7 +24948,6 @@ d_azben = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_takarkart = {
 	color = { 232 236 108 }
@@ -24972,7 +24957,6 @@ d_takarkart = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_naqis = {
 	color = { 230 230 110 }
@@ -24982,7 +24966,6 @@ d_naqis = {
 	culture = beja
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_baqlin = {
 	color = { 230 235 105 }
@@ -24992,7 +24975,6 @@ d_baqlin = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_djarin = {
 	color = { 235 240 100 }
@@ -25002,7 +24984,6 @@ d_djarin = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_qataa = {
 	color = { 240 230 100 }
@@ -25012,7 +24993,6 @@ d_qataa = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_bazin = {
 	color = { 225 232 105 }
@@ -25022,7 +25002,6 @@ d_bazin = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_danakil = {
 	color = { 90 150 255 }
@@ -25032,7 +25011,6 @@ d_danakil = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-	title_prefix = TRIBE_OF
 }
 d_silesians = {
 	color = { 231 183 14 }
@@ -25040,7 +25018,6 @@ d_silesians = {
 	culture = polish
 	capital = 434 # Wroclaw
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_polans = {
 	color = { 114 30 41 }
@@ -25048,7 +25025,6 @@ d_polans = {
 	culture = polish
 	capital = 431 # Poznan
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_vistulans = {
 	color = { 119 64 47 }
@@ -25056,7 +25032,6 @@ d_vistulans = {
 	culture = polish
 	capital = 527 # Krakow
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 d_mazovians = {
 	color = { 147 21 39 }
@@ -25064,7 +25039,6 @@ d_mazovians = {
 	culture = polish
 	capital = 530 # Czersk
 	allow = { always = no }
-	title_prefix = TRIBE_OF
 }
 # TITULAR KINGDOMS
 k_moravia = {
