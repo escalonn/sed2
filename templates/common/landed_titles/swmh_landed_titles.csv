@@ -417,9 +417,9 @@ c_istria                        ;italian             ;        ;Merano
 c_istria                        ;venetian            ;        ;Merano
 c_istria                        ;dalmatian           ;        ;Merano
 c_istria                        ;roman               ;        ;Meraniae
-c_trieste                       ;greek               ;        ;Tergeste
-c_trieste                       ;east_gothic         ;        ;Tergeste
-c_trieste                       ;roman               ;        ;Tergeste
+c_trieste                       ;greek               ;Trieste ;Tergeste
+c_trieste                       ;east_gothic         ;Trieste ;Tergeste
+c_trieste                       ;roman               ;Trieste ;Tergeste
 c_aquileia                      ;greek               ;        ;Akouileia
 c_aquileia                      ;east_gothic         ;        ;Akouileia
 k_schwaben                      ;name_tier           ;duke    ;duke
@@ -708,11 +708,11 @@ c_strymon                       ;oghuz               ;        ;Serez
 c_strymon                       ;pecheneg            ;        ;Serez
 c_strymon                       ;serbian             ;        ;Ser
 c_strymon                       ;bulgarian           ;        ;Syar
-c_mosynopolis                   ;turkish             ;        ;Gümülcine
-c_mosynopolis                   ;turkmen             ;        ;Gümülcine
-c_mosynopolis                   ;oghuz               ;        ;Gümülcine
-c_mosynopolis                   ;pecheneg            ;        ;Gümülcine
-c_mosynopolis                   ;bulgarian           ;        ;Gyumyurdzina
+c_mosynopolis                   ;turkish             ;Komotini;Gümülcine
+c_mosynopolis                   ;turkmen             ;Komotini;Gümülcine
+c_mosynopolis                   ;oghuz               ;Komotini;Gümülcine
+c_mosynopolis                   ;pecheneg            ;Komotini;Gümülcine
+c_mosynopolis                   ;bulgarian           ;Komotini;Gyumyurdzina
 d_thessalonika                  ;frankish            ;        ;Thessalonique
 d_thessalonika                  ;norman              ;        ;Thessalonique
 d_thessalonika                  ;turkish             ;Thessaloniki;Selânik
@@ -2308,13 +2308,13 @@ c_vidin                         ;romanian            ;        ;Diiu
 c_vidin                         ;hungarian           ;        ;Bodony
 c_vidin                         ;szekely             ;        ;Bodony
 c_vidin                         ;roman               ;        ;Bononia
-c_branicevo                     ;greek               ;        ;Viminacion
-c_branicevo                     ;east_gothic         ;        ;Viminacion
-c_branicevo                     ;turkish             ;        ;Alaga Hisar
-c_branicevo                     ;turkmen             ;        ;Alaga Hisar
-c_branicevo                     ;oghuz               ;        ;Alaga Hisar
-c_branicevo                     ;pecheneg            ;        ;Alaga Hisar
-c_branicevo                     ;roman               ;        ;Viminacium
+c_branicevo                     ;greek               ;Viminacium;Viminacion
+c_branicevo                     ;east_gothic         ;Viminacium;Viminacion
+c_branicevo                     ;turkish             ;Kruševac;Alaga Hisar
+c_branicevo                     ;turkmen             ;Kruševac;Alaga Hisar
+c_branicevo                     ;oghuz               ;Kruševac;Alaga Hisar
+c_branicevo                     ;pecheneg            ;Kruševac;Alaga Hisar
+c_branicevo                     ;roman               ;Viminacium;Viminacium
 d_ohrid                         ;greek               ;Bulgaria;Bulgaria
 d_ohrid                         ;east_gothic         ;Bulgaria;Bulgaria
 d_ohrid                         ;arberian            ;Bulgaria;Ohër
@@ -2476,28 +2476,28 @@ c_primorje                      ;italian             ;        ;Càttaro
 c_primorje                      ;venetian            ;        ;Càttaro
 c_primorje                      ;dalmatian           ;        ;Càttaro
 c_primorje                      ;roman               ;        ;Acruvium
-c_travunija                     ;german              ;        ;Trebing
-c_travunija                     ;low_german          ;        ;Trebing
-c_travunija                     ;dutch               ;        ;Trebing
-c_travunija                     ;low_saxon           ;        ;Trebing
-c_travunija                     ;thuringian          ;        ;Trebing
-c_travunija                     ;franconian          ;        ;Trebing
-c_travunija                     ;swabian             ;        ;Trebing
-c_travunija                     ;bavarian            ;        ;Trebing
-c_travunija                     ;low_frankish        ;        ;Trebing
+c_travunija                     ;german              ;Trebinje;Trebing
+c_travunija                     ;low_german          ;Trebinje;Trebing
+c_travunija                     ;dutch               ;Trebinje;Trebing
+c_travunija                     ;low_saxon           ;Trebinje;Trebing
+c_travunija                     ;thuringian          ;Trebinje;Trebing
+c_travunija                     ;franconian          ;Trebinje;Trebing
+c_travunija                     ;swabian             ;Trebinje;Trebing
+c_travunija                     ;bavarian            ;Trebinje;Trebing
+c_travunija                     ;low_frankish        ;Trebinje;Trebing
 c_travunija                     ;greek               ;        ;Terbounia
 c_travunija                     ;east_gothic         ;        ;Terbounia
-c_travunija                     ;sardinian           ;        ;Trebigne
-c_travunija                     ;sicilian            ;        ;Trebigne
-c_travunija                     ;corsican            ;        ;Trebigne
-c_travunija                     ;central_italian     ;        ;Trebigne
-c_travunija                     ;southern_italian    ;        ;Trebigne
-c_travunija                     ;neapolitan          ;        ;Trebigne
-c_travunija                     ;tuscan              ;        ;Trebigne
-c_travunija                     ;ligurian            ;        ;Trebigne
-c_travunija                     ;italian             ;        ;Trebigne
-c_travunija                     ;venetian            ;        ;Trebigne
-c_travunija                     ;dalmatian           ;        ;Trebigne
+c_travunija                     ;sardinian           ;Trebinje;Trebigne
+c_travunija                     ;sicilian            ;Trebinje;Trebigne
+c_travunija                     ;corsican            ;Trebinje;Trebigne
+c_travunija                     ;central_italian     ;Trebinje;Trebigne
+c_travunija                     ;southern_italian    ;Trebinje;Trebigne
+c_travunija                     ;neapolitan          ;Trebinje;Trebigne
+c_travunija                     ;tuscan              ;Trebinje;Trebigne
+c_travunija                     ;ligurian            ;Trebinje;Trebigne
+c_travunija                     ;italian             ;Trebinje;Trebigne
+c_travunija                     ;venetian            ;Trebinje;Trebigne
+c_travunija                     ;dalmatian           ;Trebinje;Trebigne
 d_ragusa                        ;german              ;        ;Ragusa
 d_ragusa                        ;low_german          ;        ;Ragusa
 d_ragusa                        ;dutch               ;        ;Ragusa
@@ -3835,13 +3835,13 @@ c_hazart                        ;maghreb_arabic      ;        ;Azaz
 c_hazart                        ;levantine_arabic    ;        ;Azaz
 c_hazart                        ;egyptian_arabic     ;        ;Azaz
 c_hazart                        ;sicilian_arabic     ;        ;Azaz
-c_saone                         ;andalusian_arabic   ;        ;al-Ladiqiya
-c_saone                         ;greek               ;        ;Laodikeia
-c_saone                         ;bedouin_arabic      ;        ;al-Ladiqiya
-c_saone                         ;maghreb_arabic      ;        ;al-Ladiqiya
-c_saone                         ;levantine_arabic    ;        ;al-Ladiqiya
-c_saone                         ;egyptian_arabic     ;        ;al-Ladiqiya
-c_saone                         ;sicilian_arabic     ;        ;al-Ladiqiya
+c_saone                         ;andalusian_arabic   ;Latakia ;al-Ladiqiya
+c_saone                         ;greek               ;Latakia ;Laodikeia
+c_saone                         ;bedouin_arabic      ;Latakia ;al-Ladiqiya
+c_saone                         ;maghreb_arabic      ;Latakia ;al-Ladiqiya
+c_saone                         ;levantine_arabic    ;Latakia ;al-Ladiqiya
+c_saone                         ;egyptian_arabic     ;Latakia ;al-Ladiqiya
+c_saone                         ;sicilian_arabic     ;Latakia ;al-Ladiqiya
 c_archa                         ;frankish            ;        ;Apamée
 c_archa                         ;norman              ;        ;Apamée
 c_archa                         ;andalusian_arabic   ;        ;Fâmieh
@@ -4039,10 +4039,10 @@ c_slesvig                       ;short_name          ;yes     ;yes
 c_slesvig                       ;german              ;        ;Schleswig
 c_slesvig                       ;low_german          ;        ;Sleswig
 c_southern_jylland              ;short_name          ;yes     ;yes
-c_southern_jylland              ;norse               ;        ;Sillendi
-c_southern_jylland              ;german              ;        ;Süderjütland
-c_southern_jylland              ;old_frankish        ;        ;Sinlendi
-c_southern_jylland              ;saxon               ;        ;Sillende
+c_southern_jylland              ;norse               ;Schleswig;Sillendi
+c_southern_jylland              ;german              ;Southern Jutland;Süderjütland
+c_southern_jylland              ;old_frankish        ;Schleswig;Sinlendi
+c_southern_jylland              ;saxon               ;Schleswig;Sillende
 c_north_frisia                  ;german              ;        ;Außenlande
 c_north_frisia                  ;low_german          ;        ;Uthlande
 d_bornholm                      ;norse               ;        ;Borgundarhólmi
@@ -4605,11 +4605,11 @@ c_asmena                        ;pommeranian         ;        ;Oszmiana
 c_asmena                        ;polish              ;        ;Oszmiana
 c_asmena                        ;bohemian            ;        ;Ošmiana
 c_asmena                        ;moravian            ;        ;Ošmiana
-c_lida                          ;russian             ;        ;Lida
-c_lida                          ;pommeranian         ;        ;Lida
-c_lida                          ;polish              ;        ;Lida
-c_lida                          ;bohemian            ;        ;Lida
-c_lida                          ;moravian            ;        ;Lida
+c_lida                          ;russian             ;Lida    ;Lida
+c_lida                          ;pommeranian         ;Lida    ;Lida
+c_lida                          ;polish              ;Lida    ;Lida
+c_lida                          ;bohemian            ;Lida    ;Lida
+c_lida                          ;moravian            ;Lida    ;Lida
 d_trakai                        ;german              ;        ;Traken
 d_trakai                        ;low_german          ;        ;Traken
 d_trakai                        ;dutch               ;        ;Traken
@@ -7818,7 +7818,7 @@ c_spoleto                       ;greek               ;        ;Spoletion
 c_spoleto                       ;roman               ;        ;Spoletium
 c_perugia                       ;greek               ;        ;Perousia
 c_perugia                       ;roman               ;        ;Perusia
-c_aprutium                      ;greek               ;        ;Interamnion
+c_aprutium                      ;greek               ;Teramo  ;Interamnion
 d_latium                        ;greek               ;        ;Latine
 c_roma                          ;greek               ;        ;Rhome
 c_tusculum                      ;greek               ;        ;Touskoulon
@@ -10041,15 +10041,15 @@ c_suffolk                       ;gothic              ;        ;Suðfolc
 c_suffolk                       ;saxon               ;        ;Suþfolc
 c_suffolk                       ;anglonorse          ;        ;Suðfolc
 c_suffolk                       ;norsegaelic         ;        ;Suðfolc
-c_ely                           ;norse               ;        ;Élig
-c_ely                           ;swedish             ;        ;Élig
-c_ely                           ;norwegian           ;        ;Élig
-c_ely                           ;danish              ;        ;Élig
-c_ely                           ;icelandic           ;        ;Élig
-c_ely                           ;gothic              ;        ;Élig
-c_ely                           ;saxon               ;        ;Élig
-c_ely                           ;anglonorse          ;        ;Élig
-c_ely                           ;norsegaelic         ;        ;Élig
+c_ely                           ;norse               ;Ely     ;Élig
+c_ely                           ;swedish             ;Ely     ;Élig
+c_ely                           ;norwegian           ;Ely     ;Élig
+c_ely                           ;danish              ;Ely     ;Élig
+c_ely                           ;icelandic           ;Ely     ;Élig
+c_ely                           ;gothic              ;Ely     ;Élig
+c_ely                           ;saxon               ;Ely     ;Élig
+c_ely                           ;anglonorse          ;Ely     ;Élig
+c_ely                           ;norsegaelic         ;Ely     ;Élig
 c_cambridge                     ;norse               ;        ;Grantabrycge
 c_cambridge                     ;swedish             ;        ;Grantabrycge
 c_cambridge                     ;norwegian           ;        ;Grantabrycge
