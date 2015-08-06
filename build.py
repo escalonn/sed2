@@ -22,7 +22,7 @@ def get_cultures(where):
 def main():
     templates_loc = sed2path / 'templates/localisation'
     templates_lt = sed2path / 'templates/common/landed_titles'
-    build = sed2path / 'build'
+    build = sed2path / 'SED2'
     build_loc = build / 'localisation'
     build_lt = build / 'common/landed_titles'
     while build.exists():
