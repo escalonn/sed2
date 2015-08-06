@@ -29,6 +29,24 @@ d_cheremisa = {
 	allow = { always = no }
 }
 # TITULAR SWMH
+d_lowerbrittany = {
+	color = { 148 148 116 }
+	color2 = { 255 255 255 }
+	capital = 105 # Vannes
+	culture = breton
+	allow = {
+		independent = yes
+		NOT = {
+			has_landed_title = d_brittany
+			any_demesne_title = {
+				OR = {
+					tier = king
+					tier = emperor
+				}
+			}
+		}
+	}
+}
 e_ulm = {
 	color = { 110 110 110 }
 	capital = 252 # ULM

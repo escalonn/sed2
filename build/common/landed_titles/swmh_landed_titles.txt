@@ -4488,6 +4488,10 @@ e_byzantium = {
 			c_arbanon = {
 				color = { 143 33 105 }
 				color2 = { 255 255 255 }
+				turkish = "Albania"
+				turkmen = "Albania"
+				oghuz = "Albania"
+				pecheneg = "Albania"
 				b_kruje = {}
 				b_berat = {}
 				b_petrela = {}
@@ -5868,6 +5872,13 @@ e_byzantium = {
 			c_prizren = {
 				color = { 172 139 61 }
 				color2 = { 255 255 255 }
+				greek = "Prizren"
+				east_gothic = "Prizren"
+				arberian = "Prizren"
+				turkish = "Prizren"
+				turkmen = "Prizren"
+				oghuz = "Prizren"
+				pecheneg = "Prizren"
 				b_prizren = {}
 				b_pec_hvosno = {}
 				b_zvecan = {}
@@ -5953,6 +5964,23 @@ e_byzantium = {
 			c_primorje = {
 				color = { 151 96 15 }
 				color2 = { 255 255 255 }
+				greek = "Kotor"
+				east_gothic = "Kotor"
+				turkish = "Kotor"
+				turkmen = "Kotor"
+				oghuz = "Kotor"
+				sardinian = "Kotor"
+				sicilian = "Kotor"
+				corsican = "Kotor"
+				central_italian = "Kotor"
+				southern_italian = "Kotor"
+				neapolitan = "Kotor"
+				tuscan = "Kotor"
+				ligurian = "Kotor"
+				italian = "Kotor"
+				venetian = "Kotor"
+				dalmatian = "Kotor"
+				roman = "Kotor"
 				b_kotor = {}
 				b_kraljic_krajina = {}
 				b_bar = {}
@@ -6867,6 +6895,14 @@ e_carpathia = {
 			c_krasso = {
 				color = { 162 82 72 }
 				color2 = { 255 255 255 }
+				romanian = "Carasova"
+				turkish = "Ada Kaleh"
+				turkmen = "Ada Kaleh"
+				oghuz = "Ada Kaleh"
+				pecheneg = "Ada Kaleh"
+				croatian = "Carasova"
+				serbian = "Carasova"
+				bosnian = "Carasova"
 				b_krasso = {}
 				b_orsova = {}
 			}
@@ -6912,6 +6948,8 @@ e_carpathia = {
 			c_syrmia = {
 				color = { 186 79 62 }
 				color2 = { 255 255 255 }
+				hungarian = "Budanovci"
+				szekely = "Budanovci"
 				b_slankamen = {}
 				b_sremska_mitrovica = {}
 				b_morovic = {}
@@ -7048,6 +7086,9 @@ e_carpathia = {
 				color = { 177 138 118 }
 				color2 = { 255 255 255 }
 				culture = bosnian
+				greek = "Delminium"
+				east_gothic = "Delminium"
+				roman = "Delminium"
 				b_glamoc = {}
 				b_livna = {}
 				b_duvno = {}
@@ -16138,7 +16179,7 @@ e_france = {
 			capital = 106 # Nantes
 			culture = breton
 			c_vannes = {
-				color = { 41 32 234 }
+				color = { 41 32 134 }
 				color2 = { 255 255 255 }
 				b_vannes = {}
 				b_josselin = {}
@@ -16150,7 +16191,7 @@ e_france = {
 				b_ploermel = {}
 			}
 			c_cornouaille = {
-				color = { 45 36 238 }
+				color = { 63 62 9 }
 				color2 = { 255 255 255 }
 				b_quimper = {}
 				b_carhaix = {}
@@ -16162,7 +16203,7 @@ e_france = {
 				b_lezergue = {}
 			}
 			c_french_leon = {
-				color = { 49 40 242 }
+				color = { 182 198 176 }
 				color2 = { 255 255 255 }
 				b_brest = {}
 				b_st_pol_de_leon = {}
@@ -16172,7 +16213,7 @@ e_france = {
 				b_st_meen = {}
 			}
 			c_nantes = {
-				color = { 37 28 230 }
+				color = { 45 49 100 }
 				color2 = { 255 255 255 }
 				b_nantes = {}
 				b_chateaubriant = {}
@@ -16184,7 +16225,7 @@ e_france = {
 				b_st_nazaire = {}
 			}
 			c_penthievre = {
-				color = { 53 44 246 }
+				color = { 61 126 87 }
 				color2 = { 255 255 255 }
 				b_verdelet = {}
 				b_st_brieuc = {}
@@ -16195,7 +16236,7 @@ e_france = {
 				b_quintin = {}
 			}
 			c_tregor = {
-				color = { 53 44 246 }
+				color = { 248 201 20 }
 				color2 = { 255 255 255 }
 				b_morlaix = {}
 				b_treguier = {}
@@ -16203,7 +16244,7 @@ e_france = {
 				b_chatelaudren = {}
 			}
 			c_rennes = {
-				color = { 57 48 250 }
+				color = { 150 1 120 }
 				color2 = { 255 255 255 }
 				b_rennes = {}
 				b_fougeres = {}
@@ -25121,6 +25162,10 @@ k_al-murabitids = {
 k_aydin = {
 	color = { 238 43 172 }
 	capital = 746 # Ephesos
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_beni_helal = {
 	color = { 128 163 56 }
@@ -25131,10 +25176,18 @@ k_candar = {
 	color = { 238 79 182 }
 	culture = turkish
 	capital = 751 # Paphlagonia
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_eretnid = {
 	color = { 253 182 182 }
 	capital = 1218 # Sebastia
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_fatimids = {
 	# OBSOLETE
@@ -25147,6 +25200,10 @@ k_fatimids = {
 k_germiyan = {
 	color = { 255 180 180 }
 	capital = 749 # Dorylaion
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_hammadid = {
 	color = { 149 180 17 }
@@ -25163,6 +25220,10 @@ k_karaman = {
 	color = { 120 41 92 }
 	culture = turkish
 	capital = 1219 # Laranda
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_magyar = {
 	color = { 187 70 70 }
@@ -25180,6 +25241,10 @@ k_mentese = {
 	color = { 60 130 20 }
 	culture = turkish
 	capital = 1992 # Mylasa
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_naples = {
 	color = { 218 217 242 }
@@ -25191,6 +25256,10 @@ k_ottoman = {
 	color = { 247 145 30 }
 	culture = turkish
 	capital = 742 # Prusa
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_rum = {
 	color = { 18 125 91 }
@@ -25203,6 +25272,10 @@ k_saruhan = {
 	color = { 144 171 225 }
 	culture = turkish
 	capital = 2000 # Thyateira
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 e_seljuk_turks = { # Seljuk Turks
 	color = { 99 168 74 }
@@ -25215,6 +25288,10 @@ e_seljuk_turks = { # Seljuk Turks
 k_tekke = {
 	color = { 244 153 189 }
 	capital = 755 # Attaleia
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 k_trinacria = {
 	color = { 249 232 247 }
@@ -25295,6 +25372,10 @@ k_kerman = {
 	color = { 205 70 255 }
 	culture = turkmen
 	capital = 639 # Kerman
+	allow = {
+		culture_group = altaic
+		not = { realm = { title = e_byzantium } }
+	}
 }
 # TITULAR EMPIRES
 e_latin_empire = {
