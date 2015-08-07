@@ -4329,6 +4329,12 @@ e_byzantium = {
 			c_traianopolis = {
 				color = { 216 77 168 }
 				color2 = { 255 255 255 }
+				turkish = "Didymoteicho"
+				turkmen = "Didymoteicho"
+				oghuz = "Didymoteicho"
+				pecheneg = "Didymoteicho"
+				serbian = "Didymoteicho"
+				bulgarian = "Didymoteicho"
 				b_traianopolis = {}
 				b_didymoteichon = {}
 				b_maroneia = {}
@@ -5793,6 +5799,7 @@ e_byzantium = {
 			c_skopje = { # Skopje/Prilep
 				color = { 139 29 101 }
 				color2 = { 255 255 20 }
+				romanian = "Prilep"
 				b_prilep = {}
 				b_skopje = {}
 				b_veles = {}
@@ -6230,6 +6237,7 @@ k_armenia = {
 		c_lori = {
 			color = { 165 194 47 }
 			color2 = { 255 255 255 }
+			armenian = "Tashir"
 			b_loriberd = {}
 			b_samshvilde = {}
 			b_haghbat = {}
@@ -11440,7 +11448,6 @@ k_khazaria = {
 	color2 = { 255 255 255 }
 	capital = 620 # Itil
 	# Creation/Usurp Trigger
-	allow = { religion_group = jewish_group }
 	tengri_pagan_reformed = 500
 	muslim = 300
 	d_itil = {
@@ -11701,8 +11708,6 @@ k_turkestan_west = {
 	# color={ 250 184 31 }
 	color2 = { 255 255 255 }
 	capital = 900 # Jand
-	# Creation/Usurp Trigger
-	allow = { religion_group = jewish_group }
 	tengri_pagan_reformed = 500
 	muslim = 300
 	d_yaik = {
@@ -11822,8 +11827,6 @@ k_turkestan_east = {
 	color = { 200 140 40 }
 	color2 = { 255 255 255 }
 	capital = 1573 # Yetis-su
-	# Creation/Usurp Trigger
-	allow = { religion_group = jewish_group }
 	tengri_pagan_reformed = 500
 	muslim = 300
 	d_zhyetsu = {
