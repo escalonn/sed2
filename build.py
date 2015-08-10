@@ -2,10 +2,13 @@
 
 import collections
 import csv
+import datetime
 import pathlib
 import re
 import shutil
 import ck2parser
+
+version = 'v2.0-BETA'
 
 rootpath = pathlib.Path('C:/Users/Nicholas/Documents/CK2')
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
@@ -95,6 +98,10 @@ def main():
         update_tree(tree, sed2, lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
+
+    with (build / 'version.txt').open('w', encoding='cp1252',
+                                      newline='\r\n') as f:
+        print('{} - {}'.format(version, datetime.date.today()), file=f)
 
 if __name__ == '__main__':
     main()
