@@ -8,7 +8,7 @@ import re
 import shutil
 import ck2parser
 
-version = 'v2.0-RC1'
+version = 'v2.0-RC2'
 
 rootpath = pathlib.Path('C:/Users/Nicholas/Documents/CK2')
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
