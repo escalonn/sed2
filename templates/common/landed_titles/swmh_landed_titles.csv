@@ -573,17 +573,17 @@ k_byzantium                     ;ligurian            ;        ;Tessalonica
 k_byzantium                     ;italian             ;        ;Tessalonica
 k_byzantium                     ;venetian            ;        ;Tessalonica
 k_byzantium                     ;dalmatian           ;        ;Tessalonica
-d_aegean_islands                ;sardinian           ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;sicilian            ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;corsican            ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;central_italian     ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;southern_italian    ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;neapolitan          ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;tuscan              ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;ligurian            ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;italian             ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;venetian            ;the Archipelago;dell'arcipelago
-d_aegean_islands                ;dalmatian           ;the Archipelago;dell'arcipelago
+d_aegean_islands                ;sardinian           ;Archipelago;dell'arcipelago
+d_aegean_islands                ;sicilian            ;Archipelago;dell'arcipelago
+d_aegean_islands                ;corsican            ;Archipelago;dell'arcipelago
+d_aegean_islands                ;central_italian     ;Archipelago;dell'arcipelago
+d_aegean_islands                ;southern_italian    ;Archipelago;dell'arcipelago
+d_aegean_islands                ;neapolitan          ;Archipelago;dell'arcipelago
+d_aegean_islands                ;tuscan              ;Archipelago;dell'arcipelago
+d_aegean_islands                ;ligurian            ;Archipelago;dell'arcipelago
+d_aegean_islands                ;italian             ;Archipelago;dell'arcipelago
+d_aegean_islands                ;venetian            ;Archipelago;dell'arcipelago
+d_aegean_islands                ;dalmatian           ;Archipelago;dell'arcipelago
 c_kaliopolis                    ;turkish             ;        ;Gelibolu
 c_kaliopolis                    ;turkmen             ;        ;Gelibolu
 c_kaliopolis                    ;oghuz               ;        ;Gelibolu
@@ -982,10 +982,10 @@ c_arta                          ;venetian            ;        ;Arta
 c_arta                          ;dalmatian           ;        ;Arta
 d_cephalonia                    ;frankish            ;        ;Céphalonie
 d_cephalonia                    ;norman              ;        ;Céphalonie
-d_cephalonia                    ;turkish             ;the Heptanese;Yedi Adalar
-d_cephalonia                    ;turkmen             ;the Heptanese;Yedi Adalar
-d_cephalonia                    ;oghuz               ;the Heptanese;Yedi Adalar
-d_cephalonia                    ;pecheneg            ;the Heptanese;Yedi Adalar
+d_cephalonia                    ;turkish             ;Heptanese;Yedi Adalar
+d_cephalonia                    ;turkmen             ;Heptanese;Yedi Adalar
+d_cephalonia                    ;oghuz               ;Heptanese;Yedi Adalar
+d_cephalonia                    ;pecheneg            ;Heptanese;Yedi Adalar
 d_cephalonia                    ;sardinian           ;        ;Cefalonia
 d_cephalonia                    ;sicilian            ;        ;Cefalonia
 d_cephalonia                    ;corsican            ;        ;Cefalonia
@@ -1124,10 +1124,10 @@ c_atheniai                      ;venetian            ;        ;Atene
 c_atheniai                      ;dalmatian           ;        ;Atene
 d_achaia                        ;frankish            ;Achaea  ;Achaïe
 d_achaia                        ;norman              ;Achaea  ;Achaïe
-d_achaia                        ;turkish             ;the Morea;Morâ
-d_achaia                        ;turkmen             ;the Morea;Morâ
-d_achaia                        ;oghuz               ;the Morea;Morâ
-d_achaia                        ;pecheneg            ;the Morea;Morâ
+d_achaia                        ;turkish             ;Morea   ;Morâ
+d_achaia                        ;turkmen             ;Morea   ;Morâ
+d_achaia                        ;oghuz               ;Morea   ;Morâ
+d_achaia                        ;pecheneg            ;Morea   ;Morâ
 d_achaia                        ;sardinian           ;Achaea  ;Achaia
 d_achaia                        ;sicilian            ;Achaea  ;Achaia
 d_achaia                        ;corsican            ;Achaea  ;Achaia
@@ -2847,7 +2847,7 @@ c_iasi                          ;croatian            ;        ;Yassy
 c_iasi                          ;serbian             ;        ;Jaši
 c_iasi                          ;bosnian             ;        ;Jaši
 c_iasi                          ;bulgarian           ;        ;Yaš
-c_iasi                          ;hungarian           ;the Prut;Broutos
+c_iasi                          ;hungarian           ;Prut    ;Broutos
 c_iasi                          ;szekely             ;        ;Jászvásár
 c_torki                         ;german              ;        ;Sedschopff
 c_torki                         ;low_german          ;        ;Sedschopff
@@ -3914,8 +3914,8 @@ c_gibelet                       ;masmuda             ;        ;Jebail
 c_gibelet                       ;zanata              ;        ;Jebail
 c_gibelet                       ;tuareg              ;        ;Jebail
 c_gibelet                       ;roman               ;        ;Byblus
-k_syria                         ;greek               ;the East;Oriens
-k_syria                         ;roman               ;the East;Oriens
+k_syria                         ;greek               ;East    ;Oriens
+k_syria                         ;roman               ;East    ;Oriens
 d_aleppo                        ;title_prefix        ;JUND_OF ;JUND_OF
 d_aleppo                        ;greek               ;Syria Prima;Syria Prima
 d_aleppo                        ;roman               ;Syria Prima;Syria Prima
@@ -5290,17 +5290,17 @@ k_taurica                       ;east_gothic         ;Oium    ;Oium
 k_taurica                       ;alan                ;Scythia ;Skythia
 k_taurica                       ;arberian            ;Scythia ;Skythia
 k_taurica                       ;georgian            ;Scythia ;Skythia
-k_taurica                       ;lithuanian          ;the Wild Fields;Dykra
-k_taurica                       ;russian             ;the Wild Fields;Dikoye Pole
-k_taurica                       ;pommeranian         ;the Wild Fields;Dzikie Pola
-k_taurica                       ;polish              ;the Wild Fields;Dzikie Pola
-k_taurica                       ;bohemian            ;the Wild Fields;Divoká Pole
-k_taurica                       ;moravian            ;the Wild Fields;Divoké Polia
-k_taurica                       ;karantanci          ;the Wild Fields;Divoká Pole
-k_taurica                       ;croatian            ;the Wild Fields;Dikoye Pole
-k_taurica                       ;serbian             ;the Wild Fields;Dikoye Pole
-k_taurica                       ;bosnian             ;the Wild Fields;Dikoye Pole
-k_taurica                       ;bulgarian           ;the Wild Fields;Dikoye Pole
+k_taurica                       ;lithuanian          ;Wild Fields;Dykra
+k_taurica                       ;russian             ;Wild Fields;Dikoye Pole
+k_taurica                       ;pommeranian         ;Wild Fields;Dzikie Pola
+k_taurica                       ;polish              ;Wild Fields;Dzikie Pola
+k_taurica                       ;bohemian            ;Wild Fields;Divoká Pole
+k_taurica                       ;moravian            ;Wild Fields;Divoké Polia
+k_taurica                       ;karantanci          ;Wild Fields;Divoká Pole
+k_taurica                       ;croatian            ;Wild Fields;Dikoye Pole
+k_taurica                       ;serbian             ;Wild Fields;Dikoye Pole
+k_taurica                       ;bosnian             ;Wild Fields;Dikoye Pole
+k_taurica                       ;bulgarian           ;Wild Fields;Dikoye Pole
 d_crimea                        ;armenian            ;        ;Taurike
 d_crimea                        ;greek               ;        ;Taurike
 d_crimea                        ;east_gothic         ;        ;Taurike
@@ -5460,7 +5460,7 @@ c_sharukan                      ;szekely             ;        ;Chidmas
 d_zaporizhia                    ;armenian            ;        ;Danapris
 d_zaporizhia                    ;greek               ;        ;Danapris
 d_zaporizhia                    ;east_gothic         ;        ;Var
-d_zaporizhia                    ;romanian            ;        ;Zaporojia
+d_zaporizhia                    ;romanian            ;Zaporizhia;Zaporojia
 d_zaporizhia                    ;alan                ;        ;Danapris
 d_zaporizhia                    ;sicilian_greek      ;        ;Danapris
 d_zaporizhia                    ;arberian            ;        ;Danapris
@@ -9516,8 +9516,8 @@ c_bahriya                       ;greek               ;        ;Oasis Mikra
 c_bahriya                       ;roman               ;        ;Oasis Parva
 c_fayyum                        ;greek               ;        ;Arsinoë
 c_fayyum                        ;roman               ;        ;Arsinoë
-d_aswan                         ;greek               ;the Thebaid;Thebaïs
-d_aswan                         ;roman               ;the Thebaid;Thebais
+d_aswan                         ;greek               ;Thebaid ;Thebaïs
+d_aswan                         ;roman               ;Thebaid ;Thebais
 c_quena                         ;greek               ;        ;Myos Hormos
 c_quena                         ;roman               ;        ;Myos Hormos
 c_manfalut                      ;greek               ;        ;Manbalot
@@ -9596,7 +9596,7 @@ k_england                       ;cornish             ;Logres  ;Lloegyr
 k_england                       ;welsh               ;Logres  ;Lloegyr
 k_england                       ;breton              ;Logres  ;Lloegyr
 k_england                       ;norsegaelic         ;        ;Ænglandi
-k_england                       ;roman               ;the Britains;Britanniae
+k_england                       ;roman               ;Britains;Britanniae
 d_somerset                      ;norse               ;        ;Westseaxe
 d_somerset                      ;swedish             ;        ;Westseaxe
 d_somerset                      ;norwegian           ;        ;Westseaxe
@@ -11455,19 +11455,19 @@ c_bod                           ;irish               ;        ;Eilean Bhòid
 c_bod                           ;scottish            ;        ;Eilean Bhòid
 c_bod                           ;welsh               ;        ;Eilean Bhòid
 c_bod                           ;norsegaelic         ;        ;Eilean Bhòid
-d_orkney                        ;norse               ;the Northern Isles;Norðreyjar
-d_orkney                        ;swedish             ;the Northern Isles;Norðreyjar
-d_orkney                        ;norwegian           ;the Northern Isles;Norðreyjar
-d_orkney                        ;danish              ;the Northern Isles;Norðreyjar
-d_orkney                        ;icelandic           ;the Northern Isles;Norðreyjar
-d_orkney                        ;gothic              ;the Northern Isles;Norðreyjar
-d_orkney                        ;anglonorse          ;the Northern Isles;Norðreyjar
+d_orkney                        ;norse               ;Northern Isles;Norðreyjar
+d_orkney                        ;swedish             ;Northern Isles;Norðreyjar
+d_orkney                        ;norwegian           ;Northern Isles;Norðreyjar
+d_orkney                        ;danish              ;Northern Isles;Norðreyjar
+d_orkney                        ;icelandic           ;Northern Isles;Norðreyjar
+d_orkney                        ;gothic              ;Northern Isles;Norðreyjar
+d_orkney                        ;anglonorse          ;Northern Isles;Norðreyjar
 d_orkney                        ;irish               ;        ;Arcaibh
 d_orkney                        ;scottish            ;        ;Arcaibh
 d_orkney                        ;cornish             ;        ;Arcaibh
 d_orkney                        ;welsh               ;        ;Arcaibh
 d_orkney                        ;breton              ;        ;Arcaibh
-d_orkney                        ;norsegaelic         ;the Northern Isles;Norðreyjar
+d_orkney                        ;norsegaelic         ;Northern Isles;Norðreyjar
 c_shetland                      ;norse               ;        ;Hjaltland
 c_shetland                      ;swedish             ;        ;Hjaltland
 c_shetland                      ;norwegian           ;        ;Hjaltland
@@ -11478,15 +11478,15 @@ c_orkney                        ;cornish             ;        ;Arcaibh
 c_orkney                        ;welsh               ;        ;Arcaibh
 c_orkney                        ;breton              ;        ;Arcaibh
 c_orkney                        ;norsegaelic         ;        ;Arcaibh
-d_western_isles                 ;norse               ;the Hebrides;Suðreyjar
-d_western_isles                 ;swedish             ;the Hebrides;Suðreyjar
-d_western_isles                 ;norwegian           ;the Hebrides;Suðreyjar
-d_western_isles                 ;danish              ;the Hebrides;Suðreyjar
-d_western_isles                 ;icelandic           ;the Hebrides;Suðreyjar
-d_western_isles                 ;gothic              ;the Hebrides;Suðreyjar
+d_western_isles                 ;norse               ;Hebrides;Suðreyjar
+d_western_isles                 ;swedish             ;Hebrides;Suðreyjar
+d_western_isles                 ;norwegian           ;Hebrides;Suðreyjar
+d_western_isles                 ;danish              ;Hebrides;Suðreyjar
+d_western_isles                 ;icelandic           ;Hebrides;Suðreyjar
+d_western_isles                 ;gothic              ;Hebrides;Suðreyjar
 d_western_isles                 ;english             ;        ;Outer Hebrides
 d_western_isles                 ;saxon               ;        ;Outer Hebrides
-d_western_isles                 ;anglonorse          ;the Hebrides;Suðreyjar
+d_western_isles                 ;anglonorse          ;Hebrides;Suðreyjar
 d_western_isles                 ;irish               ;        ;Innse Gall
 d_western_isles                 ;scottish            ;        ;Innse Gall
 d_western_isles                 ;welsh               ;        ;Innse Gall
