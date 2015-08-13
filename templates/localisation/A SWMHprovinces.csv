@@ -297,8 +297,8 @@ PROV1993;        ;Neokaisareia;c_neokaisareia,Néocésarée,Néoésarée,Niksar,Nikisa
 PROV1995;        ;Nyssa;c_nyssa,Kuš Hisar;;
 PROV1997;        ;Sangários;c_sangarios,Sögüt;;
 PROV1998;        ;Tephrike;c_tephrike,Divrigi,Tewrik;;
-PROV2000;        ;Lydía;c_thyateira,Ak Hisar;;
-PROV2001;        ;Tzamandos;c_tzamandos,Sarkisla,Dzamintav;;
+PROV1980;        ;Lydía;c_tzamandos,Sarkisla,Dzamintav;;
+PROV1981;        ;Tzamandos;c_veria,Ber,Karaferye;;
 ########################################,,,,,,,,,,,,,,;;;;;
 #Syria,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
@@ -361,7 +361,7 @@ PROV1986;        ;Arkadia;c_arcadia,Arcadie,Arcadia,Tripoliçe;;
 PROV1994;        ;Neai Patrai;c_neopatras,Neopatras,Neopatrie,Neopatria,Patracik;;
 PROV1996;Tekirdag;Raidestos;c_rhadestos,Rodoscuk,Rodosto;;
 PROV1999;        ;Boiotía;c_thebai,Estives,Stivas,Istife;;
-PROV2002;        ;Verroia;c_veria,Ber,Karaferye;;
+#PROV2002,Verroia,Verroia,Verroia,,Verroia,,,,,,,,,x;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
 #Arabia,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
@@ -465,34 +465,34 @@ PROV376 ;        ;Osilia;c_osel,Øsel,Ösel,Eysýsla,Oysl,Saarenmaa,Saaremaa,Sãmsal
 ########################################,,,,,,,,,,,,,,;;;;;
 #Africa-Maghreb,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
-PROV816 ;        ;Mahdíya;c_mahdia,Thapsus;;Mahdia
+PROV816 ;        ;Mahdîya;c_mahdia,Thapsus;;Mahdia
 PROV817 ;        ;Tunis;c_tunis,Carthago,Karchedon;;Tunis
 PROV818 ;        ;Súsa;c_medjerda,Hadrumetum;;Medjerda
 PROV819 ;        ;Banzart;c_bizerte,Hippo Diarrhytus,Hippo Diarrhytos;;Bizerte
 PROV820 ;        ;Búna;c_annaba,Hippo Regius;;Annaba
 PROV821 ;        ;Qustantiniyya;c_constantine,Cirta;;Constantine
-PROV822 ;        ;Bidjáya;c_bejaija,Saldae,Saldai;;Bejaija
+PROV822 ;        ;Bidjâya;c_bejaija,Saldae,Saldai;;Bejaija
 PROV823 ;        ;Biskra;c_biskra,Vescera;;Biskra
 PROV824 ;        ;Tabna;c_tell_atlas,Lambaesis;;Tell Atlas
-PROV825 ;        ;Jíjil;c_beni_yanni,Igilgili;;Beni Yanni
+PROV825 ;        ;Jîjil;c_beni_yanni,Igilgili;;Beni Yanni
 PROV828 ;        ;Bou Sa'ada;c_ouled_nail,Dimmidi;;Ouled Nail
 PROV829 ;        ;Al-Aghwat;c_mzab;;Mzab
 PROV830 ;        ;Achir;c_lemdiyya,Auzia;;Lemdiyya
-PROV831 ;        ;Al-Jazáir;c_al_djazair,Iol Caesarea;;Al Djazair
-PROV832 ;        ;Wahrán;c_orania,Siga;;Orania
-PROV833 ;        ;Táhart;c_atlas_mnt,Ala Miliaria;;Atlas Mnt
-PROV834 ;        ;Tilimsán;c_tlemcen;;Tlemcen
+PROV831 ;        ;Al-Jazâir;c_al_djazair,Iol Caesarea;;Al Djazair
+PROV832 ;        ;Wahrân;c_orania,Siga;;Orania
+PROV833 ;        ;Tâhart;c_atlas_mnt,Ala Miliaria;;Atlas Mnt
+PROV834 ;        ;Tilimsân;c_tlemcen;;Tlemcen
 PROV835 ;        ;Hunayn;c_hanyan;;Hanyan
 PROV836 ;        ;Tanas;c_snassen,Cartenna;;Snassen
 PROV837 ;        ;Figuig;c_figuig;;Figuig
-PROV838 ;        ;El-Ríf;c_el_rif;;El Rif
+PROV838 ;        ;El-Rîf;c_el_rif;;El Rif
 PROV839 ;        ;Sebta;c_cebta,Septem;;Cebta
-PROV840 ;        ;Fás;c_fes,Volubilis;;Fes
+PROV840 ;        ;Fâs;c_fes,Volubilis;;Fes
 PROV841 ;        ;Tandja;c_tangiers,Tingis;;Tangier
-PROV842 ;        ;Ribát al-Fath;c_infa,Anfus;;Infa
-PROV843 ;        ;Marrákush;c_marrakech;;Marrakech
-PROV844 ;        ;Asfí;c_massat;;Massat
-PROV845 ;        ;Tinmallál;c_anti-atlas;;Anti-Atlas
+PROV842 ;        ;Ribât al-Fath;c_infa,Anfus;;Infa
+PROV843 ;        ;Marrâkush;c_marrakech;;Marrakech
+PROV844 ;        ;Asfî;c_massat;;Massat
+PROV845 ;        ;Tinmallâl;c_anti-atlas;;Anti-Atlas
 PROV846 ;        ;Ifni;c_ifni;;Taroudant
 PROV847 ;        ;Tarúdant;c_tharasset;;Tamdoult
 PROV849 ;        ;Gran Canaria;c_canarias,Gran Canaria,Tamãran;;Canarias
@@ -523,27 +523,27 @@ PROV37  ;        ;Katanes;c_caithness,Cataibh,Sutherland,Suþland,Suðrland;;Caith
 PROV57  ;        ;West York Ridding;c_york,Jorvík,Eoforwic,Efrog,Ebrauc,Évèroui,Eboracum,Eborakon;;York
 #Egypt,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
-PROV789 ;        ;Ushmún Tannáh;c_pelusia,Thennisus,Thennesos;;Pelusia
+PROV789 ;        ;Ushmún Tannâh;c_pelusia,Thennisus,Thennesos;;Pelusia
 PROV790 ;        ;Quzlum;c_sarqihya,Clysma,Klysma;;Sarqihya
 PROV791 ;        ;Qusayr;c_quena,Myos Hormos;;Quena
 PROV797 ;        ;Manúf;c_manupura,Athribis;;Manupura
-PROV798 ;        ;Dimyát;c_delta,Tamiathis;;Damietta
-PROV799 ;        ;Nastaráwa;c_gabiyaha,Bolbitinum,Bolbitinon,Rosette,Rosetta;;Gabiyaha
-PROV800 ;        ;Gíza;c_gizeh,Memphis;;Gizeh
-PROV801 ;        ;Hawf Gharbí;c_buhairya,Hermopolis;;Buhairya
-PROV802 ;        ;Iskandariya;c_alexandria;;Alexandria
-PROV803 ;        ;Síwa;c_quattara,Ammonium,Ammonion;;Quattara
+PROV798 ;        ;Dimyât;c_delta,Tamiathis;;Damietta
+PROV799 ;        ;Nastarâwa;c_gabiyaha,Bolbitinum,Bolbitinon,Rosette,Rosetta;;Gabiyaha
+PROV800 ;        ;Gîza;c_gizeh,Memphis;;Gizeh
+PROV801 ;        ;Hawf Gharbî;c_buhairya,Hermopolis;;Buhairya
+PROV802 ;        ;Iskandarîya;c_alexandria;;Alexandria
+PROV803 ;        ;Sîwa;c_quattara,Ammonium,Ammonion;;Quattara
 PROV804 ;        ;Sullum;c_al_alamayn,Paraetonium,Paraitonion;;Al Alamayn
 PROV805 ;        ;Tubrúk;c_tobruk,Antipyrgus,Antipyrgos;;Tobruk
 PROV806 ;        ;Darna;c_cyrenaica,Darnis;;Cyrenaica
-PROV807 ;        ;Awjíla;c_senoussi,Augila;;Senoussi
+PROV807 ;        ;Awjîla;c_senoussi,Augila;;Senoussi
 PROV808 ;        ;Barqa;c_benghazi,Cyrene,Kyrene;;Benghazi
 ########################################,,,,,,,,,,,,,,;;;;;
 #Abyssinia,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
 PROV873 ;        ;Adal;c_harer;;Harer
 PROV876 ;        ;Sera'é;c_akordat;;Akordat
-PROV878 ;        ;Bádi;c_hayya;;Hayya
+PROV878 ;        ;Bâdi;c_hayya;;Hayya
 PROV882 ;        ;Damot;c_ankober;;Ankober
 PROV883 ;        ;Dembiya;c_gondar;;Gondar
 PROV884 ;        ;Amhara;c_antalo;;Antalo
@@ -559,18 +559,18 @@ PROV625 ;        ;Ust-Yurt;c_ustyurt;;Usturt
 PROV626 ;        ;Khwarezm;c_kath;;Khiva
 PROV627 ;        ;Kara-Kum;;;Kara-Kum
 PROV628 ;        ;Bukhara;c_bukhara;;Bukhara
-PROV629 ;        ;Faráva;c_farava;;Konjikala
+PROV629 ;        ;Farâva;c_farava;;Konjikala
 PROV630 ;        ;Merv;c_merv,Antiochia Margiana,Antiokheia Margiane;;Merv
-PROV631 ;        ;Dehestan;c_dihistan;;Dihistan
+PROV631 ;        ;Dehestân;c_dihistan;;Dihistan
 PROV632 ;        ;Tus;c_tus,Tusa;;Tus
-PROV633 ;        ;Gurgan;c_gurgan;;Gurgan
-PROV634 ;        ;Nishapur;c_nishapur;;Nishapur
-PROV635 ;        ;Qohistan;c_qohistan;;Qohistan
+PROV633 ;        ;Gurgân;c_gurgan;;Gurgan
+PROV634 ;        ;Nishâpur;c_nishapur;;Nishapur
+PROV635 ;        ;Qohistân;c_qohistan;;Qohistan
 PROV636 ;        ;Lut;;;Lut
-PROV637 ;        ;Sistan;c_sistan;;Sistan
+PROV637 ;        ;Sîstân;c_sistan;;Sistan
 PROV638 ;        ;Yazd;c_yazd;;Yazd
-PROV639 ;        ;Kerman;c_kerman;;Kerman
-PROV640 ;        ;Sírján;c_sirjan;;Sirjan
+PROV639 ;        ;Kermân;c_kerman;;Kerman
+PROV640 ;        ;Sîrjân;c_sirjan;;Sirjan
 PROV641 ;        ;Hormuz;c_hormuz;;Hormuz
 PROV642 ;        ;Larestan;c_larestan;;Larestan
 PROV643 ;        ;Mandistan;c_mandistan;;Fars
@@ -585,7 +585,7 @@ PROV660 ;        ;Kúmis;c_kumis;;Qwivir
 PROV661 ;        ;Ruyan;c_ruyan;;Tabaristan
 PROV662 ;        ;Mazandaran;c_mazandaran;;Mazandaran
 PROV663 ;        ;Rayy;c_rayy,Rhagae,Ragai;;Rayy
-PROV664 ;        ;Kazvín;c_qazwin;;Qazwin
+PROV664 ;        ;Kazvîn;c_qazwin;;Qazwin
 PROV665 ;        ;Kharraqan;c_kharraqan;;Dailam
 PROV666 ;        ;Gilan;c_gilan;;Gilan
 PROV689 ;        ;Igharayn;c_igharayn,Antiochia in Media,Antiokheia tes Medias;;Ilam
@@ -596,16 +596,16 @@ PROV887 ;        ;Sarisu;c_sarisu;;Yamalia
 PROV893 ;        ;Turgay;c_turgay,Turgay;;Sibir
 PROV894 ;        ;Mashkél;c_mashkel;;Saravan
 PROV897 ;        ;Irgiz;c_irgiz;;Inder
-PROV898 ;        ;Tobol;c_sibir;;Tobol
+PROV898 ;        ;Sibir;c_sibir;;Tobol
 PROV899 ;        ;Pandjgúr;c_pandjgur;;Tis
 PROV900 ;        ;Jand;c_jand;;Syr Darya
 PROV901 ;        ;Kyzyl-Kum;;;Kyzyl-Kum
 PROV902 ;        ;Harazasp;c_harazasp;;Dashhowuz
 PROV903 ;        ;Samarkand;c_samarqand,Maracanda,Marakanda;;Samarkand
 PROV904 ;        ;Balkh;c_balkh,Bactra,Baktra;;Balkh
-PROV905 ;        ;Bádghís;c_badghis,Alexandria in Ariana,Alexandreia Areion;;Herat
-PROV906 ;        ;Rivshárán;c_rivsharan;;Birjand
-PROV907 ;        ;Biyár;c_biyar;;Mandesh
+PROV905 ;        ;Bâdghîs;c_badghis,Alexandria in Ariana,Alexandreia Areion;;Herat
+PROV906 ;        ;Rivshârân;c_rivsharan;;Birjand
+PROV907 ;        ;Biyâr;c_biyar;;Mandesh
 ########################################,,,,,,,,,,,,,,;;;;;
 #Steppes,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
