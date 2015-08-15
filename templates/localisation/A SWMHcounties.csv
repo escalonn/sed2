@@ -409,7 +409,7 @@ c_beauvais_adj                        ;        ;Beauvais;;;
 c_rethel_adj                          ;        ;Réthel;;;
 c_sancerre_adj                        ;        ;Sancerre;;;
 c_archreims_adj                       ;        ;Reims;;;
-c_bourges_adj                         ;        ;Bourges;;;Bourgesian
+c_bourges_adj                         ;Bourges ;Bourges;;;Bourgesian
 c_champagne_adj                       ;        ;Troyes;;;
 c_tonnerre_adj                        ;        ;Tonnerre;;;
 c_langres_adj                         ;        ;Langres;;;
@@ -4756,17 +4756,17 @@ c_zemplen_adj                         ;Zemplénian;Zemplénian;;;
 c_szepes_adj                          ;Szepesian;Szepesian;;;
 c_hont_adj                            ;        ;Hontian;;;
 c_pecs_adj                            ;        ;Bodrogvárian;;;Pecsian
-c_fejer_adj                           ;        ;Fejérian;;;Fejerian
-c_esztergom_adj                       ;        ;Visegrádian;;;Esztergomian
-c_pressburg_adj                       ;        ;Pozsonyian;;;Pressburgian
-c_nitra_adj                           ;        ;Nyitravárian;;;Nyitran
-c_pest_adj                            ;        ;Veszprémian;;;Pestian
-c_saris_adj                           ;        ;Borsodian;;;Spisian
-c_bereg_adj                           ;        ;Somogyian;;;Beregian
-c_gemer_adj                           ;        ;Gyõrian;;;Gemerian
-c_trencin_adj                         ;        ;Barsian;;;Trencínian
+c_fejer_adj                           ;Fejér   ;Fejérian;;;Fejerian
+c_esztergom_adj                       ;Visegrád;Visegrádian;;;Esztergomian
+c_pressburg_adj                       ;Bratislava;Pozsonyian;;;Pressburgian
+c_nitra_adj                           ;Nitra   ;Nyitravárian;;;Nyitran
+c_pest_adj                            ;Veszprém;Veszprémian;;;Pestian
+c_saris_adj                           ;Borsod  ;Borsodian;;;Spisian
+c_bereg_adj                           ;Somogy  ;Somogyian;;;Beregian
+c_gemer_adj                           ;Gyor    ;Gyõrian;;;Gemerian
+c_trencin_adj                         ;Bars    ;Barsian;;;Trencínian
 #Bacs,,,,,,,,,,,,,,;;;;;
-c_bacs_adj                            ;        ;Bácsish;;;Bacsian
+c_bacs_adj                            ;Bács    ;Bácsish;;;Bacsian
 c_bacs_adj_moravian                   ;        ;Báchian;;;
 c_bacs_adj_bohemian                   ;        ;Báchian;;;
 c_bacs_adj_romanian                   ;        ;Bacish;;;
@@ -4778,9 +4778,9 @@ c_bacs_adj_turkish                    ;        ;Baçian;;;
 c_bacs_adj_turkmen                    ;        ;Baçian;;;
 c_bacs_adj_oghuz                      ;        ;Baçian;;;
 c_bacs_adj_pecheneg                   ;        ;Baçian;;;
-c_szekezfehervar_adj                  ;        ;Csongrádian;;;Szekesfehervarian
+c_szekezfehervar_adj                  ;Csongrád;Csongrádian;;;Szekesfehervarian
 c_szekezfehervar_adj_romanian         ;        ;Ciongradian;;;
-c_szekezfehervar_adj_german           ;        ;Stuhlweißenburgish;;;
+c_szekezfehervar_adj_german           ;Székesfehérvár;Stuhlweißenburgish;;;
 c_szekezfehervar_adj_moravian         ;        ;Cierny hradian;;;
 c_szekezfehervar_adj_bohemian         ;        ;Czernohradian;;;
 #Csanad,,,,,,,,,,,,,,;;;;;
@@ -4801,7 +4801,7 @@ c_krasso_adj_turkish                  ;        ;Adakalian;;;
 c_krasso_adj_turkmen                  ;        ;Adakalian;;;
 c_krasso_adj_oghuz                    ;        ;Adakalian;;;
 c_krasso_adj_pecheneg                 ;Ada Kaleh;Adakalian;;;
-c_temes_adj                           ;        ;Temesish;;;Temesian
+c_temes_adj                           ;Temes   ;Temesish;;;Temesian
 c_temes_adj_romanian                  ;        ;Timishian;;;
 c_temes_adj_serbian                   ;        ;Temišian;;;
 c_temes_adj_bosnian                   ;        ;Temišian;;;
@@ -4814,7 +4814,7 @@ c_bekes_romanian                      ;        ;Bischishian;;;
 c_bekes_adj_moravian                  ;        ;Békéšan;;;
 c_bekes_adj_bohemian                  ;        ;Békéšan;;;
 c_bekes_adj_german                    ;        ;Bekeschian;;;
-c_bihar_adj                           ;        ;Biharian;;;Biharian
+c_bihar_adj                           ;Bihar   ;Biharian;;;Biharian
 c_bihar_adj_romanian                  ;        ;Bihorian;;;
 c_bihar_adj_moravian                  ;        ;Bihárian;;;
 c_bihar_adj_bohemian                  ;        ;Bihárian;;;
@@ -4823,15 +4823,15 @@ c_zarand_adj                          ;        ;Zarándian;;;
 c_burzenland                          ;        ;Barcaságish;Burzenland,Tara Bârsei;;
 c_burzenland_adj_romanian             ;        ;Tara Bârseian;;;
 c_burzenland_adj_german               ;        ;Burzenlandish;;;
-c_feher_adj                           ;        ;Fehérian;;;Feherian
-c_feher_adj_romanian                  ;        ;Alba de Josan;;;
-c_feher_adj_german                    ;        ;Weißenburgish;;;
-c_feher_adj_low_german                ;        ;Weyssenburgish;;;
-c_marmaros_adj                        ;        ;Szatmárish;;;Marmarosian
-c_marmaros_adj_romanian               ;        ;Maramuresish;;;
+c_feher_adj                           ;Fehér   ;Fehérian;;;Feherian
+c_feher_adj_romanian                  ;Alsó-Fehér;Alba de Josan;;;
+c_feher_adj_german                    ;Alba Iulia;Weißenburgish;;;
+c_feher_adj_low_german                ;Alba Iulia;Weyssenburgish;;;
+c_marmaros_adj                        ;Szatmár ;Szatmárish;;;Marmarosian
+c_marmaros_adj_romanian               ;Máramaros;Maramuresish;;;
 c_marmaros_adj_german                 ;        ;Sathmarish;;;
-c_szekelyfold_adj                     ;        ;Tordan;;;Szekelyfoldian
-c_szekelyfold_adj_romanian            ;        ;Turdan;;;
-c_szekelyfold_adj_german              ;        ;Thorenburgish;;;
+c_szekelyfold_adj                     ;Torda   ;Tordan;;;Szekelyfoldian
+c_szekelyfold_adj_romanian            ;Turda   ;Turdan;;;
+c_szekelyfold_adj_german              ;Turda   ;Thorenburgish;;;
 #Sistan additional province,,,,,,,,,,,,,,;;;;;
 c_rudbar_adj                          ;        ;Rúdbârî;;;
