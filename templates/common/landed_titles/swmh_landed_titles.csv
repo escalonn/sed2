@@ -7670,8 +7670,8 @@ c_lekia                         ;tuareg              ;        ;al-Lakza
 e_italy                         ;name_tier           ;king    ;king
 k_italy                         ;greek               ;Italia Annonaria;Annonaria
 k_italy                         ;roman               ;Italia Annonaria;Italia Annonaria
-c_lombardia                     ;greek               ;        ;Mediolanion
-c_lombardia                     ;roman               ;        ;Mediolanium
+c_lombardia                     ;greek               ;Mediolanum;Mediolanion
+c_lombardia                     ;roman               ;Mediolanum;Mediolanium
 c_brescia                       ;greek               ;        ;Brixia
 c_brescia                       ;roman               ;        ;Brixia
 c_bergamo                       ;greek               ;        ;Bergomon
@@ -7681,8 +7681,8 @@ c_pavia                         ;roman               ;        ;Ticinum
 c_cremona                       ;greek               ;        ;Kremone
 c_como                          ;greek               ;        ;Komon
 c_como                          ;roman               ;        ;Comum
-c_grisons                       ;greek               ;        ;Bilitio
-c_grisons                       ;roman               ;        ;Bilitio
+c_grisons                       ;greek               ;Bellinzona;Bilitio
+c_grisons                       ;roman               ;Bellinzona;Bilitio
 d_verona                        ;title               ;MARGRAVE;MARGRAVE
 d_verona                        ;title_female        ;MARGRAVINE;MARGRAVINE
 d_verona                        ;foa                 ;MARGRAVE_FOA;MARGRAVE_FOA
@@ -7863,7 +7863,7 @@ c_gaeta                         ;greek               ;        ;Kaiete
 c_gaeta                         ;roman               ;        ;Caieta
 d_apulia                        ;greek               ;Longobardia;Longobardias
 d_apulia                        ;roman               ;        ;Apulia et Calabria
-c_apulia                        ;greek               ;        ;Potentia
+c_apulia                        ;greek               ;Potenza ;Potentia
 c_foggia                        ;greek               ;        ;Sepius
 c_foggia                        ;roman               ;        ;Sipontum
 c_bari                          ;greek               ;        ;Barion
@@ -7951,16 +7951,16 @@ c_arles                         ;roman               ;        ;Arelate
 d_provence                      ;name_tier           ;count   ;count
 c_provence                      ;greek               ;        ;Massalia
 c_provence                      ;roman               ;        ;Massilia
-c_nice                          ;greek               ;        ;Antipolis
-c_nice                          ;roman               ;        ;Antipolis
+c_nice                          ;greek               ;Antibes ;Antipolis
+c_nice                          ;roman               ;Antibes ;Antipolis
 c_venaissin                     ;greek               ;        ;Auenion
 c_venaissin                     ;roman               ;        ;Avenio
 d_lyon                          ;greek               ;        ;Lougdounon
 d_lyon                          ;roman               ;        ;Lugdunum
 c_lyon                          ;greek               ;        ;Lougdounon
 c_lyon                          ;roman               ;        ;Lugdunum
-c_dauphine_viennois             ;greek               ;        ;Ouienna
-c_dauphine_viennois             ;roman               ;        ;Vienna
+c_dauphine_viennois             ;greek               ;Vienne  ;Ouienna
+c_dauphine_viennois             ;roman               ;Vienne  ;Vienna
 c_valentinois                   ;greek               ;        ;Oualentia
 c_valentinois                   ;roman               ;        ;Valentia
 c_gapencais                     ;greek               ;        ;Vappincum
@@ -10395,9 +10395,9 @@ d_deheubarth                    ;cornish             ;        ;Deheubarth
 d_deheubarth                    ;welsh               ;        ;Deheubarth
 d_deheubarth                    ;breton              ;        ;Deheubarth
 d_deheubarth                    ;norsegaelic         ;        ;Deheubarth
-c_dyfed                         ;english             ;        ;Pembroke
-c_dyfed                         ;saxon               ;        ;Pembroke
-c_dyfed                         ;anglonorse          ;        ;Pembroke
+c_dyfed                         ;english             ;Pembroke;Pembroke
+c_dyfed                         ;saxon               ;Pembroke;Pembroke
+c_dyfed                         ;anglonorse          ;Pembroke;Pembroke
 c_dyfed                         ;irish               ;        ;Dyfed
 c_dyfed                         ;scottish            ;        ;Dyfed
 c_dyfed                         ;cumbric             ;        ;Dyfed
@@ -10445,16 +10445,16 @@ d_powys                         ;cornish             ;        ;Powys
 d_powys                         ;welsh               ;        ;Powys
 d_powys                         ;breton              ;        ;Powys
 d_powys                         ;norsegaelic         ;        ;Powys
-c_powys                         ;english             ;        ;Powis Fadog
-c_powys                         ;saxon               ;        ;Powis Fadog
-c_powys                         ;anglonorse          ;        ;Powis Fadog
-c_powys                         ;irish               ;        ;Powys Fadog
-c_powys                         ;scottish            ;        ;Powys Fadog
-c_powys                         ;cumbric             ;        ;Powys Fadog
-c_powys                         ;cornish             ;        ;Powys Fadog
-c_powys                         ;welsh               ;        ;Powys Fadog
-c_powys                         ;breton              ;        ;Powys Fadog
-c_powys                         ;norsegaelic         ;        ;Powys Fadog
+c_powys                         ;english             ;Lower Powys;Powis Fadog
+c_powys                         ;saxon               ;Lower Powys;Powis Fadog
+c_powys                         ;anglonorse          ;Lower Powys;Powis Fadog
+c_powys                         ;irish               ;Lower Powys;Powys Fadog
+c_powys                         ;scottish            ;Lower Powys;Powys Fadog
+c_powys                         ;cumbric             ;Lower Powys;Powys Fadog
+c_powys                         ;cornish             ;Lower Powys;Powys Fadog
+c_powys                         ;welsh               ;Lower Powys;Powys Fadog
+c_powys                         ;breton              ;Lower Powys;Powys Fadog
+c_powys                         ;norsegaelic         ;Lower Powys;Powys Fadog
 c_powys_wenwynwyn               ;english             ;        ;Powis Wenwynwyn
 c_powys_wenwynwyn               ;saxon               ;        ;Powis Wenwynwyn
 c_powys_wenwynwyn               ;anglonorse          ;        ;Powis Wenwynwyn
@@ -10504,9 +10504,9 @@ c_gwent                         ;scottish            ;        ;Gwent
 c_gwent                         ;welsh               ;        ;Gwent
 c_gwent                         ;norsegaelic         ;        ;Gwent
 c_gwent                         ;roman               ;        ;Isca Augusta
-c_glamorgan                     ;english             ;        ;Glamorgan
-c_glamorgan                     ;saxon               ;        ;Glamorgan
-c_glamorgan                     ;anglonorse          ;        ;Glamorgan
+c_glamorgan                     ;english             ;Glamorgan;Glamorgan
+c_glamorgan                     ;saxon               ;Glamorgan;Glamorgan
+c_glamorgan                     ;anglonorse          ;Glamorgan;Glamorgan
 c_glamorgan                     ;irish               ;        ;Glywysing
 c_glamorgan                     ;scottish            ;        ;Glywysing
 c_glamorgan                     ;cumbric             ;        ;Glywysing
