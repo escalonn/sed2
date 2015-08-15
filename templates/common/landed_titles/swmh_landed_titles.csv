@@ -2105,27 +2105,27 @@ c_tyrnovo                       ;turkmen             ;        ;Tirnova
 c_tyrnovo                       ;oghuz               ;        ;Tirnova
 c_tyrnovo                       ;pecheneg            ;        ;Tirnova
 c_tyrnovo                       ;roman               ;        ;Moesia Secunda
-c_serdica                       ;greek               ;        ;Serdica
-c_serdica                       ;east_gothic         ;        ;Serdica
-c_serdica                       ;turkish             ;        ;Sofya
-c_serdica                       ;turkmen             ;        ;Sofya
-c_serdica                       ;oghuz               ;        ;Sofya
-c_serdica                       ;pecheneg            ;        ;Sofya
-c_serdica                       ;roman               ;        ;Serdica
-c_dorostotum                    ;greek               ;        ;Durostolon
-c_dorostotum                    ;east_gothic         ;        ;Durostolon
+c_serdica                       ;greek               ;Sofia   ;Serdica
+c_serdica                       ;east_gothic         ;Sofia   ;Serdica
+c_serdica                       ;turkish             ;Sofia   ;Sofya
+c_serdica                       ;turkmen             ;Sofia   ;Sofya
+c_serdica                       ;oghuz               ;Sofia   ;Sofya
+c_serdica                       ;pecheneg            ;Sofia   ;Sofya
+c_serdica                       ;roman               ;Sofia   ;Serdica
+c_dorostotum                    ;greek               ;Silistra;Durostolon
+c_dorostotum                    ;east_gothic         ;Silistra;Durostolon
 c_dorostotum                    ;turkish             ;        ;Stamboluk
 c_dorostotum                    ;turkmen             ;        ;Stamboluk
 c_dorostotum                    ;oghuz               ;        ;Stamboluk
 c_dorostotum                    ;pecheneg            ;        ;Stamboluk
-c_dorostotum                    ;roman               ;        ;Dorostorum
-c_nikopolis                     ;greek               ;        ;Seuthopolis
-c_nikopolis                     ;east_gothic         ;        ;Seuthopolis
+c_dorostotum                    ;roman               ;Silistra;Dorostorum
+c_nikopolis                     ;greek               ;Seuthopolis;Seuthopolis
+c_nikopolis                     ;east_gothic         ;Seuthopolis;Seuthopolis
 c_nikopolis                     ;turkish             ;        ;Hasat
 c_nikopolis                     ;turkmen             ;        ;Hasat
 c_nikopolis                     ;oghuz               ;        ;Hasat
 c_nikopolis                     ;pecheneg            ;        ;Hasat
-c_nikopolis                     ;roman               ;        ;Seuthopolis
+c_nikopolis                     ;roman               ;Seuthopolis;Seuthopolis
 d_karvuna                       ;greek               ;Scythia Minor;Mikrá Skythia
 d_karvuna                       ;east_gothic         ;Scythia Minor;Mikrá Skythia
 d_karvuna                       ;turkish             ;        ;Dobruja
@@ -2285,10 +2285,10 @@ c_philippopolis                 ;dalmatian           ;        ;Philippopolis
 c_philippopolis                 ;roman               ;        ;Philippopolis
 c_mesembria                     ;greek               ;        ;Zagoria
 c_mesembria                     ;east_gothic         ;        ;Zagoria
-c_mesembria                     ;turkish             ;        ;Misivri
-c_mesembria                     ;turkmen             ;        ;Misivri
-c_mesembria                     ;oghuz               ;        ;Misivri
-c_mesembria                     ;pecheneg            ;        ;Misivri
+c_mesembria                     ;turkish             ;Nesebar ;Misivri
+c_mesembria                     ;turkmen             ;Nesebar ;Misivri
+c_mesembria                     ;oghuz               ;Nesebar ;Misivri
+c_mesembria                     ;pecheneg            ;Nesebar ;Misivri
 c_mesembria                     ;roman               ;        ;Zagoria
 c_kopsis                        ;greek               ;        ;Kopsis
 c_kopsis                        ;east_gothic         ;        ;Kopsis
@@ -2409,8 +2409,8 @@ c_macva                         ;greek               ;Užice   ;Capedounon
 c_macva                         ;east_gothic         ;Užice   ;Capedounon
 c_macva                         ;hungarian           ;        ;Macsó
 c_macva                         ;szekely             ;        ;Macsó
-c_belgrade                      ;greek               ;        ;Singidounon
-c_belgrade                      ;east_gothic         ;        ;Singidounon
+c_belgrade                      ;greek               ;Singidunum;Singidounon
+c_belgrade                      ;east_gothic         ;Singidunum;Singidounon
 c_belgrade                      ;hungarian           ;        ;Belgrád
 c_belgrade                      ;szekely             ;        ;Belgrád
 c_belgrade                      ;sardinian           ;        ;Belgrado
@@ -2424,7 +2424,7 @@ c_belgrade                      ;ligurian            ;        ;Belgrado
 c_belgrade                      ;italian             ;        ;Belgrado
 c_belgrade                      ;venetian            ;        ;Belgrado
 c_belgrade                      ;dalmatian           ;        ;Belgrado
-c_belgrade                      ;roman               ;        ;Singidunum
+c_belgrade                      ;roman               ;Singidunum;Singidunum
 d_hum                           ;greek               ;        ;Zachloumia
 d_hum                           ;east_gothic         ;        ;Zachloumia
 d_hum                           ;sardinian           ;        ;Chelmania
@@ -2440,11 +2440,11 @@ d_hum                           ;italian             ;        ;Chelmania
 d_hum                           ;venetian            ;        ;Chelmania
 d_hum                           ;dalmatian           ;        ;Chelmania
 d_hum                           ;roman               ;        ;Hum
-c_hum                           ;greek               ;        ;Dreinos
-c_hum                           ;east_gothic         ;        ;Dreinos
-c_hum                           ;roman               ;        ;Drinus
-c_zachlumia                     ;greek               ;        ;Zachloumia
-c_zachlumia                     ;east_gothic         ;        ;Zachloumia
+c_hum                           ;greek               ;Drina   ;Dreinos
+c_hum                           ;east_gothic         ;Drina   ;Dreinos
+c_hum                           ;roman               ;Drina   ;Drinus
+c_zachlumia                     ;greek               ;Zachlumia;Zachloumia
+c_zachlumia                     ;east_gothic         ;Zachlumia;Zachloumia
 d_dioclea                       ;greek               ;Duklja  ;Diokleia
 d_dioclea                       ;east_gothic         ;Duklja  ;Diokleia
 d_dioclea                       ;turkish             ;Shkodër ;Iskodra
@@ -2452,13 +2452,13 @@ d_dioclea                       ;turkmen             ;Shkodër ;Iskodra
 d_dioclea                       ;oghuz               ;Shkodër ;Iskodra
 d_dioclea                       ;pecheneg            ;Shkodër ;Iskodra
 d_dioclea                       ;roman               ;Duklja  ;Dioclea
-c_zeta                          ;greek               ;        ;Diokleia
-c_zeta                          ;east_gothic         ;        ;Diokleia
+c_zeta                          ;greek               ;Duklja  ;Diokleia
+c_zeta                          ;east_gothic         ;Duklja  ;Diokleia
 c_zeta                          ;turkish             ;        ;Karadag
 c_zeta                          ;turkmen             ;        ;Karadag
 c_zeta                          ;oghuz               ;        ;Karadag
 c_zeta                          ;pecheneg            ;        ;Karadag
-c_zeta                          ;roman               ;        ;Dioclea
+c_zeta                          ;roman               ;Duklja  ;Dioclea
 c_primorje                      ;greek               ;Kotor   ;Askrivion
 c_primorje                      ;east_gothic         ;Kotor   ;Askrivion
 c_primorje                      ;turkish             ;Kotor   ;Kotur
@@ -3135,10 +3135,10 @@ c_krizevci                      ;franconian          ;        ;Wukowar
 c_krizevci                      ;swabian             ;        ;Wukowar
 c_krizevci                      ;bavarian            ;        ;Wukowar
 c_krizevci                      ;low_frankish        ;        ;Wukowar
-c_krizevci                      ;greek               ;        ;Moursa
+c_krizevci                      ;greek               ;Mursa   ;Moursa
 c_krizevci                      ;hungarian           ;        ;Vlco
 c_krizevci                      ;szekely             ;        ;Vlco
-c_krizevci                      ;roman               ;        ;Mursa
+c_krizevci                      ;roman               ;Mursa   ;Mursa
 c_zarand                        ;romanian            ;        ;Zarand
 c_bihar                         ;romanian            ;        ;Bihor
 c_bihar                         ;bohemian            ;        ;Bihár
@@ -3257,9 +3257,9 @@ c_soli                          ;roman               ;        ;Salines
 k_croatia                       ;greek               ;Illyricum;Illyrikon
 k_croatia                       ;east_gothic         ;Illyricum;Illyrikon
 k_croatia                       ;roman               ;Illyricum;Illyricum
-c_split                         ;greek               ;        ;Spálathos
-c_split                         ;east_gothic         ;        ;Spálathos
-c_split                         ;roman               ;        ;Spalatum
+c_split                         ;greek               ;Split   ;Spálathos
+c_split                         ;east_gothic         ;Split   ;Spálathos
+c_split                         ;roman               ;Split   ;Spalatum
 c_knin                          ;greek               ;        ;Tininum
 c_knin                          ;roman               ;        ;Tininum
 c_bribir                        ;greek               ;        ;Breberi
@@ -3460,8 +3460,8 @@ c_brac                          ;roman               ;        ;Bretia
 c_modrus                        ;greek               ;        ;Terponos
 c_modrus                        ;east_gothic         ;        ;Terponos
 c_modrus                        ;roman               ;        ;Terponus
-c_senj                          ;greek               ;        ;Attienities
-c_senj                          ;east_gothic         ;        ;Attienities
+c_senj                          ;greek               ;Senj    ;Attienities
+c_senj                          ;east_gothic         ;Senj    ;Attienities
 c_senj                          ;sardinian           ;        ;Licca
 c_senj                          ;sicilian            ;        ;Licca
 c_senj                          ;corsican            ;        ;Licca
@@ -3504,31 +3504,31 @@ c_zagreb                        ;roman               ;        ;Andautonia
 c_pozega                        ;greek               ;        ;Incerum
 c_pozega                        ;east_gothic         ;        ;Incerum
 c_pozega                        ;roman               ;        ;Incerum
-c_varadzin                      ;german              ;        ;Warasdin
-c_varadzin                      ;low_german          ;        ;Warasdin
-c_varadzin                      ;dutch               ;        ;Warasdin
-c_varadzin                      ;low_saxon           ;        ;Warasdin
-c_varadzin                      ;thuringian          ;        ;Warasdin
-c_varadzin                      ;franconian          ;        ;Warasdin
-c_varadzin                      ;swabian             ;        ;Warasdin
-c_varadzin                      ;bavarian            ;        ;Warasdin
-c_varadzin                      ;low_frankish        ;        ;Warasdin
-c_varadzin                      ;greek               ;        ;Varasdinion
-c_varadzin                      ;east_gothic         ;        ;Varasdinion
-c_varadzin                      ;hungarian           ;        ;Varasd
-c_varadzin                      ;szekely             ;        ;Varasd
-c_varadzin                      ;sardinian           ;        ;Varasdino
-c_varadzin                      ;sicilian            ;        ;Varasdino
-c_varadzin                      ;corsican            ;        ;Varasdino
-c_varadzin                      ;central_italian     ;        ;Varasdino
-c_varadzin                      ;southern_italian    ;        ;Varasdino
-c_varadzin                      ;neapolitan          ;        ;Varasdino
-c_varadzin                      ;tuscan              ;        ;Varasdino
-c_varadzin                      ;ligurian            ;        ;Varasdino
-c_varadzin                      ;italian             ;        ;Varasdino
-c_varadzin                      ;venetian            ;        ;Varasdino
-c_varadzin                      ;dalmatian           ;        ;Varasdino
-c_varadzin                      ;roman               ;        ;Varasdinum
+c_varadzin                      ;german              ;Varaždin;Warasdin
+c_varadzin                      ;low_german          ;Varaždin;Warasdin
+c_varadzin                      ;dutch               ;Varaždin;Warasdin
+c_varadzin                      ;low_saxon           ;Varaždin;Warasdin
+c_varadzin                      ;thuringian          ;Varaždin;Warasdin
+c_varadzin                      ;franconian          ;Varaždin;Warasdin
+c_varadzin                      ;swabian             ;Varaždin;Warasdin
+c_varadzin                      ;bavarian            ;Varaždin;Warasdin
+c_varadzin                      ;low_frankish        ;Varaždin;Warasdin
+c_varadzin                      ;greek               ;Varaždin;Varasdinion
+c_varadzin                      ;east_gothic         ;Varaždin;Varasdinion
+c_varadzin                      ;hungarian           ;Varaždin;Varasd
+c_varadzin                      ;szekely             ;Varaždin;Varasd
+c_varadzin                      ;sardinian           ;Varaždin;Varasdino
+c_varadzin                      ;sicilian            ;Varaždin;Varasdino
+c_varadzin                      ;corsican            ;Varaždin;Varasdino
+c_varadzin                      ;central_italian     ;Varaždin;Varasdino
+c_varadzin                      ;southern_italian    ;Varaždin;Varasdino
+c_varadzin                      ;neapolitan          ;Varaždin;Varasdino
+c_varadzin                      ;tuscan              ;Varaždin;Varasdino
+c_varadzin                      ;ligurian            ;Varaždin;Varasdino
+c_varadzin                      ;italian             ;Varaždin;Varasdino
+c_varadzin                      ;venetian            ;Varaždin;Varasdino
+c_varadzin                      ;dalmatian           ;Varaždin;Varasdino
+c_varadzin                      ;roman               ;Varaždin;Varasdinum
 k_jerusalem                     ;andalusian_arabic   ;        ;Filastin
 k_jerusalem                     ;greek               ;        ;Palaestina
 k_jerusalem                     ;bedouin_arabic      ;        ;Filastin
@@ -4490,11 +4490,11 @@ k_poland                        ;gothic              ;        ;Pulinaland
 k_poland                        ;anglonorse          ;        ;Pulinaland
 k_poland                        ;norsegaelic         ;        ;Pulinaland
 d_greater_poland                ;german              ;Poznan  ;Posen
-c_gnieznienskie                 ;norse               ;        ;Gnesen
-c_gnieznienskie                 ;swedish             ;        ;Gnesen
-c_gnieznienskie                 ;norwegian           ;        ;Gnesen
-c_gnieznienskie                 ;danish              ;        ;Gnesen
-c_gnieznienskie                 ;german              ;        ;Gnesen
+c_gnieznienskie                 ;norse               ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;swedish             ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;norwegian           ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;danish              ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;german              ;Gnesen  ;Gnesen
 c_poznanskie                    ;norse               ;        ;Posen
 c_poznanskie                    ;swedish             ;        ;Posen
 c_poznanskie                    ;norwegian           ;        ;Posen
