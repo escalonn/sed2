@@ -3650,8 +3650,8 @@ c_monreal                       ;tagelmust           ;        ;Shobak
 c_monreal                       ;masmuda             ;        ;Shobak
 c_monreal                       ;zanata              ;        ;Shobak
 c_monreal                       ;tuareg              ;        ;Shobak
-c_petra                         ;greek               ;        ;Aila
-c_petra                         ;roman               ;        ;Aila
+c_petra                         ;greek               ;Aqaba   ;Aila
+c_petra                         ;roman               ;Aqaba   ;Aila
 c_kerak                         ;andalusian_arabic   ;        ;Al-Karak
 c_kerak                         ;bedouin_arabic      ;        ;Al-Karak
 c_kerak                         ;maghreb_arabic      ;        ;Al-Karak
@@ -3720,14 +3720,14 @@ c_sidon                         ;masmuda             ;        ;Sayda
 c_sidon                         ;zanata              ;        ;Sayda
 c_sidon                         ;tuareg              ;        ;Sayda
 c_safed                         ;andalusian_arabic   ;        ;Safad
-c_safed                         ;greek               ;        ;Paneas
-c_safed                         ;bedouin_arabic      ;        ;Safad
-c_safed                         ;maghreb_arabic      ;        ;Safad
-c_safed                         ;levantine_arabic    ;        ;Safad
-c_safed                         ;egyptian_arabic     ;        ;Safad
-c_safed                         ;sicilian_arabic     ;        ;Safad
-c_safed                         ;ashkenazi           ;        ;Tsfat
-c_safed                         ;roman               ;        ;Paneas
+c_safed                         ;greek               ;Banias  ;Paneas
+c_safed                         ;bedouin_arabic      ;Safed   ;Safad
+c_safed                         ;maghreb_arabic      ;Safed   ;Safad
+c_safed                         ;levantine_arabic    ;Safed   ;Safad
+c_safed                         ;egyptian_arabic     ;Safed   ;Safad
+c_safed                         ;sicilian_arabic     ;Safed   ;Safad
+c_safed                         ;ashkenazi           ;Safed   ;Tsfat
+c_safed                         ;roman               ;Banias  ;Paneas
 k_antioch                       ;andalusian_arabic   ;al-Awasim;Awasim
 k_antioch                       ;greek               ;        ;Antiócheias
 k_antioch                       ;bedouin_arabic      ;al-Awasim;Awasim
@@ -3842,15 +3842,15 @@ c_saone                         ;maghreb_arabic      ;Latakia ;al-Ladiqiya
 c_saone                         ;levantine_arabic    ;Latakia ;al-Ladiqiya
 c_saone                         ;egyptian_arabic     ;Latakia ;al-Ladiqiya
 c_saone                         ;sicilian_arabic     ;Latakia ;al-Ladiqiya
-c_archa                         ;frankish            ;        ;Apamée
-c_archa                         ;norman              ;        ;Apamée
-c_archa                         ;andalusian_arabic   ;        ;Fâmieh
-c_archa                         ;greek               ;        ;Apameia
-c_archa                         ;bedouin_arabic      ;        ;Fâmieh
-c_archa                         ;maghreb_arabic      ;        ;Fâmieh
-c_archa                         ;levantine_arabic    ;        ;Fâmieh
-c_archa                         ;egyptian_arabic     ;        ;Fâmieh
-c_archa                         ;sicilian_arabic     ;        ;Fâmieh
+c_archa                         ;frankish            ;Apamea  ;Apamée
+c_archa                         ;norman              ;Apamea  ;Apamée
+c_archa                         ;andalusian_arabic   ;Qalaat al-Madiq;Fâmieh
+c_archa                         ;greek               ;Apamea  ;Apameia
+c_archa                         ;bedouin_arabic      ;Qalaat al-Madiq;Fâmieh
+c_archa                         ;maghreb_arabic      ;Qalaat al-Madiq;Fâmieh
+c_archa                         ;levantine_arabic    ;Qalaat al-Madiq;Fâmieh
+c_archa                         ;egyptian_arabic     ;Qalaat al-Madiq;Fâmieh
+c_archa                         ;sicilian_arabic     ;Qalaat al-Madiq;Fâmieh
 d_tripoli                       ;name_tier           ;count   ;count
 d_tripoli                       ;andalusian_arabic   ;        ;Tarabulus
 d_tripoli                       ;greek               ;Phoenice;Phoenice
@@ -3945,27 +3945,27 @@ c_salamiyah                     ;roman               ;        ;Salamias
 d_damascus                      ;title_prefix        ;JUND_OF ;JUND_OF
 d_damascus                      ;greek               ;Phoenice Libanensis;Phoenice Libanensis
 d_damascus                      ;roman               ;Phoenice Libanensis;Phoenice Libanensis
-c_damascus                      ;frankish            ;        ;Damascus
-c_damascus                      ;norman              ;        ;Damascus
-c_damascus                      ;greek               ;        ;Damaskos
-c_damascus                      ;roman               ;        ;Damascus
-c_baalbek                       ;frankish            ;        ;Balbec
-c_baalbek                       ;norman              ;        ;Balbec
-c_baalbek                       ;greek               ;        ;Helioupolis
-c_baalbek                       ;roman               ;        ;Heliopolis
-c_syria                         ;greek               ;        ;Bostra
-c_syria                         ;roman               ;        ;Bostra
-c_suwaida                       ;greek               ;        ;Philippopolis
-c_suwaida                       ;roman               ;        ;Philippopolis
-c_irbid                         ;greek               ;        ;Arbela
-c_irbid                         ;roman               ;        ;Arbela
+c_damascus                      ;frankish            ;Damascus;Damascus
+c_damascus                      ;norman              ;Damascus;Damascus
+c_damascus                      ;greek               ;Damascus;Damaskos
+c_damascus                      ;roman               ;Damascus;Damascus
+c_baalbek                       ;frankish            ;Baalbek ;Balbec
+c_baalbek                       ;norman              ;Baalbek ;Balbec
+c_baalbek                       ;greek               ;Baalbek ;Helioupolis
+c_baalbek                       ;roman               ;Baalbek ;Heliopolis
+c_syria                         ;greek               ;Bosra   ;Bostra
+c_syria                         ;roman               ;Bosra   ;Bostra
+c_suwaida                       ;greek               ;Shahba  ;Philippopolis
+c_suwaida                       ;roman               ;Shahba  ;Philippopolis
+c_irbid                         ;greek               ;Irbid   ;Arbela
+c_irbid                         ;roman               ;Irbid   ;Arbela
 d_jordan                        ;title_prefix        ;JUND_OF ;JUND_OF
 d_jordan                        ;greek               ;Arabia Petraea;Arabia Prima
 d_jordan                        ;roman               ;Arabia Petraea;Arabia Prima
-c_amman                         ;frankish            ;        ;Ahamant
-c_amman                         ;norman              ;        ;Ahamant
-c_amman                         ;greek               ;        ;Philadelpheia
-c_amman                         ;roman               ;        ;Philadelphia
+c_amman                         ;frankish            ;Amman   ;Ahamant
+c_amman                         ;norman              ;Amman   ;Ahamant
+c_amman                         ;greek               ;Amman   ;Philadelpheia
+c_amman                         ;roman               ;Amman   ;Philadelphia
 c_az_zarqa                      ;greek               ;        ;Basienis
 c_az_zarqa                      ;roman               ;        ;Basienis
 c_madaba                        ;frankish            ;        ;Gerasa
