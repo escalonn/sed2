@@ -62,7 +62,7 @@ token_specs = [
     ('newline', (r'\r?\n',)),
     ('op', (r'[={}]',)),
     ('date', (r'\d*\.\d*\.\d*',)),
-    ('number', (r'\d+(\.\d+)?',)),
+    ('number', (r'\d+(\.\d+)?(?!\w)',)),
     ('quoted_string', (r'"[^"#\r\n]*"',)),
     ('unquoted_string', (r'[^\s"#={}]+',))
 ]
@@ -112,6 +112,10 @@ class TopLevel(Stringifiable):
     @property
     def indent(self):
         return self._indent
+
+    @property
+    def has_pairs(self):
+        return not self.contents or isinstance(self.contents[0], Pair)
 
     @indent.setter
     def indent(self, value):
@@ -492,7 +496,7 @@ def parse_file(path, encoding='cp1252'):
     with path.open(encoding=encoding) as f:
         try:
             tree = parse(f.read())
-        except parser.NoParseError:
+        except:
             print(path)
             raise
     return tree
