@@ -1,7 +1,6 @@
 import csv
 import datetime
 import operator
-import pathlib
 import re
 from funcparserlib import lexer
 from funcparserlib import parser
