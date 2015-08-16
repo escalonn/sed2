@@ -3,7 +3,6 @@
 import collections
 import csv
 import datetime
-import pathlib
 import re
 import shutil
 import ck2parser
