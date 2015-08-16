@@ -8,7 +8,7 @@ import shutil
 import ck2parser
 import localpaths
 
-version = 'v2.0-BETA'
+version = 'v2.0.0'
 
 rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
