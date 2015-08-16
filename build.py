@@ -7,10 +7,11 @@ import pathlib
 import re
 import shutil
 import ck2parser
+import localpaths
 
 version = 'v2.0-BETA'
 
-rootpath = pathlib.Path('C:/Users/Nicholas/Documents/CK2')
+rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
