@@ -130,15 +130,19 @@ def main():
             col_width = [0, 8]
             with inpath.open(newline='', encoding='cp1252') as csvfile:
                 for row in csv.reader(csvfile, dialect='ckii'):
-                    if row[0] and not row[0].startswith('b_'):
-                        if '#' in row[0]:
-                            row = [','.join(row)] + [''] * (len(row) - 1)
-                        out_row = [row[0], prev_loc[row[0]], row[1],
-                                   ','.join(dynamics[row[0]]), english[row[0]],
-                                   vanilla.get(row[0], '')]
-                        out_rows.append(out_row)
-                        if '#' not in row[0]:
-                            col_width[0] = max(len(row[0]), col_width[0])
+                    try:
+                        if row[0] and not row[0].startswith('b_'):
+                            if '#' in row[0]:
+                                row = [','.join(row)] + [''] * (len(row) - 1)
+                            out_row = [row[0], prev_loc[row[0]], row[1],
+                                       ','.join(dynamics[row[0]]),
+                                       english[row[0]],
+                                       vanilla.get(row[0], '')]
+                            out_rows.append(out_row)
+                            if '#' not in row[0]:
+                                col_width[0] = max(len(row[0]), col_width[0])
+                    except IndexError:
+                        continue
             for i, out_row in enumerate(out_rows):
                 if '#' not in out_row[0] or i == 0:
                     for col, width in enumerate(col_width):

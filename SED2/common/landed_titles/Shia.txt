@@ -1,4 +1,4 @@
-k_shiite = {
+k_shiite = { # Shia
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
 	capital = 719 # Mecca
@@ -8,15 +8,20 @@ k_shiite = {
 	# Controls a religion
 	controls_religion = shiite
 	assimilate = no
+	caliphate = yes
+	coat_of_arms = {
+		data = { 0 0 0 9 1 7 7 }
+		religion = shiite
+	}
 	allow = {
-		OR = {
+		or = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
-		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
-		OR = {
-			AND = {
+		not = { has_global_flag = shia_caliphate_revolt_ongoing }
+		or = {
+			and = {
 				trait = sayyid
 				piety = 1000
 			}
@@ -25,7 +30,7 @@ k_shiite = {
 				hidden_tooltip = {
 					719 = { # Mecca
 						owner = {
-							OR = {
+							or = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -33,7 +38,7 @@ k_shiite = {
 					}
 					718 = { # Medina
 						owner = {
-							OR = {
+							or = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -46,7 +51,7 @@ k_shiite = {
 				hidden_tooltip = {
 					774 = { # Jerusalem
 						owner = {
-							OR = {
+							or = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -54,7 +59,7 @@ k_shiite = {
 					}
 					728 = { # Damascus
 						owner = {
-							OR = {
+							or = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -62,7 +67,7 @@ k_shiite = {
 					}
 					693 = { # Baghdad
 						owner = {
-							OR = {
+							or = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -72,13 +77,8 @@ k_shiite = {
 			}
 		}
 	}
-	caliphate = yes
-	coat_of_arms = {
-		data = { 0 0 0 9 1 7 7 }
-		religion = shiite
-	}
 	title = CALIPH
 	title_female = CALIPHA
 	foa = CALIPH_FOA
 	short_name = yes
-}
+} # end k_shiite

@@ -74,7 +74,7 @@ class Comment(object):
     def __init__(self, string):
         if string[0] == '#':
             string = string[1:]
-        self.val = string.strip(' \t')
+        self.val = string.strip()
 
     def __str__(self):
         return ('# ' if self.val and self.val[0] != '#' else '#') + self.val
