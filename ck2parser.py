@@ -5,9 +5,9 @@ import pathlib
 import re
 from funcparserlib import lexer
 from funcparserlib import parser
+import localpaths
 
-vanilladir = pathlib.Path(
-    'C:/Program Files (x86)/Steam/SteamApps/common/Crusader Kings II')
+vanilladir = localpaths.vanilladir
 
 csv.register_dialect('ckii', delimiter=';', doublequote=False,
                      quotechar='\0', quoting=csv.QUOTE_NONE, strict=True)

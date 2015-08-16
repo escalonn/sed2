@@ -7,8 +7,9 @@ import re
 import shutil
 import tempfile
 import ck2parser
+import localpaths
 
-rootpath = pathlib.Path('C:/Users/Nicholas/Documents/CK2')
+rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
 def get_province_id(where):
