@@ -1,45 +1,45 @@
 # List of extra Titular Titles
 # ToG de jure stuff
-d_oxford = {
+d_oxford = { # Oxford
 	color = { 99 68 5 }
-	capital = 22
+	capital = 22 # Oxford
 }
-d_chester = {
+d_chester = { # Chester
 	color = { 121 29 29 }
-	capital = 59
+	capital = 59 # Chester
 }
-d_gloucester = {
+d_gloucester = { # Hwicce
 	color = { 57 21 209 }
-	capital = 21
+	capital = 21 # Gloucester
 }
 b_zussow = {}
 b_kolbatz = {}
-d_yaroslavl = {
+d_yaroslavl = { # Yaroslavl
 	color = { 178 192 134 }
 	capital = 572 # Yaroslavl
 }
-d_vitebsk = {
+d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
 	capital = 417 # Vitebsk
 }
-d_cheremisa = {
+d_cheremisa = { # Cheremisa
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
 	capital = 590 # Chuvash
 	allow = { always = no }
 }
 # TITULAR SWMH
-d_lowerbrittany = {
+d_lowerbrittany = { # Breizh Izel
 	color = { 148 148 116 }
 	color2 = { 255 255 255 }
 	capital = 105 # Vannes
 	culture = breton
 	allow = {
 		independent = yes
-		NOT = {
+		not = {
 			has_landed_title = d_brittany
 			any_demesne_title = {
-				OR = {
+				or = {
 					tier = king
 					tier = emperor
 				}
@@ -47,14 +47,14 @@ d_lowerbrittany = {
 		}
 	}
 }
-e_ulm = {
+e_ulm = { # Ulm
 	color = { 110 110 110 }
 	capital = 252 # ULM
 	allow = {
 		has_landed_title = c_ulm
 		independent = yes
 		prestige = 2000
-		OR = {
+		or = {
 			has_landed_title = c_ferrara
 			any_vassal = { has_landed_title = c_ferrara }
 		}
@@ -63,11 +63,11 @@ e_ulm = {
 	foa = ULM_FOA
 	short_name = yes
 }
-e_khazaria = {
+e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
 	capital = 620 # Itil
 	allow = {
-		OR = {
+		or = {
 			religion_group = jewish_group
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
@@ -75,30 +75,30 @@ e_khazaria = {
 		has_landed_title = k_khazaria
 		independent = yes
 	}
-} #
-e_khitan = {
+} # end e_khazaria
+e_khitan = { # Kara Khitai
 	color = { 130 10 50 }
 	capital = 1572 # Balasaghnun
 	allow = { always = no }
 	short_name = yes
 }
-k_qipchaq = { # Wild Cumans
+k_qipchaq = { # Qipchaqlar # Wild Cumans
 	color = { 45 92 150 }
 	color2 = { 255 255 255 }
-	capital = 619
+	capital = 619 # Saray
 	culture = cuman
 	allow = { always = no }
 	dynasty_title_names = no
 }
-k_cuman = { # Non wild Cumans
+k_cuman = { # Kumanlar # Non wild Cumans
 	color = { 166 76 99 }
 	color2 = { 255 255 255 }
-	capital = 557
+	capital = 557 # Tokmak
 	culture = cuman
 	allow = { always = no }
 	dynasty_title_names = no
 }
-k_pechenegs = {
+k_pechenegs = { # Beçeneklar
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
 	capital = 618 # Little Sarai
@@ -106,36 +106,36 @@ k_pechenegs = {
 	allow = { always = no }
 	dynasty_title_names = no
 }
-k_qangar = {
+k_qangar = { # Qangar
 	color = { 45 99 180 }
 	color2 = { 255 255 255 }
-	capital = 557
+	capital = 557 # Tokmak
 	culture = pecheneg
 	allow = { always = no }
 	dynasty_title_names = no
 }
-k_uzes = {
+k_uzes = { # Uzlar
 	color = { 220 158 121 }
 	color2 = { 255 255 255 }
-	capital = 895
+	capital = 895 # Yaik
 	culture = oghuz
 	allow = { always = no }
 	dynasty_title_names = no
 }
-d_black_caps = {
+d_black_caps = { # Karakalpaklar
 	color = { 189 121 13 }
 	color2 = { 255 255 255 }
-	capital = 544
+	capital = 544 # Ros’
 	culture = oghuz
 	allow = {
-		OR = {
+		or = {
 			culture = oghuz
 			culture = pecheneg
 		}
 	}
 	dynasty_title_names = no
 }
-e_kaleva = {
+e_kaleva = { # Kalevala
 	color = { 144 157 181 }
 	capital = 381 # Nyland
 	allow = {
@@ -145,55 +145,55 @@ e_kaleva = {
 		independent = yes
 	}
 }
-k_geats = {
+k_geats = { # Gautaríki
 	color = { 208 191 99 }
 	capital = 293 # Östergötland
 	allow = {
-		OR = {
-			AND = {
+		or = {
+			and = {
 				has_landed_title = d_vastergotland
 				has_landed_title = d_ostergotland
 			}
 			independent = yes
-			NOT = {
+			not = {
 				any_demesne_title = {
-					OR = {
+					or = {
 						tier = king
 						tier = emperor
 					}
 				}
 			}
-			AND = {
+			and = {
 				has_landed_title = k_denmark
-				OR = {
+				or = {
 					has_landed_title = d_vastergotland
 					any_vassal = { has_landed_title = d_vastergotland }
 				}
-				OR = {
+				or = {
 					has_landed_title = d_ostergotland
 					any_vassal = { has_landed_title = d_ostergotland }
 				}
 				prestige = 1500
 			}
-			AND = {
+			and = {
 				has_landed_title = k_sweden
-				OR = {
+				or = {
 					has_landed_title = d_vastergotland
 					any_vassal = { has_landed_title = d_vastergotland }
 				}
-				OR = {
+				or = {
 					has_landed_title = d_ostergotland
 					any_vassal = { has_landed_title = d_ostergotland }
 				}
 				prestige = 1500
 			}
-			AND = {
+			and = {
 				has_landed_title = k_norway
-				OR = {
+				or = {
 					has_landed_title = d_vastergotland
 					any_vassal = { has_landed_title = d_vastergotland }
 				}
-				OR = {
+				or = {
 					has_landed_title = d_ostergotland
 					any_vassal = { has_landed_title = d_ostergotland }
 				}
@@ -201,15 +201,15 @@ k_geats = {
 			}
 		}
 	}
-}
-e_germany = {
+} # end k_geats
+e_germany = { # Germania
 	color = { 190 200 190 }
 	color2 = { 220 220 20 }
 	capital = 121 # Nassau
 	culture = german
 	allow = { always = no }
 }
-k_avaria = {
+k_avaria = { # Avaria
 	color = {
 		250 120 90
 	} # Only for the CoA
@@ -217,7 +217,7 @@ k_avaria = {
 	capital = 444 # Esztergom
 	allow = { always = no }
 }
-k_lombardy = {
+k_lombardy = { # Lombardy
 	color = {
 		234 217 110
 	} # Only for the CoA
@@ -225,19 +225,19 @@ k_lombardy = {
 	capital = 234 # Pavia
 	allow = { always = no }
 }
-d_lauenburg = {
+d_lauenburg = { # Sachsen-Lauenburg
 	capital = 1098 # Lauenburg
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
-		OR = {
+		or = {
 			has_landed_title = c_lauenburg
 			any_vassal = { has_landed_title = c_lauenburg }
 		}
-		NOT = { any_demesne_title = { tier = emperor } }
+		not = { any_demesne_title = { tier = emperor } }
 	}
 }
-d_sangermano = {
+d_sangermano = { # Terra Sancti Benedicti
 	capital = 1318 # Sangermano
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
@@ -248,7 +248,7 @@ d_sangermano = {
 	}
 	short_name = yes
 }
-k_salerno = {
+k_salerno = { # Principato di Salerno
 	color = { 0 132 250 }
 	culture = langobardisch
 	capital = 336 # Salerno
@@ -258,7 +258,7 @@ k_salerno = {
 		has_landed_title = d_salerno
 	}
 }
-d_austrialombardic = {
+d_austrialombardic = { # Austria
 	color = { 4 33 122 }
 	culture = langobardisch
 	capital = 319 # Verona
@@ -269,7 +269,7 @@ d_austrialombardic = {
 		has_landed_title = d_aquileia
 	}
 }
-d_neustria = {
+d_neustria = { # Neustria
 	color = { 4 33 11 }
 	culture = langobardisch
 	capital = 234 # Pavia
@@ -283,7 +283,7 @@ d_neustria = {
 		has_landed_title = d_monferrato
 	}
 }
-d_tuscia = {
+d_tuscia = { # Tuscia
 	color = { 250 241 220 }
 	culture = langobardisch
 	capital = 323 # Lucca
@@ -294,19 +294,21 @@ d_tuscia = {
 		has_landed_title = d_toscana
 	}
 }
-k_duklja = {
+k_duklja = { # Duklja
 	color = { 224 186 36 }
 	culture = serbian
 	capital = 469 # Zeta
 	allow = {
-		k_serbia = { has_holder = no }
+		k_serbia = { # Srbija
+			has_holder = no
+		}
 		ruled_years = 5
 		war = no
 		is_adult = yes
-		NOT = { tier = emperor }
+		not = { tier = emperor }
 	}
 }
-k_austria = {
+k_austria = { # Österreich
 	color = { 188 0 7 }
 	culture = german
 	capital = 449 # Österreich
@@ -320,26 +322,26 @@ k_austria = {
 	foa = ADA_FOA
 	title_prefix = ADA_OF
 }
-d_smaland = {
+d_smaland = { # Småland
 	color = { 88 138 70 }
 	capital = 298 # Småland
 	allow = {
-		OR = {
+		or = {
 			has_landed_title = c_smaland
 			any_vassal = { has_landed_title = c_smaland }
 		}
-		OR = {
+		or = {
 			has_landed_title = c_tjust
 			any_vassal = { has_landed_title = c_tjust }
 		}
-		OR = {
+		or = {
 			has_landed_title = c_finnveden
 			any_vassal = { has_landed_title = c_finnveden }
 		}
 		independent = yes
-		NOT = {
+		not = {
 			any_demesne_title = {
-				OR = {
+				or = {
 					tier = king
 					tier = emperor
 				}
@@ -347,59 +349,59 @@ d_smaland = {
 		}
 	}
 }
-e_occitania = {
+e_occitania = { # Occitània
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
 	capital = 214 # Toulouse
 	culture = occitan
 	dignity = 100 # Counted as having 100 more counties than it does
 	allow = {
-		OR = {
+		or = {
 			culture = occitan
 			culture = catalan
 		}
 		religion_group = christian
 		independent = yes
-		OR = {
+		or = {
 			has_landed_title = d_toulouse
 			any_vassal = { has_landed_title = d_toulouse }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_aquitaine
 			any_vassal = { has_landed_title = d_aquitaine }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_provence
 			any_vassal = { has_landed_title = d_provence }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_gevaudan
 			any_vassal = { has_landed_title = d_gevaudan }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_foix
 			any_vassal = { has_landed_title = d_foix }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_septimania
 			any_vassal = { has_landed_title = d_septimania }
 		}
-		OR = {
+		or = {
 			has_landed_title = d_gascogne
 			any_vassal = { has_landed_title = d_gascogne }
 		}
 	}
 	name_tier = king
-}
+} # end e_occitania
 # Titular Darrigan
 # The county of Flanders had more autonomy than other regions under the French crown. They did lose the independence wars # in the 13th and 14th century. But what if they had won?
-k_flanders = {
+k_flanders = { # Vlaanderen
 	color = { 255 120 0 }
 	color2 = { 255 255 255 }
 	capital = 78 # Brugge
 	allow = {
 		has_landed_title = d_flanders
-		OR = {
+		or = {
 			has_landed_title = c_brugge
 			has_landed_title = c_gent
 			has_landed_title = c_yperen
@@ -407,9 +409,9 @@ k_flanders = {
 			has_landed_title = c_tournai
 		}
 		independent = yes
-		NOT = {
+		not = {
 			any_demesne_title = {
-				OR = {
+				or = {
 					tier = king
 					tier = emperor
 				}
@@ -418,7 +420,7 @@ k_flanders = {
 	}
 }
 # ARKO
-d_narbonne = { # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
+d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
 	capital = 214 # Toulouse
@@ -426,11 +428,11 @@ d_narbonne = { # titre porté par les ducs de Toulouse pour affirmer leur pouvoir
 	allow = { always = no }
 }
 # King
-d_paulicians = {
+d_paulicians = { # Paulikianoi
 	color = { 78 33 125 }
 	capital = 1998 # Tephrike
 	allow = {
-		OR = {
+		or = {
 			culture = greek
 			culture = armenian
 		}
@@ -464,7 +466,7 @@ d_paulicians = {
 # religion_group = christian
 # }
 # }
-k_armenia_minor = {
+k_armenia_minor = { # Mikrá Armenia
 	color = { 14 30 131 }
 	culture = armenian
 	capital = 735 # Teluch
@@ -473,7 +475,7 @@ k_armenia_minor = {
 		religion_group = christian
 	}
 }
-k_bagratid_grand_principality = {
+k_bagratid_grand_principality = { # Hayk
 	color = { 117 178 81 }
 	culture = armenian
 	capital = 681 # Ani
@@ -485,22 +487,22 @@ k_bagratid_grand_principality = {
 	foa = ISHKHAN_FOA
 	title_prefix = ISHKHAN_OF
 }
-d_pagania = {
+d_pagania = { # Neretljani
 	color = { 114 230 1 }
 	capital = 1330 # Omis
 	allow = {
-		OR = {
+		or = {
 			culture = serbian
 			culture = croatian
 		}
 		religion = slavic_pagan
 	}
 }
-d_rhodos = {
+d_rhodos = { # Rhodos
 	color = { 144 230 19 }
 	capital = 483 # Rhodos
 	allow = {
-		OR = {
+		or = {
 			culture = greek
 			culture = frankish
 		}
@@ -510,19 +512,19 @@ d_rhodos = {
 	foa = CAESAR_FOA
 	title_prefix = CAESAR_OF
 }
-e_chagatai = {
+e_chagatai = { # Chagatai
 	color = { 200 200 200 }
 	color2 = { 0 250 250 }
 	capital = 903 # Samarkand
-	allow = { always = no }
 	culture = mongol
 	religion = tengri_pagan
+	allow = { always = no }
 }
-d_dahlak = {
+d_dahlak = { # Dahlak
 	color = { 255 164 17 }
 	capital = 1592 # Dahlak
 	allow = {
-		OR = {
+		or = {
 			culture = bedouin_arabic
 			culture = ethiopian
 			culture = beja
@@ -530,11 +532,11 @@ d_dahlak = {
 		is_republic = yes
 	}
 }
-d_siraf = {
+d_siraf = { # Siráf
 	color = { 40 200 200 }
 	capital = 1594 # Siraf
 	allow = {
-		OR = {
+		or = {
 			culture = persian
 			culture = pahlavi
 			culture = bedouin_arabic
@@ -542,23 +544,23 @@ d_siraf = {
 		is_republic = yes
 	}
 }
-e_wendish_empire = {
+e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
 	capital = 441 # Brno
 	allow = {
-		OR = {
+		or = {
 			religion = catholic
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
 		}
-		OR = {
+		or = {
 			culture_group = west_slavic
 			culture = karantanci
 			culture = croatian
 		}
-		AND = {
+		and = {
 			has_landed_title = k_moravia
-			OR = {
+			or = {
 				has_landed_title = k_poland
 				has_landed_title = k_pomerania
 				has_landed_title = k_bohemia

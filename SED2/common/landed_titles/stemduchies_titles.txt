@@ -1,7 +1,7 @@
 # List of Titular Stem Duchies in the HRE by Darrigan
 # Landed_titles.txt now has d_burgau, d_oberbayern, d_styria, d_saxewittenberg and d_rheinfranken
 # Swabia
-d_swabia = {
+d_swabia = { # Schwaben
 	color = { 57 142 157 }
 	color2 = { 220 220 20 }
 	capital = 249 # Schwaben
@@ -9,7 +9,7 @@ d_swabia = {
 	allow = { always = no }
 }
 # Lower Lorraine
-d_lower_lorraine = {
+d_lower_lorraine = { # Niederlothringen
 	color = { 37 114 179 }
 	color2 = { 220 220 20 }
 	capital = 117 # Brabant
@@ -17,7 +17,7 @@ d_lower_lorraine = {
 	allow = { always = no }
 }
 # Bavaria
-d_bavaria = {
+d_bavaria = { # Baiern
 	color = { 56 67 158 }
 	color2 = { 220 220 20 }
 	capital = 360 # Oberbayern
@@ -25,7 +25,7 @@ d_bavaria = {
 	allow = { always = no }
 }
 # Saxony
-d_saxony = {
+d_saxony = { # Sachsen
 	color = { 78 98 40 }
 	color2 = { 220 220 20 }
 	dignity = 100
@@ -33,7 +33,7 @@ d_saxony = {
 	allow = { always = no }
 }
 # Franconia
-d_franconia = {
+d_franconia = { # Franken
 	color = { 130 100 100 }
 	color2 = { 220 220 20 }
 	capital = 123 # Mainz
