@@ -41,7 +41,7 @@ k_papal_state = { # Status Pontificius
 	}
 }
 k_orthodox = { # The Ecumenical Patriarchate
-	# color={ 150 90 30 }
+	#color = { 150 90 30 }
 	color = { 183 60 155 }
 	color2 = { 220 220 0 }
 	capital = 496 # Constantinople
@@ -70,8 +70,8 @@ e_sunni = { # The Sunni Caliphate
 	color2 = { 220 220 0 }
 	capital = 719 # Mecca
 	religion = sunni
-	# controls_religion = sunni
-	# caliphate = yes
+	#controls_religion = sunni
+	#caliphate = yes
 	allow = { always = no }
 	title = CALIPH
 	title_female = CALIPHA
@@ -84,8 +84,8 @@ e_shiite = { # The Shia Caliphate
 	color2 = { 220 220 0 }
 	capital = 719 # Mecca
 	religion = shiite
-	# controls_religion = shiite
-	# caliphate = yes
+	#controls_religion = shiite
+	#caliphate = yes
 	allow = { always = no }
 	title = CALIPH
 	title_female = CALIPHA
@@ -690,7 +690,7 @@ d_west_african_pagan_reformed = { # West African Church
 d_zun_pagan_reformed = { # The Church of Zun
 	color = { 220 255 0 }
 	color2 = { 220 220 0 }
-	capital = 1183 # Bost
+	capital = 637 # Sistan
 	# Always exists
 	landless = yes
 	# Controls a religion
