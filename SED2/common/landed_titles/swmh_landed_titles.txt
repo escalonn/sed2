@@ -24426,6 +24426,7 @@ e_africa = { # Africa
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_taghaza = {}
+				b_taoudeni = {}
 				#b_kerzaz = {}
 				#b_metarta = {}
 				#b_adrar = {}
@@ -24437,11 +24438,6 @@ e_africa = { # Africa
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_tassarahla = {}
-			}
-			c_taoudeni = { # Taoudeni (1365)
-				color = { 130 180 61 }
-				color2 = { 255 255 255 }
-				b_taoudeni = {}
 			}
 		}
 	} # end k_mauretania
@@ -25180,17 +25176,6 @@ e_arabia = { # Arabian Empire
 			color = { 32 150 63 }
 			color2 = { 255 255 255 }
 			capital = 806 # Cyrenacia
-			c_cyrenaica = { # Darna (806)
-				color = { 34 152 65 }
-				color2 = { 255 255 255 }
-				b_derna = {}
-				b_martuba = {}
-				#b_alqubbah = {}
-				#b_altamimi = {}
-				#b_athrun = {}
-				#b_mukhayta = {}
-				#b_khadra = {}
-			}
 			c_senoussi = { # Awjîla (807)
 				color = { 36 154 67 }
 				color2 = { 255 255 255 }
@@ -25226,12 +25211,14 @@ e_arabia = { # Arabian Empire
 				#b_tansulukh = {}
 				#b_jardinah = {}
 			}
-			c_tobruk = { # Tubrúk (805)
+			c_tobruk = { # Tobruk (805)
 				color = { 40 158 71 }
 				color2 = { 255 255 255 }
 				b_tobruk = {}
+				b_derna = {}
 				b_lakka = {}
 				b_bardia = {}
+				b_martuba = {}
 				#b_alqardabah = {}
 				#b_acroma = {
 				#	roman = "Gonia"
@@ -29698,8 +29685,11 @@ k_kanem = { # Kanem
 			color = { 225 65 105 }
 			color2 = { 255 255 255 }
 			b_bornu = {}
-			b_yao = {}
+			b_zamtam = {}
 			b_sao = {}
+			b_ngazargamu = {}
+			b_diaka = {}
+			b_yao = {}
 			b_fika = {}
 		}
 		c_kagha = { # Kagha (1477)
@@ -29709,13 +29699,6 @@ k_kanem = { # Kanem
 			b_amcaka = {}
 			b_kotoko = {}
 			b_daima = {}
-		}
-		c_zamtam = { # Zamtam (1475)
-			color = { 215 55 110 }
-			color2 = { 255 255 255 }
-			b_zamtam = {}
-			b_ngazargamu = {}
-			b_diaka = {}
 		}
 		c_munio = { # Munio (1474)
 			color = { 210 50 105 }
