@@ -308,13 +308,13 @@ PROV714 ;Azraq   ;Azraq;c_az_zarqa,Basienis;;Az Zarqa
 PROV709 ;Al-Raqqah;Ar-Raqqah;c_asas,Callinicum,Kallinikos;;Asas
 PROV731 ;Homs    ;Hims;c_homs,La Chamelle,Emesa;;Homs
 PROV768 ;Beqaa   ;Bekaa;c_baalbek,Balbec,Heliopolis,Helioupolis;;Baalbek
-PROV725 ;Golan   ;Jaulan;c_irbid,Arbela;;Irbid
+PROV725 ;        ;;;;Irbid
 PROV728 ;Ghouta  ;Ghutah;c_damascus,Damascus,Damaskos;;Damascus
-PROV727 ;Hauran  ;Hauran;c_syria,Bostra;;Bostra
-PROV712 ;Batanaea;Bathaniyya;c_suwaida,Philippopolis;;Suwaida
+PROV727 ;Batanaea;Bathaniyya;c_syria,Adraa;;Bostra
+PROV712 ;Hauran  ;Hauran;c_suwaida,Bostra;;Suwaida
 PROV724 ;Balqa’  ;Balqa;c_amman,Philadelphia,Philadelpheia,Ahamant;;Amman
 PROV708 ;Turbessel;Turbessel;c_tell_bashir,Tell Bashir,Tilbesar;;Tell Bashir
-PROV723 ;Jerash  ;Jarash;c_madaba,Gerasa;;Madaba
+PROV723 ;Jerash  ;Jarash;c_madaba,Arbela,Gerasa;;Madaba
 PROV713 ;Qasr al-Hayr al-Sharqi;Qasr al-Hayr al-Sharqi;c_druz;;Druz
 PROV729 ;Al-Qa’im;Alqaim;c_tadmor;;Al-Sukhnah
 PROV733 ;Aleppo  ;Halab;c_aleppo,Beroea,Berroia,Halapia;;Aleppo
@@ -327,6 +327,7 @@ PROV774 ;Jerusalem;Jérusalem;c_jerusalem,Al-Quds,Kudüs,Ierosolyma,Hierosolyma;;J
 PROV781 ;Deir al-Balah;Darom;c_darum;;Darum
 PROV786 ;Mount Catherine;Jabal Katrina;c_eilat;;Eilat
 PROV785 ;Nekhel  ;Nekhel;c_sinai;;Sinai
+PROV788 ;        ;;;;Farama
 ########################################,,,,,,,,,,,,,,;;;;;
 #Grecce,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
@@ -365,10 +366,10 @@ PROV1981;Veria   ;Verroia;c_veria,Ber,Karaferye;;
 ########################################,,,,,,,,,,,,,,;;;;;
 #Arabia,,,,,,,,,,,,,,;;;;;
 ########################################,,,,,,,,,,,,,,;;;;;
-PROV716 ;Dumat al-Jundal;Dumat al-Jundal;c_ar_ar;;Shaka
+PROV716 ;Dumat Al-Jandal;Dumat al-Jundal;c_ar_ar;;Shaka
 PROV717 ;Mawijan ;Mawijan;c_al_jawf;;Al Jawf
 PROV865 ;Talabija;Talabija;c_rafha;;Rafha
-PROV720 ;Al-Ula  ;Al-Ula;c_hijaz;;Hijaz
+PROV720 ;Al-‘Ula ;Al-Ula;c_hijaz;;Hijaz
 PROV654 ;Subala  ;Subala;c_rummah;;Rummah
 ########################################,,,,,,,,,,,,,,;;;;;
 #Rhos,,,,,,,,,,,,,,;;;;;
@@ -535,7 +536,7 @@ PROV802 ;Iskandarîya;Iskandarîya;c_alexandria;;Alexandria
 PROV803 ;Sîwa    ;Sîwa;c_quattara,Ammonium,Ammonion;;Quattara
 PROV804 ;Sullum  ;Sullum;c_al_alamayn,Paraetonium,Paraitonion;;Al Alamayn
 PROV805 ;Tubrúk  ;Tubrúk;c_tobruk,Antipyrgus,Antipyrgos;;Tobruk
-PROV806 ;Darna   ;Darna;c_cyrenaica,Darnis;;Cyrenaica
+PROV806 ;        ;;;;Cyrenaica
 PROV807 ;Awjîla  ;Awjîla;c_senoussi,Augila;;Senoussi
 PROV808 ;Barqa   ;Barqa;c_benghazi,Cyrene,Kyrene;;Benghazi
 ########################################,,,,,,,,,,,,,,;;;;;
@@ -596,7 +597,7 @@ PROV887 ;Sarisu  ;Sarisu;c_sarisu;;Yamalia
 PROV893 ;Turgay  ;Turgay;c_turgay,Turgay;;Sibir
 PROV894 ;Mashkél ;Mashkél;c_mashkel;;Saravan
 PROV897 ;Irgiz   ;Irgiz;c_irgiz;;Inder
-PROV898 ;Sibir   ;Sibir;c_sibir;;Tobol
+PROV898 ;Tobol   ;Tobol;c_sibir;;Tobol
 PROV899 ;Pandjgúr;Pandjgúr;c_pandjgur;;Tis
 PROV900 ;Jand    ;Jand;c_jand;;Syr Darya
 PROV901 ;Kyzyl-Kum;Kyzyl-Kum;;;Kyzyl-Kum
@@ -695,3 +696,7 @@ PROV394 ;Pomorye ;Pomorye;c_trans-portage;;Pomorye
 PROV405 ;Vaga    ;Vaga;c_chud;;Chud
 PROV403 ;Latša   ;Latša;c_romny,Lacha;;Romny
 PROV393 ;Änine   ;Änine;c_onega,Onega,Äänis;;Ääninen
+########################################,,,,,,,,,,,,,,;;;;;
+#Levant,,,,,,,,,,,,,,;;;;;
+########################################,,,,,,,,,,,,,,;;;;;
+PROV771 ;Sidon   ;Sidon;c_tyrus,Sayda;;Tyrus

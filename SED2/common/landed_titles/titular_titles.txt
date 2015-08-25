@@ -210,17 +210,13 @@ e_germany = { # Germania
 	allow = { always = no }
 }
 k_avaria = { # Avaria
-	color = {
-		250 120 90
-	} # Only for the CoA
+	color = { 250 120 90 } # Only for the CoA
 	culture = avar
 	capital = 444 # Esztergom
 	allow = { always = no }
 }
 k_lombardy = { # Lombardy
-	color = {
-		234 217 110
-	} # Only for the CoA
+	color = { 234 217 110 } # Only for the CoA
 	culture = lombard
 	capital = 234 # Pavia
 	allow = { always = no }
@@ -439,33 +435,28 @@ d_paulicians = { # Paulikianoi
 		religion = paulician
 	}
 }
-# d_melitene = {
-# color={ 11 34 128 }
-# culture = levantine_arabic
-# capital = 707 #Melitene
-#
-# allow = {
-# OR = {
-# culture = levantine_arabic
-# culture = kurdish
-# culture = turkish
-# }
-#
-# religion_group = muslim
-# }
-# }
-#
-# d_lori = {
-# color={ 12 33 130 }
-# culture = armenian
-# capital = 1013 #Lori
-#
-# allow = {
-# culture = armenian
-#
-# religion_group = christian
-# }
-# }
+#d_melitene = {
+#	color = { 11 34 128 }
+#	culture = levantine_arabic
+#	capital = 707 # Melitene
+#	allow = {
+#		OR = {
+#			culture = levantine_arabic
+#			culture = kurdish
+#			culture = turkish
+#		}
+#		religion_group = muslim
+#	}
+#}
+#d_lori = {
+#	color = { 12 33 130 }
+#	culture = armenian
+#	capital = 1013 # Lori
+#	allow = {
+#		culture = armenian
+#		religion_group = christian
+#	}
+#}
 k_armenia_minor = { # Mikrá Armenia
 	color = { 14 30 131 }
 	culture = armenian
