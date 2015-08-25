@@ -8642,9 +8642,11 @@ e_carpathia = { # Magyarország
 			c_veglia = { # Krk (459)
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
-				b_baska = {}
 				b_vrbnik_krk = {}
 				b_krk = {}
+				b_osor = {}
+				b_cres = {}
+				b_baska = {}
 				#b_dobrinj = {
 				#	german = "Dobrauen"
 				#	thuringian = "Dobrauen"
@@ -8696,8 +8698,6 @@ e_carpathia = { # Magyarország
 			c_cres = { # Cres (1415)
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
-				b_osor = {}
-				b_cres = {}
 			} # end c_cres
 		} # end d_krk
 		d_dalmatian_islands = { # Hvar
@@ -8937,17 +8937,6 @@ k_jerusalem = { # Jerusalem
 			#b_syrsebastia = {}
 			#b_aynjalut = {}
 		}
-		c_caesarea = { # Caesarea (1260)
-			color = { 47 253 71 }
-			color2 = { 255 255 255 }
-			b_caymont = {}
-			b_arsuf = {}
-			b_syrcaesarea = {}
-			#b_recordana = {}
-			b_calansue = {}
-			b_haifa = {}
-			#b_syrcaco = {}
-		}
 		c_hebron = { # St-Abraham (776)
 			color = { 49 255 73 }
 			color2 = { 255 255 255 }
@@ -8957,6 +8946,15 @@ k_jerusalem = { # Jerusalem
 			b_bethgibelin = {}
 			#b_syrsebbe = {}
 		} # end c_hebron
+		c_darum = { # Darom (781)
+			color = { 5 199 37 }
+			color2 = { 255 255 255 }
+			b_darum = {}
+			b_gaza = {}
+			b_radwan = {}
+			b_salqah = {}
+			#b_abasan = {}
+		}
 	} # end d_jerusalem
 	d_acre = { # Acre
 		color = { 235 224 73 }
@@ -8969,22 +8967,28 @@ k_jerusalem = { # Jerusalem
 			color2 = { 255 255 255 }
 			b_acre = {}
 			b_castellumregis = {}
-			b_abusnan = {}
+			b_tyrus = {}
+			b_haifa = {}
 			b_scandelon = {}
 			b_adelon = {}
-			b_tarshiha = {}
-			#b_yehiam = {}
-			#b_kafryasif = {}
-			#b_syrmontfort = {}
-			#b_casalimbert = {}
 		} # end c_acre
-		c_tyrus = { # Tyrus (771)
+		c_tyrus = { # Sidon (771)
 			color = { 8 202 67 }
 			color2 = { 255 255 255 }
-			b_tyrus = {}
 			b_sarafand = {}
-			b_megedel = {}
-			#b_deralebanon = {}
+			b_sidon = {}
+			b_syrbelfort = {}
+			b_schuf = {}
+		}
+		c_caesarea = { # Caesarea (1260)
+			color = { 47 253 71 }
+			color2 = { 255 255 255 }
+			greek = "Caesarea"
+			roman = "Caesarea"
+			b_caymont = {}
+			b_arsuf = {}
+			b_syrcaesarea = {}
+			b_calansue = {}
 		}
 	} # end d_acre
 	d_oultrejourdain = { # Oultrejourdain
@@ -9056,15 +9060,6 @@ k_jerusalem = { # Jerusalem
 			b_latrun = {}
 			b_montgisard = {}
 		}
-		c_darum = { # Darom (781)
-			color = { 5 199 37 }
-			color2 = { 255 255 255 }
-			b_darum = {}
-			b_gaza = {}
-			b_radwan = {}
-			b_salqah = {}
-			#b_abasan = {}
-		}
 	} # end d_ascalon
 	d_galilee = { # Principauté de Galilée
 		color = { 41 45 138 }
@@ -9101,24 +9096,10 @@ k_jerusalem = { # Jerusalem
 			color = { 11 205 70 }
 			color2 = { 255 255 255 }
 			b_beirut = {}
-			b_choueir = {}
-			b_sarepta = {}
 			b_beitkfeya = {}
-			#b_chiyah = {}
-			#b_badadoun = {}
-			#b_bteghrine = {}
+			b_chiyah = {}
+			b_choueir = {}
 		}
-		c_sidon = { # Sidon (1259)
-			color = { 11 205 70 }
-			color2 = { 255 255 255 }
-			b_sidon = {}
-			b_syrbelfort = {}
-			b_maghdouche = {}
-			b_cavedetyron = {}
-			#b_jezzine = {}
-			#b_sidonseacastle = {}
-			#b_nabiteh = {}
-		} # end c_sidon
 		c_safed = { # Toron (769)
 			color = { 14 208 73 }
 			color2 = { 255 255 255 }
@@ -9132,11 +9113,9 @@ k_jerusalem = { # Jerusalem
 			roman = "Banias"
 			b_safed = {}
 			b_banyas = {}
-			b_chastelet = {}
 			b_toron = {}
 			b_meronisreal = {}
-			#b_jishisrael = {}
-			#b_hunin = {}
+			b_chastelet = {}
 		} # end c_safed
 	} # end d_galilee
 	# Creation/Usurp Trigger
@@ -9547,38 +9526,23 @@ k_syria = { # Al-Sham
 		c_syria = { # Hauran (727)
 			color = { 37 234 22 }
 			color2 = { 255 255 255 }
-			greek = "Bosra"
-			roman = "Bosra"
-			b_ramtah = {}
-			b_suwaida = {}
-			b_nimreh = {}
+			greek = "Daraa"
+			roman = "Daraa"
 			b_daraa = {}
+			b_nawasyria = {}
 			b_izra = {}
-			#b_aydoun = {}
-			#b_ummqais = {
-			#	roman = "Gadara"
-			#	greek = "Gadara"
-			#}
+			b_sanamayn = {}
 		}
 		c_suwaida = { # Bathaniyya (712)
 			color = { 41 238 26 }
 			color2 = { 255 255 255 }
-			greek = "Shahba"
-			roman = "Shahba"
-			b_salah = {}
+			greek = "Bosra"
+			roman = "Bosra"
+			b_suwaida = {}
+			b_busra = {}
 			b_shahba = {}
-			b_adrasyria = {}
+			b_shaqqa = {}
 			b_salkhard = {}
-		}
-		c_irbid = { # Jaulan (725)
-			color = { 128 255 9 }
-			color2 = { 255 255 255 }
-			greek = "Irbid"
-			roman = "Irbid"
-			b_irbid = {}
-			b_nawasyria = {}
-			b_hasbaya = {}
-			b_izrasyria = {}
 		}
 	} # end d_damascus
 	d_jordan = { # al-Urdunn
@@ -9617,7 +9581,10 @@ k_syria = { # Al-Sham
 		c_madaba = { # Jarash (723)
 			color = { 100 140 211 }
 			color2 = { 255 255 255 }
+			greek = "Irbid"
+			roman = "Irbid"
 			b_muwaqqar = {}
+			b_irbid = {}
 			b_aljun = {}
 			b_deir_alla = {}
 			b_jerash = {}
@@ -23911,15 +23878,6 @@ e_africa = { # Africa
 				#b_qaryatbishr = {}
 				#b_nawfalliyah = {}
 			}
-			c_jafran = { # Jafran (1347)
-				color = { 57 204 119 }
-				color2 = { 255 255 255 }
-				greek = "Zintan"
-				roman = "Zintan"
-				b_jafran = {}
-				b_djadojafran = {}
-				b_tiri = {}
-			}
 			c_zawiya = { # Zawiya (1349)
 				color = { 57 204 119 }
 				color2 = { 255 255 255 }
@@ -25737,10 +25695,6 @@ e_abyssinia = { # Abyssinia
 				color = { 220 240 100 }
 				color2 = { 255 255 255 }
 				b_elobeid = {}
-			}
-			c_tagali = { # Tagali (1488)
-				color = { 220 240 100 }
-				color2 = { 255 255 255 }
 				b_tagali = {}
 			}
 		}
@@ -29550,16 +29504,11 @@ k_sahara = { # Sahara
 		c_wargla = { # Wargla (1399)
 			color = { 130 240 45 }
 			color2 = { 255 255 255 }
-			b_wargla = {}
 			b_ouargla = {}
+			b_tukkurt = {}
 			b_sadrata = {}
 			b_taghyart = {}
-			#b_karima = {}
-		}
-		c_tuggurt = { # Tukkúrt (1400)
-			color = { 125 240 50 }
-			color2 = { 255 255 255 }
-			b_tukkurt = {}
+			b_karima = {}
 		}
 		c_ghadames = { # Ghadamés (1223)
 			color = { 135 235 50 }
@@ -29616,7 +29565,12 @@ k_fezzan = { # Fezzan
 		c_nafusa = { # Nafusa (1401)
 			color = { 180 190 25 }
 			color2 = { 255 255 255 }
+			greek = "Zintan"
+			roman = "Zintan"
 			b_nafusa = {}
+			b_djadojafran = {}
+			b_tiri = {}
+			b_jafran = {}
 		}
 		c_waddan = { # Waddan (1402)
 			color = { 185 185 25 }
@@ -29644,15 +29598,11 @@ k_fezzan = { # Fezzan
 		color = { 105 107 77 }
 		color2 = { 255 255 255 }
 		capital = 1482 # Borkou
-		c_tibesti = { # Tibesti (1235)
+		c_roufra = { # Koufra (1235)
 			color = { 200 195 45 }
 			color2 = { 255 255 255 }
-			b_sherda = {}
-		}
-		c_roufra = { # Koufra (1231)
-			color = { 205 195 50 }
-			color2 = { 255 255 255 }
 			b_koufra = {}
+			b_sherda = {}
 		}
 		c_tazerbo = { # Tazerbo (1406)
 			color = { 200 200 50 }
