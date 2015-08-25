@@ -4433,12 +4433,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 			italian = "Archipelago"
 			venetian = "Archipelago"
 			dalmatian = "Archipelago"
-			c_kaliopolis = { # Kallipolis (495)
-				color = { 176 80 143 }
-				color2 = { 255 255 255 }
-				b_gallipoli = {}
-				b_madyta = {}
-			}
 			c_kyzikos = { # Kyzikos (743)
 				color = { 214 113 179 }
 				color2 = { 255 255 255 }
@@ -4566,12 +4560,13 @@ e_byzantium = { # Basileia Rhõmaiõn
 			catholic = 125 # Crusade target weight
 			sunni = 225 # Crusade target weight
 			shiite = 100 # Crusade target weight
-			c_rhadestos = { # Raidestos (1996)
+			c_kaliopolis = { # Kallipolis (495)
 				color = { 176 80 143 }
 				color2 = { 255 255 255 }
 				b_selymbria = {}
 				b_raidestos = {}
 				b_herakleiaperinthos = {}
+				b_gallipoli = {}
 				b_ainos = {}
 				b_tzouroulos = {}
 				#b_chariopolis = {
@@ -4586,7 +4581,13 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#	turkish = "Ipsala"
 				#	pecheneg = "Ipsala"
 				#}
-			} # end c_rhadestos
+				#b_madyta = {
+				#	oghuz = "Maydos"
+				#	turkmen = "Maydos"
+				#	turkish = "Maydos"
+				#	pecheneg = "Maydos"
+				#}
+			} # end c_kaliopolis
 			c_byzantion = { # Konstantinoupolis (496)
 				color = { 180 84 147 }
 				color2 = { 255 255 255 }
@@ -8708,7 +8709,8 @@ e_carpathia = { # Magyarország
 				color = { 106 143 189 }
 				color2 = { 255 255 255 }
 				b_vis = {}
-				b_jelsa = {}
+				b_nerezisca = {}
+				b_supetar = {}
 				b_hvar_stari_grad = {}
 			} # end c_hvar
 			c_korcula = { # Korcula (1295)
@@ -8718,26 +8720,6 @@ e_carpathia = { # Magyarország
 				b_blato = {}
 				b_korcula = {}
 			} # end c_korcula
-			c_brac = { # Brac (944)
-				color = { 143 140 58 }
-				color2 = { 255 255 255 }
-				b_bol_brac = {}
-				b_nerezisca = {}
-				#b_supetar = {
-				#	italian = "San Pietro della Brazza"
-				#	venetian = "San Pietro della Brazza"
-				#	ligurian = "San Pietro della Brazza"
-				#	central_italian = "San Pietro della Brazza"
-				#	southern_italian = "San Pietro della Brazza"
-				#	tuscan = "San Pietro della Brazza"
-				#	neapolitan = "San Pietro della Brazza"
-				#	corsican = "San Pietro della Brazza"
-				#	sardinian = "San Pietro della Brazza"
-				#	sicilian = "San Pietro della Brazza"
-				#	dalmatian = "San Pietro della Brazza"
-				#	roman = "Sancti Petri Brattiae"
-				#}
-			} # end c_brac
 		} # end d_dalmatian_islands
 		d_croatia = { # Hrvatska
 			color = { 162 53 53 }
@@ -18248,12 +18230,9 @@ e_france = { # France
 				color2 = { 255 255 255 }
 				b_orange = {}
 				b_avignon = {}
+				b_venasque = {}
 				b_carpentras = {}
-				b_chateauneufdupape = {}
 				b_stpaul = {}
-				#b_cavaillon = {}
-				#b_venasque = {}
-				#b_mondragon = {}
 			}
 			c_viviers = { # Vivarés (223)
 				color = { 12 18 245 }
@@ -25039,10 +25018,6 @@ e_arabia = { # Arabian Empire
 				color = { 187 235 127 }
 				color2 = { 255 255 255 }
 				b_bahriya = {}
-			}
-			c_farfarun = { # Farfarun (1344)
-				color = { 195 244 120 }
-				color2 = { 255 255 255 }
 				b_farfarun = {}
 			}
 			c_fayyum = { # Fayyum (1334)
@@ -29669,12 +29644,8 @@ k_kanem = { # Kanem
 			color = { 240 115 115 }
 			color2 = { 255 255 255 }
 			b_bagirmi = {}
-			b_makari = {}
-		}
-		c_fitri = { # Fitri (1479)
-			color = { 245 120 111 }
-			color2 = { 255 255 255 }
 			b_fitri = {}
+			b_makari = {}
 			b_kuka = {}
 		}
 	}
