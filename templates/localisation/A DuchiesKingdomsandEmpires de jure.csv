@@ -1155,13 +1155,13 @@ d_somerset_adj_breton                   ;Wintonian;Gwynntguican;;Gwynntguican;
 d_somerset_adj_cornish                  ;Wintonian;Gwynntguican;;Gwynntguican;
 d_york                                  ;York    ;York;Jorvík,Eoforwic,Deifr,Évèroui,Eboracum,Eborakon;York;York
 d_york_adj                              ;York    ;Yorkish;;Yorkish;Yorkist
-d_york_adj_norse                        ;        ;Jorvíkr;;Jorvíkr;Jorvik
-d_york_adj_norwegian                    ;        ;Jorvíkr;;Jorvíkr;Jorvik
+d_york_adj_norse                        ;York    ;Jorvíkr;;Jorvíkr;Jorvik
+d_york_adj_norwegian                    ;York    ;Jorvíkr;;Jorvíkr;Jorvik
 d_york_adj_icelandic                    ;        ;Jorvíkr;;Jorvíkr;
 d_york_adj_norsegaelic                  ;        ;Jorvíkr;;Jorvíkr;
-d_york_adj_swedish                      ;        ;Jorvíkr;;Jorvíkr;Jorvik
+d_york_adj_swedish                      ;York    ;Jorvíkr;;Jorvíkr;Jorvik
 d_york_adj_gothic                       ;        ;Jorvíkr;;Jorvíkr;
-d_york_adj_danish                       ;        ;Jorvíkr;;Jorvíkr;Jorvik
+d_york_adj_danish                       ;York    ;Jorvíkr;;Jorvíkr;Jorvik
 d_york_adj_saxon                        ;        ;Eoforwicna;;Eoforwicna;
 d_york_adj_cumbric                      ;Deifr   ;Deifran;;Deifran;
 d_york_adj_welsh                        ;Deifr   ;Deifran;;Deifran;
@@ -1280,7 +1280,7 @@ k_scotland_adj_saxon                    ;Scottish;Scotisc;;Scotisc;
 d_galloway                              ;Galloway;Galloway;Gall Ghaidheal,Galloway;Galloway;Galloway
 d_galloway_adj                          ;Galloway;Gallowayan;;Gallowayan;Gallowayan
 d_galloway_adj_cumbric                  ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
-d_galloway_adj_welsh                    ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;Strathclyde
+d_galloway_adj_welsh                    ;Galloway;Gall Ghaidhealan;;Gall Ghaidhealan;Strathclyde
 d_galloway_adj_irish                    ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_cornish                  ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
 d_galloway_adj_scottish                 ;        ;Gall Ghaidhealan;;Gall Ghaidhealan;
@@ -2819,7 +2819,7 @@ k_bjarmia_adj_norsegaelic               ;        ;Bjarmalandish;;;
 k_bjarmia_adj_saxon                     ;        ;Beormalandish;;;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 d_bjarmia                               ;Northern Dvina;Výnva;Dviná,Dwina,Dvina,Viena;Bjarmia;Bjarmia
-d_bjarmia_adj                           ;        ;Výnvan;;Bjarmiaskiy;Bjarmian
+d_bjarmia_adj                           ;Northern Dvina;Výnvan;;Bjarmiaskiy;Bjarmian
 d_bjarmia_adj_russian                   ;        ;Dvinán;;;
 d_bjarmia_adj_polish                    ;        ;Dwinan;;;
 d_bjarmia_adj_pommeranian               ;        ;Dwinan;;;
@@ -3044,16 +3044,16 @@ d_lettigale_adj                         ;Latgalian;Lettigallian;;Lettigallian;
 ##############################################,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,;;;;;
 #Persia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 ##############################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-e_persia_adj                            ;Iranian ;Érání;;;Persian
-e_persia                                ;Iran    ;Érán;;;Persian Empire
+e_persia_adj                            ;Persian ;Érání;;;Persian
+e_persia                                ;Persian Empire;Érán;;;Persian Empire
 k_turkestan_west_adj                    ;West Turkish;Aq Turkestání;;;
 k_turkestan_west                        ;West Turkestan;Aq Turkestán;;;
 k_turkestan_east_adj                    ;East Turkish;Mavi Turkestání;;;
 k_turkestan_east                        ;East Turkestan;Mavi Turkestán;;;
 k_sistan_adj                            ;Sistani ;Sístání;;;
 k_sistan                                ;Sistan  ;Sístán;;;
-k_persia_adj                            ;Iranian ;Pársí;;;Persian
-k_persia                                ;Iran    ;Pársa;;;Persia
+k_persia_adj                            ;Persian ;Pársí;;;Persian
+k_persia                                ;Persia  ;Pársa;;;Persia
 k_mavarannahr_adj                       ;Transoxianan;Mavár-an-Nahrí;;;
 k_mavarannahr                           ;Transoxiana;Mavár-an-Nahr;Sogdiana,Sogdiane;;
 k_khorasan_adj                          ;Khorasan;Khoarásání;;;
@@ -3062,7 +3062,7 @@ k_kafarestan_adj                        ;        ;Kábulistání;;;
 k_kafarestan                            ;Kabulistan;Kábulistán;;;
 k_daylam_adj                            ;Gilanian;Daylamí;;Daylamí;
 k_daylam                                ;Gilan   ;Daylam;;Daylam;
-d_zhetysu_adj                           ;        ;Zhetisu;;;Zhetysu
+d_zhetysu_adj                           ;Zhetysu ;Zhetisu;;;Zhetysu
 d_zhetysu                               ;Zhetysu ;Zhetisu;;;Zhetysu
 d_zabolestan_adj                        ;        ;Zábolestání;;;
 d_zabolestan                            ;Zabulistan;Zábolestán;;;
@@ -3140,14 +3140,14 @@ k_maghreb_adj                           ;Maghrebi;Maghrebian;;Maghrebian;
 #####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #Scandinavia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
-e_scandinavia                           ;Denmark ;Nordmannia;Norðurríki,Thule;Nordmannia;Scandinavia
-e_scandinavia_adj                       ;Danish  ;Nordmannian;;Nordmannian;Scandinavian
-e_scandinavia_adj_norse                 ;Norwegian;Norðr;;Norðan;
-e_scandinavia_adj_danish                ;Norwegian;Norðr;;Norðan;
-e_scandinavia_adj_icelandic             ;Norwegian;Norðr;;Norðan;
-e_scandinavia_adj_gothic                ;Norwegian;Norðr;;Norðan;
-e_scandinavia_adj_swedish               ;Norwegian;Norðr;;Norðan;
-e_scandinavia_adj_norwegian             ;Norwegian;Norðr;;Norðan;
+e_scandinavia                           ;Nordmannia;Nordmannia;Norðurríki,Thule;Nordmannia;Scandinavia
+e_scandinavia_adj                       ;Nordmannian;Nordmannian;;Nordmannian;Scandinavian
+e_scandinavia_adj_norse                 ;        ;Norðr;;Norðan;
+e_scandinavia_adj_danish                ;        ;Norðr;;Norðan;
+e_scandinavia_adj_icelandic             ;        ;Norðr;;Norðan;
+e_scandinavia_adj_gothic                ;        ;Norðr;;Norðan;
+e_scandinavia_adj_swedish               ;        ;Norðr;;Norðan;
+e_scandinavia_adj_norwegian             ;        ;Norðr;;Norðan;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 k_norway                                ;Norway  ;Norégr;;Norway;Norway
 k_norway_adj                            ;Norwegian;Norskr;;Norwegian;Norwegian
@@ -3308,4 +3308,4 @@ d_shirvan_adj                           ;        ;Shirwani;;;
 d_derbent                               ;Derbent ;Derbend;;;Derbent
 d_derbent_adj                           ;Derbent ;Derbendi;;;Derbenti
 d_albania                               ;Arran   ;Arran;;Albania;
-d_albania_adj                           ;        ;Arrani;;Albanian;
+d_albania_adj                           ;Arran   ;Arrani;;Albanian;
