@@ -73,7 +73,7 @@ c_cambrai_adj                         ;        ;Cambrai;;;
 c_brussel_adj                         ;        ;Brussel;;;
 c_arlon_adj                           ;        ;Arlon;;;
 c_schaumburg_adj                      ;        ;Schaumburgische;;;
-c_bar_adj                             ;        ;Bar;;;Barrois
+c_bar_adj                             ;Bar     ;Bar;;;Barrois
 c_pontamousson_adj                    ;        ;Pont-á-Mousson;;;
 c_eberstein_adj                       ;        ;Ebersteinische;;;
 c_oettingen_adj                       ;        ;Oettigenishe;;;
@@ -334,8 +334,8 @@ c_finnveden_adj                       ;        ;Finnvedenr;;;
 c_attundaland_adj                     ;        ;Attundalandr;;;
 c_fjadrundaland_adj                   ;        ;Fjädrundalandr;;;
 c_skara_adj                           ;        ;Skarar;;;
-c_more_adj                            ;        ;Mörer;;;Mörian
-c_tjust_adj                           ;        ;Värendr;;;Tjustian
+c_more_adj                            ;Möre    ;Mörer;;;Mörian
+c_tjust_adj                           ;Värend  ;Värendr;;;Tjustian
 #Italy,,,,,,,,,,,,,,;;;;;
 c_terradicomune_adj                   ;Alando  ;Alandese;;;
 c_corse_adj                           ;Cardo   ;Cardino;;;
@@ -607,7 +607,7 @@ c_korinthos_adj_sicilian              ;Corinthian;Corantian;;;
 c_korinthos_adj_italian               ;Corinthian;Corantian;;;
 c_korinthos_adj_frankish              ;Corinthian;Corinthian;;;
 c_korinthos_adj_norman                ;Corinthian;Corinthian;;;
-c_monemvasia_adj                      ;        ;Monemvasian;;;Monemvasian
+c_monemvasia_adj                      ;Laconian;Monemvasian;;;Monemvasian
 c_monemvasia_adj_greek                ;        ;Lakonian;;;
 c_monemvasia_adj_oghuz                ;        ;Meneksian;;;
 c_monemvasia_adj_turkmen              ;        ;Meneksian;;;
@@ -881,7 +881,7 @@ c_lesbos_adj_turkish                  ;Lesbian ;Midillian;;;
 c_chios_adj_oghuz                     ;Chios   ;Sakizan;;;
 c_chios_adj_turkmen                   ;Chios   ;Sakizan;;;
 c_chios_adj_turkish                   ;Chios   ;Sakizan;;;
-c_naxos_adj                           ;        ;Kykladian;;;Naxosian
+c_naxos_adj                           ;Cycladean;Kykladian;;;Naxosian
 c_naxos_adj_dalmatian                 ;        ;Nassian;;;
 c_naxos_adj_venetian                  ;        ;Nassian;;;
 c_naxos_adj_ligurian                  ;        ;Nassian;;;
@@ -937,7 +937,7 @@ c_chandax_adj_neapolitan              ;        ;Candian;;;
 c_chandax_adj_corsican                ;        ;Candian;;;
 c_chandax_adj_sardinian               ;        ;Candian;;;
 c_chandax_adj_sicilian                ;        ;Candian;;;
-c_chandax_adj_italian                 ;        ;Candian;;;Gortynian
+c_chandax_adj_italian                 ;Heraklion;Candian;;;Gortynian
 c_chandax_adj_frankish                ;        ;Candian;;;
 c_chandax_adj_norman                  ;        ;Candian;;;
 c_chandax_adj_oghuz                   ;        ;Kandiyan;;;
@@ -1853,7 +1853,7 @@ c_gomel_adj                           ;        ;Gimij;;;
 c_galich_adj                          ;Halychian;Halych;;;Galichian
 c_peremyshl_adj                       ;Przemysl;Peremyshl;;;Peremyshlian
 c_cern_adj                            ;        ;Cern;;;
-c_vladimir_volynsky_adj               ;        ;Vladimir-Volynskiy;;;Vladimir Volynskyan
+c_vladimir_volynsky_adj               ;Volodymyr-Volynskyi;Vladimir-Volynskiy;;;Vladimir Volynskyan
 c_beresty_adj                         ;Brest   ;Berestye;;;Berestian
 c_ostrog_adj                          ;        ;Ostrog;;;
 c_podlasie_adj                        ;Bielsk  ;Belsk;;;Podlasian
@@ -1955,9 +1955,9 @@ c_ikhmin_adj                          ;        ;Ikhmînî;;;
 c_ikhmin_adj_greek                    ;        ;Panopolitan;;;
 c_qus_adj                             ;Qus     ;Qúsî;;;
 c_qus_adj_greek                       ;Theban  ;Thebaian;;;
-c_asyut_adj                           ;        ;Asyútî;;;Asyutian
+c_asyut_adj                           ;Asyut   ;Asyútî;;;Asyutian
 c_asyut_adj_greek                     ;        ;Lykopolitan;;;
-c_aswan_adj                           ;        ;Aswánî;;;Aswanian
+c_aswan_adj                           ;Aswan   ;Aswánî;;;Aswanian
 c_aswan_adj_greek                     ;        ;Syenan;;;
 c_senoussi_adj                        ;Awjila  ;Awjîlî;;;Senoussian
 c_senoussi_adj_greek                  ;        ;Augilan;;;
@@ -1971,9 +1971,9 @@ c_tobruk_adj_greek                    ;        ;Antipyrgian;;;
 c_gao_adj                             ;        ;Gaan;;;
 c_timbuktu_adj                        ;        ;Timbuktî;;;
 c_tadmekka_adj                        ;        ;Tadmekkî;;;
-c_zarma_adj                           ;        ;Kukiyî;;;Zarman
+c_zarma_adj                           ;Kukiya  ;Kukiyî;;;Zarman
 c_mabruk_adj                          ;        ;Mabrukî;;;
-c_gurma_adj                           ;        ;Wagadougî;;;Gurman
+c_gurma_adj                           ;Ouagadougou;Wagadougî;;;Gurman
 c_bobodyolasso_adj                    ;        ;Dyolassî;;;
 c_risiom_adj                          ;        ;Risiomî;;;
 c_figuig_adj                          ;Figuig  ;Figuigî;;;Figuigian
@@ -2022,19 +2022,19 @@ c_medjerda_adj_roman                  ;Hadrumetum;Hadrumetan;;;
 c_bizerte_adj                         ;Bizerte ;Banzartî;;;Bizertenian
 c_bizerte_adj_roman                   ;        ;Hippo Diarrhytan;;;
 c_bizerte_adj_greek                   ;        ;Hippo Diarrhytan;;;
-c_kairwan_adj                         ;        ;Kairawánî;;;Kairwanian
-c_kairwan_adj_greek                   ;        ;Thysdrian;;;
-c_kairwan_adj_roman                   ;        ;Thysdrian;;;
+c_kairwan_adj                         ;Kairouan;Kairawánî;;;Kairwanian
+c_kairwan_adj_greek                   ;Thysdrus;Thysdrian;;;
+c_kairwan_adj_roman                   ;Thysdrus;Thysdrian;;;
 c_mahdia_adj                          ;Mahdian ;Mahdîyî;;;Mahdian
 c_mahdia_adj_greek                    ;Thapsus ;Thapsian;;;
 c_mahdia_adj_roman                    ;Thapsus ;Thapsian;;;
 c_sfax_adj                            ;        ;Sufáksî;;;
 c_sfax_adj_greek                      ;        ;Taparuran;;;
 c_sfax_adj_roman                      ;        ;Taparuran;;;
-c_gabes_adj                           ;        ;Qábisî;;;Gabesian
+c_gabes_adj                           ;Gabès   ;Qábisî;;;Gabesian
 c_gabes_adj_roman                     ;        ;Tacapaian;;;
 c_gabes_adj_greek                     ;        ;Tacapian;;;
-c_djerba_adj                          ;        ;Djerbî;;;Djerban
+c_djerba_adj                          ;Djerba  ;Djerbî;;;Djerban
 c_djerba_adj_roman                    ;        ;Girban;;;
 c_djerba_adj_greek                    ;        ;Girban;;;
 c_zuwara_adj                          ;        ;Zuwarî;;;
@@ -2046,11 +2046,11 @@ c_nafzawa_adj_roman                   ;        ;Neptian;;;
 c_qashtiliya_adj                      ;        ;Qashtilîyî;;;
 c_qashtiliya_adj_greek                ;        ;Capsian;;;
 c_qashtiliya_adj_roman                ;        ;Capsian;;;
-c_tripolitana_adj                     ;        ;Tarábulsî;;;Tripolitanian
-c_leptis_magna_adj                    ;        ;Misrátî;;;Leptis Magnan
-c_leptis_magna_adj_greek              ;        ;Lepcis Magnan;;;
-c_leptis_magna_adj_roman              ;        ;Lepcis Magnan;;;
-c_syrte_adj                           ;        ;Surtî;;;Syrtenian
+c_tripolitana_adj                     ;Tripolitanian;Tarábulsî;;;Tripolitanian
+c_leptis_magna_adj                    ;Misratan;Misrátî;;;Leptis Magnan
+c_leptis_magna_adj_greek              ;Leptis Magna;Lepcis Magnan;;;
+c_leptis_magna_adj_roman              ;Leptis Magna;Lepcis Magnan;;;
+c_syrte_adj                           ;Sirte   ;Surtî;;;Syrtenian
 c_syrte_adj_greek                     ;        ;Macomadian;;;
 c_syrte_adj_roman                     ;        ;Macomadian;;;
 c_labda_adj                           ;        ;Labdî;;;
@@ -2095,11 +2095,11 @@ c_tlemcen_adj                         ;Tlemcen ;Tilimsánî;;;Tlemcenian
 c_orania_adj                          ;Oranian ;Wahránî;;;Oranian
 c_hanyan_adj                          ;Honaine ;Hunaynî;;;Hanyanian
 c_wajda_adj                           ;        ;Wajdî;;;
-c_tangiers_adj                        ;        ;Tandjî;;;Tangieran
+c_tangiers_adj                        ;Tangier ;Tandjî;;;Tangieran
 c_cebta_adj                           ;Ceutan  ;Sebtî;;;Cebtan
 c_malila_adj                          ;        ;Malîlî;;;
 c_nakur_adj                           ;        ;Nakurî;;;
-c_fes_adj                             ;        ;Fásî;;;Fesian
+c_fes_adj                             ;Fez     ;Fásî;;;Fesian
 c_infa_adj                            ;Rabat   ;Infî;;;Infan
 c_sa_adj                              ;        ;Sa'î;;;
 c_sala_adj                            ;        ;Salî;;;
@@ -2129,7 +2129,7 @@ c_galindia_adj                        ;Galindian;Galindian;;;Galindian
 c_bartia_adj                          ;Bartian ;Bartian;;;
 c_pomesania_adj                       ;Pomesanian;Pomesanian;;;
 #Pomeralia,,,,,,,,,,,,,,;;;;;
-c_danzig_adj                          ;        ;Gdansk;;;Danziger
+c_danzig_adj                          ;Gdansk  ;Gdansk;;;Danziger
 c_swiecie_adj                         ;        ;Swiecie;;;
 #Pomernia,,,,,,,,,,,,,,;;;;;
 c_belgard_adj                         ;        ;Belgard;;;
@@ -2146,44 +2146,44 @@ c_nordskane_adj                       ;        ;Norræ Skaanskr;;;
 c_zaslawye_adj                        ;        ;Izjaslavl';;;
 ##################################,,,,,,,,,,,,,,;;;;;
 #England,,,,,,,,,,,,,,;;;;;
-c_winchester_adj                      ;        ;Hamptonshireish;;;Winchesterian
-c_winchester_adj_saxon                ;        ;Hamtunisc;;;
-c_winchester_adj_norse                ;        ;Hamtunr;;;
-c_winchester_adj_norwegian            ;        ;Hamtunr;;;
-c_winchester_adj_icelandic            ;        ;Hamtunr;;;
-c_winchester_adj_norsegaelic          ;        ;Hamtunr;;;
-c_winchester_adj_gothic               ;        ;Hamtunr;;;
-c_winchester_adj_swedish              ;        ;Hamtunr;;;
-c_winchester_adj_danish               ;        ;Hamtunr;;;
-c_winchester_adj_irish                ;        ;Gwynntguican;;;
-c_winchester_adj_scottish             ;        ;Gwynntguican;;;
-c_winchester_adj_cumbric              ;        ;Gwynntguican;;;
-c_winchester_adj_welsh                ;        ;Gwynntguican;;;
-c_winchester_adj_breton               ;        ;Gwynntguican;;;
-c_winchester_adj_cornish              ;        ;Gwynntguican;;;
-c_winchester_adj_norman               ;        ;Ouînchêtre;;;
-c_winchester_adj_english              ;        ;Winchestian;;;
+c_winchester_adj                      ;Hampshire;Hamptonshireish;;;Winchesterian
+c_winchester_adj_saxon                ;Southampton;Hamtunisc;;;
+c_winchester_adj_norse                ;Southampton;Hamtunr;;;
+c_winchester_adj_norwegian            ;Southampton;Hamtunr;;;
+c_winchester_adj_icelandic            ;Southampton;Hamtunr;;;
+c_winchester_adj_norsegaelic          ;Southampton;Hamtunr;;;
+c_winchester_adj_gothic               ;Southampton;Hamtunr;;;
+c_winchester_adj_swedish              ;Southampton;Hamtunr;;;
+c_winchester_adj_danish               ;Southampton;Hamtunr;;;
+c_winchester_adj_irish                ;Winchester;Gwynntguican;;;
+c_winchester_adj_scottish             ;Winchester;Gwynntguican;;;
+c_winchester_adj_cumbric              ;Winchester;Gwynntguican;;;
+c_winchester_adj_welsh                ;Winchester;Gwynntguican;;;
+c_winchester_adj_breton               ;Winchester;Gwynntguican;;;
+c_winchester_adj_cornish              ;Winchester;Gwynntguican;;;
+c_winchester_adj_norman               ;Winchester;Ouînchêtre;;;
+c_winchester_adj_english              ;Winchester;Winchestian;;;
 #,,,,,,,,,,,,,,;;;;;
-c_wiltshire_adj                       ;        ;Wiltshireish;;;Wiltshirian
-c_wiltshire_adj_saxon                 ;        ;Wiltunisc;;;
-c_wiltshire_adj_norse                 ;        ;Wiltunr;;;
-c_wiltshire_adj_norwegian             ;        ;Wiltunr;;;
-c_wiltshire_adj_icelandic             ;        ;Wiltunr;;;
-c_wiltshire_adj_swedish               ;        ;Wiltunr;;;
-c_wiltshire_adj_norsegaelic           ;        ;Wiltunr;;;
-c_wiltshire_adj_gothic                ;        ;Wiltunr;;;
-c_wiltshire_adj_danish                ;        ;Wiltunr;;;
-c_wiltshire_adj_irish                 ;        ;Gradawcian;;;
-c_wiltshire_adj_scottish              ;        ;Gradawcian;;;
-c_wiltshire_adj_welsh                 ;        ;Gradawcian;;;
-c_wiltshire_adj_cumbric               ;        ;Gradawcian;;;
-c_wiltshire_adj_breton                ;        ;Gradawcian;;;
-c_wiltshire_adj_cornish               ;        ;Gradawcian;;;
+c_wiltshire_adj                       ;Wiltshire;Wiltshireish;;;Wiltshirian
+c_wiltshire_adj_saxon                 ;Wilton  ;Wiltunisc;;;
+c_wiltshire_adj_norse                 ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_norwegian             ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_icelandic             ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_swedish               ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_norsegaelic           ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_gothic                ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_danish                ;Wilton  ;Wiltunr;;;
+c_wiltshire_adj_irish                 ;Old Sarum;Gradawcian;;;
+c_wiltshire_adj_scottish              ;Old Sarum;Gradawcian;;;
+c_wiltshire_adj_welsh                 ;Old Sarum;Gradawcian;;;
+c_wiltshire_adj_cumbric               ;Old Sarum;Gradawcian;;;
+c_wiltshire_adj_breton                ;Old Sarum;Gradawcian;;;
+c_wiltshire_adj_cornish               ;Old Sarum;Gradawcian;;;
 #,,,,,,,,,,,,,,;;;;;
 c_wight_adj                           ;        ;Wightish;;;
 c_wight_adj_welsh                     ;        ;Weithian;;;
 #,,,,,,,,,,,,,,;;;;;
-c_dorset_adj                          ;        ;Dorsetian;;;Dorsetian
+c_dorset_adj                          ;Dorset  ;Dorsetian;;;Dorsetian
 c_dorset_adj_saxon                    ;        ;Dornsætisc;;;
 c_dorset_adj_norse                    ;        ;Dornsætr;;;
 c_dorset_adj_norwegian                ;        ;Dornsætr;;;
@@ -2192,32 +2192,32 @@ c_dorset_adj_norsegaelic              ;        ;Dornsætr;;;
 c_dorset_adj_gothic                   ;        ;Dornsætr;;;
 c_dorset_adj_swedish                  ;        ;Dornsætr;;;
 c_dorset_adj_danish                   ;        ;Dornsætr;;;
-c_dorset_adj_irish                    ;        ;Durnacan;;;
-c_dorset_adj_scottish                 ;        ;Durnacan;;;
-c_dorset_adj_cumbric                  ;        ;Durnacan;;;
-c_dorset_adj_welsh                    ;        ;Durnacan;;;
-c_dorset_adj_breton                   ;        ;Durnacan;;;
-c_dorset_adj_cornish                  ;        ;Durnacan;;;
+c_dorset_adj_irish                    ;Dorchester;Durnacan;;;
+c_dorset_adj_scottish                 ;Dorchester;Durnacan;;;
+c_dorset_adj_cumbric                  ;Dorchester;Durnacan;;;
+c_dorset_adj_welsh                    ;Dorchester;Durnacan;;;
+c_dorset_adj_breton                   ;Dorchester;Durnacan;;;
+c_dorset_adj_cornish                  ;Dorchester;Durnacan;;;
 #,,,,,,,,,,,,,,;;;;;
-c_somerset_adj                        ;        ;Somersetian;;;Somersetian
-c_somerset_adj_saxon                  ;        ;Sumorsætisc;;;
-c_somerset_adj_norse                  ;        ;Sumorsætr;;;
-c_somerset_adj_norwegian              ;        ;Sumorsætr;;;
-c_somerset_adj_icelandic              ;        ;Sumorsætr;;;
-c_somerset_adj_norsegaelic            ;        ;Sumorsætr;;;
-c_somerset_adj_gothic                 ;        ;Sumorsætr;;;
-c_somerset_adj_swedish                ;        ;Sumorsætr;;;
-c_somerset_adj_danish                 ;        ;Sumorsætr;;;
-c_somerset_adj_irish                  ;        ;Glastenningian;;;
-c_somerset_adj_scottish               ;        ;Glastenningian;;;
-c_somerset_adj_cumbric                ;        ;Glastenningian;;;
-c_somerset_adj_welsh                  ;        ;Glastenningian;;;
-c_somerset_adj_breton                 ;        ;Glastenningian;;;
-c_somerset_adj_cornish                ;        ;Glastenningian;;;
+c_somerset_adj                        ;Somerset;Somersetian;;;Somersetian
+c_somerset_adj_saxon                  ;Sumorsaete;Sumorsætisc;;;
+c_somerset_adj_norse                  ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_norwegian              ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_icelandic              ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_norsegaelic            ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_gothic                 ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_swedish                ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_danish                 ;Sumorsaete;Sumorsætr;;;
+c_somerset_adj_irish                  ;Glastening;Glastenningian;;;
+c_somerset_adj_scottish               ;Glastening;Glastenningian;;;
+c_somerset_adj_cumbric                ;Glastening;Glastenningian;;;
+c_somerset_adj_welsh                  ;Glastening;Glastenningian;;;
+c_somerset_adj_breton                 ;Glastening;Glastenningian;;;
+c_somerset_adj_cornish                ;Glastening;Glastenningian;;;
 #,,,,,,,,,,,,,,;;;;;
 c_berks_adj                           ;        ;Berkshireish;;;
 #,,,,,,,,,,,,,,;;;;;
-c_kent_adj                            ;        ;Kentish;;;Kentian
+c_kent_adj                            ;Kentish ;Kentish;;;Kentian
 c_kent_adj_saxon                      ;        ;Centisc;;;
 c_kent_adj_norse                      ;        ;Centr;;;
 c_kent_adj_norwegian                  ;        ;Centr;;;
@@ -2233,7 +2233,7 @@ c_kent_adj_cumbric                    ;        ;Ceintish;;;
 c_kent_adj_breton                     ;        ;Ceintish;;;
 c_kent_adj_cornish                    ;        ;Ceintish;;;
 #,,,,,,,,,,,,,,;;;;;
-c_surrey_adj                          ;        ;Surreyian;;;Surreyan
+c_surrey_adj                          ;Surrey  ;Surreyian;;;Surreyan
 c_surrey_adj_saxon                    ;        ;Süþrïgisc;;;
 c_surrey_adj_norse                    ;        ;Suðrîkir;;;
 c_surrey_adj_norwegian                ;        ;Suðríkir;;;
@@ -2243,7 +2243,7 @@ c_surrey_adj_norsegaelic              ;        ;Suðríkir;;;
 c_surrey_adj_gothic                   ;        ;Suðríkir;;;
 c_surrey_adj_danish                   ;        ;Suðríkir;;;
 #,,,,,,,,,,,,,,;;;;;
-c_sussex_adj                          ;        ;Sussexish;;;Sussexian
+c_sussex_adj                          ;Sussex  ;Sussexish;;;Sussexian
 c_sussex_adj_saxon                    ;        ;Süþseaxna;;;
 c_sussex_adj_norse                    ;        ;Suðseaxr;;;
 c_sussex_adj_norwegian                ;        ;Suðseaxr;;;
@@ -2254,12 +2254,12 @@ c_sussex_adj_swedish                  ;        ;Suðseaxr;;;
 c_sussex_adj_danish                   ;        ;Suðseaxr;;;
 c_sussex_adj_irish                    ;        ;Suðseaxr;;;
 c_sussex_adj_scottish                 ;        ;Suðseaxr;;;
-c_sussex_adj_cumbric                  ;        ;Rheginan;;;
-c_sussex_adj_welsh                    ;        ;Rheginan;;;
-c_sussex_adj_breton                   ;        ;Rheginan;;;
-c_sussex_adj_cornish                  ;        ;Rheginan;;;
+c_sussex_adj_cumbric                  ;Rhegin  ;Rheginan;;;
+c_sussex_adj_welsh                    ;Rhegin  ;Rheginan;;;
+c_sussex_adj_breton                   ;Rhegin  ;Rheginan;;;
+c_sussex_adj_cornish                  ;Rhegin  ;Rheginan;;;
 #,,,,,,,,,,,,,,;;;;;
-c_cornwall_adj                        ;        ;Cornish;;;Cornish
+c_cornwall_adj                        ;Cornish ;Cornish;;;Cornish
 c_cornwall_adj_saxon                  ;        ;Cornwealisc;;;
 c_cornwall_adj_norse                  ;        ;Cornwealr;;;
 c_cornwall_adj_norwegian              ;        ;Cornwealr;;;
@@ -4020,53 +4020,53 @@ c_kasogs_adj_alan                     ;Kabardian;Kæsægian;;;
 #####,,,,,,,,,,,,,,;;;;;
 #V-B,,,,,,,,,,,,,,;;;;;
 #####,,,,,,,,,,,,,,;;;;;
-c_lower_volga_adj                     ;Voronezh;Qaratayakan;;;Lower Volgian
+c_lower_volga_adj                     ;Qaratayak;Qaratayakan;;;Lower Volgian
 c_lower_volga_adj_pecheneg            ;        ;Karatayakan;;;
 c_lower_volga_adj_oghuz               ;        ;Karatayakan;;;
 c_lower_volga_adj_turkmen             ;        ;Karatayakan;;;
 c_lower_volga_adj_turkish             ;        ;Karatayakan;;;
-c_lower_volga_adj_russian             ;        ;Voronež;;;
-c_lower_volga_adj_polish              ;        ;Voronežian;;;
-c_lower_volga_adj_pommeranian         ;        ;Voronežian;;;
-c_lower_volga_adj_bohemian            ;        ;Voronežian;;;
-c_lower_volga_adj_moravian            ;        ;Voronežian;;;
-c_lower_volga_adj_serbian             ;        ;Voronežian;;;
-c_lower_volga_adj_croatian            ;        ;Voronežian;;;
-c_lower_volga_adj_bulgarian           ;        ;Voronežian;;;
-c_lower_volga_adj_karantanci          ;        ;Voronežian;;;
-c_lower_volga_adj_bosnian             ;        ;Voronežian;;;
-c_lower_volga_adj_thuringian          ;        ;Woroneschian;;;
-c_lower_volga_adj_swabian             ;        ;Woroneschian;;;
-c_lower_volga_adj_bavarian            ;        ;Woroneschian;;;
-c_lower_volga_adj_low_saxon           ;        ;Woroneschian;;;
-c_lower_volga_adj_franconian          ;        ;Woroneschian;;;
-c_lower_volga_adj_low_german          ;        ;Woroneschian;;;
-c_lower_volga_adj_low_frankish        ;        ;Woroneschian;;;
-c_lower_volga_adj_dutch               ;        ;Woroneschian;;;
-c_lower_volga_adj_german              ;        ;Woroneschian;;;
-c_lower_volga_adj_lithuanian          ;        ;Voronežasian;;;
-c_lower_volga_adj_lettigallish        ;        ;Voronežasian;;;
-c_lower_volga_adj_prussian            ;        ;Voronežas;;;
+c_lower_volga_adj_russian             ;Voronezh;Voronež;;;
+c_lower_volga_adj_polish              ;Voronezh;Voronežian;;;
+c_lower_volga_adj_pommeranian         ;Voronezh;Voronežian;;;
+c_lower_volga_adj_bohemian            ;Voronezh;Voronežian;;;
+c_lower_volga_adj_moravian            ;Voronezh;Voronežian;;;
+c_lower_volga_adj_serbian             ;Voronezh;Voronežian;;;
+c_lower_volga_adj_croatian            ;Voronezh;Voronežian;;;
+c_lower_volga_adj_bulgarian           ;Voronezh;Voronežian;;;
+c_lower_volga_adj_karantanci          ;Voronezh;Voronežian;;;
+c_lower_volga_adj_bosnian             ;Voronezh;Voronežian;;;
+c_lower_volga_adj_thuringian          ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_swabian             ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_bavarian            ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_low_saxon           ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_franconian          ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_low_german          ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_low_frankish        ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_dutch               ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_german              ;Voronezh;Woroneschian;;;
+c_lower_volga_adj_lithuanian          ;Voronezh;Voronežasian;;;
+c_lower_volga_adj_lettigallish        ;Voronezh;Voronežasian;;;
+c_lower_volga_adj_prussian            ;Voronezh;Voronežas;;;
 #,,,,,,,,,,,,,,;;;;;
 c_desht-i-kipchak_adj                 ;Oskol   ;Vskol';;;Desht-i-Kipchakian
 c_desht-i-kipchak_adj_russian         ;        ;Vskol';;;
 c_desht-i-kipchak_adj_lithuanian      ;        ;Oskolasian;;;
 c_desht-i-kipchak_adj_prussian        ;        ;Oskolasian;;;
 c_desht-i-kipchak_adj_lettigallish    ;        ;Oskolasian;;;
-c_desht-i-kipchak_adj_bashkir         ;        ;Esenian;;;
-c_desht-i-kipchak_adj_bolghar         ;        ;Esenian;;;
-c_desht-i-kipchak_adj_turkish         ;        ;Esenian;;;
-c_desht-i-kipchak_adj_turkmen         ;        ;Esenian;;;
-c_desht-i-kipchak_adj_oghuz           ;        ;Esenian;;;
-c_desht-i-kipchak_adj_mongol          ;        ;Esenian;;;
-c_desht-i-kipchak_adj_kirghiz         ;        ;Esenian;;;
-c_desht-i-kipchak_adj_uighur          ;        ;Esenian;;;
-c_desht-i-kipchak_adj_cuman           ;        ;Esenian;;;
-c_desht-i-kipchak_adj_khazar          ;        ;Esenian;;;
-c_desht-i-kipchak_adj_pecheneg        ;        ;Esenian;;;
-c_desht-i-kipchak_adj_karluk          ;        ;Esenian;;;
-c_desht-i-kipchak_adj_avar            ;        ;Esenian;;;
-c_desht-i-kipchak_adj_khitan          ;        ;Esenian;;;
+c_desht-i-kipchak_adj_bashkir         ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_bolghar         ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_turkish         ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_turkmen         ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_oghuz           ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_mongol          ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_kirghiz         ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_uighur          ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_cuman           ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_khazar          ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_pecheneg        ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_karluk          ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_avar            ;Esen    ;Esenian;;;
+c_desht-i-kipchak_adj_khitan          ;Esen    ;Esenian;;;
 #,,,,,,,,,,,,,,;;;;;
 c_syrt_adj                            ;Obshchy Syrt;Syrtian;;;Syrtian
 c_syrt_adj_russian                    ;        ;Obshchiy Syrt;;;
