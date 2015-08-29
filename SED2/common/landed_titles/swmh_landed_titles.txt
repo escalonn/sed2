@@ -14485,17 +14485,45 @@ e_britannia = { # Britannia
 		capital = 11 # Dublin
 		culture = irish
 		catholic = 300 # Crusade target weight
-		d_oneill = { # O'Neill
-			color = { 70 106 21 }
-			color2 = { 255 255 255 }
-			capital = 1434 # Derry (Aileach)
+		d_ulster = { # Ulster
+			color = { 248 237 39 }
+			color2 = { 243 5 5 }
+			capital = 5 # Antrim
+			c_ulster = { # Antrim (5)
+				color = { 25 230 35 }
+				color2 = { 255 255 255 }
+				b_dunseverick = {}
+				b_carrickfergus = {}
+				#b_connor = {
+				#	irish = "Con Doire"
+				#	scottish = "Con Doire"
+				#	norsegaelic = "Con Doire"
+				#	welsh = "Con Doire"
+				#	cumbric = "Con Doire"
+				#	breton = "Con Doire"
+				#	cornish = "Con Doire"
+				#}
+				b_larne = {}
+				b_downpatrick = {}
+				b_dromore = {}
+				#b_dunluce = {
+				#	irish = "Dún Libhse"
+				#	scottish = "Dún Libhse"
+				#	norsegaelic = "Dún Libhse"
+				#	welsh = "Dún Libhse"
+				#	cumbric = "Dún Libhse"
+				#	breton = "Dún Libhse"
+				#	cornish = "Dún Libhse"
+				#}
+			} # end c_ulster
 			c_tyrone = { # Tyrone (4)
 				color = { 66 157 22 }
 				color2 = { 255 255 255 }
 				b_dungannon = {}
 				b_omagh = {}
 				b_tullyhogue = {}
-				b_devenish = {}
+				b_derry = {}
+				b_aileach = {}
 			} # end c_tyrone
 			c_tyrconnell = { # Tyrconnell (3)
 				color = { 25 190 31 }
@@ -14503,6 +14531,7 @@ e_britannia = { # Britannia
 				b_gartan = {}
 				b_raphoe = {}
 				b_donegal = {}
+				b_devenish = {}
 				#b_fahan = {
 				#	irish = "Fathain"
 				#	scottish = "Fathain"
@@ -14532,113 +14561,67 @@ e_britannia = { # Britannia
 				#}
 				#b_ballymacswiney = {}
 			} # end c_tyrconnell
-			c_derry = { # Daire (1434)
-				color = { 13 94 15 }
-				color2 = { 255 255 255 }
-				b_derry = {}
-				b_coleraine = {}
-				b_aileach = {}
-				#b_maghera = {
-				#	irish = "Machaire Rátha"
-				#	scottish = "Machaire Rátha"
-				#	norsegaelic = "Machaire Rátha"
-				#	welsh = "Machaire Rátha"
-				#	cumbric = "Machaire Rátha"
-				#	breton = "Machaire Rátha"
-				#	cornish = "Machaire Rátha"
-				#}
-				#b_dungiven = {
-				#	irish = "Dún Geimhin"
-				#	scottish = "Dún Geimhin"
-				#	norsegaelic = "Dún Geimhin"
-				#	welsh = "Dún Geimhin"
-				#	cumbric = "Dún Geimhin"
-				#	breton = "Dún Geimhin"
-				#	cornish = "Dún Geimhin"
-				#}
-			} # end c_derry
-		} # end d_oneill
-		d_ulster = { # Ulster
-			color = { 248 237 39 }
-			color2 = { 243 5 5 }
-			capital = 5 # Antrim
-			c_ulster = { # Antrim (5)
-				color = { 25 230 35 }
-				color2 = { 255 255 255 }
-				b_dunseverick = {}
-				b_carrickfergus = {}
-				b_connor = {}
-				b_larne = {}
-				#b_dunluce = {
-				#	irish = "Dún Libhse"
-				#	scottish = "Dún Libhse"
-				#	norsegaelic = "Dún Libhse"
-				#	welsh = "Dún Libhse"
-				#	cumbric = "Dún Libhse"
-				#	breton = "Dún Libhse"
-				#	cornish = "Dún Libhse"
-				#}
-			} # end c_ulster
-			c_down = { # An Dhun (1444)
-				color = { 15 140 21 }
-				color2 = { 89 89 249 }
-				b_downpatrick = {}
-				b_bangor = {}
-				b_dromore = {}
-				#b_belfast = {
-				#	irish = "Béal Feirste"
-				#	scottish = "Beul Feirste"
-				#	norsegaelic = "Beeal Feirshte"
-				#	welsh = "Belffast"
-				#	cumbric = "Belffast"
-				#	breton = "Belffast"
-				#	cornish = "Belffast"
-				#}
-			} # end c_down
-		} # end d_ulster
-		d_airgialla = { # Airgíalla
-			color = { 30 180 20 }
-			color2 = { 251 140 17 }
-			capital = 7 # Louth
-			c_oriel = { # Louth (7)
+			c_oriel = { # Oriel (7)
 				color = { 30 180 45 }
 				color2 = { 255 255 255 }
-				b_annagassan = {}
 				b_dundalk = {}
-				b_louth = {}
-				#b_drogheda = {
-				#	irish = "Droichead Átha"
-				#	scottish = "Droichead Átha"
-				#	norsegaelic = "Droichead Átha"
-				#	welsh = "Droichead Átha"
-				#	cumbric = "Droichead Átha"
-				#	breton = "Droichead Átha"
-				#	cornish = "Droichead Átha"
-				#}
-				#b_ardee = {
-				#	irish = "Baile Átha Fhirdhia"
-				#	scottish = "Baile Átha Fhirdhia"
-				#	norsegaelic = "Baile Átha Fhirdhia"
-				#	welsh = "Baile Átha Fhirdhia"
-				#	cumbric = "Baile Átha Fhirdhia"
-				#	breton = "Baile Átha Fhirdhia"
-				#	cornish = "Baile Átha Fhirdhia"
-				#	saxon = "Atherdee"
-				#	anglonorse = "Atherdee"
-				#}
-				b_mellifont = {}
-			} # end c_oriel
-			c_armagh = { # Ard Mhacha (1435)
-				color = { 142 243 131 }
-				color2 = { 255 255 255 }
+				b_ardee = {}
 				b_armagh = {}
 				b_newry = {}
-			} # end c_armagh
-		} # end d_airgialla
-		d_breifne = { # Breifne
-			color = { 54 135 39 }
-			color2 = { 136 0 21 }
-			capital = 8 # Leitrim
+				b_annagassan = {}
+			}
+		} # end d_ulster
+		d_connacht = { # Connacht
+			color = { 70 123 126 }
+			color2 = { 255 255 255 }
+			capital = 9 # Connacht
+			c_connacht = { # Connacht(9)
+				color = { 45 130 70 }
+				color2 = { 255 255 255 }
+				norse = "Connacht"
+				swedish = "Connacht"
+				norwegian = "Connacht"
+				danish = "Connacht"
+				icelandic = "Connacht"
+				gothic = "Connacht"
+				saxon = "Connacht"
+				anglonorse = "Connacht"
+				irish = "Connacht"
+				scottish = "Connacht"
+				cumbric = "Connacht"
+				cornish = "Connacht"
+				welsh = "Connacht"
+				breton = "Connacht"
+				norsegaelic = "Connacht"
+				b_mayo = {}
+				b_galway = {}
+				b_tuam = {}
+				b_lisnatreanduff = {}
+				b_shrule = {}
+				#b_killala = {
+				#	irish = "Cill Ala"
+				#	scottish = "Cill Ala"
+				#	norsegaelic = "Cill Ala"
+				#	welsh = "Cill Ala"
+				#	cumbric = "Cill Ala"
+				#	breton = "Cill Ala"
+				#	cornish = "Cill Ala"
+				#}
+			} # end c_connacht
+			c_moylurg = { # Moylurg (976)
+				color = { 45 130 0 }
+				color2 = { 255 255 255 }
+				b_elphin = {}
+				b_sligo = {}
+				b_boyle = {}
+			}
+			c_hy_many = { # Hy Many (1440)
+				color = { 45 230 70 }
+				color2 = { 255 255 255 }
+				b_roscommon = {}
+				b_athenry = {}
+				b_dunmore = {}
+			} # end c_galway
 			c_breifne = { # Leitrim (8)
 				color = { 29 216 89 }
 				color2 = { 255 255 255 }
@@ -14662,79 +14645,6 @@ e_britannia = { # Britannia
 				b_cloughoughter = {}
 				b_drumlane = {}
 			} # end c_cavan
-		} # end d_breifne
-		d_connacht = { # Connacht
-			color = { 70 123 126 }
-			color2 = { 255 255 255 }
-			capital = 1440 # Galway
-			c_connacht = { # Mayo (9)
-				color = { 45 130 70 }
-				color2 = { 255 255 255 }
-				b_mayo = {}
-				b_killala = {}
-				b_lisnatreanduff = {}
-				b_shrule = {}
-			} # end c_connacht
-			c_roscommon = { # Roscommon (976) Moylurg
-				color = { 45 130 0 }
-				color2 = { 255 255 255 }
-				b_elphin = {}
-				b_sligo = {}
-				b_roscommon = {}
-				#b_boyle = {
-				#	irish = "Búille"
-				#	scottish = "Búille"
-				#	norsegaelic = "Búille"
-				#	welsh = "Búille"
-				#	cumbric = "Búille"
-				#	breton = "Búille"
-				#	cornish = "Búille"
-				#}
-			}
-			c_galway = { # Gaillimhe (1440)
-				color = { 45 230 70 }
-				color2 = { 255 255 255 }
-				b_galway = {}
-				b_tuam = {}
-				b_clonfert = {}
-				b_kilmacduagh = {}
-				#b_athenry = {
-				#	irish = "Baile Átha an Rí"
-				#	scottish = "Baile Átha an Rí"
-				#	norsegaelic = "Baile Átha an Rí"
-				#	welsh = "Baile Átha an Rí"
-				#	cumbric = "Baile Átha an Rí"
-				#	breton = "Baile Átha an Rí"
-				#	cornish = "Baile Átha an Rí"
-				#}
-				#b_ardrahan = {
-				#	irish = "Ard Raithin"
-				#	scottish = "Ard Raithin"
-				#	norsegaelic = "Ard Raithin"
-				#	welsh = "Ard Raithin"
-				#	cumbric = "Ard Raithin"
-				#	breton = "Ard Raithin"
-				#	cornish = "Ard Raithin"
-				#}
-				#b_dunmore = {
-				#	irish = "Dún Mór"
-				#	scottish = "Dùn Mòr"
-				#	norsegaelic = "Dún Mór"
-				#	welsh = "Dún Mór"
-				#	cumbric = "Dún Mór"
-				#	breton = "Dún Mór"
-				#	cornish = "Dún Mór"
-				#}
-				#b_ballinasloe = {
-				#	irish = "Béal Átha na Sluaighe"
-				#	scottish = "Béal Átha na Sluaighe"
-				#	norsegaelic = "Béal Átha na Sluaighe"
-				#	welsh = "Béal Átha na Sluaighe"
-				#	cumbric = "Béal Átha na Sluaighe"
-				#	breton = "Béal Átha na Sluaighe"
-				#	cornish = "Béal Átha na Sluaighe"
-				#}
-			} # end c_galway
 		} # end d_connacht
 		d_meath = { # Mide
 			color = { 106 70 126 }
@@ -14754,6 +14664,7 @@ e_britannia = { # Britannia
 				#	cornish = "Ardachadh"
 				#}
 				b_longford = {}
+				b_durrow = {}
 				#b_moatfarrell = {
 				#	irish = "Móta Uí Fhearghail"
 				#	scottish = "Móta Uí Fhearghail"
@@ -14765,13 +14676,16 @@ e_britannia = { # Britannia
 				#}
 				b_granard = {}
 			} # end c_tethbae
-			c_mide = { # Mide (975)
+			c_brega = { # Brega (975)
 				color = { 75 250 85 }
 				color2 = { 255 255 255 }
-				b_kells = {}
-				b_trim = {}
+				b_louth = {}
 				b_tara_meath = {}
+				b_mellifont = {}
+				b_trim = {}
 				b_morgallion = {}
+				b_kells = {}
+				b_knowth = {}
 				#b_navan = {
 				#	irish = "An Uaimh"
 				#	scottish = "An Uaimh"
@@ -14798,125 +14712,25 @@ e_britannia = { # Britannia
 				b_danigean = {}
 				b_rathangan = {}
 			}
+			c_dublin = { # Dublin (11)
+				color = { 60 150 50 }
+				color2 = { 255 255 255 }
+				b_dublin = {}
+				b_christ_church = {}
+				b_dublin_castle = {}
+				b_clondalkin = {}
+				b_dunleary = {}
+				#b_clontarf = {
+				#	irish = "Cluain Tarbh"
+				#	scottish = "Cluain Tarbh"
+				#	norsegaelic = "Cluain Tarbh"
+				#	welsh = "Cluain Tarbh"
+				#	cumbric = "Cluain Tarbh"
+				#	breton = "Cluain Tarbh"
+				#	cornish = "Cluain Tarbh"
+				#}
+			} # end c_dublin
 		} # end d_meath
-		d_thomond = { # Thomond
-			color = { 30 100 80 }
-			color2 = { 255 255 255 }
-			capital = 13 # Thomond
-			c_thomond = { # Clare (13)
-				color = { 65 210 80 }
-				color2 = { 255 255 255 }
-				b_ennis = {}
-				b_clarecastle = {}
-				b_iniscealtra = {}
-				#b_bunratty = {
-				#	irish = "Bun Ráite"
-				#	scottish = "Bun Ráite"
-				#	norsegaelic = "Bun Ráite"
-				#	welsh = "Bun Ráite"
-				#	cumbric = "Bun Ráite"
-				#	breton = "Bun Ráite"
-				#	cornish = "Bun Ráite"
-				#}
-				#b_killaloe = {
-				#	irish = "Cill Dalua"
-				#	scottish = "Cill Dalua"
-				#	norsegaelic = "Cill Dalua"
-				#	welsh = "Cill Dalua"
-				#	cumbric = "Cill Dalua"
-				#	breton = "Cill Dalua"
-				#	cornish = "Cill Dalua"
-				#}
-				#b_kilfenora = {
-				#	irish = "Cill Fhionnúrach"
-				#	scottish = "Cill Fhionnúrach"
-				#	norsegaelic = "Cill Fhionnúrach"
-				#	welsh = "Cill Fhionnúrach"
-				#	cumbric = "Cill Fhionnúrach"
-				#	breton = "Cill Fhionnúrach"
-				#	cornish = "Cill Fhionnúrach"
-				#}
-			} # end c_thomond
-			c_tipperary = { # Thiobraid Arann (1448)
-				color = { 60 200 90 }
-				color2 = { 255 255 255 }
-				b_cashel = {}
-				b_cahir = {}
-				b_emly = {}
-				#b_tipperary = {
-				#	irish = "Tiobraid Árann"
-				#	scottish = "Tiobraid Árann"
-				#	norsegaelic = "Hybbyrt Aarey"
-				#	welsh = "Tiobraid Árann"
-				#	cumbric = "Tiobraid Árann"
-				#	breton = "Tiobraid Árann"
-				#	cornish = "Tiobraid Árann"
-				#	anglonorse = "Hybbyrt Aarey"
-				#	norse = "Hybbyrt Aarey"
-				#	danish = "Hybbyrt Aarey"
-				#	swedish = "Hybbyrt Aarey"
-				#	gothic = "Hybbyrt Aarey"
-				#	norwegian = "Hybbyrt Aarey"
-				#	icelandic = "Hybbyrt Aarey"
-				#}
-				#b_kilcash = {
-				#	irish = "Cill Chaise"
-				#	scottish = "Cill Chaise"
-				#	norsegaelic = "Kilkasse"
-				#	cornish = "Cill Chaise"
-				#	welsh = "Cill Chaise"
-				#	cumbric = "Cill Chaise"
-				#	breton = "Cill Chaise"
-				#	saxon = "Kilcashe"
-				#	anglonorse = "Kilkasse"
-				#	norse = "Kilkasse"
-				#	danish = "Kilkasse"
-				#	swedish = "Kilkasse"
-				#	gothic = "Kilkasse"
-				#	norwegian = "Kilkasse"
-				#	icelandic = "Kilkasse"
-				#}
-			} # end c_tipperary
-		} # end d_thomond
-		d_ossory = { # Ossory
-			color = { 60 200 10 }
-			color2 = { 255 255 255 }
-			capital = 1447 # Laois
-			c_laois = { # Laoise (1447)
-				color = { 65 210 0 }
-				color2 = { 255 255 255 }
-				b_aghaboe = {}
-				b_dunamase = {}
-				b_durrow = {}
-				#b_timahoe = {
-				#	irish = "Tigh Mochua"
-				#	scottish = "Tigh Mochua"
-				#	norsegaelic = "Tigh Mochua"
-				#	welsh = "Tigh Mochua"
-				#	cumbric = "Tigh Mochua"
-				#	breton = "Tigh Mochua"
-				#	cornish = "Tigh Mochua"
-				#}
-			} # end c_laois
-			c_ossory = { # Kilkenny (12)
-				color = { 190 240 20 }
-				color2 = { 255 255 255 }
-				b_gowran = {}
-				b_kilkenny = {}
-				b_jerpoint = {}
-				#b_callan = {
-				#	irish = "Callainn"
-				#	scottish = "Callainn"
-				#	norsegaelic = "Callainn"
-				#	welsh = "Callainn"
-				#	cumbric = "Callainn"
-				#	breton = "Callainn"
-				#	cornish = "Callainn"
-				#}
-				#b_grannagh = {}
-				#b_grennan = {}
-			} # end c_ossory
-		} # end d_ossory
 		d_leinster = { # Leinster
 			color = { 51 95 40 }
 			color2 = { 255 255 255 }
@@ -14986,24 +14800,26 @@ e_britannia = { # Britannia
 				#	icelandic = "Carnebothe"
 				#}
 			} # end c_wicklow
-			c_dublin = { # Dublin (11)
-				color = { 60 150 50 }
+			c_ossory = { # Kilkenny (12)
+				color = { 190 240 20 }
 				color2 = { 255 255 255 }
-				b_dublin = {}
-				b_christ_church = {}
-				b_dublin_castle = {}
-				b_clondalkin = {}
-				b_dunleary = {}
-				#b_clontarf = {
-				#	irish = "Cluain Tarbh"
-				#	scottish = "Cluain Tarbh"
-				#	norsegaelic = "Cluain Tarbh"
-				#	welsh = "Cluain Tarbh"
-				#	cumbric = "Cluain Tarbh"
-				#	breton = "Cluain Tarbh"
-				#	cornish = "Cluain Tarbh"
+				b_gowran = {}
+				b_kilkenny = {}
+				b_aghaboe = {}
+				b_dunamase = {}
+				b_jerpoint = {}
+				#b_callan = {
+				#	irish = "Callainn"
+				#	scottish = "Callainn"
+				#	norsegaelic = "Callainn"
+				#	welsh = "Callainn"
+				#	cumbric = "Callainn"
+				#	breton = "Callainn"
+				#	cornish = "Callainn"
 				#}
-			} # end c_dublin
+				#b_grannagh = {}
+				#b_grennan = {}
+			} # end c_ossory
 		} # end d_leinster
 		d_munster = { # Munster
 			color = { 17 93 112 }
@@ -15091,6 +14907,80 @@ e_britannia = { # Britannia
 				b_clonmel = {}
 				b_lismore = {}
 			} # end c_ormond
+			c_thomond = { # Clare (13)
+				color = { 65 210 80 }
+				color2 = { 255 255 255 }
+				b_ennis = {}
+				b_clarecastle = {}
+				b_iniscealtra = {}
+				#b_bunratty = {
+				#	irish = "Bun Ráite"
+				#	scottish = "Bun Ráite"
+				#	norsegaelic = "Bun Ráite"
+				#	welsh = "Bun Ráite"
+				#	cumbric = "Bun Ráite"
+				#	breton = "Bun Ráite"
+				#	cornish = "Bun Ráite"
+				#}
+				#b_killaloe = {
+				#	irish = "Cill Dalua"
+				#	scottish = "Cill Dalua"
+				#	norsegaelic = "Cill Dalua"
+				#	welsh = "Cill Dalua"
+				#	cumbric = "Cill Dalua"
+				#	breton = "Cill Dalua"
+				#	cornish = "Cill Dalua"
+				#}
+				#b_kilfenora = {
+				#	irish = "Cill Fhionnúrach"
+				#	scottish = "Cill Fhionnúrach"
+				#	norsegaelic = "Cill Fhionnúrach"
+				#	welsh = "Cill Fhionnúrach"
+				#	cumbric = "Cill Fhionnúrach"
+				#	breton = "Cill Fhionnúrach"
+				#	cornish = "Cill Fhionnúrach"
+				#}
+			} # end c_thomond
+			c_tipperary = { # Thiobraid Arann (1448)
+				color = { 60 200 90 }
+				color2 = { 255 255 255 }
+				b_cashel = {}
+				b_cahir = {}
+				b_emly = {}
+				#b_tipperary = {
+				#	irish = "Tiobraid Árann"
+				#	scottish = "Tiobraid Árann"
+				#	norsegaelic = "Hybbyrt Aarey"
+				#	welsh = "Tiobraid Árann"
+				#	cumbric = "Tiobraid Árann"
+				#	breton = "Tiobraid Árann"
+				#	cornish = "Tiobraid Árann"
+				#	anglonorse = "Hybbyrt Aarey"
+				#	norse = "Hybbyrt Aarey"
+				#	danish = "Hybbyrt Aarey"
+				#	swedish = "Hybbyrt Aarey"
+				#	gothic = "Hybbyrt Aarey"
+				#	norwegian = "Hybbyrt Aarey"
+				#	icelandic = "Hybbyrt Aarey"
+				#}
+				#b_kilcash = {
+				#	irish = "Cill Chaise"
+				#	scottish = "Cill Chaise"
+				#	norsegaelic = "Kilkasse"
+				#	cornish = "Cill Chaise"
+				#	welsh = "Cill Chaise"
+				#	cumbric = "Cill Chaise"
+				#	breton = "Cill Chaise"
+				#	saxon = "Kilcashe"
+				#	anglonorse = "Kilkasse"
+				#	norse = "Kilkasse"
+				#	danish = "Kilkasse"
+				#	swedish = "Kilkasse"
+				#	gothic = "Kilkasse"
+				#	norwegian = "Kilkasse"
+				#	icelandic = "Kilkasse"
+				#}
+			} # end c_tipperary
 		} # end d_munster
 	} # end k_ireland
 	k_scotland = { # Alba
@@ -15102,13 +14992,16 @@ e_britannia = { # Britannia
 		d_galloway = { # Galloway
 			color = { 24 58 121 }
 			color2 = { 255 255 255 }
-			capital = 1469 # Baile Na H Uige
+			capital = 30 # Galloway
 			c_galloway = { # Galloway (50)
 				color = { 15 185 243 }
 				color2 = { 255 255 255 }
 				b_threave = {}
 				b_kirkcudbright = {}
-				b_dundrennan = {}
+				b_whithorn = {}
+				b_glenluce = {}
+				b_wigtown = {}
+				b_dunragit = {}
 			} # end c_galloway
 			c_carrick = { # Carrick (49)
 				color = { 66 125 125 }
@@ -15117,14 +15010,6 @@ e_britannia = { # Britannia
 				b_maybole = {}
 				b_crossraguel = {}
 			} # end c_carrick
-			c_bailenahuige = { # Baile Na H Uige (1469)
-				color = { 50 185 243 }
-				color2 = { 255 255 255 }
-				b_dunragit = {}
-				b_whithorn = {}
-				b_glenluce = {}
-				b_wigtown = {}
-			} # end c_bailenahuige
 			c_dunphris = { # Dun Phris (1470)
 				color = { 5 140 240 }
 				color2 = { 255 255 255 }
@@ -15238,13 +15123,16 @@ e_britannia = { # Britannia
 				b_elgin = {}
 				b_kinloss = {}
 				b_lochindorb = {}
-			} # end c_moray
-			c_inbhirnarann = { # Inbhir Narann (1452)
-				color = { 15 55 243 }
-				color2 = { 255 255 255 }
 				b_cawdor = {}
-				b_nairn = {}
-			}
+			} # end c_moray
+			c_ross = { # Ross (39)
+				color = { 12 120 240 }
+				color2 = { 255 255 255 }
+				b_tain = {}
+				b_rosemarkie = {}
+				b_dingwall = {}
+				b_fortrose = {}
+			} # end c_ross
 			c_inbhirnis = { # Inbhir Nis (1453)
 				color = { 40 227 250 }
 				color2 = { 255 255 255 }
@@ -15284,19 +15172,21 @@ e_britannia = { # Britannia
 				b_inverbervie = {}
 			} # end c_cinnchardainn
 		} # end d_aberdeen
-		d_highlands = { # Highlands
+		d_sutherland = { # Sutherland
 			color = { 190 126 96 }
 			color2 = { 255 255 255 }
-			capital = 39 # Ros
-			c_caithness = { # Katanes (37)
+			capital = 1451 # Sutherland
+			c_sutherland = { # Sutherland (1451)
 				color = { 66 66 125 }
 				color2 = { 255 255 255 }
-				norse = "Sutherland"
-				swedish = "Sutherland"
-				norwegian = "Sutherland"
-				danish = "Sutherland"
-				icelandic = "Sutherland"
-				gothic = "Sutherland"
+				b_dornoch = {}
+				b_durness = {}
+				b_dunrobin = {}
+				b_golspie = {}
+			} # end c_sutherland
+			c_caithness = { # Katanes (37)
+				color = { 108 32 23 }
+				color2 = { 255 255 255 }
 				english = "Sutherland"
 				saxon = "Sutherland"
 				anglonorse = "Sutherland"
@@ -15307,26 +15197,10 @@ e_britannia = { # Britannia
 				welsh = "Sutherland"
 				breton = "Sutherland"
 				norsegaelic = "Sutherland"
-				b_dornoch = {}
-				b_durness = {}
-				b_dunrobin = {}
-				b_golspie = {}
-			} # end c_caithness
-			c_ross = { # Ross (39)
-				color = { 12 120 240 }
-				color2 = { 255 255 255 }
-				b_tain = {}
-				b_rosemarkie = {}
-				b_dingwall = {}
-				b_fortrose = {}
-			} # end c_ross
-			c_gallaibh = { # Gallaibh (1451)
-				color = { 108 32 23 }
-				color2 = { 255 255 255 }
 				b_thurso = {}
 				b_wick = {}
 				b_dunbeath = {}
-			} # end c_gallaibh
+			} # end c_caithness
 		} # end d_highlands
 		d_strathclyde = { # Strathclyde
 			color = { 90 226 196 }
@@ -29179,8 +29053,15 @@ e_null = {
 			color = { 167 40 40 }
 			color2 = { 255 255 255 }
 			capital = 597 # Azov
-			khazar = "Buzan"
-			bolghar = "Buzan"
+			armenian = "Don"
+			greek = "Don"
+			east_gothic = "Don"
+			alan = "Don"
+			sicilian_greek = "Don"
+			arberian = "Don"
+			georgian = "Don"
+			khazar = "Don"
+			bolghar = "Don"
 			sardinian = "Tana"
 			sicilian = "Tana"
 			corsican = "Tana"
@@ -29196,6 +29077,29 @@ e_null = {
 			c_azov = { # Azaq (597)
 				color = { 226 187 83 }
 				color2 = { 255 255 255 }
+				norse = "Don"
+				armenian = "Don"
+				greek = "Don"
+				east_gothic = "Don"
+				alan = "Don"
+				sicilian_greek = "Don"
+				arberian = "Don"
+				georgian = "Don"
+				pecheneg = "Don"
+				khazar = "Don"
+				bolghar = "Don"
+				sardinian = "Tana"
+				sicilian = "Tana"
+				corsican = "Tana"
+				central_italian = "Tana"
+				southern_italian = "Tana"
+				neapolitan = "Tana"
+				tuscan = "Tana"
+				ligurian = "Tana"
+				langobardisch = "Tana"
+				italian = "Tana"
+				venetian = "Tana"
+				dalmatian = "Tana"
 				b_azov = {} # end b_azov
 				b_kagalnik = {}
 				b_cherkassk = {}
