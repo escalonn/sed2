@@ -2114,13 +2114,13 @@ d_karvuna                       ;turkish            ;        ;Dobruja
 d_karvuna                       ;turkmen            ;        ;Dobruja
 d_karvuna                       ;oghuz              ;        ;Dobruja
 d_karvuna                       ;pecheneg           ;        ;Dobruja
-c_karvuna                       ;greek              ;        ;Krounoi
-c_karvuna                       ;east_gothic        ;        ;Krounoi
-c_karvuna                       ;turkish            ;        ;Balçik
-c_karvuna                       ;turkmen            ;        ;Balçik
-c_karvuna                       ;oghuz              ;        ;Balçik
-c_karvuna                       ;pecheneg           ;        ;Balçik
-c_karvuna                       ;roman              ;        ;Krounoi
+c_karvuna                       ;greek              ;Balchik ;Krounoi
+c_karvuna                       ;east_gothic        ;Balchik ;Krounoi
+c_karvuna                       ;turkish            ;Balchik ;Balçik
+c_karvuna                       ;turkmen            ;Balchik ;Balçik
+c_karvuna                       ;oghuz              ;Balchik ;Balçik
+c_karvuna                       ;pecheneg           ;Balchik ;Balçik
+c_karvuna                       ;roman              ;Balchik ;Krounoi
 c_constantia                    ;greek              ;        ;Konstantia
 c_constantia                    ;east_gothic        ;        ;Konstantia
 c_constantia                    ;romanian           ;        ;Constanta
@@ -2284,12 +2284,12 @@ d_vidin                         ;romanian           ;        ;Diiu
 d_vidin                         ;hungarian          ;        ;Bodony
 d_vidin                         ;szekely            ;        ;Bodony
 d_vidin                         ;roman              ;        ;Bononia
-c_vidin                         ;greek              ;        ;Bononia
-c_vidin                         ;east_gothic        ;        ;Bononia
-c_vidin                         ;romanian           ;        ;Diiu
-c_vidin                         ;hungarian          ;        ;Bodony
-c_vidin                         ;szekely            ;        ;Bodony
-c_vidin                         ;roman              ;        ;Bononia
+c_vidin                         ;greek              ;Vidin   ;Bononia
+c_vidin                         ;east_gothic        ;Vidin   ;Bononia
+c_vidin                         ;romanian           ;Vidin   ;Diiu
+c_vidin                         ;hungarian          ;Vidin   ;Bodony
+c_vidin                         ;szekely            ;Vidin   ;Bodony
+c_vidin                         ;roman              ;Vidin   ;Bononia
 c_branicevo                     ;greek              ;Viminacium;Viminacion
 c_branicevo                     ;east_gothic        ;Viminacium;Viminacion
 c_branicevo                     ;turkish            ;Kruševac;Alaga Hisar
@@ -2351,13 +2351,13 @@ c_naissus                       ;roman              ;        ;Naissus
 k_serbia                        ;greek              ;        ;Serblías
 k_serbia                        ;east_gothic        ;        ;Serblías
 k_serbia                        ;roman              ;Moesia Superior;Moesia Prima
-d_rashka                        ;greek              ;Serbia  ;Rascia
-d_rashka                        ;east_gothic        ;Serbia  ;Rascia
+d_rashka                        ;greek              ;        ;Rascia
+d_rashka                        ;east_gothic        ;        ;Rascia
 d_rashka                        ;arberian           ;        ;Rashkës
 d_rashka                        ;roman              ;Moesia Superior;Moesia Prima
-c_rashka                        ;greek              ;        ;Rascia
-c_rashka                        ;east_gothic        ;        ;Rascia
-c_rashka                        ;arberian           ;        ;Rashkës
+c_rashka                        ;greek              ;Raška   ;Rascia
+c_rashka                        ;east_gothic        ;Raška   ;Rascia
+c_rashka                        ;arberian           ;Raška   ;Rashkës
 c_prizren                       ;greek              ;Prizren ;Petrizen
 c_prizren                       ;east_gothic        ;Prizren ;Petrizen
 c_prizren                       ;arberian           ;Prizren ;Prizreni
@@ -3307,21 +3307,21 @@ d_csanad                        ;romanian           ;        ;Cenad
 d_csanad                        ;bohemian           ;        ;Chanád
 d_csanad                        ;moravian           ;        ;Chanad
 d_csanad                        ;roman              ;Morisena;Morisena
-c_csanad                        ;german             ;        ;Tschanad
-c_csanad                        ;low_german         ;        ;Tschanad
-c_csanad                        ;dutch              ;        ;Tschanad
-c_csanad                        ;low_saxon          ;        ;Tschanad
-c_csanad                        ;thuringian         ;        ;Tschanad
-c_csanad                        ;franconian         ;        ;Tschanad
-c_csanad                        ;swabian            ;        ;Tschanad
-c_csanad                        ;bavarian           ;        ;Tschanad
-c_csanad                        ;low_frankish       ;        ;Tschanad
-c_csanad                        ;greek              ;        ;Morisena
-c_csanad                        ;east_gothic        ;        ;Morisena
-c_csanad                        ;romanian           ;        ;Cenad
-c_csanad                        ;bohemian           ;        ;Chanád
-c_csanad                        ;moravian           ;        ;Chanad
-c_csanad                        ;roman              ;        ;Morisena
+c_csanad                        ;german             ;Csanád  ;Tschanad
+c_csanad                        ;low_german         ;Csanád  ;Tschanad
+c_csanad                        ;dutch              ;Csanád  ;Tschanad
+c_csanad                        ;low_saxon          ;Csanád  ;Tschanad
+c_csanad                        ;thuringian         ;Csanád  ;Tschanad
+c_csanad                        ;franconian         ;Csanád  ;Tschanad
+c_csanad                        ;swabian            ;Csanád  ;Tschanad
+c_csanad                        ;bavarian           ;Csanád  ;Tschanad
+c_csanad                        ;low_frankish       ;Csanád  ;Tschanad
+c_csanad                        ;greek              ;Morisena;Morisena
+c_csanad                        ;east_gothic        ;Morisena;Morisena
+c_csanad                        ;romanian           ;Csanád  ;Cenad
+c_csanad                        ;bohemian           ;Csanád  ;Chanád
+c_csanad                        ;moravian           ;Csanád  ;Chanad
+c_csanad                        ;roman              ;Morisena;Morisena
 c_krasso                        ;romanian           ;Carasova;Carashova
 c_krasso                        ;turkish            ;Ada Kaleh;Adakale
 c_krasso                        ;turkmen            ;Ada Kaleh;Adakale
@@ -3748,21 +3748,21 @@ c_okic                          ;hungarian          ;        ;Oclych
 c_okic                          ;szekely            ;        ;Oclych
 d_slavonia                      ;greek              ;Pannonia Savia;Pannonia Savia
 d_slavonia                      ;roman              ;Pannonia Savia;Pannonia Savia
-c_zagreb                        ;german             ;        ;Agram
-c_zagreb                        ;low_german         ;        ;Agram
-c_zagreb                        ;dutch              ;        ;Agram
-c_zagreb                        ;low_saxon          ;        ;Agram
-c_zagreb                        ;thuringian         ;        ;Agram
-c_zagreb                        ;franconian         ;        ;Agram
-c_zagreb                        ;swabian            ;        ;Agram
-c_zagreb                        ;bavarian           ;        ;Agram
-c_zagreb                        ;low_frankish       ;        ;Agram
-c_zagreb                        ;greek              ;        ;Andautonia
-c_zagreb                        ;east_gothic        ;        ;Andautonia
-c_zagreb                        ;hungarian          ;        ;Zágráb
-c_zagreb                        ;szekely            ;        ;Zágráb
-c_zagreb                        ;dalmatian          ;        ;Zagabria
-c_zagreb                        ;roman              ;        ;Andautonia
+c_zagreb                        ;german             ;Zagreb  ;Agram
+c_zagreb                        ;low_german         ;Zagreb  ;Agram
+c_zagreb                        ;dutch              ;Zagreb  ;Agram
+c_zagreb                        ;low_saxon          ;Zagreb  ;Agram
+c_zagreb                        ;thuringian         ;Zagreb  ;Agram
+c_zagreb                        ;franconian         ;Zagreb  ;Agram
+c_zagreb                        ;swabian            ;Zagreb  ;Agram
+c_zagreb                        ;bavarian           ;Zagreb  ;Agram
+c_zagreb                        ;low_frankish       ;Zagreb  ;Agram
+c_zagreb                        ;greek              ;Zagreb  ;Andautonia
+c_zagreb                        ;east_gothic        ;Zagreb  ;Andautonia
+c_zagreb                        ;hungarian          ;Zagreb  ;Zágráb
+c_zagreb                        ;szekely            ;Zagreb  ;Zágráb
+c_zagreb                        ;dalmatian          ;Zagreb  ;Zagabria
+c_zagreb                        ;roman              ;Zagreb  ;Andautonia
 c_pozega                        ;greek              ;        ;Incerum
 c_pozega                        ;east_gothic        ;        ;Incerum
 c_pozega                        ;roman              ;        ;Incerum
@@ -4091,7 +4091,7 @@ c_devon                         ;icelandic          ;Devon   ;Defena
 c_devon                         ;gothic             ;Devon   ;Defena
 c_devon                         ;saxon              ;Devon   ;Defena
 c_devon                         ;anglonorse         ;Devon   ;Defena
-c_devon                         ;greek              ;Isca    ;Isca Dumnoniorum
+c_devon                         ;greek              ;Isca Dumnoniorum;Isca Dumnoniorum
 c_devon                         ;irish              ;Devon   ;Dyfnaint
 c_devon                         ;scottish           ;Devon   ;Dyfnaint
 c_devon                         ;cumbric            ;Devon   ;Dyfnaint
@@ -4099,7 +4099,7 @@ c_devon                         ;cornish            ;Devon   ;Dyfnaint
 c_devon                         ;welsh              ;Devon   ;Dyfnaint
 c_devon                         ;breton             ;Devon   ;Dyfnaint
 c_devon                         ;norsegaelic        ;Devon   ;Defena
-c_devon                         ;roman              ;Isca    ;Isca Dumnoniorum
+c_devon                         ;roman              ;Isca Dumnoniorum;Isca Dumnoniorum
 d_hereford                      ;norse              ;        ;Mierce
 d_hereford                      ;swedish            ;        ;Mierce
 d_hereford                      ;norwegian          ;        ;Mierce
@@ -4546,96 +4546,96 @@ c_lancaster                     ;cornish            ;Argoed  ;Argoed
 c_lancaster                     ;welsh              ;Argoed  ;Argoed
 c_lancaster                     ;breton             ;Argoed  ;Argoed
 c_lancaster                     ;norsegaelic        ;Lancaster;Lonceaster
-c_chester                       ;norse              ;        ;Legeceaster
-c_chester                       ;swedish            ;        ;Legeceaster
-c_chester                       ;norwegian          ;        ;Legeceaster
-c_chester                       ;danish             ;        ;Legeceaster
-c_chester                       ;icelandic          ;        ;Legeceaster
-c_chester                       ;gothic             ;        ;Legeceaster
-c_chester                       ;saxon              ;        ;Legeceaster
-c_chester                       ;anglonorse         ;        ;Legeceaster
-c_chester                       ;norman             ;        ;Cestre
-c_chester                       ;greek              ;        ;Deva
-c_chester                       ;irish              ;        ;Gaerlleon
-c_chester                       ;scottish           ;        ;Gaerlleon
-c_chester                       ;cumbric            ;        ;Gaerlleon
-c_chester                       ;cornish            ;        ;Gaerlleon
-c_chester                       ;welsh              ;        ;Gaerlleon
-c_chester                       ;breton             ;        ;Gaerlleon
-c_chester                       ;norsegaelic        ;        ;Legeceaster
-c_chester                       ;roman              ;        ;Deva
-c_westmorland                   ;norse              ;        ;Vestmoringaland
-c_westmorland                   ;swedish            ;        ;Vestmoringaland
-c_westmorland                   ;norwegian          ;        ;Vestmoringaland
-c_westmorland                   ;danish             ;        ;Vestmoringaland
-c_westmorland                   ;icelandic          ;        ;Vestmoringaland
-c_westmorland                   ;gothic             ;        ;Vestmoringaland
-c_westmorland                   ;saxon              ;        ;Westmoringaland
-c_westmorland                   ;anglonorse         ;        ;Vestmoringaland
-c_westmorland                   ;irish              ;        ;Dunoting
-c_westmorland                   ;scottish           ;        ;Dunoting
-c_westmorland                   ;cumbric            ;        ;Dunoting
-c_westmorland                   ;cornish            ;        ;Dunoting
-c_westmorland                   ;welsh              ;        ;Dunoting
-c_westmorland                   ;breton             ;        ;Dunoting
-c_westmorland                   ;norsegaelic        ;        ;Vestmoringaland
-d_northumberland                ;norse              ;        ;Norðhymbraland
-d_northumberland                ;swedish            ;        ;Norðhymbraland
-d_northumberland                ;norwegian          ;        ;Norðhymbraland
-d_northumberland                ;danish             ;        ;Norðhymbraland
-d_northumberland                ;icelandic          ;        ;Norðhymbraland
-d_northumberland                ;gothic             ;        ;Norðhymbraland
-d_northumberland                ;saxon              ;        ;Norþhymbraland
-d_northumberland                ;anglonorse         ;        ;Norðhymbraland
+c_chester                       ;norse              ;Chester ;Legeceaster
+c_chester                       ;swedish            ;Chester ;Legeceaster
+c_chester                       ;norwegian          ;Chester ;Legeceaster
+c_chester                       ;danish             ;Chester ;Legeceaster
+c_chester                       ;icelandic          ;Chester ;Legeceaster
+c_chester                       ;gothic             ;Chester ;Legeceaster
+c_chester                       ;saxon              ;Chester ;Legeceaster
+c_chester                       ;anglonorse         ;Chester ;Legeceaster
+c_chester                       ;norman             ;Chester ;Cestre
+c_chester                       ;greek              ;Deva    ;Deva
+c_chester                       ;irish              ;Chester ;Gaerlleon
+c_chester                       ;scottish           ;Chester ;Gaerlleon
+c_chester                       ;cumbric            ;Chester ;Gaerlleon
+c_chester                       ;cornish            ;Chester ;Gaerlleon
+c_chester                       ;welsh              ;Chester ;Gaerlleon
+c_chester                       ;breton             ;Chester ;Gaerlleon
+c_chester                       ;norsegaelic        ;Chester ;Legeceaster
+c_chester                       ;roman              ;Deva    ;Deva
+c_westmorland                   ;norse              ;Westmorland;Vestmoringaland
+c_westmorland                   ;swedish            ;Westmorland;Vestmoringaland
+c_westmorland                   ;norwegian          ;Westmorland;Vestmoringaland
+c_westmorland                   ;danish             ;Westmorland;Vestmoringaland
+c_westmorland                   ;icelandic          ;Westmorland;Vestmoringaland
+c_westmorland                   ;gothic             ;Westmorland;Vestmoringaland
+c_westmorland                   ;saxon              ;Westmorland;Westmoringaland
+c_westmorland                   ;anglonorse         ;Westmorland;Vestmoringaland
+c_westmorland                   ;irish              ;Dunoting;Dunoting
+c_westmorland                   ;scottish           ;Dunoting;Dunoting
+c_westmorland                   ;cumbric            ;Dunoting;Dunoting
+c_westmorland                   ;cornish            ;Dunoting;Dunoting
+c_westmorland                   ;welsh              ;Dunoting;Dunoting
+c_westmorland                   ;breton             ;Dunoting;Dunoting
+c_westmorland                   ;norsegaelic        ;Westmorland;Vestmoringaland
+d_northumberland                ;norse              ;Northumberland;Norðhymbraland
+d_northumberland                ;swedish            ;Northumberland;Norðhymbraland
+d_northumberland                ;norwegian          ;Northumberland;Norðhymbraland
+d_northumberland                ;danish             ;Northumberland;Norðhymbraland
+d_northumberland                ;icelandic          ;Northumberland;Norðhymbraland
+d_northumberland                ;gothic             ;Northumberland;Norðhymbraland
+d_northumberland                ;saxon              ;Northumberland;Norþhymbraland
+d_northumberland                ;anglonorse         ;Northumberland;Norðhymbraland
 d_northumberland                ;irish              ;Bernicia;Brynaich
 d_northumberland                ;scottish           ;Bernicia;Brynaich
 d_northumberland                ;cumbric            ;Bernicia;Brynaich
 d_northumberland                ;cornish            ;Bernicia;Brynaich
 d_northumberland                ;welsh              ;Bernicia;Brynaich
 d_northumberland                ;breton             ;Bernicia;Brynaich
-d_northumberland                ;norsegaelic        ;        ;Norðhymbraland
-c_northumberland                ;norse              ;        ;Norðhymbraland
-c_northumberland                ;swedish            ;        ;Norðhymbraland
-c_northumberland                ;norwegian          ;        ;Norðhymbraland
-c_northumberland                ;danish             ;        ;Norðhymbraland
-c_northumberland                ;icelandic          ;        ;Norðhymbraland
-c_northumberland                ;gothic             ;        ;Norðhymbraland
-c_northumberland                ;saxon              ;        ;Norþhymbraland
-c_northumberland                ;anglonorse         ;        ;Norðhymbraland
-c_northumberland                ;irish              ;        ;Brynaich
-c_northumberland                ;scottish           ;        ;Brynaich
-c_northumberland                ;cumbric            ;        ;Brynaich
-c_northumberland                ;cornish            ;        ;Brynaich
-c_northumberland                ;welsh              ;        ;Brynaich
-c_northumberland                ;breton             ;        ;Brynaich
-c_northumberland                ;norsegaelic        ;        ;Norðhymbraland
-c_durham                        ;norse              ;        ;Dunholm
-c_durham                        ;swedish            ;        ;Dunholm
-c_durham                        ;norwegian          ;        ;Dunholm
-c_durham                        ;danish             ;        ;Dunholm
-c_durham                        ;icelandic          ;        ;Dunholm
-c_durham                        ;gothic             ;        ;Dunholm
-c_durham                        ;saxon              ;        ;Dunholm
-c_durham                        ;anglonorse         ;        ;Dunholm
-c_durham                        ;norman             ;        ;Duresme
-c_durham                        ;norsegaelic        ;        ;Dunholm
-c_cumberland                    ;norse              ;        ;Cumbraland
-c_cumberland                    ;swedish            ;        ;Cumbraland
-c_cumberland                    ;norwegian          ;        ;Cumbraland
-c_cumberland                    ;danish             ;        ;Cumbraland
-c_cumberland                    ;icelandic          ;        ;Cumbraland
-c_cumberland                    ;gothic             ;        ;Cumbraland
-c_cumberland                    ;saxon              ;        ;Cumbraland
-c_cumberland                    ;anglonorse         ;        ;Cumbraland
-c_cumberland                    ;greek              ;        ;Luguvalium
-c_cumberland                    ;irish              ;        ;Cathair Luail
-c_cumberland                    ;scottish           ;        ;Cathair Luail
-c_cumberland                    ;cumbric            ;        ;Cair Ligualid
-c_cumberland                    ;cornish            ;        ;Cair Ligualid
-c_cumberland                    ;welsh              ;        ;Cair Ligualid
-c_cumberland                    ;breton             ;        ;Cair Ligualid
-c_cumberland                    ;norsegaelic        ;        ;Cumbraland
-c_cumberland                    ;roman              ;        ;Luguvalium
+d_northumberland                ;norsegaelic        ;Northumberland;Norðhymbraland
+c_northumberland                ;norse              ;Northumberland;Norðhymbraland
+c_northumberland                ;swedish            ;Northumberland;Norðhymbraland
+c_northumberland                ;norwegian          ;Northumberland;Norðhymbraland
+c_northumberland                ;danish             ;Northumberland;Norðhymbraland
+c_northumberland                ;icelandic          ;Northumberland;Norðhymbraland
+c_northumberland                ;gothic             ;Northumberland;Norðhymbraland
+c_northumberland                ;saxon              ;Northumberland;Norþhymbraland
+c_northumberland                ;anglonorse         ;Northumberland;Norðhymbraland
+c_northumberland                ;irish              ;Bernicia;Brynaich
+c_northumberland                ;scottish           ;Bernicia;Brynaich
+c_northumberland                ;cumbric            ;Bernicia;Brynaich
+c_northumberland                ;cornish            ;Bernicia;Brynaich
+c_northumberland                ;welsh              ;Bernicia;Brynaich
+c_northumberland                ;breton             ;Bernicia;Brynaich
+c_northumberland                ;norsegaelic        ;Northumberland;Norðhymbraland
+c_durham                        ;norse              ;Durham  ;Dunholm
+c_durham                        ;swedish            ;Durham  ;Dunholm
+c_durham                        ;norwegian          ;Durham  ;Dunholm
+c_durham                        ;danish             ;Durham  ;Dunholm
+c_durham                        ;icelandic          ;Durham  ;Dunholm
+c_durham                        ;gothic             ;Durham  ;Dunholm
+c_durham                        ;saxon              ;Durham  ;Dunholm
+c_durham                        ;anglonorse         ;Durham  ;Dunholm
+c_durham                        ;norman             ;Durham  ;Duresme
+c_durham                        ;norsegaelic        ;Durham  ;Dunholm
+c_cumberland                    ;norse              ;Cumberland;Cumbraland
+c_cumberland                    ;swedish            ;Cumberland;Cumbraland
+c_cumberland                    ;norwegian          ;Cumberland;Cumbraland
+c_cumberland                    ;danish             ;Cumberland;Cumbraland
+c_cumberland                    ;icelandic          ;Cumberland;Cumbraland
+c_cumberland                    ;gothic             ;Cumberland;Cumbraland
+c_cumberland                    ;saxon              ;Cumberland;Cumbraland
+c_cumberland                    ;anglonorse         ;Cumberland;Cumbraland
+c_cumberland                    ;greek              ;Luguvalium;Luguvalium
+c_cumberland                    ;irish              ;Carlisle;Cathair Luail
+c_cumberland                    ;scottish           ;Carlisle;Cathair Luail
+c_cumberland                    ;cumbric            ;Carlisle;Cair Ligualid
+c_cumberland                    ;cornish            ;Carlisle;Cair Ligualid
+c_cumberland                    ;welsh              ;Carlisle;Cair Ligualid
+c_cumberland                    ;breton             ;Carlisle;Cair Ligualid
+c_cumberland                    ;norsegaelic        ;Cumberland;Cumbraland
+c_cumberland                    ;roman              ;Luguvalium;Luguvalium
 d_channel_islands               ;frankish           ;        ;Îles d'la Manche
 d_channel_islands               ;arpitan            ;        ;Îles d'la Manche
 d_channel_islands               ;norman             ;        ;Îles d'la Manche
@@ -4684,16 +4684,16 @@ d_gwynedd                       ;cornish            ;        ;Gwynedd
 d_gwynedd                       ;welsh              ;        ;Gwynedd
 d_gwynedd                       ;breton             ;        ;Gwynedd
 d_gwynedd                       ;norsegaelic        ;        ;Gwynedd
-c_gwynedd                       ;english            ;        ;Caernarvon
-c_gwynedd                       ;saxon              ;        ;Caernarvon
-c_gwynedd                       ;anglonorse         ;        ;Caernarvon
-c_gwynedd                       ;irish              ;        ;Gwynedd
-c_gwynedd                       ;scottish           ;        ;Gwynedd
-c_gwynedd                       ;cumbric            ;        ;Gwynedd
-c_gwynedd                       ;cornish            ;        ;Gwynedd
-c_gwynedd                       ;welsh              ;        ;Gwynedd
-c_gwynedd                       ;breton             ;        ;Gwynedd
-c_gwynedd                       ;norsegaelic        ;        ;Gwynedd
+c_gwynedd                       ;english            ;Carnarvon;Caernarvon
+c_gwynedd                       ;saxon              ;Carnarvon;Caernarvon
+c_gwynedd                       ;anglonorse         ;Carnarvon;Caernarvon
+c_gwynedd                       ;irish              ;Gwynedd ;Gwynedd
+c_gwynedd                       ;scottish           ;Gwynedd ;Gwynedd
+c_gwynedd                       ;cumbric            ;Gwynedd ;Gwynedd
+c_gwynedd                       ;cornish            ;Gwynedd ;Gwynedd
+c_gwynedd                       ;welsh              ;Gwynedd ;Gwynedd
+c_gwynedd                       ;breton             ;Gwynedd ;Gwynedd
+c_gwynedd                       ;norsegaelic        ;Gwynedd ;Gwynedd
 c_anglesey                      ;english            ;        ;Anglesea
 c_anglesey                      ;saxon              ;        ;Anglesea
 c_anglesey                      ;anglonorse         ;        ;Anglesea
@@ -4701,13 +4701,13 @@ c_anglesey                      ;irish              ;        ;Ynys Mon
 c_anglesey                      ;scottish           ;        ;Ynys Mon
 c_anglesey                      ;welsh              ;        ;Ynys Mon
 c_anglesey                      ;norsegaelic        ;        ;Ynys Mon
-c_perfeddwlad                   ;english            ;        ;Perfeddwlad
-c_perfeddwlad                   ;saxon              ;        ;Perfeddwlad
-c_perfeddwlad                   ;anglonorse         ;        ;Perfeddwlad
-c_perfeddwlad                   ;irish              ;        ;Berfeddwlad
-c_perfeddwlad                   ;scottish           ;        ;Berfeddwlad
-c_perfeddwlad                   ;welsh              ;        ;Berfeddwlad
-c_perfeddwlad                   ;norsegaelic        ;        ;Berfeddwlad
+c_perfeddwlad                   ;english            ;Perfeddwlad;Perfeddwlad
+c_perfeddwlad                   ;saxon              ;Perfeddwlad;Perfeddwlad
+c_perfeddwlad                   ;anglonorse         ;Perfeddwlad;Perfeddwlad
+c_perfeddwlad                   ;irish              ;Perfeddwlad;Berfeddwlad
+c_perfeddwlad                   ;scottish           ;Perfeddwlad;Berfeddwlad
+c_perfeddwlad                   ;welsh              ;Perfeddwlad;Berfeddwlad
+c_perfeddwlad                   ;norsegaelic        ;Perfeddwlad;Berfeddwlad
 d_deheubarth                    ;english            ;        ;Deheubarth
 d_deheubarth                    ;saxon              ;        ;Deheubarth
 d_deheubarth                    ;anglonorse         ;        ;Deheubarth
@@ -4818,15 +4818,15 @@ d_morgannwg                     ;cornish            ;        ;Morgannwg
 d_morgannwg                     ;welsh              ;        ;Morgannwg
 d_morgannwg                     ;breton             ;        ;Morgannwg
 d_morgannwg                     ;norsegaelic        ;        ;Morgannwg
-c_gwent                         ;english            ;        ;Gwent
-c_gwent                         ;saxon              ;        ;Gwent
-c_gwent                         ;anglonorse         ;        ;Gwent
-c_gwent                         ;greek              ;        ;Isca Augusta
-c_gwent                         ;irish              ;        ;Gwent
-c_gwent                         ;scottish           ;        ;Gwent
-c_gwent                         ;welsh              ;        ;Gwent
-c_gwent                         ;norsegaelic        ;        ;Gwent
-c_gwent                         ;roman              ;        ;Isca Augusta
+c_gwent                         ;english            ;Gwent   ;Gwent
+c_gwent                         ;saxon              ;Gwent   ;Gwent
+c_gwent                         ;anglonorse         ;Gwent   ;Gwent
+c_gwent                         ;greek              ;Isca Augusta;Isca Augusta
+c_gwent                         ;irish              ;Gwent   ;Gwent
+c_gwent                         ;scottish           ;Gwent   ;Gwent
+c_gwent                         ;welsh              ;Gwent   ;Gwent
+c_gwent                         ;norsegaelic        ;Gwent   ;Gwent
+c_gwent                         ;roman              ;Isca Augusta;Isca Augusta
 c_glamorgan                     ;english            ;Glamorgan;Glamorgan
 c_glamorgan                     ;saxon              ;Glamorgan;Glamorgan
 c_glamorgan                     ;anglonorse         ;Glamorgan;Glamorgan
@@ -5202,16 +5202,16 @@ c_galloway                      ;cornish            ;        ;Gall Ghaidheal
 c_galloway                      ;welsh              ;        ;Gall Ghaidheal
 c_galloway                      ;breton             ;        ;Gall Ghaidheal
 c_galloway                      ;norsegaelic        ;        ;Gall Ghaidheal
-c_carrick                       ;english            ;        ;Carrick
-c_carrick                       ;saxon              ;        ;Carrick
-c_carrick                       ;anglonorse         ;        ;Carrick
-c_carrick                       ;irish              ;        ;A' Charraig
-c_carrick                       ;scottish           ;        ;A' Charraig
-c_carrick                       ;cumbric            ;        ;A' Charraig
-c_carrick                       ;cornish            ;        ;A' Charraig
-c_carrick                       ;welsh              ;        ;A' Charraig
-c_carrick                       ;breton             ;        ;A' Charraig
-c_carrick                       ;norsegaelic        ;        ;A' Charraig
+c_carrick                       ;english            ;Carrick ;Carrick
+c_carrick                       ;saxon              ;Carrick ;Carrick
+c_carrick                       ;anglonorse         ;Carrick ;Carrick
+c_carrick                       ;irish              ;Carrick ;A' Charraig
+c_carrick                       ;scottish           ;Carrick ;A' Charraig
+c_carrick                       ;cumbric            ;Carrick ;A' Charraig
+c_carrick                       ;cornish            ;Carrick ;A' Charraig
+c_carrick                       ;welsh              ;Carrick ;A' Charraig
+c_carrick                       ;breton             ;Carrick ;A' Charraig
+c_carrick                       ;norsegaelic        ;Carrick ;A' Charraig
 c_dunphris                      ;english            ;        ;Dumfries
 c_dunphris                      ;saxon              ;        ;Dumfries
 c_dunphris                      ;anglonorse         ;        ;Dumfries
@@ -5229,48 +5229,48 @@ d_lothian                       ;cornish            ;        ;Lleuddiniawn
 d_lothian                       ;welsh              ;        ;Lleuddiniawn
 d_lothian                       ;breton             ;        ;Lleuddiniawn
 d_lothian                       ;norsegaelic        ;        ;Lodainn
-c_lothian                       ;english            ;        ;Lothian
-c_lothian                       ;saxon              ;        ;Lothian
-c_lothian                       ;anglonorse         ;        ;Lothian
-c_lothian                       ;irish              ;        ;Lodainn
-c_lothian                       ;scottish           ;        ;Lodainn
-c_lothian                       ;cumbric            ;        ;Lleuddiniawn
-c_lothian                       ;cornish            ;        ;Lleuddiniawn
-c_lothian                       ;welsh              ;        ;Lleuddiniawn
-c_lothian                       ;breton             ;        ;Lleuddiniawn
-c_lothian                       ;norsegaelic        ;        ;Lodainn
-c_dunbar                        ;norse              ;        ;Berewic
-c_dunbar                        ;swedish            ;        ;Berewic
-c_dunbar                        ;norwegian          ;        ;Berewic
-c_dunbar                        ;danish             ;        ;Berewic
-c_dunbar                        ;icelandic          ;        ;Berewic
-c_dunbar                        ;gothic             ;        ;Berewic
-c_dunbar                        ;english            ;        ;Berwick
-c_dunbar                        ;saxon              ;        ;Berewic
-c_dunbar                        ;anglonorse         ;        ;Berewic
-c_dunbar                        ;irish              ;        ;Bearaig-a-Deas
-c_dunbar                        ;scottish           ;        ;Berik
-c_dunbar                        ;cumbric            ;        ;Caerferwig
-c_dunbar                        ;cornish            ;        ;Caerferwig
-c_dunbar                        ;welsh              ;        ;Caerferwig
-c_dunbar                        ;breton             ;        ;Caerferwig
-c_dunbar                        ;norsegaelic        ;        ;Bearaig-a-Deas
-c_teviotdale                    ;norse              ;        ;Roxborg
-c_teviotdale                    ;swedish            ;        ;Roxborg
-c_teviotdale                    ;norwegian          ;        ;Roxborg
-c_teviotdale                    ;danish             ;        ;Roxburgh
-c_teviotdale                    ;icelandic          ;        ;Roxborg
-c_teviotdale                    ;gothic             ;        ;Roxborg
-c_teviotdale                    ;english            ;        ;Roxburgh
-c_teviotdale                    ;saxon              ;        ;Roxburg
-c_teviotdale                    ;anglonorse         ;        ;Roxborg
-c_teviotdale                    ;irish              ;        ;Rosbroch
-c_teviotdale                    ;scottish           ;        ;Rosbroch
-c_teviotdale                    ;cumbric            ;        ;Rosbroch
-c_teviotdale                    ;cornish            ;        ;Rosbroch
-c_teviotdale                    ;welsh              ;        ;Rosbroch
-c_teviotdale                    ;breton             ;        ;Rosbroch
-c_teviotdale                    ;norsegaelic        ;        ;Rosbroch
+c_lothian                       ;english            ;Lothian ;Lothian
+c_lothian                       ;saxon              ;Lothian ;Lothian
+c_lothian                       ;anglonorse         ;Lothian ;Lothian
+c_lothian                       ;irish              ;Lothian ;Lodainn
+c_lothian                       ;scottish           ;Lothian ;Lodainn
+c_lothian                       ;cumbric            ;Lothian ;Lleuddiniawn
+c_lothian                       ;cornish            ;Lothian ;Lleuddiniawn
+c_lothian                       ;welsh              ;Lothian ;Lleuddiniawn
+c_lothian                       ;breton             ;Lothian ;Lleuddiniawn
+c_lothian                       ;norsegaelic        ;Lothian ;Lodainn
+c_dunbar                        ;norse              ;Berwick ;Berewic
+c_dunbar                        ;swedish            ;Berwick ;Berewic
+c_dunbar                        ;norwegian          ;Berwick ;Berewic
+c_dunbar                        ;danish             ;Berwick ;Berewic
+c_dunbar                        ;icelandic          ;Berwick ;Berewic
+c_dunbar                        ;gothic             ;Berwick ;Berewic
+c_dunbar                        ;english            ;Berwick ;Berwick
+c_dunbar                        ;saxon              ;Berwick ;Berewic
+c_dunbar                        ;anglonorse         ;Berwick ;Berewic
+c_dunbar                        ;irish              ;Berwick ;Bearaig-a-Deas
+c_dunbar                        ;scottish           ;Berwick ;Berik
+c_dunbar                        ;cumbric            ;Berwick ;Caerferwig
+c_dunbar                        ;cornish            ;Berwick ;Caerferwig
+c_dunbar                        ;welsh              ;Berwick ;Caerferwig
+c_dunbar                        ;breton             ;Berwick ;Caerferwig
+c_dunbar                        ;norsegaelic        ;Berwick ;Bearaig-a-Deas
+c_teviotdale                    ;norse              ;Roxburgh;Roxborg
+c_teviotdale                    ;swedish            ;Roxburgh;Roxborg
+c_teviotdale                    ;norwegian          ;Roxburgh;Roxborg
+c_teviotdale                    ;danish             ;Roxburgh;Roxburgh
+c_teviotdale                    ;icelandic          ;Roxburgh;Roxborg
+c_teviotdale                    ;gothic             ;Roxburgh;Roxborg
+c_teviotdale                    ;english            ;Roxburgh;Roxburgh
+c_teviotdale                    ;saxon              ;Roxburgh;Roxburg
+c_teviotdale                    ;anglonorse         ;Roxburgh;Roxborg
+c_teviotdale                    ;irish              ;Roxburgh;Rosbroch
+c_teviotdale                    ;scottish           ;Roxburgh;Rosbroch
+c_teviotdale                    ;cumbric            ;Roxburgh;Rosbroch
+c_teviotdale                    ;cornish            ;Roxburgh;Rosbroch
+c_teviotdale                    ;welsh              ;Roxburgh;Rosbroch
+c_teviotdale                    ;breton             ;Roxburgh;Rosbroch
+c_teviotdale                    ;norsegaelic        ;Roxburgh;Rosbroch
 d_albany                        ;english            ;        ;Albany
 d_albany                        ;saxon              ;        ;Albany
 d_albany                        ;anglonorse         ;        ;Albany
@@ -5281,44 +5281,44 @@ d_albany                        ;cornish            ;Kincardine;An Mhaorine
 d_albany                        ;welsh              ;Kincardine;An Mhaorine
 d_albany                        ;breton             ;Kincardine;An Mhaorine
 d_albany                        ;norsegaelic        ;Kincardine;An Mhaorine
-c_gowrie                        ;english            ;        ;Gowrie
-c_gowrie                        ;saxon              ;        ;Gowrie
-c_gowrie                        ;anglonorse         ;        ;Gowrie
-c_gowrie                        ;irish              ;        ;Gobharaidh
-c_gowrie                        ;scottish           ;        ;Gobharaidh
-c_gowrie                        ;cumbric            ;        ;Gobharaidh
-c_gowrie                        ;cornish            ;        ;Gobharaidh
-c_gowrie                        ;welsh              ;        ;Gobharaidh
-c_gowrie                        ;breton             ;        ;Gobharaidh
-c_gowrie                        ;norsegaelic        ;        ;Gobharaidh
-c_fife                          ;saxon              ;        ;Fife
-c_fife                          ;irish              ;        ;Fìobha
-c_fife                          ;scottish           ;        ;Fìobha
-c_fife                          ;cumbric            ;        ;Fìobha
-c_fife                          ;cornish            ;        ;Fìobha
-c_fife                          ;welsh              ;        ;Fìobha
-c_fife                          ;breton             ;        ;Fìobha
-c_fife                          ;norsegaelic        ;        ;Fìobha
-c_strathearn                    ;english            ;        ;Strathearn
-c_strathearn                    ;saxon              ;        ;Strathearn
-c_strathearn                    ;anglonorse         ;        ;Strathearn
-c_strathearn                    ;irish              ;        ;Srath Èireann
-c_strathearn                    ;scottish           ;        ;Srath Èireann
-c_strathearn                    ;cumbric            ;        ;Srath Èireann
-c_strathearn                    ;cornish            ;        ;Srath Èireann
-c_strathearn                    ;welsh              ;        ;Srath Èireann
-c_strathearn                    ;breton             ;        ;Srath Èireann
-c_strathearn                    ;norsegaelic        ;        ;Srath Èireann
-c_atholl                        ;english            ;        ;Atholl
-c_atholl                        ;saxon              ;        ;Atholl
-c_atholl                        ;anglonorse         ;        ;Atholl
-c_atholl                        ;irish              ;        ;Athall
-c_atholl                        ;scottish           ;        ;Athall
-c_atholl                        ;cumbric            ;        ;Athall
-c_atholl                        ;cornish            ;        ;Athall
-c_atholl                        ;welsh              ;        ;Athall
-c_atholl                        ;breton             ;        ;Athall
-c_atholl                        ;norsegaelic        ;        ;Athall
+c_gowrie                        ;english            ;Gowrie  ;Gowrie
+c_gowrie                        ;saxon              ;Gowrie  ;Gowrie
+c_gowrie                        ;anglonorse         ;Gowrie  ;Gowrie
+c_gowrie                        ;irish              ;Gowrie  ;Gobharaidh
+c_gowrie                        ;scottish           ;Gowrie  ;Gobharaidh
+c_gowrie                        ;cumbric            ;Gowrie  ;Gobharaidh
+c_gowrie                        ;cornish            ;Gowrie  ;Gobharaidh
+c_gowrie                        ;welsh              ;Gowrie  ;Gobharaidh
+c_gowrie                        ;breton             ;Gowrie  ;Gobharaidh
+c_gowrie                        ;norsegaelic        ;Gowrie  ;Gobharaidh
+c_fife                          ;saxon              ;Fife    ;Fife
+c_fife                          ;irish              ;Fife    ;Fìobha
+c_fife                          ;scottish           ;Fife    ;Fìobha
+c_fife                          ;cumbric            ;Fife    ;Fìobha
+c_fife                          ;cornish            ;Fife    ;Fìobha
+c_fife                          ;welsh              ;Fife    ;Fìobha
+c_fife                          ;breton             ;Fife    ;Fìobha
+c_fife                          ;norsegaelic        ;Fife    ;Fìobha
+c_strathearn                    ;english            ;Strathearn;Strathearn
+c_strathearn                    ;saxon              ;Strathearn;Strathearn
+c_strathearn                    ;anglonorse         ;Strathearn;Strathearn
+c_strathearn                    ;irish              ;Strathearn;Srath Èireann
+c_strathearn                    ;scottish           ;Strathearn;Srath Èireann
+c_strathearn                    ;cumbric            ;Strathearn;Srath Èireann
+c_strathearn                    ;cornish            ;Strathearn;Srath Èireann
+c_strathearn                    ;welsh              ;Strathearn;Srath Èireann
+c_strathearn                    ;breton             ;Strathearn;Srath Èireann
+c_strathearn                    ;norsegaelic        ;Strathearn;Srath Èireann
+c_atholl                        ;english            ;Atholl  ;Atholl
+c_atholl                        ;saxon              ;Atholl  ;Atholl
+c_atholl                        ;anglonorse         ;Atholl  ;Atholl
+c_atholl                        ;irish              ;Atholl  ;Athall
+c_atholl                        ;scottish           ;Atholl  ;Athall
+c_atholl                        ;cumbric            ;Atholl  ;Athall
+c_atholl                        ;cornish            ;Atholl  ;Athall
+c_atholl                        ;welsh              ;Atholl  ;Athall
+c_atholl                        ;breton             ;Atholl  ;Athall
+c_atholl                        ;norsegaelic        ;Atholl  ;Athall
 d_moray                         ;english            ;        ;Moray
 d_moray                         ;saxon              ;        ;Moray
 d_moray                         ;anglonorse         ;        ;Moray
@@ -5368,16 +5368,16 @@ d_aberdeen                      ;cornish            ;        ;Obar Dheathain
 d_aberdeen                      ;welsh              ;        ;Obar Dheathain
 d_aberdeen                      ;breton             ;        ;Obar Dheathain
 d_aberdeen                      ;norsegaelic        ;        ;Obar Dheathain
-c_buchan                        ;english            ;        ;Buchan
-c_buchan                        ;saxon              ;        ;Buchan
-c_buchan                        ;anglonorse         ;        ;Buchan
-c_buchan                        ;irish              ;        ;Buchan
-c_buchan                        ;scottish           ;        ;Buchan
-c_buchan                        ;cumbric            ;        ;Bhanbh
-c_buchan                        ;cornish            ;        ;Bhanbh
-c_buchan                        ;welsh              ;        ;Buchan
-c_buchan                        ;breton             ;        ;Bhanbh
-c_buchan                        ;norsegaelic        ;        ;Buchan
+c_buchan                        ;english            ;Buchan  ;Buchan
+c_buchan                        ;saxon              ;Buchan  ;Buchan
+c_buchan                        ;anglonorse         ;Buchan  ;Buchan
+c_buchan                        ;irish              ;Buchan  ;Buchan
+c_buchan                        ;scottish           ;Buchan  ;Buchan
+c_buchan                        ;cumbric            ;Banff   ;Bhanbh
+c_buchan                        ;cornish            ;Banff   ;Bhanbh
+c_buchan                        ;welsh              ;Buchan  ;Buchan
+c_buchan                        ;breton             ;Banff   ;Bhanbh
+c_buchan                        ;norsegaelic        ;Buchan  ;Buchan
 c_obardheathain                 ;english            ;        ;Aberdeen
 c_obardheathain                 ;saxon              ;        ;Aberdeen
 c_obardheathain                 ;irish              ;        ;Obar Dheathain
@@ -5472,13 +5472,13 @@ c_rinnfriu                      ;irish              ;Strathclyde;Strathclyde
 c_rinnfriu                      ;scottish           ;Strathclyde;Strathclyde
 c_rinnfriu                      ;welsh              ;Strathclyde;Strathclyde
 c_rinnfriu                      ;norsegaelic        ;Strathclyde;Strathclyde
-c_clydesdale                    ;english            ;        ;Clydesdale
-c_clydesdale                    ;saxon              ;        ;Clydesdale
-c_clydesdale                    ;anglonorse         ;        ;Clydesdale
-c_clydesdale                    ;irish              ;        ;Clydesdale
-c_clydesdale                    ;scottish           ;        ;Clydesdale
-c_clydesdale                    ;welsh              ;        ;Clydesdale
-c_clydesdale                    ;norsegaelic        ;        ;Clydesdale
+c_clydesdale                    ;english            ;Clydesdale;Clydesdale
+c_clydesdale                    ;saxon              ;Clydesdale;Clydesdale
+c_clydesdale                    ;anglonorse         ;Clydesdale;Clydesdale
+c_clydesdale                    ;irish              ;Clydesdale;Clydesdale
+c_clydesdale                    ;scottish           ;Clydesdale;Clydesdale
+c_clydesdale                    ;welsh              ;Clydesdale;Clydesdale
+c_clydesdale                    ;norsegaelic        ;Clydesdale;Clydesdale
 k_ellan_vannin                  ;norse              ;        ;Mön
 k_ellan_vannin                  ;swedish            ;        ;Mön
 k_ellan_vannin                  ;norwegian          ;        ;Mön
@@ -5509,20 +5509,20 @@ d_ellan_vannin                  ;scottish           ;        ;Vannin
 d_ellan_vannin                  ;cumbric            ;        ;Manau
 d_ellan_vannin                  ;welsh              ;        ;Manau
 d_ellan_vannin                  ;norsegaelic        ;        ;Vannin
-c_isle_of_man                   ;norse              ;        ;Mön
-c_isle_of_man                   ;swedish            ;        ;Mön
-c_isle_of_man                   ;norwegian          ;        ;Mön
-c_isle_of_man                   ;danish             ;        ;Mön
-c_isle_of_man                   ;icelandic          ;        ;Mön
-c_isle_of_man                   ;gothic             ;        ;Mön
-c_isle_of_man                   ;english            ;        ;Mann
-c_isle_of_man                   ;saxon              ;        ;Mann
-c_isle_of_man                   ;anglonorse         ;        ;Mön
-c_isle_of_man                   ;irish              ;        ;Mano
-c_isle_of_man                   ;scottish           ;        ;Vannin
-c_isle_of_man                   ;cumbric            ;        ;Manau
-c_isle_of_man                   ;welsh              ;        ;Manau
-c_isle_of_man                   ;norsegaelic        ;        ;Vannin
+c_isle_of_man                   ;norse              ;Isle of Man;Mön
+c_isle_of_man                   ;swedish            ;Isle of Man;Mön
+c_isle_of_man                   ;norwegian          ;Isle of Man;Mön
+c_isle_of_man                   ;danish             ;Isle of Man;Mön
+c_isle_of_man                   ;icelandic          ;Isle of Man;Mön
+c_isle_of_man                   ;gothic             ;Isle of Man;Mön
+c_isle_of_man                   ;english            ;Isle of Man;Mann
+c_isle_of_man                   ;saxon              ;Isle of Man;Mann
+c_isle_of_man                   ;anglonorse         ;Isle of Man;Mön
+c_isle_of_man                   ;irish              ;Isle of Man;Mano
+c_isle_of_man                   ;scottish           ;Isle of Man;Vannin
+c_isle_of_man                   ;cumbric            ;Isle of Man;Manau
+c_isle_of_man                   ;welsh              ;Isle of Man;Manau
+c_isle_of_man                   ;norsegaelic        ;Isle of Man;Vannin
 d_hebrides                      ;norse              ;Lochlann;Laithlinn
 d_hebrides                      ;swedish            ;Lochlann;Laithlinn
 d_hebrides                      ;norwegian          ;Lochlann;Laithlinn
@@ -5536,13 +5536,13 @@ d_hebrides                      ;irish              ;Argyll  ;Airer Ghaidheal
 d_hebrides                      ;scottish           ;Argyll  ;Airer Ghaidheal
 d_hebrides                      ;welsh              ;Argyll  ;Airer Ghaidheal
 d_hebrides                      ;norsegaelic        ;Lochlann;Laithlinn
-c_argyll                        ;english            ;        ;Argyll
-c_argyll                        ;saxon              ;        ;Argyll
-c_argyll                        ;anglonorse         ;        ;Argyll
-c_argyll                        ;irish              ;        ;Earra Ghaidheal
-c_argyll                        ;scottish           ;        ;Earra Ghaidheal
-c_argyll                        ;welsh              ;        ;Earra Ghaidheal
-c_argyll                        ;norsegaelic        ;        ;Earra Ghaidheal
+c_argyll                        ;english            ;Argyll  ;Argyll
+c_argyll                        ;saxon              ;Argyll  ;Argyll
+c_argyll                        ;anglonorse         ;Argyll  ;Argyll
+c_argyll                        ;irish              ;Argyll  ;Earra Ghaidheal
+c_argyll                        ;scottish           ;Argyll  ;Earra Ghaidheal
+c_argyll                        ;welsh              ;Argyll  ;Earra Ghaidheal
+c_argyll                        ;norsegaelic        ;Argyll  ;Earra Ghaidheal
 c_muile                         ;norse              ;        ;Myl
 c_muile                         ;swedish            ;        ;Myl
 c_muile                         ;norwegian          ;        ;Myl
