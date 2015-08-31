@@ -15500,7 +15500,7 @@ e_britannia = { # Britannia
 		d_galloway = { # Galloway
 			color = { 24 58 121 }
 			color2 = { 255 255 255 }
-			capital = 30 # Galloway
+			capital = 50 # Galloway
 			c_galloway = { # Galloway (50)
 				color = { 15 185 243 }
 				color2 = { 255 255 255 }
@@ -15528,13 +15528,6 @@ e_britannia = { # Britannia
 				b_maybole = {}
 				b_crossraguel = {}
 			} # end c_carrick
-			c_dunphris = { # Dun Phris (1470)
-				color = { 5 140 240 }
-				color2 = { 255 255 255 }
-				b_lochmaben = {}
-				b_dumfries = {}
-				b_caerlaverock = {}
-			} # end c_dunphris
 		} # end d_galloway
 		d_lothian = { # Lothian
 			color = { 184 189 196 }
@@ -15843,6 +15836,14 @@ e_britannia = { # Britannia
 				b_renfrew = {}
 				b_dunure = {}
 			} # end c_clydesdale
+			c_dunphris = { # Annandale (1470)
+				color = { 5 140 240 }
+				color2 = { 255 255 255 }
+				b_annan = {}
+				b_lochmaben = {}
+				b_dumfries = {}
+				b_caerlaverock = {}
+			} # end c_dunphris
 		} # end d_strathclyde
 	} # end k_scotland
 	k_ellan_vannin = { # Man
