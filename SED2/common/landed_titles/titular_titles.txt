@@ -20,12 +20,12 @@ d_yaroslavl = { # Yaroslavl
 }
 d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
-	capital = 417 # Vitebsk
+	capital = 417 # Vitebesk # Vitebsk
 }
 d_cheremisa = { # Cheremisa
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
-	capital = 590 # Chuvash
+	capital = 590 # Sura # Chuvash
 	allow = { always = no }
 }
 d_pronsk = {
@@ -35,7 +35,7 @@ d_pronsk = {
 d_socotra = {
 	color = { 142 255 85 }
 	color2 = { 255 255 255 }
-	capital = 1369 # Socotra
+	capital = 1369 # Tagant # Socotra
 	dignity = 10
 }
 # TITULAR SWMH
@@ -59,7 +59,7 @@ k_ireland_titular = { # Tara
 d_lowerbrittany = { # Breizh Izel
 	color = { 148 148 116 }
 	color2 = { 255 255 255 }
-	capital = 105 # Vannes
+	capital = 105 # Gwened # Vannes
 	culture = breton
 	allow = {
 		independent = yes
@@ -76,7 +76,7 @@ d_lowerbrittany = { # Breizh Izel
 }
 e_ulm = { # Ulm
 	color = { 110 110 110 }
-	capital = 252 # ULM
+	capital = 252 # Ulm # ULM
 	allow = {
 		has_landed_title = c_ulm
 		independent = yes
@@ -128,7 +128,7 @@ k_cuman = { # Kumanlar # Non wild Cumans
 k_pechenegs = { # Beçeneklar
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
-	capital = 618 # Little Sarai
+	capital = 618 # Saray-Jük # Little Sarai
 	culture = pecheneg
 	allow = { always = no }
 	dynasty_title_names = no
@@ -239,7 +239,7 @@ e_germany = { # Germania
 k_avaria = { # Avaria
 	color = { 250 120 90 } # Only for the CoA
 	culture = avar
-	capital = 444 # Esztergom
+	capital = 444 # Visegrád # Esztergom
 	allow = { always = no }
 }
 k_lombardy = { # Lombardy
@@ -261,7 +261,7 @@ d_lauenburg = { # Sachsen-Lauenburg
 	}
 }
 d_sangermano = { # Terra Sancti Benedicti
-	capital = 1318 # Sangermano
+	capital = 1318 # Aquino # Sangermano
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -320,7 +320,7 @@ d_tuscia = { # Tuscia
 k_duklja = { # Duklja
 	color = { 224 186 36 }
 	culture = serbian
-	capital = 469 # Zeta
+	capital = 469 # Crna Gora # Zeta
 	allow = {
 		k_serbia = { # Srbija
 			has_holder = no
@@ -347,7 +347,7 @@ k_austria = { # Österreich
 }
 d_smaland = { # Småland
 	color = { 88 138 70 }
-	capital = 298 # Småland
+	capital = 298 # Njudung # Småland
 	allow = {
 		or = {
 			has_landed_title = c_smaland
@@ -375,7 +375,7 @@ d_smaland = { # Småland
 e_occitania = { # Occitània
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
-	capital = 214 # Toulouse
+	capital = 214 # Tolosa # Toulouse
 	culture = occitan
 	dignity = 100 # Counted as having 100 more counties than it does
 	allow = {
@@ -446,7 +446,7 @@ k_flanders = { # Vlaanderen
 d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
-	capital = 214 # Toulouse
+	capital = 214 # Tolosa # Toulouse
 	culture = occitan
 	allow = { always = no }
 }
@@ -487,7 +487,7 @@ d_paulicians = { # Paulikianoi
 k_armenia_minor = { # Mikrá Armenia
 	color = { 14 30 131 }
 	culture = armenian
-	capital = 735 # Teluch
+	capital = 735 # Marash # Teluch
 	allow = {
 		culture = armenian
 		religion_group = christian
@@ -518,7 +518,7 @@ d_pagania = { # Neretljani
 }
 d_rhodos = { # Rhodos
 	color = { 144 230 19 }
-	capital = 483 # Rhodos
+	capital = 483 # Dodekánisa # Rhodos
 	allow = {
 		or = {
 			culture = greek
@@ -552,7 +552,7 @@ d_dahlak = { # Dahlak
 }
 d_siraf = { # Siráf
 	color = { 40 200 200 }
-	capital = 1594 # Siraf
+	capital = 1594 # Irahistan # Siraf
 	allow = {
 		or = {
 			culture = persian
@@ -564,7 +564,7 @@ d_siraf = { # Siráf
 }
 e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
-	capital = 441 # Brno
+	capital = 441 # Boruy # Brno
 	allow = {
 		or = {
 			religion = catholic
@@ -600,24 +600,24 @@ d_breifne = { # Breifne
 	color = { 54 135 39 }
 	color2 = { 136 0 21 }
 	capital = 8 # Leitrim
-} # end d_breifne
+}
 d_thomond = { # Thomond
 	color = { 30 100 80 }
 	color2 = { 255 255 255 }
-	capital = 13 # Thomond
-} # end d_thomond
+	capital = 13 # Clare # Thomond
+}
 d_ossory = { # Ossory
 	color = { 60 200 10 }
 	color2 = { 255 255 255 }
 	capital = 12 # Ossory
-} # end d_ossory
+}
 d_oneill = { # O'Neill
 	color = { 70 106 21 }
 	color2 = { 255 255 255 }
 	capital = 4 # Tyrone
-} # end d_oneill
+}
 d_airgialla = { # Airgíalla
 	color = { 30 180 20 }
 	color2 = { 251 140 17 }
 	capital = 7 # Oriel
-} # end d_airgialla
+}
