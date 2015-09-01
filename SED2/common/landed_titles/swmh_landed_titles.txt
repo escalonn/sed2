@@ -25982,8 +25982,6 @@ e_persia = { # Érán
 		} # end d_baghdad
 		allow = { liege = { not = { has_landed_title = e_persia } } }
 	} # end k_mesopotamia
-	allow = { culture_group = iranian }
-	allow = { culture_group = altaic }
 } # end e_persia
 e_rajastan = { # Rajastan
 	color = { 255 100 0 }
