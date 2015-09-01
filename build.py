@@ -5,10 +5,15 @@ import csv
 import datetime
 import re
 import shutil
+import sys
 import ck2parser
 import localpaths
 
+no_provinces = '--no-provinces' in sys.argv[1:]
+
 version = 'v2.0.1'
+if no_provinces:
+    version += '-noprovinces'
 
 rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
@@ -21,6 +26,9 @@ def get_cultures(where):
         cultures.extend(n2.val for _, v in tree for n2, v2 in v
                         if n2.val != 'graphical_cultures')
     return cultures
+
+province_loc_files = [
+    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 def main():
     templates_loc = sed2path / 'templates/localisation'
@@ -35,6 +43,8 @@ def main():
     build_lt.mkdir(parents=True)
 
     for inpath in ck2parser.files('localisation/*.csv', basedir=swmhpath):
+        if no_provinces and inpath.name in province_loc_files:
+            continue
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
@@ -61,11 +71,11 @@ def main():
     def update_tree(v, sed2, lt_keys):
         for n2, v2 in v:
             if ck2parser.is_codename(n2.val):
-                if n2.val.startswith('b_'):
+                if n2.val.startswith('b_') and not no_provinces:
                     for p3 in reversed(v2.contents):
                         if p3.key.val in cultures:
                             v2.contents.remove(p3)
-                else:
+                elif not no_provinces or re.match(r'[ekd]_', n2.val):
                     for p3 in reversed(v2.contents):
                         if p3.key.val in lt_keys:
                             v2.contents.remove(p3)
