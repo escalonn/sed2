@@ -11,7 +11,7 @@ import localpaths
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.0.1'
+version = 'v2.0.2-BETA'
 if no_provinces:
     version += '-noprovinces'
 
