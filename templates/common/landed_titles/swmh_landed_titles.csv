@@ -1883,7 +1883,6 @@ d_cherson                       ;east_gothic        ;Theodoro;Theodoro
 d_cherson                       ;turkish            ;Feodosia;Kefe
 d_cherson                       ;turkmen            ;Sudak   ;Sudaq
 d_cherson                       ;oghuz              ;Sudak   ;Sudaq
-d_cherson                       ;uighur             ;Feodosia;Kefe
 d_cherson                       ;mongol             ;Feodosia;Kefe
 d_cherson                       ;cuman              ;Feodosia;Kefe
 d_cherson                       ;pecheneg           ;Sudak   ;Sudaq
@@ -1893,6 +1892,7 @@ d_cherson                       ;avar               ;Sudak   ;Sudaq
 d_cherson                       ;karluk             ;Sudak   ;Sudaq
 d_cherson                       ;kasogi             ;Sudak   ;Sudaq
 d_cherson                       ;kirghiz            ;Feodosia;Kefe
+d_cherson                       ;uyghur             ;Feodosia;Kefe
 d_cherson                       ;bashkir            ;Sudak   ;Sudaq
 d_cherson                       ;russian            ;Chersonesus;Korsun
 d_cherson                       ;pommeranian        ;Chersonesus;Korsun
@@ -1919,7 +1919,6 @@ d_cherson                       ;dalmatian          ;Theodoro;Gothia
 c_theodosia                     ;turkish            ;        ;Kefe
 c_theodosia                     ;turkmen            ;        ;Sudaq
 c_theodosia                     ;oghuz              ;        ;Sudaq
-c_theodosia                     ;uighur             ;        ;Kefe
 c_theodosia                     ;mongol             ;        ;Kefe
 c_theodosia                     ;cuman              ;        ;Kefe
 c_theodosia                     ;pecheneg           ;        ;Sudaq
@@ -1929,6 +1928,7 @@ c_theodosia                     ;avar               ;        ;Sudaq
 c_theodosia                     ;karluk             ;        ;Sudaq
 c_theodosia                     ;kasogi             ;        ;Sudaq
 c_theodosia                     ;kirghiz            ;        ;Kefe
+c_theodosia                     ;uyghur             ;        ;Kefe
 c_theodosia                     ;bashkir            ;        ;Sudaq
 c_theodosia                     ;russian            ;        ;Kaffa
 c_theodosia                     ;pommeranian        ;        ;Kaffa
@@ -3102,7 +3102,6 @@ c_bacau                         ;bavarian           ;        ;Barchau
 c_bacau                         ;turkish            ;        ;Baka
 c_bacau                         ;turkmen            ;        ;Baka
 c_bacau                         ;oghuz              ;        ;Baka
-c_bacau                         ;uighur             ;        ;Baka
 c_bacau                         ;mongol             ;        ;Baka
 c_bacau                         ;cuman              ;        ;Baka
 c_bacau                         ;pecheneg           ;        ;Baka
@@ -3111,6 +3110,7 @@ c_bacau                         ;bolghar            ;        ;Baka
 c_bacau                         ;avar               ;        ;Baka
 c_bacau                         ;karluk             ;        ;Baka
 c_bacau                         ;kirghiz            ;        ;Baka
+c_bacau                         ;uyghur             ;        ;Baka
 c_bacau                         ;bashkir            ;        ;Baka
 c_bacau                         ;russian            ;        ;Bakova
 c_bacau                         ;pommeranian        ;        ;Bakova
@@ -3133,7 +3133,6 @@ c_iasi                          ;bavarian           ;        ;Jassenmarkt
 c_iasi                          ;turkish            ;        ;Yas
 c_iasi                          ;turkmen            ;        ;Yas
 c_iasi                          ;oghuz              ;        ;Yas
-c_iasi                          ;uighur             ;        ;Yas
 c_iasi                          ;mongol             ;        ;Yas
 c_iasi                          ;cuman              ;        ;Yas
 c_iasi                          ;pecheneg           ;        ;Yas
@@ -3142,6 +3141,7 @@ c_iasi                          ;bolghar            ;        ;Yas
 c_iasi                          ;avar               ;        ;Yas
 c_iasi                          ;karluk             ;        ;Yas
 c_iasi                          ;kirghiz            ;        ;Yas
+c_iasi                          ;uyghur             ;        ;Yas
 c_iasi                          ;bashkir            ;        ;Yas
 c_iasi                          ;russian            ;        ;Yassy
 c_iasi                          ;pommeranian        ;        ;Yassy
@@ -3181,7 +3181,6 @@ c_birlad                        ;szekely            ;        ;Barlád
 c_belgorod                      ;turkish            ;        ;Bender
 c_belgorod                      ;turkmen            ;        ;Bender
 c_belgorod                      ;oghuz              ;        ;Bender
-c_belgorod                      ;uighur             ;        ;Bender
 c_belgorod                      ;mongol             ;        ;Bender
 c_belgorod                      ;cuman              ;        ;Bender
 c_belgorod                      ;pecheneg           ;        ;Bender
@@ -3190,6 +3189,7 @@ c_belgorod                      ;bolghar            ;        ;Bender
 c_belgorod                      ;avar               ;        ;Bender
 c_belgorod                      ;karluk             ;        ;Bender
 c_belgorod                      ;kirghiz            ;        ;Bender
+c_belgorod                      ;uyghur             ;        ;Bender
 c_belgorod                      ;bashkir            ;        ;Bender
 k_hungary                       ;german             ;        ;Ungarn
 k_hungary                       ;polish             ;        ;Wegry
@@ -7448,8 +7448,8 @@ c_kerder                        ;oghuz              ;        ;Kerder
 c_kerder                        ;mongol             ;        ;Kerder
 c_kerder                        ;karluk             ;        ;Kerder
 c_kerder                        ;persian            ;        ;Kerder
+c_kerder                        ;sogdian            ;        ;Kerder
 c_kerder                        ;daylamite          ;        ;Kerder
-c_kerder                        ;soghdian           ;        ;Kerder
 c_kerder                        ;khwarezmi          ;        ;Kerder
 c_kerder                        ;khorasani          ;        ;Kerder
 c_uzboy                         ;greek              ;        ;Nisaea
@@ -8997,7 +8997,6 @@ c_sarkel                        ;georgian           ;        ;Aspron Hospition
 c_sarkel                        ;turkish            ;        ;Sharkil
 c_sarkel                        ;turkmen            ;        ;Sharkil
 c_sarkel                        ;oghuz              ;        ;Sharkil
-c_sarkel                        ;uighur             ;        ;Sharkil
 c_sarkel                        ;mongol             ;        ;Sharkil'
 c_sarkel                        ;cuman              ;        ;Sharkil
 c_sarkel                        ;pecheneg           ;        ;Sharkil
@@ -9007,6 +9006,7 @@ c_sarkel                        ;avar               ;        ;Sharkil
 c_sarkel                        ;karluk             ;        ;Sharkil
 c_sarkel                        ;kasogi             ;        ;Sarqhal
 c_sarkel                        ;kirghiz            ;        ;Sharkil
+c_sarkel                        ;uyghur             ;        ;Sharkil
 c_sarkel                        ;bashkir            ;        ;Sharkil
 c_sarkel                        ;russian            ;        ;Belaja Veža
 c_sarkel                        ;pommeranian        ;        ;Belaja Veža
@@ -9118,7 +9118,6 @@ d_vorksla                       ;bulgarian          ;        ;Vor'skol
 c_lower_don                     ;turkish            ;        ;Erel'
 c_lower_don                     ;turkmen            ;        ;Erel'
 c_lower_don                     ;oghuz              ;        ;Erel'
-c_lower_don                     ;uighur             ;        ;Erel'
 c_lower_don                     ;mongol             ;        ;Erel'
 c_lower_don                     ;cuman              ;        ;Erel'
 c_lower_don                     ;pecheneg           ;        ;Erel'
@@ -9127,6 +9126,7 @@ c_lower_don                     ;avar               ;        ;Erel'
 c_lower_don                     ;karluk             ;        ;Erel'
 c_lower_don                     ;kasogi             ;        ;Erel'
 c_lower_don                     ;kirghiz            ;        ;Erel'
+c_lower_don                     ;uyghur             ;        ;Erel'
 c_lower_don                     ;bashkir            ;        ;Erel'
 c_lower_don                     ;russian            ;        ;Ugol
 c_lower_don                     ;pommeranian        ;        ;Ugol
@@ -9213,7 +9213,6 @@ c_olvia                         ;szekely            ;Dniester;Troullos
 c_oleshye                       ;turkish            ;        ;Ak-Su
 c_oleshye                       ;turkmen            ;        ;Ak-Su
 c_oleshye                       ;oghuz              ;        ;Ak-Su
-c_oleshye                       ;uighur             ;        ;Aq-Su
 c_oleshye                       ;mongol             ;        ;Aq-Su
 c_oleshye                       ;cuman              ;        ;Aq-Su
 c_oleshye                       ;pecheneg           ;        ;Ak-Su
@@ -9223,6 +9222,7 @@ c_oleshye                       ;avar               ;        ;Aq-Su
 c_oleshye                       ;karluk             ;        ;Aq-Su
 c_oleshye                       ;kasogi             ;        ;Aq-Su
 c_oleshye                       ;kirghiz            ;        ;Aq-Su
+c_oleshye                       ;uyghur             ;        ;Aq-Su
 c_oleshye                       ;bashkir            ;        ;Koubou
 c_oleshye                       ;hungarian          ;        ;Koubou
 c_oleshye                       ;szekely            ;        ;Koubou
@@ -9285,12 +9285,12 @@ k_khazaria                      ;georgian           ;        ;Xazar'i
 k_khazaria                      ;turkish            ;        ;Hazarstan
 k_khazaria                      ;turkmen            ;        ;Hazarstan
 k_khazaria                      ;oghuz              ;        ;Hazarstan
-k_khazaria                      ;uighur             ;        ;Qasarstan
 k_khazaria                      ;mongol             ;        ;Xäzärstan
 k_khazaria                      ;pecheneg           ;        ;Hazarstan
 k_khazaria                      ;karluk             ;        ;Qasarstan
 k_khazaria                      ;kasogi             ;        ;Qazahrstan
 k_khazaria                      ;kirghiz            ;        ;Xäzärstan
+k_khazaria                      ;uyghur             ;        ;Qasarstan
 k_khazaria                      ;bashkir            ;        ;Kozárstan
 k_khazaria                      ;bedouin_arabic     ;        ;Khazarstan
 k_khazaria                      ;maghreb_arabic     ;        ;Khazarstan
@@ -9311,10 +9311,10 @@ k_khazaria                      ;hungarian          ;        ;Kozária
 k_khazaria                      ;szekely            ;        ;Kozária
 k_khazaria                      ;pahlavi            ;        ;Xazarstán
 k_khazaria                      ;persian            ;        ;Xazarstán
+k_khazaria                      ;sogdian            ;        ;Xazarstán
 k_khazaria                      ;tajik              ;        ;Xazarstán
 k_khazaria                      ;daylamite          ;        ;Xazarstán
 k_khazaria                      ;khalaj             ;        ;Xazarstán
-k_khazaria                      ;soghdian           ;        ;Xazarstán
 k_khazaria                      ;khwarezmi          ;        ;Xazarstán
 k_khazaria                      ;kurdish            ;        ;Xazarstán
 k_khazaria                      ;afghan             ;        ;Xazarstán
@@ -9383,11 +9383,11 @@ d_itil                          ;lithuanian         ;Volga   ;Atel
 d_itil                          ;turkish            ;Volga   ;Idil
 d_itil                          ;turkmen            ;Volga   ;Idil
 d_itil                          ;oghuz              ;Volga   ;Idil
-d_itil                          ;uighur             ;Volga   ;Ejil
 d_itil                          ;mongol             ;Volga   ;Ejil
 d_itil                          ;cuman              ;Volga   ;Edil
 d_itil                          ;pecheneg           ;Volga   ;Idil
 d_itil                          ;kirghiz            ;Volga   ;Edil
+d_itil                          ;uyghur             ;Volga   ;Ejil
 d_itil                          ;bashkir            ;Volga   ;Idhel
 d_itil                          ;bedouin_arabic     ;Volga   ;Atil
 d_itil                          ;maghreb_arabic     ;Volga   ;Atil
@@ -9408,10 +9408,10 @@ d_itil                          ;hungarian          ;Volga   ;Etil
 d_itil                          ;szekely            ;Volga   ;Etil
 d_itil                          ;pahlavi            ;Volga   ;Atil
 d_itil                          ;persian            ;Volga   ;Atil
+d_itil                          ;sogdian            ;Volga   ;Atil
 d_itil                          ;tajik              ;Volga   ;Atil
 d_itil                          ;daylamite          ;Volga   ;Atil
 d_itil                          ;khalaj             ;Volga   ;Atil
-d_itil                          ;soghdian           ;Volga   ;Atil
 d_itil                          ;khwarezmi          ;Volga   ;Atil
 d_itil                          ;kurdish            ;Volga   ;Atil
 d_itil                          ;afghan             ;Volga   ;Atil
@@ -9481,11 +9481,11 @@ c_itil                          ;lithuanian         ;Volga   ;Atel
 c_itil                          ;turkish            ;Volga   ;Idil
 c_itil                          ;turkmen            ;Volga   ;Idil
 c_itil                          ;oghuz              ;Volga   ;Idil
-c_itil                          ;uighur             ;Volga   ;Ejil
 c_itil                          ;mongol             ;Volga   ;Ejil
 c_itil                          ;cuman              ;Volga   ;Edil
 c_itil                          ;pecheneg           ;Volga   ;Idil
 c_itil                          ;kirghiz            ;Volga   ;Edil
+c_itil                          ;uyghur             ;Volga   ;Ejil
 c_itil                          ;bashkir            ;Volga   ;Idhel
 c_itil                          ;bedouin_arabic     ;Volga   ;Atil
 c_itil                          ;maghreb_arabic     ;Volga   ;Atil
@@ -9506,10 +9506,10 @@ c_itil                          ;hungarian          ;Volga   ;Etil
 c_itil                          ;szekely            ;Volga   ;Etil
 c_itil                          ;pahlavi            ;Volga   ;Atil
 c_itil                          ;persian            ;Volga   ;Atil
+c_itil                          ;sogdian            ;Volga   ;Atil
 c_itil                          ;tajik              ;Volga   ;Atil
 c_itil                          ;daylamite          ;Volga   ;Atil
 c_itil                          ;khalaj             ;Volga   ;Atil
-c_itil                          ;soghdian           ;Volga   ;Atil
 c_itil                          ;khwarezmi          ;Volga   ;Atil
 c_itil                          ;kurdish            ;Volga   ;Atil
 c_itil                          ;afghan             ;Volga   ;Atil
@@ -9549,10 +9549,10 @@ c_semender                      ;egyptian_arabic    ;        ;Samandar
 c_semender                      ;sicilian_arabic    ;        ;Samandar
 c_semender                      ;pahlavi            ;        ;Samandar
 c_semender                      ;persian            ;        ;Samandar
+c_semender                      ;sogdian            ;        ;Samandar
 c_semender                      ;tajik              ;        ;Samandar
 c_semender                      ;daylamite          ;        ;Samandar
 c_semender                      ;khalaj             ;        ;Samandar
-c_semender                      ;soghdian           ;        ;Samandar
 c_semender                      ;khwarezmi          ;        ;Samandar
 c_semender                      ;kurdish            ;        ;Samandar
 c_semender                      ;afghan             ;        ;Samandar
@@ -9573,10 +9573,10 @@ d_saray                         ;egyptian_arabic    ;        ;Sarai
 d_saray                         ;sicilian_arabic    ;        ;Sarai
 d_saray                         ;pahlavi            ;        ;Sarai
 d_saray                         ;persian            ;        ;Sarai
+d_saray                         ;sogdian            ;        ;Sarai
 d_saray                         ;tajik              ;        ;Sarai
 d_saray                         ;daylamite          ;        ;Sarai
 d_saray                         ;khalaj             ;        ;Sarai
-d_saray                         ;soghdian           ;        ;Sarai
 d_saray                         ;khwarezmi          ;        ;Sarai
 d_saray                         ;kurdish            ;        ;Sarai
 d_saray                         ;afghan             ;        ;Sarai
@@ -9596,10 +9596,10 @@ c_saray                         ;egyptian_arabic    ;        ;Sarai
 c_saray                         ;sicilian_arabic    ;        ;Sarai
 c_saray                         ;pahlavi            ;        ;Sarai
 c_saray                         ;persian            ;        ;Sarai
+c_saray                         ;sogdian            ;        ;Sarai
 c_saray                         ;tajik              ;        ;Sarai
 c_saray                         ;daylamite          ;        ;Sarai
 c_saray                         ;khalaj             ;        ;Sarai
-c_saray                         ;soghdian           ;        ;Sarai
 c_saray                         ;khwarezmi          ;        ;Sarai
 c_saray                         ;kurdish            ;        ;Sarai
 c_saray                         ;afghan             ;        ;Sarai
@@ -9743,13 +9743,13 @@ d_tmutarakan                    ;sicilian_greek     ;Perateia;Perateia
 d_tmutarakan                    ;arberian           ;Perateia;Perateia
 d_tmutarakan                    ;georgian           ;Perateia;Perateia
 d_tmutarakan                    ;lithuanian         ;Taman   ;Tamanas
-d_tmutarakan                    ;uighur             ;        ;Matrika
 d_tmutarakan                    ;mongol             ;        ;Matrika
 d_tmutarakan                    ;cuman              ;        ;Matrika
 d_tmutarakan                    ;khazar             ;        ;Samkarsh
 d_tmutarakan                    ;bolghar            ;        ;Samkarsh
 d_tmutarakan                    ;avar               ;        ;Samkarsh
 d_tmutarakan                    ;kirghiz            ;        ;Matrika
+d_tmutarakan                    ;uyghur             ;        ;Matrika
 d_tmutarakan                    ;russian            ;        ;Tmutarakan
 d_tmutarakan                    ;pommeranian        ;        ;Tmutarakan
 d_tmutarakan                    ;polish             ;        ;Tmutarakan
@@ -9781,13 +9781,13 @@ c_tmutarakan                    ;sicilian_greek     ;        ;Tamatarxa
 c_tmutarakan                    ;arberian           ;        ;Tamatarxa
 c_tmutarakan                    ;georgian           ;        ;Tamatarxa
 c_tmutarakan                    ;lithuanian         ;Taman   ;Tamanas
-c_tmutarakan                    ;uighur             ;        ;Matrika
 c_tmutarakan                    ;mongol             ;        ;Matrika
 c_tmutarakan                    ;cuman              ;        ;Matrika
 c_tmutarakan                    ;khazar             ;        ;Samkarsh
 c_tmutarakan                    ;bolghar            ;        ;Samkarsh
 c_tmutarakan                    ;avar               ;        ;Samkarsh
 c_tmutarakan                    ;kirghiz            ;        ;Matrika
+c_tmutarakan                    ;uyghur             ;        ;Matrika
 c_tmutarakan                    ;russian            ;        ;Tmutarakan
 c_tmutarakan                    ;pommeranian        ;        ;Tmutarakan
 c_tmutarakan                    ;polish             ;        ;Tmutarakan
@@ -9850,7 +9850,6 @@ k_alania                        ;georgian           ;        ;Ovset'i
 k_alania                        ;turkish            ;        ;Aslar
 k_alania                        ;turkmen            ;        ;Aslar
 k_alania                        ;oghuz              ;        ;Aslar
-k_alania                        ;uighur             ;        ;Aslar
 k_alania                        ;mongol             ;        ;Aslär
 k_alania                        ;cuman              ;        ;Aslar
 k_alania                        ;pecheneg           ;        ;Aslar
@@ -9860,6 +9859,7 @@ k_alania                        ;avar               ;        ;Aslar
 k_alania                        ;karluk             ;        ;Aslar
 k_alania                        ;kasogi             ;        ;Aslar
 k_alania                        ;kirghiz            ;        ;Aslar
+k_alania                        ;uyghur             ;        ;Aslar
 k_alania                        ;bashkir            ;        ;Aslar
 k_alania                        ;bedouin_arabic     ;        ;Al-Lan
 k_alania                        ;maghreb_arabic     ;        ;Al-Lan
@@ -9868,10 +9868,10 @@ k_alania                        ;egyptian_arabic    ;        ;Al-Lan
 k_alania                        ;sicilian_arabic    ;        ;Al-Lan
 k_alania                        ;pahlavi            ;        ;Al-Lan
 k_alania                        ;persian            ;        ;Al-Lan
+k_alania                        ;sogdian            ;        ;Al-Lan
 k_alania                        ;tajik              ;        ;Al-Lan
 k_alania                        ;daylamite          ;        ;Al-Lan
 k_alania                        ;khalaj             ;        ;Al-Lan
-k_alania                        ;soghdian           ;        ;Al-Lan
 k_alania                        ;khwarezmi          ;        ;Al-Lan
 k_alania                        ;kurdish            ;        ;Al-Lan
 k_alania                        ;afghan             ;        ;Al-Lan
@@ -9888,7 +9888,6 @@ d_alania                        ;georgian           ;        ;Ovset'i
 d_alania                        ;turkish            ;        ;Aslar
 d_alania                        ;turkmen            ;        ;Aslar
 d_alania                        ;oghuz              ;        ;Aslar
-d_alania                        ;uighur             ;        ;Aslar
 d_alania                        ;mongol             ;        ;Aslär
 d_alania                        ;cuman              ;        ;Aslar
 d_alania                        ;pecheneg           ;        ;Aslar
@@ -9898,6 +9897,7 @@ d_alania                        ;avar               ;        ;Aslar
 d_alania                        ;karluk             ;        ;Aslar
 d_alania                        ;kasogi             ;        ;Aslar
 d_alania                        ;kirghiz            ;        ;Aslar
+d_alania                        ;uyghur             ;        ;Aslar
 d_alania                        ;bashkir            ;        ;Aslar
 d_alania                        ;bedouin_arabic     ;        ;Al-Lan
 d_alania                        ;maghreb_arabic     ;        ;Al-Lan
@@ -9906,10 +9906,10 @@ d_alania                        ;egyptian_arabic    ;        ;Al-Lan
 d_alania                        ;sicilian_arabic    ;        ;Al-Lan
 d_alania                        ;pahlavi            ;        ;Al-Lan
 d_alania                        ;persian            ;        ;Al-Lan
+d_alania                        ;sogdian            ;        ;Al-Lan
 d_alania                        ;tajik              ;        ;Al-Lan
 d_alania                        ;daylamite          ;        ;Al-Lan
 d_alania                        ;khalaj             ;        ;Al-Lan
-d_alania                        ;soghdian           ;        ;Al-Lan
 d_alania                        ;khwarezmi          ;        ;Al-Lan
 d_alania                        ;kurdish            ;        ;Al-Lan
 d_alania                        ;afghan             ;        ;Al-Lan
@@ -9926,7 +9926,6 @@ c_alania                        ;georgian           ;        ;Ovset'i
 c_alania                        ;turkish            ;        ;Aslar
 c_alania                        ;turkmen            ;        ;Aslar
 c_alania                        ;oghuz              ;        ;Aslar
-c_alania                        ;uighur             ;        ;Aslar
 c_alania                        ;mongol             ;        ;Aslär
 c_alania                        ;cuman              ;        ;Aslar
 c_alania                        ;pecheneg           ;        ;Aslar
@@ -9936,6 +9935,7 @@ c_alania                        ;avar               ;        ;Aslar
 c_alania                        ;karluk             ;        ;Aslar
 c_alania                        ;kasogi             ;        ;Aslar
 c_alania                        ;kirghiz            ;        ;Aslar
+c_alania                        ;uyghur             ;        ;Aslar
 c_alania                        ;bashkir            ;        ;Aslar
 c_alania                        ;bedouin_arabic     ;        ;Al-Lan
 c_alania                        ;maghreb_arabic     ;        ;Al-Lan
@@ -9944,10 +9944,10 @@ c_alania                        ;egyptian_arabic    ;        ;Al-Lan
 c_alania                        ;sicilian_arabic    ;        ;Al-Lan
 c_alania                        ;pahlavi            ;        ;Al-Lan
 c_alania                        ;persian            ;        ;Al-Lan
+c_alania                        ;sogdian            ;        ;Al-Lan
 c_alania                        ;tajik              ;        ;Al-Lan
 c_alania                        ;daylamite          ;        ;Al-Lan
 c_alania                        ;khalaj             ;        ;Al-Lan
-c_alania                        ;soghdian           ;        ;Al-Lan
 c_alania                        ;khwarezmi          ;        ;Al-Lan
 c_alania                        ;kurdish            ;        ;Al-Lan
 c_alania                        ;afghan             ;        ;Al-Lan
@@ -10005,7 +10005,6 @@ d_zichia                        ;georgian           ;Sadzen  ;Jiket'i
 d_zichia                        ;turkish            ;        ;Cherkezistan
 d_zichia                        ;turkmen            ;        ;Cherkezistan
 d_zichia                        ;oghuz              ;        ;Cherkezistan
-d_zichia                        ;uighur             ;        ;Tcherkezistan
 d_zichia                        ;mongol             ;        ;Tcherkezistan
 d_zichia                        ;cuman              ;        ;Tcherkezistan
 d_zichia                        ;pecheneg           ;        ;Cherkezistan
@@ -10015,6 +10014,7 @@ d_zichia                        ;avar               ;        ;Cherkezistan
 d_zichia                        ;karluk             ;        ;Cherkezistan
 d_zichia                        ;kasogi             ;        ;Cherkezistan
 d_zichia                        ;kirghiz            ;        ;Tcherkezistan
+d_zichia                        ;uyghur             ;        ;Tcherkezistan
 d_zichia                        ;bashkir            ;        ;Cherkezistan
 d_zichia                        ;bedouin_arabic     ;        ;Sircasaa
 d_zichia                        ;maghreb_arabic     ;        ;Sircasaa
@@ -10082,10 +10082,10 @@ c_kasogs                        ;alan               ;Kabardia;Kæsægia
 c_kasogs                        ;sicilian_greek     ;Kabardia;Kasachia
 c_kasogs                        ;arberian           ;Kabardia;Kasachia
 c_kasogs                        ;georgian           ;Kabardia;K'ašaget'i
-c_kasogs                        ;uighur             ;        ;Tcherkezistan
 c_kasogs                        ;mongol             ;        ;Tcherkezistan
 c_kasogs                        ;cuman              ;        ;Tcherkezistan
 c_kasogs                        ;kirghiz            ;        ;Tcherkezistan
+c_kasogs                        ;uyghur             ;        ;Tcherkezistan
 c_kasogs                        ;bedouin_arabic     ;        ;Sircasaa
 c_kasogs                        ;maghreb_arabic     ;        ;Sircasaa
 c_kasogs                        ;levantine_arabic   ;        ;Sircasaa
@@ -10121,7 +10121,6 @@ d_sarir                         ;georgian           ;Ganja   ;Gunjet'i
 d_sarir                         ;turkish            ;        ;Serir
 d_sarir                         ;turkmen            ;        ;Serir
 d_sarir                         ;oghuz              ;        ;Serir
-d_sarir                         ;uighur             ;        ;Serir
 d_sarir                         ;mongol             ;        ;Serir
 d_sarir                         ;cuman              ;        ;Serir
 d_sarir                         ;pecheneg           ;        ;Serir
@@ -10131,6 +10130,7 @@ d_sarir                         ;avar               ;        ;Serir
 d_sarir                         ;karluk             ;        ;Serir
 d_sarir                         ;kasogi             ;        ;Serir
 d_sarir                         ;kirghiz            ;        ;Serir
+d_sarir                         ;uyghur             ;        ;Serir
 d_sarir                         ;bashkir            ;        ;Serir
 d_sarir                         ;bedouin_arabic     ;        ;Al-Sarir
 d_sarir                         ;maghreb_arabic     ;        ;Al-Sarir
@@ -10139,10 +10139,10 @@ d_sarir                         ;egyptian_arabic    ;        ;Al-Sarir
 d_sarir                         ;sicilian_arabic    ;        ;Al-Sarir
 d_sarir                         ;pahlavi            ;        ;Al-Sarir
 d_sarir                         ;persian            ;        ;Al-Sarir
+d_sarir                         ;sogdian            ;        ;Al-Sarir
 d_sarir                         ;tajik              ;        ;Al-Sarir
 d_sarir                         ;daylamite          ;        ;Al-Sarir
 d_sarir                         ;khalaj             ;        ;Al-Sarir
-d_sarir                         ;soghdian           ;        ;Al-Sarir
 d_sarir                         ;khwarezmi          ;        ;Al-Sarir
 d_sarir                         ;kurdish            ;        ;Al-Sarir
 d_sarir                         ;afghan             ;        ;Al-Sarir
@@ -10255,7 +10255,6 @@ c_khantia                       ;bulgarian          ;        ;Samara
 c_uzens                         ;turkish            ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;turkmen            ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;oghuz              ;Bolshoy Uzen;Qaraösen
-c_uzens                         ;uighur             ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;mongol             ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;cuman              ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;pecheneg           ;Bolshoy Uzen;Qaraösen
@@ -10265,12 +10264,12 @@ c_uzens                         ;avar               ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;karluk             ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;kasogi             ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;kirghiz            ;Bolshoy Uzen;Qaraösen
+c_uzens                         ;uyghur             ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;bashkir            ;Bolshoy Uzen;Qaraösen
 c_uzens                         ;khitan             ;Bolshoy Uzen;Qaraösen
 c_syrt                          ;turkish            ;        ;Töp Sirt
 c_syrt                          ;turkmen            ;        ;Töp Sirt
 c_syrt                          ;oghuz              ;        ;Töp Sirt
-c_syrt                          ;uighur             ;        ;Töp Sirt
 c_syrt                          ;mongol             ;        ;Töp Sirt
 c_syrt                          ;cuman              ;        ;Töp Sirt
 c_syrt                          ;pecheneg           ;        ;Töp Sirt
@@ -10280,6 +10279,7 @@ c_syrt                          ;avar               ;        ;Tëp Särt
 c_syrt                          ;karluk             ;        ;Töp Sirt
 c_syrt                          ;kasogi             ;        ;Töp Sirt
 c_syrt                          ;kirghiz            ;        ;Töp Sirt
+c_syrt                          ;uyghur             ;        ;Töp Sirt
 c_syrt                          ;bashkir            ;        ;Töp Sirt
 c_syrt                          ;russian            ;        ;Obshchiy Syrt
 c_syrt                          ;khitan             ;        ;Töp Sirt
@@ -10304,10 +10304,10 @@ d_bashkirs                      ;bosnian            ;        ;Baškiria
 d_bashkirs                      ;bulgarian          ;        ;Baškiria
 d_bashkirs                      ;pahlavi            ;        ;Bashghirdistan
 d_bashkirs                      ;persian            ;        ;Bashghirdistan
+d_bashkirs                      ;sogdian            ;        ;Bashghirdistan
 d_bashkirs                      ;tajik              ;        ;Bashghirdistan
 d_bashkirs                      ;daylamite          ;        ;Bashghirdistan
 d_bashkirs                      ;khalaj             ;        ;Bashghirdistan
-d_bashkirs                      ;soghdian           ;        ;Bashghirdistan
 d_bashkirs                      ;khwarezmi          ;        ;Bashghirdistan
 d_bashkirs                      ;kurdish            ;        ;Bashghirdistan
 d_bashkirs                      ;afghan             ;        ;Bashghirdistan
@@ -10352,7 +10352,6 @@ d_mordva                        ;mordvin            ;        ;Jov
 d_mordva                        ;turkish            ;        ;Mukshi
 d_mordva                        ;turkmen            ;        ;Mukshi
 d_mordva                        ;oghuz              ;        ;Mukshi
-d_mordva                        ;uighur             ;        ;Muqshi
 d_mordva                        ;mongol             ;        ;Muqshi
 d_mordva                        ;cuman              ;        ;Muqshi
 d_mordva                        ;pecheneg           ;        ;Mukshi
@@ -10362,6 +10361,7 @@ d_mordva                        ;avar               ;        ;Mäqshä
 d_mordva                        ;karluk             ;        ;Muqshi
 d_mordva                        ;kasogi             ;        ;Muqshi
 d_mordva                        ;kirghiz            ;        ;Muqshi
+d_mordva                        ;uyghur             ;        ;Muqshi
 d_mordva                        ;bashkir            ;        ;Muqshi
 d_mordva                        ;khitan             ;        ;Muqshi
 c_burtasy                       ;lettigallish       ;        ;Baryshas
@@ -10370,7 +10370,6 @@ c_burtasy                       ;prussian           ;        ;Baryshas
 c_burtasy                       ;turkish            ;        ;Barish
 c_burtasy                       ;turkmen            ;        ;Barish
 c_burtasy                       ;oghuz              ;        ;Barish
-c_burtasy                       ;uighur             ;        ;Barish
 c_burtasy                       ;mongol             ;        ;Barish
 c_burtasy                       ;cuman              ;        ;Barish
 c_burtasy                       ;pecheneg           ;        ;Barish
@@ -10380,6 +10379,7 @@ c_burtasy                       ;avar               ;        ;Barish
 c_burtasy                       ;karluk             ;        ;Barish
 c_burtasy                       ;kasogi             ;        ;Barish
 c_burtasy                       ;kirghiz            ;        ;Barish
+c_burtasy                       ;uyghur             ;        ;Barish
 c_burtasy                       ;bashkir            ;        ;Barish
 c_khopyor                       ;finnish            ;        ;Khopra
 c_khopyor                       ;karelian           ;        ;Khopra
@@ -10398,7 +10398,6 @@ c_khopyor                       ;prussian           ;        ;Chopioras
 c_khopyor                       ;turkish            ;        ;Khopër
 c_khopyor                       ;turkmen            ;        ;Khopër
 c_khopyor                       ;oghuz              ;        ;Khopër
-c_khopyor                       ;uighur             ;        ;Khopër
 c_khopyor                       ;mongol             ;        ;Khopër
 c_khopyor                       ;cuman              ;        ;Khopër
 c_khopyor                       ;pecheneg           ;        ;Khopër
@@ -10408,6 +10407,7 @@ c_khopyor                       ;avar               ;        ;Khopër
 c_khopyor                       ;karluk             ;        ;Khopër
 c_khopyor                       ;kasogi             ;        ;Khopër
 c_khopyor                       ;kirghiz            ;        ;Khopër
+c_khopyor                       ;uyghur             ;        ;Khopër
 c_khopyor                       ;bashkir            ;        ;Khopër
 c_khopyor                       ;russian            ;        ;Khopyor
 c_mordva                        ;finnish            ;        ;Jov
@@ -10424,7 +10424,6 @@ c_mordva                        ;mordvin            ;        ;Jov
 c_mordva                        ;turkish            ;        ;Mukshi
 c_mordva                        ;turkmen            ;        ;Mukshi
 c_mordva                        ;oghuz              ;        ;Mukshi
-c_mordva                        ;uighur             ;        ;Muqshi
 c_mordva                        ;mongol             ;        ;Muqshi
 c_mordva                        ;cuman              ;        ;Muqshi
 c_mordva                        ;pecheneg           ;        ;Mukshi
@@ -10434,6 +10433,7 @@ c_mordva                        ;avar               ;        ;Mäqshä
 c_mordva                        ;karluk             ;        ;Muqshi
 c_mordva                        ;kasogi             ;        ;Muqshi
 c_mordva                        ;kirghiz            ;        ;Muqshi
+c_mordva                        ;uyghur             ;        ;Muqshi
 c_mordva                        ;bashkir            ;        ;Muqshi
 c_mordva                        ;khitan             ;        ;Muqshi
 d_podonye                       ;german             ;        ;Woronesch
@@ -10485,7 +10485,6 @@ c_desht-i-kipchak               ;prussian           ;        ;Oskolas
 c_desht-i-kipchak               ;turkish            ;Esen    ;Esen
 c_desht-i-kipchak               ;turkmen            ;Esen    ;Esen
 c_desht-i-kipchak               ;oghuz              ;Esen    ;Esen
-c_desht-i-kipchak               ;uighur             ;Esen    ;Esen
 c_desht-i-kipchak               ;mongol             ;Esen    ;Esen
 c_desht-i-kipchak               ;cuman              ;Esen    ;Esen
 c_desht-i-kipchak               ;pecheneg           ;Esen    ;Esen
@@ -10495,6 +10494,7 @@ c_desht-i-kipchak               ;avar               ;Esen    ;Esen
 c_desht-i-kipchak               ;karluk             ;Esen    ;Esen
 c_desht-i-kipchak               ;kasogi             ;Esen    ;Esen
 c_desht-i-kipchak               ;kirghiz            ;Esen    ;Esen
+c_desht-i-kipchak               ;uyghur             ;Esen    ;Esen
 c_desht-i-kipchak               ;bashkir            ;Esen    ;Esen
 d_sura                          ;finnish            ;        ;Šur
 d_sura                          ;karelian           ;        ;Šur
@@ -10510,7 +10510,6 @@ d_sura                          ;mordvin            ;        ;Šur
 d_sura                          ;turkish            ;        ;Siri
 d_sura                          ;turkmen            ;        ;Siri
 d_sura                          ;oghuz              ;        ;Siri
-d_sura                          ;uighur             ;        ;Siri
 d_sura                          ;mongol             ;        ;Siri
 d_sura                          ;cuman              ;        ;Siri
 d_sura                          ;pecheneg           ;        ;Siri
@@ -10520,6 +10519,7 @@ d_sura                          ;avar               ;        ;Sär
 d_sura                          ;karluk             ;        ;Siri
 d_sura                          ;kasogi             ;        ;Siri
 d_sura                          ;kirghiz            ;        ;Siri
+d_sura                          ;uyghur             ;        ;Siri
 d_sura                          ;bashkir            ;        ;Siri
 c_chuvash                       ;finnish            ;        ;Šur
 c_chuvash                       ;karelian           ;        ;Šur
@@ -10535,7 +10535,6 @@ c_chuvash                       ;mordvin            ;        ;Šur
 c_chuvash                       ;turkish            ;        ;Siri
 c_chuvash                       ;turkmen            ;        ;Siri
 c_chuvash                       ;oghuz              ;        ;Siri
-c_chuvash                       ;uighur             ;        ;Siri
 c_chuvash                       ;mongol             ;        ;Siri
 c_chuvash                       ;cuman              ;        ;Siri
 c_chuvash                       ;pecheneg           ;        ;Siri
@@ -10545,6 +10544,7 @@ c_chuvash                       ;avar               ;        ;Sär
 c_chuvash                       ;karluk             ;        ;Siri
 c_chuvash                       ;kasogi             ;        ;Siri
 c_chuvash                       ;kirghiz            ;        ;Siri
+c_chuvash                       ;uyghur             ;        ;Siri
 c_chuvash                       ;bashkir            ;        ;Siri
 c_mountain_cheremisa            ;finnish            ;        ;Rator
 c_mountain_cheremisa            ;karelian           ;        ;Rator
@@ -10814,7 +10814,6 @@ c_perm                          ;bulgarian          ;        ;Višera
 c_votyaki                       ;turkish            ;        ;Ij
 c_votyaki                       ;turkmen            ;        ;Ij
 c_votyaki                       ;oghuz              ;        ;Ij
-c_votyaki                       ;uighur             ;        ;Ij
 c_votyaki                       ;mongol             ;        ;Ij
 c_votyaki                       ;cuman              ;        ;Ij
 c_votyaki                       ;pecheneg           ;        ;Ij
@@ -10824,6 +10823,7 @@ c_votyaki                       ;avar               ;        ;Ij
 c_votyaki                       ;karluk             ;        ;Ij
 c_votyaki                       ;kasogi             ;        ;Ij
 c_votyaki                       ;kirghiz            ;        ;Ij
+c_votyaki                       ;uyghur             ;        ;Ij
 c_votyaki                       ;bashkir            ;        ;Ij
 c_votyaki                       ;russian            ;        ;Iž
 c_votyaki                       ;pommeranian        ;        ;Iž
@@ -10838,7 +10838,6 @@ c_votyaki                       ;bulgarian          ;        ;Iž
 d_vyatka                        ;turkish            ;        ;Noqrat
 d_vyatka                        ;turkmen            ;        ;Noqrat
 d_vyatka                        ;oghuz              ;        ;Noqrat
-d_vyatka                        ;uighur             ;        ;Noqrat
 d_vyatka                        ;mongol             ;        ;Noqrat
 d_vyatka                        ;cuman              ;        ;Noqrat
 d_vyatka                        ;pecheneg           ;        ;Noqrat
@@ -10848,6 +10847,7 @@ d_vyatka                        ;avar               ;        ;Nukhrat
 d_vyatka                        ;karluk             ;        ;Noqrat
 d_vyatka                        ;kasogi             ;        ;Noqrat
 d_vyatka                        ;kirghiz            ;        ;Noqrat
+d_vyatka                        ;uyghur             ;        ;Noqrat
 d_vyatka                        ;bashkir            ;        ;Noqrat
 d_vyatka                        ;russian            ;        ;Vyatka
 d_vyatka                        ;pommeranian        ;        ;Vyatka
@@ -10862,7 +10862,6 @@ d_vyatka                        ;bulgarian          ;        ;Vyatka
 c_hlynov                        ;turkish            ;        ;Noqrat
 c_hlynov                        ;turkmen            ;        ;Noqrat
 c_hlynov                        ;oghuz              ;        ;Noqrat
-c_hlynov                        ;uighur             ;        ;Noqrat
 c_hlynov                        ;mongol             ;        ;Noqrat
 c_hlynov                        ;cuman              ;        ;Noqrat
 c_hlynov                        ;pecheneg           ;        ;Noqrat
@@ -10872,6 +10871,7 @@ c_hlynov                        ;avar               ;        ;Nukhrat
 c_hlynov                        ;karluk             ;        ;Noqrat
 c_hlynov                        ;kasogi             ;        ;Noqrat
 c_hlynov                        ;kirghiz            ;        ;Noqrat
+c_hlynov                        ;uyghur             ;        ;Noqrat
 c_hlynov                        ;bashkir            ;        ;Noqrat
 c_hlynov                        ;russian            ;        ;Vyatka
 c_hlynov                        ;pommeranian        ;        ;Vyatka
@@ -10886,7 +10886,6 @@ c_hlynov                        ;bulgarian          ;        ;Vyatka
 c_merya                         ;turkish            ;        ;Shushma
 c_merya                         ;turkmen            ;        ;Shushma
 c_merya                         ;oghuz              ;        ;Shushma
-c_merya                         ;uighur             ;        ;Shushma
 c_merya                         ;mongol             ;        ;Shushma
 c_merya                         ;cuman              ;        ;Shushma
 c_merya                         ;pecheneg           ;        ;Shushma
@@ -10896,6 +10895,7 @@ c_merya                         ;avar               ;        ;Shushma
 c_merya                         ;karluk             ;        ;Shushma
 c_merya                         ;kasogi             ;        ;Shushma
 c_merya                         ;kirghiz            ;        ;Shushma
+c_merya                         ;uyghur             ;        ;Shushma
 c_merya                         ;bashkir            ;        ;Shushma
 c_grassland_cheremisa           ;russian            ;        ;Vetluga
 c_grassland_cheremisa           ;pommeranian        ;        ;Vetluga
@@ -10910,7 +10910,6 @@ c_grassland_cheremisa           ;bulgarian          ;        ;Vetluga
 c_kokshaga                      ;turkish            ;        ;Kaksha
 c_kokshaga                      ;turkmen            ;        ;Kaksha
 c_kokshaga                      ;oghuz              ;        ;Kaksha
-c_kokshaga                      ;uighur             ;        ;Kaksha
 c_kokshaga                      ;mongol             ;        ;Kaksha
 c_kokshaga                      ;cuman              ;        ;Kaksha
 c_kokshaga                      ;pecheneg           ;        ;Kaksha
@@ -10920,6 +10919,7 @@ c_kokshaga                      ;avar               ;        ;Kaksha
 c_kokshaga                      ;karluk             ;        ;Kaksha
 c_kokshaga                      ;kasogi             ;        ;Kaksha
 c_kokshaga                      ;kirghiz            ;        ;Kaksha
+c_kokshaga                      ;uyghur             ;        ;Kaksha
 c_kokshaga                      ;bashkir            ;        ;Kaksha
 c_kokshaga                      ;russian            ;        ;Kokšaga
 c_kokshaga                      ;pommeranian        ;        ;Kokšaga
@@ -10954,7 +10954,6 @@ c_mansia                        ;bulgarian          ;        ;Pelym
 c_ural                          ;turkish            ;        ;Çusovaya
 c_ural                          ;turkmen            ;        ;Çusovaya
 c_ural                          ;oghuz              ;        ;Çusovaya
-c_ural                          ;uighur             ;        ;Çusovaya
 c_ural                          ;mongol             ;        ;Çusovaya
 c_ural                          ;cuman              ;        ;Çusovaya
 c_ural                          ;pecheneg           ;        ;Çusovaya
@@ -10964,11 +10963,11 @@ c_ural                          ;avar               ;        ;Çusovaya
 c_ural                          ;karluk             ;        ;Çusovaya
 c_ural                          ;kasogi             ;        ;Çusovaya
 c_ural                          ;kirghiz            ;        ;Çusovaya
+c_ural                          ;uyghur             ;        ;Çusovaya
 c_ural                          ;bashkir            ;        ;Çusovaya
 d_perm_vychegda                 ;turkish            ;        ;Viçegda
 d_perm_vychegda                 ;turkmen            ;        ;Viçegda
 d_perm_vychegda                 ;oghuz              ;        ;Viçegda
-d_perm_vychegda                 ;uighur             ;        ;Viçegda
 d_perm_vychegda                 ;mongol             ;        ;Viçegda
 d_perm_vychegda                 ;cuman              ;        ;Viçegda
 d_perm_vychegda                 ;pecheneg           ;        ;Viçegda
@@ -10978,6 +10977,7 @@ d_perm_vychegda                 ;avar               ;        ;Viçegda
 d_perm_vychegda                 ;karluk             ;        ;Viçegda
 d_perm_vychegda                 ;kasogi             ;        ;Viçegda
 d_perm_vychegda                 ;kirghiz            ;        ;Viçegda
+d_perm_vychegda                 ;uyghur             ;        ;Viçegda
 d_perm_vychegda                 ;bashkir            ;        ;Viçegda
 d_perm_vychegda                 ;russian            ;        ;Vychegda
 d_perm_vychegda                 ;pommeranian        ;        ;Vychegda
@@ -11002,7 +11002,6 @@ c_syrj                          ;bulgarian          ;        ;Vym
 c_zyriane                       ;turkish            ;        ;Viçegda
 c_zyriane                       ;turkmen            ;        ;Viçegda
 c_zyriane                       ;oghuz              ;        ;Viçegda
-c_zyriane                       ;uighur             ;        ;Viçegda
 c_zyriane                       ;mongol             ;        ;Viçegda
 c_zyriane                       ;cuman              ;        ;Viçegda
 c_zyriane                       ;pecheneg           ;        ;Viçegda
@@ -11012,6 +11011,7 @@ c_zyriane                       ;avar               ;        ;Viçegda
 c_zyriane                       ;karluk             ;        ;Viçegda
 c_zyriane                       ;kasogi             ;        ;Viçegda
 c_zyriane                       ;kirghiz            ;        ;Viçegda
+c_zyriane                       ;uyghur             ;        ;Viçegda
 c_zyriane                       ;bashkir            ;        ;Viçegda
 c_zyriane                       ;russian            ;        ;Vychegda
 c_zyriane                       ;pommeranian        ;        ;Vychegda
@@ -11157,7 +11157,6 @@ c_lekia                         ;andalusian_arabic  ;        ;al-Lakza
 c_lekia                         ;turkish            ;Lezgistan;Lezgistan
 c_lekia                         ;turkmen            ;Lezgistan;Lezgistan
 c_lekia                         ;oghuz              ;Lezgistan;Lezgistan
-c_lekia                         ;uighur             ;Lezgistan;Lezgistan
 c_lekia                         ;mongol             ;Lezgistan;Lezgistan
 c_lekia                         ;cuman              ;Lezgistan;Lezgistan
 c_lekia                         ;pecheneg           ;Lezgistan;Lezgistan
@@ -11167,6 +11166,7 @@ c_lekia                         ;avar               ;Lezgistan;Lezgistan
 c_lekia                         ;karluk             ;Lezgistan;Lezgistan
 c_lekia                         ;kasogi             ;Lezgistan;Lezgistan
 c_lekia                         ;kirghiz            ;Lezgistan;Lezgistan
+c_lekia                         ;uyghur             ;Lezgistan;Lezgistan
 c_lekia                         ;bashkir            ;Lezgistan;Lezgistan
 c_lekia                         ;bedouin_arabic     ;        ;al-Lakza
 c_lekia                         ;maghreb_arabic     ;        ;al-Lakza
@@ -11175,10 +11175,10 @@ c_lekia                         ;egyptian_arabic    ;        ;al-Lakza
 c_lekia                         ;sicilian_arabic    ;        ;al-Lakza
 c_lekia                         ;pahlavi            ;        ;al-Lakza
 c_lekia                         ;persian            ;        ;al-Lakza
+c_lekia                         ;sogdian            ;        ;al-Lakza
 c_lekia                         ;tajik              ;        ;al-Lakza
 c_lekia                         ;daylamite          ;        ;al-Lakza
 c_lekia                         ;khalaj             ;        ;al-Lakza
-c_lekia                         ;soghdian           ;        ;al-Lakza
 c_lekia                         ;khwarezmi          ;        ;al-Lakza
 c_lekia                         ;kurdish            ;        ;al-Lakza
 c_lekia                         ;afghan             ;        ;al-Lakza
