@@ -2604,17 +2604,19 @@ e_hre = { # Heiliges Römisches Reich
 				#b_buxtehude = {}
 			}
 			allow = {
-				or = {
-					has_landed_title = c_holstein
-					any_vassal = { has_landed_title = c_holstein }
-				}
-				or = {
-					has_landed_title = c_reinholdsburg
-					any_vassal = { has_landed_title = c_reinholdsburg }
-				}
-				or = {
-					has_landed_title = c_hamburg
-					any_vassal = { has_landed_title = c_hamburg }
+				AND = {
+					or = {
+						has_landed_title = c_holstein
+						any_vassal = { has_landed_title = c_holstein }
+					}
+					or = {
+						has_landed_title = c_reinholdsburg
+						any_vassal = { has_landed_title = c_reinholdsburg }
+					}
+					or = {
+						has_landed_title = c_hamburg
+						any_vassal = { has_landed_title = c_hamburg }
+					}
 				}
 			}
 		} # end d_holstein
@@ -16123,6 +16125,23 @@ e_britannia = { # Britannia
 			}
 		}
 	}
+	k_ireland_titular = { # Tara
+		color = { 161 51 177 }
+		color2 = { 255 255 255 }
+		capital = 975 # Brega
+		culture = irish
+		religion = catholic
+		allow = {
+			# Only allow it to be usurped when already held, and otherwise it must
+			# have become de jure to create it.
+			FROM = {
+				or = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
 	allow = {
 		or = {
 			religion_group = christian
@@ -18496,6 +18515,24 @@ e_france = { # France
 				#b_dinan = {}
 			}
 		} # end d_brittany
+		d_lowerbrittany = { # Breizh Izel
+			color = { 148 148 116 }
+			color2 = { 255 255 255 }
+			capital = 105 # Gwened # Vannes
+			culture = breton
+			allow = {
+				independent = yes
+				not = {
+					has_landed_title = d_brittany
+					any_demesne_title = {
+						or = {
+							tier = king
+							tier = emperor
+						}
+					}
+				}
+			}
+		}
 		allow = { culture_group = celtic }
 	} # end k_brittany
 	k_france = { # France
@@ -29278,12 +29315,12 @@ e_null = {
 			}
 			allow = {
 				or = {
+					piety = 500
 					not = { religion_group = christian }
-					and = {
-						religion_group = christian
-						is_theocracy = yes
-						piety = 500
-					}
+				}
+				or = {
+					has_landed_title = c_dorpat
+					any_vassal = { has_landed_title = c_dorpat }
 				}
 				or = {
 					has_landed_title = c_dorpat
@@ -29331,31 +29368,17 @@ e_null = {
 				b_monacastleonmuhu = {}
 			} # end c_osel
 			allow = {
-				and = {
-					religion_group = christian
-					is_theocracy = yes
+				or = {
 					piety = 500
-					or = {
-						or = {
-							has_landed_title = c_laanemaa
-							any_vassal = { has_landed_title = c_laanemaa }
-						}
-						or = {
-							has_landed_title = c_osel
-							any_vassal = { has_landed_title = c_osel }
-						}
-					}
-				}
-				and = {
 					not = { religion_group = christian }
-					or = {
-						has_landed_title = c_laanemaa
-						any_vassal = { has_landed_title = c_laanemaa }
-					}
-					or = {
-						has_landed_title = c_osel
-						any_vassal = { has_landed_title = c_osel }
-					}
+				}
+				or = {
+					has_landed_title = c_laanemaa
+					any_vassal = { has_landed_title = c_laanemaa }
+				}
+				or = {
+					has_landed_title = c_osel
+					any_vassal = { has_landed_title = c_osel }
 				}
 			}
 		} # end d_osel_wiek

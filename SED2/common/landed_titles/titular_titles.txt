@@ -39,41 +39,6 @@ d_socotra = {
 	dignity = 10
 }
 # TITULAR SWMH
-k_ireland_titular = { # Tara
-	color = { 161 51 177 }
-	color2 = { 255 255 255 }
-	capital = 975 # Brega
-	culture = irish
-	religion = catholic
-	allow = {
-		# Only allow it to be usurped when already held, and otherwise it must
-		# have become de jure to create it.
-		FROM = {
-			or = {
-				is_titular = no
-				has_holder = yes
-			}
-		}
-	}
-}
-d_lowerbrittany = { # Breizh Izel
-	color = { 148 148 116 }
-	color2 = { 255 255 255 }
-	capital = 105 # Gwened # Vannes
-	culture = breton
-	allow = {
-		independent = yes
-		not = {
-			has_landed_title = d_brittany
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
-	}
-}
 e_ulm = { # Ulm
 	color = { 110 110 110 }
 	capital = 252 # Ulm # ULM
