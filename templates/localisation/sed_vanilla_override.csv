@@ -1,0 +1,1642 @@
+#CODE                            ;SED2    ;SWMH;OTHER;SED1;VANILLA
+#CombatUpdate.csv;;
+#India.csv;;
+d_socotra                        ;        ;;;;Socotra
+d_sennar                         ;        ;;;;Alodia
+d_sennar_adj                     ;        ;;;;Alodian
+d_yaik                           ;        ;;;;Yaik
+d_yaik_adj                       ;        ;;;;Yaiki
+c_guryev_adj                     ;        ;;;;Atyrauer
+c_sirjan_adj                     ;        ;;;;Sirjani
+c_ghazna_adj                     ;        ;;;;Ghazni
+c_kabul_adj                      ;        ;;;;Kabulian
+c_khuttal_adj                    ;        ;;;;Khuttali
+c_sibir_adj                      ;        ;;;;Sibirian
+c_otrar_adj                      ;        ;;;;Otrarian
+c_turgay_adj                     ;        ;;;;Turgay
+c_balkhash_adj                   ;        ;;;;Balkhashi
+c_socotra_adj                    ;        ;;;;Socotran
+e_rajastan                       ;        ;;;;Rajastan
+k_sindh                          ;        ;;;;Sindh
+d_sauvira                        ;        ;;;;Sauvira
+d_bhakkar                        ;        ;;;;Bhakkar
+k_punjab                         ;        ;;India,Indike;;Punjab
+d_multan                         ;        ;;;;Multan
+d_lahore                         ;        ;;;;Lahore
+d_gandhara                       ;        ;;;;Gandhara
+k_delhi                          ;        ;;;;Delhi
+d_kuru                           ;        ;;;;Kuru
+d_haritanaka                     ;        ;;;;Haritanaka
+d_mathura                        ;        ;;;;Mathura
+d_vodamayutja                    ;        ;;;;Vodamayutja
+k_gujarat                        ;        ;;;;Gujarat
+d_gurjara_mandala                ;        ;;;;Gurjara Mandala
+d_anartta                        ;        ;;;;Anartta
+d_saurashtra                     ;        ;;;;Saurashtra
+d_lata                           ;        ;;;;Lata
+k_rajputana                      ;        ;;;;Rajputana
+d_maru                           ;        ;;;;Maru
+d_jangladesh                     ;        ;;;;Jangladesh
+d_stravani                       ;        ;;;;Stravani
+d_medapata                       ;        ;;;;Medapata
+d_ajmer                          ;        ;;;;Ajmer
+k_malwa                          ;        ;;;;Malwa
+d_dadhipadra                     ;        ;;;;Avanti
+d_akara_dasarna                  ;        ;;;;Akara-Dasarna
+d_anupa                          ;        ;;;;Anupa
+k_kosala                         ;        ;;;;Kosala
+d_kanyakubja                     ;        ;;;;Kanyakubja
+d_saryupara                      ;        ;;;;Saryupara
+d_jejakabhukti                   ;        ;;;;Jejakabhukti
+c_kanyakubja_adj                 ;        ;;;;Kanyakubjan
+c_lakhnau_adj                    ;        ;;;;Lakhnau
+c_kalpi_adj                      ;        ;;;;Kalpi
+c_bharauli_adj                   ;        ;;;;Bharauli
+c_prayaga_adj                    ;        ;;;;Prayaga
+c_asni_adj                       ;        ;;;;Asni
+c_naimisa_adj                    ;        ;;;;Naimisan
+c_sravasti_adj                   ;        ;;;;Sravasti
+c_ayodhya_adj                    ;        ;;;;Ayodhya
+c_mahoba_adj                     ;        ;;;;Mahoban
+c_kalanjara_adj                  ;        ;;;;Kalanjaran
+c_damoh_adj                      ;        ;;;;Damoh
+c_gurgi_adj                      ;        ;;;;Gurgi
+c_delhi_adj                      ;        ;;;;Delhi
+c_hastinapura_adj                ;        ;;;;Hastinapuran
+c_sthanisvara_adj                ;        ;;;;Sthanisvaran
+c_hisar_adj                      ;        ;;;;Hisar
+c_tribandapura_adj               ;        ;;;;Tribandapuran
+c_sarasvati_adj                  ;        ;;;;Sarasvati
+c_mathura_adj                    ;        ;;;;Mathuran
+c_kol_adj                        ;        ;;;;Kol
+c_sripatha_adj                   ;        ;;;;Sripathan
+c_vodamayutja_adj                ;        ;;;;Vodamayutjan
+c_sambhal_adj                    ;        ;;;;Sambhal
+c_katehar_adj                    ;        ;;;;Kateharan
+c_dadhipadra_adj                 ;        ;;;;Dadhipadran
+c_dhara_adj                      ;        ;;;;Dhara
+c_dasapura_adj                   ;        ;;;;Dasapuran
+c_ujjayini_adj                   ;        ;;;;Ujjayini
+c_sarangpur_adj                  ;        ;;;;Sarangpuran
+c_vidisa_adj                     ;        ;;;;Vidisa
+c_chanderi_adj                   ;        ;;;;Chanderi
+c_candhoba_adj                   ;        ;;;;Candhoban
+c_mandapika_adj                  ;        ;;;;Mandapikan
+c_asirgarh_adj                   ;        ;;;;Asirgarh
+c_burhanpur_adj                  ;        ;;;;Burhanpuran
+c_thalner_adj                    ;        ;;;;Thalner
+c_sarasvata_mandala_adj          ;        ;;;;Sarasvatan
+c_khetaka_adj                    ;        ;;;;Khetakan
+c_mohadavasaka_adj               ;        ;;;;Mohadavasakan
+c_dhamalpur_adj                  ;        ;;;;Dhamalpuran
+c_dvaraka_adj                    ;        ;;;;Dvarakan
+c_kutch_adj                      ;        ;;;;Kutch
+c_bhumilka_adj                   ;        ;;;;Bhumilkan
+c_somnath_adj                    ;        ;;;;Somnath
+c_vardhamana_adj                 ;        ;;;;Vardhamana
+c_valabhi_adj                    ;        ;;;;Valabhi
+c_navasarika_adj                 ;        ;;;;Navasarikan
+c_daman_adj                      ;        ;;;;Daman
+c_vadodara_adj                   ;        ;;;;Vadodaran
+c_mandavyapura_adj               ;        ;;;;Mandavyapuran
+c_medantaka_adj                  ;        ;;;;Medantakan
+c_godwad_adj                     ;        ;;;;Godwadan
+c_vikramapura_adj                ;        ;;;;Vikramapuran
+c_reni_adj                       ;        ;;;;Reni
+c_nagauda_adj                    ;        ;;;;Nagaudan
+c_ludrava_adj                    ;        ;;;;Ludravan
+c_vijnot_adj                     ;        ;;;;Vijnot
+c_satyapura_adj                  ;        ;;;;Satyapuran
+c_medapata_adj                   ;        ;;;;Medapatan
+c_chitrakut_adj                  ;        ;;;;Chitrakutan
+c_kota_adj                       ;        ;;;;Kotan
+c_ajayameru_adj                  ;        ;;;;Ajayameru
+c_ranthambore_adj                ;        ;;;;Ranthambore
+c_vairata_adj                    ;        ;;;;Vairatan
+c_debul_adj                      ;        ;;;;Debul
+c_sonda_adj                      ;        ;;;;Sonda
+c_mansura_adj                    ;        ;;;;Mansuran
+c_ranikot_adj                    ;        ;;;;Ranikotan
+c_siwistan_adj                   ;        ;;;;Siwistan
+c_bhakkar_adj                    ;        ;;;;Bhakkar
+c_aror_adj                       ;        ;;;;Aror
+c_rajanpur_adj                   ;        ;;;;Rajanpur
+c_sibi_adj                       ;        ;;;;Sibi
+c_multan_adj                     ;        ;;;;Multan
+c_kafirkot_adj                   ;        ;;;;Kafirkot
+c_uch_adj                        ;        ;;;;Uch
+c_karur_adj                      ;        ;;;;Karur
+c_karor_adj                      ;        ;;;;Karor
+c_bannu_adj                      ;        ;;;;Bannu
+c_lahur_adj                      ;        ;;;;Lahur
+c_dipalpur_adj                   ;        ;;;;Dipalpur
+c_bhera_adj                      ;        ;;;;Bheran
+c_shorkot_adj                    ;        ;;;;Shorkot
+c_sakala_adj                     ;        ;;;;Sakalan
+c_trigarta_adj                   ;        ;;;;Trigartan
+c_gurjaratra_adj                 ;        ;;;;Gurjaratran
+c_udabhanda_adj                  ;        ;;;;Udabhandan
+c_purushapura_adj                ;        ;;;;Purushapuran
+c_nandana_adj                    ;        ;;;;Nandana
+c_kasmira_adj                    ;        ;;;;Kasmiran
+c_quzdar_adj                     ;        ;;;;Quzdar
+c_wana_adj                       ;        ;;;;Wana
+c_kandail_adj                    ;        ;;;;Kandail
+c_makran_adj                     ;        ;;;;Makran
+#LegacyOfRome.csv;;
+#RulerDesigner.csv;;
+#SwordOfIslam.csv;;
+#WikipediaLinks.csv;;
+#sunset_invasion.csv;;
+e_mexikha                        ;        ;;;;Aztec Empire
+e_mexikha_adj                    ;        ;;;;Aztec
+#text1.csv;;
+d_uppland                        ;        ;;Sviþjod;;Uppland
+d_uppland_adj                    ;        ;;;;Upplander
+c_uppland_adj                    ;        ;;;;Upplander
+c_vastergotland_adj              ;        ;;;;West Geatish
+c_ostergotland_adj               ;        ;;;;East Geatish
+c_sodermanland_adj               ;        ;;;;Södermannian
+c_gotland_adj                    ;        ;;;;Gotlander
+c_smaland_adj                    ;        ;;;;Värender
+e_rebels                         ;        ;;;;Rebels
+e_rebels_adj                     ;        ;;;;Rebel
+e_pirates                        ;        ;;;;Pirates
+e_latin_empire_adj               ;        ;;;;Latin
+c_kaisereia_adj                  ;        ;;;;Kaisereian
+c_galatia_adj                    ;        ;;;;Galatian
+c_amisos_adj                     ;        ;;;;Amisosian
+c_sinope_adj                     ;        ;;;;Sinopean
+c_paphlagonia_adj                ;        ;;;;Paphlagonian
+c_herakleia_adj                  ;        ;;;;Herakleian
+c_ankyra_adj                     ;        ;;;;Ancyran
+c_nikaea_adj                     ;        ;;;;Nikaean
+c_nikomedeia_adj                 ;        ;;;;Nikomedeian
+c_kyzikos_adj                    ;        ;;;;Kyzikosian
+c_dorylaion_adj                  ;        ;;;;Dorylaionian
+c_ikonion_adj                    ;        ;;;;Ikonionian
+c_smyrna_adj                     ;        ;;;;Smyrnan
+c_abydos_adj                     ;        ;;;;Abydosian
+c_euboia_adj                     ;        ;;;;Euboian
+c_kaliopolis_adj                 ;        ;;;;Kaliopolisian
+c_thessalonike_adj               ;        ;;;;Thessalonikian
+c_epeiros_adj                    ;        ;;;;Epirotian
+c_arta_adj                       ;        ;;;;Artan
+c_cephalonia_adj                 ;        ;;;;Phaeacians
+c_hellas_adj                     ;        ;;;;Hellenic
+c_atheniai_adj                   ;        ;;;;Athenian
+c_achaia_adj                     ;        ;;;;Achaian
+c_korinthos_adj                  ;        ;;;;Korinthian
+c_methone_adj                    ;        ;;;;Methonian
+c_theodosia_adj                  ;        ;;;;Theodosian
+c_cherson_adj                    ;        ;;;;Chersonian
+c_attaleia_adj                   ;        ;;;;Attaleian
+c_rhodos_adj                     ;        ;;;;Rhodian
+c_lykia_adj                      ;        ;;;;Lykian
+c_gastrikland_adj                ;        ;;;;Gästriklander
+c_aland_adj                      ;        ;;;;Ålander
+d_ostergotland                   ;        ;;Austrgautland,Østergøtland;;Östergötland
+d_ostergotland_adj               ;        ;;;;East Geatish
+c_narke_adj                      ;        ;;;;Närkian
+d_vastergotland                  ;        ;;Vestrgautland;;Västergötland
+d_vastergotland_adj              ;        ;;;;West Geatish
+c_dal_adj                        ;        ;;;;Dalabo
+c_viken_adj                      ;        ;;;;Vikish
+d_norrland                       ;        ;;Kænlandi,Cwenaland,Norlanti;;Norrland
+d_norrland_adj                   ;        ;;;;Norrlander
+c_vasterbotten_adj               ;        ;;;;Västerbottnian
+c_angermanland_adj               ;        ;;;;Ångermanlander
+c_medelpad_adj                   ;        ;;;;Medelpadian
+c_halsingland_adj                ;        ;;;;Hälsinglander
+c_dalarna_adj                    ;        ;;;;Dalish
+c_varmland_adj                   ;        ;;;;Värmlander
+c_vastmanland_adj                ;        ;;;;Västmanlander
+d_smaland                        ;        ;;Smáland;Gotland;Småland
+d_smaland_adj                    ;        ;;;Gotlandish;Smålander
+c_oland_adj                      ;        ;;;;Ölander
+c_hamburg_adj                    ;        ;;;;Hamburgian
+c_lubeck_adj                     ;        ;;;;Lübecker
+c_holstein_adj                   ;        ;;;;Holsteinian
+c_bremen_adj                     ;        ;;;;Bremenian
+c_oldenburg_adj                  ;        ;;;;Oldenburgian
+c_osnabruck_adj                  ;        ;;;;Osnabrückian
+c_munster_adj                    ;        ;;;;Munsterian
+c_gottingen_adj                  ;        ;;;;Göttingian
+c_rostock_adj                    ;        ;;;;Rostocker
+c_werle_adj                      ;        ;;;;Werlian
+c_rugen_adj                      ;        ;;;;Rügenian
+c_celle_adj                      ;        ;;;;Cellian
+c_luneburg_adj                   ;        ;;;;Lüneburgian
+c_braunschweig_adj               ;        ;;;;Braunschweigian
+c_altmark_adj                    ;        ;;;;Altmarkian
+c_anhalt_adj                     ;        ;;;;Anhaltian
+d_meissen                        ;        ;;;;Meissen
+d_meissen_adj                    ;        ;;;;Meissian
+c_meissen_adj                    ;        ;;;;Meissian
+c_weimar_adj                     ;        ;;;;Weimarian
+c_plauen_adj                     ;        ;;;;Plauenian
+c_thuringen_adj                  ;        ;;;;Thüringian
+c_nassau_adj                     ;        ;;;;Nassauian
+d_holland                        ;        ;;Hollande,Hollân;;Holland
+d_holland_adj                    ;        ;;;;Hollander
+c_frisia_adj                     ;        ;;;;Frisian
+c_holland_adj                    ;        ;;;;Hollander
+c_westfriesland_adj              ;        ;;;;Westfrieslander
+c_zeeland_adj                    ;        ;;;;Zeelander
+d_gelre                          ;        ;;Geldern,Gueldre;;Gelre
+c_ostfriesland_adj               ;        ;;;;Ostfrieslander
+c_gelre_adj                      ;        ;;;;Gelrian
+c_sticht_adj                     ;        ;;;;Stichtian
+d_brabant                        ;        ;;;;Brabant
+d_brabant_adj                    ;        ;;;;Brabantian
+c_brabant_adj                    ;        ;;;;Brabantian
+c_hainaut_adj                    ;        ;;;;Hainautian
+c_breda_adj                      ;        ;;;;Bredian
+d_luxembourg                     ;        ;;Lützelburg,Lutzelburg;;Luxembourg
+d_luxembourg_adj                 ;        ;;;;Luxembourgian
+c_luxembourg_adj                 ;        ;;;;Luxembourgian
+c_loon_adj                       ;        ;;;;Loonian
+c_liege_adj                      ;        ;;;;Liegian
+c_koln_adj                       ;        ;;;;Kölnian
+c_julich_adj                     ;        ;;;;Jülichian
+c_trier_adj                      ;        ;;;;Trierian
+c_kleve_adj                      ;        ;;;;Klevian
+c_mainz_adj                      ;        ;;;;Mainzian
+c_leiningen_adj                  ;        ;;;;Leiningian
+c_bamberg_adj                    ;        ;;;;Bambergian
+c_pfalz_adj                      ;        ;;;;Pfalzian
+c_metz_adj                       ;        ;;;;Metzian
+c_verdun_adj                     ;        ;;;;Verdunian
+c_lorraine_adj                   ;        ;;;;Lorrainian
+c_saintois_adj                   ;        ;;;;Saintoisian
+d_baden                          ;        ;;;;Baden
+d_baden_adj                      ;        ;;;;Badenian
+c_baden_adj                      ;        ;;;;Badenian
+c_breisgau_adj                   ;        ;;;;Breisgauer
+d_alsace                         ;        ;;Elsass,Alsace,Elzas;;Alsace
+d_alsace_adj                     ;        ;;;;Alsatian
+c_nordgau_adj                    ;        ;;;;Nordgauer
+c_sundgau_adj                    ;        ;;;;Sundgauer
+c_tirol_adj                      ;        ;;;;Tyrolian
+c_trent_adj                      ;        ;;;;Trentian
+c_st_gallen_adj                  ;        ;;;;St. Gallenian
+c_innsbruck_adj                  ;        ;;;;Innsbruckian
+c_schwaben_adj                   ;        ;;;;Swabian
+c_ulm_adj                        ;        ;;;;Ulmian
+c_furstenberg_adj                ;        ;;;;Fürstenbergian
+c_wurttemberg_adj                ;        ;;;;Württembergian
+c_kempten_adj                    ;        ;;;;Kemptian
+c_oberbayern_adj                 ;        ;;;;Oberbayerian
+c_salzburg_adj                   ;        ;;;;Salzburgian
+c_niederbayern_adj               ;        ;;;;Niederbayerian
+c_nurnberg_adj                   ;        ;;;;Nürnbergian
+c_passau_adj                     ;        ;;;;Passauian
+c_znojmo_adj                     ;        ;;;;Znojmo
+c_osterreich_adj                 ;        ;;;;Österreicher
+c_steiermark_adj                 ;        ;;;;Steiermarkian
+c_wolgast_adj                    ;        ;;;;Wolgastian
+c_stettin_adj                    ;        ;;;;Stettiner
+d_pomeralia                      ;        ;;Pommerellen;;Pomeralia
+d_pomeralia_adj                  ;        ;;;;Pomeralian
+c_chelminskie_adj                ;        ;;;;Chelminskian
+c_slupsk_adj                     ;        ;;;;Slupskian
+c_lubusz_adj                     ;        ;;;;Lubuszian
+c_gnieznienskie_adj              ;        ;;;;Gnieznienskian
+c_poznanskie_adj                 ;        ;;;;Poznanskian
+c_kaliskie_adj                   ;        ;;;;Kaliskian
+c_lower_silesia_adj              ;        ;;;;Lower Silesian
+c_upper_silesia_adj              ;        ;;;;Upper Silesian
+c_opole_adj                      ;        ;;;;Opolian
+c_cieszyn_adj                    ;        ;;;;Cieszyan
+c_krakowskie_adj                 ;        ;;;;Krakowskian
+c_sacz_adj                       ;        ;;;;Saczian
+c_sandomierskie_adj              ;        ;;;;Sandomierskian
+c_sieradzko-leczyckie_adj        ;        ;;;;Sieradzko-Leczyckian
+c_kujawy_adj                     ;        ;;;;Kujawian
+c_scalovia_adj                   ;        ;;;;Scalovian
+c_plock_adj                      ;        ;;;;Plockian
+c_czersk_adj                     ;        ;;;;Czerskian
+c_west_dvina_adj                 ;        ;;;;West Dvinian
+d_vitebsk                        ;        ;;;;Vitebsk
+d_vitebsk_adj                    ;        ;;;;Vitebskian
+d_courland                       ;        ;;Kuurinmaa,Kuramaa,Kurãmõ,Kuršas,Kurzeme,Kurlandia,Kurland;;Courland
+d_courland_adj                   ;        ;;;;Courlander
+c_zemigalians_adj                ;        ;;;;Zemigallian
+c_kurs_adj                       ;        ;;;;Kursian
+d_samogitia                      ;        ;;;;Samogitia
+d_samogitia_adj                  ;        ;;;;Samogitian
+c_zhmud_adj                      ;        ;;;;Lithuanian
+c_lettigalians_adj               ;        ;;;;Lettigallian
+c_livs_adj                       ;        ;;;;Livonian
+c_dorpat_adj                     ;        ;;;;Dorpatian
+c_osel_adj                       ;        ;;;;Öselian
+c_reval_adj                      ;        ;;;;Kalevanian
+c_reval_adj_swedish              ;        ;;;;Revalian
+c_reval_adj_danish               ;        ;;;;Revalian
+c_reval_adj_norwegian            ;        ;;;;Revalian
+c_reval_adj_german               ;        ;;;;Revalian
+c_narva_adj                      ;        ;;;;Narvaian
+c_vodi_adj                       ;        ;;;;Ingrian
+d_karelia                        ;        ;;Kirialaland;;Karelia
+d_karelia_adj                    ;        ;;;;Karelian
+c_kexholm_adj                    ;        ;;;;Kexholmian
+c_savolaks_adj                   ;        ;;;;Savolaksian
+c_kemi_adj                       ;        ;;;;Kemian
+c_kola_adj                       ;        ;;;;Kolaian
+c_kandalax_adj                   ;        ;;;;Kandalaxian
+c_nyland_adj                     ;        ;;;;Nylander
+c_finland_adj                    ;        ;;;;Finlander
+c_tavasts_adj                    ;        ;;;;Tavastian
+c_satakunta_adj                  ;        ;;;;Satakuntan
+c_osterbotten_adj                ;        ;;;;Ostrobothnian
+c_velikiye_luki_adj              ;        ;;;;Lukian
+d_yaroslavl                      ;        ;;;;Yaroslavl
+d_yaroslavl_adj                  ;        ;;;;Yaroslavian
+d_ryazan                         ;        ;;;;Ryazan
+d_cheremisa                      ;        ;;;;Cheremisa
+d_cheremisa_adj                  ;        ;;;;Cheremisan
+c_yaik_adj                       ;        ;;;;Yaikian
+c_torki_adj                      ;        ;;;;Torkian
+c_belgorod_adj                   ;        ;;;;Belgorodian
+c_birlad_adj                     ;        ;;;;Birladian
+c_aqtobe_adj                     ;        ;;;;Aqtobian
+c_turnu_adj                      ;        ;;;;Turnuian
+c_tirgoviste_adj                 ;        ;;;;Tirgovistian
+c_severin_adj                    ;        ;;;;Severinian
+c_sarpa_adj                      ;        ;;;;Sarpan
+c_yegorlyk_adj                   ;        ;;;;Yegorlykian
+c_kuma_adj                       ;        ;;;;Kuman
+c_mangyshlak_adj                 ;        ;;;;Mangyshlakian
+c_bukhara_adj                    ;        ;;;;Bukharan
+c_merv_adj                       ;        ;;;;Mervian
+c_dihistan_adj                   ;        ;;;;Dihistian
+c_gurgan_adj                     ;        ;;;;Gurgian
+c_nishapur_adj                   ;        ;;;;Nishapuran
+c_qohistan_adj                   ;        ;;;;Qohistian
+c_mazandaran_adj                 ;        ;;;;Mazandarian
+c_esfahan_adj                    ;        ;;;;Esfahanian
+c_yazd_adj                       ;        ;;;;Yazdian
+c_shiraz_adj                     ;        ;;;;Shirazian
+c_hormuz_adj                     ;        ;;;;Hormuzian
+c_kerman_adj                     ;        ;;;;Kermian
+c_qom_adj                        ;        ;;;;Qomian
+c_hamadan_adj                    ;        ;;;;Hamadian
+c_rayy_adj                       ;        ;;;;Rayyan
+c_balkh_adj                      ;        ;;;;Balkhian
+k_mesopotamia                    ;        ;;;;Mesopotamia
+k_mesopotamia_adj                ;        ;;;;Mesopotamian
+d_kermanshah                     ;        ;;;;Kermanshah
+d_kermanshah_adj                 ;        ;;;;Kermanshahi
+c_qazwin_adj                     ;        ;;;;Qazwinian
+c_kermanshah_adj                 ;        ;;;;Kermanshahian
+c_luristan_adj                   ;        ;;;;Luristian
+d_tigris                         ;        ;;;;Tigris
+d_tigris_adj                     ;        ;;;;Tigran
+c_tigris_adj                     ;        ;;;;Tigrisian
+c_al_amarah_adj                  ;        ;;;;Al Amarahian
+c_al_nasiryah_adj                ;        ;;;;Al Nasiryahian
+d_basra                          ;        ;;;;Basra
+d_basra_adj                      ;        ;;;;Basrite
+c_kufa_adj                       ;        ;;;;Kufan
+c_rummah_adj                     ;        ;;;;Rummahian
+c_kuwait_adj                     ;        ;;;;Kuwaitan
+c_basra_adj                      ;        ;;;;Basran
+c_damman_adj                     ;        ;;;;Dammani
+c_al_hasa_adj                    ;        ;;;;Al Hasan
+c_bahrein_adj                    ;        ;;;;Bahreinian
+d_nefoud                         ;        ;;;;Nefoud
+d_nefoud_adj                     ;        ;;;;Nefoudi
+c_al_nadjaf_adj                  ;        ;;;;Al Nadjafian
+c_al_habbariyah_adj              ;        ;;;;Al Habbariyahian
+c_ar_ar_adj                      ;        ;;;;Shakian
+c_madaba_adj                     ;        ;;;;Madaban
+c_az_zarqa_adj                   ;        ;;;;Az Zarqan
+d_baghdad                        ;        ;;;;Baghdad
+d_baghdad_adj                    ;        ;;;;Baghdadian
+c_karbala_adj                    ;        ;;;;Karbalan
+c_baghdad_adj                    ;        ;;;;Baghdadian
+c_deir_adj                       ;        ;;;;Deirian
+c_kirkuk_adj                     ;        ;;;;Kirkukian
+d_mosul                          ;        ;;Mepsila;;Mosul
+d_mosul_adj                      ;        ;;;;Mosulian
+c_mosul_adj                      ;        ;;;;Mosulian
+c_kurdistan_adj                  ;        ;;;;Kurdistanian
+c_al_jazira_adj                  ;        ;;;;Al Jaziran
+c_al_bichri_adj                  ;        ;;;;Al Bichrian
+c_sinjar_adj                     ;        ;;;;Sinjarian
+c_bira_adj                       ;        ;;;;Biranian
+c_oromieh_adj                    ;        ;;;;Oromiehian
+c_gilan_adj                      ;        ;;;;Gilanian
+c_tabriz_adj                     ;        ;;;;Tabrizian
+d_azerbaijan                     ;        ;;Media Atropatene;;Azerbaijan
+d_azerbaijan_adj                 ;        ;;;;Azerbaijani
+c_shirvan_adj                    ;        ;;;;Shirvanian
+c_azerbaijan_adj                 ;        ;;;;Azerbaijani
+c_suenik_adj                     ;        ;;;;Suenikian
+c_shemakha_adj                   ;        ;;;;Shemakhan
+c_vaspurakan_adj                 ;        ;;;;Vaspurakani
+c_dwin_adj                       ;        ;;;;Dwinian
+c_ani_adj                        ;        ;;;;Anian
+c_karin_adj                      ;        ;;;;Karinian
+c_taron_adj                      ;        ;;;;Taronian
+c_amida_adj                      ;        ;;;;Amidan
+c_nisibin_adj                    ;        ;;;;Nisibinian
+d_edessa                         ;        ;;Ar-Ruha,Urfa,Riha;;Edessa
+d_edessa_adj                     ;        ;;;;Edessan
+c_edessa_adj                     ;        ;;;;Edessan
+c_tell_bashir_adj                ;        ;;;;Tell Bashirian
+c_aintab_adj                     ;        ;;;;Aintabian
+c_koloneia_adj                   ;        ;;;;Coloneian
+c_melitene_adj                   ;        ;;;;Melitenian
+c_lykandos_adj                   ;        ;;;;Lykandosian
+c_tarsos_adj                     ;        ;;;;Tarsosian
+c_adana_adj                      ;        ;;;;Adanan
+c_teluch_adj                     ;        ;;;;Teluchian
+c_seleukeia_adj                  ;        ;;;;Seleukeian
+c_theodosiopolis_adj             ;        ;;;;Theodosiopolite
+c_trapezous_adj                  ;        ;;;;Trapezousian
+c_chaldea_adj                    ;        ;;;;Chaldean
+c_kartli_adj                     ;        ;;;;Kartlian
+c_tao_adj                        ;        ;;;;Taoian
+c_guria_adj                      ;        ;;;;Gurian
+c_kakheti_adj                    ;        ;;;;Kakhetian
+c_albania_adj                    ;        ;;;;Albanian
+c_derbent_adj                    ;        ;;;;Derbentian
+c_imeretia_adj                   ;        ;;;;Imeretian
+c_abkhazia_adj                   ;        ;;;;Abkhazian
+c_galaz_adj                      ;        ;;;;Galazian
+c_zeta_adj                       ;        ;;;;Zetan
+d_slavonia                       ;        ;;Pannonia Savia;;Slavonia
+d_slavonia_adj                   ;        ;;;;Slavonian
+c_varadzin_adj                   ;        ;;;;Varazdinian
+c_vas_adj                        ;        ;;;;Vasian
+c_sopron_adj                     ;        ;;;;Sopronian
+d_ungvar                         ;        ;;Chrobatia,Ungwar;;Ungvar
+c_abauj_adj                      ;        ;;;;Abaujian
+c_heves_adj                      ;        ;;;;Hevian
+c_istria_adj                     ;        ;;;;Istrian
+c_krain_adj                      ;        ;;;;Krainian
+c_karnten_adj                    ;        ;;;;Karntenian
+c_aquileia_adj                   ;        ;;;;Aquileian
+c_venezia_adj                    ;        ;;;;Venezian
+d_verona                         ;        ;;Venetia;;Verona
+d_verona_adj                     ;        ;;;;Veronian
+c_treviso_adj                    ;        ;;;;Trevisian
+c_verona_adj                     ;        ;;;;Veronian
+c_padova_adj                     ;        ;;;;Padovian
+c_mantua_adj                     ;        ;;;;Mantuian
+c_lombardia_adj                  ;        ;;;;Lombard
+c_brescia_adj                    ;        ;;;;Brescian
+c_grisons_adj                    ;        ;;;;Grisonian
+c_pavia_adj                      ;        ;;;;Pavian
+c_cremona_adj                    ;        ;;;;Cremonian
+c_monferrato_adj                 ;        ;;;;Monferratian
+c_genoa_adj                      ;        ;;;;Genoese
+c_modena_adj                     ;        ;;;;Modenian
+c_parma_adj                      ;        ;;;;Parmian
+d_ferrara                        ;        ;;;;Ferrara
+d_ferrara_adj                    ;        ;;;;Ferraran
+c_bologna_adj                    ;        ;;;;Bolognian
+c_ferrara_adj                    ;        ;;;;Ferrarian
+c_ravenna_adj                    ;        ;;;;Ravennian
+c_lucca_adj                      ;        ;;;;Luccian
+c_firenze_adj                    ;        ;;;;Firenzian
+c_siena_adj                      ;        ;;;;Sienian
+d_pisa                           ;        ;;Pisae,Pisai;;Pisa
+d_pisa_adj                       ;        ;;;;Pisan
+c_pisa_adj                       ;        ;;;;Pisan
+c_piombino_adj                   ;        ;;;;Piombinian
+c_orbetello_adj                  ;        ;;;;Orbetellian
+c_ancona_adj                     ;        ;;;;Anconian
+c_urbino_adj                     ;        ;;;;Urbinian
+d_spoleto                        ;        ;;Valeria,Oualeria;;Spoleto
+d_spoleto_adj                    ;        ;;;;Spoletan
+c_roma_adj                       ;        ;;;;Roman
+c_spoleto_adj                    ;        ;;;;Spoletian
+c_orvieto_adj                    ;        ;;;;Orvietian
+d_sardinia                       ;        ;;Sardiniae,Sardo;;Sardinia
+d_sardinia_adj                   ;        ;;;;Sardinian
+c_corsica_adj                    ;        ;;;;Corsican
+c_arborea_adj                    ;        ;;;;Arborean
+c_cagliari_adj                   ;        ;;;;Cagliarian
+d_benevento                      ;        ;;Beneventum,Beneuenton;;Benevento
+d_benevento_adj                  ;        ;;;;Benevenetian
+c_benevento_adj                  ;        ;;;;Benevenetian
+c_capua_adj                      ;        ;;;;Capuan
+c_apulia_adj                     ;        ;;;;Apulian
+c_foggia_adj                     ;        ;;;;Foggian
+c_bari_adj                       ;        ;;;;Barian
+c_lecce_adj                      ;        ;;;;Leccian
+d_salerno                        ;        ;;Lukania;;Salerno
+d_salerno_adj                    ;        ;;;;Salernian
+c_salerno_adj                    ;        ;;;;Salernian
+c_napoli_adj                     ;        ;;;;Napolitanian
+d_calabria                       ;        ;;Lucania et Brutii,Kalavrias;;Calabria
+d_calabria_adj                   ;        ;;;;Calabrian
+c_taranto_adj                    ;        ;;;;Tarantian
+c_consenza_adj                   ;        ;;;;Catanzaron
+c_reggio_adj                     ;        ;;;;Reggioian
+c_messina_adj                    ;        ;;;;Messinian
+c_palermo_adj                    ;        ;;;;Palermian
+c_siracusa_adj                   ;        ;;;;Siracusian
+c_trapani_adj                    ;        ;;;;Trapanian
+c_malta_adj                      ;        ;;;;Maltese
+c_nice_adj                       ;        ;;;;Niçois
+c_provence_adj                   ;        ;;;;Provencal
+c_venaissin_adj                  ;        ;;;;Venaissinian
+c_saluzzo_adj                    ;        ;;;;Saluzzian
+d_savoie                         ;        ;;;;Savoy
+d_savoie_adj                     ;        ;;;;Savoyard
+c_piemonte_adj                   ;        ;;;;Piemontian
+c_savoie_adj                     ;        ;;;;Savoian
+c_valais_adj                     ;        ;;;;Valaisian
+c_geneve_adj                     ;        ;;;;Genevan
+d_dauphine                       ;        ;;;;Dauphiné
+c_lyon_adj                       ;        ;;;;Lyonnais
+c_forez_adj                      ;        ;;;;Forezian
+c_chalons_adj                    ;        ;;;;Chalonnianj
+c_neuchatel_adj                  ;        ;;;;Neuchatelian
+c_bern_adj                       ;        ;;;;Bernian
+c_schwyz_adj                     ;        ;;;;Schwyzian
+c_aargau_adj                     ;        ;;;;Aargaunian
+c_besancon_adj                   ;        ;;;;Besanconian
+k_france                         ;        ;;Franza,França,Francia,Francland,Frantzia,Galliae,Gallia;;France
+k_france_adj                     ;        ;;;;French
+c_montpellier_adj                ;        ;;;;Montpellierian
+c_viviers_adj                    ;        ;;;;Vivieran
+c_narbonne_adj                   ;        ;;;;Narbonnian
+c_toulouse_adj                   ;        ;;;;Toulousian
+c_rouergue_adj                   ;        ;;;;Rouerguian
+d_gascogne                       ;        ;;;;Gascogne
+d_gascogne_adj                   ;        ;;;;Gascognian
+c_foix_adj                       ;        ;;;;Foixian
+c_bearn_adj                      ;        ;;;;Bearnian
+c_armagnac_adj                   ;        ;;;;Armagnacs
+c_labourd_adj                    ;        ;;;;Labourdian
+c_albret_adj                     ;        ;;;;Albretian
+c_bordeaux_adj                   ;        ;;;;Bordelais
+c_agen_adj                       ;        ;;;;Agenian
+c_perigord_adj                   ;        ;;;;Perigordian
+c_angouleme_adj                  ;        ;;;;Angoulemian
+c_auvergne_adj                   ;        ;;;;Auvergnian
+c_gevaudan_adj                   ;        ;;;;Gevaudanian
+c_macon_adj                      ;        ;;;;Maconian
+c_dijon_adj                      ;        ;;;;Dijonian
+c_nevers_adj                     ;        ;;;;Neverian
+c_charolais_adj                  ;        ;;;;Charolaian
+d_bourbon                        ;        ;;;;Bourbon
+c_limousin_adj                   ;        ;;;;Limousinian
+c_la_marche_adj                  ;        ;;;;La Marchian
+d_poitou                         ;        ;;;;Poitou
+c_lusignan_adj                   ;        ;;;;Lusignian
+c_saintonge_adj                  ;        ;;;;Saintongian
+c_poitiers_adj                   ;        ;;;;Poitierian
+c_thouars_adj                    ;        ;;;;Thouarian
+d_berry                          ;        ;;;;Berry
+d_berry_adj                      ;        ;;;;Berrian
+c_tourraine_adj                  ;        ;;;;Tourrainian
+c_nantes_adj                     ;        ;;;;Nantesian
+c_vannes_adj                     ;        ;;;;Vannesian
+c_cornouaille_adj                ;        ;;;;Cornouaillian
+c_french_leon_adj                ;        ;;;;Leonian
+c_penthievre_adj                 ;        ;;;;Penthièvrian
+c_rennes_adj                     ;        ;;;;Rennesian
+d_anjou                          ;        ;;;;Anjou
+d_anjou_adj                      ;        ;;;;Angevin
+c_anjou_adj                      ;        ;;;;Angevin
+c_vendome_adj                    ;        ;;;;Vendomian
+c_maine_adj                      ;        ;;;;Mainian
+d_normandy                       ;        ;;Nourmaundie,Normandie,Normandia,Normandía,Normandig;;Normandy
+d_normandy_adj                   ;        ;;;;Norman
+c_evreux_adj                     ;        ;;;;Evreuxian
+c_avranches_adj                  ;        ;;;;Avranchesian
+c_vexin_adj                      ;        ;;;;Vexinian
+c_arques_adj                     ;        ;;;;Arquesian
+c_eu_adj                         ;        ;;;;Euian
+d_orleans                        ;        ;;;;Orleans
+d_orleans_adj                    ;        ;;;;Orleanaise
+c_blois_adj                      ;        ;;;;Bloisian
+c_orleans_adj                    ;        ;;;;Orleanian
+c_chartres_adj                   ;        ;;;;Chartresian
+c_sens_adj                       ;        ;;;;Sensian
+c_auxerre_adj                    ;        ;;;;Auxerrian
+c_reims_adj                      ;        ;;;;Reimsian
+d_valois                         ;        ;;;;Valois
+c_ile_de_france_adj              ;        ;;;;Ile de Francian
+c_vermandois_adj                 ;        ;;;;Vermandoisian
+c_amiens_adj                     ;        ;;;;Amienian
+d_flanders                       ;        ;;;;Flanders
+d_flanders_adj                   ;        ;;;;Flemish
+c_boulogne_adj                   ;        ;;;;Boulognian
+c_guines_adj                     ;        ;;;;Guinesian
+c_yperen_adj                     ;        ;;;;Yperenian
+c_brugge_adj                     ;        ;;;;Bruggian
+c_gent_adj                       ;        ;;;;Gentian
+c_navarra_adj                    ;        ;;;;Navarran
+c_najera_adj                     ;        ;;;;Nájeran
+c_albarracin_adj                 ;        ;;;;Albarracinian
+c_alto_aragon_adj                ;        ;;;;Alto Aragónian
+c_zaragoza_adj                   ;        ;;;;Zaragozan
+c_calatayud_adj                  ;        ;;;;Calatayudian
+d_barcelona                      ;        ;;Barshiluna,Bartzelona,Barcelone,Barcino,Barkinon;;Barcelona
+d_barcelona_adj                  ;        ;;;;Barcelonian
+c_barcelona_adj                  ;        ;;;;Barcelonian
+c_urgell_adj                     ;        ;;;;Urgellian
+c_rosello_adj                    ;        ;;;;Rosellian
+c_empuries_adj                   ;        ;;;;Empuriesian
+c_lleida_adj                     ;        ;;;;Lleidan
+c_tarragona_adj                  ;        ;;;;Tarragonan
+c_castellon_adj                  ;        ;;;;Castellonian
+c_valencia_adj                   ;        ;;;;Valèncian
+c_denia_adj                      ;        ;;;;Dénian
+c_mallorca_adj                   ;        ;;;;Mallorcan
+c_menorca_adj                    ;        ;;;;Menorcan
+c_viscaya_adj                    ;        ;;;;Viscayan
+c_burgos_adj                     ;        ;;;;Burgosian
+c_valladolid_adj                 ;        ;;;;Valladolidan
+c_soria_adj                      ;        ;;;;Sorian
+c_toledo_adj                     ;        ;;;;Toledan
+c_molina_adj                     ;        ;;;;Molinan
+c_cuenca_adj                     ;        ;;;;Cuencan
+c_cordoba_adj                    ;        ;;;;Cordoban
+c_la_mancha_adj                  ;        ;;;;La Manchan
+c_calatrava_adj                  ;        ;;;;Calatravan
+c_almansa_adj                    ;        ;;;;Almansan
+c_murcia_adj                     ;        ;;;;Murcian
+c_granada_adj                    ;        ;;;;Granadan
+c_almeria_adj                    ;        ;;;;Almerian
+c_malaga_adj                     ;        ;;;;Málagan
+c_sevilla_adj                    ;        ;;;;Sevillan
+c_cadiz_adj                      ;        ;;;;Cadizian
+c_algeciras_adj                  ;        ;;;;Algeciran
+c_aracena_adj                    ;        ;;;;Aracenan
+c_niebla_adj                     ;        ;;;;Nieblan
+d_asturias                       ;        ;;;;Asturias
+d_asturias_adj                   ;        ;;;;Asturian
+c_asturias_de_oviedo_adj         ;        ;;;;Oviedonian
+c_asturias_de_santillana_adj     ;        ;;;;Asturias de Santillanian
+c_coruna_adj                     ;        ;;;;Coruñan
+c_santiago_adj                   ;        ;;;;Santiagonian
+c_astorga_adj                    ;        ;;;;Astorgan
+c_leon_adj                       ;        ;;;;Léonian
+c_zamora_adj                     ;        ;;;;Zamoran
+c_salamanca_adj                  ;        ;;;;Salamancan
+c_plasencia_adj                  ;        ;;;;Plasencian
+c_alcantara_adj                  ;        ;;;;Alcantaran
+c_caceres_adj                    ;        ;;;;Caceresian
+c_badajoz_adj                    ;        ;;;;Badajozian
+d_porto                          ;        ;;Burtughal,Portukale;;Portucale
+d_porto_adj                      ;        ;;;;Portucalese
+c_porto_adj                      ;        ;;;;Portan
+c_braganza_adj                   ;        ;;;;Bragançan
+c_castelo_branco_adj             ;        ;;;;Castelo Branconian
+c_coimbra_adj                    ;        ;;;;Coimbran
+c_lisboa_adj                     ;        ;;;;Lisboan
+c_evora_adj                      ;        ;;;;Évoran
+c_alcacer_do_sal_adj             ;        ;;;;Alcácer do Salian
+c_mertola_adj                    ;        ;;;;Mértolan
+c_silves_adj                     ;        ;;;;Silvesian
+c_faro_adj                       ;        ;;;;Faronian
+c_canarias_adj                   ;        ;;;;Canarian
+c_makuria_adj                    ;        ;;;;Makurian
+c_nubia_adj                      ;        ;;;;Nubian
+k_arabia                         ;        ;;;;Arabia
+k_arabia_adj                     ;        ;;;;Arabian
+d_sinai                          ;        ;;;;Sinai
+d_sinai_adj                      ;        ;;;;Sinaite
+c_sinai_adj                      ;        ;;;;Sinaian
+c_eilat_adj                      ;        ;;;;Eilatian
+c_el-arish_adj                   ;        ;;;;El-Arishian
+d_arabia_petrae                  ;        ;;;;Arabia
+d_arabia_petrae_adj              ;        ;;;;Arabian
+c_al_aqabah_adj                  ;        ;;;;Al Aqabahian
+c_maan_adj                       ;        ;;;;Ma'anian
+c_tabuk_adj                      ;        ;;;;Tabukian
+c_petra_adj                      ;        ;;;;Petran
+c_al_jawf_adj                    ;        ;;;;Al Jawfian
+c_hijaz_adj                      ;        ;;;;Hijazian
+c_medina_adj                     ;        ;;;;Medinan
+c_mecca_adj                      ;        ;;;;Meccan
+c_asir_adj                       ;        ;;;;Asirian
+c_rafha_adj                      ;        ;;;;Rafhan
+c_hail_adj                       ;        ;;;;Hailian
+c_hajr_adj                       ;        ;;;;Hajrian
+c_halaban_adj                    ;        ;;;;Halabanian
+d_sanaa                          ;        ;;;;Sanaa
+d_sanaa_adj                      ;        ;;;;Sanaan
+c_bayda_adj                      ;        ;;;;Baydanian
+c_sanaa_adj                      ;        ;;;;Sanaan
+c_taizz_adj                      ;        ;;;;Taizzian
+c_aden_adj                       ;        ;;;;Adenian
+c_kathiri_adj                    ;        ;;;;Kathirian
+d_oman                           ;        ;;;;Oman
+d_oman_adj                       ;        ;;;;Omani
+c_dhu_zabi_adj                   ;        ;;;;Dhu Zabian
+c_hajar_adj                      ;        ;;;;Hajarian
+c_muscat_adj                     ;        ;;;;Muscatian
+c_duqm_adj                       ;        ;;;;Duqmian
+c_dhofar_adj                     ;        ;;;;Dhofarian
+c_mahra_adj                      ;        ;;;;Mahran
+k_abyssinia                      ;        ;;;;Abyssinia
+k_abyssinia_adj                  ;        ;;;;Abyssinian
+c_busaso_adj                     ;        ;;;;Busasonian
+c_berbera_adj                    ;        ;;;;Berberan
+c_harer_adj                      ;        ;;;;Harerian
+c_tadjoura_adj                   ;        ;;;;Tadjouran
+d_axum                           ;        ;;;;Axum
+d_axum_adj                       ;        ;;;;Axumite
+c_aksum_adj                      ;        ;;;;Axumite
+c_akordat_adj                    ;        ;;;;Akordatian
+c_kassala_adj                    ;        ;;;;Kassalan
+c_hayya_adj                      ;        ;;;;Hayyan
+c_atbara_adj                     ;        ;;;;Atbaran
+c_sennar_adj                     ;        ;;;;Sennarian
+d_gondar                         ;        ;;Semien;;Gondar
+d_gondar_adj                     ;        ;;;;Gondari
+c_asosa_adj                      ;        ;;;;Asosan
+c_ankober_adj                    ;        ;;;;Ankoberian
+c_gondar_adj                     ;        ;;;;Gondarian
+c_antalo_adj                     ;        ;;;;Antalonian
+c_matamma_adj                    ;        ;;;;Matamman
+k_jerusalem                      ;        ;;Filastin,Palaestina;;Jerusalem
+k_jerusalem_adj                  ;        ;;;;Jerusalemite
+d_oultrejourdain                 ;        ;;Palaestina Salutaris;;Oultrejourdain
+d_oultrejourdain_adj             ;        ;;;;Oultrejourdainian
+c_monreal_adj                    ;        ;;;;Monrealian
+c_kerak_adj                      ;        ;;;;Kerakian
+c_darum_adj                      ;        ;;;;Darumian
+c_jaffa_adj                      ;        ;;;;Jaffan
+c_ascalon_adj                    ;        ;;;;Ascalonian
+c_beersheb_adj                   ;        ;;;;Beershebian
+d_jerusalem                      ;        ;;Filastin,Palaestina Prima;;Jerusalem
+d_jerusalem_adj                  ;        ;;;;Jerusalemite
+c_jerusalem_adj                  ;        ;;;;Jerusalemite
+c_acre_adj                       ;        ;;;;Acrenian
+c_hebron_adj                     ;        ;;;;Hebronian
+c_tiberias_adj                   ;        ;;;;Tiberian
+c_beirut_adj                     ;        ;;;;Beirutian
+c_safed_adj                      ;        ;;;;Safedian
+c_asas_adj                       ;        ;;;;Asasian
+c_palmyra_adj                    ;        ;;;;Palmyran
+c_aleppo_adj                     ;        ;;;;Alepponian
+c_homs_adj                       ;        ;;;;Homsian
+c_hama_adj                       ;        ;;;;Haman
+c_antiocheia_adj                 ;        ;;;;Antiochian
+c_archa_adj                      ;        ;;;;Archan
+d_tripoli                        ;        ;;Tarabulus,Phoenice;;Tripoli
+d_tripoli_adj                    ;        ;;;;Tripolitanian
+c_tortosa_adj                    ;        ;;;;Tortosan
+c_tripoli_adj                    ;        ;;;;Tripolitanian
+c_baalbek_adj                    ;        ;;;;Baalbekian
+c_damascus_adj                   ;        ;;;;Damascan
+c_amman_adj                      ;        ;;;;Ammanian
+c_al_mafraq_adj                  ;        ;;;;Al Mafraqian
+d_syria                          ;        ;;;;Syria
+d_syria_adj                      ;        ;;;;Syrian
+c_druz_adj                       ;        ;;;;Druzian
+c_suwaida_adj                    ;        ;;;;Suwaidan
+k_england                        ;        ;;Angleterre,Angliétèrre,Ænglaland,Engelond,Ænglandi,Lloegyr,Britanniae,Brittannia;;England
+k_england_adj                    ;        ;;;;English
+d_oxford                         ;        ;;;;Oxford
+d_oxford_adj                     ;        ;;;;Oxfordian
+d_gloucester                     ;        ;;;;Hwicce
+d_gloucester_adj                 ;        ;;;;Hwiccan
+k_scotland_adj                   ;        ;;;;Scottish
+d_the_isles                      ;        ;;;;Man
+d_the_isles_adj                  ;        ;;;;Manx
+d_ulster                         ;        ;;Ulaidh,Uladh,Ullagh,Wledd,Ulley;;Ulster
+c_tyrone_adj                     ;        ;;;;Tir Eoghainian
+c_tyrconnell_adj                 ;        ;;;;Tyrconnellian
+d_connacht                       ;        ;;Chonnacht,Connacht,Kunnakster,Chonnaghtey;;Connacht
+c_oriel_adj                      ;        ;;;;Orielian
+c_kildare_adj                    ;        ;;;;Kildarian
+c_dublin_adj                     ;        ;;;;Dubliner
+d_leinster                       ;        ;;Laigin,Lion,Laistaðr;;Leinster
+c_ossory_adj                     ;        ;;;;Ossoryan
+d_munster                        ;        ;;Deas-Mhumhain;;Munster
+c_vestisland_adj                 ;        ;;;;West Icelandic
+c_austisland_adj                 ;        ;;;;East Icelandic
+c_faereyar_adj                   ;        ;;;;Fairy
+c_shetland_adj                   ;        ;;;;Shetlander
+c_orkney_adj                     ;        ;;;;Orcadians
+c_rogaland_adj                   ;        ;;;;Rogalander
+d_bohemia_adj                    ;        ;;;;Bohemian
+c_domazlice_adj                  ;        ;;;;Domazlician
+c_praha_adj                      ;        ;;;;Pragian
+c_boleslav_adj                   ;        ;;;;Boleslavian
+c_litomerice_adj                 ;        ;;;;Litomerician
+c_plzen_adj                      ;        ;;;;Plzenian
+d_moravia_adj                    ;        ;;;;Moravian
+c_hradec_adj                     ;        ;;;;Hradecian
+c_olomouc_adj                    ;        ;;;;Olomoucian
+c_brno_adj                       ;        ;;;;Brünnian
+d_abbasid                        ;        ;;;;Abbasid
+d_medina                         ;        ;;;;Medina
+d_medina_adj                     ;        ;;;;Medinan
+d_pronsk                         ;        ;;;;Pronsk
+d_pronsk_adj                     ;        ;;;;Pronskian
+d_sandomiersk                    ;        ;;;;Sandomiersk
+d_sandomiersk_adj                ;        ;;;;Sandomierskan
+d_satakunta                      ;        ;;;;Satakuntans
+d_satakunta_adj                  ;        ;;;;Satakuntan
+d_swiss                          ;        ;;;;Switzerland
+d_swiss_adj                      ;        ;;;;Swiss
+d_wielkopolska                   ;        ;;;;Wielkopolska
+d_wielkopolska_adj               ;        ;;;;Wielkopolskan
+k_almohad                        ;        ;;;;Almohad
+k_almohad_adj                    ;        ;;;;Almohad
+k_al-murabitids                  ;        ;;;;Al-Murabitids
+k_al-murabitids_adj              ;        ;;;;Al-Murabitid
+k_aydin                          ;        ;;;;Aydin
+k_beni_helal                     ;        ;;;;Beni Helal
+k_beni_helal_adj                 ;        ;;;;Beni Helali
+k_candar                         ;        ;;;;Candar
+k_candar_adj                     ;        ;;;;Candari
+k_eretnid                        ;        ;;;;Eretnid
+k_fatimids                       ;        ;;;;Fatimids
+k_fatimids_adj                   ;        ;;;;Fatimid
+k_germiyan                       ;        ;;;;Germiyan
+e_golden_horde                   ;        ;;;;Golden Horde
+e_golden_horde_adj               ;        ;;;;Mongol
+k_hammadid                       ;        ;;;;Hammadid
+e_il-khanate                     ;        ;;;;Ilkhanate
+k_kafsid                         ;        ;;;;Kafsid
+k_karaman                        ;        ;;;;Karaman
+k_karaman_adj                    ;        ;;;;Karamani
+k_marinid                        ;        ;;;;Marinid
+k_mentese                        ;        ;;;;Mentese
+k_naples                         ;        ;;;;Naples
+k_naples_adj                     ;        ;;;;Neapolitan
+k_nubia                          ;        ;;;;Nubia
+k_nubia_adj                      ;        ;;;;Nubian
+k_ottoman                        ;        ;;;;Ottoman Turks
+k_ottoman_adj                    ;        ;;;;Ottoman
+k_saruhan                        ;        ;;;;Saruhan
+k_saruhan_adj                    ;        ;;;;Saruhani
+k_tekke                          ;        ;;;;Tekke
+k_trinacria                      ;        ;;;;Trinacria
+k_trinacria_adj                  ;        ;;;;Trinacrian
+k_zenata                         ;        ;;;;Zenata
+k_zenata_adj                     ;        ;;;;Zenatan
+k_zirid                          ;        ;;;;Zirid
+k_ziyanids                       ;        ;;;;Ziyanids
+k_ziyanids_adj                   ;        ;;;;Ziyanid
+k_orthodox                       ;        ;;;;The Ecumenical Patriarchate
+k_orthodox_adj                   ;        ;;;;Patriarchal
+e_sunni                          ;        ;;;;The Sunni Caliphate
+e_sunni_adj                      ;        ;;;;Caliphal
+e_shiite                         ;        ;;;;The Shia Caliphate
+e_shiite_adj                     ;        ;;;;Caliphal
+d_hashshashin_adj                ;        ;;;;Hashshashin
+d_sunni_cuman_company            ;        ;;;;Khazar Company
+d_sunni_cuman_company_adj        ;        ;;;;Khazar
+d_shiite_cuman_company           ;        ;;;;Steppe Company
+d_shiite_cuman_company_adj       ;        ;;;;Steppe
+d_sunni_turkic_company           ;        ;;;;Turkmen Company
+d_sunni_turkic_company_adj       ;        ;;;;Turkmen
+d_shiite_turkic_company          ;        ;;;;Turkoman Company
+d_shiite_turkic_company_adj      ;        ;;;;Turkoman
+d_sunni_berber_company           ;        ;;;;Berber Company
+d_sunni_berber_company_adj       ;        ;;;;Berber
+d_shiite_berber_company          ;        ;;;;Tuareg Company
+d_shiite_berber_company_adj      ;        ;;;;Berber
+d_sunni_bedouin_company          ;        ;;;;Arab Company
+d_sunni_bedouin_company_adj      ;        ;;;;Arab
+d_shiite_bedouin_company         ;        ;;;;Bedouin Company
+d_shiite_bedouin_company_adj     ;        ;;;;Bedouin
+d_teutonic_order                 ;        ;;;;Teutonic Order
+d_teutonic_order_adj             ;        ;;;;Teutonic
+d_knights_templar                ;        ;;;;Knights Templar
+d_knights_templar_adj            ;        ;;;;Templar
+d_knights_hospitaler             ;        ;;;;Knights Hospitaller
+d_knights_hospitaler_adj         ;        ;;;;Hospitaller
+d_varangian_guard                ;        ;;;;Varangian Guard
+d_varangian_guard_adj            ;        ;;;;Varangian
+d_cuman_company                  ;        ;;;;Cuman Company
+d_cuman_company_adj              ;        ;;;;Cuman
+d_rus_company                    ;        ;;;;Rus Company
+d_rus_company_adj                ;        ;;;;Rus
+d_pecheneg_company               ;        ;;;;Pecheneg Company
+d_pecheneg_company_adj           ;        ;;;;Pecheneg
+d_bulgarian_company              ;        ;;;;Bulgarian Company
+d_bulgarian_company_adj          ;        ;;;;Bulgarian
+d_turkic_company                 ;        ;;;;Turkic Company
+d_turkic_company_adj             ;        ;;;;Turkic
+d_breton_company                 ;        ;;;;Breton Company
+d_breton_company_adj             ;        ;;;;Breton
+d_swiss_company                  ;        ;;;;Swiss Company
+d_swiss_company_adj              ;        ;;;;Swiss
+d_navarrese_company              ;        ;;;;Navarrese Company
+d_navarrese_company_adj          ;        ;;;;Navarrese
+d_catalan_company                ;        ;;;;Catalan Company
+d_catalan_company_adj            ;        ;;;;Catalan
+d_rose_company                   ;        ;;;;Company of the Rose
+d_rose_company_adj               ;        ;;;;Rose
+d_little_hat_company             ;        ;;;;Company of the Hat
+d_little_hat_company_adj         ;        ;;;;Hat
+d_star_company                   ;        ;;;;Company of the Star
+d_star_company_adj               ;        ;;;;Star
+d_company_of_st_george           ;        ;;;;Company of St. George
+d_company_of_st_george_adj       ;        ;;;;St. Georgian
+d_great_company                  ;        ;;;;Great Company
+d_great_company_adj              ;        ;;;;Mercenary
+d_white_company                  ;        ;;;;White Company
+d_white_company_adj              ;        ;;;;Mercenary
+d_victual_brothers               ;        ;;;;Victual Brothers
+d_victual_brothers_adj           ;        ;;;;Victual
+d_lombard_band                   ;        ;;;;Lombard Band
+d_lombard_band_adj               ;        ;;;;Lombard
+d_swiss_band                     ;        ;;;;Swiss Band
+d_swiss_band_adj                 ;        ;;;;Swiss
+d_breton_band                    ;        ;;;;Breton Band
+d_breton_band_adj                ;        ;;;;Breton
+d_catalan_band                   ;        ;;;;Catalan Band
+d_catalan_band_adj               ;        ;;;;Catalan
+d_saxon_band                     ;        ;;;;Saxon Band
+d_saxon_band_adj                 ;        ;;;;Saxon
+d_cuman_band                     ;        ;;;;Cuman Band
+d_cuman_band_adj                 ;        ;;;;Cuman
+d_rus_band                       ;        ;;;;Rus Band
+d_rus_band_adj                   ;        ;;;;Rus
+d_pecheneg_band                  ;        ;;;;Pecheneg Band
+d_pecheneg_band_adj              ;        ;;;;Pecheneg
+d_bulgarian_band                 ;        ;;;;Bulgarian Band
+d_bulgarian_band_adj             ;        ;;;;Bulgarian
+d_turkic_band                    ;        ;;;;Turkic Band
+d_turkic_band_adj                ;        ;;;;Turkic
+PROV3                            ;        ;;c_tyrconnell,Tír Chonaill,Çheer Chonnal;;Tyrconnell
+PROV4                            ;        ;;c_tyrone,Thír Eoghain,Heer Eoin,Tyrone,Tyrowen;;Tyrone
+PROV7                            ;        ;;c_oriel,Airgíalla,Oirialla,Oriel;;Oriel
+PROV10                           ;        ;;c_kildare,Chill Dara,Cheeill Darey;;Kildare
+PROV11                           ;        ;;c_dublin,Dunbhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;;Dublin
+PROV12                           ;        ;;c_ossory,Osraige;;Ossory
+PROV17                           ;        ;;c_hereford,Ergyng;;Hereford
+PROV20                           ;        ;;c_gwent,Gwent,Isca Augusta;;Gwent
+PROV21                           ;        ;;c_gloucester,Gleawcester,Caer Gloui,Glevum;;Gloucester
+PROV22                           ;        ;;c_oxford,Oxnaford,Rhydychen;;Oxford
+PROV23                           ;        ;;c_wiltshire,Wiltun,Caer Gradawc;;Wiltshire
+PROV24                           ;        ;;c_surrey,Suðríki,Suþrïge;;Surrey
+PROV25                           ;        ;;c_sussex,Suðseaxe,Süþseaxe,Rhegin;;Sussex
+PROV26                           ;        ;;c_winchester,Hamtun,Ouînchêtre,Winchester,Caer Gwynntguic;;Winchester
+PROV29                           ;        ;;c_devon,Defena,Dyfnaint,Isca Dumnoniorum;;Devon
+PROV30                           ;        ;;c_worcester,Wigreceaster,Gaerwrangon;;Worcester
+PROV31                           ;        ;;c_cornwall,Cornweal,Cernyw,Kernow;;Cornwall
+PROV32                           ;        ;;c_middlesex,Miðseaxe,Middleseaxe,Caer Llundain,Caer Lundein,Londinium,Londinion;;Middlesex
+PROV38                           ;        ;;c_teviotdale,Rosbroch,Roxburgh,Roxburg,Roxborg;;Teviotdale
+PROV39                           ;        ;;c_ross,Ros,Ross;;Ross
+PROV40                           ;        ;;c_moray,Moireibh,Moray;;Moray
+PROV41                           ;        ;;c_buchan,Buchan,Bhanbh;;Buchan
+PROV42                           ;        ;;c_strathearn,Srath Èireann,Strathearn;;Strathearn
+PROV43                           ;        ;;c_gowrie,Gobharaidh,Gowrie;;Gowrie
+PROV44                           ;        ;;c_atholl,Athall,Atholl;;Atholl
+PROV45                           ;        ;;c_argyll,Earra Ghaidheal,Argyll;;Argyll
+PROV46                           ;        ;;c_fife,Fìobha,Fife;;Fife
+PROV47                           ;        ;;c_clydesdale,Clydesdale;;Clydesdale
+PROV48                           ;        ;;c_lothian,Lodainn,Lleuddiniawn,Lothian;;Lothian
+PROV49                           ;        ;;c_carrick,A' Charraig,Carrick;;Carrick
+PROV50                           ;        ;;c_galloway,Gall Ghaidheal,Galloway;;Galloway
+PROV51                           ;        ;;c_dunbar,Bearaig-a-Deas,Berik,Caerferwig,Berwick,Berewic;;Dunbar
+PROV52                           ;        ;;c_northumberland,Norðhymbraland,Norþhymbraland,Brynaich;;Northumberland
+PROV53                           ;        ;;c_cumberland,Cumbraland,Cair Ligualid,Cathair Luail,Luguvalium;;Cumberland
+PROV54                           ;        ;;c_isle_of_man,Mano,Vannin,Manau,Mann,Mön;;Isle of Man
+PROV55                           ;        ;;c_westmorland,Vestmoringaland,Westmoringaland,Dunoting;;Westmorland
+PROV56                           ;        ;;c_durham,Dunholm,Duresme;;Durham
+PROV58                           ;        ;;c_lancaster,Lonceaster,Loncastre,Argoed;;Lancaster
+PROV59                           ;        ;;c_chester,Legeceaster,Cestre,Gaerlleon,Deva;;Chester
+PROV60                           ;        ;;c_perfeddwlad,Berfeddwlad,Perfeddwlad;;Perfeddwlad
+PROV61                           ;        ;;c_lincoln,Lincylene,Linnius,Lindum,Lindon;;Lincoln
+PROV62                           ;        ;;c_leicester,Ligeraceaster,Ledecestre,Caer Lerion,Ratae,Rate;;Leicester
+PROV63                           ;        ;;c_derby,Djúrabý,Deorby;;Derby
+PROV64                           ;        ;;c_gwynedd,Gwynedd,Caernarvon;;Gwynedd
+PROV66                           ;        ;;c_shrewsbury,Scrobbesbyrig,Pengwern;;Shrewsbury
+PROV67                           ;        ;;c_warwick,Wæring;;Warwick
+PROV68                           ;        ;;c_northampton,Norðhamtun,Norþhamtun,Hante,Calchwynedd,Cynwidion;;Northampton
+PROV69                           ;        ;;c_bedford,Beadanford;;Bedford
+PROV70                           ;        ;;c_norfolk,Norðfolc,Norþfolc,Caer went,Caer Went;;Norfolk
+PROV71                           ;        ;;c_suffolk,Suðfolc,Suþfolc;;Suffolk
+PROV72                           ;        ;;c_essex,Austseaxe,Eastseaxe,Caer Colun,Camulodunum,Camulodunon;;Essex
+PROV73                           ;        ;;c_kent,Cent,Ceint;;Kent
+PROV74                           ;        ;;c_guines,Giezene;;Guines
+PROV75                           ;        ;;c_boulogne,Bonen;;Boulogne
+PROV76                           ;        ;;c_yperen,Ieper;;Yperen
+PROV77                           ;        ;;c_artois,Artesië;;Artois
+PROV78                           ;        ;;c_brugge;;Brugge
+PROV79                           ;        ;;c_zeeland;;Zeeland
+PROV80                           ;        ;;c_holland;;Holland
+PROV81                           ;        ;;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;;Westfriesland
+PROV82                           ;        ;;c_sticht;;Sticht
+PROV83                           ;        ;;c_gelre;;Gelre
+PROV84                           ;        ;;c_frisia,Fresland,Friesland,Frise;;Friesland
+PROV85                           ;        ;;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;;Ostfriesland
+PROV86                           ;        ;;c_oldenburg;;Oldenburg
+PROV87                           ;        ;;c_osnabruck;;Osnabrück
+PROV88                           ;        ;;c_munster;;Münster
+PROV90                           ;        ;;c_julich,Gulik,Juliers;;Jülich
+PROV91                           ;        ;;c_loon,Looz;;Loon
+PROV93                           ;        ;;c_gent;;Gent
+PROV95                           ;        ;;c_amiens,Samarobriva;;Amiens
+PROV96                           ;        ;;c_eu;;Eu
+PROV97                           ;        ;;c_arques;;Rouen
+PROV98                           ;        ;;c_vexin;;Vexin
+PROV99                           ;        ;;c_evreux;;Évreux
+PROV107                          ;        ;;c_anjou,Iuliomagus,Iouliomagos;;Anjou
+PROV108                          ;        ;;c_maine,Vindunum,Ouindinon;;Maine
+PROV109                          ;        ;;c_vendome;;Vendôme
+PROV110                          ;        ;;c_blois;;Blois
+PROV111                          ;        ;;c_chartres;;Chartres
+PROV113                          ;        ;;c_vermandois;;Vermandois
+PROV115                          ;        ;;c_luxembourg,Lützelburg,Lutzelburg;;Luxembourg
+PROV116                          ;        ;;c_liege,Lüttich,Luik,Liége;;Liege
+PROV118                          ;        ;;c_trier,Trèves,Augusta Treverorum,Augousta Treverorum;;Trier
+PROV119                          ;        ;;c_koln,Keulen,Cologne;;Köln
+PROV121                          ;        ;;c_nassau;;Nassau
+PROV123                          ;        ;;c_mainz,Mogontiacum,Mogontiakon;;Mainz
+PROV124                          ;        ;;c_pfalz,Palts,Pfalz,Palatinat;;Pfalz
+PROV125                          ;        ;;c_baden;;Baden
+PROV126                          ;        ;;c_nordgau,Noordgouw;;Nordgau
+PROV128                          ;        ;;c_metz;;Metz
+PROV129                          ;        ;;c_verdun,Wirtten;;Verdun
+PROV134                          ;        ;;c_sundgau,Sundgouw;;Sundgau
+PROV136                          ;        ;;c_dijon;;Dijon
+PROV137                          ;        ;;c_nevers,Nevirnum;;Nevers
+PROV138                          ;        ;;c_orleans,Cenabum,Kenabon;;Orléans
+PROV140                          ;        ;;c_tourraine;;Tours
+PROV141                          ;        ;;c_poitiers,Lemonum,Limounon;;Poitiers
+PROV142                          ;        ;;c_thouars;;Thouars
+PROV143                          ;        ;;c_saintonge;;Saintonge
+PROV144                          ;        ;;c_lusignan;;Lusignan
+PROV145                          ;        ;;c_la_marche;;La Marche
+PROV146                          ;        ;;c_bourbon;;Bourbon
+PROV147                          ;        ;;c_limousin,Augustoritum,Augoustoriton;;Limousin
+PROV148                          ;        ;;c_angouleme,Iculisma;;Angoulême
+PROV149                          ;        ;;c_bordeaux,Burdigala,Bourdigala;;Bordeaux
+PROV151                          ;        ;;c_labourd;;Dax
+PROV152                          ;        ;;c_navarra,al-Nahara,Nafarroa,Navarre;;Navarra
+PROV153                          ;        ;;c_viscaya,Bisqayya,Bizkaia,Biscaye,Biscaia;;Viscaya
+PROV157                          ;        ;;c_santiago,Yaqquba,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;;Santiago
+PROV159                          ;        ;;c_coimbra,Qulumriyah,Koimbra,Coimbre,Coímbra,Coïmbra,Aeminium,Aeminion;;Coimbra
+PROV160                          ;        ;;c_lisboa,Lishbuna,Lisbona,Lisbonne,Olisipo,Olioseipon;;Lisboa
+PROV161                          ;        ;;c_alcacer_do_sal,al-Qasr-al-Baja,Alcàsser de la Sal,Alcázar de Sal,Gatza Gaztelua,Château du Sel,Salacia Imperatoria,Salakeia;;Alcácer do Sal
+PROV162                          ;        ;;c_silves,Shleb,Silbes;;Silves
+PROV163                          ;        ;;c_faro,Uhshunubah,Faru,Phare,Ossonoba;;Faro
+PROV164                          ;        ;;c_niebla,Lebla,Nieble;;Niebla
+PROV166                          ;        ;;c_algeciras,al-Yazira al-Jadra,Alchezira,Algesires,Algésiras,Algecires,Gades,Gadeira;;Algeciras
+PROV167                          ;        ;;c_malaga,Malaqa,Màlaga,Malaga,Malaca,Malaka;;Malaga
+PROV168                          ;        ;;c_almeria,al-Mariyyat,Almérie,Almeria;;Almeria
+PROV169                          ;        ;;c_murcia,Mursiya,Múrcia,Murtzia,Murcie;;Murcia
+PROV170                          ;        ;;c_denia,Deniyya,Dénia,Denya,Dianium,Dianion;;Denia
+PROV171                          ;        ;;c_valencia,Balansiyya,València,Balentzia,Valência,Valence,Valentia,Oualentia;;Valencia
+PROV172                          ;        ;;c_castellon,Marmariya,Castelló,Gaztelu,Castelhão;;Castellon
+PROV175                          ;        ;;c_calatayud,Qal'at Ayyub,Calatayú,Calataiud,Kalataiud;;Calatayud
+PROV176                          ;        ;;c_molina,Barusa;;Molina
+PROV177                          ;        ;;c_cuenca,Qunka,Conca,Kuenka,Conque;;Cuenca
+PROV180                          ;        ;;c_granada,Gharnaatah,Grenade,Iliberri,Illiberis;;Granada
+PROV181                          ;        ;;c_cordoba,Qurtubah,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;;Cordoba
+PROV184                          ;        ;;c_badajoz,Balad al-Iawz,Badaxoz,Badalhouce;;Badajoz
+PROV185                          ;        ;;c_mertola,Martulah,Myrtilis Iulia,Myrtilis Ioulia;;Mértola
+PROV186                          ;        ;;c_evora,Yabura,Ebora,Eboura;;Évora
+PROV187                          ;        ;;c_castelo_branco,Abiad al-Qal'at,Castiello Blanco,Châteaublanc,Castiellu Blancu,Castillo Blanco,Castrobranco,Gaztelu Zuria,Castell Blanc;;Castelo Branco
+PROV188                          ;        ;;c_braganza,Bragansiyya,Bragance,Bragança,Bragantza,Bergancia,Braganza;;Bragança
+PROV189                          ;        ;;c_astorga,Sturiyya,Estorga,Astorgue,Asturica Augusta,Astourika Augousta;;Astorga
+PROV190                          ;        ;;c_leon,al-Uyun,Llión,Lleó,Leão,Leyón;;León
+PROV191                          ;        ;;c_zamora,Samurah,Samora,Ocelum Duri,Okelon;;Zamora
+PROV192                          ;        ;;c_salamanca,al-Mantiqa,Salamanque,Salamantica,Salmantika;;Salamanca
+PROV193                          ;        ;;c_alcantara,al-Qantara,Alcàntara,Alkantara,Alcântara;;Alcantara
+PROV194                          ;        ;;c_plasencia,Blasinsiyya,Plasence,Praséncia,Plasència,Plasentzia;;Plasencia
+PROV196                          ;        ;;c_calatrava,Qal'at Rabah,Kalatraba,Calatrave;;Calatrava
+PROV197                          ;        ;;c_toledo,Tulaytulah,Tolède,Toletum,Toleton;;Toledo
+PROV198                          ;        ;;c_valladolid,Balad al-Walid,Baiadolitz,Valhadolide,Valladolit;;Valladolid
+PROV199                          ;        ;;c_burgos,Burchia;;Burgos
+PROV200                          ;        ;;c_soria,Suria,Sòria,Sória,Sorie;;Soria
+PROV201                          ;        ;;c_najera,Náxara,Naiara,Nàxera,Náxera,Nachera,Najéra;;Nájera
+PROV202                          ;        ;;c_zaragoza,Saraqusta,Saragossa,Saragoça,Saragosse,Caesaraugusta,Kaisaraugousta;;Zaragoza
+PROV203                          ;        ;;c_lleida,Larida,Lérida,Leida,Léria,Ilerda;;Lleida
+PROV204                          ;        ;;c_barcelona,Barshiluna,Bartzelona,Barcelone,Barcino,Barkinon;;Barcelona
+PROV205                          ;        ;;c_empuries,Ympuriyyah,Ampurias,Empouries,Empúries,Ampúrias,Empuries,Emporiae,Emporion;;Empuries
+PROV206                          ;        ;;c_urgell,Urgil,Urgel,Urchel,Urtxelu;;Urgell
+PROV207                          ;        ;;c_alto_aragon,Aragu'un al-Hala,Alt Aragó,Aragoi Garaia,Alto Aragão,Altu Aragón,Haut Aragon;;Alto Aragón
+PROV208                          ;        ;;c_bearn;;Béarn
+PROV209                          ;        ;;c_armagnac;;Armagnac
+PROV211                          ;        ;;c_rosello,Rusl'un,Rozeion,Roussillon,Rosellón,Roselló,Rossilhão,Ruscino,Rhouskinon;;Rosello
+PROV215                          ;        ;;c_agen;;Agen
+PROV216                          ;        ;;c_perigord,Vesunna,Ouesouna;;Périgord
+PROV221                          ;        ;;c_provence,Massilia,Massalia;;Provence
+PROV222                          ;        ;;c_venaissin,Avenio,Auenion;;Venaissin
+PROV224                          ;        ;;c_forez;;Forez
+PROV225                          ;        ;;c_macon;;Mâcon
+PROV226                          ;        ;;c_charolais;;Charolais
+PROV227                          ;        ;;c_lyon,Lugdunum,Lougdounon;;Lyon
+PROV231                          ;        ;;c_saluzzo;;Saluzzo
+PROV232                          ;        ;;c_monferrato,Hasta,Asta;;Monferrato
+PROV234                          ;        ;;c_pavia,Ticinum,Tikinon;;Pavia
+PROV238                          ;        ;;c_valais;;Valais
+PROV239                          ;        ;;c_geneve,Genava,Genoia;;Genève
+PROV240                          ;        ;;c_chalons;;Chalons
+PROV241                          ;        ;;c_neuchatel;;Neuchatel
+PROV242                          ;        ;;c_aargau;;Aargau
+PROV243                          ;        ;;c_orvieto,Volsinii,Ouolsinion;;Orvieto
+PROV245                          ;        ;;c_schwyz;;Schwyz
+PROV247                          ;        ;;c_chur,Curia;;Chur
+PROV250                          ;        ;;c_breisgau;;Breisgau
+PROV251                          ;        ;;c_furstenberg;;Fürstenberg
+PROV252                          ;        ;;c_ulm;;Ulm
+PROV253                          ;        ;;c_wurttemberg;;Württemberg
+PROV254                          ;        ;;c_wurzburg;;Würzburg
+PROV255                          ;        ;;c_thuringen;;Thüringen
+PROV256                          ;        ;;c_weimar;;Weimar
+PROV257                          ;        ;;c_braunschweig;;Braunschweig
+PROV258                          ;        ;;c_luneburg;;Lüneburg
+PROV262                          ;        ;;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;;Lübeck
+PROV281                          ;        ;;c_angermanland;;Ångermanland
+PROV286                          ;        ;;c_gastrikland,Gestrikland;;Gästrikland
+PROV287                          ;        ;;c_dalarna,Jernbæraland;;Järnbäraland
+PROV289                          ;        ;;c_vastmanland,Vestmanland;;Västmanland
+PROV291                          ;        ;;c_aland;;Åland
+PROV292                          ;        ;;c_sodermanland,Sødermanland;;Södermanland
+PROV293                          ;        ;;c_ostergotland,Austrgautland,Østergøtland;;Östergötland
+PROV295                          ;        ;;c_dal;;Dal
+PROV299                          ;        ;;c_farah,Prophthasia;;Farrah
+PROV300                          ;        ;;c_oland,Øland;;Öland
+PROV301                          ;        ;;c_gotland,Gautland,Gulland;;Gotland
+PROV306                          ;        ;;c_rostock,Roztok,Rozstoc,Rostoch;;Rostock
+PROV307                          ;        ;;c_werle,Orle;;Werle
+PROV309                          ;        ;;c_altmark;;Altmark
+PROV310                          ;        ;;c_anhalt,Chutizi;;Anhalt
+PROV312                          ;        ;;c_meissen,Dalaminza;;Meissen
+PROV313                          ;        ;;c_bamberg;;Bamberg
+PROV314                          ;        ;;c_nurnberg;;Nürnberg
+PROV315                          ;        ;;c_kempten,Cambodunum;;Kempten
+PROV316                          ;        ;;c_tirol;;Tirol
+PROV317                          ;        ;;c_trent,Tridentum,Tridente;;Trent
+PROV318                          ;        ;;c_brescia,Brixia;;Brescia
+PROV319                          ;        ;;c_verona,Ouerona;;Verona
+PROV320                          ;        ;;c_cremona,Kremone;;Cremona
+PROV321                          ;        ;;c_parma;;Parma
+PROV322                          ;        ;;c_modena,Mutina,Moutine;;Modena
+PROV323                          ;        ;;c_lucca,Luca,Louka;;Lucca
+PROV325                          ;        ;;c_arborea;;Arborea
+PROV326                          ;        ;;c_cagliari,Caralis,Karalis;;Cagliari
+PROV327                          ;        ;;c_pisa,Pisae,Pisai;;Pisa
+PROV328                          ;        ;;c_firenze,Florentia,Phlorentia;;Firenze
+PROV329                          ;        ;;c_urbino,Urbinium,Ourbinon;;Urbino
+PROV330                          ;        ;;c_siena,Saena;;Siena
+PROV334                          ;        ;;c_napoli,Neapolis;;Napoli
+PROV335                          ;        ;;c_benevento,Beneventum,Beneuenton;;Benevento
+PROV336                          ;        ;;c_salerno,Salernon;;Salerno
+PROV344                          ;        ;;c_taranto,Tarentum,Taras;;Taranto
+PROV345                          ;        ;;c_lecce,Hydruntum,Hydrunton;;Lecce
+PROV346                          ;        ;;c_bari,Barium,Barion;;Bari
+PROV349                          ;        ;;c_spoleto,Spoletium,Spoletion;;Spoleto
+PROV350                          ;        ;;c_ancona,Ankon;;Ancona
+PROV351                          ;        ;;c_ravenna,Rhaouenna;;Ravenna
+PROV352                          ;        ;;c_bologna,Bononia;;Bologna
+PROV353                          ;        ;;c_ferrara,Ferraria;;Ferrara
+PROV354                          ;        ;;c_mantua,Mantoua;;Mantua
+PROV355                          ;        ;;c_padova,Patavium,Pataouion;;Padua
+PROV357                          ;        ;;c_treviso,Tarvisium,Tarbision;;Treviso
+PROV358                          ;        ;;c_aquileia,Akouileia;;Aquileia
+PROV360                          ;        ;;c_oberbayern;;Oberbayern
+PROV361                          ;        ;;c_niederbayern,Castra Regina;;Niederbayern
+PROV365                          ;        ;;c_brandenburg,Branibór,Braniborz,Brennaburg,Brenna;;Brandenburg
+PROV366                          ;        ;;c_stettin,Štetín,Szczecin,Szczëtno;;Stettin
+PROV368                          ;        ;;c_danzig,Gdansk,Gyddanyzc;;Danzig
+PROV388                          ;        ;;c_karelen;;Karjala
+PROV411                          ;        ;;c_vodi;;Ingria
+PROV433                          ;        ;;c_opole,Uppeln;;Opole
+PROV449                          ;        ;;c_osterreich,Vindobona,Ouindobouna;;Österreich
+PROV455                          ;        ;;c_steiermark;;Steiermark
+PROV456                          ;        ;;c_karnten;;Kärnten
+PROV461                          ;        ;;c_zagreb,Andautonia,Agram,Zágráb,Zagabria;;Zagreb
+PROV463                          ;        ;;c_usora;;Usora
+PROV502                          ;        ;;c_rashka,Rascia,Rashkës;;Rashka
+PROV506                          ;        ;;c_vidin,Bononia,Bodony,Diiu;;Vidin
+PROV509                          ;        ;;c_karvuna,Krounoi,Balçik;;Karvuna
+PROV514                          ;        ;;c_turnu,Holavnik;;Turnu
+PROV515                          ;        ;;c_tirgoviste;;Tirgoviste
+PROV516                          ;        ;;c_severin,Szörényvár;;Severin
+PROV521                          ;        ;;c_csanad,Tschanad,Cenad,Chanad,Chanád,Morisena;;Csanad
+PROV526                          ;        ;;c_cieszyn,Teschen;;Cieszyn
+PROV529                          ;        ;;c_plock;;Plock
+PROV535                          ;        ;;c_vladimir_volynsky;;Vladimir Volynsky
+PROV560                          ;        ;;c_cherson,Gothia Maritima,Cherson,Korsun;;Cherson
+PROV561                          ;        ;;c_theodosia,Sudaq,Kefe,Cafà,Caffa,Kaffa;;Theodosia
+PROV600                          ;        ;;c_abkhazia;;Abkhazia
+PROV601                          ;        ;;c_imeretia;;Imeretia
+PROV649                          ;        ;;c_basra;;Basra
+PROV650                          ;        ;;c_kuwait;;Kuwait
+PROV651                          ;        ;;c_damman;;Damman
+PROV652                          ;        ;;c_al_hasa;;Al Hasa
+PROV653                          ;        ;;c_bahrein;;Bahrein
+PROV655                          ;        ;;c_kufa;;Kufa
+PROV656                          ;        ;;c_tigris;;Tigris
+PROV657                          ;        ;;c_luristan;;Luristan
+PROV667                          ;        ;;c_tabriz;;Tabriz
+PROV668                          ;        ;;c_shirvan;;Shirvan
+PROV669                          ;        ;;c_shemakha;;Shemakha
+PROV670                          ;        ;;c_azerbaijan;;Azerbaijan
+PROV671                          ;        ;;c_suenik,Sünik,Siwnik;;Suenik
+PROV672                          ;        ;;c_dwin,Doúbios,Erivan,Dabil;;Dwin
+PROV673                          ;        ;;c_albania;;Albania
+PROV674                          ;        ;;c_derbent;;Derbent
+PROV676                          ;        ;;c_kakheti;;Kakheti
+PROV677                          ;        ;;c_guria;;Guria
+PROV678                          ;        ;;c_trapezous,Trabzun,Trapizon,T'rap'izoni,Trébizonde,Trebisonda;;Trapezous
+PROV679                          ;        ;;c_kartli;;Kartli
+PROV680                          ;        ;;c_tao;;Tao
+PROV681                          ;        ;;c_ani,Anion,Anisi,Anî;;Ani
+PROV682                          ;        ;;c_vaspurakan,Vaasprakania,Van,Wan;;Vaspurakan
+PROV683                          ;        ;;c_amida,Tigranakert,Diyar-i Bekr,Âmid,Amed;;Amida
+PROV684                          ;        ;;c_nisibin,Barqa'id;;Nisibin
+PROV685                          ;        ;;c_kurdistan;;Kurdistan
+PROV686                          ;        ;;c_oromieh,Vormi,Ourmia,Urmiyah,Urmiye,Urmê;;Oromieh
+PROV687                          ;        ;;c_kirkuk,Corcura,Korkyra;;Kirkuk
+PROV688                          ;        ;;c_kermanshah;;Kermanshah
+PROV690                          ;        ;;c_al_amarah;;Al Amarah
+PROV691                          ;        ;;c_al_nasiryah;;Al Nasiryah
+PROV692                          ;        ;;c_al_nadjaf;;Al Nadjaf
+PROV693                          ;        ;;c_baghdad,Ctesiphon,Ktesiphon;;Baghdad
+PROV694                          ;        ;;c_karbala;;Karbala
+PROV695                          ;        ;;c_deir,Anatha;;Deir
+PROV697                          ;        ;;c_mosul,Mepsila;;Mosul
+PROV698                          ;        ;;c_al_jazira;;Al Jazira
+PROV699                          ;        ;;c_edessa,Ar-Ruha,Urfa,Riha;;Edessa
+PROV700                          ;        ;;c_bira;;Bira
+PROV706                          ;        ;;c_koloneia,Šebin Kara Hisar,Kogoniya;;Koloneia
+PROV707                          ;        ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî;;Melitene
+PROV710                          ;        ;;c_al_bichri,Circesium,Kirkesion;;Al Bichri
+PROV711                          ;        ;;c_sinjar,Singara;;Sinjar
+PROV715                          ;        ;;c_al_habbariyah;;Al Habbariyah
+PROV718                          ;        ;;c_medina;;Medina
+PROV719                          ;        ;;c_mecca;;Mecca
+PROV721                          ;        ;;c_tabuk;;Tabuk
+PROV730                          ;        ;;c_palmyra;;Palmyra
+PROV732                          ;        ;;c_hama,Epiphania;;Hama
+PROV764                          ;        ;;c_antiocheia,Antakiya,Antiok;;Antioch
+PROV766                          ;        ;;c_tortosa,Antartus,Antarados;;Tortosa
+PROV767                          ;        ;;c_tripoli,Tarabulus;;Tripoli
+PROV770                          ;        ;;c_beirut,Berytus,Berytos;;Beirut
+PROV772                          ;        ;;c_acre,Akka,Ptolemais;;Acre
+PROV773                          ;        ;;c_tiberias;;Tiberias
+PROV775                          ;        ;;c_jaffa,Ioppe,Ioppa;;Jaffa
+PROV777                          ;        ;;c_kerak,Al-Karak;;Kerak
+PROV778                          ;        ;;c_monreal,Shobak;;Monreal
+PROV780                          ;        ;;c_ascalon,Asqalan;;Ascalon
+PROV783                          ;        ;;c_maan;;Maan
+PROV784                          ;        ;;c_al_aqabah;;Al 'Aqabah
+PROV787                          ;        ;;c_el-arish,Pelusium,Pelousion;;El-Arish
+PROV792                          ;        ;;c_nubia,Pachoras,Pakhôras,Para;;Nubia
+PROV793                          ;        ;;c_makuria;;Makuria
+PROV794                          ;        ;;c_aswan,Syene;;Aswan
+PROV795                          ;        ;;c_asyut,Lycopolis,Lykopolis;;Asyut
+PROV796                          ;        ;;c_cairo,Babylon,Phystaton;;Cairo
+PROV809                          ;        ;;c_syrte,Macomades;;Syrte
+PROV810                          ;        ;;c_leptis_magna,Lepcis Magna,Labda;;Leptis Magna
+PROV811                          ;        ;;c_tripolitana;;Tripolitana
+PROV812                          ;        ;;c_malta;;Malta
+PROV813                          ;        ;;c_djerba,Girba;;Djerba
+PROV814                          ;        ;;c_gabes,Tacapae,Tacape;;Gabes
+PROV815                          ;        ;;c_kairwan,Thysdrus;;Kairwan
+PROV826                          ;        ;;c_menorca,Manurqa,Menorka,Minorque,Minorca;;Menorca
+PROV827                          ;        ;;c_mallorca,Mayurqa,Maiorka,Maiorca,Majorque;;Mallorca
+PROV848                          ;        ;;c_bremen;;Bremen
+PROV850                          ;        ;;c_kandalax;;Kantalahti
+PROV851                          ;        ;;c_capua,Kapue;;Capua
+PROV855                          ;        ;;c_mahra;;Mahra
+PROV856                          ;        ;;c_kathiri;;Kathiri
+PROV857                          ;        ;;c_bayda;;Bayda
+PROV858                          ;        ;;c_aden;;Aden
+PROV859                          ;        ;;c_taizz;;Taizz
+PROV860                          ;        ;;c_sanaa;;Sanaa
+PROV861                          ;        ;;c_asir;;Asir
+PROV862                          ;        ;;c_halaban;;Halaban
+PROV863                          ;        ;;c_hajr;;Hajr
+PROV864                          ;        ;;c_hail;;Hail
+PROV866                          ;        ;;c_dhofar;;Dhofar
+PROV867                          ;        ;;c_duqm;;Duqm
+PROV868                          ;        ;;c_muscat;;Muscat
+PROV869                          ;        ;;c_hajar;;Hajar
+PROV870                          ;        ;;c_dhu_zabi;;Dhu Zabi
+PROV871                          ;        ;;c_busaso;;Busaso
+PROV872                          ;        ;;c_berbera;;Berbera
+PROV874                          ;        ;;c_tadjoura;;Tadjoura
+PROV875                          ;        ;;c_aksum;;Aksum
+PROV877                          ;        ;;c_kassala;;Kassala
+PROV879                          ;        ;;c_atbara;;Atbara
+PROV880                          ;        ;;c_sennar;;Sennar
+PROV881                          ;        ;;c_asosa;;Asosa
+#text2.csv;;
+d_mamluks                        ;        ;;;;Mamluks
+d_mamluks_adj                    ;        ;;;;Mamluk
+d_amman                          ;        ;;;;Damman
+d_amman_adj                      ;        ;;;;Dammani
+c_carcassonne_adj                ;        ;;;;Carcassonian
+e_timurids                       ;        ;;;;Timurids
+e_timurids_adj                   ;        ;;;;Timurid
+d_capua                          ;        ;;;;Capua
+d_capua_adj                      ;        ;;;;Capuan
+#text3.csv;;
+PROV27                           ;        ;;c_dorset,Dornsæte,Caer Durnac,Durnovaria;;Dorset
+PROV28                           ;        ;;c_somerset,Sumorsæte,Glastenning;;Somerset
+PROV260                          ;        ;;c_mecklemburg,Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;;Mecklenburg
+d_mecklemburg                    ;        ;;Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;;Mecklenburg
+d_mecklemburg_adj                ;        ;;;;Mecklenburgian
+c_mecklemburg_adj                ;        ;;;;Mecklenburgian
+d_pommerania                     ;        ;;Pommern,Pomorzí,Pomorze,Pòmòrsko,Pomerania,Poméranie,Pomerània,Pommeri,Pomeranija;;Pomerania
+d_pommerania_adj                 ;        ;;;;Pomeranian
+c_agrigento_adj                  ;        ;;;;Girgentian
+#text4.csv;;
+e_il-khanate_adj                 ;        ;;;;Mongol
+#text5.csv;;
+#text6.csv;;
+#text7.csv;;
+d_ghilman                        ;        ;;;;Ghilman
+d_ghilman_adj                    ;        ;;;;Ghilman
+#text8.csv;;
+d_maghreb_corsairs               ;        ;;;;Maghreb Navy
+d_maghreb_corsairs_adj           ;        ;;;;Maghreb
+k_aquitaine                      ;        ;;Septem Provinciae;;Aquitaine
+k_aquitaine_adj                  ;        ;;;;Aquitanian
+#text9.csv;;
+d_connacht_adj                   ;        ;;;;Connachtian
+d_leinster_adj                   ;        ;;;;Leinsterian
+d_munster_adj                    ;        ;;;;Munsterian
+d_ulster_adj                     ;        ;;;;Ulsterian
+d_gelre_adj                      ;        ;;;;Gelrian
+d_ryazan_adj                     ;        ;;;;Ryazanian
+d_dauphine_adj                   ;        ;;;;Dauphinian
+d_valois_adj                     ;        ;;;;Valoisaine
+d_abbasid_adj                    ;        ;;;;Abbasid
+#text9b.csv;;
+#v1_06.csv;;
+e_arabia                         ;        ;;;;Arabian Empire
+e_arabia_adj                     ;        ;;;;Arabian
+d_sunni                          ;        ;;;;The Sunni Caliphate
+d_sunni_adj                      ;        ;;;;Caliphal
+d_armenia_minor_adj_armenian     ;        ;;;;Armenian
+e_abyssinia                      ;        ;;;;Abyssinia
+e_abyssinia_adj                  ;        ;;;;Abyssinian
+d_timbuktu                       ;        ;;;;Timbuktu
+d_latium                         ;        ;;Latine;;Latium
+d_latium_adj                     ;        ;;;;Latin
+c_aprutium_adj                   ;        ;;;;Aprutian
+PROV696                          ;        ;;c_euphrates;;Samarra
+c_tadmor_adj                     ;        ;;;;Al-Sukhnahn
+c_syria_adj                      ;        ;;;;Bostrian
+c_euphrates_adj                  ;        ;;;;Samarrian
+c_tus_adj                        ;        ;;;;Tusian
+c_aukshayts_adj                  ;        ;;;;Vilnian
+c_byzantion_adj                  ;        ;;;;Constantinopian
+d_hashshashin                    ;        ;;;;Hashshashin
+#v1_06a.csv;;
+#v1_06b.csv;;
+#v1_07.csv;;
+e_roman_empire                   ;        ;;Imperium Romanum,Rómverska keisaradæmið,Rzímská Rzíše,Római Birodalom,Cesarstwo Rzymski,Rimsko Carstvo,Rimsku Imperiju,Rimsko Cesárstvo,Rimskaya Imperiya,Rimska Imperiya,Imperiul Roman,Perandoria Romake,Hrromeakan Kaysrut'yun,Romis Imperia;;Roman Empire
+e_roman_empire_adj               ;        ;;;;Roman
+c_orava_adj                      ;        ;;;;Zvolenian
+#v1_07b.csv;;
+d_miaphysite                     ;        ;;;;The Miaphysite Papacy
+d_miaphysite_adj                 ;        ;;;;Coptic Papal
+d_monophysite                    ;        ;;;;The Monophysite Papacy
+d_monophysite_adj                ;        ;;;;Monophysite Papal
+d_nestorian                      ;        ;;;;The Patriarchate of the East
+d_nestorian_adj                  ;        ;;;;Eastern Patriarchal
+d_monothelite                    ;        ;;;;The Monothelite Patriarchate
+d_monothelite_adj                ;        ;;;;Monothelite Patriarchal
+#v1_08.csv;;
+#v1_081.csv;;
+#v1_09.csv;;
+#v1_091.csv;;
+#v1_092.csv;;
+#v1_09b.csv;;
+d_venetian_navy                  ;        ;;;;Adriatic Galleys
+d_venetian_navy_adj              ;        ;;;;Adriatic
+d_genoese_navy                   ;        ;;;;Ligurian Galleys
+d_genoese_navy_adj               ;        ;;;;Ligurian
+d_hanseatic_navy                 ;        ;;;;Baltic Cogs
+d_hanseatic_navy_adj             ;        ;;;;Baltic
+d_frisian_navy                   ;        ;;;;North Sea Cogs
+d_frisian_navy_adj               ;        ;;;;North Sea
+d_finnish_band                   ;        ;;;;Finnish Band
+d_finnish_band_adj               ;        ;;;;Finnish
+d_lithuanian_band                ;        ;;;;Lithuanian Band
+d_lithuanian_band_adj            ;        ;;;;Lithuanian
+d_abyssinian_band                ;        ;;;;Abyssinian Band
+d_abyssinian_band_adj            ;        ;;;;Abyssinian
+d_scottish_band                  ;        ;;;;Scottish Band
+d_scottish_band_adj              ;        ;;;;Scottish
+d_irish_band                     ;        ;;;;Irish Band
+d_irish_band_adj                 ;        ;;;;Irish
+d_alan_band                      ;        ;;;;Alan Riders
+d_alan_band_adj                  ;        ;;;;Alan
+d_nubian_band                    ;        ;;;;Nubian Band
+d_nubian_band_adj                ;        ;;;;Nubian
+k_genoa                          ;        ;;;;Genoa
+k_genoa_adj                      ;        ;;;;Genoese
+k_pisa                           ;        ;;;;Pisa
+k_pisa_adj                       ;        ;;;;Pisan
+d_somerset_adj_norman            ;        ;;;;Somersetian
+d_bedford_adj_norman             ;        ;;;;Bedforder
+d_hereford_adj_norman            ;        ;;;;Herefordian
+d_norfolk_adj_norman             ;        ;;;;Norfolkian
+d_gloucester_adj_norman          ;        ;;;;Gloucesterian
+d_gloucester_adj_english         ;        ;;;;Gloucesterian
+#v1_09c.csv;;
+k_hansa                          ;        ;;;;The Hansa
+k_hansa_adj                      ;        ;;;;Hanseatic
+#v1_10.csv;;
+d_norse_pagan_reformed           ;        ;;;;The Fylkirate
+d_norse_pagan_reformed_adj       ;        ;;;;Norse
+d_baltic_pagan_reformed          ;        ;;;;The Romuvan Church
+d_baltic_pagan_reformed_adj      ;        ;;;;Romuva
+d_slavic_pagan_reformed          ;        ;;;;The Slavic Church
+d_slavic_pagan_reformed_adj      ;        ;;;;Slavic
+d_tengri_pagan_reformed          ;        ;;;;The Tengri Church
+d_tengri_pagan_reformed_adj      ;        ;;;;Tengri
+d_finnish_pagan_reformed         ;        ;;;;The Suomenusko Church
+d_finnish_pagan_reformed_adj     ;        ;;;;Suomenusko
+d_west_african_pagan_reformed    ;        ;;;;West African Church
+d_west_african_pagan_reformed_adj;        ;;;;West African
+e_wendish_empire                 ;        ;;Velké Czechy,Velká Morava,Wiêksza Polska,Vendia;;Wendish Empire
+e_wendish_empire_adj             ;        ;;;;Wendish
+d_pecs_adj_bohemian              ;        ;;;;Balaton
+c_pecs_adj_bohemian              ;        ;;;;Balaton
+d_ungvar_adj_croatian            ;        ;;;;Chrobatian
+k_asturias                       ;        ;;;;Asturias
+k_asturias_adj                   ;        ;;;;Asturian
+d_vyatichi                       ;        ;;;;Vyatichi
+d_vyatichi_adj                   ;        ;;;;Vyatich
+d_glomacze                       ;        ;;;;Glomacze
+d_glomacze_adj                   ;        ;;;;Glomacz
+d_sorbs                          ;        ;;;;Sorbs
+d_sorbs_adj                      ;        ;;;;Sorbian
+d_obotrites                      ;        ;;;;Obotrites
+d_obotrites_adj                  ;        ;;;;Obotrite
+d_brandenburg_adj_pommeranian    ;        ;;;;Brennaburgian
+d_mecklemburg_adj_pommeranian    ;        ;;;;Weligradian
+k_magyar_adj                     ;        ;;;;Magyar
+d_dregovichi                     ;        ;;;Dregoviches;Dregovichi
+d_radimichi                      ;        ;;;Radimichs;Radimichi
+c_viken_adj_norse                ;        ;;;;Alfish
+d_zoroastrian                    ;        ;;;;The Zoroastrian Church
+d_zoroastrian_adj                ;        ;;;;Zoroastrian
+d_novgorod_adj_norse             ;        ;;;;Holmgardian
+d_novgorod_adj_swedish           ;        ;;;;Holmgårdian
+d_novgorod_adj_danish            ;        ;;;;Holmgårdian
+d_novgorod_adj_norwegian         ;        ;;;;Holmgårdian
+d_kiev_adj_norse                 ;        ;;;;Könugardian
+d_kiev_adj_swedish               ;        ;;;;Könugardian
+d_kiev_adj_danish                ;        ;;;;Kønugardian
+d_kiev_adj_norwegian             ;        ;;;;Kønugardian
+k_ruthenia_adj_norse             ;        ;;;;Könugardian
+k_ruthenia_adj_swedish           ;        ;;;;Könugardian
+k_ruthenia_adj_danish            ;        ;;;;Kønugardian
+k_ruthenia_adj_norwegian         ;        ;;;;Kønugardian
+c_lepiel_adj                     ;        ;;;;Lepielian
+c_yaroslavl_adj_finno_ugric      ;        ;;;;Meryan
+d_slesvig_adj_german             ;        ;;;;Slesvigian
+d_meath_adj_north_germanic       ;        ;;;;Dubliner
+d_danes                          ;        ;;;;Danmark
+d_danes_adj                      ;        ;;;;Danish
+d_sweden                         ;        ;;;;Svithjod
+d_sweden_adj                     ;        ;;;;Swedish
+d_geats                          ;        ;;;;Gauthiod
+d_geats_adj                      ;        ;;;;Geatish
+d_meryas                         ;        ;;;;Meryas
+d_meryas_adj                     ;        ;;;;Meryan
+d_meshcheras                     ;        ;;;;Meshcheras
+d_meshcheras_adj                 ;        ;;;;Meshcheran
+d_muromians                      ;        ;;;;Muromians
+d_muromians_adj                  ;        ;;;;Muromian
+d_sami                           ;        ;;Lop';;Sami
+d_sami_adj                       ;        ;;;;Sami
+c_nizhny_novgorod_adj_finno_ugric;        ;;;;Obran Osh
+c_nizhny_novgorod_adj_altaic     ;        ;;;;Obran Osh
+d_leinster_adj_north_germanic    ;        ;;;;Veisafjorder
+c_leinster_adj_north_germanic    ;        ;;;;Veisafjorder
+d_munster_adj_north_germanic     ;        ;;;;Hlymrekian
+c_thomond_adj_north_germanic     ;        ;;;;Hlymrekian
+c_ormond_adj_north_germanic      ;        ;;;;Vedrafjorder
+c_ulster_adj_north_germanic      ;        ;;;;Strangfjorder
+d_ulster_adj_north_germanic      ;        ;;;;Strangfjorder
+e_mongol_empire                  ;        ;;;;Mongol Empire
+e_mongol_empire_adj              ;        ;;;;Mongol
+d_jomsvikings                    ;        ;;;;Jomsvikings
+d_jomsvikings_adj                ;        ;;;;Jomsviking
+#v1_101.csv;;
+d_meath_adj_irish                ;        ;;;;Taran
+d_ghanan_band                    ;        ;;;;Ghanan Band
+d_ghanan_band_adj                ;        ;;;;Ghanan
+d_aztec_reformed                 ;        ;;;;The Aztec Church
+#v1_102.csv;;
+#v1_103.csv;;
+#v1_10b.csv;;
+#v1_11.csv;;
+#v2_00.csv;;
+k_israel                         ;        ;;;;Israel
+k_israel_adj                     ;        ;;;;Israelites
+d_jewish                         ;        ;;;;The Jewish High Priesthood
+d_jewish_adj                     ;        ;;;;Jewish
+d_bektashi                       ;        ;;;;Bektashi Order
+d_bektashi_adj                   ;        ;;;;Bektashi
+d_immortals                      ;        ;;;;Immortals
+d_immortals_adj                  ;        ;;;;Immortal
+d_zealots                        ;        ;;;;Zealots
+d_zealots_adj                    ;        ;;;;Zealot
+d_holy_sepulchre                 ;        ;;;;Brotherhood of the Holy Sepulchre
+d_holy_sepulchre_adj             ;        ;;;;Brotherhood
+d_saint_anthony                  ;        ;;;;Order of Saint Anthony
+d_saint_anthony_adj              ;        ;;;;Saint Anthony
+d_sky_lords                      ;        ;;;;Lords of the Sky
+d_sky_lords_adj                  ;        ;;;;Sky Lord
+d_spirit_guardians               ;        ;;;;Spirit Guardians
+d_spirit_guardians_adj           ;        ;;;;Guardian
+d_warriors_perun                 ;        ;;;;Warriors of Perun
+d_warriors_perun_adj             ;        ;;;;Perun
+d_chosen_perkunas                ;        ;;;;Chosen of Perkunas
+d_chosen_perkunas_adj            ;        ;;;;Perkunas
+d_sons_kaleva                    ;        ;;;;Sons of Kaleva
+d_sons_kaleva_adj                ;        ;;;;Kaleva
+d_huitzilopochtli                ;        ;;;;Cult of Huitzilopochtli
+d_huitzilopochtli_adj            ;        ;;;;Huitzilopochtli
+d_knights_santiago               ;        ;;;;Knights of Santiago
+d_knights_santiago_adj           ;        ;;;;Santiago
+d_knights_calatrava              ;        ;;;;Knights of Calatrava
+d_knights_calatrava_adj          ;        ;;;;Calatrava
+d_fraticelli                     ;        ;;;;The Fraticelli Papacy
+d_fraticelli_adj                 ;        ;;;;Fraticelli Papal
+d_iconoclast                     ;        ;;;;The Iconoclast Patriarchate
+d_iconoclast_adj                 ;        ;;;;Iconoclast Patriarchal
+d_yazidi                         ;        ;;;;The Yazidi Sheikhdom
+d_yazidi_adj                     ;        ;;;;Yazidi
+d_ibadi                          ;        ;;;;The Ibadi Caliphate
+d_ibadi_adj                      ;        ;;;;Ibadi Caliphal
+d_hurufi                         ;        ;;;;The Hurufi Skeikhdom
+d_hurufi_adj                     ;        ;;;;Hurufi
+#v2_00b.csv;;
+#v2_01.csv;;
+#v2_02.csv;;
+#v2_10.csv;;
+d_followers_arjuna               ;        ;;;;Followers of Arjuna
+d_followers_arjuna_adj           ;        ;;;;Arjuna
+d_ashokas_chosen                 ;        ;;;;Chosen of Ashoka
+d_ashokas_chosen_adj             ;        ;;;;Ashoka
+d_bulls_rishabha                 ;        ;;;;Bulls of Rishabha
+d_bulls_rishabha_adj             ;        ;;;;Rishabha
+d_paulician                      ;        ;;;;The Paulician Patriarchate
+d_paulician_adj                  ;        ;;;;Paulician
+d_saint_addai                    ;        ;;;;Order of Saint Addai
+d_saint_addai_adj                ;        ;;;;Addaian
+#v2_10b.csv;;
+e_india                          ;        ;;;;India
+#v2_10c.csv;;
+#v2_10d.csv;;
+#v2_11.csv;;
+#v2_13.csv;;
+#v2_14.csv;;
+#v2_15.csv;;
+#v2_20.csv;;
+e_germany                        ;        ;;;;Germania
+e_germany_adj                    ;        ;;;;German
+k_lombardy                       ;        ;;;;Lombardy
+k_lombardy_adj                   ;        ;;;;Lombard
+k_avaria                         ;        ;;;;Avaria
+k_avaria_adj                     ;        ;;;;Avarian
+c_chandax_adj_greek              ;        ;;;;Gortynian
+d_zun_warriors                   ;        ;;;;Knights of the Sun
+d_zun_warriors_adj               ;        ;;;;Zun
+d_zun_pagan_reformed             ;        ;;;;The Church of Zun
+d_kharijite                      ;        ;;;;The Kharijite Caliphate
+d_kharijite_adj                  ;        ;;;;Kharijite Caliphal
+#v2_20b.csv;;
+e_seljuk_turks                   ;        ;;;;Seljuk Empire
+d_haruriyyah                     ;        ;;;;Haruriyyah
+d_haruriyyah_adj                 ;        ;;;;Haruriyyah
+#v2_20c.csv;;
+#v2_20d.csv;;
+#v2_21.csv;;
+#v2_21b.csv;;
+#v2_30.csv;;
+#v2_30b.csv;;
+#v2_30c.csv;;
+#v2_30d.csv;;
+#v2_30f.csv;;
+#v2_31.csv;;
+#v2_34.csv;;
+#v2_40.csv;;
+#v2_40b.csv;;
+#v2_40c.csv;;
+d_lappish_band                   ;        ;;;;Sami Band
+d_lappish_band_adj               ;        ;;;;Sami
+#v2_40d.csv;;
+#v2_40e.csv;;
+#v2_40f.csv;;
+#v2_41.csv;;
+#v2_42.csv;;
+e_chagatai                       ;        ;;;;Chagatai
+#v2_42_notranslate.csv;;
+#z_Joel.csv;;
+#z_groogy.csv;;
+#z_henrik.csv;;
+#z_igor.csv;;
+#z_magnus.csv;;
+#z_olof.csv;;

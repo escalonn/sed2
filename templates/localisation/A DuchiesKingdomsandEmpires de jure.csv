@@ -1,4 +1,4 @@
-#CODE                                   ;SED2    ;SWMH;OTHERSWMH;SED1;VANILLA
+#CODE                                   ;SED2    ;SWMH;OTHER;SED1;VANILLA
 #CODE,ENGLISH,FRENCH,GERMAN,,SPANISH,,,,,,,,,x,,,,,,,,,,,,,,,,;;;;;
 ########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
 #HRE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
@@ -671,7 +671,7 @@ d_galilee_adj_sicilian_arabic           ;Galilean;Jalilan;;;
 d_oultrejourdain_adj_greek              ;Palestinian;Palaestinia Salutaran;;;
 #Rhos,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;;
 k_novgorod                              ;Novgorod;Novgorod;Holmgarðr;Novgorod;
-k_novgorod_adj                          ;Novgorodian;Novgorod;;Novgorodskiy;
+k_novgorod_adj                          ;Novgorodian;Novgorod;;Novgorodian;
 d_novgorod                              ;Novgorod;Novgorod;Holmgarðr;Novgorod;Novgorod
 d_novgorod_adj                          ;Novgorodian;Novgorod;;Novgorodskiy;Novgorodian
 d_pskov                                 ;Pskov   ;Pskov;;Pskov;Pskov
@@ -720,7 +720,7 @@ d_minsk_adj                             ;Minskian;Minsk;;Minskskiy;Minskian
 k_ruthenia                              ;Kiev    ;Kiev;Kœnugarðr;;Ruthenia
 k_ruthenia_adj                          ;Kievan  ;Kiev;;;Ruthenian
 d_kiev                                  ;Kiev    ;Kiev;Kœnugarðr;Kiev;Kiev
-d_kiev_adj                              ;Kievan  ;Kiev;;Kievskiy;Kievan
+d_kiev_adj                              ;Kievan  ;Kiev;;Kievan;Kievan
 d_pereyaslavl                           ;Pereyaslavl;Perejaslavl;;Perejaslavl;Pereyaslavl
 d_pereyaslavl_adj                       ;Pereyaslavian;Perejaslavl;;Perejaslavlskiy;Pereyaslavian
 d_smolensk                              ;Smolensk;Smolensk;Smaleskja;Smolensk;Smolensk
@@ -735,14 +735,14 @@ d_chernigov                             ;Chernigov;Chernigov;;Chernigov;Chernigo
 d_chernigov_adj                         ;Chernigovian;Chernigov;;Chernigovskiy;Chernigovan
 d_novosil                               ;Verkhovye;Verhovye;;Okskoye Verkhovye;
 d_novosil_adj                           ;        ;Verhovye;;Novosilskiy;
-k_galicia                               ;Galicia–Volhynia;Halych-Volyn;;Halych-Volyn;
-k_galicia_adj                           ;Galician–Volhynian;Halych-Volyn;;Halych-Volynskiy;
+k_galicia                               ;Galicia–Volhynia;Halych-Volyn;;Galych-Volhyn;
+k_galicia_adj                           ;Galician–Volhynian;Halych-Volyn;;Galichian;
 d_galich                                ;Galicia ;Halych;;Halych;Galich
 d_galich_adj                            ;Galician;Halych;;Halychskiy;Galichian
 d_volhynia                              ;Volhynia;Volyn;;Volyn;Volhynia
 d_volhynia_adj                          ;Volhynian;Volyn;;Volynskiy;Volhynian
 d_belz                                  ;Belz    ;Belz;;Belz;
-d_belz_adj                              ;        ;Belz;;Belzskiy;
+d_belz_adj                              ;        ;Belz;;Belzian;
 d_zvenyhorod                            ;Zvenigorod;Zvenigorod;;Zvenigorod;
 d_zvenyhorod_adj                        ;        ;Zvenigorod;;Zvenigorodskiy;
 d_podlaise                              ;Podlachia;Podlyashe;;Podlyashe;
@@ -1450,7 +1450,7 @@ d_macva_adj_dutch                       ;        ;Matschvan;;;
 d_macva_adj_hungarian                   ;        ;Macsóan;;;
 d_macva_adj_szekely                     ;        ;Macsóan;;;
 d_hum                                   ;Zachlumia;Zahumlje;Hum,Zachloumia,Chelmania;Hum;
-d_hum_adj                               ;Zachlumian;Zahumljean;;Huminan;
+d_hum_adj                               ;Zachlumian;Zahumljean;;Humian;
 d_hum_adj_arberian                      ;        ;Zachloumian;;;
 d_hum_adj_georgian                      ;        ;Zachloumian;;;
 d_hum_adj_alan                          ;        ;Zachloumian;;;
