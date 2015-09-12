@@ -48,7 +48,10 @@ def main():
         template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
         with template.open(encoding='cp1252', newline='') as csvfile:
-            sed2 = {row[0].strip(): row[1].strip()
+            sed2 = {row[0].strip():
+                        ' ' if (not row[1].strip() and
+                                re.fullmatch(r'\s+', row[2]))
+                        else row[1].strip()
                     for row in csv.reader(csvfile, dialect='ckii')}
         sed2rows = []
         with inpath.open(encoding='cp1252', newline='') as csvfile:
@@ -93,8 +96,8 @@ def main():
         outpath = build_lt / inpath.name
         sed2 = collections.defaultdict(list)
         with template.open(encoding='cp1252', newline='') as csvfile:
-            for title, key, val, *_ in csv.reader(csvfile, dialect='ckii'):
-                title, key, val = title.strip(), key.strip(), val.strip()
+            for row in csv.reader(csvfile, dialect='ckii'):
+                title, key, val = (s.strip() for s in row[:3])
                 if val:
                     if key in ['male_names', 'female_names']:
                         val = ck2parser.Obj.from_iter(
