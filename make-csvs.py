@@ -12,6 +12,15 @@ import localpaths
 rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
+keys_to_override = [
+    # A Bookmarks.csv
+    'VIKING_ERA', 'VIKING_ERA_INFO', 'VIKING_ERA', 'EARLY_MED_INFO',
+    'ERA_CHAR_INFO_163112', 'ERA_CHAR_INFO_40605', 'ERA_CHAR_INFO_90104',
+    'ERA_CHAR_INFO_90107', 'ERA_CHAR_INFO_1700', 'ERA_CHAR_INFO_34014',
+    'ERA_CHAR_INFO_140', 'ERA_CHAR_INFO_1316', 'ERA_CHAR_INFO_1128',
+    'ERA_CHAR_INFO_3096', 'ERA_CHAR_INFO_3040'
+]
+
 def get_province_id(where):
     tree = ck2parser.parse_file(where / 'map/default.map')
     defs = next(v.val for n, v in tree if n.val == 'definitions')
@@ -122,7 +131,7 @@ def main():
                 except KeyError:
                     return False
             else:
-                return False
+                return key in keys_to_override
         return not title.startswith('b_') and title in swmh_titles
 
     def recurse(tree):
