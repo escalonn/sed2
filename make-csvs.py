@@ -238,7 +238,7 @@ def main():
             if '#' not in out_row[0] or i == 0:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t / 'localisation' / 'sed_vanilla_override.csv'
+        outpath = templates_t / 'localisation' / 'sed.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 

@@ -28,8 +28,7 @@ def get_cultures(where):
     return cultures
 
 province_loc_files = [
-    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv',
-    'sed_vanilla_override.csv']
+    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 def main():
     templates = sed2path / 'templates'
@@ -66,10 +65,7 @@ def main():
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # disabled for now
-    # # handle vanilla override files
     # for template in ck2parser.files('localisation/*.csv', basedir=templates):
-    #     if no_provinces and template.name in province_loc_files:
-    #         continue
     #     if template.name not in swmh_files:
     #         outpath = build_loc / template.name
     #         sed2rows = []
@@ -77,6 +73,8 @@ def main():
     #             if row[0] and not row[0].startswith('#'):
     #                 row[0], row[1] = row[0].strip(), row[1].strip()
     #                 row[2:] = [''] * (len(row) - 2)
+    #                 if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
+    #                     continue
     #                 sed2rows.append(row)
     #         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
     #             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
