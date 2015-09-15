@@ -42,17 +42,40 @@ def main():
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
     swmh_files = set()
+    sed2 = {}
+
+    for path in ck2parser.files('localisation/*.csv', basedir=swmhpath):
+        swmh_files.add(path.name)
+
+    for inpath in ck2parser.files('localisation/*.csv', basedir=templates):
+        for row in ck2parser.csv_rows(inpath):
+            key, val = row[0].strip(), row[1].strip()
+            if not val and re.fullmatch(r'\s+', row[2]):
+                val = ' '
+            if '#' not in key:
+                if key not in sed2:
+                    sed2[key] = val
+                else:
+                    print('Duplicate localisations for ' + key)
+        if inpath.name not in swmh_files:
+            outpath = build_loc / inpath.name
+            sed2rows = []
+            for row in ck2parser.csv_rows(inpath):
+                if row[0] and not row[0].startswith('#'):
+                    row[0], row[1] = row[0].strip(), row[1].strip()
+                    row[2:] = [''] * (len(row) - 2)
+                    if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
+                        continue
+                    # for now, disallow blank locs in sed.csv
+                    if row[1]:
+                        sed2rows.append(row)
+            with outpath.open('w', encoding='cp1252', newline='') as csvfile:
+                csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     for inpath in ck2parser.files('localisation/*.csv', basedir=swmhpath):
-        swmh_files.add(inpath.name)
         if no_provinces and inpath.name in province_loc_files:
             continue
-        template = templates_loc / inpath.name
         outpath = build_loc / inpath.name
-        sed2 = {row[0].strip():
-                    ' ' if not row[1].strip() and re.fullmatch(r'\s+', row[2])
-                    else row[1].strip()
-                for row in ck2parser.csv_rows(template)}
         sed2rows = []
         for row in ck2parser.csv_rows(inpath):
             if (row[0] and not row[0].startswith('#') and
@@ -62,21 +85,6 @@ def main():
                 sed2rows.append(row)
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
-
-    # disabled for now
-    # for template in ck2parser.files('localisation/*.csv', basedir=templates):
-    #     if template.name not in swmh_files:
-    #         outpath = build_loc / template.name
-    #         sed2rows = []
-    #         for row in ck2parser.csv_rows(template):
-    #             if row[0] and not row[0].startswith('#'):
-    #                 row[0], row[1] = row[0].strip(), row[1].strip()
-    #                 row[2:] = [''] * (len(row) - 2)
-    #                 if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
-    #                     continue
-    #                 sed2rows.append(row)
-    #         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
-    #             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     cultures = get_cultures(swmhpath)
     lt_keys = [
