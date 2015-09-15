@@ -74,9 +74,10 @@ def main():
                     sed2row[0] = row[0].strip()
                     sed2row[1] = row[1].strip()
                     sed2row[-1] = 'x'
-                    # for now, disallow blank locs in sed.csv
-                    if sed2row[1]:
-                        sed2rows.append(sed2row)
+                    # for now, disallow all past first blank loc in sed.csv
+                    if not sed2row[1]:
+                        break
+                    sed2rows.append(sed2row)
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 

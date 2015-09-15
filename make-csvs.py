@@ -272,6 +272,10 @@ def main():
                                    ','.join(dynamics[key]),
                                    english[key],
                                    val]
+                        # easy default
+                        match = re.fullmatch(r'(c_.*)_adj', key)
+                        if match and not out_row[1]:
+                            out_row[1] = prev_loc[prov_id[match.group(1)]]
                         override_rows.append(out_row)
                         overridden_keys.add(key)
                         col_width[0] = max(len(key), col_width[0])
