@@ -151,6 +151,19 @@ c_makran_adj                     ;        ;;;;Makran
 e_mexikha                        ;        ;;;;Aztec Empire
 e_mexikha_adj                    ;        ;;;;Aztec
 #text1.csv;;
+ca_keep_1                        ;        ;;;;Keep
+ca_keep_2                        ;        ;;;;Keep
+ca_keep_3                        ;        ;;;;Keep
+ca_keep_4                        ;        ;;;;Keep
+ca_keep_5                        ;        ;;;;Keep
+ca_keep_6                        ;        ;;;;Keep
+ca_militia_barracks_1            ;        ;;;;Militia Training Ground
+ca_militia_barracks_2            ;        ;;;;Militia Training Ground
+ca_militia_barracks_3            ;        ;;;;Militia Training Ground
+ca_militia_barracks_4            ;        ;;;;Militia Training Ground
+ca_training_grounds_1            ;        ;;;;Training Grounds
+ca_training_grounds_2            ;        ;;;;Training Grounds
+ca_training_grounds_3            ;        ;;;;Training Grounds
 d_uppland                        ;        ;;Sviþjod;;Uppland
 d_uppland_adj                    ;        ;;;;Upplander
 c_uppland_adj                    ;        ;;;;Upplander
@@ -1335,6 +1348,12 @@ e_timurids_adj                   ;        ;;;;Timurid
 d_capua                          ;        ;;;;Capua
 d_capua_adj                      ;        ;;;;Capuan
 #text3.csv;;
+ca_town_1                        ;        ;;;;Castle Town
+ca_town_2                        ;        ;;;;Castle Town
+ca_town_3                        ;        ;;;;Castle Town
+ca_town_4                        ;        ;;;;Castle Town
+ca_town_5                        ;        ;;;;Castle Town
+ca_town_6                        ;        ;;;;Castle Town
 PROV27                           ;        ;;c_dorset,Dornsæte,Caer Durnac,Durnovaria;;Dorset
 PROV28                           ;        ;;c_somerset,Sumorsæte,Glastenning;;Somerset
 PROV260                          ;        ;;c_mecklemburg,Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;;Mecklenburg
@@ -1405,6 +1424,27 @@ d_monothelite_adj                ;        ;;;;Monothelite Patriarchal
 #v1_08.csv;;
 #v1_081.csv;;
 #v1_09.csv;;
+ca_wall_q_1_desc                 ;        ;;;;This shallow moat surrounding the castle provides another obstacle for attackers to overcome.
+ca_wall_q_2_desc                 ;        ;;;;These narrow slits allow the defenders to rain down arrows on any attacker without being hit in turn.
+ca_wall_q_3_desc                 ;        ;;;;A fortified portcullis that can quickly be raised or lowered as the situation demands.
+ca_wall_q_4_desc                 ;        ;;;;A deep moat filled with unsanitary water. A formidable obstacle for any attacker.
+ca_wall_q_5_desc                 ;        ;;;;This outer network of barbicans ensures that attackers come under fire before they can even approach the main walls.
+ca_wall_1_desc                   ;        ;;;;A simple palisade to keep out riff-raff, but it will not delay a determined attacker for very long.
+ca_wall_2_desc                   ;        ;;;;These low walls provide some protection, but they can still easily be scaled.
+ca_wall_3_desc                   ;        ;;;;These stone walls surround the castle and must be overcome by any attacker.
+ca_wall_4_desc                   ;        ;;;;These large walls surround the castle and must be overcome by any attacker.
+ca_wall_5_desc                   ;        ;;;;These massive walls surround the castle and must be overcome by any attacker.
+ca_keep_1_desc                   ;        ;;;;This keep serves as the fortified residence of the castle's inhabitants.
+ca_militia_barracks_1_desc       ;        ;;;;This simple training ground readies the peasants for war.
+ca_militia_barracks_2_desc       ;        ;;;;An archery range where the levies can master the art of the bow.
+ca_militia_barracks_3_desc       ;        ;;;;An expanded archery range where the levies can master the art of the bow.
+ca_barracks_1_desc               ;        ;;;;These quarters are the home of the castle's levies.
+ca_stable_1_desc                 ;        ;;;;This stable just outside the castle walls houses all the steeds of the levy.
+ca_town_1_desc                   ;        ;;;;A small village has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_2_desc                   ;        ;;;;A town has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_3_desc                   ;        ;;;;A city has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_4_desc                   ;        ;;;;The small village that once surrounded this castle has turned into a large city, with thousands of inhabitants calling it their home.
+ca_town_5_desc                   ;        ;;;;The small village that once surrounded this castle has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
 #v1_091.csv;;
 #v1_092.csv;;
 #v1_09b.csv;;
@@ -1440,10 +1480,17 @@ d_hereford_adj_norman            ;        ;;;;Herefordian
 d_norfolk_adj_norman             ;        ;;;;Norfolkian
 d_gloucester_adj_norman          ;        ;;;;Gloucesterian
 d_gloucester_adj_english         ;        ;;;;Gloucesterian
+ca_con_wall_6                    ;        ;;;;Theodosian Walls
+ca_con_wall_6_desc               ;        ;;;;The Theodosian Walls were built during the reign of Emperor Theodosius II in the early 5th century, but they still remain some of the most formidable fortifications ever built by human hands.
 #v1_09c.csv;;
 k_hansa                          ;        ;;;;The Hansa
 k_hansa_adj                      ;        ;;;;Hanseatic
 #v1_10.csv;;
+ca_shipyard_1                    ;        ;;;;Castle Shipyard
+ca_shipyard_2                    ;        ;;;;Castle Shipyard
+ca_shipyard_3                    ;        ;;;;Castle Shipyard
+ca_shipyard_4                    ;        ;;;;Castle Shipyard
+shipyard_desc                    ;        ;;;;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.
 d_norse_pagan_reformed           ;        ;;;;The Fylkirate
 d_norse_pagan_reformed_adj       ;        ;;;;Norse
 d_baltic_pagan_reformed          ;        ;;;;The Romuvan Church
@@ -1518,6 +1565,28 @@ c_thomond_adj_north_germanic     ;        ;;;;Hlymrekian
 c_ormond_adj_north_germanic      ;        ;;;;Vedrafjorder
 c_ulster_adj_north_germanic      ;        ;;;;Strangfjorder
 d_ulster_adj_north_germanic      ;        ;;;;Strangfjorder
+ca_wall_q_1                      ;        ;;;;Castle Fortifications
+ca_wall_q_2                      ;        ;;;;Castle Fortifications
+ca_wall_q_3                      ;        ;;;;Castle Fortifications
+ca_wall_q_4                      ;        ;;;;Castle Fortifications
+ca_wall_q_5                      ;        ;;;;Castle Fortifications
+ca_wall_1                        ;        ;;;;Castle Walls
+ca_wall_2                        ;        ;;;;Castle Walls
+ca_wall_3                        ;        ;;;;Castle Walls
+ca_wall_4                        ;        ;;;;Castle Walls
+ca_wall_5                        ;        ;;;;Castle Walls
+ca_barracks_1                    ;        ;;;;Barracks
+ca_barracks_2                    ;        ;;;;Barracks
+ca_barracks_3                    ;        ;;;;Barracks
+ca_barracks_4                    ;        ;;;;Barracks
+ca_barracks_5                    ;        ;;;;Barracks
+ca_barracks_6                    ;        ;;;;Barracks
+ca_stable_1                      ;        ;;;;Stables
+ca_stable_2                      ;        ;;;;Stables
+ca_stable_3                      ;        ;;;;Stables
+ca_stable_4                      ;        ;;;;Stables
+ca_stable_5                      ;        ;;;;Stables
+ca_stable_6                      ;        ;;;;Stables
 e_mongol_empire                  ;        ;;;;Mongol Empire
 e_mongol_empire_adj              ;        ;;;;Mongol
 d_jomsvikings                    ;        ;;;;Jomsvikings
@@ -1530,6 +1599,20 @@ d_aztec_reformed                 ;        ;;;;The Aztec Church
 #v1_102.csv;;
 #v1_103.csv;;
 #v1_10b.csv;;
+ca_steppe_barracks_1             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_barracks_2             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_barracks_3             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_barracks_4             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_barracks_5             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_barracks_6             ;        ;;;;Steppe Warrior Lodge
+ca_steppe_stable_1               ;        ;;;;Steppe Riding Grounds
+ca_steppe_stable_2               ;        ;;;;Steppe Riding Grounds
+ca_steppe_stable_3               ;        ;;;;Steppe Riding Grounds
+ca_steppe_stable_4               ;        ;;;;Steppe Riding Grounds
+ca_steppe_stable_5               ;        ;;;;Steppe Riding Grounds
+ca_steppe_stable_6               ;        ;;;;Steppe Riding Grounds
+ca_steppe_barracks_desc          ;        ;;;;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.
+ca_steppe_stable_desc            ;        ;;;;The steppe is ideal for warfare on horseback, and the nomadic warrior cultures of these lands know to press this advantage. These riding grounds produce extra light cavalry and horse archers.
 #v1_11.csv;;
 #v2_00.csv;;
 k_israel                         ;        ;;;;Israel
@@ -1575,6 +1658,11 @@ d_hurufi_adj                     ;        ;;;;Hurufi
 #v2_00b.csv;;
 #v2_01.csv;;
 #v2_02.csv;;
+ca_culture_jewish_1              ;        ;;;;Jewish Heavy Infantry Barracks
+ca_culture_jewish_2              ;        ;;;;Jewish Heavy Infantry Barracks
+ca_culture_jewish_3              ;        ;;;;Jewish Heavy Infantry Barracks
+ca_culture_jewish_4              ;        ;;;;Jewish Heavy Infantry Barracks
+ca_culture_jewish_1_desc         ;        ;;;;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.
 #v2_10.csv;;
 d_followers_arjuna               ;        ;;;;Followers of Arjuna
 d_followers_arjuna_adj           ;        ;;;;Arjuna
@@ -1582,6 +1670,14 @@ d_ashokas_chosen                 ;        ;;;;Chosen of Ashoka
 d_ashokas_chosen_adj             ;        ;;;;Ashoka
 d_bulls_rishabha                 ;        ;;;;Bulls of Rishabha
 d_bulls_rishabha_adj             ;        ;;;;Rishabha
+ca_culture_indian_1              ;        ;;;;War Elephant Pens
+ca_culture_indian_2              ;        ;;;;War Elephant Pens
+ca_culture_indian_3              ;        ;;;;War Elephant Pens
+ca_culture_indian_4              ;        ;;;;War Elephant Pens
+ca_culture_indian_1_desc         ;        ;;;;This is where the fearsome war elephants are bred and trained.
+ca_culture_indian_2_desc         ;        ;;;;This is where the fearsome war elephants are bred and trained.
+ca_culture_indian_3_desc         ;        ;;;;This is where the fearsome war elephants are bred and trained.
+ca_culture_indian_4_desc         ;        ;;;;This is where the fearsome war elephants are bred and trained.
 d_paulician                      ;        ;;;;The Paulician Patriarchate
 d_paulician_adj                  ;        ;;;;Paulician
 d_saint_addai                    ;        ;;;;Order of Saint Addai
@@ -1613,6 +1709,7 @@ ERA_CHAR_INFO_1700               ;        ;;;;Basil the Macedonian was born to s
 ERA_CHAR_INFO_34014              ;        ;;;;Al-Mu'tazz became Caliph in 866, at only 19 years of age, in a situation where the Abbasid Empire was rife with power struggles between different factions. After a very bloody period of dealing with his various enemies he looked like he was coming out on top, but by then his coffers were empty and a rebellion among the soldiers turned his fortunes around. In the end he was taken prisoner, beaten and locked in a room to starve to death. He was 24 years old when he died.
 ERA_CHAR_INFO_140                ;        ;;;;William the Conqueror, a descendant of the Viking chief Rollo, became duke of Normandy at a very young age, a situation compounded by the fact that he was also a bastard. Early on he was constantly being used as a pawn by rival factions in the duchy, with a succession of his guardians being murdered. Once he reached adulthood, he faced years of warfare in order to take full control over his duchy, eventually emerging victorious. In 1066 he successfully invaded England to press a claim on the English throne. He spent the remainder of his reign consolidating and reforming his new kingdom in the face of sometimes fierce opposition.
 ERA_CHAR_INFO_1128               ;        ;;;;Robert Guiscard was the sixth son of Tancred de Hauteville, a petty Norman lord. Just like his brothers, he left Normandy with a small force of followers to seek his fortune in Italy. A brilliant and ruthless leader, he spent several years building a reputation as a mercenary, and the ever changing political landscape in Italy eventually saw the pope investing him as Duke of Apulia. In further campaigns, he proceeded to conquer Sicily, fighting both the Saracens and the Byzantines to secure control. He thus established Norman rule in southern Italy and his conquests had a profound long term impact on the region.
+ca_training_grounds_1_desc       ;        ;;;;Training grounds is where the castle levies can practise and ready themselves for the inevitability of war.
 d_zun_warriors                   ;        ;;;;Knights of the Sun
 d_zun_warriors_adj               ;        ;;;;Zun
 d_zun_pagan_reformed             ;        ;;;;The Church of Zun

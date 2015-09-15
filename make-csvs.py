@@ -12,14 +12,14 @@ import localpaths
 rootpath = localpaths.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
-keys_to_override = [
+keys_to_override = {
     # A Bookmarks.csv
     'VIKING_ERA', 'VIKING_ERA_INFO', 'VIKING_ERA', 'EARLY_MED_INFO',
     'ERA_CHAR_INFO_163112', 'ERA_CHAR_INFO_40605', 'ERA_CHAR_INFO_90104',
     'ERA_CHAR_INFO_90107', 'ERA_CHAR_INFO_1700', 'ERA_CHAR_INFO_34014',
     'ERA_CHAR_INFO_140', 'ERA_CHAR_INFO_1316', 'ERA_CHAR_INFO_1128',
     'ERA_CHAR_INFO_3096', 'ERA_CHAR_INFO_3040'
-]
+}
 
 def get_province_id(where):
     tree = ck2parser.parse_file(where / 'map/default.map')
@@ -62,23 +62,33 @@ def get_dynamics(where, cultures, prov_id):
                         dynamics[prov_id[n1.val]].append(v2.val)
             recurse(v1, n1)
 
-    for path in ck2parser.files('common/landed_titles/*.txt', where):
-        recurse(ck2parser.parse_file(path))
+    for _, tree in ck2parser.parse_files('common/landed_titles/*.txt', where):
+        recurse(tree)
     return dynamics
 
 def get_cultures(where):
     cultures = []
-    for path in ck2parser.files('common/cultures/*.txt', where):
-        tree = ck2parser.parse_file(path)
+    for _, tree in ck2parser.parse_files('common/cultures/*.txt', where):
         cultures.extend(n2.val for _, v in tree for n2, v2 in v
                         if n2.val != 'graphical_cultures')
     return cultures
 
+def get_more_keys_to_override(where):
+    keys = set()
+    for _, tree in ck2parser.parse_files('common/buildings/*.txt', where):
+        for n, v in tree:
+            if n.val == 'castle':
+                for n2, v2 in v:
+                    keys.add(n2.val)
+                    for n3, v3 in v2:
+                        if n3.val == 'desc':
+                            keys.add(v3.val)
+    return keys
+
 def get_religions(where):
     religions = []
     rel_groups = []
-    for path in ck2parser.files('common/religions/*.txt', where):
-        tree = ck2parser.parse_file(path)
+    for _, tree in ck2parser.parse_files('common/religions/*.txt', where):
         religions.extend(n2.val for _, v in tree for n2, v2 in v
                          if (isinstance(v2, ck2parser.Obj) and
                              n2.val not in ['male_names', 'female_names']))
@@ -86,6 +96,7 @@ def get_religions(where):
     return religions, rel_groups
 
 def main():
+    global keys_to_override
     english = collections.defaultdict(str)
     for path in ck2parser.files('English SWMH/localisation/*.csv',
                                 basedir=rootpath):
@@ -100,6 +111,7 @@ def main():
     religions, rel_groups = get_religions(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, prov_id)
     vanilla = ck2parser.localisation()
+    keys_to_override |= get_more_keys_to_override(swmhpath)
     overridden_keys = set()
     swmh_titles = set()
     prev_loc = collections.defaultdict(str)
@@ -191,13 +203,12 @@ def main():
             'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
-        for inpath in ck2parser.files('common/landed_titles/*.txt',
-                                      basedir=swmhpath):
+        for inpath, tree in ck2parser.parse_files('common/landed_titles/*.txt',
+                                                  basedir=swmhpath):
             outpath = (templates_t / 'common/landed_titles' /
                        inpath.with_suffix('.csv').name)
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
-            tree = ck2parser.parse_file(inpath)
             for title, pairs in recurse(tree):
                 # here disabled for now: preservation of modifiers added to
                 # template and not found in landed_titles (slow)
