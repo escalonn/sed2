@@ -1066,26 +1066,26 @@ c_thebai                        ;ligurian           ;Thebes  ;Stivas
 c_thebai                        ;italian            ;Thebes  ;Stivas
 c_thebai                        ;venetian           ;Thebes  ;Stivas
 c_thebai                        ;dalmatian          ;Thebes  ;Stivas
-c_euboia                        ;frankish           ;Euboea  ;Négrepont
-c_euboia                        ;norman             ;Euboea  ;Négrepont
-c_euboia                        ;catalan            ;Euboea  ;Nigrepont
-c_euboia                        ;turkish            ;Euboea  ;Egriboz
-c_euboia                        ;turkmen            ;Egriboz ;Egriboz
-c_euboia                        ;oghuz              ;Egriboz ;Egriboz
-c_euboia                        ;pecheneg           ;Egriboz ;Egriboz
-c_euboia                        ;croatian           ;Euboea  ;Eubeja
-c_euboia                        ;serbian            ;Euboea  ;Eubeja
-c_euboia                        ;sardinian          ;Euboea  ;Negroponte
-c_euboia                        ;sicilian           ;Euboea  ;Negroponte
-c_euboia                        ;corsican           ;Euboea  ;Negroponte
-c_euboia                        ;central_italian    ;Euboea  ;Negroponte
-c_euboia                        ;southern_italian   ;Euboea  ;Negroponte
-c_euboia                        ;neapolitan         ;Euboea  ;Negroponte
-c_euboia                        ;tuscan             ;Euboea  ;Negroponte
-c_euboia                        ;ligurian           ;Euboea  ;Negroponte
-c_euboia                        ;italian            ;Euboea  ;Negroponte
-c_euboia                        ;venetian           ;Euboea  ;Negroponte
-c_euboia                        ;dalmatian          ;Euboea  ;Negroponte
+c_euboia                        ;frankish           ;        ;Négrepont
+c_euboia                        ;norman             ;        ;Négrepont
+c_euboia                        ;catalan            ;        ;Nigrepont
+c_euboia                        ;turkish            ;        ;Egriboz
+c_euboia                        ;turkmen            ;        ;Egriboz
+c_euboia                        ;oghuz              ;        ;Egriboz
+c_euboia                        ;pecheneg           ;        ;Egriboz
+c_euboia                        ;croatian           ;        ;Eubeja
+c_euboia                        ;serbian            ;        ;Eubeja
+c_euboia                        ;sardinian          ;        ;Negroponte
+c_euboia                        ;sicilian           ;        ;Negroponte
+c_euboia                        ;corsican           ;        ;Negroponte
+c_euboia                        ;central_italian    ;        ;Negroponte
+c_euboia                        ;southern_italian   ;        ;Negroponte
+c_euboia                        ;neapolitan         ;        ;Negroponte
+c_euboia                        ;tuscan             ;        ;Negroponte
+c_euboia                        ;ligurian           ;        ;Negroponte
+c_euboia                        ;italian            ;        ;Negroponte
+c_euboia                        ;venetian           ;        ;Negroponte
+c_euboia                        ;dalmatian          ;        ;Negroponte
 c_atheniai                      ;frankish           ;Athens  ;Athènes
 c_atheniai                      ;norman             ;Athens  ;Athènes
 c_atheniai                      ;catalan            ;Athens  ;Atenes
@@ -1614,9 +1614,9 @@ c_rhodos                        ;venetian           ;Rhodes  ;Rodi
 c_rhodos                        ;dalmatian          ;Rhodes  ;Rodi
 c_lykia                         ;frankish           ;        ;Lycie
 c_lykia                         ;norman             ;        ;Lycie
-c_lykia                         ;turkish            ;        ;Teke
-c_lykia                         ;turkmen            ;        ;Teke
-c_lykia                         ;oghuz              ;        ;Teke
+c_lykia                         ;turkish            ;Teke    ;Teke
+c_lykia                         ;turkmen            ;Teke    ;Teke
+c_lykia                         ;oghuz              ;Teke    ;Teke
 c_lykia                         ;sardinian          ;        ;Licia
 c_lykia                         ;sicilian           ;        ;Licia
 c_lykia                         ;corsican           ;        ;Licia
@@ -1917,19 +1917,19 @@ d_cherson                       ;italian            ;Theodoro;Gothia
 d_cherson                       ;venetian           ;Theodoro;Gothia
 d_cherson                       ;dalmatian          ;Theodoro;Gothia
 c_theodosia                     ;turkish            ;        ;Kefe
-c_theodosia                     ;turkmen            ;        ;Sudaq
-c_theodosia                     ;oghuz              ;        ;Sudaq
+c_theodosia                     ;turkmen            ;Sudak   ;Sudaq
+c_theodosia                     ;oghuz              ;Sudak   ;Sudaq
 c_theodosia                     ;mongol             ;        ;Kefe
 c_theodosia                     ;cuman              ;        ;Kefe
-c_theodosia                     ;pecheneg           ;        ;Sudaq
-c_theodosia                     ;khazar             ;        ;Sudaq
-c_theodosia                     ;bolghar            ;        ;Sudaq
-c_theodosia                     ;avar               ;        ;Sudaq
-c_theodosia                     ;karluk             ;        ;Sudaq
-c_theodosia                     ;kasogi             ;        ;Sudaq
+c_theodosia                     ;pecheneg           ;Sudak   ;Sudaq
+c_theodosia                     ;khazar             ;Sudak   ;Sudaq
+c_theodosia                     ;bolghar            ;Sudak   ;Sudaq
+c_theodosia                     ;avar               ;Sudak   ;Sudaq
+c_theodosia                     ;karluk             ;Sudak   ;Sudaq
+c_theodosia                     ;kasogi             ;Sudak   ;Sudaq
 c_theodosia                     ;kirghiz            ;        ;Kefe
 c_theodosia                     ;uyghur             ;        ;Kefe
-c_theodosia                     ;bashkir            ;        ;Sudaq
+c_theodosia                     ;bashkir            ;Sudak   ;Sudaq
 c_theodosia                     ;russian            ;        ;Kaffa
 c_theodosia                     ;pommeranian        ;        ;Kaffa
 c_theodosia                     ;polish             ;        ;Kaffa
@@ -1962,18 +1962,18 @@ c_cherson                       ;croatian           ;        ;Korsun
 c_cherson                       ;serbian            ;        ;Korsun
 c_cherson                       ;bosnian            ;        ;Korsun
 c_cherson                       ;bulgarian          ;        ;Korsun
-c_cherson                       ;sardinian          ;        ;Gothia Maritima
-c_cherson                       ;sicilian           ;        ;Gothia Maritima
-c_cherson                       ;corsican           ;        ;Gothia Maritima
-c_cherson                       ;central_italian    ;        ;Gothia Maritima
-c_cherson                       ;southern_italian   ;        ;Gothia Maritima
-c_cherson                       ;neapolitan         ;        ;Gothia Maritima
-c_cherson                       ;tuscan             ;        ;Gothia Maritima
-c_cherson                       ;ligurian           ;        ;Gothia Maritima
-c_cherson                       ;langobardisch      ;        ;Gothia Maritima
-c_cherson                       ;italian            ;        ;Gothia Maritima
-c_cherson                       ;venetian           ;        ;Gothia Maritima
-c_cherson                       ;dalmatian          ;        ;Gothia Maritima
+c_cherson                       ;sardinian          ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;sicilian           ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;corsican           ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;central_italian    ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;southern_italian   ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;neapolitan         ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;tuscan             ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;ligurian           ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;langobardisch      ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;italian            ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;venetian           ;Gothia Maritima;Gothia Maritima
+c_cherson                       ;dalmatian          ;Gothia Maritima;Gothia Maritima
 d_armeniacon                    ;frankish           ;Amasya  ;Amasée
 d_armeniacon                    ;norman             ;Amasya  ;Amasée
 d_armeniacon                    ;turkish            ;Amasya  ;Amasiyya
