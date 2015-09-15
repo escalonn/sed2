@@ -14,11 +14,7 @@ swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
 keys_to_override = {
     # A Bookmarks.csv
-    'VIKING_ERA', 'VIKING_ERA_INFO', 'VIKING_ERA', 'EARLY_MED_INFO',
-    'ERA_CHAR_INFO_163112', 'ERA_CHAR_INFO_40605', 'ERA_CHAR_INFO_90104',
-    'ERA_CHAR_INFO_90107', 'ERA_CHAR_INFO_1700', 'ERA_CHAR_INFO_34014',
-    'ERA_CHAR_INFO_140', 'ERA_CHAR_INFO_1316', 'ERA_CHAR_INFO_1128',
-    'ERA_CHAR_INFO_3096', 'ERA_CHAR_INFO_3040'
+    'VIKING_ERA', 'VIKING_ERA_INFO', 'EARLY_MED', 'EARLY_MED_INFO'
 }
 
 def get_province_id(where):
@@ -75,14 +71,38 @@ def get_cultures(where):
 
 def get_more_keys_to_override(where):
     keys = set()
+    for _, tree in ck2parser.parse_files('common/bookmarks/*.txt', where):
+        for n, v in tree:
+            for n2, v2 in v:
+                if n2.val in {'name', 'desc'}:
+                    keys.add(v2.val)
+                elif n2.val == 'character':
+                    keys.add('ERA_CHAR_INFO_{}'.format(v2.val))
     for _, tree in ck2parser.parse_files('common/buildings/*.txt', where):
         for n, v in tree:
-            if n.val == 'castle':
-                for n2, v2 in v:
+            for n2, v2 in v:
+                keys.add(n2.val)
+                for n3, v3 in v2:
+                    if n3.val == 'desc':
+                        keys.add(v3.val)
+    for _, tree in ck2parser.parse_files('common/cultures/*.txt', where):
+        for n, v in tree:
+            keys.add(n.val)
+            for n2, v2 in v:
+                if n2.val != 'graphical_cultures':
                     keys.add(n2.val)
-                    for n3, v3 in v2:
-                        if n3.val == 'desc':
-                            keys.add(v3.val)
+    for _, tree in ck2parser.parse_files('common/minor_titles/*.txt', where):
+        for n, v in tree:
+            keys.add(n.val)
+            keys.add(n.val + '_FOA')
+            keys.add(n.val + '_desc')
+    for _, tree in ck2parser.parse_files('common/retinue_subunits/*.txt',
+                                         where):
+        for n, v in tree:
+            keys.add(n.val)
+    for _, tree in ck2parser.parse_files('common/trade_routes/*.txt', where):
+        for n, v in tree:
+            keys.add(n.val)
     return keys
 
 def get_religions(where):
@@ -112,6 +132,7 @@ def main():
     dynamics = get_dynamics(swmhpath, cultures, prov_id)
     vanilla = ck2parser.localisation()
     keys_to_override |= get_more_keys_to_override(swmhpath)
+    keys_to_override.update(religions, rel_groups)
     overridden_keys = set()
     swmh_titles = set()
     prev_loc = collections.defaultdict(str)
