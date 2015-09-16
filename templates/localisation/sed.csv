@@ -216,7 +216,7 @@ c_vastergotland_adj                     ;Västergötlandic;;;;West Geatish
 c_ostergotland_adj                      ;Östergötlandic;;;;East Geatish
 c_sodermanland_adj                      ;Södermanlandic;;;;Södermannian
 c_gotland_adj                           ;Gotlandic;;;;Gotlander
-c_smaland_adj                           ;Njudung ;;;;Värender
+c_smaland_adj                           ;Värend  ;;;;Värender
 e_rebels                                ;Rebels  ;;;;Rebels
 e_rebels_adj                            ;Rebel   ;;;;Rebel
 e_pirates                               ;Pirates ;;;;Pirates
@@ -234,47 +234,47 @@ c_kyzikos_adj                           ;Cyzicus ;;;;Kyzikosian
 c_dorylaion_adj                         ;Dorylaeum;;;;Dorylaionian
 c_ikonion_adj                           ;Konya   ;;;;Ikonionian
 c_smyrna_adj                            ;Smyrnan ;;;;Smyrnan
-c_abydos_adj                            ;Biga    ;;;;Abydosian
+c_abydos_adj                            ;Abydos  ;;;;Abydosian
 c_euboia_adj                            ;Euboean ;;;;Euboian
 c_kaliopolis_adj                        ;Gallipoli;;;;Kaliopolisian
 c_thessalonike_adj                      ;Thessalonian;;;;Thessalonikian
 c_epeiros_adj                           ;Epirote ;;;;Epirotian
-c_arta_adj                              ;Nicopolis;;;;Artan
+c_arta_adj                              ;Arta    ;;;;Artan
 c_cephalonia_adj                        ;Cephalonian;;;;Phaeacians
-c_hellas_adj                            ;Naupactus;;;;Hellenic
+c_hellas_adj                            ;Greek   ;;;;Hellenic
 c_atheniai_adj                          ;Athenian;;;;Athenian
 c_achaia_adj                            ;Achaean ;;;;Achaian
 c_korinthos_adj                         ;Corinthian;;;;Korinthian
-c_methone_adj                           ;Messenian;;;;Methonian
+c_methone_adj                           ;Methoni ;;;;Methonian
 c_theodosia_adj                         ;Feodosian;;;;Theodosian
 c_cherson_adj                           ;Chersonesus;;;;Chersonian
 c_attaleia_adj                          ;Antalya ;;;;Attaleian
 c_rhodos_adj                            ;Rhodian ;;;;Rhodian
 c_lykia_adj                             ;Lycian  ;;;;Lykian
-c_gastrikland_adj                       ;        ;;;;Gästriklander
-c_aland_adj                             ;        ;;;;Ålander
-d_ostergotland                          ;        ;;Austrgautland,Østergøtland;;Östergötland
-d_ostergotland_adj                      ;        ;;;;East Geatish
+c_gastrikland_adj                       ;Gästrikland;;;;Gästriklander
+c_aland_adj                             ;Ålandic ;;;;Ålander
+d_ostergotland                          ;Östergötland;;Austrgautland,Østergøtland;;Östergötland
+d_ostergotland_adj                      ;Östergötlandic;;;;East Geatish
 c_narke_adj                             ;Närke   ;;;;Närkian
-d_vastergotland                         ;        ;;Vestrgautland;;Västergötland
-d_vastergotland_adj                     ;        ;;;;West Geatish
-c_dal_adj                               ;        ;;;;Dalabo
-c_viken_adj                             ;Ranrike ;;;;Vikish
-d_norrland                              ;        ;;Kænlandi,Cwenaland,Norlanti;;Norrland
-d_norrland_adj                          ;        ;;;;Norrlander
-c_vasterbotten_adj                      ;Norrlandic;;;;Västerbottnian
-c_angermanland_adj                      ;        ;;;;Ångermanlander
-c_medelpad_adj                          ;Sunded  ;;;;Medelpadian
-c_halsingland_adj                       ;Alir    ;;;;Hälsinglander
-c_dalarna_adj                           ;        ;;;;Dalish
+d_vastergotland                         ;Västergötland;;Vestrgautland;;Västergötland
+d_vastergotland_adj                     ;Västergötlandic;;;;West Geatish
+c_dal_adj                               ;Dal     ;;;;Dalabo
+c_viken_adj                             ;Viken   ;;;;Vikish
+d_norrland                              ;Norrland;;Kænlandi,Cwenaland,Norlanti;;Norrland
+d_norrland_adj                          ;Norrlandic;;;;Norrlander
+c_vasterbotten_adj                      ;Västerbotten;;;;Västerbottnian
+c_angermanland_adj                      ;Ångermanlandic;;;;Ångermanlander
+c_medelpad_adj                          ;Medelpad;;;;Medelpadian
+c_halsingland_adj                       ;Hälsingland;;;;Hälsinglander
+c_dalarna_adj                           ;Dalecarlian;;;;Dalish
 c_varmland_adj                          ;Värmlandic;;;;Värmlander
-c_vastmanland_adj                       ;        ;;;;Västmanlander
-d_smaland                               ;        ;;Smáland;Gotland;Småland
-d_smaland_adj                           ;        ;;;Gotlandish;Smålander
-c_oland_adj                             ;        ;;;;Ölander
-c_hamburg_adj                           ;Stormarn;;;;Hamburgian
-c_lubeck_adj                            ;        ;;;;Lübecker
-c_holstein_adj                          ;Itzehoe ;;;;Holsteinian
+c_vastmanland_adj                       ;Västmanland;;;;Västmanlander
+d_smaland                               ;Småland ;;Smáland;Gotland;Småland
+d_smaland_adj                           ;Smålandic;;;Gotlandish;Smålander
+c_oland_adj                             ;Ölandic ;;;;Ölander
+c_hamburg_adj                           ;Hamburg ;;;;Hamburgian
+c_lubeck_adj                            ;Lübeck  ;;;;Lübecker
+c_holstein_adj                          ;Holstein;;;;Holsteinian
 c_bremen_adj                            ;        ;;;;Bremenian
 c_oldenburg_adj                         ;        ;;;;Oldenburgian
 c_osnabruck_adj                         ;        ;;;;Osnabrückian
@@ -1204,17 +1204,17 @@ PROV255                                 ;        ;;c_thuringen;;Thüringen
 PROV256                                 ;        ;;c_weimar;;Weimar
 PROV257                                 ;        ;;c_braunschweig;;Braunschweig
 PROV258                                 ;        ;;c_luneburg;;Lüneburg
-PROV262                                 ;        ;;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;;Lübeck
-PROV281                                 ;        ;;c_angermanland;;Ångermanland
-PROV286                                 ;        ;;c_gastrikland,Gestrikland;;Gästrikland
-PROV287                                 ;        ;;c_dalarna,Jernbæraland;;Järnbäraland
-PROV289                                 ;        ;;c_vastmanland,Vestmanland;;Västmanland
-PROV291                                 ;        ;;c_aland;;Åland
+PROV262                                 ;Lübeck  ;;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;;Lübeck
+PROV281                                 ;Ångermanland;;c_angermanland;;Ångermanland
+PROV286                                 ;Gästrikland;;c_gastrikland,Gestrikland;;Gästrikland
+PROV287                                 ;Dalarna ;;c_dalarna,Jernbæraland;;Järnbäraland
+PROV289                                 ;Västmanland;;c_vastmanland,Vestmanland;;Västmanland
+PROV291                                 ;Åland   ;;c_aland;;Åland
 PROV292                                 ;Södermanland;;c_sodermanland,Sødermanland;;Södermanland
 PROV293                                 ;Östergötland;;c_ostergotland,Austrgautland,Østergøtland;;Östergötland
-PROV295                                 ;        ;;c_dal;;Dal
+PROV295                                 ;Dal     ;;c_dal;;Dal
 PROV299                                 ;        ;;c_farah,Prophthasia;;Farrah
-PROV300                                 ;        ;;c_oland,Øland;;Öland
+PROV300                                 ;Öland   ;;c_oland,Øland;;Öland
 PROV301                                 ;Gotland ;;c_gotland,Gautland,Gulland;;Gotland
 PROV306                                 ;        ;;c_rostock,Roztok,Rozstoc,Rostoch;;Rostock
 PROV307                                 ;        ;;c_werle,Orle;;Werle
