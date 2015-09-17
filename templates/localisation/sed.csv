@@ -297,24 +297,24 @@ c_thuringen_adj                         ;Thuringian;;;;Thüringian
 c_nassau_adj                            ;Nassau  ;;;;Nassauian
 d_holland                               ;Holland ;;Hollande,Hollân;;Holland
 d_holland_adj                           ;Holland ;;;;Hollander
-c_frisia_adj                            ;        ;;;;Frisian
-c_holland_adj                           ;        ;;;;Hollander
-c_westfriesland_adj                     ;        ;;;;Westfrieslander
-c_zeeland_adj                           ;        ;;;;Zeelander
-d_gelre                                 ;        ;;Geldern,Gueldre;;Gelre
-c_ostfriesland_adj                      ;        ;;;;Ostfrieslander
-c_gelre_adj                             ;        ;;;;Gelrian
-c_sticht_adj                            ;        ;;;;Stichtian
-d_brabant                               ;        ;;;;Brabant
-d_brabant_adj                           ;        ;;;;Brabantian
-c_brabant_adj                           ;Leuven  ;;;;Brabantian
-c_hainaut_adj                           ;Mons    ;;;;Hainautian
-c_breda_adj                             ;Antwerp ;;;;Bredian
-d_luxembourg                            ;        ;;Lützelburg,Lutzelburg;;Luxembourg
-d_luxembourg_adj                        ;        ;;;;Luxembourgian
-c_luxembourg_adj                        ;        ;;;;Luxembourgian
-c_loon_adj                              ;        ;;;;Loonian
-c_liege_adj                             ;        ;;;;Liegian
+c_frisia_adj                            ;Frisian ;;;;Frisian
+c_holland_adj                           ;Holland ;;;;Hollander
+c_westfriesland_adj                     ;West Frisian;;;;Westfrieslander
+c_zeeland_adj                           ;Zeelandic;;;;Zeelander
+d_gelre                                 ;Guelders;;Geldern,Gueldre;;Gelre
+c_ostfriesland_adj                      ;East Frisian;;;;Ostfrieslander
+c_gelre_adj                             ;Guelders;;;;Gelrian
+c_sticht_adj                            ;Utrecht ;;;;Stichtian
+d_brabant                               ;Brabant ;;;;Brabant
+d_brabant_adj                           ;Brabant ;;;;Brabantian
+c_brabant_adj                           ;Brabant ;;;;Brabantian
+c_hainaut_adj                           ;Hainautian;;;;Hainautian
+c_breda_adj                             ;Breda   ;;;;Bredian
+d_luxembourg                            ;Luxembourg;;Lützelburg,Lutzelburg;;Luxembourg
+d_luxembourg_adj                        ;Luxembourgian;;;;Luxembourgian
+c_luxembourg_adj                        ;Luxembourgian;;;;Luxembourgian
+c_loon_adj                              ;Loon    ;;;;Loonian
+c_liege_adj                             ;Liège   ;;;;Liegian
 c_koln_adj                              ;        ;;;;Kölnian
 c_julich_adj                            ;        ;;;;Jülichian
 c_trier_adj                             ;        ;;;;Trierian
@@ -1079,18 +1079,18 @@ PROV75                                  ;        ;;c_boulogne,Bonen;;Boulogne
 PROV76                                  ;        ;;c_yperen,Ieper;;Yperen
 PROV77                                  ;        ;;c_artois,Artesië;;Artois
 PROV78                                  ;        ;;c_brugge;;Brugge
-PROV79                                  ;        ;;c_zeeland;;Zeeland
-PROV80                                  ;        ;;c_holland;;Holland
-PROV81                                  ;        ;;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;;Westfriesland
-PROV82                                  ;        ;;c_sticht;;Sticht
-PROV83                                  ;        ;;c_gelre;;Gelre
-PROV84                                  ;        ;;c_frisia,Fresland,Friesland,Frise;;Friesland
-PROV85                                  ;        ;;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;;Ostfriesland
+PROV79                                  ;Zeeland ;;c_zeeland;;Zeeland
+PROV80                                  ;Holland ;;c_holland;;Holland
+PROV81                                  ;West Frisia;;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;;Westfriesland
+PROV82                                  ;Utrecht ;;c_sticht;;Sticht
+PROV83                                  ;Guelders;;c_gelre;;Gelre
+PROV84                                  ;Frisia  ;;c_frisia,Fresland,Friesland,Frise;;Friesland
+PROV85                                  ;East Frisia;;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;;Ostfriesland
 PROV86                                  ;Oldenburg;;c_oldenburg;;Oldenburg
 PROV87                                  ;Osnabrück;;c_osnabruck;;Osnabrück
 PROV88                                  ;Münster ;;c_munster;;Münster
 PROV90                                  ;        ;;c_julich,Gulik,Juliers;;Jülich
-PROV91                                  ;        ;;c_loon,Looz;;Loon
+PROV91                                  ;Loon    ;;c_loon,Looz;;Loon
 PROV93                                  ;        ;;c_gent;;Gent
 PROV95                                  ;        ;;c_amiens,Samarobriva;;Amiens
 PROV96                                  ;        ;;c_eu;;Eu
@@ -1103,8 +1103,8 @@ PROV109                                 ;        ;;c_vendome;;Vendôme
 PROV110                                 ;        ;;c_blois;;Blois
 PROV111                                 ;        ;;c_chartres;;Chartres
 PROV113                                 ;        ;;c_vermandois;;Vermandois
-PROV115                                 ;        ;;c_luxembourg,Lützelburg,Lutzelburg;;Luxembourg
-PROV116                                 ;        ;;c_liege,Lüttich,Luik,Liége;;Liege
+PROV115                                 ;Luxembourg;;c_luxembourg,Lützelburg,Lutzelburg;;Luxembourg
+PROV116                                 ;Liège   ;;c_liege,Lüttich,Luik,Liége;;Liege
 PROV118                                 ;        ;;c_trier,Trèves,Augusta Treverorum,Augousta Treverorum;;Trier
 PROV119                                 ;        ;;c_koln,Keulen,Cologne;;Köln
 PROV121                                 ;Nassau  ;;c_nassau;;Nassau
@@ -1495,7 +1495,7 @@ d_connacht_adj                          ;        ;;;;Connachtian
 d_leinster_adj                          ;        ;;;;Leinsterian
 d_munster_adj                           ;        ;;;;Munsterian
 d_ulster_adj                            ;        ;;;;Ulsterian
-d_gelre_adj                             ;        ;;;;Gelrian
+d_gelre_adj                             ;Guelders;;;;Gelrian
 d_ryazan_adj                            ;        ;;;;Ryazanian
 d_dauphine_adj                          ;        ;;;;Dauphinian
 d_valois_adj                            ;        ;;;;Valoisaine
