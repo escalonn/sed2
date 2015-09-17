@@ -275,28 +275,28 @@ c_oland_adj                             ;Ölandic ;;;;Ölander
 c_hamburg_adj                           ;Hamburg ;;;;Hamburgian
 c_lubeck_adj                            ;Lübeck  ;;;;Lübecker
 c_holstein_adj                          ;Holstein;;;;Holsteinian
-c_bremen_adj                            ;        ;;;;Bremenian
-c_oldenburg_adj                         ;        ;;;;Oldenburgian
-c_osnabruck_adj                         ;        ;;;;Osnabrückian
-c_munster_adj                           ;        ;;;;Munsterian
-c_gottingen_adj                         ;Grone   ;;;;Göttingian
-c_rostock_adj                           ;        ;;;;Rostocker
-c_werle_adj                             ;        ;;;;Werlian
+c_bremen_adj                            ;Bremian ;;;;Bremenian
+c_oldenburg_adj                         ;Oldenburg;;;;Oldenburgian
+c_osnabruck_adj                         ;Osnabrück;;;;Osnabrückian
+c_munster_adj                           ;Münster ;;;;Munsterian
+c_gottingen_adj                         ;Göttingen;;;;Göttingian
+c_rostock_adj                           ;Rostock ;;;;Rostocker
+c_werle_adj                             ;Werle   ;;;;Werlian
 c_rugen_adj                             ;Rügen   ;;;;Rügenian
-c_celle_adj                             ;Lippe   ;;;;Cellian
-c_luneburg_adj                          ;        ;;;;Lüneburgian
-c_braunschweig_adj                      ;        ;;;;Braunschweigian
-c_altmark_adj                           ;        ;;;;Altmarkian
-c_anhalt_adj                            ;        ;;;;Anhaltian
-d_meissen                               ;        ;;;;Meissen
-d_meissen_adj                           ;        ;;;;Meissian
-c_meissen_adj                           ;        ;;;;Meissian
-c_weimar_adj                            ;        ;;;;Weimarian
-c_plauen_adj                            ;Bayreuth;;;;Plauenian
-c_thuringen_adj                         ;        ;;;;Thüringian
-c_nassau_adj                            ;        ;;;;Nassauian
-d_holland                               ;        ;;Hollande,Hollân;;Holland
-d_holland_adj                           ;        ;;;;Hollander
+c_celle_adj                             ;Celle   ;;;;Cellian
+c_luneburg_adj                          ;Lüneburgian;;;;Lüneburgian
+c_braunschweig_adj                      ;Brunswickian;;;;Braunschweigian
+c_altmark_adj                           ;Altmark ;;;;Altmarkian
+c_anhalt_adj                            ;Anhaltian;;;;Anhaltian
+d_meissen                               ;Meissen ;;;;Meissen
+d_meissen_adj                           ;Meissen ;;;;Meissian
+c_meissen_adj                           ;Meissen ;;;;Meissian
+c_weimar_adj                            ;Weimarian;;;;Weimarian
+c_plauen_adj                            ;Plauen  ;;;;Plauenian
+c_thuringen_adj                         ;Thuringian;;;;Thüringian
+c_nassau_adj                            ;Nassau  ;;;;Nassauian
+d_holland                               ;Holland ;;Hollande,Hollân;;Holland
+d_holland_adj                           ;Holland ;;;;Hollander
 c_frisia_adj                            ;        ;;;;Frisian
 c_holland_adj                           ;        ;;;;Hollander
 c_westfriesland_adj                     ;        ;;;;Westfrieslander
@@ -1086,9 +1086,9 @@ PROV82                                  ;        ;;c_sticht;;Sticht
 PROV83                                  ;        ;;c_gelre;;Gelre
 PROV84                                  ;        ;;c_frisia,Fresland,Friesland,Frise;;Friesland
 PROV85                                  ;        ;;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;;Ostfriesland
-PROV86                                  ;        ;;c_oldenburg;;Oldenburg
-PROV87                                  ;        ;;c_osnabruck;;Osnabrück
-PROV88                                  ;        ;;c_munster;;Münster
+PROV86                                  ;Oldenburg;;c_oldenburg;;Oldenburg
+PROV87                                  ;Osnabrück;;c_osnabruck;;Osnabrück
+PROV88                                  ;Münster ;;c_munster;;Münster
 PROV90                                  ;        ;;c_julich,Gulik,Juliers;;Jülich
 PROV91                                  ;        ;;c_loon,Looz;;Loon
 PROV93                                  ;        ;;c_gent;;Gent
@@ -1107,7 +1107,7 @@ PROV115                                 ;        ;;c_luxembourg,Lützelburg,Lutze
 PROV116                                 ;        ;;c_liege,Lüttich,Luik,Liége;;Liege
 PROV118                                 ;        ;;c_trier,Trèves,Augusta Treverorum,Augousta Treverorum;;Trier
 PROV119                                 ;        ;;c_koln,Keulen,Cologne;;Köln
-PROV121                                 ;        ;;c_nassau;;Nassau
+PROV121                                 ;Nassau  ;;c_nassau;;Nassau
 PROV123                                 ;        ;;c_mainz,Mogontiacum,Mogontiakon;;Mainz
 PROV124                                 ;        ;;c_pfalz,Palts,Pfalz,Palatinat;;Pfalz
 PROV125                                 ;        ;;c_baden;;Baden
@@ -1200,10 +1200,10 @@ PROV251                                 ;        ;;c_furstenberg;;Fürstenberg
 PROV252                                 ;        ;;c_ulm;;Ulm
 PROV253                                 ;        ;;c_wurttemberg;;Württemberg
 PROV254                                 ;        ;;c_wurzburg;;Würzburg
-PROV255                                 ;        ;;c_thuringen;;Thüringen
-PROV256                                 ;        ;;c_weimar;;Weimar
-PROV257                                 ;        ;;c_braunschweig;;Braunschweig
-PROV258                                 ;        ;;c_luneburg;;Lüneburg
+PROV255                                 ;Thuringia;;c_thuringen;;Thüringen
+PROV256                                 ;Weimar  ;;c_weimar;;Weimar
+PROV257                                 ;Brunswick;;c_braunschweig;;Braunschweig
+PROV258                                 ;Lüneburg;;c_luneburg;;Lüneburg
 PROV262                                 ;Lübeck  ;;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;;Lübeck
 PROV281                                 ;Ångermanland;;c_angermanland;;Ångermanland
 PROV286                                 ;Gästrikland;;c_gastrikland,Gestrikland;;Gästrikland
@@ -1216,11 +1216,11 @@ PROV295                                 ;Dal     ;;c_dal;;Dal
 PROV299                                 ;        ;;c_farah,Prophthasia;;Farrah
 PROV300                                 ;Öland   ;;c_oland,Øland;;Öland
 PROV301                                 ;Gotland ;;c_gotland,Gautland,Gulland;;Gotland
-PROV306                                 ;        ;;c_rostock,Roztok,Rozstoc,Rostoch;;Rostock
-PROV307                                 ;        ;;c_werle,Orle;;Werle
-PROV309                                 ;        ;;c_altmark;;Altmark
-PROV310                                 ;        ;;c_anhalt,Chutizi;;Anhalt
-PROV312                                 ;        ;;c_meissen,Dalaminza;;Meissen
+PROV306                                 ;Rostock ;;c_rostock,Roztok,Rozstoc,Rostoch;;Rostock
+PROV307                                 ;Werle   ;;c_werle,Orle;;Werle
+PROV309                                 ;Altmark ;;c_altmark;;Altmark
+PROV310                                 ;Anhalt  ;;c_anhalt,Chutizi;;Anhalt
+PROV312                                 ;Meissen ;;c_meissen,Dalaminza;;Meissen
 PROV313                                 ;        ;;c_bamberg;;Bamberg
 PROV314                                 ;        ;;c_nurnberg;;Nürnberg
 PROV315                                 ;        ;;c_kempten,Cambodunum;;Kempten
@@ -1356,7 +1356,7 @@ PROV814                                 ;        ;;c_gabes,Tacapae,Tacape;;Gabes
 PROV815                                 ;        ;;c_kairwan,Thysdrus;;Kairwan
 PROV826                                 ;        ;;c_menorca,Manurqa,Menorka,Minorque,Minorca;;Menorca
 PROV827                                 ;        ;;c_mallorca,Mayurqa,Maiorka,Maiorca,Majorque;;Mallorca
-PROV848                                 ;        ;;c_bremen;;Bremen
+PROV848                                 ;Bremen  ;;c_bremen;;Bremen
 PROV850                                 ;        ;;c_kandalax;;Kantalahti
 PROV851                                 ;        ;;c_capua,Kapue;;Capua
 PROV855                                 ;        ;;c_mahra;;Mahra
