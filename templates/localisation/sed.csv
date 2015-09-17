@@ -315,44 +315,44 @@ d_luxembourg_adj                        ;Luxembourgian;;;;Luxembourgian
 c_luxembourg_adj                        ;Luxembourgian;;;;Luxembourgian
 c_loon_adj                              ;Loon    ;;;;Loonian
 c_liege_adj                             ;Liège   ;;;;Liegian
-c_koln_adj                              ;        ;;;;Kölnian
-c_julich_adj                            ;        ;;;;Jülichian
-c_trier_adj                             ;        ;;;;Trierian
+c_koln_adj                              ;Colognian;;;;Kölnian
+c_julich_adj                            ;Jülich  ;;;;Jülichian
+c_trier_adj                             ;Trier   ;;;;Trierian
 c_kleve_adj                             ;Kleve   ;;;;Klevian
-c_mainz_adj                             ;        ;;;;Mainzian
-c_leiningen_adj                         ;Wertheim;;;;Leiningian
-c_bamberg_adj                           ;        ;;;;Bambergian
-c_pfalz_adj                             ;        ;;;;Pfalzian
-c_metz_adj                              ;        ;;;;Metzian
-c_verdun_adj                            ;        ;;;;Verdunian
-c_lorraine_adj                          ;Blâmont ;;;;Lorrainian
-c_saintois_adj                          ;Vaudémont;;;;Saintoisian
-d_baden                                 ;        ;;;;Baden
-d_baden_adj                             ;        ;;;;Badenian
-c_baden_adj                             ;        ;;;;Badenian
-c_breisgau_adj                          ;        ;;;;Breisgauer
-d_alsace                                ;        ;;Elsass,Alsace,Elzas;;Alsace
-d_alsace_adj                            ;        ;;;;Alsatian
-c_nordgau_adj                           ;        ;;;;Nordgauer
-c_sundgau_adj                           ;        ;;;;Sundgauer
-c_tirol_adj                             ;        ;;;;Tyrolian
-c_trent_adj                             ;        ;;;;Trentian
-c_st_gallen_adj                         ;Thurgau ;;;;St. Gallenian
-c_innsbruck_adj                         ;Traungau;;;;Innsbruckian
-c_schwaben_adj                          ;Montfort;;;;Swabian
-c_ulm_adj                               ;        ;;;;Ulmian
-c_furstenberg_adj                       ;        ;;;;Fürstenbergian
-c_wurttemberg_adj                       ;        ;;;;Württembergian
-c_kempten_adj                           ;        ;;;;Kemptian
-c_oberbayern_adj                        ;        ;;;;Oberbayerian
-c_salzburg_adj                          ;Salzburg;;;;Salzburgian
-c_niederbayern_adj                      ;        ;;;;Niederbayerian
-c_nurnberg_adj                          ;        ;;;;Nürnbergian
-c_passau_adj                            ;Ortenburg;;;;Passauian
+c_mainz_adj                             ;Mainz   ;;;;Mainzian
+c_leiningen_adj                         ;Leiningen;;;;Leiningian
+c_bamberg_adj                           ;Bamberg ;;;;Bambergian
+c_pfalz_adj                             ;Palatine;;;;Pfalzian
+c_metz_adj                              ;Metz    ;;;;Metzian
+c_verdun_adj                            ;Verdun  ;;;;Verdunian
+c_lorraine_adj                          ;Lorrainian;;;;Lorrainian
+c_saintois_adj                          ;Saintois;;;;Saintoisian
+d_baden                                 ;Baden   ;;;;Baden
+d_baden_adj                             ;Baden   ;;;;Badenian
+c_baden_adj                             ;Baden   ;;;;Badenian
+c_breisgau_adj                          ;Breisgau;;;;Breisgauer
+d_alsace                                ;Alsace  ;;Elsass,Alsace,Elzas;;Alsace
+d_alsace_adj                            ;Alsatian;;;;Alsatian
+c_nordgau_adj                           ;Nordgau ;;;;Nordgauer
+c_sundgau_adj                           ;Sundgau ;;;;Sundgauer
+c_tirol_adj                             ;Tyrolean;;;;Tyrolian
+c_trent_adj                             ;Tridentine;;;;Trentian
+c_st_gallen_adj                         ;St. Gallen;;;;St. Gallenian
+c_innsbruck_adj                         ;Innsbruck;;;;Innsbruckian
+c_schwaben_adj                          ;Swabian ;;;;Swabian
+c_ulm_adj                               ;Ulm     ;;;;Ulmian
+c_furstenberg_adj                       ;Fürstenbergian;;;;Fürstenbergian
+c_wurttemberg_adj                       ;Württembergian;;;;Württembergian
+c_kempten_adj                           ;Kempten ;;;;Kemptian
+c_oberbayern_adj                        ;Upper Bavarian;;;;Oberbayerian
+c_salzburg_adj                          ;Salzburgian;;;;Salzburgian
+c_niederbayern_adj                      ;Lower Bavarian;;;;Niederbayerian
+c_nurnberg_adj                          ;Nurembergian;;;;Nürnbergian
+c_passau_adj                            ;Passau  ;;;;Passauian
 c_znojmo_adj                            ;Znojmo  ;;;;Znojmo
-c_osterreich_adj                        ;        ;;;;Österreicher
-c_steiermark_adj                        ;        ;;;;Steiermarkian
-c_wolgast_adj                           ;Gützkow ;;;;Wolgastian
+c_osterreich_adj                        ;Austrian;;;;Österreicher
+c_steiermark_adj                        ;Styrian ;;;;Steiermarkian
+c_wolgast_adj                           ;        ;;;;Wolgastian
 c_stettin_adj                           ;        ;;;;Stettiner
 d_pomeralia                             ;        ;;Pommerellen;;Pomeralia
 d_pomeralia_adj                         ;        ;;;;Pomeralian
@@ -1089,7 +1089,7 @@ PROV85                                  ;East Frisia;;c_ostfriesland,Aastfräislo
 PROV86                                  ;Oldenburg;;c_oldenburg;;Oldenburg
 PROV87                                  ;Osnabrück;;c_osnabruck;;Osnabrück
 PROV88                                  ;Münster ;;c_munster;;Münster
-PROV90                                  ;        ;;c_julich,Gulik,Juliers;;Jülich
+PROV90                                  ;Jülich  ;;c_julich,Gulik,Juliers;;Jülich
 PROV91                                  ;Loon    ;;c_loon,Looz;;Loon
 PROV93                                  ;        ;;c_gent;;Gent
 PROV95                                  ;        ;;c_amiens,Samarobriva;;Amiens
@@ -1105,16 +1105,16 @@ PROV111                                 ;        ;;c_chartres;;Chartres
 PROV113                                 ;        ;;c_vermandois;;Vermandois
 PROV115                                 ;Luxembourg;;c_luxembourg,Lützelburg,Lutzelburg;;Luxembourg
 PROV116                                 ;Liège   ;;c_liege,Lüttich,Luik,Liége;;Liege
-PROV118                                 ;        ;;c_trier,Trèves,Augusta Treverorum,Augousta Treverorum;;Trier
-PROV119                                 ;        ;;c_koln,Keulen,Cologne;;Köln
+PROV118                                 ;Trier   ;;c_trier,Trèves,Augusta Treverorum,Augousta Treverorum;;Trier
+PROV119                                 ;Cologne ;;c_koln,Keulen,Cologne;;Köln
 PROV121                                 ;Nassau  ;;c_nassau;;Nassau
-PROV123                                 ;        ;;c_mainz,Mogontiacum,Mogontiakon;;Mainz
-PROV124                                 ;        ;;c_pfalz,Palts,Pfalz,Palatinat;;Pfalz
-PROV125                                 ;        ;;c_baden;;Baden
-PROV126                                 ;        ;;c_nordgau,Noordgouw;;Nordgau
-PROV128                                 ;        ;;c_metz;;Metz
-PROV129                                 ;        ;;c_verdun,Wirtten;;Verdun
-PROV134                                 ;        ;;c_sundgau,Sundgouw;;Sundgau
+PROV123                                 ;Mainz   ;;c_mainz,Mogontiacum,Mogontiakon;;Mainz
+PROV124                                 ;Palatinate;;c_pfalz,Palts,Pfalz,Palatinat;;Pfalz
+PROV125                                 ;Baden   ;;c_baden;;Baden
+PROV126                                 ;Nordgau ;;c_nordgau,Noordgouw;;Nordgau
+PROV128                                 ;Metz    ;;c_metz;;Metz
+PROV129                                 ;Verdun  ;;c_verdun,Wirtten;;Verdun
+PROV134                                 ;Sundgau ;;c_sundgau,Sundgouw;;Sundgau
 PROV136                                 ;        ;;c_dijon;;Dijon
 PROV137                                 ;        ;;c_nevers,Nevirnum;;Nevers
 PROV138                                 ;        ;;c_orleans,Cenabum,Kenabon;;Orléans
@@ -1195,10 +1195,10 @@ PROV242                                 ;        ;;c_aargau;;Aargau
 PROV243                                 ;        ;;c_orvieto,Volsinii,Ouolsinion;;Orvieto
 PROV245                                 ;        ;;c_schwyz;;Schwyz
 PROV247                                 ;        ;;c_chur,Curia;;Chur
-PROV250                                 ;        ;;c_breisgau;;Breisgau
-PROV251                                 ;        ;;c_furstenberg;;Fürstenberg
-PROV252                                 ;        ;;c_ulm;;Ulm
-PROV253                                 ;        ;;c_wurttemberg;;Württemberg
+PROV250                                 ;Breisgau;;c_breisgau;;Breisgau
+PROV251                                 ;Fürstenberg;;c_furstenberg;;Fürstenberg
+PROV252                                 ;Ulm     ;;c_ulm;;Ulm
+PROV253                                 ;Württemberg;;c_wurttemberg;;Württemberg
 PROV254                                 ;        ;;c_wurzburg;;Würzburg
 PROV255                                 ;Thuringia;;c_thuringen;;Thüringen
 PROV256                                 ;Weimar  ;;c_weimar;;Weimar
@@ -1221,11 +1221,11 @@ PROV307                                 ;Werle   ;;c_werle,Orle;;Werle
 PROV309                                 ;Altmark ;;c_altmark;;Altmark
 PROV310                                 ;Anhalt  ;;c_anhalt,Chutizi;;Anhalt
 PROV312                                 ;Meissen ;;c_meissen,Dalaminza;;Meissen
-PROV313                                 ;        ;;c_bamberg;;Bamberg
-PROV314                                 ;        ;;c_nurnberg;;Nürnberg
-PROV315                                 ;        ;;c_kempten,Cambodunum;;Kempten
-PROV316                                 ;        ;;c_tirol;;Tirol
-PROV317                                 ;        ;;c_trent,Tridentum,Tridente;;Trent
+PROV313                                 ;Bamberg ;;c_bamberg;;Bamberg
+PROV314                                 ;Nuremberg;;c_nurnberg;;Nürnberg
+PROV315                                 ;Kempten ;;c_kempten,Cambodunum;;Kempten
+PROV316                                 ;Tyrol   ;;c_tirol;;Tirol
+PROV317                                 ;Trent   ;;c_trent,Tridentum,Tridente;;Trent
 PROV318                                 ;        ;;c_brescia,Brixia;;Brescia
 PROV319                                 ;        ;;c_verona,Ouerona;;Verona
 PROV320                                 ;        ;;c_cremona,Kremone;;Cremona
@@ -1253,16 +1253,16 @@ PROV354                                 ;        ;;c_mantua,Mantoua;;Mantua
 PROV355                                 ;        ;;c_padova,Patavium,Pataouion;;Padua
 PROV357                                 ;        ;;c_treviso,Tarvisium,Tarbision;;Treviso
 PROV358                                 ;        ;;c_aquileia,Akouileia;;Aquileia
-PROV360                                 ;        ;;c_oberbayern;;Oberbayern
-PROV361                                 ;        ;;c_niederbayern,Castra Regina;;Niederbayern
+PROV360                                 ;Upper Bavaria;;c_oberbayern;;Oberbayern
+PROV361                                 ;Lower Bavaria;;c_niederbayern,Castra Regina;;Niederbayern
 PROV365                                 ;        ;;c_brandenburg,Branibór,Braniborz,Brennaburg,Brenna;;Brandenburg
 PROV366                                 ;        ;;c_stettin,Štetín,Szczecin,Szczëtno;;Stettin
 PROV368                                 ;        ;;c_danzig,Gdansk,Gyddanyzc;;Danzig
 PROV388                                 ;        ;;c_karelen;;Karjala
 PROV411                                 ;        ;;c_vodi;;Ingria
 PROV433                                 ;        ;;c_opole,Uppeln;;Opole
-PROV449                                 ;        ;;c_osterreich,Vindobona,Ouindobouna;;Österreich
-PROV455                                 ;        ;;c_steiermark;;Steiermark
+PROV449                                 ;Austria ;;c_osterreich,Vindobona,Ouindobouna;;Österreich
+PROV455                                 ;Styria  ;;c_steiermark;;Steiermark
 PROV456                                 ;        ;;c_karnten;;Kärnten
 PROV461                                 ;        ;;c_zagreb,Andautonia,Agram,Zágráb,Zagabria;;Zagreb
 PROV463                                 ;        ;;c_usora;;Usora
