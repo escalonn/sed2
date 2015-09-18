@@ -53,7 +53,7 @@ def main():
             key, val = row[0].strip(), row[1].strip()
             if not val and re.fullmatch(r' +', row[2]):
                 val = ' '
-            elif not val and not row[2]:
+            elif not val and inpath.name in swmh_files and not row[2]:
                 keys_to_blank.add(key)
             if '#' not in key:
                 if key not in sed2:
@@ -78,6 +78,8 @@ def main():
                     if not sed2row[1]:
                         break
                     sed2rows.append(sed2row)
+                    # if sed2row[1] or sed2row[0] in keys_to_blank:
+                    #     sed2rows.append(sed2row)
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
