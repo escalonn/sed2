@@ -289,6 +289,13 @@ d_bremen                        ;title              ;FE      ;FE
 d_bremen                        ;foa                ;FE_FOA  ;FE_FOA
 d_bremen                        ;title_prefix       ;FE_OF   ;FE_OF
 c_dithmarschen                  ;danish             ;        ;Thetmærsch
+c_reinholdsburg                 ;norse              ;        ;Reinoldsborg
+c_reinholdsburg                 ;swedish            ;        ;Reinoldsborg
+c_reinholdsburg                 ;norwegian          ;        ;Reinoldsborg
+c_reinholdsburg                 ;danish             ;        ;Reynoldsburgh
+c_reinholdsburg                 ;icelandic          ;        ;Reinoldsborg
+c_reinholdsburg                 ;anglonorse         ;        ;Reinoldsborg
+c_reinholdsburg                 ;norsegaelic        ;        ;Reinoldsborg
 d_magdeburg                     ;title              ;FE      ;FE
 d_magdeburg                     ;foa                ;FE_FOA  ;FE_FOA
 d_magdeburg                     ;title_prefix       ;FE_OF   ;FE_OF
@@ -7496,17 +7503,17 @@ d_vaspurakan                    ;levantine_arabic   ;Van     ;Van
 d_vaspurakan                    ;egyptian_arabic    ;Van     ;Van
 d_vaspurakan                    ;sicilian_arabic    ;Van     ;Van
 d_vaspurakan                    ;kurdish            ;Van     ;Wan
-c_vaspurakan                    ;andalusian_arabic  ;        ;Van
-c_vaspurakan                    ;greek              ;        ;Vaasprakania
-c_vaspurakan                    ;turkish            ;        ;Van
-c_vaspurakan                    ;turkmen            ;        ;Van
-c_vaspurakan                    ;oghuz              ;        ;Van
-c_vaspurakan                    ;bedouin_arabic     ;        ;Van
-c_vaspurakan                    ;maghreb_arabic     ;        ;Van
-c_vaspurakan                    ;levantine_arabic   ;        ;Van
-c_vaspurakan                    ;egyptian_arabic    ;        ;Van
-c_vaspurakan                    ;sicilian_arabic    ;        ;Van
-c_vaspurakan                    ;kurdish            ;        ;Wan
+c_vaspurakan                    ;andalusian_arabic  ;Van     ;Van
+c_vaspurakan                    ;greek              ;Vaasprakania;Vaasprakania
+c_vaspurakan                    ;turkish            ;Van     ;Van
+c_vaspurakan                    ;turkmen            ;Van     ;Van
+c_vaspurakan                    ;oghuz              ;Van     ;Van
+c_vaspurakan                    ;bedouin_arabic     ;Van     ;Van
+c_vaspurakan                    ;maghreb_arabic     ;Van     ;Van
+c_vaspurakan                    ;levantine_arabic   ;Van     ;Van
+c_vaspurakan                    ;egyptian_arabic    ;Van     ;Van
+c_vaspurakan                    ;sicilian_arabic    ;Van     ;Van
+c_vaspurakan                    ;kurdish            ;Van     ;Wan
 c_corduene                      ;andalusian_arabic  ;Cizre   ;Jazîrat ibn 'Umar
 c_corduene                      ;armenian           ;Hasankeyf;Harsenkev
 c_corduene                      ;greek              ;Hasankeyf;Kiphas
@@ -7545,9 +7552,9 @@ d_armenia                       ;sicilian_arabic    ;        ;al-Arminiya
 d_armenia                       ;kurdish            ;Ani     ;Anî
 c_dwin                          ;andalusian_arabic  ;        ;Dabil
 c_dwin                          ;greek              ;        ;Doúbios
-c_dwin                          ;turkish            ;        ;Erivan
-c_dwin                          ;turkmen            ;        ;Erivan
-c_dwin                          ;oghuz              ;        ;Erivan
+c_dwin                          ;turkish            ;Yerevan ;Erivan
+c_dwin                          ;turkmen            ;Yerevan ;Erivan
+c_dwin                          ;oghuz              ;Yerevan ;Erivan
 c_dwin                          ;bedouin_arabic     ;        ;Dabil
 c_dwin                          ;maghreb_arabic     ;        ;Dabil
 c_dwin                          ;levantine_arabic   ;        ;Dabil
@@ -7589,17 +7596,17 @@ d_amida                         ;levantine_arabic   ;Diyar Bakr;Diyar Bakr
 d_amida                         ;egyptian_arabic    ;Diyar Bakr;Diyar Bakr
 d_amida                         ;sicilian_arabic    ;Diyar Bakr;Diyar Bakr
 d_amida                         ;kurdish            ;        ;Amed
-c_amida                         ;andalusian_arabic  ;        ;Âmid
-c_amida                         ;armenian           ;        ;Tigranakert
-c_amida                         ;turkish            ;        ;Diyar-i Bekr
-c_amida                         ;turkmen            ;        ;Diyar-i Bekr
-c_amida                         ;oghuz              ;        ;Diyar-i Bekr
-c_amida                         ;bedouin_arabic     ;        ;Âmid
-c_amida                         ;maghreb_arabic     ;        ;Âmid
-c_amida                         ;levantine_arabic   ;        ;Âmid
-c_amida                         ;egyptian_arabic    ;        ;Âmid
-c_amida                         ;sicilian_arabic    ;        ;Âmid
-c_amida                         ;kurdish            ;        ;Amed
+c_amida                         ;andalusian_arabic  ;Diyarbakir;Âmid
+c_amida                         ;armenian           ;Tigranocerta;Tigranakert
+c_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;bedouin_arabic     ;Diyarbakir;Âmid
+c_amida                         ;maghreb_arabic     ;Diyarbakir;Âmid
+c_amida                         ;levantine_arabic   ;Diyarbakir;Âmid
+c_amida                         ;egyptian_arabic    ;Diyarbakir;Âmid
+c_amida                         ;sicilian_arabic    ;Diyarbakir;Âmid
+c_amida                         ;kurdish            ;Diyarbakir;Amed
 c_mardin                        ;andalusian_arabic  ;        ;Mâridîn
 c_mardin                        ;greek              ;        ;Marida
 c_mardin                        ;bedouin_arabic     ;        ;Mâridîn
@@ -8107,15 +8114,15 @@ d_mosul                         ;greek              ;        ;Mepsila
 d_mosul                         ;roman              ;        ;Mepsila
 c_mosul                         ;greek              ;        ;Mepsila
 c_mosul                         ;roman              ;        ;Mepsila
-c_nisibin                       ;andalusian_arabic  ;        ;Barqa'id
-c_nisibin                       ;turkish            ;        ;Barqa'id
-c_nisibin                       ;turkmen            ;        ;Barqa'id
-c_nisibin                       ;oghuz              ;        ;Barqa'id
-c_nisibin                       ;bedouin_arabic     ;        ;Barqa'id
-c_nisibin                       ;maghreb_arabic     ;        ;Barqa'id
-c_nisibin                       ;levantine_arabic   ;        ;Barqa'id
-c_nisibin                       ;egyptian_arabic    ;        ;Barqa'id
-c_nisibin                       ;sicilian_arabic    ;        ;Barqa'id
+c_nisibin                       ;andalusian_arabic  ;Barqa‘id;Barqa'id
+c_nisibin                       ;turkish            ;Barqa‘id;Barqa'id
+c_nisibin                       ;turkmen            ;Barqa‘id;Barqa'id
+c_nisibin                       ;oghuz              ;Barqa‘id;Barqa'id
+c_nisibin                       ;bedouin_arabic     ;Barqa‘id;Barqa'id
+c_nisibin                       ;maghreb_arabic     ;Barqa‘id;Barqa'id
+c_nisibin                       ;levantine_arabic   ;Barqa‘id;Barqa'id
+c_nisibin                       ;egyptian_arabic    ;Barqa‘id;Barqa'id
+c_nisibin                       ;sicilian_arabic    ;Barqa‘id;Barqa'id
 c_sinjar                        ;greek              ;Singara ;Singara
 c_sinjar                        ;roman              ;Singara ;Singara
 d_jazira                        ;greek              ;Euphratensis;Euphratensis

@@ -456,6 +456,12 @@ k_armenia_minor = { # Mikrá Armenia
 	allow = {
 		culture = armenian
 		religion_group = christian
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
 	}
 }
 k_bagratid_grand_principality = { # Hayk
@@ -465,6 +471,12 @@ k_bagratid_grand_principality = { # Hayk
 	allow = {
 		culture = armenian
 		religion_group = christian
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
 	}
 	title = ISHKHAN
 	foa = ISHKHAN_FOA

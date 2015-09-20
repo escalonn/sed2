@@ -2574,7 +2574,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_heide = {}
 				b_meldorf = {}
 			}
-			c_reinholdsburg = { # Reynoldsburgh (1025)
+			c_reinholdsburg = { # Rendsburg (1025)
 				color = { 219 219 219 }
 				color2 = { 255 255 255 }
 				b_kiel = {}
@@ -2602,22 +2602,6 @@ e_hre = { # Heiliges Römisches Reich
 				#b_bergdorfhamburg = {}
 				#b_hachhede = {}
 				#b_buxtehude = {}
-			}
-			allow = {
-				AND = {
-					or = {
-						has_landed_title = c_holstein
-						any_vassal = { has_landed_title = c_holstein }
-					}
-					or = {
-						has_landed_title = c_reinholdsburg
-						any_vassal = { has_landed_title = c_reinholdsburg }
-					}
-					or = {
-						has_landed_title = c_hamburg
-						any_vassal = { has_landed_title = c_hamburg }
-					}
-				}
 			}
 		} # end d_holstein
 		d_magdeburg = { # Magdeburg
@@ -27271,6 +27255,17 @@ e_null = {
 			c_vaspurakan = { # Vaspurakan (682)
 				color = { 162 191 44 }
 				color2 = { 255 255 255 }
+				andalusian_arabic = "Van"
+				greek = "Vaasprakania"
+				turkish = "Van"
+				turkmen = "Van"
+				oghuz = "Van"
+				bedouin_arabic = "Van"
+				maghreb_arabic = "Van"
+				levantine_arabic = "Van"
+				egyptian_arabic = "Van"
+				sicilian_arabic = "Van"
+				kurdish = "Van"
 				b_haykaberd = {}
 				b_van = {}
 				b_surbkhach = {}
@@ -27350,6 +27345,9 @@ e_null = {
 			c_dwin = { # Dwin (672)
 				color = { 165 194 47 }
 				color2 = { 255 255 255 }
+				turkish = "Yerevan"
+				turkmen = "Yerevan"
+				oghuz = "Yerevan"
 				b_parazhnakert = {}
 				b_dvin = {}
 				b_etchmiadzin = {}
@@ -27451,6 +27449,17 @@ e_null = {
 			c_amida = { # Amida (683)
 				color = { 129 166 48 }
 				color2 = { 255 255 255 }
+				andalusian_arabic = "Diyarbakir"
+				armenian = "Tigranocerta"
+				turkish = "Diyarbekir"
+				turkmen = "Diyarbekir"
+				oghuz = "Diyarbekir"
+				bedouin_arabic = "Diyarbakir"
+				maghreb_arabic = "Diyarbakir"
+				levantine_arabic = "Diyarbakir"
+				egyptian_arabic = "Diyarbakir"
+				sicilian_arabic = "Diyarbakir"
+				kurdish = "Diyarbakir"
 				b_kiaburc = {}
 				b_amida = {}
 				b_ulucamii = {}
@@ -28356,6 +28365,15 @@ e_null = {
 			c_nisibin = { # Nisibin (684)
 				color = { 133 170 52 }
 				color2 = { 255 255 255 }
+				andalusian_arabic = "Barqa‘id"
+				turkish = "Barqa‘id"
+				turkmen = "Barqa‘id"
+				oghuz = "Barqa‘id"
+				bedouin_arabic = "Barqa‘id"
+				maghreb_arabic = "Barqa‘id"
+				levantine_arabic = "Barqa‘id"
+				egyptian_arabic = "Barqa‘id"
+				sicilian_arabic = "Barqa‘id"
 				b_nusaybin = {}
 				b_savur = {}
 				b_dairodmorhannanyo = {}
@@ -32359,12 +32377,28 @@ k_blemmyes = { # Béja
 k_khwarezmia = { # Khwarezm
 	color = { 255 67 20 }
 	capital = 626 # Khwarezm # Káth
+	allow = {
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
+	}
 }
 k_kimek = { # Kimek
 	color = { 131 70 186 }
 	#tribe = yes
 	culture = cuman
 	capital = 1579 # Balkhash
+	allow = {
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
+	}
 	title = Khan
 	foa = Khan_FOA
 	title_prefix = Khanliq_of
@@ -32376,6 +32410,12 @@ k_kerman = { # Kermán
 	allow = {
 		culture_group = altaic
 		not = { realm = { title = e_byzantium } }
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
 	}
 }
 # TITULAR EMPIRES
