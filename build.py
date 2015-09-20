@@ -66,6 +66,7 @@ def main():
             sed2rows[0][:6] = [
                 '#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
             sed2rows[0][-1] = 'x'
+            seen_first_blank = False
             for row in ck2parser.csv_rows(inpath):
                 if row[0] and not row[0].startswith('#'):
                     if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
@@ -74,12 +75,13 @@ def main():
                     sed2row[0] = row[0].strip()
                     sed2row[1] = row[1].strip()
                     sed2row[-1] = 'x'
-                    # for now, disallow all past first blank loc in sed.csv
+                    # for now, disallow all adj past first blank loc in sed.csv
                     if not sed2row[1]:
-                        break
-                    sed2rows.append(sed2row)
-                    # if sed2row[1] or sed2row[0] in keys_to_blank:
-                    #     sed2rows.append(sed2row)
+                        seen_first_blank = True
+                    if (sed2row[1] and not (seen_first_blank and
+                                            sed2row[0].endswith('_adj')) or
+                        sed2row[0] in keys_to_blank):
+                        sed2rows.append(sed2row)
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
