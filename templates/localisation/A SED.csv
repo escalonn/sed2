@@ -414,7 +414,7 @@ d_ryazan                                ;Ryazan  ;;;;Ryazan
 d_cheremisa                             ;Mari    ;;;;Cheremisa
 d_cheremisa_adj                         ;Mari    ;;;;Cheremisan
 c_yaik_adj                              ;Ural    ;;;;Yaikian
-c_torki_adj                             ;Torki   ;;;;Torkian
+c_torki_adj                             ;Oghuz   ;;;;Torkian
 c_belgorod_adj                          ;Belgorodian;;;;Belgorodian
 c_birlad_adj                            ;Bârlad  ;;;;Birladian
 c_aqtobe_adj                            ;Aktobe  ;;;;Aqtobian
@@ -469,29 +469,29 @@ c_al_habbariyah_adj                     ;Al Habbariyah;;;;Al Habbariyahian
 c_ar_ar_adj                             ;Sakakah ;;;;Shakian
 c_madaba_adj                            ;Madaba  ;;;;Madaban
 c_az_zarqa_adj                          ;Zarqa   ;;;;Az Zarqan
-d_baghdad                               ;        ;;;;Baghdad
-d_baghdad_adj                           ;        ;;;;Baghdadian
-c_karbala_adj                           ;        ;;;;Karbalan
-c_baghdad_adj                           ;        ;;;;Baghdadian
-c_deir_adj                              ;        ;;;;Deirian
-c_kirkuk_adj                            ;        ;;;;Kirkukian
-d_mosul                                 ;        ;;Mepsila;;Mosul
-d_mosul_adj                             ;        ;;;;Mosulian
-c_mosul_adj                             ;        ;;;;Mosulian
-c_kurdistan_adj                         ;        ;;;;Kurdistanian
-c_al_jazira_adj                         ;        ;;;;Al Jaziran
-c_al_bichri_adj                         ;        ;;;;Al Bichrian
-c_sinjar_adj                            ;        ;;;;Sinjarian
-c_bira_adj                              ;        ;;;;Biranian
-c_oromieh_adj                           ;        ;;;;Oromiehian
+d_baghdad                               ;Baghdad ;;;;Baghdad
+d_baghdad_adj                           ;Baghdadian;;;;Baghdadian
+c_karbala_adj                           ;Karbala ;;;;Karbalan
+c_baghdad_adj                           ;Baghdadian;;;;Baghdadian
+c_deir_adj                              ;Deir ez-Zor;;;;Deirian
+c_kirkuk_adj                            ;Kirkuk  ;;;;Kirkukian
+d_mosul                                 ;Mosul   ;;Mepsila;;Mosul
+d_mosul_adj                             ;Mosul   ;;;;Mosulian
+c_mosul_adj                             ;Mosul   ;;;;Mosulian
+c_kurdistan_adj                         ;Kurdish ;;;;Kurdistanian
+c_al_jazira_adj                         ;Upper Mesopotamian;;;;Al Jaziran
+c_al_bichri_adj                         ;Jabal Bishri;;;;Al Bichrian
+c_sinjar_adj                            ;Sinjar  ;;;;Sinjarian
+c_bira_adj                              ;Birecik ;;;;Biranian
+c_oromieh_adj                           ;Urmian  ;;;;Oromiehian
 c_gilan_adj                             ;Gilan   ;;;;Gilanian
-c_tabriz_adj                            ;        ;;;;Tabrizian
-d_azerbaijan                            ;        ;;Media Atropatene;;Azerbaijan
-d_azerbaijan_adj                        ;        ;;;;Azerbaijani
-c_shirvan_adj                           ;        ;;;;Shirvanian
-c_azerbaijan_adj                        ;        ;;;;Azerbaijani
-c_suenik_adj                            ;        ;;;;Suenikian
-c_shemakha_adj                          ;        ;;;;Shemakhan
+c_tabriz_adj                            ;Tabrizian;;;;Tabrizian
+d_azerbaijan                            ;Azerbaijan;;Media Atropatene;;Azerbaijan
+d_azerbaijan_adj                        ;Azerbaijani;;;;Azerbaijani
+c_shirvan_adj                           ;Shirvan ;;;;Shirvanian
+c_azerbaijan_adj                        ;Azerbaijani;;;;Azerbaijani
+c_suenik_adj                            ;Syunik  ;;;;Suenikian
+c_shemakha_adj                          ;Shamakhi;;;;Shemakhan
 c_vaspurakan_adj                        ;        ;;;;Vaspurakani
 c_dwin_adj                              ;        ;;;;Dwinian
 c_ani_adj                               ;        ;;;;Anian
@@ -1288,11 +1288,11 @@ PROV653                                 ;Bahrain ;;c_bahrein;;Bahrein
 PROV655                                 ;Kufa    ;;c_kufa;;Kufa
 PROV656                                 ;Tigris  ;;c_tigris;;Tigris
 PROV657                                 ;Lorestan;;c_luristan;;Luristan
-PROV667                                 ;        ;;c_tabriz;;Tabriz
-PROV668                                 ;        ;;c_shirvan;;Shirvan
-PROV669                                 ;        ;;c_shemakha;;Shemakha
-PROV670                                 ;        ;;c_azerbaijan;;Azerbaijan
-PROV671                                 ;        ;;c_suenik,Sünik,Siwnik;;Suenik
+PROV667                                 ;Tabriz  ;;c_tabriz;;Tabriz
+PROV668                                 ;Shirvan ;;c_shirvan;;Shirvan
+PROV669                                 ;Shamakhi;;c_shemakha;;Shemakha
+PROV670                                 ;Azerbaijan;;c_azerbaijan;;Azerbaijan
+PROV671                                 ;Syunik  ;;c_suenik,Sünik,Siwnik;;Suenik
 PROV672                                 ;        ;;c_dwin,Doúbios,Erivan,Dabil;;Dwin
 PROV673                                 ;        ;;c_albania;;Albania
 PROV674                                 ;        ;;c_derbent;;Derbent
@@ -1305,24 +1305,24 @@ PROV681                                 ;        ;;c_ani,Anion,Anisi,Anî;;Ani
 PROV682                                 ;        ;;c_vaspurakan,Vaasprakania,Van,Wan;;Vaspurakan
 PROV683                                 ;        ;;c_amida,Tigranakert,Diyar-i Bekr,Âmid,Amed;;Amida
 PROV684                                 ;        ;;c_nisibin,Barqa'id;;Nisibin
-PROV685                                 ;        ;;c_kurdistan;;Kurdistan
-PROV686                                 ;        ;;c_oromieh,Vormi,Ourmia,Urmiyah,Urmiye,Urmê;;Oromieh
-PROV687                                 ;        ;;c_kirkuk,Corcura,Korkyra;;Kirkuk
+PROV685                                 ;Kurdistan;;c_kurdistan;;Kurdistan
+PROV686                                 ;Urmia   ;;c_oromieh,Vormi,Ourmia,Urmiyah,Urmiye,Urmê;;Oromieh
+PROV687                                 ;Kirkuk  ;;c_kirkuk,Corcura,Korkyra;;Kirkuk
 PROV688                                 ;Kermanshah;;c_kermanshah;;Kermanshah
 PROV690                                 ;Amarah  ;;c_al_amarah;;Al Amarah
 PROV691                                 ;Nasiriyah;;c_al_nasiryah;;Al Nasiryah
 PROV692                                 ;Najaf   ;;c_al_nadjaf;;Al Nadjaf
-PROV693                                 ;        ;;c_baghdad,Ctesiphon,Ktesiphon;;Baghdad
-PROV694                                 ;        ;;c_karbala;;Karbala
-PROV695                                 ;        ;;c_deir,Anatha;;Deir
-PROV697                                 ;        ;;c_mosul,Mepsila;;Mosul
-PROV698                                 ;        ;;c_al_jazira;;Al Jazira
+PROV693                                 ;Baghdad ;;c_baghdad,Ctesiphon,Ktesiphon;;Baghdad
+PROV694                                 ;Karbala ;;c_karbala;;Karbala
+PROV695                                 ;Deir ez-Zor;;c_deir,Anatha;;Deir
+PROV697                                 ;Mosul   ;;c_mosul,Mepsila;;Mosul
+PROV698                                 ;Upper Mesopotamia;;c_al_jazira;;Al Jazira
 PROV699                                 ;        ;;c_edessa,Ar-Ruha,Urfa,Riha;;Edessa
-PROV700                                 ;        ;;c_bira;;Bira
+PROV700                                 ;Birecik ;;c_bira;;Bira
 PROV706                                 ;        ;;c_koloneia,Šebin Kara Hisar,Kogoniya;;Koloneia
 PROV707                                 ;        ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî;;Melitene
-PROV710                                 ;        ;;c_al_bichri,Circesium,Kirkesion;;Al Bichri
-PROV711                                 ;        ;;c_sinjar,Singara;;Sinjar
+PROV710                                 ;Jabal Bishri;;c_al_bichri,Circesium,Kirkesion;;Al Bichri
+PROV711                                 ;Sinjar  ;;c_sinjar,Singara;;Sinjar
 PROV715                                 ;Al Habbariyah;;c_al_habbariyah;;Al Habbariyah
 PROV718                                 ;        ;;c_medina;;Medina
 PROV719                                 ;        ;;c_mecca;;Mecca
