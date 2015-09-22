@@ -24835,6 +24835,7 @@ e_mali = { # Mali
 		ruled_years = 5
 		war = no
 		is_adult = yes
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_mali
@@ -26014,6 +26015,12 @@ e_persia = { # Érán
 		} # end d_baghdad
 		allow = { liege = { not = { has_landed_title = e_persia } } }
 	} # end k_mesopotamia
+	allow = {
+		war = no
+		has_regent = no
+		realm_size = 120
+		not = { tier = emperor }
+	}
 } # end e_persia
 e_rajastan = { # Rajastan
 	color = { 255 100 0 }
@@ -27142,6 +27149,12 @@ e_rajastan = { # Rajastan
 			}
 		} # end d_jejakabhukti
 	} # end k_kosala
+	allow = {
+		war = no
+		has_regent = no
+		realm_size = 120
+		not = { tier = emperor }
+	}
 } # end e_rajastan
 # All landed kingdom titles that have no de jure empire must go
 # into e_null, a clever solution to Paradox bugs.
