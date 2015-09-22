@@ -505,30 +505,30 @@ c_edessa_adj                            ;Edessan ;;;;Edessan
 c_tell_bashir_adj                       ;Turbessel;;;;Tell Bashirian
 c_aintab_adj                            ;Gaziantepian;;;;Aintabian
 c_koloneia_adj                          ;Shebinkarahisar;;;;Coloneian
-c_melitene_adj                          ;        ;;;;Melitenian
-c_lykandos_adj                          ;Lykandos;;;;Lykandosian
+c_melitene_adj                          ;Malatyan;;;;Melitenian
+c_lykandos_adj                          ;Lykandian;;;;Lykandosian
 c_tarsos_adj                            ;Tarsus  ;;;;Tarsosian
 c_adana_adj                             ;Adana   ;;;;Adanan
-c_teluch_adj                            ;Marash  ;;;;Teluchian
+c_teluch_adj                            ;Teluch  ;;;;Teluchian
 c_seleukeia_adj                         ;Silifke ;;;;Seleukeian
 c_theodosiopolis_adj                    ;Erzurum ;;;;Theodosiopolite
-c_trapezous_adj                         ;        ;;;;Trapezousian
-c_chaldea_adj                           ;Chaldia ;;;;Chaldean
-c_kartli_adj                            ;        ;;;;Kartlian
-c_tao_adj                               ;        ;;;;Taoian
-c_guria_adj                             ;        ;;;;Gurian
-c_kakheti_adj                           ;        ;;;;Kakhetian
-c_albania_adj                           ;        ;;;;Albanian
-c_derbent_adj                           ;        ;;;;Derbentian
-c_imeretia_adj                          ;        ;;;;Imeretian
-c_abkhazia_adj                          ;        ;;;;Abkhazian
-c_galaz_adj                             ;Bessarabia;;;;Galazian
-c_zeta_adj                              ;Montenegro;;;;Zetan
-d_slavonia                              ;        ;;Pannonia Savia;;Slavonia
-d_slavonia_adj                          ;        ;;;;Slavonian
-c_varadzin_adj                          ;Zagorje ;;;;Varazdinian
-c_vas_adj                               ;Zala    ;;;;Vasian
-c_sopron_adj                            ;Sopron  ;;;;Sopronian
+c_trapezous_adj                         ;Trabzonian;;;;Trapezousian
+c_chaldea_adj                           ;Chaldian;;;;Chaldean
+c_kartli_adj                            ;Kartlian;;;;Kartlian
+c_tao_adj                               ;Taoian  ;;;;Taoian
+c_guria_adj                             ;Gurian  ;;;;Gurian
+c_kakheti_adj                           ;Kakhetian;;;;Kakhetian
+c_albania_adj                           ;Caucasian Albanian;;;;Albanian
+c_derbent_adj                           ;Derbentian;;;;Derbentian
+c_imeretia_adj                          ;Imeretian;;;;Imeretian
+c_abkhazia_adj                          ;Abkhazian;;;;Abkhazian
+c_galaz_adj                             ;Galati  ;;;;Galazian
+c_zeta_adj                              ;Zetan   ;;;;Zetan
+d_slavonia                              ;Slavonia;;Pannonia Savia;;Slavonia
+d_slavonia_adj                          ;Slavonian;;;;Slavonian
+c_varadzin_adj                          ;Varaždin;;;;Varazdinian
+c_vas_adj                               ;Vas     ;;;;Vasian
+c_sopron_adj                            ;Sopronian;;;;Sopronian
 d_ungvar                                ;        ;;Chrobatia,Ungwar;;Ungvar
 c_abauj_adj                             ;Abaúj   ;;;;Abaujian
 c_heves_adj                             ;Heves   ;;;;Hevian
@@ -1278,8 +1278,8 @@ PROV529                                 ;Plock   ;;c_plock;;Plock
 PROV535                                 ;        ;;c_vladimir_volynsky;;Vladimir Volynsky
 PROV560                                 ;Chersonesus;;c_cherson,Gothia Maritima,Cherson,Korsun;;Cherson
 PROV561                                 ;Feodosia;;c_theodosia,Sudaq,Kefe,Cafà,Caffa,Kaffa;;Theodosia
-PROV600                                 ;        ;;c_abkhazia;;Abkhazia
-PROV601                                 ;        ;;c_imeretia;;Imeretia
+PROV600                                 ;Abkhazia;;c_abkhazia;;Abkhazia
+PROV601                                 ;Imereti ;;c_imeretia;;Imeretia
 PROV649                                 ;Basra   ;;c_basra;;Basra
 PROV650                                 ;Kuwait  ;;c_kuwait;;Kuwait
 PROV651                                 ;Damman  ;;c_damman;;Damman
@@ -1294,13 +1294,13 @@ PROV669                                 ;Shamakhi;;c_shemakha;;Shemakha
 PROV670                                 ;Azerbaijan;;c_azerbaijan;;Azerbaijan
 PROV671                                 ;Syunik  ;;c_suenik,Sünik,Siwnik;;Suenik
 PROV672                                 ;Dvin    ;;c_dwin,Doúbios,Erivan,Dabil;;Dwin
-PROV673                                 ;        ;;c_albania;;Albania
-PROV674                                 ;        ;;c_derbent;;Derbent
-PROV676                                 ;        ;;c_kakheti;;Kakheti
-PROV677                                 ;        ;;c_guria;;Guria
-PROV678                                 ;        ;;c_trapezous,Trabzun,Trapizon,T'rap'izoni,Trébizonde,Trebisonda;;Trapezous
-PROV679                                 ;        ;;c_kartli;;Kartli
-PROV680                                 ;        ;;c_tao;;Tao
+PROV673                                 ;Caucasian Albania;;c_albania;;Albania
+PROV674                                 ;Derbent ;;c_derbent;;Derbent
+PROV676                                 ;Kakheti ;;c_kakheti;;Kakheti
+PROV677                                 ;Guria   ;;c_guria;;Guria
+PROV678                                 ;Trabzon ;;c_trapezous,Trabzun,Trapizon,T'rap'izoni,Trébizonde,Trebisonda;;Trapezous
+PROV679                                 ;Kartli  ;;c_kartli;;Kartli
+PROV680                                 ;Tao     ;;c_tao;;Tao
 PROV681                                 ;Ani     ;;c_ani,Anion,Anisi,Anî;;Ani
 PROV682                                 ;Vaspurakan;;c_vaspurakan,Vaasprakania,Van,Wan;;Vaspurakan
 PROV683                                 ;Amida   ;;c_amida,Tigranakert,Diyar-i Bekr,Âmid,Amed;;Amida
@@ -1320,7 +1320,7 @@ PROV698                                 ;Upper Mesopotamia;;c_al_jazira;;Al Jazi
 PROV699                                 ;Edessa  ;;c_edessa,Ar-Ruha,Urfa,Riha;;Edessa
 PROV700                                 ;Birecik ;;c_bira;;Bira
 PROV706                                 ;Shebinkarahisar;;c_koloneia,Šebin Kara Hisar,Kogoniya;;Koloneia
-PROV707                                 ;        ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî;;Melitene
+PROV707                                 ;Malatya ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî;;Melitene
 PROV710                                 ;Jabal Bishri;;c_al_bichri,Circesium,Kirkesion;;Al Bichri
 PROV711                                 ;Sinjar  ;;c_sinjar,Singara;;Sinjar
 PROV715                                 ;Al Habbariyah;;c_al_habbariyah;;Al Habbariyah
