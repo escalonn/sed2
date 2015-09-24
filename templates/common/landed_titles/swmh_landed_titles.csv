@@ -3277,15 +3277,15 @@ c_pecs                          ;roman              ;Pécs    ;Sopianae
 c_vas                           ;german             ;Vas     ;Eisenburg
 c_vas                           ;croatian           ;Vas     ;Zelezna
 d_ungvar                        ;german             ;        ;Ungwar
-d_ungvar                        ;russian            ;        ;Chrobatia
-d_ungvar                        ;pommeranian        ;        ;Chrobatia
-d_ungvar                        ;polish             ;        ;Chrobatia
-d_ungvar                        ;bohemian           ;        ;Chrobatia
-d_ungvar                        ;moravian           ;        ;Chrobatia
-d_ungvar                        ;karantanci         ;        ;Chrobatia
-d_ungvar                        ;croatian           ;        ;Chrobatia
-d_ungvar                        ;serbian            ;        ;Chrobatia
-d_ungvar                        ;bosnian            ;        ;Chrobatia
+d_ungvar                        ;russian            ;White Croatia;Chrobatia
+d_ungvar                        ;pommeranian        ;White Croatia;Chrobatia
+d_ungvar                        ;polish             ;White Croatia;Chrobatia
+d_ungvar                        ;bohemian           ;White Croatia;Chrobatia
+d_ungvar                        ;moravian           ;White Croatia;Chrobatia
+d_ungvar                        ;karantanci         ;White Croatia;Chrobatia
+d_ungvar                        ;croatian           ;White Croatia;Chrobatia
+d_ungvar                        ;serbian            ;White Croatia;Chrobatia
+d_ungvar                        ;bosnian            ;White Croatia;Chrobatia
 c_saris                         ;german             ;Sáros   ;Scharosch
 c_saris                         ;bohemian           ;Sáros   ;Šariš
 c_saris                         ;moravian           ;Sáros   ;Šariš
@@ -5677,8 +5677,8 @@ c_brescia                       ;greek              ;        ;Brixia
 c_brescia                       ;roman              ;        ;Brixia
 c_bergamo                       ;greek              ;        ;Bergomon
 c_bergamo                       ;roman              ;        ;Bergomum
-c_pavia                         ;greek              ;        ;Tikinon
-c_pavia                         ;roman              ;        ;Ticinum
+c_pavia                         ;greek              ;Ticinum ;Tikinon
+c_pavia                         ;roman              ;Ticinum ;Ticinum
 c_cremona                       ;greek              ;        ;Kremone
 c_como                          ;greek              ;        ;Komon
 c_como                          ;roman              ;        ;Comum
@@ -5688,8 +5688,8 @@ d_verona                        ;title              ;MARGRAVE;MARGRAVE
 d_verona                        ;title_female       ;MARGRAVINE;MARGRAVINE
 d_verona                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 d_verona                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-d_verona                        ;greek              ;        ;Venetia
-d_verona                        ;roman              ;        ;Venetia
+d_verona                        ;greek              ;Venetia ;Venetia
+d_verona                        ;roman              ;Venetia ;Venetia
 c_treviso                       ;greek              ;        ;Tarbision
 c_treviso                       ;roman              ;        ;Tarvisium
 c_bassano                       ;greek              ;        ;Ouïketía
@@ -5721,8 +5721,8 @@ c_monferrato                    ;title              ;MARQUISATE;MARQUISATE
 c_monferrato                    ;title_female       ;MARCHESA;MARCHESA
 c_monferrato                    ;foa                ;MARQUISATE_FOA;MARQUISATE_FOA
 c_monferrato                    ;title_prefix       ;MARQUISATE_OF;MARQUISATE_OF
-c_monferrato                    ;greek              ;        ;Asta
-c_monferrato                    ;roman              ;        ;Hasta
+c_monferrato                    ;greek              ;Asti    ;Asta
+c_monferrato                    ;roman              ;Asti    ;Hasta
 c_bobbio                        ;greek              ;        ;Bobion
 c_bobbio                        ;roman              ;        ;Bobium
 c_genoa                         ;greek              ;        ;Genoua
@@ -5781,8 +5781,8 @@ c_ferrara                       ;greek              ;        ;Ferraria
 c_ferrara                       ;roman              ;        ;Ferraria
 c_rovigo                        ;greek              ;Este    ;Ateste
 c_rovigo                        ;roman              ;Este    ;Ateste
-d_ravenna                       ;greek              ;Flaminia et Picenum Annonarium;Flaminia et Picenum
-d_ravenna                       ;roman              ;Flaminia et Picenum Annonarium;Flaminia et Picenum
+d_ravenna                       ;greek              ;Flaminia et Picenum;Flaminia et Picenum
+d_ravenna                       ;roman              ;Flaminia et Picenum;Flaminia et Picenum
 c_ravenna                       ;greek              ;        ;Rhaouenna
 c_bologna                       ;greek              ;        ;Bononia
 c_bologna                       ;roman              ;        ;Bononia
@@ -5813,8 +5813,8 @@ d_urbino                        ;greek              ;Umbria  ;Umbrike
 d_urbino                        ;roman              ;Umbria  ;Umbria
 c_urbino                        ;greek              ;        ;Ourbinon
 c_urbino                        ;roman              ;        ;Urbinium
-d_spoleto                       ;greek              ;        ;Oualeria
-d_spoleto                       ;roman              ;        ;Valeria
+d_spoleto                       ;greek              ;Valeria ;Oualeria
+d_spoleto                       ;roman              ;Valeria ;Valeria
 c_spoleto                       ;greek              ;        ;Spoletion
 c_spoleto                       ;roman              ;        ;Spoletium
 c_perugia                       ;greek              ;        ;Perousia
@@ -5823,8 +5823,8 @@ c_aprutium                      ;greek              ;Teramo  ;Interamnion
 d_latium                        ;greek              ;        ;Latine
 c_roma                          ;greek              ;        ;Rhome
 c_tusculum                      ;greek              ;        ;Touskoulon
-c_orvieto                       ;greek              ;        ;Ouolsinion
-c_orvieto                       ;roman              ;        ;Volsinii
+c_orvieto                       ;greek              ;Volsinii;Ouolsinion
+c_orvieto                       ;roman              ;Volsinii;Volsinii
 d_corsica                       ;greek              ;        ;Korsís
 d_corsica                       ;roman              ;        ;Corsicae
 c_terradicomune                 ;short_name         ;yes     ;yes
@@ -5879,17 +5879,17 @@ c_chieti                        ;roman              ;Aternum ;Aternum
 d_tarent                        ;short_name         ;yes     ;yes
 c_taranto                       ;greek              ;        ;Taras
 c_taranto                       ;roman              ;        ;Tarentum
-c_lecce                         ;greek              ;        ;Hydrunton
-c_lecce                         ;roman              ;        ;Hydruntum
+c_lecce                         ;greek              ;Otranto ;Hydrunton
+c_lecce                         ;roman              ;Otranto ;Hydruntum
 c_conversano                    ;greek              ;Oria    ;Hyria
-d_salerno                       ;greek              ;        ;Lukania
+d_salerno                       ;greek              ;Lucania ;Lukania
 c_salerno                       ;greek              ;        ;Salernon
 d_alvito                        ;greek              ;Samnium ;Samnitis
 d_alvito                        ;roman              ;Samnium ;Samnium
 c_celano                        ;greek              ;        ;Caelanum
 c_celano                        ;roman              ;        ;Caelanum
 d_calabria                      ;greek              ;        ;Kalavrias
-d_calabria                      ;roman              ;        ;Lucania et Brutii
+d_calabria                      ;roman              ;Lucania et Brutii;Lucania et Brutii
 c_consenza                      ;greek              ;Cosenza ;Konsentia
 c_consenza                      ;roman              ;Cosenza ;Consentia
 c_catanzaro                     ;greek              ;Crotone ;Kroton
