@@ -27192,6 +27192,25 @@ e_null = {
 	color2 = { 0 0 0 }
 	capital = 774 # Jérusalem # Jerusalem
 	short_name = yes
+	# Must be defined before k_armenia
+	k_bagratid_grand_principality = { # Hayk
+		color = { 117 178 81 }
+		culture = armenian
+		capital = 681 # Ani
+		allow = {
+			culture = armenian
+			religion_group = christian
+			FROM = {
+				or = {
+					has_holder = yes
+					is_titular = no
+				}
+			}
+		}
+		title = ISHKHAN
+		foa = ISHKHAN_FOA
+		title_prefix = ISHKHAN_OF
+	}
 	k_armenia = { # Hayk
 		color = { 254 203 44 }
 		color2 = { 255 255 255 }
@@ -27630,7 +27649,30 @@ e_null = {
 				#b_handzit = {}
 			} # end c_dzopk
 		} # end d_mesopotamia
-		allow = { not = { realm = { title = e_byzantium } } }
+		gain_effect = {
+			# If title receiver also owns the titular Hayk, then
+			# we can safely destroy and deactivate that title now.
+			k_bagratid_grand_principality = {
+				if = {
+					limit = {
+						or = {
+							has_holder = no
+							holder = PREV
+						}
+					}
+					hidden_tooltip = {
+						# If it somehow became non-titular, then we must be sure
+						# to transfer its de jure territory to k_armenia first.
+						any_direct_de_jure_vassal_title = { de_jure_liege = k_armenia }
+					}
+					activate_title = {
+						title = THIS
+						status = no
+					}
+					destroy_landed_title = THIS
+				}
+			}
+		}
 	} # end k_armenia
 	k_jerusalem = { # Jerusalem
 		color = { 180 180 180 }

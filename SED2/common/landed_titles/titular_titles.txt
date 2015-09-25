@@ -464,24 +464,6 @@ k_armenia_minor = { # Mikrá Armenia
 		}
 	}
 }
-k_bagratid_grand_principality = { # Hayk
-	color = { 117 178 81 }
-	culture = armenian
-	capital = 681 # Ani
-	allow = {
-		culture = armenian
-		religion_group = christian
-		FROM = {
-			or = {
-				has_holder = yes
-				is_titular = no
-			}
-		}
-	}
-	title = ISHKHAN
-	foa = ISHKHAN_FOA
-	title_prefix = ISHKHAN_OF
-}
 d_pagania = { # Neretljani
 	color = { 114 230 1 }
 	capital = 1330 # Omis
