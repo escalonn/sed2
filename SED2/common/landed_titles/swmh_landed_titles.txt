@@ -1591,6 +1591,13 @@ e_hre = { # Heiliges Römisches Reich
 	religion = catholic
 	culture = german
 	short_name = yes
+	k_hansa = { # The Hansa
+		color = { 142 142 142 }
+		color2 = { 255 255 255 }
+		capital = 262 # Lübeck
+		dignity = 200 # Never want the Hanseatic League to change primary title
+		allow = { always = no }
+	}
 	k_frisia = { # Fryslân
 		color = { 255 120 0 }
 		color2 = { 220 220 20 }
@@ -7111,8 +7118,35 @@ e_byzantium = { # Basileia Rhõmaiõn
 		}
 		ruled_years = 5
 		war = no
-		is_adult = yes
-		not = { tier = emperor }
+		has_regent = no
+		realm_size = 120
+		or = {
+			not = { tier = emperor }
+			is_nomadic = yes # Kezrüm, I shall never forget you!
+		}
+		# Constantinople is held by you or any vassal (at any level) in your
+		# non-nomadic subrealm, which for most people is all of their realm.
+		# If the county is not controlled in such a way, then EMF's Automatic
+		# Empire Disintegration (AED) will forfeit the title. Besides, I'd say
+		# that's quite the reasonable requirement for the ERE to be usurped or
+		# created.
+		c_byzantion = {
+			holder_scope = {
+				or = {
+					character = PREVPREV
+					and = {
+						any_liege = { character = PREVPREVPREV }
+						nor = {
+							is_nomadic = yes
+							any_liege = {
+								not = { character = PREVPREVPREV }
+								is_nomadic = yes
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 } # end e_byzantium
 e_scandinavia = { # Nordmannia
@@ -8897,7 +8931,8 @@ e_russia = { # Rus
 		}
 		war = no
 		ruled_years = 5
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_russia
@@ -9688,18 +9723,21 @@ e_poland = { # Polska-Lietuva
 		}
 	} # end k_galicia
 	allow = {
-		or = {
-			culture = polish
-			culture = lithuanian
+		hidden_tooltip = {
+			or = {
+				ai = no
+				culture = polish
+				culture = lithuanian
+			}
 		}
 		and = {
 			has_landed_title = k_poland
 			has_landed_title = k_lithuania
 		}
-		realm_size = 120
 		war = no
 		ruled_years = 5
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_poland
@@ -11059,7 +11097,8 @@ e_carpathia = { # Magyarország
 		}
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_carpathia
@@ -11878,10 +11917,10 @@ e_arabia = { # Arabian Empire
 		}
 	} # end k_egypt
 	allow = {
-		realm_size = 120
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_arabia
@@ -12437,10 +12476,19 @@ e_abyssinia = { # Abyssinia
 		}
 	} # end k_maikelebahr
 	allow = {
-		culture_group = east_african
+		hidden_tooltip = {
+			or = {
+				ai = no
+				culture_group = east_african
+			}
+		}
 		has_landed_title = k_maikelebahr
 		has_landed_title = k_nubia
 		has_landed_title = k_abyssinia
+		war = no
+		has_regent = no
+		realm_size = 120
+		not = { tier = emperor }
 	}
 } # end e_abyssinia
 e_britannia = { # Britannia
@@ -16147,7 +16195,8 @@ e_britannia = { # Britannia
 		}
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_britannia
@@ -16157,6 +16206,21 @@ e_italy = { # Italia
 	capital = 235 # Milano # Lombardia
 	culture = italian
 	name_tier = king
+	k_genoa = { # Genoa
+		color = { 234 131 110 }
+		capital = 233 # Genova # Genoa
+		culture = ligurian
+		dignity = 200 # Never want the Republic of Genoa to change primary title
+		allow = { is_republic = yes }
+	}
+	k_pisa = { # Pisa
+		color = { 196 192 140 }
+		color2 = { 255 255 255 }
+		capital = 327 # Pisa
+		culture = tuscan
+		dignity = 200 # Never want the Republic of Pisa to change primary title
+		allow = { is_republic = yes }
+	}
 	k_italy = { # Lombardia
 		color = { 69 135 81 }
 		color2 = { 255 255 255 }
@@ -17452,6 +17516,13 @@ e_italy = { # Italia
 		muslim = 25 # Crusade target weight
 		greek = "Italy"
 		roman = "Italia Suburbicaria"
+		d_amalfi = { # Amalfi
+			color = { 140 200 230 }
+			capital = 935 # Amalfi
+			dignity = 10
+			culture = langobardisch
+			allow = { is_republic = yes }
+		}
 		d_benevento = { # Benevento
 			color = { 87 66 44 }
 			color2 = { 255 255 255 }
@@ -18064,13 +18135,13 @@ e_italy = { # Italia
 		allow = { is_republic = yes }
 	}
 	allow = {
-		realm_size = 120
 		religion_group = christian
 		has_landed_title = k_italy
 		has_landed_title = k_sicily
 		war = no
 		ruled_years = 5
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_italy
@@ -19835,7 +19906,8 @@ e_france = { # France
 		realm_size = 120
 		war = no
 		ruled_years = 5
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 	}
 } # end e_france
@@ -23689,11 +23761,15 @@ e_spain = { # España
 	allow = {
 		war = no
 		ruled_years = 5
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
-		or = {
-			culture_group = iberian
-			culture = andalusian_arabic
+		hidden_tooltip = {
+			or = {
+				ai = no
+				culture_group = iberian
+				culture = andalusian_arabic
+			}
 		}
 	}
 	# END TITULAR SWMH Spain
@@ -24458,7 +24534,8 @@ e_africa = { # Africa
 		religion_group = muslim
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 		not = { tier = emperor }
 		or = {
 			has_landed_title = k_mauretania
@@ -24863,7 +24940,7 @@ e_mali = { # Mali
 	allow = {
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
 		realm_size = 120
 		not = { tier = emperor }
 	}
@@ -32384,7 +32461,7 @@ k_saruhan = { # Saruhan
 	capital = 725 # Lydía # Thyateira
 	allow = {
 		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		not = { top_liege = { has_landed_title = e_byzantium } }
 	}
 }
 e_seljuk_turks = { # Seljuk Empire
@@ -32400,7 +32477,7 @@ k_tekke = { # Tekke
 	capital = 755 # Attáleia # Attaleia
 	allow = {
 		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		not = { top_liege = { has_landed_title = e_byzantium } }
 	}
 }
 k_trinacria = { # Trinacria
@@ -32500,7 +32577,7 @@ k_kerman = { # Kermán
 	capital = 639 # Kermân # Kerman
 	allow = {
 		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		not = { top_liege = { has_landed_title = e_byzantium } }
 		FROM = {
 			or = {
 				has_holder = yes
@@ -32548,45 +32625,6 @@ e_latin_empire = { # Imperium Romaniae
 	}
 	short_name = yes
 } # end e_latin_empire
-#d_hansa = {
-#	color = { 142 142 142 }
-#	color2 = { 255 255 255 }
-#	allow = { always = no }
-#	capital = 262 # Lübeck
-#	dignity = 10
-#}
-k_hansa = { # The Hansa
-	color = { 142 142 142 }
-	color2 = { 255 255 255 }
-	capital = 262 # Lübeck
-	dignity = 200 # Never want the Hanseatic League to change primary title
-	allow = {
-		always = no
-		is_republic = yes
-	}
-}
-k_genoa = { # Genoa
-	color = { 234 131 110 }
-	capital = 233 # Genova # Genoa
-	culture = ligurian
-	dignity = 200 # Never want the Republic of Genoa to change primary title
-	allow = { is_republic = yes }
-}
-k_pisa = { # Pisa
-	color = { 196 192 140 }
-	color2 = { 255 255 255 }
-	capital = 327 # Pisa
-	culture = tuscan
-	dignity = 200 # Never want the Republic of Pisa to change primary title
-	allow = { is_republic = yes }
-}
-d_amalfi = { # Amalfi
-	color = { 140 200 230 }
-	capital = 935 # Amalfi
-	dignity = 10
-	culture = langobardisch
-	allow = { is_republic = yes }
-}
 ### INDIA ###
 e_india = { # India # Titular, created by special decision only if entire India is united
 	color = { 255 110 0 }
