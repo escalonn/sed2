@@ -32334,7 +32334,14 @@ k_moravia = { # Velká Morava
 	color = { 125 25 65 }
 	culture = moravian
 	capital = 441 # Boruy # Brno
-	allow = { always = no }
+	allow = {
+		FROM = {
+			or = {
+				has_holder = yes
+				is_titular = no
+			}
+		}
+	}
 }
 k_almohad = { # Almohad
 	color = { 0 105 56 }
