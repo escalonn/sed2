@@ -616,33 +616,33 @@ c_bern_adj                              ;Bern    ;;;;Bernian
 c_schwyz_adj                            ;Schwyz  ;;;;Schwyzian
 c_aargau_adj                            ;Aargau  ;;;;Aargaunian
 c_besancon_adj                          ;Besançon;;;;Besanconian
-k_france                                ;        ;;Franza,França,Francia,Francland,Frantzia,Galliae,Gallia;;France
-k_france_adj                            ;        ;;;;French
-c_montpellier_adj                       ;Melgueil;;;;Montpellierian
+k_france                                ;France  ;;Franza,França,Francia,Francland,Frantzia,Galliae,Gallia;;France
+k_france_adj                            ;French  ;;;;French
+c_montpellier_adj                       ;Montpellier;;;;Montpellierian
 c_viviers_adj                           ;Vivarais;;;;Vivieran
-c_narbonne_adj                          ;Narbonne;;;;Narbonnian
+c_narbonne_adj                          ;Narbonnese;;;;Narbonnian
 c_toulouse_adj                          ;Toulouse;;;;Toulousian
 c_rouergue_adj                          ;Rouergue;;;;Rouerguian
-d_gascogne                              ;        ;;;;Gascogne
-d_gascogne_adj                          ;        ;;;;Gascognian
+d_gascogne                              ;Gascony ;;;;Gascogne
+d_gascogne_adj                          ;Gascon  ;;;;Gascognian
 c_foix_adj                              ;Foix    ;;;;Foixian
-c_bearn_adj                             ;        ;;;;Bearnian
-c_armagnac_adj                          ;        ;;;;Armagnacs
-c_labourd_adj                           ;        ;;;;Labourdian
+c_bearn_adj                             ;Béarn   ;;;;Bearnian
+c_armagnac_adj                          ;Armagnac;;;;Armagnacs
+c_labourd_adj                           ;Labourd ;;;;Labourdian
 c_albret_adj                            ;Albret  ;;;;Albretian
-c_bordeaux_adj                          ;        ;;;;Bordelais
-c_agen_adj                              ;        ;;;;Agenian
-c_perigord_adj                          ;        ;;;;Perigordian
-c_angouleme_adj                         ;        ;;;;Angoulemian
-c_auvergne_adj                          ;Auvergne;;;;Auvergnian
+c_bordeaux_adj                          ;Bordelais;;;;Bordelais
+c_agen_adj                              ;Agen    ;;;;Agenian
+c_perigord_adj                          ;Périgord;;;;Perigordian
+c_angouleme_adj                         ;Angoulême;;;;Angoulemian
+c_auvergne_adj                          ;Auvergnese;;;;Auvergnian
 c_gevaudan_adj                          ;Gévaudan;;;;Gevaudanian
-c_macon_adj                             ;        ;;;;Maconian
-c_dijon_adj                             ;        ;;;;Dijonian
-c_nevers_adj                            ;        ;;;;Neverian
-c_charolais_adj                         ;        ;;;;Charolaian
-d_bourbon                               ;        ;;;;Bourbon
-c_limousin_adj                          ;        ;;;;Limousinian
-c_la_marche_adj                         ;        ;;;;La Marchian
+c_macon_adj                             ;Mâcon   ;;;;Maconian
+c_dijon_adj                             ;Dijon   ;;;;Dijonian
+c_nevers_adj                            ;Nevers  ;;;;Neverian
+c_charolais_adj                         ;Charolais;;;;Charolaian
+d_bourbon                               ;Bourbon ;;;;Bourbon
+c_limousin_adj                          ;Limousin;;;;Limousinian
+c_la_marche_adj                         ;Marche  ;;;;La Marchian
 d_poitou                                ;        ;;;;Poitou
 c_lusignan_adj                          ;        ;;;;Lusignian
 c_saintonge_adj                         ;        ;;;;Saintongian
@@ -1113,20 +1113,20 @@ PROV126                                 ;Nordgau ;;c_nordgau,Noordgouw;;Nordgau
 PROV128                                 ;Metz    ;;c_metz;;Metz
 PROV129                                 ;Verdun  ;;c_verdun,Wirtten;;Verdun
 PROV134                                 ;Sundgau ;;c_sundgau,Sundgouw;;Sundgau
-PROV136                                 ;        ;;c_dijon;;Dijon
-PROV137                                 ;        ;;c_nevers,Nevirnum;;Nevers
+PROV136                                 ;Dijon   ;;c_dijon;;Dijon
+PROV137                                 ;Nevers  ;;c_nevers,Nevirnum;;Nevers
 PROV138                                 ;        ;;c_orleans,Cenabum,Kenabon;;Orléans
 PROV140                                 ;        ;;c_tourraine;;Tours
 PROV141                                 ;        ;;c_poitiers,Lemonum,Limounon;;Poitiers
 PROV142                                 ;        ;;c_thouars;;Thouars
 PROV143                                 ;        ;;c_saintonge;;Saintonge
 PROV144                                 ;        ;;c_lusignan;;Lusignan
-PROV145                                 ;        ;;c_la_marche;;La Marche
+PROV145                                 ;La Marche;;c_la_marche;;La Marche
 PROV146                                 ;        ;;c_bourbon;;Bourbon
-PROV147                                 ;        ;;c_limousin,Augustoritum,Augoustoriton;;Limousin
-PROV148                                 ;        ;;c_angouleme,Iculisma;;Angoulême
-PROV149                                 ;        ;;c_bordeaux,Burdigala,Bourdigala;;Bordeaux
-PROV151                                 ;        ;;c_labourd;;Dax
+PROV147                                 ;Limousin;;c_limousin,Augustoritum,Augoustoriton;;Limousin
+PROV148                                 ;Angoulême;;c_angouleme,Iculisma;;Angoulême
+PROV149                                 ;Bordeaux;;c_bordeaux,Burdigala,Bourdigala;;Bordeaux
+PROV151                                 ;Dax     ;;c_labourd;;Dax
 PROV152                                 ;        ;;c_navarra,al-Nahara,Nafarroa,Navarre;;Navarra
 PROV153                                 ;        ;;c_viscaya,Bisqayya,Bizkaia,Biscaye,Biscaia;;Viscaya
 PROV157                                 ;        ;;c_santiago,Yaqquba,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;;Santiago
@@ -1171,16 +1171,16 @@ PROV204                                 ;        ;;c_barcelona,Barshiluna,Bartze
 PROV205                                 ;        ;;c_empuries,Ympuriyyah,Ampurias,Empouries,Empúries,Ampúrias,Empuries,Emporiae,Emporion;;Empuries
 PROV206                                 ;        ;;c_urgell,Urgil,Urgel,Urchel,Urtxelu;;Urgell
 PROV207                                 ;        ;;c_alto_aragon,Aragu'un al-Hala,Alt Aragó,Aragoi Garaia,Alto Aragão,Altu Aragón,Haut Aragon;;Alto Aragón
-PROV208                                 ;        ;;c_bearn;;Béarn
-PROV209                                 ;        ;;c_armagnac;;Armagnac
+PROV208                                 ;Béarn   ;;c_bearn;;Béarn
+PROV209                                 ;Armagnac;;c_armagnac;;Armagnac
 PROV211                                 ;        ;;c_rosello,Rusl'un,Rozeion,Roussillon,Rosellón,Roselló,Rossilhão,Ruscino,Rhouskinon;;Rosello
-PROV215                                 ;        ;;c_agen;;Agen
-PROV216                                 ;        ;;c_perigord,Vesunna,Ouesouna;;Périgord
+PROV215                                 ;Agen    ;;c_agen;;Agen
+PROV216                                 ;Périgord;;c_perigord,Vesunna,Ouesouna;;Périgord
 PROV221                                 ;Provence;;c_provence,Massilia,Massalia;;Provence
 PROV222                                 ;Venaissin;;c_venaissin,Avenio,Auenion;;Venaissin
 PROV224                                 ;Forez   ;;c_forez;;Forez
-PROV225                                 ;        ;;c_macon;;Mâcon
-PROV226                                 ;        ;;c_charolais;;Charolais
+PROV225                                 ;Mâcon   ;;c_macon;;Mâcon
+PROV226                                 ;Charolais;;c_charolais;;Charolais
 PROV227                                 ;Lyon    ;;c_lyon,Lugdunum,Lougdounon;;Lyon
 PROV231                                 ;Saluzzo ;;c_saluzzo;;Saluzzo
 PROV232                                 ;Montferrat;;c_monferrato,Hasta,Asta;;Monferrato
