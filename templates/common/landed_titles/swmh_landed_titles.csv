@@ -6007,10 +6007,10 @@ c_artois                        ;dutch              ;        ;Artesië
 c_boulogne                      ;dutch              ;        ;Bonen
 c_saintpol                      ;dutch              ;        ;Ternas
 c_guines                        ;dutch              ;        ;Giezene
-c_anjou                         ;greek              ;        ;Iouliomagos
-c_anjou                         ;roman              ;        ;Iuliomagus
-c_maine                         ;greek              ;        ;Ouindinon
-c_maine                         ;roman              ;        ;Vindunum
+c_anjou                         ;greek              ;Angers  ;Iouliomagos
+c_anjou                         ;roman              ;Angers  ;Iuliomagus
+c_maine                         ;greek              ;Le Mans ;Ouindinon
+c_maine                         ;roman              ;Le Mans ;Vindunum
 d_normandy                      ;english            ;        ;Normandie
 d_normandy                      ;saxon              ;        ;Normandig
 d_normandy                      ;frankish           ;        ;Normandie
@@ -6023,8 +6023,8 @@ c_bayeux                        ;greek              ;        ;Baiocassion
 c_bayeux                        ;roman              ;        ;Baiocassium
 c_coustance                     ;greek              ;        ;Konstantia
 c_coustance                     ;roman              ;        ;Constantia
-c_orleans                       ;greek              ;        ;Kenabon
-c_orleans                       ;roman              ;        ;Cenabum
+c_orleans                       ;greek              ;Cenabum ;Kenabon
+c_orleans                       ;roman              ;Cenabum ;Cenabum
 d_blois                         ;name_tier          ;count   ;count
 c_bourges                       ;greek              ;Avaricum;Avaricum
 c_bourges                       ;roman              ;Avaricum;Avaricum
@@ -6625,13 +6625,13 @@ c_rosello                       ;andalusian_arabic  ;        ;Rusl'un
 c_rosello                       ;castillan          ;        ;Rosellón
 c_rosello                       ;catalan            ;        ;Roselló
 c_rosello                       ;portuguese         ;        ;Rossilhão
-c_rosello                       ;greek              ;        ;Rhouskinon
+c_rosello                       ;greek              ;Ruscino ;Rhouskinon
 c_rosello                       ;bedouin_arabic     ;        ;Rusl'un
 c_rosello                       ;maghreb_arabic     ;        ;Rusl'un
 c_rosello                       ;levantine_arabic   ;        ;Rusl'un
 c_rosello                       ;egyptian_arabic    ;        ;Rusl'un
 c_rosello                       ;sicilian_arabic    ;        ;Rusl'un
-c_rosello                       ;roman              ;        ;Ruscino
+c_rosello                       ;roman              ;Ruscino ;Ruscino
 c_empuries                      ;frankish           ;        ;Empouries
 c_empuries                      ;basque             ;        ;Ampurias
 c_empuries                      ;andalusian_arabic  ;        ;Ympuriyyah
@@ -6672,13 +6672,13 @@ d_catalunya_nova                ;catalan            ;        ;Catalunya Nova
 d_catalunya_nova                ;galician           ;        ;Cataluña Nova
 d_catalunya_nova                ;leonese            ;        ;Cataluña Nueva
 d_catalunya_nova                ;portuguese         ;        ;Catalunha Nova
-d_catalunya_nova                ;greek              ;Tarragona;Tarrakon
+d_catalunya_nova                ;greek              ;Tarraco ;Tarrakon
 d_catalunya_nova                ;bedouin_arabic     ;Tortosa ;Turtusha
 d_catalunya_nova                ;maghreb_arabic     ;Tortosa ;Turtusha
 d_catalunya_nova                ;levantine_arabic   ;Tortosa ;Turtusha
 d_catalunya_nova                ;egyptian_arabic    ;Tortosa ;Turtusha
 d_catalunya_nova                ;sicilian_arabic    ;Tortosa ;Turtusha
-d_catalunya_nova                ;roman              ;Tarragona;Tarraco
+d_catalunya_nova                ;roman              ;Tarraco ;Tarraco
 c_lleida                        ;frankish           ;        ;Lérida
 c_lleida                        ;andalusian_arabic  ;        ;Larida
 c_lleida                        ;castillan          ;        ;Lérida
@@ -6691,14 +6691,14 @@ c_lleida                        ;levantine_arabic   ;        ;Larida
 c_lleida                        ;egyptian_arabic    ;        ;Larida
 c_lleida                        ;sicilian_arabic    ;        ;Larida
 c_lleida                        ;roman              ;        ;Ilerda
-c_tarragona                     ;frankish           ;        ;Tortose
-c_tarragona                     ;andalusian_arabic  ;        ;Turtusha
+c_tarragona                     ;frankish           ;Tortosa ;Tortose
+c_tarragona                     ;andalusian_arabic  ;Tortosa ;Turtusha
 c_tarragona                     ;greek              ;Tarraco ;Tarrakon
-c_tarragona                     ;bedouin_arabic     ;        ;Turtusha
-c_tarragona                     ;maghreb_arabic     ;        ;Turtusha
-c_tarragona                     ;levantine_arabic   ;        ;Turtusha
-c_tarragona                     ;egyptian_arabic    ;        ;Turtusha
-c_tarragona                     ;sicilian_arabic    ;        ;Turtusha
+c_tarragona                     ;bedouin_arabic     ;Tortosa ;Turtusha
+c_tarragona                     ;maghreb_arabic     ;Tortosa ;Turtusha
+c_tarragona                     ;levantine_arabic   ;Tortosa ;Turtusha
+c_tarragona                     ;egyptian_arabic    ;Tortosa ;Turtusha
+c_tarragona                     ;sicilian_arabic    ;Tortosa ;Turtusha
 c_tarragona                     ;roman              ;Tarraco ;Tarraco
 d_teruel                        ;andalusian_arabic  ;        ;Tirwal
 d_teruel                        ;bedouin_arabic     ;        ;Tirwal
@@ -7217,14 +7217,14 @@ d_valencia                      ;egyptian_arabic    ;        ;Balansiyya
 d_valencia                      ;sicilian_arabic    ;        ;Balansiyya
 d_valencia                      ;roman              ;        ;Valentia
 c_castellon                     ;basque             ;        ;Gaztelu
-c_castellon                     ;andalusian_arabic  ;        ;Marmariya
+c_castellon                     ;andalusian_arabic  ;Marmaria;Marmariya
 c_castellon                     ;catalan            ;        ;Castelló
 c_castellon                     ;portuguese         ;        ;Castelhão
-c_castellon                     ;bedouin_arabic     ;        ;Marmariya
-c_castellon                     ;maghreb_arabic     ;        ;Marmariya
-c_castellon                     ;levantine_arabic   ;        ;Marmariya
-c_castellon                     ;egyptian_arabic    ;        ;Marmariya
-c_castellon                     ;sicilian_arabic    ;        ;Marmariya
+c_castellon                     ;bedouin_arabic     ;Marmaria;Marmariya
+c_castellon                     ;maghreb_arabic     ;Marmaria;Marmariya
+c_castellon                     ;levantine_arabic   ;Marmaria;Marmariya
+c_castellon                     ;egyptian_arabic    ;Marmaria;Marmariya
+c_castellon                     ;sicilian_arabic    ;Marmaria;Marmariya
 c_denia                         ;andalusian_arabic  ;        ;Deniyya
 c_denia                         ;aragonese          ;        ;Denya
 c_denia                         ;catalan            ;        ;Dénia
