@@ -754,45 +754,45 @@ c_mertola_adj                           ;Mértolan;;;;Mértolan
 c_silves_adj                            ;Silves  ;;;;Silvesian
 c_faro_adj                              ;Faro    ;;;;Faronian
 c_canarias_adj                          ;Canarian;;;;Canarian
-c_makuria_adj                           ;        ;;;;Makurian
-c_nubia_adj                             ;        ;;;;Nubian
-k_arabia                                ;        ;;;;Arabia
-k_arabia_adj                            ;        ;;;;Arabian
-d_sinai                                 ;        ;;;;Sinai
-d_sinai_adj                             ;        ;;;;Sinaite
-c_sinai_adj                             ;Nekhel  ;;;;Sinaian
-c_eilat_adj                             ;Mount Catherine;;;;Eilatian
-c_el-arish_adj                          ;        ;;;;El-Arishian
-d_arabia_petrae                         ;        ;;;;Arabia
-d_arabia_petrae_adj                     ;        ;;;;Arabian
-c_al_aqabah_adj                         ;        ;;;;Al Aqabahian
-c_maan_adj                              ;        ;;;;Ma'anian
-c_tabuk_adj                             ;        ;;;;Tabukian
-c_petra_adj                             ;Elim    ;;;;Petran
-c_al_jawf_adj                           ;Mawijan ;;;;Al Jawfian
-c_hijaz_adj                             ;Al-‘Ula ;;;;Hijazian
-c_medina_adj                            ;        ;;;;Medinan
-c_mecca_adj                             ;        ;;;;Meccan
-c_asir_adj                              ;        ;;;;Asirian
-c_rafha_adj                             ;Talabija;;;;Rafhan
-c_hail_adj                              ;        ;;;;Hailian
-c_hajr_adj                              ;        ;;;;Hajrian
-c_halaban_adj                           ;        ;;;;Halabanian
-d_sanaa                                 ;        ;;;;Sanaa
-d_sanaa_adj                             ;        ;;;;Sanaan
-c_bayda_adj                             ;        ;;;;Baydanian
-c_sanaa_adj                             ;        ;;;;Sanaan
-c_taizz_adj                             ;        ;;;;Taizzian
-c_aden_adj                              ;        ;;;;Adenian
-c_kathiri_adj                           ;        ;;;;Kathirian
-d_oman                                  ;        ;;;;Oman
-d_oman_adj                              ;        ;;;;Omani
-c_dhu_zabi_adj                          ;        ;;;;Dhu Zabian
-c_hajar_adj                             ;        ;;;;Hajarian
-c_muscat_adj                            ;        ;;;;Muscatian
-c_duqm_adj                              ;        ;;;;Duqmian
-c_dhofar_adj                            ;        ;;;;Dhofarian
-c_mahra_adj                             ;        ;;;;Mahran
+c_makuria_adj                           ;Makurian;;;;Makurian
+c_nubia_adj                             ;Nubian  ;;;;Nubian
+k_arabia                                ;Arabia  ;;;;Arabia
+k_arabia_adj                            ;Arabian ;;;;Arabian
+d_sinai                                 ;Sinai   ;;;;Sinai
+d_sinai_adj                             ;Sinaitic;;;;Sinaite
+c_sinai_adj                             ;Sinaitic;;;;Sinaian
+c_eilat_adj                             ;Eilatian;;;;Eilatian
+c_el-arish_adj                          ;Arish   ;;;;El-Arishian
+d_arabia_petrae                         ;Arabia  ;;;;Arabia
+d_arabia_petrae_adj                     ;Arabian ;;;;Arabian
+c_al_aqabah_adj                         ;Aqaba   ;;;;Al Aqabahian
+c_maan_adj                              ;Ma’an   ;;;;Ma'anian
+c_tabuk_adj                             ;Tabuk   ;;;;Tabukian
+c_petra_adj                             ;Petra   ;;;;Petran
+c_al_jawf_adj                           ;Al-Jawf ;;;;Al Jawfian
+c_hijaz_adj                             ;Hejazi  ;;;;Hijazian
+c_medina_adj                            ;Medinan ;;;;Medinan
+c_mecca_adj                             ;Meccan  ;;;;Meccan
+c_asir_adj                              ;‘Asir   ;;;;Asirian
+c_rafha_adj                             ;Rafha   ;;;;Rafhan
+c_hail_adj                              ;Ha’il   ;;;;Hailian
+c_hajr_adj                              ;Hajr    ;;;;Hajrian
+c_halaban_adj                           ;Halaban ;;;;Halabanian
+d_sanaa                                 ;Sana’a  ;;;;Sanaa
+d_sanaa_adj                             ;Sana’a  ;;;;Sanaan
+c_bayda_adj                             ;Al Bayda;;;;Baydanian
+c_sanaa_adj                             ;Sana’a  ;;;;Sanaan
+c_taizz_adj                             ;Taizian ;;;;Taizzian
+c_aden_adj                              ;Adenian ;;;;Adenian
+c_kathiri_adj                           ;Kathiri ;;;;Kathirian
+d_oman                                  ;Oman    ;;;;Oman
+d_oman_adj                              ;Omani   ;;;;Omani
+c_dhu_zabi_adj                          ;Abu Dhabian;;;;Dhu Zabian
+c_hajar_adj                             ;Al Hajar;;;;Hajarian
+c_muscat_adj                            ;Muscatian;;;;Muscatian
+c_duqm_adj                              ;Duqm    ;;;;Duqmian
+c_dhofar_adj                            ;Dhofar  ;;;;Dhofarian
+c_mahra_adj                             ;Al Mahrah;;;;Mahran
 k_abyssinia                             ;        ;;;;Abyssinia
 k_abyssinia_adj                         ;        ;;;;Abyssinian
 c_busaso_adj                            ;        ;;;;Busasonian
@@ -1322,9 +1322,9 @@ PROV707                                 ;Malatya ;;c_melitene,Malat'ya,Malatiya,
 PROV710                                 ;Jabal Bishri;;c_al_bichri,Circesium,Kirkesion;;Al Bichri
 PROV711                                 ;Sinjar  ;;c_sinjar,Singara;;Sinjar
 PROV715                                 ;Al Habbariyah;;c_al_habbariyah;;Al Habbariyah
-PROV718                                 ;        ;;c_medina;;Medina
-PROV719                                 ;        ;;c_mecca;;Mecca
-PROV721                                 ;        ;;c_tabuk;;Tabuk
+PROV718                                 ;Medina  ;;c_medina;;Medina
+PROV719                                 ;Mecca   ;;c_mecca;;Mecca
+PROV721                                 ;Tabuk   ;;c_tabuk;;Tabuk
 PROV730                                 ;        ;;c_palmyra;;Palmyra
 PROV732                                 ;        ;;c_hama,Epiphania;;Hama
 PROV764                                 ;        ;;c_antiocheia,Antakiya,Antiok;;Antioch
@@ -1337,11 +1337,11 @@ PROV775                                 ;        ;;c_jaffa,Ioppe,Ioppa;;Jaffa
 PROV777                                 ;        ;;c_kerak,Al-Karak;;Kerak
 PROV778                                 ;        ;;c_monreal,Shobak;;Monreal
 PROV780                                 ;        ;;c_ascalon,Asqalan;;Ascalon
-PROV783                                 ;        ;;c_maan;;Maan
-PROV784                                 ;        ;;c_al_aqabah;;Al 'Aqabah
-PROV787                                 ;        ;;c_el-arish,Pelusium,Pelousion;;El-Arish
-PROV792                                 ;        ;;c_nubia,Pachoras,Pakhôras,Para;;Nubia
-PROV793                                 ;        ;;c_makuria;;Makuria
+PROV783                                 ;Ma’an   ;;c_maan;;Maan
+PROV784                                 ;Aqaba   ;;c_al_aqabah;;Al 'Aqabah
+PROV787                                 ;Arish   ;;c_el-arish,Pelusium,Pelousion;;El-Arish
+PROV792                                 ;Nubia   ;;c_nubia,Pachoras,Pakhôras,Para;;Nubia
+PROV793                                 ;Makuria ;;c_makuria;;Makuria
 PROV794                                 ;        ;;c_aswan,Syene;;Aswan
 PROV795                                 ;        ;;c_asyut,Lycopolis,Lykopolis;;Asyut
 PROV796                                 ;        ;;c_cairo,Babylon,Phystaton;;Cairo
@@ -1357,21 +1357,21 @@ PROV827                                 ;Mallorca;;c_mallorca,Mayurqa,Maiorka,Ma
 PROV848                                 ;Bremen  ;;c_bremen;;Bremen
 PROV850                                 ;Kandalaksha;;c_kandalax;;Kantalahti
 PROV851                                 ;Capua   ;;c_capua,Kapue;;Capua
-PROV855                                 ;        ;;c_mahra;;Mahra
-PROV856                                 ;        ;;c_kathiri;;Kathiri
-PROV857                                 ;        ;;c_bayda;;Bayda
-PROV858                                 ;        ;;c_aden;;Aden
-PROV859                                 ;        ;;c_taizz;;Taizz
-PROV860                                 ;        ;;c_sanaa;;Sanaa
-PROV861                                 ;        ;;c_asir;;Asir
-PROV862                                 ;        ;;c_halaban;;Halaban
-PROV863                                 ;        ;;c_hajr;;Hajr
-PROV864                                 ;        ;;c_hail;;Hail
-PROV866                                 ;        ;;c_dhofar;;Dhofar
-PROV867                                 ;        ;;c_duqm;;Duqm
-PROV868                                 ;        ;;c_muscat;;Muscat
-PROV869                                 ;        ;;c_hajar;;Hajar
-PROV870                                 ;        ;;c_dhu_zabi;;Dhu Zabi
+PROV855                                 ;Al Mahrah;;c_mahra;;Mahra
+PROV856                                 ;Kathiri ;;c_kathiri;;Kathiri
+PROV857                                 ;Al Bayda;;c_bayda;;Bayda
+PROV858                                 ;Aden    ;;c_aden;;Aden
+PROV859                                 ;Taiz    ;;c_taizz;;Taizz
+PROV860                                 ;Sana’a  ;;c_sanaa;;Sanaa
+PROV861                                 ;‘Asir   ;;c_asir;;Asir
+PROV862                                 ;Halaban ;;c_halaban;;Halaban
+PROV863                                 ;Hajr    ;;c_hajr;;Hajr
+PROV864                                 ;Ha’il   ;;c_hail;;Hail
+PROV866                                 ;Dhofar  ;;c_dhofar;;Dhofar
+PROV867                                 ;Duqm    ;;c_duqm;;Duqm
+PROV868                                 ;Muscat  ;;c_muscat;;Muscat
+PROV869                                 ;Al Hajar;;c_hajar;;Hajar
+PROV870                                 ;Abu Dhabi;;c_dhu_zabi;;Dhu Zabi
 PROV871                                 ;        ;;c_busaso;;Busaso
 PROV872                                 ;        ;;c_berbera;;Berbera
 PROV874                                 ;        ;;c_tadjoura;;Tadjoura

@@ -44,12 +44,18 @@ e_ulm = { # Ulm
 	capital = 252 # Ulm # ULM
 	allow = {
 		has_landed_title = c_ulm
-		independent = yes
 		prestige = 2000
-		or = {
-			has_landed_title = c_ferrara
-			any_vassal = { has_landed_title = c_ferrara }
+		c_ferrara = {
+			holder_scope = {
+				or = {
+					character = ROOT
+					is_liege_or_above = ROOT
+				}
+			}
 		}
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 	title = ULM
 	foa = ULM_FOA
@@ -65,7 +71,9 @@ e_khazaria = { # Qasarstan
 			religion = tengri_pagan_reformed
 		}
 		has_landed_title = k_khazaria
-		independent = yes
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 } # end e_khazaria
 e_khitan = { # Kara Khitai
@@ -134,60 +142,43 @@ e_kaleva = { # Kalevala
 		culture_group = finno_ugric
 		has_landed_title = k_finland
 		has_landed_title = k_terra
-		independent = yes
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 }
 k_geats = { # Gautaríki
 	color = { 208 191 99 }
 	capital = 293 # Östergötland
 	allow = {
+		independent = yes
 		or = {
 			and = {
 				has_landed_title = d_vastergotland
 				has_landed_title = d_ostergotland
+				lower_real_tier_than = king
 			}
-			independent = yes
-			not = {
-				any_demesne_title = {
-					or = {
-						tier = king
-						tier = emperor
+			and = {
+				d_vastergotland = {
+					holder_scope = {
+						or = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
 					}
 				}
-			}
-			and = {
-				has_landed_title = k_denmark
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
+				d_ostergotland = {
+					holder_scope = {
+						or = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
+					}
 				}
 				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
-				}
-				prestige = 1500
-			}
-			and = {
-				has_landed_title = k_sweden
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
-				}
-				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
-				}
-				prestige = 1500
-			}
-			and = {
-				has_landed_title = k_norway
-				or = {
-					has_landed_title = d_vastergotland
-					any_vassal = { has_landed_title = d_vastergotland }
-				}
-				or = {
-					has_landed_title = d_ostergotland
-					any_vassal = { has_landed_title = d_ostergotland }
+					has_landed_title = k_denmark
+					has_landed_title = k_sweden
+					has_landed_title = k_norway
 				}
 				prestige = 1500
 			}
@@ -218,11 +209,15 @@ d_lauenburg = { # Sachsen-Lauenburg
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
-		or = {
-			has_landed_title = c_lauenburg
-			any_vassal = { has_landed_title = c_lauenburg }
+		c_lauenburg = {
+			holder_scope = {
+				or = {
+					character = ROOT
+					is_liege_or_above = ROOT
+				}
+			}
 		}
-		not = { any_demesne_title = { tier = emperor } }
+		not = { tier = emperor }
 	}
 }
 d_sangermano = { # Terra Sancti Benedicti
@@ -316,25 +311,10 @@ d_smaland = { # Småland
 	allow = {
 		or = {
 			has_landed_title = c_smaland
-			any_vassal = { has_landed_title = c_smaland }
-		}
-		or = {
 			has_landed_title = c_tjust
-			any_vassal = { has_landed_title = c_tjust }
-		}
-		or = {
 			has_landed_title = c_finnveden
-			any_vassal = { has_landed_title = c_finnveden }
 		}
-		independent = yes
-		not = {
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
+		lower_tier_than = king
 	}
 }
 e_occitania = { # Occitània
@@ -349,35 +329,9 @@ e_occitania = { # Occitània
 			culture = catalan
 		}
 		religion_group = christian
-		independent = yes
-		or = {
-			has_landed_title = d_toulouse
-			any_vassal = { has_landed_title = d_toulouse }
-		}
-		or = {
-			has_landed_title = d_aquitaine
-			any_vassal = { has_landed_title = d_aquitaine }
-		}
-		or = {
-			has_landed_title = d_provence
-			any_vassal = { has_landed_title = d_provence }
-		}
-		or = {
-			has_landed_title = d_gevaudan
-			any_vassal = { has_landed_title = d_gevaudan }
-		}
-		or = {
-			has_landed_title = d_foix
-			any_vassal = { has_landed_title = d_foix }
-		}
-		or = {
-			has_landed_title = d_septimania
-			any_vassal = { has_landed_title = d_septimania }
-		}
-		or = {
-			has_landed_title = d_gascogne
-			any_vassal = { has_landed_title = d_gascogne }
-		}
+		war = no
+		has_regent = no
+		realm_size = 120
 	}
 	name_tier = king
 } # end e_occitania
@@ -396,19 +350,11 @@ k_flanders = { # Vlaanderen
 			has_landed_title = c_lille
 			has_landed_title = c_tournai
 		}
-		independent = yes
-		not = {
-			any_demesne_title = {
-				or = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
+		lower_tier_than = king
 	}
 }
 # ARKO
-d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès.
+d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès. # Oh, obviously, yeah, +1.
 	color = { 0 20 188 }
 	color2 = { 255 255 255 }
 	capital = 214 # Tolosa # Toulouse
@@ -544,10 +490,10 @@ e_wendish_empire = { # Wendish Empire
 				has_landed_title = k_hungary
 			}
 		}
-		independent = yes
 		ruled_years = 5
 		war = no
-		is_adult = yes
+		has_regent = no
+		realm_size = 120
 	}
 	short_name = yes
 	polish = "Great Poland"
