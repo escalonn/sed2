@@ -833,31 +833,31 @@ c_tiberias_adj                          ;Tiberian;;;;Tiberian
 c_beirut_adj                            ;Beirutian;;;;Beirutian
 c_safed_adj                             ;Safedian;;;;Safedian
 c_asas_adj                              ;Asas    ;;;;Asasian
-c_palmyra_adj                           ;        ;;;;Palmyran
-c_aleppo_adj                            ;Aleppo  ;;;;Alepponian
+c_palmyra_adj                           ;Palmyran;;;;Palmyran
+c_aleppo_adj                            ;Aleppan ;;;;Alepponian
 c_homs_adj                              ;Homs    ;;;;Homsian
-c_hama_adj                              ;        ;;;;Haman
-c_antiocheia_adj                        ;        ;;;;Antiochian
+c_hama_adj                              ;Hama    ;;;;Haman
+c_antiocheia_adj                        ;Antiochian;;;;Antiochian
 c_archa_adj                             ;Bourzey ;;;;Archan
-d_tripoli                               ;        ;;Tarabulus,Phoenice;;Tripoli
-d_tripoli_adj                           ;        ;;;;Tripolitanian
-c_tortosa_adj                           ;        ;;;;Tortosan
-c_tripoli_adj                           ;        ;;;;Tripolitanian
-c_baalbek_adj                           ;Beqaa   ;;;;Baalbekian
-c_damascus_adj                          ;Ghouta  ;;;;Damascan
-c_amman_adj                             ;Balqa’  ;;;;Ammanian
-c_al_mafraq_adj                         ;Qasr al-Hayr al-Gharbi;;;;Al Mafraqian
-d_syria                                 ;        ;;;;Syria
-d_syria_adj                             ;        ;;;;Syrian
-c_druz_adj                              ;Qasr al-Hayr al-Sharqi;;;;Druzian
-c_suwaida_adj                           ;Hauran  ;;;;Suwaidan
-k_england                               ;        ;;Angleterre,Angliétèrre,Ænglaland,Engelond,Ænglandi,Lloegyr,Britanniae,Brittannia;;England
-k_england_adj                           ;        ;;;;English
-d_oxford                                ;        ;;;;Oxford
-d_oxford_adj                            ;        ;;;;Oxfordian
-d_gloucester                            ;        ;;;;Hwicce
-d_gloucester_adj                        ;        ;;;;Hwiccan
-k_scotland_adj                          ;        ;;;;Scottish
+d_tripoli                               ;Tripoli ;;Tarabulus,Phoenice;;Tripoli
+d_tripoli_adj                           ;Tripolitan;;;;Tripolitanian
+c_tortosa_adj                           ;Tartus  ;;;;Tortosan
+c_tripoli_adj                           ;Tripolitan;;;;Tripolitanian
+c_baalbek_adj                           ;Baalbekian;;;;Baalbekian
+c_damascus_adj                          ;Damascene;;;;Damascan
+c_amman_adj                             ;Ammani  ;;;;Ammanian
+c_al_mafraq_adj                         ;Mafraq  ;;;;Al Mafraqian
+d_syria                                 ;Syria   ;;;;Syria
+d_syria_adj                             ;Syrian  ;;;;Syrian
+c_druz_adj                              ;Druze   ;;;;Druzian
+c_suwaida_adj                           ;As-Suwayda;;;;Suwaidan
+k_england                               ;England ;;Angleterre,Angliétèrre,Ænglaland,Engelond,Ænglandi,Lloegyr,Britanniae,Brittannia;;England
+k_england_adj                           ;English ;;;;English
+d_oxford                                ;Oxford  ;;;;Oxford
+d_oxford_adj                            ;Oxfordian;;;;Oxfordian
+d_gloucester                            ;Hwicce  ;;;;Hwicce
+d_gloucester_adj                        ;Hwiccan ;;;;Hwiccan
+k_scotland_adj                          ;Scottish;;;;Scottish
 d_the_isles                             ;        ;;;;Man
 d_the_isles_adj                         ;        ;;;;Manx
 d_ulster                                ;        ;;Ulaidh,Uladh,Ullagh,Wledd,Ulley;;Ulster
@@ -1325,13 +1325,13 @@ PROV715                                 ;Al Habbariyah;;c_al_habbariyah;;Al Habb
 PROV718                                 ;Medina  ;;c_medina;;Medina
 PROV719                                 ;Mecca   ;;c_mecca;;Mecca
 PROV721                                 ;Tabuk   ;;c_tabuk;;Tabuk
-PROV730                                 ;        ;;c_palmyra;;Palmyra
-PROV732                                 ;        ;;c_hama,Epiphania;;Hama
-PROV764                                 ;        ;;c_antiocheia,Antakiya,Antiok;;Antioch
-PROV766                                 ;        ;;c_tortosa,Antartus,Antarados;;Tortosa
-PROV767                                 ;        ;;c_tripoli,Tarabulus;;Tripoli
+PROV730                                 ;Palmyra ;;c_palmyra;;Palmyra
+PROV732                                 ;Hama    ;;c_hama,Epiphania;;Hama
+PROV764                                 ;Antioch ;;c_antiocheia,Antakiya,Antiok;;Antioch
+PROV766                                 ;Tartus  ;;c_tortosa,Antartus,Antarados;;Tortosa
+PROV767                                 ;Tripoli ;;c_tripoli,Tarabulus;;Tripoli
 PROV770                                 ;Beirut  ;;c_beirut,Berytus,Berytos;;Beirut
-PROV772                                 ;        ;;c_acre,Akka,Ptolemais;;Acre
+PROV772                                 ;Acre    ;;c_acre,Akka,Ptolemais;;Acre
 PROV773                                 ;Tiberias;;c_tiberias;;Tiberias
 PROV775                                 ;Jaffa   ;;c_jaffa,Ioppe,Ioppa;;Jaffa
 PROV777                                 ;Kerak   ;;c_kerak,Al-Karak;;Kerak
@@ -1734,8 +1734,8 @@ d_somerset_adj_norman                   ;        ;;;;Somersetian
 d_bedford_adj_norman                    ;        ;;;;Bedforder
 d_hereford_adj_norman                   ;        ;;;;Herefordian
 d_norfolk_adj_norman                    ;        ;;;;Norfolkian
-d_gloucester_adj_norman                 ;        ;;;;Gloucesterian
-d_gloucester_adj_english                ;        ;;;;Gloucesterian
+d_gloucester_adj_norman                 ;Gloucester;;;;Gloucesterian
+d_gloucester_adj_english                ;Gloucester;;;;Gloucesterian
 title_patrician_heir                    ;        ;;;;Designated Heir
 title_patrician_heir_desc               ;        ;;;;This character has been chosen to succeed a Patrician in running the family business.
 title_tanist                            ;        ;;;;Tanist
