@@ -858,33 +858,33 @@ d_oxford_adj                            ;Oxfordian;;;;Oxfordian
 d_gloucester                            ;Hwicce  ;;;;Hwicce
 d_gloucester_adj                        ;Hwiccan ;;;;Hwiccan
 k_scotland_adj                          ;Scottish;;;;Scottish
-d_the_isles                             ;        ;;;;Man
-d_the_isles_adj                         ;        ;;;;Manx
-d_ulster                                ;        ;;Ulaidh,Uladh,Ullagh,Wledd,Ulley;;Ulster
-c_tyrone_adj                            ;        ;;;;Tir Eoghainian
-c_tyrconnell_adj                        ;        ;;;;Tyrconnellian
-d_connacht                              ;        ;;Chonnacht,Connacht,Kunnakster,Chonnaghtey;;Connacht
-c_oriel_adj                             ;        ;;;;Orielian
-c_kildare_adj                           ;        ;;;;Kildarian
-c_dublin_adj                            ;        ;;;;Dubliner
-d_leinster                              ;        ;;Laigin,Lion,Laistaðr;;Leinster
-c_ossory_adj                            ;        ;;;;Ossoryan
-d_munster                               ;        ;;Deas-Mhumhain;;Munster
-c_vestisland_adj                        ;Western Region;;;;West Icelandic
-c_austisland_adj                        ;Eastern Region;;;;East Icelandic
-c_faereyar_adj                          ;Faroe Islands;;;;Fairy
-c_shetland_adj                          ;Shetland;;;;Shetlander
-c_orkney_adj                            ;Orkney  ;;;;Orcadians
-c_rogaland_adj                          ;Ryfylke ;;;;Rogalander
-d_bohemia_adj                           ;        ;;;;Bohemian
-c_domazlice_adj                         ;Doudleby;;;;Domazlician
-c_praha_adj                             ;Prague  ;;;;Pragian
-c_boleslav_adj                          ;Klodzko ;;;;Boleslavian
+d_the_isles                             ;Isle of Man;;;;Man
+d_the_isles_adj                         ;Manx    ;;;;Manx
+d_ulster                                ;Ulster  ;;Ulaidh,Uladh,Ullagh,Wledd,Ulley;;Ulster
+c_tyrone_adj                            ;Tyrone  ;;;;Tir Eoghainian
+c_tyrconnell_adj                        ;Tyrconnellian;;;;Tyrconnellian
+d_connacht                              ;Connacht;;Chonnacht,Connacht,Kunnakster,Chonnaghtey;;Connacht
+c_oriel_adj                             ;Oriel   ;;;;Orielian
+c_kildare_adj                           ;Kildare ;;;;Kildarian
+c_dublin_adj                            ;Dublin  ;;;;Dubliner
+d_leinster                              ;Leinster;;Laigin,Lion,Laistaðr;;Leinster
+c_ossory_adj                            ;Osraige ;;;;Ossoryan
+d_munster                               ;Munster ;;Deas-Mhumhain;;Munster
+c_vestisland_adj                        ;West Icelandic;;;;West Icelandic
+c_austisland_adj                        ;East Icelandic;;;;East Icelandic
+c_faereyar_adj                          ;Faroese ;;;;Fairy
+c_shetland_adj                          ;Shetlander;;;;Shetlander
+c_orkney_adj                            ;Orcadian;;;;Orcadians
+c_rogaland_adj                          ;Rogaland;;;;Rogalander
+d_bohemia_adj                           ;Bohemian;;;;Bohemian
+c_domazlice_adj                         ;Domažlice;;;;Domazlician
+c_praha_adj                             ;Praguian;;;;Pragian
+c_boleslav_adj                          ;Mladá Boleslav;;;;Boleslavian
 c_litomerice_adj                        ;Litomerice;;;;Litomerician
 c_plzen_adj                             ;Plzen   ;;;;Plzenian
-d_moravia_adj                           ;        ;;;;Moravian
+d_moravia_adj                           ;Moravian;;;;Moravian
 c_hradec_adj                            ;Hradec Králové;;;;Hradecian
-c_olomouc_adj                           ;Olomouc ;;;;Olomoucian
+c_olomouc_adj                           ;Olomoucian;;;;Olomoucian
 c_brno_adj                              ;Brno    ;;;;Brünnian
 d_abbasid                               ;        ;;;;Abbasid
 d_medina                                ;        ;;;;Medina
@@ -1020,12 +1020,12 @@ d_bulgarian_band                        ;        ;;;;Bulgarian Band
 d_bulgarian_band_adj                    ;        ;;;;Bulgarian
 d_turkic_band                           ;        ;;;;Turkic Band
 d_turkic_band_adj                       ;        ;;;;Turkic
-PROV3                                   ;        ;;c_tyrconnell,Tír Chonaill,Çheer Chonnal;;Tyrconnell
-PROV4                                   ;        ;;c_tyrone,Thír Eoghain,Heer Eoin,Tyrone,Tyrowen;;Tyrone
-PROV7                                   ;        ;;c_oriel,Airgíalla,Oirialla,Oriel;;Oriel
-PROV10                                  ;        ;;c_kildare,Chill Dara,Cheeill Darey;;Kildare
-PROV11                                  ;        ;;c_dublin,Dunbhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;;Dublin
-PROV12                                  ;        ;;c_ossory,Osraige;;Ossory
+PROV3                                   ;Tyrconnell;;c_tyrconnell,Tír Chonaill,Çheer Chonnal;;Tyrconnell
+PROV4                                   ;Tyrone  ;;c_tyrone,Thír Eoghain,Heer Eoin,Tyrone,Tyrowen;;Tyrone
+PROV7                                   ;Oriel   ;;c_oriel,Airgíalla,Oirialla,Oriel;;Oriel
+PROV10                                  ;Kildare ;;c_kildare,Chill Dara,Cheeill Darey;;Kildare
+PROV11                                  ;Dublin  ;;c_dublin,Dunbhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;;Dublin
+PROV12                                  ;Osraige ;;c_ossory,Osraige;;Ossory
 PROV17                                  ;        ;;c_hereford,Ergyng;;Hereford
 PROV20                                  ;        ;;c_gwent,Gwent,Isca Augusta;;Gwent
 PROV21                                  ;        ;;c_gloucester,Gleawcester,Caer Gloui,Glevum;;Gloucester
@@ -1489,10 +1489,10 @@ d_maghreb_corsairs_adj                  ;        ;;;;Maghreb
 k_aquitaine                             ;        ;;Septem Provinciae;;Aquitaine
 k_aquitaine_adj                         ;        ;;;;Aquitanian
 #text9.csv;;
-d_connacht_adj                          ;        ;;;;Connachtian
-d_leinster_adj                          ;        ;;;;Leinsterian
-d_munster_adj                           ;        ;;;;Munsterian
-d_ulster_adj                            ;        ;;;;Ulsterian
+d_connacht_adj                          ;Connacht;;;;Connachtian
+d_leinster_adj                          ;Leinster;;;;Leinsterian
+d_munster_adj                           ;Munster ;;;;Munsterian
+d_ulster_adj                            ;Ulster  ;;;;Ulsterian
 d_gelre_adj                             ;Guelders;;;;Gelrian
 d_ryazan_adj                            ;Ryazan  ;;;;Ryazanian
 d_dauphine_adj                          ;Dauphiné;;;;Dauphinian
@@ -1843,13 +1843,13 @@ d_sami                                  ;        ;;Lop';;Sami
 d_sami_adj                              ;        ;;;;Sami
 c_nizhny_novgorod_adj_finno_ugric       ;        ;;;;Obran Osh
 c_nizhny_novgorod_adj_altaic            ;        ;;;;Obran Osh
-d_leinster_adj_north_germanic           ;        ;;;;Veisafjorder
+d_leinster_adj_north_germanic           ;Wexford ;;;;Veisafjorder
 c_leinster_adj_north_germanic           ;        ;;;;Veisafjorder
-d_munster_adj_north_germanic            ;        ;;;;Hlymrekian
+d_munster_adj_north_germanic            ;Limerick;;;;Hlymrekian
 c_thomond_adj_north_germanic            ;        ;;;;Hlymrekian
 c_ormond_adj_north_germanic             ;        ;;;;Vedrafjorder
 c_ulster_adj_north_germanic             ;        ;;;;Strangfjorder
-d_ulster_adj_north_germanic             ;        ;;;;Strangfjorder
+d_ulster_adj_north_germanic             ;Strangford;;;;Strangfjorder
 bolghar                                 ;        ;;;;Bolghar
 ca_wall_q_1                             ;        ;;;;Castle Fortifications
 ca_wall_q_2                             ;        ;;;;Castle Fortifications
