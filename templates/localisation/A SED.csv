@@ -1413,7 +1413,7 @@ BM_THIRD_CRUSADE_DESC                   ;Jerusalem has fallen to the forces of t
 title_regent                            ;Regent  ;;;;Regent
 title_queen_mother                      ;Queen Mother;;;;Queen Mother
 title_prince                            ;Prince  ;;;;Prince
-title_court_jester                      ;Jester  ;;;;Court Jester
+title_court_jester                      ;Court Jester;;;;Court Jester
 title_keeper_of_swans                   ;Keeper of the Swans;;;;Keeper of the Swans
 title_keeper_of_swans_desc              ;With swan meat being without doubt the finest meat available from either beast or fowl, the need to ensure a steady supply of swans is important. The post of Keeper of the Swans carries a certain amount of prestige.;;;;With Swan meat being without doubt the finest meat available from either beast or fowl, the need to ensure a steady supply of Swans is important. The post of Master of Swans carries a certain amount of prestige.
 title_master_of_the_horse               ;Master of the Horse;;;;Master of the Horse
@@ -1538,271 +1538,271 @@ d_hashshashin                           ;Assassins;;;;Hashshashin
 #v1_06a.csv;;
 #v1_06b.csv;;
 #v1_07.csv;;
-BM_KOMNENOS_DYNASTY                     ;        ;;;;The Alexiad
-BM_KOMNENOS_DYNASTY_DESC                ;        ;;;;After a series of devastating losses to invading Turkish forces, the Byzantine Empire is reeling. But there is hope - the great general Alexios Komnenos has just seized the throne from the corrupt Nikephoros III. Alexios - whose life was documented by his daughter Anna in 'the Alexiad' - and his successors would halt the decline of the Empire and push back the Turkish invaders from western Anatolia, buying more time for the ailing remnants of the old Roman Empire. For now, Anatolia is ruled by Suleyman I, a member of the Seljuk dynasty, who arrogantly calls his new state the 'Sultanate of Rum' (Rome).
-BM_THE_LATIN_EMPIRE_DESC                ;        ;;;;The notorious and ill fated Fourth Crusade, which was supposed to retake Jerusalem after an invasion through Egypt, was instead derailed by scheming Venetians, corrupt leaders and the deposed Byzantine Emperor Alexios IV, seeking to regain his lost throne. The result was the tragic sack of Constantinople and the subsequent establishment of the so called Latin Empire. Almost none of the Crusaders even reached the Holy Land. Meanwhile, the infamous King John, brother of Richard the Lionheart, rules in England, and the Christian states of Spain face off against the powerful Almohad dynasty.
-e_roman_empire                          ;        ;;Imperium Romanum,Rómverska keisaradæmið,Rzímská Rzíše,Római Birodalom,Cesarstwo Rzymski,Rimsko Carstvo,Rimsku Imperiju,Rimsko Cesárstvo,Rimskaya Imperiya,Rimska Imperiya,Imperiul Roman,Perandoria Romake,Hrromeakan Kaysrut'yun,Romis Imperia;;Roman Empire
-e_roman_empire_adj                      ;        ;;;;Roman
-RETTYPE_INF1                            ;        ;;;;Shock
-RETTYPE_INF2                            ;        ;;;;Defence
-RETTYPE_CAV1                            ;        ;;;;Cavalry
-RETTYPE_SKIR1                           ;        ;;;;Skirmish
-RETTYPE_CUL_W_AFR                       ;        ;;;;Free Warrior
-c_orava_adj                             ;Árva    ;;;;Zvolenian
+BM_KOMNENOS_DYNASTY                     ;The Alexiad;;;;The Alexiad
+BM_KOMNENOS_DYNASTY_DESC                ;After a series of devastating losses to invading Turkish forces, the Byzantine Empire is reeling. But there is hope – the great general Alexios Komnenos has just seized the throne from the corrupt Nikephoros III. Alexios – whose life was documented by his daughter Anna in the “Alexiad” – and his successors would halt the decline of the Empire and push back the Turkish invaders from western Anatolia, buying more time for the ailing remnants of the old Roman Empire. For now, Anatolia is ruled by Suleiman, a member of the Seljuq dynasty, who arrogantly calls his new state the “Sultanate of Rum” (Rome).;;;;After a series of devastating losses to invading Turkish forces, the Byzantine Empire is reeling. But there is hope - the great general Alexios Komnenos has just seized the throne from the corrupt Nikephoros III. Alexios - whose life was documented by his daughter Anna in 'the Alexiad' - and his successors would halt the decline of the Empire and push back the Turkish invaders from western Anatolia, buying more time for the ailing remnants of the old Roman Empire. For now, Anatolia is ruled by Suleyman I, a member of the Seljuk dynasty, who arrogantly calls his new state the 'Sultanate of Rum' (Rome).
+BM_THE_LATIN_EMPIRE_DESC                ;The notorious and ill fated Fourth Crusade, which was supposed to retake Jerusalem after an invasion through Egypt, was instead derailed by scheming Venetians, corrupt leaders and the deposed Byzantine Emperor Alexios IV, seeking to regain his lost throne. The result was the tragic sack of Constantinople and the subsequent establishment of the Latin Empire. Almost none of the Crusaders even reached the Holy Land. Meanwhile, the infamous King John, brother of Richard the Lionheart, rules in England, and the Christian states of Spain face off against the powerful Almohad dynasty.;;;;The notorious and ill fated Fourth Crusade, which was supposed to retake Jerusalem after an invasion through Egypt, was instead derailed by scheming Venetians, corrupt leaders and the deposed Byzantine Emperor Alexios IV, seeking to regain his lost throne. The result was the tragic sack of Constantinople and the subsequent establishment of the so called Latin Empire. Almost none of the Crusaders even reached the Holy Land. Meanwhile, the infamous King John, brother of Richard the Lionheart, rules in England, and the Christian states of Spain face off against the powerful Almohad dynasty.
+e_roman_empire                          ;Roman Empire;;Imperium Romanum,Rómverska keisaradæmið,Rzímská Rzíše,Római Birodalom,Cesarstwo Rzymski,Rimsko Carstvo,Rimsku Imperiju,Rimsko Cesárstvo,Rimskaya Imperiya,Rimska Imperiya,Imperiul Roman,Perandoria Romake,Hrromeakan Kaysrut'yun,Romis Imperia;;Roman Empire
+e_roman_empire_adj                      ;Roman   ;;;;Roman
+RETTYPE_INF1                            ;Shock   ;;;;Shock
+RETTYPE_INF2                            ;Defense ;;;;Defence
+RETTYPE_CAV1                            ;Cavalry ;;;;Cavalry
+RETTYPE_SKIR1                           ;Skirmish;;;;Skirmish
+RETTYPE_CUL_W_AFR                       ;Free Warrior;;;;Free Warrior
+c_orava_adj                             ;Zvolen  ;;;;Zvolenian
 #v1_07b.csv;;
-miaphysite                              ;        ;;;;Miaphysite
-monothelite                             ;        ;;;;Monothelite
-d_miaphysite                            ;        ;;;;The Miaphysite Papacy
-d_miaphysite_adj                        ;        ;;;;Coptic Papal
-d_monophysite                           ;        ;;;;The Monophysite Papacy
-d_monophysite_adj                       ;        ;;;;Monophysite Papal
-d_nestorian                             ;        ;;;;The Patriarchate of the East
-d_nestorian_adj                         ;        ;;;;Eastern Patriarchal
-d_monothelite                           ;        ;;;;The Monothelite Patriarchate
-d_monothelite_adj                       ;        ;;;;Monothelite Patriarchal
+miaphysite                              ;Miaphysite;;;;Miaphysite
+monothelite                             ;Monothelite;;;;Monothelite
+d_miaphysite                            ;Coptic Papacy;;;;The Miaphysite Papacy
+d_miaphysite_adj                        ;Coptic Papal;;;;Coptic Papal
+d_monophysite                           ;Monophysite Papacy;;;;The Monophysite Papacy
+d_monophysite_adj                       ;Monophysite Papal;;;;Monophysite Papal
+d_nestorian                             ;Patriarchate of the Church of the East;;;;The Patriarchate of the East
+d_nestorian_adj                         ;Eastern Patriarchal;;;;Eastern Patriarchal
+d_monothelite                           ;Monothelite Patriarchate;;;;The Monothelite Patriarchate
+d_monothelite_adj                       ;Monothelite Patriarchal;;;;Monothelite Patriarchal
 #v1_08.csv;;
 #v1_081.csv;;
 #v1_09.csv;;
-fp_mansion_1                            ;        ;;;;Mansion
-fp_mansion_2                            ;        ;;;;Great Mansion
-fp_mansion_3                            ;        ;;;;Palace
-fp_mansion_4                            ;        ;;;;Grand Palace
-fp_barracks_1                           ;        ;;;;Guard Barracks
-fp_barracks_2                           ;        ;;;;Swordsmith
-fp_barracks_3                           ;        ;;;;Armory
-fp_stable_1                             ;        ;;;;Small Stable
-fp_stable_2                             ;        ;;;;Riding Grounds
-fp_stable_3                             ;        ;;;;Horse Breeder
-fp_bowyer_1                             ;        ;;;;Bowyer
-fp_bowyer_2                             ;        ;;;;Target Range
-fp_bowyer_3                             ;        ;;;;Crossbow Workshop
-fp_shipyard_1                           ;        ;;;;Map Room
-fp_shipyard_2                           ;        ;;;;Private Shipyard
-fp_shipyard_3                           ;        ;;;;Naval Arsenal
-fp_warehouse_1                          ;        ;;;;Military Warehouse
-fp_warehouse_2                          ;        ;;;;Palace Archive
-fp_warehouse_3                          ;        ;;;;Administrative Office
-fp_garden_1                             ;        ;;;;Palace Garden
-fp_garden_2                             ;        ;;;;Scenic Pond
-fp_garden_3                             ;        ;;;;Hedge Maze
-fp_cellar_1                             ;        ;;;;Wine Cellar
-fp_cellar_2                             ;        ;;;;Catacombs
-fp_cellar_3                             ;        ;;;;Dungeon Complex
-fp_shrine_1                             ;        ;;;;Secluded Shrine
-fp_shrine_2                             ;        ;;;;Private Art Collection
-fp_shrine_3                             ;        ;;;;Grand Library
-fp_vault_1                              ;        ;;;;Fortified Vault
-fp_vault_2                              ;        ;;;;Secret Passages
-fp_vault_3                              ;        ;;;;Hidden Chamber
-fp_mansion_1_desc                       ;        ;;;;This mansion has belonged to this family for generations, and although it may not look very impressive, it has all the comforts of home.
-fp_mansion_2_desc                       ;        ;;;;This mansion is impressive enough to command the respect of the surrounding countryside. It is clearly the home of someone important.
-fp_mansion_3_desc                       ;        ;;;;A palace fit for a king, its shining towers can be seen from a league away on a clear day. Though it may only consist of brick and mortar, it is the beating heart of this entire dynasty.
-fp_mansion_4_desc                       ;        ;;;;Truly, the splendor of this palace would be the envy of a Roman emperor. Its great halls shine of gold and marble, and hundreds of servants scurry through them daily in service of their masters. It is nothing less than a monument to the greatness of this dynasty.
-fp_barracks_1_desc                      ;        ;;;;The dynasty's household guards are lodged within these simple barracks. They are crowded and unsanitary, but provide decent protection against the elements.
-fp_barracks_2_desc                      ;        ;;;;An industrious swordsmith has opened up a forge in the palace courtyard. This will make it easier to equip new recruits with weapons.
-fp_barracks_3_desc                      ;        ;;;;A large armory has been constructed in a corner of the palace courtyard. It holds enough weapons and armor to equip a small army at a moment's notice.
-fp_stable_1_desc                        ;        ;;;;This small stable just outside the palace walls reeks of hay and manure. It holds the horses of the guard, as well as those of any visitors.
-fp_stable_2_desc                        ;        ;;;;Several large fields just outside the palace have been graciously "donated" by local farmers and set aside as riding grounds. Here the fighting men can practise the art of war on horseback.
-fp_stable_3_desc                        ;        ;;;;A horse breeder has set up shop in the vicinity of the palace. The large pens can hold hundreds of animals, and ensure a steady supply of mounts for forces raised locally.
-fp_bowyer_1_desc                        ;        ;;;;A skilled bowyer has set up his small workshop inside the palace courtyard. Here he can make new bows or repair broken ones as needed.
-fp_bowyer_2_desc                        ;        ;;;;This target range lets the men practise their archery. There are several targets positioned at different distances, but as yet, no one has managed to split another's arrow.
-fp_bowyer_3_desc                        ;        ;;;;The crossbow is a marvelous invention. Though it can't be fired as quickly as a longbow, it requires little training to use effectively. This workshop ensures a steady supply of these deadly weapons.
-fp_shipyard_1_desc                      ;        ;;;;This room inside the palace is a cartographer's dream, and contains priceless maps of all sorts. Some are claimed to date back to the ancient Greeks, and others, whose accuracy cannot be gauged with any certainty, depict strange lands far to the east.
-fp_shipyard_2_desc                      ;        ;;;;This large shipyard is located along the coast, but it has been reserved for exclusive use by this dynasty. Skilled shipwrights stand ready to build trade galleys.
-fp_shipyard_3_desc                      ;        ;;;;This naval arsenal is located in the capital, but it is completely owned by this dynasty who has reserved all use of it for themselves. It is a huge complex that has everything needed to assemble and man an entire fleet.
-fp_warehouse_1_desc                     ;        ;;;;A large warehouse containing all the supplies necessary to field a military force, whether it be an army or a fleet.
-fp_warehouse_2_desc                     ;        ;;;;It is easy to get lost in this colossal archive housed entirely within the palace. It holds documents and records of all dynastic assets, from ships and buildings down to individual soldiers and clerks.
-fp_warehouse_3_desc                     ;        ;;;;This office deep within the palace acts as the nerve center of the entire dynastic empire. Here clerks and officials oversee the day-to-day affairs of trade negotiations and fleet deployments.
-fp_garden_1_desc                        ;        ;;;;A large and impressive garden filled with the manifold wonders of nature. This tranquil environment is ideal for moments of quiet reflection.
-fp_garden_2_desc                        ;        ;;;;This scenic pond, often frequented by swans, is the centerpiece of the palace garden. A small fountain in its middle sprays water into the air while carps can be glimpsed just beneath the surface.
-fp_garden_3_desc                        ;        ;;;;No self-respecting garden is complete without one. This intricate hedge maze delights visitors, and many dignitaries have spent hours navigating its twisting paths.
-fp_cellar_1_desc                        ;        ;;;;A well-stocked wine cellar is an absolute must for any aristocrat of rank, and this one certainly doesn't disappoint. Some of the wines stored here date back decades.
-fp_cellar_2_desc                        ;        ;;;;These catacombs located far beneath the palace contain the dynastic tombs. Here countless generations dating back centuries are joined in eternal slumber. May they rest in peace.
-fp_cellar_3_desc                        ;        ;;;;This vast complex of dungeons is hidden away deep enough below the palace to block the cries of its unfortunate inhabitants. Every imaginable instrument of torture can be found within these cold and dark chambers.
-fp_shrine_1_desc                        ;        ;;;;A secluded shrine hidden away in a quiet wing of the palace. Here men and women can spend their time in prayer and introspective soul-searching.
-fp_shrine_2_desc                        ;        ;;;;This gallery occupies a large chamber in one of the palace wings, and it contains all works of art accumulated by members of this dynasty over the years - from contemporary tapestries to ancient marble sculptures from Greece and Rome.
-fp_shrine_3_desc                        ;        ;;;;A huge library containing all sorts of dusty old tomes collected and purchased from all over the known world by members of this dynasty. They are in many different languages and no person alive has read them all, but at least here they will be protected for posterity.
-fp_vault_1_desc                         ;        ;;;;This fortified vault deep within the palace is where the dynasty keeps all of their treasures collected over the years. Only the head of the dynasty has access to the vault keys, but the stories of piles upon piles of golden coins, deep enough for a man to dive around in like a porpoise, or burrow through like a gopher, must surely be false.
-fp_vault_2_desc                         ;        ;;;;These secret passages run through the entire palace, and enable those in the know to quickly move from one end to the other without being seen. By pulling on the right candelabrum, an unassuming bookshelf or a lit fireplace might slide open. Perfect for escaping would-be assassins or awkward social gatherings.
-fp_vault_3_desc                         ;        ;;;;This hidden chamber inside the palace can only be reached through one of the secret passages, and even then several special keys are required. It serves as a well-protected retreat for the head of the dynasty, where he or she can safely plot the conquest of the world without irritating distractions.
-tr_port_1                               ;        ;;;;Merchant Port
-tr_port_2                               ;        ;;;;Merchant Port
-tr_port_3                               ;        ;;;;Merchant Port
-tr_enclave_1                            ;        ;;;;Merchant Enclave
-tr_enclave_2                            ;        ;;;;Merchant Enclave
-tr_enclave_3                            ;        ;;;;Merchant Enclave
-tr_garrison_1                           ;        ;;;;Garrison
-tr_garrison_2                           ;        ;;;;Garrison
-tr_garrison_3                           ;        ;;;;Garrison
-tr_port_1_desc                          ;        ;;;;Merchant galleys load and off-load their cargo at this small port.
-tr_port_2_desc                          ;        ;;;;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.
-tr_port_3_desc                          ;        ;;;;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.
-tr_enclave_1_desc                       ;        ;;;;A small enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
-tr_enclave_2_desc                       ;        ;;;;An enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
-tr_enclave_3_desc                       ;        ;;;;A large enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
-tr_garrison_1_desc                      ;        ;;;;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.
-tr_garrison_2_desc                      ;        ;;;;A garrison stands vigil over the trade post to deter bandits and rival trade powers.
-tr_garrison_3_desc                      ;        ;;;;A large garrison stands vigil over the trade post to deter bandits and rival trade powers.
-title_state_inquisitor                  ;        ;;;;State Inquisitor
-title_state_inquisitor_desc             ;        ;;;;The three State Inquisitors are charged with ensuring the security of the Republic against threats both internal and external.
-title_high_admiral                      ;        ;;;;High Admiral
-title_high_admiral_desc                 ;        ;;;;The High Admiral is formally the chief of the Admiralty and in charge of the Republic's Navy, though he often relies on a competent staff.
-title_high_judge                        ;        ;;;;High Judge
-title_high_judge_desc                   ;        ;;;;The High Judge is the supreme justice of the Republic, who answers only to the Council in most legal matters.
-ca_wall_q_1_desc                        ;        ;;;;This shallow moat surrounding the castle provides another obstacle for attackers to overcome.
-ca_wall_q_2_desc                        ;        ;;;;These narrow slits allow the defenders to rain down arrows on any attacker without being hit in turn.
-ca_wall_q_3_desc                        ;        ;;;;A fortified portcullis that can quickly be raised or lowered as the situation demands.
-ca_wall_q_4_desc                        ;        ;;;;A deep moat filled with unsanitary water. A formidable obstacle for any attacker.
-ca_wall_q_5_desc                        ;        ;;;;This outer network of barbicans ensures that attackers come under fire before they can even approach the main walls.
-ca_wall_1_desc                          ;        ;;;;A simple palisade to keep out riff-raff, but it will not delay a determined attacker for very long.
-ca_wall_2_desc                          ;        ;;;;These low walls provide some protection, but they can still easily be scaled.
-ca_wall_3_desc                          ;        ;;;;These stone walls surround the castle and must be overcome by any attacker.
-ca_wall_4_desc                          ;        ;;;;These large walls surround the castle and must be overcome by any attacker.
-ca_wall_5_desc                          ;        ;;;;These massive walls surround the castle and must be overcome by any attacker.
-ca_keep_1_desc                          ;        ;;;;This keep serves as the fortified residence of the castle's inhabitants.
-ca_militia_barracks_1_desc              ;        ;;;;This simple training ground readies the peasants for war.
-ca_militia_barracks_2_desc              ;        ;;;;An archery range where the levies can master the art of the bow.
-ca_militia_barracks_3_desc              ;        ;;;;An expanded archery range where the levies can master the art of the bow.
-ca_barracks_1_desc                      ;        ;;;;These quarters are the home of the castle's levies.
-ca_stable_1_desc                        ;        ;;;;This stable just outside the castle walls houses all the steeds of the levy.
-ca_town_1_desc                          ;        ;;;;A small village has formed around the castle, as local peasants flock to its walls for protection.
-ca_town_2_desc                          ;        ;;;;A town has formed around the castle, as local peasants flock to its walls for protection.
-ca_town_3_desc                          ;        ;;;;A city has formed around the castle, as local peasants flock to its walls for protection.
-ca_town_4_desc                          ;        ;;;;The small village that once surrounded this castle has turned into a large city, with thousands of inhabitants calling it their home.
-ca_town_5_desc                          ;        ;;;;The small village that once surrounded this castle has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
-ct_wall_q_1_desc                        ;        ;;;;This shallow moat surrounding the city provides another obstacle for attackers to overcome.
-ct_wall_q_2_desc                        ;        ;;;;This gatehouse defends the entrance to the city, and makes it easier to control who comes in and who leaves.
-ct_wall_3_desc                          ;        ;;;;These stone walls surround the city and must be overcome by any attacker.
-ct_wall_4_desc                          ;        ;;;;These large walls surround the city and must be overcome by any attacker.
-ct_wall_5_desc                          ;        ;;;;These massive walls surround the city and must be overcome by any attacker.
-ct_training_grounds_1_desc              ;        ;;;;The city militia assembles here to train and arm themselves.
-ct_barracks_2_desc                      ;        ;;;;This range lets the city inhabitants practise their archery and provides skilled bowmen for the militia.
-ct_guard_1_desc                         ;        ;;;;The city guard are headquartered here, constantly on watch for those who would break the law or upset the peace.
-ct_marketplace_1_desc                   ;        ;;;;A small market in the center of town where merchants peddle their wares.
-ct_marketplace_2_desc                   ;        ;;;;This is where the city's guilds meet and organize their activities.
-ct_marketplace_3_desc                   ;        ;;;;Toll booths provide a welcome boost to any city's income, as traveling merchants are forced to part with some of their wealth while passing through.
-ct_marketplace_4_desc                   ;        ;;;;Legal disputes in the city are adjucated here, ensuring that trade and commerce continues to flow as smoothly as possible.
-ct_marketplace_5_desc                   ;        ;;;;Assay offices test the purity of precious metals, and the assayer provides those certified as pure with a master's mark as proof of their quality. This helps to promote fair and honest trade.
-ct_marketplace_6_desc                   ;        ;;;;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.
-ct_port_1_desc                          ;        ;;;;A port that services ships coming in to load or unload cargo.
-ct_university_1_desc                    ;        ;;;;A place of higher learning for those with influence enough to gain admission.
-tp_wall_q_1_desc                        ;        ;;;;This shallow moat surrounding the church provides another obstacle for attackers to overcome.
-tp_wall_q_2_desc                        ;        ;;;;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.
-tp_wall_3_desc                          ;        ;;;;These stone walls surround the church and must be overcome by any attacker.
-tp_wall_4_desc                          ;        ;;;;These large walls surround the church and must be overcome by any attacker.
-tp_wall_5_desc                          ;        ;;;;These massive walls surround the church and must be overcome by any attacker.
-tp_monastery_1_desc                     ;        ;;;;This church serves as the spiritual center of the local community.
-tp_monastery_2_desc                     ;        ;;;;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.
-tp_barracks_1_desc                      ;        ;;;;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.
-tp_elite_barracks_1_desc                ;        ;;;;These holy warriors have sworn to defend this church with their lives.
-tp_town_1_desc                          ;        ;;;;This small village of faithful peasants has formed around the church.
-tp_town_2_desc                          ;        ;;;;This town of faithful peasants has formed around the church.
-tp_town_3_desc                          ;        ;;;;This large town of faithful peasants has formed around the church.
-tp_town_4_desc                          ;        ;;;;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.
-tp_town_5_desc                          ;        ;;;;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
-tp_school_1_desc                        ;        ;;;;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.
+fp_mansion_1                            ;Mansion ;;;;Mansion
+fp_mansion_2                            ;Great Mansion;;;;Great Mansion
+fp_mansion_3                            ;Palace  ;;;;Palace
+fp_mansion_4                            ;Grand Palace;;;;Grand Palace
+fp_barracks_1                           ;Guard Barracks;;;;Guard Barracks
+fp_barracks_2                           ;Swordsmith;;;;Swordsmith
+fp_barracks_3                           ;Armory  ;;;;Armory
+fp_stable_1                             ;Small Stable;;;;Small Stable
+fp_stable_2                             ;Riding Grounds;;;;Riding Grounds
+fp_stable_3                             ;Horse Breeder;;;;Horse Breeder
+fp_bowyer_1                             ;Bowyer  ;;;;Bowyer
+fp_bowyer_2                             ;Target Range;;;;Target Range
+fp_bowyer_3                             ;Crossbow Workshop;;;;Crossbow Workshop
+fp_shipyard_1                           ;Map Room;;;;Map Room
+fp_shipyard_2                           ;Private Shipyard;;;;Private Shipyard
+fp_shipyard_3                           ;Naval Arsenal;;;;Naval Arsenal
+fp_warehouse_1                          ;Military Warehouse;;;;Military Warehouse
+fp_warehouse_2                          ;Palace Archive;;;;Palace Archive
+fp_warehouse_3                          ;Administrative Office;;;;Administrative Office
+fp_garden_1                             ;Palace Garden;;;;Palace Garden
+fp_garden_2                             ;Scenic Pond;;;;Scenic Pond
+fp_garden_3                             ;Hedge Maze;;;;Hedge Maze
+fp_cellar_1                             ;Wine Cellar;;;;Wine Cellar
+fp_cellar_2                             ;Catacombs;;;;Catacombs
+fp_cellar_3                             ;Dungeon Complex;;;;Dungeon Complex
+fp_shrine_1                             ;Secluded Shrine;;;;Secluded Shrine
+fp_shrine_2                             ;Private Art Collection;;;;Private Art Collection
+fp_shrine_3                             ;Grand Library;;;;Grand Library
+fp_vault_1                              ;Fortified Vault;;;;Fortified Vault
+fp_vault_2                              ;Secret Passages;;;;Secret Passages
+fp_vault_3                              ;Hidden Chamber;;;;Hidden Chamber
+fp_mansion_1_desc                       ;This mansion has belonged to this family for generations, and although it may not look very impressive, it has all the comforts of home.;;;;This mansion has belonged to this family for generations, and although it may not look very impressive, it has all the comforts of home.
+fp_mansion_2_desc                       ;This mansion is impressive enough to command the respect of the surrounding countryside. It is clearly the home of someone important.;;;;This mansion is impressive enough to command the respect of the surrounding countryside. It is clearly the home of someone important.
+fp_mansion_3_desc                       ;A palace fit for a king, its shining towers can be seen from a league away on a clear day. Though it may only consist of brick and mortar, it is the beating heart of this entire dynasty.;;;;A palace fit for a king, its shining towers can be seen from a league away on a clear day. Though it may only consist of brick and mortar, it is the beating heart of this entire dynasty.
+fp_mansion_4_desc                       ;Truly, the splendor of this palace would be the envy of a Roman emperor. Its great halls shine of gold and marble, and hundreds of servants scurry through them daily in service of their masters. It is nothing less than a monument to the greatness of this dynasty.;;;;Truly, the splendor of this palace would be the envy of a Roman emperor. Its great halls shine of gold and marble, and hundreds of servants scurry through them daily in service of their masters. It is nothing less than a monument to the greatness of this dynasty.
+fp_barracks_1_desc                      ;The dynasty’s household guards are lodged within these simple barracks. They are crowded and unsanitary, but provide decent protection against the elements.;;;;The dynasty's household guards are lodged within these simple barracks. They are crowded and unsanitary, but provide decent protection against the elements.
+fp_barracks_2_desc                      ;An industrious swordsmith has opened up a forge in the palace courtyard. This will make it easier to equip new recruits with weapons.;;;;An industrious swordsmith has opened up a forge in the palace courtyard. This will make it easier to equip new recruits with weapons.
+fp_barracks_3_desc                      ;A large armory has been constructed in a corner of the palace courtyard. It holds enough weapons and armor to equip a small army at a moment’s notice.;;;;A large armory has been constructed in a corner of the palace courtyard. It holds enough weapons and armor to equip a small army at a moment's notice.
+fp_stable_1_desc                        ;This small stable just outside the palace walls reeks of hay and manure. It holds the horses of the guard, as well as those of any visitors.;;;;This small stable just outside the palace walls reeks of hay and manure. It holds the horses of the guard, as well as those of any visitors.
+fp_stable_2_desc                        ;Several large fields just outside the palace have been graciously “donated” by local farmers and set aside as riding grounds. Here the fighting men can practise the art of war on horseback.;;;;Several large fields just outside the palace have been graciously "donated" by local farmers and set aside as riding grounds. Here the fighting men can practise the art of war on horseback.
+fp_stable_3_desc                        ;A horse breeder has set up shop in the vicinity of the palace. The large pens can hold hundreds of animals, and ensure a steady supply of mounts for forces raised locally.;;;;A horse breeder has set up shop in the vicinity of the palace. The large pens can hold hundreds of animals, and ensure a steady supply of mounts for forces raised locally.
+fp_bowyer_1_desc                        ;A skilled bowyer has set up his small workshop inside the palace courtyard. Here he can make new bows or repair broken ones as needed.;;;;A skilled bowyer has set up his small workshop inside the palace courtyard. Here he can make new bows or repair broken ones as needed.
+fp_bowyer_2_desc                        ;This target range lets the men practice their archery. There are several targets positioned at different distances, but as yet, no one has managed to split another’s arrow.;;;;This target range lets the men practise their archery. There are several targets positioned at different distances, but as yet, no one has managed to split another's arrow.
+fp_bowyer_3_desc                        ;The crossbow is a marvelous invention. Though it can’t be fired as quickly as a longbow, it requires little training to use effectively. This workshop ensures a steady supply of these deadly weapons.;;;;The crossbow is a marvelous invention. Though it can't be fired as quickly as a longbow, it requires little training to use effectively. This workshop ensures a steady supply of these deadly weapons.
+fp_shipyard_1_desc                      ;This room inside the palace is a cartographer’s dream, and contains priceless maps of all sorts. Some are claimed to date back to the ancient Greeks, and others, whose accuracy cannot be gauged with any certainty, depict strange lands far to the east.;;;;This room inside the palace is a cartographer's dream, and contains priceless maps of all sorts. Some are claimed to date back to the ancient Greeks, and others, whose accuracy cannot be gauged with any certainty, depict strange lands far to the east.
+fp_shipyard_2_desc                      ;This large shipyard is located along the coast, but it has been reserved for exclusive use by this dynasty. Skilled shipwrights stand ready to build trade galleys.;;;;This large shipyard is located along the coast, but it has been reserved for exclusive use by this dynasty. Skilled shipwrights stand ready to build trade galleys.
+fp_shipyard_3_desc                      ;This naval arsenal is located in the capital, but it is completely owned by this dynasty which has reserved all use of it for itself. It is a huge complex that has everything needed to assemble and man an entire fleet.;;;;This naval arsenal is located in the capital, but it is completely owned by this dynasty who has reserved all use of it for themselves. It is a huge complex that has everything needed to assemble and man an entire fleet.
+fp_warehouse_1_desc                     ;A large warehouse containing all the supplies necessary to field a military force, whether it be an army or a fleet.;;;;A large warehouse containing all the supplies necessary to field a military force, whether it be an army or a fleet.
+fp_warehouse_2_desc                     ;It is easy to get lost in this colossal archive housed entirely within the palace. It holds documents and records of all dynastic assets, from ships and buildings down to individual soldiers and clerks.;;;;It is easy to get lost in this colossal archive housed entirely within the palace. It holds documents and records of all dynastic assets, from ships and buildings down to individual soldiers and clerks.
+fp_warehouse_3_desc                     ;This office deep within the palace acts as the nerve center of the entire dynastic empire. Here clerks and officials oversee the day-to-day affairs of trade negotiations and fleet deployments.;;;;This office deep within the palace acts as the nerve center of the entire dynastic empire. Here clerks and officials oversee the day-to-day affairs of trade negotiations and fleet deployments.
+fp_garden_1_desc                        ;A large and impressive garden filled with the manifold wonders of nature. This tranquil environment is ideal for moments of quiet reflection.;;;;A large and impressive garden filled with the manifold wonders of nature. This tranquil environment is ideal for moments of quiet reflection.
+fp_garden_2_desc                        ;This scenic pond, often frequented by swans, is the centerpiece of the palace garden. A small fountain in its middle sprays water into the air while carps can be glimpsed just beneath the surface.;;;;This scenic pond, often frequented by swans, is the centerpiece of the palace garden. A small fountain in its middle sprays water into the air while carps can be glimpsed just beneath the surface.
+fp_garden_3_desc                        ;No self-respecting garden is complete without one. This intricate hedge maze delights visitors, and many dignitaries have spent hours navigating its twisting paths.;;;;No self-respecting garden is complete without one. This intricate hedge maze delights visitors, and many dignitaries have spent hours navigating its twisting paths.
+fp_cellar_1_desc                        ;A well-stocked wine cellar is an absolute must for any aristocrat of rank, and this one certainly doesn’t disappoint. Some of the wines stored here date back decades.;;;;A well-stocked wine cellar is an absolute must for any aristocrat of rank, and this one certainly doesn't disappoint. Some of the wines stored here date back decades.
+fp_cellar_2_desc                        ;These catacombs located far beneath the palace contain the dynastic tombs. Here countless generations dating back centuries are joined in eternal slumber. May they rest in peace.;;;;These catacombs located far beneath the palace contain the dynastic tombs. Here countless generations dating back centuries are joined in eternal slumber. May they rest in peace.
+fp_cellar_3_desc                        ;This vast complex of dungeons is hidden away deep enough below the palace to block the cries of its unfortunate inhabitants. Every imaginable instrument of torture can be found within these cold and dark chambers.;;;;This vast complex of dungeons is hidden away deep enough below the palace to block the cries of its unfortunate inhabitants. Every imaginable instrument of torture can be found within these cold and dark chambers.
+fp_shrine_1_desc                        ;A secluded shrine hidden away in a quiet wing of the palace. Here men and women can spend their time in prayer and introspective soul-searching.;;;;A secluded shrine hidden away in a quiet wing of the palace. Here men and women can spend their time in prayer and introspective soul-searching.
+fp_shrine_2_desc                        ;This gallery occupies a large chamber in one of the palace wings, and it contains all works of art accumulated by members of this dynasty over the years – from contemporary tapestries to ancient marble sculptures from Greece and Rome.;;;;This gallery occupies a large chamber in one of the palace wings, and it contains all works of art accumulated by members of this dynasty over the years - from contemporary tapestries to ancient marble sculptures from Greece and Rome.
+fp_shrine_3_desc                        ;A huge library containing all sorts of dusty old tomes collected and purchased from all over the known world by members of this dynasty. They are in many different languages and no person alive has read them all, but at least here they will be protected for posterity.;;;;A huge library containing all sorts of dusty old tomes collected and purchased from all over the known world by members of this dynasty. They are in many different languages and no person alive has read them all, but at least here they will be protected for posterity.
+fp_vault_1_desc                         ;This fortified vault deep within the palace is where the dynasty keeps all of their treasures collected over the years. Only the head of the dynasty has access to the vault keys, but the stories of piles upon piles of golden coins, deep enough for a man to dive around in like a porpoise, or burrow through like a gopher, must surely be false.;;;;This fortified vault deep within the palace is where the dynasty keeps all of their treasures collected over the years. Only the head of the dynasty has access to the vault keys, but the stories of piles upon piles of golden coins, deep enough for a man to dive around in like a porpoise, or burrow through like a gopher, must surely be false.
+fp_vault_2_desc                         ;These secret passages run through the entire palace, and enable those in the know to quickly move from one end to the other without being seen. By pulling on the right candelabrum, an unassuming bookshelf or a lit fireplace might slide open. Perfect for escaping would-be assassins or awkward social gatherings.;;;;These secret passages run through the entire palace, and enable those in the know to quickly move from one end to the other without being seen. By pulling on the right candelabrum, an unassuming bookshelf or a lit fireplace might slide open. Perfect for escaping would-be assassins or awkward social gatherings.
+fp_vault_3_desc                         ;This hidden chamber inside the palace can only be reached through one of the secret passages, and even then several special keys are required. It serves as a well-protected retreat for the head of the dynasty, where he or she can safely plot the conquest of the world without irritating distractions.;;;;This hidden chamber inside the palace can only be reached through one of the secret passages, and even then several special keys are required. It serves as a well-protected retreat for the head of the dynasty, where he or she can safely plot the conquest of the world without irritating distractions.
+tr_port_1                               ;Merchant Port;;;;Merchant Port
+tr_port_2                               ;Merchant Port;;;;Merchant Port
+tr_port_3                               ;Merchant Port;;;;Merchant Port
+tr_enclave_1                            ;Merchant Enclave;;;;Merchant Enclave
+tr_enclave_2                            ;Merchant Enclave;;;;Merchant Enclave
+tr_enclave_3                            ;Merchant Enclave;;;;Merchant Enclave
+tr_garrison_1                           ;Garrison;;;;Garrison
+tr_garrison_2                           ;Garrison;;;;Garrison
+tr_garrison_3                           ;Garrison;;;;Garrison
+tr_port_1_desc                          ;Merchant galleys load and off-load their cargo at this small port.;;;;Merchant galleys load and off-load their cargo at this small port.
+tr_port_2_desc                          ;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.;;;;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.
+tr_port_3_desc                          ;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.;;;;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.
+tr_enclave_1_desc                       ;A small enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;A small enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
+tr_enclave_2_desc                       ;An enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;An enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
+tr_enclave_3_desc                       ;A large enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;A large enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
+tr_garrison_1_desc                      ;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.;;;;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.
+tr_garrison_2_desc                      ;A garrison stands vigil over the trade post to deter bandits and rival trade powers.;;;;A garrison stands vigil over the trade post to deter bandits and rival trade powers.
+tr_garrison_3_desc                      ;A large garrison stands vigil over the trade post to deter bandits and rival trade powers.;;;;A large garrison stands vigil over the trade post to deter bandits and rival trade powers.
+title_state_inquisitor                  ;State Inquisitor;;;;State Inquisitor
+title_state_inquisitor_desc             ;The three State Inquisitors are charged with ensuring the security of the Republic against threats both internal and external.;;;;The three State Inquisitors are charged with ensuring the security of the Republic against threats both internal and external.
+title_high_admiral                      ;High Admiral;;;;High Admiral
+title_high_admiral_desc                 ;The High Admiral is formally the chief of the Admiralty and in charge of the Republic’s Navy, though he often relies on a competent staff.;;;;The High Admiral is formally the chief of the Admiralty and in charge of the Republic's Navy, though he often relies on a competent staff.
+title_high_judge                        ;High Judge;;;;High Judge
+title_high_judge_desc                   ;The High Judge is the supreme justice of the Republic, who answers only to the Council in most legal matters.;;;;The High Judge is the supreme justice of the Republic, who answers only to the Council in most legal matters.
+ca_wall_q_1_desc                        ;This shallow moat surrounding the castle provides another obstacle for attackers to overcome.;;;;This shallow moat surrounding the castle provides another obstacle for attackers to overcome.
+ca_wall_q_2_desc                        ;These narrow slits allow the defenders to rain down arrows on any attacker without being hit in turn.;;;;These narrow slits allow the defenders to rain down arrows on any attacker without being hit in turn.
+ca_wall_q_3_desc                        ;A fortified portcullis that can quickly be raised or lowered as the situation demands.;;;;A fortified portcullis that can quickly be raised or lowered as the situation demands.
+ca_wall_q_4_desc                        ;A deep moat filled with unsanitary water. A formidable obstacle for any attacker.;;;;A deep moat filled with unsanitary water. A formidable obstacle for any attacker.
+ca_wall_q_5_desc                        ;This outer network of barbicans ensures that attackers come under fire before they can even approach the main walls.;;;;This outer network of barbicans ensures that attackers come under fire before they can even approach the main walls.
+ca_wall_1_desc                          ;A simple palisade to keep out riff-raff, but it will not delay a determined attacker for very long.;;;;A simple palisade to keep out riff-raff, but it will not delay a determined attacker for very long.
+ca_wall_2_desc                          ;These low walls provide some protection, but they can still easily be scaled.;;;;These low walls provide some protection, but they can still easily be scaled.
+ca_wall_3_desc                          ;These stone walls surround the castle and must be overcome by any attacker.;;;;These stone walls surround the castle and must be overcome by any attacker.
+ca_wall_4_desc                          ;These large walls surround the castle and must be overcome by any attacker.;;;;These large walls surround the castle and must be overcome by any attacker.
+ca_wall_5_desc                          ;These massive walls surround the castle and must be overcome by any attacker.;;;;These massive walls surround the castle and must be overcome by any attacker.
+ca_keep_1_desc                          ;This keep serves as the fortified residence of the castle’s inhabitants.;;;;This keep serves as the fortified residence of the castle's inhabitants.
+ca_militia_barracks_1_desc              ;This simple training ground readies the peasants for war.;;;;This simple training ground readies the peasants for war.
+ca_militia_barracks_2_desc              ;An archery range where the levies can master the art of the bow.;;;;An archery range where the levies can master the art of the bow.
+ca_militia_barracks_3_desc              ;An expanded archery range where the levies can master the art of the bow.;;;;An expanded archery range where the levies can master the art of the bow.
+ca_barracks_1_desc                      ;These quarters are the home of the castle’s levies.;;;;These quarters are the home of the castle's levies.
+ca_stable_1_desc                        ;This stable just outside the castle walls houses all the steeds of the levy.;;;;This stable just outside the castle walls houses all the steeds of the levy.
+ca_town_1_desc                          ;A small village has formed around the castle, as local peasants flock to its walls for protection.;;;;A small village has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_2_desc                          ;A town has formed around the castle, as local peasants flock to its walls for protection.;;;;A town has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_3_desc                          ;A city has formed around the castle, as local peasants flock to its walls for protection.;;;;A city has formed around the castle, as local peasants flock to its walls for protection.
+ca_town_4_desc                          ;The small village that once surrounded this castle has turned into a large city, with thousands of inhabitants calling it their home.;;;;The small village that once surrounded this castle has turned into a large city, with thousands of inhabitants calling it their home.
+ca_town_5_desc                          ;The small village that once surrounded this castle has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;;The small village that once surrounded this castle has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
+ct_wall_q_1_desc                        ;This shallow moat surrounding the city provides another obstacle for attackers to overcome.;;;;This shallow moat surrounding the city provides another obstacle for attackers to overcome.
+ct_wall_q_2_desc                        ;This gatehouse defends the entrance to the city, and makes it easier to control who comes in and who leaves.;;;;This gatehouse defends the entrance to the city, and makes it easier to control who comes in and who leaves.
+ct_wall_3_desc                          ;These stone walls surround the city and must be overcome by any attacker.;;;;These stone walls surround the city and must be overcome by any attacker.
+ct_wall_4_desc                          ;These large walls surround the city and must be overcome by any attacker.;;;;These large walls surround the city and must be overcome by any attacker.
+ct_wall_5_desc                          ;These massive walls surround the city and must be overcome by any attacker.;;;;These massive walls surround the city and must be overcome by any attacker.
+ct_training_grounds_1_desc              ;The city militia assembles here to train and arm itself.;;;;The city militia assembles here to train and arm themselves.
+ct_barracks_2_desc                      ;This range lets the city inhabitants practice their archery and provides skilled bowmen for the militia.;;;;This range lets the city inhabitants practise their archery and provides skilled bowmen for the militia.
+ct_guard_1_desc                         ;The city guard are headquartered here, constantly on watch for those who would break the law or upset the peace.;;;;The city guard are headquartered here, constantly on watch for those who would break the law or upset the peace.
+ct_marketplace_1_desc                   ;A small market in the center of town where merchants peddle their wares.;;;;A small market in the center of town where merchants peddle their wares.
+ct_marketplace_2_desc                   ;This is where the city’s guilds meet and organize their activities.;;;;This is where the city's guilds meet and organize their activities.
+ct_marketplace_3_desc                   ;Toll booths provide a welcome boost to any city’s income, as traveling merchants are forced to part with some of their wealth while passing through.;;;;Toll booths provide a welcome boost to any city's income, as traveling merchants are forced to part with some of their wealth while passing through.
+ct_marketplace_4_desc                   ;Legal disputes in the city are adjudicated here, ensuring that trade and commerce continues to flow as smoothly as possible.;;;;Legal disputes in the city are adjucated here, ensuring that trade and commerce continues to flow as smoothly as possible.
+ct_marketplace_5_desc                   ;Assay offices test the purity of precious metals, and the assayer provides those certified as pure with a master’s mark as proof of their quality. This helps to promote fair and honest trade.;;;;Assay offices test the purity of precious metals, and the assayer provides those certified as pure with a master's mark as proof of their quality. This helps to promote fair and honest trade.
+ct_marketplace_6_desc                   ;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.;;;;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.
+ct_port_1_desc                          ;A port that services ships coming in to load or unload cargo.;;;;A port that services ships coming in to load or unload cargo.
+ct_university_1_desc                    ;A place of higher learning for those with influence enough to gain admission.;;;;A place of higher learning for those with influence enough to gain admission.
+tp_wall_q_1_desc                        ;This shallow moat surrounding the church provides another obstacle for attackers to overcome.;;;;This shallow moat surrounding the church provides another obstacle for attackers to overcome.
+tp_wall_q_2_desc                        ;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.;;;;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.
+tp_wall_3_desc                          ;These stone walls surround the church and must be overcome by any attacker.;;;;These stone walls surround the church and must be overcome by any attacker.
+tp_wall_4_desc                          ;These large walls surround the church and must be overcome by any attacker.;;;;These large walls surround the church and must be overcome by any attacker.
+tp_wall_5_desc                          ;These massive walls surround the church and must be overcome by any attacker.;;;;These massive walls surround the church and must be overcome by any attacker.
+tp_monastery_1_desc                     ;This church serves as the spiritual center of the local community.;;;;This church serves as the spiritual center of the local community.
+tp_monastery_2_desc                     ;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.;;;;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.
+tp_barracks_1_desc                      ;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.;;;;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.
+tp_elite_barracks_1_desc                ;These holy warriors have sworn to defend this church with their lives.;;;;These holy warriors have sworn to defend this church with their lives.
+tp_town_1_desc                          ;This small village of faithful peasants has formed around the church.;;;;This small village of faithful peasants has formed around the church.
+tp_town_2_desc                          ;This town of faithful peasants has formed around the church.;;;;This town of faithful peasants has formed around the church.
+tp_town_3_desc                          ;This large town of faithful peasants has formed around the church.;;;;This large town of faithful peasants has formed around the church.
+tp_town_4_desc                          ;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.;;;;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.
+tp_town_5_desc                          ;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
+tp_school_1_desc                        ;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.;;;;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.
 #v1_091.csv;;
 #v1_092.csv;;
 #v1_09b.csv;;
-d_venetian_navy                         ;        ;;;;Adriatic Galleys
-d_venetian_navy_adj                     ;        ;;;;Adriatic
-d_genoese_navy                          ;        ;;;;Ligurian Galleys
-d_genoese_navy_adj                      ;        ;;;;Ligurian
-d_hanseatic_navy                        ;        ;;;;Baltic Cogs
-d_hanseatic_navy_adj                    ;        ;;;;Baltic
-d_frisian_navy                          ;        ;;;;North Sea Cogs
-d_frisian_navy_adj                      ;        ;;;;North Sea
-d_finnish_band                          ;        ;;;;Finnish Band
-d_finnish_band_adj                      ;        ;;;;Finnish
-d_lithuanian_band                       ;        ;;;;Lithuanian Band
-d_lithuanian_band_adj                   ;        ;;;;Lithuanian
-d_abyssinian_band                       ;        ;;;;Abyssinian Band
-d_abyssinian_band_adj                   ;        ;;;;Abyssinian
-d_scottish_band                         ;        ;;;;Scottish Band
-d_scottish_band_adj                     ;        ;;;;Scottish
-d_irish_band                            ;        ;;;;Irish Band
-d_irish_band_adj                        ;        ;;;;Irish
-d_alan_band                             ;        ;;;;Alan Riders
-d_alan_band_adj                         ;        ;;;;Alan
-d_nubian_band                           ;        ;;;;Nubian Band
-d_nubian_band_adj                       ;        ;;;;Nubian
-k_genoa                                 ;        ;;;;Genoa
-k_genoa_adj                             ;        ;;;;Genoese
-k_pisa                                  ;        ;;;;Pisa
-k_pisa_adj                              ;        ;;;;Pisan
-d_somerset_adj_norman                   ;        ;;;;Somersetian
-d_bedford_adj_norman                    ;        ;;;;Bedforder
-d_hereford_adj_norman                   ;        ;;;;Herefordian
-d_norfolk_adj_norman                    ;        ;;;;Norfolkian
+d_venetian_navy                         ;Adriatic Galleys;;;;Adriatic Galleys
+d_venetian_navy_adj                     ;Adriatic;;;;Adriatic
+d_genoese_navy                          ;Ligurian Galleys;;;;Ligurian Galleys
+d_genoese_navy_adj                      ;Ligurian;;;;Ligurian
+d_hanseatic_navy                        ;Baltic Cogs;;;;Baltic Cogs
+d_hanseatic_navy_adj                    ;Baltic  ;;;;Baltic
+d_frisian_navy                          ;North Sea Cogs;;;;North Sea Cogs
+d_frisian_navy_adj                      ;North Sea;;;;North Sea
+d_finnish_band                          ;Finnish Band;;;;Finnish Band
+d_finnish_band_adj                      ;Finnish ;;;;Finnish
+d_lithuanian_band                       ;Lithuanian Band;;;;Lithuanian Band
+d_lithuanian_band_adj                   ;Lithuanian;;;;Lithuanian
+d_abyssinian_band                       ;Abyssinian Band;;;;Abyssinian Band
+d_abyssinian_band_adj                   ;Abyssinian;;;;Abyssinian
+d_scottish_band                         ;Scottish Band;;;;Scottish Band
+d_scottish_band_adj                     ;Scottish;;;;Scottish
+d_irish_band                            ;Irish Band;;;;Irish Band
+d_irish_band_adj                        ;Irish   ;;;;Irish
+d_alan_band                             ;Alan Riders;;;;Alan Riders
+d_alan_band_adj                         ;Alan    ;;;;Alan
+d_nubian_band                           ;Nubian Band;;;;Nubian Band
+d_nubian_band_adj                       ;Nubian  ;;;;Nubian
+k_genoa                                 ;Genoa   ;;;;Genoa
+k_genoa_adj                             ;Genoese ;;;;Genoese
+k_pisa                                  ;Pisa    ;;;;Pisa
+k_pisa_adj                              ;Pisan   ;;;;Pisan
+d_somerset_adj_norman                   ;Somerset;;;;Somersetian
+d_bedford_adj_norman                    ;Bedford ;;;;Bedforder
+d_hereford_adj_norman                   ;Herefordian;;;;Herefordian
+d_norfolk_adj_norman                    ;Norfolkian;;;;Norfolkian
 d_gloucester_adj_norman                 ;Gloucester;;;;Gloucesterian
 d_gloucester_adj_english                ;Gloucester;;;;Gloucesterian
-title_patrician_heir                    ;        ;;;;Designated Heir
-title_patrician_heir_desc               ;        ;;;;This character has been chosen to succeed a Patrician in running the family business.
-title_tanist                            ;        ;;;;Tanist
-ca_con_wall_6                           ;        ;;;;Theodosian Walls
-ca_con_wall_6_desc                      ;        ;;;;The Theodosian Walls were built during the reign of Emperor Theodosius II in the early 5th century, but they still remain some of the most formidable fortifications ever built by human hands.
-ct_rep_arsenal_1_desc                   ;        ;;;;A small collection of shipyards and armories centered around the docks of the Republic's capital.
-ct_rep_arsenal_1                        ;        ;;;;Arsenal
-ct_rep_arsenal_2                        ;        ;;;;Arsenal
-ct_rep_arsenal_3                        ;        ;;;;Arsenal
-ct_rep_arsenal_2_desc                   ;        ;;;;A heavily fortified collection of shipyards and armories centered around the docks of the Republic's capital.
-ct_rep_arsenal_3_desc                   ;        ;;;;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic's capital.
+title_patrician_heir                    ;Designated Heir;;;;Designated Heir
+title_patrician_heir_desc               ;This character has been chosen to succeed a patrician in running the family business.;;;;This character has been chosen to succeed a Patrician in running the family business.
+title_tanist                            ;Tanist  ;;;;Tanist
+ca_con_wall_6                           ;Theodosian Walls;;;;Theodosian Walls
+ca_con_wall_6_desc                      ;The Theodosian Walls were built during the reign of Emperor Theodosius II in the early 5th century, but they still remain some of the most formidable fortifications ever built by human hands.;;;;The Theodosian Walls were built during the reign of Emperor Theodosius II in the early 5th century, but they still remain some of the most formidable fortifications ever built by human hands.
+ct_rep_arsenal_1_desc                   ;A small collection of shipyards and armories centered around the docks of the Republic’s capital.;;;;A small collection of shipyards and armories centered around the docks of the Republic's capital.
+ct_rep_arsenal_1                        ;Arsenal ;;;;Arsenal
+ct_rep_arsenal_2                        ;Arsenal ;;;;Arsenal
+ct_rep_arsenal_3                        ;Arsenal ;;;;Arsenal
+ct_rep_arsenal_2_desc                   ;A heavily fortified collection of shipyards and armories centered around the docks of the Republic’s capital.;;;;A heavily fortified collection of shipyards and armories centered around the docks of the Republic's capital.
+ct_rep_arsenal_3_desc                   ;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic’s capital.;;;;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic's capital.
 #v1_09c.csv;;
-k_hansa                                 ;        ;;;;The Hansa
-k_hansa_adj                             ;        ;;;;Hanseatic
+k_hansa                                 ;Hansa   ;;;;The Hansa
+k_hansa_adj                             ;Hanseatic;;;;Hanseatic
 #v1_10.csv;;
-ca_shipyard_1                           ;        ;;;;Castle Shipyard
-ca_shipyard_2                           ;        ;;;;Castle Shipyard
-ca_shipyard_3                           ;        ;;;;Castle Shipyard
-ca_shipyard_4                           ;        ;;;;Castle Shipyard
-ct_shipyard_1                           ;        ;;;;City Shipyard
-ct_shipyard_2                           ;        ;;;;City Shipyard
-ct_shipyard_3                           ;        ;;;;City Shipyard
-ct_shipyard_4                           ;        ;;;;City Shipyard
-tp_shipyard_1                           ;        ;;;;Temple Shipyard
-tp_shipyard_2                           ;        ;;;;Temple Shipyard
-tp_shipyard_3                           ;        ;;;;Temple Shipyard
-tp_shipyard_4                           ;        ;;;;Temple Shipyard
-shipyard_desc                           ;        ;;;;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.
-d_norse_pagan_reformed                  ;        ;;;;The Fylkirate
-d_norse_pagan_reformed_adj              ;        ;;;;Norse
-d_baltic_pagan_reformed                 ;        ;;;;The Romuvan Church
-d_baltic_pagan_reformed_adj             ;        ;;;;Romuva
-d_slavic_pagan_reformed                 ;        ;;;;The Slavic Church
-d_slavic_pagan_reformed_adj             ;        ;;;;Slavic
-d_tengri_pagan_reformed                 ;        ;;;;The Tengri Church
-d_tengri_pagan_reformed_adj             ;        ;;;;Tengri
-d_finnish_pagan_reformed                ;        ;;;;The Suomenusko Church
-d_finnish_pagan_reformed_adj            ;        ;;;;Suomenusko
-d_west_african_pagan_reformed           ;        ;;;;West African Church
-d_west_african_pagan_reformed_adj       ;        ;;;;West African
-e_wendish_empire                        ;        ;;Velké Czechy,Velká Morava,Wiêksza Polska,Vendia;;Wendish Empire
-e_wendish_empire_adj                    ;        ;;;;Wendish
-d_pecs_adj_bohemian                     ;        ;;;;Balaton
-c_pecs_adj_bohemian                     ;        ;;;;Balaton
+ca_shipyard_1                           ;Castle Shipyard;;;;Castle Shipyard
+ca_shipyard_2                           ;Castle Shipyard;;;;Castle Shipyard
+ca_shipyard_3                           ;Castle Shipyard;;;;Castle Shipyard
+ca_shipyard_4                           ;Castle Shipyard;;;;Castle Shipyard
+ct_shipyard_1                           ;City Shipyard;;;;City Shipyard
+ct_shipyard_2                           ;City Shipyard;;;;City Shipyard
+ct_shipyard_3                           ;City Shipyard;;;;City Shipyard
+ct_shipyard_4                           ;City Shipyard;;;;City Shipyard
+tp_shipyard_1                           ;Temple Shipyard;;;;Temple Shipyard
+tp_shipyard_2                           ;Temple Shipyard;;;;Temple Shipyard
+tp_shipyard_3                           ;Temple Shipyard;;;;Temple Shipyard
+tp_shipyard_4                           ;Temple Shipyard;;;;Temple Shipyard
+shipyard_desc                           ;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.;;;;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.
+d_norse_pagan_reformed                  ;Fylkirate;;;;The Fylkirate
+d_norse_pagan_reformed_adj              ;Norse   ;;;;Norse
+d_baltic_pagan_reformed                 ;Romuvan Church;;;;The Romuvan Church
+d_baltic_pagan_reformed_adj             ;Romuvan ;;;;Romuva
+d_slavic_pagan_reformed                 ;Slavic Church;;;;The Slavic Church
+d_slavic_pagan_reformed_adj             ;Slavic  ;;;;Slavic
+d_tengri_pagan_reformed                 ;Tengrist Church;;;;The Tengri Church
+d_tengri_pagan_reformed_adj             ;Tengrist;;;;Tengri
+d_finnish_pagan_reformed                ;Suomenusko Church;;;;The Suomenusko Church
+d_finnish_pagan_reformed_adj            ;Suomenusko;;;;Suomenusko
+d_west_african_pagan_reformed           ;West African Church;;;;West African Church
+d_west_african_pagan_reformed_adj       ;West African;;;;West African
+e_wendish_empire                        ;Wendish Empire;;Velké Czechy,Velká Morava,Wiêksza Polska,Vendia;;Wendish Empire
+e_wendish_empire_adj                    ;Wendish ;;;;Wendish
+d_pecs_adj_bohemian                     ;Lower Pannonian;;;;Balaton
+c_pecs_adj_bohemian                     ;Balaton ;;;;Balaton
 d_ungvar_adj_croatian                   ;White Croatian;;;;Chrobatian
-k_asturias                              ;        ;;;;Asturias
-k_asturias_adj                          ;        ;;;;Asturian
-d_vyatichi                              ;        ;;;;Vyatichi
-d_vyatichi_adj                          ;        ;;;;Vyatich
-d_glomacze                              ;        ;;;;Glomacze
-d_glomacze_adj                          ;        ;;;;Glomacz
-d_sorbs                                 ;        ;;;;Sorbs
-d_sorbs_adj                             ;        ;;;;Sorbian
-d_obotrites                             ;        ;;;;Obotrites
-d_obotrites_adj                         ;        ;;;;Obotrite
-d_brandenburg_adj_pommeranian           ;        ;;;;Brennaburgian
+k_asturias                              ;Asturias;;;;Asturias
+k_asturias_adj                          ;Asturian;;;;Asturian
+d_vyatichi                              ;Vyatichi;;;;Vyatichi
+d_vyatichi_adj                          ;Vyatich ;;;;Vyatich
+d_glomacze                              ;Glomacze;;;;Glomacze
+d_glomacze_adj                          ;Glomacze;;;;Glomacz
+d_sorbs                                 ;Sorbs   ;;;;Sorbs
+d_sorbs_adj                             ;Sorbian ;;;;Sorbian
+d_obotrites                             ;Obotrites;;;;Obotrites
+d_obotrites_adj                         ;Obotrite;;;;Obotrite
+d_brandenburg_adj_pommeranian           ;Brandenburgian;;;;Brennaburgian
 d_mecklemburg_adj_pommeranian           ;        ;;;;Weligradian
-title_courtesan                         ;        ;;;;Concubine
-BM_THE_OLD_GODS                         ;        ;;;;The Old Gods
-BM_THE_OLD_GODS_DESC                    ;        ;;;;§Y'How the little piglets would grunt if they knew how the old boar suffered.'§! Those were the prophetic last words of the legendary viking §YRagnarr Loðbrok§! as he lay dying in the snake pit of Northumbrian king §YÆlla§!. In 867 the vengeful sons of Loðbrok and their 'Great Heathen Army' descended upon the petty kingdoms of Britain to make of §YÆlla§! a 'Blood Eagle'. Meanwhile, two other Norse lords - §YRurik§! and §YDyre§! - were carving out their own rival states among the Slavic and Finnish tribes of the East, laying down the foundations for what would one day become Russia. The Old Gods are still strong and their warriors mighty!
-k_magyar_adj                            ;        ;;;;Magyar
-d_dregovichi                            ;        ;;;Dregoviches;Dregovichi
-d_radimichi                             ;        ;;;Radimichs;Radimichi
-c_viken_adj_norse                       ;        ;;;;Alfish
-d_zoroastrian                           ;        ;;;;The Zoroastrian Church
-d_zoroastrian_adj                       ;        ;;;;Zoroastrian
-norse                                   ;        ;;;;Norse
+title_courtesan                         ;Concubine;;;;Concubine
+BM_THE_OLD_GODS                         ;The Old Gods;;;;The Old Gods
+BM_THE_OLD_GODS_DESC                    ;§Y“How the little piglets would grunt if they knew how the old boar suffered.”§! Those were the prophetic last words of the legendary viking §YRagnarr Loðbrók§! as he lay dying in the snake pit of the Northumbrian king §YÆlla§!. In 867 the vengeful sons of Loðbrók and their “Great Heathen Army” descended upon the petty kingdoms of Britain to make of §YÆlla§! a “blood eagle.” Meanwhile, two other Norse lords – §YRurik§! and §YDyri§! – were carving out their own rival states among the Slavic and Finnish tribes of the East, laying down the foundations for what would one day become Russia. The Old Gods are still strong and their warriors mighty!;;;;§Y'How the little piglets would grunt if they knew how the old boar suffered.'§! Those were the prophetic last words of the legendary viking §YRagnarr Loðbrok§! as he lay dying in the snake pit of Northumbrian king §YÆlla§!. In 867 the vengeful sons of Loðbrok and their 'Great Heathen Army' descended upon the petty kingdoms of Britain to make of §YÆlla§! a 'Blood Eagle'. Meanwhile, two other Norse lords - §YRurik§! and §YDyre§! - were carving out their own rival states among the Slavic and Finnish tribes of the East, laying down the foundations for what would one day become Russia. The Old Gods are still strong and their warriors mighty!
+k_magyar_adj                            ;Hungarian;;;;Magyar
+d_dregovichi                            ;Dregovichs;;;Dregoviches;Dregovichi
+d_radimichi                             ;Radimichs;;;Radimichs;Radimichi
+c_viken_adj_norse                       ;Alfheim ;;;;Alfish
+d_zoroastrian                           ;Zoroastrian Church;;;;The Zoroastrian Church
+d_zoroastrian_adj                       ;Zoroastrian;;;;Zoroastrian
+norse                                   ;Norse   ;;;;Norse
 d_novgorod_adj_norse                    ;        ;;;;Holmgardian
 d_novgorod_adj_swedish                  ;        ;;;;Holmgårdian
 d_novgorod_adj_danish                   ;        ;;;;Holmgårdian
@@ -1815,186 +1815,186 @@ k_ruthenia_adj_norse                    ;        ;;;;Könugardian
 k_ruthenia_adj_swedish                  ;        ;;;;Könugardian
 k_ruthenia_adj_danish                   ;        ;;;;Kønugardian
 k_ruthenia_adj_norwegian                ;        ;;;;Kønugardian
-tengri_pagan_reformed                   ;        ;;;;Tengri
-baltic_pagan_reformed                   ;        ;;;;Romuva
-aztec_reformed                          ;        ;;;;Aztec
-west_african_pagan                      ;        ;;;;West African
-west_african_pagan_reformed             ;        ;;;;West African
-manichean                               ;        ;;;;Manichean
-mazdaki                                 ;        ;;;;Mazdaki
-avar                                    ;        ;;;;Avar
-c_lepiel_adj                            ;Lahoysk ;;;;Lepielian
-c_yaroslavl_adj_finno_ugric             ;        ;;;;Meryan
+tengri_pagan_reformed                   ;Tengrist;;;;Tengri
+baltic_pagan_reformed                   ;Romuvan ;;;;Romuva
+aztec_reformed                          ;Aztec   ;;;;Aztec
+west_african_pagan                      ;West African;;;;West African
+west_african_pagan_reformed             ;West African;;;;West African
+manichean                               ;Manichean;;;;Manichean
+mazdaki                                 ;Mazdakite;;;;Mazdaki
+avar                                    ;Avar    ;;;;Avar
+c_lepiel_adj                            ;Lepel   ;;;;Lepielian
+c_yaroslavl_adj_finno_ugric             ;Meryan  ;;;;Meryan
 d_slesvig_adj_german                    ;        ;;;;Slesvigian
-d_meath_adj_north_germanic              ;        ;;;;Dubliner
-d_danes                                 ;        ;;;;Danmark
-d_danes_adj                             ;        ;;;;Danish
-d_sweden                                ;        ;;;;Svithjod
-d_sweden_adj                            ;        ;;;;Swedish
-d_geats                                 ;        ;;;;Gauthiod
-d_geats_adj                             ;        ;;;;Geatish
-d_meryas                                ;        ;;;;Meryas
-d_meryas_adj                            ;        ;;;;Meryan
-d_meshcheras                            ;        ;;;;Meshcheras
-d_meshcheras_adj                        ;        ;;;;Meshcheran
-d_muromians                             ;        ;;;;Muromians
-d_muromians_adj                         ;        ;;;;Muromian
-d_sami                                  ;        ;;Lop';;Sami
-d_sami_adj                              ;        ;;;;Sami
-c_nizhny_novgorod_adj_finno_ugric       ;        ;;;;Obran Osh
-c_nizhny_novgorod_adj_altaic            ;        ;;;;Obran Osh
+d_meath_adj_north_germanic              ;Dublin  ;;;;Dubliner
+d_danes                                 ;Denmark ;;;;Danmark
+d_danes_adj                             ;Danish  ;;;;Danish
+d_sweden                                ;Swedes  ;;;;Svithjod
+d_sweden_adj                            ;Swedish ;;;;Swedish
+d_geats                                 ;Götaland;;;;Gauthiod
+d_geats_adj                             ;Geatish ;;;;Geatish
+d_meryas                                ;Merya   ;;;;Meryas
+d_meryas_adj                            ;Meryan  ;;;;Meryan
+d_meshcheras                            ;Meshchera;;;;Meshcheras
+d_meshcheras_adj                        ;Meshchera;;;;Meshcheran
+d_muromians                             ;Muromians;;;;Muromians
+d_muromians_adj                         ;Muromian;;;;Muromian
+d_sami                                  ;Lapps   ;;Lop';;Sami
+d_sami_adj                              ;Lappish ;;;;Sami
+c_nizhny_novgorod_adj_finno_ugric       ;Obran Osh;;;;Obran Osh
+c_nizhny_novgorod_adj_altaic            ;Obran Osh;;;;Obran Osh
 d_leinster_adj_north_germanic           ;Wexford ;;;;Veisafjorder
 c_leinster_adj_north_germanic           ;        ;;;;Veisafjorder
 d_munster_adj_north_germanic            ;Limerick;;;;Hlymrekian
-c_thomond_adj_north_germanic            ;        ;;;;Hlymrekian
+c_thomond_adj_north_germanic            ;Limerick;;;;Hlymrekian
 c_ormond_adj_north_germanic             ;        ;;;;Vedrafjorder
-c_ulster_adj_north_germanic             ;        ;;;;Strangfjorder
+c_ulster_adj_north_germanic             ;Strangford;;;;Strangfjorder
 d_ulster_adj_north_germanic             ;Strangford;;;;Strangfjorder
-bolghar                                 ;        ;;;;Bolghar
-ca_wall_q_1                             ;        ;;;;Castle Fortifications
-ca_wall_q_2                             ;        ;;;;Castle Fortifications
-ca_wall_q_3                             ;        ;;;;Castle Fortifications
-ca_wall_q_4                             ;        ;;;;Castle Fortifications
-ca_wall_q_5                             ;        ;;;;Castle Fortifications
-ca_wall_1                               ;        ;;;;Castle Walls
-ca_wall_2                               ;        ;;;;Castle Walls
-ca_wall_3                               ;        ;;;;Castle Walls
-ca_wall_4                               ;        ;;;;Castle Walls
-ca_wall_5                               ;        ;;;;Castle Walls
-ca_barracks_1                           ;        ;;;;Barracks
-ca_barracks_2                           ;        ;;;;Barracks
-ca_barracks_3                           ;        ;;;;Barracks
-ca_barracks_4                           ;        ;;;;Barracks
-ca_barracks_5                           ;        ;;;;Barracks
-ca_barracks_6                           ;        ;;;;Barracks
-ca_stable_1                             ;        ;;;;Stables
-ca_stable_2                             ;        ;;;;Stables
-ca_stable_3                             ;        ;;;;Stables
-ca_stable_4                             ;        ;;;;Stables
-ca_stable_5                             ;        ;;;;Stables
-ca_stable_6                             ;        ;;;;Stables
-ct_wall_q_1                             ;        ;;;;City Fortifications
-ct_wall_q_2                             ;        ;;;;City Fortifications
-ct_wall_q_3                             ;        ;;;;City Fortifications
-ct_wall_q_4                             ;        ;;;;City Fortifications
-ct_wall_q_5                             ;        ;;;;City Fortifications
-ct_wall_1                               ;        ;;;;City Walls
-ct_wall_2                               ;        ;;;;City Walls
-ct_wall_3                               ;        ;;;;City Walls
-ct_wall_4                               ;        ;;;;City Walls
-ct_wall_5                               ;        ;;;;City Walls
-ct_training_grounds_1                   ;        ;;;;Militia Training Ground
-ct_training_grounds_2                   ;        ;;;;Militia Training Ground
-ct_training_grounds_3                   ;        ;;;;Militia Training Ground
-ct_training_grounds_4                   ;        ;;;;Militia Training Ground
-ct_training_grounds_5                   ;        ;;;;Militia Training Ground
-ct_training_grounds_6                   ;        ;;;;Militia Training Ground
-ct_guard_1                              ;        ;;;;City Guard
-ct_guard_2                              ;        ;;;;City Guard
-ct_guard_3                              ;        ;;;;City Guard
-ct_guard_4                              ;        ;;;;City Guard
-ct_guard_5                              ;        ;;;;City Guard
-ct_barracks_1                           ;        ;;;;Mustering Grounds
-ct_barracks_2                           ;        ;;;;Mustering Grounds
-ct_barracks_3                           ;        ;;;;Mustering Grounds
-ct_barracks_4                           ;        ;;;;Mustering Grounds
-ct_barracks_5                           ;        ;;;;Mustering Grounds
-ct_barracks_6                           ;        ;;;;Mustering Grounds
-ct_port_1                               ;        ;;;;Port
-ct_port_2                               ;        ;;;;Port
-ct_port_3                               ;        ;;;;Port
-ct_port_4                               ;        ;;;;Port
-ct_port_5                               ;        ;;;;Port
-tp_wall_q_1                             ;        ;;;;Church Fortifications
-tp_wall_q_2                             ;        ;;;;Church Fortifications
-tp_wall_q_3                             ;        ;;;;Church Fortifications
-tp_wall_q_4                             ;        ;;;;Church Fortifications
-tp_wall_q_5                             ;        ;;;;Church Fortifications
-tp_wall_1                               ;        ;;;;Church Walls
-tp_wall_2                               ;        ;;;;Church Walls
-tp_wall_3                               ;        ;;;;Church Walls
-tp_wall_4                               ;        ;;;;Church Walls
-tp_wall_5                               ;        ;;;;Church Walls
-tp_elite_barracks_1                     ;        ;;;;Barracks
-tp_elite_barracks_2                     ;        ;;;;Barracks
-tp_elite_barracks_3                     ;        ;;;;Barracks
-tp_elite_barracks_4                     ;        ;;;;Barracks
-tp_elite_barracks_5                     ;        ;;;;Barracks
-tp_elite_barracks_6                     ;        ;;;;Barracks
-title_volva                             ;        ;;;;Court Völva
-title_volva_desc                        ;        ;;;;A völva is regarded as a powerful seeress that practises sejdr, a form of sorcery. Among other things, she deals with curses, premonitions and omens of things to come.
-e_mongol_empire                         ;        ;;;;Mongol Empire
-e_mongol_empire_adj                     ;        ;;;;Mongol
-title_cherbi                            ;        ;;;;Cherbi
-title_cherbi_desc                       ;        ;;;;The Cherbi is the leader of the Kheshig, the imperial guard of the Mongol Empire. They are charged with the protection of the empire's most important nobility, and the position as their commander is a very prestigious one.
-title_darkhan                           ;        ;;;;Darkhan
-title_darkhan_desc                      ;        ;;;;Darkhan is a prestigious Mongolian title bestowed by the Khan upon those who have served him exceptionally well. Genghis Khan awarded this title to those allies who aided him during his rise to power.
-title_noyan                             ;        ;;;;Noyan
-title_noyan_desc                        ;        ;;;;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.
-title_baghatur                          ;        ;;;;Baghatur
-title_baghatur_desc                     ;        ;;;;This honorific, which means hero or valiant warrior, is the rough equivalent of European knighthood. It is usually granted only to those who have truly distinguished themselves in battle.
-title_lawspeaker                        ;        ;;;;Lawspeaker
-title_lawspeaker_desc                   ;        ;;;;The Lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.
-title_drottseti                         ;        ;;;;Dróttseti
-title_drottseti_desc                    ;        ;;;;The Dróttseti serves as a steward of the realm in a function similar to a seneschal, and it is considered to be a very prestigious post.
-title_court_skald                       ;        ;;;;Court Skald
-title_court_skald_desc                  ;        ;;;;Skaldic poetry is a greatly respected art, and the Court Skald is regarded as the realm's foremost expert on verse and prose. The Skald is ultimately responsible for chronicling the ruler's deeds for posterity.
-title_marksman                          ;        ;;;;Merkismaðr
-title_marksman_desc                     ;        ;;;;Literally meaning Marksman, the Merkismaðr has the honor of serving as the standard-bearer.
-title_hirdman                           ;        ;;;;Hirdman
-title_hirdman_desc                      ;        ;;;;The Hirdmen are seen as the ruler's trusted companions in arms, and the holders of this title command a great deal of respect.
-title_shahrwaraz                        ;        ;;;;Shahrwarãz
-title_shahrwaraz_desc                   ;        ;;;;The Shahrwarãz, the Boar of the Empire, is a prestigious honorary title dating back to the Sassanids. In Zoroastrianism, the boar is closely associated with the Izad Vahram, the epitome of victory. This honorific can only be bestowed upon those with exceptional martial ability.
-title_kardarigan                        ;        ;;;;Kardarigan
-title_kardarigan_desc                   ;        ;;;;This honorific means black hawk and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.
-title_shahin                            ;        ;;;;Shahin
-title_shahin_desc                       ;        ;;;;This honorific means falcon and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.
-title_pushtigban_salar                  ;        ;;;;Pushtigban-salar
-title_pushtigban_salar_desc             ;        ;;;;The Pushtigban-salar is the appointed commander of the royal guard, and as such, commands a significant amount of respect.
-title_spahbod                           ;        ;;;;Spahbod
-title_spahbod_desc                      ;        ;;;;This title, roughly meaning army chief, can be traced all the way back to the Achaemenid Empire, and during the Sassanid reign there were four Spahbods assigned to each corner of the Persian realm. It remains a prestigious military office.
-title_eran_ambaragbed                   ;        ;;;;Eran Ambaragbed
-title_eran_ambaragbed_desc              ;        ;;;;As the minister of the magazines, it is the responsibility of the Eran Ambaragbed to see to the arms and armaments of the realm's warriors.
-d_jomsvikings                           ;        ;;;;Jomsvikings
-d_jomsvikings_adj                       ;        ;;;;Jomsviking
-title_champion                          ;        ;;;;Champion
-title_champion_desc                     ;        ;;;;The person that this title is bestowed upon is considered to be the Champion of the Realm. There is surely no greater honor for mortal men to aspire to.
-title_master_of_the_blade               ;        ;;;;Master of the Blade
-title_master_of_the_blade_desc          ;        ;;;;The Master of the Blade is a prestigious honorific usually granted to those with demonstrated ability in swordsmanship.
-title_master_of_the_bow                 ;        ;;;;Master of the Bow
-title_master_of_the_bow_desc            ;        ;;;;The Master of the Bow is a prestigious honorific usually granted to those with demonstrated ability in bowmanship.
-title_venerable_elder                   ;        ;;;;Venerable Elder
-title_venerable_elder_desc              ;        ;;;;This honorific can only be granted to those who have reached the age of fifty. Their wisdom and the sorely needed guidance they offer the younger generations is deserving of great respect.
-roman                                   ;        ;;;;Roman
-title_yabgu                             ;        ;;;;Yabgu
-title_yabgu_desc                        ;        ;;;;By tradition, the title of Yagbu is bestowed upon the second highest member of a ruling clan, often a brother of the Khan. It carries a great deal of respect.
-title_ishad                             ;        ;;;;Ishad
-title_ishad_desc                        ;        ;;;;Ishad is the title given to the highest ranking generals, and as such, it may be regarded as a mark of honor.
-title_kundur                            ;        ;;;;Kündür
-title_kundur_desc                       ;        ;;;;The Kündur is traditionally a high ranking official in the Khan's court, and bestowing it on someone is a sign of approval.
+bolghar                                 ;Bulgar  ;;;;Bolghar
+ca_wall_q_1                             ;Castle Fortifications;;;;Castle Fortifications
+ca_wall_q_2                             ;Castle Fortifications;;;;Castle Fortifications
+ca_wall_q_3                             ;Castle Fortifications;;;;Castle Fortifications
+ca_wall_q_4                             ;Castle Fortifications;;;;Castle Fortifications
+ca_wall_q_5                             ;Castle Fortifications;;;;Castle Fortifications
+ca_wall_1                               ;Castle Walls;;;;Castle Walls
+ca_wall_2                               ;Castle Walls;;;;Castle Walls
+ca_wall_3                               ;Castle Walls;;;;Castle Walls
+ca_wall_4                               ;Castle Walls;;;;Castle Walls
+ca_wall_5                               ;Castle Walls;;;;Castle Walls
+ca_barracks_1                           ;Barracks;;;;Barracks
+ca_barracks_2                           ;Barracks;;;;Barracks
+ca_barracks_3                           ;Barracks;;;;Barracks
+ca_barracks_4                           ;Barracks;;;;Barracks
+ca_barracks_5                           ;Barracks;;;;Barracks
+ca_barracks_6                           ;Barracks;;;;Barracks
+ca_stable_1                             ;Stables ;;;;Stables
+ca_stable_2                             ;Stables ;;;;Stables
+ca_stable_3                             ;Stables ;;;;Stables
+ca_stable_4                             ;Stables ;;;;Stables
+ca_stable_5                             ;Stables ;;;;Stables
+ca_stable_6                             ;Stables ;;;;Stables
+ct_wall_q_1                             ;City Fortifications;;;;City Fortifications
+ct_wall_q_2                             ;City Fortifications;;;;City Fortifications
+ct_wall_q_3                             ;City Fortifications;;;;City Fortifications
+ct_wall_q_4                             ;City Fortifications;;;;City Fortifications
+ct_wall_q_5                             ;City Fortifications;;;;City Fortifications
+ct_wall_1                               ;City Walls;;;;City Walls
+ct_wall_2                               ;City Walls;;;;City Walls
+ct_wall_3                               ;City Walls;;;;City Walls
+ct_wall_4                               ;City Walls;;;;City Walls
+ct_wall_5                               ;City Walls;;;;City Walls
+ct_training_grounds_1                   ;Militia Training Ground;;;;Militia Training Ground
+ct_training_grounds_2                   ;Militia Training Ground;;;;Militia Training Ground
+ct_training_grounds_3                   ;Militia Training Ground;;;;Militia Training Ground
+ct_training_grounds_4                   ;Militia Training Ground;;;;Militia Training Ground
+ct_training_grounds_5                   ;Militia Training Ground;;;;Militia Training Ground
+ct_training_grounds_6                   ;Militia Training Ground;;;;Militia Training Ground
+ct_guard_1                              ;City Guard;;;;City Guard
+ct_guard_2                              ;City Guard;;;;City Guard
+ct_guard_3                              ;City Guard;;;;City Guard
+ct_guard_4                              ;City Guard;;;;City Guard
+ct_guard_5                              ;City Guard;;;;City Guard
+ct_barracks_1                           ;Mustering Grounds;;;;Mustering Grounds
+ct_barracks_2                           ;Mustering Grounds;;;;Mustering Grounds
+ct_barracks_3                           ;Mustering Grounds;;;;Mustering Grounds
+ct_barracks_4                           ;Mustering Grounds;;;;Mustering Grounds
+ct_barracks_5                           ;Mustering Grounds;;;;Mustering Grounds
+ct_barracks_6                           ;Mustering Grounds;;;;Mustering Grounds
+ct_port_1                               ;Port    ;;;;Port
+ct_port_2                               ;Port    ;;;;Port
+ct_port_3                               ;Port    ;;;;Port
+ct_port_4                               ;Port    ;;;;Port
+ct_port_5                               ;Port    ;;;;Port
+tp_wall_q_1                             ;Church Fortifications;;;;Church Fortifications
+tp_wall_q_2                             ;Church Fortifications;;;;Church Fortifications
+tp_wall_q_3                             ;Church Fortifications;;;;Church Fortifications
+tp_wall_q_4                             ;Church Fortifications;;;;Church Fortifications
+tp_wall_q_5                             ;Church Fortifications;;;;Church Fortifications
+tp_wall_1                               ;Church Walls;;;;Church Walls
+tp_wall_2                               ;Church Walls;;;;Church Walls
+tp_wall_3                               ;Church Walls;;;;Church Walls
+tp_wall_4                               ;Church Walls;;;;Church Walls
+tp_wall_5                               ;Church Walls;;;;Church Walls
+tp_elite_barracks_1                     ;Barracks;;;;Barracks
+tp_elite_barracks_2                     ;Barracks;;;;Barracks
+tp_elite_barracks_3                     ;Barracks;;;;Barracks
+tp_elite_barracks_4                     ;Barracks;;;;Barracks
+tp_elite_barracks_5                     ;Barracks;;;;Barracks
+tp_elite_barracks_6                     ;Barracks;;;;Barracks
+title_volva                             ;Court Völva;;;;Court Völva
+title_volva_desc                        ;A völva is regarded as a powerful seeress that practises seiðr, a form of sorcery. Among other things, she deals with curses, premonitions and omens of things to come.;;;;A völva is regarded as a powerful seeress that practises sejdr, a form of sorcery. Among other things, she deals with curses, premonitions and omens of things to come.
+e_mongol_empire                         ;Mongol Empire;;;;Mongol Empire
+e_mongol_empire_adj                     ;Mongol  ;;;;Mongol
+title_cherbi                            ;Cherbi  ;;;;Cherbi
+title_cherbi_desc                       ;The Cherbi is the leader of the Kheshig, the imperial guard of the Mongol Empire. They are charged with the protection of the empire’s most important nobility, and the position as their commander is a very prestigious one.;;;;The Cherbi is the leader of the Kheshig, the imperial guard of the Mongol Empire. They are charged with the protection of the empire's most important nobility, and the position as their commander is a very prestigious one.
+title_darkhan                           ;Darkhan ;;;;Darkhan
+title_darkhan_desc                      ;Darkhan is a prestigious Mongolian title bestowed by the Khan upon those who have served him exceptionally well. Genghis Khan awarded this title to those allies who aided him during his rise to power.;;;;Darkhan is a prestigious Mongolian title bestowed by the Khan upon those who have served him exceptionally well. Genghis Khan awarded this title to those allies who aided him during his rise to power.
+title_noyan                             ;Noyan   ;;;;Noyan
+title_noyan_desc                        ;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.;;;;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.
+title_baghatur                          ;Baghatur;;;;Baghatur
+title_baghatur_desc                     ;This honorific, which means hero or valiant warrior, is the rough equivalent of European knighthood. It is usually granted only to those who have truly distinguished themselves in battle.;;;;This honorific, which means hero or valiant warrior, is the rough equivalent of European knighthood. It is usually granted only to those who have truly distinguished themselves in battle.
+title_lawspeaker                        ;Lawspeaker;;;;Lawspeaker
+title_lawspeaker_desc                   ;The lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.;;;;The Lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.
+title_drottseti                         ;Dróttseti;;;;Dróttseti
+title_drottseti_desc                    ;The dróttseti serves as a steward of the realm in a function similar to a seneschal, and it is considered to be a very prestigious post.;;;;The Dróttseti serves as a steward of the realm in a function similar to a seneschal, and it is considered to be a very prestigious post.
+title_court_skald                       ;Court Skald;;;;Court Skald
+title_court_skald_desc                  ;Skaldic poetry is a greatly respected art, and the court skald is regarded as the realm’s foremost expert on verse and prose. The skald is ultimately responsible for chronicling the ruler’s deeds for posterity.;;;;Skaldic poetry is a greatly respected art, and the Court Skald is regarded as the realm's foremost expert on verse and prose. The Skald is ultimately responsible for chronicling the ruler's deeds for posterity.
+title_marksman                          ;Merkismaðr;;;;Merkismaðr
+title_marksman_desc                     ;The merkismaðr (literally meaning marksman), has the honor of serving as the standard-bearer.;;;;Literally meaning Marksman, the Merkismaðr has the honor of serving as the standard-bearer.
+title_hirdman                           ;Hirdman ;;;;Hirdman
+title_hirdman_desc                      ;The hirdmen are seen as the ruler’s trusted companions in arms, and the holders of this title command a great deal of respect.;;;;The Hirdmen are seen as the ruler's trusted companions in arms, and the holders of this title command a great deal of respect.
+title_shahrwaraz                        ;Shahrbaraz;;;;Shahrwarãz
+title_shahrwaraz_desc                   ;The Shahrbaraz, the Boar of the Empire, is a prestigious honorary title dating back to the Sasanians. In Zoroastrianism, the boar is closely associated with the Yazata Verethragna, the epitome of victory. This honorific can only be bestowed upon those with exceptional martial ability.;;;;The Shahrwarãz, the Boar of the Empire, is a prestigious honorary title dating back to the Sassanids. In Zoroastrianism, the boar is closely associated with the Izad Vahram, the epitome of victory. This honorific can only be bestowed upon those with exceptional martial ability.
+title_kardarigan                        ;Kardarigan;;;;Kardarigan
+title_kardarigan_desc                   ;This honorific means black hawk and was granted to several gifted Sasanian generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;;;;This honorific means black hawk and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.
+title_shahin                            ;Shahin  ;;;;Shahin
+title_shahin_desc                       ;This honorific means falcon and was granted to several gifted Sasanian generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;;;;This honorific means falcon and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.
+title_pushtigban_salar                  ;Pushtigban-salar;;;;Pushtigban-salar
+title_pushtigban_salar_desc             ;The pushtigban-salar is the appointed commander of the royal guard, and as such, commands a significant amount of respect.;;;;The Pushtigban-salar is the appointed commander of the royal guard, and as such, commands a significant amount of respect.
+title_spahbod                           ;Spahbed ;;;;Spahbod
+title_spahbod_desc                      ;This title, roughly meaning army chief, can be traced all the way back to the Achaemenid Empire, and during the Sasanian reign there were four spahbeds assigned to the corners of the Persian realm. It remains a prestigious military office.;;;;This title, roughly meaning army chief, can be traced all the way back to the Achaemenid Empire, and during the Sassanid reign there were four Spahbods assigned to each corner of the Persian realm. It remains a prestigious military office.
+title_eran_ambaragbed                   ;Eran-embaragbed;;;;Eran Ambaragbed
+title_eran_ambaragbed_desc              ;As the minister of the magazines, it is the responsibility of the eran-ambaragbed to see to the arms and armaments of the realm’s warriors.;;;;As the minister of the magazines, it is the responsibility of the Eran Ambaragbed to see to the arms and armaments of the realm's warriors.
+d_jomsvikings                           ;Jomsvikings;;;;Jomsvikings
+d_jomsvikings_adj                       ;Jomsviking;;;;Jomsviking
+title_champion                          ;Champion;;;;Champion
+title_champion_desc                     ;The person that this title is bestowed upon is considered to be the Champion of the Realm. There is surely no greater honor for mortal men to aspire to.;;;;The person that this title is bestowed upon is considered to be the Champion of the Realm. There is surely no greater honor for mortal men to aspire to.
+title_master_of_the_blade               ;Master of the Blade;;;;Master of the Blade
+title_master_of_the_blade_desc          ;The Master of the Blade is a prestigious honorific usually granted to those with demonstrated ability in swordsmanship.;;;;The Master of the Blade is a prestigious honorific usually granted to those with demonstrated ability in swordsmanship.
+title_master_of_the_bow                 ;Master of the Bow;;;;Master of the Bow
+title_master_of_the_bow_desc            ;The Master of the Bow is a prestigious honorific usually granted to those with demonstrated ability in bowmanship.;;;;The Master of the Bow is a prestigious honorific usually granted to those with demonstrated ability in bowmanship.
+title_venerable_elder                   ;Venerable Elder;;;;Venerable Elder
+title_venerable_elder_desc              ;This honorific can only be granted to those who have reached the age of fifty. Their wisdom and the sorely needed guidance they offer the younger generations is deserving of great respect.;;;;This honorific can only be granted to those who have reached the age of fifty. Their wisdom and the sorely needed guidance they offer the younger generations is deserving of great respect.
+roman                                   ;Roman   ;;;;Roman
+title_yabgu                             ;Yabgu   ;;;;Yabgu
+title_yabgu_desc                        ;By tradition, the title of Yagbu is bestowed upon the second highest member of a ruling clan, often a brother of the Khan. It carries a great deal of respect.;;;;By tradition, the title of Yagbu is bestowed upon the second highest member of a ruling clan, often a brother of the Khan. It carries a great deal of respect.
+title_ishad                             ;Ishad   ;;;;Ishad
+title_ishad_desc                        ;Ishad is the title given to the highest ranking generals, and as such, it may be regarded as a mark of honor.;;;;Ishad is the title given to the highest ranking generals, and as such, it may be regarded as a mark of honor.
+title_kundur                            ;Kündür  ;;;;Kündür
+title_kundur_desc                       ;The Kündur is traditionally a high ranking official in the Khan’s court, and bestowing it on someone is a sign of approval.;;;;The Kündur is traditionally a high ranking official in the Khan's court, and bestowing it on someone is a sign of approval.
 #v1_101.csv;;
-d_meath_adj_irish                       ;        ;;;;Taran
-d_ghanan_band                           ;        ;;;;Ghanan Band
-d_ghanan_band_adj                       ;        ;;;;Ghanan
-hellenic_pagan                          ;        ;;;;Hellenic
-d_aztec_reformed                        ;        ;;;;The Aztec Church
+d_meath_adj_irish                       ;Tara    ;;;;Taran
+d_ghanan_band                           ;Ghanan Band;;;;Ghanan Band
+d_ghanan_band_adj                       ;Ghanan  ;;;;Ghanan
+hellenic_pagan                          ;Hellenic;;;;Hellenic
+d_aztec_reformed                        ;Aztec Church;;;;The Aztec Church
 #v1_102.csv;;
 #v1_103.csv;;
 #v1_10b.csv;;
-ca_steppe_barracks_1                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_barracks_2                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_barracks_3                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_barracks_4                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_barracks_5                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_barracks_6                    ;        ;;;;Steppe Warrior Lodge
-ca_steppe_stable_1                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_stable_2                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_stable_3                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_stable_4                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_stable_5                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_stable_6                      ;        ;;;;Steppe Riding Grounds
-ca_steppe_barracks_desc                 ;        ;;;;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.
-ca_steppe_stable_desc                   ;        ;;;;The steppe is ideal for warfare on horseback, and the nomadic warrior cultures of these lands know to press this advantage. These riding grounds produce extra light cavalry and horse archers.
+ca_steppe_barracks_1                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_barracks_2                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_barracks_3                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_barracks_4                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_barracks_5                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_barracks_6                    ;Steppe Warrior Lodge;;;;Steppe Warrior Lodge
+ca_steppe_stable_1                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_stable_2                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_stable_3                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_stable_4                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_stable_5                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_stable_6                      ;Steppe Riding Grounds;;;;Steppe Riding Grounds
+ca_steppe_barracks_desc                 ;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.;;;;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.
+ca_steppe_stable_desc                   ;The steppe is ideal for warfare on horseback, and the nomadic warrior cultures of these lands know to press this advantage. These riding grounds produce extra light cavalry and horse archers.;;;;The steppe is ideal for warfare on horseback, and the nomadic warrior cultures of these lands know to press this advantage. These riding grounds produce extra light cavalry and horse archers.
 #v1_11.csv;;
 #v2_00.csv;;
 jewish                                  ;        ;;;;Jewish
@@ -2228,8 +2228,8 @@ tr_silk_road_3                          ;        ;;;;Major Silk Road City
 tr_silk_road_3_desc                     ;        ;;;;This is a major trading hub on the Silk Road, where merchants come from all directions to trade their wares. All goods and services known to civilized man can be found here, and a myriad of languages echo through the many streets and alleys.
 #v2_40b.csv;;
 #v2_40c.csv;;
-d_lappish_band                          ;        ;;;;Sami Band
-d_lappish_band_adj                      ;        ;;;;Sami
+d_lappish_band                          ;Lapp Band;;;;Sami Band
+d_lappish_band_adj                      ;Lappish ;;;;Sami
 title_commander                         ;        ;;;;Commander
 #v2_40d.csv;;
 title_behi                              ;        ;;;;Behi

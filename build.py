@@ -6,6 +6,7 @@ import datetime
 import re
 import shutil
 import sys
+import time
 import ck2parser
 import localpaths
 
@@ -30,6 +31,7 @@ province_loc_files = [
     'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 def main():
+    start_time = time.time()
     templates = sed2path / 'templates'
     templates_loc = templates / 'localisation'
     templates_lt = templates / 'common/landed_titles'
@@ -51,11 +53,14 @@ def main():
     for inpath in ck2parser.files('localisation/*.csv', basedir=templates):
         for row in ck2parser.csv_rows(inpath):
             key, val = row[0].strip(), row[1].strip()
-            if not val and re.fullmatch(r' +', row[2]):
-                val = ' '
-            elif not val and inpath.name in swmh_files and not row[2]:
-                keys_to_blank.add(key)
-            if '#' not in key:
+            if not val:
+                if re.fullmatch(r' +', row[2]):
+                    val = ' '
+                # blanks in sed.csv disabled for now
+                # elif not row[2] or inpath.name not in swmh_files:
+                elif not row[2] and inpath.name in swmh_files:
+                    keys_to_blank.add(key)
+            if not key.startswith('#'):
                 if key not in sed2:
                     sed2[key] = val
                 else:
@@ -66,7 +71,6 @@ def main():
             sed2rows[0][:6] = [
                 '#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
             sed2rows[0][-1] = 'x'
-            seen_first_blank = False
             for row in ck2parser.csv_rows(inpath):
                 if row[0] and not row[0].startswith('#'):
                     if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
@@ -75,12 +79,7 @@ def main():
                     sed2row[0] = row[0].strip()
                     sed2row[1] = row[1].strip()
                     sed2row[-1] = 'x'
-                    # for now, disallow all adj past first blank loc in sed.csv
-                    if not sed2row[1]:
-                        seen_first_blank = True
-                    if (sed2row[1] and not (seen_first_blank and
-                                            sed2row[0].endswith('_adj')) or
-                        sed2row[0] in keys_to_blank):
+                    if sed2row[1] or sed2row[0] in keys_to_blank:
                         sed2rows.append(sed2row)
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
@@ -153,6 +152,8 @@ def main():
     with (build / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
         print('{} - {}'.format(version, datetime.date.today()), file=f)
+    end_time = time.time()
+    print('Time: {} s'.format(end_time - start_time))
 
 if __name__ == '__main__':
     main()

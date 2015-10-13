@@ -6,6 +6,7 @@ import pathlib
 import re
 import shutil
 import tempfile
+import time
 import ck2parser
 import localpaths
 
@@ -117,6 +118,7 @@ def get_religions(where):
 
 def main():
     global keys_to_override
+    start_time = time.time()
     english = collections.defaultdict(str)
     for path in ck2parser.files('English SWMH/localisation/*.csv',
                                 basedir=rootpath):
@@ -142,12 +144,12 @@ def main():
     for path in ck2parser.files('localisation/*.csv', basedir=templates):
         prev_loc.update({row[0].strip(): row[1].strip()
                          for row in ck2parser.csv_rows(path)
-                         if row[0] and '#' not in row[0]})
+                         if row[0] and not row[0].startswith('#')})
     for path in ck2parser.files('common/landed_titles/*.csv',
                                 basedir=templates):
         prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                         for row in ck2parser.csv_rows(path)
-                        if row[0] and '#' not in row[0]})
+                        if row[0] and not row[0].startswith('#')})
 
     # fill swmh_titles and prov_title before calling
     def should_override(key):
@@ -195,24 +197,25 @@ def main():
             col_width = [0, 8]
             for row in ck2parser.csv_rows(inpath):
                 try:
-                    if row[0] and not '#' in row[0]:
-                        overridden_keys.add(row[0])
-                    if row[0] and not row[0].startswith('b_'):
-                        if '#' in row[0]:
-                            row = [','.join(row)] + [''] * (len(row) - 1)
-                        out_row = [row[0],
-                                   prev_loc[row[0]],
-                                   row[1],
-                                   ','.join(dynamics[row[0]]),
-                                   english[row[0]],
-                                   vanilla.get(row[0], '')]
-                        out_rows.append(out_row)
-                        if '#' not in row[0]:
-                            col_width[0] = max(len(row[0]), col_width[0])
+                    if row[0]:
+                        if not row[0].startswith('#'):
+                            overridden_keys.add(row[0])
+                        if not row[0].startswith('b_'):
+                            if row[0].startswith('#'):
+                                row = [','.join(row)] + [''] * (len(row) - 1)
+                            else:
+                                col_width[0] = max(len(row[0]), col_width[0])
+                            out_row = [row[0],
+                                       prev_loc[row[0]],
+                                       row[1],
+                                       ','.join(dynamics[row[0]]),
+                                       english[row[0]],
+                                       vanilla.get(row[0], '')]
+                            out_rows.append(out_row)
                 except IndexError:
                     continue
             for i, out_row in enumerate(out_rows):
-                if '#' not in out_row[0] or i == 0:
+                if not out_row[0].startswith('#') or i == 0:
                     for col, width in enumerate(col_width):
                         out_row[col] = out_row[col].ljust(width)
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
@@ -276,7 +279,7 @@ def main():
                         overridden_keys.add(key)
                         col_width[0] = max(len(key), col_width[0])
         for i, out_row in enumerate(override_rows):
-            if '#' not in out_row[0] or i == 0:
+            if not out_row[0].startswith('#') or i == 0:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
         outpath = templates_t / 'localisation' / 'A SED.csv'
@@ -287,6 +290,8 @@ def main():
             print('Removing old templates...')
             shutil.rmtree(str(templates), ignore_errors=True)
         shutil.copytree(str(templates_t), str(templates))
+    end_time = time.time()
+    print('Time: {} s'.format(end_time - start_time))
 
 if __name__ == '__main__':
     main()
