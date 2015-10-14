@@ -56,9 +56,7 @@ def main():
             if not val:
                 if re.fullmatch(r' +', row[2]):
                     val = ' '
-                # blanks in sed.csv disabled for now
-                # elif not row[2] or inpath.name not in swmh_files:
-                elif not row[2] and inpath.name in swmh_files:
+                elif not row[2] or inpath.name not in swmh_files:
                     keys_to_blank.add(key)
             if not key.startswith('#'):
                 if key not in sed2:
