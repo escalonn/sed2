@@ -195,7 +195,7 @@ def main():
             out_rows = [
                 ['#CODE', 'SED2', 'SWMH', 'OTHER', 'SED1', 'VANILLA']]
             col_width = [0, 8]
-            for row in ck2parser.csv_rows(inpath):
+            for row in ck2parser.csv_rows(inpath, comments=True):
                 try:
                     if row[0]:
                         if not row[0].startswith('#'):
