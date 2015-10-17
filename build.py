@@ -8,7 +8,6 @@ import shutil
 import sys
 import time
 import ck2parser
-import localpaths
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
@@ -16,7 +15,7 @@ version = 'v2.1.1-BETA'
 if no_provinces:
     version += '-noprovinces'
 
-rootpath = localpaths.rootpath
+rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
@@ -56,9 +55,7 @@ def main():
             if not val:
                 if re.fullmatch(r' +', row[2]):
                     val = ' '
-                # blanks in sed.csv disabled for now
-                # elif not row[2] or inpath.name not in swmh_files:
-                elif not row[2] and inpath.name in swmh_files:
+                elif not row[2] or inpath.name not in swmh_files:
                     keys_to_blank.add(key)
             if not key.startswith('#'):
                 if key not in sed2:
