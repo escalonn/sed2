@@ -8,9 +8,8 @@ import shutil
 import tempfile
 import time
 import ck2parser
-import localpaths
 
-rootpath = localpaths.rootpath
+rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
 keys_to_override = {

@@ -8,7 +8,6 @@ import shutil
 import sys
 import time
 import ck2parser
-import localpaths
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
@@ -16,7 +15,7 @@ version = 'v2.1.1-BETA'
 if no_provinces:
     version += '-noprovinces'
 
-rootpath = localpaths.rootpath
+rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 sed2path = rootpath / 'SED2'
 
