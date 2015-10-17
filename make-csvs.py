@@ -8,10 +8,9 @@ import shutil
 import tempfile
 import time
 import ck2parser
-import localpaths
 
-rootpath = localpaths.rootpath
-vanilladir = localpaths.vanilladir
+rootpath = ck2parser.rootpath
+vanilladir = ck2parser.vanilladir
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
 keys_to_override = {
@@ -20,47 +19,29 @@ keys_to_override = {
 }
 
 def get_province_id(where):
-    tree = ck2parser.parse_file(where / 'map/default.map')
-    defs = tree['definitions'].val
-    max_provs = tree['max_provinces'].val
-    id_name = {}
-    for row in ck2parser.csv_rows(where / 'map' / defs):
-        try:
-            id_name[int(row[0])] = row[4]
-        except (IndexError, ValueError):
-            continue
     province_id = {}
     province_title = {}
-    for path in ck2parser.files('history/provinces/*', where):
-        number, name = path.stem.split(' - ')
-        if id_name[int(number)] == name:
-            tree = ck2parser.parse_file(path)
-            try:
-                title = tree['title'].val
-            except KeyError:
-                continue
-            the_id = 'PROV' + number
-            province_id[title] = the_id
-            province_title[the_id] = title
+    for number, title, tree in ck2parser.provinces(where):
+        the_id = 'PROV' + number
+        province_id[title] = the_id
+        province_title[the_id] = title
     return province_id, province_title
 
 def get_dynamics(where, cultures, prov_id):
+    def recurse(tree):
+        for n, v in tree:
+            if ck2parser.is_codename(n.val):
+                for n2, v2 in v:
+                    if n2.val in cultures:
+                        if v2.val not in dynamics[n.val]:
+                            dynamics[n.val].append(v2.val)
+                        if (n.val in prov_id and
+                            v2.val not in dynamics[prov_id[n.val]]):
+                            dynamics[prov_id[n.val]].append(v2.val)
+                recurse(v)
+
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
-
-    def recurse(v, n=None):
-        for n1, v1 in v:
-            if not ck2parser.is_codename(n1.val):
-                continue
-            for n2, v2 in v1:
-                if n2.val in cultures:
-                    if v2.val not in dynamics[n1.val]:
-                        dynamics[n1.val].append(v2.val)
-                    if (n1.val in prov_id and
-                        v2.val not in dynamics[prov_id[n1.val]]):
-                        dynamics[prov_id[n1.val]].append(v2.val)
-            recurse(v1, n1)
-
     for _, tree in ck2parser.parse_files('common/landed_titles/*', where):
         recurse(tree)
     return dynamics
@@ -93,27 +74,6 @@ def get_gov_prefixes(where):
 #                 with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
 #                     f.write(tree.str())
 
-def get_cultures(where):
-    cultures = []
-    culture_groups = []
-    for _, tree in ck2parser.parse_files('common/cultures/*', where):
-        for n, v in tree:
-            culture_groups.append(n.val)
-            cultures.extend(n2.val for n2, v2 in v
-                            if n2.val != 'graphical_cultures')
-    return cultures, culture_groups
-
-def get_religions(where):
-    religions = []
-    religion_groups = []
-    for _, tree in ck2parser.parse_files('common/religions/*', where):
-        for n, v in tree:
-            religion_groups.append(n.val)
-            religions.extend(n2.val for n2, v2 in v
-                             if (isinstance(v2, ck2parser.Obj) and
-                                 n2.val not in ['male_names', 'female_names']))
-    return religions, religion_groups
-
 def get_more_keys_to_override(where):
     keys = set()
     for _, tree in ck2parser.parse_files('common/bookmarks/*', where):
@@ -130,12 +90,6 @@ def get_more_keys_to_override(where):
                 for n3, v3 in v2:
                     if n3.val == 'desc':
                         keys.add(v3.val)
-    for _, tree in ck2parser.parse_files('common/cultures/*', where):
-        for n, v in tree:
-            keys.add(n.val)
-            for n2, v2 in v:
-                if n2.val != 'graphical_cultures':
-                    keys.add(n2.val)
     for _, tree in ck2parser.parse_files('common/job_titles/*', where):
         for n, v in tree:
             keys.add(n.val)
@@ -179,14 +133,11 @@ def main():
     for path in ck2parser.files('English SWMH/localisation/*',
                                 basedir=rootpath):
         for row in ck2parser.csv_rows(path):
-            try:
-                if row[0] not in english:
-                    english[row[0]] = row[1]
-            except IndexError:
-                continue
+            if row[0] not in english:
+                english[row[0]] = row[1]
     prov_id, prov_title = get_province_id(swmhpath)
-    cultures, cult_groups = get_cultures(swmhpath)
-    religions, rel_groups = get_religions(swmhpath)
+    cultures, cult_groups = ck2parser.cultures(swmhpath)
+    religions, rel_groups = ck2parser.religions(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, prov_id)
     vanilla = ck2parser.localisation()
     keys_to_override |= get_more_keys_to_override(swmhpath)
@@ -199,12 +150,10 @@ def main():
     templates = rootpath / 'SED2/templates'
     for path in ck2parser.files('localisation/*', basedir=templates):
         prev_loc.update({row[0].strip(): row[1].strip()
-                         for row in ck2parser.csv_rows(path)
-                         if row[0] and not row[0].startswith('#')})
+                         for row in ck2parser.csv_rows(path)})
     for path in ck2parser.files('common/landed_titles/*', basedir=templates):
         prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
-                        for row in ck2parser.csv_rows(path)
-                        if row[0] and not row[0].startswith('#')})
+                        for row in ck2parser.csv_rows(path)})
 
     # fill swmh_titles and prov_title before calling
     def should_override(key):
@@ -250,7 +199,7 @@ def main():
             out_rows = [
                 ['#CODE', 'SED2', 'SWMH', 'OTHER', 'SED1', 'VANILLA']]
             col_width = [0, 8]
-            for row in ck2parser.csv_rows(inpath):
+            for row in ck2parser.csv_rows(inpath, comments=True):
                 try:
                     if row[0]:
                         if not row[0].startswith('#'):
