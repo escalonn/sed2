@@ -11,6 +11,7 @@ import ck2parser
 import localpaths
 
 rootpath = localpaths.rootpath
+vanilladir = localpaths.vanilladir
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
 keys_to_override = {
@@ -20,7 +21,8 @@ keys_to_override = {
 
 def get_province_id(where):
     tree = ck2parser.parse_file(where / 'map/default.map')
-    defs = next(v.val for n, v in tree if n.val == 'definitions')
+    defs = tree['definitions'].val
+    max_provs = tree['max_provinces'].val
     id_name = {}
     for row in ck2parser.csv_rows(where / 'map' / defs):
         try:
@@ -34,8 +36,8 @@ def get_province_id(where):
         if id_name[int(number)] == name:
             tree = ck2parser.parse_file(path)
             try:
-                title = next(v.val for n, v in tree if n.val == 'title')
-            except StopIteration:
+                title = tree['title'].val
+            except KeyError:
                 continue
             the_id = 'PROV' + number
             province_id[title] = the_id
@@ -62,6 +64,34 @@ def get_dynamics(where, cultures, prov_id):
     for _, tree in ck2parser.parse_files('common/landed_titles/*', where):
         recurse(tree)
     return dynamics
+
+def get_gov_prefixes(where):
+    prefixes = []
+    for _, tree in ck2parser.parse_files('common/governments/*', where):
+        for _, v in tree:
+            for n2, v2 in v:
+                try:
+                    prefix = v2['title_prefix'].val
+                except KeyError:
+                    continue
+                if prefix not in prefixes:
+                    prefixes.append(prefix)
+    return prefixes
+
+# def process_history(where, build):
+#     for glob in ['history/provinces/*', 'history/titles/*']:
+#         for inpath, tree in ck2parser.parse_files(glob, where):
+#             for n, v in tree:
+#                 if isinstance(n, ck2parser.Date):
+#                     for p2 in reversed(v.contents):
+#                         n2, v2 = p2
+#                         if n2.val in ['name', 'adjective']:
+#                             mutated = True
+#                             v.contents.remove(p2)
+#             if mutated:
+#                 outpath = make_outpath(build, inpath, where, vanilladir)
+#                 with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+#                     f.write(tree.str())
 
 def get_cultures(where):
     cultures = []
@@ -106,10 +136,15 @@ def get_more_keys_to_override(where):
             for n2, v2 in v:
                 if n2.val != 'graphical_cultures':
                     keys.add(n2.val)
-    for _, tree in ck2parser.parse_files('common/minor_titles/*.txt', where):
+    for _, tree in ck2parser.parse_files('common/job_titles/*', where):
         for n, v in tree:
             keys.add(n.val)
-            keys.add(n.val + '_FOA')
+            keys.add(n.val + '_foa')
+            keys.add(n.val + '_desc')
+    for _, tree in ck2parser.parse_files('common/minor_titles/*', where):
+        for n, v in tree:
+            keys.add(n.val)
+            keys.add(n.val + '_foa')
             keys.add(n.val + '_desc')
     for _, tree in ck2parser.parse_files('common/retinue_subunits/*',
                                          where):
@@ -118,8 +153,24 @@ def get_more_keys_to_override(where):
     for _, tree in ck2parser.parse_files('common/trade_routes/*', where):
         for n, v in tree:
             keys.add(n.val)
-    return keys
+    for glob in ['history/provinces/*', 'history/titles/*']:
+        for _, tree in ck2parser.parse_files(glob, where):
+            for n, v in tree:
+                if isinstance(n, ck2parser.Date):
+                    for n2, v2 in v:
+                        if n2.val in ['name', 'adjective']:
+                            keys.add(v2.val)  # what about when it's not a key
+                            # TODO: investigate case sensitivity of localisation,
+                            # including overriding/blanking, and matching.
+                            # consider FOA/foa in particular
+                            # TODO: confirm correct reading of job_titles and minor_titles
+                            # TODO: consider adding localisation to the top of sed.csv
+                            # (e.g. Satakunta) rather than rebuilding history files.
+                            # TODO: check for missing PROV locs with max_provs
+                            # TODO: finally, import ziji-build's noble_regex,
+                            # lt_match, prov_match
 
+    return keys
 
 def main():
     global keys_to_override
