@@ -13,16 +13,11 @@ rootpath = ck2parser.rootpath
 vanilladir = ck2parser.vanilladir
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 
-keys_to_override = {
-    # A Bookmarks.csv
-    'VIKING_ERA', 'VIKING_ERA_INFO', 'EARLY_MED', 'EARLY_MED_INFO'
-}
-
 def get_province_id(where):
     province_id = {}
     province_title = {}
     for number, title, tree in ck2parser.provinces(where):
-        the_id = 'PROV' + number
+        the_id = 'PROV{}'.format(number)
         province_id[title] = the_id
         province_title[the_id] = title
     return province_id, province_title
@@ -59,72 +54,59 @@ def get_gov_prefixes(where):
                     prefixes.append(prefix)
     return prefixes
 
-# def process_history(where, build):
-#     for glob in ['history/provinces/*', 'history/titles/*']:
-#         for inpath, tree in ck2parser.parse_files(glob, where):
-#             for n, v in tree:
-#                 if isinstance(n, ck2parser.Date):
-#                     for p2 in reversed(v.contents):
-#                         n2, v2 = p2
-#                         if n2.val in ['name', 'adjective']:
-#                             mutated = True
-#                             v.contents.remove(p2)
-#             if mutated:
-#                 outpath = make_outpath(build, inpath, where, vanilladir)
-#                 with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-#                     f.write(tree.str())
-
-def get_more_keys_to_override(where):
-    keys = set()
+def get_more_keys_to_override(where, localisation, max_provs):
+    override = {
+        # A Bookmarks.csv
+        'VIKING_ERA', 'VIKING_ERA_INFO', 'EARLY_MED', 'EARLY_MED_INFO'
+    }
+    missing_loc = []
     for _, tree in ck2parser.parse_files('common/bookmarks/*', where):
         for n, v in tree:
             for n2, v2 in v:
-                if n2.val in {'name', 'desc'}:
-                    keys.add(v2.val)
+                if n2.val in ('name', 'desc'):
+                    override.add(v2.val)
                 elif n2.val == 'character':
-                    keys.add('ERA_CHAR_INFO_{}'.format(v2.val))
+                    override.add('ERA_CHAR_INFO_{}'.format(v2.val))
     for _, tree in ck2parser.parse_files('common/buildings/*', where):
         for n, v in tree:
             for n2, v2 in v:
-                keys.add(n2.val)
+                override.add(n2.val)
                 for n3, v3 in v2:
                     if n3.val == 'desc':
-                        keys.add(v3.val)
+                        override.add(v3.val)
+    ul_titles = []
     for _, tree in ck2parser.parse_files('common/job_titles/*', where):
         for n, v in tree:
-            keys.add(n.val)
-            keys.add(n.val + '_foa')
-            keys.add(n.val + '_desc')
+            ul_titles.append(n.val)
+            override.add('desc_' + n.val)
     for _, tree in ck2parser.parse_files('common/minor_titles/*', where):
         for n, v in tree:
-            keys.add(n.val)
-            keys.add(n.val + '_foa')
-            keys.add(n.val + '_desc')
-    for _, tree in ck2parser.parse_files('common/retinue_subunits/*',
-                                         where):
+            ul_titles.append(n.val)
+            override.add(n.val + '_FOA')
+            override.add(n.val + '_desc')
+    for _, tree in ck2parser.parse_files('common/retinue_subunits/*', where):
         for n, v in tree:
-            keys.add(n.val)
+            override.add(n.val)
     for _, tree in ck2parser.parse_files('common/trade_routes/*', where):
         for n, v in tree:
-            keys.add(n.val)
+            override.add(n.val)
     for glob in ['history/provinces/*', 'history/titles/*']:
         for _, tree in ck2parser.parse_files(glob, where):
             for n, v in tree:
                 if isinstance(n, ck2parser.Date):
                     for n2, v2 in v:
-                        if n2.val in ['name', 'adjective']:
-                            keys.add(v2.val)  # what about when it's not a key
-                            # TODO: investigate case sensitivity of localisation,
-                            # including overriding/blanking, and matching.
-                            # consider FOA/foa in particular
-                            # TODO: confirm correct reading of job_titles and minor_titles
-                            # TODO: consider adding localisation to the top of sed.csv
-                            # (e.g. Satakunta) rather than rebuilding history files.
-                            # TODO: check for missing PROV locs with max_provs
-                            # TODO: finally, import ziji-build's noble_regex,
-                            # lt_match, prov_match
-
-    return keys
+                        if n2.val in ('name', 'adjective'):
+                            if v2.val in localisation:
+                                override.add(v2.val)
+                            else:
+                                missing_loc.append(v2.val)
+    for i in range(1, max_provs):
+        key = 'PROV{}'.format(i)
+        if key in localisation:
+            override.add(key)
+        else:
+            missing_loc.append(key)
+    return override, missing_loc, ul_titles
 
 def main():
     global keys_to_override
@@ -136,14 +118,17 @@ def main():
             if row[0] not in english:
                 english[row[0]] = row[1]
     prov_id, prov_title = get_province_id(swmhpath)
+    max_provs = ck2parser.max_provinces(swmhpath)
     cultures, cult_groups = ck2parser.cultures(swmhpath)
     religions, rel_groups = ck2parser.religions(swmhpath)
     dynamics = get_dynamics(swmhpath, cultures, prov_id)
     vanilla = ck2parser.localisation()
-    keys_to_override |= get_more_keys_to_override(swmhpath)
+    localisation = ck2parser.localisation(swmhpath)
+    keys_to_override, keys_to_add, ul_titles = get_more_keys_to_override(
+        swmhpath, localisation, max_provs)
     keys_to_override.update(cultures, cult_groups, religions, rel_groups)
     overridden_keys = set()
-    swmh_titles = set()
+    titles = set()
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
 
@@ -155,28 +140,32 @@ def main():
         prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                         for row in ck2parser.csv_rows(path)})
 
-    # fill swmh_titles and prov_title before calling
+    gov_prefixes = get_gov_prefixes(swmhpath)
+    type_re = '|'.join(['family_palace_', 'vice_royalty_'] + gov_prefixes)
+    title_re = '|'.join(ul_titles)
+    culture_re = '|'.join(cultures + cult_groups)
+    religion_re = '|'.join(religions + rel_groups)
+    noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
+                   '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
+                   '(_female)?(_({}|{}))?').format(type_re, title_re,
+                                                   culture_re, religion_re)
+
+    # fill titles before calling
     def should_override(key):
         title_match = re.match(r'[ekdcb]_((?!_adj($|_)).)*', key)
         if title_match is not None:
             title = title_match.group()
-            if re.fullmatch(r'c_((?!_adj($|_)).)*', key) is not None:
-                return False
-        else:
-            prov_match = re.match(r'PROV\d+', key)
-            if prov_match is not None:
-                try:
-                    title = prov_title[prov_match.group()]
-                except KeyError:
-                    return False
-            else:
-                return key in keys_to_override
-        return not title.startswith('b_') and title in swmh_titles
+            return (title in titles and not title.startswith('b_') and
+                    re.fullmatch(r'c_((?!_adj($|_)).)*', key) is None)
+        if key in keys_to_override:
+            return True
+        noble_match = re.fullmatch(noble_regex, key)
+        return noble_match is not None
 
     def recurse(tree):
         for n, v in tree:
             if ck2parser.is_codename(n.val):
-                swmh_titles.add(n.val)
+                titles.add(n.val)
                 items = []
                 for n2, v2 in v:
                     if n2.val in lt_keys:
@@ -232,9 +221,7 @@ def main():
         lt_keys = lt_keys_not_cultures + cultures
 
         for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
-                                                  basedir=swmhpath):
-            outpath = (templates_t /
-                       inpath.with_suffix('.csv').relative_to(swmhpath))
+                                                  swmhpath):
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
             for title, pairs in recurse(tree):
@@ -258,12 +245,18 @@ def main():
             for out_row in out_rows:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
+            outpath = (templates_t / inpath.with_suffix('.csv').
+                       relative_to(inpath.parents[2]))
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
         override_rows = [
             ['#CODE', 'SED2', 'SWMH', 'OTHER', 'SED1', 'VANILLA']]
         col_width = [0, 8]
+        for key in keys_to_add:
+            out_row = [key, prev_loc[key], '', '', '', key]
+            override_rows.append(out_row)
+            col_width[0] = max(len(key), col_width[0])
         for path in ck2parser.files('localisation/*'):
             if path.name not in swmh_files:
                 override_rows.append(['#' + path.name, '', ''])
