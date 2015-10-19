@@ -1,4 +1,9 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+Finland;Finland Proper;;;;;;;;;;;;;x
+Tavastland;Tavastia;;;;;;;;;;;;;x
+Satakunda;Satakunta;;;;;;;;;;;;;x
+Savolax;Savonia;;;;;;;;;;;;;x
+PROV908;Rub‘ al Khali;;;;;;;;;;;;;x
 d_socotra;Socotra;;;;;;;;;;;;;x
 d_yaik;Ural;;;;;;;;;;;;;x
 d_yaik_adj;Ural;;;;;;;;;;;;;x
@@ -148,6 +153,21 @@ nahuatl;Nahua;;;;;;;;;;;;;x
 aztec;Aztec;;;;;;;;;;;;;x
 e_mexikha;Aztec Empire;;;;;;;;;;;;;x
 e_mexikha_adj;Aztec;;;;;;;;;;;;;x
+emperor_nahuatl;Huetlatoani;;;;;;;;;;;;;x
+emperor_female_nahuatl;Huetlatoani;;;;;;;;;;;;;x
+king_nahuatl;King;;;;;;;;;;;;;x
+king_female_nahuatl;Queen;;;;;;;;;;;;;x
+duke_nahuatl;Huecalpixqui;;;;;;;;;;;;;x
+duke_female_nahuatl;Huecalpixqui;;;;;;;;;;;;;x
+count_nahuatl;Calpixqui;;;;;;;;;;;;;x
+count_female_nahuatl;Calpixqui;;;;;;;;;;;;;x
+baron_nahuatl;Lord;;;;;;;;;;;;;x
+baron_female_nahuatl;Lady;;;;;;;;;;;;;x
+job_chancellor_aztec;Cihuacoatl;;;;;;;;;;;;;x
+job_marshal_aztec;Tlacateccatl;;;;;;;;;;;;;x
+job_treasurer_aztec;Petlacalcatl;;;;;;;;;;;;;x
+job_spymaster_aztec;Tillancalqui;;;;;;;;;;;;;x
+job_spiritual_aztec;Sahagun;;;;;;;;;;;;;x
 RETTYPE_CUL_NAHUA;Jaguar Warrior;;;;;;;;;;;;;x
 ca_keep_1;Keep;;;;;;;;;;;;;x
 ca_keep_2;Keep;;;;;;;;;;;;;x
@@ -199,6 +219,106 @@ south_slavic;South Slavic;;;;;;;;;;;;;x
 magyar;Hungarian;;;;;;;;;;;;;x
 iranian;Iranian;;;;;;;;;;;;;x
 east_african;East African;;;;;;;;;;;;;x
+emperor;Emperor;;;;;;;;;;;;;x
+king;King;;;;;;;;;;;;;x
+duke;Duke;;;;;;;;;;;;;x
+count;Count;;;;;;;;;;;;;x
+baron;Baron;;;;;;;;;;;;;x
+emperor_female;Empress;;;;;;;;;;;;;x
+king_female;Queen;;;;;;;;;;;;;x
+duke_female;Duchess;;;;;;;;;;;;;x
+count_female;Countess;;;;;;;;;;;;;x
+baron_female;Baroness;;;;;;;;;;;;;x
+temple_king_christian;King-Bishop;;;;;;;;;;;;;x
+temple_king_orthodox;King-Bishop;;;;;;;;;;;;;x
+temple_king_muslim;Caliph;;;;;;;;;;;;;x
+temple_duke_christian;Prince-Archbishop;;;;;;;;;;;;;x
+temple_duke_orthodox;Prince-Archbishop;;;;;;;;;;;;;x
+temple_duke_sunni;Grand Mufti;;;;;;;;;;;;;x
+temple_duke_shiite;Grand Ayatollah;;;;;;;;;;;;;x
+temple_duke_pagan_group;Archpriest;;;;;;;;;;;;;x
+temple_count_christian;Prince-Bishop;;;;;;;;;;;;;x
+temple_count_orthodox;Metropolitan;;;;;;;;;;;;;x
+temple_count_sunni;Sheikh;;;;;;;;;;;;;x
+temple_count_shiite;Ayatollah;;;;;;;;;;;;;x
+temple_count_pagan_group;High Priest;;;;;;;;;;;;;x
+temple_baron_christian;Bishop;;;;;;;;;;;;;x
+temple_baron_sunni;Mufti;;;;;;;;;;;;;x
+temple_baron_shiite;Mullah;;;;;;;;;;;;;x
+temple_baron_pagan_group;Priest;;;;;;;;;;;;;x
+temple_baron_tengri_pagan;Shaman;;;;;;;;;;;;;x
+temple_baron_tengri_pagan_reformed;Shaman;;;;;;;;;;;;;x
+temple_baron_finnish_pagan;Shaman;;;;;;;;;;;;;x
+temple_baron_finnish_pagan_reformed;Shaman;;;;;;;;;;;;;x
+city_emperor;Grand Prince;;;;;;;;;;;;;x
+city_king_latin;Doge;;;;;;;;;;;;;x
+city_king_byzantine;Doge;;;;;;;;;;;;;x
+city_king_muslim;Wali-Malik;;;;;;;;;;;;;x
+city_duke_latin;Doge;;;;;;;;;;;;;x
+city_duke_byzantine;Doge;;;;;;;;;;;;;x
+city_duke_muslim;Wali-Emir;;;;;;;;;;;;;x
+city_count;Lord Mayor;;;;;;;;;;;;;x
+city_count_muslim;Wâli;;;;;;;;;;;;;x
+city_baron;Mayor;;;;;;;;;;;;;x
+empire_of;Empire of;;;;;;;;;;;;;x
+kingdom_of;Kingdom of;;;;;;;;;;;;;x
+duchy_of;Duchy of;;;;;;;;;;;;;x
+county_of;County of;;;;;;;;;;;;;x
+barony_of;Barony of;;;;;;;;;;;;;x
+city_empire_of;Principality of;;;;;;;;;;;;;x
+city_kingdom_of;Most Serene Republic of;;;;;;;;;;;;;x
+city_duchy_of;Republic of;;;;;;;;;;;;;x
+city_county_of;Grand City of;;;;;;;;;;;;;x
+city_barony_of;City of;;;;;;;;;;;;;x
+temple_kingdom_of_catholic;Theocracy of;;;;;;;;;;;;;x
+temple_kingdom_of_orthodox;Patriarchate of;;;;;;;;;;;;;x
+temple_kingdom_of_muslim;Caliphate of;;;;;;;;;;;;;x
+temple_kingdom_of_pagan_group;Theocracy of;;;;;;;;;;;;;x
+temple_duchy_of_christian;Prince-Archbishopric of;;;;;;;;;;;;;x
+temple_duchy_of_muslim;Theocracy of;;;;;;;;;;;;;x
+temple_duchy_of_pagan_group;Theocracy of;;;;;;;;;;;;;x
+temple_duchy_of_jewish;Theocracy of;;;;;;;;;;;;;x
+temple_county_of_christian;Prince-Bishopric of;;;;;;;;;;;;;x
+temple_county_of_muslim;Sheikhdom of;;;;;;;;;;;;;x
+temple_county_of_pagan_group;Theocracy of;;;;;;;;;;;;;x
+temple_barony_of_christian;Bishopric of;;;;;;;;;;;;;x
+temple_barony_of_muslim;Mosque of;;;;;;;;;;;;;x
+temple_barony_of_pagan_group;Temple of;;;;;;;;;;;;;x
+emperor_altaic;Khagan;;;;;;;;;;;;;x
+emperor_female_altaic;Khatun;;;;;;;;;;;;;x
+king_altaic;Khan;;;;;;;;;;;;;x
+king_female_altaic;Khanum;;;;;;;;;;;;;x
+kingdom_of_altaic;Khanate of;;;;;;;;;;;;;x
+baron_arabic;Wâli;;;;;;;;;;;;;x
+barony_of_arabic;Wilayah of;;;;;;;;;;;;;x
+count_arabic;Sheikh;;;;;;;;;;;;;x
+county_of_arabic;Sheikhdom of;;;;;;;;;;;;;x
+duke_arabic;Emir;;;;;;;;;;;;;x
+duke_female_arabic;Emira;;;;;;;;;;;;;x
+duchy_of_arabic;Emirate of;;;;;;;;;;;;;x
+king_arabic;Sultan;;;;;;;;;;;;;x
+king_female_arabic;Sultana;;;;;;;;;;;;;x
+kingdom_of_arabic;Sultanate of;;;;;;;;;;;;;x
+baron_turkish;Timariot;;;;;;;;;;;;;x
+barony_of_turkish;Timar of;;;;;;;;;;;;;x
+count_turkish;Bey;;;;;;;;;;;;;x
+county_of_turkish;Beylik of;;;;;;;;;;;;;x
+duke_turkish;Beylerbey;;;;;;;;;;;;;x
+duchy_of_turkish;State of;;;;;;;;;;;;;x
+king_turkish;Sultan;;;;;;;;;;;;;x
+kingdom_of_turkish;Sultanate of;;;;;;;;;;;;;x
+emperor_turkish;Padishah;;;;;;;;;;;;;x
+emperor_iranian;Shah;;;;;;;;;;;;;x
+baron_mongol;Taishi;;;;;;;;;;;;;x
+barony_of_mongol;Taishi of;;;;;;;;;;;;;x
+count_mongol;Chief;;;;;;;;;;;;;x
+county_of_mongol;Chiefdom of;;;;;;;;;;;;;x
+duke_mongol;High Chief;;;;;;;;;;;;;x
+duke_female_mongol;High Chieftess;;;;;;;;;;;;;x
+duchy_of_mongol;High Chiefdom of;;;;;;;;;;;;;x
+duke_norse;Jarl;;;;;;;;;;;;;x
+count_pagan_group;Chief;;;;;;;;;;;;;x
+baron_pagan_group;Hetman;;;;;;;;;;;;;x
 d_uppland;Uppland;;;;;;;;;;;;;x
 d_uppland_adj;Upplandic;;;;;;;;;;;;;x
 c_uppland_adj;Upplandic;;;;;;;;;;;;;x
@@ -1195,6 +1315,7 @@ PROV256;Weimar;;;;;;;;;;;;;x
 PROV257;Brunswick;;;;;;;;;;;;;x
 PROV258;Lüneburg;;;;;;;;;;;;;x
 PROV262;Lübeck;;;;;;;;;;;;;x
+PROV279;Lapland;;;;;;;;;;;;;x
 PROV281;Ångermanland;;;;;;;;;;;;;x
 PROV286;Gästrikland;;;;;;;;;;;;;x
 PROV287;Dalarna;;;;;;;;;;;;;x
@@ -1372,6 +1493,7 @@ PROV877;Kassala;;;;;;;;;;;;;x
 PROV879;Atbara;;;;;;;;;;;;;x
 PROV880;Sennar;;;;;;;;;;;;;x
 PROV881;Asosa;;;;;;;;;;;;;x
+PROV910;Siberia;;;;;;;;;;;;;x
 christian;Christian;;;;;;;;;;;;;x
 catholic;Catholic;;;;;;;;;;;;;x
 orthodox;Orthodox;;;;;;;;;;;;;x
@@ -1402,9 +1524,18 @@ BM_NORMAN_CONQUEST;William the Conqueror;;;;;;;;;;;;;x
 BM_NORMAN_CONQUEST_DESC;Victorious at the hard-fought Battle of Hastings, William, Duke of Normandy, has proclaimed himself King of England. Displaced Saxon lords rage against the French-speaking usurpers as fief after fief is given to William’s loyal followers. In Anatolia, the Seljuq Turks under the great sultan Alp Arslan are about to invade the Byzantine Empire in a struggle that will determine the fate of Asia Minor…;;;;;;;;;;;;;x
 BM_THIRD_CRUSADE;The Third Crusade;;;;;;;;;;;;;x
 BM_THIRD_CRUSADE_DESC;Jerusalem has fallen to the forces of the great infidel, Saladin, but Henry II of England, Philip II of France, and Holy Roman Emperor Frederick “Barbarossa” have, in their righteous zeal, ended their petty disputes and stand ready to march against the Moor in the most powerful Crusade yet… Deus Vult!;;;;;;;;;;;;;x
+job_chancellor;Chancellor;;;;;;;;;;;;;x
+job_marshal;Marshal;;;;;;;;;;;;;x
+job_treasurer;Steward;;;;;;;;;;;;;x
+job_spymaster;Spymaster;;;;;;;;;;;;;x
 title_regent;Regent;;;;;;;;;;;;;x
 title_queen_mother;Queen Mother;;;;;;;;;;;;;x
+emperor_title_queen_mother_female;Empress Dowager;;;;;;;;;;;;;x
+emperor_title_queen_mother_female_german;Empress;;;;;;;;;;;;;x
 title_prince;Prince;;;;;;;;;;;;;x
+title_prince_iranian;Shahzada;;;;;;;;;;;;;x
+title_prince_female;Princess;;;;;;;;;;;;;x
+title_prince_female_iranian;Shahdokht;;;;;;;;;;;;;x
 title_court_jester;Court Jester;;;;;;;;;;;;;x
 title_keeper_of_swans;Keeper of the Swans;;;;;;;;;;;;;x
 title_keeper_of_swans_desc;With swan meat being without doubt the finest meat available from either beast or fowl, the need to ensure a steady supply of swans is important. The post of Keeper of the Swans carries a certain amount of prestige.;;;;;;;;;;;;;x
@@ -1435,6 +1566,14 @@ title_high_almoner_desc;The handing out of alms was an integral part of rulershi
 title_seneschal_desc;Originally responsible for the organization of feasts and domestic entertainment. Although left mainly in the hands of deputies, the key role at such major occasions makes the post prestigious.;;;;;;;;;;;;;x
 d_amman;Dammam;;;;;;;;;;;;;x
 d_amman_adj;Dammam;;;;;;;;;;;;;x
+desc_job_chancellor;The §Y$JOB$§! is your advisor on matters of diplomacy. The position is traditionally considered the highest on the council.;;;;;;;;;;;;;x
+desc_job_marshal;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.;;;;;;;;;;;;;x
+desc_job_treasurer;The §Y$JOB$§! helps you collect taxes and administer your demesne.;;;;;;;;;;;;;x
+desc_job_spymaster;§Y$JOB$§! is an unofficial position on the council. The office holder is responsible for all matters of intrigue and skullduggery.;;;;;;;;;;;;;x
+desc_job_spiritual;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.;;;;;;;;;;;;;x
+job_spiritual_pagan_group;Chief Diviner;;;;;;;;;;;;;x
+job_spiritual_christian;;;;;;;;;;;;;;x
+job_chancellor_arabic;Grand Vizier;;;;;;;;;;;;;x
 c_carcassonne_adj;Carcassonne;;;;;;;;;;;;;x
 e_timurids;Timurids;;;;;;;;;;;;;x
 e_timurids_adj;Timurid;;;;;;;;;;;;;x
@@ -1473,6 +1612,7 @@ d_maghreb_corsairs;Maghreb Navy;;;;;;;;;;;;;x
 d_maghreb_corsairs_adj;Maghreb;;;;;;;;;;;;;x
 k_aquitaine;Aquitaine;;;;;;;;;;;;;x
 k_aquitaine_adj;Aquitainian;;;;;;;;;;;;;x
+job_spiritual;Court Chaplain;;;;;;;;;;;;;x
 d_connacht_adj;Connacht;;;;;;;;;;;;;x
 d_leinster_adj;Leinster;;;;;;;;;;;;;x
 d_munster_adj;Munster;;;;;;;;;;;;;x
@@ -1496,10 +1636,64 @@ title_chief_qadi;Chief Qadi;;;;;;;;;;;;;x
 title_chief_qadi_desc;The chief qadi is the supreme judge and authority of the law (sharia) in the realm. The most prestigious of all Muslim honorary titles, it is only open to characters with a proper religious education.;;;;;;;;;;;;;x
 title_court_dwarf;Court Dwarf;;;;;;;;;;;;;x
 title_court_dwarf_desc;Dwarves are objects of fascination and curiosity. Having one at court is a matter of prestige.;;;;;;;;;;;;;x
+job_spiritual_muslim;Court Imam;;;;;;;;;;;;;x
+job_spiritual_shiite;Court Mullah;;;;;;;;;;;;;x
+job_chancellor_turkish;Grand Vizier;;;;;;;;;;;;;x
 e_arabia;Arabian Empire;;;;;;;;;;;;;x
 e_arabia_adj;Arabian;;;;;;;;;;;;;x
 west_african;West African;;;;;;;;;;;;;x
 manden;Mandé;;;;;;;;;;;;;x
+empire;Empire;;;;;;;;;;;;;x
+kingdom;Kingdom;;;;;;;;;;;;;x
+duchy;Duchy;;;;;;;;;;;;;x
+county;County;;;;;;;;;;;;;x
+barony;Barony;;;;;;;;;;;;;x
+city_empire;Principality;;;;;;;;;;;;;x
+city_kingdom;Most Serene Republic;;;;;;;;;;;;;x
+city_duchy;Republic;;;;;;;;;;;;;x
+city_county;Grand City;;;;;;;;;;;;;x
+city_barony;City;;;;;;;;;;;;;x
+temple_kingdom_catholic;Theocracy;;;;;;;;;;;;;x
+temple_kingdom_orthodox;Patriarchate;;;;;;;;;;;;;x
+temple_kingdom_muslim;Caliphate;;;;;;;;;;;;;x
+temple_kingdom_pagan_group;Theocracy;;;;;;;;;;;;;x
+temple_duchy_christian;Prince-Archbishopric;;;;;;;;;;;;;x
+temple_duchy_muslim;Theocracy;;;;;;;;;;;;;x
+temple_duchy_pagan_group;Theocracy;;;;;;;;;;;;;x
+temple_county_christian;Prince-Bishopric;;;;;;;;;;;;;x
+temple_county_muslim;Sheikhdom;;;;;;;;;;;;;x
+temple_county_pagan_group;Theocracy;;;;;;;;;;;;;x
+temple_barony_christian;Bishopric;;;;;;;;;;;;;x
+temple_barony_muslim;Mosque;;;;;;;;;;;;;x
+temple_barony_pagan_group;Temple;;;;;;;;;;;;;x
+empire_altaic;Khanate;;;;;;;;;;;;;x
+kingdom_altaic;Khanate;;;;;;;;;;;;;x
+barony_arabic;Wilayah;;;;;;;;;;;;;x
+county_arabic;Sheikhdom;;;;;;;;;;;;;x
+duchy_arabic;Emirate;;;;;;;;;;;;;x
+kingdom_arabic;Sultanate;;;;;;;;;;;;;x
+barony_turkish;Timar;;;;;;;;;;;;;x
+county_turkish;Beylik;;;;;;;;;;;;;x
+duchy_turkish;State;;;;;;;;;;;;;x
+kingdom_turkish;Sultanate;;;;;;;;;;;;;x
+barony_mongol;Taishi;;;;;;;;;;;;;x
+county_mongol;Chiefdom;;;;;;;;;;;;;x
+duchy_mongol;High Chiefdom;;;;;;;;;;;;;x
+baron_west_african;Wâli;;;;;;;;;;;;;x
+barony_of_west_african;Wilayah of;;;;;;;;;;;;;x
+barony_west_african;Wilayah;;;;;;;;;;;;;x
+count_west_african;Farin;;;;;;;;;;;;;x
+count_female_west_african;Farina;;;;;;;;;;;;;x
+county_of_west_african;Sheikhdom of;;;;;;;;;;;;;x
+county_west_african;Sheikhdom;;;;;;;;;;;;;x
+duke_west_african;Farba;;;;;;;;;;;;;x
+duke_female_west_african;Farba;;;;;;;;;;;;;x
+duchy_of_west_african;Emirate of;;;;;;;;;;;;;x
+duchy_west_african;Emirate;;;;;;;;;;;;;x
+king_west_african;Mansa;;;;;;;;;;;;;x
+king_female_west_african;Sultana;;;;;;;;;;;;;x
+kingdom_of_west_african;Sultanate of;;;;;;;;;;;;;x
+kingdom_west_african;Sultanate;;;;;;;;;;;;;x
 d_sunni;Sunni Caliphate;;;;;;;;;;;;;x
 d_sunni_adj;Caliphal;;;;;;;;;;;;;x
 d_armenia_minor_adj_armenian;Armenian;;;;;;;;;;;;;x
@@ -1517,6 +1711,17 @@ c_tus_adj;Tus;;;;;;;;;;;;;x
 c_aukshayts_adj;Vilnian;;;;;;;;;;;;;x
 c_byzantion_adj;Constantinopolitan;;;;;;;;;;;;;x
 d_hashshashin;Assassins;;;;;;;;;;;;;x
+duke_female_iranian;Emira;;;;;;;;;;;;;x
+count_female_iranian;Shaykhah;;;;;;;;;;;;;x
+baron_female_iranian;Wâlia;;;;;;;;;;;;;x
+count_female_arabic;Shaykhah;;;;;;;;;;;;;x
+baron_female_arabic;Wâlia;;;;;;;;;;;;;x
+king_female_turkish;Sultana;;;;;;;;;;;;;x
+duke_female_turkish;Beylerbayan;;;;;;;;;;;;;x
+count_female_turkish;Bayan;;;;;;;;;;;;;x
+baron_female_turkish;Timariota;;;;;;;;;;;;;x
+job_chancellor_west_african;Grand Vizier;;;;;;;;;;;;;x
+emperor_arabic;Padishah;;;;;;;;;;;;;x
 BM_KOMNENOS_DYNASTY;The Alexiad;;;;;;;;;;;;;x
 BM_KOMNENOS_DYNASTY_DESC;After a series of devastating losses to invading Turkish forces, the Byzantine Empire is reeling. But there is hope – the great general Alexios Komnenos has just seized the throne from the corrupt Nikephoros III. Alexios – whose life was documented by his daughter Anna in the “Alexiad” – and his successors would halt the decline of the Empire and push back the Turkish invaders from western Anatolia, buying more time for the ailing remnants of the old Roman Empire. For now, Anatolia is ruled by Suleiman, a member of the Seljuq dynasty, who arrogantly calls his new state the “Sultanate of Rum” (Rome).;;;;;;;;;;;;;x
 BM_THE_LATIN_EMPIRE_DESC;The notorious and ill fated Fourth Crusade, which was supposed to retake Jerusalem after an invasion through Egypt, was instead derailed by scheming Venetians, corrupt leaders and the deposed Byzantine Emperor Alexios IV, seeking to regain his lost throne. The result was the tragic sack of Constantinople and the subsequent establishment of the Latin Empire. Almost none of the Crusaders even reached the Holy Land. Meanwhile, the infamous King John, brother of Richard the Lionheart, rules in England, and the Christian states of Spain face off against the powerful Almohad dynasty.;;;;;;;;;;;;;x
@@ -1538,6 +1743,11 @@ d_nestorian;Patriarchate of the Church of the East;;;;;;;;;;;;;x
 d_nestorian_adj;Eastern Patriarchal;;;;;;;;;;;;;x
 d_monothelite;Monothelite Patriarchate;;;;;;;;;;;;;x
 d_monothelite_adj;Monothelite Patriarchal;;;;;;;;;;;;;x
+king_iranian;Shah;;;;;;;;;;;;;x
+kingdom_of_iranian;Shahdom of;;;;;;;;;;;;;x
+family_palace_baron;Patrician;;;;;;;;;;;;;x
+family_palace_baron_female;Lady;;;;;;;;;;;;;x
+family_palace_barony_of;Palace of;;;;;;;;;;;;;x
 fp_mansion_1;Mansion;;;;;;;;;;;;;x
 fp_mansion_2;Great Mansion;;;;;;;;;;;;;x
 fp_mansion_3;Palace;;;;;;;;;;;;;x
@@ -1624,6 +1834,8 @@ title_high_admiral;High Admiral;;;;;;;;;;;;;x
 title_high_admiral_desc;The High Admiral is formally the chief of the Admiralty and in charge of the Republic’s Navy, though he often relies on a competent staff.;;;;;;;;;;;;;x
 title_high_judge;High Judge;;;;;;;;;;;;;x
 title_high_judge_desc;The High Judge is the supreme justice of the Republic, who answers only to the Council in most legal matters.;;;;;;;;;;;;;x
+city_king;Prince Mayor;;;;;;;;;;;;;x
+city_duke;Grand Mayor;;;;;;;;;;;;;x
 ca_wall_q_1_desc;This shallow moat surrounding the castle provides another obstacle for attackers to overcome.;;;;;;;;;;;;;x
 ca_wall_q_2_desc;These narrow slits allow the defenders to rain down arrows on any attacker without being hit in turn.;;;;;;;;;;;;;x
 ca_wall_q_3_desc;A fortified portcullis that can quickly be raised or lowered as the situation demands.;;;;;;;;;;;;;x
@@ -1721,6 +1933,7 @@ ct_rep_arsenal_2_desc;A heavily fortified collection of shipyards and armories c
 ct_rep_arsenal_3_desc;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic’s capital.;;;;;;;;;;;;;x
 k_hansa;Hansa;;;;;;;;;;;;;x
 k_hansa_adj;Hanseatic;;;;;;;;;;;;;x
+city_kingdom_german;League;;;;;;;;;;;;;x
 ca_shipyard_1;Castle Shipyard;;;;;;;;;;;;;x
 ca_shipyard_2;Castle Shipyard;;;;;;;;;;;;;x
 ca_shipyard_3;Castle Shipyard;;;;;;;;;;;;;x
@@ -1790,8 +2003,37 @@ baltic_pagan_reformed;Romuvan;;;;;;;;;;;;;x
 aztec_reformed;Aztec;;;;;;;;;;;;;x
 west_african_pagan;West African;;;;;;;;;;;;;x
 west_african_pagan_reformed;West African;;;;;;;;;;;;;x
+baron_norse_pagan_reformed;Thegn;;;;;;;;;;;;;x
+baron_norse;Thegn;;;;;;;;;;;;;x
 manichean;Manichean;;;;;;;;;;;;;x
 mazdaki;Mazdakite;;;;;;;;;;;;;x
+job_spiritual_norse_pagan;Seer;;;;;;;;;;;;;x
+job_spiritual_norse_pagan_reformed;Seer;;;;;;;;;;;;;x
+job_spiritual_female_norse_pagan;Seeress;;;;;;;;;;;;;x
+job_spiritual_female_norse_pagan_reformed;Seeress;;;;;;;;;;;;;x
+temple_baron_norse_pagan_reformed;Gothi;;;;;;;;;;;;;x
+temple_baron_female_norse_pagan;Gyðya;;;;;;;;;;;;;x
+temple_baron_female_norse_pagan_reformed;Gyðya;;;;;;;;;;;;;x
+temple_count_norse_pagan;Seiðmaðr;;;;;;;;;;;;;x
+temple_count_norse_pagan_reformed;Seiðmaðr;;;;;;;;;;;;;x
+temple_count_female_norse_pagan;Völva;;;;;;;;;;;;;x
+temple_count_female_norse_pagan_reformed;Völva;;;;;;;;;;;;;x
+temple_baron_female_pagan_group;Priestess;;;;;;;;;;;;;x
+job_spiritual_zoroastrian_group;Mobed;;;;;;;;;;;;;x
+temple_baron_zoroastrian;Herbad;;;;;;;;;;;;;x
+temple_barony_zoroastrian;Verethragna;;;;;;;;;;;;;x
+temple_barony_of_zoroastrian;Verethragna of;;;;;;;;;;;;;x
+king_female_iranian;Banbishn;;;;;;;;;;;;;x
+baron_iranian;Argbed;;;;;;;;;;;;;x
+barony_iranian;Arg;;;;;;;;;;;;;x
+barony_of_iranian;Arg of;;;;;;;;;;;;;x
+count_iranian;Marzban;;;;;;;;;;;;;x
+county_of_iranian;Marzpanate of;;;;;;;;;;;;;x
+duke_iranian;Satrap;;;;;;;;;;;;;x
+duchy_of_iranian;Satrapy of;;;;;;;;;;;;;x
+county_iranian;Marzpanate;;;;;;;;;;;;;x
+duchy_iranian;Satrapy;;;;;;;;;;;;;x
+kingdom_iranian;Shahdom;;;;;;;;;;;;;x
 avar;Avar;;;;;;;;;;;;;x
 c_lepiel_adj;Lepel;;;;;;;;;;;;;x
 c_yaroslavl_adj_finno_ugric;Meryan;;;;;;;;;;;;;x
@@ -1925,6 +2167,9 @@ title_spahbod;Spahbed;;;;;;;;;;;;;x
 title_spahbod_desc;This title, roughly meaning army chief, can be traced all the way back to the Achaemenid Empire, and during the Sasanian reign there were four spahbeds assigned to the corners of the Persian realm. It remains a prestigious military office.;;;;;;;;;;;;;x
 title_eran_ambaragbed;Eran-embaragbed;;;;;;;;;;;;;x
 title_eran_ambaragbed_desc;As the minister of the magazines, it is the responsibility of the eran-ambaragbed to see to the arms and armaments of the realm’s warriors.;;;;;;;;;;;;;x
+job_chancellor_zoroastrian_group;Astabadh;;;;;;;;;;;;;x
+job_marshal_zoroastrian_group;Eran-Spahbed;;;;;;;;;;;;;x
+job_treasurer_zoroastrian_group;Chamberlain;;;;;;;;;;;;;x
 d_jomsvikings;Jomsvikings;;;;;;;;;;;;;x
 d_jomsvikings_adj;Jomsviking;;;;;;;;;;;;;x
 title_champion;Champion;;;;;;;;;;;;;x
@@ -1942,11 +2187,25 @@ title_ishad;Ishad;;;;;;;;;;;;;x
 title_ishad_desc;Ishad is the title given to the highest ranking generals, and as such, it may be regarded as a mark of honor.;;;;;;;;;;;;;x
 title_kundur;Kündür;;;;;;;;;;;;;x
 title_kundur_desc;The Kündur is traditionally a high ranking official in the Khan’s court, and bestowing it on someone is a sign of approval.;;;;;;;;;;;;;x
+job_spymaster_greek;Mystikos;;;;;;;;;;;;;x
+job_spiritual_orthodox;Sacristan;;;;;;;;;;;;;x
+count_female_pagan_group;Chieftess;;;;;;;;;;;;;x
 d_meath_adj_irish;Tara;;;;;;;;;;;;;x
 d_ghanan_band;Ghanan Band;;;;;;;;;;;;;x
 d_ghanan_band_adj;Ghanan;;;;;;;;;;;;;x
 hellenic_pagan;Hellenic;;;;;;;;;;;;;x
 d_aztec_reformed;Aztec Church;;;;;;;;;;;;;x
+job_spiritual_hellenic_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_finnish_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_finnish_pagan_reformed;Diviner;;;;;;;;;;;;;x
+job_spiritual_baltic_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_baltic_pagan_reformed;Diviner;;;;;;;;;;;;;x
+job_spiritual_slavic_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_slavic_pagan_reformed;Diviner;;;;;;;;;;;;;x
+job_spiritual_tengri_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_tengri_pagan_reformed;Diviner;;;;;;;;;;;;;x
+job_spiritual_zoroastrian;Mobed;;;;;;;;;;;;;x
 ca_steppe_barracks_1;Steppe Warrior Lodge;;;;;;;;;;;;;x
 ca_steppe_barracks_2;Steppe Warrior Lodge;;;;;;;;;;;;;x
 ca_steppe_barracks_3;Steppe Warrior Lodge;;;;;;;;;;;;;x
@@ -1994,6 +2253,10 @@ d_knights_santiago;Order of Santiago;;;;;;;;;;;;;x
 d_knights_santiago_adj;Santiago;;;;;;;;;;;;;x
 d_knights_calatrava;Order of Calatrava;;;;;;;;;;;;;x
 d_knights_calatrava_adj;Calatrava;;;;;;;;;;;;;x
+temple_barony_druze;Khalwat;;;;;;;;;;;;;x
+temple_barony_of_druze;Khalwat of;;;;;;;;;;;;;x
+temple_barony_yazidi;Temple;;;;;;;;;;;;;x
+temple_barony_of_yazidi;Temple of;;;;;;;;;;;;;x
 d_fraticelli;Fraticelli Papacy;;;;;;;;;;;;;x
 d_fraticelli_adj;Fraticelli Papal;;;;;;;;;;;;;x
 d_iconoclast;Iconoclast Patriarchate;;;;;;;;;;;;;x
@@ -2036,6 +2299,7 @@ d_ashokas_chosen;Chosen of Ashoka;;;;;;;;;;;;;x
 d_ashokas_chosen_adj;Ashoka;;;;;;;;;;;;;x
 d_bulls_rishabha;Bulls of Rishabha;;;;;;;;;;;;;x
 d_bulls_rishabha_adj;Rishabha;;;;;;;;;;;;;x
+job_spiritual_indian_group;Upadhyay;;;;;;;;;;;;;x
 title_master_of_the_royal_elephants;Master of the Royal Elephants;;;;;;;;;;;;;x
 title_master_of_the_royal_elephants_desc;Great monarchs often employ units of war elephants in their army to great effect. But aside from that, the elephant also has great value as a symbol of stability, strength and perserverance. All this makes it very important to keep the ruler’s elephants in good health, and the position of Master of the Royal Elephants is a correspondingly prestigious one.;;;;;;;;;;;;;x
 title_royal_builder;Royal Builder;;;;;;;;;;;;;x
@@ -2057,11 +2321,91 @@ d_paulician_adj;Paulician;;;;;;;;;;;;;x
 messalian;Messalian;;;;;;;;;;;;;x
 d_saint_addai;Order of Saint Addai;;;;;;;;;;;;;x
 d_saint_addai_adj;Addai;;;;;;;;;;;;;x
+emperor_dravidian_group;Emperor;;;;;;;;;;;;;x
+emperor_female_dravidian_group;Empress;;;;;;;;;;;;;x
+king_dravidian_group;Maharaja;;;;;;;;;;;;;x
+king_female_dravidian_group;Maharani;;;;;;;;;;;;;x
+duke_dravidian_group;Raja;;;;;;;;;;;;;x
+duke_female_dravidian_group;Rani;;;;;;;;;;;;;x
+count_dravidian_group;Thakur;;;;;;;;;;;;;x
+count_female_dravidian_group;Thakurani;;;;;;;;;;;;;x
+baron_dravidian_group;Damapati;;;;;;;;;;;;;x
+baron_female_dravidian_group;Damapatni;;;;;;;;;;;;;x
+duchy_dravidian_group;Raj;;;;;;;;;;;;;x
+county_dravidian_group;Thikana;;;;;;;;;;;;;x
+barony_dravidian_group;Dama;;;;;;;;;;;;;x
+duchy_of_dravidian_group;Raj of;;;;;;;;;;;;;x
+county_of_dravidian_group;Thikana of;;;;;;;;;;;;;x
+barony_of_dravidian_group;Dama of;;;;;;;;;;;;;x
+emperor_indo_aryan_group;Emperor;;;;;;;;;;;;;x
+emperor_female_indo_aryan_group;Empress;;;;;;;;;;;;;x
+king_indo_aryan_group;Maharaja;;;;;;;;;;;;;x
+king_female_indo_aryan_group;Maharani;;;;;;;;;;;;;x
+duke_indo_aryan_group;Raja;;;;;;;;;;;;;x
+duke_female_indo_aryan_group;Rani;;;;;;;;;;;;;x
+count_indo_aryan_group;Thakur;;;;;;;;;;;;;x
+count_female_indo_aryan_group;Thakurani;;;;;;;;;;;;;x
+baron_indo_aryan_group;Damapati;;;;;;;;;;;;;x
+baron_female_indo_aryan_group;Damapatni;;;;;;;;;;;;;x
+title_prince_indo_aryan_group;Rajkumar;;;;;;;;;;;;;x
+title_prince_female_indo_aryan_group;Rajkumari;;;;;;;;;;;;;x
+duchy_indo_aryan_group;Raj;;;;;;;;;;;;;x
+county_indo_aryan_group;Thikana;;;;;;;;;;;;;x
+barony_indo_aryan_group;Dama;;;;;;;;;;;;;x
+duchy_of_indo_aryan_group;Raj of;;;;;;;;;;;;;x
+county_of_indo_aryan_group;Thikana of;;;;;;;;;;;;;x
+barony_of_indo_aryan_group;Dama of;;;;;;;;;;;;;x
+temple_kingdom_of_hindu;Temple of;;;;;;;;;;;;;x
+temple_kingdom_of_buddhist;Monastery of;;;;;;;;;;;;;x
+temple_kingdom_of_jain;Monastery of;;;;;;;;;;;;;x
+temple_duchy_of_hindu;Temple of;;;;;;;;;;;;;x
+temple_duchy_of_buddhist;Monastery of;;;;;;;;;;;;;x
+temple_duchy_of_jain;Monastery of;;;;;;;;;;;;;x
+temple_county_of_hindu;Temple of;;;;;;;;;;;;;x
+temple_county_of_buddhist;Monastery of;;;;;;;;;;;;;x
+temple_county_of_jain;Monastery of;;;;;;;;;;;;;x
+temple_county_of_indian_group;Theocracy of;;;;;;;;;;;;;x
+temple_duchy_of_indian_group;Theocracy of;;;;;;;;;;;;;x
+temple_kingdom_of_indian_group;Theocracy of;;;;;;;;;;;;;x
+temple_baron_hindu;Pujari;;;;;;;;;;;;;x
+temple_baron_buddhist;Bhikkhu;;;;;;;;;;;;;x
+temple_baron_jain;Monk;;;;;;;;;;;;;x
+temple_count_hindu;Pujari;;;;;;;;;;;;;x
+temple_count_buddhist;Bhikkhu;;;;;;;;;;;;;x
+temple_count_jain;Monk;;;;;;;;;;;;;x
+temple_duke_hindu;Pujari;;;;;;;;;;;;;x
+temple_duke_buddhist;Bhikkhu;;;;;;;;;;;;;x
+temple_duke_jain;Monk;;;;;;;;;;;;;x
+temple_king_hindu;Pujari;;;;;;;;;;;;;x
+temple_king_buddhist;Bhikkhu;;;;;;;;;;;;;x
+temple_king_jain;Monk;;;;;;;;;;;;;x
 title_guru;Court Guru;;;;;;;;;;;;;x
 title_guru_desc;A guru is a wise master or teacher, one who imparts wisdom, usually by giving oral instruction and advice. Having a respected guru residing at your court can be useful, giving you access to sage advice.;;;;;;;;;;;;;x
 e_india;India;;;;;;;;;;;;;x
+temple_barony_of_hindu;Temple of;;;;;;;;;;;;;x
+temple_barony_of_buddhist;Vihara of;;;;;;;;;;;;;x
+temple_barony_of_jain;Temple of;;;;;;;;;;;;;x
+temple_baron_west_african_pagan;Priest;;;;;;;;;;;;;x
+temple_baron_west_african_pagan_reformed;Priest;;;;;;;;;;;;;x
+temple_baron_female_west_african_pagan;Priestess;;;;;;;;;;;;;x
+temple_baron_female_west_african_pagan_reformed;Priestess;;;;;;;;;;;;;x
+temple_baron_jewish;Rabbi;;;;;;;;;;;;;x
+temple_baron_samaritan;Rabbi;;;;;;;;;;;;;x
+temple_baron_karaite;Rabbi;;;;;;;;;;;;;x
+temple_baron_slavic_pagan;Shaman;;;;;;;;;;;;;x
+temple_baron_slavic_pagan_reformed;Shaman;;;;;;;;;;;;;x
+temple_baron_baltic_pagan;Shaman;;;;;;;;;;;;;x
+temple_baron_baltic_pagan_reformed;Shaman;;;;;;;;;;;;;x
+temple_baron_aztec;Shaman;;;;;;;;;;;;;x
+temple_baron_aztec_reformed;Shaman;;;;;;;;;;;;;x
+temple_baron_mazdaki;Verethragna;;;;;;;;;;;;;x
+temple_baron_manichean;Verethragna;;;;;;;;;;;;;x
+temple_baron_hellenic_pagan;Priest;;;;;;;;;;;;;x
+temple_baron_female_hellenic_pagan;Priestess;;;;;;;;;;;;;x
 e_germany;Germania;;;;;;;;;;;;;x
 e_germany_adj;German;;;;;;;;;;;;;x
+LOTHARINGIA;Lotharingia;;;;;;;;;;;;;x
+LOTHARINGIA_ADJ;Lotharingian;;;;;;;;;;;;;x
 old_saxon;Saxon;;;;;;;;;;;;;x
 lombard;Langobard;;;;;;;;;;;;;x
 visigothic;Visigothic;;;;;;;;;;;;;x
@@ -2069,11 +2413,22 @@ suebi;Suebian;;;;;;;;;;;;;x
 ilmenian;Ilmen Slavic;;;;;;;;;;;;;x
 severian;Severian;;;;;;;;;;;;;x
 volhynian;Volhynian;;;;;;;;;;;;;x
+LOMBARD_KINGDOM;Lombards;;;;;;;;;;;;;x
+LOMBARD_KINGDOM_ADJ;Lombard;;;;;;;;;;;;;x
 k_lombardy;Lombards;;;;;;;;;;;;;x
 k_lombardy_adj;Lombard;;;;;;;;;;;;;x
+AVAR_KHAGANATE;Avars;;;;;;;;;;;;;x
+AVAR_KHAGANATE_ADJ;Avar;;;;;;;;;;;;;x
 k_avaria;Avars;;;;;;;;;;;;;x
 k_avaria_adj;Avar;;;;;;;;;;;;;x
+KINGDOM_PANNONIA;Pannonia;;;;;;;;;;;;;x
+KINGDOM_PANNONIA_ADJ;Pannonian;;;;;;;;;;;;;x
+MARCH_FRIULI;Friuli;;;;;;;;;;;;;x
+MARCH_FRIULI_ADJ;Friulian;;;;;;;;;;;;;x
+DUCHY_IVREA;Ivrea;;;;;;;;;;;;;x
+DUCHY_IVREA_ADJ;Ivrean;;;;;;;;;;;;;x
 pictish;Pictish;;;;;;;;;;;;;x
+count_pictish;Earl;;;;;;;;;;;;;x
 c_chandax_adj_greek;Gortynian;;;;;;;;;;;;;x
 VIKING_ERA;The Viking Age;;;;;;;;;;;;;x
 VIKING_ERA_INFO;By the middle of the 9th century, the Norse raiders and adventurers known as the Vikings had already begun to set their indelible mark on the map of Europe, establishing realms in Russia and the British Isles and travelling and raiding as far as the Black Sea and the Mediterranean. The Carolingian rulers, descendants of Charlemagne, ruled mighty realms in France, Germany and Italy, while the Muslim religion was now firmly established in Spain under the Umayyads. The Byzantine emperor held on, though suffering under increasing pressure from the Caliphate and the Bulgarians. West of the fractured steppes, the Magyars were poised to make their claim on the Carpathian basin. Islam was spreading rapidly in Persia under rulers such as the Saffarids, and had penetrated into the Indus valley. Further east, the Hindu Gurjara-Pratihara dynasty was expanding.;;;;;;;;;;;;;x
@@ -2087,13 +2442,49 @@ ERA_CHAR_INFO_1700;Basil the Macedonian was born to simple peasant parents in Ma
 ERA_CHAR_INFO_34014;Al-Mu‘tazz became caliph in 866, at only 19 years of age, in a situation where the Abbasid Empire was rife with power struggles between different factions. After a very bloody period of dealing with his various enemies he looked like he was coming out on top, but by then his coffers were empty and a rebellion among the soldiers turned his fortunes around. In the end he was taken prisoner, beaten and locked in a room to starve to death. He was 24 years old when he died.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_140;William the Conqueror, a descendant of the Viking chief Rollo, became duke of Normandy at a very young age, a situation compounded by the fact that he was also a bastard. Early on he was constantly being used as a pawn by rival factions in the duchy, with a succession of his guardians being murdered. Once he reached adulthood, he faced years of warfare in order to take full control over his duchy, eventually emerging victorious. In 1066 he successfully invaded England to press a claim on the English throne. He spent the remainder of his reign consolidating and reforming his new kingdom in the face of sometimes fierce opposition.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1128;Robert Guiscard was the sixth son of Tancred de Hauteville, a petty Norman lord. Just like his brothers, he left Normandy with a small force of followers to seek his fortune in Italy. A brilliant and ruthless leader, he spent several years building a reputation as a mercenary, and the ever changing political landscape in Italy eventually saw the pope investing him as Duke of Apulia and Calabria. In further campaigns, he proceeded to conquer Sicily, fighting both the Saracens and the Byzantines to secure control. He thus established Norman rule in southern Italy and his conquests had a profound long term impact on the region.;;;;;;;;;;;;;x
+tribal_count;Chief;;;;;;;;;;;;;x
+tribal_county_of;Chiefdom of;;;;;;;;;;;;;x
 ct_barracks_1_desc;This is where the adult men of the city muster to join the militia in times of war.;;;;;;;;;;;;;x
 ca_training_grounds_1_desc;The training grounds are where the castle levies can practice and ready themselves for the inevitability of war.;;;;;;;;;;;;;x
 d_zun_warriors;Knights of the Sun;;;;;;;;;;;;;x
 d_zun_warriors_adj;Zun;;;;;;;;;;;;;x
+job_spiritual_zun_pagan;Diviner;;;;;;;;;;;;;x
+job_spiritual_zun_pagan_reformed;Diviner;;;;;;;;;;;;;x
 zun_pagan;Zunbil;;;;;;;;;;;;;x
 zun_pagan_reformed;Church of Zun;;;;;;;;;;;;;x
+duchy_of_norse;Jarldom of;;;;;;;;;;;;;x
+duke_finnish_pagan;High Chief;;;;;;;;;;;;;x
+duke_female_finnish_pagan;High Chieftess;;;;;;;;;;;;;x
+duke_finnish_pagan_reformed;High Chief;;;;;;;;;;;;;x
+duke_female_finnish_pagan_reformed;High Chieftess;;;;;;;;;;;;;x
+duchy_of_finnish_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_of_finnish_pagan_reformed;High Chiefdom of;;;;;;;;;;;;;x
+duke_baltic_pagan;High Chief;;;;;;;;;;;;;x
+duke_female_baltic_pagan;High Chieftess;;;;;;;;;;;;;x
+duke_baltic_pagan_reformed;High Chief;;;;;;;;;;;;;x
+duke_female_baltic_pagan_reformed;High Chieftess;;;;;;;;;;;;;x
+duchy_of_baltic_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_of_baltic_pagan_reformed;High Chiefdom of;;;;;;;;;;;;;x
+duke_tengri_pagan;High Chief;;;;;;;;;;;;;x
+duke_female_tengri_pagan;High Chieftess;;;;;;;;;;;;;x
+duke_tengri_pagan_reformed;High Chief;;;;;;;;;;;;;x
+duke_female_tengri_pagan_reformed;High Chieftess;;;;;;;;;;;;;x
+duke_slavic_pagan;High Chief;;;;;;;;;;;;;x
+duke_female_slavic_pagan;High Chieftess;;;;;;;;;;;;;x
+duke_slavic_pagan_reformed;High Chief;;;;;;;;;;;;;x
+duke_female_slavic_pagan_reformed;High Chieftess;;;;;;;;;;;;;x
+duchy_of_slavic_pagan;High Chiefdom of;;;;;;;;;;;;;x
+duchy_of_slavic_pagan_reformed;High Chiefdom of;;;;;;;;;;;;;x
+tribal_duke_old_saxon;High Chief;;;;;;;;;;;;;x
+tribal_duke_female_old_saxon;High Chieftess;;;;;;;;;;;;;x
+tribal_duchy_of_old_saxon;High Chiefdom of;;;;;;;;;;;;;x
+tribal_king_old_saxon;Grand Chief;;;;;;;;;;;;;x
+tribal_king_female_old_saxon;Grand Chieftess;;;;;;;;;;;;;x
+tribal_kingdom_of_old_saxon;Grand Chiefdom of;;;;;;;;;;;;;x
+tribal_duke_norse;Jarl;;;;;;;;;;;;;x
 d_zun_pagan_reformed;Church of Zun;;;;;;;;;;;;;x
+temple_baron_zun_pagan;Sun Guardian;;;;;;;;;;;;;x
+temple_baron_zun_pagan_reformed;Sun Guardian;;;;;;;;;;;;;x
 tb_hillfort_1;Earth Hillfort;;;;;;;;;;;;;x
 tb_hillfort_2;Wooden Hillfort;;;;;;;;;;;;;x
 tb_hillfort_3;Reinforced Hillfort;;;;;;;;;;;;;x
@@ -2109,14 +2500,90 @@ tb_training_grounds_4;Training Grounds;;;;;;;;;;;;;x
 kharijite;Kharijite;;;;;;;;;;;;;x
 d_kharijite;Kharijite Caliphate;;;;;;;;;;;;;x
 d_kharijite_adj;Kharijite Caliphal;;;;;;;;;;;;;x
+vice_royalty_baron;Baron Viceroy;;;;;;;;;;;;;x
+vice_royalty_count;Count Viceroy;;;;;;;;;;;;;x
+vice_royalty_duke;Minor Viceroy;;;;;;;;;;;;;x
+vice_royalty_king;Viceroy;;;;;;;;;;;;;x
+vice_royalty_emperor;Grand Viceroy;;;;;;;;;;;;;x
+vice_royalty_barony_of;Viceroyal Barony of;;;;;;;;;;;;;x
+vice_royalty_county_of;Viceroyal County of;;;;;;;;;;;;;x
+vice_royalty_duchy_of;Minor Viceroyalty of;;;;;;;;;;;;;x
+vice_royalty_kingdom_of;Viceroyalty of;;;;;;;;;;;;;x
+vice_royalty_empire_of;Grand Viceroyalty of;;;;;;;;;;;;;x
+tribal_emperor_altaic;Khagan;;;;;;;;;;;;;x
+tribal_emperor_female_altaic;Khatun;;;;;;;;;;;;;x
+tribal_empire_of_altaic;Khanate of;;;;;;;;;;;;;x
+tribal_king_altaic;Khan;;;;;;;;;;;;;x
+tribal_king_female_altaic;Khanum;;;;;;;;;;;;;x
+tribal_kingdom_of_altaic;Khanate of;;;;;;;;;;;;;x
+tribal_king_arabic;Sultan;;;;;;;;;;;;;x
+tribal_king_female_arabic;Sultana;;;;;;;;;;;;;x
+tribal_kingdom_of_arabic;Sultanate of;;;;;;;;;;;;;x
+tribal_emperor_arabic;Padishah;;;;;;;;;;;;;x
+tribal_emperor_russian;Tsar;;;;;;;;;;;;;x
+tribal_emperor_female_russian;Tsarina;;;;;;;;;;;;;x
+tribal_emperor_dravidian_group;Emperor;;;;;;;;;;;;;x
+tribal_emperor_female_dravidian_group;Empress;;;;;;;;;;;;;x
+tribal_king_dravidian_group;Maharaja;;;;;;;;;;;;;x
+tribal_king_female_dravidian_group;Maharani;;;;;;;;;;;;;x
+tribal_duke_dravidian_group;Raja;;;;;;;;;;;;;x
+tribal_duke_female_dravidian_group;Rani;;;;;;;;;;;;;x
+tribal_count_dravidian_group;Thakur;;;;;;;;;;;;;x
+tribal_count_female_dravidian_group;Thakurani;;;;;;;;;;;;;x
+tribal_baron_dravidian_group;Damapati;;;;;;;;;;;;;x
+tribal_baron_female_dravidian_group;Damapatni;;;;;;;;;;;;;x
+tribal_duchy_dravidian_group;Raj;;;;;;;;;;;;;x
+tribal_county_dravidian_group;Thikana;;;;;;;;;;;;;x
+tribal_barony_dravidian_group;Dama;;;;;;;;;;;;;x
+tribal_duchy_of_dravidian_group;Raj of;;;;;;;;;;;;;x
+tribal_county_of_dravidian_group;Thikana of;;;;;;;;;;;;;x
+tribal_barony_of_dravidian_group;Dama of;;;;;;;;;;;;;x
+tribal_emperor_indo_aryan_group;Emperor;;;;;;;;;;;;;x
+tribal_emperor_female_indo_aryan_group;Empress;;;;;;;;;;;;;x
+tribal_king_indo_aryan_group;Maharaja;;;;;;;;;;;;;x
+tribal_king_female_indo_aryan_group;Maharani;;;;;;;;;;;;;x
+tribal_duke_indo_aryan_group;Raja;;;;;;;;;;;;;x
+tribal_duke_female_indo_aryan_group;Rani;;;;;;;;;;;;;x
+tribal_count_indo_aryan_group;Thakur;;;;;;;;;;;;;x
+tribal_count_female_indo_aryan_group;Thakurani;;;;;;;;;;;;;x
+tribal_baron_indo_aryan_group;Damapati;;;;;;;;;;;;;x
+tribal_baron_female_indo_aryan_group;Damapatni;;;;;;;;;;;;;x
+tribal_duchy_indo_aryan_group;Raj;;;;;;;;;;;;;x
+tribal_county_indo_aryan_group;Thikana;;;;;;;;;;;;;x
+tribal_barony_indo_aryan_group;Dama;;;;;;;;;;;;;x
+tribal_duchy_of_indo_aryan_group;Raj of;;;;;;;;;;;;;x
+tribal_county_of_indo_aryan_group;Thikana of;;;;;;;;;;;;;x
+tribal_barony_of_indo_aryan_group;Dama of;;;;;;;;;;;;;x
+temple_king_finnish_pagan;Witch-King;;;;;;;;;;;;;x
+temple_king_slavic_pagan;Witch-King;;;;;;;;;;;;;x
+temple_king_baltic_pagan;Witch-King;;;;;;;;;;;;;x
 title_appointed_regent;Designated Regent;;;;;;;;;;;;;x
 title_appointed_regent_desc;This character will become the regent if one is needed.;;;;;;;;;;;;;x
+tribal_duke;High Chief;;;;;;;;;;;;;x
+tribal_duke_female;High Chieftess;;;;;;;;;;;;;x
+tribal_duchy_of;High Chiefdom of;;;;;;;;;;;;;x
+tribal_duchy_of_norse;Jarldom of;;;;;;;;;;;;;x
+tribal_count_west_african;Farin;;;;;;;;;;;;;x
+tribal_count_female_west_african;Farina;;;;;;;;;;;;;x
+tribal_county_of_west_african;Sheikhdom of;;;;;;;;;;;;;x
+tribal_county_west_african;Sheikhdom;;;;;;;;;;;;;x
+tribal_duke_west_african;Farba;;;;;;;;;;;;;x
+tribal_duke_female_west_african;Farba;;;;;;;;;;;;;x
+tribal_duchy_of_west_african;Emirate of;;;;;;;;;;;;;x
+tribal_duchy_west_african;Emirate;;;;;;;;;;;;;x
+tribal_king_west_african;Mansa;;;;;;;;;;;;;x
+tribal_king_female_west_african;Sultana;;;;;;;;;;;;;x
+tribal_kingdom_of_west_african;Sultanate of;;;;;;;;;;;;;x
+tribal_kingdom_west_african;Sultanate;;;;;;;;;;;;;x
+tribal_baron_mongol;Taishi;;;;;;;;;;;;;x
+tribal_barony_of_mongol;Taishi of;;;;;;;;;;;;;x
 e_seljuk_turks;Seljuks;;;;;;;;;;;;;x
 jewish_group;Israelite;;;;;;;;;;;;;x
 zoroastrian_group;Ahura Mazda;;;;;;;;;;;;;x
 indian_group;Dharman;;;;;;;;;;;;;x
 ERA_CHAR_INFO_3096;Born in Cairo, al-Mustansir became caliph when he was only 6 years old. During his early years, his mother acted as regent and saw to her son’s safety. Once he became an adult, his reign was dominated by strong Viziers, and also plagued by chaos as famine weakened the realm and powerful groups of Turkish mercenaries dominated Egypt and struggled for power. Al-Mustansir never fully took the reins of power, but he was to become the longest-reigning caliph in history.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_3040;Alp Arslan, great-grandson of Seljuk, was born Muhammad bin Dawud Chaghri, but his strength, personal combat skills and valor were soon to earn him his honorary name, which means “Heroic Lion.” Early on, he succeeded his father as governor of Khorasan, and after a succession crisis in 1064 he took the title of Sultan by force of arms, and became ruler of the immense Seljuk Empire. He then made war on the Byzantine Empire, defeating them thoroughly at the famous Battle of Manzikert and taking the Emperor prisoner. This victory was a first step towards Turkish domination in Anatolia and was one of the major events triggering the crusades. He died true to his name, at the age of 42, refusing to let his guards help him against a rebel prisoner who came at him with a dagger.;;;;;;;;;;;;;x
+tribal_barony_of;Tribal Lands of;;;;;;;;;;;;;x
 tb_steppe_barracks_1;Barracks;;;;;;;;;;;;;x
 tb_steppe_barracks_2;Barracks;;;;;;;;;;;;;x
 tb_steppe_barracks_3;Barracks;;;;;;;;;;;;;x
@@ -2143,6 +2610,9 @@ tb_market_town_3;Market City;;;;;;;;;;;;;x
 tb_market_town_4;Large Market City;;;;;;;;;;;;;x
 tb_arsenal_desc;This is where weapons are made, repaired and stored in preparation for war.;;;;;;;;;;;;;x
 tb_training_grounds_desc;Our militia assembles here to train and arm themselves.;;;;;;;;;;;;;x
+tribal_duke_frisian;High Chief;;;;;;;;;;;;;x
+tribal_duke_female_frisian;High Chieftess;;;;;;;;;;;;;x
+tribal_duchy_of_frisian;High Chiefdom of;;;;;;;;;;;;;x
 tb_war_camp_1;War Camp;;;;;;;;;;;;;x
 tb_war_camp_2;War Camp;;;;;;;;;;;;;x
 tb_war_camp_3;War Camp;;;;;;;;;;;;;x
@@ -2155,8 +2625,34 @@ tb_practice_range_4;Practice Range;;;;;;;;;;;;;x
 tb_practice_range_desc;The tribal archers meet here to compete and to practice their marksmanship skills.;;;;;;;;;;;;;x
 d_haruriyyah;Haruriyyah;;;;;;;;;;;;;x
 d_haruriyyah_adj;Haruri;;;;;;;;;;;;;x
+vice_royalty_baron_female;Baron Vicereine;;;;;;;;;;;;;x
+vice_royalty_count_female;Count Vicereine;;;;;;;;;;;;;x
+vice_royalty_duke_female;Minor Vicereine;;;;;;;;;;;;;x
+vice_royalty_king_female;Vicereine;;;;;;;;;;;;;x
+vice_royalty_emperor_female;Grand Vicereine;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1316;Henry was the son of Holy Roman Emperor Henry III, and like his father before him became King of the Germans at a very young age. He nearly drowned at the age of 12 when trying to escape a kidnapping at the hands of the Archbishop of Cologne during an ultimately successful political coup against his mother for the regency. Once an adult, he spent a lot of time balancing between the many powerful interest groups within his vast empire. He fought several wars against rebellious princes and against the pagan Slavs. Henry also had a bitter controversy with Pope Gregory VII over investiture, leading to his excommunication. Faced with possible rebellion in the empire, Henry was forced to humiliate himself by standing on his knees in a blizzard for three days at Canossa while awaiting the Pope’s pardon.;;;;;;;;;;;;;x
+vice_royalty_duke_byzantine;Strategos;;;;;;;;;;;;;x
+vice_royalty_king_byzantine;Exarch;;;;;;;;;;;;;x
+vice_royalty_emperor_byzantine;Grand Exarch;;;;;;;;;;;;;x
+vice_royalty_kingdom_of_byzantine;Exarchate of;;;;;;;;;;;;;x
+vice_royalty_empire_of_byzantine;Grand Exarchate of;;;;;;;;;;;;;x
 RETTYPE_SKIR2;Light Skirmish;;;;;;;;;;;;;x
+temple_king_pagan_group;King-Priest;;;;;;;;;;;;;x
+tribal_king_female;Queen;;;;;;;;;;;;;x
+tribal_emperor_female;Empress;;;;;;;;;;;;;x
+temple_duke_female_pagan_group;Archpriestess;;;;;;;;;;;;;x
+temple_king_female_pagan_group;Queen-Priestess;;;;;;;;;;;;;x
+temple_emperor_female_pagan_group;Emperor;;;;;;;;;;;;;x
+vice_royalty_duke_female_byzantine;Strategos;;;;;;;;;;;;;x
+vice_royalty_king_female_byzantine;Exarch;;;;;;;;;;;;;x
+temple_barony_of_zun_pagan;Sun Temple of;;;;;;;;;;;;;x
+temple_barony_of_zun_pagan_reformed;Sun Temple of;;;;;;;;;;;;;x
+nomadic_king;Khan;;;;;;;;;;;;;x
+nomadic_emperor;Khagan;;;;;;;;;;;;;x
+nomadic_empire;Khanate;;;;;;;;;;;;;x
+nomadic_empire_of;Khanate of;;;;;;;;;;;;;x
+nomadic_kingdom;Khanate;;;;;;;;;;;;;x
+nomadic_kingdom_of;Khanate of;;;;;;;;;;;;;x
 silk_road;Silk Road;;;;;;;;;;;;;x
 tr_silk_road_1;Silk Road Trade Post;;;;;;;;;;;;;x
 tr_silk_road_1_desc;This is a small but vibrant trading post on the Silk Road.;;;;;;;;;;;;;x
@@ -2164,6 +2660,7 @@ tr_silk_road_2;Silk Road Market;;;;;;;;;;;;;x
 tr_silk_road_2_desc;This Silk Road trading post has grown into a large town, offering more protection against raiders and brigands and thus attracting more merchants who prefer to stay here and trade.;;;;;;;;;;;;;x
 tr_silk_road_3;Major Silk Road City;;;;;;;;;;;;;x
 tr_silk_road_3_desc;This is a major trading hub on the Silk Road, where merchants come from all directions to trade their wares. All goods and services known to civilized man can be found here, and a myriad of languages echo through the many streets and alleys.;;;;;;;;;;;;;x
+empire_of_altaic;Empire of;;;;;;;;;;;;;x
 d_lappish_band;Lapp Band;;;;;;;;;;;;;x
 d_lappish_band_adj;Lappish;;;;;;;;;;;;;x
 title_commander;Commander;;;;;;;;;;;;;x
@@ -2399,4 +2896,6 @@ HORDE_RETTYPE_CAV5;Light Vanguard;;;;;;;;;;;;;x
 HORDE_RETTYPE_CAV6;Heavy Vanguard;;;;;;;;;;;;;x
 HORDE_RETTYPE_CAV7;Horse Archer;;;;;;;;;;;;;x
 HORDE_RETTYPE_EUROPE;Lancer;;;;;;;;;;;;;x
+nomadic_emperor_female;Khatun;;;;;;;;;;;;;x
+nomadic_king_female;Khanum;;;;;;;;;;;;;x
 e_chagatai;Chagatai;;;;;;;;;;;;;x
