@@ -109,7 +109,6 @@ def get_more_keys_to_override(where, localisation, max_provs):
     return override, missing_loc, ul_titles
 
 def main():
-    global keys_to_override
     start_time = time.time()
     english = collections.defaultdict(str)
     for path in ck2parser.files('English SWMH/localisation/*',
