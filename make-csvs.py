@@ -110,12 +110,6 @@ def get_more_keys_to_override(where, localisation, max_provs):
 
 def main():
     start_time = time.time()
-    english = collections.defaultdict(str)
-    for path in ck2parser.files('English SWMH/localisation/*',
-                                basedir=rootpath):
-        for row in ck2parser.csv_rows(path):
-            if row[0] not in english:
-                english[row[0]] = row[1]
     prov_id, prov_title = get_province_id(swmhpath)
     max_provs = ck2parser.max_provinces(swmhpath)
     cultures, cult_groups = ck2parser.cultures(swmhpath)
@@ -131,7 +125,7 @@ def main():
     prev_loc = collections.defaultdict(str)
     prev_lt = collections.defaultdict(str)
 
-    templates = rootpath / 'SED2/templates'
+    templates = rootpath / 'SED2/templates/SED2'
     for path in ck2parser.files('localisation/*', basedir=templates):
         prev_loc.update({row[0].strip(): row[1].strip()
                          for row in ck2parser.csv_rows(path)})
@@ -185,7 +179,7 @@ def main():
             swmh_files.add(inpath.name)
             outpath = templates_t / inpath.relative_to(swmhpath)
             out_rows = [
-                ['#CODE', 'SED2', 'SWMH', 'OTHER', 'SED1', 'VANILLA']]
+                ['#CODE', 'SED2', 'SWMH', 'OTHER', 'VANILLA']]
             col_width = [0, 8]
             for row in ck2parser.csv_rows(inpath, comments=True):
                 try:
@@ -201,7 +195,6 @@ def main():
                                        prev_loc[row[0]],
                                        row[1],
                                        ','.join(dynamics[row[0]]),
-                                       english[row[0]],
                                        vanilla.get(row[0], '')]
                             out_rows.append(out_row)
                 except IndexError:
@@ -250,7 +243,7 @@ def main():
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
         override_rows = [
-            ['#CODE', 'SED2', 'SWMH', 'OTHER', 'SED1', 'VANILLA']]
+            ['#CODE', 'SED2', 'SWMH', 'OTHER', 'VANILLA']]
         col_width = [0, 8]
         for key in keys_to_add:
             out_row = [key, prev_loc[key], '', '', '', key]
@@ -269,7 +262,6 @@ def main():
                                    prev_loc[key],
                                    '',
                                    ','.join(dynamics[key]),
-                                   english[key],
                                    val]
                         override_rows.append(out_row)
                         overridden_keys.add(key)

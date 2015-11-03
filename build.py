@@ -11,7 +11,7 @@ import ck2parser
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.1.1'
+version = 'v2.1.2-BETA'
 if no_provinces:
     version += '-noprovinces'
 
@@ -31,10 +31,10 @@ province_loc_files = [
 
 def main():
     start_time = time.time()
-    templates = sed2path / 'templates'
+    templates = sed2path / 'templates/SED2'
     templates_loc = templates / 'localisation'
     templates_lt = templates / 'common/landed_titles'
-    build = sed2path / 'SED2'
+    build = sed2path / 'build/SED2'
     build_loc = build / 'localisation'
     build_lt = build / 'common/landed_titles'
     while build.exists():
