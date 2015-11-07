@@ -14,6 +14,7 @@ vanilladir = ck2parser.vanilladir
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 vietpath = rootpath / 'VIET/VIET_Assets'
 emfpath = rootpath / 'EMF/EMF'
+emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 
 def get_province_id(where):
     province_id = {}
@@ -56,7 +57,7 @@ def get_gov_prefixes(where):
                     prefixes.append(prefix)
     return prefixes
 
-def get_more_keys_to_override(localisation, max_provs, *moddirs):
+def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
     override = {
         # A Bookmarks.csv
         'VIKING_ERA', 'VIKING_ERA_INFO', 'EARLY_MED', 'EARLY_MED_INFO'
@@ -90,25 +91,26 @@ def get_more_keys_to_override(localisation, max_provs, *moddirs):
                                          *moddirs):
         for n, v in tree:
             override.add(n.val)
-    for _, tree in ck2parser.parse_files('common/trade_routes/*', *moddirs):
-        for n, v in tree:
-            override.add(n.val)
-    for glob in ['history/provinces/*', 'history/titles/*']:
-        for _, tree in ck2parser.parse_files(glob, *moddirs):
+    if extra:
+        for _, tree in ck2parser.parse_files('common/trade_routes/*', *moddirs):
             for n, v in tree:
-                if isinstance(n, ck2parser.Date):
-                    for n2, v2 in v:
-                        if n2.val in ('name', 'adjective'):
-                            if v2.val in localisation:
-                                override.add(v2.val)
-                            else:
-                                missing_loc.append(v2.val)
-    for i in range(1, max_provs):
-        key = 'PROV{}'.format(i)
-        if key in localisation:
-            override.add(key)
-        else:
-            missing_loc.append(key)
+                override.add(n.val)
+        for glob in ['history/provinces/*', 'history/titles/*']:
+            for _, tree in ck2parser.parse_files(glob, *moddirs):
+                for n, v in tree:
+                    if isinstance(n, ck2parser.Date):
+                        for n2, v2 in v:
+                            if n2.val in ('name', 'adjective'):
+                                if v2.val in localisation:
+                                    override.add(v2.val)
+                                else:
+                                    missing_loc.append(v2.val)
+        for i in range(1, max_provs):
+            key = 'PROV{}'.format(i)
+            if key in localisation:
+                override.add(key)
+            else:
+                missing_loc.append(key)
     return override, missing_loc, ul_titles
 
 def main():
@@ -183,6 +185,7 @@ def main():
         (templates_t_sed2 / 'localisation').mkdir(parents=True)
         (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
         (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
+        (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
         swmh_files = set()
         for inpath in ck2parser.files('localisation/*', basedir=swmhpath):
             swmh_files.add(inpath.name)
@@ -262,10 +265,7 @@ def main():
             if path.name not in swmh_files:
                 override_rows.append(['#' + path.name, '', '', '', ''])
                 for row in ck2parser.csv_rows(path):
-                    try:
-                        key, val = row[:2]
-                    except ValueError:
-                        continue
+                    key, val = row[:2]
                     if should_override(key) and key not in overridden_keys:
                         out_row = [key,
                                    prev_loc[key],
@@ -284,26 +284,17 @@ def main():
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
         # VIET
-        loc_viet = ck2parser.localisation(vietpath)
-        # wrongly assuming viet overrides all values, so be careful with this
-        # loc_with_viet = localisation.update(loc_viet)
-        # keys_to_override, keys_to_add, ul_titles = get_more_keys_to_override(
-        #     loc_with_viet, max_provs, swmhpath, vietpath)
-        # keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         overridden_keys = set()
         prev_loc_viet = collections.defaultdict(str)
         inpath = templates / 'SED2+VIET/localisation/A A SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in ck2parser.csv_rows(inpath)})
-        viet_rows = [
-            ['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
+        viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
+        col_width = [0, 8]
         for path in ck2parser.files('localisation/*', basedir=vietpath):
             viet_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in ck2parser.csv_rows(path):
-                try:
-                    key, val = row[:2]
-                except ValueError:
-                    continue
+                key, val = row[:2]
                 if (should_override(key) and key not in overridden_keys and
                     key not in swmh_loc):
                     out_row = [key,
@@ -324,7 +315,55 @@ def main():
             csv.writer(csvfile, dialect='ckii').writerows(viet_rows)
 
         # EMF
-
+        overridden_keys = set()
+        loc_emf = ck2parser.localisation(emfpath)
+        keys_to_override, _, ul_titles = get_more_keys_to_override(
+            loc_emf, max_provs, swmhpath, emfpath, emfswmhpath, extra=False)
+        keys_to_override.update(cultures, cult_groups, religions, rel_groups)
+        keys_to_add = ['Saint-Empire Romain']
+        prev_loc_emf = collections.defaultdict(str)
+        inpath = templates / 'SED2+EMF/localisation/A A SED+EMF.csv'
+        prev_loc_emf.update({row[0].strip(): row[1].strip()
+                             for row in ck2parser.csv_rows(inpath)})
+        title_re = '|'.join(ul_titles)
+        noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
+                       '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
+                       '(_female)?(_({}|{}))?').format(type_re, title_re,
+                                                       culture_re, religion_re)
+        for _, tree in ck2parser.parse_files('common/landed_titles/*',
+                                             emfpath):
+            # iterate for side effects (add to titles)
+            for _ in recurse(tree):
+                pass
+        emf_rows = [
+            ['#CODE', 'SED+EMF', 'EMF', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
+        col_width = [0, 8]
+        for key in keys_to_add:
+            out_row = [key, prev_loc_emf[key], key, '', '', '', '']
+            emf_rows.append(out_row)
+            col_width[0] = max(len(key), col_width[0])
+        for path in ck2parser.files('localisation/*', basedir=emfpath):
+            emf_rows.append(['#' + path.name, '', '', '', '', ''])
+            for row in ck2parser.csv_rows(path):
+                key, val = row[:2]
+                if should_override(key) and key not in overridden_keys:
+                    out_row = [key,
+                               prev_loc_emf[key],
+                               val,
+                               swmh_loc.get(key, ''),
+                               ','.join(dynamics[key]),
+                               prev_loc[key],
+                               vanilla.get(key, '')]
+                    emf_rows.append(out_row)
+                    overridden_keys.add(key)
+                    col_width[0] = max(len(key), col_width[0])
+            for i, out_row in enumerate(emf_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t / inpath.relative_to(templates)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(emf_rows)
 
         while templates.exists():
             print('Removing old templates...')
