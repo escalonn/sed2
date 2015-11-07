@@ -157,18 +157,23 @@ def main():
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         overridden_keys = set()
         titles = set()
-        prev_loc = collections.defaultdict(str)
+        prev_dyn = collections.defaultdict(str)
         prev_lt = collections.defaultdict(str)
+        prev_loc = collections.defaultdict(str)
 
         templates = rootpath / 'SED2/templates'
         templates_sed2 = templates / 'SED2'
-        for path in ck2parser.files('localisation/*', basedir=templates_sed2):
-            prev_loc.update({row[0].strip(): row[1].strip()
+        for path in ck2parser.files('common/dynasties/*',
+                                    basedir=templates_sed2):
+            prev_dyn.update({int(row[0]): row[1].strip()
                              for row in ck2parser.csv_rows(path)})
         for path in ck2parser.files('common/landed_titles/*',
                                     basedir=templates_sed2):
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in ck2parser.csv_rows(path)})
+        for path in ck2parser.files('localisation/*', basedir=templates_sed2):
+            prev_loc.update({row[0].strip(): row[1].strip()
+                             for row in ck2parser.csv_rows(path)})
 
         gov_prefixes = get_gov_prefixes(swmhpath)
         type_re = '|'.join(['family_palace_', 'vice_royalty_'] + gov_prefixes)
@@ -182,17 +187,18 @@ def main():
 
         templates_t = pathlib.Path(td)
         templates_t_sed2 = templates_t / 'SED2'
-        (templates_t_sed2 / 'localisation').mkdir(parents=True)
+        (templates_t_sed2 / 'common/dynasties').mkdir(parents=True)
         (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
-        (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
+        (templates_t_sed2 / 'localisation').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
+        (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
         swmh_files = set()
         for inpath in ck2parser.files('localisation/*', basedir=swmhpath):
             swmh_files.add(inpath.name)
             outpath = templates_t_sed2 / inpath.relative_to(swmhpath)
             out_rows = [
                 ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
-            col_width = [0, 8]
+            col_width = [5, 8]
             for row in ck2parser.csv_rows(inpath, comments=True):
                 try:
                     if row[0]:
@@ -226,8 +232,8 @@ def main():
 
         for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
                                                   swmhpath):
-            out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
-            col_width = [0, 0, 8]
+            out_rows = [['#TITLE', 'KEY', 'SED', 'SWMH']]
+            col_width = [6, 3, 8]
             for title, pairs in recurse(tree):
                 # here disabled for now: preservation of modifiers added to
                 # template and not found in landed_titles (slow)
@@ -244,11 +250,12 @@ def main():
                         if key in lt_keys_not_cultures:
                             out_row[2] = out_row[3]
                         out_rows.append(out_row)
-                        for c in range(2):
-                            col_width[c] = max(len(out_row[c]), col_width[c])
-            for out_row in out_rows:
-                for col, width in enumerate(col_width):
-                    out_row[col] = out_row[col].ljust(width)
+                        for col, width in enumerate(col_width[:-1]):
+                            col_width[col] = max(len(out_row[col]), width)
+            for i, out_row in enumerate(out_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
             outpath = (templates_t_sed2 / inpath.with_suffix('.csv').
                        relative_to(inpath.parents[2]))
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
@@ -256,7 +263,7 @@ def main():
 
         override_rows = [
             ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
-        col_width = [0, 8]
+        col_width = [5, 8]
         for key in keys_to_add:
             out_row = [key, prev_loc[key], '', '', '', key]
             override_rows.append(out_row)
@@ -283,6 +290,42 @@ def main():
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
+        # dynasties
+        dyn_ids = set()
+        swmh_rows = [['#ID', 'SED', 'SWMH']]
+        vanilla_rows = [['#ID', 'SED', 'VANILLA']]
+        swmh_col_width = [3, 8]
+        vanilla_col_width = [3, 8]
+        for inpath, tree in ck2parser.parse_files('common/dynasties/*',
+                                                  swmhpath):
+            if swmhpath in inpath.parents:
+                out_rows = swmh_rows
+                col_width = swmh_col_width
+            else:
+                out_rows = vanilla_rows
+                col_width = vanilla_col_width
+            out_rows.append(['#' + inpath.name, '', ''])
+            for n, v in tree:
+                dyn_id = n.val
+                if dyn_id in dyn_ids:
+                    print('Duplicate dynasty ID {}'.format(dyn_id))
+                dyn_ids.add(dyn_id)
+                out_row = [str(dyn_id), prev_dyn[dyn_id], v['name'].val]
+                out_rows.append(out_row)
+                col_width[0] = max(len(out_row[0]), col_width[0])
+        for out_rows, col_width in [(swmh_rows, swmh_col_width),
+                                    (vanilla_rows, vanilla_col_width)]:
+            for i, out_row in enumerate(out_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t_sed2 / 'common/dynasties/SWMH.csv'
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(swmh_rows)
+        outpath = templates_t_sed2 / 'common/dynasties/vanilla.csv'
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(vanilla_rows)
+
         # VIET
         overridden_keys = set()
         prev_loc_viet = collections.defaultdict(str)
@@ -290,7 +333,7 @@ def main():
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in ck2parser.csv_rows(inpath)})
         viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
-        col_width = [0, 8]
+        col_width = [5, 8]
         for path in ck2parser.files('localisation/*', basedir=vietpath):
             viet_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in ck2parser.csv_rows(path):
@@ -337,7 +380,7 @@ def main():
                 pass
         emf_rows = [
             ['#CODE', 'SED+EMF', 'EMF', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
-        col_width = [0, 8]
+        col_width = [5, 8]
         for key in keys_to_add:
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)

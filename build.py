@@ -11,7 +11,7 @@ import ck2parser
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.1.2-BETA'
+version = 'v2.2.0-BETA'
 if no_provinces:
     version += '-noprovinces'
 
@@ -28,12 +28,14 @@ def main():
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
     templates_lt = templates_sed2 / 'common/landed_titles'
+    templates_dyn = templates_sed2 / 'common/dynasties'
     templates_viet_loc = templates / 'SED2+VIET/localisation'
     templates_emf_loc = templates / 'SED2+EMF/localisation'
     build = sed2path / 'build'
     build_sed2 = build / 'SED2'
     build_loc = build_sed2 / 'localisation'
     build_lt = build_sed2 / 'common/landed_titles'
+    build_dyn = build_sed2 / 'common/dynasties'
     build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
     while build.exists():
@@ -41,6 +43,7 @@ def main():
         shutil.rmtree(str(build), ignore_errors=True)
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
+    build_dyn.mkdir(parents=True)
     build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
     swmh_files = set()
@@ -142,24 +145,25 @@ def main():
         'male_names'] + cultures
     ck2parser.fq_keys = cultures
 
-    def update_tree(v, sed2, lt_keys):
-        for n2, v2 in v:
-            if ck2parser.is_codename(n2.val):
-                if n2.val.startswith('b_') and not no_provinces:
-                    for p3 in reversed(v2.contents):
-                        if p3.key.val in cultures:
-                            v2.contents.remove(p3)
-                elif not no_provinces or re.match(r'[ekd]_', n2.val):
-                    for p3 in reversed(v2.contents):
-                        if p3.key.val in lt_keys:
-                            v2.contents.remove(p3)
-                    if sed2[n2.val]:
+    def update_lt(tree):
+        for n, v in tree:
+            if ck2parser.is_codename(n.val):
+                if n.val.startswith('b_') and not no_provinces:
+                    for p2 in reversed(v.contents):
+                        if p2.key.val in cultures:
+                            v.contents.remove(p2)
+                elif not no_provinces or re.match(r'[ekd]_', n.val):
+                    for p2 in reversed(v.contents):
+                        if p2.key.val in lt_keys:
+                            v.contents.remove(p2)
+                    if sed2[n.val]:
                         index = next(
-                            (i for i, (n3, _) in enumerate(v2)
-                             if ck2parser.is_codename(n3.val)), len(v2))
-                        v2.contents[index:index] = sed2[n2.val]
-                        v2.indent = v2.indent
-                update_tree(v2, sed2, lt_keys)
+                            (i for i, (n2, _) in enumerate(v)
+                             if ck2parser.is_codename(n2.val)), len(v))
+                        v.contents[index:index] = sed2[n.val]
+                        # propagates indent to children
+                        v.indent = v.indent
+                update_lt(v)
 
     for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
                                               basedir=swmhpath):
@@ -177,7 +181,25 @@ def main():
         # from pprint import pprint
         # # pprint(tree.str())
         # pprint(tree.contents[0].str())
-        update_tree(tree, sed2, lt_keys)
+        update_lt(tree)
+        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+            f.write(tree.str())
+
+    # dynasties
+    ck2parser.fq_keys = ['name']
+    sed2 = collections.defaultdict(str)
+    for path in ck2parser.files('common/dynasties/*', basedir=templates_sed2):
+        for row in ck2parser.csv_rows(path):
+            dyn_id, name = int(row[0]), row[1].strip()
+            # logic here concerns how dupe IDs are interpreted
+            if name:
+                sed2[dyn_id] = name
+    for inpath, tree in ck2parser.parse_files('common/dynasties/*', swmhpath):
+        for n, v in tree:
+            dyn_id = int(n.val)
+            if sed2[dyn_id]:
+                v['name'].value.val = sed2[dyn_id]
+        outpath = build_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
 
