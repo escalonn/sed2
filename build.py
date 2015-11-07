@@ -198,7 +198,9 @@ def main():
         for n, v in tree:
             dyn_id = int(n.val)
             if sed2[dyn_id]:
-                v['name'].value.val = sed2[dyn_id]
+                name = v['name'].value
+                ck2parser.prepend_post_comment(name, name.val)
+                name.val = sed2[dyn_id]
         outpath = build_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
