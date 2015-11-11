@@ -15,6 +15,7 @@ swmhpath = rootpath / 'SWMH-BETA/SWMH'
 vietpath = rootpath / 'VIET/VIET_Assets'
 emfpath = rootpath / 'EMF/EMF'
 emfswmhpath = rootpath / 'EMF/EMF+SWMH'
+arkopath = rootpath / 'ARKOpack_Armoiries'
 
 def get_province_id(where):
     province_id = {}
@@ -158,6 +159,7 @@ def main():
         overridden_keys = set()
         titles = set()
         prev_dyn = collections.defaultdict(str)
+        orig_dyn = collections.defaultdict(str)
         prev_lt = collections.defaultdict(str)
         prev_loc = collections.defaultdict(str)
 
@@ -192,6 +194,7 @@ def main():
         (templates_t_sed2 / 'localisation').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
         (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
+        (templates_t / 'SED2+ARKO/common/dynasties').mkdir(parents=True)
         swmh_files = set()
         for inpath in ck2parser.files('localisation/*', basedir=swmhpath):
             swmh_files.add(inpath.name)
@@ -318,6 +321,7 @@ def main():
                     print('Duplicate dynasty ID {}'.format(dyn_id))
                 dyn_ids.add(dyn_id)
                 name = v['name'].val
+                orig_dyn[dyn_id] = name
                 try:
                     culture = v['culture'].val
                 except KeyError:
@@ -341,6 +345,44 @@ def main():
         outpath = templates_t_sed2 / 'common/dynasties/vanilla.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(vanilla_rows)
+
+        # ARKO
+        prev_arko_dyn = collections.defaultdict(str, prev_dyn)
+        inpath = templates / 'SED2+ARKO/common/dynasties/ARKO.csv'
+        prev_arko_dyn.update({int(row[0]): row[1].strip()
+                              for row in ck2parser.csv_rows(inpath)})
+        out_rows = [['#ID', 'SED+ARKO', 'SED', 'ARKO', 'OTHER', 'CULTURE',
+                     'CHARACTERS']]
+        col_width = [3, 8]
+        for path, tree in ck2parser.parse_files('common/dynasties/*',
+                                                basedir=arkopath):
+            out_rows.append(['#' + path.name, '', '', '', '', '', ''])
+            for n, v in tree:
+                dyn_id = n.val
+                name = v['name'].val
+                try:
+                    culture = v['culture'].val
+                except KeyError:
+                    culture = ''
+                # REMOVE this when ready to make arko-specific changes, if any
+                if not prev_arko_dyn[dyn_id]:
+                    prev_arko_dyn[dyn_id] = prev_dyn[dyn_id]
+                out_row = [str(dyn_id),
+                           prev_arko_dyn[dyn_id],
+                           prev_dyn[dyn_id],
+                           name,
+                           orig_dyn[dyn_id],
+                           culture,
+                           '|'.join(str(i) for i in dyn_chars[dyn_id])]
+                out_rows.append(out_row)
+                col_width[0] = max(len(out_row[0]), col_width[0])
+        for i, out_row in enumerate(out_rows):
+            if not out_row[0].startswith('#') or i == 0:
+                for col, width in enumerate(col_width):
+                    out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t / inpath.relative_to(templates)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
         # VIET
         overridden_keys = set()
@@ -377,7 +419,7 @@ def main():
         overridden_keys = set()
         loc_emf = ck2parser.localisation(emfpath)
         keys_to_override, _, ul_titles = get_more_keys_to_override(
-            loc_emf, max_provs, swmhpath, emfpath, emfswmhpath, extra=False)
+            loc_emf, max_provs, emfpath, swmhpath, emfswmhpath, extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         keys_to_add = ['Saint-Empire Romain']
         prev_loc_emf = collections.defaultdict(str)

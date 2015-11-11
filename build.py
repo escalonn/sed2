@@ -17,6 +17,7 @@ if no_provinces:
 
 rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
+arkopath = rootpath / 'ARKOpack_Armoiries'
 sed2path = rootpath / 'SED2'
 
 province_loc_files = [
@@ -31,6 +32,7 @@ def main():
     templates_dyn = templates_sed2 / 'common/dynasties'
     templates_viet_loc = templates / 'SED2+VIET/localisation'
     templates_emf_loc = templates / 'SED2+EMF/localisation'
+    templates_arko_dyn = templates / 'SED2+ARKO/common/dynasties'
     build = sed2path / 'build'
     build_sed2 = build / 'SED2'
     build_loc = build_sed2 / 'localisation'
@@ -38,6 +40,7 @@ def main():
     build_dyn = build_sed2 / 'common/dynasties'
     build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
+    build_arko_dyn = build / 'SED2+ARKO/common/dynasties'
     while build.exists():
         print('Removing old build...')
         shutil.rmtree(str(build), ignore_errors=True)
@@ -46,6 +49,7 @@ def main():
     build_dyn.mkdir(parents=True)
     build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
+    build_arko_dyn.mkdir(parents=True)
     swmh_files = set()
     sed2 = {}
     keys_to_blank = set()
@@ -198,10 +202,30 @@ def main():
         for n, v in tree:
             dyn_id = int(n.val)
             if sed2[dyn_id]:
-                name = v['name'].value
+                name = v['name']
                 ck2parser.prepend_post_comment(name, name.val)
                 name.val = sed2[dyn_id]
         outpath = build_dyn / inpath.name
+        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+            f.write(tree.str())
+
+    # ARKO
+    # sed2 carried over
+    inpath = templates_arko_dyn / 'ARKO.csv'
+    for row in ck2parser.csv_rows(inpath):
+        dyn_id, name = int(row[0]), row[1].strip()
+        # logic here concerns how dupe IDs are interpreted
+        if name:
+            sed2[dyn_id] = name
+    for inpath, tree in ck2parser.parse_files('common/dynasties/*',
+                                              basedir=arkopath):
+        for n, v in tree:
+            dyn_id = int(n.val)
+            if sed2[dyn_id]:
+                name = v['name']
+                ck2parser.prepend_post_comment(name, name.val)
+                name.val = sed2[dyn_id]
+        outpath = build_arko_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
 
