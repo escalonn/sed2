@@ -364,9 +364,6 @@ def main():
                     culture = v['culture'].val
                 except KeyError:
                     culture = ''
-                # REMOVE this when ready to make arko-specific changes, if any
-                if not prev_arko_dyn[dyn_id]:
-                    prev_arko_dyn[dyn_id] = prev_dyn[dyn_id]
                 out_row = [str(dyn_id),
                            prev_arko_dyn[dyn_id],
                            prev_dyn[dyn_id],

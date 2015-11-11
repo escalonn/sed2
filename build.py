@@ -215,6 +215,7 @@ def main():
     for row in ck2parser.csv_rows(inpath):
         dyn_id, name = int(row[0]), row[1].strip()
         # logic here concerns how dupe IDs are interpreted
+        # TEMPORARY: let SED definitions override blank SED+ARKO definitions
         if name:
             sed2[dyn_id] = name
     for inpath, tree in ck2parser.parse_files('common/dynasties/*',
