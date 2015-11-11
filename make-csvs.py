@@ -318,7 +318,7 @@ def main():
         overridden_keys = set()
         loc_emf = ck2parser.localisation(emfpath)
         keys_to_override, _, ul_titles = get_more_keys_to_override(
-            loc_emf, max_provs, swmhpath, emfpath, emfswmhpath, extra=False)
+            loc_emf, max_provs, emfpath, swmhpath, emfswmhpath, extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         keys_to_add = ['Saint-Empire Romain']
         prev_loc_emf = collections.defaultdict(str)
