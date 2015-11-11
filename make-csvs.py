@@ -299,8 +299,8 @@ def main():
                 except KeyError:
                     pass
         dyn_ids = set()
-        swmh_rows = [['#ID', 'SED', 'SWMH', 'CHARACTERS']]
-        vanilla_rows = [['#ID', 'SED', 'VANILLA', 'CHARACTERS']]
+        swmh_rows = [['#ID', 'SED', 'SWMH', 'CULTURE', 'CHARACTERS']]
+        vanilla_rows = [['#ID', 'SED', 'VANILLA', 'CULTURE', 'CHARACTERS']]
         swmh_col_width = [3, 8]
         vanilla_col_width = [3, 8]
         for inpath, tree in ck2parser.parse_files('common/dynasties/*',
@@ -311,15 +311,21 @@ def main():
             else:
                 out_rows = vanilla_rows
                 col_width = vanilla_col_width
-            out_rows.append(['#' + inpath.name, '', '', ''])
+            out_rows.append(['#' + inpath.name, '', '', '', ''])
             for n, v in tree:
                 dyn_id = n.val
                 if dyn_id in dyn_ids:
                     print('Duplicate dynasty ID {}'.format(dyn_id))
                 dyn_ids.add(dyn_id)
+                name = v['name'].val
+                try:
+                    culture = v['culture'].val
+                except KeyError:
+                    culture = ''
                 out_row = [str(dyn_id),
                            prev_dyn[dyn_id],
-                           v['name'].val,
+                           name,
+                           culture,
                            '|'.join(str(i) for i in dyn_chars[dyn_id])]
                 out_rows.append(out_row)
                 col_width[0] = max(len(out_row[0]), col_width[0])
