@@ -142,7 +142,6 @@ c_udabhanda_adj                                ;Muzaffarabad;;;Udabhandan
 c_purushapura_adj                              ;Peshawar;;;Purushapuran
 c_nandana_adj                                  ;Nandana ;;;Nandana
 c_kasmira_adj                                  ;Kasmira ;;;Kasmiran
-c_quzdar_adj                                   ;Khuzdar ;;;Quzdar
 c_wana_adj                                     ;Loralai ;;;Wana
 c_kandail_adj                                  ;Kandail ;;;Kandail
 c_makran_adj                                   ;Makran  ;;;Makran
@@ -559,23 +558,14 @@ c_qom_adj                                      ;Qom     ;;;Qomian
 c_hamadan_adj                                  ;Hamadan ;;;Hamadian
 c_rayy_adj                                     ;Ray     ;;;Rayyan
 c_balkh_adj                                    ;Balkhan ;;;Balkhian
-k_mesopotamia                                  ;Mesopotamia;;;Mesopotamia
-k_mesopotamia_adj                              ;Mesopotamian;;;Mesopotamian
-d_kermanshah                                   ;Kermanshah;;;Kermanshah
-d_kermanshah_adj                               ;Kermanshah;;;Kermanshahi
 c_qazwin_adj                                   ;Qazvin  ;;;Qazwinian
 c_kermanshah_adj                               ;Kermanshah;;;Kermanshahian
 c_luristan_adj                                 ;Lorestanian;;;Luristian
-d_tigris                                       ;Tigris  ;;;Tigris
-d_tigris_adj                                   ;Tigris  ;;;Tigran
 c_tigris_adj                                   ;Tigris  ;;;Tigrisian
 c_al_amarah_adj                                ;Amarah  ;;;Al Amarahian
 c_al_nasiryah_adj                              ;Nasiriyah;;;Al Nasiryahian
-d_basra                                        ;Basra   ;;;Basra
-d_basra_adj                                    ;Basran  ;;;Basrite
 c_kufa_adj                                     ;Kufan   ;;;Kufan
 c_rummah_adj                                   ;Wadi al-Rummah;;;Rummahian
-c_kuwait_adj                                   ;Kuwaiti ;;;Kuwaitan
 c_basra_adj                                    ;Basran  ;;;Basran
 c_damman_adj                                   ;Dammam  ;;;Dammani
 c_al_hasa_adj                                  ;Al-Ahsa ;;;Al Hasan
@@ -583,7 +573,6 @@ c_bahrein_adj                                  ;Bahraini;;;Bahreinian
 d_nefoud                                       ;Nafud   ;;;Nefoud
 d_nefoud_adj                                   ;Nafud   ;;;Nefoudi
 c_al_nadjaf_adj                                ;Najaf   ;;;Al Nadjafian
-c_al_habbariyah_adj                            ;Al Habbariyah;;;Al Habbariyahian
 c_ar_ar_adj                                    ;Sakakah ;;;Shakian
 c_madaba_adj                                   ;Madaba  ;;;Madaban
 c_az_zarqa_adj                                 ;Zarqa   ;;;Az Zarqan
@@ -593,30 +582,18 @@ c_karbala_adj                                  ;Karbala ;;;Karbalan
 c_baghdad_adj                                  ;Baghdadian;;;Baghdadian
 c_deir_adj                                     ;Deir ez-Zor;;;Deirian
 c_kirkuk_adj                                   ;Kirkuk  ;;;Kirkukian
-d_mosul                                        ;Mosul   ;;Mepsila;Mosul
-d_mosul_adj                                    ;Mosul   ;;;Mosulian
 c_mosul_adj                                    ;Mosul   ;;;Mosulian
-c_kurdistan_adj                                ;Kurdish ;;;Kurdistanian
-c_al_jazira_adj                                ;Upper Mesopotamian;;;Al Jaziran
 c_al_bichri_adj                                ;Jabal Bishri;;;Al Bichrian
 c_sinjar_adj                                   ;Sinjar  ;;;Sinjarian
-c_bira_adj                                     ;Birecik ;;;Biranian
 c_oromieh_adj                                  ;Urmian  ;;;Oromiehian
 c_gilan_adj                                    ;Gilan   ;;;Gilanian
 c_tabriz_adj                                   ;Tabrizian;;;Tabrizian
-d_azerbaijan                                   ;Azerbaijan;;Media Atropatene;Azerbaijan
-d_azerbaijan_adj                               ;Azerbaijani;;;Azerbaijani
 c_shirvan_adj                                  ;Shirvan ;;;Shirvanian
 c_azerbaijan_adj                               ;Azerbaijani;;;Azerbaijani
-c_suenik_adj                                   ;Syunik  ;;;Suenikian
-c_shemakha_adj                                 ;Shamakhi;;;Shemakhan
 c_vaspurakan_adj                               ;Vaspurakan;;;Vaspurakani
 c_dwin_adj                                     ;Dvin    ;;;Dwinian
 c_ani_adj                                      ;Ani     ;;;Anian
-c_karin_adj                                    ;Erzurum ;;;Karinian
-c_taron_adj                                    ;Taron   ;;;Taronian
 c_amida_adj                                    ;Amidan  ;;;Amidan
-c_nisibin_adj                                  ;Nusaybin;;;Nisibinian
 d_edessa                                       ;Edessa  ;;Ar-Ruha,Urfa,Riha;Edessa
 d_edessa_adj                                   ;Edessan ;;;Edessan
 c_edessa_adj                                   ;Edessan ;;;Edessan
@@ -966,7 +943,6 @@ c_tripoli_adj                                  ;Tripolitan;;;Tripolitanian
 c_baalbek_adj                                  ;Baalbekian;;;Baalbekian
 c_damascus_adj                                 ;Damascene;;;Damascan
 c_amman_adj                                    ;Ammani  ;;;Ammanian
-c_al_mafraq_adj                                ;Mafraq  ;;;Al Mafraqian
 d_syria                                        ;Syria   ;;;Syria
 d_syria_adj                                    ;Syrian  ;;;Syrian
 c_druz_adj                                     ;Druze   ;;;Druzian
@@ -983,7 +959,7 @@ d_the_isles_adj                                ;Manx    ;;;Manx
 d_ulster                                       ;Ulster  ;;Ulaidh,Uladh,Ullagh,Wledd,Ulley;Ulster
 c_tyrone_adj                                   ;Tyrone  ;;;Tir Eoghainian
 c_tyrconnell_adj                               ;Tyrconnellian;;;Tyrconnellian
-d_connacht                                     ;Connacht;;Chonnacht,Connacht,Kunnakster,Chonnaghtey;Connacht
+d_connacht                                     ;Connacht;;Connachta,Kunnakster,Chonnaghtey;Connacht
 c_oriel_adj                                    ;Oriel   ;;;Orielian
 c_kildare_adj                                  ;Kildare ;;;Kildarian
 c_dublin_adj                                   ;Dublin  ;;;Dubliner
@@ -1141,10 +1117,10 @@ d_bulgarian_band_adj                           ;Bulgarian;;;Bulgarian
 d_turkic_band                                  ;Turkic Band;;;Turkic Band
 d_turkic_band_adj                              ;Turkic  ;;;Turkic
 PROV3                                          ;Tyrconnell;;c_tyrconnell,Tír Chonaill,Çheer Chonnal;Tyrconnell
-PROV4                                          ;Tyrone  ;;c_tyrone,Thír Eoghain,Heer Eoin,Tyrone,Tyrowen;Tyrone
+PROV4                                          ;Tyrone  ;;c_tyrone,Tír Eogain,Heer Eoin,Tyrone,Tyrowen;Tyrone
 PROV7                                          ;Oriel   ;;c_oriel,Airgíalla,Oirialla,Oriel;Oriel
-PROV10                                         ;Kildare ;;c_kildare,Chill Dara,Cheeill Darey;Kildare
-PROV11                                         ;Dublin  ;;c_dublin,Dunbhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;Dublin
+PROV10                                         ;Kildare ;;c_kildare,Cill Dara,Cheeill Darey;Kildare
+PROV11                                         ;Dublin  ;;c_dublin,Duibhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;Dublin
 PROV12                                         ;Osraige ;;c_ossory,Osraige;Ossory
 PROV17                                         ;Hereford;;c_hereford,Ergyng;Hereford
 PROV20                                         ;Gwent   ;;c_gwent,Gwent,Isca Augusta;Gwent
@@ -1397,10 +1373,8 @@ PROV529                                        ;Plock   ;;c_plock;Plock
 PROV535                                        ;Volodymyr-Volynsky;;c_vladimir_volynsky;Vladimir Volynsky
 PROV560                                        ;Chersonesus;;c_cherson,Gothia Maritima,Cherson,Korsun;Cherson
 PROV561                                        ;Feodosia;;c_theodosia,Sudaq,Kefe,Cafà,Caffa,Kaffa;Theodosia
-PROV600                                        ;Abkhazia;;c_abkhazia;Abkhazia
-PROV601                                        ;Imereti ;;c_imeretia;Imeretia
+PROV600                                        ;Abkhazia;;c_abkhazia,Anacopia,Anakouphe;Abkhazia
 PROV649                                        ;Basra   ;;c_basra;Basra
-PROV650                                        ;Kuwait  ;;c_kuwait;Kuwait
 PROV651                                        ;Dammam  ;;c_damman;Damman
 PROV652                                        ;Al-Ahsa ;;c_al_hasa;Al Hasa
 PROV653                                        ;Bahrain ;;c_bahrein;Bahrein
@@ -1408,25 +1382,18 @@ PROV655                                        ;Kufa    ;;c_kufa;Kufa
 PROV656                                        ;Tigris  ;;c_tigris;Tigris
 PROV657                                        ;Lorestan;;c_luristan;Luristan
 PROV667                                        ;Tabriz  ;;c_tabriz;Tabriz
-PROV668                                        ;Shirvan ;;c_shirvan;Shirvan
-PROV669                                        ;Shamakhi;;c_shemakha;Shemakha
-PROV670                                        ;Azerbaijan;;c_azerbaijan;Azerbaijan
 PROV671                                        ;Syunik  ;;c_suenik,Sünik,Siwnik;Suenik
-PROV672                                        ;Dvin    ;;c_dwin,Doúbios,Erivan,Dabil;Dwin
-PROV673                                        ;Caucasian Albania;;c_albania;Albania
+PROV672                                        ;Dvin    ;;c_dwin,Doúbios,Dawin,Dabil;Dwin
 PROV674                                        ;Derbent ;;c_derbent;Derbent
 PROV676                                        ;Kakheti ;;c_kakheti;Kakheti
 PROV677                                        ;Guria   ;;c_guria;Guria
-PROV678                                        ;Trabzon ;;c_trapezous,Trabzun,Trapizon,T'rap'izoni,Trébizonde,Trebisonda;Trapezous
-PROV679                                        ;Kartli  ;;c_kartli;Kartli
-PROV680                                        ;Tao     ;;c_tao;Tao
-PROV681                                        ;Ani     ;;c_ani,Anion,Anisi,Anî;Ani
+PROV678                                        ;Trabzon ;;c_trapezous,Trabzun,Trapizon,Trapizoni,Trébizonde,Trebisonda;Trapezous
+PROV680                                        ;Tao     ;;c_tao,Oltu,Tayk;Tao
+PROV681                                        ;Ani     ;;c_ani,Širak,Anion,Anisi,Anî;Ani
 PROV682                                        ;Vaspurakan;;c_vaspurakan,Vaasprakania,Van,Wan;Vaspurakan
 PROV683                                        ;Amida   ;;c_amida,Tigranakert,Diyar-i Bekr,Âmid,Amed;Amida
-PROV684                                        ;Nusaybin;;c_nisibin,Barqa'id;Nisibin
-PROV685                                        ;Kurdistan;;c_kurdistan;Kurdistan
-PROV686                                        ;Urmia   ;;c_oromieh,Vormi,Ourmia,Urmiyah,Urmiye,Urmê;Oromieh
-PROV687                                        ;Kirkuk  ;;c_kirkuk,Corcura,Korkyra;Kirkuk
+PROV686                                        ;Urmia   ;;c_oromieh;Oromieh
+PROV687                                        ;Kirkuk  ;;c_kirkuk,Corcura,Korkyra,Kerkûk,Kerkük;Kirkuk
 PROV688                                        ;Kermanshah;;c_kermanshah;Kermanshah
 PROV690                                        ;Amarah  ;;c_al_amarah;Al Amarah
 PROV691                                        ;Nasiriyah;;c_al_nasiryah;Al Nasiryah
@@ -1434,15 +1401,12 @@ PROV692                                        ;Najaf   ;;c_al_nadjaf;Al Nadjaf
 PROV693                                        ;Baghdad ;;c_baghdad,Ctesiphon,Ktesiphon;Baghdad
 PROV694                                        ;Karbala ;;c_karbala;Karbala
 PROV695                                        ;Deir ez-Zor;;c_deir,Anatha;Deir
-PROV697                                        ;Mosul   ;;c_mosul,Mepsila;Mosul
-PROV698                                        ;Upper Mesopotamia;;c_al_jazira;Al Jazira
+PROV697                                        ;Mosul   ;;c_mosul,Mepsila,Nînwe,Mûsil;Mosul
 PROV699                                        ;Edessa  ;;c_edessa,Ar-Ruha,Urfa,Riha;Edessa
-PROV700                                        ;Birecik ;;c_bira;Bira
 PROV706                                        ;Shebinkarahisar;;c_koloneia,Šebin Kara Hisar,Kogoniya;Koloneia
 PROV707                                        ;Malatya ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî;Melitene
-PROV710                                        ;Jabal Bishri;;c_al_bichri,Circesium,Kirkesion;Al Bichri
-PROV711                                        ;Sinjar  ;;c_sinjar,Singara;Sinjar
-PROV715                                        ;Al Habbariyah;;c_al_habbariyah;Al Habbariyah
+PROV710                                        ;Jabal Bishri;;c_al_bichri,Circesium,Kirkesion,Qerqesin;Al Bichri
+PROV711                                        ;Sinjar  ;;c_sinjar,Singara,Beth Arabaye,Sengal;Sinjar
 PROV718                                        ;Medina  ;;c_medina;Medina
 PROV719                                        ;Mecca   ;;c_mecca;Mecca
 PROV721                                        ;Tabuk   ;;c_tabuk;Tabuk
@@ -2015,7 +1979,6 @@ d_radimichi                                    ;Radimichs;;;Radimichi
 c_viken_adj_norse                              ;Alfheim ;;;Alfish
 d_zoroastrian                                  ;Zoroastrian Church;;;The Zoroastrian Church
 d_zoroastrian_adj                              ;Zoroastrian;;;Zoroastrian
-norse                                          ;Norse   ;;;Norse
 d_novgorod_adj_norse                           ;        ;;;Holmgardian
 d_novgorod_adj_swedish                         ;        ;;;Holmgårdian
 d_novgorod_adj_danish                          ;        ;;;Holmgårdian
