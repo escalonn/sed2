@@ -1741,9 +1741,9 @@ c_polybotos                     ;oghuz              ;Afyon   ;Karahisar-i Sahib
 c_ikonion                       ;turkish            ;        ;Konya
 c_ikonion                       ;turkmen            ;        ;Konya
 c_ikonion                       ;oghuz              ;        ;Konya
-c_laranda                       ;turkish            ;Karaman ;Qarâman
-c_laranda                       ;turkmen            ;Karaman ;Qarâman
-c_laranda                       ;oghuz              ;Karaman ;Qarâman
+c_laranda                       ;turkish            ;        ;Qarâman
+c_laranda                       ;turkmen            ;        ;Qarâman
+c_laranda                       ;oghuz              ;        ;Qarâman
 d_melitene                      ;frankish           ;        ;Melitena
 d_melitene                      ;norman             ;        ;Melitena
 d_melitene                      ;armenian           ;        ;Malat'ya
@@ -1862,13 +1862,14 @@ d_trebizond                     ;ligurian           ;        ;Chaldia
 d_trebizond                     ;italian            ;        ;Chaldia
 d_trebizond                     ;venetian           ;        ;Chaldia
 d_trebizond                     ;dalmatian          ;        ;Chaldia
-c_mesochaldea                   ;turkish            ;Gümüshane;Gümüshane
-c_mesochaldea                   ;turkmen            ;Gümüshane;Gümüshane
-c_mesochaldea                   ;oghuz              ;Gümüshane;Gümüshane
+c_rizaion                       ;georgian           ;        ;Rizini
+c_rizaion                       ;turkish            ;        ;Rize
+c_rizaion                       ;turkmen            ;        ;Rize
+c_rizaion                       ;oghuz              ;        ;Rize
 c_trapezous                     ;frankish           ;        ;Trébizonde
 c_trapezous                     ;norman             ;        ;Trébizonde
 c_trapezous                     ;armenian           ;        ;Trapizon
-c_trapezous                     ;georgian           ;        ;T'rap'izoni
+c_trapezous                     ;georgian           ;        ;Trapizoni
 c_trapezous                     ;turkish            ;        ;Trabzun
 c_trapezous                     ;turkmen            ;        ;Trabzun
 c_trapezous                     ;oghuz              ;        ;Trabzun
@@ -2641,7 +2642,6 @@ c_sogn                          ;short_name         ;yes     ;yes
 c_foerde                        ;short_name         ;yes     ;yes
 c_trondelag                     ;short_name         ;yes     ;yes
 c_steinkjer                     ;short_name         ;yes     ;yes
-c_orkanger                      ;short_name         ;yes     ;yes
 c_naumadal                      ;short_name         ;yes     ;yes
 c_finnmark                      ;finnish            ;        ;Finnmárku
 c_finnmark                      ;karelian           ;        ;Finnmárku
@@ -4902,12 +4902,12 @@ c_tyrone                        ;gothic             ;        ;Heer Eoin
 c_tyrone                        ;english            ;        ;Tyrone
 c_tyrone                        ;saxon              ;        ;Tyrowen
 c_tyrone                        ;anglonorse         ;        ;Tyrowen
-c_tyrone                        ;irish              ;        ;Thír Eoghain
-c_tyrone                        ;scottish           ;        ;Thír Eoghain
-c_tyrone                        ;cumbric            ;        ;Thír Eoghain
-c_tyrone                        ;cornish            ;        ;Thír Eoghain
-c_tyrone                        ;welsh              ;        ;Thír Eoghain
-c_tyrone                        ;breton             ;        ;Thír Eoghain
+c_tyrone                        ;irish              ;        ;Tír Eogain
+c_tyrone                        ;scottish           ;        ;Tír Eogain
+c_tyrone                        ;cumbric            ;        ;Tír Eogain
+c_tyrone                        ;cornish            ;        ;Tír Eogain
+c_tyrone                        ;welsh              ;        ;Tír Eogain
+c_tyrone                        ;breton             ;        ;Tír Eogain
 c_tyrone                        ;norsegaelic        ;        ;Heer Eoin
 c_tyrconnell                    ;irish              ;        ;Tír Chonaill
 c_tyrconnell                    ;scottish           ;        ;Tír Chonaill
@@ -4940,12 +4940,12 @@ d_connacht                      ;icelandic          ;        ;Kunnakster
 d_connacht                      ;gothic             ;        ;Kunnakster
 d_connacht                      ;saxon              ;        ;Kunnakster
 d_connacht                      ;anglonorse         ;        ;Chonnaghtey
-d_connacht                      ;irish              ;        ;Chonnacht
-d_connacht                      ;scottish           ;        ;Connacht
-d_connacht                      ;cumbric            ;        ;Chonnacht
-d_connacht                      ;cornish            ;        ;Chonnacht
-d_connacht                      ;welsh              ;        ;Chonnacht
-d_connacht                      ;breton             ;        ;Chonnacht
+d_connacht                      ;irish              ;        ;Connachta
+d_connacht                      ;scottish           ;        ;Connachta
+d_connacht                      ;cumbric            ;        ;Connachta
+d_connacht                      ;cornish            ;        ;Connachta
+d_connacht                      ;welsh              ;        ;Connachta
+d_connacht                      ;breton             ;        ;Connachta
 d_connacht                      ;norsegaelic        ;        ;Kunnakster
 c_connacht                      ;norse              ;Connacht;Kunnakster
 c_connacht                      ;swedish            ;Connacht;Kunnakster
@@ -4955,12 +4955,12 @@ c_connacht                      ;icelandic          ;Connacht;Kunnakster
 c_connacht                      ;gothic             ;Connacht;Kunnakster
 c_connacht                      ;saxon              ;Connacht;Kunnakster
 c_connacht                      ;anglonorse         ;Connacht;Chonnaghtey
-c_connacht                      ;irish              ;Connacht;Chonnacht
-c_connacht                      ;scottish           ;Connacht;Connacht
-c_connacht                      ;cumbric            ;Connacht;Chonnacht
-c_connacht                      ;cornish            ;Connacht;Chonnacht
-c_connacht                      ;welsh              ;Connacht;Chonnacht
-c_connacht                      ;breton             ;Connacht;Chonnacht
+c_connacht                      ;irish              ;Connacht;Connachta
+c_connacht                      ;scottish           ;Connacht;Connachta
+c_connacht                      ;cumbric            ;Connacht;Connachta
+c_connacht                      ;cornish            ;Connacht;Connachta
+c_connacht                      ;welsh              ;Connacht;Connachta
+c_connacht                      ;breton             ;Connacht;Connachta
 c_connacht                      ;norsegaelic        ;Connacht;Kunnakster
 c_moylurg                       ;irish              ;        ;Magh Luirg
 c_moylurg                       ;scottish           ;        ;Magh Luirg
@@ -4990,12 +4990,12 @@ c_breifne                       ;cornish            ;        ;Liatroim
 c_breifne                       ;welsh              ;        ;Liatroim
 c_breifne                       ;breton             ;        ;Liatroim
 c_breifne                       ;norsegaelic        ;        ;Lheeahtrim
-c_cavan                         ;irish              ;        ;Chabháin
-c_cavan                         ;scottish           ;        ;Cabhán
-c_cavan                         ;cumbric            ;        ;Chabháin
-c_cavan                         ;cornish            ;        ;Chabháin
-c_cavan                         ;welsh              ;        ;Chabháin
-c_cavan                         ;breton             ;        ;Chabháin
+c_cavan                         ;irish              ;        ;An Cabhán
+c_cavan                         ;scottish           ;        ;An Cabhán
+c_cavan                         ;cumbric            ;        ;An Cabhán
+c_cavan                         ;cornish            ;        ;An Cabhán
+c_cavan                         ;welsh              ;        ;An Cabhán
+c_cavan                         ;breton             ;        ;An Cabhán
 c_cavan                         ;norsegaelic        ;        ;Chavan
 d_meath                         ;norse              ;        ;Miðr
 d_meath                         ;swedish            ;        ;Miðr
@@ -5033,8 +5033,8 @@ c_dublin                        ;icelandic          ;Dyflinarskiri;Diflinarskiri
 c_dublin                        ;gothic             ;Dyflinarskiri;Diflinarskiri
 c_dublin                        ;saxon              ;        ;Difelin
 c_dublin                        ;anglonorse         ;        ;Dyflin
-c_dublin                        ;irish              ;        ;Dunbhlinn
-c_dublin                        ;scottish           ;        ;Dunbhlinn
+c_dublin                        ;irish              ;        ;Duibhlinn
+c_dublin                        ;scottish           ;        ;Duibhlinn
 c_dublin                        ;cumbric            ;        ;Dulyn
 c_dublin                        ;cornish            ;        ;Dulyn
 c_dublin                        ;welsh              ;        ;Dulyn
@@ -5070,12 +5070,12 @@ c_leinster                      ;welsh              ;        ;Loch Garman
 c_leinster                      ;breton             ;        ;Loch Garman
 c_leinster                      ;norsegaelic        ;        ;Veisafjorð
 c_kildare                       ;anglonorse         ;        ;Cheeill Darey
-c_kildare                       ;irish              ;        ;Chill Dara
-c_kildare                       ;scottish           ;        ;Chill Dara
-c_kildare                       ;cumbric            ;        ;Chill Dara
-c_kildare                       ;cornish            ;        ;Chill Dara
-c_kildare                       ;welsh              ;        ;Chill Dara
-c_kildare                       ;breton             ;        ;Chill Dara
+c_kildare                       ;irish              ;        ;Cill Dara
+c_kildare                       ;scottish           ;        ;Cill Dara
+c_kildare                       ;cumbric            ;        ;Cill Dara
+c_kildare                       ;cornish            ;        ;Cill Dara
+c_kildare                       ;welsh              ;        ;Cill Dara
+c_kildare                       ;breton             ;        ;Cill Dara
 c_wicklow                       ;norse              ;        ;Wykynlo
 c_wicklow                       ;swedish            ;        ;Wykynlo
 c_wicklow                       ;norwegian          ;        ;Wykynlo
@@ -5084,12 +5084,12 @@ c_wicklow                       ;icelandic          ;        ;Wykynlo
 c_wicklow                       ;gothic             ;        ;Wykynlo
 c_wicklow                       ;saxon              ;        ;Wygingelow
 c_wicklow                       ;anglonorse         ;        ;Wykynlo
-c_wicklow                       ;irish              ;        ;Chill Mhantáin
-c_wicklow                       ;scottish           ;        ;Chill Mhantáin
-c_wicklow                       ;cumbric            ;        ;Chill Mhantáin
-c_wicklow                       ;cornish            ;        ;Chill Mhantáin
-c_wicklow                       ;welsh              ;        ;Chill Mhantáin
-c_wicklow                       ;breton             ;        ;Chill Mhantáin
+c_wicklow                       ;irish              ;        ;Cill Mhantáin
+c_wicklow                       ;scottish           ;        ;Cill Mhantáin
+c_wicklow                       ;cumbric            ;        ;Cill Mhantáin
+c_wicklow                       ;cornish            ;        ;Cill Mhantáin
+c_wicklow                       ;welsh              ;        ;Cill Mhantáin
+c_wicklow                       ;breton             ;        ;Cill Mhantáin
 c_wicklow                       ;norsegaelic        ;        ;Wykynlo
 c_ossory                        ;irish              ;        ;Osraige
 c_ossory                        ;scottish           ;        ;Osraige
@@ -5162,13 +5162,13 @@ c_ormond                        ;cornish            ;        ;An Déise
 c_ormond                        ;welsh              ;        ;An Déise
 c_ormond                        ;breton             ;        ;An Déise
 c_ormond                        ;norsegaelic        ;        ;Veðrafjorðr
-c_thomond                       ;irish              ;        ;An Chláir
-c_thomond                       ;scottish           ;        ;An Chláire
-c_thomond                       ;cumbric            ;        ;An Chláir
-c_thomond                       ;cornish            ;        ;An Chláir
-c_thomond                       ;welsh              ;        ;An Chláir
-c_thomond                       ;breton             ;        ;An Chláir
-c_thomond                       ;norsegaelic        ;        ;Yn Chlaair
+c_thomond                       ;irish              ;        ;An Clár
+c_thomond                       ;scottish           ;        ;An Clár
+c_thomond                       ;cumbric            ;        ;An Clár
+c_thomond                       ;cornish            ;        ;An Clár
+c_thomond                       ;welsh              ;        ;An Cláir
+c_thomond                       ;breton             ;        ;An Clár
+c_thomond                       ;norsegaelic        ;        ;Yn Claair
 c_tipperary                     ;irish              ;        ;Tiobraid Árann
 c_tipperary                     ;scottish           ;        ;Tiobraid Árann
 c_tipperary                     ;welsh              ;        ;Tiobraid Árann
@@ -6101,10 +6101,6 @@ c_bordeaux                      ;roman              ;        ;Burdigala
 c_perigord                      ;greek              ;Vesunna ;Ouesouna
 c_perigord                      ;roman              ;Vesunna ;Vesunna
 c_dauphinedeauvergne            ;short_name         ;yes     ;yes
-c_murat                         ;title              ;VICOMTE ;VICOMTE
-c_murat                         ;title_female       ;VICOMTESSE;VICOMTESSE
-c_murat                         ;foa                ;VICOMTE_FOA;VICOMTE_FOA
-c_murat                         ;title_prefix       ;VICOMTE_OF;VICOMTE_OF
 c_carlades                      ;title              ;VICOMTE ;VICOMTE
 c_carlades                      ;title_female       ;VICOMTESSE;VICOMTESSE
 c_carlades                      ;foa                ;VICOMTE_FOA;VICOMTE_FOA
@@ -7328,18 +7324,14 @@ c_bizerte                       ;greek              ;        ;Hippo Diarrhytos
 c_bizerte                       ;roman              ;        ;Hippo Diarrhytus
 c_kairwan                       ;greek              ;Thysdrus;Thysdrus
 c_kairwan                       ;roman              ;Thysdrus;Thysdrus
-c_mahdia                        ;greek              ;Thapsus ;Thapsus
-c_mahdia                        ;roman              ;Thapsus ;Thapsus
-c_sfax                          ;greek              ;Taparura;Taparura
-c_sfax                          ;roman              ;Taparura;Taparura
+c_sfax                          ;greek              ;Thapsus ;Thapsus
+c_sfax                          ;roman              ;Thapsus ;Thapsus
 d_qamuda                        ;greek              ;Byzacena;Byzacena
 d_qamuda                        ;roman              ;Byzacena;Byzacena
 c_gabes                         ;greek              ;        ;Tacape
 c_gabes                         ;roman              ;        ;Tacapae
 c_djerba                        ;greek              ;Girba   ;Girba
 c_djerba                        ;roman              ;Girba   ;Girba
-c_zuwara                        ;greek              ;Zitha   ;Zitha
-c_zuwara                        ;roman              ;Zitha   ;Zitha
 c_nafzawa                       ;greek              ;Nafta   ;Nepte
 c_nafzawa                       ;roman              ;Nafta   ;Nepte
 c_qashtiliya                    ;greek              ;Gafsa   ;Capsa
@@ -7396,8 +7388,8 @@ c_tangiers                      ;greek              ;Tingis  ;Tingis
 c_tangiers                      ;roman              ;Tingis  ;Tingis
 c_cebta                         ;greek              ;        ;Septem
 c_cebta                         ;roman              ;        ;Septem
-c_malila                        ;greek              ;        ;Rusaddir
-c_malila                        ;roman              ;        ;Rusaddir
+c_nakur                         ;greek              ;Rusadir ;Rusaddir
+c_nakur                         ;roman              ;Rusadir ;Rusaddir
 d_fes                           ;greek              ;Volubilis;Mauretania Volubilis
 d_fes                           ;roman              ;Volubilis;Mauretania Volubilis
 c_fes                           ;greek              ;Volubilis;Volubilis
@@ -7422,7 +7414,23 @@ d_ahwaz                         ;roman              ;Elam    ;Susiana
 c_idhaj                         ;greek              ;Susa    ;Sousa
 c_idhaj                         ;roman              ;Susa    ;Susa
 d_azerbaijan                    ;greek              ;Atropatene;Media Atropatene
+d_azerbaijan                    ;turkish            ;        ;Azarbaijan
+d_azerbaijan                    ;turkmen            ;        ;Azarbaijan
+d_azerbaijan                    ;oghuz              ;        ;Azarbaijan
 d_azerbaijan                    ;roman              ;Atropatene;Media Atropatene
+c_oromieh                       ;andalusian_arabic  ;        ;Urmiyah
+c_oromieh                       ;armenian           ;        ;Vormi
+c_oromieh                       ;greek              ;        ;Ourmia
+c_oromieh                       ;turkish            ;        ;Urmiye
+c_oromieh                       ;turkmen            ;        ;Urmiye
+c_oromieh                       ;oghuz              ;        ;Urmiye
+c_oromieh                       ;bedouin_arabic     ;        ;Urmiyah
+c_oromieh                       ;maghreb_arabic     ;        ;Urmiyah
+c_oromieh                       ;levantine_arabic   ;        ;Urmiyah
+c_oromieh                       ;egyptian_arabic    ;        ;Urmiyah
+c_oromieh                       ;sicilian_arabic    ;        ;Urmiyah
+c_oromieh                       ;kurdish            ;        ;Urmê
+c_azerbaijan                    ;armenian           ;Paytakaran;Paytakaran
 d_nishapur                      ;greek              ;Hyrcania;Hyrkania
 d_nishapur                      ;roman              ;Hyrcania;Hyrcania
 c_tus                           ;greek              ;        ;Tusa
@@ -7465,25 +7473,42 @@ c_baghdad                       ;greek              ;Ctesiphon;Ktesiphon
 c_baghdad                       ;roman              ;Ctesiphon;Ctesiphon
 c_deir                          ;greek              ;Anah    ;Anatha
 c_deir                          ;roman              ;Anah    ;Anatha
+d_kurdistan                     ;turkish            ;        ;Kürdistan
+d_kurdistan                     ;turkmen            ;        ;Kürdistan
+d_kurdistan                     ;oghuz              ;        ;Kürdistan
+d_kurdistan                     ;persian            ;        ;Kordestan
+d_kurdistan                     ;daylamite          ;        ;Kordestan
+d_kurdistan                     ;adhari             ;        ;Kordestan
+d_kurdistan                     ;khorasani          ;        ;Kordestan
 c_kirkuk                        ;greek              ;        ;Korkyra
+c_kirkuk                        ;turkish            ;        ;Kerkük
+c_kirkuk                        ;turkmen            ;        ;Kerkük
+c_kirkuk                        ;oghuz              ;        ;Kerkük
+c_kirkuk                        ;kurdish            ;        ;Kerkûk
 c_kirkuk                        ;roman              ;        ;Corcura
+c_shahrazur                     ;turkish            ;        ;Šehr-i Zor
+c_shahrazur                     ;turkmen            ;        ;Šehr-i Zor
+c_shahrazur                     ;oghuz              ;        ;Šehr-i Zor
+c_shahrazur                     ;kurdish            ;        ;Sehrezûr
 k_punjab                        ;greek              ;India   ;Indike
 k_punjab                        ;roman              ;India   ;India
 e_null                          ;short_name         ;yes     ;yes
 k_bagratid_grand_principality   ;title              ;ISHKHAN ;ISHKHAN
 k_bagratid_grand_principality   ;foa                ;ISHKHAN_FOA;ISHKHAN_FOA
 k_bagratid_grand_principality   ;title_prefix       ;ISHKHAN_OF;ISHKHAN_OF
-d_suenik                        ;turkish            ;Syunik  ;Sünik
-d_suenik                        ;turkmen            ;Syunik  ;Sünik
-d_suenik                        ;oghuz              ;Syunik  ;Sünik
+d_artsakh                       ;turkish            ;Karabakh;Qarabag
+d_artsakh                       ;turkmen            ;Karabakh;Qarabag
+d_artsakh                       ;oghuz              ;Karabakh;Qarabag
+c_artsakh                       ;turkish            ;        ;Artsah
+c_artsakh                       ;turkmen            ;        ;Artsah
+c_artsakh                       ;oghuz              ;        ;Artsah
+d_suenik                        ;turkish            ;        ;Sünik
+d_suenik                        ;turkmen            ;        ;Sünik
+d_suenik                        ;oghuz              ;        ;Sünik
 c_suenik                        ;armenian           ;        ;Siwnik
 c_suenik                        ;turkish            ;        ;Sünik
 c_suenik                        ;turkmen            ;        ;Sünik
 c_suenik                        ;oghuz              ;        ;Sünik
-c_artsakh                       ;armenian           ;Khachen ;Khachen
-c_artsakh                       ;turkish            ;        ;Artsah
-c_artsakh                       ;turkmen            ;        ;Artsah
-c_artsakh                       ;oghuz              ;        ;Artsah
 c_baghk                         ;turkish            ;Kapan   ;Kafan
 c_baghk                         ;turkmen            ;Kapan   ;Kafan
 c_baghk                         ;oghuz              ;Kapan   ;Kafan
@@ -7517,55 +7542,55 @@ c_vaspurakan                    ;levantine_arabic   ;Van     ;Van
 c_vaspurakan                    ;egyptian_arabic    ;Van     ;Van
 c_vaspurakan                    ;sicilian_arabic    ;Van     ;Van
 c_vaspurakan                    ;kurdish            ;Van     ;Wan
-c_corduene                      ;andalusian_arabic  ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;armenian           ;Hasankeyf;Harsenkev
-c_corduene                      ;greek              ;Hasankeyf;Kiphas
-c_corduene                      ;turkish            ;Hasankeyf;Hasankeyf
-c_corduene                      ;turkmen            ;Hasankeyf;Hasankeyf
-c_corduene                      ;oghuz              ;Hasankeyf;Hasankeyf
-c_corduene                      ;bedouin_arabic     ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;maghreb_arabic     ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;levantine_arabic   ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;egyptian_arabic    ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;sicilian_arabic    ;Cizre   ;Jazîrat ibn 'Umar
-c_corduene                      ;kurdish            ;Hasankeyf;Heskîf
-c_oromieh                       ;andalusian_arabic  ;        ;Urmiyah
-c_oromieh                       ;armenian           ;        ;Vormi
-c_oromieh                       ;greek              ;        ;Ourmia
-c_oromieh                       ;turkish            ;        ;Urmiye
-c_oromieh                       ;turkmen            ;        ;Urmiye
-c_oromieh                       ;oghuz              ;        ;Urmiye
-c_oromieh                       ;bedouin_arabic     ;        ;Urmiyah
-c_oromieh                       ;maghreb_arabic     ;        ;Urmiyah
-c_oromieh                       ;levantine_arabic   ;        ;Urmiyah
-c_oromieh                       ;egyptian_arabic    ;        ;Urmiyah
-c_oromieh                       ;sicilian_arabic    ;        ;Urmiyah
-c_oromieh                       ;kurdish            ;        ;Urmê
-d_armenia                       ;andalusian_arabic  ;        ;al-Arminiya
-d_armenia                       ;armenian           ;        ;Hayk
+c_persarmenia                   ;greek              ;Moxoene ;Moex
+c_persarmenia                   ;turkish            ;Bahçesaray;Müküs
+c_persarmenia                   ;turkmen            ;Bahçesaray;Müküs
+c_persarmenia                   ;oghuz              ;Bahçesaray;Müküs
+c_persarmenia                   ;kurdish            ;Moxoene ;Mikis
+c_bznunik                       ;andalusian_arabic  ;Ahlat   ;Akhlât
+c_bznunik                       ;armenian           ;        ;Bznunik
+c_bznunik                       ;greek              ;Ahlat   ;Chalata
+c_bznunik                       ;turkish            ;Ahlat   ;Ahlat
+c_bznunik                       ;turkmen            ;Ahlat   ;Ahlat
+c_bznunik                       ;oghuz              ;Ahlat   ;Ahlat
+c_bznunik                       ;bedouin_arabic     ;Ahlat   ;Akhlât
+c_bznunik                       ;maghreb_arabic     ;Ahlat   ;Akhlât
+c_bznunik                       ;levantine_arabic   ;Ahlat   ;Akhlât
+c_bznunik                       ;egyptian_arabic    ;Ahlat   ;Akhlât
+c_bznunik                       ;sicilian_arabic    ;Ahlat   ;Akhlât
+c_bznunik                       ;kurdish            ;Ahlat   ;Xelat
+d_armenia                       ;andalusian_arabic  ;Arminiya;al-Arminiya
+d_armenia                       ;armenian           ;Ayrarat ;Ayrarat
 d_armenia                       ;greek              ;Ani     ;Anion
+d_armenia                       ;georgian           ;Ani     ;Anisi
 d_armenia                       ;turkish            ;        ;Ermenistan
 d_armenia                       ;turkmen            ;        ;Ermenistan
 d_armenia                       ;oghuz              ;        ;Ermenistan
-d_armenia                       ;bedouin_arabic     ;        ;al-Arminiya
-d_armenia                       ;maghreb_arabic     ;        ;al-Arminiya
-d_armenia                       ;levantine_arabic   ;        ;al-Arminiya
-d_armenia                       ;egyptian_arabic    ;        ;al-Arminiya
-d_armenia                       ;sicilian_arabic    ;        ;al-Arminiya
+d_armenia                       ;bedouin_arabic     ;Arminiya;al-Arminiya
+d_armenia                       ;maghreb_arabic     ;Arminiya;al-Arminiya
+d_armenia                       ;levantine_arabic   ;Arminiya;al-Arminiya
+d_armenia                       ;egyptian_arabic    ;Arminiya;al-Arminiya
+d_armenia                       ;sicilian_arabic    ;Arminiya;al-Arminiya
 d_armenia                       ;kurdish            ;Ani     ;Anî
 c_dwin                          ;andalusian_arabic  ;        ;Dabil
 c_dwin                          ;greek              ;        ;Doúbios
-c_dwin                          ;turkish            ;Yerevan ;Erivan
-c_dwin                          ;turkmen            ;Yerevan ;Erivan
-c_dwin                          ;oghuz              ;Yerevan ;Erivan
+c_dwin                          ;turkish            ;        ;Dawin
+c_dwin                          ;turkmen            ;        ;Dawin
+c_dwin                          ;oghuz              ;        ;Dawin
 c_dwin                          ;bedouin_arabic     ;        ;Dabil
 c_dwin                          ;maghreb_arabic     ;        ;Dabil
 c_dwin                          ;levantine_arabic   ;        ;Dabil
 c_dwin                          ;egyptian_arabic    ;        ;Dabil
 c_dwin                          ;sicilian_arabic    ;        ;Dabil
+c_varazhnunik                   ;armenian           ;        ;Varažnunik
+c_varazhnunik                   ;georgian           ;Amberd  ;Amberdi
+c_ani                           ;armenian           ;Shirak  ;Širak
 c_ani                           ;greek              ;        ;Anion
 c_ani                           ;georgian           ;        ;Anisi
 c_ani                           ;kurdish            ;        ;Anî
+c_bagrewand                     ;turkish            ;Igdir   ;Igdir
+c_bagrewand                     ;turkmen            ;Igdir   ;Igdir
+c_bagrewand                     ;oghuz              ;Igdir   ;Igdir
 c_vanand                        ;andalusian_arabic  ;Kars    ;Qars
 c_vanand                        ;greek              ;Kars    ;Karse
 c_vanand                        ;georgian           ;Kars    ;Karsi
@@ -7581,78 +7606,54 @@ c_vanand                        ;kurdish            ;Kars    ;Qers
 d_lori                          ;georgian           ;Lori    ;Lore
 c_lori                          ;armenian           ;Tashir  ;Tašir
 c_lori                          ;georgian           ;        ;Lore
-c_utik                          ;andalusian_arabic  ;        ;Utiq
-c_utik                          ;bedouin_arabic     ;        ;Utiq
-c_utik                          ;maghreb_arabic     ;        ;Utiq
-c_utik                          ;levantine_arabic   ;        ;Utiq
-c_utik                          ;egyptian_arabic    ;        ;Utiq
-c_utik                          ;sicilian_arabic    ;        ;Utiq
-d_amida                         ;andalusian_arabic  ;Diyar Bakr;Diyar Bakr
-d_amida                         ;armenian           ;Arzanene;Aghdznik
-d_amida                         ;greek              ;Arzanene;Arzanene
-d_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
-d_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
-d_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
-d_amida                         ;bedouin_arabic     ;Diyar Bakr;Diyar Bakr
-d_amida                         ;maghreb_arabic     ;Diyar Bakr;Diyar Bakr
-d_amida                         ;levantine_arabic   ;Diyar Bakr;Diyar Bakr
-d_amida                         ;egyptian_arabic    ;Diyar Bakr;Diyar Bakr
-d_amida                         ;sicilian_arabic    ;Diyar Bakr;Diyar Bakr
-d_amida                         ;kurdish            ;        ;Amed
-c_amida                         ;andalusian_arabic  ;Diyarbakir;Âmid
-c_amida                         ;armenian           ;Tigranocerta;Tigranakert
-c_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
-c_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
-c_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
-c_amida                         ;bedouin_arabic     ;Diyarbakir;Âmid
-c_amida                         ;maghreb_arabic     ;Diyarbakir;Âmid
-c_amida                         ;levantine_arabic   ;Diyarbakir;Âmid
-c_amida                         ;egyptian_arabic    ;Diyarbakir;Âmid
-c_amida                         ;sicilian_arabic    ;Diyarbakir;Âmid
-c_amida                         ;kurdish            ;Diyarbakir;Amed
-c_mardin                        ;andalusian_arabic  ;        ;Mâridîn
-c_mardin                        ;greek              ;        ;Marida
-c_mardin                        ;bedouin_arabic     ;        ;Mâridîn
-c_mardin                        ;maghreb_arabic     ;        ;Mâridîn
-c_mardin                        ;levantine_arabic   ;        ;Mâridîn
-c_mardin                        ;egyptian_arabic    ;        ;Mâridîn
-c_mardin                        ;sicilian_arabic    ;        ;Mâridîn
-c_mardin                        ;kurdish            ;        ;Mêrdîn
 d_taron                         ;andalusian_arabic  ;Manzikert;Minazjird
+d_taron                         ;armenian           ;        ;Daron
 d_taron                         ;greek              ;        ;Taron
-d_taron                         ;turkish            ;Ahlat   ;Ahlat
-d_taron                         ;turkmen            ;Ahlat   ;Ahlat
-d_taron                         ;oghuz              ;Ahlat   ;Ahlat
+d_taron                         ;turkish            ;Manzikert;Malazgird
+d_taron                         ;turkmen            ;Manzikert;Malazgird
+d_taron                         ;oghuz              ;Manzikert;Malazgird
 d_taron                         ;bedouin_arabic     ;Manzikert;Minazjird
 d_taron                         ;maghreb_arabic     ;Manzikert;Minazjird
 d_taron                         ;levantine_arabic   ;Manzikert;Minazjird
 d_taron                         ;egyptian_arabic    ;Manzikert;Minazjird
 d_taron                         ;sicilian_arabic    ;Manzikert;Minazjird
-d_taron                         ;kurdish            ;Manzikert;Malazgird
-c_mesopotamia                   ;andalusian_arabic  ;        ;Akhlât
-c_mesopotamia                   ;greek              ;        ;Chalata
-c_mesopotamia                   ;turkish            ;        ;Ahlat
-c_mesopotamia                   ;turkmen            ;        ;Ahlat
-c_mesopotamia                   ;oghuz              ;        ;Ahlat
-c_mesopotamia                   ;bedouin_arabic     ;        ;Akhlât
-c_mesopotamia                   ;maghreb_arabic     ;        ;Akhlât
-c_mesopotamia                   ;levantine_arabic   ;        ;Akhlât
-c_mesopotamia                   ;egyptian_arabic    ;        ;Akhlât
-c_mesopotamia                   ;sicilian_arabic    ;        ;Akhlât
-c_mesopotamia                   ;kurdish            ;        ;Xelat
-c_taron                         ;andalusian_arabic  ;Malazgirt;Minazjird
+d_taron                         ;kurdish            ;Manzikert;Malazgir
+c_dzopk                         ;andalusian_arabic  ;        ;Šimšat
+c_dzopk                         ;greek              ;        ;Arsamosaton
+c_dzopk                         ;turkish            ;Bingöl  ;Bingöl
+c_dzopk                         ;turkmen            ;Bingöl  ;Bingöl
+c_dzopk                         ;oghuz              ;Bingöl  ;Bingöl
+c_dzopk                         ;bedouin_arabic     ;        ;Šimšat
+c_dzopk                         ;maghreb_arabic     ;        ;Šimšat
+c_dzopk                         ;levantine_arabic   ;        ;Šimšat
+c_dzopk                         ;egyptian_arabic    ;        ;Šimšat
+c_dzopk                         ;sicilian_arabic    ;        ;Šimšat
+c_dzopk                         ;kurdish            ;Ergani  ;Erxenî
+c_taron                         ;andalusian_arabic  ;Mush    ;Muš
+c_taron                         ;armenian           ;        ;Daron
 c_taron                         ;greek              ;        ;Taron
-c_taron                         ;turkish            ;Malazgirt;Malazgird
-c_taron                         ;turkmen            ;Malazgirt;Malazgird
-c_taron                         ;oghuz              ;Malazgirt;Malazgird
-c_taron                         ;bedouin_arabic     ;Malazgirt;Minazjird
-c_taron                         ;maghreb_arabic     ;Malazgirt;Minazjird
-c_taron                         ;levantine_arabic   ;Malazgirt;Minazjird
-c_taron                         ;egyptian_arabic    ;Malazgirt;Minazjird
-c_taron                         ;sicilian_arabic    ;Malazgirt;Minazjird
-c_taron                         ;kurdish            ;Malazgirt;Malazgir
+c_taron                         ;turkish            ;Mush    ;Mus
+c_taron                         ;turkmen            ;Mush    ;Mus
+c_taron                         ;oghuz              ;Mush    ;Mus
+c_taron                         ;bedouin_arabic     ;Mush    ;Muš
+c_taron                         ;maghreb_arabic     ;Mush    ;Muš
+c_taron                         ;levantine_arabic   ;Mush    ;Muš
+c_taron                         ;egyptian_arabic    ;Mush    ;Muš
+c_taron                         ;sicilian_arabic    ;Mush    ;Muš
+c_taron                         ;kurdish            ;Mush    ;Mûs
+c_manzikert                     ;andalusian_arabic  ;        ;Minazjird
+c_manzikert                     ;greek              ;        ;Manzikert
+c_manzikert                     ;turkish            ;        ;Malazgird
+c_manzikert                     ;turkmen            ;        ;Malazgird
+c_manzikert                     ;oghuz              ;        ;Malazgird
+c_manzikert                     ;bedouin_arabic     ;        ;Minazjird
+c_manzikert                     ;maghreb_arabic     ;        ;Minazjird
+c_manzikert                     ;levantine_arabic   ;        ;Minazjird
+c_manzikert                     ;egyptian_arabic    ;        ;Minazjird
+c_manzikert                     ;sicilian_arabic    ;        ;Minazjird
+c_manzikert                     ;kurdish            ;        ;Malazgir
 d_mesopotamia                   ;andalusian_arabic  ;Erzurum ;Arzan ar-Rûm
-d_mesopotamia                   ;armenian           ;Sophene ;Dzopk
+d_mesopotamia                   ;greek              ;Erzurum ;Theodosioupolis
 d_mesopotamia                   ;turkish            ;Erzurum ;Erzen er-Rûm
 d_mesopotamia                   ;turkmen            ;Erzurum ;Erzen er-Rûm
 d_mesopotamia                   ;oghuz              ;Erzurum ;Erzen er-Rûm
@@ -7663,6 +7664,7 @@ d_mesopotamia                   ;egyptian_arabic    ;Erzurum ;Arzan ar-Rûm
 d_mesopotamia                   ;sicilian_arabic    ;Erzurum ;Arzan ar-Rûm
 d_mesopotamia                   ;kurdish            ;Erzurum ;Erzîrom
 c_theodosiopolis                ;andalusian_arabic  ;        ;Arzan ar-Rûm
+c_theodosiopolis                ;armenian           ;        ;Karin
 c_theodosiopolis                ;greek              ;        ;Theodosioupolis
 c_theodosiopolis                ;turkish            ;        ;Erzen er-Rûm
 c_theodosiopolis                ;turkmen            ;        ;Erzen er-Rûm
@@ -7673,6 +7675,23 @@ c_theodosiopolis                ;levantine_arabic   ;        ;Arzan ar-Rûm
 c_theodosiopolis                ;egyptian_arabic    ;        ;Arzan ar-Rûm
 c_theodosiopolis                ;sicilian_arabic    ;        ;Arzan ar-Rûm
 c_theodosiopolis                ;kurdish            ;        ;Erzîrom
+c_sper                          ;greek              ;        ;Syspirátis
+c_sper                          ;georgian           ;        ;Speri
+c_sper                          ;turkish            ;        ;Ispir
+c_sper                          ;turkmen            ;        ;Ispir
+c_sper                          ;oghuz              ;        ;Ispir
+c_sper                          ;kurdish            ;        ;Espîr
+d_dzopk                         ;andalusian_arabic  ;Harput  ;Hisn Ziyad
+d_dzopk                         ;greek              ;Mesopotamia;Mesopotamias
+d_dzopk                         ;turkish            ;Harput  ;Harput
+d_dzopk                         ;turkmen            ;Harput  ;Harput
+d_dzopk                         ;oghuz              ;Harput  ;Harput
+d_dzopk                         ;bedouin_arabic     ;Harput  ;Hisn Ziyad
+d_dzopk                         ;maghreb_arabic     ;Harput  ;Hisn Ziyad
+d_dzopk                         ;levantine_arabic   ;Harput  ;Hisn Ziyad
+d_dzopk                         ;egyptian_arabic    ;Harput  ;Hisn Ziyad
+d_dzopk                         ;sicilian_arabic    ;Harput  ;Hisn Ziyad
+d_dzopk                         ;kurdish            ;Harput  ;Xarpet
 c_karin                         ;andalusian_arabic  ;        ;Arzinjan
 c_karin                         ;greek              ;        ;Keltzene
 c_karin                         ;turkish            ;        ;Erzincan
@@ -7684,17 +7703,17 @@ c_karin                         ;levantine_arabic   ;        ;Arzinjan
 c_karin                         ;egyptian_arabic    ;        ;Arzinjan
 c_karin                         ;sicilian_arabic    ;        ;Arzinjan
 c_karin                         ;kurdish            ;        ;Ezirgan
-c_dzopk                         ;andalusian_arabic  ;Harput  ;Hisn Ziyad
-c_dzopk                         ;greek              ;Mesopotamia;Mesopotamias
-c_dzopk                         ;turkish            ;Harput  ;Harput
-c_dzopk                         ;turkmen            ;Harput  ;Harput
-c_dzopk                         ;oghuz              ;Harput  ;Harput
-c_dzopk                         ;bedouin_arabic     ;Harput  ;Hisn Ziyad
-c_dzopk                         ;maghreb_arabic     ;Harput  ;Hisn Ziyad
-c_dzopk                         ;levantine_arabic   ;Harput  ;Hisn Ziyad
-c_dzopk                         ;egyptian_arabic    ;Harput  ;Hisn Ziyad
-c_dzopk                         ;sicilian_arabic    ;Harput  ;Hisn Ziyad
-c_dzopk                         ;kurdish            ;Harput  ;Xarpet
+c_charpete                      ;andalusian_arabic  ;        ;Hisn Ziyad
+c_charpete                      ;greek              ;Mesopotamia;Mesopotamias
+c_charpete                      ;turkish            ;        ;Harput
+c_charpete                      ;turkmen            ;        ;Harput
+c_charpete                      ;oghuz              ;        ;Harput
+c_charpete                      ;bedouin_arabic     ;        ;Hisn Ziyad
+c_charpete                      ;maghreb_arabic     ;        ;Hisn Ziyad
+c_charpete                      ;levantine_arabic   ;        ;Hisn Ziyad
+c_charpete                      ;egyptian_arabic    ;        ;Hisn Ziyad
+c_charpete                      ;sicilian_arabic    ;        ;Hisn Ziyad
+c_charpete                      ;kurdish            ;        ;Xarpet
 k_jerusalem                     ;andalusian_arabic  ;Palestine;Filastin
 k_jerusalem                     ;greek              ;Syria Palaestina;Palaestina
 k_jerusalem                     ;bedouin_arabic     ;Palestine;Filastin
@@ -8113,29 +8132,97 @@ c_madaba                        ;greek              ;Irbid   ;Arbela
 c_madaba                        ;roman              ;Irbid   ;Arbela
 k_aljazira                      ;greek              ;Assyria ;Assyria
 k_aljazira                      ;roman              ;Assyria ;Assyria
-d_mosul                         ;greek              ;        ;Mepsila
-d_mosul                         ;roman              ;        ;Mepsila
-c_mosul                         ;greek              ;        ;Mepsila
-c_mosul                         ;roman              ;        ;Mepsila
-c_nisibin                       ;andalusian_arabic  ;Barqa‘id;Barqa'id
-c_nisibin                       ;turkish            ;Barqa‘id;Barqa'id
-c_nisibin                       ;turkmen            ;Barqa‘id;Barqa'id
-c_nisibin                       ;oghuz              ;Barqa‘id;Barqa'id
-c_nisibin                       ;bedouin_arabic     ;Barqa‘id;Barqa'id
-c_nisibin                       ;maghreb_arabic     ;Barqa‘id;Barqa'id
-c_nisibin                       ;levantine_arabic   ;Barqa‘id;Barqa'id
-c_nisibin                       ;egyptian_arabic    ;Barqa‘id;Barqa'id
-c_nisibin                       ;sicilian_arabic    ;Barqa‘id;Barqa'id
-c_sinjar                        ;greek              ;Singara ;Singara
-c_sinjar                        ;roman              ;Singara ;Singara
+d_amida                         ;andalusian_arabic  ;Diyar Bakr;Diyar Bakr
+d_amida                         ;armenian           ;Arzanene;Aghdznik
+d_amida                         ;greek              ;Arzanene;Arzanene
+d_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
+d_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
+d_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
+d_amida                         ;bedouin_arabic     ;Diyar Bakr;Diyar Bakr
+d_amida                         ;maghreb_arabic     ;Diyar Bakr;Diyar Bakr
+d_amida                         ;levantine_arabic   ;Diyar Bakr;Diyar Bakr
+d_amida                         ;egyptian_arabic    ;Diyar Bakr;Diyar Bakr
+d_amida                         ;sicilian_arabic    ;Diyar Bakr;Diyar Bakr
+d_amida                         ;kurdish            ;        ;Amed
+c_amida                         ;andalusian_arabic  ;Diyarbakir;Âmid
+c_amida                         ;armenian           ;Tigranocerta;Tigranakert
+c_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;bedouin_arabic     ;Diyarbakir;Âmid
+c_amida                         ;maghreb_arabic     ;Diyarbakir;Âmid
+c_amida                         ;levantine_arabic   ;Diyarbakir;Âmid
+c_amida                         ;egyptian_arabic    ;Diyarbakir;Âmid
+c_amida                         ;sicilian_arabic    ;Diyarbakir;Âmid
+c_amida                         ;kurdish            ;Diyarbakir;Amed
+c_hisn_kayf                     ;andalusian_arabic  ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;armenian           ;Silvan  ;Nprkert
+c_hisn_kayf                     ;greek              ;Silvan  ;Martyropolis
+c_hisn_kayf                     ;turkish            ;        ;Hasankeyf
+c_hisn_kayf                     ;turkmen            ;        ;Hasankeyf
+c_hisn_kayf                     ;oghuz              ;        ;Hasankeyf
+c_hisn_kayf                     ;assyrian           ;Silvan  ;Mayperqit
+c_hisn_kayf                     ;bedouin_arabic     ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;maghreb_arabic     ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;levantine_arabic   ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;egyptian_arabic    ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;sicilian_arabic    ;Silvan  ;Mayyafariqin
+c_hisn_kayf                     ;kurdish            ;        ;Heskîf
 d_jazira                        ;greek              ;Euphratensis;Euphratensis
 d_jazira                        ;roman              ;Euphratensis;Euphratensis
 c_asas                          ;greek              ;        ;Kallinikos
 c_asas                          ;roman              ;        ;Callinicum
 c_al_bichri                     ;greek              ;Circesium;Kirkesion
+c_al_bichri                     ;assyrian           ;Circesium;Qerqesin
 c_al_bichri                     ;roman              ;Circesium;Circesium
 c_harran                        ;greek              ;        ;Karrai
 c_harran                        ;roman              ;        ;Carrhae
+c_mardin                        ;andalusian_arabic  ;        ;Mâridîn
+c_mardin                        ;greek              ;        ;Marida
+c_mardin                        ;assyrian           ;        ;Merdô
+c_mardin                        ;bedouin_arabic     ;        ;Mâridîn
+c_mardin                        ;maghreb_arabic     ;        ;Mâridîn
+c_mardin                        ;levantine_arabic   ;        ;Mâridîn
+c_mardin                        ;egyptian_arabic    ;        ;Mâridîn
+c_mardin                        ;sicilian_arabic    ;        ;Mâridîn
+c_mardin                        ;kurdish            ;        ;Mêrdîn
+c_amadiya                       ;armenian           ;Corduene;Korchayk
+c_amadiya                       ;greek              ;Corduene;Corduene
+c_amadiya                       ;turkish            ;        ;Amadiye
+c_amadiya                       ;turkmen            ;        ;Amadiye
+c_amadiya                       ;oghuz              ;        ;Amadiye
+c_amadiya                       ;kurdish            ;Corduene;Kardox
+c_al_jazira                     ;greek              ;        ;Bethzabde
+c_al_jazira                     ;turkish            ;        ;Cizre
+c_al_jazira                     ;turkmen            ;        ;Cizre
+c_al_jazira                     ;oghuz              ;        ;Cizre
+c_al_jazira                     ;assyrian           ;        ;Gzira
+c_al_jazira                     ;kurdish            ;        ;Cizîr
+c_sinjar                        ;greek              ;Singara ;Singara
+c_sinjar                        ;assyrian           ;Beth ‘Arabaye;Beth Arabaye
+c_sinjar                        ;kurdish            ;        ;Sengal
+c_sinjar                        ;roman              ;Singara ;Singara
+c_bira                          ;armenian           ;        ;Mtsbin
+c_bira                          ;greek              ;        ;Nisibis
+c_bira                          ;turkish            ;        ;Nusaybin
+c_bira                          ;turkmen            ;        ;Nusaybin
+c_bira                          ;oghuz              ;        ;Nusaybin
+c_bira                          ;kurdish            ;        ;Nisêbîn
+c_nineveh                       ;assyrian           ;Adiabene;Hadyab
+c_erbil                         ;andalusian_arabic  ;        ;Arbil
+c_erbil                         ;greek              ;        ;Arbela
+c_erbil                         ;assyrian           ;        ;Arbel
+c_erbil                         ;bedouin_arabic     ;        ;Arbil
+c_erbil                         ;maghreb_arabic     ;        ;Arbil
+c_erbil                         ;levantine_arabic   ;        ;Arbil
+c_erbil                         ;egyptian_arabic    ;        ;Arbil
+c_erbil                         ;sicilian_arabic    ;        ;Arbil
+c_erbil                         ;kurdish            ;        ;Erbil
+c_erbil                         ;roman              ;        ;Arbela
+c_mosul                         ;greek              ;        ;Mepsila
+c_mosul                         ;assyrian           ;        ;Nînwe
+c_mosul                         ;kurdish            ;        ;Mûsil
+c_mosul                         ;roman              ;        ;Mepsila
 k_pomerania                     ;norse              ;        ;Vindarland
 k_pomerania                     ;swedish            ;        ;Vindarland
 k_pomerania                     ;norwegian          ;        ;Vindarland
@@ -11161,8 +11248,49 @@ k_georgia                       ;greek              ;Iberia  ;Iberia
 k_georgia                       ;roman              ;Iberia  ;Iberia
 d_kartli                        ;greek              ;Iberia  ;Iberia
 d_kartli                        ;roman              ;Iberia  ;Iberia
+c_javakheti                     ;turkish            ;Akhalkalaki;Ahilkelek
+c_javakheti                     ;turkmen            ;Akhalkalaki;Ahilkelek
+c_javakheti                     ;oghuz              ;Akhalkalaki;Ahilkelek
+c_samtskhe                      ;turkish            ;Akhaltsikhe;Ahiska
+c_samtskhe                      ;turkmen            ;Akhaltsikhe;Ahiska
+c_samtskhe                      ;oghuz              ;Akhaltsikhe;Ahiska
+d_tao                           ;georgian           ;Tao     ;Tao
+c_tao                           ;armenian           ;Tayk    ;Tayk
+c_tao                           ;turkish            ;Oltu    ;Oltu
+c_tao                           ;turkmen            ;Oltu    ;Oltu
+c_tao                           ;oghuz              ;Oltu    ;Oltu
+c_artaani                       ;armenian           ;        ;Ardahan
+c_artaani                       ;turkish            ;        ;Ardahan
+c_artaani                       ;turkmen            ;        ;Ardahan
+c_artaani                       ;oghuz              ;        ;Ardahan
+c_klarjeti                      ;armenian           ;Ardanuç ;Artanuj
+c_klarjeti                      ;turkish            ;Ardanuç ;Ardanuç
+c_klarjeti                      ;turkmen            ;Ardanuç ;Ardanuç
+c_klarjeti                      ;oghuz              ;Ardanuç ;Ardanuç
+c_tbilisi                       ;andalusian_arabic  ;        ;Tiflis
+c_tbilisi                       ;bedouin_arabic     ;        ;Tiflis
+c_tbilisi                       ;maghreb_arabic     ;        ;Tiflis
+c_tbilisi                       ;levantine_arabic   ;        ;Tiflis
+c_tbilisi                       ;egyptian_arabic    ;        ;Tiflis
+c_tbilisi                       ;sicilian_arabic    ;        ;Tiflis
 d_abkhazia                      ;greek              ;Lazica  ;Lazike
 d_abkhazia                      ;roman              ;Lazica  ;Lazica
+c_odishi                        ;greek              ;Phasis  ;Phasis
+c_odishi                        ;roman              ;Phasis  ;Phasis
+c_abkhazia                      ;greek              ;New Athos;Anakouphe
+c_abkhazia                      ;roman              ;New Athos;Anacopia
+c_imeretia                      ;greek              ;Kutaisi ;Kotais
+c_imeretia                      ;roman              ;Kutaisi ;Kotais
+d_albania                       ;armenian           ;        ;Aghuank
+d_albania                       ;udi                ;        ;Aghuank
+c_arran                         ;armenian           ;Barda   ;Partaw
+c_arran                         ;udi                ;Barda   ;Partaw
+c_utik                          ;andalusian_arabic  ;        ;Utiq
+c_utik                          ;bedouin_arabic     ;        ;Utiq
+c_utik                          ;maghreb_arabic     ;        ;Utiq
+c_utik                          ;levantine_arabic   ;        ;Utiq
+c_utik                          ;egyptian_arabic    ;        ;Utiq
+c_utik                          ;sicilian_arabic    ;        ;Utiq
 c_lekia                         ;andalusian_arabic  ;        ;al-Lakza
 c_lekia                         ;turkish            ;Lezgistan;Lezgistan
 c_lekia                         ;turkmen            ;Lezgistan;Lezgistan
@@ -11199,14 +11327,40 @@ c_lekia                         ;tagelmust          ;        ;al-Lakza
 c_lekia                         ;masmuda            ;        ;al-Lakza
 c_lekia                         ;zanata             ;        ;al-Lakza
 c_lekia                         ;tuareg             ;        ;al-Lakza
+k_canarias                      ;basque             ;        ;Kanariak
 k_canarias                      ;castillan          ;        ;Canarias
+k_canarias                      ;aragonese          ;        ;Canarias
+k_canarias                      ;catalan            ;        ;Canarias
+k_canarias                      ;galician           ;        ;Canárias
+k_canarias                      ;leonese            ;        ;Canarias
+k_canarias                      ;portuguese         ;        ;Canárias
 k_canarias                      ;zanata             ;        ;Kanar
+d_canarias                      ;basque             ;        ;Kanariak
 d_canarias                      ;castillan          ;        ;Canarias
+d_canarias                      ;aragonese          ;        ;Canarias
+d_canarias                      ;catalan            ;        ;Canarias
+d_canarias                      ;galician           ;        ;Canárias
+d_canarias                      ;leonese            ;        ;Canarias
+d_canarias                      ;portuguese         ;        ;Canárias
 d_canarias                      ;zanata             ;        ;Kanar
+c_tenerife                      ;basque             ;        ;Tenerife
 c_tenerife                      ;castillan          ;        ;Tenerife
+c_tenerife                      ;aragonese          ;        ;Tenerife
+c_tenerife                      ;catalan            ;        ;Tenerife
+c_tenerife                      ;galician           ;        ;Tenerife
+c_tenerife                      ;leonese            ;        ;Tenerife
+c_tenerife                      ;portuguese         ;        ;Tenerife
 c_tenerife                      ;zanata             ;        ;Ašenšen
+c_tenerife                      ;canarian           ;Achinet ;Achinet
+c_canarias                      ;basque             ;        ;Kanaria Handia
 c_canarias                      ;castillan          ;        ;Gran Canaria
+c_canarias                      ;aragonese          ;        ;Gran Canaria
+c_canarias                      ;catalan            ;        ;Gran Canaria
+c_canarias                      ;galician           ;        ;Grã Canária
+c_canarias                      ;leonese            ;        ;Gran Canaria
+c_canarias                      ;portuguese         ;        ;Grã Canária
 c_canarias                      ;zanata             ;        ;Tamãran
+c_canarias                      ;canarian           ;        ;Tamarán
 d_mzab                          ;greek              ;Getulia ;Gaetulia
 d_mzab                          ;roman              ;Getulia ;Gaetulia
 c_ghadames                      ;greek              ;        ;Cydamus

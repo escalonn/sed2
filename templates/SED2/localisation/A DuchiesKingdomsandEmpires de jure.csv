@@ -883,9 +883,9 @@ k_fezzan_adj                            ;        ;Fezzanian;;
 #########,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 #Canaries,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 #########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_canarias                              ;Canary Islands;Canarias;Canarias,Kanar;
+k_canarias                              ;Canary Islands;Canarias;Canarias,Kanariak,Kanar,Canárias;
 k_canarias_adj                          ;Canarian;Canarian;;
-d_canarias                              ;Canary Islands;Canarias;Canarias,Kanar;
+d_canarias                              ;Canary Islands;Canarias;Canarias,Kanariak,Kanar,Canárias;
 d_canarias_adj                          ;Canarian;Canaria;;
 ########,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 d_silla                                 ;Silla   ;Silla;;
@@ -3062,6 +3062,8 @@ k_sistan_adj                            ;Sistani ;Sístání;;
 k_sistan                                ;Sistan  ;Sístán;;
 k_persia_adj                            ;Persian ;Pársí;;Persian
 k_persia                                ;Persia  ;Pársa;;Persia
+k_mesopotamia_adj                       ;Iraqi   ;Iraqi;;Mesopotamian
+k_mesopotamia                           ;Iraq    ;Al-Iraq;;Mesopotamia
 k_mavarannahr_adj                       ;Transoxianan;Mavár-an-Nahrí;;
 k_mavarannahr                           ;Transoxiana;Mavár-an-Nahr;Sogdiana,Sogdiane;
 k_khorasan_adj                          ;        ;Khoarásání;;
@@ -3102,6 +3104,12 @@ d_kerman_adj                            ;Kerman  ;Kermání;;Kermani
 d_kerman                                ;Kerman  ;Kermán;Carmania,Karmania;Kerman
 d_kashgar_adj                           ;        ;Kashgarí;;
 d_kashgar                               ;Kashgar ;Kashgar;;Kashgar
+d_kurdistan_adj                         ;Kurdish ;Kurdistaní;;
+d_kurdistan                             ;Kurdistan;Kurdistan;Kürdistan,Kordestan;
+d_kermanshah_adj                        ;Lorestan;Lorestaní;;Kermanshahi
+d_kermanshah                            ;Lorestan;Lorestan;;Kermanshah
+d_tigris_adj                            ;Batihah ;Batihan;;Tigran
+d_tigris                                ;Batihah ;al-Batihah;;Tigris
 d_jebal_adj                             ;        ;Jebalí;;
 d_jebal                                 ;Jibal   ;Jebal;;
 d_jand_adj                              ;        ;Jandí;;
@@ -3221,11 +3229,11 @@ k_iceland                               ;Iceland ;Ísland;;
 k_iceland_adj                           ;Icelandic;Íslandskr;;
 d_iceland                               ;Iceland ;Ísland;;Iceland
 d_iceland_adj                           ;Icelandic;Íslandskr;;Icelandic
-##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-#Caucasus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-#Armenia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+##########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Caucasus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+##,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Armenia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_armenia                               ;Armenia ;Hayk;;Armenia
 k_armenia_adj                           ;Armenian;Hayeren;;Armenian
 d_vaspurakan                            ;Vaspurakan;Vaspurakan;Vaasprakania,Van,Wan;
@@ -3241,12 +3249,19 @@ d_vaspurakan_adj_egyptian_arabic        ;        ;Vanian;;
 d_vaspurakan_adj_andalusian_arabic      ;        ;Vanian;;
 d_vaspurakan_adj_sicilian_arabic        ;        ;Vanian;;
 d_vaspurakan_adj_bedouin_arabic         ;        ;Vanian;;
-d_suenik                                ;Khachen ;Khachen;Sünik;
-d_suenik_adj                            ;        ;Khachenian;;
+d_dzopk                                 ;Sophene ;Dzopk;Mesopotamias,Harput,Hisn Ziyad,Xarpet;
+d_dzopk_adj                             ;Sophenian;Dzopkian;;
+d_artsakh                               ;Khachen ;Khachen;Qarabag;
+d_artsakh_adj                           ;        ;Khachenian;;
+d_artsakh_adj_oghuz                     ;        ;Qarabagi;;
+d_artsakh_adj_turkmen                   ;        ;Qarabagi;;
+d_artsakh_adj_turkish                   ;        ;Qarabagi;;
+d_suenik                                ;Syunik  ;Siwnik;Sünik;
+d_suenik_adj                            ;        ;Siwnikian;;
 d_suenik_adj_oghuz                      ;        ;Sünikian;;
 d_suenik_adj_turkmen                    ;        ;Sünikian;;
 d_suenik_adj_turkish                    ;        ;Sünikian;;
-d_tao                                   ;Tayk    ;Tayk;;
+d_tao                                   ;Tayk    ;Tayk;Tao;
 d_tao_adj                               ;        ;Taykian;;
 d_amida                                 ;Diyarbakir;Amid;Aghdznik,Arzanene,Diyar-i Bekr,Diyar Bakr,Amed;
 d_amida_adj                             ;Diyarbakir;Amidan;;
@@ -3261,21 +3276,18 @@ d_amida_adj_egyptian_arabic             ;Diyar Bakr;Diyar Bakrian;;
 d_amida_adj_andalusian_arabic           ;Diyar Bakr;Diyar Bakrian;;
 d_amida_adj_sicilian_arabic             ;Diyar Bakr;Diyar Bakrian;;
 d_amida_adj_bedouin_arabic              ;Diyar Bakr;Diyar Bakrian;;
-d_taron                                 ;Taron   ;Tarawn;Taron,Ahlat,Minazjird,Malazgird;
-d_taron_adj                             ;        ;Tarawnian;;
-d_taron_adj_oghuz                       ;        ;Ahlatan;;
-d_taron_adj_turkmen                     ;        ;Ahlatan;;
-d_taron_adj_turkish                     ;        ;Ahlatan;;
-d_taron_adj_maghreb_arabic              ;        ;Minazjirdan;;
-d_taron_adj_levantine_arabic            ;        ;Minazjirdan;;
-d_taron_adj_egyptian_arabic             ;        ;Minazjirdan;;
-d_taron_adj_andalusian_arabic           ;        ;Minazjirdan;;
-d_taron_adj_sicilian_arabic             ;        ;Minazjirdan;;
-d_taron_adj_bedouin_arabic              ;        ;Minazjirdan;;
-d_taron_adj_kurdish                     ;        ;Malazgirdan;;
-d_mesopotamia                           ;Mesopotamia;Mesopotamias;Dzopk,Erzen er-Rûm,Arzan ar-Rûm,Erzîrom;Mesopotamia
-d_mesopotamia_adj                       ;Mesopotamian;Mesopotamian;;Mesopotamian
-d_mesopotamia_adj_armenian              ;Sophene ;Dzopkian;;
+d_taron                                 ;Taron   ;Tarawn;Taron,Daron,Malazgird,Minazjird,Malazgir;
+d_taron_adj                             ;Taron   ;Tarawnian;;
+d_taron_adj_maghreb_arabic              ;Manzikert;Minazjirdan;;
+d_taron_adj_levantine_arabic            ;Manzikert;Minazjirdan;;
+d_taron_adj_egyptian_arabic             ;Manzikert;Minazjirdan;;
+d_taron_adj_andalusian_arabic           ;Manzikert;Minazjirdan;;
+d_taron_adj_sicilian_arabic             ;Manzikert;Minazjirdan;;
+d_taron_adj_bedouin_arabic              ;Manzikert;Minazjirdan;;
+d_taron_adj_kurdish                     ;Manzikert;Malazgirdan;;
+d_mesopotamia                           ;Upper Armenia;Bardzr Hayk;Theodosioupolis,Erzen er-Rûm,Arzan ar-Rûm,Erzîrom;Mesopotamia
+d_mesopotamia_adj                       ;Upper Armenian;Bardzr Haykian;;Mesopotamian
+d_mesopotamia_adj_greek                 ;Mesopotamian;Mesopotamian;;
 d_mesopotamia_adj_oghuz                 ;Erzurum ;Erzen er-Rûmi;;
 d_mesopotamia_adj_turkmen               ;Erzurum ;Erzen er-Rûmi;;
 d_mesopotamia_adj_turkish               ;Erzurum ;Erzen er-Rûmi;;
@@ -3286,20 +3298,20 @@ d_mesopotamia_adj_andalusian_arabic     ;Erzurum ;Arzan ar-Rûmi;;
 d_mesopotamia_adj_sicilian_arabic       ;Erzurum ;Arzan ar-Rûmi;;
 d_mesopotamia_adj_bedouin_arabic        ;Erzurum ;Arzan ar-Rûmi;;
 d_mesopotamia_adj_kurdish               ;Erzurum ;Erzîromi;;
-d_armenia                               ;Armenia ;Hayk;Hayk,Anion,al-Arminiya,Ermenistan,Anî;Armenia
+d_armenia                               ;Armenia ;Hayk;Ayrarat,Anion,al-Arminiya,Ermenistan,Anî,Anisi;Armenia
 d_armenia_adj                           ;Armenian;Haykian;;Armenian
 d_armenia_adj_oghuz                     ;        ;Ermeniyyan;;
 d_armenia_adj_turkmen                   ;        ;Ermeniyyan;;
 d_armenia_adj_turkish                   ;        ;Ermeniyyan;;
-d_armenia_adj_maghreb_arabic            ;        ;Arminiyan;;
-d_armenia_adj_levantine_arabic          ;        ;Arminiyan;;
-d_armenia_adj_egyptian_arabic           ;        ;Arminiyan;;
-d_armenia_adj_andalusian_arabic         ;        ;Arminiyan;;
-d_armenia_adj_sicilian_arabic           ;        ;Arminiyan;;
-d_armenia_adj_bedouin_arabic            ;        ;Arminiyan;;
+d_armenia_adj_maghreb_arabic            ;Arminiya;Arminiyan;;
+d_armenia_adj_levantine_arabic          ;Arminiya;Arminiyan;;
+d_armenia_adj_egyptian_arabic           ;Arminiya;Arminiyan;;
+d_armenia_adj_andalusian_arabic         ;Arminiya;Arminiyan;;
+d_armenia_adj_sicilian_arabic           ;Arminiya;Arminiyan;;
+d_armenia_adj_bedouin_arabic            ;Arminiya;Arminiyan;;
 d_armenia_adj_kurdish                   ;Ani     ;Anîan;;
 d_armenia_adj_greek                     ;Ani     ;Anionan;;
-#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_georgia                               ;Georgia ;Sakartvelo;Iberia;Georgia
 k_georgia_adj                           ;Georgian;Kartvelebi;;Georgian
 d_kakheti                               ;Kakheti ;Kakheti;;
@@ -3308,15 +3320,28 @@ d_abkhazia                              ;Abkhazia;Apkhazeti;Lazica,Lazike;Abkhaz
 d_abkhazia_adj                          ;Abkhazian;Apkhazetian;;Abkhazian
 d_kartli                                ;Kartli  ;Kartli;Iberia;Kartli
 d_kartli_adj                            ;Kartlian;Kartlian;;Kartlian
-##Shirvan/Arran,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+d_racha                                 ;Racha   ;Racha;;
+d_racha_adj                             ;        ;Rachan;;
+d_imeretia                              ;Imereti ;Imereti;;
+d_imeretia_adj                          ;Imeretian;Imeretian;;
+d_klarjeti                              ;Klarjeti;Klarjeti;;
+d_klarjeti_adj                          ;Klarjetian;Klarjetian;;
+d_hereti                                ;Hereti  ;Hereti;;
+d_hereti_adj                            ;Heretian;Heretian;;
+d_lori                                  ;Tashir  ;Tašir;Lore;
+d_lori_adj                              ;Lori    ;Lorian;;
+d_lori_adj_georgian                     ;        ;Lorean;;
+##Shirvan/Arran/Adharbaygan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_caucasian_albania                     ;Arran   ;Arran;;
 k_caucasian_albania_adj                 ;        ;Arran;;
 d_shirvan                               ;Shirvan ;Shirwan;;
 d_shirvan_adj                           ;        ;Shirwani;;
 d_derbent                               ;Derbent ;Derbend;;Derbent
 d_derbent_adj                           ;Derbent ;Derbendi;;Derbenti
-d_albania                               ;Arran   ;Arran;;
+d_albania                               ;Arran   ;Arran;Aghuank;
 d_albania_adj                           ;        ;Arrani;;
+d_azerbaijan                            ;Azerbaijan;Adharbaygan;Media Atropatene,Azarbaijan;Azerbaijan
+d_azerbaijan_adj                        ;Azerbaijani;Adharbaygani;;Azerbaijani
 #Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 d_sennar                                ;Sennar  ;Sennar;;Alodia
 d_sennar_adj                            ;Sennar  ;Sennar;;Alodian

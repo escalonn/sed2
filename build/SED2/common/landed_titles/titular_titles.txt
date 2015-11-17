@@ -240,6 +240,7 @@ k_salerno = { # Principato di Salerno
 		religion_group = christian
 		has_landed_title = d_salerno
 	}
+	short_name = yes
 }
 d_austrialombardic = { # Austria
 	color = { 4 33 122 }
@@ -442,6 +443,99 @@ e_chagatai = { # Chagatai
 	culture = mongol
 	religion = tengri_pagan
 	allow = { always = no }
+}
+d_tiflis = {
+	color = { 104 20 12 }
+	capital = 1357 # Tbilisi
+	allow = { religion_group = muslim }
+}
+k_vaspurakan = {
+	color = { 175 5 102 }
+	culture = armenian
+	capital = 682 # Vaspurakan
+	allow = {
+		culture = armenian
+		religion_group = christian
+	}
+}
+d_vanand = {
+	color = { 155 100 7 }
+	culture = armenian
+	capital = 1088 # Vanand
+	allow = {
+		culture = armenian
+		religion_group = christian
+	}
+}
+d_mingrelia = {
+	color = { 155 100 7 }
+	culture = georgian
+	capital = 1081 # Odishi
+	allow = {
+		culture = georgian
+		religion_group = christian
+	}
+}
+d_meshketi = {
+	color = { 155 100 7 }
+	culture = georgian
+	capital = 1350 # Meshketi
+	allow = {
+		culture = georgian
+		religion_group = christian
+	}
+}
+k_abkhazia = {
+	color = { 99 175 4 }
+	capital = 601 # Imeretia
+	allow = {
+		OR = {
+			culture = greek
+			culture = armenian
+			culture = georgian
+		}
+		religion_group = christian
+	}
+	title = MEPE
+	foa = MEPE_FOA
+	title_prefix = MEPE_OF
+}
+k_imereti = {
+	color = { 99 175 4 }
+	capital = 601 # Imeretia
+	allow = {
+		OR = { culture = georgian }
+		religion_group = christian
+	}
+	title = MEPE
+	foa = MEPE_FOA
+	title_prefix = MEPE_OF
+}
+k_kakheti = {
+	color = { 194 110 67 }
+	capital = 676 # Kakheti
+	allow = {
+		culture = georgian
+		religion_group = christian
+	}
+	title = MEPE
+	foa = MEPE_FOA
+	title_prefix = MEPE_OF
+}
+k_iberia = {
+	color = { 44 215 119 }
+	capital = 679 # Kartli
+	allow = {
+		OR = {
+			culture = greek
+			culture = armenian
+			culture = georgian
+		}
+		religion_group = christian
+	}
+	title = MEPE
+	foa = MEPE_FOA
+	title_prefix = MEPE_OF
 }
 d_dahlak = { # Dahlak
 	color = { 255 164 17 }
