@@ -20,7 +20,7 @@ d_yaroslavl = { # Yaroslavl
 }
 d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
-	capital = 417 # Vitebesk # Vitebsk
+	capital = 417 # Vitebsk
 }
 d_cheremisa = { # Cheremisa
 	color = { 188 115 43 }
@@ -28,11 +28,11 @@ d_cheremisa = { # Cheremisa
 	capital = 590 # Sura # Chuvash
 	allow = { always = no }
 }
-d_pronsk = {
+d_pronsk = { # Pronsk
 	color = { 23 132 81 }
 	capital = 577 # Pronsk
 }
-d_socotra = {
+d_socotra = { # Socotra
 	color = { 142 255 85 }
 	color2 = { 255 255 255 }
 	capital = 1552 # Socotra
@@ -335,7 +335,7 @@ e_occitania = { # Occitània
 		realm_size = 120
 	}
 	name_tier = king
-} # end e_occitania
+}
 # Titular Darrigan
 # The county of Flanders had more autonomy than other regions under the French crown. They did lose the independence wars # in the 13th and 14th century. But what if they had won?
 k_flanders = { # Vlaanderen
@@ -444,12 +444,12 @@ e_chagatai = { # Chagatai
 	religion = tengri_pagan
 	allow = { always = no }
 }
-d_tiflis = {
+d_tiflis = { # Tiflis
 	color = { 104 20 12 }
 	capital = 1357 # Tbilisi
 	allow = { religion_group = muslim }
 }
-k_vaspurakan = {
+k_vaspurakan = { # Vaspurakan
 	color = { 175 5 102 }
 	culture = armenian
 	capital = 682 # Vaspurakan
@@ -458,7 +458,7 @@ k_vaspurakan = {
 		religion_group = christian
 	}
 }
-d_vanand = {
+d_vanand = { # Vanand
 	color = { 155 100 7 }
 	culture = armenian
 	capital = 1088 # Vanand
@@ -467,7 +467,7 @@ d_vanand = {
 		religion_group = christian
 	}
 }
-d_mingrelia = {
+d_mingrelia = { # Samegrelo
 	color = { 155 100 7 }
 	culture = georgian
 	capital = 1081 # Odishi
@@ -476,20 +476,20 @@ d_mingrelia = {
 		religion_group = christian
 	}
 }
-d_meshketi = {
+d_meshketi = { # Meskheti
 	color = { 155 100 7 }
 	culture = georgian
-	capital = 1350 # Meshketi
+	capital = 1350 # Samtskhe # Meskheti
 	allow = {
 		culture = georgian
 		religion_group = christian
 	}
 }
-k_abkhazia = {
+k_abkhazia = { # Apkhazeti
 	color = { 99 175 4 }
-	capital = 601 # Imeretia
+	capital = 601 # Imereti # Imeretia
 	allow = {
-		OR = {
+		or = {
 			culture = greek
 			culture = armenian
 			culture = georgian
@@ -500,18 +500,18 @@ k_abkhazia = {
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
-k_imereti = {
+k_imereti = { # Imereti
 	color = { 99 175 4 }
-	capital = 601 # Imeretia
+	capital = 601 # Imereti # Imeretia
 	allow = {
-		OR = { culture = georgian }
+		or = { culture = georgian }
 		religion_group = christian
 	}
 	title = MEPE
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
-k_kakheti = {
+k_kakheti = { # Kakheti
 	color = { 194 110 67 }
 	capital = 676 # Kakheti
 	allow = {
@@ -522,11 +522,11 @@ k_kakheti = {
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
-k_iberia = {
+k_iberia = { # Kartli
 	color = { 44 215 119 }
 	capital = 679 # Kartli
 	allow = {
-		OR = {
+		or = {
 			culture = greek
 			culture = armenian
 			culture = georgian
