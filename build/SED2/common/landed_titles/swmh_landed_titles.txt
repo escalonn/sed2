@@ -9801,6 +9801,12 @@ e_carpathia = { # Magyarország
 				b_targujiu = {}
 			}
 		} # end d_oltenia
+		allow = {
+			or = {
+				year = 1100
+				not = { primary_title = { title = k_bulgaria } }
+			}
+		}
 	} # end k_wallachia
 	k_moldau = { # Moldova
 		color = { 176 0 0 }
@@ -9880,6 +9886,12 @@ e_carpathia = { # Magyarország
 				b_cetaealba = {}
 			} # end c_galaz
 		} # end d_basarabia
+		allow = {
+			or = {
+				year = 1100
+				not = { primary_title = { title = k_bulgaria } }
+			}
+		}
 	} # end k_moldau
 	k_hungary = { # Magyarország
 		color = { 187 70 70 }
@@ -28852,18 +28864,22 @@ e_null = {
 		} # end d_lausitz
 		allow = {
 			or = {
-				independent = yes
-				liege = { not = { has_landed_title = e_hre } }
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
-					has_landed_title = d_mecklemburg
-					has_landed_title = d_pommerania
-					has_landed_title = d_brandenburg
+					ai = no
+					or = {
+						independent = yes
+						and = {
+							not = { tier = emperor }
+							has_landed_title = d_mecklemburg
+							has_landed_title = d_pommerania
+							has_landed_title = d_brandenburg
+						}
+					}
 				}
-			}
-			or = {
-				culture = pommeranian
-				prestige = 1500
+				and = {
+					culture = pommeranian
+					prestige = 3000
+				}
 			}
 		}
 	} # end k_pomerania
@@ -31674,9 +31690,7 @@ d_abbasid = { # Abbasid
 	capital = 636 # Lut # Baghdad
 	allow = { always = no }
 }
-# d_cumberland = {
-# color = { 31 186 244 }
-# }
+#d_cumberland = { color = { 31 186 244 } }
 # Pagan proto-Denmark # what is that supposed to mean?
 d_danes = { # Danmark
 	color = { 247 77 54 }
