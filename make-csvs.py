@@ -302,8 +302,11 @@ def main():
                 except KeyError:
                     pass
         dyn_ids = set()
-        swmh_rows = [['#ID', 'SED', 'SWMH', 'CULTURE', 'CHARACTERS']]
-        vanilla_rows = [['#ID', 'SED', 'VANILLA', 'CULTURE', 'CHARACTERS']]
+        swmh_rows = [
+            ['#ID', 'SED', 'SWMH', 'ARKO', 'CULTURE', 'CHARACTERS']]
+        vanilla_rows = [
+            ['#ID', 'SED', 'VANILLA', 'ARKO', 'CULTURE', 'CHARACTERS']]
+        #TODO: add arko column?
         swmh_col_width = [3, 8]
         vanilla_col_width = [3, 8]
         for inpath, tree in ck2parser.parse_files('common/dynasties/*',
