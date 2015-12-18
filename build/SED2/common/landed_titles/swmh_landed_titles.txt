@@ -30020,13 +30020,15 @@ e_null = {
 				color2 = { 255 255 255 }
 				b_almaliq = {}
 				b_illi = {}
-				b_sarbulaq = {}
+				#b_sarbulaq = {}
 				b_pulad = {}
-				b_kash = {}
+				#b_kash = {}
 			}
 			c_barskhan = { # Barskhan (1577)
 				color = { 220 125 50 }
 				color2 = { 255 255 255 }
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				b_barskhan = {}
 				b_karakol = {}
 				b_arshatu = {}
@@ -30066,6 +30068,11 @@ e_null = {
 				b_pichan = {}
 				b_kizilsu = {}
 			}
+		}
+		d_kucha = { # Kucha
+			color = { 255 220 80 }
+			color2 = { 255 255 255 }
+			capital = 1569 # Kucha
 			c_aqsu = { # Aqsu (1568)
 				color = { 250 120 65 }
 				color2 = { 255 255 255 }
@@ -30075,11 +30082,6 @@ e_null = {
 				b_kalpin = {}
 				b_jam = {}
 			}
-		}
-		d_qocho = { # Qocho
-			color = { 255 220 80 }
-			color2 = { 255 255 255 }
-			capital = 1569 # Kucha
 			c_kucha = { # Kucha (1569)
 				color = { 250 215 75 }
 				color2 = { 255 255 255 }
@@ -30090,15 +30092,15 @@ e_null = {
 				b_bal = {}
 				#b_kukuchi = {}
 			}
-			c_qarashahr = { # Qarashahr (1570)
-				color = { 255 225 85 }
-				color2 = { 255 255 255 }
-				b_qarashahr = {}
-				b_qocho = {}
-				b_korla = {}
-				b_ushak-tal = {}
-				b_charchi = {}
-			}
+			#c_qarashahr = { # Qarashahr (1570)
+			#	color = { 255 225 85 }
+			#	color2 = { 255 255 255 }
+			#	b_qarashahr = {}
+			#	b_qocho = {}
+			#	b_korla = {}
+			#	b_ushak-tal = {}
+			#	b_charchi = {}
+			#}
 		}
 		d_ayaguz = { # Ayaguz
 			color = { 150 195 50 }
@@ -30125,21 +30127,17 @@ e_null = {
 				b_akzhar = {}
 			}
 		}
-		d_jungaria = { # Jungaria
+		d_khotan = { # Khotan
 			color = { 80 200 50 }
 			color2 = { 255 255 255 }
-			capital = 1580 # Jungaria
-			c_jungaria = { # Jungaria (1580)
+			capital = 1580 # Khotan
+			c_khotan = { # Khotan (1580)
 				color = { 85 205 45 }
 				color2 = { 255 255 255 }
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
-				b_jambaliq = {}
-				b_beshbaliq = {}
-				b_kul-kara-ussu = {}
-				b_lun-tai = {}
-				b_jungar-gates = {}
-				b_jimasa = {}
+				b_khotan = {}
+				b_keriya = {}
+				b_guma = {}
+				b_chadota = {}
 			}
 		}
 	} # end k_turkestan_east
