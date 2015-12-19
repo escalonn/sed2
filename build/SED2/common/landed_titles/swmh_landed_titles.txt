@@ -9477,8 +9477,6 @@ e_poland = { # Polska-Lietuva
 				b_insterburg = {}
 				b_romuva = {}
 				b_velowe = {}
-				b_cameniswika = {}
-				b_otholicia = {}
 			} # end c_nadruvia
 		} # end d_prussia
 	} # end k_lithuania
@@ -30092,15 +30090,15 @@ e_null = {
 				b_bal = {}
 				#b_kukuchi = {}
 			}
-			#c_qarashahr = { # Qarashahr (1570)
-			#	color = { 255 225 85 }
-			#	color2 = { 255 255 255 }
-			#	b_qarashahr = {}
-			#	b_qocho = {}
-			#	b_korla = {}
-			#	b_ushak-tal = {}
-			#	b_charchi = {}
-			#}
+			c_qarashahr = { # Qarashahr (1570)
+				color = { 255 225 85 }
+				color2 = { 255 255 255 }
+				b_qarashahr = {}
+				#b_qocho = {}
+				b_korla = {}
+				b_ushak-tal = {}
+				#b_charchi = {}
+			}
 		}
 		d_ayaguz = { # Ayaguz
 			color = { 150 195 50 }
