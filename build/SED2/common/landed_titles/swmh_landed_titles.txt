@@ -12899,22 +12899,11 @@ e_britannia = { # Britannia
 			c_surrey = { # Surrey (24)
 				color = { 241 105 55 }
 				color2 = { 255 255 255 }
-				b_lambeth = {}
+				b_southwark = {}
 				b_guildford = {}
 				b_farnham = {}
-				b_reigate = {}
-				#b_southwark = {
-				#	norwegian = "Suthriganaweorc"
-				#	danish = "Suthriganaweorc"
-				#	swedish = "Suthriganaweorc"
-				#	anglonorse = "Suthriganaweorc"
-				#	gothic = "Suthriganaweorc"
-				#	norse = "Suthriganaweorc"
-				#	norsegaelic = "Suthriganaweorc"
-				#	icelandic = "Suthriganaweorc"
-				#	saxon = "Suthriganaweorc"
-				#	norman = "Sudweca"
-				#}
+				b_lambeth = {}
+				#b_reigate = { norman = "Cherchefelle" }
 				#b_woking = {
 				#	norwegian = "Wochingas"
 				#	danish = "Wochingas"
@@ -12987,7 +12976,7 @@ e_britannia = { # Britannia
 				#	norse = "Hæstingaceaster"
 				#	norsegaelic = "Hæstingaceaster"
 				#	icelandic = "Hæstingaceaster"
-				#	saxon = "Hæstingaceaster"
+				#	saxon = "Hæstingas"
 				#}
 				#b_bramber = {}
 				#b_bodiam = {}
@@ -14174,7 +14163,7 @@ e_britannia = { # Britannia
 				#	norse = "Elmeslac"
 				#	norsegaelic = "Elmeslac"
 				#	icelandic = "Elmeslac"
-				#	saxon = "Elmeslac"
+				#	saxon = "Elmesley"
 				#	norman = "Hamlake"
 				#}
 				#b_rievaulx = {}
@@ -14187,7 +14176,7 @@ e_britannia = { # Britannia
 				#	norse = "Gighesborg"
 				#	norsegaelic = "Gighesborg"
 				#	icelandic = "Gighesborg"
-				#	saxon = "Gighesburg"
+				#	saxon = "Gighesburh"
 				#	norman = "Gighesbore"
 				#}
 				#b_middlesbrough = {
@@ -14199,7 +14188,7 @@ e_britannia = { # Britannia
 				#	norse = "Mydilsborg"
 				#	norsegaelic = "Mydilsborg"
 				#	icelandic = "Mydilsborg"
-				#	saxon = "Mydilsburg"
+				#	saxon = "Middelsburh"
 				#}
 			} # end c_york_moors
 			c_richmond = { # Richmond (964) # Richmondshire/Gillingshire
@@ -14246,27 +14235,27 @@ e_britannia = { # Britannia
 				b_salford = {}
 				b_clitheroe = {}
 				#b_ulverston = {
-				#	norwegian = "Ulurestun"
-				#	danish = "Ulurestun"
-				#	swedish = "Ulurestun"
-				#	anglonorse = "Ulurestun"
-				#	gothic = "Ulurestun"
-				#	norse = "Ulurestun"
-				#	norsegaelic = "Ulurestun"
-				#	icelandic = "Ulurestun"
-				#	saxon = "Ulurestun"
+				#	norwegian = "Ulfarrstun"
+				#	danish = "Ulfarrstun"
+				#	swedish = "Ulfarrstun"
+				#	anglonorse = "Wulfestun"
+				#	gothic = "Ulfarrstun"
+				#	norse = "Ulfarrstun"
+				#	norsegaelic = "Ulfarrstun"
+				#	icelandic = "Ulfarrstun"
+				#	saxon = "Wulfestun"
 				#	norman = "Ulurestun"
 				#}
 				#b_preston = {
-				#	norwegian = "Prestun"
-				#	danish = "Prestun"
-				#	swedish = "Prestun"
-				#	anglonorse = "Prestun"
-				#	gothic = "Prestun"
-				#	norse = "Prestun"
-				#	norsegaelic = "Prestun"
-				#	icelandic = "Prestun"
-				#	saxon = "Prestun"
+				#	norwegian = "Prestestun"
+				#	danish = "Prestestun"
+				#	swedish = "Prestestun"
+				#	anglonorse = "Prestestun"
+				#	gothic = "Prestestun"
+				#	norse = "Prestestun"
+				#	norsegaelic = "Prestestun"
+				#	icelandic = "Prestestun"
+				#	saxon = "Prestestun"
 				#	norman = "Prestune"
 				#}
 				#b_liverpool = {}
@@ -14279,7 +14268,7 @@ e_britannia = { # Britannia
 				#	norse = "Botheltun"
 				#	norsegaelic = "Botheltun"
 				#	icelandic = "Botheltun"
-				#	saxon = "Botheltun"
+				#	saxon = "Bothltun"
 				#}
 				#b_penworthham = { norman = "Penverdent" }
 				#b_blackburn = {
@@ -14291,7 +14280,7 @@ e_britannia = { # Britannia
 				#	norse = "Blagbourne"
 				#	norsegaelic = "Blagbourne"
 				#	icelandic = "Blagbourne"
-				#	saxon = "Blagbourne"
+				#	saxon = "Bleacburn"
 				#	norman = "Blachebourne"
 				#}
 			} # end c_lancaster
@@ -14387,7 +14376,7 @@ e_britannia = { # Britannia
 				#	norse = "Dunstanborg"
 				#	norsegaelic = "Dunstanborg"
 				#	icelandic = "Dunstanborg"
-				#	saxon = "Dunstanburg"
+				#	saxon = "Dunstanburh"
 				#}
 			} # end c_northumberland
 			c_durham = { # Durham (56)
@@ -30076,7 +30065,7 @@ e_null = {
 				color2 = { 255 255 255 }
 				b_aqsu = {}
 				b_uchaqsu = {}
-				b_akqi = {}
+				b_tumshuk = {}
 				b_kalpin = {}
 				b_jam = {}
 			}
@@ -30136,6 +30125,7 @@ e_null = {
 				b_keriya = {}
 				b_guma = {}
 				b_chadota = {}
+				b_calmadana = {}
 			}
 		}
 	} # end k_turkestan_east
