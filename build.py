@@ -17,6 +17,7 @@ if no_provinces:
 
 rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
+minipath = rootpath / 'MiniSWMH/MiniSWMH'
 arkopath = rootpath / 'ARKOpack_Armoiries'
 sed2path = rootpath / 'SED2'
 
@@ -24,7 +25,6 @@ province_loc_files = [
     'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 def main():
-    start_time = time.time()
     templates = sed2path / 'templates'
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
@@ -40,6 +40,7 @@ def main():
     build_dyn = build_sed2 / 'common/dynasties'
     build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
+    build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
     build_arko_dyn = build / 'SED2+ARKO/common/dynasties'
     while build.exists():
         print('Removing old build...')
@@ -49,6 +50,7 @@ def main():
     build_dyn.mkdir(parents=True)
     build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
+    build_mini_lt.mkdir(parents=True)
     build_arko_dyn.mkdir(parents=True)
     swmh_files = set()
     sed2 = {}
@@ -149,7 +151,7 @@ def main():
         'male_names'] + cultures
     ck2parser.fq_keys = cultures
 
-    def update_lt(tree):
+    def update_lt(tree, sed2):
         for n, v in tree:
             if ck2parser.is_codename(n.val):
                 if n.val.startswith('b_') and not no_provinces:
@@ -167,13 +169,14 @@ def main():
                         v.contents[index:index] = sed2[n.val]
                         # propagates indent to children
                         v.indent = v.indent
-                update_lt(v)
+                update_lt(v, sed2)
 
+    sed2 = {}
     for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
                                               basedir=swmhpath):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
-        sed2 = collections.defaultdict(list)
+        sed2[template] = collections.defaultdict(list)
         for row in ck2parser.csv_rows(template):
             title, key, val = (s.strip() for s in row[:3])
             if val:
@@ -181,11 +184,19 @@ def main():
                     val = ck2parser.Obj.from_iter(
                         ck2parser.String.from_str(x.strip('"'))
                         for x in re.findall(r'[^"\s]+|"[^"]*"', val))
-                sed2[title].append(ck2parser.Pair.from_kv(key, val))
+                sed2[template][title].append(ck2parser.Pair.from_kv(key, val))
         # from pprint import pprint
         # # pprint(tree.str())
         # pprint(tree.contents[0].str())
-        update_lt(tree)
+        update_lt(tree, sed2[template])
+        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+            f.write(tree.str())
+
+    for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
+                                              basedir=minipath):
+        template = templates_lt / inpath.with_suffix('.csv').name
+        outpath = build_mini_lt / inpath.name
+        update_lt(tree, sed2[template])
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
 
@@ -233,8 +244,11 @@ def main():
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
         print('{} - {}'.format(version, datetime.date.today()), file=f)
-    end_time = time.time()
-    print('Time: {} s'.format(end_time - start_time))
 
 if __name__ == '__main__':
-    main()
+    start_time = time.time()
+    try:
+        main()
+    finally:
+        end_time = time.time()
+        print('Time: {} s'.format(end_time - start_time))

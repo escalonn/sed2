@@ -2988,13 +2988,13 @@ c_upyte                         ;bohemian           ;        ;Upita
 c_upyte                         ;moravian           ;        ;Upita
 d_prussia                       ;bohemian           ;        ;Prusy
 d_prussia                       ;moravian           ;        ;Prusy
-c_sambia                        ;swedish            ;        ;Samland
-c_sambia                        ;norwegian          ;        ;Samland
-c_sambia                        ;danish             ;        ;Samland
-c_sambia                        ;gothic             ;        ;Samland
+c_sambia                        ;swedish            ;        ;Zambia
+c_sambia                        ;norwegian          ;        ;Zambia
+c_sambia                        ;danish             ;        ;Zambia
+c_sambia                        ;gothic             ;        ;Zambia
 c_sambia                        ;german             ;        ;Samland
-c_sambia                        ;anglonorse         ;        ;Samland
-c_sambia                        ;norsegaelic        ;        ;Samland
+c_sambia                        ;anglonorse         ;        ;Zambia
+c_sambia                        ;norsegaelic        ;        ;Zambia
 c_sambia                        ;livonian           ;        ;Sambi
 c_sambia                        ;lettigallish       ;        ;Sambi
 c_sambia                        ;lithuanian         ;        ;Sambi
@@ -3918,7 +3918,7 @@ k_england                       ;norwegian          ;        ;Ænglandi
 k_england                       ;danish             ;        ;Ænglandi
 k_england                       ;gothic             ;        ;Ænglandi
 k_england                       ;english            ;        ;Engelond
-k_england                       ;saxon              ;        ;Ænglaland
+k_england                       ;saxon              ;        ;Englaland
 k_england                       ;anglonorse         ;        ;Ænglandi
 k_england                       ;frankish           ;        ;Angleterre
 k_england                       ;norman             ;        ;Angliétèrre
@@ -3955,7 +3955,7 @@ c_winchester                    ;icelandic          ;Southampton;Hamtun
 c_winchester                    ;gothic             ;Southampton;Hamtun
 c_winchester                    ;english            ;        ;Winchester
 c_winchester                    ;saxon              ;        ;Wintanceaster
-c_winchester                    ;anglonorse         ;Southampton;Hamtun
+c_winchester                    ;anglonorse         ;Southampton;Wintanceaster
 c_winchester                    ;norman             ;        ;Ouînchêtre
 c_winchester                    ;irish              ;        ;Caer Gwynntguic
 c_winchester                    ;scottish           ;        ;Caer Gwynntguic
@@ -3979,6 +3979,7 @@ c_wiltshire                     ;cornish            ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;welsh              ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;breton             ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;norsegaelic        ;Wilton  ;Wiltun
+c_wight                         ;saxon              ;        ;Wiht
 c_dorset                        ;norse              ;        ;Dornsæte
 c_dorset                        ;swedish            ;        ;Dornsæte
 c_dorset                        ;norwegian          ;        ;Dornsæte
@@ -4047,7 +4048,7 @@ c_surrey                        ;norwegian          ;        ;Suðríki
 c_surrey                        ;danish             ;        ;Suðríki
 c_surrey                        ;icelandic          ;        ;Suðríki
 c_surrey                        ;gothic             ;        ;Suðríki
-c_surrey                        ;saxon              ;        ;Suþrïge
+c_surrey                        ;saxon              ;        ;Suthrige
 c_surrey                        ;anglonorse         ;        ;Suðríki
 c_surrey                        ;norsegaelic        ;        ;Suðríki
 c_sussex                        ;norse              ;        ;Suðseaxe
@@ -4056,7 +4057,7 @@ c_sussex                        ;norwegian          ;        ;Suðseaxe
 c_sussex                        ;danish             ;        ;Suðseaxe
 c_sussex                        ;icelandic          ;        ;Suðseaxe
 c_sussex                        ;gothic             ;        ;Suðseaxe
-c_sussex                        ;saxon              ;        ;Süþseaxe
+c_sussex                        ;saxon              ;        ;Suthseaxe
 c_sussex                        ;anglonorse         ;        ;Suðseaxe
 c_sussex                        ;irish              ;Rhegin  ;Rhegin
 c_sussex                        ;scottish           ;Rhegin  ;Rhegin
@@ -4070,8 +4071,8 @@ d_cornwall                      ;norwegian          ;        ;Cornweal
 d_cornwall                      ;danish             ;        ;Cornweal
 d_cornwall                      ;icelandic          ;        ;Cornweal
 d_cornwall                      ;gothic             ;        ;Cornweal
-d_cornwall                      ;saxon              ;        ;Cornweal
-d_cornwall                      ;anglonorse         ;        ;Cornweal
+d_cornwall                      ;saxon              ;        ;Cornwealh
+d_cornwall                      ;anglonorse         ;        ;Cornwealh
 d_cornwall                      ;irish              ;Dumnonia;Dumnonia
 d_cornwall                      ;scottish           ;Dumnonia;Dumnonia
 d_cornwall                      ;cumbric            ;Dumnonia;Dumnonia
@@ -4085,8 +4086,8 @@ c_cornwall                      ;norwegian          ;        ;Cornweal
 c_cornwall                      ;danish             ;        ;Cornweal
 c_cornwall                      ;icelandic          ;        ;Cornweal
 c_cornwall                      ;gothic             ;        ;Cornweal
-c_cornwall                      ;saxon              ;        ;Cornweal
-c_cornwall                      ;anglonorse         ;        ;Cornweal
+c_cornwall                      ;saxon              ;        ;Cornwealh
+c_cornwall                      ;anglonorse         ;        ;Cornwealh
 c_cornwall                      ;irish              ;        ;Kernow
 c_cornwall                      ;scottish           ;        ;Kernow
 c_cornwall                      ;cumbric            ;        ;Cernyw
@@ -4132,7 +4133,7 @@ c_gloucester                    ;norwegian          ;        ;Gleawcester
 c_gloucester                    ;danish             ;        ;Gleawcester
 c_gloucester                    ;icelandic          ;        ;Gleawcester
 c_gloucester                    ;gothic             ;        ;Gleawcester
-c_gloucester                    ;saxon              ;        ;Gleawcester
+c_gloucester                    ;saxon              ;        ;Gleawceaster
 c_gloucester                    ;anglonorse         ;        ;Gleawcester
 c_gloucester                    ;greek              ;Glevum  ;Glevum
 c_gloucester                    ;irish              ;        ;Caer Gloui
@@ -4158,6 +4159,7 @@ c_worcester                     ;cornish            ;        ;Gaerwrangon
 c_worcester                     ;welsh              ;        ;Gaerwrangon
 c_worcester                     ;breton             ;        ;Gaerwrangon
 c_worcester                     ;norsegaelic        ;        ;Wigreceaster
+c_hereford                      ;saxon              ;        ;Heresforda
 c_hereford                      ;irish              ;Ergyng  ;Ergyng
 c_hereford                      ;scottish           ;Ergyng  ;Ergyng
 c_hereford                      ;cornish            ;Ergyng  ;Ergyng
@@ -4206,7 +4208,7 @@ d_bedford                       ;danish             ;        ;Miðængle
 d_bedford                       ;icelandic          ;        ;Miðængle
 d_bedford                       ;gothic             ;        ;Miðængle
 d_bedford                       ;english            ;Bedford ;Bedford
-d_bedford                       ;saxon              ;        ;Middleængle
+d_bedford                       ;saxon              ;        ;Middelengle
 d_bedford                       ;anglonorse         ;        ;Miðængle
 d_bedford                       ;irish              ;Calchfynydd;Cynwidion
 d_bedford                       ;scottish           ;Calchfynydd;Cynwidion
@@ -4221,7 +4223,7 @@ c_northampton                   ;norwegian          ;        ;Norðhamtun
 c_northampton                   ;danish             ;        ;Norðhamtun
 c_northampton                   ;icelandic          ;        ;Norðhamtun
 c_northampton                   ;gothic             ;        ;Norðhamtun
-c_northampton                   ;saxon              ;        ;Norþhamtun
+c_northampton                   ;saxon              ;        ;Hamtun
 c_northampton                   ;anglonorse         ;        ;Norðhamtun
 c_northampton                   ;norman             ;        ;Hante
 c_northampton                   ;irish              ;Calchfynydd;Cynwidion
@@ -4294,7 +4296,7 @@ c_middlesex                     ;norwegian          ;        ;Miðseaxe
 c_middlesex                     ;danish             ;        ;Miðseaxe
 c_middlesex                     ;icelandic          ;        ;Miðseaxe
 c_middlesex                     ;gothic             ;        ;Miðseaxe
-c_middlesex                     ;saxon              ;        ;Middleseaxe
+c_middlesex                     ;saxon              ;        ;Middelseaxe
 c_middlesex                     ;anglonorse         ;        ;Miðseaxe
 c_middlesex                     ;greek              ;Londinium;Londinion
 c_middlesex                     ;irish              ;London  ;Caer Lundein
@@ -4355,7 +4357,7 @@ c_norfolk                       ;norwegian          ;        ;Norðfolc
 c_norfolk                       ;danish             ;        ;Norðfolc
 c_norfolk                       ;icelandic          ;        ;Norðfolc
 c_norfolk                       ;gothic             ;        ;Norðfolc
-c_norfolk                       ;saxon              ;        ;Norþfolc
+c_norfolk                       ;saxon              ;        ;Northfolc
 c_norfolk                       ;anglonorse         ;        ;Norðfolc
 c_norfolk                       ;irish              ;Venta Icenorum;Caer Went
 c_norfolk                       ;scottish           ;Venta Icenorum;Caer Went
@@ -4370,7 +4372,7 @@ c_suffolk                       ;norwegian          ;        ;Suðfolc
 c_suffolk                       ;danish             ;        ;Suðfolc
 c_suffolk                       ;icelandic          ;        ;Suðfolc
 c_suffolk                       ;gothic             ;        ;Suðfolc
-c_suffolk                       ;saxon              ;        ;Suþfolc
+c_suffolk                       ;saxon              ;        ;Suthfolc
 c_suffolk                       ;anglonorse         ;        ;Suðfolc
 c_suffolk                       ;norsegaelic        ;        ;Suðfolc
 c_ely                           ;norse              ;Ely     ;Élig
@@ -4379,7 +4381,7 @@ c_ely                           ;norwegian          ;Ely     ;Élig
 c_ely                           ;danish             ;Ely     ;Élig
 c_ely                           ;icelandic          ;Ely     ;Élig
 c_ely                           ;gothic             ;Ely     ;Élig
-c_ely                           ;saxon              ;Ely     ;Élig
+c_ely                           ;saxon              ;Ely     ;Elig
 c_ely                           ;anglonorse         ;Ely     ;Élig
 c_ely                           ;norsegaelic        ;Ely     ;Élig
 c_cambridge                     ;norse              ;        ;Grantabrycge
@@ -4395,25 +4397,25 @@ c_cambridge                     ;cornish            ;        ;Caergrawnt
 c_cambridge                     ;welsh              ;        ;Caergrawnt
 c_cambridge                     ;breton             ;        ;Caergrawnt
 c_cambridge                     ;norsegaelic        ;        ;Grantabrycge
-d_fivebouroughs                 ;norse              ;        ;Fimm Borginn
-d_fivebouroughs                 ;swedish            ;        ;Fimm Borginn
-d_fivebouroughs                 ;norwegian          ;        ;Fimm Borginn
-d_fivebouroughs                 ;danish             ;        ;Fimm Borginn
-d_fivebouroughs                 ;icelandic          ;        ;Fimm Borginn
-d_fivebouroughs                 ;gothic             ;        ;Fimm Borginn
-d_fivebouroughs                 ;saxon              ;Lindsey ;Lindisware
-d_fivebouroughs                 ;anglonorse         ;        ;Fimm Borginn
-d_fivebouroughs                 ;frankish           ;Lincoln ;Lincoln
-d_fivebouroughs                 ;arpitan            ;Lincoln ;Lincoln
-d_fivebouroughs                 ;norman             ;Lincoln ;Lincoln
-d_fivebouroughs                 ;occitan            ;Lincoln ;Lincoln
+d_fivebouroughs                 ;norse              ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;swedish            ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;norwegian          ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;danish             ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;icelandic          ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;gothic             ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;saxon              ;Lindsey ;Lindesege
+d_fivebouroughs                 ;anglonorse         ;Five Bouroughs;Fimm Borginn
+d_fivebouroughs                 ;frankish           ;        ;Lincoln
+d_fivebouroughs                 ;arpitan            ;        ;Lincoln
+d_fivebouroughs                 ;norman             ;        ;Lincoln
+d_fivebouroughs                 ;occitan            ;        ;Lincoln
 d_fivebouroughs                 ;irish              ;Elmet   ;Elmet
 d_fivebouroughs                 ;scottish           ;Elmet   ;Elmet
 d_fivebouroughs                 ;cumbric            ;Elmet   ;Elfed
 d_fivebouroughs                 ;cornish            ;Elmet   ;Elmet
 d_fivebouroughs                 ;welsh              ;Elmet   ;Elfed
 d_fivebouroughs                 ;breton             ;Elmet   ;Elmet
-d_fivebouroughs                 ;norsegaelic        ;        ;Fimm Borginn
+d_fivebouroughs                 ;norsegaelic        ;Five Bouroughs;Fimm Borginn
 c_lincoln                       ;norse              ;        ;Lincylene
 c_lincoln                       ;swedish            ;        ;Lincylene
 c_lincoln                       ;norwegian          ;        ;Lincylene
@@ -4468,18 +4470,18 @@ c_rutland                       ;saxon              ;        ;Roteland
 c_rutland                       ;anglonorse         ;        ;Roteland
 c_rutland                       ;norman             ;        ;Roteland
 c_rutland                       ;norsegaelic        ;        ;Roteland
-c_nottingham                    ;norse              ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;swedish            ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;norwegian          ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;danish             ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;icelandic          ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;gothic             ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;saxon              ;Nottinghamshire;Snotingahamscir
-c_nottingham                    ;anglonorse         ;Nottinghamshire;Snotingahamscir
+c_nottingham                    ;norse              ;Nottinghamshire;Snotingaham
+c_nottingham                    ;swedish            ;Nottinghamshire;Snotingaham
+c_nottingham                    ;norwegian          ;Nottinghamshire;Snotingaham
+c_nottingham                    ;danish             ;Nottinghamshire;Snotingaham
+c_nottingham                    ;icelandic          ;Nottinghamshire;Snotingaham
+c_nottingham                    ;gothic             ;Nottinghamshire;Snotingaham
+c_nottingham                    ;saxon              ;Nottinghamshire;Snotingaham
+c_nottingham                    ;anglonorse         ;Nottinghamshire;Snotingaham
 c_nottingham                    ;cornish            ;Nottinghamshire;Swydd Tigguo Cobauc
 c_nottingham                    ;welsh              ;Nottinghamshire;Swydd Y Ty Ogofog
 c_nottingham                    ;breton             ;Nottinghamshire;Swydd Tigguo Cobauc
-c_nottingham                    ;norsegaelic        ;Nottinghamshire;Snotingahamscir
+c_nottingham                    ;norsegaelic        ;Nottinghamshire;Snotingaham
 d_york                          ;norse              ;        ;Jorvík
 d_york                          ;swedish            ;        ;Jorvík
 d_york                          ;norwegian          ;        ;Jorvík
@@ -4547,7 +4549,7 @@ c_lancaster                     ;norwegian          ;        ;Lonceaster
 c_lancaster                     ;danish             ;        ;Lonceaster
 c_lancaster                     ;icelandic          ;        ;Lonceaster
 c_lancaster                     ;gothic             ;        ;Lonceaster
-c_lancaster                     ;saxon              ;        ;Lunenceaster
+c_lancaster                     ;saxon              ;        ;Luneceaster
 c_lancaster                     ;anglonorse         ;        ;Lonceaster
 c_lancaster                     ;norman             ;        ;Loncastre
 c_lancaster                     ;irish              ;Argoed  ;Argoed
@@ -4596,7 +4598,7 @@ d_northumberland                ;norwegian          ;        ;Norðhymbraland
 d_northumberland                ;danish             ;        ;Norðhymbraland
 d_northumberland                ;icelandic          ;        ;Norðhymbraland
 d_northumberland                ;gothic             ;        ;Norðhymbraland
-d_northumberland                ;saxon              ;        ;Norþhymbraland
+d_northumberland                ;saxon              ;        ;Northymbraland
 d_northumberland                ;anglonorse         ;        ;Norðhymbraland
 d_northumberland                ;irish              ;Bernicia;Brynaich
 d_northumberland                ;scottish           ;Bernicia;Brynaich
@@ -4626,7 +4628,7 @@ c_durham                        ;norwegian          ;        ;Dunholm
 c_durham                        ;danish             ;        ;Dunholm
 c_durham                        ;icelandic          ;        ;Dunholm
 c_durham                        ;gothic             ;        ;Dunholm
-c_durham                        ;saxon              ;        ;Dunham
+c_durham                        ;saxon              ;        ;Dunholm
 c_durham                        ;anglonorse         ;        ;Dunholm
 c_durham                        ;norman             ;        ;Duresme
 c_durham                        ;norsegaelic        ;        ;Dunholm
@@ -4677,7 +4679,7 @@ k_wales                         ;icelandic          ;        ;Bretland
 k_wales                         ;gothic             ;        ;Bretland
 k_wales                         ;english            ;        ;Wales
 k_wales                         ;saxon              ;        ;Wealas
-k_wales                         ;anglonorse         ;        ;Bretland
+k_wales                         ;anglonorse         ;        ;Wealas
 k_wales                         ;irish              ;        ;Cymru
 k_wales                         ;scottish           ;        ;Cymru
 k_wales                         ;cumbric            ;        ;Cymru
@@ -5224,7 +5226,7 @@ c_carrick                       ;welsh              ;        ;A' Charraig
 c_carrick                       ;breton             ;        ;A' Charraig
 c_carrick                       ;norsegaelic        ;        ;A' Charraig
 d_lothian                       ;english            ;        ;Lothian
-d_lothian                       ;saxon              ;        ;Lothian
+d_lothian                       ;saxon              ;        ;Lothen
 d_lothian                       ;anglonorse         ;        ;Lothian
 d_lothian                       ;irish              ;        ;Lodainn
 d_lothian                       ;scottish           ;        ;Lodainn
@@ -5234,7 +5236,7 @@ d_lothian                       ;welsh              ;        ;Lleuddiniawn
 d_lothian                       ;breton             ;        ;Lleuddiniawn
 d_lothian                       ;norsegaelic        ;        ;Lodainn
 c_lothian                       ;english            ;        ;Lothian
-c_lothian                       ;saxon              ;        ;Lothian
+c_lothian                       ;saxon              ;        ;Lothen
 c_lothian                       ;anglonorse         ;        ;Lothian
 c_lothian                       ;irish              ;        ;Lodainn
 c_lothian                       ;scottish           ;        ;Lodainn
@@ -5266,8 +5268,8 @@ c_teviotdale                    ;danish             ;Roxburgh;Roxburgh
 c_teviotdale                    ;icelandic          ;Roxburgh;Roxborg
 c_teviotdale                    ;gothic             ;Roxburgh;Roxborg
 c_teviotdale                    ;english            ;Roxburgh;Roxburgh
-c_teviotdale                    ;saxon              ;Roxburgh;Roxburg
-c_teviotdale                    ;anglonorse         ;Roxburgh;Roxborg
+c_teviotdale                    ;saxon              ;Roxburgh;Hrocasburh
+c_teviotdale                    ;anglonorse         ;Roxburgh;Hrocasburh
 c_teviotdale                    ;irish              ;Roxburgh;Rosbroch
 c_teviotdale                    ;scottish           ;Roxburgh;Rosbroch
 c_teviotdale                    ;cumbric            ;Roxburgh;Rosbroch

@@ -85,7 +85,7 @@ d_yatviags = { # Jotvingiai
 #####
 # Prussian tribes
 #####
-d_pruthenians = { # Prùsà
+d_pruthenians = { # Prùsà, prussian uprising.
 	color = { 159 195 75 }
 	capital = 370 # Warmia # Marienburg
 	culture = prussian
@@ -95,7 +95,7 @@ d_pruthenians = { # Prùsà
 	title_female = HIGH_CHIEFTESS
 	foa = HIGH_CHIEF_FOA
 }
-d_goliadj = { # Goladi
+d_goliadj = { # Goladi/Galindians
 	color = { 42 132 210 }
 	capital = 569 # Vyazma
 	culture = prussian
@@ -104,9 +104,79 @@ d_goliadj = { # Goladi
 	title_female = HIGH_CHIEFTESS
 	foa = HIGH_CHIEF_FOA
 }
-d_warmians = { # Prùsà
+d_warmians = {
 	color = { 1 49 93 }
 	capital = 370 # Warmia
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_pomesanians = {
+	color = { 200 99 3 }
+	capital = 1297 # Pomesania
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_sasnians = {
+	color = { 25 70 31 }
+	capital = 427 # Galindia
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_pogesanians = {
+	color = { 7 99 129 }
+	capital = 1298 # Pogesania
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_bartians = {
+	color = { 22 1 7 }
+	capital = 1299 # Bartia
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_nadruvians = {
+	color = { 93 9 77 }
+	capital = 1300 # Nadruvia
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_scalovians = {
+	color = { 95 24 55 }
+	capital = 422 # Scalovia
+	culture = prussian
+	#tribe = yes
+	allow = { always = no }
+	title = HIGH_CHIEF
+	title_female = HIGH_CHIEFTESS
+	foa = HIGH_CHIEF_FOA
+}
+d_sambians = {
+	color = { 22 24 66 }
+	capital = 371 # Sambia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
@@ -346,11 +416,11 @@ d_radimichi = { # Radimichi
 }
 ##############
 # Mongol
-d_naimans = { # Naiman
-	color = { 75 195 50 }
-	culture = mongol
-	capital = 1580 # Jungaria
-}
+# d_naimans = { # Naiman
+# color = { 75 195 50 }
+# culture = mongol
+# capital = 1580 # Jungaria
+# }
 ######################################
 # Pecheneg tribes
 ######################################

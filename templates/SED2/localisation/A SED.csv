@@ -947,7 +947,7 @@ d_syria                                        ;Syria   ;;;Syria
 d_syria_adj                                    ;Syrian  ;;;Syrian
 c_druz_adj                                     ;Druze   ;;;Druzian
 c_suwaida_adj                                  ;As-Suwayda;;;Suwaidan
-k_england                                      ;England ;;Angleterre,Angliétèrre,Ænglaland,Engelond,Ænglandi,Lloegyr,Britanniae,Brittannia;England
+k_england                                      ;England ;;Angleterre,Angliétèrre,Englaland,Engelond,Ænglandi,Lloegyr,Britanniae,Brittannia;England
 k_england_adj                                  ;English ;;;English
 d_oxford                                       ;Oxford  ;;;Oxford
 d_oxford_adj                                   ;Oxfordian;;;Oxfordian
@@ -1122,19 +1122,19 @@ PROV7                                          ;Oriel   ;;c_oriel,Airgíalla,Oiri
 PROV10                                         ;Kildare ;;c_kildare,Cill Dara,Cheeill Darey;Kildare
 PROV11                                         ;Dublin  ;;c_dublin,Duibhlinn,Diflinarskiri,Dulyn,Difelin,Dyflin;Dublin
 PROV12                                         ;Osraige ;;c_ossory,Osraige;Ossory
-PROV17                                         ;Hereford;;c_hereford,Ergyng;Hereford
+PROV17                                         ;Hereford;;c_hereford,Heresforda,Ergyng;Hereford
 PROV20                                         ;Gwent   ;;c_gwent,Gwent,Isca Augusta;Gwent
-PROV21                                         ;Gloucester;;c_gloucester,Gleawcester,Caer Gloui,Glevum;Gloucester
+PROV21                                         ;Gloucester;;c_gloucester,Gleawcester,Gleawceaster,Caer Gloui,Glevum;Gloucester
 PROV22                                         ;Oxford  ;;c_oxford,Oxnaford,Oxenaforda,Rhydychen;Oxford
 PROV23                                         ;Wiltshire;;c_wiltshire,Wiltun,Caer Gradawc;Wiltshire
-PROV24                                         ;Surrey  ;;c_surrey,Suðríki,Suþrïge;Surrey
-PROV25                                         ;Sussex  ;;c_sussex,Suðseaxe,Süþseaxe,Rhegin;Sussex
+PROV24                                         ;Surrey  ;;c_surrey,Suðríki,Suthrige;Surrey
+PROV25                                         ;Sussex  ;;c_sussex,Suðseaxe,Suthseaxe,Rhegin;Sussex
 PROV26                                         ;Winchester;;c_winchester,Hamtun,Wintanceaster,Ouînchêtre,Winchester,Caer Gwynntguic;Winchester
 PROV29                                         ;Devon   ;;c_devon,Defena,Dyfnaint,Isca Dumnoniorum;Devon
 PROV30                                         ;Worcester;;c_worcester,Wigreceaster,Gaerwrangon;Worcester
-PROV31                                         ;Cornwall;;c_cornwall,Cornweal,Cernyw,Kernow;Cornwall
-PROV32                                         ;Middlesex;;c_middlesex,Miðseaxe,Middleseaxe,Caer Llundain,Caer Lundein,Londinium,Londinion;Middlesex
-PROV38                                         ;Teviotdale;;c_teviotdale,Rosbroch,Roxburgh,Roxburg,Roxborg;Teviotdale
+PROV31                                         ;Cornwall;;c_cornwall,Cornweal,Cornwealh,Cernyw,Kernow;Cornwall
+PROV32                                         ;Middlesex;;c_middlesex,Miðseaxe,Middelseaxe,Caer Llundain,Caer Lundein,Londinium,Londinion;Middlesex
+PROV38                                         ;Teviotdale;;c_teviotdale,Rosbroch,Roxburgh,Hrocasburh,Roxborg;Teviotdale
 PROV39                                         ;Ross    ;;c_ross,Ros,Ross;Ross
 PROV40                                         ;Moray   ;;c_moray,Moireibh,Moray;Moray
 PROV41                                         ;Buchan  ;;c_buchan,Buchan,Bhanbh;Buchan
@@ -1144,7 +1144,7 @@ PROV44                                         ;Atholl  ;;c_atholl,Athall,Atholl
 PROV45                                         ;Argyll  ;;c_argyll,Earra Ghaidheal,Argyll;Argyll
 PROV46                                         ;Fife    ;;c_fife,Fìobha,Fife;Fife
 PROV47                                         ;Clydesdale;;c_clydesdale,Clydesdale;Clydesdale
-PROV48                                         ;Lothian ;;c_lothian,Lodainn,Lleuddiniawn,Lothian;Lothian
+PROV48                                         ;Lothian ;;c_lothian,Lodainn,Lleuddiniawn,Lothian,Lothen;Lothian
 PROV49                                         ;Carrick ;;c_carrick,A' Charraig,Carrick;Carrick
 PROV50                                         ;Galloway;;c_galloway,Gall Ghaidheal,Galloway;Galloway
 PROV51                                         ;Dunbar  ;;c_dunbar,Bearaig-a-Deas,Berik,Caerferwig,Berwick,Berewic;Dunbar
@@ -1152,8 +1152,8 @@ PROV52                                         ;Northumberland;;c_northumberland
 PROV53                                         ;Cumberland;;c_cumberland,Cumbraland,Cair Ligualid,Cathair Luail,Luguvalium;Cumberland
 PROV54                                         ;Isle of Man;;c_isle_of_man,Mano,Vannin,Manau,Mann,Mön;Isle of Man
 PROV55                                         ;Westmorland;;c_westmorland,Vestmoringaland,Westmoringaland,Dunoting;Westmorland
-PROV56                                         ;Durham  ;;c_durham,Dunholm,Dunham,Duresme;Durham
-PROV58                                         ;Lancaster;;c_lancaster,Lonceaster,Lunenceaster,Loncastre,Argoed;Lancaster
+PROV56                                         ;Durham  ;;c_durham,Dunholm,Duresme;Durham
+PROV58                                         ;Lancaster;;c_lancaster,Lonceaster,Luneceaster,Loncastre,Argoed;Lancaster
 PROV59                                         ;Chester ;;c_chester,Legeceaster,Cestre,Gaerlleon,Deva;Chester
 PROV60                                         ;Perfeddwlad;;c_perfeddwlad,Berfeddwlad,Perfeddwlad;Perfeddwlad
 PROV61                                         ;Lincoln ;;c_lincoln,Lincylene,Linnius,Lindum,Lindon;Lincoln
@@ -1162,10 +1162,10 @@ PROV63                                         ;Derby   ;;c_derby,Djúrabý,Deorab
 PROV64                                         ;Gwynedd ;;c_gwynedd,Gwynedd,Caernarvon;Gwynedd
 PROV66                                         ;Shrewsbury;;c_shrewsbury,Scrobbesborg,Scrobbesburh,Pengwern;Shrewsbury
 PROV67                                         ;Warwick ;;c_warwick,Wæring;Warwick
-PROV68                                         ;Northampton;;c_northampton,Norðhamtun,Norþhamtun,Hante,Calchwynedd,Cynwidion;Northampton
+PROV68                                         ;Northampton;;c_northampton,Norðhamtun,Hamtun,Hante,Calchwynedd,Cynwidion;Northampton
 PROV69                                         ;Bedford ;;c_bedford,Beadanford,Beadanforda;Bedford
-PROV70                                         ;Norfolk ;;c_norfolk,Norðfolc,Norþfolc,Caer went,Caer Went;Norfolk
-PROV71                                         ;Suffolk ;;c_suffolk,Suðfolc,Suþfolc;Suffolk
+PROV70                                         ;Norfolk ;;c_norfolk,Norðfolc,Northfolc,Caer went,Caer Went;Norfolk
+PROV71                                         ;Suffolk ;;c_suffolk,Suðfolc,Suthfolc;Suffolk
 PROV72                                         ;Essex   ;;c_essex,Austseaxe,Eastseaxe,Caer Colun,Camulodunum,Camulodunon;Essex
 PROV73                                         ;Kent    ;;c_kent,Cent,Ceint;Kent
 PROV74                                         ;Guînes  ;;c_guines,Giezene;Guines

@@ -76,7 +76,7 @@ PROV979 ;Deltuva ;Deltuva;c_deltuva,Dziewaltów,Dievaltov,Diaveltva,Dewilto;Tiver
 PROV980 ;Everstein;Everstein;c_everstein;Portugal Coast
 PROV981 ;Ansbach ;Ansbach;c_ansbach;Golfo de Cadiz
 PROV982 ;Prignitz;Prignitz;c_prignitz;Coast of Iceland
-PROV983 ;Isle of Ely;Isle of Ely;c_ely,Élig;Dead Sea
+PROV983 ;Isle of Ely;Isle of Ely;c_ely,Élig,Elig;Dead Sea
 PROV984 ;Järva   ;Järva;c_jarva,Jerwia,Järva,Jerwen;North Atlantic
 PROV985 ;Selonia ;Sèlija;c_selija,Sèlija,Sëla,Selonia,Selen;North Atlantic
 PROV986 ;Metsepole;Metsepole;c_metsepole;North Sea
@@ -326,7 +326,7 @@ PROV1229;Uri     ;Uri;c_uri;Khinjali Mandala
 PROV1230;Dongola ;Dongola;c_dongola;Suvarnapura
 #PROV1231,,,,,,,,,,x,,,,;;;;
 PROV1232;Ayrarat ;Ayrarat;c_bagrewand,Igdir;Midnapore
-#PROV1233,Tanzeruft desert,Désert Tanzerouft,Tanzeruft desert,,Tanzerouft,,,,,x,,,,;;;;
+#PROV1233,Tanzeruft Desert,Désert Tanzerouft,Tanzeruft Desert,,Tanzerouft,,,,,x,,,,;;;;
 #PROV1234,Ténéré,Ténéré,Ténéré,,Ténéré,,,,,x,,,,;;;;
 PROV1235;Kufra   ;Koufra;c_roufra;Tamralipti
 PROV1236;Azaz    ;Hazart;c_hazart,Azaz;Candradvipa
@@ -431,7 +431,7 @@ PROV1334;Faiyum  ;Fayyum;c_fayyum,Arsinoë;Alodia
 PROV1335;Atfih   ;Itfih;c_itfih,Aphroditopolis,Aphroditoupolis;Kosti
 PROV1336;Oxyrhynchus;Bahnasa;c_bahnasa,Oxyrhynchus,Oxyrynchos;Vijnot
 PROV1337;Manfalut;Manfalut;c_manfalut,Manbalot;Uch
-PROV1338;Eastern Desert;Eastern desert;;Multan
+PROV1338;Eastern Desert;Eastern Desert;;Multan
 PROV1339;Akhmim  ;Ikhmin;c_ikhmin,Panopolis;Rajanpur
 PROV1340;Qus     ;Qus;c_qus,Thebae,Thebai;Karor
 PROV1341;Kharga  ;Kharija;c_kharija,Oasis Magna,Oasis Megas;Nandana
@@ -507,10 +507,10 @@ PROV1410;Hertford;Hertford;c_hertford,Heortford,Verulamium,Ourolanion;Coast of K
 PROV1411;Cambridge;Cambridge;c_cambridge,Grantabrycge,Grentebrige,Caergrawnt;Ganges Delta
 PROV1412;Huntingdon;Huntingdon;c_huntingdon,Huntandun;Arabian Sea
 PROV1413;Rutland ;Rutland;c_rutland,Roteland;Venadu
-PROV1414;Nottingham;Nottingham;c_nottingham,Snotingahamscir,Swydd Y Ty Ogofog,Swydd Tigguo Cobauc;Kotthasara
+PROV1414;Nottingham;Nottingham;c_nottingham,Snotingaham,Swydd Y Ty Ogofog,Swydd Tigguo Cobauc;Kotthasara
 PROV1415;North Riding;North York Ridding;c_york_moors;Pithapuram
 PROV1416;East Riding;East York Ridding;c_york_wolds;Kolhapur
-PROV1417;Isle of Wight;Wight;c_wight;Wag
+PROV1417;Isle of Wight;Wight;c_wight,Wiht;Wag
 PROV1418;Channel Islands;Channel Isles;c_jersey,Jarðey,Caesarea,Jèrri,Jerzenez;Haruppeswara
 PROV1419;Mull    ;Muile;c_muile,Muile,Mull,Myl;Mithila
 PROV1420;Islay   ;Ile;c_ile,Ìle,Islay,Íl;Simaramapura
@@ -673,9 +673,9 @@ PROV1576;Ayaguz  ;Ayaguz;c_ayaguz;
 PROV1577;Barskon ;Barskhan;c_barskhan;
 PROV1578;Taloqan ;Tâlekân;c_talekan;
 PROV1579;Balkhash;Balkhash;c_balkhash;
-PROV1580;Dzungaria;Jungaria;c_jungaria;
+PROV1580;Khotan  ;Khotan;c_khotan;
 PROV1581;Tuzla   ;Soli;c_soli,Salinae,Sale,Salines,Só,Tuzla;
-PROV1582;Taklamakan Desert;Takla Makan desert;;
+PROV1582;Taklamakan Desert;Takla Makan Desert;;
 PROV1583;Pamir Mountains;The Pamir;;
 PROV1584;Himmersyssel;Himbræsysæl;c_northeastern_jylland;
 PROV1585;Vardesyssel;Warwithsysæl;c_central_jylland;
@@ -1028,7 +1028,7 @@ PROV1931;Rhine   ;Rhein;;
 PROV1932;Meuse   ;Maas;;
 PROV1933;Meuse   ;Maas;;
 PROV1934;Meuse   ;Maas;;
-PROV1935;Rann of Kutch;Ran of Kutch;;
+PROV1935;Rann of Kutch;Rann of Kutch;;
 PROV1936;Indus   ;Indus;;
 PROV1937;Indus   ;Indus;;
 PROV1938;Red Sea ;Red Sea;;
@@ -1042,9 +1042,10 @@ PROV1945;Gulf of Oman;Gulf of Oman;;
 PROV1946;Grand Erg Oriental;Grand Erg;;
 PROV1947;Sahara  ;Ghat Sahara;;
 PROV1948;Southern Sahara;South Sahara;;
-PROV1949;Ténéré  ;Tenere desert;;
+PROV1949;Ténéré  ;Tenere Desert;;
 PROV1950;Southern Ténéré;South Tenere;;
-PROV806 ;Libyan Desert;Libyan desert;;Cyrenaica
+PROV806 ;Libyan Desert;Libyan Desert;;Cyrenaica
 PROV1951;Syrian Desert;Badiyat ash-sham;;
 PROV1952;Ténéré  ;Ténéré;;
-#PROV1953,,,,,,,,,,,,,,;;;;
+PROV1953;        ;;;
+#PROV1954,,,,,,,,,,,,,,;;;;
