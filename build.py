@@ -17,6 +17,7 @@ if no_provinces:
 
 rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
+minipath = rootpath / 'MiniSWMH/MiniSWMH'
 sed2path = rootpath / 'SED2'
 
 province_loc_files = [
@@ -36,6 +37,7 @@ def main():
     build_lt = build_sed2 / 'common/landed_titles'
     build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
+    build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
     while build.exists():
         print('Removing old build...')
         shutil.rmtree(str(build), ignore_errors=True)
@@ -43,6 +45,7 @@ def main():
     build_lt.mkdir(parents=True)
     build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
+    build_mini_lt.mkdir(parents=True)
     swmh_files = set()
     sed2 = {}
     keys_to_blank = set()
@@ -161,11 +164,12 @@ def main():
                         v2.indent = v2.indent
                 update_tree(v2, sed2, lt_keys)
 
+    sed2 = {}
     for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
                                               basedir=swmhpath):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
-        sed2 = collections.defaultdict(list)
+        sed2[template] = collections.defaultdict(list)
         for row in ck2parser.csv_rows(template):
             title, key, val = (s.strip() for s in row[:3])
             if val:
@@ -173,11 +177,19 @@ def main():
                     val = ck2parser.Obj.from_iter(
                         ck2parser.String.from_str(x.strip('"'))
                         for x in re.findall(r'[^"\s]+|"[^"]*"', val))
-                sed2[title].append(ck2parser.Pair.from_kv(key, val))
+                sed2[template][title].append(ck2parser.Pair.from_kv(key, val))
         # from pprint import pprint
         # # pprint(tree.str())
         # pprint(tree.contents[0].str())
-        update_tree(tree, sed2, lt_keys)
+        update_tree(tree, sed2[template], lt_keys)
+        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+            f.write(tree.str())
+
+    for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
+                                              basedir=minipath):
+        template = templates_lt / inpath.with_suffix('.csv').name
+        outpath = build_mini_lt / inpath.name
+        update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str())
 
