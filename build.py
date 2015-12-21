@@ -24,7 +24,6 @@ province_loc_files = [
     'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 def main():
-    start_time = time.time()
     templates = sed2path / 'templates'
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
@@ -196,8 +195,11 @@ def main():
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
         print('{} - {}'.format(version, datetime.date.today()), file=f)
-    end_time = time.time()
-    print('Time: {} s'.format(end_time - start_time))
 
 if __name__ == '__main__':
-    main()
+    start_time = time.time()
+    try:
+        main()
+    finally:
+        end_time = time.time()
+        print('Time: {} s'.format(end_time - start_time))
