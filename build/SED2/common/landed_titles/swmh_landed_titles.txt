@@ -1812,7 +1812,7 @@ e_hre = { # Heiliges Römisches Reich
 				}
 			}
 			independent = yes
-			not = { any_demesne_title = { tier = emperor } }
+			not = { tier = emperor }
 		}
 	} # end k_frisia
 	k_upper_lorraine = { # Oberlothringen
@@ -2056,7 +2056,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -2394,7 +2394,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -2837,7 +2837,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3048,7 +3048,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3374,7 +3374,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3639,7 +3639,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -4007,7 +4007,7 @@ e_hre = { # Heiliges Römisches Reich
 			or = {
 				prestige = 2500
 				and = {
-					not = { any_demesne_title = { tier = emperor } }
+					not = { tier = emperor }
 					prestige = 700
 				}
 			}
