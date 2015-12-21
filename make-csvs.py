@@ -114,8 +114,6 @@ def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
     return override, missing_loc, ul_titles
 
 def main():
-    start_time = time.time()
-
     # fill titles before calling
     def should_override(key):
         title_match = re.match(r'[ekdcb]_((?!_adj($|_)).)*', key)
@@ -369,8 +367,11 @@ def main():
             print('Removing old templates...')
             shutil.rmtree(str(templates), ignore_errors=True)
         shutil.copytree(str(templates_t), str(templates))
-    end_time = time.time()
-    print('Time: {} s'.format(end_time - start_time))
 
 if __name__ == '__main__':
-    main()
+    start_time = time.time()
+    try:
+        main()
+    finally:
+        end_time = time.time()
+        print('Time: {} s'.format(end_time - start_time))
