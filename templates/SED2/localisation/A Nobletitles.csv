@@ -2641,10 +2641,10 @@ duchy_baloch                                          ;Spah    ;Spah;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Tengri tribals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-tribal_count_tengri_pagan                             ;Bey     ;Beg;;
-tribal_count_female_tengri_pagan                      ;Begum   ;Bega;;
-tribal_count_title_ruler_consort_tengri_pagan         ;        ;Beg;;
-tribal_count_title_ruler_consort_female_tengri_pagan  ;        ;Bega;;
+#tribal_count_tengri_pagan,Beg,Beg,Beg,,Beg,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
+#tribal_count_female_tengri_pagan,Bega,Bega,Bega,,Bega,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
+#tribal_count_title_ruler_consort_tengri_pagan,Beg,Beg,Beg,,Beg,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
+#tribal_count_title_ruler_consort_female_tengri_pagan,Bega,Bega,Bega,,Bega,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
 tribal_duke_tengri_pagan                              ;Ilek    ;Ilek;;
 tribal_duke_female_tengri_pagan                       ;Ilkan   ;Ilkan;;
 tribal_duke_title_ruler_consort_tengri_pagan          ;        ;Ilek;;
@@ -2888,3 +2888,20 @@ duke_prussian                                         ;King    ;Waldnika;;
 count_prussian                                        ;Knight  ;Waldwiko;;
 baron_prussian                                        ;Chief   ;Waldunas;;
 baron_female_prussian                                 ;Lady    ;Supuni;;
+####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Mongol,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+nomadic_emperor_mongol                                ;Khan    ;Khan;;
+nomadic_empire_of_mongol                              ;Khanate of;Khanate of;;
+nomadic_empire_mongol                                 ;Khanate ;Khanate;;
+nomadic_king_mongol                                   ;Chief   ;Aqa;;
+nomadic_kingdom_of                                    ;Tribe of;Tribe of;;Khanate of
+nomadic_kingdom                                       ;Tribe   ;Tribe;;Khanate
+duke_mongol                                           ;Noyan   ;Noyan;;High Chief
+baron_mongol                                          ;Darugha ;Darugha;;Taishi
+barony_mongol                                         ;Darugha ;Darugha;;Taishi
+barony_of_mongol                                      ;Darugha of;Darugha of;;Taishi of
+tribal_baron_mongol                                   ;Darugha ;Darugha;;Taishi
+tribal_barony_of_mongol                               ;Darugha of;Darugha of;;Taishi of
+city_baron_mongol                                     ;Urtaq   ;Urtaq;;
+baron_pagan_group                                     ;        ;;;Hetman
