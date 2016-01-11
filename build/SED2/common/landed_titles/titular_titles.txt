@@ -190,7 +190,12 @@ e_germany = { # Germania
 	color2 = { 220 220 20 }
 	capital = 121 # Nassau
 	culture = german
-	allow = { always = no }
+	allow = {
+		FROM = { is_titular = no }
+		war = no
+		has_regent = no
+		realm_size = 120
+	}
 }
 k_avaria = { # Avaria
 	color = { 250 120 90 } # Only for the CoA
