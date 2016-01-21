@@ -841,12 +841,12 @@ baron_catalan;Viscount;;;;;;;;;;;;;x
 baron_female_catalan;Viscountess;;;;;;;;;;;;;x
 barony_of_catalan;Viscounty of;;;;;;;;;;;;;x
 city_baron_catalan;Consul;;;;;;;;;;;;;x
-temple_emperor_christian_catalan;King-Priest;;;;;;;;;;;;;x
-temple_king_catholic_catalan;Apostolic King;;;;;;;;;;;;;x
-temple_king_orthodox_catalan;Prince-Patriarch;;;;;;;;;;;;;x
-temple_duke_catholic_catalan;Prince-Archbishop;;;;;;;;;;;;;x
-temple_duke_orthodox_catalan;Prince-Primate;;;;;;;;;;;;;x
-temple_count_catholic_catalan;Prince-Bishop;;;;;;;;;;;;;x
+temple_emperor_catalan;King-Priest;;;;;;;;;;;;;x
+temple_king_catalan;Apostolic King;;;;;;;;;;;;;x
+temple_king_catalan;Apostolic King;;;;;;;;;;;;;x
+temple_duke_catalan;Prince-Archbishop;;;;;;;;;;;;;x
+temple_duke_catalan;Prince-Archbishop;;;;;;;;;;;;;x
+temple_count_catalan;Prince-Bishop;;;;;;;;;;;;;x
 city_empire_of_catalan;Principality of;;;;;;;;;;;;;x
 city_kingdom_of_catalan;Generalitat of;;;;;;;;;;;;;x
 city_duchy_of_catalan;Council of;;;;;;;;;;;;;x
@@ -1073,11 +1073,11 @@ city_count_bohemian;Burgomaster;;;;;;;;;;;;;x
 city_barony_of_bohemian;City of;;;;;;;;;;;;;x
 city_county_of_bohemian;Free City of;;;;;;;;;;;;;x
 temple_baron_bohemian;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_bohemian;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_bohemian;Archbishop;;;;;;;;;;;;;x
-temple_barony_of_catholic_bohemian;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_bohemian;Bishopric of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_bohemian;Archbishopric of;;;;;;;;;;;;;x
+temple_count_bohemian;Bishop;;;;;;;;;;;;;x
+temple_duke_bohemian;Archbishop;;;;;;;;;;;;;x
+temple_barony_of_bohemian;Abbey of;;;;;;;;;;;;;x
+temple_county_of_bohemian;Bishopric of;;;;;;;;;;;;;x
+temple_duchy_of_bohemian;Archbishopric of;;;;;;;;;;;;;x
 barony_of_bohemian;Castellany of;;;;;;;;;;;;;x
 county_of_bohemian;Lordship of;;;;;;;;;;;;;x
 duchy_of_bohemian;Duchy of;;;;;;;;;;;;;x
@@ -1112,6 +1112,8 @@ duke_female_hausa;Yerimina;;;;;;;;;;;;;x
 king_hausa;Mai;;;;;;;;;;;;;x
 king_female_hausa;Gumsu;;;;;;;;;;;;;x
 title_prince_hausa;Shiroma;;;;;;;;;;;;;x
+temple_count_ethiopian;Abune;;;;;;;;;;;;;x
+temple_duke_ethiopian;Abune;;;;;;;;;;;;;x
 count_ethiopian;Dejazmach;;;;;;;;;;;;;x
 count_female_ethiopian;Woyzero;;;;;;;;;;;;;x
 count_title_ruler_consort_ethiopian;Governor;;;;;;;;;;;;;x
@@ -1271,12 +1273,12 @@ city_duchy_of_german;Landvogtei of;;;;;;;;;;;;;x
 city_kingdom_of_german;Land of;;;;;;;;;;;;;x
 city_empire_of_german;Realm of;;;;;;;;;;;;;x
 temple_baron_german;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_german;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_german;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_german;Primate;;;;;;;;;;;;;x
-temple_barony_of_catholic_german;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_german;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_german;Archdiocese of;;;;;;;;;;;;;x
+temple_count_german;Bishop;;;;;;;;;;;;;x
+temple_duke_german;Archbishop;;;;;;;;;;;;;x
+temple_king_german;Primate;;;;;;;;;;;;;x
+temple_barony_of_german;Abbey of;;;;;;;;;;;;;x
+temple_county_of_german;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_german;Archdiocese of;;;;;;;;;;;;;x
 barony_of_german;Lordship of;;;;;;;;;;;;;x
 county_of_german;County of;;;;;;;;;;;;;x
 duchy_of_german;Duchy of;;;;;;;;;;;;;x
@@ -1307,12 +1309,12 @@ city_duchy_of_low_german;Landvogtei of;;;;;;;;;;;;;x
 city_kingdom_of_low_german;Land of;;;;;;;;;;;;;x
 city_empire_of_low_german;Realm of;;;;;;;;;;;;;x
 temple_baron_low_german;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_low_german;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_low_german;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_low_german;Primate;;;;;;;;;;;;;x
-temple_barony_of_catholic_low_german;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_low_german;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_low_german;Archdiocese of;;;;;;;;;;;;;x
+temple_count_low_german;Bishop;;;;;;;;;;;;;x
+temple_duke_low_german;Archbishop;;;;;;;;;;;;;x
+temple_king_low_german;Primate;;;;;;;;;;;;;x
+temple_barony_of_low_german;Abbey of;;;;;;;;;;;;;x
+temple_county_of_low_german;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_low_german;Archdiocese of;;;;;;;;;;;;;x
 barony_of_low_german;Lordship of;;;;;;;;;;;;;x
 county_of_low_german;County of;;;;;;;;;;;;;x
 duchy_of_low_german;Duchy of;;;;;;;;;;;;;x
@@ -1379,12 +1381,12 @@ city_duchy_of_franconian;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_franconian;Land of;;;;;;;;;;;;;x
 city_empire_of_franconian;Realm of;;;;;;;;;;;;;x
 temple_baron_franconian;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_franconian;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_franconian;Archbishop;;;;;;;;;;;;;x
+temple_count_franconian;Bishop;;;;;;;;;;;;;x
+temple_duke_franconian;Archbishop;;;;;;;;;;;;;x
 temple_king_franconian;Patriarch;;;;;;;;;;;;;x
-temple_barony_of_catholic_franconian;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_franconian;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_franconian;Archdiocese of;;;;;;;;;;;;;x
+temple_barony_of_franconian;Abbey of;;;;;;;;;;;;;x
+temple_county_of_franconian;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_franconian;Archdiocese of;;;;;;;;;;;;;x
 barony_of_franconian;Lordship of;;;;;;;;;;;;;x
 county_of_franconian;County of;;;;;;;;;;;;;x
 duchy_of_franconian;Duchy of;;;;;;;;;;;;;x
@@ -1416,9 +1418,9 @@ city_duchy_of_bavarian;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_bavarian;Land of;;;;;;;;;;;;;x
 city_empire_of_bavarian;Realm of;;;;;;;;;;;;;x
 temple_baron_bavarian;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_bavarian;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_bavarian;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_bavarian;Patriarch;;;;;;;;;;;;;x
+temple_count_bavarian;Bishop;;;;;;;;;;;;;x
+temple_duke_bavarian;Archbishop;;;;;;;;;;;;;x
+temple_king_bavarian;Patriarch;;;;;;;;;;;;;x
 temple_barony_of_catholic_bavarian;Abbey of;;;;;;;;;;;;;x
 temple_county_of_catholic_bavarian;Diocese of;;;;;;;;;;;;;x
 temple_duchy_of_catholic_bavarian;Archdiocese of;;;;;;;;;;;;;x
@@ -1453,12 +1455,12 @@ city_duchy_of_swabian;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_swabian;Land of;;;;;;;;;;;;;x
 city_empire_of_swabian;Realm of;;;;;;;;;;;;;x
 temple_baron_swabian;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_swabian;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_swabian;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_swabian;Patriarch;;;;;;;;;;;;;x
-temple_barony_of_catholic_swabian;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_swabian;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_swabian;Archdiocese of;;;;;;;;;;;;;x
+temple_count_swabian;Bishop;;;;;;;;;;;;;x
+temple_duke_swabian;Archbishop;;;;;;;;;;;;;x
+temple_king_swabian;Patriarch;;;;;;;;;;;;;x
+temple_barony_of_swabian;Abbey of;;;;;;;;;;;;;x
+temple_county_swabian;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_swabian;Archdiocese of;;;;;;;;;;;;;x
 barony_of_swabian;Lordship of;;;;;;;;;;;;;x
 county_of_swabian;County of;;;;;;;;;;;;;x
 duchy_of_swabian;Duchy of;;;;;;;;;;;;;x
@@ -1490,12 +1492,12 @@ city_duchy_of_thuringian;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_thuringian;Land of;;;;;;;;;;;;;x
 city_empire_of_thuringian;Realm of;;;;;;;;;;;;;x
 temple_baron_thuringian;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_thuringian;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_thuringian;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_thuringian;Patriarch;;;;;;;;;;;;;x
-temple_barony_of_catholic_thuringian;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_thuringian;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_thuringian;Archdiocese of;;;;;;;;;;;;;x
+temple_count_thuringian;Bishop;;;;;;;;;;;;;x
+temple_duke_thuringian;Archbishop;;;;;;;;;;;;;x
+temple_king_thuringian;Patriarch;;;;;;;;;;;;;x
+temple_barony_of_thuringian;Abbey of;;;;;;;;;;;;;x
+temple_county_of_thuringian;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_thuringian;Archdiocese of;;;;;;;;;;;;;x
 barony_of_thuringian;Lordship of;;;;;;;;;;;;;x
 county_of_thuringian;County of;;;;;;;;;;;;;x
 duchy_of_thuringian;Duchy of;;;;;;;;;;;;;x
@@ -1527,12 +1529,12 @@ city_duchy_of_low_saxon;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_low_saxon;Land of;;;;;;;;;;;;;x
 city_empire_of_low_saxon;Realm of;;;;;;;;;;;;;x
 temple_baron_low_saxon;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_low_saxon;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_low_saxon;Archbishop;;;;;;;;;;;;;x
-temple_king_catholic_low_saxon;Patriarch;;;;;;;;;;;;;x
-temple_barony_of_catholic_low_saxon;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_low_saxon;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_low_saxon;Archdiocese of;;;;;;;;;;;;;x
+temple_count_low_saxon;Bishop;;;;;;;;;;;;;x
+temple_duke_low_saxon;Archbishop;;;;;;;;;;;;;x
+temple_king_low_saxon;Patriarch;;;;;;;;;;;;;x
+temple_barony_of_low_saxon;Abbey of;;;;;;;;;;;;;x
+temple_county_of_low_saxon;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_low_saxon;Archdiocese of;;;;;;;;;;;;;x
 barony_of_low_saxon;Lordship of;;;;;;;;;;;;;x
 county_of_low_saxon;County of;;;;;;;;;;;;;x
 duchy_of_low_saxon;Duchy of;;;;;;;;;;;;;x
@@ -1638,12 +1640,12 @@ city_duchy_of_old_frankish;Gau of;;;;;;;;;;;;;x
 city_kingdom_of_old_frankish;Land of;;;;;;;;;;;;;x
 city_empire_of_old_frankish;Realm of;;;;;;;;;;;;;x
 temple_baron_old_frankish;Abbot;;;;;;;;;;;;;x
-temple_count_catholic_old_frankish;Bishop;;;;;;;;;;;;;x
-temple_duke_catholic_old_frankish;Archbishop;;;;;;;;;;;;;x
+temple_count_old_frankish;Bishop;;;;;;;;;;;;;x
+temple_duke_old_frankish;Archbishop;;;;;;;;;;;;;x
 temple_king_old_frankish;Patriarch;;;;;;;;;;;;;x
-temple_barony_of_catholic_old_frankish;Abbey of;;;;;;;;;;;;;x
-temple_county_of_catholic_old_frankish;Diocese of;;;;;;;;;;;;;x
-temple_duchy_of_catholic_old_frankish;Archdiocese of;;;;;;;;;;;;;x
+temple_barony_of_old_frankish;Abbey of;;;;;;;;;;;;;x
+temple_county_of_old_frankish;Diocese of;;;;;;;;;;;;;x
+temple_duchy_of_old_frankish;Archdiocese of;;;;;;;;;;;;;x
 barony_of_old_frankish;Lordship of;;;;;;;;;;;;;x
 county_of_old_frankish;County of;;;;;;;;;;;;;x
 duchy_of_old_frankish;Duchy of;;;;;;;;;;;;;x
@@ -2032,3 +2034,16 @@ tribal_baron_mongol;Darugha;;;;;;;;;;;;;x
 tribal_barony_of_mongol;Darugha of;;;;;;;;;;;;;x
 city_baron_mongol;Urtaq;;;;;;;;;;;;;x
 baron_pagan_group;;;;;;;;;;;;;;x
+temple_baron_assyrian;Abuna;;;;;;;;;;;;;x
+temple_count_assyrian;Abuna;;;;;;;;;;;;;x
+duke_temple_assyrian;Metropolitan;;;;;;;;;;;;;x
+city_baron_assyrian;Arkuna;;;;;;;;;;;;;x
+baron_assyrian;Lord;;;;;;;;;;;;;x
+count_assyrian;Count;;;;;;;;;;;;;x
+duke_assyrian;Duke;;;;;;;;;;;;;x
+king_assyrian;Malik;;;;;;;;;;;;;x
+king_female_assyrian;Malikah;;;;;;;;;;;;;x
+kingdom_assyrian;Kingdom;;;;;;;;;;;;;x
+kingdom_of_assyrian;Kingdom;;;;;;;;;;;;;x
+emperor_assyrian;Emperor;;;;;;;;;;;;;x
+emperor_female_assyrian;Empress;;;;;;;;;;;;;x
