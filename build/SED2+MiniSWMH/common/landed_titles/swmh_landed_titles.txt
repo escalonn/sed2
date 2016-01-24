@@ -23211,8 +23211,8 @@ e_spain = { # España
 				any_vassal = { has_landed_title = c_lleida }
 			}
 			or = {
-				has_landed_title = c_tortosa
-				any_vassal = { has_landed_title = c_tortosa }
+				has_landed_title = c_tarragona
+				any_vassal = { has_landed_title = c_tarragona }
 			}
 			or = {
 				has_landed_title = c_girona
@@ -28468,7 +28468,7 @@ e_null = {
 	k_turkestan_east = { # Mavi Turkestán
 		color = { 200 140 40 }
 		color2 = { 255 255 255 }
-		capital = 1573 # Yetisu # Yetis-su
+		capital = 1567 # Kashgar
 		tengri_pagan_reformed = 500
 		muslim = 300
 		d_zhetysu = { # Zhetisu
@@ -28482,11 +28482,11 @@ e_null = {
 				b_illbaliq = {}
 				b_sarqand = {}
 			}
-			c_almaliq = { # Almaliq (1571)
+			c_almaliq = { # Yulduz (1571)
 				color = { 215 135 35 }
 				color2 = { 255 255 255 }
-				b_almaliq = {}
 				b_illi = {}
+				b_almaliq = {}
 				#b_sarbulaq = {}
 				b_pulad = {}
 				#b_kash = {}
@@ -28500,7 +28500,7 @@ e_null = {
 				b_karakol = {}
 				b_arshatu = {}
 			}
-			c_balasaghnun = { # Balasaghnun (1572)
+			c_balasaghnun = { # Balasaghun (1572)
 				color = { 210 125 55 }
 				color2 = { 255 255 255 }
 				b_suyab = {}
