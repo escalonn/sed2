@@ -318,7 +318,7 @@ def main():
         keys_to_override, _, ul_titles = get_more_keys_to_override(
             loc_emf, max_provs, emfpath, swmhpath, emfswmhpath, extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
-        keys_to_add = ['Saint-Empire Romain']
+        keys_to_add = [] #['Saint-Empire Romain']
         prev_loc_emf = collections.defaultdict(str)
         inpath = templates / 'SED2+EMF/localisation/A A SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()

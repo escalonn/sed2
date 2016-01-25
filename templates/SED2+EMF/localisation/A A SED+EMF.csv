@@ -1,5 +1,4 @@
 #CODE                          ;SED+EMF ;EMF;SWMH;OTHER;SED;VANILLA
-Saint-Empire Romain            ;Holy Roman Empire;Saint-Empire Romain;;;;
 #PB_CBs.csv;;;;;
 #PB_CatholicSchism.csv;;;;;
 #PB_SWMH_retinues.csv;;;;;
@@ -76,34 +75,26 @@ empire_of_turkish              ;        ;Sultanate of;;;;
 #PB_new_titles.csv;;;;;
 e_bulgaria                     ;        ;Bulgarian Empire;;;;
 e_bulgaria_adj                 ;        ;Bulgarian;;;;
-k_shiite                       ;        ;The Shia Caliphate;Shia;;Shia;
-k_shiite_adj                   ;        ;Caliphal;Shiite;;Shi‘ite;
-e_germany                      ;        ;Germany;;;Germania;Germania
-e_germany_adj                  ;        ;German;;;German;German
+k_shiite                       ;Shi‘ite Caliphate;Shia Caliphate;Shia;;Shia;
+k_shiite_adj                   ;Caliphal;Caliphal;Shiite;;Shi‘ite;
 #PB_objectives.csv;;;;;
 #PB_titles.csv;;;;;
 e_italy                        ;        ;Italia;Italia;;Italy;Italia
 e_italy_adj                    ;        ;Italian;Italiano;;Italian;Italian
 e_abyssinia                    ;        ;Abyssinia;;;Abyssinia;Abyssinia
 e_abyssinia_adj                ;        ;Ethiopian;;;Abyssinian;Abyssinian
+e_germany                      ;        ;Germania;;;Germania;Germania
+e_germany_adj                  ;        ;German;;;German;German
 e_russia                       ;        ;Rus;Rus;Garðaríki;Rus’;Russia
 e_arabia                       ;        ;Arabia;;;Arabian Empire;Arabian Empire
-e_france                       ;        ;France;France;;France;Francia
 k_nikaea                       ;        ;Nikaea;Nikaia;;Nicaea;
 k_nikaea_adj                   ;        ;Nikaean;Nikaian;;Nicaean;
 k_epirus                       ;        ;Epirus;Epeiros;Épire,Epirus;Epirus;
 k_epirus_adj                   ;        ;Epirotian;Epirote;;Epirote;
-k_novgorod                     ;        ;Novgorod;Novgorod;Holmgarðr;Novgorod;
-k_novgorod_adj                 ;        ;Novgorodian;Novgorod;;Novgorodian;
-k_alania                       ;        ;Alania;Alania;Ovset'i,Alauni,Al-Lan,Aslar,Aslär;Alania;Alania
-k_alania_adj                   ;        ;Alanian;Alanian;;Alanian;Alanian
-k_saxony                       ;        ;Saxony;Sachsen;;Saxony;Saxony
-k_saxony_adj                   ;        ;Saxon;Sächsische;;Saxon;Saxon
 k_galicia                      ;        ;Galicia;Halych-Volyn;;Galicia–Volhynia;
 k_galicia_adj                  ;        ;Galician;Halych-Volyn;;Galician–Volhynian;
 k_iceland                      ;        ;Iceland;Ísland;;Iceland;
 k_iceland_adj                  ;        ;Icelandic;Íslandskr;;Icelandic;
-k_anatolia                     ;        ;Iconium;Ikonion;Rûm,Anatolie;Konya;Anatolia
 d_ostlandet                    ;        ;Østlandet;Víken;;Viken;Ostlandet
 #PB_tournaments.csv;;;;;
 #PB_various.csv;;;;;
@@ -114,9 +105,9 @@ BM_FATE_OF_ENGLAND_DESC        ;§G[NOTE: Preferred, balanced bookmark: William t
 BM_NORMAN_CONQUEST_DESC        ;§G[Preferred, Balanced Bookmark]§! Victorious at the hard-fought Battle of Hastings, William, Duke of Normandy, has proclaimed himself King of England. Displaced Saxon lords rage against the French-speaking usurpers as fief after fief is given to William’s loyal followers. In Anatolia, the Seljuq Turks under the great sultan Alp Arslan are about to invade the Byzantine Empire in a struggle that will determine the fate of Asia Minor…;§G[Preferred, Balanced Bookmark]§!  Victorious at the hard-fought Battle of Hastings, William, Duke of Normandy, has proclaimed himself King of England. Displaced Saxon lords rage against the French speaking usurpers as fief after fief is given to William’s loyal followers. In Anatolia, the Seljuk Turks under the great sultan Alp Arslan are about to invade the Byzantine Empire in a struggle that will determine the fate of Asia Minor…;;;Victorious at the hard-fought Battle of Hastings, William, Duke of Normandy, has proclaimed himself King of England. Displaced Saxon lords rage against the French-speaking usurpers as fief after fief is given to William’s loyal followers. In Anatolia, the Seljuq Turks under the great sultan Alp Arslan are about to invade the Byzantine Empire in a struggle that will determine the fate of Asia Minor…;Victorious at the hard-fought Battle of Hastings, William, Duke of Normandy, has proclaimed himself King of England. Displaced Saxon lords rage against the French speaking usurpers as fief after fief is given to William's loyal followers. In Anatolia, the Seljuk Turks under the great sultan Alp Arslan are about to invade the Byzantine Empire in a struggle that will determine the fate of Asia Minor...
 #PB_war_checks.csv;;;;;
 #VIET_Bookmarks.csv;;;;;
-BM_SCOURGE_OF_GOD              ;Scourge of God;Scourge of God;;;;
-BM_SCOURGE_OF_GOD_DESC         ;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;;;;
-BM_OSMANS_DREAM                ;Osman’s Dream;Osman’s Dream;;;;
+BM_SCOURGE_OF_GOD              ;        ;Scourge of God;;;;
+BM_SCOURGE_OF_GOD_DESC         ;        ;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;;;;
+BM_OSMANS_DREAM                ;        ;Osman’s Dream;;;;
 BM_OSMANS_DREAM_DESC           ;With the breakup of the Sultanate of Rum and the decline of the Byzantine Empire, several warlords in Anatolia seek fame and glory in the ensuing power vacuum. Foremost among them is Osman, a pious and brave man. According to a dream he had many, many years ago, great things are in store for Osman and his dynasty. They might even conquer great Constantinople one day. But the journey to Constantinople won’t be easy, and the Byzantine Empire, which has resisted attack after attack for almost a thousand years, will not go down without a fight.;With the breakup of the Sultanate of the Rum and the decline of the Byzantine Empire, several warlords in Anatolia seek fame and glory in the ensuing power vacuum. Foremost among them is Osman, a pious and brave man. According to a dream he had many, many years ago, great things are in store for Osman and his dynasty. They might even conquer great Constantinople one day. But the journey to Constantinople won’t be easy, and the Byzantine Empire, which has resisted attack after attack for almost a thousand years, will not go down without a fight.;;;;
 BM_KHITAN                      ;        ;The Khitan;;;;
 BM_KHITAN_DESC                 ;For more than two centuries, the Khitan were the rightful rulers of northern China, perfectly balancing their traditional, nomadic way of life, and the urbane, sophisticated culture of their Chinese subjects. However, overthrown by their Jurchen vassals in the early years of the 12th century, remnants of the once-great Khitan have fled to Central Asia, where they seek to re-create their imperial splendor. Having just defeated the once-mighty Karakhanids and the Seljuks, the Khitan now have a foothold in the region. Will they continue their conquests, spreading their Sinicized nomadic culture and their Buddhist faith, or will they settle down, content with re-creating their Chinese empire in Central Asia? All that is certain is that the Khitan are not the first horde to appear suddenly from the far east, nor will they be the last.;For more than two centuries, the Khitan were the rightful rulers of northern China, perfectly balancing their traditional, nomadic way of life, and the urbane, sophisticated culture of their Chinese subjects. However, overthrown by their Jurchen vassals in the early years of the 12th century, remnants of the once-great Khitan have fled to Central Asia, where they seek to re-create their imperial splendor. Having just defeated the once-mighty Kara-Khanids and the Seljuks, the Khitan now have a foothold in the region. Will they continue their conquests, spreading their Sinicized nomadic culture and their Buddhist faith, or will they settle down, content with re-creating their Chinese empire in Central Asia? All that is certain is that the Khitan are not the first horde to appear suddenly from the far east, nor will they be the last.;;;;
@@ -134,6 +125,8 @@ k_emf_english_england          ;        ;!CoA: Default England;;;;
 k_emf_english_england_adj      ;        ;;;;;
 k_emf_barcelona_aragon         ;        ;!CoA: de Barcelona Aragon;;;;
 k_emf_barcelona_aragon_adj     ;        ;;;;;
+e_hre_french                   ;Holy Roman Empire;Saint-Empire Romain;;;;
+e_hre_french_adj               ;Imperial;Impérial;;;;
 #emf_crier.csv;;;;;
 #emf_cultures.csv;;;;;
 norsegaelic                    ;        ;Gall Goidel;Gall Goidel;;Norse-Gaelic;
