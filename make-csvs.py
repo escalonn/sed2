@@ -65,14 +65,21 @@ def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
             name = v['name'].val
             override.add(name)
             override.add(v['desc'].val)
+            is_era = v.has_pair('era', 'yes')
             if v.has_pair('era', 'yes'):
                 override.add('{}_ERA'.format(name))
                 override.add('{}_ERA_INFO'.format(name))
-                for n2, v2 in v:
-                    if n2.val == 'selectable_character':
+            for n2, v2 in v:
+                if n2.val == 'selectable_character':
+                    try:
                         override.add(v2['name'].val)
+                    except KeyError:
+                        pass
+                    try:
                         override.add(v2['title_name'].val)
-                        override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
+                    except KeyError:
+                        pass
+                    override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
     for _, tree in ck2parser.parse_files('common/buildings/*', *moddirs):
         for n, v in tree:
             for n2, v2 in v:
