@@ -62,13 +62,11 @@ def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
     missing_loc = []
     for _, tree in ck2parser.parse_files('common/bookmarks/*', *moddirs):
         for n, v in tree:
-            name = v['name'].val
-            override.add(name)
+            override.add(v['name'].val)
             override.add(v['desc'].val)
-            is_era = v.has_pair('era', 'yes')
             if v.has_pair('era', 'yes'):
-                override.add('{}_ERA'.format(name))
-                override.add('{}_ERA_INFO'.format(name))
+                override.add('{}_ERA'.format(v['name'].val))
+                override.add('{}_ERA_INFO'.format(v['name'].val))
             for n2, v2 in v:
                 if n2.val == 'selectable_character':
                     try:
