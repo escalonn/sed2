@@ -293,7 +293,7 @@ def main():
         # VIET # TODO: compatch
         overridden_keys = set()
         prev_loc_viet = collections.defaultdict(str)
-        inpath = templates / 'SED2+VIET/localisation/zzz SED+VIET.csv'
+        inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in ck2parser.csv_rows(inpath)})
         viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
@@ -330,7 +330,7 @@ def main():
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         keys_to_add = [] #['Saint-Empire Romain']
         prev_loc_emf = collections.defaultdict(str)
-        inpath = templates / 'SED2+EMF/localisation/zzz SED+EMF.csv'
+        inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in ck2parser.csv_rows(inpath)})
         title_re = '|'.join(ul_titles)

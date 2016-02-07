@@ -84,7 +84,7 @@ def main():
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # EMF
-    inpath = templates_emf_loc / 'A A SED+EMF.csv'
+    inpath = templates_emf_loc / 'z~ SED+EMF.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
@@ -102,7 +102,7 @@ def main():
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # VIET
-    inpath = templates_viet_loc / 'A A SED+VIET.csv'
+    inpath = templates_viet_loc / 'z~ SED+VIET.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
