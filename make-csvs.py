@@ -290,7 +290,7 @@ def main():
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
-        # VIET # TODO: compatch
+        # VIET
         overridden_keys = set()
         prev_loc_viet = collections.defaultdict(str)
         inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
