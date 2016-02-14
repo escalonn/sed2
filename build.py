@@ -11,7 +11,7 @@ import ck2parser
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.1.4-BETA'
+version = 'v2.1.4'
 if no_provinces:
     version += '-noprovinces'
 
@@ -21,7 +21,7 @@ minipath = rootpath / 'MiniSWMH/MiniSWMH'
 sed2path = rootpath / 'SED2'
 
 province_loc_files = [
-    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
+    'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
 
 def main():
     templates = sed2path / 'templates'
