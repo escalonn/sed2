@@ -11,7 +11,7 @@ import ck2parser
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.1.4'
+version = 'v2.1.5-BETA'
 if no_provinces:
     version += '-noprovinces'
 
