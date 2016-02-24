@@ -202,4 +202,4 @@ if __name__ == '__main__':
         main()
     finally:
         end_time = time.time()
-        print('Time: {} s'.format(end_time - start_time))
+        print('Time: {:g} s'.format(end_time - start_time))
