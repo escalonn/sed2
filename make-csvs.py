@@ -40,7 +40,8 @@ def get_dynamics(where, cultures, prov_id):
 
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
-    for _, tree in ck2parser.parse_files('common/landed_titles/*', where):
+    for _, tree in ck2parser.parse_files('common/landed_titles/*', where,
+                                         cache=True):
         recurse(tree)
     return dynamics
 
@@ -232,7 +233,7 @@ def main():
         lt_keys = lt_keys_not_cultures + cultures
 
         for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
-                                                  swmhpath):
+                                                  swmhpath, cache=True):
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
             for title, pairs in recurse(tree):
@@ -260,6 +261,7 @@ def main():
                        relative_to(inpath.parents[2]))
             with outpath.open('w', newline='', encoding='cp1252') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+            ck2parser.flush(inpath)
 
         override_rows = [
             ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
