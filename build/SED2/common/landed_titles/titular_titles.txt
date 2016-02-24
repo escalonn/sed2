@@ -509,7 +509,7 @@ k_imereti = { # Imereti
 	color = { 99 175 4 }
 	capital = 601 # Imereti # Imeretia
 	allow = {
-		or = { culture = georgian }
+		culture = georgian
 		religion_group = christian
 	}
 	title = MEPE
@@ -580,14 +580,12 @@ e_wendish_empire = { # Wendish Empire
 			culture = karantanci
 			culture = croatian
 		}
-		and = {
-			has_landed_title = k_moravia
-			or = {
-				has_landed_title = k_poland
-				has_landed_title = k_pomerania
-				has_landed_title = k_bohemia
-				has_landed_title = k_hungary
-			}
+		has_landed_title = k_moravia
+		or = {
+			has_landed_title = k_poland
+			has_landed_title = k_pomerania
+			has_landed_title = k_bohemia
+			has_landed_title = k_hungary
 		}
 		ruled_years = 5
 		war = no
