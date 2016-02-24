@@ -309,8 +309,8 @@ k_franconia                     ;name_tier          ;duke    ;duke
 d_mainz                         ;title              ;FE      ;FE
 d_mainz                         ;foa                ;FE_FOA  ;FE_FOA
 d_mainz                         ;title_prefix       ;FE_OF   ;FE_OF
-c_mainz                         ;greek              ;        ;Mogontiakon
-c_mainz                         ;roman              ;        ;Mogontiacum
+c_mainz                         ;greek              ;Mogontiacum;Mogontiakon
+c_mainz                         ;roman              ;Mogontiacum;Mogontiacum
 d_thuringia                     ;title              ;LANDGRAVE;LANDGRAVE
 d_thuringia                     ;title_female       ;LANDGRAVINE;LANDGRAVINE
 d_thuringia                     ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
@@ -322,8 +322,8 @@ d_hessen                        ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 k_bavaria                       ;name_tier          ;duke    ;duke
 d_niederbayern                  ;greek              ;Raetia Secunda;Rhaitia Secunda
 d_niederbayern                  ;roman              ;Raetia Secunda;Rhaetia Secunda
-c_passau                        ;greek              ;Passau  ;Batavinum
-c_passau                        ;roman              ;Passau  ;Batavinum
+c_passau                        ;greek              ;Batavis ;Batavinum
+c_passau                        ;roman              ;Batavis ;Batavinum
 c_leuchenberg                   ;title              ;LANDGRAVE;LANDGRAVE
 c_leuchenberg                   ;title_female       ;LANDGRAVINE;LANDGRAVINE
 c_leuchenberg                   ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
@@ -331,8 +331,8 @@ c_leuchenberg                   ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 c_niederbayern                  ;greek              ;Castra Regina;Castra Regina
 c_niederbayern                  ;roman              ;Castra Regina;Castra Regina
 d_tyrol                         ;name_tier          ;count   ;count
-c_trent                         ;greek              ;        ;Tridente
-c_trent                         ;roman              ;        ;Tridentum
+c_trent                         ;greek              ;Tridentum;Tridente
+c_trent                         ;roman              ;Tridentum;Tridentum
 d_bamberg                       ;title              ;FE      ;FE
 d_bamberg                       ;foa                ;FE_FOA  ;FE_FOA
 d_bamberg                       ;title_prefix       ;FE_OF   ;FE_OF
@@ -342,15 +342,15 @@ d_nuremberg                     ;foa                ;BURGRAVE_FOA;BURGRAVE_FOA
 d_nuremberg                     ;title_prefix       ;BURGRAVE_OF;BURGRAVE_OF
 d_oberbayern                    ;greek              ;Raetia Prima;Rhaitia Prima
 d_oberbayern                    ;roman              ;Raetia Prima;Rhaetia Prima
-c_kempten                       ;greek              ;        ;Cambodunum
-c_kempten                       ;roman              ;        ;Cambodunum
+c_kempten                       ;greek              ;Cambodunum;Cambodunum
+c_kempten                       ;roman              ;Cambodunum;Cambodunum
 d_salzburg                      ;title              ;FE      ;FE
 d_salzburg                      ;foa                ;FE_FOA  ;FE_FOA
 d_salzburg                      ;title_prefix       ;FE_OF   ;FE_OF
-d_salzburg                      ;greek              ;        ;Iuvavum
-d_salzburg                      ;roman              ;        ;Iuvavum
-c_salzburg                      ;greek              ;        ;Iuvavum
-c_salzburg                      ;roman              ;        ;Iuvavum
+d_salzburg                      ;greek              ;Iuvavum ;Iuvavum
+d_salzburg                      ;roman              ;Iuvavum ;Iuvavum
+c_salzburg                      ;greek              ;Iuvavum ;Iuvavum
+c_salzburg                      ;roman              ;Iuvavum ;Iuvavum
 d_osterreich                    ;greek              ;Noricum Ripense;Noricum Ripense
 d_osterreich                    ;roman              ;Noricum Ripense;Noricum Ripense
 c_osterreich                    ;title              ;MARGRAVE;MARGRAVE
@@ -364,8 +364,8 @@ c_steiermark                    ;title              ;MARGRAVE;MARGRAVE
 c_steiermark                    ;title_female       ;MARGRAVINE;MARGRAVINE
 c_steiermark                    ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 c_steiermark                    ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-c_celje                         ;greek              ;        ;Keleia
-c_celje                         ;roman              ;        ;Celeia
+c_celje                         ;greek              ;Celeia  ;Keleia
+c_celje                         ;roman              ;Celeia  ;Celeia
 d_carinthia                     ;greek              ;Noricum Mediterraneum;Noricum Mediterraneum
 d_carinthia                     ;roman              ;Noricum Mediterraneum;Noricum Mediterraneum
 c_krain                         ;title              ;MARGRAVE;MARGRAVE
@@ -389,7 +389,7 @@ d_istria                        ;bosnian            ;        ;Istra
 d_istria                        ;bulgarian          ;        ;Istra
 d_istria                        ;hungarian          ;        ;Isztria
 d_istria                        ;szekely            ;        ;Isztria
-d_istria                        ;roman              ;        ;Histria
+d_istria                        ;roman              ;Histria ;Histria
 c_istria                        ;german             ;        ;Meranien
 c_istria                        ;low_german         ;        ;Meranien
 c_istria                        ;dutch              ;        ;Meranien
@@ -423,17 +423,17 @@ c_istria                        ;italian            ;        ;Merano
 c_istria                        ;venetian           ;        ;Merano
 c_istria                        ;dalmatian          ;        ;Merano
 c_istria                        ;roman              ;        ;Meraniae
-c_trieste                       ;greek              ;Trieste ;Tergeste
-c_trieste                       ;east_gothic        ;Trieste ;Tergeste
-c_trieste                       ;roman              ;Trieste ;Tergeste
+c_trieste                       ;greek              ;Tergeste;Tergeste
+c_trieste                       ;east_gothic        ;Tergeste;Tergeste
+c_trieste                       ;roman              ;Tergeste;Tergeste
 c_aquileia                      ;greek              ;        ;Akouileia
 c_aquileia                      ;east_gothic        ;        ;Akouileia
 k_schwaben                      ;name_tier          ;duke    ;duke
 d_augsburg                      ;title              ;FE      ;FE
 d_augsburg                      ;foa                ;FE_FOA  ;FE_FOA
 d_augsburg                      ;title_prefix       ;FE_OF   ;FE_OF
-c_augsburg                      ;greek              ;        ;Augousta Ouendelikon
-c_augsburg                      ;roman              ;        ;Augusta Vindelicum
+c_augsburg                      ;greek              ;Augusta Vindelicorum;Augousta Ouendelikon
+c_augsburg                      ;roman              ;Augusta Vindelicorum;Augusta Vindelicum
 d_baden                         ;title              ;MARGRAVE;MARGRAVE
 d_baden                         ;title_female       ;MARGRAVINE;MARGRAVINE
 d_baden                         ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
@@ -441,10 +441,10 @@ d_baden                         ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 d_chur                          ;title              ;FE      ;FE
 d_chur                          ;foa                ;FE_FOA  ;FE_FOA
 d_chur                          ;title_prefix       ;FE_OF   ;FE_OF
-d_chur                          ;greek              ;        ;Curia
-d_chur                          ;roman              ;        ;Curia
-c_chur                          ;greek              ;        ;Curia
-c_chur                          ;roman              ;        ;Curia
+d_chur                          ;greek              ;Curia Raetorum;Curia
+d_chur                          ;roman              ;Curia Raetorum;Curia
+c_chur                          ;greek              ;Curia Raetorum;Curia
+c_chur                          ;roman              ;Curia Raetorum;Curia
 d_alsace                        ;german             ;        ;Elsass
 d_alsace                        ;dutch              ;        ;Elzas
 d_alsace                        ;frankish           ;        ;Alsace
@@ -485,17 +485,17 @@ c_domazlice                     ;moravian           ;South Bohemia;Jižní Czechy
 c_hradec                        ;german             ;        ;Grätz
 c_hradec                        ;bohemian           ;        ;Hradec
 c_hradec                        ;moravian           ;        ;Hradec
-c_boleslav                      ;german             ;        ;Glatz
-c_boleslav                      ;polish             ;        ;Klodsko
+c_boleslav                      ;german             ;Glatz   ;Glatz
+c_boleslav                      ;polish             ;Klodzko ;Klodsko
 c_boleslav                      ;bohemian           ;        ;Kladsko
 c_boleslav                      ;moravian           ;        ;Kladsko
-c_litomerice                    ;german             ;        ;Leitmeritz
+c_litomerice                    ;german             ;Leitmeritz;Leitmeritz
 c_litomerice                    ;bohemian           ;        ;Litomerzice
 c_litomerice                    ;moravian           ;        ;Litomerzice
-c_zatec                         ;german             ;        ;Saaz
+c_zatec                         ;german             ;Saaz    ;Saaz
 c_zatec                         ;bohemian           ;        ;Žatec
 c_zatec                         ;moravian           ;        ;Žatec
-c_plzen                         ;german             ;        ;Pilsen
+c_plzen                         ;german             ;Pilsen  ;Pilsen
 c_plzen                         ;bohemian           ;        ;Plzen
 c_plzen                         ;moravian           ;        ;Plzen
 d_moravia                       ;title              ;DM      ;DM
@@ -505,18 +505,18 @@ d_moravia                       ;german             ;        ;Mähren
 d_moravia                       ;polish             ;        ;Morawa
 d_moravia                       ;bohemian           ;        ;Morava
 d_moravia                       ;moravian           ;        ;Morava
-c_olomouc                       ;german             ;        ;Olmütz
+c_olomouc                       ;german             ;Olmütz  ;Olmütz
 c_olomouc                       ;polish             ;        ;Olomuniec
 c_olomouc                       ;bohemian           ;        ;Olomouc
 c_olomouc                       ;moravian           ;        ;Olomouc
-c_opava                         ;german             ;        ;Troppau
+c_opava                         ;german             ;Troppau ;Troppau
 c_opava                         ;polish             ;        ;Opawa
 c_opava                         ;bohemian           ;        ;Opava
 c_opava                         ;moravian           ;        ;Opava
 c_znojmo                        ;german             ;        ;Znaym
 c_znojmo                        ;bohemian           ;        ;Znojmo
 c_znojmo                        ;moravian           ;        ;Znojmo
-c_brno                          ;german             ;        ;Brünn
+c_brno                          ;german             ;Brünn   ;Brünn
 c_brno                          ;bohemian           ;        ;Brno
 c_brno                          ;moravian           ;        ;Brno
 e_roman_empire                  ;title              ;Emperor ;Emperor
