@@ -6,8 +6,8 @@ import pathlib
 import re
 import shutil
 import tempfile
-import time
 import ck2parser
+from print_time import print_time
 
 rootpath = ck2parser.rootpath
 vanilladir = ck2parser.vanilladir
@@ -122,6 +122,7 @@ def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
                 missing_loc.append(key)
     return override, missing_loc, ul_titles
 
+@print_time
 def main():
     # fill titles before calling
     def should_override(key):
@@ -382,9 +383,4 @@ def main():
         shutil.copytree(str(templates_t), str(templates))
 
 if __name__ == '__main__':
-    start_time = time.time()
-    try:
-        main()
-    finally:
-        end_time = time.time()
-        print('Time: {:g} s'.format(end_time - start_time))
+    main()

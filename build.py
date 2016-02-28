@@ -6,8 +6,8 @@ import datetime
 import re
 import shutil
 import sys
-import time
 import ck2parser
+from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
@@ -23,6 +23,7 @@ sed2path = rootpath / 'SED2'
 province_loc_files = [
     'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
 
+@print_time
 def main():
     templates = sed2path / 'templates'
     templates_sed2 = templates / 'SED2'
@@ -197,9 +198,4 @@ def main():
         print('{} - {}'.format(version, datetime.date.today()), file=f)
 
 if __name__ == '__main__':
-    start_time = time.time()
-    try:
-        main()
-    finally:
-        end_time = time.time()
-        print('Time: {:g} s'.format(end_time - start_time))
+    main()
