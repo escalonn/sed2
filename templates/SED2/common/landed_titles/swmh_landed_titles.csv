@@ -565,7 +565,7 @@ e_byzantium                     ;hungarian          ;        ;Római Birodalom
 e_byzantium                     ;roman              ;        ;Imperium Romaniae
 k_byzantium                     ;frankish           ;        ;Thessalonique
 k_byzantium                     ;norman             ;        ;Thessalonique
-k_byzantium                     ;greek              ;        ;Thessalonikes
+k_byzantium                     ;greek              ;Thessaloniki;Thessalonikes
 k_byzantium                     ;sardinian          ;        ;Tessalonica
 k_byzantium                     ;sicilian           ;        ;Tessalonica
 k_byzantium                     ;corsican           ;        ;Tessalonica
@@ -577,17 +577,17 @@ k_byzantium                     ;ligurian           ;        ;Tessalonica
 k_byzantium                     ;italian            ;        ;Tessalonica
 k_byzantium                     ;venetian           ;        ;Tessalonica
 k_byzantium                     ;dalmatian          ;        ;Tessalonica
-d_aegean_islands                ;sardinian          ;Archipelago;dell'arcipelago
-d_aegean_islands                ;sicilian           ;Archipelago;dell'arcipelago
-d_aegean_islands                ;corsican           ;Archipelago;dell'arcipelago
-d_aegean_islands                ;central_italian    ;Archipelago;dell'arcipelago
-d_aegean_islands                ;southern_italian   ;Archipelago;dell'arcipelago
-d_aegean_islands                ;neapolitan         ;Archipelago;dell'arcipelago
-d_aegean_islands                ;tuscan             ;Archipelago;dell'arcipelago
-d_aegean_islands                ;ligurian           ;Archipelago;dell'arcipelago
-d_aegean_islands                ;italian            ;Archipelago;dell'arcipelago
-d_aegean_islands                ;venetian           ;Archipelago;dell'arcipelago
-d_aegean_islands                ;dalmatian          ;Archipelago;dell'arcipelago
+d_aegean_islands                ;sardinian          ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;sicilian           ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;corsican           ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;central_italian    ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;southern_italian   ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;neapolitan         ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;tuscan             ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;ligurian           ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;italian            ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;venetian           ;The Archipelago;dell'arcipelago
+d_aegean_islands                ;dalmatian          ;The Archipelago;dell'arcipelago
 c_kyzikos                       ;turkish            ;Erdek   ;Erdek
 c_kyzikos                       ;turkmen            ;Erdek   ;Erdek
 c_kyzikos                       ;oghuz              ;Erdek   ;Erdek
@@ -595,7 +595,7 @@ c_kyzikos                       ;pecheneg           ;Erdek   ;Erdek
 c_abydos                        ;turkish            ;Çanakkale;Canakkale
 c_abydos                        ;turkmen            ;Çanakkale;Canakkale
 c_abydos                        ;oghuz              ;Çanakkale;Canakkale
-c_abydos                        ;pecheneg           ;        ;Canakkale
+c_abydos                        ;pecheneg           ;Çanakkale;Canakkale
 c_naxos                         ;turkish            ;        ;Kiklad
 c_naxos                         ;turkmen            ;        ;Kiklad
 c_naxos                         ;oghuz              ;        ;Kiklad
@@ -637,10 +637,10 @@ d_thrace                        ;turkmen            ;        ;Trakya
 d_thrace                        ;oghuz              ;        ;Trakya
 d_thrace                        ;pecheneg           ;        ;Trakya
 d_thrace                        ;bulgarian          ;        ;Trakija
-c_kaliopolis                    ;turkish            ;        ;Gelibolu
-c_kaliopolis                    ;turkmen            ;        ;Gelibolu
-c_kaliopolis                    ;oghuz              ;        ;Gelibolu
-c_kaliopolis                    ;pecheneg           ;        ;Gelibolu
+c_kaliopolis                    ;turkish            ;Gelibolu;Gelibolu
+c_kaliopolis                    ;turkmen            ;Gelibolu;Gelibolu
+c_kaliopolis                    ;oghuz              ;Gelibolu;Gelibolu
+c_kaliopolis                    ;pecheneg           ;Gelibolu;Gelibolu
 c_byzantion                     ;norse              ;        ;Miklagarðr
 c_byzantion                     ;swedish            ;        ;Miklagarðr
 c_byzantion                     ;norwegian          ;        ;Miklagarðr
@@ -663,16 +663,16 @@ c_byzantion                     ;bedouin_arabic     ;        ;al-Qustantiniyah
 c_byzantion                     ;maghreb_arabic     ;        ;al-Qustantiniyah
 c_byzantion                     ;levantine_arabic   ;        ;al-Qustantiniyah
 c_byzantion                     ;egyptian_arabic    ;        ;al-Qustantiniyah
-c_byzantion                     ;russian            ;        ;Tsargrad
-c_byzantion                     ;pommeranian        ;        ;Tsargrad
-c_byzantion                     ;polish             ;        ;Tsargrad
-c_byzantion                     ;bohemian           ;        ;Carzihrad
-c_byzantion                     ;moravian           ;        ;Carzihrad
-c_byzantion                     ;karantanci         ;        ;Tsargrad
-c_byzantion                     ;croatian           ;        ;Tsargrad
-c_byzantion                     ;serbian            ;        ;Tsargrad
-c_byzantion                     ;bosnian            ;        ;Tsargrad
-c_byzantion                     ;bulgarian          ;        ;Tsargrad
+c_byzantion                     ;russian            ;Tsargrad;Tsargrad
+c_byzantion                     ;pommeranian        ;Tsargrad;Tsargrad
+c_byzantion                     ;polish             ;Tsargrad;Tsargrad
+c_byzantion                     ;bohemian           ;Tsargrad;Carzihrad
+c_byzantion                     ;moravian           ;Tsargrad;Carzihrad
+c_byzantion                     ;karantanci         ;Tsargrad;Tsargrad
+c_byzantion                     ;croatian           ;Tsargrad;Tsargrad
+c_byzantion                     ;serbian            ;Tsargrad;Tsargrad
+c_byzantion                     ;bosnian            ;Tsargrad;Tsargrad
+c_byzantion                     ;bulgarian          ;Tsargrad;Tsargrad
 c_byzantion                     ;kurdish            ;        ;al-Qustantiniyah
 c_thrake                        ;turkish            ;        ;Trakya
 c_thrake                        ;turkmen            ;        ;Trakya
@@ -683,12 +683,12 @@ d_strymon                       ;turkish            ;Serres  ;Serez
 d_strymon                       ;turkmen            ;Serres  ;Serez
 d_strymon                       ;oghuz              ;Serres  ;Serez
 d_strymon                       ;pecheneg           ;Serres  ;Serez
-c_traianopolis                  ;turkish            ;Didymoteicho;Demotika
-c_traianopolis                  ;turkmen            ;Didymoteicho;Demotika
-c_traianopolis                  ;oghuz              ;Didymoteicho;Demotika
-c_traianopolis                  ;pecheneg           ;Didymoteicho;Demotika
-c_traianopolis                  ;serbian            ;Didymoteicho;Dimotika
-c_traianopolis                  ;bulgarian          ;Didymoteicho;Dimotika
+c_traianopolis                  ;turkish            ;Demotika;Demotika
+c_traianopolis                  ;turkmen            ;Demotika;Demotika
+c_traianopolis                  ;oghuz              ;Demotika;Demotika
+c_traianopolis                  ;pecheneg           ;Demotika;Demotika
+c_traianopolis                  ;serbian            ;Demotika;Dimotika
+c_traianopolis                  ;bulgarian          ;Demotika;Dimotika
 c_strymon                       ;turkish            ;Serres  ;Serez
 c_strymon                       ;turkmen            ;Serres  ;Serez
 c_strymon                       ;oghuz              ;Serres  ;Serez
