@@ -3820,10 +3820,8 @@ e_hre = { # Heiliges Römisches Reich
 						has_landed_title = c_sundgau
 					}
 					any_vassal = {
-						and = {
-							has_landed_title = c_nordgau
-							has_landed_title = c_sundgau
-						}
+						has_landed_title = c_nordgau
+						has_landed_title = c_sundgau
 					}
 				}
 			}
@@ -8177,11 +8175,9 @@ e_scandinavia = { # Nordmannia
 		ruled_years = 5
 		is_adult = yes
 		not = { tier = emperor }
-		and = {
-			has_landed_title = k_denmark
-			has_landed_title = k_norway
-			has_landed_title = k_sweden
-		}
+		has_landed_title = k_denmark
+		has_landed_title = k_norway
+		has_landed_title = k_sweden
 	}
 } # end e_scandinavia
 e_russia = { # Rus
@@ -9808,10 +9804,8 @@ e_poland = { # Polska-Lietuva
 				culture = lithuanian
 			}
 		}
-		and = {
-			has_landed_title = k_poland
-			has_landed_title = k_lithuania
-		}
+		has_landed_title = k_poland
+		has_landed_title = k_lithuania
 		war = no
 		ruled_years = 5
 		has_regent = no
@@ -10512,10 +10506,8 @@ e_carpathia = { # Magyarország
 						has_landed_title = c_heves
 					}
 					any_vassal = {
-						and = {
-							has_landed_title = c_abauj
-							has_landed_title = c_heves
-						}
+						has_landed_title = c_abauj
+						has_landed_title = c_heves
 					}
 				}
 			}
@@ -11156,10 +11148,8 @@ e_carpathia = { # Magyarország
 	# Creation/usurpation trigger
 	allow = {
 		religion_group = christian
-		and = {
-			has_landed_title = k_hungary
-			has_landed_title = k_croatia
-		}
+		has_landed_title = k_hungary
+		has_landed_title = k_croatia
 		ruled_years = 5
 		war = no
 		has_regent = no
@@ -14793,6 +14783,24 @@ e_britannia = { # Britannia
 			} # end c_gwyr
 		} # end d_morgannwg
 	} # end k_wales
+	# Must be defined before k_ireland
+	k_ireland_titular = { # Tara
+		color = { 161 51 177 }
+		color2 = { 255 255 255 }
+		capital = 975 # Brega
+		culture = irish
+		religion = catholic
+		allow = {
+			# Only allow it to be usurped when already held, and otherwise it must
+			# have become de jure to create it.
+			FROM = {
+				or = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
 	k_ireland = { # Éire
 		color = { 3 49 35 }
 		color2 = { 255 255 255 }
@@ -15325,6 +15333,30 @@ e_britannia = { # Britannia
 				#}
 			} # end c_tipperary
 		} # end d_munster
+		gain_effect = {
+			# If title receiver also owns the titular Tara, then
+			# we can safely destroy and deactivate that title now.
+			k_ireland_titular = { # Tara
+				if = {
+					limit = {
+						or = {
+							has_holder = no
+							holder = PREV
+						}
+					}
+					hidden_tooltip = {
+						# If it somehow became non-titular, then we must be sure
+						# to transfer its de jure territory to k_ireland first.
+						any_direct_de_jure_vassal_title = { de_jure_liege = k_ireland }
+					}
+					activate_title = {
+						title = THIS
+						status = no
+					}
+					destroy_landed_title = THIS
+				}
+			}
+		}
 	} # end k_ireland
 	k_scotland = { # Alba
 		color = { 214 143 0 }
@@ -15658,10 +15690,8 @@ e_britannia = { # Britannia
 				or = {
 					lower_real_tier_than = duke
 					any_vassal = {
-						and = {
-							lower_real_tier_than = duke
-							has_landed_title = c_isle_of_man
-						}
+						lower_real_tier_than = duke
+						has_landed_title = c_isle_of_man
 					}
 					and = {
 						higher_real_tier_than = count
@@ -15671,13 +15701,11 @@ e_britannia = { # Britannia
 						}
 					}
 					any_vassal = {
-						and = {
-							higher_real_tier_than = count
-							has_landed_title = c_isle_of_man
-							any_demesne_title = {
-								tier = count
-								not = { title = c_isle_of_man }
-							}
+						higher_real_tier_than = count
+						has_landed_title = c_isle_of_man
+						any_demesne_title = {
+							tier = count
+							not = { title = c_isle_of_man }
 						}
 					}
 				}
@@ -15829,41 +15857,22 @@ e_britannia = { # Britannia
 		culture = cumbric
 		capital = 1484 # Rinn Friu # Strathclyde
 		allow = {
-			and = {
-				or = {
-					culture = cumbric
-					culture = breton
-					culture = welsh
-				}
-				or = {
-					has_landed_title = d_strathclyde
-					any_vassal = { has_landed_title = d_strathclyde }
-				}
-				or = {
-					has_landed_title = d_northumberland
-					any_vassal = { has_landed_title = d_northumberland }
-				}
-				or = {
-					has_landed_title = d_lancaster
-					any_vassal = { has_landed_title = d_lancaster }
-				}
+			or = {
+				culture = cumbric
+				culture = breton
+				culture = welsh
 			}
-		}
-	}
-	k_ireland_titular = { # Tara
-		color = { 161 51 177 }
-		color2 = { 255 255 255 }
-		capital = 975 # Brega
-		culture = irish
-		religion = catholic
-		allow = {
-			# Only allow it to be usurped when already held, and otherwise it must
-			# have become de jure to create it.
-			FROM = {
-				or = {
-					is_titular = no
-					has_holder = yes
-				}
+			or = {
+				has_landed_title = d_strathclyde
+				any_vassal = { has_landed_title = d_strathclyde }
+			}
+			or = {
+				has_landed_title = d_northumberland
+				any_vassal = { has_landed_title = d_northumberland }
+			}
+			or = {
+				has_landed_title = d_lancaster
+				any_vassal = { has_landed_title = d_lancaster }
 			}
 		}
 	}
@@ -18514,7 +18523,7 @@ e_france = { # France
 		d_bourbon = { # Bourbon
 			color = { 74 133 186 }
 			color2 = { 255 255 255 }
-			capital = 139 # Bourges
+			capital = 146 # Bourbon
 			culture = frankish
 			c_bourbon = { # Bourbon (146)
 				color = { 26 173 228 }
@@ -22786,7 +22795,7 @@ e_spain = { # España
 		d_la_mancha = { # La Mancha
 			color = { 203 152 74 }
 			color2 = { 255 255 255 }
-			capital = 1201 # Guadalajara
+			capital = 196 # Calatrava
 			c_la_mancha = { # Alarcón (178)
 				color = { 255 0 128 }
 				color2 = { 255 255 255 }
@@ -24638,7 +24647,6 @@ e_persia = { # Érán
 				holy_site = zoroastrian # Placeholder
 				holy_site = mazdaki
 				holy_site = manichean
-				holy_site = yazidi # Placeholder
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				armenian = "Paytakaran"
@@ -27010,15 +27018,13 @@ e_null = {
 				#}
 			} # end c_wargrien
 			allow = {
-				and = {
-					or = {
-						has_landed_title = c_lubeck
-						any_vassal = { has_landed_title = c_lubeck }
-					}
-					or = {
-						has_landed_title = c_wargrien
-						any_vassal = { has_landed_title = c_wargrien }
-					}
+				or = {
+					has_landed_title = c_lubeck
+					any_vassal = { has_landed_title = c_lubeck }
+				}
+				or = {
+					has_landed_title = c_wargrien
+					any_vassal = { has_landed_title = c_wargrien }
 				}
 			}
 		} # end d_lubeck
@@ -27362,15 +27368,13 @@ e_null = {
 				#b_raothenburg = {}
 			}
 			allow = {
-				and = {
-					or = {
-						has_landed_title = c_niederlausitz
-						any_vassal = { has_landed_title = c_niederlausitz }
-					}
-					or = {
-						has_landed_title = c_lausitz
-						any_vassal = { has_landed_title = c_lausitz }
-					}
+				or = {
+					has_landed_title = c_niederlausitz
+					any_vassal = { has_landed_title = c_niederlausitz }
+				}
+				or = {
+					has_landed_title = c_lausitz
+					any_vassal = { has_landed_title = c_lausitz }
 				}
 			}
 		} # end d_lausitz
