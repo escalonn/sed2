@@ -68,7 +68,7 @@ e_sunni = { # The Sunni Caliphate
 	# OBSOLETE
 	color = { 40 160 40 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	religion = sunni
 	#controls_religion = sunni
 	#caliphate = yes
@@ -82,7 +82,7 @@ e_shiite = { # The Shia Caliphate
 	# OBSOLETE
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	religion = shiite
 	#controls_religion = shiite
 	#caliphate = yes
@@ -110,10 +110,10 @@ e_il-khanate = { # Ilkhanate
 	religion = tengri_pagan
 	short_name = yes
 }
-e_mongol_empire = { # Mongol Empire
+e_mongol_empire = { # Yeke Mongol Ulus
 	color = { 255 255 255 }
 	color2 = { 255 20 20 }
-	capital = 1571 # Almaliq # (Chagatid Capital)
+	capital = 1571 # Yulduz # Almaliq # (Chagatid Capital)
 	# Always exists
 	landless = yes
 	culture = mongol
@@ -310,7 +310,7 @@ d_yazidi = { # The Yazidi Sheikhdom
 d_ibadi = { # The Ibadi Caliphate
 	color = { 20 130 20 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	creation_requires_capital = no
 	dignity = 80 # Counted as having this many more counties than it does
 	religion = ibadi
@@ -322,13 +322,13 @@ d_ibadi = { # The Ibadi Caliphate
 		religion = ibadi
 	}
 	allow = {
-		or = {
+		OR = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
-		or = {
-			and = {
+		OR = {
+			AND = {
 				trait = sayyid
 				piety = 1000
 			}
@@ -337,7 +337,7 @@ d_ibadi = { # The Ibadi Caliphate
 				hidden_tooltip = {
 					719 = { # Mecca
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -345,7 +345,7 @@ d_ibadi = { # The Ibadi Caliphate
 					}
 					718 = { # Medina
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -358,7 +358,7 @@ d_ibadi = { # The Ibadi Caliphate
 				hidden_tooltip = {
 					774 = { # Jerusalem
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -366,7 +366,7 @@ d_ibadi = { # The Ibadi Caliphate
 					}
 					728 = { # Damascus
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -374,7 +374,7 @@ d_ibadi = { # The Ibadi Caliphate
 					}
 					693 = { # Baghdad
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -392,7 +392,7 @@ d_ibadi = { # The Ibadi Caliphate
 d_kharijite = { # The Kharijite Caliphate
 	color = { 10 110 10 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	creation_requires_capital = no
 	dignity = 80 # Counted as having this many more counties than it does
 	religion = kharijite
@@ -405,13 +405,13 @@ d_kharijite = { # The Kharijite Caliphate
 	}
 	allow = {
 		piety = 1000
-		or = {
+		OR = {
 			custom_tooltip = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
 					719 = { # Mecca
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -419,7 +419,7 @@ d_kharijite = { # The Kharijite Caliphate
 					}
 					718 = { # Medina
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -432,7 +432,7 @@ d_kharijite = { # The Kharijite Caliphate
 				hidden_tooltip = {
 					774 = { # Jerusalem
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -440,7 +440,7 @@ d_kharijite = { # The Kharijite Caliphate
 					}
 					728 = { # Damascus
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -448,7 +448,7 @@ d_kharijite = { # The Kharijite Caliphate
 					}
 					693 = { # Baghdad
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -466,7 +466,7 @@ d_kharijite = { # The Kharijite Caliphate
 d_hurufi = { # The Hurufi Skeikhdom
 	color = { 80 220 80 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	creation_requires_capital = no
 	dignity = 100 # Counted as having this many more counties than it does
 	religion = hurufi
@@ -478,13 +478,13 @@ d_hurufi = { # The Hurufi Skeikhdom
 		religion = hurufi
 	}
 	allow = {
-		or = {
+		OR = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
-		or = {
-			and = {
+		OR = {
+			AND = {
 				trait = sayyid
 				piety = 1000
 			}
@@ -493,7 +493,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 				hidden_tooltip = {
 					719 = { # Mecca
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -501,7 +501,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 					}
 					718 = { # Medina
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -514,7 +514,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 				hidden_tooltip = {
 					774 = { # Jerusalem
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -522,7 +522,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 					}
 					728 = { # Damascus
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -530,7 +530,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 					}
 					693 = { # Baghdad
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}

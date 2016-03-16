@@ -64,72 +64,72 @@ d_yatviags = { # Jotvingiai
 #####
 # Prussian tribes
 #####
-d_pruthenians = { # Prùsà, prussian uprising.
+d_pruthenians = { # Prùsà #  prussian uprising.
 	color = { 159 195 75 }
 	capital = 370 # Warmia # Marienburg
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_goliadj = { # Goladi/Galindians
+d_goliadj = { # Goladi # Galindians
 	color = { 42 132 210 }
-	capital = 569 # Vyazma
+	capital = 569 # Viazma # Vyazma
 	culture = prussian
 	allow = { always = no }
 	russian = "Goliads"
 }
-d_warmians = {
+d_warmians = { # Varmi
 	color = { 1 49 93 }
 	capital = 370 # Warmia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_pomesanians = {
+d_pomesanians = { # Pomedi
 	color = { 200 99 3 }
 	capital = 1297 # Pomesania
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_sasnians = {
+d_sasnians = { # Sasnai
 	color = { 25 70 31 }
 	capital = 427 # Galindia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_pogesanians = {
+d_pogesanians = { # Paugudi
 	color = { 7 99 129 }
 	capital = 1298 # Pogesania
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_bartians = {
+d_bartians = { # Barthi
 	color = { 22 1 7 }
 	capital = 1299 # Bartia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_nadruvians = {
+d_nadruvians = { # Nadrawai
 	color = { 93 9 77 }
 	capital = 1300 # Nadruvia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_scalovians = {
+d_scalovians = { # Skalwai
 	color = { 95 24 55 }
-	capital = 422 # Scalovia
+	capital = 422 # Skalva # Scalovia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
 }
-d_sambians = {
+d_sambians = { # Sembai
 	color = { 22 24 66 }
-	capital = 371 # Sambia
+	capital = 371 # Sambi # Sambia
 	culture = prussian
 	#tribe = yes
 	allow = { always = no }
@@ -249,7 +249,7 @@ d_buzhans = { # Buzhane
 	color2 = { 255 255 255 }
 	culture = russian
 	#tribe = yes
-	capital = 546 # Kamenec # Kamyanetspodilsky
+	capital = 546 # Terebovl # Kamyanetspodilsky
 	allow = { always = no }
 }
 d_tivertsi = { # Tivertsi
@@ -257,7 +257,7 @@ d_tivertsi = { # Tivertsi
 	color2 = { 255 255 255 }
 	culture = russian
 	#tribe = yes
-	capital = 1283 # Cern
+	capital = 1283 # Yanbu # Cern
 	allow = { always = no }
 }
 d_meshcheras = { # Meshcheras
@@ -393,7 +393,7 @@ d_qirghiz = { # Qirghiz
 	color = { 147 21 39 }
 	#tribe = yes
 	culture = kirghiz
-	capital = 1580 # Jungaria
+	capital = 1580 # Khotan # Jungaria
 	allow = { always = no }
 	title = Elteber
 	foa = Elteber_FOA
@@ -477,7 +477,7 @@ d_tukhsi = { # Tukhsi
 	color = { 147 21 39 }
 	#tribe = yes
 	culture = karluk
-	capital = 1572 # Balasaghnun
+	capital = 1572 # Balasaghun # Balasaghnun
 	allow = { always = no }
 	title = Yabghu
 	foa = Yabghu_FOA

@@ -60,7 +60,7 @@ def get_gov_prefixes(where):
 
 def get_more_keys_to_override(localisation, max_provs, *moddirs, extra=True):
     override = set()
-    missing_loc = []
+    missing_loc = ['KINGDOM_PANNONIA', 'KINGDOM_PANNONIA_ADJ', 'Jomsborg', 'Rome']
     for _, tree in ck2parser.parse_files('common/bookmarks/*', *moddirs):
         for n, v in tree:
             override.add(v['name'].val)
@@ -331,7 +331,7 @@ def main():
         keys_to_override, _, ul_titles = get_more_keys_to_override(
             loc_emf, max_provs, emfpath, swmhpath, emfswmhpath, extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
-        keys_to_add = [] #['Saint-Empire Romain']
+        keys_to_add = ['Germania']
         prev_loc_emf = collections.defaultdict(str)
         inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()

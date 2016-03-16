@@ -201,7 +201,7 @@ d_trier                         ;foa                ;FE_FOA  ;FE_FOA
 d_trier                         ;title_prefix       ;FE_OF   ;FE_OF
 d_trier                         ;frankish           ;        ;Trèves
 c_trier                         ;frankish           ;        ;Trèves
-c_trier                         ;greek              ;Augusta Treverorum;Augousta Treverorum
+c_trier                         ;greek              ;Augusta Treverorum;Augousta Treveroron
 c_trier                         ;roman              ;Augusta Treverorum;Augusta Treverorum
 d_luxembourg                    ;german             ;        ;Lützelburg
 d_luxembourg                    ;dutch              ;        ;Lutzelburg
@@ -320,15 +320,15 @@ d_hessen                        ;title_female       ;LANDGRAVINE;LANDGRAVINE
 d_hessen                        ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
 d_hessen                        ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 k_bavaria                       ;name_tier          ;duke    ;duke
-d_niederbayern                  ;greek              ;Raetia Secunda;Rhaitia Secunda
+d_niederbayern                  ;greek              ;Raetia Secunda;Rhaitia Sekunda
 d_niederbayern                  ;roman              ;Raetia Secunda;Rhaetia Secunda
-c_passau                        ;greek              ;Batavis ;Batavinum
+c_passau                        ;greek              ;Batavis ;Batavinon
 c_passau                        ;roman              ;Batavis ;Batavinum
 c_leuchenberg                   ;title              ;LANDGRAVE;LANDGRAVE
 c_leuchenberg                   ;title_female       ;LANDGRAVINE;LANDGRAVINE
 c_leuchenberg                   ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
 c_leuchenberg                   ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
-c_niederbayern                  ;greek              ;Castra Regina;Castra Regina
+c_niederbayern                  ;greek              ;Castra Regina;Kastra Regina
 c_niederbayern                  ;roman              ;Castra Regina;Castra Regina
 d_tyrol                         ;name_tier          ;count   ;count
 c_trent                         ;greek              ;Tridentum;Tridente
@@ -342,7 +342,7 @@ d_nuremberg                     ;foa                ;BURGRAVE_FOA;BURGRAVE_FOA
 d_nuremberg                     ;title_prefix       ;BURGRAVE_OF;BURGRAVE_OF
 d_oberbayern                    ;greek              ;Raetia Prima;Rhaitia Prima
 d_oberbayern                    ;roman              ;Raetia Prima;Rhaetia Prima
-c_kempten                       ;greek              ;Cambodunum;Cambodunum
+c_kempten                       ;greek              ;Cambodunum;Kambodunum
 c_kempten                       ;roman              ;Cambodunum;Cambodunum
 d_salzburg                      ;title              ;FE      ;FE
 d_salzburg                      ;foa                ;FE_FOA  ;FE_FOA
@@ -377,6 +377,7 @@ d_istria                        ;title_female       ;MARGRAVINE;MARGRAVINE
 d_istria                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 d_istria                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 d_istria                        ;german             ;        ;Istrien
+d_istria                        ;greek              ;        ;Histria
 d_istria                        ;russian            ;        ;Istra
 d_istria                        ;pommeranian        ;        ;Istra
 d_istria                        ;polish             ;        ;Istra
@@ -399,6 +400,7 @@ c_istria                        ;franconian         ;        ;Meranien
 c_istria                        ;swabian            ;        ;Meranien
 c_istria                        ;bavarian           ;        ;Meranien
 c_istria                        ;low_frankish       ;        ;Meranien
+c_istria                        ;greek              ;        ;Meraniae
 c_istria                        ;russian            ;        ;Meranije
 c_istria                        ;pommeranian        ;        ;Meranije
 c_istria                        ;polish             ;        ;Meranije
@@ -831,9 +833,6 @@ c_neopatras                     ;ligurian           ;        ;Neopatras
 c_neopatras                     ;italian            ;        ;Neopatras
 c_neopatras                     ;venetian           ;        ;Neopatras
 c_neopatras                     ;dalmatian          ;        ;Neopatras
-k_epirus                        ;title              ;DESPOT  ;DESPOT
-k_epirus                        ;foa                ;DESPOT_FOA;DESPOT_FOA
-k_epirus                        ;title_prefix       ;DESPOT_OF;DESPOT_OF
 k_epirus                        ;frankish           ;        ;Épire
 k_epirus                        ;arpitan            ;        ;Épire
 k_epirus                        ;norman             ;        ;Épire
@@ -1291,9 +1290,7 @@ c_chandax                       ;ligurian           ;        ;Candia
 c_chandax                       ;italian            ;        ;Candia
 c_chandax                       ;venetian           ;        ;Candia
 c_chandax                       ;dalmatian          ;        ;Candia
-k_nikaea                        ;title              ;KINGEMPEROR;KINGEMPEROR
-k_nikaea                        ;foa                ;KINGEMPEROR_FOA;KINGEMPEROR_FOA
-k_nikaea                        ;title_prefix       ;KINGEMPEROR_OF;KINGEMPEROR_OF
+k_nikaea                        ;name_tier          ;emperor ;emperor
 d_paphlagonia                   ;frankish           ;        ;Paphlagonie
 d_paphlagonia                   ;norman             ;        ;Paphlagonie
 d_paphlagonia                   ;turkish            ;Kastamonu;Kastamoni
@@ -1745,6 +1742,7 @@ c_laranda                       ;oghuz              ;        ;Qarâman
 d_melitene                      ;frankish           ;        ;Melitena
 d_melitene                      ;norman             ;        ;Melitena
 d_melitene                      ;armenian           ;        ;Malat'ya
+d_melitene                      ;greek              ;        ;Melitene
 d_melitene                      ;turkish            ;        ;Malatiya
 d_melitene                      ;turkmen            ;        ;Malatiya
 d_melitene                      ;oghuz              ;        ;Malatiya
@@ -1752,6 +1750,7 @@ d_melitene                      ;kurdish            ;        ;Meletî
 c_melitene                      ;frankish           ;        ;Melitena
 c_melitene                      ;norman             ;        ;Melitena
 c_melitene                      ;armenian           ;        ;Malat'ya
+c_melitene                      ;greek              ;        ;Melitene
 c_melitene                      ;turkish            ;        ;Malatiya
 c_melitene                      ;turkmen            ;        ;Malatiya
 c_melitene                      ;oghuz              ;        ;Malatiya
@@ -1839,9 +1838,7 @@ c_famagusta                     ;ligurian           ;        ;Famagosta
 c_famagusta                     ;italian            ;        ;Famagosta
 c_famagusta                     ;venetian           ;        ;Famagosta
 c_famagusta                     ;dalmatian          ;        ;Famagosta
-k_trebizond                     ;title              ;KINGEMPEROR;KINGEMPEROR
-k_trebizond                     ;foa                ;KINGEMPEROR_FOA;KINGEMPEROR_FOA
-k_trebizond                     ;title_prefix       ;KINGEMPEROR_OF;KINGEMPEROR_OF
+k_trebizond                     ;name_tier          ;emperor ;emperor
 d_trebizond                     ;frankish           ;        ;Chaldée
 d_trebizond                     ;norman             ;        ;Chaldée
 d_trebizond                     ;armenian           ;Trabzon ;Trapizon
@@ -2001,9 +1998,9 @@ c_eukhaita                      ;turkmen            ;Çorum   ;Çorum
 c_eukhaita                      ;oghuz              ;Çorum   ;Çorum
 k_cilician                      ;frankish           ;        ;Cilicie
 k_cilician                      ;norman             ;        ;Cilicie
-d_armenia_minor                 ;frankish           ;Cilicia ;Cilicie
-d_armenia_minor                 ;norman             ;Cilicia ;Cilicie
-d_armenia_minor                 ;armenian           ;Cilicia ;Kilikia
+d_armenia_minor                 ;frankish           ;        ;Cilicie
+d_armenia_minor                 ;norman             ;        ;Cilicie
+d_armenia_minor                 ;armenian           ;        ;Kilikia
 d_armenia_minor                 ;turkish            ;Adana   ;Atanâ
 d_armenia_minor                 ;turkmen            ;Adana   ;Atanâ
 d_armenia_minor                 ;oghuz              ;Adana   ;Atanâ
@@ -2031,6 +2028,7 @@ c_teluch                        ;frankish           ;        ;Mariscum
 c_teluch                        ;norman             ;        ;Mariscum
 c_teluch                        ;andalusian_arabic  ;        ;Mar'ash
 c_teluch                        ;armenian           ;        ;Maraš
+c_teluch                        ;greek              ;        ;Germanikeia
 c_teluch                        ;turkish            ;        ;Maras
 c_teluch                        ;turkmen            ;        ;Maras
 c_teluch                        ;oghuz              ;        ;Maras
@@ -2055,8 +2053,8 @@ c_alexandretta                  ;tagelmust          ;        ;Al-Iskandarun
 c_alexandretta                  ;masmuda            ;        ;Al-Iskandarun
 c_alexandretta                  ;zanata             ;        ;Al-Iskandarun
 c_alexandretta                  ;tuareg             ;        ;Al-Iskandarun
-d_seleukeia                     ;frankish           ;        ;Cilicie Trachée
-d_seleukeia                     ;norman             ;        ;Cilicie Trachée
+d_seleukeia                     ;frankish           ;Cilicia Trachea;Cilicie Trachée
+d_seleukeia                     ;norman             ;Cilicia Trachea;Cilicie Trachée
 d_seleukeia                     ;armenian           ;Silifke ;Selewkia
 d_seleukeia                     ;turkish            ;Karaman ;Qarâman
 d_seleukeia                     ;turkmen            ;Silifke ;Silifke
@@ -2093,22 +2091,22 @@ c_tyrnovo                       ;turkmen            ;        ;Tirnova
 c_tyrnovo                       ;oghuz              ;        ;Tirnova
 c_tyrnovo                       ;pecheneg           ;        ;Tirnova
 c_tyrnovo                       ;roman              ;        ;Moesia Secunda
-c_serdica                       ;greek              ;Sofia   ;Serdica
-c_serdica                       ;east_gothic        ;Sofia   ;Serdica
+c_serdica                       ;greek              ;Triaditsa;Triaditsa
+c_serdica                       ;east_gothic        ;Triaditsa;Triaditsa
 c_serdica                       ;turkish            ;Sofia   ;Sofya
 c_serdica                       ;turkmen            ;Sofia   ;Sofya
 c_serdica                       ;oghuz              ;Sofia   ;Sofya
 c_serdica                       ;pecheneg           ;Sofia   ;Sofya
 c_serdica                       ;roman              ;Sofia   ;Serdica
-c_dorostotum                    ;greek              ;Silistra;Durostolon
-c_dorostotum                    ;east_gothic        ;Silistra;Durostolon
+c_dorostotum                    ;greek              ;Silistra;Durostoulon
+c_dorostotum                    ;east_gothic        ;Silistra;Durostoulon
 c_dorostotum                    ;turkish            ;        ;Stamboluk
 c_dorostotum                    ;turkmen            ;        ;Stamboluk
 c_dorostotum                    ;oghuz              ;        ;Stamboluk
 c_dorostotum                    ;pecheneg           ;        ;Stamboluk
 c_dorostotum                    ;roman              ;Silistra;Dorostorum
-c_nikopolis                     ;greek              ;Seuthopolis;Seuthopolis
-c_nikopolis                     ;east_gothic        ;Seuthopolis;Seuthopolis
+c_nikopolis                     ;greek              ;Seuthopolis;Seuthoupolis
+c_nikopolis                     ;east_gothic        ;Seuthopolis;Seuthoupolis
 c_nikopolis                     ;turkish            ;        ;Hasat
 c_nikopolis                     ;turkmen            ;        ;Hasat
 c_nikopolis                     ;oghuz              ;        ;Hasat
@@ -2210,8 +2208,8 @@ c_adrianopolis                  ;castillan          ;        ;Adrianopolis
 c_adrianopolis                  ;aragonese          ;        ;Adrianopolis
 c_adrianopolis                  ;catalan            ;        ;Adrianopolis
 c_adrianopolis                  ;leonese            ;        ;Adrianopolis
-c_adrianopolis                  ;greek              ;        ;Hadrianopolis
-c_adrianopolis                  ;east_gothic        ;        ;Hadrianopolis
+c_adrianopolis                  ;greek              ;        ;Adrianoupolis
+c_adrianopolis                  ;east_gothic        ;        ;Adrianoupolis
 c_adrianopolis                  ;turkish            ;        ;Edirne
 c_adrianopolis                  ;turkmen            ;        ;Edirne
 c_adrianopolis                  ;oghuz              ;        ;Edirne
@@ -2284,19 +2282,19 @@ c_kopsis                        ;turkish            ;        ;Gjopsa
 c_kopsis                        ;turkmen            ;        ;Gjopsa
 c_kopsis                        ;oghuz              ;        ;Gjopsa
 c_kopsis                        ;pecheneg           ;        ;Gjopsa
-d_vidin                         ;greek              ;        ;Bononia
-d_vidin                         ;east_gothic        ;        ;Bononia
+d_vidin                         ;greek              ;        ;Bidyne
+d_vidin                         ;east_gothic        ;        ;Bidyne
 d_vidin                         ;romanian           ;        ;Diiu
 d_vidin                         ;hungarian          ;        ;Bodony
 d_vidin                         ;szekely            ;        ;Bodony
 d_vidin                         ;roman              ;        ;Bononia
-c_vidin                         ;greek              ;        ;Bononia
-c_vidin                         ;east_gothic        ;        ;Bononia
+c_vidin                         ;greek              ;        ;Bidyne
+c_vidin                         ;east_gothic        ;        ;Bidyne
 c_vidin                         ;romanian           ;        ;Diiu
 c_vidin                         ;hungarian          ;        ;Bodony
 c_vidin                         ;szekely            ;        ;Bodony
 c_vidin                         ;roman              ;        ;Bononia
-c_branicevo                     ;greek              ;Viminacium;Viminacion
+c_branicevo                     ;greek              ;Viminacium;Viminakion
 c_branicevo                     ;east_gothic        ;Viminacium;Viminacion
 c_branicevo                     ;turkish            ;Kruševac;Alaga Hisar
 c_branicevo                     ;turkmen            ;Kruševac;Alaga Hisar
@@ -2318,13 +2316,13 @@ c_skopje                        ;turkish            ;        ;Üsküp
 c_skopje                        ;turkmen            ;        ;Üsküp
 c_skopje                        ;oghuz              ;        ;Üsküp
 c_skopje                        ;pecheneg           ;        ;Üsküp
-c_strumica                      ;greek              ;        ;Tiveriopolis
-c_strumica                      ;east_gothic        ;        ;Tiveriopolis
+c_strumica                      ;greek              ;        ;Tiverioupolis
+c_strumica                      ;east_gothic        ;        ;Tiverioupolis
 c_strumica                      ;turkish            ;        ;Ustrumca
 c_strumica                      ;turkmen            ;        ;Ustrumca
 c_strumica                      ;oghuz              ;        ;Ustrumca
 c_strumica                      ;pecheneg           ;        ;Ustrumca
-c_strumica                      ;roman              ;        ;Tiveriopolis
+c_strumica                      ;roman              ;        ;Tiverioupolis
 c_velbazhd                      ;greek              ;        ;Pautalia
 c_velbazhd                      ;east_gothic        ;        ;Pautalia
 c_velbazhd                      ;turkish            ;        ;Küstendil
@@ -2380,8 +2378,8 @@ d_macva                         ;franconian         ;        ;Matschva
 d_macva                         ;swabian            ;        ;Matschva
 d_macva                         ;bavarian           ;        ;Matschva
 d_macva                         ;low_frankish       ;        ;Matschva
-d_macva                         ;greek              ;Užice   ;Capedounon
-d_macva                         ;east_gothic        ;Užice   ;Capedounon
+d_macva                         ;greek              ;Užice   ;Kapedounon
+d_macva                         ;east_gothic        ;Užice   ;Kapedounon
 d_macva                         ;hungarian          ;        ;Macsó
 d_macva                         ;szekely            ;        ;Macsó
 c_macva                         ;german             ;        ;Matschva
@@ -2393,8 +2391,8 @@ c_macva                         ;franconian         ;        ;Matschva
 c_macva                         ;swabian            ;        ;Matschva
 c_macva                         ;bavarian           ;        ;Matschva
 c_macva                         ;low_frankish       ;        ;Matschva
-c_macva                         ;greek              ;Užice   ;Capedounon
-c_macva                         ;east_gothic        ;Užice   ;Capedounon
+c_macva                         ;greek              ;Užice   ;Kapedounon
+c_macva                         ;east_gothic        ;Užice   ;Kapedounon
 c_macva                         ;hungarian          ;        ;Macsó
 c_macva                         ;szekely            ;        ;Macsó
 c_belgrade                      ;greek              ;Singidunum;Singidounon
@@ -3411,8 +3409,8 @@ d_syrmia                        ;franconian         ;        ;Syrmien
 d_syrmia                        ;swabian            ;        ;Syrmien
 d_syrmia                        ;bavarian           ;        ;Syrmien
 d_syrmia                        ;low_frankish       ;        ;Syrmien
-d_syrmia                        ;greek              ;Pannonia Secunda;Pannonia Secunda
-d_syrmia                        ;east_gothic        ;Pannonia Secunda;Pannonia Secunda
+d_syrmia                        ;greek              ;Sirmium ;Sirmiou
+d_syrmia                        ;east_gothic        ;Sirmium ;Sirmiou
 d_syrmia                        ;turkish            ;        ;Sirem
 d_syrmia                        ;bohemian           ;        ;Sriem
 d_syrmia                        ;moravian           ;        ;Sriem
@@ -3428,8 +3426,8 @@ c_syrmia                        ;franconian         ;        ;Syrmien
 c_syrmia                        ;swabian            ;        ;Syrmien
 c_syrmia                        ;bavarian           ;        ;Syrmien
 c_syrmia                        ;low_frankish       ;        ;Syrmien
-c_syrmia                        ;greek              ;        ;Syrmia
-c_syrmia                        ;east_gothic        ;        ;Syrmia
+c_syrmia                        ;greek              ;Sirmium ;Sirmiou
+c_syrmia                        ;east_gothic        ;Sirmium ;Sirmiou
 c_syrmia                        ;turkish            ;        ;Sirem
 c_syrmia                        ;turkmen            ;        ;Sirem
 c_syrmia                        ;oghuz              ;        ;Sirem
@@ -3798,10 +3796,24 @@ c_varadzin                      ;venetian           ;Varaždin;Varasdino
 c_varadzin                      ;dalmatian          ;Varaždin;Varasdino
 c_varadzin                      ;roman              ;Varaždin;Varasdinum
 e_arabia                        ;short_name         ;yes     ;yes
+d_arabia_petrae                 ;greek              ;Arabia Petraea;Arabia Petraea
+d_arabia_petrae                 ;roman              ;Arabia Petraea;Arabia Petraea
+c_damman                        ;assyrian           ;Hatta   ;Hatta
+c_qatar                         ;assyrian           ;Beth Qatraye;Beth Qatraye
+d_nefoud                        ;greek              ;Arabia Deserta;Arabia Deserta
+d_nefoud                        ;roman              ;Arabia Deserta;Arabia Deserta
+k_oman                          ;assyrian           ;Beth Mazunaye;Beth Mazunaye
+d_oman                          ;assyrian           ;Beth Mazunaye;Beth Mazunaye
+k_yemen                         ;greek              ;Arabia Felix;Arabia Felix
+k_yemen                         ;roman              ;Arabia Felix;Arabia Felix
 k_egypt                         ;greek              ;        ;Aigyptos
+k_egypt                         ;coptic             ;        ;Khemi
 k_egypt                         ;roman              ;        ;Aegyptus
 d_alexandria                    ;greek              ;Egypt   ;Aigyptos
+d_alexandria                    ;coptic             ;        ;Rakote
 d_alexandria                    ;roman              ;Egypt   ;Aegyptus
+c_alexandria                    ;greek              ;        ;Alexandreia
+c_alexandria                    ;coptic             ;        ;Rakote
 c_al_alamayn                    ;greek              ;Mersa Matruh;Paraitonion
 c_al_alamayn                    ;roman              ;Mersa Matruh;Paraetonium
 c_quattara                      ;greek              ;        ;Ammonion
@@ -3811,6 +3823,7 @@ d_damietta                      ;roman              ;Augustamnica;Augustamnica
 c_gabiyaha                      ;frankish           ;Rosetta ;Rosette
 c_gabiyaha                      ;norman             ;Rosetta ;Rosette
 c_gabiyaha                      ;greek              ;Rosetta ;Bolbitinon
+c_gabiyaha                      ;coptic             ;Rosetta ;Rashit
 c_gabiyaha                      ;sardinian          ;Rosetta ;Rosetta
 c_gabiyaha                      ;sicilian           ;Rosetta ;Rosetta
 c_gabiyaha                      ;corsican           ;Rosetta ;Rosetta
@@ -3824,48 +3837,62 @@ c_gabiyaha                      ;venetian           ;Rosetta ;Rosetta
 c_gabiyaha                      ;dalmatian          ;Rosetta ;Rosetta
 c_gabiyaha                      ;roman              ;Rosetta ;Bolbitinum
 c_delta                         ;greek              ;        ;Tamiathis
+c_delta                         ;coptic             ;        ;Tamiati
 c_delta                         ;roman              ;        ;Tamiathis
 c_pelusia                       ;greek              ;Tennis  ;Thennesos
 c_pelusia                       ;roman              ;Tennis  ;Thennisus
 c_bilbays                       ;greek              ;        ;Bilbeis
+c_bilbays                       ;coptic             ;        ;Phelbs
 c_bilbays                       ;roman              ;        ;Bilbeis
 d_cairo                         ;greek              ;Arcadia Aegypti;Arkadia
 d_cairo                         ;roman              ;Arcadia Aegypti;Arcadia
 c_cairo                         ;greek              ;Fustat  ;Phystaton
+c_cairo                         ;coptic             ;Fustat  ;Phystaton
 c_cairo                         ;roman              ;Babylon ;Babylon
 c_manupura                      ;greek              ;Athribis;Athribis
+c_manupura                      ;coptic             ;Banha   ;Panaho
 c_manupura                      ;roman              ;Athribis;Athribis
 c_buhairya                      ;greek              ;Hermopolis;Hermopolis
+c_buhairya                      ;coptic             ;Damanhur;Timinhor
 c_buhairya                      ;roman              ;Hermopolis;Hermopolis
 c_gizeh                         ;greek              ;Memphis ;Memphis
 c_gizeh                         ;roman              ;Memphis ;Memphis
 c_sarqihya                      ;greek              ;        ;Klysma
 c_sarqihya                      ;roman              ;        ;Clysma
 c_itfih                         ;greek              ;        ;Aphroditoupolis
+c_itfih                         ;coptic             ;        ;Tpeh
 c_itfih                         ;roman              ;        ;Aphroditopolis
 c_bahnasa                       ;greek              ;        ;Oxyrynchos
+c_bahnasa                       ;coptic             ;        ;Pemdje
 c_bahnasa                       ;roman              ;        ;Oxyrhynchus
 c_kharija                       ;greek              ;        ;Oasis Megas
+c_kharija                       ;coptic             ;        ;Uhiresi
 c_kharija                       ;roman              ;        ;Oasis Magna
 c_dakhila                       ;greek              ;Mut el-Kharab;Mothis
 c_dakhila                       ;roman              ;Mut el-Kharab;Mothis
 c_bahriya                       ;greek              ;        ;Oasis Mikra
 c_bahriya                       ;roman              ;        ;Oasis Parva
 c_fayyum                        ;greek              ;        ;Arsinoë
+c_fayyum                        ;coptic             ;        ;Peiom
 c_fayyum                        ;roman              ;        ;Arsinoë
 d_aswan                         ;greek              ;Thebaid ;Thebaïs
 d_aswan                         ;roman              ;Thebaid ;Thebais
 c_quena                         ;greek              ;        ;Myos Hormos
 c_quena                         ;roman              ;Myos Hormos;Myos Hormos
 c_manfalut                      ;greek              ;        ;Manbalot
+c_manfalut                      ;coptic             ;        ;Manbalot
 c_manfalut                      ;roman              ;        ;Manbalot
 c_ikhmin                        ;greek              ;        ;Panopolis
+c_ikhmin                        ;coptic             ;        ;Shmin
 c_ikhmin                        ;roman              ;        ;Panopolis
 c_qus                           ;greek              ;Thebes  ;Thebai
+c_qus                           ;coptic             ;Luxor   ;Ne
 c_qus                           ;roman              ;Thebes  ;Thebae
 c_asyut                         ;greek              ;        ;Lykopolis
+c_asyut                         ;coptic             ;        ;Siout
 c_asyut                         ;roman              ;        ;Lycopolis
 c_aswan                         ;greek              ;        ;Syene
+c_aswan                         ;coptic             ;        ;Suan
 c_aswan                         ;roman              ;        ;Syene
 d_cyrenaica                     ;greek              ;        ;Libya Pentapolis
 d_cyrenaica                     ;roman              ;        ;Libya Pentapolis
@@ -3877,13 +3904,74 @@ c_benghazi                      ;greek              ;Cyrene  ;Kyrene
 c_benghazi                      ;roman              ;Cyrene  ;Cyrene
 c_tobruk                        ;greek              ;        ;Antipyrgos
 c_tobruk                        ;roman              ;        ;Antipyrgus
+d_sinai                         ;coptic             ;        ;Sina
 c_el-arish                      ;greek              ;Pelusium;Pelousion
+c_el-arish                      ;coptic             ;Pelusium;Peremun
 c_el-arish                      ;roman              ;Pelusium;Pelusium
+k_syria                         ;greek              ;The East;Oriens
+k_syria                         ;roman              ;The East;Oriens
+d_aleppo                        ;title_prefix       ;JUND_OF ;JUND_OF
+d_aleppo                        ;greek              ;Syria Prima;Syria Prima
+d_aleppo                        ;roman              ;Syria Prima;Syria Prima
+c_aleppo                        ;frankish           ;        ;Halapia
+c_aleppo                        ;norman             ;        ;Halapia
+c_aleppo                        ;greek              ;        ;Berroia
+c_aleppo                        ;roman              ;        ;Beroea
+c_manbij                        ;frankish           ;        ;Mombech
+c_manbij                        ;norman             ;        ;Mombech
+c_manbij                        ;greek              ;        ;Hierapolis
+c_manbij                        ;roman              ;        ;Hierapolis
+c_kafrtab                       ;frankish           ;Maarat al-Numaan;La Marre
+c_kafrtab                       ;norman             ;Maarat al-Numaan;La Marre
+c_kafrtab                       ;greek              ;Maarat al-Numaan;Arra
+c_kafrtab                       ;roman              ;Maarat al-Numaan;Arra
+c_hama                          ;greek              ;        ;Epiphania
+c_hama                          ;roman              ;        ;Epiphania
+d_homs                          ;title_prefix       ;JUND_OF ;JUND_OF
+d_homs                          ;greek              ;Syria Secunda;Syria Salutaris
+d_homs                          ;roman              ;Syria Secunda;Syria Salutaris
+c_homs                          ;frankish           ;        ;La Chamelle
+c_homs                          ;norman             ;        ;La Chamelle
+c_homs                          ;greek              ;        ;Emesa
+c_homs                          ;roman              ;        ;Emesa
+c_salamiyah                     ;greek              ;        ;Salamias
+c_salamiyah                     ;roman              ;        ;Salamias
+d_damascus                      ;title_prefix       ;JUND_OF ;JUND_OF
+d_damascus                      ;greek              ;Phoenice Libanensis;Phoenice Libanensis
+d_damascus                      ;roman              ;Phoenice Libanensis;Phoenice Libanensis
+c_damascus                      ;frankish           ;Damascus;Damascus
+c_damascus                      ;norman             ;Damascus;Damascus
+c_damascus                      ;greek              ;Damascus;Damaskos
+c_damascus                      ;assyrian           ;Damascus;Darmsûq
+c_damascus                      ;roman              ;Damascus;Damascus
+c_baalbek                       ;frankish           ;Baalbek ;Balbec
+c_baalbek                       ;norman             ;Baalbek ;Balbec
+c_baalbek                       ;greek              ;Baalbek ;Helioupolis
+c_baalbek                       ;roman              ;Baalbek ;Heliopolis
+c_syria                         ;greek              ;Daraa   ;Adraa
+c_syria                         ;roman              ;Daraa   ;Adraa
+c_suwaida                       ;greek              ;Bosra   ;Bostra
+c_suwaida                       ;roman              ;Bosra   ;Bostra
+d_jordan                        ;title_prefix       ;JUND_OF ;JUND_OF
+d_jordan                        ;greek              ;Arabia Petraea;Arabia Prima
+d_jordan                        ;roman              ;Arabia Petraea;Arabia Prima
+c_amman                         ;frankish           ;Amman   ;Ahamant
+c_amman                         ;norman             ;Amman   ;Ahamant
+c_amman                         ;greek              ;Amman   ;Philadelpheia
+c_amman                         ;roman              ;Amman   ;Philadelphia
+c_az_zarqa                      ;greek              ;        ;Basienis
+c_az_zarqa                      ;roman              ;        ;Basienis
+c_madaba                        ;frankish           ;        ;Gerasa
+c_madaba                        ;norman             ;        ;Gerasa
+c_madaba                        ;greek              ;Irbid   ;Arbela
+c_madaba                        ;roman              ;Irbid   ;Arbela
+k_abyssinia                     ;coptic             ;Ethiopia;Ethaush
 d_gondar                        ;falashim           ;Semien  ;Semien
 c_nubia                         ;greek              ;Faras   ;Pakhôras
 c_nubia                         ;nubian             ;Faras   ;Para
 c_nubia                         ;roman              ;Faras   ;Pachoras
 c_qasribrim                     ;greek              ;        ;Primis
+c_qasribrim                     ;coptic             ;        ;Prim
 c_qasribrim                     ;roman              ;        ;Premis
 c_aydhab                        ;greek              ;Berenice;Berenike
 c_aydhab                        ;roman              ;Berenice;Berenice
@@ -4672,6 +4760,17 @@ c_jersey                        ;cornish            ;Jersey  ;Jerzenez
 c_jersey                        ;welsh              ;Jersey  ;Jerzenez
 c_jersey                        ;breton             ;Jersey  ;Jerzenez
 c_jersey                        ;norsegaelic        ;Jersey  ;Jarðey
+c_jersey                        ;sardinian          ;        ;Circea
+c_jersey                        ;sicilian           ;        ;Circea
+c_jersey                        ;corsican           ;        ;Circea
+c_jersey                        ;central_italian    ;        ;Circea
+c_jersey                        ;southern_italian   ;        ;Circea
+c_jersey                        ;neapolitan         ;        ;Circea
+c_jersey                        ;tuscan             ;        ;Circea
+c_jersey                        ;ligurian           ;        ;Circea
+c_jersey                        ;italian            ;        ;Circea
+c_jersey                        ;venetian           ;        ;Circea
+c_jersey                        ;dalmatian          ;        ;Circea
 c_jersey                        ;roman              ;Jersey  ;Caesarea
 k_wales                         ;norse              ;        ;Bretland
 k_wales                         ;swedish            ;        ;Bretland
@@ -7409,19 +7508,24 @@ c_infa                          ;greek              ;Anfa    ;Anfus
 c_infa                          ;roman              ;Anfa    ;Anfus
 c_sala                          ;greek              ;        ;Sala Colonia
 c_sala                          ;roman              ;        ;Sala Colonia
+c_esfahan                       ;assyrian           ;        ;Espahan
 c_hamadan                       ;greek              ;Ecbatana;Ekbatana
+c_hamadan                       ;assyrian           ;Beth Madaye;Beth Madaye
 c_hamadan                       ;roman              ;Ecbatana;Ecbatana
 c_igharayn                      ;greek              ;Nahavand;Antiokheia tes Medias
 c_igharayn                      ;roman              ;Nahavand;Antiochia in Media
 c_rayy                          ;greek              ;        ;Ragai
 c_rayy                          ;roman              ;        ;Rhagae
 d_fars                          ;greek              ;        ;Persis
+d_fars                          ;assyrian           ;        ;Beth Parsaye
 d_fars                          ;roman              ;        ;Persis
 d_kerman                        ;greek              ;Carmania;Karmania
 d_kerman                        ;roman              ;Carmania;Carmania
 d_ahwaz                         ;greek              ;Elam    ;Sousiane
+d_ahwaz                         ;assyrian           ;        ;Bet Huzaye
 d_ahwaz                         ;roman              ;Elam    ;Susiana
 c_idhaj                         ;greek              ;Susa    ;Sousa
+c_idhaj                         ;assyrian           ;Susa    ;Shush
 c_idhaj                         ;roman              ;Susa    ;Susa
 d_azerbaijan                    ;greek              ;Atropatene;Media Atropatene
 d_azerbaijan                    ;turkish            ;        ;Azarbaijan
@@ -7441,6 +7545,7 @@ c_oromieh                       ;egyptian_arabic    ;        ;Urmiyah
 c_oromieh                       ;sicilian_arabic    ;        ;Urmiyah
 c_oromieh                       ;kurdish            ;        ;Urmê
 c_azerbaijan                    ;armenian           ;Paytakaran;Paytakaran
+c_azerbaijan                    ;assyrian           ;Paytakaran;Paidangaran
 d_nishapur                      ;greek              ;Hyrcania;Hyrkania
 d_nishapur                      ;roman              ;Hyrcania;Hyrcania
 c_tus                           ;greek              ;        ;Tusa
@@ -7479,10 +7584,21 @@ c_kerder                        ;khwarezmi          ;        ;Kerder
 c_kerder                        ;khorasani          ;        ;Kerder
 c_uzboy                         ;greek              ;        ;Nisaea
 c_uzboy                         ;east_gothic        ;        ;Nisaea
+k_mesopotamia                   ;assyrian           ;Beth Aramaye;Bet Aramaye
+c_tigris                        ;assyrian           ;Kashkar ;Kashkar
+c_basra                         ;assyrian           ;Prath d’Maishan;Perath d’Maishan
+c_kufa                          ;assyrian           ;Hirta   ;Hirta
 c_baghdad                       ;greek              ;Ctesiphon;Ktesiphon
+c_baghdad                       ;assyrian           ;Seleucia;Seliq
 c_baghdad                       ;roman              ;Ctesiphon;Ctesiphon
+c_al_amarah                     ;assyrian           ;Dasqarta d’Malka;Dasqarta d’Malka
 c_deir                          ;greek              ;Anah    ;Anatha
 c_deir                          ;roman              ;Anah    ;Anatha
+c_druz                          ;greek              ;Birtha  ;Birtha
+c_druz                          ;assyrian           ;Tirhan  ;Tirhan
+c_druz                          ;roman              ;Birtha  ;Birtha
+c_euphrates                     ;greek              ;        ;Souma
+c_euphrates                     ;roman              ;        ;Sumere
 d_kurdistan                     ;turkish            ;        ;Kürdistan
 d_kurdistan                     ;turkmen            ;        ;Kürdistan
 d_kurdistan                     ;oghuz              ;        ;Kürdistan
@@ -7490,12 +7606,11 @@ d_kurdistan                     ;persian            ;        ;Kordestan
 d_kurdistan                     ;daylamite          ;        ;Kordestan
 d_kurdistan                     ;adhari             ;        ;Kordestan
 d_kurdistan                     ;khorasani          ;        ;Kordestan
-c_kirkuk                        ;greek              ;        ;Korkyra
-c_kirkuk                        ;turkish            ;        ;Kerkük
-c_kirkuk                        ;turkmen            ;        ;Kerkük
-c_kirkuk                        ;oghuz              ;        ;Kerkük
-c_kirkuk                        ;kurdish            ;        ;Kerkûk
-c_kirkuk                        ;roman              ;        ;Corcura
+c_kirkuk                        ;greek              ;Kirkuk  ;Korkyra
+c_kirkuk                        ;turkish            ;        ;Dakuk
+c_kirkuk                        ;turkmen            ;        ;Dakuk
+c_kirkuk                        ;oghuz              ;        ;Dakuk
+c_kirkuk                        ;roman              ;Kirkuk  ;Corcura
 c_shahrazur                     ;turkish            ;        ;Šehr-i Zor
 c_shahrazur                     ;turkmen            ;        ;Šehr-i Zor
 c_shahrazur                     ;oghuz              ;        ;Šehr-i Zor
@@ -7563,6 +7678,7 @@ c_bznunik                       ;greek              ;Ahlat   ;Chalata
 c_bznunik                       ;turkish            ;Ahlat   ;Ahlat
 c_bznunik                       ;turkmen            ;Ahlat   ;Ahlat
 c_bznunik                       ;oghuz              ;Ahlat   ;Ahlat
+c_bznunik                       ;assyrian           ;Ahlat   ;Halat
 c_bznunik                       ;bedouin_arabic     ;Ahlat   ;Akhlât
 c_bznunik                       ;maghreb_arabic     ;Ahlat   ;Akhlât
 c_bznunik                       ;levantine_arabic   ;Ahlat   ;Akhlât
@@ -7846,7 +7962,13 @@ c_monreal                       ;tagelmust          ;Shoubak ;Shobak
 c_monreal                       ;masmuda            ;Shoubak ;Shobak
 c_monreal                       ;zanata             ;Shoubak ;Shobak
 c_monreal                       ;tuareg             ;Shoubak ;Shobak
+c_petra                         ;andalusian_arabic  ;Aqaba   ;Aqabah
 c_petra                         ;greek              ;Eilat   ;Aila
+c_petra                         ;bedouin_arabic     ;Aqaba   ;Aqabah
+c_petra                         ;maghreb_arabic     ;Aqaba   ;Aqabah
+c_petra                         ;levantine_arabic   ;Aqaba   ;Aqabah
+c_petra                         ;egyptian_arabic    ;Aqaba   ;Aqabah
+c_petra                         ;sicilian_arabic    ;Aqaba   ;Aqabah
 c_petra                         ;roman              ;Eilat   ;Aila
 c_kerak                         ;andalusian_arabic  ;Al Karak;Al-Karak
 c_kerak                         ;bedouin_arabic     ;Al Karak;Al-Karak
@@ -7916,6 +8038,7 @@ d_edessa                        ;andalusian_arabic  ;        ;Ar-Ruha
 d_edessa                        ;turkish            ;Urfa    ;Urfa
 d_edessa                        ;turkmen            ;Urfa    ;Urfa
 d_edessa                        ;oghuz              ;Urfa    ;Urfa
+d_edessa                        ;assyrian           ;        ;Urhây
 d_edessa                        ;bedouin_arabic     ;        ;Ar-Ruha
 d_edessa                        ;maghreb_arabic     ;        ;Ar-Ruha
 d_edessa                        ;levantine_arabic   ;        ;Ar-Ruha
@@ -7931,6 +8054,7 @@ c_edessa                        ;andalusian_arabic  ;        ;Ar-Ruha
 c_edessa                        ;turkish            ;Urfa    ;Urfa
 c_edessa                        ;turkmen            ;Urfa    ;Urfa
 c_edessa                        ;oghuz              ;Urfa    ;Urfa
+c_edessa                        ;assyrian           ;        ;Urhây
 c_edessa                        ;bedouin_arabic     ;        ;Ar-Ruha
 c_edessa                        ;maghreb_arabic     ;        ;Ar-Ruha
 c_edessa                        ;levantine_arabic   ;        ;Ar-Ruha
@@ -7968,12 +8092,12 @@ c_kaisun                        ;egyptian_arabic    ;        ;Kaisum
 c_kaisun                        ;sicilian_arabic    ;        ;Kaisum
 d_antioch                       ;short_name         ;yes     ;yes
 d_antioch                       ;andalusian_arabic  ;Jund al-Awasim;Jund 'Awasim
-d_antioch                       ;armenian           ;Ducate of Antioch;Ducate Antiok
-d_antioch                       ;greek              ;Ducate of Antioch;Ducate Antioch
-d_antioch                       ;alan               ;Ducate of Antioch;Ducate Antioch
-d_antioch                       ;sicilian_greek     ;Ducate of Antioch;Ducate Antioch
-d_antioch                       ;arberian           ;Ducate of Antioch;Ducate Antioch
-d_antioch                       ;georgian           ;Ducate of Antioch;Ducate Antiok
+d_antioch                       ;armenian           ;Ducate of Antioch;Antiok
+d_antioch                       ;greek              ;Ducate of Antioch;Antiokeias
+d_antioch                       ;alan               ;Ducate of Antioch;Antiokeias
+d_antioch                       ;sicilian_greek     ;Ducate of Antioch;Antiokeias
+d_antioch                       ;arberian           ;Ducate of Antioch;Antiokeias
+d_antioch                       ;georgian           ;Ducate of Antioch;Antiok
 d_antioch                       ;bedouin_arabic     ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;maghreb_arabic     ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;levantine_arabic   ;Jund al-Awasim;Jund 'Awasim
@@ -7989,6 +8113,7 @@ c_antiocheia                    ;armenian           ;        ;Antiok
 c_antiocheia                    ;turkish            ;        ;Antakiya
 c_antiocheia                    ;turkmen            ;        ;Antakiya
 c_antiocheia                    ;oghuz              ;        ;Antakiya
+c_antiocheia                    ;assyrian           ;        ;Antiokia
 c_antiocheia                    ;bedouin_arabic     ;        ;Antakiya
 c_antiocheia                    ;maghreb_arabic     ;        ;Antakiya
 c_antiocheia                    ;levantine_arabic   ;        ;Antakiya
@@ -8084,62 +8209,6 @@ c_gibelet                       ;masmuda            ;        ;Jebail
 c_gibelet                       ;zanata             ;        ;Jebail
 c_gibelet                       ;tuareg             ;        ;Jebail
 c_gibelet                       ;roman              ;        ;Byblus
-k_syria                         ;greek              ;The East;Oriens
-k_syria                         ;roman              ;The East;Oriens
-d_aleppo                        ;title_prefix       ;JUND_OF ;JUND_OF
-d_aleppo                        ;greek              ;Syria Prima;Syria Prima
-d_aleppo                        ;roman              ;Syria Prima;Syria Prima
-c_aleppo                        ;frankish           ;        ;Halapia
-c_aleppo                        ;norman             ;        ;Halapia
-c_aleppo                        ;greek              ;        ;Berroia
-c_aleppo                        ;roman              ;        ;Beroea
-c_manbij                        ;frankish           ;        ;Mombech
-c_manbij                        ;norman             ;        ;Mombech
-c_manbij                        ;greek              ;        ;Hierapolis
-c_manbij                        ;roman              ;        ;Hierapolis
-c_kafrtab                       ;frankish           ;Maarat al-Numaan;La Marre
-c_kafrtab                       ;norman             ;Maarat al-Numaan;La Marre
-c_kafrtab                       ;greek              ;Maarat al-Numaan;Arra
-c_kafrtab                       ;roman              ;Maarat al-Numaan;Arra
-c_hama                          ;greek              ;        ;Epiphania
-c_hama                          ;roman              ;        ;Epiphania
-d_homs                          ;title_prefix       ;JUND_OF ;JUND_OF
-d_homs                          ;greek              ;Syria Secunda;Syria Salutaris
-d_homs                          ;roman              ;Syria Secunda;Syria Salutaris
-c_homs                          ;frankish           ;        ;La Chamelle
-c_homs                          ;norman             ;        ;La Chamelle
-c_homs                          ;greek              ;        ;Emesa
-c_homs                          ;roman              ;        ;Emesa
-c_salamiyah                     ;greek              ;        ;Salamias
-c_salamiyah                     ;roman              ;        ;Salamias
-d_damascus                      ;title_prefix       ;JUND_OF ;JUND_OF
-d_damascus                      ;greek              ;Phoenice Libanensis;Phoenice Libanensis
-d_damascus                      ;roman              ;Phoenice Libanensis;Phoenice Libanensis
-c_damascus                      ;frankish           ;Damascus;Damascus
-c_damascus                      ;norman             ;Damascus;Damascus
-c_damascus                      ;greek              ;Damascus;Damaskos
-c_damascus                      ;roman              ;Damascus;Damascus
-c_baalbek                       ;frankish           ;Baalbek ;Balbec
-c_baalbek                       ;norman             ;Baalbek ;Balbec
-c_baalbek                       ;greek              ;Baalbek ;Helioupolis
-c_baalbek                       ;roman              ;Baalbek ;Heliopolis
-c_syria                         ;greek              ;Daraa   ;Adraa
-c_syria                         ;roman              ;Daraa   ;Adraa
-c_suwaida                       ;greek              ;Bosra   ;Bostra
-c_suwaida                       ;roman              ;Bosra   ;Bostra
-d_jordan                        ;title_prefix       ;JUND_OF ;JUND_OF
-d_jordan                        ;greek              ;Arabia Petraea;Arabia Prima
-d_jordan                        ;roman              ;Arabia Petraea;Arabia Prima
-c_amman                         ;frankish           ;Amman   ;Ahamant
-c_amman                         ;norman             ;Amman   ;Ahamant
-c_amman                         ;greek              ;Amman   ;Philadelpheia
-c_amman                         ;roman              ;Amman   ;Philadelphia
-c_az_zarqa                      ;greek              ;        ;Basienis
-c_az_zarqa                      ;roman              ;        ;Basienis
-c_madaba                        ;frankish           ;        ;Gerasa
-c_madaba                        ;norman             ;        ;Gerasa
-c_madaba                        ;greek              ;Irbid   ;Arbela
-c_madaba                        ;roman              ;Irbid   ;Arbela
 k_aljazira                      ;greek              ;Assyria ;Assyria
 k_aljazira                      ;roman              ;Assyria ;Assyria
 d_amida                         ;andalusian_arabic  ;Diyar Bakr;Diyar Bakr
@@ -8159,6 +8228,7 @@ c_amida                         ;armenian           ;Tigranocerta;Tigranakert
 c_amida                         ;turkish            ;Diyarbekir;Diyar-i Bekr
 c_amida                         ;turkmen            ;Diyarbekir;Diyar-i Bekr
 c_amida                         ;oghuz              ;Diyarbekir;Diyar-i Bekr
+c_amida                         ;assyrian           ;Diyarbakir;Amid
 c_amida                         ;bedouin_arabic     ;Diyarbakir;Âmid
 c_amida                         ;maghreb_arabic     ;Diyarbakir;Âmid
 c_amida                         ;levantine_arabic   ;Diyarbakir;Âmid
@@ -8201,12 +8271,13 @@ c_amadiya                       ;greek              ;Corduene;Corduene
 c_amadiya                       ;turkish            ;        ;Amadiye
 c_amadiya                       ;turkmen            ;        ;Amadiye
 c_amadiya                       ;oghuz              ;        ;Amadiye
+c_amadiya                       ;assyrian           ;        ;Amadiya
 c_amadiya                       ;kurdish            ;Corduene;Kardox
 c_al_jazira                     ;greek              ;        ;Bethzabde
 c_al_jazira                     ;turkish            ;        ;Cizre
 c_al_jazira                     ;turkmen            ;        ;Cizre
 c_al_jazira                     ;oghuz              ;        ;Cizre
-c_al_jazira                     ;assyrian           ;        ;Gzira
+c_al_jazira                     ;assyrian           ;        ;Gazarta
 c_al_jazira                     ;kurdish            ;        ;Cizîr
 c_sinjar                        ;greek              ;Singara ;Singara
 c_sinjar                        ;assyrian           ;Beth ‘Arabaye;Beth Arabaye
@@ -8217,6 +8288,7 @@ c_bira                          ;greek              ;        ;Nisibis
 c_bira                          ;turkish            ;        ;Nusaybin
 c_bira                          ;turkmen            ;        ;Nusaybin
 c_bira                          ;oghuz              ;        ;Nusaybin
+c_bira                          ;assyrian           ;        ;Nsibin
 c_bira                          ;kurdish            ;        ;Nisêbîn
 c_nineveh                       ;assyrian           ;Adiabene;Hadyab
 c_erbil                         ;andalusian_arabic  ;        ;Arbil
@@ -11423,7 +11495,21 @@ d_bazin                         ;title              ;RAIS    ;RAIS
 d_bazin                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_danakil                       ;title              ;RAIS    ;RAIS
 d_danakil                       ;foa                ;RAIS_FOA;RAIS_FOA
+d_aydin                         ;greek              ;        ;Tralleis
+d_candar                        ;greek              ;Paphlagonia;Paphlagonia
+d_germiyan                      ;greek              ;Phrygia ;Phrygia
+d_germiyan                      ;turkmen            ;Eskisehir;Eskisehir
+d_germiyan                      ;oghuz              ;Eskisehir;Eskisehir
+d_karaman                       ;greek              ;Lycaonia;Lykaonia
+d_mentese                       ;greek              ;Milas   ;Mylasa
+d_karasi                        ;greek              ;Mysia   ;Mysia
 k_rum                           ;dynasty_title_names;no      ;no
+d_saruhan                       ;greek              ;Ionia   ;Ionia
+d_ahi                           ;greek              ;Ankyra  ;Ankyra
+d_ahi                           ;turkmen            ;Ankyra  ;Engürü
+d_ahi                           ;oghuz              ;Ankyra  ;Engürü
+d_hamid                         ;greek              ;Pisidia ;Pisidia
+d_tekke                         ;greek              ;Cibyrrhaeots;Kibyrrhaioton
 k_makuria                       ;andalusian_arabic  ;        ;Muqurra
 k_makuria                       ;bedouin_arabic     ;        ;Muqurra
 k_makuria                       ;maghreb_arabic     ;        ;Muqurra

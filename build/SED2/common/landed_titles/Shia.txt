@@ -1,7 +1,7 @@
-k_shiite = { # Shia
+d_shiite = { # Shia
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	creation_requires_capital = no
 	dignity = 100 # Counted as having this many more counties than it does
 	religion = shiite
@@ -14,14 +14,14 @@ k_shiite = { # Shia
 		religion = shiite
 	}
 	allow = {
-		or = {
+		OR = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
-		not = { has_global_flag = shia_caliphate_revolt_ongoing }
-		or = {
-			and = {
+		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
+		OR = {
+			AND = {
 				trait = sayyid
 				piety = 1000
 			}
@@ -30,7 +30,7 @@ k_shiite = { # Shia
 				hidden_tooltip = {
 					719 = { # Mecca
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -38,7 +38,7 @@ k_shiite = { # Shia
 					}
 					718 = { # Medina
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -51,7 +51,7 @@ k_shiite = { # Shia
 				hidden_tooltip = {
 					774 = { # Jerusalem
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -59,7 +59,7 @@ k_shiite = { # Shia
 					}
 					728 = { # Damascus
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -67,7 +67,7 @@ k_shiite = { # Shia
 					}
 					693 = { # Baghdad
 						owner = {
-							or = {
+							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
@@ -81,4 +81,4 @@ k_shiite = { # Shia
 	title_female = CALIPHA
 	foa = CALIPH_FOA
 	short_name = yes
-} # end k_shiite
+} # end d_shiite

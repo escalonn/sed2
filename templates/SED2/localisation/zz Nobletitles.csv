@@ -1386,9 +1386,7 @@ barony_of_catalan                                     ;Viscounty of;Vescomtat de
 city_baron_catalan                                    ;Consul  ;Cònsol;;
 temple_emperor_catalan                                ;King-Priest;Rei-Preste;;
 temple_king_catalan                                   ;Apostolic King;Rei Apostòlic;;
-#temple_king_catalan,Príncep-Patriarca,Príncep-Patriarca,Príncep-Patriarca,,Príncep-Patriarca,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
 temple_duke_catalan                                   ;Prince-Archbishop;Príncep-Arquebisbe;;
-#temple_duke_catalan,Príncep-Primat,Príncep-Primat,Príncep-Primat,,Príncep-Primat,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
 temple_count_catalan                                  ;Prince-Bishop;Príncep-Bisbe;;
 city_empire_of_catalan                                ;Principality of;Principado de;;
 city_kingdom_of_catalan                               ;Generalitat of;Generalitat de;;
@@ -2875,11 +2873,22 @@ nomadic_empire_north_african                          ;Sultanate;Sultanate;;
 nomadic_empire_of_north_african                       ;Sultanate of;Sultanate of;;
 #Arabian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 nomadic_king_arabic                                   ;Sheikh  ;Sheikh;;
-nomadic_emperor_arabic                                ;Emir    ;Emir;;
+nomadic_emperor_arabic                                ;Emir    ;Amir;;
 nomadic_kingdom_arabic                                ;Tribe   ;Tribe;;
 nomadic_kingdom_of_arabic                             ;Tribe of;Tribe of;;
-nomadic_empire_arabic                                 ;Emirate ;Emirate;;
-nomadic_empire_of_arabic                              ;Emirate of;Emirate of;;
+nomadic_empire_arabic                                 ;Emirate ;Amirate;;
+nomadic_empire_of_arabic                              ;Emirate of;Amirate of;;
+tribal_count_arabic                                   ;Sheikh  ;Sheikh;;
+tribal_duke_arabic                                    ;Emir    ;Amir;;
+tribal_sultan_arabic                                  ;Sultan  ;Sultan;;
+tribal_county_arabic                                  ;Sheikhdom;Sheikhdom;;
+tribal_county_of_arabic                               ;Sheikhdom of;Sheikhdom of;;
+tribal_duchy_arabic                                   ;Emirate ;Amirate;;
+tribal_duchy_of_arabic                                ;Emirate of;Amirate of;;
+tribal_kingdom_arabic                                 ;Sultanate;Sultanate;;Sultanate
+tribal_kingdom_of_arabic                              ;Sultanate of;Sultanate of;;Sultanate of
+duchy_arabic                                          ;Emirate ;Amirate;;Emirate
+duchy_of_arabic                                       ;Emirate of;Amirate of;;Emirate of
 #Turkic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 nomadic_king_oghuz                                    ;Bey     ;Beg;;
 nomadic_emperor_oghuz                                 ;Yabgu   ;Yabghu;;

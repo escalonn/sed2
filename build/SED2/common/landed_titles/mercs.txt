@@ -15,7 +15,7 @@ d_band_of_the_brave = { # The brave band
 	strength_growth_per_century = 0.25
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			culture = saxon
 			culture = scottish
 			culture = anglonorse
@@ -46,7 +46,7 @@ d_band_of_the_red = { # Floti hinn rauði
 	strength_growth_per_century = 0.25
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			culture_group = north_germanic
 			culture = norsegaelic
 			culture = anglonorse

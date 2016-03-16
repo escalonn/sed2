@@ -60,7 +60,7 @@ d_nordgau                               ;Nordgau ;Nordgau;;
 d_nordgau_adj                           ;Nordgau ;Nordgauische;;
 d_tyrol                                 ;Tyrol   ;Tirol;;Tyrol
 d_tyrol_adj                             ;Tyrolean;Tirolische;;
-d_niederbayern                          ;Lower Bavaria;Niederbaiern;Rhaetia Secunda,Rhaitia Secunda;
+d_niederbayern                          ;Lower Bavaria;Niederbaiern;Rhaetia Secunda,Rhaitia Sekunda;
 d_niederbayern_adj                      ;Lower Bavarian;Niederbairische;;
 d_salzburg                              ;Salzburg;Salzburg;Iuvavum;
 d_salzburg_adj                          ;Salzburger;Salzburgische;;
@@ -220,7 +220,7 @@ d_ujavar                                ;Abaúj   ;Újavár;;
 d_ujavar_adj                            ;Abaúj   ;Újavárian;;
 d_gyor                                  ;Gyõr    ;Gyõr;Ráb,Jura,Vjura,Raab,Pannonia Scarabantia,Pannonia Skarabantia;
 d_gyor_adj                              ;Gyõr    ;Gyõrian;;
-d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sriem,Syrmien,Szerém,Sirem;
+d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sirmiou,Sriem,Syrmien,Szerém,Sirem;
 d_syrmia_adj                            ;Syrmian ;Srem;;
 d_syrmia_adj_greek                      ;        ;Syrmian;;
 d_syrmia_adj_armenian                   ;        ;Syrmian;;
@@ -472,13 +472,13 @@ d_damascus_adj_greek                    ;Phoenician;Phoenice Libanensian;;
 d_aleppo                                ;Qinnasrin;Qinnasrin;Syria Prima;Aleppo
 d_aleppo_adj                            ;Qinnasrin;Qinnasrinan;;Aleppan
 d_aleppo_adj_greek                      ;Syrian  ;Syria Priman;;
-k_syria                                 ;Syria   ;Al-Sham;Oriens;Syria
-k_syria_adj                             ;Syrian  ;Al-Shaman;;Syrian
+k_syria                                 ;Syria   ;al-Sham;Oriens;Syria
+k_syria_adj                             ;Syrian  ;Shami;;Syrian
 k_aljazira                              ;Upper Mesopotamia;Al Jazira;Assyria;
 k_aljazira_adj                          ;Upper Mesopotamian;Jaziran;;
 k_aljazira_adj_greek                    ;Assyrian;Assyrian;;
 d_mosul_adj_greek                       ;        ;Mepsilan;;
-d_antioch                               ;Principality of Antioch;Principauté d'Antioche;Jund 'Awasim,Ducate Antioch,Ducate Antiok;Antioch
+d_antioch                               ;Principality of Antioch;Principauté d'Antioche;Jund 'Awasim,Antiokeias,Antiok;Antioch
 d_antioch_adj                           ;Antiochene;Antiochean;;Antiochian
 d_antioch_adj_bedouin_arabic            ;al-Awasim;Awasiman;;
 d_antioch_adj_maghreb_arabic            ;al-Awasim;Awasiman;;
@@ -743,8 +743,6 @@ d_volhynia                              ;Volhynia;Volyn;;Volhynia
 d_volhynia_adj                          ;Volhynian;Volyn;;Volhynian
 d_belz                                  ;Belz    ;Belz;;
 d_belz_adj                              ;Belz    ;Belz;;
-d_zvenyhorod                            ;Zvenigorod;Zvenigorod;;
-d_zvenyhorod_adj                        ;Zvenigorod;Zvenigorod;;
 d_podlaise                              ;Podlachia;Podlyashe;Palenke;
 d_podlaise_adj                          ;Podlachian;Podlyashe;;
 e_russia                                ;Rus’    ;Rus;Garðaríki;Russia
@@ -842,10 +840,10 @@ d_taghaza_adj                           ;Taghaza ;Taghazi;;
 d_takrur                                ;Takrur  ;Takrur;;
 d_takrur_adj                            ;Takrur  ;Takrurí;;
 #Egypt,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
-k_egypt                                 ;Egypt   ;Misr;Aegyptus,Aigyptos;Egypt
+k_egypt                                 ;Egypt   ;Misr;Aegyptus,Aigyptos,Khemi;Egypt
 k_egypt_adj                             ;Egyptian;Misri;;Egyptian
 k_egypt_adj_greek                       ;        ;Aigyptian;;
-d_alexandria                            ;Alexandria;Iskandariya;Aegyptus,Aigyptos;Alexandria
+d_alexandria                            ;Alexandria;Iskandariya;Aegyptus,Aigyptos,Rakote;Alexandria
 d_alexandria_adj                        ;Alexandrian;Iskandariyi;;Alexandrian
 d_alexandria_adj_greek                  ;Egyptian;Aigyptian;;
 d_damietta                              ;Damietta;Dumiyát;Augustamnica,Augustamnike;Damietta
@@ -924,8 +922,6 @@ d_kassala                               ;Kassala ;Kassala;;
 d_kassala_adj                           ;Kassala ;Kassalí;;
 d_darfur                                ;Darfur  ;Darfur;;
 d_darfur_adj                            ;Darfuri ;Darfurí;;
-d_elatrun                               ;El Atrun;El Atrún;;
-d_elatrun_adj                           ;El Atrun;Atrúní;;
 k_darfur                                ;Darfur  ;Darfur;;
 k_darfur_adj                            ;Darfuri ;Darfurí;;
 ########,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
@@ -1448,7 +1444,7 @@ d_rashka_adj_greek                      ;        ;Rascian;;
 d_rashka_adj_east_gothic                ;        ;Rascian;;
 d_rashka_adj_arberian                   ;        ;Rashkësi;;
 d_rashka_adj_roman                      ;Moesian ;Moesia Priman;;
-d_macva                                 ;Macva   ;Macva;Capedounon,Matschva,Macsó;
+d_macva                                 ;Macva   ;Macva;Kapedounon,Matschva,Macsó;
 d_macva_adj                             ;Macva   ;Macvan;;
 d_macva_adj_greek                       ;Užice   ;Capedounian;;
 d_macva_adj_east_gothic                 ;Užice   ;Capedounian;;
@@ -1525,7 +1521,7 @@ d_karvuna_adj_arberian                  ;Scythian;Mikrá Skythian;;
 d_karvuna_adj_oghuz                     ;        ;Dobrujan;;
 d_karvuna_adj_turkmen                   ;        ;Dobrujan;;
 d_karvuna_adj_turkish                   ;        ;Dobrujan;;
-d_vidin                                 ;Vidin   ;Vidin;Bononia,Bodony,Diiu;Vidin
+d_vidin                                 ;Vidin   ;Vidin;Bidyne,Bononia,Bodony,Diiu;Vidin
 d_vidin_adj                             ;Vidin   ;Vidinan;;Vidinian
 d_vidin_adj_greek                       ;        ;Bononian;;
 d_vidin_adj_arberian                    ;        ;Bononian;;
@@ -1838,6 +1834,8 @@ d_anatolia_adj_oghuz                    ;Rum     ;Rûmian;;
 d_anatolia_adj_turkmen                  ;Rum     ;Rûmian;;
 d_anatolia_adj_turkish                  ;Rum     ;Rûmian;;
 d_anatolia                              ;Anatolics;Anatolikon;Rûm;Anatolia
+d_germiyan                              ;Germiyan;Germiyan;Eskisehir,Phrygia;
+d_germiyan_adj                          ;Germiyan;Germiyani;;
 d_cibyrrhaeot_adj                       ;Cibyrrhaeot;Kibyrrhaiotan;;Cibyrrhaeotian
 d_cibyrrhaeot_adj_oghuz                 ;Mentese ;Mentešan;;
 d_cibyrrhaeot_adj_turkmen               ;Mentese ;Mentešan;;
@@ -1994,14 +1992,14 @@ d_seleukeia_adj_oghuz                   ;Silifke ;Silifkan;;
 d_seleukeia_adj_turkmen                 ;Silifke ;Silifkan;;
 d_seleukeia_adj_turkish                 ;Karamanid;Qarâmani;;
 d_seleukeia_adj_armenian                ;Silifke ;Selewkian;;
-d_seleukeia                             ;Cilicia Trachea;Kilikía Thrakeía;Silifke,Qarâman,Selewkia,Cilicie Trachée;
+d_seleukeia                             ;Seleucia;Seleukeia;Silifke,Qarâman,Selewkia,Cilicie Trachée;
 d_armenia_minor_adj                     ;Cilician;Kilikían;;Cilician
 d_armenia_minor_adj_oghuz               ;Adana   ;Atanân;;
 d_armenia_minor_adj_turkmen             ;Adana   ;Atanân;;
 d_armenia_minor_adj_turkish             ;Adana   ;Atanân;;
 d_armenia_minor_adj_norman              ;        ;Cilician;;
 d_armenia_minor_adj_frankish            ;        ;Cilician;;
-d_armenia_minor                         ;Cilicia Pedias;Kilikía Pediás;Atanâ,Kilikia,Cilicie;Cilicia
+d_armenia_minor                         ;Cilicia ;Kilikía;Atanâ,Kilikia,Cilicie;Cilicia
 ###################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Steppes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ###################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -3064,7 +3062,7 @@ d_dorpat_adj                            ;Ugaunian;Ugandian;;
 d_lettigale                             ;Jersika ;Gerzike;Jersika,Gersik,Zadzwinskie;
 d_lettigale_adj                         ;Latgalian;Lettigallian;;
 ##############################################,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,;;;;
-#Persia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Persia and Iraq,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ##############################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 e_persia_adj                            ;Persian ;Érání;;Persian
 e_persia                                ;Persia  ;Érán;;Persian Empire
@@ -3077,7 +3075,7 @@ k_sistan                                ;Sistan  ;Sístán;;
 k_persia_adj                            ;Persian ;Pársí;;Persian
 k_persia                                ;Persia  ;Pársa;;Persia
 k_mesopotamia_adj                       ;Iraqi   ;Iraqi;;Mesopotamian
-k_mesopotamia                           ;Iraq    ;Al-Iraq;;Mesopotamia
+k_mesopotamia                           ;Iraq    ;al-Iraq;Bet Aramaye;Mesopotamia
 k_mavarannahr_adj                       ;Transoxianan;Mavár-an-Nahrí;;
 k_mavarannahr                           ;Transoxiana;Mavár-an-Nahr;Sogdiana,Sogdiane;
 k_khorasan_adj                          ;Khorasan;Khoarásání;;
@@ -3086,6 +3084,10 @@ k_kafarestan_adj                        ;Kabulistan;Kábulistání;;
 k_kafarestan                            ;Kabulistan;Kábulistán;;
 k_daylam_adj                            ;Gilanian;Daylamí;;
 k_daylam                                ;Gilan   ;Daylam;;
+d_samarra                               ;Samarra ;Samarrah;;
+d_samarra_adj                           ;Samarran;Samarran;;
+d_kufa                                  ;Kufa    ;al-Kufa;;
+d_kufa_adj                              ;Kufan   ;Kufan;;
 d_zhetysu_adj                           ;Zhetysu ;Zhetisu;;Zhetysu
 d_zhetysu                               ;Zhetysu ;Zhetisu;;Zhetysu
 d_zabolestan_adj                        ;Zabulistan;Zábolestání;;
@@ -3137,7 +3139,7 @@ d_gilan                                 ;Gilan   ;Gílán;;Gilan
 d_ferghana_adj                          ;Fergana ;Ferghána;;
 d_ferghana                              ;Fergana ;Ferghána;;
 d_fars_adj                              ;Persian ;Pársí;;Farsi
-d_fars                                  ;Fars    ;Párs;Persis;Fars
+d_fars                                  ;Fars    ;Párs;Persis,Beth Parsaye;Fars
 d_dasht-i-qipchaq_adj                   ;Cuman   ;Dasht-e-Qipchaqí;;
 d_dasht-i-qipchaq                       ;Cumania ;Dasht-e-Qipchaq;;
 d_balkh_adj                             ;Balkh   ;Balkhí;;
@@ -3145,7 +3147,7 @@ d_balkh                                 ;Balkh   ;Balkh;Bactriana,Baktriane;
 d_ayaguz_adj                            ;Ayaguz  ;Ayaguzí;;
 d_ayaguz                                ;Ayaguz  ;Ayaguz;;
 d_ahwaz_adj                             ;Ahvaz   ;Ahwází;;
-d_ahwaz                                 ;Ahvaz   ;Ahwáz;Susiana,Sousiane;
+d_ahwaz                                 ;Ahvaz   ;Ahwáz;Susiana,Sousiane,Bet Huzaye;
 d_ustrushana                            ;Osrushana;Ustrushána;;
 d_ustrushana_adj                        ;Osrushana;Ustrushání;;
 d_khotan                                ;Khotan  ;Khotan;;Khotan
@@ -3359,3 +3361,26 @@ d_azerbaijan_adj                        ;Azerbaijani;Adharbaygani;;Azerbaijani
 #Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 d_sennar                                ;Sennar  ;Sennar;;Alodia
 d_sennar_adj                            ;Sennar  ;Sennar;;Alodian
+####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+k_arabia                                ;Arabia  ;Arabiyya;;Arabia
+k_arabia_adj                            ;Arabian ;Arabiyyan;;Arabian
+k_yemen                                 ;Yemen   ;Yaman;Arabia Felix;
+k_yemen_adj                             ;Yemeni  ;Yamani;;
+k_oman                                  ;Oman    ;Uman;Beth Mazunaye;
+k_oman_adj                              ;Omani   ;Umani;;
+d_amman                                 ;Eastern Arabia;Bahrayn;;Damman
+d_amman_adj                             ;Eastern Arabian;Bahrayni;;Dammani
+d_hadramaut                             ;Hadhramaut;Hadramawt;;
+d_hadramaut_adj                         ;Hadhramaut;Hadramawti;;
+d_oman                                  ;Oman    ;Uman;Beth Mazunaye;Oman
+d_oman_adj                              ;Omani   ;Umani;;Omani
+d_sanaa                                 ;Sana’a  ;Sanaa;;Sanaa
+d_sanaa_adj                             ;Sana’a  ;Sanaan;;Sanaan
+d_medina                                ;Hejaz   ;Hijaz;;Medina
+d_medina_adj                            ;Hejazi  ;Hijazi;;Medinan
+d_nefoud                                ;Najd    ;Najd;Arabia Deserta;Nefoud
+d_nefoud_adj                            ;Najdi   ;Najdi;;Nefoudi
+d_arabia_petrae                         ;Al-Jawf ;Al-Jawf;Arabia Petraea;Arabia
+d_arabia_petrae_adj                     ;Al-Jawf ;Al-Jawfi;;Arabian

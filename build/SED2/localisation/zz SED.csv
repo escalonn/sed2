@@ -1,4 +1,8 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+KINGDOM_PANNONIA;Pannonia;;;;;;;;;;;;;x
+KINGDOM_PANNONIA_ADJ;Pannonian;;;;;;;;;;;;;x
+Jomsborg;Jomsborg;;;;;;;;;;;;;x
+Rome;Rome;;;;;;;;;;;;;x
 Finland;Finland Proper;;;;;;;;;;;;;x
 Tavastland;Tavastia;;;;;;;;;;;;;x
 Satakunda;Satakunta;;;;;;;;;;;;;x
@@ -16,7 +20,6 @@ tribal_county;Chiefdom;;;;;;;;;;;;;x
 tribal_kingdom_old_saxon;Grand Chiefdom;;;;;;;;;;;;;x
 tribal_kingdom_altaic;Khanate;;;;;;;;;;;;;x
 tribal_empire_altaic;Khanate;;;;;;;;;;;;;x
-tribal_kingdom_arabic;Sultanate;;;;;;;;;;;;;x
 tribal_empire_russian;Tsardom;;;;;;;;;;;;;x
 duchy_russian;Grand Principality;;;;;;;;;;;;;x
 empire_russian;Tsardom;;;;;;;;;;;;;x
@@ -400,12 +403,8 @@ severian;Severian;;;;;;;;;;;;;x
 volhynian;Volhynian;;;;;;;;;;;;;x
 k_lombardy;Lombards;;;;;;;;;;;;;x
 k_lombardy_adj;Lombard;;;;;;;;;;;;;x
-AVAR_KHAGANATE;Avars;;;;;;;;;;;;;x
-AVAR_KHAGANATE_ADJ;Avar;;;;;;;;;;;;;x
 k_avaria;Avars;;;;;;;;;;;;;x
 k_avaria_adj;Avar;;;;;;;;;;;;;x
-KINGDOM_PANNONIA;Pannonia;;;;;;;;;;;;;x
-KINGDOM_PANNONIA_ADJ;Pannonian;;;;;;;;;;;;;x
 pictish;Pictish;;;;;;;;;;;;;x
 count_pictish;Earl;;;;;;;;;;;;;x
 c_chandax_adj_greek;Gortynian;;;;;;;;;;;;;x
@@ -496,7 +495,6 @@ tribal_king_female_altaic;Khanum;;;;;;;;;;;;;x
 tribal_kingdom_of_altaic;Khanate of;;;;;;;;;;;;;x
 tribal_king_arabic;Sultan;;;;;;;;;;;;;x
 tribal_king_female_arabic;Sultana;;;;;;;;;;;;;x
-tribal_kingdom_of_arabic;Sultanate of;;;;;;;;;;;;;x
 tribal_emperor_arabic;Padishah;;;;;;;;;;;;;x
 tribal_emperor_russian;Tsar;;;;;;;;;;;;;x
 tribal_emperor_female_russian;Tsarina;;;;;;;;;;;;;x
@@ -1280,7 +1278,6 @@ empire_altaic;Khanate;;;;;;;;;;;;;x
 kingdom_altaic;Khanate;;;;;;;;;;;;;x
 barony_arabic;Wilayah;;;;;;;;;;;;;x
 county_arabic;Sheikhdom;;;;;;;;;;;;;x
-duchy_arabic;Emirate;;;;;;;;;;;;;x
 kingdom_arabic;Sultanate;;;;;;;;;;;;;x
 barony_turkish;Timar;;;;;;;;;;;;;x
 county_turkish;Beylik;;;;;;;;;;;;;x
@@ -1305,6 +1302,8 @@ kingdom_of_west_african;Sultanate of;;;;;;;;;;;;;x
 kingdom_west_african;Sultanate;;;;;;;;;;;;;x
 d_sunni;Sunni Caliphate;;;;;;;;;;;;;x
 d_sunni_adj;Caliphal;;;;;;;;;;;;;x
+d_shiite;Shi‘ite Caliphate;;;;;;;;;;;;;x
+d_shiite_adj;Caliphal;;;;;;;;;;;;;x
 d_armenia_minor_adj_armenian;Armenian;;;;;;;;;;;;;x
 e_abyssinia;Abyssinia;;;;;;;;;;;;;x
 e_abyssinia_adj;Abyssinian;;;;;;;;;;;;;x
@@ -1312,7 +1311,6 @@ d_timbuktu;Timbuktu;;;;;;;;;;;;;x
 d_latium;Latium;;;;;;;;;;;;;x
 d_latium_adj;Latin;;;;;;;;;;;;;x
 c_aprutium_adj;Abruzzese;;;;;;;;;;;;;x
-PROV696;Samarra;;;;;;;;;;;;;x
 c_tadmor_adj;Al-Sukhnah;;;;;;;;;;;;;x
 c_syria_adj;Bosra;;;;;;;;;;;;;x
 c_euphrates_adj;Samarran;;;;;;;;;;;;;x
@@ -1365,8 +1363,6 @@ title_master_of_the_horse_desc;This office dates all the way back to the Roman R
 title_master_of_the_hunt_desc;In an era when hunting was an opportunity to demonstrate horsemanship and martial prowess, the hunt was serious business. The master of the hunt was a position of importance.;;;;;;;;;;;;;x
 title_high_almoner_desc;The handing out of alms was an integral part of rulership and religious observance. The one responsible for this task is a very important personage.;;;;;;;;;;;;;x
 title_seneschal_desc;Originally responsible for the organization of feasts and domestic entertainment. Although left mainly in the hands of deputies, the key role at such major occasions makes the post prestigious.;;;;;;;;;;;;;x
-d_amman;Dammam;;;;;;;;;;;;;x
-d_amman_adj;Dammam;;;;;;;;;;;;;x
 desc_job_chancellor;The §Y$JOB$§! is your advisor on matters of diplomacy. The position is traditionally considered the highest on the council.;;;;;;;;;;;;;x
 desc_job_marshal;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.;;;;;;;;;;;;;x
 desc_job_treasurer;The §Y$JOB$§! helps you collect taxes and administer your demesne.;;;;;;;;;;;;;x
@@ -1511,7 +1507,6 @@ count_arabic;Sheikh;;;;;;;;;;;;;x
 county_of_arabic;Sheikhdom of;;;;;;;;;;;;;x
 duke_arabic;Emir;;;;;;;;;;;;;x
 duke_female_arabic;Emira;;;;;;;;;;;;;x
-duchy_of_arabic;Emirate of;;;;;;;;;;;;;x
 king_arabic;Sultan;;;;;;;;;;;;;x
 king_female_arabic;Sultana;;;;;;;;;;;;;x
 kingdom_of_arabic;Sultanate of;;;;;;;;;;;;;x
@@ -1775,8 +1770,6 @@ c_basra_adj;Basran;;;;;;;;;;;;;x
 c_damman_adj;Dammam;;;;;;;;;;;;;x
 c_al_hasa_adj;Al-Ahsa;;;;;;;;;;;;;x
 c_bahrein_adj;Bahraini;;;;;;;;;;;;;x
-d_nefoud;Nafud;;;;;;;;;;;;;x
-d_nefoud_adj;Nafud;;;;;;;;;;;;;x
 c_al_nadjaf_adj;Najaf;;;;;;;;;;;;;x
 c_ar_ar_adj;Sakakah;;;;;;;;;;;;;x
 c_madaba_adj;Madaba;;;;;;;;;;;;;x
@@ -2058,16 +2051,11 @@ c_faro_adj;Faro;;;;;;;;;;;;;x
 c_canarias_adj;Canarian;;;;;;;;;;;;;x
 c_makuria_adj;Makurian;;;;;;;;;;;;;x
 c_nubia_adj;Nubian;;;;;;;;;;;;;x
-k_arabia;Arabia;;;;;;;;;;;;;x
-k_arabia_adj;Arabian;;;;;;;;;;;;;x
 d_sinai;Sinai;;;;;;;;;;;;;x
 d_sinai_adj;Sinaitic;;;;;;;;;;;;;x
 c_sinai_adj;Sinaitic;;;;;;;;;;;;;x
 c_eilat_adj;Eilatian;;;;;;;;;;;;;x
 c_el-arish_adj;Arish;;;;;;;;;;;;;x
-d_arabia_petrae;Arabia;;;;;;;;;;;;;x
-d_arabia_petrae_adj;Arabian;;;;;;;;;;;;;x
-c_al_aqabah_adj;Aqaba;;;;;;;;;;;;;x
 c_maan_adj;Ma’an;;;;;;;;;;;;;x
 c_tabuk_adj;Tabuk;;;;;;;;;;;;;x
 c_petra_adj;Petra;;;;;;;;;;;;;x
@@ -2080,15 +2068,11 @@ c_rafha_adj;Rafha;;;;;;;;;;;;;x
 c_hail_adj;Ha’il;;;;;;;;;;;;;x
 c_hajr_adj;Hajr;;;;;;;;;;;;;x
 c_halaban_adj;Halaban;;;;;;;;;;;;;x
-d_sanaa;Sana’a;;;;;;;;;;;;;x
-d_sanaa_adj;Sana’a;;;;;;;;;;;;;x
 c_bayda_adj;Al Bayda;;;;;;;;;;;;;x
 c_sanaa_adj;Sana’a;;;;;;;;;;;;;x
 c_taizz_adj;Taizian;;;;;;;;;;;;;x
 c_aden_adj;Adenian;;;;;;;;;;;;;x
 c_kathiri_adj;Kathiri;;;;;;;;;;;;;x
-d_oman;Oman;;;;;;;;;;;;;x
-d_oman_adj;Omani;;;;;;;;;;;;;x
 c_dhu_zabi_adj;Abu Dhabian;;;;;;;;;;;;;x
 c_hajar_adj;Al Hajar;;;;;;;;;;;;;x
 c_muscat_adj;Muscatian;;;;;;;;;;;;;x
@@ -2148,8 +2132,6 @@ c_tripoli_adj;Tripolitan;;;;;;;;;;;;;x
 c_baalbek_adj;Baalbekian;;;;;;;;;;;;;x
 c_damascus_adj;Damascene;;;;;;;;;;;;;x
 c_amman_adj;Ammani;;;;;;;;;;;;;x
-d_syria;Syria;;;;;;;;;;;;;x
-d_syria_adj;Syrian;;;;;;;;;;;;;x
 c_druz_adj;Druze;;;;;;;;;;;;;x
 c_suwaida_adj;As-Suwayda;;;;;;;;;;;;;x
 k_england;England;;;;;;;;;;;;;x
@@ -2188,8 +2170,6 @@ c_hradec_adj;Hradec;;;;;;;;;;;;;x
 c_olomouc_adj;Olomoucian;;;;;;;;;;;;;x
 c_brno_adj;Brno;;;;;;;;;;;;;x
 d_abbasid;Abbasids;;;;;;;;;;;;;x
-d_medina;Medina;;;;;;;;;;;;;x
-d_medina_adj;Medinan;;;;;;;;;;;;;x
 d_pronsk;Pronsk;;;;;;;;;;;;;x
 d_pronsk_adj;Pronsk;;;;;;;;;;;;;x
 d_sandomiersk;Sandomierz;;;;;;;;;;;;;x
@@ -2204,33 +2184,22 @@ k_almohad;Almohads;;;;;;;;;;;;;x
 k_almohad_adj;Almohad;;;;;;;;;;;;;x
 k_al-murabitids;Almoravids;;;;;;;;;;;;;x
 k_al-murabitids_adj;Almoravid;;;;;;;;;;;;;x
-k_aydin;Aydinids;;;;;;;;;;;;;x
 k_beni_helal;Banu Hilal;;;;;;;;;;;;;x
 k_beni_helal_adj;Banu Hilal;;;;;;;;;;;;;x
-k_candar;Jandarids;;;;;;;;;;;;;x
-k_candar_adj;Jandarid;;;;;;;;;;;;;x
-k_eretnid;Eretnids;;;;;;;;;;;;;x
 k_fatimids;Fatimids;;;;;;;;;;;;;x
 k_fatimids_adj;Fatimid;;;;;;;;;;;;;x
-k_germiyan;Germiyanids;;;;;;;;;;;;;x
 e_golden_horde;Golden Horde;;;;;;;;;;;;;x
 e_golden_horde_adj;Mongol;;;;;;;;;;;;;x
 k_hammadid;Hammadids;;;;;;;;;;;;;x
 e_il-khanate;Ilkhanate;;;;;;;;;;;;;x
 k_kafsid;Hafsids;;;;;;;;;;;;;x
-k_karaman;Karamanids;;;;;;;;;;;;;x
-k_karaman_adj;Karamanid;;;;;;;;;;;;;x
 k_marinid;Marinids;;;;;;;;;;;;;x
-k_mentese;Mentese;;;;;;;;;;;;;x
 k_naples;Naples;;;;;;;;;;;;;x
 k_naples_adj;Neapolitan;;;;;;;;;;;;;x
 k_nubia;Nubia;;;;;;;;;;;;;x
 k_nubia_adj;Nubian;;;;;;;;;;;;;x
 k_ottoman;Ottomans;;;;;;;;;;;;;x
 k_ottoman_adj;Ottoman;;;;;;;;;;;;;x
-k_saruhan;Sarukhanids;;;;;;;;;;;;;x
-k_saruhan_adj;Sarukhanid;;;;;;;;;;;;;x
-k_tekke;Teke;;;;;;;;;;;;;x
 k_trinacria;Sicily;;;;;;;;;;;;;x
 k_trinacria_adj;Sicilian;;;;;;;;;;;;;x
 k_zenata;Zenata;;;;;;;;;;;;;x
@@ -2579,12 +2548,6 @@ PROV535;Volodymyr-Volynsky;;;;;;;;;;;;;x
 PROV560;Chersonesus;;;;;;;;;;;;;x
 PROV561;Feodosia;;;;;;;;;;;;;x
 PROV600;Abkhazia;;;;;;;;;;;;;x
-PROV649;Basra;;;;;;;;;;;;;x
-PROV651;Dammam;;;;;;;;;;;;;x
-PROV652;Al-Ahsa;;;;;;;;;;;;;x
-PROV653;Bahrain;;;;;;;;;;;;;x
-PROV655;Kufa;;;;;;;;;;;;;x
-PROV656;Tigris;;;;;;;;;;;;;x
 PROV657;Lorestan;;;;;;;;;;;;;x
 PROV667;Tabriz;;;;;;;;;;;;;x
 PROV671;Syunik;;;;;;;;;;;;;x
@@ -2598,22 +2561,14 @@ PROV681;Ani;;;;;;;;;;;;;x
 PROV682;Vaspurakan;;;;;;;;;;;;;x
 PROV683;Amida;;;;;;;;;;;;;x
 PROV686;Urmia;;;;;;;;;;;;;x
-PROV687;Kirkuk;;;;;;;;;;;;;x
 PROV688;Kermanshah;;;;;;;;;;;;;x
-PROV690;Amarah;;;;;;;;;;;;;x
-PROV691;Nasiriyah;;;;;;;;;;;;;x
-PROV692;Najaf;;;;;;;;;;;;;x
 PROV693;Baghdad;;;;;;;;;;;;;x
 PROV694;Karbala;;;;;;;;;;;;;x
-PROV695;Deir ez-Zor;;;;;;;;;;;;;x
 PROV697;Mosul;;;;;;;;;;;;;x
 PROV699;Edessa;;;;;;;;;;;;;x
 PROV706;Shebinkarahisar;;;;;;;;;;;;;x
 PROV707;Malatya;;;;;;;;;;;;;x
-PROV710;Jabal Bishri;;;;;;;;;;;;;x
 PROV711;Sinjar;;;;;;;;;;;;;x
-PROV718;Medina;;;;;;;;;;;;;x
-PROV719;Mecca;;;;;;;;;;;;;x
 PROV721;Tabuk;;;;;;;;;;;;;x
 PROV730;Palmyra;;;;;;;;;;;;;x
 PROV732;Hama;;;;;;;;;;;;;x
@@ -2628,7 +2583,6 @@ PROV777;Kerak;;;;;;;;;;;;;x
 PROV778;Montreal;;;;;;;;;;;;;x
 PROV780;Ashkelon;;;;;;;;;;;;;x
 PROV783;Ma’an;;;;;;;;;;;;;x
-PROV784;Aqaba;;;;;;;;;;;;;x
 PROV787;Arish;;;;;;;;;;;;;x
 PROV792;Nubia;;;;;;;;;;;;;x
 PROV793;Makuria;;;;;;;;;;;;;x
@@ -2648,20 +2602,12 @@ PROV848;Bremen;;;;;;;;;;;;;x
 PROV850;Kandalaksha;;;;;;;;;;;;;x
 PROV851;Capua;;;;;;;;;;;;;x
 PROV855;Al Mahrah;;;;;;;;;;;;;x
-PROV856;Kathiri;;;;;;;;;;;;;x
-PROV857;Al Bayda;;;;;;;;;;;;;x
 PROV858;Aden;;;;;;;;;;;;;x
 PROV859;Taiz;;;;;;;;;;;;;x
 PROV860;Sana’a;;;;;;;;;;;;;x
 PROV861;‘Asir;;;;;;;;;;;;;x
-PROV862;Halaban;;;;;;;;;;;;;x
-PROV863;Hajr;;;;;;;;;;;;;x
 PROV864;Ha’il;;;;;;;;;;;;;x
-PROV866;Dhofar;;;;;;;;;;;;;x
 PROV867;Duqm;;;;;;;;;;;;;x
-PROV868;Muscat;;;;;;;;;;;;;x
-PROV869;Al Hajar;;;;;;;;;;;;;x
-PROV870;Abu Dhabi;;;;;;;;;;;;;x
 PROV871;Bosaso;;;;;;;;;;;;;x
 PROV872;Berbera;;;;;;;;;;;;;x
 PROV874;Tadjoura;;;;;;;;;;;;;x
