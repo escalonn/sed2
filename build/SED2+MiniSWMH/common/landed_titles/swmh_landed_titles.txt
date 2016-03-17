@@ -499,7 +499,7 @@ d_sunni_cuman_company = { # Khazar Company
 	mercenary_type = muslim_cuman_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -525,7 +525,7 @@ d_sunni_berber_company = { # Berber Company
 	mercenary_type = berber_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -536,7 +536,7 @@ d_sunni_berber_company = { # Berber Company
 d_sunni_bedouin_company = { # Arab Company
 	color = { 45 155 35 }
 	color2 = { 255 255 255 }
-	capital = 862 # Halaban
+	capital = 862 # Ranyah # Halaban
 	# Parent Religion
 	religion = sunni
 	culture = bedouin_arabic
@@ -551,7 +551,7 @@ d_sunni_bedouin_company = { # Arab Company
 	mercenary_type = bedouin_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -596,7 +596,7 @@ d_shiite_cuman_company = { # Steppe Company
 	mercenary_type = muslim_cuman_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -622,7 +622,7 @@ d_shiite_berber_company = { # Tuareg Company
 	mercenary_type = berber_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -633,7 +633,7 @@ d_shiite_berber_company = { # Tuareg Company
 d_shiite_bedouin_company = { # Bedouin Company
 	color = { 40 150 30 }
 	color2 = { 255 255 255 }
-	capital = 862 # Halaban
+	capital = 862 # Ranyah # Halaban
 	# Parent Religion
 	religion = shiite
 	culture = bedouin_arabic
@@ -648,7 +648,7 @@ d_shiite_bedouin_company = { # Bedouin Company
 	mercenary_type = bedouin_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
 		}
@@ -876,7 +876,7 @@ d_victual_brothers = { # Victual Brothers
 	strength_growth_per_century = 0.25
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 			religion = baltic_pagan
@@ -944,7 +944,7 @@ d_rus_company = { # Rus Company
 	mercenary_type = rus_company_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = pagan_group
 			religion_group = christian
 		}
@@ -1094,7 +1094,7 @@ d_catalan_band = { # Catalan Band
 d_saxon_band = { # Saxon Band
 	color = { 220 90 90 }
 	color2 = { 255 255 255 }
-	capital = 57 # West York Ridding # York
+	capital = 57 # The West Riding # York
 	mercenary = yes
 	# Parent Religion
 	religion = catholic
@@ -1149,7 +1149,7 @@ d_rus_band = { # Rus Band
 	mercenary_type = rus_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -1175,7 +1175,7 @@ d_finnish_band = { # Finnish Band
 	mercenary_type = finnish_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -1201,7 +1201,7 @@ d_lappish_band = { # Sami Band
 	mercenary_type = lappish_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -1227,7 +1227,7 @@ d_lithuanian_band = { # Lithuanian Band
 	mercenary_type = lithuanian_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -1253,7 +1253,7 @@ d_abyssinian_band = { # Abyssinian Band
 	mercenary_type = abyssinian_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
@@ -1279,7 +1279,7 @@ d_nubian_band = { # Nubian Band
 	mercenary_type = nubian_band_composition
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
@@ -1639,7 +1639,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_zierikzee = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_holland
 					any_vassal = { has_landed_title = c_holland }
 				}
@@ -1673,15 +1673,15 @@ e_hre = { # Heiliges Römisches Reich
 				#b_zwolle = { frisian = "Swol" }
 			}
 			allow = {
-				or = {
-					and = {
-						not = { religion_group = christian }
-						or = {
+				OR = {
+					AND = {
+						NOT = { religion_group = christian }
+						OR = {
 							has_landed_title = c_sticht
 							any_vassal = { has_landed_title = c_sticht }
 						}
 					}
-					and = {
+					AND = {
 						has_landed_title = c_sticht
 						religion_group = christian
 						is_theocracy = yes
@@ -1724,7 +1724,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_leuvenheim = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_gelre
 					any_vassal = { has_landed_title = c_gelre }
 				}
@@ -1785,34 +1785,34 @@ e_hre = { # Heiliges Römisches Reich
 				#b_harlingen = { frisian = "Harns" }
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_ostfriesland
 					any_vassal = { has_landed_title = c_ostfriesland }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_frisia
 					any_vassal = { has_landed_title = c_frisia }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_westfriesland
 					any_vassal = { has_landed_title = c_westfriesland }
 				}
 			}
 		} # end d_frisia
 		allow = {
-			or = {
+			OR = {
 				culture = frisian
 				culture = dutch
-				and = {
+				AND = {
 					has_landed_title = d_frisia
-					or = {
+					OR = {
 						has_landed_title = d_holland
 						has_landed_title = d_gelre
 					}
 				}
 			}
 			independent = yes
-			not = { tier = emperor }
+			NOT = { tier = emperor }
 		}
 	} # end k_frisia
 	k_upper_lorraine = { # Oberlothringen
@@ -1896,7 +1896,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_orval = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_luxembourg
 					any_vassal = { has_landed_title = c_luxembourg }
 				}
@@ -1947,7 +1947,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_sclossveldenz = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_pfalz
 					any_vassal = { has_landed_title = c_pfalz }
 				}
@@ -2007,7 +2007,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_saintavoid = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_lorraine
 					any_vassal = { has_landed_title = c_lorraine }
 				}
@@ -2044,21 +2044,21 @@ e_hre = { # Heiliges Römisches Reich
 				b_toul = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_bar
 					any_vassal = { has_landed_title = c_bar }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_pontamousson
 					any_vassal = { has_landed_title = c_pontamousson }
 				}
 			}
 		} # end d_barleduc
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -2161,11 +2161,11 @@ e_hre = { # Heiliges Römisches Reich
 				b_dinant = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_brabant
 					any_vassal = { has_landed_title = c_brabant }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_brussel
 					any_vassal = { has_landed_title = c_brussel }
 				}
@@ -2201,15 +2201,15 @@ e_hre = { # Heiliges Römisches Reich
 				#}
 			}
 			allow = {
-				or = {
-					and = {
-						not = { religion_group = christian }
-						or = {
+				OR = {
+					AND = {
+						NOT = { religion_group = christian }
+						OR = {
 							has_landed_title = c_liege
 							any_vassal = { has_landed_title = c_liege }
 						}
 					}
-					and = {
+					AND = {
 						has_landed_title = c_liege
 						religion_group = christian
 						is_theocracy = yes
@@ -2255,11 +2255,11 @@ e_hre = { # Heiliges Römisches Reich
 				#b_lecateau = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_hainaut
 					any_vassal = { has_landed_title = c_hainaut }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_valenciennes
 					any_vassal = { has_landed_title = c_valenciennes }
 				}
@@ -2289,7 +2289,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_duren = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_limburg
 					any_vassal = { has_landed_title = c_limburg }
 				}
@@ -2378,25 +2378,25 @@ e_hre = { # Heiliges Römisches Reich
 				b_aachen = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_kleve
 					any_vassal = { has_landed_title = c_kleve }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_julich
 					any_vassal = { has_landed_title = c_julich }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_berg
 					any_vassal = { has_landed_title = c_berg }
 				}
 			}
 		} # end d_berg
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -2449,7 +2449,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_buckeburg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_celle
 					any_vassal = { has_landed_title = c_celle }
 				}
@@ -2696,11 +2696,11 @@ e_hre = { # Heiliges Römisches Reich
 				#b_apoldoa = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_wittenberg
 					any_vassal = { has_landed_title = c_wittenberg }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_anhalt
 					any_vassal = { has_landed_title = c_anhalt }
 				}
@@ -2825,21 +2825,21 @@ e_hre = { # Heiliges Römisches Reich
 				#b_gandersheim = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_luneburg
 					any_vassal = { has_landed_title = c_luneburg }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_braunschweig
 					any_vassal = { has_landed_title = c_braunschweig }
 				}
 			}
 		} # end d_brunswick
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3032,15 +3032,15 @@ e_hre = { # Heiliges Römisches Reich
 				#b_braunfels = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_hessen
 					any_vassal = { has_landed_title = c_hessen }
 				}
-				or = {
-					not = { has_landed_title = c_thuringen }
-					not = { has_landed_title = d_thuringia }
+				OR = {
+					NOT = { has_landed_title = c_thuringen }
+					NOT = { has_landed_title = d_thuringia }
 					any_demesne_title = {
-						or = {
+						OR = {
 							tier = king
 							tier = emperor
 						}
@@ -3049,10 +3049,10 @@ e_hre = { # Heiliges Römisches Reich
 			}
 		} # end d_hessen
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3114,7 +3114,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_kirchroth = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_niederbayern
 					any_vassal = { has_landed_title = c_niederbayern }
 				}
@@ -3162,7 +3162,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_avio = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_tirol
 					any_vassal = { has_landed_title = c_tirol }
 				}
@@ -3233,7 +3233,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_erlangen = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_nurnberg
 					any_vassal = { has_landed_title = c_nurnberg }
 				}
@@ -3269,7 +3269,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_ebersberg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_oberbayern
 					any_vassal = { has_landed_title = c_oberbayern }
 				}
@@ -3376,17 +3376,17 @@ e_hre = { # Heiliges Römisches Reich
 				#b_seebenstein = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_osterreich
 					any_vassal = { has_landed_title = c_osterreich }
 				}
 			}
 		} # end d_osterreich
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3445,7 +3445,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_guetenegg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_steiermark
 					any_vassal = { has_landed_title = c_steiermark }
 				}
@@ -3557,7 +3557,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_trixen = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_karnten
 					any_vassal = { has_landed_title = c_karnten }
 				}
@@ -3616,7 +3616,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_duino = {}
 			} # end c_trieste
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_istria
 					any_vassal = { has_landed_title = c_istria }
 				}
@@ -3651,10 +3651,10 @@ e_hre = { # Heiliges Römisches Reich
 			d_carinthia = { # Kärnten
 				de_jure_liege = k_carinthia
 			}
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -3733,7 +3733,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_rottweil = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_baden
 					any_vassal = { has_landed_title = c_baden }
 				}
@@ -3814,8 +3814,8 @@ e_hre = { # Heiliges Römisches Reich
 				#b_thann = {}
 			}
 			allow = {
-				or = {
-					and = {
+				OR = {
+					AND = {
 						has_landed_title = c_nordgau
 						has_landed_title = c_sundgau
 					}
@@ -3885,7 +3885,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_schanis = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_bern
 					any_vassal = { has_landed_title = c_bern }
 				}
@@ -3952,7 +3952,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_herrenberg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_teck
 					any_vassal = { has_landed_title = c_teck }
 				}
@@ -4016,17 +4016,17 @@ e_hre = { # Heiliges Römisches Reich
 				#b_spielberg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_schwaben
 					any_vassal = { has_landed_title = c_schwaben }
 				}
 			}
 		} # end d_burgau
 		allow = {
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = emperor }
+				AND = {
+					NOT = { tier = emperor }
 					prestige = 700
 				}
 			}
@@ -4385,15 +4385,15 @@ e_hre = { # Heiliges Römisches Reich
 			ruled_years = 5
 			war = no
 			is_adult = yes
-			or = {
+			OR = {
 				prestige = 2500
-				and = {
-					not = { tier = EMPEROR }
+				AND = {
+					NOT = { tier = EMPEROR }
 					prestige = 700
 				}
 			}
 			FROM = {
-				or = {
+				OR = {
 					has_holder = yes
 					is_titular = no
 				}
@@ -4892,7 +4892,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#}
 			} # end c_neopatras
 		} # end d_neopatras
-		allow = { not = { realm = { title = e_byzantium } } }
+		allow = { NOT = { realm = { title = e_byzantium } } }
 	} # end k_byzantium
 	k_epirus = { # Epeiros
 		color = { 60 126 200 }
@@ -5194,7 +5194,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_cephalonia
 		allow = {
 			realm = {
-				not = {
+				NOT = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
@@ -5503,7 +5503,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_achaia
 		allow = {
 			religion_group = christian
-			not = { realm = { title = e_byzantium } }
+			NOT = { realm = { title = e_byzantium } }
 		}
 	} # end k_achaea
 	k_candia = { # Kretes
@@ -5574,7 +5574,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#}
 			} # end c_chandax
 		} # end d_krete
-		allow = { not = { realm = { title = e_byzantium } } }
+		allow = { NOT = { realm = { title = e_byzantium } } }
 	} # end k_candia
 	k_nikaea = { # Nikaia
 		color = { 94 154 92 }
@@ -5967,7 +5967,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = {
 			religion = orthodox
 			realm = {
-				not = {
+				NOT = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
@@ -6218,7 +6218,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#b_yedisu = {}
 			} # end c_melitene
 		} # end d_melitene
-		allow = { not = { realm = { title = e_byzantium } } }
+		allow = { NOT = { realm = { title = e_byzantium } } }
 	} # end k_anatolia
 	k_cyprus = { # Kyprou
 		color = { 248 246 137 }
@@ -6283,7 +6283,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_cyprus
 		allow = {
 			religion_group = christian
-			not = { realm = { title = e_byzantium } }
+			NOT = { realm = { title = e_byzantium } }
 		}
 	} # end k_cyprus
 	k_trebizond = { # Trebizond
@@ -6474,7 +6474,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = {
 			religion = orthodox
 			realm = {
-				not = {
+				NOT = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
@@ -6489,7 +6489,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		catholic = 300 # Crusade target weight
 		orthodox = 300 # Crusade target weight
 		muslim = 150 # Crusade target weight
-		d_armenia_minor = { # Kilikía Pediás
+		d_armenia_minor = { # Kilikía
 			color = { 36 41 65 }
 			color2 = { 255 255 255 }
 			capital = 969 # Sision # Sis
@@ -6568,7 +6568,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#}
 			} # end c_alexandretta
 		} # end d_armenia_minor
-		d_seleukeia = { # Kilikía Thrakeía
+		d_seleukeia = { # Seleukeia
 			color = { 26 13 107 }
 			color2 = { 255 255 255 }
 			capital = 758 # Seleukeia
@@ -6616,7 +6616,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#}
 			} # end c_anamur
 		} # end d_seleukeia
-		allow = { not = { realm = { title = e_byzantium } } }
+		allow = { NOT = { realm = { title = e_byzantium } } }
 	} # end k_cilician
 	k_bulgaria = { # Balgariya
 		color = { 113 88 101 }
@@ -7023,7 +7023,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#}
 			} # end c_naissus
 		} # end d_ohrid
-		allow = { not = { realm = { title = e_byzantium } } }
+		allow = { NOT = { realm = { title = e_byzantium } } }
 	} # end k_bulgaria
 	k_serbia = { # Srbija
 		color = { 113 98 61 }
@@ -7229,7 +7229,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_dioclea
 		allow = {
 			religion_group = christian
-			liege = { not = { has_landed_title = e_byzantium } }
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 	} # end k_serbia
 	k_ragusa = { # Dubrovnik
@@ -7310,7 +7310,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_ragusa
 		allow = {
 			religion_group = christian
-			liege = { not = { has_landed_title = e_byzantium } }
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 	} # end k_ragusa
 	allow = {
@@ -7321,8 +7321,8 @@ e_byzantium = { # Basileia Rhõmaiõn
 		ruled_years = 5
 		war = no
 		has_regent = no
-		or = {
-			not = { tier = emperor }
+		OR = {
+			NOT = { tier = emperor }
 			is_nomadic = yes # Kezrüm, I shall never forget you!
 		}
 		# Constantinople is held by you or any vassal (at any level) in your
@@ -7333,14 +7333,14 @@ e_byzantium = { # Basileia Rhõmaiõn
 		# created.
 		c_byzantion = {
 			holder_scope = {
-				or = {
+				OR = {
 					character = PREVPREV
-					and = {
+					AND = {
 						any_liege = { character = PREVPREVPREV }
-						nor = {
+						NOR = {
 							is_nomadic = yes
 							any_liege = {
-								not = { character = PREVPREVPREV }
+								NOT = { character = PREVPREVPREV }
 								is_nomadic = yes
 							}
 						}
@@ -7648,9 +7648,9 @@ e_scandinavia = { # Nordmannia
 		} # end d_iceland
 		allow = {
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -8255,7 +8255,7 @@ e_scandinavia = { # Nordmannia
 	} # end k_norway
 	# Creation/usurpation trigger
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -8263,7 +8263,7 @@ e_scandinavia = { # Nordmannia
 		war = no
 		ruled_years = 5
 		is_adult = yes
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 		has_landed_title = k_denmark
 		has_landed_title = k_norway
 		has_landed_title = k_sweden
@@ -9108,7 +9108,7 @@ e_russia = { # Rus
 		} # end d_beloozero
 	} # end k_novgorod
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -9116,7 +9116,7 @@ e_russia = { # Rus
 		ruled_years = 5
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_russia
 e_poland = { # Polska-Lietuva
@@ -9236,7 +9236,7 @@ e_poland = { # Polska-Lietuva
 				#b_pyzdry = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_poznanskie
 					any_vassal = { has_landed_title = c_poznanskie }
 				}
@@ -9397,7 +9397,7 @@ e_poland = { # Polska-Lietuva
 				#b_dobrzyn = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_kujawy
 					any_vassal = { has_landed_title = c_kujawy }
 				}
@@ -9429,7 +9429,7 @@ e_poland = { # Polska-Lietuva
 				#b_uniejow = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_sieradzko-leczyckie
 					any_vassal = { has_landed_title = c_sieradzko-leczyckie }
 				}
@@ -9555,7 +9555,7 @@ e_poland = { # Polska-Lietuva
 				#}
 			} # end c_yatvyagi
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_trakai
 					any_vassal = { has_landed_title = c_trakai }
 				}
@@ -9614,7 +9614,7 @@ e_poland = { # Polska-Lietuva
 				b_birzai = {}
 			} # end c_upyte
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_zhmud
 					any_vassal = { has_landed_title = c_zhmud }
 				}
@@ -9699,43 +9699,9 @@ e_poland = { # Polska-Lietuva
 	k_galicia = { # Halych-Volyn
 		color = { 10 69 106 }
 		color2 = { 255 255 255 }
-		capital = 1285 # Zvenigorod # Zvenyhorod
+		capital = 1285 # Luck # Zvenyhorod
 		culture = russian
 		catholic = 50 # Crusade target weight
-		d_zvenyhorod = { # Zvenigorod
-			color = { 166 36 100 }
-			color2 = { 255 255 255 }
-			capital = 1285 # Zvenigorod # Zvenyhorod
-			culture = russian
-			c_zvenyhorod = { # Zvenigorod (1285)
-				color = { 254 255 215 }
-				color2 = { 255 255 255 }
-				b_zvenyhorod = {}
-				b_pidhirtsi = {}
-				b_dubno = {}
-				b_peremyl = {}
-				b_kremenets = {}
-				b_lvov = {}
-				#b_brody = {}
-			}
-			c_terebovl = { # Terebovl (546)
-				color = { 104 104 24 }
-				color2 = { 255 255 255 }
-				b_terebovl = {}
-				b_zbarazh = {}
-				b_kamyanetspodilsky = {}
-				b_mykulyntsi = {}
-				b_tykhomel = {}
-				b_ilavche = {}
-				#b_ternopil = {}
-			}
-			allow = {
-				or = {
-					has_landed_title = c_zvenyhorod
-					any_vassal = { has_landed_title = c_zvenyhorod }
-				}
-			}
-		} # end d_zvenyhorod
 		d_galich = { # Halych
 			color = { 36 70 71 }
 			color2 = { 255 255 255 }
@@ -9746,6 +9712,8 @@ e_poland = { # Polska-Lietuva
 				color2 = { 255 255 255 }
 				b_halych = {}
 				b_dolyna = {}
+				b_khotynchernivstskij = {}
+				b_cernauti = {}
 				b_kolomyya = {}
 				b_tysmenytsya = {}
 				b_stryj = {}
@@ -9763,23 +9731,26 @@ e_poland = { # Polska-Lietuva
 				#b_sambir = {}
 				#b_drohobych = {}
 			}
-			c_cern = { # Cern (1283)
+			c_terebovl = { # Terebovl (546)
 				color = { 104 104 24 }
 				color2 = { 255 255 255 }
-				b_khotynchernivstskij = {}
-				b_cernauti = {}
-				b_tetina = {}
-				#b_dzvenyhorod = {}
-				#b_vasyliv = {}
-				#b_onut = {}
-				#b_buchach = {}
-				#b_zalischyky = {}
+				b_terebovl = {}
+				b_zbarazh = {}
+				b_kamyanetspodilsky = {}
+				b_mykulyntsi = {}
+				b_tykhomel = {}
+				b_ilavche = {}
+				#b_ternopil = {}
 			}
-			allow = {
-				or = {
-					has_landed_title = c_galich
-					any_vassal = { has_landed_title = c_galich }
-				}
+			c_lutsk = { # Luck (1285) # Lutsk
+				color = { 166 36 100 }
+				color2 = { 255 255 255 }
+				b_zvenyhorod = {}
+				b_pidhirtsi = {}
+				b_kremenets = {}
+				b_lvov = {}
+				b_lutsk = {}
+				#b_brody = {}
 			}
 		} # end d_galich
 		d_volhynia = { # Volyn
@@ -9791,13 +9762,13 @@ e_poland = { # Polska-Lietuva
 				color = { 255 255 223 }
 				color2 = { 255 255 255 }
 				b_vladimirvolynsky = {}
-				b_lutsk = {}
+				b_dubno = {}
 				b_staryichortoryisk = {}
 				b_ustyluh = {}
 				b_luboml = {}
 				b_turiisk = {}
 				#b_ivanichy = {}
-				#b_stepan = {}
+				b_stepan = {}
 				#b_kaminkashyrskyi = {}
 			}
 			c_beresty = { # Berestye (549)
@@ -9809,7 +9780,7 @@ e_poland = { # Polska-Lietuva
 				b_bialapodlaska = {}
 				#b_dzivin = {}
 			}
-			c_ostrog = { # Ostrog (1284)
+			c_dorogobuzh = { # Dorogobuž (1284) # Dorogobuzh
 				color = { 166 89 91 }
 				color2 = { 255 255 255 }
 				b_ostroh = {}
@@ -9817,13 +9788,7 @@ e_poland = { # Polska-Lietuva
 				b_izyaslav = {}
 				b_rovno = {}
 				#b_peresopnytsya = {}
-				#b_dorohobuzh = {}
-			}
-			allow = {
-				or = {
-					has_landed_title = c_vladimir_volynsky
-					any_vassal = { has_landed_title = c_vladimir_volynsky }
-				}
+				b_dorohobuzh = {}
 			}
 		} # end d_volhynia
 		d_podlaise = { # Podlyashe
@@ -9848,12 +9813,6 @@ e_poland = { # Polska-Lietuva
 				b_volkovysk = {}
 				b_lavrashevmonastery = {}
 			}
-			allow = {
-				or = {
-					has_landed_title = c_podlasie
-					any_vassal = { has_landed_title = c_podlasie }
-				}
-			}
 		}
 		d_belz = { # Belz
 			color = { 174 73 43 }
@@ -9877,17 +9836,11 @@ e_poland = { # Polska-Lietuva
 				b_wlodawa = {}
 				b_hrubieszow = {}
 			}
-			allow = {
-				or = {
-					has_landed_title = c_belz
-					any_vassal = { has_landed_title = c_belz }
-				}
-			}
 		}
 	} # end k_galicia
 	allow = {
 		hidden_tooltip = {
-			or = {
+			OR = {
 				ai = no
 				culture = polish
 				culture = lithuanian
@@ -9899,7 +9852,7 @@ e_poland = { # Polska-Lietuva
 		ruled_years = 5
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_poland
 e_carpathia = { # Magyarország
@@ -9979,9 +9932,9 @@ e_carpathia = { # Magyarország
 			}
 		} # end d_oltenia
 		allow = {
-			or = {
+			OR = {
 				year = 1100
-				not = { primary_title = { title = k_bulgaria } }
+				NOT = { primary_title = { title = k_bulgaria } }
 			}
 		}
 	} # end k_wallachia
@@ -10064,9 +10017,9 @@ e_carpathia = { # Magyarország
 			} # end c_galaz
 		} # end d_basarabia
 		allow = {
-			or = {
+			OR = {
 				year = 1100
-				not = { primary_title = { title = k_bulgaria } }
+				NOT = { primary_title = { title = k_bulgaria } }
 			}
 		}
 	} # end k_moldau
@@ -10589,8 +10542,8 @@ e_carpathia = { # Magyarország
 				#b_poroszlo = {}
 			}
 			allow = {
-				or = {
-					and = {
+				OR = {
+					AND = {
 						has_landed_title = c_abauj
 						has_landed_title = c_heves
 					}
@@ -11245,160 +11198,118 @@ e_carpathia = { # Magyarország
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_carpathia
 e_arabia = { # Arabian Empire
 	color = { 21 128 0 }
 	color2 = { 255 255 255 }
-	capital = 718 # Medina
+	capital = 718 # Madinah # Medina
 	culture = bedouin_arabic
 	short_name = yes
-	k_arabia = { # Arabia
+	k_arabia = { # Arabiyya
 		color = { 45 169 12 }
 		color2 = { 255 255 255 }
-		capital = 718 # Medina
+		capital = 718 # Madinah # Medina
 		culture = bedouin_arabic
 		muslim = 200 # Crusade target weight
-		d_arabia_petrae = { # Arabia
+		d_arabia_petrae = { # Al-Jawf
 			color = { 121 196 2 }
 			color2 = { 255 255 255 }
-			capital = 784 # Al 'Aqabah
+			capital = 716 # Al-Jawf
 			greek = "Arabia Petraea"
 			roman = "Arabia Petraea"
-			c_al_aqabah = { # Al 'Aqabah (784)
-				color = { 124 199 5 }
-				color2 = { 255 255 255 }
-				b_aqabah = {}
-				b_reeshah = {}
-				b_quwairah = {}
-				b_mazraa = {}
-				#b_feifa = {}
-				#b_samar = {}
-				#b_elifaz = {}
-				#b_yotvata = {}
-			}
-			c_ar_ar = { # Dumat al-Jundal (716)
+			c_ar_ar = { # Al-Jawf (716)
 				color = { 97 137 208 }
 				color2 = { 255 255 255 }
 				b_maridfortress = {}
-				b_omaribnalkhattab = {}
+				b_sakakah = {}
 				b_dumat_al_jundal = {}
 			}
 			c_maan = { # Maan (783)
 				color = { 127 202 8 }
 				color2 = { 255 255 255 }
 				b_maan = {}
-				b_mutah = {}
-				b_shubak = {}
-				b_maanaljafr = {}
-				#b_buseira = {}
-				#b_maanalhasa = {}
-				#b_afra = {}
-				#b_bubeita = {}
+				b_madyan = {}
 			}
-			c_tabuk = { # Tabuk (721)
-				color = { 130 205 11 }
-				color2 = { 255 255 255 }
-				b_tabuk = {}
-				b_duba_tabuk = {}
-				b_mariyiat = {}
-				b_muwaylih = {}
-				#b_abu_ujayyijat = {}
-				#b_gabouk = {}
-				#b_shaghab = {}
-				#b_sharmah = {}
-			}
-		} # end d_arabia_petrae
-		d_amman = { # Damman
+		}
+		d_amman = { # Bahrayn
 			color = { 32 127 30 }
 			color2 = { 255 255 255 }
-			capital = 651 # Damman
-			c_damman = { # Damman (651)
+			capital = 651 # Al-Qatif # Damman
+			c_damman = { # Al-Qatif (651) # Damman
 				color = { 14 79 198 }
 				color2 = { 255 255 255 }
 				assyrian = "Hatta"
-				b_avan = {}
-				b_najmah = {}
 				b_qatif = {}
-				b_damman = {}
-				#b_jubail = {}
-				#b_alaba = {}
-				#b_alhinnah = {}
-				#b_abuhadriya = {}
+				b_darin = {}
+				b_zara = {}
+				b_safwan = {}
 			}
-			c_rummah = { # Subala (654)
-				color = { 92 145 243 }
-				color2 = { 255 255 255 }
-				b_hafaralbatin = {}
-				b_alqalt = {}
-				b_samoudah = {}
-				b_qaisumah = {}
-				b_altheebiyah = {}
-				b_arraqai = {}
-				b_assuayerah = {}
-				b_assufayri = {}
-			}
-			c_al_hasa = { # Al Hasa (652)
+			c_al_hasa = { # Al-Ahsa (652) # Al Hasa
 				color = { 16 81 200 }
 				color2 = { 255 255 255 }
 				b_alhasa = {}
-				b_holuf = {}
-				b_foda = {}
-				b_khobar = {}
-				b_almubarraz = {}
-				#b_aloyoon = {}
-				#b_alomran = {}
-				#b_ghunan = {}
-				#b_abqaiq = {}
+				b_uqair = {}
+				b_jowatha = {}
+				b_rumailah = {}
 			}
-			c_bahrein = { # Bahrein (653)
+			c_bahrein = { # Bahrayn (653) # Bahrein
 				color = { 18 83 202 }
 				color2 = { 255 255 255 }
-				b_muharraq = {}
+				b_awal = {}
 				b_manama = {}
-				b_umm_al_nasan = {}
-				b_sitra = {}
-				#b_jidda = {}
-				#b_ummalsabaan = {}
-				#b_hamala = {}
-				#b_aldur = {}
+				b_khamis = {}
 			}
-		} # end d_amman
-		d_medina = { # Medina
+			c_qatar = { # Qatar (784)
+				color = { 18 83 202 }
+				color2 = { 255 255 255 }
+				assyrian = "Beth Qatraye"
+				b_murwab = {}
+			}
+		}
+		d_medina = { # Hijaz
 			color = { 150 249 43 }
 			color2 = { 255 255 255 }
-			capital = 719 # Mecca
+			capital = 719 # Makkah # Mecca
 			muslim = 500 # Crusade target weight
 			c_hijaz = { # Al-Ula (720)
 				color = { 158 253 51 }
 				color2 = { 255 255 255 }
 				b_al_ola = {}
 				b_tayma = {}
-				b_leuke_kome = {}
+				b_alwajh = {}
 				b_higra = {}
-				#b_madain_salih = {}
-				#b_mughayra = {}
-				#b_samur = {}
-				#b_tawala = {}
 			}
-			c_medina = { # Medina (718)
+			c_tabuk = { # Tabuk (721)
+				color = { 130 205 11 }
+				color2 = { 255 255 255 }
+				b_tabuk = {}
+				b_alawnid = {}
+				b_muwaylih = {}
+			}
+			c_yanbu = { # Yanbu (1283)
+				color = { 162 253 55 }
+				color2 = { 255 255 255 }
+				b_yanbu = {}
+				b_aljar = {}
+				b_alhawra = {}
+				b_rabig = {}
+			}
+			c_medina = { # Madinah (718) # Medina
 				color = { 162 253 55 }
 				color2 = { 255 255 255 }
 				muslim = 500 # Crusade target weight
 				holy_site = sunni
 				holy_site = shiite
 				holy_site = ibadi
+				b_qalatmedina = {}
 				b_medina = {}
 				b_khaybar = {}
-				b_rabig = {}
-				b_yanbu = {}
-				b_kuba = {}
-				#b_farsh = {}
-				#b_sidi_hamzah = {}
-				#b_milha = {}
+				b_madinabanusulaim = {}
+				b_rabadha = {}
 			}
-			c_mecca = { # Mecca (719)
+			c_mecca = { # Makkah (719) # Mecca
 				color = { 166 253 59 }
 				color2 = { 255 255 255 }
 				muslim = 1000 # Crusade target weight
@@ -11407,93 +11318,224 @@ e_arabia = { # Arabian Empire
 				holy_site = pagan
 				holy_site = yazidi
 				holy_site = ibadi
+				b_taif = {}
 				b_mecca = {}
 				b_jeddah = {}
-				b_taif = {}
-				b_al_johfa = {}
 				b_turubah = {}
-				b_al_lith = {}
-				#b_jmumum = {}
-				#b_qunfudhah = {}
+				b_khulays = {}
 			}
 			c_asir = { # Asir (861)
 				color = { 170 253 63 }
 				color2 = { 255 255 255 }
-				b_kamaran = {}
-				b_bahah = {}
-				b_najran = {}
-				b_sadah = {}
-				#b_hajjah = {}
-				#b_hamr = {}
-				#b_huth = {}
-				#b_abs = {}
+				b_qunfudhah = {}
+				b_bariq = {}
+				b_hali = {}
+				b_jurash = {}
 			}
 		} # end d_medina
-		d_sanaa = { # Sanaa
+		d_nefoud = { # Najd
+			color = { 187 16 82 }
+			color2 = { 255 255 255 }
+			capital = 864 # Hail
+			greek = "Arabia Deserta"
+			roman = "Arabia Deserta"
+			c_hail = { # Hail (864)
+				color = { 78 253 91 }
+				color2 = { 255 255 255 }
+				b_hail = {}
+				b_fadak = {}
+				b_unayzah = {}
+				b_samira = {}
+				b_naqra = {}
+			}
+			c_hajr = { # Al-Yamamah (863)
+				color = { 55 153 15 }
+				color2 = { 255 255 255 }
+				b_al_hajr = {}
+				b_diriyyah = {}
+				b_yamamah = {}
+				b_manfuha = {}
+				b_al_majmaah = {}
+			}
+			c_halaban = { # Ranyah (862)
+				color = { 133 253 6 }
+				color2 = { 255 255 255 }
+				b_ranyah = {}
+				b_dawasir = {}
+			}
+			c_al_jawf = { # Fayd (717)
+				color = { 99 7 1 }
+				color2 = { 255 255 255 }
+				b_fayd = {}
+				b_zubala = {}
+				b_aghfur = {}
+			}
+			c_rummah = { # Hafar (654)
+				color = { 192 45 43 }
+				color2 = { 255 255 255 }
+				b_hafaralbatin = {}
+				b_nibaj = {}
+			}
+		} # end d_nefoud
+	} # end k_arabia
+	k_oman = { # Uman
+		color = { 177 19 159 }
+		color2 = { 255 255 255 }
+		capital = 868 # Masqat # Muscat
+		culture = bedouin_arabic
+		muslim = 100 # Crusade target weigh
+		assyrian = "Beth Mazunaye"
+		d_oman = { # Uman
+			color = { 93 196 2 }
+			color2 = { 255 255 255 }
+			capital = 868 # Masqat # Muscat
+			assyrian = "Beth Mazunaye"
+			c_dhu_zabi = { # Julfar (870) # Dhu Zabi
+				color = { 96 199 5 }
+				color2 = { 255 255 255 }
+				b_julfar = {}
+				b_tawam = {}
+			}
+			c_hajar = { # Nizwa (869) # Hajar
+				color = { 98 201 7 }
+				color2 = { 255 255 255 }
+				holy_site = ibadi
+				b_qalatnizwa = {}
+				b_nizwa = {}
+				b_bahla = {}
+				b_nakhal = {}
+				b_rustaq_nizwa = {}
+			}
+			c_muscat = { # Masqat (868) # Muscat
+				color = { 100 203 9 }
+				color2 = { 255 255 255 }
+				b_qalatmirani = {}
+				b_muscat = {}
+				b_sur = {}
+				b_qalhat = {}
+				b_quryat = {}
+			}
+			c_suhar = { # Suhar (1592)
+				color = { 100 203 9 }
+				color2 = { 255 255 255 }
+				b_qalatsuhar = {}
+				b_sohar = {}
+				b_dibba = {}
+				b_khorfakkan = {}
+			}
+			c_duqm = { # Duqm (867)
+				color = { 102 205 11 }
+				color2 = { 255 255 255 }
+				b_duqm = {}
+			}
+		} # end d_oman
+	} # end k_oman
+	k_yemen = { # Yaman
+		color = { 88 1 155 }
+		color2 = { 255 255 255 }
+		capital = 860 # Sanaa
+		culture = bedouin_arabic
+		muslim = 100 # Crusade target weigh
+		greek = "Arabia Felix"
+		roman = "Arabia Felix"
+		d_zabid = { # Zabid
 			color = { 63 119 0 }
 			color2 = { 255 255 255 }
-			capital = 860 # Sanaa
-			c_bayda = { # Bayda (857)
+			capital = 857 # al-Ma'afir # Zabid
+			c_bayda = { # al-Ma'afir (857) # Bayda
 				color = { 132 251 45 }
 				color2 = { 255 255 255 }
-				b_bayda = {}
-				b_habban = {}
-				b_ashshubaykah = {}
-				#b_timna = {}
-				#b_ataq = {}
-				#b_zinjibar = {}
-				#b_alkhabr = {}
-				#b_yashbum = {}
-			}
-			c_sanaa = { # Sanaa (860)
-				color = { 134 253 47 }
-				color2 = { 255 255 255 }
-				b_sanaa = {}
-				b_marib = {}
-				b_qataba = {}
-				b_dhamar = {}
-				b_jabalannabishuayb = {}
-				b_hodeida = {}
-				#b_jabaltiyal = {}
-				#b_harib = {}
-			}
-			c_taizz = { # Taizz (859)
-				color = { 136 255 49 }
-				color2 = { 255 255 255 }
-				b_ibb = {}
+				b_qalatzabid = {}
+				b_zabid = {}
+				b_mahjam = {}
 				b_mocha = {}
-				b_taizz = {}
-				b_zafar = {}
-				b_jibla = {}
-				#b_perim = {}
-				#b_shuqra = {}
-				#b_dhisufal = {}
+				b_hodeida = {}
+			}
+			c_tihama = { # Tihama (1496)
+				color = { 132 251 45 }
+				color2 = { 255 255 255 }
+				b_jizan = {}
+				b_kamaran = {}
+				b_harad = {}
 			}
 			c_aden = { # Aden (858)
 				color = { 138 255 51 }
 				color2 = { 255 255 255 }
+				b_qalatsira = {}
 				b_aden = {}
+				b_ahwar = {}
 				b_lahej = {}
-				b_dhala = {}
-				b_alawbhali = {}
-				b_jaar = {}
-				b_alkawd = {}
-				#b_almilah = {}
-				#b_alarbadi = {}
+				b_khadra = {}
+				b_zinjibar = {}
 			}
-			c_kathiri = { # Kathiri (856)
+		}
+		d_sanaa = { # Sanaa
+			color = { 163 89 107 }
+			color2 = { 255 255 255 }
+			capital = 860 # Sanaa
+			c_rafha = { # Sadah (865)
+				color = { 174 253 67 }
+				color2 = { 255 255 255 }
+				b_sadah = {}
+				b_najran = {}
+				b_huth = {}
+			}
+			c_sanaa = { # Sanaa (860)
+				color = { 134 253 47 }
+				color2 = { 255 255 255 }
+				b_qalaatsanaa = {}
+				b_sanaa = {}
+				b_dhamar = {}
+				b_marib = {}
+				b_radaa = {}
+				b_zafar = {}
+			}
+			c_shibam = { # Kawkaban (1254) # Shibam
+				color = { 134 253 47 }
+				color2 = { 255 255 255 }
+				b_shibamsanaa = {}
+				b_thula = {}
+				b_kahlan = {}
+			}
+			c_taizz = { # Taizz (859)
+				color = { 136 255 49 }
+				color2 = { 255 255 255 }
+				b_jibla = {}
+				b_taizz = {}
+				b_ibb = {}
+				b_janad = {}
+				b_yarim = {}
+			}
+		} # end d_sanaa
+		d_hadramaut = { # Hadramawt
+			color = { 193 86 32 }
+			color2 = { 255 255 255 }
+			capital = 855 # Mahra
+			c_dhofar = { # Zufar (866) # Dhofar
+				color = { 104 207 13 }
+				color2 = { 255 255 255 }
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
+				b_salalah = {}
+				b_mirbat = {}
+				b_raysut = {}
+			}
+			c_kathiri = { # Hadramawt (856) # Kathiri
 				color = { 140 255 53 }
 				color2 = { 255 255 255 }
-				b_shabwa = {}
-				b_lodar = {}
-				b_qana = {}
+				b_shibam = {}
+				b_tarimhadramaut = {}
 				b_seiyun = {}
-				#b_mukalla = {}
-				#b_shihar = {}
-				#b_nisab = {}
-				#b_azzan = {}
+				b_maifaa = {}
 			}
-			c_socotra = { # Socotra (1552)
+			c_mahra = { # Mahra (855)
+				color = { 106 209 15 }
+				color2 = { 255 255 255 }
+				b_shihr = {}
+				b_qishn = {}
+			}
+			c_socotra = { # Suqutra (1552) # Socotra
 				color = { 142 255 55 }
 				color2 = { 255 255 255 }
 				b_qualnsiyah = {}
@@ -11504,143 +11546,8 @@ e_arabia = { # Arabian Empire
 				#b_siqirah = {}
 				#b_qashiu = {}
 			}
-		} # end d_sanaa
-		d_oman = { # Oman
-			color = { 93 196 2 }
-			color2 = { 255 255 255 }
-			capital = 868 # Muscat
-			assyrian = "Beth Mazunaye"
-			c_dhu_zabi = { # Dhu Zabi (870)
-				color = { 96 199 5 }
-				color2 = { 255 255 255 }
-				b_sohar = {}
-				b_dibba = {}
-				b_qutuf = {}
-				b_dhuzabi = {}
-				b_khorfakkan = {}
-				#b_dubai = {}
-				#b_julfar = {}
-				#b_sharjah = {}
-			}
-			c_hajar = { # Hajar (869)
-				color = { 98 201 7 }
-				color2 = { 255 255 255 }
-				holy_site = ibadi
-				b_alhamra = {}
-				b_nizwa = {}
-				b_ibri = {}
-				b_jabrin = {}
-				#b_haran = {}
-				#b_masruq = {}
-				#b_yanqui = {}
-			}
-			c_muscat = { # Muscat (868)
-				color = { 100 203 9 }
-				color2 = { 255 255 255 }
-				b_muscat = {}
-				b_sur = {}
-				b_samail = {}
-				b_adam = {}
-				b_ibra = {}
-				b_sabt = {}
-				#b_lizq = {}
-				#b_shiya = {}
-			}
-			c_duqm = { # Duqm (867)
-				color = { 102 205 11 }
-				color2 = { 255 255 255 }
-				b_duqm = {}
-				b_aljazir = {}
-				b_bank = {}
-				#b_harima = {}
-				#b_nimr = {}
-				#b_mahut = {}
-				#b_hubara = {}
-				#b_masirah = {}
-			}
-			c_dhofar = { # Dhofar (866)
-				color = { 104 207 13 }
-				color2 = { 255 255 255 }
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				b_salalah = {}
-				b_thamarit = {}
-				b_raysut = {}
-				b_amal = {}
-				#b_shisr = {}
-				#b_dawkah = {}
-				#b_durrah = {}
-				#b_harzan = {}
-			}
-			c_mahra = { # Mahra (855)
-				color = { 106 209 15 }
-				color2 = { 255 255 255 }
-				b_ghaydah = {}
-				b_nishtun = {}
-				b_damqwat = {}
-				#b_qishn = {}
-				#b_haswayn = {}
-				#b_itab = {}
-				#b_alkurah = {}
-				#b_alhalya = {}
-			}
-		} # end d_oman
-		d_nefoud = { # Nefoud
-			color = { 87 127 199 }
-			color2 = { 255 255 255 }
-			capital = 864 # Hail
-			greek = "Arabia Deserta"
-			roman = "Arabia Deserta"
-			c_rafha = { # Talabija (865)
-				color = { 174 253 67 }
-				color2 = { 255 255 255 }
-				b_talabija = {}
-			}
-			c_al_jawf = { # Mawijan (717)
-				color = { 97 137 208 }
-				color2 = { 255 255 255 }
-				b_mawijanarabia = {}
-				b_sumanarabia = {}
-			}
-			c_hail = { # Hail (864)
-				color = { 178 253 71 }
-				color2 = { 255 255 255 }
-				b_hail = {}
-				b_asshinan = {}
-				#b_alghazalah = {}
-				#b_baqa = {}
-				#b_iqdah = {}
-				#b_mawqaq = {}
-				#b_murayfiq = {}
-				#b_saban = {}
-			}
-			c_hajr = { # Hajr (863)
-				color = { 182 253 75 }
-				color2 = { 255 255 255 }
-				b_alhudaydah = {}
-				b_assalif = {}
-				#b_almaqah = {}
-				#b_abha = {}
-				#b_khamismushait = {}
-				#b_bisha = {}
-				#b_baljurashi = {}
-				#b_jizan = {}
-			}
-			c_halaban = { # Halaban (862)
-				color = { 186 253 79 }
-				color2 = { 255 255 255 }
-				b_afif = {}
-				b_badaiidyan = {}
-				#b_alqaiyah = {}
-				#b_aljammaniyah = {}
-				#b_albijadiyah = {}
-				#b_almaklah = {}
-				#b_albaharah = {}
-				#b_arradum = {}
-			}
-		} # end d_nefoud
-	} # end k_arabia
+		} # end d_hadramaut
+	} # end k_yemen
 	k_egypt = { # Misr
 		color = { 65 36 40 }
 		color2 = { 255 255 255 }
@@ -12085,15 +11992,227 @@ e_arabia = { # Arabian Empire
 			ruled_years = 5
 			war = no
 			is_adult = yes
-			not = { tier = emperor }
+			NOT = { tier = emperor }
 		}
 	} # end k_egypt
+	k_syria = { # al-Sham
+		color = { 145 130 88 }
+		color2 = { 255 255 255 }
+		capital = 728 # Ghutah # Damascus
+		culture = levantine_arabic
+		orthodox = 200 # Crusade target weight
+		muslim = 200 # Crusade target weight
+		greek = "The East"
+		roman = "The East"
+		d_aleppo = { # Qinnasrin
+			color = { 85 232 20 }
+			color2 = { 255 255 255 }
+			capital = 733 # Halab # Aleppo
+			title_prefix = JUND_OF
+			greek = "Syria Prima"
+			roman = "Syria Prima"
+			c_aleppo = { # Halab (733)
+				color = { 91 238 26 }
+				color2 = { 255 255 255 }
+				b_aleppo = {}
+				b_zardana = {}
+				b_buzaa = {}
+				b_aleppocastle = {}
+				b_qinnasrin = {}
+				b_khanasir = {}
+				#b_alsafira = {}
+			} # end c_aleppo
+			c_manbij = { # Manbij (1240)
+				color = { 155 255 7 }
+				color2 = { 255 255 255 }
+				b_qalatnajm = {}
+				b_manbij = {}
+				b_balissyria = {}
+				b_jarabulus = {}
+			}
+			c_kafrtab = { # Kafr-Tab (1243)
+				color = { 91 238 26 }
+				color2 = { 255 255 255 }
+				frankish = "Maarat al-Numaan"
+				norman = "Maarat al-Numaan"
+				greek = "Maarat al-Numaan"
+				roman = "Maarat al-Numaan"
+				b_maaratannuman = {}
+				b_serjilla = {}
+				b_bara = {}
+				b_kafr_tab = {}
+			}
+			c_hama = { # Hama (732)
+				color = { 95 242 30 }
+				color2 = { 255 255 255 }
+				b_hama = {}
+				b_kafroun = {}
+				b_mhardeh = {}
+				b_shayzar = {}
+				b_barinsyria = {}
+			}
+		} # end d_aleppo
+		d_homs = { # Hims
+			color = { 107 75 13 }
+			color2 = { 255 255 255 }
+			capital = 731 # Hims # Homs
+			title_prefix = JUND_OF
+			greek = "Syria Secunda"
+			roman = "Syria Secunda"
+			c_homs = { # Hims (731)
+				color = { 93 240 28 }
+				color2 = { 255 255 255 }
+				b_homs = {}
+				b_sadad = {}
+				b_qusayr = {}
+				b_monasteryofsaintmosestheabyssinian = {}
+				b_citadelofhoms = {}
+				#b_alnabk = {}
+			}
+			c_palmyra = { # Palmyra (730)
+				color = { 89 236 24 }
+				color2 = { 255 255 255 }
+				b_arak = {}
+				b_palmyra = {}
+				b_baalshamin = {}
+				b_fakhraldinalmaani = {}
+				b_qasralhayralsharqi = {}
+				b_alsukhnah = {}
+			}
+			c_salamiyah = { # Salamiyah (1242)
+				color = { 89 236 24 }
+				color2 = { 255 255 255 }
+				b_salamiyah = {}
+				b_qasralhayralgharbi = {}
+				b_shmemiscastle = {}
+			}
+		} # end d_homs
+		d_damascus = { # Dimashq
+			color = { 107 13 106 }
+			color2 = { 255 255 255 }
+			capital = 728 # Ghutah # Damascus
+			title_prefix = JUND_OF
+			greek = "Phoenice Libanensis"
+			roman = "Phoenice Libanensis"
+			c_damascus = { # Ghutah (728)
+				color = { 125 255 6 }
+				color2 = { 255 255 255 }
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
+				holy_site = shiite
+				frankish = "Damascus"
+				norman = "Damascus"
+				greek = "Damascus"
+				assyrian = "Damascus"
+				roman = "Damascus"
+				b_citadelofdamascus = {}
+				b_damascus = {}
+				b_martalqamonestary = {}
+				b_jaramana = {}
+				b_darayya = {}
+				b_marsarkismoenstary = {}
+				b_aldumay = {}
+				#b_saidnaya = {
+				#	roman = "Danaba"
+				#	greek = "Danaba"
+				#}
+				#b_alkiswah = {}
+				#b_kafrbatna = {}
+			} # end c_damascus
+			c_baalbek = { # Bekaa (768)
+				color = { 77 156 38 }
+				color2 = { 255 255 255 }
+				frankish = "Baalbek"
+				norman = "Baalbek"
+				greek = "Baalbek"
+				roman = "Baalbek"
+				b_baalbek = {}
+				b_rasbaalek = {}
+				b_nimrodcastle = {}
+				b_fakiha = {}
+				b_deirelahmar = {}
+				#b_alzabadani = {}
+			}
+			c_syria = { # Bathaniyya (727) # Hauran
+				color = { 37 234 22 }
+				color2 = { 255 255 255 }
+				greek = "Daraa"
+				roman = "Daraa"
+				b_daraa = {}
+				b_nawasyria = {}
+				b_izra = {}
+				b_sanamayn = {}
+			}
+			c_suwaida = { # Hauran (712) # Bathaniyya
+				color = { 41 238 26 }
+				color2 = { 255 255 255 }
+				greek = "Bosra"
+				roman = "Bosra"
+				b_suwaida = {}
+				b_busra = {}
+				b_shahba = {}
+				b_shaqqa = {}
+				#b_salkhard = {
+				#	roman = "Salcah"
+				#	greek = "Salcah"
+				#}
+			}
+		} # end d_damascus
+		d_jordan = { # al-Urdunn
+			color = { 35 232 20 }
+			color2 = { 255 255 255 }
+			capital = 724 # Balqa # Amman
+			title_prefix = JUND_OF
+			greek = "Arabia Petraea"
+			roman = "Arabia Petraea"
+			c_amman = { # Balqa (724)
+				color = { 131 255 12 }
+				color2 = { 255 255 255 }
+				frankish = "Amman"
+				norman = "Amman"
+				greek = "Amman"
+				roman = "Amman"
+				b_amman = {}
+				b_dhiban = {}
+				b_salt = {}
+				b_mahis = {}
+				b_fuheis = {}
+				b_qastal = {}
+				#b_jebalalqala = {}
+				#b_madaba = {}
+			}
+			c_az_zarqa = { # Azraq (714)
+				color = { 103 143 214 }
+				color2 = { 255 255 255 }
+				b_amratamad = {}
+				b_azraq = {}
+				b_kharana = {}
+				b_amrah = {}
+				#b_tuba = {}
+				#b_mshatta = {}
+			}
+			c_madaba = { # Jarash (723)
+				color = { 100 140 211 }
+				color2 = { 255 255 255 }
+				greek = "Irbid"
+				roman = "Irbid"
+				b_muwaqqar = {}
+				b_irbid = {}
+				b_aljun = {}
+				b_jerash = {}
+				b_qasr_al_hallabat = {}
+				#b_deir_alla = {}
+				#b_russeifa = {}
+			}
+		} # end d_jordan
+	} # end k_syria
 	allow = {
 		ruled_years = 5
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_arabia
 e_abyssinia = { # Abyssinia
@@ -12194,8 +12313,10 @@ e_abyssinia = { # Abyssinia
 			c_bur = { # Saho (1509)
 				color = { 80 160 250 }
 				color2 = { 255 255 255 }
-				b_kohaito = {}
 				b_matara = {}
+				b_dahlak = {}
+				b_adel = {}
+				b_kohaito = {}
 				b_saho = {}
 			}
 			c_danakil = { # Danakil (1517)
@@ -12499,17 +12620,6 @@ e_abyssinia = { # Abyssinia
 				b_mahareaka = {}
 			}
 		} # end d_nobatia
-		d_elatrun = { # El Atrún
-			color = { 200 130 79 }
-			capital = 1496 # El-Atrun # El Atrun
-			c_elatrun = { # El-Atrun (1496)
-				color = { 210 135 74 }
-				color2 = { 255 255 255 }
-				b_elatrun = {}
-				b_selima = {}
-			}
-		}
-		allow = { religion_group = christian }
 	} # end k_nubia
 	k_sennar = { # Sennar
 		color = { 200 48 110 }
@@ -12625,12 +12735,6 @@ e_abyssinia = { # Abyssinia
 				b_adulis = {}
 				b_misiwwa = {}
 			}
-			c_dahlak = { # Dahlak (1592)
-				color = { 248 80 15 }
-				color2 = { 255 255 255 }
-				b_dahlak = {}
-				b_adel = {}
-			}
 		}
 		d_kassala = { # Kassala
 			color = { 215 43 28 }
@@ -12652,7 +12756,7 @@ e_abyssinia = { # Abyssinia
 	} # end k_maikelebahr
 	allow = {
 		hidden_tooltip = {
-			or = {
+			OR = {
 				ai = no
 				culture_group = east_african
 			}
@@ -12663,7 +12767,7 @@ e_abyssinia = { # Abyssinia
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_abyssinia
 e_britannia = { # Britannia
@@ -13979,7 +14083,7 @@ e_britannia = { # Britannia
 				#b_yarmouth = {}
 				#b_mileham = {}
 				#b_cromer = {}
-			}
+			} # end c_norfolk
 			c_suffolk = { # Suffolk (71)
 				color = { 255 100 10 }
 				color2 = { 255 255 255 }
@@ -14090,7 +14194,7 @@ e_britannia = { # Britannia
 				#}
 			} # end c_cambridge
 		} # end d_norfolk
-		d_fivebouroughs = { # The Five Boroughs
+		d_fivebouroughs = { # Lincoln
 			color = { 43 54 99 }
 			color2 = { 255 255 255 }
 			capital = 61 # Lincoln
@@ -14272,7 +14376,7 @@ e_britannia = { # Britannia
 		d_york = { # York
 			color = { 207 192 167 }
 			color2 = { 255 255 255 }
-			capital = 57 # West York Ridding
+			capital = 57 # The West Riding
 			saxon = "Deira"
 			irish = "Deira"
 			scottish = "Deira"
@@ -14373,7 +14477,7 @@ e_britannia = { # Britannia
 				#	norman = "Chednaresburg"
 				#}
 			} # end c_york
-			c_york_moors = { # North York Ridding (1415) # North Ridding / York Moors
+			c_york_moors = { # The North Riding (1415) # York Moors
 				color = { 25 180 55 }
 				color2 = { 255 255 255 }
 				norse = "Scarborough"
@@ -14428,7 +14532,7 @@ e_britannia = { # Britannia
 				b_middleham = {}
 				b_richmond = {}
 			} # end c_richmond
-			c_york_wolds = { # East York Ridding (1416) # East Ridding / York Wolds
+			c_york_wolds = { # The East Riding (1416) # York Wolds
 				color = { 255 80 5 }
 				color2 = { 255 255 255 }
 				norse = "Holderness"
@@ -14898,7 +15002,7 @@ e_britannia = { # Britannia
 			# Only allow it to be usurped when already held, and otherwise it must
 			# have become de jure to create it.
 			FROM = {
-				or = {
+				OR = {
 					is_titular = no
 					has_holder = yes
 				}
@@ -15443,7 +15547,7 @@ e_britannia = { # Britannia
 			k_ireland_titular = { # Tara
 				if = {
 					limit = {
-						or = {
+						OR = {
 							has_holder = no
 							holder = PREV
 						}
@@ -15791,17 +15895,17 @@ e_britannia = { # Britannia
 				b_maughold = {}
 			} # end c_isle_of_man
 			allow = {
-				or = {
+				OR = {
 					lower_real_tier_than = duke
 					any_vassal = {
 						lower_real_tier_than = duke
 						has_landed_title = c_isle_of_man
 					}
-					and = {
+					AND = {
 						higher_real_tier_than = count
 						any_demesne_title = {
 							tier = count
-							not = { title = c_isle_of_man }
+							NOT = { title = c_isle_of_man }
 						}
 					}
 					any_vassal = {
@@ -15809,7 +15913,7 @@ e_britannia = { # Britannia
 						has_landed_title = c_isle_of_man
 						any_demesne_title = {
 							tier = count
-							not = { title = c_isle_of_man }
+							NOT = { title = c_isle_of_man }
 						}
 					}
 				}
@@ -15961,27 +16065,27 @@ e_britannia = { # Britannia
 		culture = cumbric
 		capital = 1484 # Rinn Friu # Strathclyde
 		allow = {
-			or = {
+			OR = {
 				culture = cumbric
 				culture = breton
 				culture = welsh
 			}
-			or = {
+			OR = {
 				has_landed_title = d_strathclyde
 				any_vassal = { has_landed_title = d_strathclyde }
 			}
-			or = {
+			OR = {
 				has_landed_title = d_northumberland
 				any_vassal = { has_landed_title = d_northumberland }
 			}
-			or = {
+			OR = {
 				has_landed_title = d_lancaster
 				any_vassal = { has_landed_title = d_lancaster }
 			}
 		}
 	}
 	allow = {
-		or = {
+		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
@@ -15989,7 +16093,7 @@ e_britannia = { # Britannia
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_britannia
 e_italy = { # Italia
@@ -17166,7 +17270,7 @@ e_italy = { # Italia
 		} # end d_latium
 		allow = {
 			religion_group = christian
-			or = {
+			OR = {
 				is_theocracy = yes
 				liege = { has_landed_title = e_byzantium }
 			}
@@ -17938,7 +18042,7 @@ e_italy = { # Italia
 		ruled_years = 5
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_italy
 e_france = { # France
@@ -18004,7 +18108,7 @@ e_france = { # France
 				#b_bulle = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_savoie
 					any_vassal = { has_landed_title = c_savoie }
 				}
@@ -18128,7 +18232,7 @@ e_france = { # France
 				#b_joyeuse = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_provence
 					any_vassal = { has_landed_title = c_provence }
 				}
@@ -18407,10 +18511,10 @@ e_france = { # France
 			culture = breton
 			allow = {
 				independent = yes
-				not = {
+				NOT = {
 					has_landed_title = d_brittany
 					any_demesne_title = {
-						or = {
+						OR = {
 							tier = king
 							tier = emperor
 						}
@@ -19285,17 +19389,13 @@ e_france = { # France
 				b_stgaudens = {}
 				b_aspet = {}
 				b_muret = {}
+				b_chateaumirabat = {}
+				#b_saintlizier = {}
+				#b_chateaudeseix = {}
+				#b_saintgirons = {}
 				#b_barousse = {}
 				#b_barbazan = {}
 				#b_aurignac = {}
-			}
-			c_couserans = { # Couserans (1254)
-				color = { 36 25 255 }
-				color2 = { 255 255 255 }
-				b_chateaumirabat = {}
-				b_saintlizier = {}
-				b_chateaudeseix = {}
-				#b_saintgirons = {}
 			}
 			c_bearn = { # Béarn (208)
 				color = { 27 16 249 }
@@ -19686,10 +19786,10 @@ e_france = { # France
 				#b_tulle = {}
 			}
 		} # end d_limousin
-		allow = { not = { has_landed_title = k_france } }
+		allow = { NOT = { has_landed_title = k_france } }
 	} # end k_aquitaine
 	allow = {
-		or = {
+		OR = {
 			culture = frankish
 			culture = breton
 			culture = occitan
@@ -19705,7 +19805,7 @@ e_france = { # France
 		war = no
 		ruled_years = 5
 		has_regent = no
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_france
 e_spain = { # España
@@ -19997,12 +20097,12 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_castille
 					has_landed_title = k_leon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_salamanca
 					any_vassal = { has_landed_title = c_salamanca }
 				}
@@ -20016,12 +20116,12 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_castille
 					has_landed_title = k_leon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_cadiz
 					any_vassal = { has_landed_title = c_cadiz }
 				}
@@ -20035,12 +20135,12 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_castille
 					has_landed_title = k_leon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_alcantara
 					any_vassal = { has_landed_title = c_alcantara }
 				}
@@ -20054,12 +20154,12 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_castille
 					has_landed_title = k_leon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_soria
 					any_vassal = { has_landed_title = c_soria }
 				}
@@ -20073,12 +20173,12 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_castille
 					has_landed_title = k_leon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_palencia
 					any_vassal = { has_landed_title = c_palencia }
 				}
@@ -21100,11 +21200,11 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_aragon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_denia
 					any_vassal = { has_landed_title = c_denia }
 				}
@@ -21118,11 +21218,11 @@ e_spain = { # España
 			allow = {
 				culture_group = iberian
 				religion_group = christian
-				or = {
+				OR = {
 					has_landed_title = e_spain
 					has_landed_title = k_aragon
 				}
-				or = {
+				OR = {
 					has_landed_title = c_barcelona
 					any_vassal = { has_landed_title = c_barcelona }
 				}
@@ -23395,7 +23495,7 @@ e_spain = { # España
 		} # end d_mallorca
 		# Creation/usurpation trigger
 		allow = {
-			or = {
+			OR = {
 				culture = maghreb_arabic
 				culture = bedouin_arabic
 				culture = levantine_arabic
@@ -23414,22 +23514,22 @@ e_spain = { # España
 		allow = {
 			culture_group = iberian
 			religion_group = christian
-			or = {
+			OR = {
 				has_landed_title = c_coruna
 				any_vassal = { has_landed_title = c_coruna }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_lugo
 				any_vassal = { has_landed_title = c_lugo }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_lemos
 				any_vassal = { has_landed_title = c_lemos }
 			}
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -23445,34 +23545,34 @@ e_spain = { # España
 		allow = {
 			culture_group = iberian
 			religion_group = christian
-			or = {
+			OR = {
 				has_landed_title = c_urgell
 				any_vassal = { has_landed_title = c_urgell }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_rosello
 				any_vassal = { has_landed_title = c_rosello }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_empuries
 				any_vassal = { has_landed_title = c_empuries }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_lleida
 				any_vassal = { has_landed_title = c_lleida }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_tarragona
 				any_vassal = { has_landed_title = c_tarragona }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_girona
 				any_vassal = { has_landed_title = c_girona }
 			}
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -23488,26 +23588,26 @@ e_spain = { # España
 		allow = {
 			culture_group = iberian
 			religion_group = christian
-			or = {
+			OR = {
 				has_landed_title = c_denia
 				any_vassal = { has_landed_title = c_denia }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_castellon
 				any_vassal = { has_landed_title = c_castellon }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_murcia
 				any_vassal = { has_landed_title = c_murcia }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_almansa
 				any_vassal = { has_landed_title = c_almansa }
 			}
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -23523,26 +23623,26 @@ e_spain = { # España
 		allow = {
 			culture_group = iberian
 			religion_group = christian
-			or = {
+			OR = {
 				has_landed_title = c_malaga
 				any_vassal = { has_landed_title = c_malaga }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_almeria
 				any_vassal = { has_landed_title = c_almeria }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_jaen
 				any_vassal = { has_landed_title = c_jaen }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_cordoba
 				any_vassal = { has_landed_title = c_cordoba }
 			}
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -23563,18 +23663,18 @@ e_spain = { # España
 		allow = {
 			culture_group = iberian
 			religion_group = christian
-			or = {
+			OR = {
 				has_landed_title = c_asturias_de_oviedo
 				any_vassal = { has_landed_title = c_asturias_de_oviedo }
 			}
-			or = {
+			OR = {
 				has_landed_title = c_asturias_de_santillana
 				any_vassal = { has_landed_title = c_asturias_de_santillana }
 			}
 			independent = yes
-			not = {
+			NOT = {
 				any_demesne_title = {
-					or = {
+					OR = {
 						tier = king
 						tier = emperor
 					}
@@ -23588,9 +23688,9 @@ e_spain = { # España
 		ruled_years = 5
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 		hidden_tooltip = {
-			or = {
+			OR = {
 				ai = no
 				culture_group = iberian
 				culture = andalusian_arabic
@@ -24335,12 +24435,12 @@ e_africa = { # Africa
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
-		or = {
+		NOT = { tier = emperor }
+		OR = {
 			has_landed_title = k_mauretania
 			completely_controls = k_mauretania
 		}
-		or = {
+		OR = {
 			has_landed_title = k_africa
 			completely_controls = k_africa
 		}
@@ -24616,7 +24716,7 @@ e_persia = { # Érán
 				b_sus-khuzestani = {}
 			}
 		}
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_persia
 	k_daylam = { # Daylam
 		color = { 50 178 240 }
@@ -24763,7 +24863,7 @@ e_persia = { # Érán
 				b_vartan = {}
 			}
 		} # end d_azerbaijan
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_daylam
 	k_khorasan = { # Khoarásán
 		color = { 99 150 9 }
@@ -24964,7 +25064,7 @@ e_persia = { # Érán
 				b_ruy = {}
 			}
 		}
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_khorasan
 	k_sistan = { # Sístán
 		color = { 120 190 90 }
@@ -25060,7 +25160,7 @@ e_persia = { # Érán
 				b_sura = {}
 			}
 		} # end d_makran
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_sistan
 	k_mavarannahr = { # Mavár-an-Nahr
 		color = { 180 220 148 }
@@ -25223,7 +25323,7 @@ e_persia = { # Érán
 				b_jigirband = {}
 			}
 		} # end d_khwarazm
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_mavarannahr
 	k_kafarestan = { # Kábulistán
 		#color = { 50 200 180 }
@@ -25318,9 +25418,9 @@ e_persia = { # Érán
 				b_anderab = {}
 			}
 		} # end d_khottal
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_kafarestan
-	k_mesopotamia = { # Al-Iraq
+	k_mesopotamia = { # al-Iraq
 		color = { 55 128 67 }
 		color2 = { 255 255 255 }
 		capital = 693 # Baghdad # Bagdad
@@ -25331,85 +25431,66 @@ e_persia = { # Érán
 		d_tigris = { # al-Batihah
 			color = { 55 115 225 }
 			color2 = { 255 255 255 }
-			capital = 692 # Al Nadjaf # al Nadjaf
-			c_al_nadjaf = { # Al Nadjaf (692)
-				color = { 90 130 202 }
-				color2 = { 255 255 255 }
-				holy_site = shiite
-				b_nadjaf = {}
-				b_kufah = {}
-				b_taqtaqanah = {}
-				b_rahbah = {}
-				b_jasim = {}
-				b_midhrawi = {}
-				#b_rashid = {} # c_rashid
-				b_jaarah = {}
-			}
-			c_kufa = { # Kufa (655)
-				color = { 88 141 239 }
-				color2 = { 255 255 255 }
-				assyrian = "Hirta"
-				b_kufa = {}
-				b_bussayyah = {}
-				b_suqash = {}
-				b_hammar = {}
-				b_chibayish = {}
-				b_alqurnah = {}
-				b_shuyukh = {}
-				b_ragai = {}
-			}
-			c_tigris = { # Tigris (656)
+			capital = 656 # Wasit # Tigris
+			c_tigris = { # Wasit (656) # Tigris
 				color = { 61 121 231 }
 				color2 = { 255 255 255 }
 				assyrian = "Kashkar"
-				b_majaralkabir = {}
-				b_bismaya = {}
-				b_qalatsjergat = {}
-				b_nuffar = {}
-				b_ishan = {}
-				b_Warka = {}
-				b_samawah = {}
-				b_tellelhiba = {}
-			}
-			c_al_amarah = { # Al Amarah (690)
-				color = { 64 124 234 }
-				color2 = { 255 255 255 }
-				assyrian = "Dasqarta d’Malka"
-				b_amarah = {}
-				b_kutelamara = {}
 				b_wasit = {}
-				b_badra = {}
-				b_suwaira = {}
-				b_hai = {}
-				b_azeeziaya = {}
-				b_zurbatiyah = {}
+				b_fammassilh = {}
+				b_almadar = {}
+				b_arrushafa = {}
+				b_alfarut = {}
+				b_nahrsabus = {}
 			}
-			c_al_nasiryah = { # Al Nasiryah (691)
+			c_al_nasiryah = { # Al-Batihah (691) # Al Nasiryah
 				color = { 67 127 237 }
 				color2 = { 255 255 255 }
-				b_nasiryah = {}
-				b_dhiqar = {}
-				b_qalatsukkar = {}
-				b_mukayyar = {}
-				b_shahrain = {}
-				b_telloh = {}
-				b_muntafiq = {}
-				b_shatra = {}
+				b_assaliq = {}
+				b_niffar = {}
 			}
-			c_basra = { # Basra (649)
+			c_basra = { # Basrah (649) # Basra
 				color = { 100 153 251 }
 				color2 = { 255 255 255 }
 				assyrian = "Prath d’Maishan"
+				b_qalatbasra = {}
 				b_basra = {}
-				b_ummqasr = {}
-				b_azzubayr = {}
-				b_arah = {}
-				b_mohammera = {}
-				b_sukelsheyuhk = {}
-				b_kalaatderat = {}
-				b_qurna = {}
+				b_abbadan = {}
+				b_alubulla = {}
+				b_bayan = {}
+				b_kazima = {}
 			}
-		} # end d_tigris
+		}
+		d_kufa = { # al-Kufa
+			color = { 155 115 9 }
+			color2 = { 255 255 255 }
+			capital = 655 # Al-Kufah # Kufa
+			c_al_nadjaf = { # Qadisiyyah (692) # Al Nadjaf
+				color = { 90 130 202 }
+				color2 = { 255 255 255 }
+				b_qadisiyyah = {}
+				b_waqisa = {}
+				b_masjidsad = {}
+			}
+			c_kufa = { # Al-Kufah (655) # Kufa
+				color = { 88 141 239 }
+				color2 = { 255 255 255 }
+				holy_site = shiite
+				assyrian = "Hirta"
+				b_qalatkufa = {}
+				b_kufa = {}
+				b_nadjaf = {}
+				b_alhirah = {}
+			}
+			c_karbala = { # Karbala (694)
+				color = { 125 165 239 }
+				color2 = { 255 255 255 }
+				b_ukhaidir = {}
+				b_karbala = {}
+				b_ainaltamur = {}
+				b_safata = {}
+			}
+		}
 		d_kermanshah = { # Lorestan # Luristan
 			color = { 58 83 130 }
 			color2 = { 255 255 255 }
@@ -25430,19 +25511,7 @@ e_persia = { # Érán
 		d_baghdad = { # Baghdad
 			color = { 125 165 239 }
 			color2 = { 255 255 255 }
-			capital = 693 # Baghdad # Bagdad
-			c_karbala = { # Karbala (694)
-				color = { 125 165 239 }
-				color2 = { 255 255 255 }
-				b_ainaltamur = {}
-				b_karbala = {}
-				b_hindiya = {}
-				b_ofak = {}
-				#b_hamzah = {}
-				#b_shamiyah = {}
-				#b_qisair = {}
-				#b_ukhaidir = {}
-			}
+			capital = 693 # Baghdad
 			c_baghdad = { # Baghdad (693)
 				color = { 129 169 243 }
 				color2 = { 255 255 255 }
@@ -25450,58 +25519,84 @@ e_persia = { # Érán
 				greek = "Ctesiphon"
 				assyrian = "Seleucia"
 				roman = "Ctesiphon"
-				b_baqubah = {}
+				b_qalatbaghdad = {}
 				b_bagdad = {}
-				b_hillah = {}
-				b_iskandariya = {}
-				b_taji = {}
-				b_babel = {}
-				b_latifiya = {}
-				#b_madain = {}
+				b_madain = {}
+				b_muhawwal = {}
+				b_baradan = {}
+				b_nahrawan = {}
+				b_awana = {}
 			}
-			c_deir = { # Deir (695)
+			c_al_amarah = { # Nahrawan (690) # Al Amarah
+				color = { 64 124 234 }
+				color2 = { 255 255 255 }
+				assyrian = "Dasqarta d’Malka"
+				b_bandanijin = {}
+				b_baqubah = {}
+				b_daskara = {}
+				b_jalula = {}
+				b_barazarruz = {}
+				b_iskaf_nahrawan = {}
+			}
+			c_tadmor = { # Al-Hillah (729)
+				color = { 43 240 28 }
+				color2 = { 255 255 255 }
+				b_numaniya = {}
+				b_annil = {}
+				b_jarjaraya = {}
+				b_hillah = {}
+				b_birmallaha = {}
+			}
+		} # end d_baghdad
+		d_samarra = { # Samarrah
+			color = { 15 165 19 }
+			color2 = { 255 255 255 }
+			capital = 696 # Samarrah # Euphrates
+			c_deir = { # Anbar (695) # Deir
 				color = { 133 173 247 }
 				color2 = { 255 255 255 }
 				greek = "Anah"
 				roman = "Anah"
 				b_anah = {}
-				#b_anbar = {}
-				b_rutbah = {}
+				b_haditha_anbar = {}
 				b_hit = {}
-				b_ramadi = {}
-				b_kasra = {}
-				#b_nehardea = {}
+				b_anbar_iraq = {}
 			}
-			c_euphrates = { # Samarra (696)
+			c_druz = { # Takrit (713)
+				color = { 39 236 24 }
+				color2 = { 255 255 255 }
+				greek = "Birtha"
+				assyrian = "Tirhan"
+				roman = "Birtha"
+				b_qalattagrit = {}
+				b_tagrit = {}
+				b_jabulta = {}
+				b_barimma = {}
+			}
+			c_euphrates = { # Samarrah (696) # Samarra
 				color = { 137 177 250 }
 				color2 = { 255 255 255 }
-				b_bayji = {}
-				b_tagrit = {}
+				b_alqadisiyyah = {}
 				b_samarra = {}
+				b_ukbara = {}
 				b_balad = {}
-				b_dujail = {}
-				b_amirli = {}
-				#b_ishaqi = {}
-				#b_faris = {}
+				b_harba = {}
+				b_aldur = {}
 			}
-		} # end d_baghdad
+		} # end d_samarra
 		d_kurdistan = { # Kurdistan
 			color = { 115 148 55 }
 			color2 = { 255 255 255 }
-			capital = 687 # Kirkuk
-			c_kirkuk = { # Kirkuk (687)
+			capital = 687 # Daquqa # Kirkuk
+			c_kirkuk = { # Daquqa (687) # Kirkuk
 				color = { 141 181 254 }
 				color2 = { 255 255 255 }
 				greek = "Kirkuk"
 				roman = "Kirkuk"
-				b_kirkuk = {}
 				b_daquq = {}
-				b_ranya = {}
-				b_halabja = {}
-				b_makhmur = {}
-				b_dukan = {}
-				b_chuartan = {}
-				b_kifri = {}
+				b_kirkuk = {}
+				b_hanijar = {}
+				b_lashom = {}
 			}
 			c_shahrazur = { # Shahrazur (715)
 				color = { 141 181 254 }
@@ -25519,13 +25614,13 @@ e_persia = { # Érán
 				b_mahalkufa = {}
 			}
 		} # end d_kurdistan
-		allow = { liege = { not = { has_landed_title = e_persia } } }
+		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_mesopotamia
 	allow = {
 		war = no
 		has_regent = no
 		realm_size = 120
-		not = { tier = emperor }
+		NOT = { tier = emperor }
 	}
 } # end e_persia
 # All landed kingdom titles that have no de jure empire must go
@@ -25544,7 +25639,7 @@ e_null = {
 			culture = armenian
 			religion_group = christian
 			FROM = {
-				or = {
+				OR = {
 					has_holder = yes
 					is_titular = no
 				}
@@ -25943,7 +26038,7 @@ e_null = {
 			k_bagratid_grand_principality = {
 				if = {
 					limit = {
-						or = {
+						OR = {
 							has_holder = no
 							holder = PREV
 						}
@@ -26532,229 +26627,6 @@ e_null = {
 		} # end d_tripoli
 		allow = { religion_group = christian }
 	} # end k_antioch
-	k_syria = { # Al-Sham
-		color = { 145 130 88 }
-		color2 = { 255 255 255 }
-		capital = 728 # Ghutah # Damascus
-		culture = levantine_arabic
-		orthodox = 200 # Crusade target weight
-		muslim = 200 # Crusade target weight
-		greek = "The East"
-		roman = "The East"
-		d_aleppo = { # Qinnasrin
-			color = { 85 232 20 }
-			color2 = { 255 255 255 }
-			capital = 733 # Halab # Aleppo
-			title_prefix = JUND_OF
-			greek = "Syria Prima"
-			roman = "Syria Prima"
-			c_aleppo = { # Halab (733)
-				color = { 91 238 26 }
-				color2 = { 255 255 255 }
-				b_aleppo = {}
-				b_zardana = {}
-				b_buzaa = {}
-				b_aleppocastle = {}
-				b_qinnasrin = {}
-				b_khanasir = {}
-				#b_alsafira = {}
-			} # end c_aleppo
-			c_manbij = { # Manbij (1240)
-				color = { 155 255 7 }
-				color2 = { 255 255 255 }
-				b_qalatnajm = {}
-				b_manbij = {}
-				b_balissyria = {}
-				b_jarabulus = {}
-			}
-			c_kafrtab = { # Kafr-Tab (1243)
-				color = { 91 238 26 }
-				color2 = { 255 255 255 }
-				frankish = "Maarat al-Numaan"
-				norman = "Maarat al-Numaan"
-				greek = "Maarat al-Numaan"
-				roman = "Maarat al-Numaan"
-				b_maaratannuman = {}
-				b_serjilla = {}
-				b_bara = {}
-				b_kafr_tab = {}
-			}
-			c_hama = { # Hama (732)
-				color = { 95 242 30 }
-				color2 = { 255 255 255 }
-				b_hama = {}
-				b_kafroun = {}
-				b_mhardeh = {}
-				b_shayzar = {}
-				b_barinsyria = {}
-			}
-		} # end d_aleppo
-		d_homs = { # Hims
-			color = { 107 75 13 }
-			color2 = { 255 255 255 }
-			capital = 731 # Hims # Homs
-			title_prefix = JUND_OF
-			greek = "Syria Secunda"
-			roman = "Syria Secunda"
-			c_homs = { # Hims (731)
-				color = { 93 240 28 }
-				color2 = { 255 255 255 }
-				b_homs = {}
-				b_sadad = {}
-				b_qusayr = {}
-				b_monasteryofsaintmosestheabyssinian = {}
-				b_citadelofhoms = {}
-				#b_alnabk = {}
-			}
-			c_palmyra = { # Palmyra (730)
-				color = { 89 236 24 }
-				color2 = { 255 255 255 }
-				b_arak = {}
-				b_palmyra = {}
-				b_baalshamin = {}
-				b_fakhraldinalmaani = {}
-			}
-			c_salamiyah = { # Salamiyah (1242)
-				color = { 89 236 24 }
-				color2 = { 255 255 255 }
-				b_salamiyah = {}
-				b_shmemiscastle = {}
-			}
-		} # end d_homs
-		d_damascus = { # Dimashq
-			color = { 107 13 106 }
-			color2 = { 255 255 255 }
-			capital = 728 # Ghutah # Damascus
-			title_prefix = JUND_OF
-			greek = "Phoenice Libanensis"
-			roman = "Phoenice Libanensis"
-			c_damascus = { # Ghutah (728)
-				color = { 125 255 6 }
-				color2 = { 255 255 255 }
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = shiite
-				frankish = "Damascus"
-				norman = "Damascus"
-				greek = "Damascus"
-				assyrian = "Damascus"
-				roman = "Damascus"
-				b_citadelofdamascus = {}
-				b_damascus = {}
-				b_martalqamonestary = {}
-				b_jaramana = {}
-				b_darayya = {}
-				b_marsarkismoenstary = {}
-				b_aldumay = {}
-				#b_saidnaya = {
-				#	roman = "Danaba"
-				#	greek = "Danaba"
-				#}
-				#b_alkiswah = {}
-				#b_kafrbatna = {}
-			}
-			c_baalbek = { # Bekaa (768)
-				color = { 77 156 38 }
-				color2 = { 255 255 255 }
-				frankish = "Baalbek"
-				norman = "Baalbek"
-				greek = "Baalbek"
-				roman = "Baalbek"
-				b_baalbek = {}
-				b_rasbaalek = {}
-				b_nimrodcastle = {}
-				b_fakiha = {}
-				b_deirelahmar = {}
-				#b_alzabadani = {}
-			}
-			c_syria = { # Bathaniyya (727) # Hauran
-				color = { 37 234 22 }
-				color2 = { 255 255 255 }
-				greek = "Daraa"
-				roman = "Daraa"
-				b_daraa = {}
-				b_nawasyria = {}
-				b_izra = {}
-				b_sanamayn = {}
-			}
-			c_suwaida = { # Hauran (712) # Bathaniyya
-				color = { 41 238 26 }
-				color2 = { 255 255 255 }
-				greek = "Bosra"
-				roman = "Bosra"
-				b_suwaida = {}
-				b_busra = {}
-				b_shahba = {}
-				b_shaqqa = {}
-				#b_salkhard = {
-				#	roman = "Salcah"
-				#	greek = "Salcah"
-				#}
-			}
-		} # end d_damascus
-		d_jordan = { # al-Urdunn
-			color = { 35 232 20 }
-			color2 = { 255 255 255 }
-			capital = 724 # Balqa # Amman
-			title_prefix = JUND_OF
-			greek = "Arabia Petraea"
-			roman = "Arabia Petraea"
-			c_amman = { # Balqa (724)
-				color = { 131 255 12 }
-				color2 = { 255 255 255 }
-				frankish = "Amman"
-				norman = "Amman"
-				greek = "Amman"
-				roman = "Amman"
-				b_amman = {}
-				b_dhiban = {}
-				b_salt = {}
-				b_mahis = {}
-				b_fuheis = {}
-				b_qastal = {}
-				#b_jebalalqala = {}
-				#b_madaba = {}
-			}
-			c_az_zarqa = { # Azraq (714)
-				color = { 103 143 214 }
-				color2 = { 255 255 255 }
-				b_amratamad = {}
-				b_azraq = {}
-				b_kharana = {}
-				b_amrah = {}
-				#b_tuba = {}
-				#b_mshatta = {}
-			}
-			c_madaba = { # Jarash (723)
-				color = { 100 140 211 }
-				color2 = { 255 255 255 }
-				greek = "Irbid"
-				roman = "Irbid"
-				b_muwaqqar = {}
-				b_irbid = {}
-				b_aljun = {}
-				b_jerash = {}
-				b_qasr_al_hallabat = {}
-				#b_deir_alla = {}
-				#b_russeifa = {}
-			}
-		} # end d_jordan
-		d_syria = { # Syria
-			color = { 107 93 66 }
-			color2 = { 255 255 255 }
-			capital = 713 # Qasr al-Hayr al-Sharqi # al-Sharqi
-			c_druz = { # Qasr al-Hayr al-Sharqi (713)
-				color = { 39 236 24 }
-				color2 = { 255 255 255 }
-				greek = "Birtha"
-				assyrian = "Tirhan"
-				roman = "Birtha"
-				b_qasralhayralsharqi = {}
-				b_alsukhnah = {}
-			}
-		}
-	} # end k_syria
 	k_aljazira = { # Al Jazira
 		color = { 255 2 36 }
 		color2 = { 255 255 255 }
@@ -26837,7 +26709,7 @@ e_null = {
 				b_bizunasyria = {}
 				b_zarzakka = {}
 			}
-			c_al_bichri = { # Al Bichri (710)
+			c_al_bichri = { # Rahba (710) # Al Bichri
 				color = { 15 95 242 }
 				color2 = { 255 255 255 }
 				greek = "Circesium"
@@ -26851,18 +26723,6 @@ e_null = {
 				b_mayadin = {}
 				b_sirhi = {}
 				b_mhaymidah = {}
-			}
-			c_tadmor = { # Alqaim (729)
-				color = { 43 240 28 }
-				color2 = { 255 255 255 }
-				b_husaiba = {}
-				b_bukamal = {}
-				b_alqaim = {}
-				b_salhiyah = {}
-				b_assusah = {}
-				b_subaykhan = {}
-				b_asharah = {}
-				b_alqunjah = {}
 			}
 			c_harran = { # Harran (1238)
 				color = { 153 255 5 }
@@ -27145,11 +27005,11 @@ e_null = {
 				#}
 			} # end c_wargrien
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_lubeck
 					any_vassal = { has_landed_title = c_lubeck }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_wargrien
 					any_vassal = { has_landed_title = c_wargrien }
 				}
@@ -27495,31 +27355,31 @@ e_null = {
 				#b_raothenburg = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_niederlausitz
 					any_vassal = { has_landed_title = c_niederlausitz }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_lausitz
 					any_vassal = { has_landed_title = c_lausitz }
 				}
 			}
-		} # end d_lausitz
+		}
 		allow = {
-			or = {
-				and = {
+			OR = {
+				AND = {
 					ai = no
-					or = {
+					OR = {
 						independent = yes
-						and = {
-							not = { tier = emperor }
+						AND = {
+							NOT = { tier = emperor }
 							has_landed_title = d_mecklemburg
 							has_landed_title = d_pommerania
 							has_landed_title = d_brandenburg
 						}
 					}
 				}
-				and = {
+				AND = {
 					culture = pommeranian
 					prestige = 3000
 				}
@@ -27574,7 +27434,7 @@ e_null = {
 				b_viljandi = {}
 			} # end c_livs
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_livs
 					any_vassal = { has_landed_title = c_livs }
 				}
@@ -27607,7 +27467,7 @@ e_null = {
 				b_gaujiena = {}
 			} # end c_atzele
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_lettigalians
 					any_vassal = { has_landed_title = c_lettigalians }
 				}
@@ -27655,7 +27515,7 @@ e_null = {
 				b_tukums = {}
 			} # end c_kurs
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_kurs
 					any_vassal = { has_landed_title = c_kurs }
 				}
@@ -27699,7 +27559,7 @@ e_null = {
 				b_selpils = {}
 			} # end c_selija
 			allow = {
-				or = {
+				OR = {
 					has_landed_title = c_zemigalians
 					any_vassal = { has_landed_title = c_zemigalians }
 				}
@@ -27804,15 +27664,15 @@ e_null = {
 				b_poltsamaa = {}
 			}
 			allow = {
-				or = {
+				OR = {
 					piety = 500
-					not = { religion_group = christian }
+					NOT = { religion_group = christian }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_dorpat
 					any_vassal = { has_landed_title = c_dorpat }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_dorpat
 					any_vassal = { has_landed_title = c_dorpat }
 				}
@@ -27858,15 +27718,15 @@ e_null = {
 				b_monacastleonmuhu = {}
 			} # end c_osel
 			allow = {
-				or = {
+				OR = {
 					piety = 500
-					not = { religion_group = christian }
+					NOT = { religion_group = christian }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_laanemaa
 					any_vassal = { has_landed_title = c_laanemaa }
 				}
-				or = {
+				OR = {
 					has_landed_title = c_osel
 					any_vassal = { has_landed_title = c_osel }
 				}
@@ -30331,7 +30191,7 @@ k_moravia = { # Velká Morava
 	capital = 441 # Boruy # Brno
 	allow = {
 		FROM = {
-			or = {
+			OR = {
 				has_holder = yes
 				is_titular = no
 			}
@@ -30348,34 +30208,50 @@ k_al-murabitids = { # Al-Murabitids
 	capital = 847 # Tarúdant # Tharasset
 	allow = { always = no }
 }
-k_aydin = { # Aydin
+d_aydin = { # Aydin
 	color = { 238 43 172 }
-	capital = 746 # Ionía # Ephesos
+	capital = 746 # Ionía # Ephesos # Tralleis
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
 }
 k_beni_helal = { # Beni Helal
 	color = { 128 163 56 }
-	capital = 719 # Mecca
+	capital = 719 # Makkah # Mecca
 	allow = { always = no }
 }
-k_candar = { # Candar
+d_candar = { # Candar
 	color = { 238 79 182 }
 	culture = turkish
 	capital = 751 # Paphlagonia
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Paphlagonia"
 }
-k_eretnid = { # Eretnid
+d_eretnid = { # Eretna
 	color = { 253 182 182 }
 	capital = 1218 # Sebasteia # Sebastia
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
 }
 k_fatimids = { # Fatimids
@@ -30386,13 +30262,21 @@ k_fatimids = { # Fatimids
 	culture = egyptian_arabic
 	allow = { always = no }
 }
-k_germiyan = { # Germiyan
+d_germiyan = { # Germiyan
 	color = { 255 180 180 }
-	capital = 749 # Dorylaion
+	capital = 749 # Dorylaion # Kotyaion
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Phrygia"
+	turkmen = "Eskisehir"
+	oghuz = "Eskisehir"
 }
 k_hammadid = { # Hammadid
 	color = { 149 180 17 }
@@ -30405,14 +30289,20 @@ k_kafsid = { # Kafsid
 	capital = 817 # Tunis
 	allow = { always = no }
 }
-k_karaman = { # Karaman
+d_karaman = { # Qaraman
 	color = { 120 41 92 }
 	culture = turkish
 	capital = 1219 # Laranda
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Lycaonia"
 }
 k_magyar = { # Hét Magyar
 	color = { 187 70 70 }
@@ -30426,14 +30316,35 @@ k_marinid = { # Marinid
 	capital = 840 # Fâs # Fes
 	allow = { always = no }
 }
-k_mentese = { # Mentese
+d_mentese = { # Mentese
 	color = { 60 130 20 }
 	culture = turkish
 	capital = 1231 # Mylasa
 	allow = {
-		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Milas"
+}
+d_karasi = { # Qarasi
+	color = { 88 144 77 }
+	culture = turkish
+	capital = 1332 # Mysía # Akhyraous
+	allow = {
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
+	}
+	greek = "Mysia"
 }
 k_naples = { # Naples
 	color = { 218 217 242 }
@@ -30441,13 +30352,27 @@ k_naples = { # Naples
 	culture = italian
 	allow = { always = no }
 }
+d_osmanli = { # Osmanli
+	color = { 247 145 30 }
+	culture = turkish
+	capital = 956 # Sangários # Sügüt
+	allow = {
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
+	}
+}
 k_ottoman = { # Ottoman Turks
 	color = { 247 145 30 }
 	culture = turkish
 	capital = 742 # Prousa # Prusa
 	allow = {
 		culture_group = altaic
-		not = { realm = { title = e_byzantium } }
+		NOT = { realm = { title = e_byzantium } }
 	}
 }
 k_rum = { # Rûm
@@ -30457,14 +30382,20 @@ k_rum = { # Rûm
 	allow = { always = no }
 	dynasty_title_names = no
 }
-k_saruhan = { # Saruhan
+d_saruhan = { # Saruhan
 	color = { 144 171 225 }
 	culture = turkish
-	capital = 725 # Lydía # Thyateira
+	capital = 745 # Smyrna
 	allow = {
-		culture_group = altaic
-		not = { top_liege = { has_landed_title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Ionia"
 }
 e_seljuk_turks = { # Seljuk Empire
 	color = { 99 168 74 }
@@ -30474,19 +30405,55 @@ e_seljuk_turks = { # Seljuk Empire
 	#landless = yes
 	allow = { always = no }
 }
-k_tekke = { # Tekke
+d_ahi = { # Ahiler
+	color = { 144 66 189 }
+	capital = 753 # Ankyra
+	allow = {
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
+	}
+	greek = "Ankyra"
+	turkmen = "Ankyra"
+	oghuz = "Ankyra"
+}
+d_hamid = { # Hamid
+	color = { 144 66 189 }
+	capital = 754 # Pisidía # Sozopolis
+	allow = {
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
+	}
+	greek = "Pisidia"
+}
+d_tekke = { # Teke
 	color = { 244 153 189 }
 	capital = 755 # Attáleia # Attaleia
 	allow = {
-		culture_group = altaic
-		not = { top_liege = { has_landed_title = e_byzantium } }
+		OR = {
+			FROM = { is_titular = no }
+			AND = {
+				culture_group = altaic
+				NOT = { realm = { title = e_byzantium } }
+			}
+		}
 	}
+	greek = "Cibyrrhaeots"
 }
 k_trinacria = { # Trinacria
 	color = { 249 232 247 }
 	capital = 340 # Palermu # Palermo
 	allow = {
-		or = {
+		OR = {
 			religion = catholic
 			is_heresy_of = catholic
 		}
@@ -30549,7 +30516,7 @@ k_khwarezmia = { # Khwarezm
 	capital = 626 # Khwarezm # Káth
 	allow = {
 		FROM = {
-			or = {
+			OR = {
 				has_holder = yes
 				is_titular = no
 			}
@@ -30563,7 +30530,7 @@ k_kimek = { # Kimek
 	capital = 1579 # Balkhash
 	allow = {
 		FROM = {
-			or = {
+			OR = {
 				has_holder = yes
 				is_titular = no
 			}
@@ -30579,9 +30546,9 @@ k_kerman = { # Kermán
 	capital = 639 # Kermân # Kerman
 	allow = {
 		culture_group = altaic
-		not = { top_liege = { has_landed_title = e_byzantium } }
+		NOT = { top_liege = { has_landed_title = e_byzantium } }
 		FROM = {
-			or = {
+			OR = {
 				has_holder = yes
 				is_titular = no
 			}
@@ -30593,7 +30560,7 @@ e_latin_empire = { # Imperium Romaniae
 	color = { 150 105 56 }
 	capital = 496 # Konstantinoupolis # Byzantion
 	allow = {
-		or = {
+		OR = {
 			religion = catholic
 			is_heresy_of = catholic
 		}
@@ -30608,7 +30575,7 @@ e_latin_empire = { # Imperium Romaniae
 			hidden_tooltip = {
 				495 = { # Kaliopolis
 					owner = {
-						or = {
+						OR = {
 							is_liege_or_above = ROOT
 							character = ROOT
 						}
@@ -30616,7 +30583,7 @@ e_latin_empire = { # Imperium Romaniae
 				}
 				497 = { # Thrake
 					owner = {
-						or = {
+						OR = {
 							is_liege_or_above = ROOT
 							character = ROOT
 						}
