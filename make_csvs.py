@@ -41,7 +41,7 @@ def get_dynamics(parser, where, cultures, prov_id):
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
     for _, tree in parser.parse_files('common/landed_titles/*', where,
-                                      cache=True):
+                                      memcache=True):
         recurse(tree)
     return dynamics
 
@@ -233,7 +233,7 @@ def main():
         lt_keys = lt_keys_not_cultures + cultures
 
         for inpath, tree in parser.parse_files('common/landed_titles/*',
-                                               swmhpath, cache=True):
+                                               swmhpath, memcache=True):
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
             for title, pairs in recurse(tree):
