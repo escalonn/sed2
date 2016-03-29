@@ -27,6 +27,7 @@ province_loc_files = [
 def main():
     simple_parser = SimpleParser()
     full_parser = FullParser()
+    full_parser.newlines_to_depth = 0
     templates = sed2path / 'templates'
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
@@ -164,7 +165,6 @@ def main():
                              if is_codename(n3.val)), len(v2))
                         v2.contents[index:index] = sed2[n2.val]
                         v2.indent = v2.indent
-                        v2.parser = v2.parser
                 update_tree(v2, sed2, lt_keys)
 
     sed2 = {}
@@ -180,12 +180,9 @@ def main():
                     val = Obj.from_iter(String.from_str(x.strip('"'))
                         for x in re.findall(r'[^"\s]+|"[^"]*"', val))
                 sed2[template][title].append(Pair.from_kv(key, val))
-        # from pprint import pprint
-        # # pprint(tree.str())
-        # pprint(tree.contents[0].str())
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
                                                 basedir=minipath):
@@ -193,7 +190,7 @@ def main():
         outpath = build_mini_lt / inpath.name
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:

@@ -7,6 +7,7 @@ e_rebels = { # Rebels
 	color = { 0 0 0 }
 	color2 = { 0 0 0 }
 }
+
 e_pirates = { # Pirates
 	pirate = yes
 	landless = yes
@@ -16,6 +17,7 @@ e_pirates = { # Pirates
 	color = { 0 0 0 }
 	color2 = { 0 0 0 }
 }
+
 # SPECIAL TITLES
 k_papal_state = { # Status Pontificius
 	color = { 255 249 198 }
@@ -40,6 +42,7 @@ k_papal_state = { # Status Pontificius
 		Paschalis:1 Paulus:1 Pius:1 Romanus:1 Theodorus:1 Xystus:1
 	}
 }
+
 k_orthodox = { # The Ecumenical Patriarchate
 	#color = { 150 90 30 }
 	color = { 183 60 155 }
@@ -57,13 +60,15 @@ k_orthodox = { # The Ecumenical Patriarchate
 	short_name = yes
 	dynasty_title_names = no
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios Eustratios
-		Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim Ioannes Ioseph
-		Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios Manuel Markos Matthaios
-		Maximos Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos Petros
-		Photios Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios
+		Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim
+		Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios
+		Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas
+		Nikolaos Pavlos Petros Photios Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos
+		Theophylaktos Thomas Timotheos
 	}
 }
+
 e_sunni = { # The Sunni Caliphate
 	# OBSOLETE
 	color = { 40 160 40 }
@@ -78,6 +83,7 @@ e_sunni = { # The Sunni Caliphate
 	foa = CALIPH_FOA
 	short_name = yes
 }
+
 e_shiite = { # The Shia Caliphate
 	# OBSOLETE
 	color = { 60 190 60 }
@@ -92,6 +98,7 @@ e_shiite = { # The Shia Caliphate
 	foa = CALIPH_FOA
 	short_name = yes
 }
+
 e_golden_horde = { # Golden Horde
 	color = { 243 180 17 }
 	capital = 619 # Saray
@@ -101,6 +108,7 @@ e_golden_horde = { # Golden Horde
 	religion = tengri_pagan
 	short_name = yes
 }
+
 e_il-khanate = { # Ilkhanate
 	color = { 120 180 20 }
 	capital = 667 # Tabriz # Tabriz and Maragheh
@@ -110,6 +118,7 @@ e_il-khanate = { # Ilkhanate
 	religion = tengri_pagan
 	short_name = yes
 }
+
 e_mongol_empire = { # Yeke Mongol Ulus
 	color = { 255 255 255 }
 	color2 = { 255 20 20 }
@@ -120,6 +129,7 @@ e_mongol_empire = { # Yeke Mongol Ulus
 	religion = tengri_pagan
 	short_name = yes
 }
+
 e_timurids = { # Timurids
 	color = { 120 20 20 }
 	capital = 903 # Samarkand
@@ -128,6 +138,7 @@ e_timurids = { # Timurids
 	culture = mongol
 	religion = sunni
 }
+
 # SoA head of religion
 d_miaphysite = { # The Miaphysite Papacy
 	color = { 217 155 177 }
@@ -150,6 +161,7 @@ d_miaphysite = { # The Miaphysite Papacy
 		Petros Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
 }
+
 d_monophysite = { # The Monophysite Papacy
 	color = { 200 115 167 }
 	color2 = { 220 220 0 }
@@ -171,6 +183,7 @@ d_monophysite = { # The Monophysite Papacy
 		Philotheos Shenouda Simeon Theodoros Theophilus Timotheos Zacharias
 	}
 }
+
 d_nestorian = { # The Patriarchate of the East
 	color = { 180 137 97 }
 	color2 = { 220 220 0 }
@@ -191,6 +204,7 @@ d_nestorian = { # The Patriarchate of the East
 		Surin Theodosios Timotheos Yahballaha Yohannan
 	}
 }
+
 d_paulician = { # The Paulician Patriarchate
 	color = { 195 130 157 }
 	color2 = { 255 255 255 }
@@ -207,13 +221,15 @@ d_paulician = { # The Paulician Patriarchate
 	short_name = yes
 	dynasty_title_names = no
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios Eustratios
-		Euthymios Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim Ioannes Ioseph Isidoros
-		Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios Manuel Markos Matthaios Maximos
-		Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos Petros Photios
-		Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios
+		Eustratios Euthymios Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim Ioannes Ioseph
+		Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios Manuel Markos
+		Matthaios Maximos Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos
+		Petros Photios Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas
+		Timotheos
 	}
 }
+
 d_monothelite = { # The Monothelite Patriarchate
 	color = { 180 170 65 }
 	color2 = { 220 220 0 }
@@ -230,13 +246,15 @@ d_monothelite = { # The Monothelite Patriarchate
 	short_name = yes
 	dynasty_title_names = no
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios Eustratios
-		Euthymios Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim Ioannes Ioseph Isidoros
-		Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios Manuel Markos Matthaios Maximos
-		Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos Petros Photios
-		Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos Eustathios
+		Eustratios Euthymios Gennadios Georgios Gerasimos Germanos Gregorios Ieremias Ignatios Ioakeim Ioannes Ioseph
+		Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon Leontios Loukas Makarios Manuel Markos
+		Matthaios Maximos Meletios Methodios Metrophanes Michael Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos
+		Petros Photios Polykarpos Sergios Stephanos Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas
+		Timotheos
 	}
 }
+
 d_fraticelli = { # The Fraticelli Papacy
 	color = { 198 249 255 }
 	color2 = { 220 220 0 }
@@ -263,6 +281,7 @@ d_fraticelli = { # The Fraticelli Papacy
 		Paschalis:1 Paulus:1 Pius:1 Romanus:1 Theodorus:1 Xystus:1
 	}
 }
+
 d_iconoclast = { # The Iconoclast Patriarchate
 	color = { 153 50 125 }
 	color2 = { 220 220 0 }
@@ -288,6 +307,7 @@ d_iconoclast = { # The Iconoclast Patriarchate
 		Sergios Sisinnios Symeon Theodoros Theodosios Theodotos
 	}
 }
+
 d_yazidi = { # The Yazidi Sheikhdom
 	color = { 20 50 160 }
 	color2 = { 220 220 0 }
@@ -307,6 +327,7 @@ d_yazidi = { # The Yazidi Sheikhdom
 	foa = CALIPH_FOA
 	short_name = yes
 }
+
 d_ibadi = { # The Ibadi Caliphate
 	color = { 20 130 20 }
 	color2 = { 220 220 0 }
@@ -389,6 +410,7 @@ d_ibadi = { # The Ibadi Caliphate
 	foa = CALIPH_FOA
 	short_name = yes
 } # end d_ibadi
+
 d_kharijite = { # The Kharijite Caliphate
 	color = { 10 110 10 }
 	color2 = { 220 220 0 }
@@ -463,6 +485,7 @@ d_kharijite = { # The Kharijite Caliphate
 	foa = CALIPH_FOA
 	short_name = yes
 } # end d_kharijite
+
 d_hurufi = { # The Hurufi Skeikhdom
 	color = { 80 220 80 }
 	color2 = { 220 220 0 }
@@ -545,6 +568,7 @@ d_hurufi = { # The Hurufi Skeikhdom
 	foa = CALIPH_FOA
 	short_name = yes
 } # end d_hurufi
+
 d_jewish = { # The Jewish High Priesthood
 	color = { 0 80 255 }
 	capital = 774 # Jérusalem # Jerusalem
@@ -560,6 +584,7 @@ d_jewish = { # The Jewish High Priesthood
 	short_name = yes
 	dynasty_title_names = no
 }
+
 # Pagan heads of religion
 d_norse_pagan_reformed = { # The Fylkirate
 	color = { 155 155 235 }
@@ -581,6 +606,7 @@ d_norse_pagan_reformed = { # The Fylkirate
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_tengri_pagan_reformed = { # The Tengri Church
 	color = { 100 80 100 }
 	color2 = { 220 220 0 }
@@ -598,6 +624,7 @@ d_tengri_pagan_reformed = { # The Tengri Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_baltic_pagan_reformed = { # The Romuvan Church
 	color = { 122 165 70 }
 	color2 = { 220 220 0 }
@@ -615,6 +642,7 @@ d_baltic_pagan_reformed = { # The Romuvan Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_finnish_pagan_reformed = { # The Suomenusko Church
 	color = { 240 240 220 }
 	color2 = { 220 220 0 }
@@ -632,6 +660,7 @@ d_finnish_pagan_reformed = { # The Suomenusko Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_slavic_pagan_reformed = { # The Slavic Church
 	color = { 175 50 136 }
 	color2 = { 220 220 0 }
@@ -649,6 +678,7 @@ d_slavic_pagan_reformed = { # The Slavic Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_aztec_reformed = { # The Aztec Church
 	color = { 245 245 135 }
 	color2 = { 220 220 0 }
@@ -666,6 +696,7 @@ d_aztec_reformed = { # The Aztec Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_west_african_pagan_reformed = { # West African Church
 	color = { 91 49 13 }
 	color2 = { 220 220 0 }
@@ -683,6 +714,7 @@ d_west_african_pagan_reformed = { # West African Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_zun_pagan_reformed = { # The Church of Zun
 	color = { 220 255 0 }
 	color2 = { 220 220 0 }
@@ -700,6 +732,7 @@ d_zun_pagan_reformed = { # The Church of Zun
 	short_name = yes
 	dynasty_title_names = no
 }
+
 d_zoroastrian = { # The Zoroastrian Church
 	color = { 180 120 40 }
 	color2 = { 220 220 0 }

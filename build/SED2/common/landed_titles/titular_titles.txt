@@ -4,40 +4,50 @@ d_oxford = { # Oxford
 	color = { 99 68 5 }
 	capital = 22 # Oxford
 }
+
 d_chester = { # Chester
 	color = { 121 29 29 }
 	capital = 59 # Chester
 }
+
 d_gloucester = { # Hwicce
 	color = { 57 21 209 }
 	capital = 21 # Gloucester
 }
+
 b_zussow = {}
+
 b_kolbatz = {}
+
 d_yaroslavl = { # Yaroslavl
 	color = { 178 192 134 }
 	capital = 572 # Yaroslavl
 }
+
 d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
 	capital = 417 # Vitebsk
 }
+
 d_cheremisa = { # Cheremisa
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
 	capital = 590 # Sura # Chuvash
 	allow = { always = no }
 }
+
 d_pronsk = { # Pronsk
 	color = { 23 132 81 }
 	capital = 577 # Pronsk
 }
+
 d_socotra = { # Socotra
 	color = { 142 255 85 }
 	color2 = { 255 255 255 }
 	capital = 1552 # Suqutra # Socotra
 	dignity = 10
 }
+
 # TITULAR SWMH
 e_ulm = { # Ulm
 	color = { 110 110 110 }
@@ -61,6 +71,7 @@ e_ulm = { # Ulm
 	foa = ULM_FOA
 	short_name = yes
 }
+
 e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
 	capital = 620 # Itil
@@ -88,12 +99,14 @@ e_khazaria = { # Qasarstan
 	venetian = "Gazaria"
 	dalmatian = "Gazaria"
 } # end e_khazaria
+
 e_khitan = { # Kara Khitai
 	color = { 130 10 50 }
 	capital = 1572 # Balasaghun # Balasaghnun
 	allow = { always = no }
 	short_name = yes
 }
+
 k_qipchaq = { # Qipchaqlar # Wild Cumans
 	color = { 45 92 150 }
 	color2 = { 255 255 255 }
@@ -102,6 +115,7 @@ k_qipchaq = { # Qipchaqlar # Wild Cumans
 	allow = { always = no }
 	dynasty_title_names = no
 }
+
 k_cuman = { # Kumanlar # Non wild Cumans
 	color = { 166 76 99 }
 	color2 = { 255 255 255 }
@@ -110,6 +124,7 @@ k_cuman = { # Kumanlar # Non wild Cumans
 	allow = { always = no }
 	dynasty_title_names = no
 }
+
 k_pechenegs = { # Beçeneklar
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
@@ -118,6 +133,7 @@ k_pechenegs = { # Beçeneklar
 	allow = { always = no }
 	dynasty_title_names = no
 }
+
 k_qangar = { # Qangar
 	color = { 45 99 180 }
 	color2 = { 255 255 255 }
@@ -126,6 +142,7 @@ k_qangar = { # Qangar
 	allow = { always = no }
 	dynasty_title_names = no
 }
+
 k_uzes = { # Uzlar
 	color = { 220 158 121 }
 	color2 = { 255 255 255 }
@@ -134,6 +151,7 @@ k_uzes = { # Uzlar
 	allow = { always = no }
 	dynasty_title_names = no
 }
+
 d_black_caps = { # Karakalpaklar
 	color = { 189 121 13 }
 	color2 = { 255 255 255 }
@@ -148,6 +166,7 @@ d_black_caps = { # Karakalpaklar
 	dynasty_title_names = no
 	russian = "Chorni Klobuky"
 }
+
 e_kaleva = { # Kalevala
 	color = { 144 157 181 }
 	capital = 381 # Nyland
@@ -160,6 +179,7 @@ e_kaleva = { # Kalevala
 		realm_size = 120
 	}
 }
+
 k_geats = { # Gautaríki
 	color = { 208 191 99 }
 	capital = 293 # Östergötland
@@ -198,6 +218,7 @@ k_geats = { # Gautaríki
 		}
 	}
 } # end k_geats
+
 e_germany = { # Germania
 	color = { 190 200 190 }
 	color2 = { 220 220 20 }
@@ -210,18 +231,21 @@ e_germany = { # Germania
 		realm_size = 120
 	}
 }
+
 k_avaria = { # Avaria
 	color = { 250 120 90 } # Only for the CoA
 	culture = avar
 	capital = 444 # Visegrád # Esztergom
 	allow = { always = no }
 }
+
 k_lombardy = { # Lombardy
 	color = { 234 217 110 } # Only for the CoA
 	culture = lombard
 	capital = 234 # Pavia
 	allow = { always = no }
 }
+
 d_lauenburg = { # Sachsen-Lauenburg
 	capital = 1098 # Lauenburg
 	color = { 77 127 196 }
@@ -238,6 +262,7 @@ d_lauenburg = { # Sachsen-Lauenburg
 		NOT = { tier = emperor }
 	}
 }
+
 d_sangermano = { # Terra Sancti Benedicti
 	capital = 1318 # Aquino # Sangermano
 	color = { 77 127 196 }
@@ -249,6 +274,7 @@ d_sangermano = { # Terra Sancti Benedicti
 	}
 	short_name = yes
 }
+
 k_salerno = { # Principato di Salerno
 	color = { 0 132 250 }
 	culture = langobardisch
@@ -260,6 +286,7 @@ k_salerno = { # Principato di Salerno
 	}
 	short_name = yes
 }
+
 d_austrialombardic = { # Austria
 	color = { 4 33 122 }
 	culture = langobardisch
@@ -271,6 +298,7 @@ d_austrialombardic = { # Austria
 		has_landed_title = d_aquileia
 	}
 }
+
 d_neustria = { # Neustria
 	color = { 4 33 11 }
 	culture = langobardisch
@@ -285,6 +313,7 @@ d_neustria = { # Neustria
 		has_landed_title = d_monferrato
 	}
 }
+
 d_tuscia = { # Tuscia
 	color = { 250 241 220 }
 	culture = langobardisch
@@ -296,6 +325,7 @@ d_tuscia = { # Tuscia
 		has_landed_title = d_toscana
 	}
 }
+
 k_duklja = { # Duklja
 	color = { 224 186 36 }
 	culture = serbian
@@ -310,6 +340,7 @@ k_duklja = { # Duklja
 		NOT = { tier = emperor }
 	}
 }
+
 k_austria = { # Österreich
 	color = { 188 0 7 }
 	culture = german
@@ -324,6 +355,7 @@ k_austria = { # Österreich
 	foa = ADA_FOA
 	title_prefix = ADA_OF
 }
+
 d_smaland = { # Småland
 	color = { 88 138 70 }
 	capital = 298 # Njudung # Småland
@@ -336,6 +368,7 @@ d_smaland = { # Småland
 		lower_tier_than = king
 	}
 }
+
 e_occitania = { # Occitània
 	color = { 230 0 70 }
 	color2 = { 255 255 255 }
@@ -354,6 +387,7 @@ e_occitania = { # Occitània
 	}
 	name_tier = king
 }
+
 # Titular Darrigan
 # The county of Flanders had more autonomy than other regions under the French crown. They did lose the independence wars # in the 13th and 14th century. But what if they had won?
 k_flanders = { # Vlaanderen
@@ -372,6 +406,7 @@ k_flanders = { # Vlaanderen
 		lower_tier_than = king
 	}
 }
+
 # ARKO
 d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer leur pouvoir sur les vassaux de la côte mais sans succès. # Oh, obviously, yeah, +1.
 	color = { 0 20 188 }
@@ -380,6 +415,7 @@ d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer le
 	culture = occitan
 	allow = { always = no }
 }
+
 # King
 d_paulicians = { # Paulikianoi
 	color = { 78 33 125 }
@@ -392,6 +428,7 @@ d_paulicians = { # Paulikianoi
 		religion = paulician
 	}
 }
+
 #d_melitene = {
 #	color = { 11 34 128 }
 #	culture = levantine_arabic
@@ -429,6 +466,7 @@ k_armenia_minor = { # Mikrá Armenia
 		}
 	}
 }
+
 d_pagania = { # Neretljani
 	color = { 114 230 1 }
 	capital = 1330 # Omis
@@ -440,6 +478,7 @@ d_pagania = { # Neretljani
 		religion = slavic_pagan
 	}
 }
+
 d_rhodos = { # Rhodos
 	color = { 144 230 19 }
 	capital = 483 # Dodekánisa # Rhodos
@@ -454,6 +493,7 @@ d_rhodos = { # Rhodos
 	foa = CAESAR_FOA
 	title_prefix = CAESAR_OF
 }
+
 e_chagatai = { # Chagatai
 	color = { 200 200 200 }
 	color2 = { 0 250 250 }
@@ -462,11 +502,13 @@ e_chagatai = { # Chagatai
 	religion = tengri_pagan
 	allow = { always = no }
 }
+
 d_tiflis = { # Tiflis
 	color = { 104 20 12 }
 	capital = 1357 # Tbilisi
 	allow = { religion_group = muslim }
 }
+
 k_vaspurakan = { # Vaspurakan
 	color = { 175 5 102 }
 	culture = armenian
@@ -476,6 +518,7 @@ k_vaspurakan = { # Vaspurakan
 		religion_group = christian
 	}
 }
+
 d_vanand = { # Vanand
 	color = { 155 100 7 }
 	culture = armenian
@@ -485,6 +528,7 @@ d_vanand = { # Vanand
 		religion_group = christian
 	}
 }
+
 d_mingrelia = { # Samegrelo
 	color = { 155 100 7 }
 	culture = georgian
@@ -494,6 +538,7 @@ d_mingrelia = { # Samegrelo
 		religion_group = christian
 	}
 }
+
 d_meshketi = { # Meskheti
 	color = { 155 100 7 }
 	culture = georgian
@@ -503,6 +548,7 @@ d_meshketi = { # Meskheti
 		religion_group = christian
 	}
 }
+
 k_abkhazia = { # Apkhazeti
 	color = { 99 175 4 }
 	capital = 601 # Imereti # Imeretia
@@ -518,6 +564,7 @@ k_abkhazia = { # Apkhazeti
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
+
 k_imereti = { # Imereti
 	color = { 99 175 4 }
 	capital = 601 # Imereti # Imeretia
@@ -529,6 +576,7 @@ k_imereti = { # Imereti
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
+
 k_kakheti = { # Kakheti
 	color = { 194 110 67 }
 	capital = 676 # Kakheti
@@ -540,6 +588,7 @@ k_kakheti = { # Kakheti
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
+
 k_iberia = { # Kartli
 	color = { 44 215 119 }
 	capital = 679 # Kartli
@@ -555,6 +604,7 @@ k_iberia = { # Kartli
 	foa = MEPE_FOA
 	title_prefix = MEPE_OF
 }
+
 d_dahlak = { # Dahlak
 	color = { 255 164 17 }
 	capital = 1592 # Suhar # Dahlak
@@ -567,6 +617,7 @@ d_dahlak = { # Dahlak
 		is_republic = yes
 	}
 }
+
 d_sadah = { # Sadah
 	color = { 155 114 99 }
 	capital = 865 # Sadah # Rafha
@@ -583,6 +634,7 @@ d_sadah = { # Sadah
 		religion_group = muslim
 	}
 }
+
 d_sharif_medina = { # Madinah # Medina
 	color = { 71 159 102 }
 	capital = 718 # Madinah # Medina
@@ -599,6 +651,7 @@ d_sharif_medina = { # Madinah # Medina
 		religion_group = muslim
 	}
 }
+
 d_sharif_mecca = { # Makkah # Mecca
 	color = { 188 6 133 }
 	capital = 719 # Makkah # Mecca
@@ -615,6 +668,7 @@ d_sharif_mecca = { # Makkah # Mecca
 		religion_group = muslim
 	}
 }
+
 d_siraf = { # Siráf
 	color = { 40 200 200 }
 	capital = 1594 # Irahistan # Siraf
@@ -627,6 +681,7 @@ d_siraf = { # Siráf
 		is_republic = yes
 	}
 }
+
 e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
 	capital = 441 # Boruy # Brno
@@ -661,17 +716,20 @@ e_wendish_empire = { # Wendish Empire
 	karantanci = "Wends"
 	croatian = "Wends"
 }
+
 # Ireland
 d_breifne = { # Breifne
 	color = { 54 135 39 }
 	color2 = { 136 0 21 }
 	capital = 8 # Leitrim
 }
+
 d_thomond = { # Thomond
 	color = { 30 100 80 }
 	color2 = { 255 255 255 }
 	capital = 13 # Clare # Thomond
 }
+
 d_ossory = { # Ossory
 	color = { 60 200 10 }
 	color2 = { 255 255 255 }
@@ -684,6 +742,7 @@ d_ossory = { # Ossory
 	breton = "Osraige"
 	norsegaelic = "Osraige"
 }
+
 d_oneill = { # O'Neill
 	color = { 70 106 21 }
 	color2 = { 255 255 255 }
@@ -696,6 +755,7 @@ d_oneill = { # O'Neill
 	breton = "Uí Néill"
 	norsegaelic = "Uí Néill"
 }
+
 d_airgialla = { # Airgíalla
 	color = { 30 180 20 }
 	color2 = { 251 140 17 }
