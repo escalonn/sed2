@@ -141,7 +141,7 @@ def main():
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
-    cultures = get_cultures(simple_parser, swmhpath, groups=False)
+    cultures = get_cultures(simple_parser, [swmhpath], groups=False)
     lt_keys = [
         'title', 'title_female', 'foa', 'title_prefix', 'short_name',
         'name_tier', 'location_ruler_title', 'dynasty_title_names',

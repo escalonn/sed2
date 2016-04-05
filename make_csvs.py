@@ -16,16 +16,16 @@ vietpath = rootpath / 'VIET/VIET_Assets'
 emfpath = rootpath / 'EMF/EMF'
 emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 
-def get_province_id(parser, where):
+def get_province_id(parser):
     province_id = {}
     province_title = {}
-    for number, title, tree in get_provinces(parser, where):
+    for number, title, tree in get_provinces(parser):
         the_id = 'PROV{}'.format(number)
         province_id[title] = the_id
         province_title[the_id] = title
     return province_id, province_title
 
-def get_dynamics(parser, where, cultures, prov_id):
+def get_dynamics(parser, cultures, prov_id):
     def recurse(tree):
         for n, v in tree:
             if is_codename(n.val):
@@ -40,14 +40,14 @@ def get_dynamics(parser, where, cultures, prov_id):
 
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
-    for _, tree in parser.parse_files('common/landed_titles/*', where,
+    for _, tree in parser.parse_files('common/landed_titles/*',
                                       memcache=True):
         recurse(tree)
     return dynamics
 
-def get_gov_prefixes(parser, where):
+def get_gov_prefixes(parser):
     prefixes = []
-    for _, tree in parser.parse_files('common/governments/*', where):
+    for _, tree in parser.parse_files('common/governments/*'):
         for _, v in tree:
             for n2, v2 in v:
                 try:
@@ -62,7 +62,7 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                               extra=True):
     override = set()
     missing_loc = ['KINGDOM_PANNONIA', 'KINGDOM_PANNONIA_ADJ', 'Jomsborg', 'Rome']
-    for _, tree in parser.parse_files('common/bookmarks/*', *moddirs):
+    for _, tree in parser.parse_files('common/bookmarks/*', moddirs):
         for n, v in tree:
             override.add(v['name'].val)
             override.add(v['desc'].val)
@@ -80,7 +80,7 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                     except KeyError:
                         pass
                     override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
-    for _, tree in parser.parse_files('common/buildings/*', *moddirs):
+    for _, tree in parser.parse_files('common/buildings/*', moddirs):
         for n, v in tree:
             for n2, v2 in v:
                 override.add(n2.val)
@@ -88,24 +88,24 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                     if n3.val == 'desc':
                         override.add(v3.val)
     ul_titles = []
-    for _, tree in parser.parse_files('common/job_titles/*', *moddirs):
+    for _, tree in parser.parse_files('common/job_titles/*', moddirs):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add('desc_' + n.val)
-    for _, tree in parser.parse_files('common/minor_titles/*', *moddirs):
+    for _, tree in parser.parse_files('common/minor_titles/*', moddirs):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add(n.val + '_FOA')
             override.add(n.val + '_desc')
-    for _, tree in parser.parse_files('common/retinue_subunits/*', *moddirs):
+    for _, tree in parser.parse_files('common/retinue_subunits/*', moddirs):
         for n, v in tree:
             override.add(n.val)
     if extra:
-        for _, tree in parser.parse_files('common/trade_routes/*', *moddirs):
+        for _, tree in parser.parse_files('common/trade_routes/*', moddirs):
             for n, v in tree:
                 override.add(n.val)
         for glob in ['history/provinces/*', 'history/titles/*']:
-            for _, tree in parser.parse_files(glob, *moddirs):
+            for _, tree in parser.parse_files(glob, moddirs):
                 for n, v in tree:
                     if isinstance(n, Date):
                         for n2, v2 in v:
@@ -153,11 +153,12 @@ def main():
 
     with tempfile.TemporaryDirectory() as td:
         parser = SimpleParser()
-        prov_id, prov_title = get_province_id(parser, swmhpath)
-        max_provs = get_max_provinces(parser, swmhpath)
-        cultures, cult_groups = get_cultures(parser, swmhpath)
-        religions, rel_groups = get_religions(parser, swmhpath)
-        dynamics = get_dynamics(parser, swmhpath, cultures, prov_id)
+        parser.moddirs = [swmhpath]
+        prov_id, prov_title = get_province_id(parser)
+        max_provs = get_max_provinces(parser)
+        cultures, cult_groups = get_cultures(parser)
+        religions, rel_groups = get_religions(parser)
+        dynamics = get_dynamics(parser, cultures, prov_id)
         vanilla = get_localisation()
         swmh_loc = get_localisation(basedir=swmhpath)
         localisation = get_localisation(swmhpath)
@@ -178,7 +179,7 @@ def main():
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv_rows(path)})
 
-        gov_prefixes = get_gov_prefixes(parser, swmhpath)
+        gov_prefixes = get_gov_prefixes(parser)
         type_re = '|'.join(['family_palace_', 'vice_royalty_'] + gov_prefixes)
         title_re = '|'.join(ul_titles)
         culture_re = '|'.join(cultures + cult_groups)
@@ -233,7 +234,7 @@ def main():
         lt_keys = lt_keys_not_cultures + cultures
 
         for inpath, tree in parser.parse_files('common/landed_titles/*',
-                                               swmhpath, memcache=True):
+                                               memcache=True):
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
             for title, pairs in recurse(tree):
@@ -340,7 +341,7 @@ def main():
                        '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
                        '(_female)?(_({}|{}))?').format(type_re, title_re,
                                                        culture_re, religion_re)
-        for _, tree in parser.parse_files('common/landed_titles/*', emfpath):
+        for _, tree in parser.parse_files('common/landed_titles/*', [emfpath]):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass
