@@ -7,8 +7,8 @@ import re
 import shutil
 import tempfile
 from ck2parser import (rootpath, vanilladir, files, csv_rows, get_provinces,
-                       get_max_provinces, get_cultures, get_religions,
-                       get_localisation, is_codename, Obj, Date, SimpleParser)
+                       get_cultures, get_religions, get_localisation,
+                       is_codename, Obj, Date, SimpleParser)
 from print_time import print_time
 
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
@@ -122,6 +122,9 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                 missing_loc.append(key)
     return override, missing_loc, ul_titles
 
+def get_max_provinces(parser):
+    return next(parser.parse_files('map/default.map'))[1]['max_provinces'].val
+
 @print_time
 def main():
     # fill titles before calling
@@ -161,7 +164,7 @@ def main():
         dynamics = get_dynamics(parser, cultures, prov_id)
         vanilla = get_localisation()
         swmh_loc = get_localisation(basedir=swmhpath)
-        localisation = get_localisation(swmhpath)
+        localisation = get_localisation([swmhpath])
         keys_to_override, keys_to_add, ul_titles = get_more_keys_to_override(
             parser, localisation, max_provs, swmhpath)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
@@ -326,7 +329,7 @@ def main():
 
         # EMF
         overridden_keys = set()
-        loc_emf = get_localisation(emfpath)
+        loc_emf = get_localisation([emfpath])
         keys_to_override, _, ul_titles = get_more_keys_to_override(
             parser, loc_emf, max_provs, emfpath, swmhpath, emfswmhpath,
             extra=False)

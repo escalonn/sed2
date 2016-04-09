@@ -25,7 +25,6 @@ province_loc_files = [
 
 @print_time
 def main():
-    simple_parser = SimpleParser()
     full_parser = FullParser()
     full_parser.newlines_to_depth = 0
     templates = sed2path / 'templates'
@@ -141,7 +140,9 @@ def main():
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
-    cultures = get_cultures(simple_parser, [swmhpath], groups=False)
+    simple_parser = SimpleParser()
+    simple_parser.moddirs = [swmhpath]
+    cultures = get_cultures(simple_parser, groups=False)
     lt_keys = [
         'title', 'title_female', 'foa', 'title_prefix', 'short_name',
         'name_tier', 'location_ruler_title', 'dynasty_title_names',

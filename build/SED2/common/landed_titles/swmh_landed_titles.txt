@@ -16972,6 +16972,12 @@ e_italy = { # Italia
 				#b_pontedera = {}
 			}
 		}
+		d_siena = { # Siena
+			color = { 38 25 123 }
+			color2 = { 255 255 255 }
+			capital = 330 # Siena
+			culture = tuscan
+		}
 		# Creation/usurpation trigger
 		allow = { religion_group = christian }
 	} # end k_italy
