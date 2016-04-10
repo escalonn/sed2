@@ -165,7 +165,6 @@ def main():
                             (i for i, (n3, _) in enumerate(v2)
                              if is_codename(n3.val)), len(v2))
                         v2.contents[index:index] = sed2[n2.val]
-                        v2.indent = v2.indent
                 update_tree(v2, sed2, lt_keys)
 
     sed2 = {}
@@ -178,8 +177,8 @@ def main():
             title, key, val = (s.strip() for s in row[:3])
             if val:
                 if key in ['male_names', 'female_names']:
-                    val = Obj.from_iter(String.from_str(x.strip('"'))
-                        for x in re.findall(r'[^"\s]+|"[^"]*"', val))
+                    val = Obj([String(x.strip('"'))
+                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)])
                 sed2[template][title].append(Pair.from_kv(key, val))
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
