@@ -4477,7 +4477,34 @@ e_hre = { # Heiliges Römisches Reich
 		}
 	}
 	allow = {
-		FROM = { has_holder = yes } # Only allow usurp. Should only be created by decision.
+		FROM = {
+			has_holder = yes
+			is_titular = no
+		}
+		OR = {
+			realm_size = 320
+			AND = {
+				realm_size = 120
+				OR = {
+					not_emf_trigger = yes
+					AND = {
+						FROM = { has_holder = no }
+						primary_title = {
+							OR = {
+								has_law = crown_authority_3
+								has_law = crown_authority_4
+							}
+						}
+					}
+					FROM = {
+						has_holder = yes
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
+		war = no
+		has_regent = no
 	}
 } # end e_hre
 
@@ -7395,36 +7422,16 @@ e_byzantium = { # Basileia Rhõmaiõn
 		e_roman_empire = { # Roman Empire
 			has_holder = no
 		}
-		ruled_years = 5
-		war = no
-		has_regent = no
-		OR = {
-			NOT = { tier = emperor }
-			is_nomadic = yes # Kezrüm, I shall never forget you!
-		}
-		# Constantinople is held by you or any vassal (at any level) in your
-		# non-nomadic subrealm, which for most people is all of their realm.
-		# If the county is not controlled in such a way, then EMF's Automatic
-		# Empire Disintegration (AED) will forfeit the title. Besides, I'd say
-		# that's quite the reasonable requirement for the ERE to be usurped or
-		# created.
 		c_byzantion = {
 			holder_scope = {
 				OR = {
-					character = PREVPREV
-					AND = {
-						any_liege = { character = PREVPREVPREV }
-						NOR = {
-							is_nomadic = yes
-							any_liege = {
-								NOT = { character = PREVPREVPREV }
-								is_nomadic = yes
-							}
-						}
-					}
+					character = ROOT
+					is_liege_or_above = ROOT
 				}
 			}
 		}
+		war = no
+		has_regent = no
 	}
 } # end e_byzantium
 
@@ -26107,10 +26114,30 @@ e_persia = { # Érán
 		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_mesopotamia
 	allow = {
+		OR = {
+			realm_size = 220
+			AND = {
+				realm_size = 120
+				OR = {
+					not_emf_trigger = yes
+					AND = {
+						FROM = { has_holder = no }
+						primary_title = {
+							OR = {
+								has_law = crown_authority_3
+								has_law = crown_authority_4
+							}
+						}
+					}
+					FROM = {
+						has_holder = yes
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
 		war = no
 		has_regent = no
-		realm_size = 120
-		NOT = { tier = emperor }
 	}
 } # end e_persia
 
