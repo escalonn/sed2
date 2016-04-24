@@ -45,9 +45,9 @@ def get_dynamics(parser, cultures, prov_id):
         recurse(tree)
     return dynamics
 
-def get_gov_prefixes(parser):
+def get_gov_prefixes(parser, *moddirs):
     prefixes = []
-    for _, tree in parser.parse_files('common/governments/*'):
+    for _, tree in parser.parse_files('common/governments/*', moddirs):
         for _, v in tree:
             for n2, v2 in v:
                 try:
@@ -125,6 +125,17 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
 def get_max_provinces(parser):
     return next(parser.parse_files('map/default.map'))[1]['max_provinces'].val
 
+def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
+    type_re = '|'.join(['family_palace_', 'vice_royalty_'] + prefixes)
+    title_re = '|'.join(ul_titles)
+    culture_re = '|'.join(cultures)
+    religion_re = '|'.join(religions)
+    noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
+                   '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
+                   '(_female)?(_({}|{}))?').format(type_re, title_re,
+                                                   culture_re, religion_re)
+    return noble_regex
+
 @print_time
 def main():
     # fill titles before calling
@@ -183,14 +194,8 @@ def main():
                             for row in csv_rows(path)})
 
         gov_prefixes = get_gov_prefixes(parser)
-        type_re = '|'.join(['family_palace_', 'vice_royalty_'] + gov_prefixes)
-        title_re = '|'.join(ul_titles)
-        culture_re = '|'.join(cultures + cult_groups)
-        religion_re = '|'.join(religions + rel_groups)
-        noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
-                       '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
-                       '(_female)?(_({}|{}))?').format(type_re, title_re,
-                                                       culture_re, religion_re)
+        noble_regex = make_noble_title_regex(cultures + cult_groups,
+            religions + rel_groups, ul_titles, gov_prefixes)
 
         templates_t = pathlib.Path(td)
         templates_t_sed2 = templates_t / 'SED2'
@@ -339,12 +344,11 @@ def main():
         inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
-        title_re = '|'.join(ul_titles)
-        noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
-                       '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
-                       '(_female)?(_({}|{}))?').format(type_re, title_re,
-                                                       culture_re, religion_re)
-        for _, tree in parser.parse_files('common/landed_titles/*', [emfpath]):
+        gov_prefixes = get_gov_prefixes(parser, emfpath, swmhpath, emfswmhpath)
+        noble_regex = make_noble_title_regex(cultures + cult_groups,
+            religions + rel_groups, ul_titles, gov_prefixes)
+        for _, tree in parser.parse_files('common/landed_titles/*',
+                                          [emfpath], emfswmhpath):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass
@@ -355,7 +359,8 @@ def main():
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', basedir=emfpath, reverse=True):
+        for path in files('localisation/*', [emfswmhpath], basedir=emfpath,
+                          reverse=True):
             emf_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
