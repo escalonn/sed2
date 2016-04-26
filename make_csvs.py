@@ -131,7 +131,7 @@ def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
     culture_re = '|'.join(cultures)
     religion_re = '|'.join(religions)
     noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
-                   '((barony|county|duchy|kingdom|empire)(_of)?))_?)?({})?'
+                   '((barony|county|duchy|kingdom|empire)(_of)?))?_?)?({})?'
                    '(_female)?(_({}|{}))?').format(type_re, title_re,
                                                    culture_re, religion_re)
     return noble_regex

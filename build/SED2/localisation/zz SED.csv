@@ -523,12 +523,15 @@ tribal_count_indo_aryan_group;Thakur;;;;;;;;;;;;;x
 tribal_count_female_indo_aryan_group;Thakurani;;;;;;;;;;;;;x
 tribal_baron_indo_aryan_group;Damapati;;;;;;;;;;;;;x
 tribal_baron_female_indo_aryan_group;Damapatni;;;;;;;;;;;;;x
+tribal_title_prince_indo_aryan_group;Rajkumar;;;;;;;;;;;;;x
+tribal_title_prince_female_indo_aryan_group;Rajkumari;;;;;;;;;;;;;x
 tribal_duchy_indo_aryan_group;Raj;;;;;;;;;;;;;x
 tribal_county_indo_aryan_group;Thikana;;;;;;;;;;;;;x
 tribal_barony_indo_aryan_group;Dama;;;;;;;;;;;;;x
 tribal_duchy_of_indo_aryan_group;Raj of;;;;;;;;;;;;;x
 tribal_county_of_indo_aryan_group;Thikana of;;;;;;;;;;;;;x
 tribal_barony_of_indo_aryan_group;Dama of;;;;;;;;;;;;;x
+city_job_marshal_greek;Protostrator;;;;;;;;;;;;;x
 temple_king_finnish_pagan;Witch-King;;;;;;;;;;;;;x
 temple_king_slavic_pagan;Witch-King;;;;;;;;;;;;;x
 temple_king_baltic_pagan;Witch-King;;;;;;;;;;;;;x
@@ -717,6 +720,41 @@ d_ibadi_adj;Ibadi Caliphal;;;;;;;;;;;;;x
 d_hurufi;Hurufi Skeikhdom;;;;;;;;;;;;;x
 d_hurufi_adj;Hurufi;;;;;;;;;;;;;x
 israelite;Israelite;;;;;;;;;;;;;x
+city_job_chancellor_arabic;Grand Vizier;;;;;;;;;;;;;x
+city_job_chancellor_iranian;Grand Vizier;;;;;;;;;;;;;x
+city_job_chancellor_turkish;Grand Vizier;;;;;;;;;;;;;x
+city_job_chancellor_west_african;Grand Vizier;;;;;;;;;;;;;x
+city_job_chancellor_greek;Magistros;;;;;;;;;;;;;x
+city_job_spymaster_greek;Mystikos;;;;;;;;;;;;;x
+city_job_treasurer_greek;Sakellarios;;;;;;;;;;;;;x
+city_job_chancellor_aztec;Cihuacoatl;;;;;;;;;;;;;x
+city_job_treasurer_aztec;Petlacalcatl;;;;;;;;;;;;;x
+city_job_spiritual_aztec;Sahagún;;;;;;;;;;;;;x
+city_job_spymaster_aztec;Tillancalqui;;;;;;;;;;;;;x
+city_job_marshal_aztec;Tlacateccatl;;;;;;;;;;;;;x
+city_job_chancellor_zoroastrian_group;Astabadh;;;;;;;;;;;;;x
+city_job_treasurer_zoroastrian_group;Chamberlain;;;;;;;;;;;;;x
+city_job_marshal_zoroastrian_group;Eran-Spahbed;;;;;;;;;;;;;x
+city_job_spiritual_zoroastrian_group;Mobed;;;;;;;;;;;;;x
+city_job_spiritual_zoroastrian;Mobed;;;;;;;;;;;;;x
+city_job_spiritual_christian;Court Chaplain;;;;;;;;;;;;;x
+city_job_spiritual_orthodox;Sacristan;;;;;;;;;;;;;x
+city_job_spiritual_muslim;Court Imam;;;;;;;;;;;;;x
+city_job_spiritual_shiite;Court Mullah;;;;;;;;;;;;;x
+city_job_spiritual_pagan_group;Chief Diviner;;;;;;;;;;;;;x
+city_job_spiritual_pagan;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_baltic_pagan;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_baltic_pagan_reformed;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_finnish_pagan;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_finnish_pagan_reformed;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_norse_pagan_reformed;Seer;;;;;;;;;;;;;x
+city_job_spiritual_norse_pagan;Seer;;;;;;;;;;;;;x
+city_job_spiritual_female_norse_pagan_reformed;Seeress;;;;;;;;;;;;;x
+city_job_spiritual_female_norse_pagan;Seeress;;;;;;;;;;;;;x
+city_job_spiritual_slavic_pagan;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_slavic_pagan_reformed;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_tengri_pagan;Diviner;;;;;;;;;;;;;x
+city_job_spiritual_tengri_pagan_reformed;Diviner;;;;;;;;;;;;;x
 job_spiritual_finnish_pagan;Diviner;;;;;;;;;;;;;x
 job_spiritual_finnish_pagan_reformed;Diviner;;;;;;;;;;;;;x
 job_spiritual_baltic_pagan;Diviner;;;;;;;;;;;;;x
@@ -1366,7 +1404,7 @@ desc_job_treasurer;The §Y$JOB$§! helps you collect taxes and administer your dem
 desc_job_spymaster;§Y$JOB$§! is an unofficial position on the council. The office holder is responsible for all matters of intrigue and skullduggery.;;;;;;;;;;;;;x
 desc_job_spiritual;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.;;;;;;;;;;;;;x
 job_spiritual_pagan_group;Chief Diviner;;;;;;;;;;;;;x
-job_spiritual_christian;;;;;;;;;;;;;;x
+job_spiritual_christian;Court Chaplain;;;;;;;;;;;;;x
 job_chancellor_arabic;Grand Vizier;;;;;;;;;;;;;x
 c_carcassonne_adj;Carcassonne;;;;;;;;;;;;;x
 e_timurids;Timurids;;;;;;;;;;;;;x
@@ -2698,7 +2736,7 @@ job_chancellor_aztec;Cihuacoatl;;;;;;;;;;;;;x
 job_marshal_aztec;Tlacateccatl;;;;;;;;;;;;;x
 job_treasurer_aztec;Petlacalcatl;;;;;;;;;;;;;x
 job_spymaster_aztec;Tillancalqui;;;;;;;;;;;;;x
-job_spiritual_aztec;Sahagun;;;;;;;;;;;;;x
+job_spiritual_aztec;Sahagún;;;;;;;;;;;;;x
 RETTYPE_CUL_NAHUA;Jaguar Warrior;;;;;;;;;;;;;x
 title_imperial_eunuch;Parakoimomenos;;;;;;;;;;;;;x
 title_imperial_eunuch_desc;The parakoimomenos, “the one who sleeps beside the Emperor’s chamber,” is a prestigious office at the Imperial Court reserved for eunuchs, who are valued for their perceived loyalty and discretion.;;;;;;;;;;;;;x
