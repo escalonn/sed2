@@ -209,7 +209,8 @@ def main():
             # logic here concerns how dupe IDs are interpreted
             if name:
                 sed2[dyn_id] = name
-    for inpath, tree in full_parser.parse_files('common/dynasties/*'):
+    for inpath, tree in full_parser.parse_files('common/dynasties/*',
+                                                [swmhpath]):
         for n, v in tree:
             dyn_id = int(n.val)
             if sed2[dyn_id]:
