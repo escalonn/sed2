@@ -1,0 +1,491 @@
+#!/usr/bin/env python3
+
+import collections
+import csv
+import pathlib
+import re
+import shutil
+import tempfile
+from ck2parser import (rootpath, vanilladir, files, csv_rows, get_provinces,
+                       get_cultures, get_religions, get_localisation,
+                       is_codename, Obj, Date, SimpleParser)
+from print_time import print_time
+
+swmhpath = rootpath / 'SWMH-BETA/SWMH'
+vietpath = rootpath / 'VIET/VIET_Assets'
+emfpath = rootpath / 'EMF/EMF'
+emfswmhpath = rootpath / 'EMF/EMF+SWMH'
+arkopath = rootpath / 'ARKOpack/ARKOpack_Armoiries'
+
+def get_province_id(parser):
+    province_id = {}
+    province_title = {}
+    for number, title, tree in get_provinces(parser):
+        the_id = 'PROV{}'.format(number)
+        province_id[title] = the_id
+        province_title[the_id] = title
+    return province_id, province_title
+
+def get_dynamics(parser, cultures, prov_id):
+    def recurse(tree):
+        for n, v in tree:
+            if is_codename(n.val):
+                for n2, v2 in v:
+                    if n2.val in cultures:
+                        if v2.val not in dynamics[n.val]:
+                            dynamics[n.val].append(v2.val)
+                        if (n.val in prov_id and
+                            v2.val not in dynamics[prov_id[n.val]]):
+                            dynamics[prov_id[n.val]].append(v2.val)
+                recurse(v)
+
+    dynamics = collections.defaultdict(list,
+                                       [(v, [k]) for k, v in prov_id.items()])
+    for _, tree in parser.parse_files('common/landed_titles/*',
+                                      memcache=True):
+        recurse(tree)
+    return dynamics
+
+def get_gov_prefixes(parser, *moddirs):
+    prefixes = []
+    for _, tree in parser.parse_files('common/governments/*', moddirs):
+        for _, v in tree:
+            for n2, v2 in v:
+                try:
+                    prefix = v2['title_prefix'].val
+                except KeyError:
+                    continue
+                if prefix not in prefixes:
+                    prefixes.append(prefix)
+    return prefixes
+
+def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
+                              extra=True):
+    override = set()
+    missing_loc = ['KINGDOM_PANNONIA', 'KINGDOM_PANNONIA_ADJ', 'Jomsborg', 'Rome']
+    for _, tree in parser.parse_files('common/bookmarks/*', moddirs):
+        for n, v in tree:
+            override.add(v['name'].val)
+            override.add(v['desc'].val)
+            if v.has_pair('era', 'yes'):
+                override.add('{}_ERA'.format(v['name'].val))
+                override.add('{}_ERA_INFO'.format(v['name'].val))
+            for n2, v2 in v:
+                if n2.val == 'selectable_character':
+                    try:
+                        override.add(v2['name'].val)
+                    except KeyError:
+                        pass
+                    try:
+                        override.add(v2['title_name'].val)
+                    except KeyError:
+                        pass
+                    override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
+    for _, tree in parser.parse_files('common/buildings/*', moddirs):
+        for n, v in tree:
+            for n2, v2 in v:
+                override.add(n2.val)
+                for n3, v3 in v2:
+                    if n3.val == 'desc':
+                        override.add(v3.val)
+    ul_titles = []
+    for _, tree in parser.parse_files('common/job_titles/*', moddirs):
+        for n, v in tree:
+            ul_titles.append(n.val)
+            override.add('desc_' + n.val)
+    for _, tree in parser.parse_files('common/minor_titles/*', moddirs):
+        for n, v in tree:
+            ul_titles.append(n.val)
+            override.add(n.val + '_FOA')
+            override.add(n.val + '_desc')
+    for _, tree in parser.parse_files('common/retinue_subunits/*', moddirs):
+        for n, v in tree:
+            override.add(n.val)
+    if extra:
+        for _, tree in parser.parse_files('common/trade_routes/*', moddirs):
+            for n, v in tree:
+                override.add(n.val)
+        for glob in ['history/provinces/*', 'history/titles/*']:
+            for _, tree in parser.parse_files(glob, moddirs):
+                for n, v in tree:
+                    if isinstance(n, Date):
+                        for n2, v2 in v:
+                            if n2.val in ('name', 'adjective'):
+                                if v2.val in localisation:
+                                    override.add(v2.val)
+                                else:
+                                    missing_loc.append(v2.val)
+        for i in range(1, max_provs):
+            key = 'PROV{}'.format(i)
+            if key in localisation:
+                override.add(key)
+            else:
+                missing_loc.append(key)
+    return override, missing_loc, ul_titles
+
+def get_max_provinces(parser):
+    return next(parser.parse_files('map/default.map'))[1]['max_provinces'].val
+
+def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
+    type_re = '|'.join(['family_palace_', 'vice_royalty_'] + prefixes)
+    title_re = '|'.join(ul_titles)
+    culture_re = '|'.join(cultures)
+    religion_re = '|'.join(religions)
+    noble_regex = ('(({})?((baron|count|duke|king|emperor)|'
+                   '((barony|county|duchy|kingdom|empire)(_of)?))?_?)?({})?'
+                   '(_female)?(_({}|{}))?').format(type_re, title_re,
+                                                   culture_re, religion_re)
+    return noble_regex
+
+@print_time
+def main():
+    # fill titles before calling
+    def should_override(key):
+        title_match = re.match(r'[ekdcb]_((?!_adj($|_)).)*', key)
+        if title_match is not None:
+            title = title_match.group()
+            return (title in titles and not title.startswith('b_') and
+                    re.fullmatch(r'c_((?!_adj($|_)).)*', key) is None)
+        if key in keys_to_override:
+            return True
+        noble_match = re.fullmatch(noble_regex, key)
+        return noble_match is not None
+
+    def recurse(tree):
+        for n, v in tree:
+            if is_codename(n.val):
+                titles.add(n.val)
+                items = []
+                for n2, v2 in v:
+                    if n2.val in lt_keys:
+                        if isinstance(v2, Obj):
+                            value = ' '.join(s.val for s in v2)
+                        else:
+                            value = v2.val
+                        items.append((n2.val, value))
+                yield n.val, items
+                yield from recurse(v)
+
+    with tempfile.TemporaryDirectory() as td:
+        parser = SimpleParser()
+        parser.moddirs = [swmhpath]
+        prov_id, prov_title = get_province_id(parser)
+        max_provs = get_max_provinces(parser)
+        cultures, cult_groups = get_cultures(parser)
+        religions, rel_groups = get_religions(parser)
+        dynamics = get_dynamics(parser, cultures, prov_id)
+        vanilla = get_localisation()
+        swmh_loc = get_localisation(basedir=swmhpath)
+        localisation = get_localisation([swmhpath])
+        keys_to_override, keys_to_add, ul_titles = get_more_keys_to_override(
+            parser, localisation, max_provs, swmhpath)
+        keys_to_override.update(cultures, cult_groups, religions, rel_groups)
+        overridden_keys = set()
+        titles = set()
+        prev_dyn = collections.defaultdict(str)
+        orig_dyn = collections.defaultdict(str)
+        prev_lt = collections.defaultdict(str)
+        prev_loc = collections.defaultdict(str)
+
+        templates = rootpath / 'SED2/templates'
+        templates_sed2 = templates / 'SED2'
+        for path in files('common/dynasties/*', basedir=templates_sed2):
+            prev_dyn.update({int(row[0]): row[1].strip()
+                             for row in csv_rows(path)})
+        for path in files('common/landed_titles/*', basedir=templates_sed2):
+            prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
+                            for row in csv_rows(path)})
+        for path in files('localisation/*', basedir=templates_sed2):
+            prev_loc.update({row[0].strip(): row[1].strip()
+                             for row in csv_rows(path)})
+
+        gov_prefixes = get_gov_prefixes(parser)
+        noble_regex = make_noble_title_regex(cultures + cult_groups,
+            religions + rel_groups, ul_titles, gov_prefixes)
+
+        templates_t = pathlib.Path(td)
+        templates_t_sed2 = templates_t / 'SED2'
+        (templates_t_sed2 / 'common/dynasties').mkdir(parents=True)
+        (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
+        (templates_t_sed2 / 'localisation').mkdir(parents=True)
+        (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
+        (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
+        (templates_t / 'SED2+ARKO/common/dynasties').mkdir(parents=True)
+        swmh_files = set()
+        for inpath in files('localisation/*', basedir=swmhpath, reverse=True):
+            swmh_files.add(inpath.name)
+            outpath = templates_t_sed2 / inpath.relative_to(swmhpath)
+            out_rows = [
+                ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
+            col_width = [5, 8]
+            for row in csv_rows(inpath, comments=True):
+                try:
+                    if row[0]:
+                        if not row[0].startswith('#'):
+                            overridden_keys.add(row[0])
+                        if not row[0].startswith('b_'):
+                            if row[0].startswith('#'):
+                                row = [','.join(row)] + [''] * (len(row) - 1)
+                            else:
+                                col_width[0] = max(len(row[0]), col_width[0])
+                            out_row = [row[0],
+                                       prev_loc[row[0]],
+                                       row[1],
+                                       ','.join(dynamics[row[0]]),
+                                       vanilla.get(row[0], '')]
+                            out_rows.append(out_row)
+                except IndexError:
+                    continue
+            for i, out_row in enumerate(out_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+            with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+                csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+
+        lt_keys_not_cultures = [
+            'title', 'title_female', 'foa', 'title_prefix', 'short_name',
+            'name_tier', 'location_ruler_title', 'dynasty_title_names',
+            'male_names']
+        lt_keys = lt_keys_not_cultures + cultures
+
+        for inpath, tree in parser.parse_files('common/landed_titles/*',
+                                               memcache=True):
+            out_rows = [['#TITLE', 'KEY', 'SED', 'SWMH']]
+            col_width = [6, 3, 8]
+            for title, pairs in recurse(tree):
+                # here disabled for now: preservation of modifiers added to
+                # template and not found in landed_titles (slow)
+                # for (t, k), v in prev_lt.items():
+                #     if t == title and not any(k == k2 for k2, _ in pairs):
+                #         pairs.append((k, ''))
+                # also disabled: barony stuff
+                if not title.startswith('b_'):
+                    for key, value in sorted(
+                        pairs, key=lambda p: lt_keys.index(p[0])):
+                        out_row = [title, key, prev_lt[title, key], value]
+                        # don't allow changes to anything but dynamic names...
+                        # just for now
+                        if key in lt_keys_not_cultures:
+                            out_row[2] = out_row[3]
+                        out_rows.append(out_row)
+                        for col, width in enumerate(col_width[:-1]):
+                            col_width[col] = max(len(out_row[col]), width)
+            for i, out_row in enumerate(out_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+            outpath = (templates_t_sed2 / inpath.with_suffix('.csv').
+                       relative_to(inpath.parents[2]))
+            with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+                csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+            parser.flush(inpath)
+
+        override_rows = [
+            ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
+        col_width = [5, 8]
+        for key in keys_to_add:
+            out_row = [key, prev_loc[key], '', '', '', key]
+            override_rows.append(out_row)
+            col_width[0] = max(len(key), col_width[0])
+        for path in files('localisation/*', reverse=True):
+            if path.name not in swmh_files:
+                override_rows.append(['#' + path.name, '', '', '', ''])
+                for row in csv_rows(path):
+                    key, val = row[:2]
+                    if should_override(key) and key not in overridden_keys:
+                        out_row = [key,
+                                   prev_loc[key],
+                                   '',
+                                   ','.join(dynamics[key]),
+                                   val]
+                        override_rows.append(out_row)
+                        overridden_keys.add(key)
+                        col_width[0] = max(len(key), col_width[0])
+        for i, out_row in enumerate(override_rows):
+            if not out_row[0].startswith('#') or i == 0:
+                for col, width in enumerate(col_width):
+                    out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t_sed2 / 'localisation' / 'zz SED.csv'
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(override_rows)
+
+        # dynasties
+        dyn_chars = collections.defaultdict(list)
+        for _, tree in parser.parse_files('history/characters/*'):
+            for n, v in tree:
+                try:
+                    dyn_chars[v['dynasty'].val].append(str(n.val))
+                except KeyError:
+                    pass
+        dyn_ids = set()
+        swmh_rows = [
+            ['#ID', 'SED', 'SWMH', 'ARKO', 'CULTURE', 'CHARACTERS']]
+        vanilla_rows = [
+            ['#ID', 'SED', 'VANILLA', 'ARKO', 'CULTURE', 'CHARACTERS']]
+        #TODO: add arko column?
+        swmh_col_width = [3, 8]
+        vanilla_col_width = [3, 8]
+        for inpath, tree in parser.parse_files('common/dynasties/*'):
+            if swmhpath in inpath.parents:
+                out_rows = swmh_rows
+                col_width = swmh_col_width
+            else:
+                out_rows = vanilla_rows
+                col_width = vanilla_col_width
+            out_rows.append(['#' + inpath.name, '', '', '', ''])
+            for n, v in tree:
+                dyn_id = n.val
+                if dyn_id in dyn_ids:
+                    print('Duplicate dynasty ID {}'.format(dyn_id))
+                dyn_ids.add(dyn_id)
+                name = v['name'].val
+                orig_dyn[dyn_id] = name
+                try:
+                    culture = v['culture'].val
+                except KeyError:
+                    culture = ''
+                out_row = [str(dyn_id),
+                           prev_dyn[dyn_id],
+                           name,
+                           culture,
+                           '|'.join(str(i) for i in dyn_chars[dyn_id])]
+                out_rows.append(out_row)
+                col_width[0] = max(len(out_row[0]), col_width[0])
+        for out_rows, col_width in [(swmh_rows, swmh_col_width),
+                                    (vanilla_rows, vanilla_col_width)]:
+            for i, out_row in enumerate(out_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t_sed2 / 'common/dynasties/SWMH.csv'
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(swmh_rows)
+        outpath = templates_t_sed2 / 'common/dynasties/vanilla.csv'
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(vanilla_rows)
+
+        # ARKO
+        prev_arko_dyn = collections.defaultdict(str, prev_dyn)
+        inpath = templates / 'SED2+ARKO/common/dynasties/ARKO.csv'
+        prev_arko_dyn.update({int(row[0]): row[1].strip()
+                              for row in csv_rows(inpath)})
+        out_rows = [['#ID', 'SED+ARKO', 'SED', 'ARKO', 'OTHER', 'CULTURE',
+                     'CHARACTERS']]
+        col_width = [3, 8]
+        for path, tree in parser.parse_files('common/dynasties/*',
+                                             basedir=arkopath):
+            out_rows.append(['#' + path.name, '', '', '', '', '', ''])
+            for n, v in tree:
+                dyn_id = n.val
+                name = v['name'].val
+                try:
+                    culture = v['culture'].val
+                except KeyError:
+                    culture = ''
+                out_row = [str(dyn_id),
+                           prev_arko_dyn[dyn_id],
+                           prev_dyn[dyn_id],
+                           name,
+                           orig_dyn[dyn_id],
+                           culture,
+                           '|'.join(str(i) for i in dyn_chars[dyn_id])]
+                out_rows.append(out_row)
+                col_width[0] = max(len(out_row[0]), col_width[0])
+        for i, out_row in enumerate(out_rows):
+            if not out_row[0].startswith('#') or i == 0:
+                for col, width in enumerate(col_width):
+                    out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t / inpath.relative_to(templates)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(out_rows)
+
+        # VIET
+        overridden_keys = set()
+        prev_loc_viet = collections.defaultdict(str)
+        inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
+        prev_loc_viet.update({row[0].strip(): row[1].strip()
+                              for row in csv_rows(inpath)})
+        viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
+        col_width = [5, 8]
+        for path in files('localisation/*', basedir=vietpath, reverse=True):
+            viet_rows.append(['#' + path.name, '', '', '', '', ''])
+            for row in csv_rows(path):
+                key, val = row[:2]
+                if (should_override(key) and key not in overridden_keys and
+                    key not in swmh_loc):
+                    out_row = [key,
+                               prev_loc_viet[key],
+                               val,
+                               ','.join(dynamics[key]),
+                               prev_loc[key],
+                               vanilla.get(key, '')]
+                    viet_rows.append(out_row)
+                    overridden_keys.add(key)
+                    col_width[0] = max(len(key), col_width[0])
+            for i, out_row in enumerate(viet_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t / inpath.relative_to(templates)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(viet_rows)
+
+        # EMF
+        overridden_keys = set()
+        loc_emf = get_localisation([emfpath])
+        keys_to_override, _, ul_titles = get_more_keys_to_override(
+            parser, loc_emf, max_provs, emfpath, swmhpath, emfswmhpath,
+            extra=False)
+        keys_to_override.update(cultures, cult_groups, religions, rel_groups)
+        keys_to_add = ['Germania']
+        prev_loc_emf = collections.defaultdict(str)
+        inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
+        prev_loc_emf.update({row[0].strip(): row[1].strip()
+                             for row in csv_rows(inpath)})
+        gov_prefixes = get_gov_prefixes(parser, emfpath, swmhpath, emfswmhpath)
+        noble_regex = make_noble_title_regex(cultures + cult_groups,
+            religions + rel_groups, ul_titles, gov_prefixes)
+        for _, tree in parser.parse_files('common/landed_titles/*',
+                                          [emfpath], emfswmhpath):
+            # iterate for side effects (add to titles)
+            for _ in recurse(tree):
+                pass
+        emf_rows = [
+            ['#CODE', 'SED+EMF', 'EMF', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
+        col_width = [5, 8]
+        for key in keys_to_add:
+            out_row = [key, prev_loc_emf[key], key, '', '', '', '']
+            emf_rows.append(out_row)
+            col_width[0] = max(len(key), col_width[0])
+        for path in files('localisation/*', [emfswmhpath], basedir=emfpath,
+                          reverse=True):
+            emf_rows.append(['#' + path.name, '', '', '', '', ''])
+            for row in csv_rows(path):
+                key, val = row[:2]
+                if should_override(key) and key not in overridden_keys:
+                    out_row = [key,
+                               prev_loc_emf[key],
+                               val,
+                               swmh_loc.get(key, ''),
+                               ','.join(dynamics[key]),
+                               prev_loc[key],
+                               vanilla.get(key, '')]
+                    emf_rows.append(out_row)
+                    overridden_keys.add(key)
+                    col_width[0] = max(len(key), col_width[0])
+            for i, out_row in enumerate(emf_rows):
+                if not out_row[0].startswith('#') or i == 0:
+                    for col, width in enumerate(col_width):
+                        out_row[col] = out_row[col].ljust(width)
+        outpath = templates_t / inpath.relative_to(templates)
+        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
+            csv.writer(csvfile, dialect='ckii').writerows(emf_rows)
+
+        while templates.exists():
+            print('Removing old templates...')
+            shutil.rmtree(str(templates), ignore_errors=True)
+        shutil.copytree(str(templates_t), str(templates))
+
+if __name__ == '__main__':
+    main()

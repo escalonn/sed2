@@ -1,3 +1,5 @@
+# -*- ck2.landed_titles -*-
+
 # List of Titular Stem Duchies in the HRE by Darrigan
 # Landed_titles.txt now has d_burgau, d_oberbayern, d_styria, d_saxewittenberg and d_rheinfranken
 # Swabia
@@ -8,6 +10,7 @@ d_swabia = { # Schwaben
 	dignity = 100
 	allow = { always = no }
 }
+
 # Lower Lorraine
 d_lower_lorraine = { # Niederlothringen
 	color = { 37 114 179 }
@@ -16,6 +19,7 @@ d_lower_lorraine = { # Niederlothringen
 	dignity = 5
 	allow = { always = no }
 }
+
 # Bavaria
 d_bavaria = { # Baiern
 	color = { 56 67 158 }
@@ -24,6 +28,7 @@ d_bavaria = { # Baiern
 	dignity = 100
 	allow = { always = no }
 }
+
 # Saxony
 d_saxony = { # Sachsen
 	color = { 78 98 40 }
@@ -32,6 +37,7 @@ d_saxony = { # Sachsen
 	capital = 258 # Lüneburg
 	allow = { always = no }
 }
+
 # Franconia
 d_franconia = { # Franken
 	color = { 130 100 100 }

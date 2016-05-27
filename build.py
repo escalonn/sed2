@@ -6,25 +6,28 @@ import datetime
 import re
 import shutil
 import sys
-import time
-import ck2parser
+from ck2parser import (rootpath, files, csv_rows, is_codename, get_cultures,
+                       Obj, Pair, String, SimpleParser, FullParser)
+from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.2.0-BETA'
+version = 'v2.3.0-BETA'
 if no_provinces:
     version += '-noprovinces'
 
-rootpath = ck2parser.rootpath
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 minipath = rootpath / 'MiniSWMH/MiniSWMH'
-arkopath = rootpath / 'ARKOpack_Armoiries'
+arkopath = rootpath / 'ARKOpack/ARKOpack_Armoiries'
 sed2path = rootpath / 'SED2'
 
 province_loc_files = [
-    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
+    'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
 
+@print_time
 def main():
+    full_parser = FullParser()
+    full_parser.newlines_to_depth = 0
     templates = sed2path / 'templates'
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
@@ -56,11 +59,11 @@ def main():
     sed2 = {}
     keys_to_blank = set()
 
-    for path in ck2parser.files('localisation/*', basedir=swmhpath):
+    for path in files('localisation/*', basedir=swmhpath):
         swmh_files.add(path.name)
 
-    for inpath in ck2parser.files('*', basedir=templates_loc):
-        for row in ck2parser.csv_rows(inpath, comments=True):
+    for inpath in files('*', basedir=templates_loc):
+        for row in csv_rows(inpath, comments=True):
             key, val = row[0].strip(), row[1].strip()
             if not val:
                 if re.fullmatch(r' +', row[2]):
@@ -78,7 +81,7 @@ def main():
             sed2rows[0][:6] = [
                 '#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
             sed2rows[0][-1] = 'x'
-            for row in ck2parser.csv_rows(inpath):
+            for row in csv_rows(inpath):
                 if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
                     continue
                 sed2row = [''] * 15
@@ -91,11 +94,11 @@ def main():
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # EMF
-    inpath = templates_emf_loc / 'A A SED+EMF.csv'
+    inpath = templates_emf_loc / 'z~ SED+EMF.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
-    for row in ck2parser.csv_rows(inpath):
+    for row in csv_rows(inpath):
         if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
             continue
         sed2row = [''] * 15
@@ -109,11 +112,11 @@ def main():
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # VIET
-    inpath = templates_viet_loc / 'A A SED+VIET.csv'
+    inpath = templates_viet_loc / 'z~ SED+VIET.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
-    for row in ck2parser.csv_rows(inpath):
+    for row in csv_rows(inpath):
         if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
             continue
         sed2row = [''] * 15
@@ -126,7 +129,7 @@ def main():
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
-    for inpath in ck2parser.files('localisation/*', basedir=swmhpath):
+    for inpath in files('localisation/*', basedir=swmhpath):
         if no_provinces and inpath.name in province_loc_files:
             continue
         outpath = build_loc / inpath.name
@@ -134,7 +137,7 @@ def main():
         sed2rows[0][:6] = [
             '#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
         sed2rows[0][-1] = 'x'
-        for row in ck2parser.csv_rows(inpath):
+        for row in csv_rows(inpath):
             sed2row = [''] * 15
             sed2row[0] = row[0]
             sed2row[1] = sed2.get(row[0], row[1])
@@ -144,16 +147,18 @@ def main():
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
-    cultures = ck2parser.cultures(swmhpath, groups=False)
+    simple_parser = SimpleParser()
+    simple_parser.moddirs = [swmhpath]
+    cultures = get_cultures(simple_parser, groups=False)
     lt_keys = [
         'title', 'title_female', 'foa', 'title_prefix', 'short_name',
         'name_tier', 'location_ruler_title', 'dynasty_title_names',
         'male_names'] + cultures
-    ck2parser.fq_keys = cultures
+    full_parser.fq_keys = cultures
 
     def update_lt(tree, sed2):
         for n, v in tree:
-            if ck2parser.is_codename(n.val):
+            if is_codename(n.val):
                 if n.val.startswith('b_') and not no_provinces:
                     for p2 in reversed(v.contents):
                         if p2.key.val in cultures:
@@ -165,40 +170,34 @@ def main():
                     if sed2[n.val]:
                         index = next(
                             (i for i, (n2, _) in enumerate(v)
-                             if ck2parser.is_codename(n2.val)), len(v))
+                             if is_codename(n2.val)), len(v))
                         v.contents[index:index] = sed2[n.val]
-                        # propagates indent to children
-                        v.indent = v.indent
                 update_lt(v, sed2)
 
     sed2 = {}
-    for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
-                                              basedir=swmhpath):
+    for inpath, tree in full_parser.parse_files('common/landed_titles/*',
+                                                basedir=swmhpath):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2[template] = collections.defaultdict(list)
-        for row in ck2parser.csv_rows(template):
+        for row in csv_rows(template):
             title, key, val = (s.strip() for s in row[:3])
             if val:
                 if key in ['male_names', 'female_names']:
-                    val = ck2parser.Obj.from_iter(
-                        ck2parser.String.from_str(x.strip('"'))
-                        for x in re.findall(r'[^"\s]+|"[^"]*"', val))
-                sed2[template][title].append(ck2parser.Pair.from_kv(key, val))
-        # from pprint import pprint
-        # # pprint(tree.str())
-        # pprint(tree.contents[0].str())
+                    val = Obj([String(x.strip('"'))
+                               for x in re.findall(r'[^"\s]+|"[^"]*"', val)])
+                sed2[template][title].append(Pair.from_kv(key, val))
         update_lt(tree, sed2[template])
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
-    for inpath, tree in ck2parser.parse_files('common/landed_titles/*',
-                                              basedir=minipath):
+    for inpath, tree in full_parser.parse_files('common/landed_titles/*',
+                                                basedir=minipath):
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_mini_lt / inpath.name
         update_lt(tree, sed2[template])
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
     # dynasties
     ck2parser.fq_keys = ['name']
@@ -218,7 +217,7 @@ def main():
                 name.val = sed2[dyn_id]
         outpath = build_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
     # ARKO
     # sed2 carried over
@@ -239,16 +238,11 @@ def main():
                 name.val = sed2[dyn_id]
         outpath = build_arko_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str())
+            f.write(tree.str(full_parser))
 
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
         print('{} - {}'.format(version, datetime.date.today()), file=f)
 
 if __name__ == '__main__':
-    start_time = time.time()
-    try:
-        main()
-    finally:
-        end_time = time.time()
-        print('Time: {} s'.format(end_time - start_time))
+    main()

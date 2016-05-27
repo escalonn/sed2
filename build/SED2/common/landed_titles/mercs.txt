@@ -1,3 +1,5 @@
+# -*- ck2.landed_titles -*-
+
 d_band_of_the_brave = { # The brave band
 	color = { 91 183 102 }
 	color2 = { 255 255 255 }
@@ -15,7 +17,7 @@ d_band_of_the_brave = { # The brave band
 	strength_growth_per_century = 0.25
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			culture = saxon
 			culture = scottish
 			culture = anglonorse
@@ -29,6 +31,7 @@ d_band_of_the_brave = { # The brave band
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
 }
+
 d_band_of_the_red = { # Floti hinn rauði
 	color = { 101 0 0 }
 	color2 = { 255 255 255 }
@@ -46,7 +49,7 @@ d_band_of_the_red = { # Floti hinn rauði
 	strength_growth_per_century = 0.25
 	# Hire Trigger
 	allow = {
-		or = {
+		OR = {
 			culture_group = north_germanic
 			culture = norsegaelic
 			culture = anglonorse
@@ -55,6 +58,7 @@ d_band_of_the_red = { # Floti hinn rauði
 	title = DROTTINN
 	foa = CAPTAIN_FOA
 }
+
 d_black_gang = { # Arumer Zwarte Hoop
 	color = { 101 0 0 }
 	color2 = { 255 255 255 }
@@ -75,6 +79,7 @@ d_black_gang = { # Arumer Zwarte Hoop
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
 }
+
 d_ulfhedar = { # Úlfhéðnar
 	color = { 231 232 227 }
 	color2 = { 255 255 255 }
@@ -95,6 +100,7 @@ d_ulfhedar = { # Úlfhéðnar
 	title = DROTTINN
 	foa = CAPTAIN_FOA
 }
+
 d_valr = { # Valr
 	color = { 20 20 20 }
 	color2 = { 255 255 255 }
