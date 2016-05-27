@@ -320,10 +320,14 @@ def main():
                     pass
         dyn_ids = set()
         swmh_rows = [
-            ['#ID', 'SED', 'SWMH', 'ARKO', 'CULTURE', 'CHARACTERS']]
+            ['#ID', 'SED', 'SWMH', 'CULTURE', 'CHARACTERS']]
         vanilla_rows = [
-            ['#ID', 'SED', 'VANILLA', 'ARKO', 'CULTURE', 'CHARACTERS']]
+            ['#ID', 'SED', 'VANILLA', 'CULTURE', 'CHARACTERS']]
         #TODO: add arko column?
+        #swmh_rows = [
+        #    ['#ID', 'SED', 'SWMH', 'ARKO', 'CULTURE', 'CHARACTERS']]
+        #vanilla_rows = [
+        #    ['#ID', 'SED', 'VANILLA', 'ARKO', 'CULTURE', 'CHARACTERS']]
         swmh_col_width = [3, 8]
         vanilla_col_width = [3, 8]
         for inpath, tree in parser.parse_files('common/dynasties/*'):

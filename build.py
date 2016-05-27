@@ -7,7 +7,8 @@ import re
 import shutil
 import sys
 from ck2parser import (rootpath, files, csv_rows, is_codename, get_cultures,
-                       Obj, Pair, String, SimpleParser, FullParser)
+                       Obj, Pair, String, SimpleParser, FullParser,
+                       prepend_post_comment)
 from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
@@ -200,20 +201,20 @@ def main():
             f.write(tree.str(full_parser))
 
     # dynasties
-    ck2parser.fq_keys = ['name']
+    full_parser.fq_keys = ['name']
     sed2 = collections.defaultdict(str)
-    for path in ck2parser.files('common/dynasties/*', basedir=templates_sed2):
-        for row in ck2parser.csv_rows(path):
+    for path in files('common/dynasties/*', basedir=templates_sed2):
+        for row in csv_rows(path):
             dyn_id, name = int(row[0]), row[1].strip()
             # logic here concerns how dupe IDs are interpreted
             if name:
                 sed2[dyn_id] = name
-    for inpath, tree in ck2parser.parse_files('common/dynasties/*', swmhpath):
+    for inpath, tree in full_parser.parse_files('common/dynasties/*'):
         for n, v in tree:
             dyn_id = int(n.val)
             if sed2[dyn_id]:
                 name = v['name']
-                ck2parser.prepend_post_comment(name, name.val)
+                prepend_post_comment(name, name.val)
                 name.val = sed2[dyn_id]
         outpath = build_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
@@ -222,19 +223,19 @@ def main():
     # ARKO
     # sed2 carried over
     inpath = templates_arko_dyn / 'ARKO.csv'
-    for row in ck2parser.csv_rows(inpath):
+    for row in csv_rows(inpath):
         dyn_id, name = int(row[0]), row[1].strip()
         # logic here concerns how dupe IDs are interpreted
         # TEMPORARY: let SED definitions override blank SED+ARKO definitions
         if name:
             sed2[dyn_id] = name
-    for inpath, tree in ck2parser.parse_files('common/dynasties/*',
-                                              basedir=arkopath):
+    for inpath, tree in full_parser.parse_files('common/dynasties/*',
+                                                basedir=arkopath):
         for n, v in tree:
             dyn_id = int(n.val)
             if sed2[dyn_id]:
                 name = v['name']
-                ck2parser.prepend_post_comment(name, name.val)
+                prepend_post_comment(name, name.val)
                 name.val = sed2[dyn_id]
         outpath = build_arko_dyn / inpath.name
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
