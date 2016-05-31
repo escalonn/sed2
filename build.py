@@ -12,7 +12,7 @@ from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.2.2'
+version = 'v2.2.3-BETA'
 if no_provinces:
     version += '-noprovinces'
 
@@ -187,10 +187,11 @@ def main():
     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
                                                 basedir=minipath):
         template = templates_lt / inpath.with_suffix('.csv').name
-        outpath = build_mini_lt / inpath.name
-        update_tree(tree, sed2[template], lt_keys)
-        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str(full_parser))
+        if template in sed2:
+            outpath = build_mini_lt / inpath.name
+            update_tree(tree, sed2[template], lt_keys)
+            with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+                f.write(tree.str(full_parser))
 
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
