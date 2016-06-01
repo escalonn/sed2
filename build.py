@@ -195,10 +195,11 @@ def main():
     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
                                                 basedir=minipath):
         template = templates_lt / inpath.with_suffix('.csv').name
-        outpath = build_mini_lt / inpath.name
-        update_lt(tree, sed2[template])
-        with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-            f.write(tree.str(full_parser))
+        if template in sed2:
+            outpath = build_mini_lt / inpath.name
+            update_lt(tree, sed2[template])
+            with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
+                f.write(tree.str(full_parser))
 
     # dynasties
     full_parser.fq_keys = ['name']
