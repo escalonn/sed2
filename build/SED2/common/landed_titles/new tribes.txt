@@ -220,7 +220,7 @@ d_sorbs = { # Sorbs
 #	capital = 260 # Mecklenburg
 #	allow = { always = no }
 #}
-####
+##
 # Polish tribes
 #####
 d_lendians = { # Ledzianie # aka Lechs
@@ -1197,5 +1197,8 @@ k_hilal = { # Hilal
 	capital = 1352 # Qashtiliya # Qamuda
 	#tribe = yes
 	culture = bedouin_arabic
-	allow = { always = no }
+	allow = {
+		always = no
+		title_king_basic_allow = yes
+	}
 }
