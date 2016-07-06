@@ -7,7 +7,7 @@ imperial_baron_greek                                        ;Drungary;Droungario
 imperial_baron_female_greek                                 ;Countess;Komissa;;;;
 imperial_baron_title_ruler_consort_greek                    ;Drungary;Droungarios;;;;
 imperial_baron_title_ruler_consort_female_greek             ;Countess;Komissa;;;;
-imperial_count_greek                                        ;        ;Strategos;;;;
+imperial_count_greek                                        ;        ;Tourmarches;;;;
 imperial_count_female_greek                                 ;        ;Tourmarchissa;;;;
 imperial_count_title_ruler_consort_greek                    ;        ;Tourmarches;;;;
 imperial_count_title_ruler_consort_female_greek             ;        ;Tourmarchissa;;;;
@@ -448,7 +448,30 @@ imperial_baron_norman                                       ;Châtelain;Chatelain
 imperial_baron_female_norman                                ;Châtelaine;Chatelaine;;;;
 imperial_baron_title_ruler_consort_norman                   ;Châtelain;Chatelain;;;;
 imperial_baron_title_ruler_consort_female_norman            ;Châtelaine;Chatelaine;;;;
-imperial_barony_of_norman                                   ;Castellany of;Chatellenie of;;;;
+imperial_count_norman                                       ;Count   ;Counte;;;;
+imperial_count_title_ruler_consort_norman                   ;Count   ;Counte;;;;
+imperial_count_female_norman                                ;Countess;Countesse;;;;
+imperial_count_title_ruler_consort_female_norman            ;Countess;Countesse;;;;
+imperial_duke_norman                                        ;Duke    ;Duc;;;;
+imperial_duke_female_norman                                 ;Duchess ;Ducesse;;;;
+imperial_duke_title_ruler_consort_female_norman             ;Duchess ;Ducesse;;;;
+imperial_duke_title_ruler_consort_norman                    ;Duke    ;Duc;;;;
+imperial_king_norman                                        ;King    ;Roi;;;;
+imperial_king_title_ruler_consort_norman                    ;King    ;Roi;;;;
+imperial_emperor_norman                                     ;Emperor ;Emperur;;;;
+imperial_emperor_female_norman                              ;Empress ;Empereis;;;;
+imperial_emperor_title_ruler_consort_female_norman          ;Empress ;Empereis;;;;
+imperial_title_prince_norman                                ;        ;Prince;;;;
+imperial_title_prince_female_norman                         ;Princess;Princesse;;;;
+imperial_barony_of_norman                                   ;Castellany of;Chatellenie de;;;;
+imperial_county_norman                                      ;County  ;Counté;;;;
+imperial_county_of_norman                                   ;County of;Counté de;;;;
+imperial_duchy_norman                                       ;Duchy   ;Duchié;;;;
+imperial_duchy_of_norman                                    ;Duchy of;Duchié de;;;;
+imperial_kingdom_norman                                     ;Kingdom ;Roialme;;;;
+imperial_kingdom_of_norman                                  ;Kingdom of;Roialme de;;;;
+imperial_empire_norman                                      ;Empire  ;Empere;;;;
+imperial_empire_of_norman                                   ;Empire of;Empere de;;;;
 imperial_baron_polish                                       ;Castellan;Kasztelan;;;;
 imperial_baron_female_polish                                ;Castellan;Kasztelana;;;;
 imperial_baron_title_ruler_consort_polish                   ;Castellan;Kasztelan;;;;
@@ -1374,8 +1397,8 @@ imperial_kingdom_of_karluk                                  ;Khanate of;Khanluk;
 imperial_county_karluk                                      ;        ;Tutuqluk;;;;
 imperial_duchy_karluk                                       ;Yabguluq;Yabghuluk;;;;
 imperial_kingdom_karluk                                     ;Khanate ;Khanluk;;;;
-imperial_baron_turkmen                                      ;Overseer;Shahna;;;;
-imperial_count_turkmen                                      ;Wâli    ;Wálí;;;;
+imperial_baron_turkmen                                      ;Muqta   ;Muqta';;;;
+imperial_count_turkmen                                      ;Bey     ;Beg;;;;
 imperial_count_female_turkmen                               ;Begum   ;Bega;;;;
 imperial_count_title_ruler_consort_turkmen                  ;Bey     ;Beg;;;;
 imperial_count_title_ruler_consort_female_turkmen           ;Begum   ;Bega;;;;
@@ -1392,8 +1415,8 @@ imperial_emperor_female_turkmen                             ;        ;Sultana;;;
 imperial_emperor_title_ruler_consort_female_turkmen         ;        ;Sultana;;;;
 imperial_title_prince_turkmen                               ;        ;Malik;;;;
 imperial_title_prince_female_turkmen                        ;        ;Malika;;;;
-imperial_barony_of_turkmen                                  ;Muqta of;Muqta';;;;
-imperial_county_of_turkmen                                  ;Emirate of;Emirate;;;;
+imperial_barony_of_turkmen                                  ;Iqta‘ of;Iqta' of;;;;
+imperial_county_of_turkmen                                  ;Beylik of;Beglik of;;;;
 imperial_duchy_of_turkmen                                   ;Emirate of;Emirate;;;;
 imperial_kingdom_of_turkmen                                 ;Emirate of;Emirate;;;;
 imperial_empire_of_turkmen                                  ;Sultanate of;Sultanlik of;;;;
@@ -1722,6 +1745,17 @@ imperial_duchy_daylamite                                    ;Spah    ;Ispah;;;;
 imperial_duchy_of_daylamite                                 ;Spah of ;Ispah-e;;;;
 imperial_king_daylamite                                     ;Shah    ;Sháh;;;;
 imperial_emperor_daylamite                                  ;Shahanshah;Sháhansháh;;;;
+imperial_baron_adhari                                       ;Muqta   ;Muqtá';;;;
+imperial_count_adhari                                       ;Istandar;Ustandár;;;;
+imperial_count_female_adhari                                ;Istandar;Ustandáreh;;;;
+imperial_duke_adhari                                        ;Spahbed ;Ispahbadh;;;;
+imperial_duke_female_adhari                                 ;Spahbed ;Ispahbadheh;;;;
+imperial_county_adhari                                      ;Province;Ustan;;;;
+imperial_county_of_adhari                                   ;Province of;Ustan-e;;;;
+imperial_duchy_adhari                                       ;Spah    ;Ispah;;;;
+imperial_duchy_of_adhari                                    ;Spah of ;Ispah-e;;;;
+imperial_king_adhari                                        ;Shah    ;Sháh;;;;
+imperial_emperor_adhari                                     ;Shahanshah;Sháhansháh;;;;
 imperial_title_prince_pahlavi                               ;        ;Mirza;;;;
 imperial_baron_pahlavi                                      ;        ;Paygospan;;;;
 imperial_baron_female_pahlavi                               ;Paygospan;Paygospaneh;;;;
@@ -1749,7 +1783,7 @@ imperial_duchy_of_persian                                   ;Emirate of;Emirat-e
 imperial_duchy_persian                                      ;Emirate ;Emírát;;;;
 imperial_baron_khorasani                                    ;Rais    ;Ra'ís;;;;
 imperial_baron_female_khorasani                             ;Rais    ;Ra'iseh;;;;
-imperial_count_khorasani                                    ;Wâli    ;Wálí;;;;
+imperial_count_khorasani                                    ;Azad    ;Ázád;;;;
 imperial_count_female_khorasani                             ;Azad    ;Ázádeh;;;;
 imperial_duke_khorasani                                     ;        ;Emir;;;;
 imperial_duke_female_khorasani                              ;        ;Emira;;;;
@@ -1773,7 +1807,7 @@ imperial_duchy_of_tajik                                     ;Emirate of;Emirat-e
 imperial_duchy_tajik                                        ;Emirate ;Emírát;;;;
 imperial_baron_afghan                                       ;Rais    ;Ra'ís;;;;
 imperial_baron_female_afghan                                ;Rais    ;Ra'iseh;;;;
-imperial_count_afghan                                       ;Wâli    ;Wálí;;;;
+imperial_count_afghan                                       ;Azad    ;Azad;;;;
 imperial_count_female_afghan                                ;Azad    ;Azadeh;;;;
 imperial_duke_afghan                                        ;        ;Emir;;;;
 imperial_duke_female_afghan                                 ;        ;Emira;;;;
@@ -1833,6 +1867,16 @@ imperial_county_of_baloch                                   ;Province of;Istan-e
 imperial_county_baloch                                      ;Province;Istan;;;;
 imperial_duchy_of_baloch                                    ;Spah of ;Spah-e;;;;
 imperial_duchy_baloch                                       ;        ;Spah;;;;
+imperial_baron_khotanese                                    ;Baron   ;Pharsha;;;;
+imperial_baron_female_khotanese                             ;Baron   ;Pharsha;;;;
+imperial_count_khotanese                                    ;        ;Amacha;;;;
+imperial_count_female_khotanese                             ;        ;Amacha;;;;
+imperial_duke_khotanese                                     ;Commander;Hinajha;;;;
+imperial_duke_female_khotanese                              ;Queen   ;Rrine;;;;
+imperial_county_of_khotanese                                ;        ;Commandery of;;;;
+imperial_county_khotanese                                   ;        ;Commandery;;;;
+imperial_duchy_of_khotanese                                 ;Kingdom of;Kshira of;;;;
+imperial_duchy_khotanese                                    ;Kingdom ;Kshira;;;;
 imperial_duke_bolghar                                       ;Elteber ;Yil-Tawar;;;;
 imperial_duke_khazar                                        ;Elteber ;Yil-Tawar;;;;
 imperial_duke_avar                                          ;Elteber ;Yil-Tawar;;;;
@@ -2285,18 +2329,18 @@ imperial_job_chancellor_arabic                              ;        ;Grand Vizi
 imperial_emperor                                            ;        ;Emperor;;;;
 imperial_king                                               ;        ;Viceroy;;;;
 imperial_duke                                               ;        ;Minor Viceroy;;;;
-imperial_count                                              ;        ;Count Viceroy;;;;
-imperial_baron                                              ;        ;Baron Viceroy;;;;
+imperial_count                                              ;        ;Count;;;;
+imperial_baron                                              ;        ;Baron;;;;
 imperial_emperor_female                                     ;        ;Empress;;;;
 imperial_king_female                                        ;        ;Vicereine;;;;
 imperial_duke_female                                        ;        ;Minor Vicereine;;;;
-imperial_count_female                                       ;        ;Count Vicereine;;;;
-imperial_baron_female                                       ;        ;Baron Vicereine;;;;
+imperial_count_female                                       ;        ;Countess;;;;
+imperial_baron_female                                       ;        ;Baroness;;;;
 imperial_empire_of                                          ;        ;Empire of;;;;
 imperial_kingdom_of                                         ;        ;Viceroyalty of;;;;
 imperial_duchy_of                                           ;        ;Minor Viceroyalty of;;;;
-imperial_county_of                                          ;        ;Viceroyal County of;;;;
-imperial_barony_of                                          ;        ;Viceroyal Barony of;;;;
+imperial_county_of                                          ;        ;County of;;;;
+imperial_barony_of                                          ;        ;Barony of;;;;
 imperial_emperor_altaic                                     ;        ;Khagan;;;;
 imperial_emperor_female_altaic                              ;        ;Khatun;;;;
 imperial_king_altaic                                        ;        ;Khan;;;;
@@ -2369,6 +2413,16 @@ imperial_job_spymaster_aztec                                ;        ;Tillancalq
 imperial_job_spiritual_aztec                                ;Sahagún ;Sahagun;;;;
 imperial_title_imperial_eunuch                              ;        ;Parakoimomenos;;;;
 imperial_title_court_eunuch                                 ;        ;Court Eunuch;;;;
+imperial_duchy_of_byzantine                                 ;Theme of;Thema;;;;
+imperial_kingdom_of_persian                                 ;Emirate of;Emirat-e;;;;
+imperial_kingdom_of_khorasani                               ;Emirate of;Emirat-e;;;;
+imperial_kingdom_of_tajik                                   ;Emirate of;Emirat-e;;;;
+imperial_kingdom_of_afghan                                  ;Emirate of;Emirat-e;;;;
+imperial_duke_female_byzantine                              ;Strategos;Strategitissa;;;;
+imperial_king_female_byzantine                              ;Exarch  ;Exarchessa;;;;
+imperial_duke_byzantine                                     ;        ;Strategos;;;;
+imperial_king_byzantine                                     ;        ;Exarch;;;;
+imperial_kingdom_of_byzantine                               ;        ;Exarchate of;;;;
 #zz~hip_core.csv;;;;;
 #zz~hip.csv;;;;;
 e_hip                                                       ;        ;Duat;;;;
@@ -2383,50 +2437,64 @@ e_null_adj                                                  ;        ;;;;;
 #zz~emf_siege.csv;;;;;
 #zz~emf_rr.csv;;;;;
 #zz~emf_religion.csv;;;;;
-miaphysite                                                  ;        ;Coptic;;;Miaphysite;Miaphysite
-d_apostolic                                                 ;Armenian Apostolic Church;The Apostolic Church;;;;
-d_apostolic_adj                                             ;Armenian Apostolic;Apostolic;;;;
-d_army_light                                                ;        ;Army of Light;;;;
-d_army_light_adj                                            ;        ;Forces of Light;;;;
-d_army_lucifer                                              ;        ;Army of Lucifer;;;;
-d_army_lucifer_adj                                          ;        ;Luciferian;;;;
-d_bogomilist                                                ;Bogomil Church;Bogomilist Church;;;;
-d_bogomilist_adj                                            ;Bogomil ;Bogomilist;;;;
-d_cathar                                                    ;Cathar Patriarchy;The Cathar Patriarchy;;;;
-d_cathar_adj                                                ;        ;Patriarchal;;;;
-d_druze                                                     ;Druze Sheikhdom;The Druze Shaykhdom;;;;
-d_druze_adj                                                 ;        ;Druze;;;;
-d_ismaili                                                   ;Isma‘ili Caliphate;The Isma'ili Caliphate;;;;
-d_ismaili_adj                                               ;Isma‘ili;Isma'ili;;;;
-d_knights_saint_mark                                        ;        ;Knights of Saint Mark;;;;
-d_knights_saint_mark_adj                                    ;        ;Saint Mark;;;;
-d_lollard                                                   ;        ;Church of Lollardy;;;;
-d_lollard_adj                                               ;        ;Lollard;;;;
-d_mahdiyya                                                  ;Mahdist Caliphate;The Mahdite Caliphate;;;;
-d_mahdiyya_adj                                              ;Mahdist ;Mahdite;;;;
-d_manichean                                                 ;Manichaean Church;Manichaean Church;;;;
-d_manichean_adj                                             ;        ;Manichaean;;;;
-d_maronite                                                  ;        ;Maronite Church;;;;
-d_maronite_adj                                              ;        ;Maronite;;;;
-d_mazdaki                                                   ;Mazdakite Priesthood;Mazdaki Priesthood;;;;
-d_mazdaki_adj                                               ;Mazdakite;Mazdaki;;;;
-d_messalian                                                 ;Euchite Patriarchy;The Euchite Patriarchy;;;;
-d_messalian_adj                                             ;        ;Euchite;;;;
-d_nabawiyya                                                 ;Nabawite Malikate;The Nabawite Malikate;;;;
-d_nabawiyya_adj                                             ;        ;Nabawite;;;;
-d_saint_blaise                                              ;        ;Order of St. Blaise;;;;
-d_saint_blaise_adj                                          ;        ;St. Blaise;;;;
-d_shiite                                                    ;Shi‘ite Imamate;The Shi'a Imamate;;;Shi‘ite Caliphate;The Shia Caliphate
-d_shiite_adj                                                ;Shi‘ite ;Shi'a;;;Caliphal;Caliphal
-d_waldensian                                                ;        ;Waldensian Church;;;;
-d_waldensian_adj                                            ;        ;Waldensian;;;;
-d_zaydi                                                     ;Zaydi Caliphate;The Zaydi Caliphate;;;;
-d_zaydi_adj                                                 ;        ;Zaydi;;;;
-temple_barony_of_druze                                      ;Khalwa of;Khalwat of;;;Khalwa of;Khalwat of
-temple_baron_manichean                                      ;        ;Bishop;;;Verethragna;Vahram
-temple_barony_of_manichean                                  ;        ;Bishopric of;;;;
-temple_baron_yazidi                                         ;        ;Sheikh;;;;
-temple_barony_of_yazidi                                     ;        ;Sheikhdom of;;;Temple of;Temple of
+apostolic                                                   ;        ;Apostolic;Apostolic;;Armenian Apostolic;
+haruri                                                      ;        ;Haruri;Haruri;;;
+ismaili                                                     ;        ;Isma'ili;Isma'ili;;Isma‘ili;
+mahdiyya                                                    ;        ;Mahdite;Mahdite;;Mahdist;
+mandaean                                                    ;        ;Mandaean;Mandaean;;;
+maronite                                                    ;        ;Maronite;Maronite;;;
+miaphysite                                                  ;        ;Coptic;Coptic;;;Miaphysite
+nabawiyya                                                   ;        ;Nabawite;Nabawite;;;
+qarmatian                                                   ;        ;Qarmati;Qarmati;;Qarmatian;
+tondrakian                                                  ;        ;Tondrakian;Tondrakian;;;
+waqifi                                                      ;        ;Waqifite;Waqifite;;;
+zaydi                                                       ;        ;Zaydi;Zaydi;;;
+zurvanist                                                   ;        ;Zurvanist;Zurvanist;;Zurvanite;
+d_apostolic                                                 ;        ;The Apostolic Church;The Apostolic Church;;Armenian Apostolic Church;
+d_apostolic_adj                                             ;        ;Apostolic;Apostolic;;Armenian Apostolic;
+d_army_light                                                ;        ;Army of Light;Army of Light;;;
+d_army_light_adj                                            ;        ;Forces of Light;Forces of Light;;;
+d_army_lucifer                                              ;        ;Army of Lucifer;Army of Lucifer;;;
+d_army_lucifer_adj                                          ;        ;Luciferian;Luciferian;;;
+d_bogomilist                                                ;        ;Bogomilist Church;Bogomilist Church;;Bogomil Church;
+d_bogomilist_adj                                            ;        ;Bogomilist;Bogomilist;;Bogomil;
+d_cathar                                                    ;        ;The Cathar Patriarchy;The Cathar Patriarchy;;Cathar Patriarchy;
+d_cathar_adj                                                ;        ;Patriarchal;Patriarchal;;;
+d_druze                                                     ;        ;The Druze Shaykhdom;The Druze Shaykhdom;;Druze Sheikhdom;
+d_druze_adj                                                 ;        ;Druze;Druze;;;
+d_ismaili                                                   ;        ;The Isma'ili Caliphate;The Isma'ili Caliphate;;Isma‘ili Caliphate;
+d_ismaili_adj                                               ;        ;Isma'ili;Isma'ili;;Isma‘ili;
+d_knights_saint_mark                                        ;        ;Knights of Saint Mark;Knights of Saint Mark;;;
+d_knights_saint_mark_adj                                    ;        ;Saint Mark;Saint Mark;;;
+d_lollard                                                   ;        ;Church of Lollardy;Church of Lollardy;;;
+d_lollard_adj                                               ;        ;Lollard;Lollard;;;
+d_mahdiyya                                                  ;        ;The Mahdite Caliphate;The Mahdite Caliphate;;Mahdist Caliphate;
+d_mahdiyya_adj                                              ;        ;Mahdite;Mahdite;;Mahdist;
+d_manichean                                                 ;        ;Manichaean Church;Manichaean Church;;Manichaean Church;
+d_manichean_adj                                             ;        ;Manichaean;Manichaean;;;
+d_maronite                                                  ;        ;Maronite Church;Maronite Church;;;
+d_maronite_adj                                              ;        ;Maronite;Maronite;;;
+d_mazdaki                                                   ;        ;Mazdaki Priesthood;Mazdaki Priesthood;;Mazdakite Priesthood;
+d_mazdaki_adj                                               ;        ;Mazdaki;Mazdaki;;Mazdakite;
+d_messalian                                                 ;        ;The Euchite Patriarchy;The Euchite Patriarchy;;Euchite Patriarchy;
+d_messalian_adj                                             ;        ;Euchite;Euchite;;;
+d_nabawiyya                                                 ;        ;The Nabawite Malikate;The Nabawite Malikate;;Nabawite Malikate;
+d_nabawiyya_adj                                             ;        ;Nabawite;Nabawite;;;
+d_saint_blaise                                              ;        ;Order of St. Blaise;Order of St. Blaise;;;
+d_saint_blaise_adj                                          ;        ;St. Blaise;St. Blaise;;;
+d_shiite                                                    ;        ;The Shi'a Imamate;The Shi'a Imamate;;Shi‘ite Imamate;The Shia Caliphate
+d_shiite_adj                                                ;        ;Shi'a;Shi'a;;Shi‘ite;Caliphal
+d_waldensian                                                ;        ;Waldensian Church;Waldensian Church;;;
+d_waldensian_adj                                            ;        ;Waldensian;Waldensian;;;
+d_zaydi                                                     ;        ;The Zaydi Caliphate;The Zaydi Caliphate;;Zaydi Caliphate;
+d_zaydi_adj                                                 ;        ;Zaydi;Zaydi;;;
+temple_barony_of_druze                                      ;        ;Khalwat of;Khalwat of;;Khalwa of;Khalwat of
+temple_baron_mandaean                                       ;        ;Tarmid;Tarmid;;Priest;
+temple_barony_of_mandaean                                   ;        ;Mandi of;Mandi of;;;
+temple_baron_manichean                                      ;        ;Bishop;Bishop;;;Vahram
+temple_barony_of_manichean                                  ;        ;Bishopric of;Bishopric of;;;
+temple_baron_yazidi                                         ;        ;Sheikh;Sheikh;;;
+temple_barony_of_yazidi                                     ;        ;Sheikhdom of;Sheikhdom of;;;Temple of
 #zz~emf_regional.csv;;;;;
 #zz~emf_prisoner.csv;;;;;
 #zz~emf_nwo.csv;;;;;
@@ -2490,6 +2558,14 @@ e_hre_french                                                ;Holy Roman Empire;S
 e_hre_french_adj                                            ;Imperial;Impérial;;;;
 #zz~emf_cb.csv;;;;;
 #zz~emf_buildings.csv;;;;;
+ca_culture_indian_0                                         ;        ;War Elephant Pens;;;;
+ca_culture_indian_5                                         ;        ;War Elephant Pens;;;;
+ca_culture_germanic_0                                       ;        ;Germanic Infantry Barracks;;;;
+ca_culture_germanic_5                                       ;        ;Germanic Infantry Barracks;;;;
+ca_culture_pictish_0                                        ;        ;Hall of War;;;;
+ca_culture_pictish_5                                        ;        ;Hall of War;;;;
+ca_culture_suebi_0                                          ;        ;Free Warrior Camp;;;;
+ca_culture_suebi_5                                          ;        ;Free Warrior Camp;;;;
 #zz~emf_autolander.csv;;;;;
 #zz~emf_ambitions.csv;;;;;
 #zz~emf_adventurer.csv;;;;;
@@ -2539,6 +2615,116 @@ ct_trade_post_2                                             ;        ;Center of 
 ct_trade_post_3                                             ;        ;Large Center of Trade;;;;
 ct_trade_post_4                                             ;        ;Huge Center of Trade;;;;
 ct_trade_post_5                                             ;        ;Gargantuan Center of Trade;;;;
+ca_culture_saxon_english_0                                  ;Longbow Range;Long Bow Range;;;;
+ca_culture_saxon_english_1                                  ;        ;Long Bow Range;Longbow Range;;Longbow Range;Longbow Range
+ca_culture_saxon_english_2                                  ;        ;Long Bow Range;Longbow Range;;Longbow Range;Longbow Range
+ca_culture_saxon_english_3                                  ;        ;Long Bow Range;Longbow Range;;Longbow Range;Longbow Range
+ca_culture_saxon_english_4                                  ;        ;Long Bow Range;Longbow Range;;Longbow Range;Longbow Range
+ca_culture_saxon_english_5                                  ;Longbow Range;Long Bow Range;;;;
+ca_culture_scottish_0                                       ;Sheltron Training Ground;Schiltron Training Ground;;;;
+ca_culture_scottish_1                                       ;        ;Schiltron Training Ground;Schiltron Training Ground;;Sheltron Training Ground;Schiltron Training Ground
+ca_culture_scottish_2                                       ;        ;Schiltron Training Ground;Schiltron Training Ground;;Sheltron Training Ground;Schiltron Training Ground
+ca_culture_scottish_3                                       ;        ;Schiltron Training Ground;Schiltron Training Ground;;Sheltron Training Ground;Schiltron Training Ground
+ca_culture_scottish_4                                       ;        ;Schiltron Training Ground;Schiltron Training Ground;;Sheltron Training Ground;Schiltron Training Ground
+ca_culture_scottish_5                                       ;Sheltron Training Ground;Schiltron Training Ground;;;;
+ca_culture_group_baltic_0                                   ;        ;Warrior Gathering Ground;;;;
+ca_culture_group_baltic_1                                   ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
+ca_culture_group_baltic_2                                   ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
+ca_culture_group_baltic_3                                   ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
+ca_culture_group_baltic_4                                   ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
+ca_culture_group_baltic_5                                   ;        ;Warrior Gathering Ground;;;;
+ca_culture_group_altaic_0                                   ;        ;Riding Grounds;;;;
+ca_culture_group_altaic_1                                   ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
+ca_culture_group_altaic_2                                   ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
+ca_culture_group_altaic_3                                   ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
+ca_culture_group_altaic_4                                   ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
+ca_culture_group_altaic_5                                   ;        ;Riding Grounds;;;;
+ca_culture_frank_norman_german_0                            ;        ;Jousting Lists;;;;
+ca_culture_frank_norman_german_1                            ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
+ca_culture_frank_norman_german_2                            ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
+ca_culture_frank_norman_german_3                            ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
+ca_culture_frank_norman_german_4                            ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
+ca_culture_frank_norman_german_5                            ;        ;Jousting Lists;;;;
+ca_culture_group_iberian_0                                  ;Knight Training Ground;Caballero Training Ground;;;;
+ca_culture_group_iberian_1                                  ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
+ca_culture_group_iberian_2                                  ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
+ca_culture_group_iberian_3                                  ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
+ca_culture_group_iberian_4                                  ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
+ca_culture_group_iberian_5                                  ;Knight Training Ground;Caballero Training Ground;;;;
+ca_culture_italian_0                                        ;Cavalry Training Ground;Cavalleria Training Ground;;;;
+ca_culture_italian_1                                        ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_2                                        ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_3                                        ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_4                                        ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_5                                        ;Cavalry Training Ground;Cavalleria Training Ground;;;;
+ca_culture_italian_cavalry_desc                             ;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;Elite Italian mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;;;;
+ca_culture_russian_0                                        ;        ;Druzhina Training Ground;;;;
+ca_culture_russian_5                                        ;        ;Druzhina Training Ground;;;;
+ca_culture_group_north_germanic_0                           ;Housecarl Training Ground;Huscarl Training Ground;;;;
+ca_culture_group_north_germanic_5                           ;Housecarl Training Ground;Huscarl Training Ground;;;;
+ca_culture_hungarian_0                                      ;        ;Hussar Training Ground;;;;
+ca_culture_hungarian_5                                      ;        ;Hussar Training Ground;;;;
+ca_culture_group_arabic_0                                   ;        ;Camel Training Grounds;;;;
+ca_culture_group_arabic_1                                   ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_2                                   ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_3                                   ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_4                                   ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_5                                   ;        ;Camel Training Grounds;;;;
+ca_culture_group_byzantine_0                                ;        ;Cataphract Training Ground;;;;
+ca_culture_group_byzantine_5                                ;        ;Cataphract Training Ground;;;;
+ca_culture_irish_0                                          ;        ;Gallowglass Training Ground;;;;
+ca_culture_irish_5                                          ;        ;Gallowglass Training Ground;;;;
+ca_culture_ethiopian_0                                      ;        ;Ethiopian Drilling Grounds;;;;
+ca_culture_ethiopian_5                                      ;        ;Ethiopian Drilling Grounds;;;;
+ca_culture_west_african_0                                   ;        ;Horon Warrior Lodge;;;;
+ca_culture_west_african_5                                   ;        ;Horon Warrior Lodge;;;;
+ca_culture_group_south_slavic_0                             ;Hussar Training Ground;Gusar Training Ground;;;;
+ca_culture_group_south_slavic_5                             ;Hussar Training Ground;Gusar Training Ground;;;;
+ca_culture_croatia_0                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_1                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_2                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_3                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_4                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_5                                        ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_1_desc                                   ;        ;The southern Slavic nations trained powerful heavy infantry.;;;;
+ca_culture_dutch_0                                          ;        ;Goedendag Militia Quarters;;;;
+ca_culture_dutch_1                                          ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
+ca_culture_dutch_2                                          ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
+ca_culture_dutch_3                                          ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
+ca_culture_dutch_4                                          ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
+ca_culture_dutch_5                                          ;        ;Goedendag Militia Quarters;;;;
+ca_culture_basque_0                                         ;        ;Kuartela;;;;
+ca_culture_basque_1                                         ;        ;Kuartela;;;;
+ca_culture_basque_2                                         ;        ;Kuartela;;;;
+ca_culture_basque_3                                         ;        ;Kuartela;;;;
+ca_culture_basque_4                                         ;        ;Kuartela;;;;
+ca_culture_basque_5                                         ;        ;Kuartela;;;;
+ca_culture_basque_1_desc                                    ;        ;The Basque were renowned for their powerful heavy infantry.;;;;
+ca_culture_jewish_0                                         ;        ;Jewish Heavy Infantry Barracks;;;;
+ca_culture_jewish_5                                         ;        ;Jewish Heavy Infantry Barracks;;;;
+ca_culture_nahuatl_0                                        ;        ;Jaguar Warrior Lodge;;;;
+ca_culture_nahuatl_5                                        ;        ;Jaguar Warrior Lodge;;;;
+ca_culture_portuguese_galician_andalusian_0                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_1                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_2                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_3                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_4                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_5                 ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_desc              ;        ;Lightly-armored cavalry train here in the art of flanking and peppering the enemy with arrows and javelins, softening them before the heavier elements of the army charge the lines.;;;;
+ca_culture_group_north_african_0                            ;        ;Camel Riding Grounds;;;;
+ca_culture_group_north_african_1                            ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_2                            ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_3                            ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_4                            ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_5                            ;        ;Camel Riding Grounds;;;;
+ca_culture_group_north_african_1_desc                       ;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins..;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren't slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren’t slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;
+ca_culture_catalan_1                                        ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_2                                        ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_3                                        ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_4                                        ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_5                                        ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
+ca_culture_catalan_0                                        ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
+ca_culture_catalan_1_desc                                   ;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;
 #zy~PB_SWMH_retinues.csv;;;;;
 RETTYPE_CUL_KARANTANCI                                      ;        ;Vitez;Vitez;;Knight;
 RETTYPE_CUL_POMMERANIAN                                     ;        ;Druzyna;Druzyna;;Druzhina;
@@ -2579,8 +2765,9 @@ RETTYPE_CUL_ARMENIAN                                        ;        ;Naxarar;Na
 RETTYPE_CUL_BASQUE                                          ;        ;Zaldun;Zaldun;;Knight;
 RETTYPE_CUL_ESTONIAN                                        ;        ;Malev;Malev;;Malev;
 RETTYPE_CUL_ROMAN                                           ;        ;Praetorianus;Praetoriani;;Praetorian Guard;
-RETTYPE_CUL_AVAR                                            ;        ;Sclavinia;Sclavinia;;Sclaveni;
 RETTYPE_CUL_NORSE                                           ;        ;Heimþegi;Heimþegi;;Housecarl;
+RETTYPE_CUL_VISIGOTHIC                                      ;Visigoth;Vesi;;;;
+RETTYPE_CUL_NORTHAFR                                        ;A-Mazigh;a-Mazigh;;;;
 #zy~PB_CatholicSchism.csv;;;;;
 #zy~PB_CBs.csv;;;;;
 #emf_dynlevy.csv;;;;;

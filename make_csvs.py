@@ -336,7 +336,7 @@ def main():
         overridden_keys = set()
         loc_emf = get_localisation([emfpath])
         keys_to_override, _, ul_titles = get_more_keys_to_override(
-            parser, loc_emf, max_provs, emfpath, swmhpath, emfswmhpath,
+            parser, loc_emf, max_provs, swmhpath, emfpath, emfswmhpath,
             extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         keys_to_add = ['Germania']
@@ -344,11 +344,11 @@ def main():
         inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
-        gov_prefixes = get_gov_prefixes(parser, emfpath, swmhpath, emfswmhpath)
+        gov_prefixes = get_gov_prefixes(parser, swmhpath, emfpath, emfswmhpath)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
         for _, tree in parser.parse_files('common/landed_titles/*',
-                                          [emfpath], emfswmhpath):
+                                          [emfswmhpath], emfpath):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass

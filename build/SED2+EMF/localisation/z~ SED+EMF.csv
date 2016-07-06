@@ -342,7 +342,29 @@ imperial_baron_norman;Châtelain;;;;;;;;;;;;;x
 imperial_baron_female_norman;Châtelaine;;;;;;;;;;;;;x
 imperial_baron_title_ruler_consort_norman;Châtelain;;;;;;;;;;;;;x
 imperial_baron_title_ruler_consort_female_norman;Châtelaine;;;;;;;;;;;;;x
+imperial_count_norman;Count;;;;;;;;;;;;;x
+imperial_count_title_ruler_consort_norman;Count;;;;;;;;;;;;;x
+imperial_count_female_norman;Countess;;;;;;;;;;;;;x
+imperial_count_title_ruler_consort_female_norman;Countess;;;;;;;;;;;;;x
+imperial_duke_norman;Duke;;;;;;;;;;;;;x
+imperial_duke_female_norman;Duchess;;;;;;;;;;;;;x
+imperial_duke_title_ruler_consort_female_norman;Duchess;;;;;;;;;;;;;x
+imperial_duke_title_ruler_consort_norman;Duke;;;;;;;;;;;;;x
+imperial_king_norman;King;;;;;;;;;;;;;x
+imperial_king_title_ruler_consort_norman;King;;;;;;;;;;;;;x
+imperial_emperor_norman;Emperor;;;;;;;;;;;;;x
+imperial_emperor_female_norman;Empress;;;;;;;;;;;;;x
+imperial_emperor_title_ruler_consort_female_norman;Empress;;;;;;;;;;;;;x
+imperial_title_prince_female_norman;Princess;;;;;;;;;;;;;x
 imperial_barony_of_norman;Castellany of;;;;;;;;;;;;;x
+imperial_county_norman;County;;;;;;;;;;;;;x
+imperial_county_of_norman;County of;;;;;;;;;;;;;x
+imperial_duchy_norman;Duchy;;;;;;;;;;;;;x
+imperial_duchy_of_norman;Duchy of;;;;;;;;;;;;;x
+imperial_kingdom_norman;Kingdom;;;;;;;;;;;;;x
+imperial_kingdom_of_norman;Kingdom of;;;;;;;;;;;;;x
+imperial_empire_norman;Empire;;;;;;;;;;;;;x
+imperial_empire_of_norman;Empire of;;;;;;;;;;;;;x
 imperial_baron_polish;Castellan;;;;;;;;;;;;;x
 imperial_baron_female_polish;Castellan;;;;;;;;;;;;;x
 imperial_baron_title_ruler_consort_polish;Castellan;;;;;;;;;;;;;x
@@ -991,14 +1013,14 @@ imperial_duchy_of_karluk;Yabguluq of;;;;;;;;;;;;;x
 imperial_kingdom_of_karluk;Khanate of;;;;;;;;;;;;;x
 imperial_duchy_karluk;Yabguluq;;;;;;;;;;;;;x
 imperial_kingdom_karluk;Khanate;;;;;;;;;;;;;x
-imperial_baron_turkmen;Overseer;;;;;;;;;;;;;x
-imperial_count_turkmen;Wâli;;;;;;;;;;;;;x
+imperial_baron_turkmen;Muqta;;;;;;;;;;;;;x
+imperial_count_turkmen;Bey;;;;;;;;;;;;;x
 imperial_count_female_turkmen;Begum;;;;;;;;;;;;;x
 imperial_count_title_ruler_consort_turkmen;Bey;;;;;;;;;;;;;x
 imperial_count_title_ruler_consort_female_turkmen;Begum;;;;;;;;;;;;;x
 imperial_emperor_turkmen;Sultan al-Muazzam;;;;;;;;;;;;;x
-imperial_barony_of_turkmen;Muqta of;;;;;;;;;;;;;x
-imperial_county_of_turkmen;Emirate of;;;;;;;;;;;;;x
+imperial_barony_of_turkmen;Iqta‘ of;;;;;;;;;;;;;x
+imperial_county_of_turkmen;Beylik of;;;;;;;;;;;;;x
 imperial_duchy_of_turkmen;Emirate of;;;;;;;;;;;;;x
 imperial_kingdom_of_turkmen;Emirate of;;;;;;;;;;;;;x
 imperial_empire_of_turkmen;Sultanate of;;;;;;;;;;;;;x
@@ -1323,6 +1345,17 @@ imperial_duchy_daylamite;Spah;;;;;;;;;;;;;x
 imperial_duchy_of_daylamite;Spah of;;;;;;;;;;;;;x
 imperial_king_daylamite;Shah;;;;;;;;;;;;;x
 imperial_emperor_daylamite;Shahanshah;;;;;;;;;;;;;x
+imperial_baron_adhari;Muqta;;;;;;;;;;;;;x
+imperial_count_adhari;Istandar;;;;;;;;;;;;;x
+imperial_count_female_adhari;Istandar;;;;;;;;;;;;;x
+imperial_duke_adhari;Spahbed;;;;;;;;;;;;;x
+imperial_duke_female_adhari;Spahbed;;;;;;;;;;;;;x
+imperial_county_adhari;Province;;;;;;;;;;;;;x
+imperial_county_of_adhari;Province of;;;;;;;;;;;;;x
+imperial_duchy_adhari;Spah;;;;;;;;;;;;;x
+imperial_duchy_of_adhari;Spah of;;;;;;;;;;;;;x
+imperial_king_adhari;Shah;;;;;;;;;;;;;x
+imperial_emperor_adhari;Shahanshah;;;;;;;;;;;;;x
 imperial_baron_female_pahlavi;Paygospan;;;;;;;;;;;;;x
 imperial_count_female_pahlavi;Istandar;;;;;;;;;;;;;x
 imperial_duke_female_pahlavi;Spahbed;;;;;;;;;;;;;x
@@ -1341,7 +1374,7 @@ imperial_duchy_of_persian;Emirate of;;;;;;;;;;;;;x
 imperial_duchy_persian;Emirate;;;;;;;;;;;;;x
 imperial_baron_khorasani;Rais;;;;;;;;;;;;;x
 imperial_baron_female_khorasani;Rais;;;;;;;;;;;;;x
-imperial_count_khorasani;Wâli;;;;;;;;;;;;;x
+imperial_count_khorasani;Azad;;;;;;;;;;;;;x
 imperial_count_female_khorasani;Azad;;;;;;;;;;;;;x
 imperial_emperor_khorasani;Shahanshah;;;;;;;;;;;;;x
 imperial_county_of_khorasani;Province of;;;;;;;;;;;;;x
@@ -1359,7 +1392,7 @@ imperial_duchy_of_tajik;Emirate of;;;;;;;;;;;;;x
 imperial_duchy_tajik;Emirate;;;;;;;;;;;;;x
 imperial_baron_afghan;Rais;;;;;;;;;;;;;x
 imperial_baron_female_afghan;Rais;;;;;;;;;;;;;x
-imperial_count_afghan;Wâli;;;;;;;;;;;;;x
+imperial_count_afghan;Azad;;;;;;;;;;;;;x
 imperial_count_female_afghan;Azad;;;;;;;;;;;;;x
 imperial_emperor_afghan;Shahanshah;;;;;;;;;;;;;x
 imperial_county_of_afghan;Province of;;;;;;;;;;;;;x
@@ -1404,6 +1437,12 @@ imperial_emperor_baloch;Shahanshah;;;;;;;;;;;;;x
 imperial_county_of_baloch;Province of;;;;;;;;;;;;;x
 imperial_county_baloch;Province;;;;;;;;;;;;;x
 imperial_duchy_of_baloch;Spah of;;;;;;;;;;;;;x
+imperial_baron_khotanese;Baron;;;;;;;;;;;;;x
+imperial_baron_female_khotanese;Baron;;;;;;;;;;;;;x
+imperial_duke_khotanese;Commander;;;;;;;;;;;;;x
+imperial_duke_female_khotanese;Queen;;;;;;;;;;;;;x
+imperial_duchy_of_khotanese;Kingdom of;;;;;;;;;;;;;x
+imperial_duchy_khotanese;Kingdom;;;;;;;;;;;;;x
 imperial_duke_bolghar;Elteber;;;;;;;;;;;;;x
 imperial_duke_khazar;Elteber;;;;;;;;;;;;;x
 imperial_duke_avar;Elteber;;;;;;;;;;;;;x
@@ -1626,25 +1665,13 @@ imperial_king_female_nahuatl;Queen;;;;;;;;;;;;;x
 imperial_baron_nahuatl;Lord;;;;;;;;;;;;;x
 imperial_baron_female_nahuatl;Lady;;;;;;;;;;;;;x
 imperial_job_spiritual_aztec;Sahagún;;;;;;;;;;;;;x
-d_apostolic;Armenian Apostolic Church;;;;;;;;;;;;;x
-d_apostolic_adj;Armenian Apostolic;;;;;;;;;;;;;x
-d_bogomilist;Bogomil Church;;;;;;;;;;;;;x
-d_bogomilist_adj;Bogomil;;;;;;;;;;;;;x
-d_cathar;Cathar Patriarchy;;;;;;;;;;;;;x
-d_druze;Druze Sheikhdom;;;;;;;;;;;;;x
-d_ismaili;Isma‘ili Caliphate;;;;;;;;;;;;;x
-d_ismaili_adj;Isma‘ili;;;;;;;;;;;;;x
-d_mahdiyya;Mahdist Caliphate;;;;;;;;;;;;;x
-d_mahdiyya_adj;Mahdist;;;;;;;;;;;;;x
-d_manichean;Manichaean Church;;;;;;;;;;;;;x
-d_mazdaki;Mazdakite Priesthood;;;;;;;;;;;;;x
-d_mazdaki_adj;Mazdakite;;;;;;;;;;;;;x
-d_messalian;Euchite Patriarchy;;;;;;;;;;;;;x
-d_nabawiyya;Nabawite Malikate;;;;;;;;;;;;;x
-d_shiite;Shi‘ite Imamate;;;;;;;;;;;;;x
-d_shiite_adj;Shi‘ite;;;;;;;;;;;;;x
-d_zaydi;Zaydi Caliphate;;;;;;;;;;;;;x
-temple_barony_of_druze;Khalwa of;;;;;;;;;;;;;x
+imperial_duchy_of_byzantine;Theme of;;;;;;;;;;;;;x
+imperial_kingdom_of_persian;Emirate of;;;;;;;;;;;;;x
+imperial_kingdom_of_khorasani;Emirate of;;;;;;;;;;;;;x
+imperial_kingdom_of_tajik;Emirate of;;;;;;;;;;;;;x
+imperial_kingdom_of_afghan;Emirate of;;;;;;;;;;;;;x
+imperial_duke_female_byzantine;Strategos;;;;;;;;;;;;;x
+imperial_king_female_byzantine;Exarch;;;;;;;;;;;;;x
 k_emf_lower_lorraine;Lorraine;;;;;;;;;;;;;x
 k_emf_lower_lorraine_adj;Lorrainian;;;;;;;;;;;;;x
 k_emf_saxony;Saxony;;;;;;;;;;;;;x
@@ -1661,3 +1688,34 @@ e_hre_french;Holy Roman Empire;;;;;;;;;;;;;x
 e_hre_french_adj;Imperial;;;;;;;;;;;;;x
 BM_OSMANS_DREAM_DESC;With the breakup of the Sultanate of Rum and the decline of the Byzantine Empire, several warlords in Anatolia seek fame and glory in the ensuing power vacuum. Foremost among them is Osman, a pious and brave man. According to a dream he had many, many years ago, great things are in store for Osman and his dynasty. They might even conquer great Constantinople one day. But the journey to Constantinople won’t be easy, and the Byzantine Empire, which has resisted attack after attack for almost a thousand years, will not go down without a fight.;;;;;;;;;;;;;x
 BM_KHITAN_DESC;For more than two centuries, the Khitan were the rightful rulers of northern China, perfectly balancing their traditional, nomadic way of life, and the urbane, sophisticated culture of their Chinese subjects. However, overthrown by their Jurchen vassals in the early years of the 12th century, remnants of the once-great Khitan have fled to Central Asia, where they seek to re-create their imperial splendor. Having just defeated the once-mighty Karakhanids and the Seljuks, the Khitan now have a foothold in the region. Will they continue their conquests, spreading their Sinicized nomadic culture and their Buddhist faith, or will they settle down, content with re-creating their Chinese empire in Central Asia? All that is certain is that the Khitan are not the first horde to appear suddenly from the far east, nor will they be the last.;;;;;;;;;;;;;x
+ca_culture_saxon_english_0;Longbow Range;;;;;;;;;;;;;x
+ca_culture_saxon_english_5;Longbow Range;;;;;;;;;;;;;x
+ca_culture_scottish_0;Sheltron Training Ground;;;;;;;;;;;;;x
+ca_culture_scottish_5;Sheltron Training Ground;;;;;;;;;;;;;x
+ca_culture_group_iberian_0;Knight Training Ground;;;;;;;;;;;;;x
+ca_culture_group_iberian_5;Knight Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_0;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_1;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_2;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_3;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_4;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_5;Cavalry Training Ground;;;;;;;;;;;;;x
+ca_culture_italian_cavalry_desc;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;;;;;;;;;;;;;x
+ca_culture_group_north_germanic_0;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_group_north_germanic_5;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_group_arabic_1;Camel Training Grounds;;;;;;;;;;;;;x
+ca_culture_group_arabic_2;Camel Training Grounds;;;;;;;;;;;;;x
+ca_culture_group_arabic_3;Camel Training Grounds;;;;;;;;;;;;;x
+ca_culture_group_arabic_4;Camel Training Grounds;;;;;;;;;;;;;x
+ca_culture_group_south_slavic_0;Hussar Training Ground;;;;;;;;;;;;;x
+ca_culture_group_south_slavic_5;Hussar Training Ground;;;;;;;;;;;;;x
+ca_culture_group_north_african_1;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_group_north_african_2;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_group_north_african_3;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_group_north_african_4;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_group_north_african_1_desc;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;;;;;;;;;;;;;x
+ca_culture_catalan_5;Almogavar Conscription Camp;;;;;;;;;;;;;x
+ca_culture_catalan_0;Almogavar Conscription Camp;;;;;;;;;;;;;x
+ca_culture_catalan_1_desc;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;;;;;;;;;;;;;x
+RETTYPE_CUL_VISIGOTHIC;Visigoth;;;;;;;;;;;;;x
+RETTYPE_CUL_NORTHAFR;A-Mazigh;;;;;;;;;;;;;x
