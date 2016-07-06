@@ -321,7 +321,8 @@ def main():
         inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in csv_rows(inpath)})
-        viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
+        viet_rows = [
+            ['#CODE', 'SED+VIET', 'VIET', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
         col_width = [0, 8]
         for path in files('localisation/*', basedir=vietpath, reverse=True):
             viet_rows.append(['#' + path.name, '', '', '', '', ''])
@@ -331,6 +332,7 @@ def main():
                     out_row = [key,
                                prev_loc_viet[key],
                                val,
+                               swmh_loc.get(key, ''),
                                ','.join(dynamics[key]),
                                prev_loc[key],
                                vanilla.get(key, '')]

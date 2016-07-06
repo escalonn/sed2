@@ -6,16 +6,43 @@
 #zj_VIET_zhongguo.csv;;;;;
 #zj_VIET_wafrica_stuff.csv;;;;;
 #zj_VIET_random_mods_stuff.csv;;;;;
+icelandic                                    ;        ;Icelandic;Íslondskr;;Icelandic;
+baron_andalusian_arabic                      ;        ;Wâli;Wâli;;Wâli;
 baron_female_andalusian_arabic               ;Wâli    ;Wâlia;;;;
+barony_of_andalusian_arabic                  ;        ;Wilayah of;Wilayah of;;Wilayah of;
+count_andalusian_arabic                      ;        ;Sheikh;Sheikh;;Sheikh;
+count_female_andalusian_arabic               ;        ;Shaykhah;Shaykhah;;Shaykhah;
+county_of_andalusian_arabic                  ;Taifa of;Taifa of;Sheikhdom of;;Sheikhdom of;
+duke_andalusian_arabic                       ;        ;Emir;Emir;;Emir;
+duke_female_andalusian_arabic                ;        ;Emira;Emira;;Emira;
+duchy_of_andalusian_arabic                   ;        ;Emirate of;Emirate of;;Emirate of;
+king_andalusian_arabic                       ;Sultan  ;Sultan;Malik;;Malik;
+king_female_andalusian_arabic                ;Sultana ;Sultana;Malika;;Malikah;
+kingdom_of_andalusian_arabic                 ;Sultanate of;Sultanate of;Malikate of;;Malikate of;
 barony_andalusian_arabic                     ;        ;Wilayah;;;;
+county_andalusian_arabic                     ;Taifa   ;Taifa;Wilayah;;Wilayah;
+duchy_andalusian_arabic                      ;        ;Emirate;Emirato;;Emirate;
+kingdom_andalusian_arabic                    ;        ;Sultanate;Sultanato;;Sultanate;
+job_chancellor_andalusian_arabic             ;        ;Grand Vizier;Grand Vizier;;Grand Vizier;
+emperor_andalusian_arabic                    ;Padishah;Badshah;Calif;;Caliph;
+baron_kurdish                                ;Muqta   ;Wâli;Muqtá';;Muqta;
 baron_female_kurdish                         ;Wâli    ;Wâlia;;;;
 barony_of_kurdish                            ;        ;Wilayah of;;;;
+count_kurdish                                ;Sheikh  ;Sheikh;Ustandár;;Ustandar;
+count_female_kurdish                         ;Shaykhah;Shaykhah;Ustandáreh;;Ustandar;
+county_of_kurdish                            ;Sheikhdom of;Sheikhdom of;Ustan-e;;Province of;
+duke_kurdish                                 ;        ;Emir;Emir;;Emir;
 duke_female_kurdish                          ;        ;Emira;;;;
+duchy_of_kurdish                             ;        ;Emirate of;Emírát-e;;Emirate of;
+king_kurdish                                 ;Sultan  ;Sultan;Sháh;;Shah;
 king_female_kurdish                          ;        ;Sultana;;;;
 kingdom_of_kurdish                           ;        ;Sultanate of;;;;
 barony_kurdish                               ;        ;Wilayah;;;;
+county_kurdish                               ;Sheikhdom;Sheikhdom;Ustan;;Province;
+duchy_kurdish                                ;        ;Emirate;Emírát;;Emirate;
 kingdom_kurdish                              ;        ;Sultanate;;;;
 job_chancellor_kurdish                       ;        ;Grand Vizier;;;;
+emperor_kurdish                              ;Badshah ;Badshah;Sháhansháh;;Shahanshah;
 baron_north_african                          ;        ;Wâli;;;;
 baron_female_north_african                   ;Wâli    ;Wâlia;;;;
 barony_of_north_african                      ;        ;Wilayah of;;;;
@@ -45,9 +72,21 @@ emperor_north_african                        ;Padishah;Badshah;;;;
 #zj_VIET_jordarkelf.csv;;;;;
 #zj_VIET_jewish.csv;;;;;
 karaite                                      ;        ;Karaite;;;Karaite;Karaite
+ashkenazi                                    ;        ;Ashkenazi;Ashkenazi;;Ashkenazi Jewish;Ashkenazi
 jewish                                       ;        ;Rabbinic;;;Jewish;Jewish
 samaritan                                    ;        ;Samaritan;;;Samaritan;Samaritan
+falashim                                     ;        ;Falashim;Beta Yisrael;;Beta Israel;
+khazar                                       ;        ;Khazar;Qasar;;Khazar;Khazar
 k_israel                                     ;        ;Israel;;;Israel;Israel
+job_spiritual_jewish_group                   ;        ;Chief Rabbi;Chief Rabbi;;Chief Rabbi;Court Rabbi
+temple_baron_jewish_group                    ;        ;Rabbi;Rabbi;;Rabbi;Rabbi
+temple_count_jewish_group                    ;Grand Rabbi;Grand Rabbi;Great Rabbi;;Great Rabbi;Kohen
+temple_duke_jewish_group                     ;Nagid   ;Nagid;Melech;;Malik;Rabban
+temple_king_jewish_group                     ;Grand Nagid;Grand Nagid;Melech haMelachim;;King of Kings;Nasi
+temple_kingdom_of_jewish_group               ;Grand Sanhedrin of;Grand Sanhedrin of;Great Sanhedrin of;;Great Sanhedrin of;Theocracy of
+temple_duchy_of_jewish_group                 ;Sanhedrin of;Sanhedrin of;Lesser Sanhedrin of;;Lesser Sanhedrin of;
+temple_county_of_jewish_group                ;        ;Beit Din of;Beth din of;;Beth Din of;Theocracy of
+temple_barony_of_jewish_group                ;        ;Synagogue of;Synagogue of;;Synagogue of;Temple of
 #zj_VIET_ipad_misc_fun.csv;;;;;
 #zj_VIET_historical.csv;;;;;
 #zj_VIET_heresy_flavor.csv;;;;;
@@ -63,6 +102,10 @@ k_israel                                     ;        ;Israel;;;Israel;Israel
 #zj_VIET_Silk_Road.csv;;;;;
 #zj_VIET_Scarborough_Fair.csv;;;;;
 #zj_VIET_Republics_text.csv;;;;;
+d_hormuz                                     ;Sistan  ;Sistan;Hormuz;;Ormus;
+d_hormuz_adj                                 ;Sistan  ;Sistan;Hormuzí;;Ormusi;
+d_ragusa                                     ;Ragusa  ;Ragusa;Dubrovnik;Ragusa,Ragusium,Raguia;Dubrovnik;
+d_ragusa_adj                                 ;Ragusan ;Ragusan;Dubrovnikan;;Dubrovnikan;
 #zj_VIET_PB.csv;;;;;
 temple_emperor_female_christian              ;        ;Empress-Bishop;;;;
 temple_king_female_catholic                  ;        ;Queen-Bishop;;;;
@@ -71,11 +114,20 @@ temple_duke_female_catholic                  ;        ;Princess-Archbishop;;;;
 temple_duke_female_orthodox                  ;        ;Princess-Archbishop;;;;
 temple_count_female_catholic                 ;        ;Princess-Bishop;;;;
 city_emperor_female                          ;        ;Grand Princess;;;;
+count_title_ruler_consort_saxon              ;        ;Earl;Ealdorman;;;
+count_title_ruler_consort_english            ;        ;Earl;Earl;;;
+count_title_ruler_consort_scottish           ;        ;Earl;Earl;;;
+count_title_ruler_consort_irish              ;        ;Earl;Ri Buiden;;;
+count_title_ruler_consort_welsh              ;Earl    ;Earl;Tywysoges;;Tywysoges;
 emperor_title_ruler_consort_altaic           ;        ;Khagan;;;;
 emperor_title_ruler_consort_female_altaic    ;        ;Khatun;;;;
 king_title_ruler_consort_altaic              ;        ;Khan;;;;
 king_title_ruler_consort_female_altaic       ;        ;Khanum;;;;
+duke_title_ruler_consort_greek               ;        ;Doux;Doux;;;
+king_title_ruler_consort_greek               ;        ;Despot;Despotes;;;
 emperor_title_ruler_consort_greek            ;        ;Basileus;;;;
+emperor_title_ruler_consort_russian          ;Tsar    ;Tsar;Velikiy Kniaz;;Grand Duke;
+emperor_title_ruler_consort_female_russian   ;        ;Tsaritsa;Tsaritsa;;Tsarina;
 baron_title_ruler_consort_arabic             ;        ;Wâli;;;;
 count_title_ruler_consort_arabic             ;        ;Sheikh;;;;
 duke_title_ruler_consort_arabic              ;        ;Emir;;;;
@@ -105,6 +157,8 @@ title_despot                                 ;        ;Symbasileus;;;Despot;Desp
 title_despot_desc                            ;Symbasileus was a title bestowed upon the oldest sons of emperors when they were crowned as co-emperors alongside their fathers.;Symbasileus was a title bestowed upon the oldest sons of Emperors when they were crowned as co-Emperors alongside their Father.;;;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.
 title_lawspeaker                             ;        ;Lawspeaker;;;Lawspeaker;Lawspeaker
 title_lawspeaker_desc                        ;Lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;A lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;;;The lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.;The Lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.
+title_marcher_lord                           ;        ;Marcher Lord;Marcher Lord;;Marcher Lord;
+title_marcher_lord_desc                      ;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;
 title_noyan                                  ;        ;Dog of War;;;Noyan;Noyan
 title_noyan_desc                             ;During the Mongol conquests, Genghis Khan named four of his top generals as “dogs of war” – Subutai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan’s campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people’s lives in hunting and warnings.;During the Mongol world conquests, Genghis Khan named four of his top generals as so-called "Dogs of War" - Subotai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan's campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people's lives in hunting and warnings.;;;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.
 ca_culture_jewish_1                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
@@ -130,33 +184,84 @@ title_court_musician_georgian                ;        ;Court Ashik;;;;
 title_court_musician_armenian                ;        ;Court Ashik;;;;
 title_court_musician_east_african            ;        ;Court Azmari;;;;
 #zj_VIET_FlavorTitles.csv;;;;;
+count_irish                                  ;High Lord;High Lord;Ri Buiden;;Ri Buiden;Earl
+county_of_irish                              ;High Lordship of;High Lordship of;Cóicid of;;Province of;
 county_irish                                 ;        ;High Lordship;;;;
+king_welsh                                   ;Prince  ;Prince;Brenin;;King;
+king_female_welsh                            ;Princess;Princess;Breninhes;;Queen;
+kingdom_of_welsh                             ;Principality of;Principality of;Teyrnas o;;Kingdom of;
 kingdom_welsh                                ;        ;Principality;;;;
+barony_of_irish                              ;Lordship of;Lordship of;Tuath of;;People of;
 barony_irish                                 ;        ;Lordship;;;;
+baron_irish                                  ;Lord    ;Lord;Tiarna;;Tigerna;
 barony_of_scottish                           ;        ;Lordship of;;;;
 barony_scottish                              ;        ;Lordship;;;;
+baron_scottish                               ;Lord    ;Lord;Toisech;;Chieftain;
+city_count_scottish                          ;Lord Provost;Lord Provost;Provost;;Provost;
+city_baron_scottish                          ;Provost ;Provost;Bailie;;Baillie;
+duke_scottish                                ;        ;Mormaer;Mormaer;;Earl;
+duchy_of_scottish                            ;        ;Mormaerdom of;Mormaerdom of;;Mormaerdom of;
+count_scottish                               ;Thegn   ;Thane;Earl;;Earl;Earl
 count_female_scottish                        ;        ;Lady;;;;
+county_of_scottish                           ;Thanage of;Thanage of;Earldom of;;Earldom of;
+barony_of_breton                             ;Machtiernship of;Machtiernship of;Autrouniez of;;Lordship of;
+barony_breton                                ;Machtiernship;Machtiernship;Autrouniez;;Lordship;
+baron_breton                                 ;Machtiern;Machtiern;Autrou;;Lord;
 city_baron_breton                            ;        ;Machtiern;;;;
+barony_of_welsh                              ;Cantref of;Cantref of;Cwmwd o;;Commote of;
 barony_welsh                                 ;        ;Cantref;;;;
+baron_welsh                                  ;Lord    ;Lord;Tiarna;;Tigerna;
+county_of_welsh                              ;Country of;Country of;Cantref o;;Cantref of;
 county_welsh                                 ;        ;Country;;;;
 title_tanist_welsh                           ;        ;Edling;;;;
+baron_greek                                  ;Kephale ;Kephale;Droungarios;;Drungary;
+baron_female_greek                           ;Kephale ;Kephale;Komissa;;Countess;
+barony_of_greek                              ;Kephalatikion of;Kephalatikion of;Kastron;;Kastron of;
+count_greek                                  ;Komes   ;Komes;Tourmarches;;Tourmarches;
+count_female_greek                           ;Komes   ;Komessa;Tourmarchissa;;Tourmarchissa;
+duke_female_greek                            ;        ;Doukessa;Doukissa;;Doukissa;
+county_of_greek                              ;Bandon of;Bandon of;Tourma;;Turma of;
+duchy_of_greek                               ;        ;Theme of;Thema;;Theme of;
+king_female_greek                            ;        ;Despotess;Despoina;;Despotess;
 barony_greek                                 ;Katepanikion;Kephalatikion;;;;
 county_greek                                 ;        ;Bandon;;;;
 duchy_greek                                  ;        ;Theme;;;;
+city_king_greek                              ;Exarch  ;Exarch;Protodoux;;Protodoux;
+city_duke_greek                              ;Katepano;Katepano;Protarchon;;Protarchon;
+city_count_greek                             ;        ;Archon;Archon;;Archon;
+city_baron_greek                             ;Eparch  ;Eparch;Kephale;;Kephale;
+city_kingdom_of_greek                        ;Exarchate of;Exarchate of;Archipoliteia;;Archipoliteia of;
+city_duchy_of_greek                          ;Katepanikion of;Katepanikion of;Politeia;;Politeia of;
+city_county_of_greek                         ;Archontia of;Archontia of;Polis;;Polis of;
+job_marshal_greek                            ;Protostrator;Protostrator;Megas Domestikos;;Grand Domestic;Protostrator
+job_chancellor_greek                         ;Logothete;Logothete;Logothetes tou Dromou;;Logothete of the Course;Magistros
+job_treasurer_greek                          ;Sakellarios;Sakellarios;Megas Logothetes;;Grand Logothete;Sakellarios
+title_prince_greek                           ;Despot  ;Despotes;Kaisar;;Caesar;
+title_prince_female_greek                    ;Despotess;Despoina;Kaisarissa;;Caesarissa;
+king_georgian                                ;        ;Mepe-Mepeta;Mepe-Mepeta;;King;
+king_female_georgian                         ;Queen   ;Mepe-Mepeta;Mepe;;Queen;
+duke_georgian                                ;King    ;Mepe;Eristavi;;Duke;
 duke_female_georgian                         ;Queen   ;Mepe;;;;
 duchy_of_georgian                            ;        ;Kingdom of;;;;
 duchy_georgian                               ;        ;Kingdom;;;;
+count_georgian                               ;Duke    ;Eristavi;Aznauri;;Count;
 county_of_georgian                           ;        ;Saeristavo of;;;;
 county_georgian                              ;        ;Saeristavo;;;;
+baron_georgian                               ;        ;Tsikhistavi;Tsikhistavi;;Tsikhistavi;
 barony_of_georgian                           ;        ;Satsikhistavo of;;;;
 barony_georgian                              ;        ;Satsikhistavo;;;;
+city_baron_georgian                          ;Mouravi ;Mouravi;Tsikhistavi;;Tsikhistavi;
 job_marshal_georgian                         ;High Constable;Spaspet;;;;
 title_prince_georgian                        ;Prince  ;Tavadi;;;;
 title_prince_female_georgian                 ;Princess;Tavadi;;;;
+count_armenian                               ;Melik   ;Melik;Naxarar;;Nakharar;
 county_of_armenian                           ;        ;Melikdom of;;;;
 county_armenian                              ;        ;Melikdom;;;;
+baron_armenian                               ;Tanuter ;Tanuter;Azat;;Azat;
 barony_of_armenian                           ;Sghnakh of;Skhnakhi of;;;;
 barony_armenian                              ;Sghnakh ;Skhnakhi;;;;
+job_marshal_armenian                         ;        ;Sparapet;Sparapet;;Sparapet;
+city_barony_of_greek                         ;Polis of;Polis of;Kephalatikion;;Katepanikion of;
 temple_barony_greek                          ;        ;Metropolis;;;;
 temple_barony_of_greek                       ;        ;Metropolis of;;;;
 temple_baron_greek                           ;        ;Metropolitan;;;;
@@ -175,8 +280,11 @@ duke_east_slavic                             ;        ;Prince;;;;
 duchy_of_east_slavic                         ;        ;Principality of;;;;
 duchy_east_slavic                            ;        ;Principality;;;;
 duke_female_east_slavic                      ;        ;Princess;;;;
+duke_serbian                                 ;        ;Grand Prince;Veliki Župan;;Grand Prince;
 duchy_of_serbian                             ;        ;Principality of;;;;
 duchy_serbian                                ;        ;Principality;;;;
+duke_croatian                                ;Grand Prince;Grand Prince;Ban;;Ban;
+duchy_of_croatian                            ;Principality of;Principality of;Banate of;;Banate of;
 duchy_croatian                               ;        ;Principality;;;;
 duke_west_slavic                             ;        ;Voivode;;;;
 duchy_of_west_slavic                         ;        ;Voivodeship of;;;;
@@ -204,13 +312,22 @@ county_south_slavic                          ;        ;Banat;;;;
 count_magyar                                 ;        ;Ban;;;;
 county_of_magyar                             ;        ;Banat of;;;;
 county_magyar                                ;        ;Banat;;;;
+baron_polish                                 ;        ;Castellan;Kasztelan;;Castellan;
+barony_of_polish                             ;        ;Castellany of;Kasztelania of;;Castellany of;
 barony_polish                                ;        ;Castellany;;;;
+baron_lithuanian                             ;Castellan;Castellan;Bajoras;;Bajoras;
 barony_of_lithuanian                         ;        ;Castellany of;;;;
 barony_lithuanian                            ;        ;Castellany;;;;
 title_prince_east_slavic                     ;        ;Tsarevich;;;;
 title_prince_female_east_slavic              ;        ;Tsarevna;;;;
+job_treasurer_serbian                        ;Protovestijar;Protovestijar;Komornik;;Chamberlain;
 job_treasurer_croatian                       ;Protovestiarios;Protovestijar;;;;
+duke_polish                                  ;        ;Duke;Ksiaze;;Duke;
+duke_female_polish                           ;        ;Duchess;Ksiezna;;Duchess;
+duchy_of_polish                              ;        ;Duchy of;Ksiestwo of;;Duchy of;
 duchy_polish                                 ;        ;Duchy;;;;
+duke_lithuanian                              ;        ;Duke;Kunigaikštis;;Duke;
+duke_female_lithuanian                       ;        ;Duchess;Kunigaikštiene;;Duchess;
 duchy_of_lithuanian                          ;        ;Duchy of;;;;
 duchy_lithuanian                             ;        ;Duchy;;;;
 emperor_south_slavic                         ;        ;Tsar;;;;
@@ -230,6 +347,10 @@ city_count_east_african                      ;Governor;Mekonnen;;;;
 city_baron_east_african                      ;Governor;Shum;;;;
 job_marshal_east_african                     ;        ;Dejazmach;;;;
 job_treasurer_east_african                   ;Minister of the Pen;Tshehafi Tezaz;;;;
+king_somali                                  ;Boqor   ;Boqor;Suldaan;;Suldaan;
+king_female_somali                           ;Boqorad ;Boqorad;Suldaanad;;Suldaanad;
+count_somali                                 ;Viceroy ;Boqortiishe;Ugaas;;Ugaas;
+baron_somali                                 ;Ugaas   ;Ugaas;Akil;;Akil;
 city_baron_somali                            ;        ;Caaqil;;;;
 temple_baron_somali                          ;Islan   ;Islaan;;;;
 job_marshal_somali                           ;Malakh  ;Malaakh;;;;
@@ -262,8 +383,14 @@ city_baron_north_germanic                    ;Alderman;Ålderman;;;;
 city_count_north_germanic                    ;Lawspeaker;Lagman;;;;
 barony_of_saxon                              ;        ;Thanage of;;;;
 barony_saxon                                 ;        ;Thanage;;;;
+baron_saxon                                  ;        ;Thane;Thegn;;Thegn;
+title_prince_saxon                           ;        ;Ætheling;Ætheling;;Ætheling;
 city_count_west_germanic                     ;        ;Reeve;;;;
 city_duke_west_germanic                      ;High-Reeve;High Reeve;;;;
+count_afghan                                 ;Malik   ;Malik;Azad;;Azad;
+count_female_afghan                          ;Malikah ;Malikah;Azadeh;;Azad;
+county_of_afghan                             ;Malikate of;Malikate of;Viláyat-e;;Province of;
+county_afghan                                ;Malikate;Malikate;Viláya;;Province;
 job_marshal_zoroastrian_group                ;        ;Spahbod;;;Eran-Spahbed;Eran Spahbod
 job_spiritual_zoroastrian_group              ;Dastur  ;Court Magi;;;Mobed;Mobad
 job_treasurer_zoroastrian_group              ;Ho Tokhshan Bod;Ho Tokhshan Bod;;;Chamberlain;Darik-Pat
@@ -281,13 +408,24 @@ title_prince_female_iranian                  ;Shahzada;Shahzadeh;;;Shahdokht;Sha
 baron_tocharian                              ;        ;Cozbo;;;;
 barony_of_tocharian                          ;        ;Kilmi of;;;;
 barony_tocharian                             ;        ;Kilmi;;;;
+baron_khotanese                              ;Cazba   ;Cazba;Pharsha;;Baron;
 barony_of_khotanese                          ;        ;Kilmi of;;;;
 barony_khotanese                             ;        ;Kilmi;;;;
+city_baron_khotanese                         ;Sau     ;Sau;Spata;;Spata;
 city_baron_tocharian                         ;        ;Sothamga;;;;
 job_chancellor_khotanese                     ;        ;Amaca;;;;
 job_marshal_khotanese                        ;General ;Hinaysa;;;;
 job_chancellor_tocharian                     ;        ;Amas;;;;
 count_tocharian                              ;Governor;Rajadharaga;;;;
+baron_sogdian                                ;Sartapaw;Sartapaw;Khuda;;Lord;
+baron_female_sogdian                         ;Sartapaw;Sartapaw;Khudeh;;Lady;
+count_sogdian                                ;Eltabar ;Eltabar;Jamúg;;Jamug;
+count_female_sogdian                         ;Eltabar ;Eltabar;Jamúga;;Jamuga;
+duke_sogdian                                 ;        ;Afshin;Afshín;;Afshin;Ikhshid
+duke_female_sogdian                          ;Afshin  ;Afshin;Afshína;;Afshina;
+king_sogdian                                 ;Ikhshid ;Ekshid;Ighshíd;;King;
+king_female_sogdian                          ;Ikhshid ;Ekshid;Ighshída;;Queen;
+city_baron_sogdian                           ;Sartapaw;Sartapaw;Dehqán;;Dehqan;
 city_baron_female_sogdian                    ;        ;Sartapaw;;;;
 city_count_sogdian                           ;Elteber ;Eltabar;;;;
 city_count_female_sogdian                    ;Elteber ;Eltabar;;;;
@@ -295,7 +433,9 @@ city_duke_sogdian                            ;        ;Afshin;;;;
 city_duke_female_sogdian                     ;        ;Afshin;;;;
 city_king_sogdian                            ;Ikhshid ;Ekshid;;;;
 city_king_female_sogdian                     ;Ikhshid ;Ekshid;;;;
+duke_mongol                                  ;        ;Noyan;Noyan;;Noyan;High Chief
 count_mongol                                 ;Darga   ;Darga;;;Chief;Chief
+baron_mongol                                 ;Taishi  ;Taishi;Darugha;;Darugha;Taishi
 duke_female_mongol                           ;Begum   ;Begum;;;High Chieftess;High Chieftess
 count_female_mongol                          ;        ;Behichi;;;;
 baron_female_mongol                          ;        ;Behi;;;;
@@ -303,9 +443,20 @@ title_prince_mongol                          ;        ;Taiji;;;;
 title_prince_female_mongol                   ;Princess;Gongzhu;;;;
 job_marshal_mongol                           ;Bayan   ;Boyan;;;;
 duke_cuman                                   ;        ;Tarkhan;;;;
+duke_pecheneg                                ;Tarkhan ;Tarkhan;Il-Teber;;Elteber;
 count_cuman                                  ;        ;Baghatur;;;;
 count_pecheneg                               ;        ;Baghatur;;;;
 job_treasurer_turkish                        ;        ;Defterdar;;;;
+emperor_roman                                ;        ;Imperator;Imperator;;Emperor;
+emperor_female_roman                         ;        ;Imperatrix;Imperatrix;;Empress;
+king_roman                                   ;        ;Rex;Rex;;King;
+king_female_roman                            ;        ;Regina;Regina;;Queen;
+duke_roman                                   ;Legatus Augusti;Legatus Augusti;Dux;;Duke;
+duke_female_roman                            ;Legata Augusti;Legata Augusti;Ducissa;;Duchess;
+count_roman                                  ;Legatus ;Legatus;Comes;;Count;
+count_female_roman                           ;Legata  ;Legata;Comitissa;;Countess;
+baron_roman                                  ;Eques   ;Eques;Baro;;Baron;
+baron_female_roman                           ;Domina  ;Domina;Baronissa;;Baroness;
 city_emperor_roman                           ;        ;Emperor;;;;
 city_king_roman                              ;        ;Consul;;;;
 city_duke_roman                              ;        ;Proconsul;;;;
@@ -320,12 +471,15 @@ temple_duchy_of_druze                        ;Great Khalwa of;Al-Kabir Khalwa of
 temple_count_druze                           ;‘Uqqal  ;Uqqal;;;;
 temple_county_of_druze                       ;        ;Khalwa of;;;;
 temple_baron_druze                           ;Rais    ;Ra’is;;;;
+temple_barony_of_druze                       ;Mqateh of;Mqateh of;Khalwat of;;Khalwa of;Khalwat of
 temple_king_mandaean                         ;Rish ‘Amma;Rishamma;;;;
 temple_kingdom_of_mandaean                   ;        ;Padashar of;;;;
 temple_duke_mandaean                         ;        ;Ganzibria;;;;
 temple_duchy_of_mandaean                     ;        ;Daura of;;;;
 temple_count_mandaean                        ;        ;Tarmida;;;;
 temple_county_of_mandaean                    ;City of ;Mata of;;;;
+temple_baron_mandaean                        ;Yalufa  ;Yalufa;Tarmid;;Priest;
+temple_barony_of_mandaean                    ;        ;Mandi of;Mandi of;;;
 temple_count_hindu                           ;Guru    ;Guru;;;Pujari;Pujari
 temple_county_of_hindu                       ;Bannab of;Bannab of;;;Temple of;Temple of
 temple_baron_hindu                           ;Acharya ;Acharya;;;Pujari;Pujari
@@ -355,8 +509,12 @@ family_palace_baron_prussian                 ;        ;Grand Burgher;;;;
 family_palace_baron_female_prussian          ;        ;Grand Burgheress;;;;
 family_palace_baron_bohemian                 ;        ;Grand Burgher;;;;
 family_palace_baron_female_bohemian          ;        ;Grand Burgheress;;;;
+city_count_italian                           ;Lord    ;Signore;Podestà;;Podestà;
 city_count_female_italian                    ;Lady    ;Signora;;;;
+city_county_of_italian                       ;        ;Comune of;Comune di;;Comune of;
+city_count_sicilian                          ;Lord    ;Signore;Podestà;;Podestà;
 city_count_female_sicilian                   ;Lady    ;Signora;;;;
+city_county_of_sicilian                      ;        ;Comune of;Comune di;;Comune of;
 city_count_iberian                           ;        ;Corregidor;;;;
 city_county_of_iberian                       ;Corregimiento of;Corregimento of;;;;
 city_baron_iberian                           ;        ;Alcade;;;;
@@ -378,12 +536,33 @@ duchy_of_lombard                             ;        ;Principality of;;;;
 #zj_VIET_Events_Events.csv;;;;;
 #zj_VIET_Decisions.csv;;;;;
 #zj_VIET_Culture.csv;;;;;
+north_african                                ;North African;North African;Berber;;Berber;
+berber                                       ;Berber  ;Berber;Iznagen;;Sanhaja;
+nubian                                       ;        ;Nubian;Nubian;;Nubian;Nubian
+tajik                                        ;        ;Tajik;Tajik;;Tajik;
+sicilian                                     ;        ;Sicilian;Sicilianu;;Sicilian;
+somali                                       ;        ;Somali;Somali;;Somali;Somali
 tamil                                        ;        ;Tamil;;;Tamil;Tamil
 sindhi                                       ;        ;Sindhi;;;Sindhi;Sindhi
+sinic                                        ;East Asian;East Asian;Sinic;;Sinic;
+sogdian                                      ;        ;Sogdian;Soghdian;;Sogdian;Sogdian
 pictish                                      ;        ;Pictish;;;Pictish;Pictish
+songhai                                      ;        ;Songhai;Songhai;;Songhai;
+khitan                                       ;        ;Khitan;Qidun;;Khitan;Khitan
+beja                                         ;        ;Beja;Bedawiye;;Beja;
+daju                                         ;        ;Daju;Daju;;Daju;
+zaghawa                                      ;        ;Zaghawa;Zaghawa;;Zaghawa;
+kanuri                                       ;        ;Kanuri;Kanuri;;Kanuri;
+hausa                                        ;        ;Hausa;Hausa;;Hausa;
 sinhala                                      ;        ;Sinhala;;;Sinhalese;Sinhala
 lombard                                      ;        ;Lombard;;;Langobard;Lombard
 tocharian                                    ;        ;Tocharian;;;Tocharian;Tocharian
+cornish                                      ;        ;Cornish;Kernowek;;Cornish;
+coptic                                       ;        ;Coptic;Kubti;;Coptic;
+assyrian                                     ;        ;Assyrian;Suryaye;;Assyrian;
+khotanese                                    ;        ;Khotanese;Hvamnai;;Khotanese;
+frisian                                      ;        ;Frisian;Fresisk;;Frisian;Frisian
+afar                                         ;        ;Afar;Afar;;Afar;
 baron_berber                                 ;        ;Wâli;;;;
 baron_female_berber                          ;Wâli    ;Wâlia;;;;
 barony_of_berber                             ;        ;Wilayah of;;;;
@@ -428,8 +607,28 @@ job_spiritual_zoroastrian                    ;Dastur  ;Dastur;;;Mobed;Mobad
 job_spymaster_zoroastrian                    ;        ;Spasaka;;;;
 city_baron_zoroastrian_group                 ;Dehqan  ;Dihqan;;;;
 #zj_Latinokratia_localisation.csv;;;;;
+e_latin_empire                               ;        ;Romania;Imperium Romaniae;;Latin Empire;Latin Empire
 e_latin_empire_adj                           ;        ;Roman;;;Latin;Latin
 #zj_HKC Sinic Titles.csv;;;;;
+emperor_khitan                               ;        ;Huang Di;Huang Di;;Emperor;
+emperor_female_khitan                        ;        ;Huang Tai Ho;Huang Tai Ho;;Empress;
+king_khitan                                  ;        ;Ong;Ong;;King;
+king_female_khitan                           ;        ;Ong-n Pi;Ong-n Pi;;Queen;
+nomadic_king_khitan                          ;        ;Irkin;Irkin;;High Chief;
+nomadic_king_female_khitan                   ;        ;Ilim;Ilim;;High Chieftess;
+tribal_king_khitan                           ;        ;Irkin;Irkin;;High Chief;
+tribal_king_female_khitan                    ;        ;Ilim;Ilim;;High Chieftess;
+duke_khitan                                  ;        ;Tqosi;Tqosi;;Commissioner;
+duke_female_khitan                           ;        ;Pushin;Pushin;;Lady;
+duchy_of_khitan                              ;        ;Province of;Province of;;Province of;
+count_khitan                                 ;        ;Tshisi;Tshisi;;Magistrate;
+count_female_khitan                          ;        ;Au'ui;Au'ui;;Lady;
+county_of_khitan                             ;        ;Commandery of;Commandery of;;Commandery of;
+baron_khitan                                 ;Tarkhan ;Tarqan;Basqaq;;Prefect;
+baron_female_khitan                          ;        ;Aldun;Aldun;;Lady;
+barony_of_khitan                             ;        ;County of;County of;;County of;
+title_prince_khitan                          ;        ;Taisi;Taisi;;Prince;
+title_prince_female_khitan                   ;        ;Au'ui;Au'ui;;Princess;
 #zj_HKC Christian Stuff.csv;;;;;
 temple_empire_of_christian                   ;        ;See of;;;;
 temple_king_christian                        ;Patriarch;Patriarch;;;King-Bishop;King-Bishop
