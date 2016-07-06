@@ -136,6 +136,19 @@ def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
                                                    culture_re, religion_re)
     return noble_regex
 
+def keys_overridden_in_mod(basedir, *moddirs):
+    base_keys = set(get_localisation(basedir=basedir))
+    seen = set()
+    result = set()
+    for path in files('localisation/*', moddirs=moddirs, basedir=basedir,
+                      reverse=True):
+        for key, *_ in csv_rows(path):
+            if key not in seen:
+                seen.add(key)
+                if basedir not in path.parents and key in base_keys:
+                    result.add(key)
+    return result
+
 @print_time
 def main():
     # fill titles before calling
@@ -303,6 +316,7 @@ def main():
 
         # VIET
         overridden_keys = set()
+        keys_to_override.update(keys_overridden_in_mod(swmhpath, vietpath))
         prev_loc_viet = collections.defaultdict(str)
         inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
@@ -313,8 +327,7 @@ def main():
             viet_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
-                if (should_override(key) and key not in overridden_keys and
-                    key not in swmh_loc):
+                if should_override(key) and key not in overridden_keys:
                     out_row = [key,
                                prev_loc_viet[key],
                                val,
@@ -339,6 +352,8 @@ def main():
             parser, loc_emf, max_provs, swmhpath, emfpath, emfswmhpath,
             extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
+        keys_to_override.update(keys_overridden_in_mod(swmhpath, emfpath,
+                                                       emfswmhpath))
         keys_to_add = ['Germania']
         prev_loc_emf = collections.defaultdict(str)
         inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
