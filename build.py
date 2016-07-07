@@ -17,10 +17,10 @@ if no_provinces:
     version += '-noprovinces'
 
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
-emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 minipath = rootpath / 'MiniSWMH/MiniSWMH'
-emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 sed2path = rootpath / 'SED2'
+# emfswmhpath = rootpath / 'EMF/EMF+SWMH'
+# emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 
 province_loc_files = [
     'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
@@ -41,9 +41,9 @@ def main():
     build_lt = build_sed2 / 'common/landed_titles'
     build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
-    build_emf_lt = build / 'SED2+EMF/common/landed_titles'
     build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
-    build_emfmini_lt = build / 'SED2+EMF+MiniSWMH/common/landed_titles'
+    # build_emf_lt = build / 'SED2+EMF/common/landed_titles'
+    # build_emfmini_lt = build / 'SED2+EMF+MiniSWMH/common/landed_titles'
     while build.exists():
         print('Removing old build...')
         shutil.rmtree(str(build), ignore_errors=True)
@@ -51,9 +51,9 @@ def main():
     build_lt.mkdir(parents=True)
     build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
-    build_emf_lt.mkdir(parents=True)
     build_mini_lt.mkdir(parents=True)
-    build_emfmini_lt.mkdir(parents=True)
+    # build_emf_lt.mkdir(parents=True)
+    # build_emfmini_lt.mkdir(parents=True)
     swmh_files = set()
     sed2 = {}
     keys_to_blank = set()
@@ -190,21 +190,21 @@ def main():
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))
 
-    for moddir, builddir in zip([emfswmhpath, minipath, emfminipath],
-        [build_emf_lt, build_mini_lt, build_emfmini_lt]):
-        for inpath, tree in full_parser.parse_files('common/landed_titles/*',
-                                                    basedir=moddir):
-            if (inpath.name == 'zz_emf_heresy_titles_SWMH.txt' and
-                moddir == build_emf_lt):
-                continue
-                # lame hardcoded exception since we still don't have templates
-                # for any non-SWMH landed_titles
-            template = templates_lt / inpath.with_suffix('.csv').name
-            if template in sed2:
-                outpath = builddir / inpath.name
-                update_tree(tree, sed2[template], lt_keys)
-                with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
-                    f.write(tree.str(full_parser))
+    # for moddir, builddir in zip([emfswmhpath, minipath, emfminipath],
+    #     [build_emf_lt, build_mini_lt, build_emfmini_lt]):
+    #     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
+    #                                                 basedir=moddir):
+    #         if (inpath.name == 'zz_emf_heresy_titles_SWMH.txt' and
+    #             moddir == build_emf_lt):
+    #             continue
+    #             # lame hardcoded exception since we still don't have
+    #             # templates for any non-SWMH landed_titles
+    #         template = templates_lt / inpath.with_suffix('.csv').name
+    #         if template in sed2:
+    #             out = builddir / inpath.name
+    #             update_tree(tree, sed2[template], lt_keys)
+    #             with out.open('w', encoding='cp1252', newline='\r\n') as f:
+    #                 f.write(tree.str(full_parser))
 
     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
                                                 basedir=minipath):

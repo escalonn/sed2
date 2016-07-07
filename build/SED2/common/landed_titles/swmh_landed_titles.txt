@@ -4735,7 +4735,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_neopatras
 		} # end d_neopatras
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_byzantium
@@ -5038,8 +5041,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_corfu
 		} # end d_cephalonia
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
-			NOT = { liege = { has_landed_title = e_roman_empire } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_epirus
@@ -5345,8 +5350,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_arcadia
 		} # end d_achaia
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { liege = { has_landed_title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_achaea
@@ -5419,7 +5427,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_chandax
 		} # end d_krete
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_candia
@@ -5812,9 +5823,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_cibyrrhaeot
 		allow = {
-			religion = orthodox
-			NOT = { liege = { has_landed_title = e_byzantium } }
-			NOT = { liege = { has_landed_title = e_roman_empire } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
+			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	} # end k_nikaea
@@ -6061,7 +6074,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_melitene
 		} # end d_melitene
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_anatolia
@@ -6127,8 +6143,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_cyprus
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { liege = { has_landed_title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_cyprus
@@ -6318,9 +6337,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_armeniacon
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { liege = { has_landed_title = e_byzantium } }
-			NOT = { liege = { has_landed_title = e_roman_empire } }
 			title_king_basic_allow = yes
 		}
 	} # end k_trebizond
@@ -6461,7 +6482,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_anamur
 		} # end d_seleukeia
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_cilician
@@ -6873,7 +6897,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_naissus
 		} # end d_ohrid
 		allow = {
-			NOT = { liege = { has_landed_title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_bulgaria
@@ -7080,8 +7107,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_travunija
 		} # end d_dioclea
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { liege = { has_landed_title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_serbia
@@ -31817,7 +31847,7 @@ d_aydin = { # Aydin
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31838,7 +31868,7 @@ d_candar = { # Candar
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31853,7 +31883,7 @@ d_eretnid = { # Eretna
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31876,7 +31906,7 @@ d_germiyan = { # Germiyan
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31907,7 +31937,7 @@ d_karaman = { # Qaraman
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31937,7 +31967,7 @@ d_mentese = { # Mentese
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31953,7 +31983,7 @@ d_karasi = { # Qarasi
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31976,7 +32006,7 @@ d_osmanli = { # Osmanli
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -31987,8 +32017,11 @@ k_ottoman = { # Ottoman Turks
 	culture = turkish
 	capital = 742 # Prousa # Prusa
 	allow = {
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
+		}
 		culture_group = altaic
-		NOT = { liege = { has_landed_title = e_byzantium } }
 		title_king_basic_allow = yes
 	}
 }
@@ -31998,11 +32031,16 @@ k_rum = { # Rûm
 	culture = turkmen
 	capital = 759 # Ikonion
 	allow = {
-		OR = { # Either a player or Muslim
-			ai = no
-			religion_group = muslim
+		hidden_tooltip = {
+			OR = { # Either a player or Muslim
+				ai = no
+				religion_group = muslim
+			}
 		}
-		NOT = { liege = { has_landed_title = e_byzantium } }
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
+		}
 		title_king_basic_allow = yes
 	}
 	dynasty_title_names = no
@@ -32017,7 +32055,7 @@ d_saruhan = { # Saruhan
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -32041,7 +32079,7 @@ d_ahi = { # Ahiler
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -32058,7 +32096,7 @@ d_hamid = { # Hamid
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -32073,7 +32111,7 @@ d_tekke = { # Teke
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { top_liege = { has_landed_title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -32176,8 +32214,11 @@ k_kerman = { # Kermán
 	culture = turkmen
 	capital = 639 # Kermân # Kerman
 	allow = {
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
+		}
 		culture_group = altaic
-		NOT = { liege = { has_landed_title = e_byzantium } }
 		title_king_basic_allow = yes
 	}
 }
