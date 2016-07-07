@@ -19,7 +19,8 @@ if no_provinces:
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 minipath = rootpath / 'MiniSWMH/MiniSWMH'
 sed2path = rootpath / 'SED2'
-# emfswmhpath = rootpath / 'EMF/EMF+SWMH'
+emfpath = rootpath / 'EMF/EMF'
+emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 # emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 
 province_loc_files = [
@@ -93,11 +94,20 @@ def main():
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # EMF
+    # determine files overriding SWMH locs
+    overridden_files = swmh_files & {path.name for path in
+        files('localisation/*', [emfswmhpath], basedir=emfpath)}
     inpath = templates_emf_loc / 'z~ SED+EMF.csv'
+    original_file = None
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
-    for row in csv_rows(inpath):
+    for row in csv_rows(inpath, comments=True):
+        if row[0].startswith('#CODE'):
+            continue
+        if row[0].startswith('#'):
+            original_file = row[0][1:]
+            continue
         if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
             continue
         sed2row = [''] * 15
@@ -105,6 +115,9 @@ def main():
         sed2row[1] = row[1].strip()
         sed2row[-1] = 'x'
         if sed2row[1] or sed2row[0] in keys_to_blank:
+            sed2rows.append(sed2row)
+        elif original_file in overridden_files:
+            sed2row[1] = sed2[sed2row[0]]
             sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
