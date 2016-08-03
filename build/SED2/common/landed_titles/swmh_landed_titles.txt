@@ -1,5 +1,4 @@
 # -*- ck2.landed_titles -*-
-
 # HOLY ORDERS
 d_knights_templar = { # Knights Templar
 	color = { 230 230 230 }
@@ -32083,9 +32082,11 @@ e_seljuk_turks = { # Seljuk Empire
 	color = { 99 168 74 }
 	capital = 646 # Isfahan # Esfahan
 	culture = turkmen
-	#tribe = yes
-	#landless = yes
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { has_holder = yes }
+		title_emperor_basic_allow = yes
+	}
+	short_name = yes
 }
 
 d_ahi = { # Ahiler
