@@ -197,7 +197,7 @@ def main():
         prev_loc = collections.defaultdict(str)
         prev_lt = collections.defaultdict(str)
 
-        templates = rootpath / 'SED2/templates'
+        templates = rootpath / 'sed2/templates'
         templates_sed2 = templates / 'SED2'
         for path in files('localisation/*', basedir=templates_sed2):
             prev_loc.update({row[0].strip(): row[1].strip()

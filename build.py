@@ -18,7 +18,7 @@ if no_provinces:
 
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 minipath = rootpath / 'MiniSWMH/MiniSWMH'
-sed2path = rootpath / 'SED2'
+sed2path = rootpath / 'sed2'
 emfpath = rootpath / 'EMF/EMF'
 emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 # emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
