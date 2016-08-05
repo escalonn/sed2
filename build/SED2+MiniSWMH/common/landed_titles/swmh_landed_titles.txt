@@ -1,4 +1,5 @@
 # -*- ck2.landed_titles -*-
+
 # HOLY ORDERS
 d_knights_templar = { # Knights Templar
 	color = { 230 230 230 }
@@ -11119,7 +11120,7 @@ e_arabia = { # Arabian Empire
 			}
 		}
 		d_medina = { # Hijaz
-			color = { 150 249 43 }
+			color = { 0 51 218 }
 			color2 = { 255 255 255 }
 			capital = 719 # Makkah # Mecca
 			muslim = 500 # Crusade target weight
@@ -11186,7 +11187,7 @@ e_arabia = { # Arabian Empire
 			}
 		} # end d_medina
 		d_nefoud = { # Najd
-			color = { 187 16 82 }
+			color = { 150 249 43 }
 			color2 = { 255 255 255 }
 			capital = 864 # Hail
 			greek = "Arabia Deserta"
