@@ -11057,7 +11057,6 @@ e_arabia = { # Arabian Empire
 	color2 = { 255 255 255 }
 	capital = 718 # Madinah # Medina
 	culture = bedouin_arabic
-	short_name = yes
 	k_arabia = { # Arabiyya
 		color = { 45 169 12 }
 		color2 = { 255 255 255 }
@@ -29856,7 +29855,7 @@ d_takarkart = { # Takarkart
 }
 
 d_naqis = { # Naqís
-	color = { 230 230 110 }
+	color = { 230 160 75 }
 	capital = 1593 # Naqis
 	#tribe = yes
 	culture = beja
@@ -29876,7 +29875,7 @@ d_baqlin = { # Baqlín
 }
 
 d_djarin = { # Djarín
-	color = { 235 240 100 }
+	color = { 125 210 75 }
 	#tribe = yes
 	culture = beja
 	capital = 1489 # Wolqayt
@@ -29896,7 +29895,7 @@ d_qataa = { # Qata'a
 }
 
 d_bazin = { # Bazín
-	color = { 225 232 105 }
+	color = { 240 200 110 }
 	#tribe = yes
 	culture = beja
 	capital = 1508 # Adulis # Audlis (or 878?)
@@ -30046,7 +30045,7 @@ d_germiyan = { # Germiyan
 k_hammadid = { # Hammadid
 	color = { 149 180 17 }
 	culture = beja
-	capital = 1211 # Beja
+	capital = 1593 # Naqis
 	allow = { title_king_basic_allow = yes }
 }
 
@@ -30318,7 +30317,7 @@ k_blemmyes = { # Béja
 	color = { 255 67 20 }
 	#tribe = yes
 	culture = beja
-	capital = 1211 # Beja
+	capital = 1593 # Naqis
 	allow = { title_king_basic_allow = yes }
 }
 
