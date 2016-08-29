@@ -310,7 +310,7 @@ def main():
             if not out_row[0].startswith('#') or i == 0:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t_sed2 / 'localisation' / 'zz SED.csv'
+        outpath = templates_t_sed2 / 'localisation' / 'A SED.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
@@ -318,7 +318,7 @@ def main():
         overridden_keys = set()
         keys_to_override.update(keys_overridden_in_mod(swmhpath, vietpath))
         prev_loc_viet = collections.defaultdict(str)
-        inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
+        inpath = templates / 'SED2+VIET/localisation/AA SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in csv_rows(inpath)})
         viet_rows = [
@@ -358,7 +358,7 @@ def main():
                                                        emfswmhpath))
         keys_to_add = ['Germania']
         prev_loc_emf = collections.defaultdict(str)
-        inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
+        inpath = templates / 'SED2+EMF/localisation/AA SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
         gov_prefixes = get_gov_prefixes(parser, swmhpath, emfpath, emfswmhpath)
