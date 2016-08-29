@@ -291,7 +291,7 @@ def main():
             out_row = [key, prev_loc[key], '', '', key]
             override_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', reverse=True):
+        for path in files('localisation/*'):
             if path.name not in swmh_files:
                 override_rows.append(['#' + path.name, '', '', '', ''])
                 for row in csv_rows(path):
@@ -323,7 +323,7 @@ def main():
         viet_rows = [
             ['#CODE', 'SED+VIET', 'VIET', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
         col_width = [0, 8]
-        for path in files('localisation/*', basedir=vietpath, reverse=True):
+        for path in files('localisation/*', basedir=vietpath):
             viet_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
@@ -375,7 +375,7 @@ def main():
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', [emfswmhpath], basedir=emfpath, reverse=True):
+        for path in files('localisation/*', [emfswmhpath], basedir=emfpath):
             emf_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]

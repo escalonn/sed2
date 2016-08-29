@@ -1,18 +1,100 @@
 #CODE                                        ;SED+VIET;VIET;SWMH;OTHER;SED;VANILLA
-#zj_ordepchains.csv;;;;;
-#zj_meltingpot_events.csv;;;;;
-#zj_council_shuffling.csv;;;;;
-#zj_Zhayedan.csv;;;;;
-#zj_VIET_zhongguo.csv;;;;;
-#zj_VIET_wafrica_stuff.csv;;;;;
-#zj_VIET_random_mods_stuff.csv;;;;;
+#zj_Additional Objectives.csv;;;;;
+#zj_HKC Christian Stuff.csv;;;;;
+temple_emperor_christian                     ;        ;Primate;;;;
+temple_empire_of_christian                   ;        ;See of;;;;
+temple_king_christian                        ;Patriarch;Patriarch;;;King-Bishop;King-Bishop
+temple_kingdom_of_christian                  ;        ;Patriarchate of;;;;
+temple_duke_christian                        ;        ;Prince-Archbishop;;;Prince-Archbishop;Prince-Archbishop
+temple_count_christian                       ;        ;Prince-Bishop;;;Prince-Bishop;Prince-Bishop
+#zj_HKC Sinic Titles.csv;;;;;
+emperor_khitan                               ;        ;Huang Di;Huang Di;;Emperor;
+emperor_female_khitan                        ;        ;Huang Tai Ho;Huang Tai Ho;;Empress;
+king_khitan                                  ;        ;Ong;Ong;;King;
+king_female_khitan                           ;        ;Ong-n Pi;Ong-n Pi;;Queen;
+nomadic_king_khitan                          ;        ;Irkin;Irkin;;High Chief;
+nomadic_king_female_khitan                   ;        ;Ilim;Ilim;;High Chieftess;
+tribal_king_khitan                           ;        ;Irkin;Irkin;;High Chief;
+tribal_king_female_khitan                    ;        ;Ilim;Ilim;;High Chieftess;
+duke_khitan                                  ;        ;Tqosi;Tqosi;;Commissioner;
+duke_female_khitan                           ;        ;Pushin;Pushin;;Lady;
+duchy_of_khitan                              ;        ;Province of;Province of;;Province of;
+count_khitan                                 ;        ;Tshisi;Tshisi;;Magistrate;
+count_female_khitan                          ;        ;Au'ui;Au'ui;;Lady;
+county_of_khitan                             ;        ;Commandery of;Commandery of;;Commandery of;
+baron_khitan                                 ;Tarkhan ;Tarqan;Basqaq;;Prefect;
+baron_female_khitan                          ;        ;Aldun;Aldun;;Lady;
+barony_of_khitan                             ;        ;County of;County of;;County of;
+title_prince_khitan                          ;        ;Taisi;Taisi;;Prince;
+title_prince_female_khitan                   ;        ;Au'ui;Au'ui;;Princess;
+#zj_Latinokratia_localisation.csv;;;;;
+e_latin_empire                               ;        ;Romania;Imperium Romaniae;;Latin Empire;Latin Empire
+e_latin_empire_adj                           ;        ;Roman;;;Latin;Latin
+#zj_MZ.csv;;;;;
+emperor_iranian                              ;        ;Shahanshah;;;Shahanshah;Shahanshah
+king_iranian                                 ;        ;Shah;;;Shah;Shah
+king_female_iranian                          ;        ;Banebshen;;;Banbishn;Banebshen
+duke_iranian                                 ;        ;Satrap;;;Satrap;Satrap
+count_iranian                                ;        ;Marzban;;;Marzban;Marzoban
+baron_iranian                                ;        ;Argbadh;;;Argbed;Argbadh
+barony_iranian                               ;        ;Arg;;;Arg;Arg
+barony_of_iranian                            ;        ;Arg of;;;Arg of;Arg of
+county_iranian                               ;        ;Marzpanate;;;Marzpanate;Marzpanate
+county_of_iranian                            ;        ;Marzpanate of;;;Marzpanate of;Marzpanate of
+duchy_iranian                                ;        ;Satrapy;;;Satrapy;Satrapy
+duchy_of_iranian                             ;        ;Satrapy of;;;Satrapy of;Satrapy of
+kingdom_iranian                              ;        ;Shahdom;;;Shahdom;Shahdom
+kingdom_of_iranian                           ;        ;Shahdom of;;;Shahdom of;Shahdom of
+temple_baron_zoroastrian                     ;Mobed   ;Mobad;;;Herbad;Herbad
+temple_barony_zoroastrian                    ;Atashkada;Atashkada;;;Verethragna;Vahram
+temple_barony_of_zoroastrian                 ;Atashkada of;Atashkada of;;;Verethragna of;Vahram of
+job_spiritual_zoroastrian_group              ;Dastur  ;Dastur;;;Mobed;Mobad
+job_spiritual_zoroastrian                    ;Dastur  ;Dastur;;;Mobed;Mobad
+job_spymaster_zoroastrian                    ;        ;Spasaka;;;;
+job_chancellor_zoroastrian_group             ;Wuzurg Framadar;Vuzorg Farmadar;;;Astabadh;Astabadh
+job_marshal_zoroastrian_group                ;        ;Eran Spahbod;;;Eran-Spahbed;Eran Spahbod
+job_treasurer_zoroastrian_group              ;Ho Tokhshan Bod;Ho Tokhshan Bod;;;Chamberlain;Darik-Pat
+city_baron_zoroastrian_group                 ;Dehqan  ;Dihqan;;;;
+#zj_Regency_localisations.csv;;;;;
+#zj_SyrenNickMod.csv;;;;;
+nick_the_learned                             ;        ;the Learned;the Learned;;the Learned;
+#zj_VIET_Celtic.csv;;;;;
+#zj_VIET_Culture.csv;;;;;
+north_african                                ;North African;North African;Berber;;Berber;
+berber                                       ;Berber  ;Berber;Iznagen;;Sanhaja;
+nubian                                       ;        ;Nubian;Nubian;;Nubian;Nubian
+tajik                                        ;        ;Tajik;Tajik;;Tajik;
+sicilian                                     ;        ;Sicilian;Sicilianu;;Sicilian;
+somali                                       ;        ;Somali;Somali;;Somali;Somali
 icelandic                                    ;        ;Icelandic;Íslondskr;;Icelandic;
+tamil                                        ;        ;Tamil;;;Tamil;Tamil
+sindhi                                       ;        ;Sindhi;;;Sindhi;Sindhi
+sinic                                        ;East Asian;East Asian;Sinic;;Sinic;
+sogdian                                      ;        ;Sogdian;Soghdian;;Sogdian;Sogdian
+pictish                                      ;        ;Pictish;;;Pictish;Pictish
+songhai                                      ;        ;Songhai;Songhai;;Songhai;
+khitan                                       ;        ;Khitan;Qidun;;Khitan;Khitan
+beja                                         ;        ;Beja;Bedawiye;;Beja;
+daju                                         ;        ;Daju;Daju;;Daju;
+zaghawa                                      ;        ;Zaghawa;Zaghawa;;Zaghawa;
+kanuri                                       ;        ;Kanuri;Kanuri;;Kanuri;
+hausa                                        ;        ;Hausa;Hausa;;Hausa;
+falashim                                     ;        ;Beta Israel;Beta Yisrael;;Beta Israel;
+sinhala                                      ;        ;Sinhala;;;Sinhalese;Sinhala
+lombard                                      ;        ;Lombard;;;Langobard;Lombard
+tocharian                                    ;        ;Tocharian;;;Tocharian;Tocharian
+cornish                                      ;        ;Cornish;Kernowek;;Cornish;
+coptic                                       ;        ;Coptic;Kubti;;Coptic;
+assyrian                                     ;        ;Assyrian;Suryaye;;Assyrian;
+khotanese                                    ;        ;Khotanese;Hvamnai;;Khotanese;
+frisian                                      ;        ;Frisian;Fresisk;;Frisian;Frisian
+afar                                         ;        ;Afar;Afar;;Afar;
 baron_andalusian_arabic                      ;        ;Wâli;Wâli;;Wâli;
 baron_female_andalusian_arabic               ;Wâli    ;Wâlia;;;;
 barony_of_andalusian_arabic                  ;        ;Wilayah of;Wilayah of;;Wilayah of;
 count_andalusian_arabic                      ;        ;Sheikh;Sheikh;;Sheikh;
 count_female_andalusian_arabic               ;        ;Shaykhah;Shaykhah;;Shaykhah;
-county_of_andalusian_arabic                  ;Taifa of;Taifa of;Sheikhdom of;;Sheikhdom of;
+county_of_andalusian_arabic                  ;Taifa of;Sheikhdom of;Sheikhdom of;;Sheikhdom of;
 duke_andalusian_arabic                       ;        ;Emir;Emir;;Emir;
 duke_female_andalusian_arabic                ;        ;Emira;Emira;;Emira;
 duchy_of_andalusian_arabic                   ;        ;Emirate of;Emirate of;;Emirate of;
@@ -20,170 +102,32 @@ king_andalusian_arabic                       ;Sultan  ;Sultan;Malik;;Malik;
 king_female_andalusian_arabic                ;Sultana ;Sultana;Malika;;Malikah;
 kingdom_of_andalusian_arabic                 ;Sultanate of;Sultanate of;Malikate of;;Malikate of;
 barony_andalusian_arabic                     ;        ;Wilayah;;;;
-county_andalusian_arabic                     ;Taifa   ;Taifa;Wilayah;;Wilayah;
+county_andalusian_arabic                     ;Taifa   ;Sheikhdom;Wilayah;;Wilayah;
 duchy_andalusian_arabic                      ;        ;Emirate;Emirato;;Emirate;
 kingdom_andalusian_arabic                    ;        ;Sultanate;Sultanato;;Sultanate;
 job_chancellor_andalusian_arabic             ;        ;Grand Vizier;Grand Vizier;;Grand Vizier;
 emperor_andalusian_arabic                    ;Padishah;Badshah;Calif;;Caliph;
-baron_kurdish                                ;Muqta   ;Wâli;Muqtá';;Muqta;
-baron_female_kurdish                         ;Wâli    ;Wâlia;;;;
-barony_of_kurdish                            ;        ;Wilayah of;;;;
-count_kurdish                                ;Sheikh  ;Sheikh;Ustandár;;Ustandar;
-count_female_kurdish                         ;Shaykhah;Shaykhah;Ustandáreh;;Ustandar;
-county_of_kurdish                            ;Sheikhdom of;Sheikhdom of;Ustan-e;;Province of;
-duke_kurdish                                 ;        ;Emir;Emir;;Emir;
-duke_female_kurdish                          ;        ;Emira;;;;
-duchy_of_kurdish                             ;        ;Emirate of;Emírát-e;;Emirate of;
-king_kurdish                                 ;Sultan  ;Sultan;Sháh;;Shah;
-king_female_kurdish                          ;        ;Sultana;;;;
-kingdom_of_kurdish                           ;        ;Sultanate of;;;;
-barony_kurdish                               ;        ;Wilayah;;;;
-county_kurdish                               ;Sheikhdom;Sheikhdom;Ustan;;Province;
-duchy_kurdish                                ;        ;Emirate;Emírát;;Emirate;
-kingdom_kurdish                              ;        ;Sultanate;;;;
-job_chancellor_kurdish                       ;        ;Grand Vizier;;;;
-emperor_kurdish                              ;Badshah ;Badshah;Sháhansháh;;Shahanshah;
-baron_north_african                          ;        ;Wâli;;;;
-baron_female_north_african                   ;Wâli    ;Wâlia;;;;
-barony_of_north_african                      ;        ;Wilayah of;;;;
-count_north_african                          ;        ;Sheikh;;;;
-count_female_north_african                   ;        ;Shaykhah;;;;
-county_of_north_african                      ;        ;Sheikhdom of;;;;
-duke_north_african                           ;        ;Emir;;;;
-duke_female_north_african                    ;        ;Emira;;;;
-duchy_of_north_african                       ;        ;Emirate of;;;;
-king_north_african                           ;        ;Sultan;;;;
-king_female_north_african                    ;        ;Sultana;;;;
-kingdom_of_north_african                     ;        ;Sultanate of;;;;
-barony_north_african                         ;        ;Wilayah;;;;
-county_north_african                         ;        ;Sheikhdom;;;;
-duchy_north_african                          ;        ;Emirate;;;;
-kingdom_north_african                        ;        ;Sultanate;;;;
-job_chancellor_north_african                 ;        ;Grand Vizier;;;;
-emperor_north_african                        ;Padishah;Badshah;;;;
-#zj_VIET_pagan_stuff.csv;;;;;
-#zj_VIET_other_romans_stuff.csv;;;;;
-#zj_VIET_nicknames.csv;;;;;
-#zj_VIET_narrative.csv;;;;;
-#zj_VIET_monogatari.csv;;;;;
-#zj_VIET_modifiers.csv;;;;;
-#zj_VIET_marriage.csv;;;;;
-#zj_VIET_love_like_and_hate.csv;;;;;
-#zj_VIET_jordarkelf.csv;;;;;
-#zj_VIET_jewish.csv;;;;;
-karaite                                      ;        ;Karaite;;;Karaite;Karaite
-ashkenazi                                    ;        ;Ashkenazi;Ashkenazi;;Ashkenazi Jewish;Ashkenazi
-jewish                                       ;        ;Rabbinic;;;Jewish;Jewish
-samaritan                                    ;        ;Samaritan;;;Samaritan;Samaritan
-falashim                                     ;        ;Falashim;Beta Yisrael;;Beta Israel;
-khazar                                       ;        ;Khazar;Qasar;;Khazar;Khazar
-k_israel                                     ;        ;Israel;;;Israel;Israel
-job_spiritual_jewish_group                   ;        ;Chief Rabbi;Chief Rabbi;;Chief Rabbi;Court Rabbi
-temple_baron_jewish_group                    ;        ;Rabbi;Rabbi;;Rabbi;Rabbi
-temple_count_jewish_group                    ;Grand Rabbi;Grand Rabbi;Great Rabbi;;Great Rabbi;Kohen
-temple_duke_jewish_group                     ;Nagid   ;Nagid;Melech;;Malik;Rabban
-temple_king_jewish_group                     ;Grand Nagid;Grand Nagid;Melech haMelachim;;King of Kings;Nasi
-temple_kingdom_of_jewish_group               ;Grand Sanhedrin of;Grand Sanhedrin of;Great Sanhedrin of;;Great Sanhedrin of;Theocracy of
-temple_duchy_of_jewish_group                 ;Sanhedrin of;Sanhedrin of;Lesser Sanhedrin of;;Lesser Sanhedrin of;
-temple_county_of_jewish_group                ;        ;Beit Din of;Beth din of;;Beth Din of;Theocracy of
-temple_barony_of_jewish_group                ;        ;Synagogue of;Synagogue of;;Synagogue of;Temple of
-#zj_VIET_ipad_misc_fun.csv;;;;;
-#zj_VIET_historical.csv;;;;;
-#zj_VIET_heresy_flavor.csv;;;;;
-#zj_VIET_fantasy.csv;;;;;
-#zj_VIET_eastern_religions_stuff.csv;;;;;
-#zj_VIET_death.csv;;;;;
-#zj_VIET_customization.csv;;;;;
-#zj_VIET_cinnamon.csv;;;;;
-#zj_VIET_bitter.csv;;;;;
-#zj_VIET_ancillaries.csv;;;;;
-#zj_VIET_Traits.csv;;;;;
-#zj_VIET_Special_Events.csv;;;;;
-#zj_VIET_Silk_Road.csv;;;;;
-#zj_VIET_Scarborough_Fair.csv;;;;;
-#zj_VIET_Republics_text.csv;;;;;
-d_hormuz                                     ;Sistan  ;Sistan;Hormuz;;Ormus;
-d_hormuz_adj                                 ;Sistan  ;Sistan;Hormuzí;;Ormusi;
-d_ragusa                                     ;Ragusa  ;Ragusa;Dubrovnik;Ragusa,Ragusium,Raguia;Dubrovnik;
-d_ragusa_adj                                 ;Ragusan ;Ragusan;Dubrovnikan;;Dubrovnikan;
-#zj_VIET_PB.csv;;;;;
-temple_emperor_female_christian              ;        ;Empress-Bishop;;;;
-temple_king_female_catholic                  ;        ;Queen-Bishop;;;;
-temple_king_female_orthodox                  ;        ;Queen-Bishop;;;;
-temple_duke_female_catholic                  ;        ;Princess-Archbishop;;;;
-temple_duke_female_orthodox                  ;        ;Princess-Archbishop;;;;
-temple_count_female_catholic                 ;        ;Princess-Bishop;;;;
-city_emperor_female                          ;        ;Grand Princess;;;;
-count_title_ruler_consort_saxon              ;        ;Earl;Ealdorman;;;
-count_title_ruler_consort_english            ;        ;Earl;Earl;;;
-count_title_ruler_consort_scottish           ;        ;Earl;Earl;;;
-count_title_ruler_consort_irish              ;        ;Earl;Ri Buiden;;;
-count_title_ruler_consort_welsh              ;Earl    ;Earl;Tywysoges;;Tywysoges;
-emperor_title_ruler_consort_altaic           ;        ;Khagan;;;;
-emperor_title_ruler_consort_female_altaic    ;        ;Khatun;;;;
-king_title_ruler_consort_altaic              ;        ;Khan;;;;
-king_title_ruler_consort_female_altaic       ;        ;Khanum;;;;
-duke_title_ruler_consort_greek               ;        ;Doux;Doux;;;
-king_title_ruler_consort_greek               ;        ;Despot;Despotes;;;
-emperor_title_ruler_consort_greek            ;        ;Basileus;;;;
-emperor_title_ruler_consort_russian          ;Tsar    ;Tsar;Velikiy Kniaz;;Grand Duke;
-emperor_title_ruler_consort_female_russian   ;        ;Tsaritsa;Tsaritsa;;Tsarina;
-baron_title_ruler_consort_arabic             ;        ;Wâli;;;;
-count_title_ruler_consort_arabic             ;        ;Sheikh;;;;
-duke_title_ruler_consort_arabic              ;        ;Emir;;;;
-king_title_ruler_consort_arabic              ;        ;Sultan;;;;
-baron_title_ruler_consort_turkish            ;        ;Timariot;;;;
-count_title_ruler_consort_turkish            ;        ;Bey;;;;
-duke_title_ruler_consort_turkish             ;        ;Beylerbey;;;;
-king_title_ruler_consort_turkish             ;        ;Sultan;;;;
-emperor_title_ruler_consort_turkish          ;        ;Padishah;;;;
-baron_title_ruler_consort_iranian            ;        ;Muqtab;;;;
-count_title_ruler_consort_iranian            ;        ;Wâli;;;;
-duke_title_ruler_consort_iranian             ;        ;Emir;;;;
-king_title_ruler_consort_iranian             ;        ;Sultan;;;;
-emperor_title_ruler_consort_iranian          ;        ;Shahanshah;;;;
-baron_title_ruler_consort_mongol             ;        ;Taishi;;;;
-count_title_ruler_consort_mongol             ;        ;Chief;;;;
-duke_title_ruler_consort_mongol              ;        ;High Chief;;;;
-duke_title_ruler_consort_pagan_group         ;        ;High Chief;;;;
-duke_title_ruler_consort_norse_pagan         ;        ;Jarl;;;;
-count_title_ruler_consort_pagan_group        ;        ;Chief;;;;
-baron_title_ruler_consort_pagan_group        ;        ;Hetman;;;;
-baron_title_ruler_consort_norse_pagan        ;        ;Lord;;;;
-temple_emperor_christian                     ;        ;Emperor-Bishop;;;;
-#zj_VIET_Intro_Text.csv;;;;;
-#zj_VIET_Immersion_misc.csv;;;;;
-title_despot                                 ;        ;Symbasileus;;;Despot;Despot
-title_despot_desc                            ;Symbasileus was a title bestowed upon the oldest sons of emperors when they were crowned as co-emperors alongside their fathers.;Symbasileus was a title bestowed upon the oldest sons of Emperors when they were crowned as co-Emperors alongside their Father.;;;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.
-title_lawspeaker                             ;        ;Lawspeaker;;;Lawspeaker;Lawspeaker
-title_lawspeaker_desc                        ;Lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;A lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;;;The lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.;The Lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.
-title_marcher_lord                           ;        ;Marcher Lord;Marcher Lord;;Marcher Lord;
-title_marcher_lord_desc                      ;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;
-title_noyan                                  ;        ;Dog of War;;;Noyan;Noyan
-title_noyan_desc                             ;During the Mongol conquests, Genghis Khan named four of his top generals as “dogs of war” – Subutai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan’s campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people’s lives in hunting and warnings.;During the Mongol world conquests, Genghis Khan named four of his top generals as so-called "Dogs of War" - Subotai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan's campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people's lives in hunting and warnings.;;;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.
-ca_culture_jewish_1                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
-ca_culture_jewish_2                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
-ca_culture_jewish_3                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
-ca_culture_jewish_4                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
-ca_culture_jewish_1_desc                     ;        ;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;;;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.
-raider                                       ;        ;Raider;Raider;;Raider;
-raider_desc                                  ;        ;This pagan has acquired much fame as a fearsome raider.;This character is widely known as terrifying pillager and looter.;;This character is widely known as terrifying pillager and looter.;
-title_court_musician_christian               ;        ;Court Minstrel;;;;
-title_court_musician_celtic                  ;        ;Court Bard;;;;
-title_court_musician_west_germanic           ;        ;Court Bard;;;;
-title_court_musician_latin                   ;        ;Court Troubadour;;;;
-title_court_musician_female_latin            ;        ;Court Trobairitz;;;;
-title_court_musician_iberian                 ;        ;Court Troubadour;;;;
-title_court_musician_female_iberian          ;        ;Court Trobairitz;;;;
-title_court_musician_andalusian_arabic       ;        ;Court Musician;;;;
-title_court_musician_female_andalusian_arabic;        ;Court Musician;;;;
-title_court_musician_south_slavic            ;        ;Court Guslar;;;;
-title_court_musician_east_slavic             ;Okolnichy;Court Okolnichy;;;;
-title_court_musician_altaic                  ;        ;Court Ashik;;;;
-title_court_musician_iranian                 ;        ;Court Ashik;;;;
-title_court_musician_georgian                ;        ;Court Ashik;;;;
-title_court_musician_armenian                ;        ;Court Ashik;;;;
-title_court_musician_east_african            ;        ;Court Azmari;;;;
+baron_berber                                 ;        ;Wâli;;;;
+baron_female_berber                          ;Wâli    ;Wâlia;;;;
+barony_of_berber                             ;        ;Wilayah of;;;;
+count_berber                                 ;        ;Sheikh;;;;
+count_female_berber                          ;        ;Shaykhah;;;;
+county_of_berber                             ;        ;Sheikhdom of;;;;
+duke_berber                                  ;        ;Emir;;;;
+duke_female_berber                           ;        ;Emira;;;;
+duchy_of_berber                              ;        ;Emirate of;;;;
+king_berber                                  ;        ;Sultan;;;;
+king_female_berber                           ;        ;Sultana;;;;
+kingdom_of_berber                            ;        ;Sultanate of;;;;
+barony_berber                                ;        ;Wilayah;;;;
+county_berber                                ;        ;Sheikhdom;;;;
+duchy_berber                                 ;        ;Emirate;;;;
+kingdom_berber                               ;        ;Sultanate;;;;
+job_chancellor_berber                        ;        ;Grand Vizier;;;;
+emperor_berber                               ;Padishah;Badshah;;;;
+arabic                                       ;Semitic ;Semitic;;;Arabic;Arabic
+#zj_VIET_Decisions.csv;;;;;
+#zj_VIET_Events_Events.csv;;;;;
 #zj_VIET_FlavorTitles.csv;;;;;
 count_irish                                  ;High Lord;High Lord;Ri Buiden;;Ri Buiden;Earl
 county_of_irish                              ;High Lordship of;High Lordship of;Cóicid of;;Province of;
@@ -392,10 +336,6 @@ count_afghan                                 ;Malik   ;Malik;Azad;;Azad;
 count_female_afghan                          ;Malikah ;Malikah;Azadeh;;Azad;
 county_of_afghan                             ;Malikate of;Malikate of;Viláyat-e;;Province of;
 county_afghan                                ;Malikate;Malikate;Viláya;;Province;
-job_marshal_zoroastrian_group                ;        ;Spahbod;;;Eran-Spahbed;Eran Spahbod
-job_spiritual_zoroastrian_group              ;Dastur  ;Court Magi;;;Mobed;Mobad
-job_treasurer_zoroastrian_group              ;Ho Tokhshan Bod;Ho Tokhshan Bod;;;Chamberlain;Darik-Pat
-job_chancellor_zoroastrian_group             ;Wuzurg Framadar;Bozorg Farmadar;;;Astabadh;Astabadh
 temple_emperor_zoroastrian_group             ;Moabadan-Moabad;Moabandan-Moabad;;;;
 temple_king_zoroastrian_group                ;Moabadan-Moabad;Moabandan-Moabad;;;;
 temple_duke_zoroastrian_group                ;Magus   ;Magi;;;;
@@ -528,113 +468,173 @@ city_baron_pagan_group                       ;        ;Village Elder;;;;
 city_kingdom_of_pagan_group                  ;        ;Nation of;;;;
 city_duchy_of_pagan_group                    ;        ;Tribe of;;;;
 city_county_of_pagan_group                   ;        ;Clan of;;;;
+barony_of_north_african                      ;        ;Ksar of;;;;
+barony_north_african                         ;        ;Ksar;;;;
 city_count_norman                            ;        ;Reeve;;;;
 city_duke_norman                             ;High-Reeve;High Reeve;;;;
 city_job_chancellor                          ;        ;Ambassador;;;;
 title_tanist_saxon                           ;Ætheling;Aetheling;;;;
 duke_lombard                                 ;        ;Prince;;;;
 duchy_of_lombard                             ;        ;Principality of;;;;
-#zj_VIET_Events_Events.csv;;;;;
-#zj_VIET_Decisions.csv;;;;;
-#zj_VIET_Culture.csv;;;;;
-north_african                                ;North African;North African;Berber;;Berber;
-berber                                       ;Berber  ;Berber;Iznagen;;Sanhaja;
-nubian                                       ;        ;Nubian;Nubian;;Nubian;Nubian
-tajik                                        ;        ;Tajik;Tajik;;Tajik;
-sicilian                                     ;        ;Sicilian;Sicilianu;;Sicilian;
-somali                                       ;        ;Somali;Somali;;Somali;Somali
-tamil                                        ;        ;Tamil;;;Tamil;Tamil
-sindhi                                       ;        ;Sindhi;;;Sindhi;Sindhi
-sinic                                        ;East Asian;East Asian;Sinic;;Sinic;
-sogdian                                      ;        ;Sogdian;Soghdian;;Sogdian;Sogdian
-pictish                                      ;        ;Pictish;;;Pictish;Pictish
-songhai                                      ;        ;Songhai;Songhai;;Songhai;
-khitan                                       ;        ;Khitan;Qidun;;Khitan;Khitan
-beja                                         ;        ;Beja;Bedawiye;;Beja;
-daju                                         ;        ;Daju;Daju;;Daju;
-zaghawa                                      ;        ;Zaghawa;Zaghawa;;Zaghawa;
-kanuri                                       ;        ;Kanuri;Kanuri;;Kanuri;
-hausa                                        ;        ;Hausa;Hausa;;Hausa;
-sinhala                                      ;        ;Sinhala;;;Sinhalese;Sinhala
-lombard                                      ;        ;Lombard;;;Langobard;Lombard
-tocharian                                    ;        ;Tocharian;;;Tocharian;Tocharian
-cornish                                      ;        ;Cornish;Kernowek;;Cornish;
-coptic                                       ;        ;Coptic;Kubti;;Coptic;
-assyrian                                     ;        ;Assyrian;Suryaye;;Assyrian;
-khotanese                                    ;        ;Khotanese;Hvamnai;;Khotanese;
-frisian                                      ;        ;Frisian;Fresisk;;Frisian;Frisian
-afar                                         ;        ;Afar;Afar;;Afar;
-baron_berber                                 ;        ;Wâli;;;;
-baron_female_berber                          ;Wâli    ;Wâlia;;;;
-barony_of_berber                             ;        ;Wilayah of;;;;
-count_berber                                 ;        ;Sheikh;;;;
-count_female_berber                          ;        ;Shaykhah;;;;
-county_of_berber                             ;        ;Sheikhdom of;;;;
-duke_berber                                  ;        ;Emir;;;;
-duke_female_berber                           ;        ;Emira;;;;
-duchy_of_berber                              ;        ;Emirate of;;;;
-king_berber                                  ;        ;Sultan;;;;
-king_female_berber                           ;        ;Sultana;;;;
-kingdom_of_berber                            ;        ;Sultanate of;;;;
-barony_berber                                ;        ;Wilayah;;;;
-county_berber                                ;        ;Sheikhdom;;;;
-duchy_berber                                 ;        ;Emirate;;;;
-kingdom_berber                               ;        ;Sultanate;;;;
-job_chancellor_berber                        ;        ;Grand Vizier;;;;
-emperor_berber                               ;Padishah;Badshah;;;;
-arabic                                       ;Semitic ;Semitic;;;Arabic;Arabic
-#zj_VIET_Celtic.csv;;;;;
-#zj_SyrenNickMod.csv;;;;;
-nick_the_learned                             ;        ;the Learned;the Learned;;the Learned;
-#zj_Regency_localisations.csv;;;;;
-#zj_MZ.csv;;;;;
-emperor_iranian                              ;        ;Shahanshah;;;Shahanshah;Shahanshah
-king_iranian                                 ;        ;Shah;;;Shah;Shah
-king_female_iranian                          ;        ;Banebshen;;;Banbishn;Banebshen
-duke_iranian                                 ;        ;Satrap;;;Satrap;Satrap
-count_iranian                                ;        ;Marzban;;;Marzban;Marzoban
-baron_iranian                                ;        ;Argbadh;;;Argbed;Argbadh
-barony_iranian                               ;        ;Arg;;;Arg;Arg
-barony_of_iranian                            ;        ;Arg of;;;Arg of;Arg of
-county_iranian                               ;        ;Marzpanate;;;Marzpanate;Marzpanate
-county_of_iranian                            ;        ;Marzpanate of;;;Marzpanate of;Marzpanate of
-duchy_iranian                                ;        ;Satrapy;;;Satrapy;Satrapy
-duchy_of_iranian                             ;        ;Satrapy of;;;Satrapy of;Satrapy of
-kingdom_iranian                              ;        ;Shahdom;;;Shahdom;Shahdom
-kingdom_of_iranian                           ;        ;Shahdom of;;;Shahdom of;Shahdom of
-temple_baron_zoroastrian                     ;Mobed   ;Mobad;;;Herbad;Herbad
-temple_barony_zoroastrian                    ;Atashkada;Atashkada;;;Verethragna;Vahram
-temple_barony_of_zoroastrian                 ;Atashkada of;Atashkada of;;;Verethragna of;Vahram of
-job_spiritual_zoroastrian                    ;Dastur  ;Dastur;;;Mobed;Mobad
-job_spymaster_zoroastrian                    ;        ;Spasaka;;;;
-city_baron_zoroastrian_group                 ;Dehqan  ;Dihqan;;;;
-#zj_Latinokratia_localisation.csv;;;;;
-e_latin_empire                               ;        ;Romania;Imperium Romaniae;;Latin Empire;Latin Empire
-e_latin_empire_adj                           ;        ;Roman;;;Latin;Latin
-#zj_HKC Sinic Titles.csv;;;;;
-emperor_khitan                               ;        ;Huang Di;Huang Di;;Emperor;
-emperor_female_khitan                        ;        ;Huang Tai Ho;Huang Tai Ho;;Empress;
-king_khitan                                  ;        ;Ong;Ong;;King;
-king_female_khitan                           ;        ;Ong-n Pi;Ong-n Pi;;Queen;
-nomadic_king_khitan                          ;        ;Irkin;Irkin;;High Chief;
-nomadic_king_female_khitan                   ;        ;Ilim;Ilim;;High Chieftess;
-tribal_king_khitan                           ;        ;Irkin;Irkin;;High Chief;
-tribal_king_female_khitan                    ;        ;Ilim;Ilim;;High Chieftess;
-duke_khitan                                  ;        ;Tqosi;Tqosi;;Commissioner;
-duke_female_khitan                           ;        ;Pushin;Pushin;;Lady;
-duchy_of_khitan                              ;        ;Province of;Province of;;Province of;
-count_khitan                                 ;        ;Tshisi;Tshisi;;Magistrate;
-count_female_khitan                          ;        ;Au'ui;Au'ui;;Lady;
-county_of_khitan                             ;        ;Commandery of;Commandery of;;Commandery of;
-baron_khitan                                 ;Tarkhan ;Tarqan;Basqaq;;Prefect;
-baron_female_khitan                          ;        ;Aldun;Aldun;;Lady;
-barony_of_khitan                             ;        ;County of;County of;;County of;
-title_prince_khitan                          ;        ;Taisi;Taisi;;Prince;
-title_prince_female_khitan                   ;        ;Au'ui;Au'ui;;Princess;
-#zj_HKC Christian Stuff.csv;;;;;
-temple_empire_of_christian                   ;        ;See of;;;;
-temple_king_christian                        ;Patriarch;Patriarch;;;King-Bishop;King-Bishop
-temple_kingdom_of_christian                  ;        ;Patriarchate of;;;;
-temple_duke_christian                        ;        ;Prince-Archbishop;;;Prince-Archbishop;Prince-Archbishop
-temple_count_christian                       ;        ;Prince-Bishop;;;Prince-Bishop;Prince-Bishop
-#zj_Additional Objectives.csv;;;;;
+#zj_VIET_Immersion_misc.csv;;;;;
+title_despot                                 ;        ;Symbasileus;;;Despot;Despot
+title_despot_desc                            ;Symbasileus was a title bestowed upon the oldest sons of emperors when they were crowned as co-emperors alongside their fathers.;Symbasileus was a title bestowed upon the oldest sons of Emperors when they were crowned as co-Emperors alongside their Father.;;;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.
+title_lawspeaker                             ;        ;Lawspeaker;;;Lawspeaker;Lawspeaker
+title_lawspeaker_desc                        ;Lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;A lawspeaker was a unique Scandinavian legal office. It has its basis in a common Germanic oral tradition, where wise men were asked to recite the law, but it was only in Scandinavia that the function evolved into an office.;;;The lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.;The Lawspeaker memorizes the law of the realm and serves as its highest judicator. Needless to say, this comes with a great amount of prestige and responsibility.
+title_marcher_lord                           ;        ;Marcher Lord;Marcher Lord;;Marcher Lord;
+title_marcher_lord_desc                      ;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;A Marcher Lord was a strong and trusted noble appointed by the King of England to guard the border (known as the Welsh Marches) between England and Wales.;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;;The Welsh Marches were created as entities during the process of the Norman subjugation of Wales. Being bestowed a Marcher Lordship meant endowment of privileges not seen elsewhere in the English kingdom, principally of which was the exemption from royal writ and the freedom to construct castles and grant market rights without royal approval inside the jurisdiction of the lordship.;
+title_noyan                                  ;        ;Dog of War;;;Noyan;Noyan
+title_noyan_desc                             ;During the Mongol conquests, Genghis Khan named four of his top generals as “dogs of war” – Subutai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan’s campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people’s lives in hunting and warnings.;During the Mongol world conquests, Genghis Khan named four of his top generals as so-called "Dogs of War" - Subotai, Jebe, Jelme, and Khubilai. They were considered his most trusted and most capable military commanders, and they played key roles in several of Genghis Khan's campaigns. The title probably came about because Mongols had a lot of dogs, and dogs were very useful for people's lives in hunting and warnings.;;;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.;This title was originally granted to Mongolian battlefield commanders, but as they were awarded conquered land to administrate, it came to represent a form of higher nobility.
+ca_culture_jewish_1                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
+ca_culture_jewish_2                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
+ca_culture_jewish_3                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
+ca_culture_jewish_4                          ;        ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks;Jewish Heavy Infantry Barracks
+ca_culture_jewish_1_desc                     ;        ;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;;;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.
+raider                                       ;        ;Raider;Raider;;Raider;
+raider_desc                                  ;        ;This pagan has acquired much fame as a fearsome raider.;This character is widely known as terrifying pillager and looter.;;This character is widely known as terrifying pillager and looter.;
+title_court_musician_christian               ;        ;Court Minstrel;;;;
+title_court_musician_celtic                  ;        ;Court Bard;;;;
+title_court_musician_west_germanic           ;        ;Court Bard;;;;
+title_court_musician_latin                   ;        ;Court Troubadour;;;;
+title_court_musician_female_latin            ;        ;Court Trobairitz;;;;
+title_court_musician_iberian                 ;        ;Court Troubadour;;;;
+title_court_musician_female_iberian          ;        ;Court Trobairitz;;;;
+title_court_musician_andalusian_arabic       ;        ;Court Musician;;;;
+title_court_musician_female_andalusian_arabic;        ;Court Musician;;;;
+title_court_musician_south_slavic            ;        ;Court Guslar;;;;
+title_court_musician_east_slavic             ;Okolnichy;Court Okolnichy;;;;
+title_court_musician_altaic                  ;        ;Court Ashik;;;;
+title_court_musician_iranian                 ;        ;Court Ashik;;;;
+title_court_musician_georgian                ;        ;Court Ashik;;;;
+title_court_musician_armenian                ;        ;Court Ashik;;;;
+title_court_musician_east_african            ;        ;Court Azmari;;;;
+#zj_VIET_Intro_Text.csv;;;;;
+#zj_VIET_PB.csv;;;;;
+temple_emperor_female_christian              ;        ;Empress-Bishop;;;;
+temple_king_female_catholic                  ;        ;Queen-Bishop;;;;
+temple_king_female_orthodox                  ;        ;Queen-Bishop;;;;
+temple_duke_female_catholic                  ;        ;Princess-Archbishop;;;;
+temple_duke_female_orthodox                  ;        ;Princess-Archbishop;;;;
+temple_count_female_catholic                 ;        ;Princess-Bishop;;;;
+city_emperor_female                          ;        ;Grand Princess;;;;
+count_title_ruler_consort_saxon              ;        ;Earl;Ealdorman;;;
+count_title_ruler_consort_english            ;        ;Earl;Earl;;;
+count_title_ruler_consort_scottish           ;        ;Earl;Earl;;;
+count_title_ruler_consort_irish              ;        ;Earl;Ri Buiden;;;
+count_title_ruler_consort_welsh              ;Earl    ;Earl;Tywysoges;;Tywysoges;
+emperor_title_ruler_consort_altaic           ;        ;Khagan;;;;
+emperor_title_ruler_consort_female_altaic    ;        ;Khatun;;;;
+king_title_ruler_consort_altaic              ;        ;Khan;;;;
+king_title_ruler_consort_female_altaic       ;        ;Khanum;;;;
+duke_title_ruler_consort_greek               ;        ;Doux;Doux;;;
+king_title_ruler_consort_greek               ;        ;Despot;Despotes;;;
+emperor_title_ruler_consort_greek            ;        ;Basileus;;;;
+emperor_title_ruler_consort_russian          ;Tsar    ;Tsar;Velikiy Kniaz;;Grand Duke;
+emperor_title_ruler_consort_female_russian   ;        ;Tsaritsa;Tsaritsa;;Tsarina;
+baron_title_ruler_consort_arabic             ;        ;Wâli;;;;
+count_title_ruler_consort_arabic             ;        ;Sheikh;;;;
+duke_title_ruler_consort_arabic              ;        ;Emir;;;;
+king_title_ruler_consort_arabic              ;        ;Sultan;;;;
+baron_title_ruler_consort_turkish            ;        ;Timariot;;;;
+count_title_ruler_consort_turkish            ;        ;Bey;;;;
+duke_title_ruler_consort_turkish             ;        ;Beylerbey;;;;
+king_title_ruler_consort_turkish             ;        ;Sultan;;;;
+emperor_title_ruler_consort_turkish          ;        ;Padishah;;;;
+baron_title_ruler_consort_iranian            ;        ;Muqtab;;;;
+count_title_ruler_consort_iranian            ;        ;Wâli;;;;
+duke_title_ruler_consort_iranian             ;        ;Emir;;;;
+king_title_ruler_consort_iranian             ;        ;Sultan;;;;
+emperor_title_ruler_consort_iranian          ;        ;Shahanshah;;;;
+baron_title_ruler_consort_mongol             ;        ;Taishi;;;;
+count_title_ruler_consort_mongol             ;        ;Chief;;;;
+duke_title_ruler_consort_mongol              ;        ;High Chief;;;;
+duke_title_ruler_consort_pagan_group         ;        ;High Chief;;;;
+duke_title_ruler_consort_norse_pagan         ;        ;Jarl;;;;
+count_title_ruler_consort_pagan_group        ;        ;Chief;;;;
+baron_title_ruler_consort_pagan_group        ;        ;Hetman;;;;
+baron_title_ruler_consort_norse_pagan        ;        ;Lord;;;;
+#zj_VIET_Republics_text.csv;;;;;
+d_hormuz                                     ;Sistan  ;Sistan;Hormuz;;Ormus;
+d_hormuz_adj                                 ;Sistan  ;Sistan;Hormuzí;;Ormusi;
+d_ragusa                                     ;Ragusa  ;Ragusa;Dubrovnik;Ragusa,Ragusium,Raguia;Dubrovnik;
+d_ragusa_adj                                 ;Ragusan ;Ragusan;Dubrovnikan;;Dubrovnikan;
+#zj_VIET_Scarborough_Fair.csv;;;;;
+#zj_VIET_Silk_Road.csv;;;;;
+#zj_VIET_Special_Events.csv;;;;;
+#zj_VIET_Traits.csv;;;;;
+#zj_VIET_ancillaries.csv;;;;;
+#zj_VIET_bitter.csv;;;;;
+#zj_VIET_cinnamon.csv;;;;;
+#zj_VIET_customization.csv;;;;;
+#zj_VIET_death.csv;;;;;
+#zj_VIET_eastern_religions_stuff.csv;;;;;
+#zj_VIET_fantasy.csv;;;;;
+#zj_VIET_heresy_flavor.csv;;;;;
+#zj_VIET_historical.csv;;;;;
+#zj_VIET_ipad_misc_fun.csv;;;;;
+#zj_VIET_jewish.csv;;;;;
+karaite                                      ;        ;Karaite;;;Karaite;Karaite
+ashkenazi                                    ;        ;Ashkenazi;Ashkenazi;;Ashkenazi Jewish;Ashkenazi
+jewish                                       ;        ;Rabbinic;;;Jewish;Jewish
+samaritan                                    ;        ;Samaritan;;;Samaritan;Samaritan
+khazar                                       ;        ;Khazar;Qasar;;Khazar;Khazar
+k_israel                                     ;        ;Israel;;;Israel;Israel
+job_spiritual_jewish_group                   ;        ;Chief Rabbi;Chief Rabbi;;Chief Rabbi;Court Rabbi
+temple_baron_jewish_group                    ;        ;Rabbi;Rabbi;;Rabbi;Rabbi
+temple_count_jewish_group                    ;Grand Rabbi;Grand Rabbi;Great Rabbi;;Great Rabbi;Kohen
+temple_duke_jewish_group                     ;Nagid   ;Nagid;Melech;;Malik;Rabban
+temple_king_jewish_group                     ;Grand Nagid;Grand Nagid;Melech haMelachim;;King of Kings;Nasi
+temple_kingdom_of_jewish_group               ;Grand Sanhedrin of;Grand Sanhedrin of;Great Sanhedrin of;;Great Sanhedrin of;Theocracy of
+temple_duchy_of_jewish_group                 ;Sanhedrin of;Sanhedrin of;Lesser Sanhedrin of;;Lesser Sanhedrin of;
+temple_county_of_jewish_group                ;        ;Beit Din of;Beth din of;;Beth Din of;Theocracy of
+temple_barony_of_jewish_group                ;        ;Synagogue of;Synagogue of;;Synagogue of;Temple of
+#zj_VIET_jordarkelf.csv;;;;;
+#zj_VIET_love_like_and_hate.csv;;;;;
+#zj_VIET_marriage.csv;;;;;
+#zj_VIET_modifiers.csv;;;;;
+#zj_VIET_monogatari.csv;;;;;
+#zj_VIET_narrative.csv;;;;;
+#zj_VIET_nicknames.csv;;;;;
+#zj_VIET_other_romans_stuff.csv;;;;;
+#zj_VIET_pagan_stuff.csv;;;;;
+#zj_VIET_random_mods_stuff.csv;;;;;
+baron_kurdish                                ;Muqta   ;Wâli;Muqtá';;Muqta;
+baron_female_kurdish                         ;Wâli    ;Wâlia;;;;
+barony_of_kurdish                            ;        ;Wilayah of;;;;
+count_kurdish                                ;Sheikh  ;Sheikh;Ustandár;;Ustandar;
+count_female_kurdish                         ;Shaykhah;Shaykhah;Ustandáreh;;Ustandar;
+county_of_kurdish                            ;Sheikhdom of;Sheikhdom of;Ustan-e;;Province of;
+duke_kurdish                                 ;        ;Emir;Emir;;Emir;
+duke_female_kurdish                          ;        ;Emira;;;;
+duchy_of_kurdish                             ;        ;Emirate of;Emírát-e;;Emirate of;
+king_kurdish                                 ;Sultan  ;Sultan;Sháh;;Shah;
+king_female_kurdish                          ;        ;Sultana;;;;
+kingdom_of_kurdish                           ;        ;Sultanate of;;;;
+barony_kurdish                               ;        ;Wilayah;;;;
+county_kurdish                               ;Sheikhdom;Sheikhdom;Ustan;;Province;
+duchy_kurdish                                ;        ;Emirate;Emírát;;Emirate;
+kingdom_kurdish                              ;        ;Sultanate;;;;
+job_chancellor_kurdish                       ;        ;Grand Vizier;;;;
+emperor_kurdish                              ;Badshah ;Badshah;Sháhansháh;;Shahanshah;
+baron_north_african                          ;        ;Wâli;;;;
+baron_female_north_african                   ;Wâli    ;Wâlia;;;;
+count_north_african                          ;        ;Sheikh;;;;
+count_female_north_african                   ;        ;Shaykhah;;;;
+county_of_north_african                      ;        ;Sheikhdom of;;;;
+duke_north_african                           ;        ;Emir;;;;
+duke_female_north_african                    ;        ;Emira;;;;
+duchy_of_north_african                       ;        ;Emirate of;;;;
+king_north_african                           ;        ;Sultan;;;;
+king_female_north_african                    ;        ;Sultana;;;;
+kingdom_of_north_african                     ;        ;Sultanate of;;;;
+county_north_african                         ;        ;Sheikhdom;;;;
+duchy_north_african                          ;        ;Emirate;;;;
+kingdom_north_african                        ;        ;Sultanate;;;;
+job_chancellor_north_african                 ;        ;Grand Vizier;;;;
+emperor_north_african                        ;Padishah;Badshah;;;;
+#zj_VIET_wafrica_stuff.csv;;;;;
+#zj_VIET_zhongguo.csv;;;;;
+#zj_Zhayedan.csv;;;;;
+#zj_council_shuffling.csv;;;;;
+#zj_meltingpot_events.csv;;;;;
+#zj_ordepchains.csv;;;;;

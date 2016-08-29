@@ -24580,7 +24580,7 @@ e_persia = { # Érán
 		capital = 646 # Isfahan # Esfahan
 		culture = persian
 		muslim = 400 # Crusade target weight
-		zoroastrian_group = 1000 # Crusade target weight
+		zoroastrian_group = 4000 # Crusade target weight
 		d_jebal = { # Jebal
 			color = { 50 240 210 }
 			color2 = { 255 255 255 }
@@ -25775,6 +25775,8 @@ e_rajastan = { # Rajastan
 		color = { 225 135 20 }
 		color2 = { 255 255 255 }
 		capital = 1600 # Debul
+		zun_pagan_reformed = 100 # Crusade target weight
+		zoroastrian_group = 50 # Crusade target weight
 		d_sauvira = { # Sauvira
 			color = { 230 135 20 }
 			color2 = { 255 255 255 }
@@ -25890,6 +25892,7 @@ e_rajastan = { # Rajastan
 		color = { 255 90 20 }
 		color2 = { 255 255 255 }
 		capital = 1620 # Lahur
+		zoroastrian_group = 50 # Crusade target weight
 		greek = "India"
 		roman = "India"
 		d_multan = { # Multan
@@ -31840,7 +31843,15 @@ k_moravia = { # Velká Morava
 	color = { 125 25 65 }
 	culture = moravian
 	capital = 441 # Boruy # Brno
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		title_king_basic_allow = yes
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = { has_landed_title = k_bohemia }
+			}
+		}
+	}
 }
 
 k_almohad = { # Almohad

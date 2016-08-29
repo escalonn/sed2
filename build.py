@@ -24,7 +24,7 @@ emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 # emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 
 province_loc_files = [
-    'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
+    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
 
 @print_time
 def main():
@@ -97,7 +97,7 @@ def main():
     # determine files overriding SWMH locs
     overridden_files = swmh_files & {path.name for path in
         files('localisation/*', [emfswmhpath], basedir=emfpath)}
-    inpath = templates_emf_loc / 'z~ SED+EMF.csv'
+    inpath = templates_emf_loc / 'AA SED+EMF.csv'
     original_file = None
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
@@ -124,7 +124,7 @@ def main():
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # VIET
-    inpath = templates_viet_loc / 'z~ SED+VIET.csv'
+    inpath = templates_viet_loc / 'AA SED+VIET.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
@@ -207,7 +207,7 @@ def main():
     #     [build_emf_lt, build_mini_lt, build_emfmini_lt]):
     #     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
     #                                                 basedir=moddir):
-    #         if (inpath.name == 'zz_emf_heresy_titles_SWMH.txt' and
+    #         if (inpath.name == 'emf_heresy_titles_SWMH.txt' and
     #             moddir == build_emf_lt):
     #             continue
     #             # lame hardcoded exception since we still don't have
