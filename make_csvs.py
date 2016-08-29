@@ -140,8 +140,7 @@ def keys_overridden_in_mod(basedir, *moddirs):
     base_keys = set(get_localisation(basedir=basedir))
     seen = set()
     result = set()
-    for path in files('localisation/*', moddirs=moddirs, basedir=basedir,
-                      reverse=True):
+    for path in files('localisation/*', moddirs=moddirs, basedir=basedir):
         for key, *_ in csv_rows(path):
             if key not in seen:
                 seen.add(key)
@@ -217,7 +216,7 @@ def main():
         (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
         swmh_files = set()
-        for inpath in files('localisation/*', basedir=swmhpath, reverse=True):
+        for inpath in files('localisation/*', basedir=swmhpath):
             swmh_files.add(inpath.name)
             outpath = templates_t_sed2 / inpath.relative_to(swmhpath)
             out_rows = [
@@ -289,7 +288,7 @@ def main():
             ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
         col_width = [0, 8]
         for key in keys_to_add:
-            out_row = [key, prev_loc[key], '', '', '', key]
+            out_row = [key, prev_loc[key], '', '', key]
             override_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
         for path in files('localisation/*', reverse=True):
@@ -376,8 +375,7 @@ def main():
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', [emfswmhpath], basedir=emfpath,
-                          reverse=True):
+        for path in files('localisation/*', [emfswmhpath], basedir=emfpath, reverse=True):
             emf_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
