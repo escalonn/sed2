@@ -24,7 +24,7 @@ emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 # emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 
 province_loc_files = [
-    'A SWMHcounties.csv', 'A SWMHnewprovinces.csv', 'A SWMHprovinces.csv']
+    'A_SWMHcounties.csv', 'A_SWMHnewprovinces.csv', 'A_SWMHprovinces.csv']
 
 @print_time
 def main():

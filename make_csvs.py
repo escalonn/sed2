@@ -309,7 +309,7 @@ def main():
             if not out_row[0].startswith('#') or i == 0:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t_sed2 / 'localisation' / 'A SED.csv'
+        outpath = templates_t_sed2 / 'localisation' / 'A_SED.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
