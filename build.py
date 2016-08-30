@@ -97,7 +97,7 @@ def main():
     # determine files overriding SWMH locs
     overridden_files = swmh_files & {path.name for path in
         files('localisation/*', [emfswmhpath], basedir=emfpath)}
-    inpath = templates_emf_loc / 'AA SED+EMF.csv'
+    inpath = templates_emf_loc / '0_SED+EMF.csv'
     original_file = None
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
@@ -124,7 +124,7 @@ def main():
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # VIET
-    inpath = templates_viet_loc / 'AA SED+VIET.csv'
+    inpath = templates_viet_loc / 'SED+VIET.csv'
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'

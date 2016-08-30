@@ -317,7 +317,7 @@ def main():
         overridden_keys = set()
         keys_to_override.update(keys_overridden_in_mod(swmhpath, vietpath))
         prev_loc_viet = collections.defaultdict(str)
-        inpath = templates / 'SED2+VIET/localisation/AA SED+VIET.csv'
+        inpath = templates / 'SED2+VIET/localisation/SED+VIET.csv'
         prev_loc_viet.update({row[0].strip(): row[1].strip()
                               for row in csv_rows(inpath)})
         viet_rows = [
@@ -357,7 +357,7 @@ def main():
                                                        emfswmhpath))
         keys_to_add = ['Germania']
         prev_loc_emf = collections.defaultdict(str)
-        inpath = templates / 'SED2+EMF/localisation/AA SED+EMF.csv'
+        inpath = templates / 'SED2+EMF/localisation/0_SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
         gov_prefixes = get_gov_prefixes(parser, swmhpath, emfpath, emfswmhpath)
