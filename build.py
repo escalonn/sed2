@@ -20,10 +20,13 @@ if no_provinces:
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
 minipath = rootpath / 'MiniSWMH/MiniSWMH'
 arkopath = rootpath / 'ARKOpack/ARKOpack_Armoiries'
-sed2path = rootpath / 'SED2'
+sed2path = rootpath / 'sed2'
+emfpath = rootpath / 'EMF/EMF'
+emfswmhpath = rootpath / 'EMF/EMF+SWMH'
+# emfminipath = rootpath / 'EMF/EMF+MiniSWMH'
 
 province_loc_files = [
-    'zz SWMHcounties.csv', 'zz SWMHnewprovinces.csv', 'zz SWMHprovinces.csv']
+    'A_SWMHcounties.csv', 'A_SWMHnewprovinces.csv', 'A_SWMHprovinces.csv']
 
 @print_time
 def main():
@@ -34,7 +37,6 @@ def main():
     templates_loc = templates_sed2 / 'localisation'
     templates_lt = templates_sed2 / 'common/landed_titles'
     templates_dyn = templates_sed2 / 'common/dynasties'
-    templates_viet_loc = templates / 'SED2+VIET/localisation'
     templates_emf_loc = templates / 'SED2+EMF/localisation'
     templates_arko_dyn = templates / 'SED2+ARKO/common/dynasties'
     build = sed2path / 'build'
@@ -42,20 +44,22 @@ def main():
     build_loc = build_sed2 / 'localisation'
     build_lt = build_sed2 / 'common/landed_titles'
     build_dyn = build_sed2 / 'common/dynasties'
-    build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
     build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
     build_arko_dyn = build / 'SED2+ARKO/common/dynasties'
+    # build_emf_lt = build / 'SED2+EMF/common/landed_titles'
+    # build_emfmini_lt = build / 'SED2+EMF+MiniSWMH/common/landed_titles'
     while build.exists():
         print('Removing old build...')
         shutil.rmtree(str(build), ignore_errors=True)
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
     build_dyn.mkdir(parents=True)
-    build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
     build_mini_lt.mkdir(parents=True)
     build_arko_dyn.mkdir(parents=True)
+    # build_emf_lt.mkdir(parents=True)
+    # build_emfmini_lt.mkdir(parents=True)
     swmh_files = set()
     sed2 = {}
     keys_to_blank = set()
@@ -95,11 +99,20 @@ def main():
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
     # EMF
-    inpath = templates_emf_loc / 'z~ SED+EMF.csv'
+    # determine files overriding SWMH locs
+    overridden_files = swmh_files & {path.name for path in
+        files('localisation/*', [emfswmhpath], basedir=emfpath)}
+    inpath = templates_emf_loc / '0_SED+EMF.csv'
+    original_file = None
     sed2rows = [[''] * 15]
     sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
     sed2rows[0][-1] = 'x'
-    for row in csv_rows(inpath):
+    for row in csv_rows(inpath, comments=True):
+        if row[0].startswith('#CODE'):
+            continue
+        if row[0].startswith('#'):
+            original_file = row[0][1:]
+            continue
         if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
             continue
         sed2row = [''] * 15
@@ -107,26 +120,11 @@ def main():
         sed2row[1] = row[1].strip()
         sed2row[-1] = 'x'
         if sed2row[1] or sed2row[0] in keys_to_blank:
+            sed2rows.append(sed2row)
+        elif original_file in overridden_files:
+            sed2row[1] = sed2[sed2row[0]]
             sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
-    with outpath.open('w', encoding='cp1252', newline='') as csvfile:
-        csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
-
-    # VIET
-    inpath = templates_viet_loc / 'z~ SED+VIET.csv'
-    sed2rows = [[''] * 15]
-    sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
-    sed2rows[0][-1] = 'x'
-    for row in csv_rows(inpath):
-        if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
-            continue
-        sed2row = [''] * 15
-        sed2row[0] = row[0].strip()
-        sed2row[1] = row[1].strip()
-        sed2row[-1] = 'x'
-        if sed2row[1] or sed2row[0] in keys_to_blank:
-            sed2rows.append(sed2row)
-    outpath = build_viet_loc / inpath.name
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
@@ -191,6 +189,22 @@ def main():
         update_lt(tree, sed2[template])
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))
+
+    # for moddir, builddir in zip([emfswmhpath, minipath, emfminipath],
+    #     [build_emf_lt, build_mini_lt, build_emfmini_lt]):
+    #     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
+    #                                                 basedir=moddir):
+    #         if (inpath.name == 'emf_heresy_titles_SWMH.txt' and
+    #             moddir == build_emf_lt):
+    #             continue
+    #             # lame hardcoded exception since we still don't have
+    #             # templates for any non-SWMH landed_titles
+    #         template = templates_lt / inpath.with_suffix('.csv').name
+    #         if template in sed2:
+    #             out = builddir / inpath.name
+    #             update_tree(tree, sed2[template], lt_keys)
+    #             with out.open('w', encoding='cp1252', newline='\r\n') as f:
+    #                 f.write(tree.str(full_parser))
 
     for inpath, tree in full_parser.parse_files('common/landed_titles/*',
                                                 basedir=minipath):

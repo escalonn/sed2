@@ -12,7 +12,6 @@ from ck2parser import (rootpath, vanilladir, files, csv_rows, get_provinces,
 from print_time import print_time
 
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
-vietpath = rootpath / 'VIET/VIET_Assets'
 emfpath = rootpath / 'EMF/EMF'
 emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 arkopath = rootpath / 'ARKOpack/ARKOpack_Armoiries'
@@ -137,6 +136,18 @@ def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
                                                    culture_re, religion_re)
     return noble_regex
 
+def keys_overridden_in_mod(basedir, *moddirs):
+    base_keys = set(get_localisation(basedir=basedir))
+    seen = set()
+    result = set()
+    for path in files('localisation/*', moddirs=moddirs, basedir=basedir):
+        for key, *_ in csv_rows(path):
+            if key not in seen:
+                seen.add(key)
+                if basedir not in path.parents and key in base_keys:
+                    result.add(key)
+    return result
+
 @print_time
 def main():
     # fill titles before calling
@@ -187,7 +198,7 @@ def main():
         prev_lt = collections.defaultdict(str)
         prev_loc = collections.defaultdict(str)
 
-        templates = rootpath / 'SED2/templates'
+        templates = rootpath / 'sed2/templates'
         templates_sed2 = templates / 'SED2'
         for path in files('common/dynasties/*', basedir=templates_sed2):
             prev_dyn.update({int(row[0]): row[1].strip()
@@ -209,10 +220,9 @@ def main():
         (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
         (templates_t_sed2 / 'localisation').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
-        (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
         (templates_t / 'SED2+ARKO/common/dynasties').mkdir(parents=True)
         swmh_files = set()
-        for inpath in files('localisation/*', basedir=swmhpath, reverse=True):
+        for inpath in files('localisation/*', basedir=swmhpath):
             swmh_files.add(inpath.name)
             outpath = templates_t_sed2 / inpath.relative_to(swmhpath)
             out_rows = [
@@ -285,10 +295,10 @@ def main():
             ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
         col_width = [5, 8]
         for key in keys_to_add:
-            out_row = [key, prev_loc[key], '', '', '', key]
+            out_row = [key, prev_loc[key], '', '', key]
             override_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', reverse=True):
+        for path in files('localisation/*'):
             if path.name not in swmh_files:
                 override_rows.append(['#' + path.name, '', '', '', ''])
                 for row in csv_rows(path):
@@ -306,7 +316,7 @@ def main():
             if not out_row[0].startswith('#') or i == 0:
                 for col, width in enumerate(col_width):
                     out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t_sed2 / 'localisation' / 'zz SED.csv'
+        outpath = templates_t_sed2 / 'localisation' / 'A_SED.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
@@ -404,54 +414,25 @@ def main():
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(out_rows)
 
-        # VIET
-        overridden_keys = set()
-        prev_loc_viet = collections.defaultdict(str)
-        inpath = templates / 'SED2+VIET/localisation/z~ SED+VIET.csv'
-        prev_loc_viet.update({row[0].strip(): row[1].strip()
-                              for row in csv_rows(inpath)})
-        viet_rows = [['#CODE', 'SED+VIET', 'VIET', 'OTHER', 'SED', 'VANILLA']]
-        col_width = [5, 8]
-        for path in files('localisation/*', basedir=vietpath, reverse=True):
-            viet_rows.append(['#' + path.name, '', '', '', '', ''])
-            for row in csv_rows(path):
-                key, val = row[:2]
-                if (should_override(key) and key not in overridden_keys and
-                    key not in swmh_loc):
-                    out_row = [key,
-                               prev_loc_viet[key],
-                               val,
-                               ','.join(dynamics[key]),
-                               prev_loc[key],
-                               vanilla.get(key, '')]
-                    viet_rows.append(out_row)
-                    overridden_keys.add(key)
-                    col_width[0] = max(len(key), col_width[0])
-            for i, out_row in enumerate(viet_rows):
-                if not out_row[0].startswith('#') or i == 0:
-                    for col, width in enumerate(col_width):
-                        out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t / inpath.relative_to(templates)
-        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
-            csv.writer(csvfile, dialect='ckii').writerows(viet_rows)
-
         # EMF
         overridden_keys = set()
         loc_emf = get_localisation([emfpath])
         keys_to_override, _, ul_titles = get_more_keys_to_override(
-            parser, loc_emf, max_provs, emfpath, swmhpath, emfswmhpath,
+            parser, loc_emf, max_provs, swmhpath, emfpath, emfswmhpath,
             extra=False)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
+        keys_to_override.update(keys_overridden_in_mod(swmhpath, emfpath,
+                                                       emfswmhpath))
         keys_to_add = ['Germania']
         prev_loc_emf = collections.defaultdict(str)
-        inpath = templates / 'SED2+EMF/localisation/z~ SED+EMF.csv'
+        inpath = templates / 'SED2+EMF/localisation/0_SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
-        gov_prefixes = get_gov_prefixes(parser, emfpath, swmhpath, emfswmhpath)
+        gov_prefixes = get_gov_prefixes(parser, swmhpath, emfpath, emfswmhpath)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
         for _, tree in parser.parse_files('common/landed_titles/*',
-                                          [emfpath], emfswmhpath):
+                                          [emfswmhpath], emfpath):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass
@@ -462,8 +443,7 @@ def main():
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', [emfswmhpath], basedir=emfpath,
-                          reverse=True):
+        for path in files('localisation/*', [emfswmhpath], basedir=emfpath):
             emf_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
