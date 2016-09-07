@@ -12,7 +12,7 @@ from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.2.6'
+version = 'v2.2.7-BETA'
 if no_provinces:
     version += '-noprovinces'
 
@@ -34,13 +34,11 @@ def main():
     templates_sed2 = templates / 'SED2'
     templates_loc = templates_sed2 / 'localisation'
     templates_lt = templates_sed2 / 'common/landed_titles'
-    templates_viet_loc = templates / 'SED2+VIET/localisation'
     templates_emf_loc = templates / 'SED2+EMF/localisation'
     build = sed2path / 'build'
     build_sed2 = build / 'SED2'
     build_loc = build_sed2 / 'localisation'
     build_lt = build_sed2 / 'common/landed_titles'
-    build_viet_loc = build / 'SED2+VIET/localisation'
     build_emf_loc = build / 'SED2+EMF/localisation'
     build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
     # build_emf_lt = build / 'SED2+EMF/common/landed_titles'
@@ -50,7 +48,6 @@ def main():
         shutil.rmtree(str(build), ignore_errors=True)
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
-    build_viet_loc.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
     build_mini_lt.mkdir(parents=True)
     # build_emf_lt.mkdir(parents=True)
@@ -120,24 +117,6 @@ def main():
             sed2row[1] = sed2[sed2row[0]]
             sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
-    with outpath.open('w', encoding='cp1252', newline='') as csvfile:
-        csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
-
-    # VIET
-    inpath = templates_viet_loc / 'SED+VIET.csv'
-    sed2rows = [[''] * 15]
-    sed2rows[0][:6] = ['#CODE', 'ENGLISH', 'FRENCH', 'GERMAN', '', 'SPANISH']
-    sed2rows[0][-1] = 'x'
-    for row in csv_rows(inpath):
-        if no_provinces and re.match(r'[cb]_|PROV\d+', row[0]):
-            continue
-        sed2row = [''] * 15
-        sed2row[0] = row[0].strip()
-        sed2row[1] = row[1].strip()
-        sed2row[-1] = 'x'
-        if sed2row[1] or sed2row[0] in keys_to_blank:
-            sed2rows.append(sed2row)
-    outpath = build_viet_loc / inpath.name
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 

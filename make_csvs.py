@@ -12,7 +12,6 @@ from ck2parser import (rootpath, vanilladir, files, csv_rows, get_provinces,
 from print_time import print_time
 
 swmhpath = rootpath / 'SWMH-BETA/SWMH'
-vietpath = rootpath / 'VIET/VIET_Assets'
 emfpath = rootpath / 'EMF/EMF'
 emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 
@@ -312,39 +311,6 @@ def main():
         outpath = templates_t_sed2 / 'localisation' / 'A_SED.csv'
         with outpath.open('w', newline='', encoding='cp1252') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
-
-        # VIET
-        overridden_keys = set()
-        keys_to_override.update(keys_overridden_in_mod(swmhpath, vietpath))
-        prev_loc_viet = collections.defaultdict(str)
-        inpath = templates / 'SED2+VIET/localisation/SED+VIET.csv'
-        prev_loc_viet.update({row[0].strip(): row[1].strip()
-                              for row in csv_rows(inpath)})
-        viet_rows = [
-            ['#CODE', 'SED+VIET', 'VIET', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
-        col_width = [0, 8]
-        for path in files('localisation/*', basedir=vietpath):
-            viet_rows.append(['#' + path.name, '', '', '', '', ''])
-            for row in csv_rows(path):
-                key, val = row[:2]
-                if should_override(key) and key not in overridden_keys:
-                    out_row = [key,
-                               prev_loc_viet[key],
-                               val,
-                               swmh_loc.get(key, ''),
-                               ','.join(dynamics[key]),
-                               prev_loc[key],
-                               vanilla.get(key, '')]
-                    viet_rows.append(out_row)
-                    overridden_keys.add(key)
-                    col_width[0] = max(len(key), col_width[0])
-            for i, out_row in enumerate(viet_rows):
-                if not out_row[0].startswith('#') or i == 0:
-                    for col, width in enumerate(col_width):
-                        out_row[col] = out_row[col].ljust(width)
-        outpath = templates_t / inpath.relative_to(templates)
-        with outpath.open('w', newline='', encoding='cp1252') as csvfile:
-            csv.writer(csvfile, dialect='ckii').writerows(viet_rows)
 
         # EMF
         overridden_keys = set()
