@@ -212,7 +212,6 @@ def main():
         templates_t_sed2 = templates_t / 'SED2'
         (templates_t_sed2 / 'localisation').mkdir(parents=True)
         (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
-        (templates_t / 'SED2+VIET/localisation').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
         swmh_files = set()
         for inpath in files('localisation/*', basedir=swmhpath):
