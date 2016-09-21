@@ -39,14 +39,13 @@ def get_dynamics(parser, cultures, prov_id):
 
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
-    for _, tree in parser.parse_files('common/landed_titles/*',
-                                      memcache=True):
+    for _, tree in parser.parse_files('common/landed_titles/*', memcache=True):
         recurse(tree)
     return dynamics
 
-def get_gov_prefixes(parser, *moddirs):
+def get_gov_prefixes(parser):
     prefixes = []
-    for _, tree in parser.parse_files('common/governments/*', moddirs):
+    for _, tree in parser.parse_files('common/governments/*'):
         for _, v in tree:
             for n2, v2 in v:
                 try:
@@ -57,11 +56,10 @@ def get_gov_prefixes(parser, *moddirs):
                     prefixes.append(prefix)
     return prefixes
 
-def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
-                              extra=True):
+def get_more_keys_to_override(parser, localisation, max_provs):
     override = set()
-    missing_loc = ['KINGDOM_PANNONIA', 'KINGDOM_PANNONIA_ADJ', 'Jomsborg', 'Rome']
-    for _, tree in parser.parse_files('common/bookmarks/*', moddirs):
+    missing_loc = []
+    for _, tree in parser.parse_files('common/bookmarks/*'):
         for n, v in tree:
             override.add(v['name'].val)
             override.add(v['desc'].val)
@@ -79,7 +77,7 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                     except KeyError:
                         pass
                     override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
-    for _, tree in parser.parse_files('common/buildings/*', moddirs):
+    for _, tree in parser.parse_files('common/buildings/*'):
         for n, v in tree:
             for n2, v2 in v:
                 override.add(n2.val)
@@ -87,38 +85,60 @@ def get_more_keys_to_override(parser, localisation, max_provs, *moddirs,
                     if n3.val == 'desc':
                         override.add(v3.val)
     ul_titles = []
-    for _, tree in parser.parse_files('common/job_titles/*', moddirs):
+    for _, tree in parser.parse_files('common/job_titles/*'):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add('desc_' + n.val)
-    for _, tree in parser.parse_files('common/minor_titles/*', moddirs):
+    for _, tree in parser.parse_files('common/minor_titles/*'):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add(n.val + '_FOA')
             override.add(n.val + '_desc')
-    for _, tree in parser.parse_files('common/retinue_subunits/*', moddirs):
+    for _, tree in parser.parse_files('common/retinue_subunits/*'):
         for n, v in tree:
             override.add(n.val)
-    if extra:
-        for _, tree in parser.parse_files('common/trade_routes/*', moddirs):
+    for _, tree in parser.parse_files('common/trade_routes/*'):
+        for n, v in tree:
+            override.add(n.val)
+    bl_pars = [
+        ['province_event', 'immediate', 'new_character'],
+        ['narrative_event', 'option', 'new_character'],
+        ['character_event', 'immediate', 'random_list', 15, 'new_character',
+         'if'],
+        ['character_event', 'immediate', 'new_character', 'if'],
+        ['character_event', 'option'],
+        ['character_event', 'option', 'if'],
+        ['narrative_event', 'option', 'if']
+    ]
+    for glob in ('decisions/*', 'events/*'):
+        for _, tree in parser.parse_files(glob, errors='replace'):
+            dfs = [(p, []) for p in tree]
+            while dfs:
+                (n, v), parents = dfs.pop()
+                if isinstance(v, Obj) and v.has_pairs:
+                    dfs.extend((p2, parents + [n.val]) for p2 in v)
+                elif (parents not in bl_pars and
+                      n.val in ('set_name', 'adjective') and v.val):
+                    if v.val in localisation:
+                        override.add(v.val)
+                    elif v.val not in missing_loc:
+                        missing_loc.append(v.val)
+    for glob in ('history/provinces/*', 'history/titles/*'):
+        for _, tree in parser.parse_files(glob):
             for n, v in tree:
-                override.add(n.val)
-        for glob in ['history/provinces/*', 'history/titles/*']:
-            for _, tree in parser.parse_files(glob, moddirs):
-                for n, v in tree:
-                    if isinstance(n, Date):
-                        for n2, v2 in v:
-                            if n2.val in ('name', 'adjective'):
-                                if v2.val in localisation:
-                                    override.add(v2.val)
-                                else:
-                                    missing_loc.append(v2.val)
-        for i in range(1, max_provs):
-            key = 'PROV{}'.format(i)
-            if key in localisation:
-                override.add(key)
-            else:
-                missing_loc.append(key)
+                if isinstance(n, Date):
+                    for n2, v2 in v:
+                        if n2.val in ('name', 'adjective'):
+                            if v2.val in localisation:
+                                override.add(v2.val)
+                            elif v2.val not in missing_loc:
+                                missing_loc.append(v2.val)
+    for i in range(1, max_provs):
+        key = 'PROV{}'.format(i)
+        if key in localisation:
+            override.add(key)
+        elif key not in missing_loc:
+            missing_loc.append(key)
     return override, missing_loc, ul_titles
 
 def get_max_provinces(parser):
@@ -188,7 +208,7 @@ def main():
         swmh_loc = get_localisation(basedir=swmhpath)
         localisation = get_localisation([swmhpath])
         keys_to_override, keys_to_add, ul_titles = get_more_keys_to_override(
-            parser, localisation, max_provs, swmhpath)
+            parser, localisation, max_provs)
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         overridden_keys = set()
         titles = set()
@@ -312,20 +332,24 @@ def main():
             csv.writer(csvfile, dialect='ckii').writerows(override_rows)
 
         # EMF
+        parser.moddirs.extend((emfpath, emfswmhpath))
         overridden_keys = set()
-        loc_emf = get_localisation([emfpath])
-        keys_to_override, _, ul_titles = get_more_keys_to_override(
-            parser, loc_emf, max_provs, swmhpath, emfpath, emfswmhpath,
-            extra=False)
+        loc_emf = get_localisation(parser.moddirs)
+        cultures, cult_groups = get_cultures(parser)
+        religions, rel_groups = get_religions(parser)
+        keys_to_override, keys_to_add_emf, ul_titles = (
+            get_more_keys_to_override(parser, loc_emf, max_provs))
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
-        keys_to_override.update(keys_overridden_in_mod(swmhpath, emfpath,
-                                                       emfswmhpath))
-        keys_to_add = ['Germania']
+        keys_to_override.update(keys_overridden_in_mod(*parser.moddirs))
+        print(keys_to_add)
+        print(keys_to_add_emf)
+        keys_to_add_emf = [x for x in keys_to_add_emf if x not in keys_to_add]
+        print(keys_to_add_emf)
         prev_loc_emf = collections.defaultdict(str)
         inpath = templates / 'SED2+EMF/localisation/0_SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
-        gov_prefixes = get_gov_prefixes(parser, swmhpath, emfpath, emfswmhpath)
+        gov_prefixes = get_gov_prefixes(parser)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
         for _, tree in parser.parse_files('common/landed_titles/*',
@@ -336,7 +360,7 @@ def main():
         emf_rows = [
             ['#CODE', 'SED+EMF', 'EMF', 'SWMH', 'OTHER', 'SED', 'VANILLA']]
         col_width = [0, 8]
-        for key in keys_to_add:
+        for key in keys_to_add_emf:
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
