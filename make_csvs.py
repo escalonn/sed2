@@ -341,10 +341,7 @@ def main():
             get_more_keys_to_override(parser, loc_emf, max_provs))
         keys_to_override.update(cultures, cult_groups, religions, rel_groups)
         keys_to_override.update(keys_overridden_in_mod(*parser.moddirs))
-        print(keys_to_add)
-        print(keys_to_add_emf)
         keys_to_add_emf = [x for x in keys_to_add_emf if x not in keys_to_add]
-        print(keys_to_add_emf)
         prev_loc_emf = collections.defaultdict(str)
         inpath = templates / 'SED2+EMF/localisation/0_SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
