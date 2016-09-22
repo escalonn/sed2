@@ -4269,7 +4269,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 				bosnian = "Tsargrad"
 				bulgarian = "Tsargrad"
 				b_constantinople = {}
-				b_hagiasophia = { pentarchy = yes }
+				b_hagiasophia = {
+					pentarchy = orthodox
+					pentarchy = monothelite
+					pentarchy = iconoclast
+				}
 				b_galata = {}
 				b_blachernae = {}
 				b_phanarion = {}
@@ -10626,8 +10630,8 @@ e_arabia = { # Arabian Empire
 				b_buhairya = {}
 				#b_mut_buhairya = {}
 				b_qasrfarfra = {}
-				#b_elkharga = {}
-				b_baris_buhairya = {}
+				b_elkharga = {}
+				#b_baris_buhairya = {}
 				#b_budhkula = {}
 				#b_abuminqar = {}
 				#b_ismant = {}
@@ -22575,7 +22579,11 @@ e_null = {
 				holy_site = nabawiyya
 				b_towerofdavid = {}
 				b_bethlehem = {}
-				b_jerusalem = { pentarchy = yes }
+				b_jerusalem = {
+					pentarchy = orthodox
+					pentarchy = monothelite
+					pentarchy = iconoclast
+				}
 				b_rammala = {}
 				b_blanchegarde = {}
 				b_saintsamuel = {}
