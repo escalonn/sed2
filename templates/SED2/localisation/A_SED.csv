@@ -409,10 +409,10 @@ c_rhodos_adj                                   ;Rhodian ;;;Rhodian
 c_lykia_adj                                    ;Lycian  ;;;Lykian
 c_gastrikland_adj                              ;Gästrikland;;;Gästriklander
 c_aland_adj                                    ;Ålandic ;;;Ålander
-d_ostergotland                                 ;Östergötland;;Austrgautland,Østergøtland;Östergötland
+d_ostergotland                                 ;Östergötland;;Austrgautland,Østergøtland;Ostrogothia
 d_ostergotland_adj                             ;Östergötlandic;;;East Geatish
 c_narke_adj                                    ;Närke   ;;;Närkian
-d_vastergotland                                ;Västergötland;;Vestrgautland;Västergötland
+d_vastergotland                                ;Västergötland;;Vestrgautland;Westrogothia
 d_vastergotland_adj                            ;Västergötlandic;;;West Geatish
 c_dal_adj                                      ;Dal     ;;;Dalabo
 c_viken_adj                                    ;Viken   ;;;Vikish
@@ -421,7 +421,7 @@ c_angermanland_adj                             ;Ångermanlandic;;;Ångermanlander
 c_medelpad_adj                                 ;Medelpad;;;Medelpadian
 c_halsingland_adj                              ;Hälsingland;;;Hälsinglander
 c_dalarna_adj                                  ;Dalecarlian;;;Dalish
-c_varmland_adj                                 ;Värmlandic;;;Värmlander
+c_varmland_adj                                 ;Värmlandic;;;Wermelandian
 c_vastmanland_adj                              ;Västmanland;;;Västmanlander
 d_smaland                                      ;Småland ;;Smáland;Småland
 d_smaland_adj                                  ;Smålandic;;;Smålander
@@ -469,7 +469,7 @@ d_luxembourg_adj                               ;Luxembourgian;;;Luxembourgian
 c_luxembourg_adj                               ;Luxembourgian;;;Luxembourgian
 c_loon_adj                                     ;Loon    ;;;Loonian
 c_liege_adj                                    ;Liège   ;;;Liegian
-c_koln_adj                                     ;Colognian;;;Kölnian
+c_koln_adj                                     ;Colognian;;;Colognian
 c_julich_adj                                   ;Jülich  ;;;Jülichian
 c_trier_adj                                    ;Trier   ;;;Trierian
 c_kleve_adj                                    ;Cleves  ;;;Klevian
@@ -688,7 +688,7 @@ c_bologna_adj                                  ;Bolognese;;;Bolognian
 c_ferrara_adj                                  ;Ferrara ;;;Ferrarian
 c_ravenna_adj                                  ;Ravennate;;;Ravennian
 c_lucca_adj                                    ;Luccan  ;;;Luccian
-c_firenze_adj                                  ;Florentine;;;Firenzian
+c_firenze_adj                                  ;Florentine;;;Florentine
 c_siena_adj                                    ;Sienese ;;;Sienian
 d_pisa                                         ;Pisa    ;;Pisae,Pisai;Pisa
 d_pisa_adj                                     ;Pisan   ;;;Pisan
@@ -1211,7 +1211,7 @@ PROV113                                        ;Vermandois;;c_vermandois;Vermand
 PROV115                                        ;Luxembourg;;c_luxembourg,Lützelburg,Lutzelburg;Luxembourg
 PROV116                                        ;Liège   ;;c_liege,Lüttich,Luik,Liége;Liege
 PROV118                                        ;Trier   ;;c_trier,Trèves,Augusta Treverorum,Augousta Treveroron;Trier
-PROV119                                        ;Cologne ;;c_koln,Keulen,Cologne;Köln
+PROV119                                        ;Cologne ;;c_koln,Keulen,Cologne;Cologne
 PROV121                                        ;Nassau  ;;c_nassau;Nassau
 PROV123                                        ;Mainz   ;;c_mainz,Mogontiacum,Mogontiakon;Mainz
 PROV124                                        ;Palatinate;;c_pfalz,Palts,Pfalz,Palatinat;Pfalz
@@ -1316,8 +1316,8 @@ PROV286                                        ;Gästrikland;;c_gastrikland,Gestr
 PROV287                                        ;Dalarna ;;c_dalarna,Jernbæraland;Järnbäraland
 PROV289                                        ;Västmanland;;c_vastmanland,Vestmanland;Västmanland
 PROV291                                        ;Åland   ;;c_aland;Åland
-PROV292                                        ;Södermanland;;c_sodermanland,Sødermanland;Södermanland
-PROV293                                        ;Östergötland;;c_ostergotland,Austrgautland,Østergøtland;Östergötland
+PROV292                                        ;Södermanland;;c_sodermanland,Sødermanland;Sudermannia
+PROV293                                        ;Östergötland;;c_ostergotland,Austrgautland,Østergøtland;Ostrogothia
 PROV295                                        ;Dal     ;;c_dal;Dal
 PROV299                                        ;Farah   ;;c_farah,Prophthasia;Farrah
 PROV300                                        ;Öland   ;;c_oland,Øland;Öland
@@ -1341,7 +1341,7 @@ PROV323                                        ;Lucca   ;;c_lucca,Luca,Louka;Luc
 PROV325                                        ;Arborea ;;c_arborea;Arborea
 PROV326                                        ;Cagliari;;c_cagliari,Caralis,Karalis;Cagliari
 PROV327                                        ;Pisa    ;;c_pisa,Pisae,Pisai;Pisa
-PROV328                                        ;Florence;;c_firenze,Florentia,Phlorentia;Firenze
+PROV328                                        ;Florence;;c_firenze,Florentia,Phlorentia;Florence
 PROV329                                        ;Urbino  ;;c_urbino,Urbinium,Ourbinon;Urbino
 PROV330                                        ;Siena   ;;c_siena,Saena;Siena
 PROV334                                        ;Naples  ;;c_napoli,Neapolis;Napoli
@@ -2984,6 +2984,7 @@ duchy_russian                                  ;Grand Principality;;;Grand Princ
 empire_russian                                 ;Tsardom ;;;Tsardom
 #v2_51.csv;;;;
 #v2_52.csv;;;;
+#v2_62.csv;;;;
 #z_Joel.csv;;;;
 #z_Milla.csv;;;;
 #z_PLACEHOLDER_DO_NOT_FORGET_ME.csv;;;;
@@ -3004,5 +3005,5 @@ empire_russian                                 ;Tsardom ;;;Tsardom
 #z_notranslate.csv;;;;
 #z_olof.csv;;;;
 #z_proofreading_temp.csv;;;;
-#z_sara.txt;;;;
+#z_sara.csv;;;;
 #z_tobias.csv;;;;
