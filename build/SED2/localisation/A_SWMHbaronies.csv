@@ -382,7 +382,7 @@ b_citharizion;Kitharizon;;;;;;;;;;;;;x
 b_arshamasat;Aršamašat;;;;;;;;;;;;;x
 b_romanopolis;Chapaghjur;;;;;;;;;;;;;x
 b_arkni;Arkni;;;;;;;;;;;;;x
-b_keltzene;Yerznka;;;;;;;;;;;;;x
+b_keltzene;Derdjan;;;;;;;;;;;;;x
 b_kamakha;Kamakh;;;;;;;;;;;;;x
 b_derzene;Derjan;;;;;;;;;;;;;x
 b_barzanissa;Barzanissa;;;;;;;;;;;;;x
@@ -674,6 +674,14 @@ b_gudensberg;Gudensberg;;;;;;;;;;;;;x
 b_ziegenhain;Ziegenhain;;;;;;;;;;;;;x
 b_waldeck;Waldeck;;;;;;;;;;;;;x
 b_pfalzaachen;Pfalz Aachen;;;;;;;;;;;;;x
+b_wertheim;Wertheim;;;;;;;;;;;;;x
+b_burgwertheim;Burg Wertheim;;;;;;;;;;;;;x
+b_durne;Dürne;;;;;;;;;;;;;x
+b_klingen;Klingen;;;;;;;;;;;;;x
+b_breuberg;Breuberg;;;;;;;;;;;;;x
+b_freudenberg;Freudenberg;;;;;;;;;;;;;x
+b_lauffen;Lauffen;;;;;;;;;;;;;x
+b_leipheim;Leipheim;;;;;;;;;;;;;x
 b_finsta;Finsta;;;;;;;;;;;;;x
 b_penningby;Penningby;;;;;;;;;;;;;x
 b_rydbo;Rydbo;;;;;;;;;;;;;x
@@ -697,63 +705,530 @@ b_kifion;Kifion;;;;;;;;;;;;;x
 b_lefakara;Lefakara;;;;;;;;;;;;;x
 b_othello;Othello;;;;;;;;;;;;;x
 b_peristeronaeast;Peristerona;;;;;;;;;;;;;x
-b_alando;Alandu;;;;;;;;;;;;;x
-b_calvi;Calvi;;;;;;;;;;;;;x
-b_castellodirostino;Castellu di Rustinu;;;;;;;;;;;;;x
-b_lucciano;Lucciana;;;;;;;;;;;;;x
-b_morosagalia;Merusaglia;;;;;;;;;;;;;x
-b_rustinu;Rustinu;;;;;;;;;;;;;x
-b_aleria;Aleria;;;;;;;;;;;;;x
-b_dimatra;Forte Matra;;;;;;;;;;;;;x
-b_vescovato;Cescovato;;;;;;;;;;;;;x
-b_accia;Auccià;;;;;;;;;;;;;x
+b_sagone;Sagone;;;;;;;;;;;;;x
 b_cinarca;Cinarca;;;;;;;;;;;;;x
-b_mariani;Mariana;;;;;;;;;;;;;x
-b_capodibolo;Capu di Bonu;;;;;;;;;;;;;x
-b_nonza;Nonza;;;;;;;;;;;;;x
-b_saintflorent;San Fiurenzu;;;;;;;;;;;;;x
-b_nebbio;Nebbiu;;;;;;;;;;;;;x
-b_ajaccio;Aiacciu;;;;;;;;;;;;;x
-b_bonifacio;Bunifaziu;;;;;;;;;;;;;x
-b_portovecchio;Portivechju;;;;;;;;;;;;;x
-b_sartene;Sartè;;;;;;;;;;;;;x
-b_cardo;Cardo;;;;;;;;;;;;;x
-b_cagliari;Casteddu;;;;;;;;;;;;;x
-b_ogliastra;Ozzastra;;;;;;;;;;;;;x
-b_sanluri;Seddori;;;;;;;;;;;;;x
-b_assemini;Assèmini;;;;;;;;;;;;;x
-b_oristano;Oristanis;;;;;;;;;;;;;x
-b_tharros;Tharros;;;;;;;;;;;;;x
-b_olbia;Tarranoa;;;;;;;;;;;;;x
-b_portotorres;Pòlthu Tòrra;;;;;;;;;;;;;x
-b_sassari;Thàthari;;;;;;;;;;;;;x
-b_ardara;Aldara;;;;;;;;;;;;;x
+b_ajaccio;Ajaccio;;;;;;;;;;;;;x
+b_bonifacio;Bonifacio;;;;;;;;;;;;;x
+b_accia;Accia;;;;;;;;;;;;;x
+b_aleria;Aleria;;;;;;;;;;;;;x
+b_alando;Alando;;;;;;;;;;;;;x
+b_calvi;Calvi;;;;;;;;;;;;;x
+b_mariana;Mariana;;;;;;;;;;;;;x
+b_nebbio;Nebbio;;;;;;;;;;;;;x
+b_rogliano;Rogliano;;;;;;;;;;;;;x
+b_bastia_cardo;Cardo;;;;;;;;;;;;;x
+b_portotorres;Portorres;;;;;;;;;;;;;x
+b_alghero;Alghero;;;;;;;;;;;;;x
+b_sassari;Sassari;;;;;;;;;;;;;x
 b_bosa;Bosa;;;;;;;;;;;;;x
-b_lugosauto;Locusantu;;;;;;;;;;;;;x
-b_serravallesardinia;Casteddu de Malaspina;;;;;;;;;;;;;x
-b_osilio;Osile;;;;;;;;;;;;;x
-b_castelsardo;Casteddu;;;;;;;;;;;;;x
-b_alghero;S'Alighèra;;;;;;;;;;;;;x
-b_dellafava;Casteddu;;;;;;;;;;;;;x
-b_posadasardinia;Pasada;;;;;;;;;;;;;x
-b_lamaddalena;Sa Madalena;;;;;;;;;;;;;x
-b_castellodimollara;Casteddu;;;;;;;;;;;;;x
-b_nugor;Nùgoro;;;;;;;;;;;;;x
-b_galfelli;Garteddì;;;;;;;;;;;;;x
-b_cabras;Crabas;;;;;;;;;;;;;x
-b_furtei;Furtei;;;;;;;;;;;;;x
-b_asuni;Asuni;;;;;;;;;;;;;x
-b_barumele;Casteddu de Barùmini;;;;;;;;;;;;;x
-b_marmilla;Marmillia;;;;;;;;;;;;;x
-b_dolunova;Partiolla;;;;;;;;;;;;;x
-b_iglesiassardinia;Igresias;;;;;;;;;;;;;x
-b_santamaria;Santa Maria;;;;;;;;;;;;;x
-b_tortoli;Tòrtuelie;;;;;;;;;;;;;x
-b_casteldimedusa;Casteddu de Medusa;;;;;;;;;;;;;x
-b_casteldicastro;Castéddu de susu;;;;;;;;;;;;;x
-b_villasor;Bidda Sorris;;;;;;;;;;;;;x
-b_saintmichele;Iglesia de san Michele;;;;;;;;;;;;;x
-b_tempiosardinia;Tèmpiu;;;;;;;;;;;;;x
+b_ardara;Ardara;;;;;;;;;;;;;x
+b_cabras;Cabras;;;;;;;;;;;;;x
+b_terralba;Terralba;;;;;;;;;;;;;x
+b_oristano;Oristano;;;;;;;;;;;;;x
+b_tharros;Tharros;;;;;;;;;;;;;x
+b_cagliari;Cagliari;;;;;;;;;;;;;x
+b_santa_igia;Sant Igia;;;;;;;;;;;;;x
+b_tortoli;Tortoli;;;;;;;;;;;;;x
+b_tratalias;Tratalias;;;;;;;;;;;;;x
+b_carbonara;Carbonara;;;;;;;;;;;;;x
+b_olbia_civita;Olbia Civita;;;;;;;;;;;;;x
+b_galtelli;Galtelli;;;;;;;;;;;;;x
+b_posada;Posada;;;;;;;;;;;;;x
+b_nuoro;Nuoro;;;;;;;;;;;;;x
+b_collesano;Collesano;;;;;;;;;;;;;x
+b_palermo;Palermo;;;;;;;;;;;;;x
+b_termini;Termini;;;;;;;;;;;;;x
+b_trapani;Trapani;;;;;;;;;;;;;x
+b_partanna;Partanna;;;;;;;;;;;;;x
+b_caccamo;Caccamo;;;;;;;;;;;;;x
+b_sclafani;Sclafani;;;;;;;;;;;;;x
+b_butera;Butera;;;;;;;;;;;;;x
+b_caltabelotta;Caltabelotta;;;;;;;;;;;;;x
+b_girgenti;Girgenti;;;;;;;;;;;;;x
+b_favara;Favara;;;;;;;;;;;;;x
+b_caltagirone;Caltagirone;;;;;;;;;;;;;x
+b_licata;Licata;;;;;;;;;;;;;x
+b_aderno;Aderno;;;;;;;;;;;;;x
+b_caltanisetta;Caltanisetta;;;;;;;;;;;;;x
+b_aidone;Aidone;;;;;;;;;;;;;x
+b_castrogiovanni;Castrogiovanni;;;;;;;;;;;;;x
+b_paterno;Paterno;;;;;;;;;;;;;x
+b_catania;Catania;;;;;;;;;;;;;x
+b_agosta;Agosta;;;;;;;;;;;;;x
+b_messina;Messina;;;;;;;;;;;;;x
+b_milazzo;Milazzo;;;;;;;;;;;;;x
+b_taormina;Taormina;;;;;;;;;;;;;x
+b_brolo;Brolo;;;;;;;;;;;;;x
+b_modica;Modica;;;;;;;;;;;;;x
+b_noto;Noto;;;;;;;;;;;;;x
+b_syracusa;Syracusa;;;;;;;;;;;;;x
+b_ragusa_sicily;Ragusa;;;;;;;;;;;;;x
+b_buccheri;Buccheri;;;;;;;;;;;;;x
+b_mineo;Mineo;;;;;;;;;;;;;x
+b_geraci;Geraci;;;;;;;;;;;;;x
+b_cefalu;Cefalu;;;;;;;;;;;;;x
+b_nicosia;Nicosia;;;;;;;;;;;;;x
+b_mistretta;Mistretta;;;;;;;;;;;;;x
+b_naso;Naso;;;;;;;;;;;;;x
+b_mdina;Mdina;;;;;;;;;;;;;x
+b_sliema;Tas-Sliema;;;;;;;;;;;;;x
+b_sanpawl;Il-Gzejjer ta'San Pawl;;;;;;;;;;;;;x
+b_gozo;Ghawdex;;;;;;;;;;;;;x
+b_birzebbuga;Birzebbuga;;;;;;;;;;;;;x
+b_marsascala;Wied il-Ghajn;;;;;;;;;;;;;x
+b_mgarr;Mgarr;;;;;;;;;;;;;x
+b_sangjilan;San Giljan;;;;;;;;;;;;;x
+b_tarsia_calabria;Tarsia;;;;;;;;;;;;;x
+b_cosenza;Cosenza;;;;;;;;;;;;;x
+b_rossano;Rossano;;;;;;;;;;;;;x
+b_corgiliano;Corgiliano;;;;;;;;;;;;;x
+b_squillace;Squillace;;;;;;;;;;;;;x
+b_catanzaro;Catanzaro;;;;;;;;;;;;;x
+b_santa_severina;Severina;;;;;;;;;;;;;x
+b_montelone;Montelone;;;;;;;;;;;;;x
+b_reggio;Reggio;;;;;;;;;;;;;x
+b_gerace;Gerace;;;;;;;;;;;;;x
+b_mileto;Mileto;;;;;;;;;;;;;x
+b_lauro;Lauro;;;;;;;;;;;;;x
+b_benevento;Benevento;;;;;;;;;;;;;x
+b_montemarano;Montemarano;;;;;;;;;;;;;x
+b_ariano;Ariano;;;;;;;;;;;;;x
+b_bounalbergo;Bounalbergo;;;;;;;;;;;;;x
+b_gesualdo;Gesualdo;;;;;;;;;;;;;x
+b_montella;Montella;;;;;;;;;;;;;x
+b_capaccio;Capaccio;;;;;;;;;;;;;x
+b_camerota;Camerota;;;;;;;;;;;;;x
+b_salerno;Salerno;;;;;;;;;;;;;x
+b_cavea;Cavea;;;;;;;;;;;;;x
+b_eboli;Eboli;;;;;;;;;;;;;x
+b_acerenza;Acerenza;;;;;;;;;;;;;x
+b_melfi;Melfi;;;;;;;;;;;;;x
+b_potenza;Potenza;;;;;;;;;;;;;x
+b_montepeloso;Montepeloso;;;;;;;;;;;;;x
+b_avigliano;Avigliano;;;;;;;;;;;;;x
+b_tricarico;Tricarico;;;;;;;;;;;;;x
+b_san_severino_lucano;Lucano;;;;;;;;;;;;;x
+b_marsico;Marsico;;;;;;;;;;;;;x
+b_chiaromonte;Chiaromonte;;;;;;;;;;;;;x
+b_lauria;Lauria;;;;;;;;;;;;;x
+b_gravina;Gravina;;;;;;;;;;;;;x
+b_matera;Matera;;;;;;;;;;;;;x
+b_montescagolioso;Montescagolioso;;;;;;;;;;;;;x
+b_roseto;Roseto;;;;;;;;;;;;;x
+b_policastro;Policastro;;;;;;;;;;;;;x
+b_taranto;Taranto;;;;;;;;;;;;;x
+b_grottaglie;Grottaglie;;;;;;;;;;;;;x
+b_nardo;Nardo;;;;;;;;;;;;;x
+b_gallipoli_puglia;Puglia;;;;;;;;;;;;;x
+b_copertino;Copertino;;;;;;;;;;;;;x
+b_otranto;Otranto;;;;;;;;;;;;;x
+b_lecce;Lecce;;;;;;;;;;;;;x
+b_soleto;Soleto;;;;;;;;;;;;;x
+b_ostuni;Ostuni;;;;;;;;;;;;;x
+b_brindisi;Brindisi;;;;;;;;;;;;;x
+b_andria;Andria;;;;;;;;;;;;;x
+b_trani;Trani;;;;;;;;;;;;;x
+b_canosa;Canosa;;;;;;;;;;;;;x
+b_barletta;Barletta;;;;;;;;;;;;;x
+b_bari;Bari;;;;;;;;;;;;;x
+b_conversano;Conversano;;;;;;;;;;;;;x
+b_acquviva;Acquviva;;;;;;;;;;;;;x
+b_molfetta;Molfetta;;;;;;;;;;;;;x
+b_monopoli;Monopoli;;;;;;;;;;;;;x
+b_foggia;Foggia;;;;;;;;;;;;;x
+b_troia;Troia;;;;;;;;;;;;;x
+b_lavello;Lavello;;;;;;;;;;;;;x
+b_monte_sant_angelo;Monte Sant'Angelo;;;;;;;;;;;;;x
+b_venosa;Venosa;;;;;;;;;;;;;x
+b_seponto;Seponto;;;;;;;;;;;;;x
+b_larino;Larino;;;;;;;;;;;;;x
+b_lesina_capitanata;Lesina;;;;;;;;;;;;;x
+b_civitate;Civitate;;;;;;;;;;;;;x
+b_sant_severo;Sant Servo;;;;;;;;;;;;;x
+b_vico;Vico;;;;;;;;;;;;;x
+b_montorio;Montorio;;;;;;;;;;;;;x
+b_atri;Atri;;;;;;;;;;;;;x
+b_teramo;Teramo;;;;;;;;;;;;;x
+b_ascoli;Ascoli;;;;;;;;;;;;;x
+b_san_valentino;San Vanlentino;;;;;;;;;;;;;x
+b_penne_aprutio;Penne;;;;;;;;;;;;;x
+b_carsoli;Carsoli;;;;;;;;;;;;;x
+b_celano;Celano;;;;;;;;;;;;;x
+b_albe;Albe;;;;;;;;;;;;;x
+b_avezzano;Avezzano;;;;;;;;;;;;;x
+b_tagliacozzo;Tagliacozzo;;;;;;;;;;;;;x
+b_subiaco;Subiaco;;;;;;;;;;;;;x
+b_valva;Valva;;;;;;;;;;;;;x
+b_manopello;Manopello;;;;;;;;;;;;;x
+b_montedorisio;Montedorisio;;;;;;;;;;;;;x
+b_chieti;Chieti;;;;;;;;;;;;;x
+b_ortona;Ortona;;;;;;;;;;;;;x
+b_pescara;Pescara;;;;;;;;;;;;;x
+b_gaeta;Gaeta;;;;;;;;;;;;;x
+b_fondi;Fondi;;;;;;;;;;;;;x
+b_itri;Itri;;;;;;;;;;;;;x
+b_caleno;Caleno;;;;;;;;;;;;;x
+b_ceccano;Ceccano;;;;;;;;;;;;;x
+b_supino;Supino;;;;;;;;;;;;;x
+b_alatri;Alatri;;;;;;;;;;;;;x
+b_ferentino;Ferentino;;;;;;;;;;;;;x
+b_moloro;Moloro;;;;;;;;;;;;;x
+b_alvito;Alvito;;;;;;;;;;;;;x
+b_sora;Sora;;;;;;;;;;;;;x
+b_aquino;Aquino;;;;;;;;;;;;;x
+b_montecassino;Montecassino;;;;;;;;;;;;;x
+b_pontecorvo;Pontecorvo;;;;;;;;;;;;;x
+b_nola;Nola;;;;;;;;;;;;;x
+b_teano;Teano;;;;;;;;;;;;;x
+b_caserta;Caserta;;;;;;;;;;;;;x
+b_aversa;Aversa;;;;;;;;;;;;;x
+b_capua;Capua;;;;;;;;;;;;;x
+b_alife;Alife;;;;;;;;;;;;;x
+b_caiazzo;Caiazzo;;;;;;;;;;;;;x
+b_altavilla_irpina;Altavilla;;;;;;;;;;;;;x
+b_avellino;Avellino;;;;;;;;;;;;;x
+b_molise;Molise;;;;;;;;;;;;;x
+b_boiano;Boiano;;;;;;;;;;;;;x
+b_campobasso;Campobasso;;;;;;;;;;;;;x
+b_sangro;Sangro;;;;;;;;;;;;;x
+b_trivento;Trivento;;;;;;;;;;;;;x
+b_pozzuoli;Pozzuoli;;;;;;;;;;;;;x
+b_napoli;Napoli;;;;;;;;;;;;;x
+b_barbato;Barbato;;;;;;;;;;;;;x
+b_procida;Procida;;;;;;;;;;;;;x
+b_accera;Accera;;;;;;;;;;;;;x
+b_ischia;Ischia;;;;;;;;;;;;;x
+b_amalfi;Amalfi;;;;;;;;;;;;;x
+b_sorrento;Sorrento;;;;;;;;;;;;;x
+b_ravello;Ravello;;;;;;;;;;;;;x
+b_nocera;Nocera;;;;;;;;;;;;;x
+b_sarno;Sarno;;;;;;;;;;;;;x
+b_monterondo;Monterondo;;;;;;;;;;;;;x
+b_palombara;Palombara;;;;;;;;;;;;;x
+b_nerola;Nerola;;;;;;;;;;;;;x
+b_farfa;Farfa;;;;;;;;;;;;;x
+b_civita_castellana;Civita Castellana;;;;;;;;;;;;;x
+b_anguillara;Anguillara;;;;;;;;;;;;;x
+b_viterbo;Viterbo;;;;;;;;;;;;;x
+b_orvieto;Orvieto;;;;;;;;;;;;;x
+b_civitavecchia;Civitavecchia;;;;;;;;;;;;;x
+b_sutri;Sutri;;;;;;;;;;;;;x
+b_segni;Segni;;;;;;;;;;;;;x
+b_terracina;Terracina;;;;;;;;;;;;;x
+b_piperno;Piperno;;;;;;;;;;;;;x
+b_anagni;Anagni;;;;;;;;;;;;;x
+b_maenza;Maenza;;;;;;;;;;;;;x
+b_velletri;Velletri;;;;;;;;;;;;;x
+b_palestrina;Palestrina;;;;;;;;;;;;;x
+b_tuscullum;Tuscullum;;;;;;;;;;;;;x
+b_albano;Albano;;;;;;;;;;;;;x
+b_sezze;Sezze;;;;;;;;;;;;;x
+b_molara;Molara;;;;;;;;;;;;;x
+b_astura;Astura;;;;;;;;;;;;;x
+b_colosseo;Colosseo;;;;;;;;;;;;;x
+b_tivoli;Tivoli;;;;;;;;;;;;;x
+b_roma;Roma;;;;;;;;;;;;;x
+b_ostia_gregoriopolis;Gregoriopolis;;;;;;;;;;;;;x
+b_castelsantangelo;Castel Sant'Angelo;;;;;;;;;;;;;x
+b_bracciano;Bracciano;;;;;;;;;;;;;x
+b_gubbio;Gubbio;;;;;;;;;;;;;x
+b_cantiano;Cantiano;;;;;;;;;;;;;x
+b_luceoli;Luceoli;;;;;;;;;;;;;x
+b_citta_di_castello;Citta di Castello;;;;;;;;;;;;;x
+b_montauto_anghira;Montauto;;;;;;;;;;;;;x
+b_perugia;Perugia;;;;;;;;;;;;;x
+b_foligno;Foligno;;;;;;;;;;;;;x
+b_todi;Todi;;;;;;;;;;;;;x
+b_alviano;Alviano;;;;;;;;;;;;;x
+b_marsciano;Marsciano;;;;;;;;;;;;;x
+b_spoleto;Spoleto;;;;;;;;;;;;;x
+b_terni;Terni;;;;;;;;;;;;;x
+b_assisi;Assisi;;;;;;;;;;;;;x
+b_ferentillo;Ferentillo;;;;;;;;;;;;;x
+b_narni;Narni;;;;;;;;;;;;;x
+b_rieti;Rieti;;;;;;;;;;;;;x
+b_camerino;Camerino;;;;;;;;;;;;;x
+b_ascoli_piceno;Ascoli Piceno;;;;;;;;;;;;;x
+b_tolentino;Tolentino;;;;;;;;;;;;;x
+b_pergola;Pergola;;;;;;;;;;;;;x
+b_matelica;Matelica;;;;;;;;;;;;;x
+b_urbino;Urbino;;;;;;;;;;;;;x
+b_cagli;Cagli;;;;;;;;;;;;;x
+b_piobicco;Piobicco;;;;;;;;;;;;;x
+b_senigallia;Senigallia;;;;;;;;;;;;;x
+b_pesaro;Pesaro;;;;;;;;;;;;;x
+b_fano;Fano;;;;;;;;;;;;;x
+b_carpegna;Carpegna;;;;;;;;;;;;;x
+b_san_marino;Marino;;;;;;;;;;;;;x
+b_san_leo;Leo;;;;;;;;;;;;;x
+b_montecopiolo;Montecopiolo;;;;;;;;;;;;;x
+b_ghiaggiolo;Ghiaggiolo;;;;;;;;;;;;;x
+b_cesena;Cesena;;;;;;;;;;;;;x
+b_rimini;Rimini;;;;;;;;;;;;;x
+b_sogliano;Sogliano;;;;;;;;;;;;;x
+b_jezi;Jesi;;;;;;;;;;;;;x
+b_fermo;Fermo;;;;;;;;;;;;;x
+b_osimo;Osimo;;;;;;;;;;;;;x
+b_ancona;Ancona;;;;;;;;;;;;;x
+b_loreto;Loreto;;;;;;;;;;;;;x
+b_macerata;Macerata;;;;;;;;;;;;;x
+b_forli;Forli;;;;;;;;;;;;;x
+b_faenza;Faenza;;;;;;;;;;;;;x
+b_forlimpopoli;Forlimpopoli;;;;;;;;;;;;;x
+b_polenta;Polenta;;;;;;;;;;;;;x
+b_bertinoro;Bertinoro;;;;;;;;;;;;;x
+b_castrocaro;Castrocaro;;;;;;;;;;;;;x
+b_polenta;Polenta;;;;;;;;;;;;;x
+b_imola;Imola;;;;;;;;;;;;;x
+b_san_cassino;San Cassino;;;;;;;;;;;;;x
+b_castel_del_rio;Castel del Rio;;;;;;;;;;;;;x
+b_bologna;Bologna;;;;;;;;;;;;;x
+b_monte_renzio;Monte Renzio;;;;;;;;;;;;;x
+b_loiano;Loiano;;;;;;;;;;;;;x
+b_panigo;Panigo;;;;;;;;;;;;;x
+b_zerfugnano;Zerfugnano;;;;;;;;;;;;;x
+b_cunio;Cunio;;;;;;;;;;;;;x
+b_barbiano;Barbiano;;;;;;;;;;;;;x
+b_lugo_cunio;Lugo;;;;;;;;;;;;;x
+b_cotignola;Cotignola;;;;;;;;;;;;;x
+b_ravenna;Ravenna;;;;;;;;;;;;;x
+b_bagnacavallo;Bagnacavallo;;;;;;;;;;;;;x
+b_comacchio;Comacchio;;;;;;;;;;;;;x
+b_cervia;Cervia;;;;;;;;;;;;;x
+b_traversara;Traversara;;;;;;;;;;;;;x
+b_donigallia;Donigallia;;;;;;;;;;;;;x
+b_sermide;Sermide;;;;;;;;;;;;;x
+b_rovigo;Rovigo;;;;;;;;;;;;;x
+b_ferrra;Ferrra;;;;;;;;;;;;;x
+b_san_giorgio;San Giorgio;;;;;;;;;;;;;x
+b_argenta;Argenta;;;;;;;;;;;;;x
+b_este;Este;;;;;;;;;;;;;x
+b_monselice;Monselice;;;;;;;;;;;;;x
+b_adria_ferrara;Ferrara;;;;;;;;;;;;;x
+b_pomposa;Pomposa;;;;;;;;;;;;;x
+b_verona;Verona;;;;;;;;;;;;;x
+b_san_bonifacio;San Bonifacio;;;;;;;;;;;;;x
+b_bevilacuqa;Bevilacuqa;;;;;;;;;;;;;x
+b_cerea;Cerea;;;;;;;;;;;;;x
+b_sirmione;Sirmione;;;;;;;;;;;;;x
+b_viacenza;Viacenza;;;;;;;;;;;;;x
+b_bassano;Bassano;;;;;;;;;;;;;x
+b_romano;Romano;;;;;;;;;;;;;x
+b_angarano;Angarano;;;;;;;;;;;;;x
+b_treviso;Treviso;;;;;;;;;;;;;x
+b_belluno;Belluno;;;;;;;;;;;;;x
+b_collalto;Collalto;;;;;;;;;;;;;x
+b_feltre;Feltre;;;;;;;;;;;;;x
+b_montanara;Montanara;;;;;;;;;;;;;x
+b_padua;Padua;;;;;;;;;;;;;x
+b_carrara_carraraesi;Carrara;;;;;;;;;;;;;x
+b_camposampiero;Camposampiero;;;;;;;;;;;;;x
+b_cittadella;Cittadella;;;;;;;;;;;;;x
+b_onara;Onara;;;;;;;;;;;;;x
+b_marcaria;Marcaria;;;;;;;;;;;;;x
+b_sabbioneta;Sabbioneta;;;;;;;;;;;;;x
+b_leno;Leno;;;;;;;;;;;;;x
+b_redondesco;Redondesco;;;;;;;;;;;;;x
+b_san_martino;San Martino;;;;;;;;;;;;;x
+b_mantua;Mantua;;;;;;;;;;;;;x
+b_goito;Goito;;;;;;;;;;;;;x
+b_marmirolo;Marmirolo;;;;;;;;;;;;;x
+b_ostiglia;Ostiglia;;;;;;;;;;;;;x
+b_correggio;Correggio;;;;;;;;;;;;;x
+b_nonatola;Nonatola;;;;;;;;;;;;;x
+b_modena;Modena;;;;;;;;;;;;;x
+b_sassuolo;Sassuolo;;;;;;;;;;;;;x
+b_canossa;Canossa;;;;;;;;;;;;;x
+b_bomporto;Bomporto;;;;;;;;;;;;;x
+b_reggionellemila;Reggionellemila;;;;;;;;;;;;;x
+b_montezone;Montezone;;;;;;;;;;;;;x
+b_mirandola;Mirandola;;;;;;;;;;;;;x
+b_gonzaga;Gonzaga;;;;;;;;;;;;;x
+b_gustalla;Gustalla;;;;;;;;;;;;;x
+b_bianello;Bianello;;;;;;;;;;;;;x
+b_montecuccolo;Montecuccolo;;;;;;;;;;;;;x
+b_pelago;Pelago;;;;;;;;;;;;;x
+b_baiso;Baiso;;;;;;;;;;;;;x
+b_parma;Parma;;;;;;;;;;;;;x
+b_fidenza_borgo_san_donnino;Borgo San Donnino;;;;;;;;;;;;;x
+b_san_secondo;San Secondo;;;;;;;;;;;;;x
+b_berceto;Berceto;;;;;;;;;;;;;x
+b_sala_parmese;Sala;;;;;;;;;;;;;x
+b_pizzo;Pizzo;;;;;;;;;;;;;x
+b_tizzano;Tizzano;;;;;;;;;;;;;x
+b_piacenza;Piacenza;;;;;;;;;;;;;x
+b_bardi;Bardi;;;;;;;;;;;;;x
+b_ronacagli;Ronacagli;;;;;;;;;;;;;x
+b_scipione;Scipione;;;;;;;;;;;;;x
+b_busseto;Busseto;;;;;;;;;;;;;x
+b_milano;Milano;;;;;;;;;;;;;x
+b_lodi;Lodi;;;;;;;;;;;;;x
+b_monza;Monza;;;;;;;;;;;;;x
+b_parabiago;Parabiago;;;;;;;;;;;;;x
+b_rosate;Rosate;;;;;;;;;;;;;x
+b_cassina_aliprandi;Cassina;;;;;;;;;;;;;x
+b_trezzo;Trezzo;;;;;;;;;;;;;x
+b_bissano;Bissano;;;;;;;;;;;;;x
+b_camisano;Camisano;;;;;;;;;;;;;x
+b_crema;Crema;;;;;;;;;;;;;x
+b_cremona;Cremona;;;;;;;;;;;;;x
+b_soncino;Soncino;;;;;;;;;;;;;x
+b_brescia;Brescia;;;;;;;;;;;;;x
+b_casaloldo;Casaloldo;;;;;;;;;;;;;x
+b_montichiari;Montichiari;;;;;;;;;;;;;x
+b_asola;Asola;;;;;;;;;;;;;x
+b_chiari;Chiari;;;;;;;;;;;;;x
+b_lomello;Lomello;;;;;;;;;;;;;x
+b_pavia;Pavia;;;;;;;;;;;;;x
+b_montebello;Montebello;;;;;;;;;;;;;x
+b_mortara;Mortara;;;;;;;;;;;;;x
+b_vigevano;Vigevano;;;;;;;;;;;;;x
+b_sparvara;Sparvara;;;;;;;;;;;;;x
+b_langosco;Langosco;;;;;;;;;;;;;x
+b_bergamo;Bergamo;;;;;;;;;;;;;x
+b_clusone;Clusone;;;;;;;;;;;;;x
+b_taxis;Taxis;;;;;;;;;;;;;x
+b_cortenouva;Cortenouva;;;;;;;;;;;;;x
+b_seprio;Seprio;;;;;;;;;;;;;x
+b_gallerate;Gallerate;;;;;;;;;;;;;x
+b_angera;Angera;;;;;;;;;;;;;x
+b_varese;Varese;;;;;;;;;;;;;x
+b_massino;Massino;;;;;;;;;;;;;x
+b_como;Como;;;;;;;;;;;;;x
+b_locarno;Locarno;;;;;;;;;;;;;x
+b_chiavenna;Chiavenna;;;;;;;;;;;;;x
+b_sondrio;Sondrio;;;;;;;;;;;;;x
+b_lecco;Lecco;;;;;;;;;;;;;x
+b_martesana;Martesana;;;;;;;;;;;;;x
+b_ivrea;Ivrea;;;;;;;;;;;;;x
+b_vercelli;Vercelli;;;;;;;;;;;;;x
+b_romagnano;Romagnano;;;;;;;;;;;;;x
+b_borriana;Borriana;;;;;;;;;;;;;x
+b_valperga;Valperga;;;;;;;;;;;;;x
+b_crescentino;Crescentino;;;;;;;;;;;;;x
+b_susa;Susa;;;;;;;;;;;;;x
+b_torino;Torino;;;;;;;;;;;;;x
+b_valgorrera;Valgorrera;;;;;;;;;;;;;x
+b_carmagola;Carmagola;;;;;;;;;;;;;x
+b_chieri;Chieri;;;;;;;;;;;;;x
+b_virle;Virle;;;;;;;;;;;;;x
+b_carignano;Carignano;;;;;;;;;;;;;x
+b_biandrate;Biandrate;;;;;;;;;;;;;x
+b_pombia;Pombia;;;;;;;;;;;;;x
+b_novara;Novara;;;;;;;;;;;;;x
+b_san_giulio;San Giulio;;;;;;;;;;;;;x
+b_arona;Arona;;;;;;;;;;;;;x
+b_saluzzo;Saluzzo;;;;;;;;;;;;;x
+b_busca;Busca;;;;;;;;;;;;;x
+b_cueno;Cueno;;;;;;;;;;;;;x
+b_monticello;Monticello;;;;;;;;;;;;;x
+b_auriate;Auriate;;;;;;;;;;;;;x
+b_ceva;Ceva;;;;;;;;;;;;;x
+b_mondovi;Mondovi;;;;;;;;;;;;;x
+b_clavesana;Clavesana;;;;;;;;;;;;;x
+b_finale;Finalle;;;;;;;;;;;;;x
+b_carretto;Carreetto;;;;;;;;;;;;;x
+b_savona;Savona;;;;;;;;;;;;;x
+b_oneglia;Onegllia;;;;;;;;;;;;;x
+b_albenga;Albennga;;;;;;;;;;;;;x
+b_tenda;Tenda;;;;;;;;;;;;;x
+b_ventimiglia;Ventimiglia;;;;;;;;;;;;;x
+b_monaco;Monacco;;;;;;;;;;;;;x
+b_dolceacqua;Dolceeacqua;;;;;;;;;;;;;x
+b_genoa;Genoa;;;;;;;;;;;;;x
+b_rapallo;Rapallo;;;;;;;;;;;;;x
+b_chivari;Chivari;;;;;;;;;;;;;x
+b_pietra_ligure;Pietra;;;;;;;;;;;;;x
+b_lavagna;Lavagna;;;;;;;;;;;;;x
+b_sarzana;Sarzana;;;;;;;;;;;;;x
+b_la_spezia;La Spezia;;;;;;;;;;;;;x
+b_portovenere;Portovenere;;;;;;;;;;;;;x
+b_asti;Asti;;;;;;;;;;;;;x
+b_moncalvo;Moncalvo;;;;;;;;;;;;;x
+b_casale;Casale;;;;;;;;;;;;;x
+b_ferrere;Ferrere;;;;;;;;;;;;;x
+b_serralunga;Serralunga;;;;;;;;;;;;;x
+b_acqui;Acqui;;;;;;;;;;;;;x
+b_alessandria;Alessandria;;;;;;;;;;;;;x
+b_ponzone;Ponzone;;;;;;;;;;;;;x
+b_alba;Alba;;;;;;;;;;;;;x
+b_bosco;Bosco;;;;;;;;;;;;;x
+b_loreto_costiglione;Loreto;;;;;;;;;;;;;x
+b_sezzadio;Sezze;;;;;;;;;;;;;x
+b_luna_ligure;Luna;;;;;;;;;;;;;x
+b_massa_ligure;Massa;;;;;;;;;;;;;x
+b_carrara_ligure;Carrara di Lunigiana;;;;;;;;;;;;;x
+b_fosdinovo;Fosdin;;;;;;;;;;;;;x
+b_mulazzo;Mulazzo;;;;;;;;;;;;;x
+b_bobbio;Bobbio;;;;;;;;;;;;;x
+b_gavi;Gavi;;;;;;;;;;;;;x
+b_tortona;Tortona;;;;;;;;;;;;;x
+b_voghera;Voghera;;;;;;;;;;;;;x
+b_donoratico;Donoratico;;;;;;;;;;;;;x
+b_pisa;Pisa;;;;;;;;;;;;;x
+b_porto_pisano;Porto Pisano;;;;;;;;;;;;;x
+b_st_miniato;St Miniato;;;;;;;;;;;;;x
+b_piombino;Piombino;;;;;;;;;;;;;x
+b_settimo;Settimo;;;;;;;;;;;;;x
+b_campiglia;Campiglia;;;;;;;;;;;;;x
+b_lucca;Lucca;;;;;;;;;;;;;x
+b_altopascio;Altopascio;;;;;;;;;;;;;x
+b_pescia;Pescia;;;;;;;;;;;;;x
+b_montecarloluccaveryniceplaceforaholiday;Montecarlo;;;;;;;;;;;;;x
+b_corvaia;Corvaia;;;;;;;;;;;;;x
+b_vivinaia;Vivinaia;;;;;;;;;;;;;x
+b_montemagno;Montemagno;;;;;;;;;;;;;x
+b_pistoia;Pistoia;;;;;;;;;;;;;x
+b_prato;Prato;;;;;;;;;;;;;x
+b_empoli;Empoli;;;;;;;;;;;;;x
+b_certaldo;Certaldo;;;;;;;;;;;;;x
+b_vernio;Vernio;;;;;;;;;;;;;x
+b_volterra;Volterra;;;;;;;;;;;;;x
+b_st_gimignano;Gimignano;;;;;;;;;;;;;x
+b_forcoli;Forcoli;;;;;;;;;;;;;x
+b_biserno;Biserno;;;;;;;;;;;;;x
+b_firenze;Firenze;;;;;;;;;;;;;x
+b_fiesole;Fiesole;;;;;;;;;;;;;x
+b_vallombrosa;Vallombrosa;;;;;;;;;;;;;x
+b_poggiobonsi;Poggiobonsi;;;;;;;;;;;;;x
+b_castellina_in_chianti;Castellina;;;;;;;;;;;;;x
+b_stinche;Stinche;;;;;;;;;;;;;x
+b_passignano;Passignano;;;;;;;;;;;;;x
+b_poppi;Poppi;;;;;;;;;;;;;x
+b_romena;Romena;;;;;;;;;;;;;x
+b_porciano;Porciano;;;;;;;;;;;;;x
+b_monevarchi;Monevarchi;;;;;;;;;;;;;x
+b_modigliana;Modigliana;;;;;;;;;;;;;x
+b_barberino;Barberino;;;;;;;;;;;;;x
+b_del_trebbio;Del Trebbio;;;;;;;;;;;;;x
+b_dovadola;Dovadola;;;;;;;;;;;;;x
+b_pila_modigliana;Pila;;;;;;;;;;;;;x
+b_monte_santa_maria;Monte Santa Maria;;;;;;;;;;;;;x
+b_arezzo;Arezzo;;;;;;;;;;;;;x
+b_cortona;Cortona;;;;;;;;;;;;;x
+b_montecchio;Montecchio;;;;;;;;;;;;;x
+b_mammi;Mammi;;;;;;;;;;;;;x
+b_peitramala;Peitramala;;;;;;;;;;;;;x
+b_orgia;Orgia;;;;;;;;;;;;;x
+b_sprunga;Sprunga;;;;;;;;;;;;;x
+b_montebuoni;Montebuoni;;;;;;;;;;;;;x
+b_montalcino;Montalcino;;;;;;;;;;;;;x
+b_siena;Siena;;;;;;;;;;;;;x
+b_montalto;Montalto;;;;;;;;;;;;;x
+b_chiusi;Chiusi;;;;;;;;;;;;;x
+b_asciano;Asciano;;;;;;;;;;;;;x
+b_bibbiano;Bibbiano;;;;;;;;;;;;;x
+b_radicofani;Radicofani;;;;;;;;;;;;;x
+b_santa_fiora;Santa Fiora;;;;;;;;;;;;;x
+b_grosseto;Grosseto;;;;;;;;;;;;;x
+b_massa_marittima;Massa Marittima;;;;;;;;;;;;;x
+b_roselle;Roselle;;;;;;;;;;;;;x
+b_scarlino;Scarlino;;;;;;;;;;;;;x
+b_sticciano;Sticciano;;;;;;;;;;;;;x
+b_travale;Travale;;;;;;;;;;;;;x
+b_pitgliano;Pitgliano;;;;;;;;;;;;;x
+b_sovana;Sovana;;;;;;;;;;;;;x
+b_orbetello;Orbetello;;;;;;;;;;;;;x
 b_venezia;Venexia;;;;;;;;;;;;;x
 b_rialto;Rialto;;;;;;;;;;;;;x
 b_pelestrina;Pelestrina;;;;;;;;;;;;;x
@@ -761,7 +1236,15 @@ b_lido;Lido;;;;;;;;;;;;;x
 b_chioggia;Cióxa;;;;;;;;;;;;;x
 b_jesolo;Gèxolo;;;;;;;;;;;;;x
 b_murano;Muran;;;;;;;;;;;;;x
-b_torcello;Torcelo;;;;;;;;;;;;;x
+b_tarcento;Tarcint;;;;;;;;;;;;;x
+b_pieve;Pièe;;;;;;;;;;;;;x
+b_aquileia;Olee;;;;;;;;;;;;;x
+b_udine;Udin;;;;;;;;;;;;;x
+b_motta;Mota de Livensa;;;;;;;;;;;;;x
+b_concordia;Concordia;;;;;;;;;;;;;x
+b_ciridale;Cividât;;;;;;;;;;;;;x
+b_portoguaro;Portogruèr;;;;;;;;;;;;;x
+b_sacile;Sacîl;;;;;;;;;;;;;x
 b_wielun;Wielun;;;;;;;;;;;;;x
 b_ostrzeszow;Ostrzeszów;;;;;;;;;;;;;x
 b_opoczno;Opoczno;;;;;;;;;;;;;x
@@ -775,1000 +1258,6 @@ b_uniejow;Uniejów;;;;;;;;;;;;;x
 b_lomzapoland;Lómza;;;;;;;;;;;;;x
 b_zakroczym;Zakroczym;;;;;;;;;;;;;x
 b_przasnysz;Przasnysz;;;;;;;;;;;;;x
-b_wertheim;Wertheim;;;;;;;;;;;;;x
-b_burgwertheim;Burg Wertheim;;;;;;;;;;;;;x
-b_durne;Dürne;;;;;;;;;;;;;x
-b_klingen;Klingen;;;;;;;;;;;;;x
-b_breuberg;Breuberg;;;;;;;;;;;;;x
-b_freudenberg;Freudenberg;;;;;;;;;;;;;x
-b_lauffen;Lauffen;;;;;;;;;;;;;x
-b_palermo;Palermu;;;;;;;;;;;;;x
-b_cefalu;Cifalù;;;;;;;;;;;;;x
-b_monreale;Murriali;;;;;;;;;;;;;x
-b_gratteri;Ratteri;;;;;;;;;;;;;x
-b_caltavuturo;Caltavuturu;;;;;;;;;;;;;x
-b_petralia;Pitralia;;;;;;;;;;;;;x
-b_misilmeri;Musulumeli;;;;;;;;;;;;;x
-b_mistretta;Mistritta;;;;;;;;;;;;;x
-b_castiddubbuonu;Castiddubbuonu;;;;;;;;;;;;;x
-b_altofonte;Capaci;;;;;;;;;;;;;x
-b_campofelicedifitalia;Cifalà Diana;;;;;;;;;;;;;x
-b_carini;Carini;;;;;;;;;;;;;x
-b_collesano;Gulisanu;;;;;;;;;;;;;x
-b_casalearianum;Casale Arianum;;;;;;;;;;;;;x
-b_zisa;Zisa;;;;;;;;;;;;;x
-b_castellodellacuba;Castiddu di Cuba;;;;;;;;;;;;;x
-b_ypsigro;Ypsigro;;;;;;;;;;;;;x
-b_molla;Mólla;;;;;;;;;;;;;x
-b_messina;Missina;;;;;;;;;;;;;x
-b_randazzo;Rannazzu;;;;;;;;;;;;;x
-b_lipari;Lìpari;;;;;;;;;;;;;x
-b_taormina;Taurmina;;;;;;;;;;;;;x
-b_sanmarcodalunzio;Sammarcu;;;;;;;;;;;;;x
-b_troinia;Traina;;;;;;;;;;;;;x
-b_furnari;Fùrniri;;;;;;;;;;;;;x
-b_milazzu;Milazzu;;;;;;;;;;;;;x
-b_castellodilombardia;Castiddu di Lummardì;;;;;;;;;;;;;x
-b_castrojanni;Castru;;;;;;;;;;;;;x
-b_patti;Patti;;;;;;;;;;;;;x
-b_santaluciadelmela;Santi Lucìa dû Melu;;;;;;;;;;;;;x
-b_castilgione;Castigghiuni;;;;;;;;;;;;;x
-b_francavilladisicilia;Francavigghia;;;;;;;;;;;;;x
-b_munforti;Munfotti;;;;;;;;;;;;;x
-b_syracusa;Sarausa;;;;;;;;;;;;;x
-b_catania;Catania;;;;;;;;;;;;;x
-b_paterno;Patennò;;;;;;;;;;;;;x
-b_centuripe;Centuorbi;;;;;;;;;;;;;x
-b_augusta;Aùsta;;;;;;;;;;;;;x
-b_castellonormanno;Castello Normanno;;;;;;;;;;;;;x
-b_jachium;i Benaccussi;;;;;;;;;;;;;x
-b_aci;Jaci;;;;;;;;;;;;;x
-b_adranu;Adranu;;;;;;;;;;;;;x
-b_manicace;Maniàci;;;;;;;;;;;;;x
-b_ursino;Castiddu di Ursino;;;;;;;;;;;;;x
-b_jacisantantoniu;Sant Antoni;;;;;;;;;;;;;x
-b_agricento;Girgenti;;;;;;;;;;;;;x
-b_caltabellotta;Cataviddotta;;;;;;;;;;;;;x
-b_raffadali;Raffadali;;;;;;;;;;;;;x
-b_montallegro;Muntallegru;;;;;;;;;;;;;x
-b_castellodiluna;Casteddu Luna;;;;;;;;;;;;;x
-b_racalmutu;Racalmutu;;;;;;;;;;;;;x
-b_canicatti;Caniattì;;;;;;;;;;;;;x
-b_sciacca;Sciacca;;;;;;;;;;;;;x
-b_burgiosicily;Burgiu;;;;;;;;;;;;;x
-b_noto;Notu;;;;;;;;;;;;;x
-b_caltagirone;Caltaggiruni;;;;;;;;;;;;;x
-b_gela;Terranova;;;;;;;;;;;;;x
-b_licata;Licata;;;;;;;;;;;;;x
-b_modica;Muòrica;;;;;;;;;;;;;x
-b_ragusasicily;Raùsa;;;;;;;;;;;;;x
-b_ucannni;U Canni;;;;;;;;;;;;;x
-b_chiramontesicily;Muntichiaru;;;;;;;;;;;;;x
-b_mazzarina;Mazzarinu;;;;;;;;;;;;;x
-b_scicli;Scìchili;;;;;;;;;;;;;x
-b_commisu;u Còmisu;;;;;;;;;;;;;x
-b_oliveri;Liveri;;;;;;;;;;;;;x
-b_occiala;Occialá;;;;;;;;;;;;;x
-b_trapani;Tràpani;;;;;;;;;;;;;x
-b_erice;Èrici;;;;;;;;;;;;;x
-b_mazara;Mazzara;;;;;;;;;;;;;x
-b_sanguiseppelato;San Giuseppi;;;;;;;;;;;;;x
-b_castelvertrano;Castedduvitranu;;;;;;;;;;;;;x
-b_alcarno;Àrcamu;;;;;;;;;;;;;x
-b_marsala;Maissala;;;;;;;;;;;;;x
-b_partanna;Partanna;;;;;;;;;;;;;x
-b_salemi;Salemi;;;;;;;;;;;;;x
-b_calamonuci;Calamònaci;;;;;;;;;;;;;x
-b_castellammaredelgolfo;Casteddammari;;;;;;;;;;;;;x
-b_piazza;Ciazza;;;;;;;;;;;;;x
-b_tavaca;U Castiddazzu di Tavi;;;;;;;;;;;;;x
-b_regalbuto;Regarbutu;;;;;;;;;;;;;x
-b_gagghianu;Gagghianu;;;;;;;;;;;;;x
-b_catanzaro;Catanzaru;;;;;;;;;;;;;x
-b_corigliano;Curgghjeni;;;;;;;;;;;;;x
-b_crucoli;San Màuru;;;;;;;;;;;;;x
-b_acri;Eakri;;;;;;;;;;;;;x
-b_caccuri;Caccuri;;;;;;;;;;;;;x
-b_crotone;Cutrone;;;;;;;;;;;;;x
-b_amendolea;Amiddalia;;;;;;;;;;;;;x
-b_santaniceto;Castiellu di Santu Niceto;;;;;;;;;;;;;x
-b_scilla;U Scigghiju;;;;;;;;;;;;;x
-b_tarsia_calabria;Tarsia;;;;;;;;;;;;;x
-b_cosenza;Cusenza;;;;;;;;;;;;;x
-b_malvito;Marvitu;;;;;;;;;;;;;x
-b_roa;Roa;;;;;;;;;;;;;x
-b_argentano;Santu Marcu;;;;;;;;;;;;;x
-b_scalea;Scalea;;;;;;;;;;;;;x
-b_rossano;Russanu;;;;;;;;;;;;;x
-b_squillace;Schidaci;;;;;;;;;;;;;x
-b_cerenzia;Cerenzia;;;;;;;;;;;;;x
-b_belcastro;Bercastru;;;;;;;;;;;;;x
-b_reggio;Riggiu;;;;;;;;;;;;;x
-b_mileto;Milìtu;;;;;;;;;;;;;x
-b_nicotera;Nicotra;;;;;;;;;;;;;x
-b_bova;Bova;;;;;;;;;;;;;x
-b_gerace;Jeraci;;;;;;;;;;;;;x
-b_tropea;Trupèa;;;;;;;;;;;;;x
-b_gallipolitarent;Caddhrìpuli;;;;;;;;;;;;;x
-b_soleto;Sulítu;;;;;;;;;;;;;x
-b_galatina;As Pètro;;;;;;;;;;;;;x
-b_zollino;Tzuddinu;;;;;;;;;;;;;x
-b_copertino;Aradeo;;;;;;;;;;;;;x
-b_castriognetarent;Castrignana;;;;;;;;;;;;;x
-b_carmiano;Melendugno;;;;;;;;;;;;;x
-b_sternatia;Sternaìtta;;;;;;;;;;;;;x
-b_nardotarent;Nardó;;;;;;;;;;;;;x
-b_grottaglie;Vurtàgghie;;;;;;;;;;;;;x
-b_pulsano;Puzanu;;;;;;;;;;;;;x
-b_crispiano;Crispién;;;;;;;;;;;;;x
-b_taranto;Tàrde;;;;;;;;;;;;;x
-b_montemesola;Mondemesola;;;;;;;;;;;;;x
-b_palagiano;Pala'scen;;;;;;;;;;;;;x
-b_bernalda;V'rnall;;;;;;;;;;;;;x
-b_monopoli;Menòple;;;;;;;;;;;;;x
-b_santostefano;Utràntu;;;;;;;;;;;;;x
-b_sanvitodeinormanni;Santu Vitu;;;;;;;;;;;;;x
-b_francavillafontana;Francaidda;;;;;;;;;;;;;x
-b_castellodenticedifrasso;Castelle Dentice di Frasso;;;;;;;;;;;;;x
-b_mottola;Motele;;;;;;;;;;;;;x
-b_lecce;Lecce;;;;;;;;;;;;;x
-b_otranto;Utràntu;;;;;;;;;;;;;x
-b_leuca;Lèviche;;;;;;;;;;;;;x
-b_castro;Castro;;;;;;;;;;;;;x
-b_andrano;Andrano;;;;;;;;;;;;;x
-b_aradeo;Aradeo;;;;;;;;;;;;;x
-b_brindisi;Brìnnese;;;;;;;;;;;;;x
-b_conversano;Cunverséne;;;;;;;;;;;;;x
-b_oria;Oria;;;;;;;;;;;;;x
-b_polignano;Peghegnéne;;;;;;;;;;;;;x
-b_avigliano;Avigliano;;;;;;;;;;;;;x
-b_gravina;Gravèin;;;;;;;;;;;;;x
-b_miglionico;Mëgghjuonëkë;;;;;;;;;;;;;x
-b_pisticci;Pstizz;;;;;;;;;;;;;x
-b_castellotramontano;Castello Tramontano;;;;;;;;;;;;;x
-b_matera;Matàërë;;;;;;;;;;;;;x
-b_santagostinomatera;Convento di Sant'Agostino;;;;;;;;;;;;;x
-b_valsinni;Mundalbàn;;;;;;;;;;;;;x
-b_sannicandro;Sant' L'càndr;;;;;;;;;;;;;x
-b_terlizzi;Terrèzze;;;;;;;;;;;;;x
-b_valenzanobari;Valenzano;;;;;;;;;;;;;x
-b_spinazzola;Spenazzòle;;;;;;;;;;;;;x
-b_cernigolaandria;Cërëgnoülë;;;;;;;;;;;;;x
-b_coratoandria;Quaráte;;;;;;;;;;;;;x
-b_manfredoni;Mambredònje;;;;;;;;;;;;;x
-b_montesantangelo;Monte Sant'Angelo;;;;;;;;;;;;;x
-b_sansevero;Sanzëvírë;;;;;;;;;;;;;x
-b_potenza;Putènze;;;;;;;;;;;;;x
-b_calitri;Calitri;;;;;;;;;;;;;x
-b_venosa;Venosa;;;;;;;;;;;;;x
-b_montemilone;Mundemelóne;;;;;;;;;;;;;x
-b_ripacandida;Castiddr;;;;;;;;;;;;;x
-b_policoro;Pulëcòrë;;;;;;;;;;;;;x
-b_molietta;Melfétte;;;;;;;;;;;;;x
-b_lucera;Lucer;;;;;;;;;;;;;x
-b_melfi;Melfi;;;;;;;;;;;;;x
-b_bovino;Bovino;;;;;;;;;;;;;x
-b_lavello;Lavello;;;;;;;;;;;;;x
-b_lucano;Lucano;;;;;;;;;;;;;x
-b_lagopesole;Lu Cuastiedd;;;;;;;;;;;;;x
-b_troia;Troia;;;;;;;;;;;;;x
-b_castelluccio;Castellucce de le Sauri;;;;;;;;;;;;;x
-b_andria;Andrie;;;;;;;;;;;;;x
-b_trani;Tran;;;;;;;;;;;;;x
-b_barletta;Barlétte;;;;;;;;;;;;;x
-b_foggia;Fogge;;;;;;;;;;;;;x
-b_siponto;Siponto;;;;;;;;;;;;;x
-b_vieste;Vist;;;;;;;;;;;;;x
-b_bari;Bare;;;;;;;;;;;;;x
-b_giovinazzo;Giovinazzo;;;;;;;;;;;;;x
-b_ruvo;Riuve;;;;;;;;;;;;;x
-b_minervinodilecce;Minervino de Lecce;;;;;;;;;;;;;x
-b_bitonto;Vetònde;;;;;;;;;;;;;x
-b_castellaneta;Castelàneet;;;;;;;;;;;;;x
-b_tursi;Tùrs;;;;;;;;;;;;;x
-b_montepeloso;Mandpelouse;;;;;;;;;;;;;x
-b_termoli;Tèrml;;;;;;;;;;;;;x
-b_larinoloritello;Larine;;;;;;;;;;;;;x
-b_vastoloritello;Uašt;;;;;;;;;;;;;x
-b_sansalvoloritello;Sand Salv;;;;;;;;;;;;;x
-b_campomarino;Këmarini;;;;;;;;;;;;;x
-b_guglionesi;Ujuniše;;;;;;;;;;;;;x
-b_crecchio;Crecchio;;;;;;;;;;;;;x
-b_ortona;Ortona;;;;;;;;;;;;;x
-b_lanciano;Langiane;;;;;;;;;;;;;x
-b_cepagatti;Cipahatte;;;;;;;;;;;;;x
-b_pretoro;Pretèure;;;;;;;;;;;;;x
-b_atessa;L'Atèss;;;;;;;;;;;;;x
-b_chieti;Teate;;;;;;;;;;;;;x
-b_pescara;Pescàre;;;;;;;;;;;;;x
-b_atri;Atri;;;;;;;;;;;;;x
-b_salerno;Saliérno;;;;;;;;;;;;;x
-b_caggiano;Caggiano;;;;;;;;;;;;;x
-b_castellogerione;Castièll 'e Gerione;;;;;;;;;;;;;x
-b_castellodealegisio;Castièll 'e Alegisio;;;;;;;;;;;;;x
-b_castelterracena;Castièll 'e Terracena;;;;;;;;;;;;;x
-b_castellodiarechi;Castièll 'e Arechi;;;;;;;;;;;;;x
-b_campagna;Campagn;;;;;;;;;;;;;x
-b_mercatosanseverino;Marcato 'e Sanzurino;;;;;;;;;;;;;x
-b_positano;Pusitano;;;;;;;;;;;;;x
-b_marsico;Marsico;;;;;;;;;;;;;x
-b_policastro;Policastro;;;;;;;;;;;;;x
-b_castellodicastrocucco;Castello di Castrocucco;;;;;;;;;;;;;x
-b_maratea;Marathia;;;;;;;;;;;;;x
-b_viggianello;Bingianieddu;;;;;;;;;;;;;x
-b_eboli;Jevule;;;;;;;;;;;;;x
-b_tito;Lu Titu;;;;;;;;;;;;;x
-b_sorrento;Surriento;;;;;;;;;;;;;x
-b_acenzera;Acerenza;;;;;;;;;;;;;x
-b_acerno;Acierno;;;;;;;;;;;;;x
-b_agropoli;Aruòpule;;;;;;;;;;;;;x
-b_amalfi;Amalfi;;;;;;;;;;;;;x
-b_sarno;Sarno;;;;;;;;;;;;;x
-b_nocera;Nucera Nferiore;;;;;;;;;;;;;x
-b_casoria;Casòria;;;;;;;;;;;;;x
-b_sangregorioarmeno;Chiesa 'e San Gregorio;;;;;;;;;;;;;x
-b_afragola;Afraora;;;;;;;;;;;;;x
-b_casavittore;Casavatore;;;;;;;;;;;;;x
-b_casandrino;Casandrino;;;;;;;;;;;;;x
-b_nola;Nola;;;;;;;;;;;;;x
-b_castelnuovo;Maschio Angiuino;;;;;;;;;;;;;x
-b_santelmo;Castièll 'e Sant'Elmo;;;;;;;;;;;;;x
-b_certosadisanmartino;Certosa 'e San Martino;;;;;;;;;;;;;x
-b_casteldellovo;Castièll dell'Ov;;;;;;;;;;;;;x
-b_castelcapuano;Castièll Capuano;;;;;;;;;;;;;x
-b_torredelgreco;Torre 'o Grieco;;;;;;;;;;;;;x
-b_bacoliaversa;Vàcule;;;;;;;;;;;;;x
-b_baiaaversa;Santu Nicole;;;;;;;;;;;;;x
-b_volturnum;Casal 'e Prencepe;;;;;;;;;;;;;x
-b_maranoaversa;Fauciano;;;;;;;;;;;;;x
-b_giuglianoincampania;Fràtt;;;;;;;;;;;;;x
-b_napoli;Napule;;;;;;;;;;;;;x
-b_castellamare;Castiellammare 'e Stabia;;;;;;;;;;;;;x
-b_aversa;Averza;;;;;;;;;;;;;x
-b_cumae;Cuma;;;;;;;;;;;;;x
-b_pozzuoli;Pezzulo;;;;;;;;;;;;;x
-b_ischia;Ischia;;;;;;;;;;;;;x
-b_capri;Capri;;;;;;;;;;;;;x
-b_marcianise;Marcianise;;;;;;;;;;;;;x
-b_mondragone;Mundragone;;;;;;;;;;;;;x
-b_sessaaurunca;Sessa Aurunca;;;;;;;;;;;;;x
-b_castelcampagnano;Castel Campagnano;;;;;;;;;;;;;x
-b_gioiasannitica;Gioia Sannitica;;;;;;;;;;;;;x
-b_alvignano;Alvignano;;;;;;;;;;;;;x
-b_alife;Alife;;;;;;;;;;;;;x
-b_cusanomutri;Cusano Mutri;;;;;;;;;;;;;x
-b_faicchio;Faicchio;;;;;;;;;;;;;x
-b_puglianello;Pullianellu;;;;;;;;;;;;;x
-b_fondi;Fondi;;;;;;;;;;;;;x
-b_itri;Itri;;;;;;;;;;;;;x
-b_sperlonga;Sperlonga;;;;;;;;;;;;;x
-b_castelloneformia;Castelone de Formia;;;;;;;;;;;;;x
-b_moladigaeta;Mola de Gaeta;;;;;;;;;;;;;x
-b_montesanbiagio;Monte san Biagio;;;;;;;;;;;;;x
-b_capua;Capua;;;;;;;;;;;;;x
-b_teano;Teano;;;;;;;;;;;;;x
-b_caserta;Caserta;;;;;;;;;;;;;x
-b_acerra;Acerra;;;;;;;;;;;;;x
-b_gaeta;Gaeta;;;;;;;;;;;;;x
-b_pontecorvo;Pontecorvo;;;;;;;;;;;;;x
-b_aquino;Aquino;;;;;;;;;;;;;x
-b_montecassino;Abbazia di Montecassino;;;;;;;;;;;;;x
-b_benevento;Ben-viént;;;;;;;;;;;;;x
-b_trivento;Trivento;;;;;;;;;;;;;x
-b_eremodeisanticosmaedamiano;Eremo dei Santi Cosma e Damiano;;;;;;;;;;;;;x
-b_isernia;Sèrnia;;;;;;;;;;;;;x
-b_castelsanvincenzo;Castel San Vincenzo;;;;;;;;;;;;;x
-b_boiano;Bojano;;;;;;;;;;;;;x
-b_venafro;Venafro;;;;;;;;;;;;;x
-b_pietrabbondante;Pietrabbondante;;;;;;;;;;;;;x
-b_campobasso;Campuasce;;;;;;;;;;;;;x
-b_castelmonforte;Castello Monforte;;;;;;;;;;;;;x
-b_sangromolise;Castel di Sangro;;;;;;;;;;;;;x
-b_bounalbergo;Buonalbergo;;;;;;;;;;;;;x
-b_ariano;A'rjæno;;;;;;;;;;;;;x
-b_montesarchio;Muntesarchio;;;;;;;;;;;;;x
-b_apice;Apice;;;;;;;;;;;;;x
-b_airola;Airola;;;;;;;;;;;;;x
-b_petrapulsino;Petrapulsino;;;;;;;;;;;;;x
-b_avellino;Avellino;;;;;;;;;;;;;x
-b_montemarano;Montemarano;;;;;;;;;;;;;x
-b_frigento;Frigento;;;;;;;;;;;;;x
-b_trevico;Trevico;;;;;;;;;;;;;x
-b_conza;Conza;;;;;;;;;;;;;x
-b_santangeloascala;Sant'Angelo a Scala;;;;;;;;;;;;;x
-b_castellocaetini;Castelo Caetani;;;;;;;;;;;;;x
-b_sermoneta;Sermoneta;;;;;;;;;;;;;x
-b_nettuno;Nettuno;;;;;;;;;;;;;x
-b_frosinone;Frosinone;;;;;;;;;;;;;x
-b_anagni;Anagni;;;;;;;;;;;;;x
-b_castelgandolfolatium;Castel Gandolfo;;;;;;;;;;;;;x
-b_ceccano;Ceccano;;;;;;;;;;;;;x
-b_velletri;Velletri;;;;;;;;;;;;;x
-b_arce;Arce;;;;;;;;;;;;;x
-b_montesangiovannicampano;Monte San Giovanni Campano;;;;;;;;;;;;;x
-b_roccaguglielma;Roccaguglielma;;;;;;;;;;;;;x
-b_roccadicampolato;Tore de Campolato;;;;;;;;;;;;;x
-b_castellodellaroverediisoletta;Castelo Della Rovere de Isoletta;;;;;;;;;;;;;x
-b_fianoromano;Fiano Romano;;;;;;;;;;;;;x
-b_castelloducaleorsini;Castelo ducale Orsini;;;;;;;;;;;;;x
-b_nerola;Nerola;;;;;;;;;;;;;x
-b_arsoli;Àrsoli;;;;;;;;;;;;;x
-b_castellomassimo;Castelo Massimo;;;;;;;;;;;;;x
-b_palombarasabina;Palombara Sabina;;;;;;;;;;;;;x
-b_castellodicastiglione;Castelo de Castiglione;;;;;;;;;;;;;x
-b_castellosavellitorlonia;Castelo Savelli Torlonia;;;;;;;;;;;;;x
-b_marcellina;Marcellina;;;;;;;;;;;;;x
-b_sanpolodeicavalieri;San Polo dei Cavalieri;;;;;;;;;;;;;x
-b_mentana;Mentana;;;;;;;;;;;;;x
-b_bracciano;Bracciano;;;;;;;;;;;;;x
-b_anguillarasabazia;Anguillara Sabazia;;;;;;;;;;;;;x
-b_trevignanoromano;Trevignano Romano;;;;;;;;;;;;;x
-b_castellacciodeimonteroni;Castelaccio de li Monteroni;;;;;;;;;;;;;x
-b_palo;Palo;;;;;;;;;;;;;x
-b_castrummarcellini;Castrum Marcellini;;;;;;;;;;;;;x
-b_castelsantangelo;Castel Sant'Angelo;;;;;;;;;;;;;x
-b_castellodiLunghezza;Castelo de Lunghezza;;;;;;;;;;;;;x
-b_roccapia;Rocca Pia;;;;;;;;;;;;;x
-b_sorianonelcimino;Soriano nel Cimino;;;;;;;;;;;;;x
-b_roccaviterbo;Rocca;;;;;;;;;;;;;x
-b_morlupo;Morlopu;;;;;;;;;;;;;x
-b_rignano;Rignano Flaminio;;;;;;;;;;;;;x
-b_castellodirota;Castelo de Rota;;;;;;;;;;;;;x
-b_tolfa;Tolfa;;;;;;;;;;;;;x
-b_civitacastellana;Civita Castellana;;;;;;;;;;;;;x
-b_nepi;Nepi;;;;;;;;;;;;;x
-b_leprignano;Leprignano;;;;;;;;;;;;;x
-b_giove;Rocca di Giove;;;;;;;;;;;;;x
-b_roccadinarni;Rocca di Narni;;;;;;;;;;;;;x
-b_bagnoregio;Bagnoregio;;;;;;;;;;;;;x
-b_roma;Roma;;;;;;;;;;;;;x
-b_tivoli;Tivoli;;;;;;;;;;;;;x
-b_ostia;Ostia;;;;;;;;;;;;;x
-b_sutri;Sutri;;;;;;;;;;;;;x
-b_tusculum;Tusculum;;;;;;;;;;;;;x
-b_terracina;Terracina;;;;;;;;;;;;;x
-b_viterbo;Viterbo;;;;;;;;;;;;;x
-b_orvieto;Orvieto;;;;;;;;;;;;;x
-b_alviano;Alviano;;;;;;;;;;;;;x
-b_montecastrilli;Montecastrilli;;;;;;;;;;;;;x
-b_otricoli;Otricoli;;;;;;;;;;;;;x
-b_amelia;Amelia;;;;;;;;;;;;;x
-b_baschi;Baschi;;;;;;;;;;;;;x
-b_isolaliri;Isola del Liri;;;;;;;;;;;;;x
-b_castelloboncompagni;Castelo Boncompagni;;;;;;;;;;;;;x
-b_vicalvi;Ucàlue;;;;;;;;;;;;;x
-b_alvitoabruzzo;Alvito;;;;;;;;;;;;;x
-b_balsorano;Balzërana;;;;;;;;;;;;;x
-b_sora;Sora;;;;;;;;;;;;;x
-b_barrea;Barrea;;;;;;;;;;;;;x
-b_pescasseroli;Pescasseroli;;;;;;;;;;;;;x
-b_atinaalvito;Atina;;;;;;;;;;;;;x
-b_casoli;Carseoli;;;;;;;;;;;;;x
-b_guardiagrele;Uardiagrélë;;;;;;;;;;;;;x
-b_bomba;Bomba;;;;;;;;;;;;;x
-b_montazzoli;Montazzoli;;;;;;;;;;;;;x
-b_castiglionemessermarino;Lù Cuašt'gliaun';;;;;;;;;;;;;x
-b_manopello;Manoppello;;;;;;;;;;;;;x
-b_civitaluparella;Civitaluparella;;;;;;;;;;;;;x
-b_avezzano;Avezzane;;;;;;;;;;;;;x
-b_celano;Celano;;;;;;;;;;;;;x
-b_pescina;Pescina;;;;;;;;;;;;;x
-b_sulmona;Sulmona;;;;;;;;;;;;;x
-b_raiano;Castrum Radiani;;;;;;;;;;;;;x
-b_capistrello;Capistrello;;;;;;;;;;;;;x
-b_civitella;Civitella Alfedena;;;;;;;;;;;;;x
-b_albe;Albe;;;;;;;;;;;;;x
-b_anversadegliabruzzi;Anversa;;;;;;;;;;;;;x
-b_pacentro;Pacentro;;;;;;;;;;;;;x
-b_valvaabruzzo;Valva;;;;;;;;;;;;;x
-b_popoliabruzzo;Popoli;;;;;;;;;;;;;x
-b_calascio;Calascio;;;;;;;;;;;;;x
-b_capestrano;Capestrano;;;;;;;;;;;;;x
-b_scurcolamarsicana;Scurcola Marsicana;;;;;;;;;;;;;x
-b_narni;Narnia;;;;;;;;;;;;;x
-b_castelbuonospoleto;Castelbuono;;;;;;;;;;;;;x
-b_roccaalbornoz;Rocca Albornoziana;;;;;;;;;;;;;x
-b_spoleto;Spuléti;;;;;;;;;;;;;x
-b_assisi;Assisi;;;;;;;;;;;;;x
-b_todi;Todi;;;;;;;;;;;;;x
-b_terni;Terni;;;;;;;;;;;;;x
-b_foligno;Fuligni;;;;;;;;;;;;;x
-b_bevagna;Bevagna;;;;;;;;;;;;;x
-b_perugia;Perugia;;;;;;;;;;;;;x
-b_torgiano;Torgiano;;;;;;;;;;;;;x
-b_bastiaumbria;Bastia Umbra;;;;;;;;;;;;;x
-b_bettona;Bettona;;;;;;;;;;;;;x
-b_deruta;Deruta;;;;;;;;;;;;;x
-b_magione;Magione;;;;;;;;;;;;;x
-b_castellodelleforme;Castello delle Forme;;;;;;;;;;;;;x
-b_castellodelleone;Castello del Leone;;;;;;;;;;;;;x
-b_teramo;Teramo;;;;;;;;;;;;;x
-b_aprutium_penne;Pònne;;;;;;;;;;;;;x
-b_paganica;Paganica;;;;;;;;;;;;;x
-b_aquila;Aquila;;;;;;;;;;;;;x
-b_norcia;Norcia;;;;;;;;;;;;;x
-b_gualdotadino;Gualdo Tadino;;;;;;;;;;;;;x
-b_vallecastellana;I Piana;;;;;;;;;;;;;x
-b_roccaflea;Rocca Flea;;;;;;;;;;;;;x
-b_roccadeiborgia;Roca de li Borgia;;;;;;;;;;;;;x
-b_fabriano;Favrià;;;;;;;;;;;;;x
-b_preci;Preci;;;;;;;;;;;;;x
-b_caldarola;Caldarola;;;;;;;;;;;;;x
-b_tolentino;Tolentino;;;;;;;;;;;;;x
-b_mondavio;Mondavi;;;;;;;;;;;;;x
-b_offagna;Offagna;;;;;;;;;;;;;x
-b_roccacostanza;Rocca Costanza;;;;;;;;;;;;;x
-b_roccaroveresca;Rocca Roveresca;;;;;;;;;;;;;x
-b_senigallia;S'nigaja;;;;;;;;;;;;;x
-b_castellodellarancia;Castello della Rancia;;;;;;;;;;;;;x
-b_portosangiorgio;Porto San Giorgio;;;;;;;;;;;;;x
-b_tortoreto;Tortoreto;;;;;;;;;;;;;x
-b_santelpidioamare;Sallupijo;;;;;;;;;;;;;x
-b_guilianova;Gigljie;;;;;;;;;;;;;x
-b_ponzanodifermo;Ponzà;;;;;;;;;;;;;x
-b_ascolipiceno;Ascule;;;;;;;;;;;;;x
-b_sanbenedettodeltronto;Sammenedètte;;;;;;;;;;;;;x
-b_civitanovamarche;Citanò;;;;;;;;;;;;;x
-b_camerino;Cammerinu;;;;;;;;;;;;;x
-b_castelraimondo;Castrimonno;;;;;;;;;;;;;x
-b_ancona;Ancona;;;;;;;;;;;;;x
-b_osimo;Osimo;;;;;;;;;;;;;x
-b_recanati;Recanati;;;;;;;;;;;;;x
-b_fermo;Fermo;;;;;;;;;;;;;x
-b_matelica;Materga;;;;;;;;;;;;;x
-b_sanleo;San Lé;;;;;;;;;;;;;x
-b_sanmarino;San Maroin;;;;;;;;;;;;;x
-b_montecopiolo;Montecopiolo;;;;;;;;;;;;;x
-b_carpegna;Carpegna;;;;;;;;;;;;;x
-b_fossombrone;Fossombrón;;;;;;;;;;;;;x
-b_roccatorrinone;Rocca Torrione;;;;;;;;;;;;;x
-b_cagliurbino;Cài;;;;;;;;;;;;;x
-b_acqualagna;Acqualagna;;;;;;;;;;;;;x
-b_fermignanourbino;Fermignan;;;;;;;;;;;;;x
-b_urbania;Orbègnia;;;;;;;;;;;;;x
-b_albornoz;Fortezza Albornoz;;;;;;;;;;;;;x
-b_urbino;Urbìn;;;;;;;;;;;;;x
-b_sanseverino;San Severino;;;;;;;;;;;;;x
-b_gubbio;Gubbio;;;;;;;;;;;;;x
-b_forli;Furlè;;;;;;;;;;;;;x
-b_bologna;Bulåggna;;;;;;;;;;;;;x
-b_gradara;Gradèra;;;;;;;;;;;;;x
-b_roccamalatestiana;Ròca Malatestiana;;;;;;;;;;;;;x
-b_raffanara;Castèl d Raffanara;;;;;;;;;;;;;x
-b_castellocortina;Castèl d Cortina;;;;;;;;;;;;;x
-b_russi;Rós;;;;;;;;;;;;;x
-b_cotignola;Cudgnòla;;;;;;;;;;;;;x
-b_cunio;Castèl d Cunio;;;;;;;;;;;;;x
-b_lugoitaly;Lugh;;;;;;;;;;;;;x
-b_roccaesteneseravenna;Ròca Estense;;;;;;;;;;;;;x
-b_roccabrancaleone;Ròca Brancaleone;;;;;;;;;;;;;x
-b_castelloteodorano;Castèl ed Teodorano;;;;;;;;;;;;;x
-b_roccadellecaminate;Ròca ed Caminate;;;;;;;;;;;;;x
-b_forlimpopoli;Frampùla;;;;;;;;;;;;;x
-b_dovadola;Dvèdla;;;;;;;;;;;;;x
-b_casolavalsenio;Chèsla;;;;;;;;;;;;;x
-b_sanmercuriale;Badéia d San Mercorial;;;;;;;;;;;;;x
-b_monghidoro;Dscargalèsen;;;;;;;;;;;;;x
-b_budro;Bûdri;;;;;;;;;;;;;x
-b_monterenzio;Måntrànz;;;;;;;;;;;;;x
-b_crevalcor;Crevalcôr;;;;;;;;;;;;;x
-b_sangiacomomaggiore;Cesa ed Sân Jâchem;;;;;;;;;;;;;x
-b_castelguelf;Castèl Guêlf;;;;;;;;;;;;;x
-b_castellaccio;Castellaccio;;;;;;;;;;;;;x
-b_roccasforzesca;Ròca Sforzesca;;;;;;;;;;;;;x
-b_astellodigaleazza;Castèl ed Galeazza;;;;;;;;;;;;;x
-b_roccamalaspina;Rocca Malaspina;;;;;;;;;;;;;x
-b_borgorotondo;Borgo Rotondo;;;;;;;;;;;;;x
-b_castellodibentivoglio;Castèl ed Bentivoglio;;;;;;;;;;;;;x
-b_munzuno;Munzón;;;;;;;;;;;;;x
-b_faenza;Fënsa;;;;;;;;;;;;;x
-b_bagnacavallo;Bagnacavàl;;;;;;;;;;;;;x
-b_cervia;Zirvia;;;;;;;;;;;;;x
-b_imola;Iommla;;;;;;;;;;;;;x
-b_rimini;Remne;;;;;;;;;;;;;x
-b_sigismondo;Castèl ed Sigismondo;;;;;;;;;;;;;x
-b_pesaro;Pès're;;;;;;;;;;;;;x
-b_fano;Fan;;;;;;;;;;;;;x
-b_cesena;Zisèna;;;;;;;;;;;;;x
-b_lucca;Lucca;;;;;;;;;;;;;x
-b_altopascio;Altopascio;;;;;;;;;;;;;x
-b_viareggio;Viareggio;;;;;;;;;;;;;x
-b_seravezza;Seravezza;;;;;;;;;;;;;x
-b_capannori;Capannori;;;;;;;;;;;;;x
-b_fosdinovo;Fosdinovo;;;;;;;;;;;;;x
-b_sanminiato;San Miniato;;;;;;;;;;;;;x
-b_volterra;Volterra;;;;;;;;;;;;;x
-b_sangimignano;San Gimignano;;;;;;;;;;;;;x
-b_cittadicastello;Città di Castello;;;;;;;;;;;;;x
-b_lucignano;Lucignano;;;;;;;;;;;;;x
-b_arezzo;Arezzo;;;;;;;;;;;;;x
-b_siena;Siena;;;;;;;;;;;;;x
-b_cortona;Cortona;;;;;;;;;;;;;x
-b_pienza;Pienza;;;;;;;;;;;;;x
-b_montepulciano;Montepulciano;;;;;;;;;;;;;x
-b_montalcino;Montalcino;;;;;;;;;;;;;x
-b_colledivaldelsa;Colle di Val d'Elsa;;;;;;;;;;;;;x
-b_monteriggioni;Monteriggioni;;;;;;;;;;;;;x
-b_radicofani;Radicofani;;;;;;;;;;;;;x
-b_suvereto;Suvereto;;;;;;;;;;;;;x
-b_grosseto;Grosseto;;;;;;;;;;;;;x
-b_roselle;Roselle;;;;;;;;;;;;;x
-b_vetulonia;Vetulonia;;;;;;;;;;;;;x
-b_orbetello;Orbetello;;;;;;;;;;;;;x
-b_pitigliano;Pitigliano;;;;;;;;;;;;;x
-b_sorano;Sorano;;;;;;;;;;;;;x
-b_giglio;Isola del Giglio;;;;;;;;;;;;;x
-b_castellodeltrebbio;Castello del Trebbio;;;;;;;;;;;;;x
-b_castellodeicontiguidi;Poppi;;;;;;;;;;;;;x
-b_pontassieve;Pontassieve;;;;;;;;;;;;;x
-b_strumi;Chiesa di San Fedele;;;;;;;;;;;;;x
-b_pistoia;Pistoia;;;;;;;;;;;;;x
-b_castellodelvinciosulambrone;Castello di Vinci;;;;;;;;;;;;;x
-b_borgosanlorenzo;Borgo San Lorenzo;;;;;;;;;;;;;x
-b_bibbena;Bibbiena;;;;;;;;;;;;;x
-b_firenze;Firenze;;;;;;;;;;;;;x
-b_prato;Castrum Prati;;;;;;;;;;;;;x
-b_fiesole;Fiesole;;;;;;;;;;;;;x
-b_certaldo;Certaldo;;;;;;;;;;;;;x
-b_sestofiorentino;Castello di Castiglioni;;;;;;;;;;;;;x
-b_calenzano;Castello di Legri;;;;;;;;;;;;;x
-b_castellodivincigliata;Castello di Vincigliata;;;;;;;;;;;;;x
-b_casteldipoggio;Castel di Poggio;;;;;;;;;;;;;x
-b_castellodellimperatore;Castello dell'Imperatore;;;;;;;;;;;;;x
-b_sanmichelearcangleo;Spedale di San Michele Arcangelo;;;;;;;;;;;;;x
-b_empoli;Empoli;;;;;;;;;;;;;x
-b_sanascianoinvaldipesa;San Casciano;;;;;;;;;;;;;x
-b_castellinainchianti;Castellina;;;;;;;;;;;;;x
-b_montespertoli;Castello di Poppiano;;;;;;;;;;;;;x
-b_rignanosullarno;Rignano;;;;;;;;;;;;;x
-b_barberinovadelsa;Barberino Val d'Elsa;;;;;;;;;;;;;x
-b_castellodelsigna;Castello di Signa;;;;;;;;;;;;;x
-b_fuecchio;Fucecchio;;;;;;;;;;;;;x
-b_castellodiontecascioli;Castello di Monte Cascioli;;;;;;;;;;;;;x
-b_ficulle;Ficulle;;;;;;;;;;;;;x
-b_asciano;Asciano;;;;;;;;;;;;;x
-b_acquapendente;Acquapendente;;;;;;;;;;;;;x
-b_poggibonsi;Poggibonsi;;;;;;;;;;;;;x
-b_labbaziamonteolivetomaggiore;Abbazia di Monte Oliveto Maggiore;;;;;;;;;;;;;x
-b_castellodibelcaro;Castello di Belcaro;;;;;;;;;;;;;x
-b_castellodellamagione;Castello della Magione;;;;;;;;;;;;;x
-b_castellodellequattrotorri;Castello delle Quattro Torri;;;;;;;;;;;;;x
-b_castelnuovoberardenga;Castelnuovo Berardenga;;;;;;;;;;;;;x
-b_castellodibrolio;Castello di Brolio;;;;;;;;;;;;;x
-b_greveinchianti;Greve;;;;;;;;;;;;;x
-b_castiglionedellago;Castiglione del Lago;;;;;;;;;;;;;x
-b_montevarchi;Castello di Monteguarco;;;;;;;;;;;;;x
-b_sansepolcro;Badia di Sansepolcro;;;;;;;;;;;;;x
-b_umbertide;Umbertide;;;;;;;;;;;;;x
-b_civitellaranieri;Castello di Civitella;;;;;;;;;;;;;x
-b_montecastellipisano;Montecastelli;;;;;;;;;;;;;x
-b_castellodimonteregio;Castello di Monteregio;;;;;;;;;;;;;x
-b_massamaritima;Massa Marittima;;;;;;;;;;;;;x
-b_sanbartolomeodisestinga;Abbazia di San Bartolomeo;;;;;;;;;;;;;x
-b_castellodibiserno;Castello di Biserno;;;;;;;;;;;;;x
-b_gavorrano;Gavorrano;;;;;;;;;;;;;x
-b_casteldipietra;Castel di Pietra;;;;;;;;;;;;;x
-b_scalino;Scalino;;;;;;;;;;;;;x
-b_roccaaldobrandesca;Rocca Aldobrandesca;;;;;;;;;;;;;x
-b_abbaziadisansalvatore;Abbazia di San Salvatore;;;;;;;;;;;;;x
-b_santafiora;Santa Fiora;;;;;;;;;;;;;x
-b_sovana;Soana;;;;;;;;;;;;;x
-b_castellazzara;Castell'Azzara;;;;;;;;;;;;;x
-b_scansano;Scansano;;;;;;;;;;;;;x
-b_arcidosso;Arcidosso;;;;;;;;;;;;;x
-b_pescia;Pescia;;;;;;;;;;;;;x
-b_montecastrese;Castello Montecastrese;;;;;;;;;;;;;x
-b_piegaio;Piegaio;;;;;;;;;;;;;x
-b_montecarloluccaveryniceplaceforaholiday;Montecarlo;;;;;;;;;;;;;x
-b_castelnuovodigarfagnana;Castelnuovo di Garfagnana;;;;;;;;;;;;;x
-b_castiglionedigarfagnana;Castiglione di Garfagnana;;;;;;;;;;;;;x
-b_fortezzadelleverrucole;Fortezza delle Verrucole;;;;;;;;;;;;;x
-b_castellomalaspina;Castello Malaspina;;;;;;;;;;;;;x
-b_minucciano;Minucciano;;;;;;;;;;;;;x
-b_lunibishop;Luni;;;;;;;;;;;;;x
-b_fivizzano;Fiuzàn;;;;;;;;;;;;;x
-b_mulazzo;Mulàs;;;;;;;;;;;;;x
-b_carrara;Carrara;;;;;;;;;;;;;x
-b_sarzana;Sarzàna;;;;;;;;;;;;;x
-b_aulla;Aùla;;;;;;;;;;;;;x
-b_livorno;Livorna;;;;;;;;;;;;;x
-b_santamariadiserena;Santa Maria di Serena;;;;;;;;;;;;;x
-b_bolgheri;Bolgheri;;;;;;;;;;;;;x
-b_castagnetocarducci;Castagneto Carducci;;;;;;;;;;;;;x
-b_riparbella;Riparbella;;;;;;;;;;;;;x
-b_pontedera;Pontedera;;;;;;;;;;;;;x
-b_castellodiripoli;Castello di Ripoli;;;;;;;;;;;;;x
-b_pisa;Pisa;;;;;;;;;;;;;x
-b_vicopisano;Vicopisano;;;;;;;;;;;;;x
-b_calcinaia;Calcinaia;;;;;;;;;;;;;x
-b_portoferraio;Portoferraio;;;;;;;;;;;;;x
-b_piombino;Piombino;;;;;;;;;;;;;x
-b_populonia;Populonia;;;;;;;;;;;;;x
-b_campiglia;Campiglia Marittima;;;;;;;;;;;;;x
-b_sanvincenzo;San Vincenzo;;;;;;;;;;;;;x
-b_carpi;Chèrp;;;;;;;;;;;;;x
-b_abbaziadinonantola;Badéia ed Nunàntla;;;;;;;;;;;;;x
-b_vignola;Ròca d Vgnóla;;;;;;;;;;;;;x
-b_finalemodena;Finèl;;;;;;;;;;;;;x
-b_roccadellefinale;Castèl ed Ròche;;;;;;;;;;;;;x
-b_fioranomodenese;Fiuràn;;;;;;;;;;;;;x
-b_formigine;Furmégen;;;;;;;;;;;;;x
-b_roccadicanossa;Rôca Canosiâna;;;;;;;;;;;;;x
-b_albinea;la Fôla;;;;;;;;;;;;;x
-b_pratofontana;Prêfuntana;;;;;;;;;;;;;x
-b_rubiera;Rubera;;;;;;;;;;;;;x
-b_roccadeiboiardo;Ròca ed Boiardo;;;;;;;;;;;;;x
-b_correggio;Curèz;;;;;;;;;;;;;x
-b_carpineti;Carpnéda;;;;;;;;;;;;;x
-b_castellodibianello;Castèl ed Bianèl;;;;;;;;;;;;;x
-b_frignanomodena;Pavóll;;;;;;;;;;;;;x
-b_serramazzoni;La Sèra;;;;;;;;;;;;;x
-b_castelnovo;Castelnóv;;;;;;;;;;;;;x
-b_salamedifelina;Salâm ed Flèina;;;;;;;;;;;;;x
-b_pievepelago;Pivpélegh;;;;;;;;;;;;;x
-b_ligonchio;Algûnc;;;;;;;;;;;;;x
-b_modena;Mòdna;;;;;;;;;;;;;x
-b_sassuolo;Sasól;;;;;;;;;;;;;x
-b_reggionellemila;Rèz;;;;;;;;;;;;;x
-b_marmirolo;Marmirol;;;;;;;;;;;;;x
-b_asola;Àsula;;;;;;;;;;;;;x
-b_castelgoffredo;Castèl;;;;;;;;;;;;;x
-b_castellodisangiorgio;Castell San Sòrs;;;;;;;;;;;;;x
-b_goito;Gùit;;;;;;;;;;;;;x
-b_castiglionedellestiviere;Castiù;;;;;;;;;;;;;x
-b_cavriana;Cavriàna;;;;;;;;;;;;;x
-b_villimpenta;Vilipénta;;;;;;;;;;;;;x
-b_redondesco;Redundèsch;;;;;;;;;;;;;x
-b_marianamantovana;Mariàna;;;;;;;;;;;;;x
-b_suzzara;Süsèra;;;;;;;;;;;;;x
-b_luzzara;Lusêra;;;;;;;;;;;;;x
-b_guastalla;Guastâla;;;;;;;;;;;;;x
-b_mantova;Mantua;;;;;;;;;;;;;x
-b_serravalleapo;Seravàl;;;;;;;;;;;;;x
-b_castellucchio;Castlüch;;;;;;;;;;;;;x
-b_novellara;Nuvalêra;;;;;;;;;;;;;x
-b_gonzaga;Gunsàga;;;;;;;;;;;;;x
-b_berceto;Barsäi;;;;;;;;;;;;;x
-b_montechiarugolo;Montcrüghel;;;;;;;;;;;;;x
-b_corniglio;Cornìj;;;;;;;;;;;;;x
-b_felino;Flén;;;;;;;;;;;;;x
-b_roccasanvitale;Ròca Sanvitale;;;;;;;;;;;;;x
-b_torrechiara;Castèl ed Torrechiara;;;;;;;;;;;;;x
-b_sansecondoparmenese;Sansgònt;;;;;;;;;;;;;x
-b_collechio;Coléc;;;;;;;;;;;;;x
-b_colorno;Colórni;;;;;;;;;;;;;x
-b_sissa;Sèsa;;;;;;;;;;;;;x
-b_sorbolo;Sòrbol;;;;;;;;;;;;;x
-b_salsomaggioreterme;Säls;;;;;;;;;;;;;x
-b_fidenza;Burägh San Dunén;;;;;;;;;;;;;x
-b_bardipiacenza;Bàrdi;;;;;;;;;;;;;x
-b_roccabianca;Rocabiànca;;;;;;;;;;;;;x
-b_roccadeirossi;Ròca ed Rós;;;;;;;;;;;;;x
-b_agazzano;Gasàn;;;;;;;;;;;;;x
-b_castellodellaboffalora;Castèl ed Bufalora;;;;;;;;;;;;;x
-b_borgonovovaltidone;Burgnöv;;;;;;;;;;;;;x
-b_calendasco;Calindàsch;;;;;;;;;;;;;x
-b_carpanetopiacentino;Carpané;;;;;;;;;;;;;x
-b_castellodirezzanello;Castèl ed Rezzanello;;;;;;;;;;;;;x
-b_gazzola;Gasöla;;;;;;;;;;;;;x
-b_castellodirivalta;Castèl ed Rivêlta;;;;;;;;;;;;;x
-b_abbaziadisansavino;Badéia ed Savëin;;;;;;;;;;;;;x
-b_gropparello;Gruparél;;;;;;;;;;;;;x
-b_montechino;Montechino;;;;;;;;;;;;;x
-b_roccadolgisio;Ròca d Olgisio;;;;;;;;;;;;;x
-b_castellodimonteventano;Castèl ed Monteventano;;;;;;;;;;;;;x
-b_castellodiriva;Castèl ed Riva;;;;;;;;;;;;;x
-b_pontenure;Pontnür;;;;;;;;;;;;;x
-b_castellodipaderna;Castèl ed Padêrna;;;;;;;;;;;;;x
-b_rivargo;Arvargär;;;;;;;;;;;;;x
-b_castellodisarmato;Castèl ed Sàrmat;;;;;;;;;;;;;x
-b_castellodistatto;Castèl ed Statto;;;;;;;;;;;;;x
-b_castellodivigoleno;Castèl ed Vigoleno;;;;;;;;;;;;;x
-b_parma;Pärma;;;;;;;;;;;;;x
-b_fontanellato;Funtanlè;;;;;;;;;;;;;x
-b_noceto;Nozèi;;;;;;;;;;;;;x
-b_piacenza;Piasëinsa;;;;;;;;;;;;;x
-b_savona;Sànn-a;;;;;;;;;;;;;x
-b_monaco;Munegu;;;;;;;;;;;;;x
-b_ventimiglia;Ventemija;;;;;;;;;;;;;x
-b_campogrosso;Campurùssu;;;;;;;;;;;;;x
-b_sanremo;Sanrému;;;;;;;;;;;;;x
-b_mentone;Menton;;;;;;;;;;;;;x
-b_apricale;Brigar;;;;;;;;;;;;;x
-b_roquebrunecapmartin;Ròcabruna Caup Martin;;;;;;;;;;;;;x
-b_castellodidolceacqua;Castello Doria;;;;;;;;;;;;;x
-b_castellodellalucertola;Castello della Lucertola;;;;;;;;;;;;;x
-b_castelappio;Castel d'Appio;;;;;;;;;;;;;x
-b_castelsangiovannifinale;Castel San Giovanni;;;;;;;;;;;;;x
-b_castelgavone;Castel Gavone;;;;;;;;;;;;;x
-b_caliceligure;Carxi Ligure;;;;;;;;;;;;;x
-b_finaleligure;Finô;;;;;;;;;;;;;x
-b_tovosangiacomo;O Tô;;;;;;;;;;;;;x
-b_bormida;Bormia;;;;;;;;;;;;;x
-b_osiglia;Oseria;;;;;;;;;;;;;x
-b_carcare;Cancre;;;;;;;;;;;;;x
-b_calizzano;Carizan;;;;;;;;;;;;;x
-b_albenga;Arbenga;;;;;;;;;;;;;x
-b_pietraligure;A Prïa;;;;;;;;;;;;;x
-b_oneglia;Inéja;;;;;;;;;;;;;x
-b_andoraligure;Andeua;;;;;;;;;;;;;x
-b_albisolasuperiore;D’äto d’Arbisseua;;;;;;;;;;;;;x
-b_cairomontenotte;Cairi;;;;;;;;;;;;;x
-b_noliligure;Nöi;;;;;;;;;;;;;x
-b_castellodimonteursino;Castello di Monte Ursino;;;;;;;;;;;;;x
-b_pontinvre;O Ponte;;;;;;;;;;;;;x
-b_casteldelfinoligure;Castello di Finô;;;;;;;;;;;;;x
-b_stellaligure;Steja;;;;;;;;;;;;;x
-b_castellodistella;Castello di Steja;;;;;;;;;;;;;x
-b_cogoleto;Coghêuo;;;;;;;;;;;;;x
-b_varazze;Väze;;;;;;;;;;;;;x
-b_arenzano;Rensen;;;;;;;;;;;;;x
-b_vadoligure;Voæ;;;;;;;;;;;;;x
-b_busalla;Busalla;;;;;;;;;;;;;x
-b_castellodelladragonara;Castel Dragone;;;;;;;;;;;;;x
-b_camogli;Camoggi;;;;;;;;;;;;;x
-b_castellodicampoligure;Castello Spinola;;;;;;;;;;;;;x
-b_castellodiisoladelcantone;L’Isöa do Canton;;;;;;;;;;;;;x
-b_montoggio;Monteuggio;;;;;;;;;;;;;x
-b_borgofornari;Borgo Fornari;;;;;;;;;;;;;x
-b_roncoscrivia;Ronco;;;;;;;;;;;;;x
-b_castellodisantostefanodaveto;Castello di San Ste';;;;;;;;;;;;;x
-b_savignone;Savignon;;;;;;;;;;;;;x
-b_vobbia;Obbia;;;;;;;;;;;;;x
-b_propata;Propâ;;;;;;;;;;;;;x
-b_chiavari;Ciävai;;;;;;;;;;;;;x
-b_lerici;Lerze;;;;;;;;;;;;;x
-b_sestrilevanti;Sestri Levante;;;;;;;;;;;;;x
-b_portofino;Portofin;;;;;;;;;;;;;x
-b_genoa;Zena;;;;;;;;;;;;;x
-b_rapallo;Rapallo;;;;;;;;;;;;;x
-b_acqui;Àich;;;;;;;;;;;;;x
-b_asti;Ast;;;;;;;;;;;;;x
-b_casale;Casal Monfrà;;;;;;;;;;;;;x
-b_canelli;Canèj;;;;;;;;;;;;;x
-b_alessandria;Lissandria;;;;;;;;;;;;;x
-b_moncalvopiemonte;Moncalv;;;;;;;;;;;;;x
-b_chivasso;Civass;;;;;;;;;;;;;x
-b_bergamasco;Bergamasch;;;;;;;;;;;;;x
-b_castellodeipaleologi;Castello dei Paleologi;;;;;;;;;;;;;x
-b_caminopiemonte;Camin;;;;;;;;;;;;;x
-b_castellodigabiano;Castello di Gabian;;;;;;;;;;;;;x
-b_cremolino;Chermolin;;;;;;;;;;;;;x
-b_castelloditorreratti;Castello di Torre Ratti;;;;;;;;;;;;;x
-b_morbello;Morbé;;;;;;;;;;;;;x
-b_orsarabormida;L'Orsera;;;;;;;;;;;;;x
-b_neive;Nèive;;;;;;;;;;;;;x
-b_sandamianodasti;San Damian d'Ast;;;;;;;;;;;;;x
-b_nizzamonferrato;Nissa Monfrà;;;;;;;;;;;;;x
-b_possodigruppo;Posseu 'd Greupo;;;;;;;;;;;;;x
-b_varzibobbio;Varz;;;;;;;;;;;;;x
-b_fortunago;Fortünagh;;;;;;;;;;;;;x
-b_ottone;Utùn;;;;;;;;;;;;;x
-b_abizziadisancolombano;Badéia ed San Columban;;;;;;;;;;;;;x
-b_castellodipiumesana;Castell de Piumesana;;;;;;;;;;;;;x
-b_castellodicalcinara;Castello di Calcinara;;;;;;;;;;;;;x
-b_bobbio;Bòbi;;;;;;;;;;;;;x
-b_tortona;Tortòna;;;;;;;;;;;;;x
-b_abbaziadisanquintino;Abassìa ëd San Quintino;;;;;;;;;;;;;x
-b_racconigi;Racunis;;;;;;;;;;;;;x
-b_caraglio;Caraj;;;;;;;;;;;;;x
-b_savigliano;Savijan;;;;;;;;;;;;;x
-b_saluzzo;Salusse;;;;;;;;;;;;;x
-b_castellodellamanta;Castello della Manta;;;;;;;;;;;;;x
-b_cuneo;Coni;;;;;;;;;;;;;x
-b_abbziadisandalmass;Abassìa ëd San Dalmassi;;;;;;;;;;;;;x
-b_susapiemonte;Susa;;;;;;;;;;;;;x
-b_moncalieri;Moncalé;;;;;;;;;;;;;x
-b_pinerolo;Pinareul;;;;;;;;;;;;;x
-b_abbadiaalpina;La Badìa;;;;;;;;;;;;;x
-b_sanpietrovallemina;San Pé;;;;;;;;;;;;;x
-b_rivoli;Rìvole;;;;;;;;;;;;;x
-b_torino;Turén;;;;;;;;;;;;;x
-b_settimo;Ël Seto;;;;;;;;;;;;;x
-b_sangiorgiocanavese;San Giòrs Canavèis;;;;;;;;;;;;;x
-b_meanadisusa;Meana;;;;;;;;;;;;;x
-b_novara;Noara;;;;;;;;;;;;;x
-b_nibbiola;Nibiola;;;;;;;;;;;;;x
-b_borgosesia;Ël Borgh;;;;;;;;;;;;;x
-b_biandrate;Biandrà;;;;;;;;;;;;;x
-b_domodossolacastello;Castello di Mattarella;;;;;;;;;;;;;x
-b_domodossola;Ël Dòm;;;;;;;;;;;;;x
-b_varallosesia;Varal;;;;;;;;;;;;;x
-b_santhia;Santià;;;;;;;;;;;;;x
-b_castellodivettigne;Castello di Vettignè;;;;;;;;;;;;;x
-b_castellodiivera;Castello dalle Rosse Torri;;;;;;;;;;;;;x
-b_messarano;Massran;;;;;;;;;;;;;x
-b_crevacuore;Cravacòr;;;;;;;;;;;;;x
-b_biella;Biela;;;;;;;;;;;;;x
-b_vercelli;Vërsèj;;;;;;;;;;;;;x
-b_castellovisconteo;Castello Visconteo;;;;;;;;;;;;;x
-b_busca;Buscha;;;;;;;;;;;;;x
-b_paesana;Pizano;;;;;;;;;;;;;x
-b_ivrea;Invreja;;;;;;;;;;;;;x
-b_lecco;Lecch;;;;;;;;;;;;;x
-b_castelloandrinani;Castell Andriani;;;;;;;;;;;;;x
-b_abbiategrasso;Biagrass;;;;;;;;;;;;;x
-b_binasco;Binasch;;;;;;;;;;;;;x
-b_buccinascocastello;Castell de Buccinasch;;;;;;;;;;;;;x
-b_cassanodadda;Cassan su l'Adda;;;;;;;;;;;;;x
-b_sandonatomilanese;San Donaa;;;;;;;;;;;;;x
-b_abbaziadichiaravalle;Munasteri de Ceravall;;;;;;;;;;;;;x
-b_castellodimacconago;Castell de Macunagh;;;;;;;;;;;;;x
-b_melegnano;Meregnan;;;;;;;;;;;;;x
-b_melegnanocastello;Castell di Medici;;;;;;;;;;;;;x
-b_peschieraborromeo;Peschera Borromee;;;;;;;;;;;;;x
-b_peschieraborromeocastello;Castell de Mirazan;;;;;;;;;;;;;x
-b_castellosforzesco;Castell Sforzesch;;;;;;;;;;;;;x
-b_trezzosulladda;Trezz;;;;;;;;;;;;;x
-b_castellodizvido;Castell de Zivid;;;;;;;;;;;;;x
-b_castellodiaicurzio;Castell de Icurz;;;;;;;;;;;;;x
-b_castellodibellusco;Bellusch;;;;;;;;;;;;;x
-b_castellodisulbiate;Castell de Sulbiaa;;;;;;;;;;;;;x
-b_rhomilano;Rò;;;;;;;;;;;;;x
-b_lodi;Lod;;;;;;;;;;;;;x
-b_milano;Milan;;;;;;;;;;;;;x
-b_monza;Monscia;;;;;;;;;;;;;x
-b_roccadiorino;Roca de Orin;;;;;;;;;;;;;x
-b_castellodivarese;Castell de Masnagh;;;;;;;;;;;;;x
-b_arona;Aruna;;;;;;;;;;;;;x
-b_varese;Varés;;;;;;;;;;;;;x
-b_gallarate;Gallaraa;;;;;;;;;;;;;x
-b_turbigo;Turbigh;;;;;;;;;;;;;x
-b_roccadiangera;Roca de Angera;;;;;;;;;;;;;x
-b_angera;Angera;;;;;;;;;;;;;x
-b_castelloditirano;Castell Del Dosso;;;;;;;;;;;;;x
-b_tirano;Tiràn;;;;;;;;;;;;;x
-b_castellodimontagnainvaltellina;Castell De Piro;;;;;;;;;;;;;x
-b_montagnainvaltellina;Muntagna;;;;;;;;;;;;;x
-b_sondrio;Sundri;;;;;;;;;;;;;x
-b_andalovaltellino;Àndel;;;;;;;;;;;;;x
-b_castellodisondrio;Castell Masegra;;;;;;;;;;;;;x
-b_como;Comm;;;;;;;;;;;;;x
-b_chiavenna;Ciavenna;;;;;;;;;;;;;x
-b_legnano;Legnan;;;;;;;;;;;;;x
-b_castellodibaradello;Castell Baradell;;;;;;;;;;;;;x
-b_castellodimalpaga;Castell de Malpaga;;;;;;;;;;;;;x
-b_castellodibianzano;Castell Suardi;;;;;;;;;;;;;x
-b_castellodimonasterolo;Castell de Monestaröl;;;;;;;;;;;;;x
-b_castellodisanvigilio;Castell de Consés;;;;;;;;;;;;;x
-b_castellodicavernago;Castell de Caernàch;;;;;;;;;;;;;x
-b_albino;Albì;;;;;;;;;;;;;x
-b_urgnano;Örgnà;;;;;;;;;;;;;x
-b_palazzolosulloglio;Palasöl;;;;;;;;;;;;;x
-b_pontesanpietro;Put San Piero;;;;;;;;;;;;;x
-b_alazno;Alzà;;;;;;;;;;;;;x
-b_zogno;Dógn;;;;;;;;;;;;;x
-b_monasterodiastino;Munasteri de Astìno;;;;;;;;;;;;;x
-b_nembro;Nèmber;;;;;;;;;;;;;x
-b_bergamo;Bèrghem;;;;;;;;;;;;;x
-b_treviglio;Trèì;;;;;;;;;;;;;x
-b_montichiari;Munticiàr;;;;;;;;;;;;;x
-b_castellodibonoris;Castell de Bonoris;;;;;;;;;;;;;x
-b_brescia;Brèsa;;;;;;;;;;;;;x
-b_castellodibrescia;Castell de Brèsa;;;;;;;;;;;;;x
-b_saloitalia;Salò;;;;;;;;;;;;;x
-b_sirmione;Sirmiù;;;;;;;;;;;;;x
-b_ghedi;Ghét;;;;;;;;;;;;;x
-b_bovegno;Böegn;;;;;;;;;;;;;x
-b_breno;Bré;;;;;;;;;;;;;x
-b_edolo;Édol;;;;;;;;;;;;;x
-b_monestariosantifaustineegiovita;Munaster di Sant Faustino e Giovita;;;;;;;;;;;;;x
-b_castellooldofredi;Castell dei Oldofredi;;;;;;;;;;;;;x
-b_darfoboariotherme;Darf;;;;;;;;;;;;;x
-b_pavia;Pavia;;;;;;;;;;;;;x
-b_voghera;Vughera;;;;;;;;;;;;;x
-b_casteggio;Cästegiu;;;;;;;;;;;;;x
-b_montebello;Mumbèl;;;;;;;;;;;;;x
-b_vigevano;Vigévan;;;;;;;;;;;;;x
-b_monasterodisanpietroincieldoro;Munasteri de San Peder in ciel d'or;;;;;;;;;;;;;x
-b_lomello;Lümé;;;;;;;;;;;;;x
-b_castellovisconteodipavia;Castell di Visconti;;;;;;;;;;;;;x
-b_castelnuovoscrivia;Castelneuv Scrivia;;;;;;;;;;;;;x
-b_sancolombanoallambro;San Culumban al Làmbor;;;;;;;;;;;;;x
-b_castellodizavattarello;Castell Dal Verme;;;;;;;;;;;;;x
-b_zavattarello;Zavataré;;;;;;;;;;;;;x
-b_cremona;Cremùna;;;;;;;;;;;;;x
-b_sospiro;Suspir;;;;;;;;;;;;;x
-b_crema;Crèma;;;;;;;;;;;;;x
-b_casalmaggiore;Casalmagiur;;;;;;;;;;;;;x
-b_soncino;Suncin;;;;;;;;;;;;;x
-b_soresina;Suresina;;;;;;;;;;;;;x
-b_trigolo;Trìgul;;;;;;;;;;;;;x
-b_isano;Misà;;;;;;;;;;;;;x
-b_bellinzona;Belinzona;;;;;;;;;;;;;x
-b_locarno;Locarn;;;;;;;;;;;;;x
-b_lugano;Lügàn;;;;;;;;;;;;;x
-b_musso;Muss;;;;;;;;;;;;;x
-b_mendrisio;Mendris;;;;;;;;;;;;;x
-b_castellodesepiro;Sepiro;;;;;;;;;;;;;x
-b_montagnana;Montagnana;;;;;;;;;;;;;x
-b_rovigo;Rovigo;;;;;;;;;;;;;x
-b_este;Este;;;;;;;;;;;;;x
-b_occhiobello;Ug Bèl;;;;;;;;;;;;;x
-b_adria;Adria;;;;;;;;;;;;;x
-b_roccadeglialberi;Roca degli Alberi;;;;;;;;;;;;;x
-b_castellodisanzeno;Castelo de San Zeno;;;;;;;;;;;;;x
-b_cavarzere;Cavarxere;;;;;;;;;;;;;x
-b_badiapolesine;Badia Polesine;;;;;;;;;;;;;x
-b_lendinara;Lendinara;;;;;;;;;;;;;x
-b_monselice;Monsélexe;;;;;;;;;;;;;x
-b_ferrara;Frêra;;;;;;;;;;;;;x
-b_commacchio;Cmâc;;;;;;;;;;;;;x
-b_copparo;Cupàr;;;;;;;;;;;;;x
-b_codigoro;Badéia ed Pomposa;;;;;;;;;;;;;x
-b_bondeno;Bundén;;;;;;;;;;;;;x
-b_voghiera;Ughiéra;;;;;;;;;;;;;x
-b_roccadicento;Ròca ed Zänt;;;;;;;;;;;;;x
-b_castellodimesola;Castèl d la Mésula;;;;;;;;;;;;;x
-b_castelloestense;Castèl ed Estensi;;;;;;;;;;;;;x
-b_portomaggiore;Port Mazor;;;;;;;;;;;;;x
-b_argenta;Arzénta;;;;;;;;;;;;;x
-b_sangiorgiodipiano;San Zôrz;;;;;;;;;;;;;x
-b_finaleemilia;Finèl;;;;;;;;;;;;;x
-b_castellodicini;Castelo Cini;;;;;;;;;;;;;x
-b_sanmartino;San Martin Bon Albergo;;;;;;;;;;;;;x
-b_malcesine;Malcexine;;;;;;;;;;;;;x
-b_castelloscaligero;Castelo Scaligero;;;;;;;;;;;;;x
-b_castelvecchioverona;Vecio;;;;;;;;;;;;;x
-b_castellodicalmano;Castelo de Calmano;;;;;;;;;;;;;x
-b_abbaziadisanzeno;Abasia de San Zeno;;;;;;;;;;;;;x
-b_zevioverona;Zevio;;;;;;;;;;;;;x
-b_abbaziadisanpietro;Abasia de San Pietro;;;;;;;;;;;;;x
-b_sanbonifacio;San Bonifaçio;;;;;;;;;;;;;x
-b_negrarverona;Negrar;;;;;;;;;;;;;x
-b_rivoliverona;Rivoli Veronexe;;;;;;;;;;;;;x
-b_grezzena;Gressana;;;;;;;;;;;;;x
-b_villafrancadiverona;Vilafranca de Verona;;;;;;;;;;;;;x
-b_bassano;Basan;;;;;;;;;;;;;x
-b_vicenza;Vicensa;;;;;;;;;;;;;x
-b_castellodegliezzelini;Castelo de li Exelini;;;;;;;;;;;;;x
-b_arzignano;Arzignan;;;;;;;;;;;;;x
-b_schio;Schio;;;;;;;;;;;;;x
-b_castellodischio;Castelo de Schio;;;;;;;;;;;;;x
-b_thienebassano;Thiene;;;;;;;;;;;;;x
-b_valdagno;Valdagno;;;;;;;;;;;;;x
-b_malovicenza;Malo;;;;;;;;;;;;;x
-b_doloveneto;El Dolo;;;;;;;;;;;;;x
-b_piovedisacco;Piove de Saco;;;;;;;;;;;;;x
-b_abbaziadisantostefano;Abasia de Santo Stefano;;;;;;;;;;;;;x
-b_castellodisanpelagio;Castelo de San Pelagio;;;;;;;;;;;;;x
-b_carrrareapadua;Do Carare;;;;;;;;;;;;;x
-b_polverara;Polvarara;;;;;;;;;;;;;x
-b_castellodicisondivalmarino;Castelo de Cixon de Valmarin;;;;;;;;;;;;;x
-b_mestretreviso;Mestre;;;;;;;;;;;;;x
-b_castellodicollalto;Castelo de Collalto;;;;;;;;;;;;;x
-b_abbaziadisanteustachio;Abasia de Sant'Eustachio;;;;;;;;;;;;;x
-b_castellodimartellago;Castelo de Marteago;;;;;;;;;;;;;x
-b_sandonadipieve;San Dona';;;;;;;;;;;;;x
-b_montebeluna;Montebeluna;;;;;;;;;;;;;x
-b_follinatreviso;Folina;;;;;;;;;;;;;x
-b_verona;Verona;;;;;;;;;;;;;x
-b_peschiera;Peschiera del Garda;;;;;;;;;;;;;x
-b_montecchio;Montecio;;;;;;;;;;;;;x
-b_lonigo;Lonigo;;;;;;;;;;;;;x
-b_treviso;Trevixo;;;;;;;;;;;;;x
-b_oderzo;Oderso;;;;;;;;;;;;;x
-b_ceneda;Ceneda;;;;;;;;;;;;;x
-b_cittadella;Sitadela;;;;;;;;;;;;;x
-b_padova;Pàdoa;;;;;;;;;;;;;x
-b_tarcento;Tarcint;;;;;;;;;;;;;x
-b_pieve;Pièe;;;;;;;;;;;;;x
-b_aquileia;Olee;;;;;;;;;;;;;x
-b_udine;Udin;;;;;;;;;;;;;x
-b_motta;Mota de Livensa;;;;;;;;;;;;;x
-b_concordia;Concordia;;;;;;;;;;;;;x
-b_ciridale;Cividât;;;;;;;;;;;;;x
-b_portoguaro;Portogruèr;;;;;;;;;;;;;x
-b_sacile;Sacîl;;;;;;;;;;;;;x
-b_mdina;Mdina;;;;;;;;;;;;;x
-b_sliema;Tas-Sliema;;;;;;;;;;;;;x
-b_sanpawl;Il-Gzejjer ta'San Pawl;;;;;;;;;;;;;x
-b_gozo;Ghawdex;;;;;;;;;;;;;x
-b_birzebbuga;Birzebbuga;;;;;;;;;;;;;x
-b_marsascala;Wied il-Ghajn;;;;;;;;;;;;;x
-b_mgarr;Mgarr;;;;;;;;;;;;;x
-b_sangjilan;San Giljan;;;;;;;;;;;;;x
-b_leipheim;Leipheim;;;;;;;;;;;;;x
 b_sleza;Sleza;;;;;;;;;;;;;x
 b_mysliborz;Myslibórz;;;;;;;;;;;;;x
 b_cedynia;Cedynia;;;;;;;;;;;;;x
@@ -2638,7 +2127,7 @@ b_hisnaddair;Hisn ad-Dair;;;;;;;;;;;;;x
 b_saone;Saône;;;;;;;;;;;;;x
 b_latakiah;Laodicia;;;;;;;;;;;;;x
 b_gibellum;Gibellum;;;;;;;;;;;;;x
-b_antiocheia;Antiochia;;;;;;;;;;;;;x
+b_antiocheia;Antiócheia;;;;;;;;;;;;;x
 b_darbsak;Trapesac;;;;;;;;;;;;;x
 b_baghras;Gastun;;;;;;;;;;;;;x
 b_harenc;Harenc;;;;;;;;;;;;;x
@@ -2651,7 +2140,7 @@ b_albarasyria;Albara;;;;;;;;;;;;;x
 b_corice;Corice;;;;;;;;;;;;;x
 b_killiz;Killiz;;;;;;;;;;;;;x
 b_bourzeycastle;Berzieh;;;;;;;;;;;;;x
-b_alkahf;Al Kahf;;;;;;;;;;;;;x
+b_alkahf;Al-Kahf;;;;;;;;;;;;;x
 b_zweitina;Meshtaye;;;;;;;;;;;;;x
 b_buissera;Bussara;;;;;;;;;;;;;x
 b_msheilfort;Puy du Connétable;;;;;;;;;;;;;x
@@ -2664,7 +2153,7 @@ b_archa;Archis;;;;;;;;;;;;;x
 b_tortosa;Tortosa;;;;;;;;;;;;;x
 b_maraclea;Maraclée;;;;;;;;;;;;;x
 b_valania;Valenia;;;;;;;;;;;;;x
-b_alkhawabi;Al Khawabi;;;;;;;;;;;;;x
+b_alkhawabi;Al-Khawabi;;;;;;;;;;;;;x
 b_ruad;Ruad;;;;;;;;;;;;;x
 b_margat;Margat;;;;;;;;;;;;;x
 b_citdaelofsaintgilles;Château de Saint-Gilles;;;;;;;;;;;;;x
@@ -2681,12 +2170,13 @@ b_toprakkale;Toprakkale;;;;;;;;;;;;;x
 b_karscilicia;Kars;;;;;;;;;;;;;x
 b_bardzerberi;Bardzerberi;;;;;;;;;;;;;x
 b_hajin;Hajin;;;;;;;;;;;;;x
-b_alhadat;Al Hadat;;;;;;;;;;;;;x
+b_alhadat;Al-Hadat;;;;;;;;;;;;;x
 b_alallman;Alallman;;;;;;;;;;;;;x
 b_mut;Mut;;;;;;;;;;;;;x
 b_karkara;Karkara;;;;;;;;;;;;;x
 b_seguik;Seguik;;;;;;;;;;;;;x
-b_antiochiamikra;Antiochia Mikra;;;;;;;;;;;;;x
+b_anemurium;Anemoúrion;;;;;;;;;;;;;x
+b_antiochiamikra;Antiócheia;;;;;;;;;;;;;x
 b_mamure;Mamure;;;;;;;;;;;;;x
 b_selinus;Selinos;;;;;;;;;;;;;x
 b_kaisun;Cressum;;;;;;;;;;;;;x
@@ -2742,7 +2232,7 @@ b_damascus;Dimašq;;;;;;;;;;;;;x
 b_saidnaya;Saidnaya;;;;;;;;;;;;;x
 b_marsarkismoenstary;Mar Sarkis;;;;;;;;;;;;;x
 b_martalqamonestary;Mar Talqa;;;;;;;;;;;;;x
-b_alkiswah;Al Kiswah;;;;;;;;;;;;;x
+b_alkiswah;Al-Kiswah;;;;;;;;;;;;;x
 b_jaramana;Jaramana;;;;;;;;;;;;;x
 b_kafrbatna;Kafr Batna;;;;;;;;;;;;;x
 b_darayya;Da'iyyah;;;;;;;;;;;;;x
@@ -3164,7 +2654,7 @@ b_montemoronovo;Montemor-o-Novo;;;;;;;;;;;;;x
 b_beja;Beja;;;;;;;;;;;;;x
 b_aljustrel;Aljustrel;;;;;;;;;;;;;x
 b_almodovar;Almodôvar;;;;;;;;;;;;;x
-b_alvito;Alvito;;;;;;;;;;;;;x
+b_alvito_beja;Alvito;;;;;;;;;;;;;x
 b_odemira;Odemira;;;;;;;;;;;;;x
 b_ourique;Ourique;;;;;;;;;;;;;x
 b_mertola;Mértola;;;;;;;;;;;;;x
@@ -3562,7 +3052,7 @@ b_kharruba;Arnaldi;;;;;;;;;;;;;x
 b_karatiyya;Galatie;;;;;;;;;;;;;x
 b_eltormonestary;Al-Tur;;;;;;;;;;;;;x
 b_wadielsybiaya;Wadi El Sybaiya;;;;;;;;;;;;;x
-b_monestaryofsaincathrine;Monì tìs Agìas Ekaterìnis;;;;;;;;;;;;;x
+b_monestaryofsaincathrine;Dayr Sant Katryn;;;;;;;;;;;;;x
 b_qalaatalgindi;Qalaat Al-Jundi;;;;;;;;;;;;;x
 b_rassidr;Rass Sidr;;;;;;;;;;;;;x
 b_nekhel;Nekhel;;;;;;;;;;;;;x
@@ -3676,11 +3166,13 @@ b_uqair;Uqair;;;;;;;;;;;;;x
 b_awal;Awal;;;;;;;;;;;;;x
 b_khamis;Khamis;;;;;;;;;;;;;x
 b_murwab;Murwab;;;;;;;;;;;;;x
+b_ath_thaqab;Ath Thaqab;;;;;;;;;;;;;x
 b_tawam;Tawam;;;;;;;;;;;;;x
 b_qalatnizwa;Qal'at al-Nizwa;;;;;;;;;;;;;x
 b_bahla;Bahla;;;;;;;;;;;;;x
 b_nakhal;Nakhal;;;;;;;;;;;;;x
 b_rustaq_nizwa;Rustaq;;;;;;;;;;;;;x
+b_sur_masirah;Sur Masirah;;;;;;;;;;;;;x
 b_qalatmirani;Mirani;;;;;;;;;;;;;x
 b_qalhat;Qalhat;;;;;;;;;;;;;x
 b_quryat;Quryat;;;;;;;;;;;;;x
@@ -4358,13 +3850,14 @@ b_dia;Dia;;;;;;;;;;;;;x
 b_kabora;Kabora;;;;;;;;;;;;;x
 b_dioboro;Dioboro;;;;;;;;;;;;;x
 b_djenne;Djenne;;;;;;;;;;;;;x
-b_algasba;Al Gasba;;;;;;;;;;;;;x
+b_algasba;Al-Gasba;;;;;;;;;;;;;x
 b_kaniana;Kaniana;;;;;;;;;;;;;x
 b_hambarketolo;Hambarketolo;;;;;;;;;;;;;x
 b_femaye;Famaye;;;;;;;;;;;;;x
 b_derary;Derary;;;;;;;;;;;;;x
 b_tichitt;Tichitt;;;;;;;;;;;;;x
 b_kedama;Kedama;;;;;;;;;;;;;x
+b_aratane;Aratane;;;;;;;;;;;;;x
 b_kiffa;Kiffa;;;;;;;;;;;;;x
 b_aoudaghost;Awdaghust;;;;;;;;;;;;;x
 b_moudjeria;Moudjeria;;;;;;;;;;;;;x
@@ -4372,6 +3865,7 @@ b_tamchakett;Tamchakett;;;;;;;;;;;;;x
 b_oualata;Walata;;;;;;;;;;;;;x
 b_biru;Bíru;;;;;;;;;;;;;x
 b_awkar;Awkar;;;;;;;;;;;;;x
+b_tirka;Tirka;;;;;;;;;;;;;x
 b_niani;Niani;;;;;;;;;;;;;x
 b_kangaba;Kangaba;;;;;;;;;;;;;x
 b_malikira;Mali Kira;;;;;;;;;;;;;x
@@ -4415,6 +3909,7 @@ b_galam;Galam;;;;;;;;;;;;;x
 b_gundiuru;Gundiuru;;;;;;;;;;;;;x
 b_bondu;Bondu;;;;;;;;;;;;;x
 b_cayor;Cayor;;;;;;;;;;;;;x
+b_barisa;Barísá;;;;;;;;;;;;;x
 b_alexandria;Alexandria;;;;;;;;;;;;;x
 b_abukir;Abukir;;;;;;;;;;;;;x
 b_hammam;Hammám;;;;;;;;;;;;;x
@@ -4447,11 +3942,11 @@ b_butanya;Butayna;;;;;;;;;;;;;x
 b_samannud;Samannúd;;;;;;;;;;;;;x
 b_saa;Sá;;;;;;;;;;;;;x
 b_rashid;Rashíd;;;;;;;;;;;;;x
-b_alshirak;al Shirák;;;;;;;;;;;;;x
-b_cairo;al Qáhira;;;;;;;;;;;;;x
+b_alshirak;al-Shirák;;;;;;;;;;;;;x
+b_cairo;al-Qáhira;;;;;;;;;;;;;x
 b_fustat;Fustát;;;;;;;;;;;;;x
 b_qaylub;Qalylúb;;;;;;;;;;;;;x
-b_alazhar;al Azhar;;;;;;;;;;;;;x
+b_alazhar;al-Azhar;;;;;;;;;;;;;x
 b_helwan;Hulwán;;;;;;;;;;;;;x
 b_ain_shams;Ain Shams;;;;;;;;;;;;;x
 b_ghafya;Ghayfá;;;;;;;;;;;;;x
@@ -4471,7 +3966,7 @@ b_sarqihya;Sarqihya;;;;;;;;;;;;;x
 b_suez;Suez;;;;;;;;;;;;;x
 b_itfih;Itfíh;;;;;;;;;;;;;x
 b_busir;Búsír;;;;;;;;;;;;;x
-b_lahun;al Lahún;;;;;;;;;;;;;x
+b_lahun;al-Lahún;;;;;;;;;;;;;x
 b_alqababt;Al-Qababt;;;;;;;;;;;;;x
 b_bahnasa;Al-Bahnasá;;;;;;;;;;;;;x
 b_saft;Saft al-Muhallabí;;;;;;;;;;;;;x
@@ -4481,6 +3976,7 @@ b_ahnas;Ahnás;;;;;;;;;;;;;x
 b_kharija;Al-Khárija;;;;;;;;;;;;;x
 b_dakhila;Al-Dákhila;;;;;;;;;;;;;x
 b_bahriya;Al-Báhriya;;;;;;;;;;;;;x
+b_alsaqya;Al-Saqya;;;;;;;;;;;;;x
 b_farfarun;Farfárún;;;;;;;;;;;;;x
 b_fayyum;Al-Fayyúm;;;;;;;;;;;;;x
 b_fidaymin;Fidaymín;;;;;;;;;;;;;x
@@ -4542,7 +4038,6 @@ b_wagadougou;Wagadougou;;;;;;;;;;;;;x
 b_ouallam;Wallam;;;;;;;;;;;;;x
 b_tera;Tera;;;;;;;;;;;;;x
 b_mabruk;Mabruk;;;;;;;;;;;;;x
-b_bobodyolasso;Bobo Dyolasso;;;;;;;;;;;;;x
 b_yatenga;Yatenga;;;;;;;;;;;;;x
 b_risiom;Risiom;;;;;;;;;;;;;x
 b_figuig;Figuig;;;;;;;;;;;;;x
@@ -4553,7 +4048,8 @@ b_timmi;Timmi;;;;;;;;;;;;;x
 b_tamentit;Tamentit;;;;;;;;;;;;;x
 b_tabalbala;Tabalbala;;;;;;;;;;;;;x
 b_bouda;Bouda;;;;;;;;;;;;;x
-b_elgolea;Al -Qulaya;;;;;;;;;;;;;x
+b_elgolea;Al-Qulaya;;;;;;;;;;;;;x
+b_taursit;Taursit;;;;;;;;;;;;;x
 b_mzab;Mzab;;;;;;;;;;;;;x
 b_ouargla;Wargla;;;;;;;;;;;;;x
 b_ghardaiya;Ghardaíya;;;;;;;;;;;;;x
@@ -4566,6 +4062,7 @@ b_djanet;Djanet;;;;;;;;;;;;;x
 b_timanissao;Timanissao;;;;;;;;;;;;;x
 b_ilizi;Ilízí;;;;;;;;;;;;;x
 b_ghat;Ghát;;;;;;;;;;;;;x
+b_tabelbalet;Tabelbalet;;;;;;;;;;;;;x
 b_nafusa;Nafúsa;;;;;;;;;;;;;x
 b_waddan;Waddan;;;;;;;;;;;;;x
 b_sebha;Sebha;;;;;;;;;;;;;x
@@ -4583,6 +4080,7 @@ b_djado;Djado;;;;;;;;;;;;;x
 b_agades;Agadés;;;;;;;;;;;;;x
 b_takkeda;Takkeda;;;;;;;;;;;;;x
 b_azawa;Ain Azawa;;;;;;;;;;;;;x
+b_hamra;Hamra;;;;;;;;;;;;;x
 b_tunis;Tunis;;;;;;;;;;;;;x
 b_membressa;Membressa;;;;;;;;;;;;;x
 b_ariana;Ariana;;;;;;;;;;;;;x
@@ -4636,6 +4134,7 @@ b_zawiya;Zawíya;;;;;;;;;;;;;x
 b_sabrata;Sabrata;;;;;;;;;;;;;x
 b_surman;Surman;;;;;;;;;;;;;x
 b_jijel;Jijáíl;;;;;;;;;;;;;x
+b_djimla;Djimla;;;;;;;;;;;;;x
 b_constantine;Qustantína;;;;;;;;;;;;;x
 b_elkhroub;El Khroub;;;;;;;;;;;;;x
 b_guerrah;Guerrah;;;;;;;;;;;;;x
@@ -4665,6 +4164,7 @@ b_tabassa;Tabassa;;;;;;;;;;;;;x
 b_khenchela;Khanchela;;;;;;;;;;;;;x
 b_ouenza;Ouenza;;;;;;;;;;;;;x
 b_arigh;Arígh;;;;;;;;;;;;;x
+b_tuggurt;Tuggurt;;;;;;;;;;;;;x
 b_tiaret;Atáhart;;;;;;;;;;;;;x
 b_qalathuwara;Qalát Huwara;;;;;;;;;;;;;x
 b_aflu;Aflu;;;;;;;;;;;;;x
@@ -4754,6 +4254,7 @@ b_eljadida;El-Jadída;;;;;;;;;;;;;x
 b_safi;Safi;;;;;;;;;;;;;x
 b_sijilmasa;Sijilmasa;;;;;;;;;;;;;x
 b_bechar;Béchar;;;;;;;;;;;;;x
+b_zagora;Zagora;;;;;;;;;;;;;x
 b_benitajjit;Beni Tajjit;;;;;;;;;;;;;x
 b_boudnib;Dboundib;;;;;;;;;;;;;x
 b_thineghir;Thinaghir;;;;;;;;;;;;;x
@@ -4762,6 +4263,7 @@ b_alnif;Al-Níf;;;;;;;;;;;;;x
 b_tata;Tata;;;;;;;;;;;;;x
 b_wadidraa;Wádí Draa;;;;;;;;;;;;;x
 b_ifni;Ifní;;;;;;;;;;;;;x
+b_tamdult;Tamdult;;;;;;;;;;;;;x
 b_nullamta;Núl Lamta;;;;;;;;;;;;;x
 b_guelmim;Guelmín;;;;;;;;;;;;;x
 b_tindouf;Tindouf;;;;;;;;;;;;;x
@@ -4774,6 +4276,8 @@ b_ksaralkiali;Ksar al-Kilálí;;;;;;;;;;;;;x
 b_idjil;Idjíl;;;;;;;;;;;;;x
 b_birumgrein;Bír um-Grein;;;;;;;;;;;;;x
 b_akjoujt;Akjoujt;;;;;;;;;;;;;x
+b_atrar;Atrar;;;;;;;;;;;;;x
+b_kamnuriyya;Kamnuriyya;;;;;;;;;;;;;x
 b_araouane;Arawán;;;;;;;;;;;;;x
 b_tassarahla;Tassarahla;;;;;;;;;;;;;x
 b_taoudeni;Taoudeni;;;;;;;;;;;;;x
@@ -6247,6 +5751,7 @@ b_alkabli;Al-Kabli;;;;;;;;;;;;;x
 b_sawakin;Suwakín;;;;;;;;;;;;;x
 b_shafia;Shafia;;;;;;;;;;;;;x
 b_sinkat;Sinkat;;;;;;;;;;;;;x
+b_wadibaraka;Wádí Baraka;;;;;;;;;;;;;x
 b_kassala;Kassala;;;;;;;;;;;;;x
 b_showak;Showak;;;;;;;;;;;;;x
 b_djarin;Djarin;;;;;;;;;;;;;x
@@ -6359,6 +5864,7 @@ b_birnin-kebbi;Birnin Kebbi;;;;;;;;;;;;;x
 b_argungu;Argungu;;;;;;;;;;;;;x
 b_dosso;Dosso;;;;;;;;;;;;;x
 b_gobir;Gobir;;;;;;;;;;;;;x
+b_marandet;Marandet;;;;;;;;;;;;;x
 b_abalak;Abalak;;;;;;;;;;;;;x
 b_tahoua;Tahoua;;;;;;;;;;;;;x
 b_niamey;Niamey;;;;;;;;;;;;;x
@@ -6469,6 +5975,8 @@ b_alkasr;Al-Kasr;;;;;;;;;;;;;x
 b_alkalamun;Al-Kalamún;;;;;;;;;;;;;x
 b_arzakiya;Arzakíya;;;;;;;;;;;;;x
 b_misiwwa;Misiwwa;;;;;;;;;;;;;x
+b_debarwa;Debarwa;;;;;;;;;;;;;x
+b_wadi_al_allaqi;Wadi al-'Allaqi;;;;;;;;;;;;;x
 b_bogos;Bogos;;;;;;;;;;;;;x
 b_marya;Marya;;;;;;;;;;;;;x
 b_levyhradec;Levý Hradec;;;;;;;;;;;;;x
@@ -6802,7 +6310,7 @@ b_artake;Artake;;;;;;;;;;;;;x
 b_kyzikos;Kyzikos;;;;;;;;;;;;;x
 b_panormos;Panormos;;;;;;;;;;;;;x
 b_abydos;Abydos;;;;;;;;;;;;;x
-b_alexandriatroas;Alexandria Troas;;;;;;;;;;;;;x
+b_alexandriatroas;Alexándreia Trõás;;;;;;;;;;;;;x
 b_lampsakos;Lampsakos;;;;;;;;;;;;;x
 b_ilion;Ilion;;;;;;;;;;;;;x
 b_naxos;Apaliros;;;;;;;;;;;;;x
@@ -6829,13 +6337,14 @@ b_chariopolis;Kharioupolis;;;;;;;;;;;;;x
 b_kypsela;Kypsela;;;;;;;;;;;;;x
 b_constantinople;Konstantinoupolis;;;;;;;;;;;;;x
 b_hagiasophia;Constantinople;;;;;;;;;;;;;x
+b_blachernae;Blachérnai;;;;;;;;;;;;;x
 b_galata;Galata;;;;;;;;;;;;;x
 b_phanarion;Phanárion;;;;;;;;;;;;;x
 b_deuteron;Deuteron;;;;;;;;;;;;;x
 b_pempton;Pempton;;;;;;;;;;;;;x
 b_vlanga;Vlanga;;;;;;;;;;;;;x
 b_arkadiopolis;Arkadioupolis;;;;;;;;;;;;;x
-b_agathopolis;Agathopolis;;;;;;;;;;;;;x
+b_agathopolis;Agathoúpolis;;;;;;;;;;;;;x
 b_brysis;Brysis;;;;;;;;;;;;;x
 b_bizye;Bizye;;;;;;;;;;;;;x
 b_medea;Medeia;;;;;;;;;;;;;x
@@ -6852,7 +6361,7 @@ b_mosynopolis;Mosynopolis;;;;;;;;;;;;;x
 b_polystylon;Polystylon;;;;;;;;;;;;;x
 b_xanthia;Xantheia;;;;;;;;;;;;;x
 b_kassandria;Kassandreia;;;;;;;;;;;;;x
-b_mntathos;Agion Oros;;;;;;;;;;;;;x
+b_mntathos;Hágion Óros;;;;;;;;;;;;;x
 b_ierissos;Hierissos;;;;;;;;;;;;;x
 b_rendina;Rentine;;;;;;;;;;;;;x
 b_kastronthessalonika;Heptapyrgion;;;;;;;;;;;;;x
@@ -6914,8 +6423,8 @@ b_rogoi;Rogoi;;;;;;;;;;;;;x
 b_vonitsza;Bonditza;;;;;;;;;;;;;x
 b_aetos;Aetos;;;;;;;;;;;;;x
 b_kefalonia;Sami;;;;;;;;;;;;;x
-b_lefkas;Agía Mavra;;;;;;;;;;;;;x
-b_agiosgeorgios;Agios Georgios;;;;;;;;;;;;;x
+b_lefkas;Hagía Maúra;;;;;;;;;;;;;x
+b_agiosgeorgios;Hagios Georgios;;;;;;;;;;;;;x
 b_zante;Zakynthos;;;;;;;;;;;;;x
 b_ithaca;Ithaka;;;;;;;;;;;;;x
 b_palaiofrurio;Palaió Frúrio;;;;;;;;;;;;;x
@@ -6965,16 +6474,16 @@ b_veligosti;Veligosti;;;;;;;;;;;;;x
 b_akova;Akova;;;;;;;;;;;;;x
 b_karytaina;Karytaina;;;;;;;;;;;;;x
 b_tripolitsa;Drobolitsa;;;;;;;;;;;;;x
-b_kandia;Khaneia;;;;;;;;;;;;;x
-b_rethymno;Réthymnon;;;;;;;;;;;;;x
+b_kandia;Khanià ;;;;;;;;;;;;;x
+b_rethymno;Rhíthimna;;;;;;;;;;;;;x
 b_kissamos;Kissamos;;;;;;;;;;;;;x
 b_lampa;Lampe;;;;;;;;;;;;;x
 b_gortyna;Gortyna;;;;;;;;;;;;;x
 b_paleohora;Palaiochora;;;;;;;;;;;;;x
 b_iraklio;Megalokastron;;;;;;;;;;;;;x
-b_ierapetra;Hiera Petra;;;;;;;;;;;;;x
+b_ierapetra;Hierà Pýtna;;;;;;;;;;;;;x
 b_sitia;Seteia;;;;;;;;;;;;;x
-b_agiosnikolaos;Agiós Nikolaos;;;;;;;;;;;;;x
+b_agiosnikolaos;Hagiós Nikolaos;;;;;;;;;;;;;x
 b_palaeokastro;Palaiokastro;;;;;;;;;;;;;x
 b_kastamonu;Kastra Komnenon;;;;;;;;;;;;;x
 b_dadybra;Dadybra;;;;;;;;;;;;;x
@@ -7089,7 +6598,7 @@ b_koptos;Koptos;;;;;;;;;;;;;x
 b_arabrakes;Arabrakes;;;;;;;;;;;;;x
 b_dazimon;Dazimon;;;;;;;;;;;;;x
 b_sebastia;Sebasteia;;;;;;;;;;;;;x
-b_verisa;Verissa;;;;;;;;;;;;;x
+b_verisa;Bérissa;;;;;;;;;;;;;x
 b_kamisa;Kamisa;;;;;;;;;;;;;x
 b_tzamandos;Tzamandos;;;;;;;;;;;;;x
 b_malandara;Malandara;;;;;;;;;;;;;x
@@ -7124,7 +6633,7 @@ b_kalonoros;Kalonoros;;;;;;;;;;;;;x
 b_perge;Perge;;;;;;;;;;;;;x
 b_aspendos;Aspendos;;;;;;;;;;;;;x
 b_side;Side;;;;;;;;;;;;;x
-b_rhodos;Ródos;;;;;;;;;;;;;x
+b_rhodos;Rhódos;;;;;;;;;;;;;x
 b_kos;Kos;;;;;;;;;;;;;x
 b_lindos;Lindos;;;;;;;;;;;;;x
 b_karpathos;Karpathos;;;;;;;;;;;;;x
@@ -7142,15 +6651,15 @@ b_solia;Soloi;;;;;;;;;;;;;x
 b_kolossi;Kolossi;;;;;;;;;;;;;x
 b_kykkos;Kykkos;;;;;;;;;;;;;x
 b_arsinoecyprus;Arsinoe;;;;;;;;;;;;;x
-b_sthilarion;Agios Ilarion;;;;;;;;;;;;;x
-b_nikosia;Nikosia;;;;;;;;;;;;;x
-b_stavrovouni;Stavrovouni;;;;;;;;;;;;;x
+b_sthilarion;Hágios Hilaríon;;;;;;;;;;;;;x
+b_nikosia;Leukousía;;;;;;;;;;;;;x
+b_stavrovouni;Hierà Monè Staurobouníou;;;;;;;;;;;;;x
 b_larnaca;Larnaka;;;;;;;;;;;;;x
 b_kyrenia;Keryneia;;;;;;;;;;;;;x
 b_lapithos;Lapetos;;;;;;;;;;;;;x
 b_buffavento;Boufavento;;;;;;;;;;;;;x
 b_kantara;Kantara;;;;;;;;;;;;;x
-b_famagusta;Ammokhostos;;;;;;;;;;;;;x
+b_famagusta;Ammókhõstos;;;;;;;;;;;;;x
 b_salamiscyprus;Konstanteia;;;;;;;;;;;;;x
 b_karpasia;Karpasos;;;;;;;;;;;;;x
 b_tzanikha;Argyropólis;;;;;;;;;;;;;x
@@ -7161,8 +6670,8 @@ b_atina;Athina;;;;;;;;;;;;;x
 b_hamamashen;Hamamašen;;;;;;;;;;;;;x
 b_ophioun;Ophioun;;;;;;;;;;;;;x
 b_koralla;Koralla;;;;;;;;;;;;;x
-b_machka;Moní Soumelá;;;;;;;;;;;;;x
-b_vazelon;Moní Vazelon;;;;;;;;;;;;;x
+b_machka;Hierà Monè Panagías Soumelà;;;;;;;;;;;;;x
+b_vazelon;Hierà Monè Hágiou Ioánni Vazelõna;;;;;;;;;;;;;x
 b_kerasous;Kerasous;;;;;;;;;;;;;x
 b_kotyora;Kotyora;;;;;;;;;;;;;x
 b_polemonion;Polemonion;;;;;;;;;;;;;x
@@ -7189,7 +6698,7 @@ b_pendosis;Pendosis;;;;;;;;;;;;;x
 b_gouglak;Gouglak;;;;;;;;;;;;;x
 b_alharuniya;Eirenoupolis;;;;;;;;;;;;;x
 b_adana;Adana;;;;;;;;;;;;;x
-b_mamistra;Mopsuestia;;;;;;;;;;;;;x
+b_mamistra;Mopsouestía;;;;;;;;;;;;;x
 b_lajazzo;Aigeai;;;;;;;;;;;;;x
 b_yilankale;Leonkastron;;;;;;;;;;;;;x
 b_savrandacastle;Servantikar;;;;;;;;;;;;;x
@@ -7209,10 +6718,10 @@ b_portella;Portella;;;;;;;;;;;;;x
 b_myriandus;Myriandos;;;;;;;;;;;;;x
 b_corycus;Korykos;;;;;;;;;;;;;x
 b_seleukeia;Seleukeia;;;;;;;;;;;;;x
-b_germanikopolis;Germanikopolis;;;;;;;;;;;;;x
+b_germanikopolis;Germanikoúpolis;;;;;;;;;;;;;x
 b_mut_seleukeia;Klaudioupolis Ninica;;;;;;;;;;;;;x
 b_korasion;Korasion;;;;;;;;;;;;;x
-b_lamas;Antiokheia Lamotis;;;;;;;;;;;;;x
+b_lamas;Antiókheia;;;;;;;;;;;;;x
 b_mokhbud;Mokhbud;;;;;;;;;;;;;x
 b_tara_meath;Tara;;;;;;;;;;;;;x
 b_knowth;Knowth;;;;;;;;;;;;;x
@@ -7641,9 +7150,9 @@ b_barskhan;Barskhan;;;;;;;;;;;;;x
 b_karakol;Karakol;;;;;;;;;;;;;x
 b_arshatu;Arhsatu;;;;;;;;;;;;;x
 b_suyab;Suyab;;;;;;;;;;;;;x
-b_balasaghnun;Balasaghun;;;;;;;;;;;;;x
-b_nevaket;Nevaket;;;;;;;;;;;;;x
-b_toqmaq;Quz Ordu;;;;;;;;;;;;;x
+b_balasaghun;Balasaghun;;;;;;;;;;;;;x
+b_akbeshim;Ak-Beshim;;;;;;;;;;;;;x
+b_quzordu;Quz Ordu;;;;;;;;;;;;;x
 b_chigil;Chigil;;;;;;;;;;;;;x
 b_talas_talas;Talas;;;;;;;;;;;;;x
 b_shelji;Shelji;;;;;;;;;;;;;x
@@ -7651,8 +7160,9 @@ b_taraz;Taraz;;;;;;;;;;;;;x
 b_naryn;Naryn;;;;;;;;;;;;;x
 b_kashgar;Kashgar;;;;;;;;;;;;;x
 b_ulugqat;Ulugqat;;;;;;;;;;;;;x
-b_uksalur;Kizilsu;;;;;;;;;;;;;x
-b_pichan;Yarkand;;;;;;;;;;;;;x
+b_uksalur;Uk Salur;;;;;;;;;;;;;x
+b_yarkand;Yarkand;;;;;;;;;;;;;x
+b_pichan;Pichan;;;;;;;;;;;;;x
 b_kizilsu;Kizilsu;;;;;;;;;;;;;x
 b_aqsu;Aqsu;;;;;;;;;;;;;x
 b_uchaqsu;Uch;;;;;;;;;;;;;x
@@ -7850,14 +7360,14 @@ b_hotmysl;Hotmyšl';;;;;;;;;;;;;x
 b_belgorod_vorskla;Belgorod;;;;;;;;;;;;;x
 b_theodasia;Kaphas;;;;;;;;;;;;;x
 b_sukdak;Sougdaía;;;;;;;;;;;;;x
-b_alushta;Aluston;;;;;;;;;;;;;x
+b_alushta;Álouston;;;;;;;;;;;;;x
 b_partenit;Parthenoi;;;;;;;;;;;;;x
 b_mangup;Doros;;;;;;;;;;;;;x
 b_funa;Phonos;;;;;;;;;;;;;x
 b_inkerman;Kalamita;;;;;;;;;;;;;x
-b_kherson;Kherson;;;;;;;;;;;;;x
+b_kherson;Khersõn;;;;;;;;;;;;;x
 b_balaklava;Yamboli;;;;;;;;;;;;;x
-b_yalta;Etalita;;;;;;;;;;;;;x
+b_yalta;Gialíta;;;;;;;;;;;;;x
 b_foros;Pharos;;;;;;;;;;;;;x
 b_gurzuf;Gorzovium;;;;;;;;;;;;;x
 b_cherdyn;Cherdín;;;;;;;;;;;;;x
