@@ -177,24 +177,6 @@ ca_culture_assyrian_1_desc                     ;        ;The Syrian tradition of
 e_bulgaria                                     ;        ;Bulgarian Empire;;;;
 e_bulgaria_adj                                 ;        ;Bulgarian;;;;
 #1_PB_objectives.csv;;;;;
-#1_PB_titles.csv;;;;;
-e_italy                                        ;        ;Italia;Italia;;Italy;Italia
-e_italy_adj                                    ;        ;Italian;Italiano;;Italian;Italian
-e_abyssinia                                    ;        ;Abyssinia;;;Abyssinia;Abyssinia
-e_abyssinia_adj                                ;        ;Ethiopian;;;Abyssinian;Abyssinian
-e_germany                                      ;        ;Germania;;;Germania;Germania
-e_germany_adj                                  ;        ;German;;;German;German
-e_russia                                       ;        ;Rus;Rus;Garðaríki;Rus’;Russia
-e_arabia                                       ;        ;Arabia;;;Arabia;Arabian Empire
-k_nikaea                                       ;        ;Nikaea;Nikaia;;Nicaea;
-k_nikaea_adj                                   ;        ;Nikaean;Nikaian;;Nicaean;
-k_epirus                                       ;        ;Epirus;Epeiros;Épire,Epirus;Epirus;
-k_epirus_adj                                   ;        ;Epirotian;Epirote;;Epirote;
-k_galicia                                      ;Galicia ;Galicia;Halych-Volyn;;Galicia–Volhynia;
-k_galicia_adj                                  ;Galician;Galician;Halych-Volyn;;Galician–Volhynian;
-k_iceland                                      ;        ;Iceland;Ísland;;Iceland;
-k_iceland_adj                                  ;        ;Icelandic;Íslandskr;;Icelandic;
-d_ostlandet                                    ;Eastern Norway;Østlandet;Víken;;Viken;Ostlandet
 #1_PB_tournaments.csv;;;;;
 #1_PB_various.csv;;;;;
 #1_PB_war_checks.csv;;;;;
@@ -223,16 +205,6 @@ ca_culture_suebi_5                             ;        ;Free Warrior Camp;;;;
 #1_emf_core.csv;;;;;
 title_despot_noconclave_desc                   ;        ;Despot is the highest honorary title in the Byzantine Empire, second only to the Emperor. It can only be granted to close relatives, traditionally the oldest son.;;;;
 ERA_CHAR_INFO_122                              ;        ; ; ;;;
-k_emf_saxon_england                            ;        ;!CoA: Saxon England;;;;
-k_emf_saxon_england_adj                        ;        ;;;;;
-k_emf_norman_england                           ;        ;!CoA: Norman England;;;;
-k_emf_norman_england_adj                       ;        ;;;;;
-k_emf_english_england                          ;        ;!CoA: Default England;;;;
-k_emf_english_england_adj                      ;        ;;;;;
-k_emf_barcelona_aragon                         ;        ;!CoA: de Barcelona Aragon;;;;
-k_emf_barcelona_aragon_adj                     ;        ;;;;;
-e_hre_french                                   ;Holy Roman Empire;Saint-Empire Romain;;;;
-e_hre_french_adj                               ;Imperial;Impérial;;;;
 #1_emf_cost_tooltips_codegen.csv;;;;;
 #1_emf_crier.csv;;;;;
 #1_emf_crusade.csv;;;;;
@@ -275,6 +247,7 @@ tp_imperial_dec_8                              ;        ;Imperial Decay: 80-100;
 #1_emf_magyars.csv;;;;;
 tb_emf_magyar_1                                ;        ;Magyar Divisions;;;;
 tb_emf_magyar_desc                             ;        ;For years, the Magyar clans have been torn apart by internal wars and strife. Many believe this has left the clans weakened, and while there is hope for eventual recovery, some believe it will be too late and that the clans are in a state which has left them weak to attack from neighbors.;;;;
+#1_emf_marriage.csv;;;;;
 #1_emf_mongols.csv;;;;;
 MOGHUL                                         ;        ;Moghul Khanate;;;;
 MOGHUL_ADJ                                     ;        ;Moghul;;;;
@@ -285,16 +258,6 @@ no_lucky_desc                                  ;        ;AI bonus for nomad Luck
 no_lucky_1                                     ;        ;Lucky Warhorse Stables;;;;
 #1_emf_notify_codegen.csv;;;;;
 #1_emf_nwo.csv;;;;;
-k_emf_lower_lorraine                           ;Lorraine;Lothringen;;;;
-k_emf_lower_lorraine_adj                       ;Lorrainian;Lothringische;;;;
-k_emf_saxony                                   ;Saxony  ;Sachsen;;;;
-k_emf_saxony_adj                               ;Saxon   ;Sächsische;;;;
-k_emf_franconia                                ;Franconia;Franken;;;;
-k_emf_franconia_adj                            ;Franconian;Fränkische;;;;
-k_emf_bavaria                                  ;Bavaria ;Baiern;;;;
-k_emf_bavaria_adj                              ;Bavarian;Bairische;;;;
-k_emf_schwaben                                 ;Swabia  ;Schwaben;;;;
-k_emf_schwaben_adj                             ;Swabian ;Schwäbische;;;;
 #1_emf_prisoner.csv;;;;;
 #1_emf_regional.csv;;;;;
 #1_emf_religion.csv;;;;;
@@ -1576,6 +1539,38 @@ EVTOPTD_SoA_5229                               ;        ;Destroy it;Destroy it;;
 #1_emf_siege.csv;;;;;
 #1_emf_startup.csv;;;;;
 #1_emf_sts.csv;;;;;
+#1_emf_titles.csv;;;;;
+e_abyssinia                                    ;        ;Abyssinia;;;Abyssinia;Abyssinia
+e_abyssinia_adj                                ;        ;Ethiopian;;;Abyssinian;Abyssinian
+e_germany                                      ;        ;Germania;;;Germania;Germania
+e_germany_adj                                  ;        ;German;;;German;German
+e_hre_french                                   ;Holy Roman Empire;Saint-Empire Romain;;;;
+e_hre_french_adj                               ;Imperial;Impérial;;;;
+e_italy                                        ;        ;Italia;Italia;;Italy;Italia
+e_italy_adj                                    ;        ;Italian;Italiano;;Italian;Italian
+e_russia                                       ;        ;Rus;Rus;Garðaríki;Rus’;Russia
+k_epirus                                       ;        ;Epirus;Epeiros;Épire,Epirus;Epirus;
+k_epirus_adj                                   ;        ;Epirotian;Epirote;;Epirote;
+k_nikaea                                       ;        ;Nikaea;Nikaia;;Nicaea;
+k_nikaea_adj                                   ;        ;Nikaean;Nikaian;;Nicaean;
+k_emf_bavaria                                  ;Bavaria ;Baiern;;;;
+k_emf_bavaria_adj                              ;Bavarian;Bairische;;;;
+k_emf_franconia                                ;Franconia;Franken;;;;
+k_emf_franconia_adj                            ;Franconian;Fränkische;;;;
+k_emf_lower_lorraine                           ;Lorraine;Lothringen;;;;
+k_emf_lower_lorraine_adj                       ;Lorrainian;Lothringische;;;;
+k_emf_saxony                                   ;Saxony  ;Sachsen;;;;
+k_emf_saxony_adj                               ;Saxon   ;Sächsische;;;;
+k_emf_schwaben                                 ;Swabia  ;Schwaben;;;;
+k_emf_schwaben_adj                             ;Swabian ;Schwäbische;;;;
+k_emf_barcelona_aragon                         ;        ;CoA: Aragon: de Barcelona;;;;
+k_emf_barcelona_aragon_adj                     ;        ;;;;;
+k_emf_english_england                          ;        ;CoA: England;;;;
+k_emf_english_england_adj                      ;        ;;;;;
+k_emf_norman_england                           ;        ;CoA: England: norman;;;;
+k_emf_norman_england_adj                       ;        ;;;;;
+k_emf_saxon_england                            ;        ;CoA: England: saxon/anglonorse;;;;
+k_emf_saxon_england_adj                        ;        ;;;;;
 #1_emf_tournament.csv;;;;;
 #1_emf_traits.csv;;;;;
 #1_emf_vanilla.csv;;;;;
@@ -1586,7 +1581,7 @@ hip_culture                                    ;        ;Great Pesedjet;;;;
 emperor_female_hip_culture                     ;        ;Queen;;;;
 emperor_hip_culture                            ;        ;Queen;;;;
 hip_religion_group                             ;        ;Nu;;;;
-hip_religion                                   ;Ma’at   ;Ma'at;;;;
+hip_religion                                   ;Ma’at   ;Ma’at;;;;
 e_hip                                          ;        ;Duat;;;;
 e_hip_adj                                      ;        ;Atumic;;;;
 e_null                                         ;        ; ;;;;
