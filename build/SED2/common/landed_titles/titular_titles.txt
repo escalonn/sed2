@@ -101,7 +101,7 @@ e_khazaria = { # Qasarstan
 	dalmatian = "Gazaria"
 } # end e_khazaria
 
-e_khitan = { # Kara Khitai
+e_khitan = { # Huldji Qidai Gur # Kara Khitai
 	color = { 130 10 50 }
 	capital = 1572 # Balasaghun
 	allow = {
@@ -189,7 +189,7 @@ e_kaleva = { # Kalevala
 
 k_geats = { # Gautaríki
 	color = { 208 191 99 }
-	capital = 293 # Östergötland
+	capital = 293 # Ostrogothia # Östergötland
 	allow = {
 		independent = yes
 		OR = {
@@ -211,7 +211,7 @@ k_geats = { # Gautaríki
 		}
 		title_king_basic_allow = yes
 	}
-} # end k_geats
+}
 
 e_germany = { # Germania
 	color = { 190 200 190 }
@@ -254,7 +254,7 @@ d_lauenburg = { # Sachsen-Lauenburg
 }
 
 d_sangermano = { # Terra Sancti Benedicti
-	capital = 1318 # Aquino # Sangermano
+	capital = 1318 # Bosco # Aquino # Sangermano
 	color = { 77 127 196 }
 	color2 = { 255 255 255 }
 	allow = {
@@ -268,7 +268,7 @@ d_sangermano = { # Terra Sancti Benedicti
 k_salerno = { # Principato di Salerno
 	color = { 0 132 250 }
 	culture = langobardisch
-	capital = 336 # Salerno
+	capital = 336 # Principato # Salerno
 	allow = {
 		hidden_tooltip = {
 			OR = {
@@ -283,10 +283,10 @@ k_salerno = { # Principato di Salerno
 	short_name = yes
 }
 
-d_krain = { # Marcher County of Krain/Carniola
+d_krain = { # Krain # Marcher County of Krain/Carniola
 	color = { 4 33 122 }
 	culture = german
-	capital = 457 # Krain
+	capital = 457 # Carniola # Krain
 	allow = {
 		culture_group = central_germanic
 		religion_group = christian
@@ -510,7 +510,7 @@ d_rhodos = { # Rhodos
 
 d_norman_apulia = { # Apulia
 	color = { 124 30 77 }
-	capital = 347 # Apulia
+	capital = 347 # Melfi # Apulia
 	allow = {
 		culture = frankish
 		religion_group = christian
@@ -636,7 +636,7 @@ k_iberia = { # Kartli
 
 d_dahlak = { # Dahlak
 	color = { 255 164 17 }
-	capital = 1509 # Dahlak
+	capital = 1509 # Saho # Dahlak
 	allow = { always = no }
 }
 
@@ -740,7 +740,7 @@ e_wendish_empire = { # Wendish Empire
 	moravian = "Great Moravia"
 	karantanci = "Wends"
 	croatian = "Wends"
-}
+} # end e_wendish_empire
 
 # Ireland
 d_breifne = { # Breifne

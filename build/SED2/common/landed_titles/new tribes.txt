@@ -161,30 +161,30 @@ d_sambians = { # Sembai
 ######################################
 # Kingdom tier
 ######################################
-k_oborites = {
+k_oborites = { # Obodriti
 	color = { 41 85 98 }
-	capital = 260 # Mecklemburg
+	capital = 260 # Mecklenburg # Mecklemburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-k_pommeranians = {
+k_pommeranians = { # Pomorzani
 	color = { 11 5 129 }
-	capital = 1313 # Belgard/Kolberg
+	capital = 1313 # Belgard # Kolberg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-k_lutici = {
+k_lutici = { # Ljutici
 	color = { 22 57 233 }
 	capital = 365 # Brandenburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-k_sorbs = {
+k_sorbs = { # Sorbi
 	color = { 209 147 2 }
-	capital = 364 # Oberlaustiz
+	capital = 364 # Oberlausitz
 	culture = pommeranian
 	allow = { always = no }
 }
@@ -192,14 +192,14 @@ k_sorbs = {
 ######################################
 # Lutici tribes
 #####
-d_hevelli = {
+d_hevelli = { # Hawolani
 	color = { 66 35 86 }
 	capital = 365 # Brandenburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_sprevani = {
+d_sprevani = { # Sprewjani
 	color = { 111 55 139 }
 	capital = 1064 # Niederlausitz
 	culture = pommeranian
@@ -207,42 +207,42 @@ d_sprevani = {
 }
 
 # Dossanen/Doxani/Dasseri/Desseri
-d_doxani = {
+d_doxani = { # Dossani
 	color = { 88 55 100 }
 	capital = 1074 # Magdeburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_lunkini = {
+d_lunkini = { # Glinjani
 	color = { 14 51 79 }
 	capital = 982 # Prignitz
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_circipanes = {
+d_circipanes = { # Czerzpjani
 	color = { 33 72 55 }
 	capital = 308 # Gützkow
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_kessians = {
+d_kessians = { # Chyzani
 	color = { 94 125 49 }
 	capital = 306 # Rostock
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_readrians = {
+d_readrians = { # Ratari
 	color = { 66 88 9 }
 	capital = 307 # Werle
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_tollensians = {
+d_tollensians = { # Dolenci
 	color = { 12 81 22 }
 	capital = 1505 # Barth
 	culture = pommeranian
@@ -250,14 +250,14 @@ d_tollensians = {
 }
 
 # Zamzizi/Zamcici/Zemzizi
-d_rani = {
+d_rani = { # Rujani
 	color = { 76 51 33 }
-	capital = 304 # Rugen
+	capital = 304 # Rügen # Rugen
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_veleti = { # Wilzi
+d_veleti = { # Wilci # Wilzi
 	color = { 115 92 133 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -266,7 +266,7 @@ d_veleti = { # Wilzi
 	allow = { always = no }
 }
 
-d_wolinians = { # Velunzani
+d_wolinians = { # Wolinjani # Velunzani
 	color = { 115 92 56 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -278,35 +278,35 @@ d_wolinians = { # Velunzani
 ######################################
 # Oborite tribes
 #####
-d_oborites = {
+d_oborites = { # Obodriti
 	color = { 131 66 114 }
-	capital = 260 # Mecklemburg
+	capital = 260 # Mecklenburg # Mecklemburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_wagrians = {
+d_wagrians = { # Wajiri
 	color = { 199 155 11 }
-	capital = 1066 # Wagrinen
+	capital = 1066 # Wagrien # Wagrinen
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_drevani = {
+d_drevani = { # Drewani
 	color = { 141 55 179 }
 	capital = 1053 # Dannenberg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_travnjane = {
+d_travnjane = { # Trawnjani
 	color = { 41 175 201 }
 	capital = 1098 # Lauenburg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_warnabi = {
+d_warnabi = { # Warnowi
 	color = { 118 65 99 }
 	capital = 951 # Schwerin
 	culture = pommeranian
@@ -316,30 +316,30 @@ d_warnabi = {
 ######################################
 # Pomeranian tribes
 #####
-d_pommeranians = {
+d_pommeranians = { # Pomorzani
 	color = { 87 23 83 }
-	capital = 1313 # Belgard/Kolberg
+	capital = 1313 # Belgard # Kolberg
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_prissani = {
+d_prissani = { # Przicani
 	color = { 160 202 210 }
 	capital = 366 # Stettin
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_slovinici = {
+d_slovinici = { # Slowinci
 	color = { 79 51 28 }
 	capital = 367 # Schlawe-Stolp
 	culture = pommeranian
 	allow = { always = no }
 }
 
-d_kashubians = {
+d_kashubians = { # Kassubi
 	color = { 11 35 210 }
-	capital = 368 # Danzig/Gdansk
+	capital = 368 # Danzig # Gdansk
 	culture = pommeranian
 	allow = { always = no }
 }
@@ -347,7 +347,7 @@ d_kashubians = {
 ########################################
 # Sorbs
 #########
-d_chutizi = { # Chutizi
+d_chutizi = { # Chutici # Chutizi
 	color = { 81 126 201 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -356,7 +356,7 @@ d_chutizi = { # Chutizi
 	allow = { always = no }
 }
 
-d_leubuzzi = { # Licicaviki
+d_leubuzzi = { # Lestkowici # Licicaviki
 	color = { 191 188 175 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -365,7 +365,7 @@ d_leubuzzi = { # Licicaviki
 	allow = { always = no }
 }
 
-d_glomacze = { # Glomacze # Aka Dolomici
+d_glomacze = { # Glomaci # Glomacze # Aka Dolomici
 	color = { 215 143 156 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -374,7 +374,7 @@ d_glomacze = { # Glomacze # Aka Dolomici
 	allow = { always = no }
 }
 
-d_lusatians = { #
+d_lusatians = { # Lusitzi
 	color = { 76 45 37 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -383,7 +383,7 @@ d_lusatians = { #
 	allow = { always = no }
 }
 
-d_nizzi = { #
+d_nizzi = { # Niccici
 	color = { 45 25 88 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -392,7 +392,7 @@ d_nizzi = { #
 	allow = { always = no }
 }
 
-d_milceni = { #
+d_milceni = { # Milcani
 	color = { 56 37 19 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -401,7 +401,7 @@ d_milceni = { #
 	allow = { always = no }
 }
 
-d_nudzici = { #
+d_nudzici = { # Nudici
 	color = { 48 180 110 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -410,7 +410,7 @@ d_nudzici = { #
 	allow = { always = no }
 }
 
-d_nisan = { #
+d_nisan = { # Nizani
 	color = { 65 205 30 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -419,7 +419,7 @@ d_nisan = { #
 	allow = { always = no }
 }
 
-d_coledizi = { #
+d_coledizi = { # Koledici
 	color = { 67 88 10 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -1410,7 +1410,7 @@ d_sala = { # Sala
 ####
 # Barghawata
 ####
-d_barghawata = { # Sala
+d_barghawata = { # Tamasna # Sala
 	color = { 35 160 62 }
 	color2 = { 255 255 255 }
 	culture = masmuda

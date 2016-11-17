@@ -5816,12 +5816,14 @@ c_grisons                       ;greek              ;        ;Augousta Praitopia
 c_grisons                       ;roman              ;        ;Augusta Praetoria
 c_vercelli                      ;greek              ;        ;Ouerkellai
 c_vercelli                      ;roman              ;        ;Vercellae
-d_saluzzo                       ;greek              ;Alpes Cottiae;Alpes Cottiae
-d_saluzzo                       ;roman              ;Alpes Cottiae;Alpes Cottiae
+d_saluzzo                       ;greek              ;Alpes Maritimae;Alpes Maritimae
+d_saluzzo                       ;roman              ;Alpes Maritimae;Alpes Maritimae
+c_ceva                          ;greek              ;        ;Ceba
+c_ceva                          ;roman              ;        ;Ceba
 c_monferrato                    ;greek              ;Asti    ;Asta
 c_monferrato                    ;roman              ;Asti    ;Hasta
-c_bosco                         ;greek              ;        ;Bobion
-c_bosco                         ;roman              ;        ;Bobium
+c_bosco                         ;greek              ;Acqui   ;Akouai Statiella
+c_bosco                         ;roman              ;Acqui   ;Aquae Statiellae
 c_luni                          ;greek              ;        ;Louna
 c_luni                          ;roman              ;        ;Luna
 c_gavi                          ;greek              ;Bobbio  ;Bobion
@@ -5844,14 +5846,14 @@ c_modena                        ;greek              ;Modena  ;Moutine
 c_modena                        ;roman              ;Modena  ;Mutina
 c_reggionellemilia              ;greek              ;        ;Région Lepidon
 c_reggionellemilia              ;roman              ;        ;Regium Lepidum
+c_frignano                      ;greek              ;Pistoia ;Pistoria
+c_frignano                      ;roman              ;Pistoia ;Pistoria
 d_mantua                        ;greek              ;        ;Mantoua
 c_mantua                        ;greek              ;Mantua  ;Mantoua
 d_lucca                         ;greek              ;        ;Louka
 d_lucca                         ;roman              ;        ;Luca
 c_lucca                         ;greek              ;        ;Louka
 c_lucca                         ;roman              ;        ;Luca
-c_prato                         ;greek              ;Pistoia ;Pistoria
-c_prato                         ;roman              ;Pistoia ;Pistoria
 c_biserno                       ;greek              ;Volterra;Ouolaterrai
 c_biserno                       ;roman              ;Volterra;Volaterrae
 d_toscana                       ;greek              ;Tuscia  ;Tuscia
@@ -5865,10 +5867,14 @@ d_siena                         ;greek              ;        ;Saena
 d_siena                         ;roman              ;        ;Saena
 c_siena                         ;greek              ;        ;Saena
 c_siena                         ;roman              ;        ;Saena
+c_scialenga                     ;greek              ;Chiusi  ;Klysion
+c_scialenga                     ;roman              ;Chiusi  ;Clusium
 d_sovana                        ;greek              ;        ;Souana
 d_sovana                        ;roman              ;        ;Suana
 c_piombino                      ;greek              ;Rusellae;Rhousellai
 c_piombino                      ;roman              ;Rusellae;Rusellae
+c_orbetello                     ;greek              ;Cosa    ;Cosa
+c_orbetello                     ;roman              ;Cosa    ;Cosa
 d_pisa                          ;greek              ;        ;Pisai
 d_pisa                          ;roman              ;        ;Pisae
 c_pisa                          ;greek              ;        ;Pisai
@@ -5880,6 +5886,10 @@ k_patrimoniumpetri              ;roman              ;Exarchate of Ravenna;Exarch
 d_latium                        ;greek              ;Lazio   ;lazialee
 c_roma                          ;greek              ;        ;Rhome
 c_tusculum                      ;greek              ;        ;Touskoulon
+c_segni                         ;greek              ;        ;Signia
+c_segni                         ;roman              ;        ;Signia
+c_sabina                        ;greek              ;Rieti   ;Reate
+c_sabina                        ;roman              ;Rieti   ;Reate
 c_orvieto                       ;greek              ;Volsinii;Ouolsinion
 c_orvieto                       ;roman              ;Volsinii;Volsinii
 d_ravenna                       ;greek              ;Flaminia et Picenum;Flaminia et Picenum
@@ -5906,6 +5916,8 @@ c_urbino                        ;greek              ;Urbino  ;Ourbinon
 c_urbino                        ;roman              ;Urbino  ;Urbinium
 c_rimini                        ;greek              ;        ;Ariminon
 c_rimini                        ;roman              ;        ;Ariminum
+c_montefeltro                   ;greek              ;        ;Monteferetra
+c_montefeltro                   ;roman              ;        ;Monteferetra
 c_ferrara                       ;greek              ;Ferrara ;Ferraria
 c_ferrara                       ;roman              ;Ferrara ;Ferraria
 c_este                          ;greek              ;Ateste  ;Ateste
@@ -5915,6 +5927,7 @@ d_ancona                        ;roman              ;Picenum ;Picenum Suburbicar
 c_ancona                        ;greek              ;        ;Ankon
 d_corsica                       ;greek              ;        ;Korsís
 d_corsica                       ;roman              ;        ;Corsicae
+c_cinarca                       ;greek              ;Ajaccio ;Agiation
 d_sardinia                      ;greek              ;        ;Sardo
 d_sardinia                      ;roman              ;        ;Sardiniae
 c_logudoro                      ;title              ;GIUDICATO;GIUDICATO
@@ -5974,6 +5987,8 @@ c_benevento                     ;greek              ;Benevento;Beneuenton
 c_benevento                     ;roman              ;Benevento;Beneventum
 d_atri                          ;greek              ;        ;Adria
 c_aprutium                      ;greek              ;Atri    ;Adria
+c_manopello                     ;greek              ;Aternum ;Áternon
+c_manopello                     ;roman              ;Aternum ;Aternum
 d_calabria                      ;greek              ;        ;Kalabrias
 d_calabria                      ;roman              ;Lucania et Brutii;Lucania et Brutii
 c_consenza                      ;greek              ;Cosenza ;Konsentia
