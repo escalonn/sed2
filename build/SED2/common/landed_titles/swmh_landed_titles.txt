@@ -4213,6 +4213,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_hephaistia = {}
 				b_samothrake = {}
 				b_imbros = {}
+				b_skyros = {}
 			} # end c_lesbos
 		} # end d_aegean_islands
 		d_thrace = { # Thrakes
@@ -4824,6 +4825,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_karystos = {}
 				b_oreoi = {}
 				b_armena = {}
+				b_skopelos = {}
 			} # end c_euboia
 			c_atheniai = { # Attika (482)
 				color = { 215 75 167 }
@@ -20880,10 +20882,13 @@ e_persia = { # Érán
 				pahlavi = "Nahavand"
 				roman = "Nahavand"
 				b_nihavand = {}
-				b_burujerd = {}
-				b_lishtar = {}
 				b_khurramabad = {}
+				b_burujerd = {}
+				b_dorood = {}
+				b_alashtar = {}
+				b_aligoodarz = {}
 				b_burdj = {}
+				#b_lishtar = {}
 			}
 		} # end d_jebal
 		d_khoar = { # Khoar
@@ -21878,18 +21883,14 @@ e_persia = { # Érán
 		d_kermanshah = { # Lorestan # Luristan
 			color = { 58 83 130 }
 			color2 = { 255 255 255 }
-			capital = 657 # Luristan
+			capital = 688 # Kermanshah
 			c_luristan = { # Luristan (657)
 				color = { 76 113 182 }
 				color2 = { 255 255 255 }
 				b_dezbar = {}
-				#b_khorramabad = { pahlavi = "Shapur Khwast" }
-				#b_borujerd = {}
-				b_aligoodarz = {}
 				b_koohdasht = {}
-				b_alashtar = {}
-				b_dorood = {}
 				b_poledokhtar = {}
+				b_abdanan = {}
 			}
 			c_kermanshah = { # Kermanshah (688)
 				color = { 74 111 180 }
