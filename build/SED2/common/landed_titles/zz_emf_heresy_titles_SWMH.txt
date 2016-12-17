@@ -1,10 +1,9 @@
 # -*- ck2.landed_titles -*-
 
-d_apostolic = {
+d_apostolic = { # The Apostolic Church
 	color = { 51 25 0 }
 	color2 = { 230 220 108 }
 	capital = 1531 # Varazhnunik
-	allow = { always = no }
 	# Always exists
 	landless = yes
 	dignity = 80 # Counted as having this many more counties than it does
@@ -14,6 +13,7 @@ d_apostolic = {
 	culture = armenian
 	# Cannot be held as a secondary title
 	primary = yes
+	allow = { always = no }
 	title = CATHOLICOS
 	foa = POPE_FOA
 	short_name = yes
@@ -25,10 +25,10 @@ d_apostolic = {
 	}
 }
 
-d_paulician = {
+d_paulician = { # The Paulician Patriarchate
 	color = { 195 130 157 }
 	color2 = { 255 255 255 }
-	capital = 944 # Tephrice
+	capital = 944 # Tephrike # Tephrice
 	# Always exists
 	landless = yes
 	primary = no

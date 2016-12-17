@@ -156,9 +156,108 @@ d_sambians = { # Sembai
 ######################################
 # West Slavic
 ######################################
-# Wendic tribes
+######################################
+# Wends
+######################################
+# Kingdom tier
+######################################
+k_oborites = { # Obodriti
+	color = { 41 85 98 }
+	capital = 260 # Mecklenburg # Mecklemburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+k_pommeranians = { # Pomorzani
+	color = { 11 5 129 }
+	capital = 1313 # Belgard # Kolberg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+k_lutici = { # Ljutici
+	color = { 22 57 233 }
+	capital = 365 # Brandenburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+k_sorbs = { # Sorbi
+	color = { 209 147 2 }
+	capital = 364 # Oberlausitz
+	culture = pommeranian
+	allow = { always = no }
+}
+
+######################################
+# Lutici tribes
 #####
-d_veleti = { # Wilzi
+d_hevelli = { # Hawolani
+	color = { 66 35 86 }
+	capital = 365 # Brandenburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_sprevani = { # Sprewjani
+	color = { 111 55 139 }
+	capital = 1064 # Niederlausitz
+	culture = pommeranian
+	allow = { always = no }
+}
+
+# Dossanen/Doxani/Dasseri/Desseri
+d_doxani = { # Dossani
+	color = { 88 55 100 }
+	capital = 1074 # Magdeburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_lunkini = { # Glinjani
+	color = { 14 51 79 }
+	capital = 982 # Prignitz
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_circipanes = { # Czerzpjani
+	color = { 33 72 55 }
+	capital = 308 # Gützkow
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_kessians = { # Chyzani
+	color = { 94 125 49 }
+	capital = 306 # Rostock
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_readrians = { # Ratari
+	color = { 66 88 9 }
+	capital = 307 # Werle
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_tollensians = { # Dolenci
+	color = { 12 81 22 }
+	capital = 1505 # Barth
+	culture = pommeranian
+	allow = { always = no }
+}
+
+# Zamzizi/Zamcici/Zemzizi
+d_rani = { # Rujani
+	color = { 76 51 33 }
+	capital = 304 # Rügen # Rugen
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_veleti = { # Wilci # Wilzi
 	color = { 115 92 133 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -167,7 +266,7 @@ d_veleti = { # Wilzi
 	allow = { always = no }
 }
 
-d_wolinians = { # Velunzani
+d_wolinians = { # Wolinjani # Velunzani
 	color = { 115 92 56 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -176,16 +275,88 @@ d_wolinians = { # Velunzani
 	allow = { always = no }
 }
 
-d_chutizi = { # Chutizi
+######################################
+# Oborite tribes
+#####
+d_oborites = { # Obodriti
+	color = { 131 66 114 }
+	capital = 260 # Mecklenburg # Mecklemburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_wagrians = { # Wajiri
+	color = { 199 155 11 }
+	capital = 1066 # Wagrien # Wagrinen
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_drevani = { # Drewani
+	color = { 141 55 179 }
+	capital = 1053 # Dannenberg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_travnjane = { # Trawnjani
+	color = { 41 175 201 }
+	capital = 1098 # Lauenburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_warnabi = { # Warnowi
+	color = { 118 65 99 }
+	capital = 951 # Schwerin
+	culture = pommeranian
+	allow = { always = no }
+}
+
+######################################
+# Pomeranian tribes
+#####
+d_pommeranians = { # Pomorzani
+	color = { 87 23 83 }
+	capital = 1313 # Belgard # Kolberg
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_prissani = { # Przicani
+	color = { 160 202 210 }
+	capital = 366 # Stettin
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_slovinici = { # Slowinci
+	color = { 79 51 28 }
+	capital = 367 # Schlawe-Stolp
+	culture = pommeranian
+	allow = { always = no }
+}
+
+d_kashubians = { # Kassubi
+	color = { 11 35 210 }
+	capital = 368 # Danzig # Gdansk
+	culture = pommeranian
+	allow = { always = no }
+}
+
+########################################
+# Sorbs
+#########
+d_chutizi = { # Chutici # Chutizi
 	color = { 81 126 201 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 310 # Anhalt
+	capital = 978 # Merseburg
 	allow = { always = no }
 }
 
-d_leubuzzi = { # Licicaviki
+d_leubuzzi = { # Lestkowici # Licicaviki
 	color = { 191 188 175 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
@@ -194,8 +365,35 @@ d_leubuzzi = { # Licicaviki
 	allow = { always = no }
 }
 
-d_glomacze = { # Glomacze # Aka Dolomici
+d_glomacze = { # Glomaci # Glomacze # Aka Dolomici
 	color = { 215 143 156 }
+	color2 = { 255 255 255 }
+	culture = pommeranian
+	#tribe = yes
+	capital = 998 # Voigtland
+	allow = { always = no }
+}
+
+d_lusatians = { # Lusitzi
+	color = { 76 45 37 }
+	color2 = { 255 255 255 }
+	culture = pommeranian
+	#tribe = yes
+	capital = 1064 # Niederlausitz
+	allow = { always = no }
+}
+
+d_nizzi = { # Niccici
+	color = { 45 25 88 }
+	color2 = { 255 255 255 }
+	culture = pommeranian
+	#tribe = yes
+	capital = 310 # Anhalt
+	allow = { always = no }
+}
+
+d_milceni = { # Milcani
+	color = { 56 37 19 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
@@ -203,24 +401,34 @@ d_glomacze = { # Glomacze # Aka Dolomici
 	allow = { always = no }
 }
 
-d_sorbs = { # Sorbs
-	color = { 170 205 110 }
+d_nudzici = { # Nudici
+	color = { 48 180 110 }
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 364 # Oberlausitz # Luzycka
+	capital = 1075 # Wittenberg
 	allow = { always = no }
 }
 
-#d_obotrites = { # Obotrites
-#	color = { 100 110 20 }
-#	color2 = { 255 255 255 }
-#	culture = pommeranian
-#	#tribe = yes
-#	capital = 260 # Mecklenburg
-#	allow = { always = no }
-#}
-###
+d_nisan = { # Nizani
+	color = { 65 205 30 }
+	color2 = { 255 255 255 }
+	culture = pommeranian
+	#tribe = yes
+	capital = 1077 # Brehna
+	allow = { always = no }
+}
+
+d_coledizi = { # Koledici
+	color = { 67 88 10 }
+	color2 = { 255 255 255 }
+	culture = pommeranian
+	#tribe = yes
+	capital = 954 # Zeitz
+	allow = { always = no }
+}
+
+#####
 # Polish tribes
 #####
 d_lendians = { # Ledzianie # aka Lechs
@@ -530,18 +738,17 @@ d_basmils = { # Bamils
 	title_prefix = Yabghuluq_OF
 }
 
-d_tukhsi = { # Tukhsi
-	color = { 147 21 39 }
-	#tribe = yes
-	culture = karluk
-	capital = 1572 # Balasaghun # Balasaghnun
-	allow = { always = no }
-	title = Yabghu
-	foa = Yabghu_FOA
-	title_prefix = Yabghuluq_OF
-}
-
-######################################
+#d_tukhsi = { # Tukhsi
+#	color = { 147 21 39 }
+#	#tribe = yes
+#	culture = karluk
+#	capital = 1572 # Balasaghun
+#	title = Yabghu
+#	foa = Yabghu_FOA
+#	title_prefix = Yabghuluq_OF
+#	allow = { always = no }
+#}
+#####################################
 # Qipchaq
 ######################################
 d_qipchaq = { # Qipchaq
@@ -884,9 +1091,8 @@ d_mordvins = { # Mokshet
 	bulgarian = "Mordvins"
 	sardinian = "Mordvins"
 	sicilian = "Mordvins"
-	corsican = "Mordvins"
-	central_italian = "Mordvins"
-	southern_italian = "Mordvins"
+	umbrian = "Mordvins"
+	laziale = "Mordvins"
 	neapolitan = "Mordvins"
 	tuscan = "Mordvins"
 	ligurian = "Mordvins"
@@ -897,7 +1103,7 @@ d_mordvins = { # Mokshet
 } # end d_mordvins
 
 d_burtas = { # Burtas
-	color = { 161 100 162 }
+	color = { 120 74 130 }
 	color2 = { 255 255 255 }
 	capital = 592 # Barysh
 	culture = mordvin
@@ -1174,6 +1380,42 @@ d_samoyeds = { # Sikhirti
 	culture = samoyed
 	#tribe = yes
 	capital = 397 # Ižva # Izhma
+	allow = { always = no }
+}
+
+####
+# Ghor
+####
+d_ghor = { # Ghór
+	color = { 205 205 85 }
+	color2 = { 255 255 255 }
+	culture = khorasani
+	#tribe = yes
+	capital = 1540 # Ghór
+	allow = { always = no }
+}
+
+####
+# Banu Ifran
+####
+d_sala = { # Sala
+	color = { 68 255 20 }
+	color2 = { 255 255 255 }
+	culture = zanata
+	#tribe = yes
+	capital = 1361 # Sala
+	allow = { always = no }
+}
+
+####
+# Barghawata
+####
+d_barghawata = { # Tamasna # Sala
+	color = { 35 160 62 }
+	color2 = { 255 255 255 }
+	culture = masmuda
+	#tribe = yes
+	capital = 844 # Asfî
 	allow = { always = no }
 }
 
