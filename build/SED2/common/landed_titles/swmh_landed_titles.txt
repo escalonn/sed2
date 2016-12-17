@@ -14614,11 +14614,11 @@ e_italy = { # Italia
 		d_modena = { # Modena
 			color = { 189 30 30 }
 			color2 = { 255 255 255 }
-			capital = 322 # Canossa
+			capital = 322 # Modena # Canossa
 			culture = italian
 			greek = "Modena"
 			roman = "Modena"
-			c_modena = { # Canossa (322)
+			c_modena = { # Modena (322) # Canossa
 				color = { 251 250 226 }
 				color2 = { 255 255 255 }
 				b_modena = {}
@@ -14698,7 +14698,7 @@ e_italy = { # Italia
 				b_certaldo = {}
 				b_vernio = {}
 			}
-			c_biserno = { # Biserno (1138)
+			c_biserno = { # Volterra (1138) # Biserno
 				color = { 243 253 231 }
 				color2 = { 255 255 255 }
 				b_volterra = {}
@@ -14825,34 +14825,34 @@ e_italy = { # Italia
 				b_campiglia = {}
 			}
 		}
-		d_firenze_republic = { # Florentine republic
+		d_firenze_republic = { # Firenze # Florentine republic
 			color = { 255 248 186 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 328 # Firenze
 			allow = { always = no }
-		} # end d_siena
-		d_lucca_republic = { # Luccan republic
+		}
+		d_lucca_republic = { # Lucca # Luccan republic
 			color = { 198 43 69 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 323 # Lucca
 			allow = { always = no }
-		} # end d_siena
-		d_arezzo_republic = { # Arentine republic
+		}
+		d_arezzo_republic = { # Arezzo # Arentine republic
 			color = { 76 124 69 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 1115 # Arezzo
 			allow = { always = no }
-		} # end d_siena
-		d_siena_republic = { # Sienese republic
+		}
+		d_siena_republic = { # Siena # Sienese republic
 			color = { 2 19 127 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 330 # Siena
 			allow = { always = no }
-		} # end d_siena
+		}
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
@@ -16673,7 +16673,7 @@ e_france = { # France
 				b_beaugency = {}
 				b_bonneval = {}
 			}
-		}
+		} # end d_blois
 		d_berry = { # Berry
 			color = { 200 49 110 }
 			color2 = { 255 255 255 }
@@ -19177,7 +19177,7 @@ e_spain = { # España
 				#}
 			} # end c_algeciras
 			c_cadiz = { # Carmona (165)
-				color = { 255 0 255 }
+				color = { 185 20 180 }
 				color2 = { 255 255 255 }
 				b_carmona = {}
 				b_ecija = {}
@@ -21287,7 +21287,7 @@ e_persia = { # Érán
 				#b_jajarm_arghyian = {} # ? possible duplicate
 				b_isfarain = {}
 			}
-			c_abivard = { # Abívard (629)
+			c_abivard = { # Abîvard (629) # Abívard
 				color = { 85 185 30 }
 				color2 = { 255 255 255 }
 				b_abivard = {}
@@ -21882,7 +21882,7 @@ e_persia = { # Érán
 				b_safata = {}
 			}
 		}
-		d_kermanshah = { # Lorestan # Luristan
+		d_kermanshah = { # Kermanshah # Lorestan # Luristan
 			color = { 58 83 130 }
 			color2 = { 255 255 255 }
 			capital = 688 # Kermanshah
@@ -21902,7 +21902,7 @@ e_persia = { # Érán
 				b_hulwan = {}
 				b_mahalkufa = {}
 			}
-		}
+		} # end d_kermanshah
 		d_baghdad = { # Baghdad
 			color = { 125 165 239 }
 			color2 = { 255 255 255 }
@@ -23189,7 +23189,7 @@ e_rajastan = { # Rajastan
 
 # All landed kingdom titles that have no de jure empire must go
 # into e_null, a clever solution to Paradox bugs.
-e_null = {
+e_null = { #
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
 	capital = 774 # Jérusalem # Jerusalem
@@ -25941,7 +25941,7 @@ e_null = {
 				b_uksalur = {}
 				b_kizilsu = {}
 			}
-		}
+		} # end d_kashgar
 		d_kucha = { # Kucha
 			color = { 255 220 80 }
 			color2 = { 255 255 255 }
