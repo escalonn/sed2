@@ -7810,7 +7810,7 @@ e_russia = { # Rus
 		allow = { title_king_basic_allow = yes }
 	} # end k_polotsk
 	k_ruthenia = { # Kiev
-		color = { 220 183 61 }
+		color = { 131 108 71 }
 		color2 = { 255 255 255 }
 		capital = 547 # Kiev
 		culture = russian
@@ -10468,6 +10468,7 @@ e_arabia = { # Arabian Empire
 			c_alexandria = { # Iskandarîya (802)
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
+				holy_site = syriac
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
@@ -20437,7 +20438,6 @@ e_africa = { # Africa
 		allow = { title_king_basic_allow = yes }
 	} # end k_mauretania
 	allow = {
-		religion_group = muslim
 		has_landed_title = k_mauretania
 		has_landed_title = k_africa
 		title_emperor_basic_allow = yes
@@ -21287,14 +21287,6 @@ e_persia = { # Érán
 				#b_jajarm_arghyian = {} # ? possible duplicate
 				b_isfarain = {}
 			}
-			c_abivard = { # Abîvard (629) # Abívard
-				color = { 85 185 30 }
-				color2 = { 255 255 255 }
-				b_abivard = {}
-				b_farava = {}
-				b_nasa = {}
-				b_akhor = {}
-			}
 			c_tus = { # Tus (632)
 				color = { 90 175 15 }
 				color2 = { 255 255 255 }
@@ -21349,6 +21341,14 @@ e_persia = { # Érán
 				b_mayhana = {}
 				b_dandankan = {}
 				b_mazduran = {}
+			}
+			c_abivard = { # Abîvard (629) # Abívard
+				color = { 85 185 30 }
+				color2 = { 255 255 255 }
+				b_abivard = {}
+				b_farava = {}
+				b_nasa = {}
+				b_akhor = {}
 			}
 			c_amol = { # Âmol (1543)
 				color = { 156 210 80 }
@@ -23692,6 +23692,7 @@ e_null = { #
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
+				holy_site = syriac
 				holy_site = pagan
 				holy_site = yazidi
 				holy_site = jewish
@@ -24045,6 +24046,7 @@ e_null = { #
 			c_antiocheia = { # Antioch (764)
 				color = { 106 191 44 }
 				color2 = { 255 255 255 }
+				holy_site = syriac
 				holy_site = orthodox
 				holy_site = miaphysite
 				holy_site = monophysite
@@ -24206,6 +24208,7 @@ e_null = { #
 			c_amida = { # Amida (683)
 				color = { 129 166 48 }
 				color2 = { 255 255 255 }
+				holy_site = syriac
 				andalusian_arabic = "Diyarbakir"
 				armenian = "Tigranocerta"
 				turkish = "Diyarbekir"
@@ -24294,6 +24297,7 @@ e_null = { #
 			c_mardin = { # Mardin (1239)
 				color = { 129 166 48 }
 				color2 = { 255 255 255 }
+				holy_site = syriac
 				holy_site = nestorian
 				b_maridin = {}
 				b_resaina = {}
