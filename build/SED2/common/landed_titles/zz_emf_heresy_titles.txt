@@ -260,6 +260,10 @@ d_syriac = { # Syriac Orthodox Church
 	# Cannot be held as a secondary title
 	primary = yes
 	allow = { always = no }
+	title = SYRIAC_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	dynasty_title_names = no
 }
 
 d_nabawiyya = { # The Nabawite Malikate
