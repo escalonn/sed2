@@ -2041,11 +2041,12 @@ e_hre = { # Heiliges Römisches Reich
 				b_vaucouleurs = {}
 				b_barlecomte = {}
 			}
-			c_pontamousson = { # Pont-á-Mousson (1028)
+			c_pontamousson = { # Mousson (1028)
 				color = { 111 111 111 }
 				color2 = { 255 255 255 }
-				b_pontamousson = {}
-				b_briey = {}
+				b_saintdizier = {} # Pont à Mousson but recycled vanilla tag for baronial CoA purpose
+				#b_briey = { german = "Brieg" }
+				b_mousson = {}
 				b_scaaarpone = {}
 				b_toul = {}
 			}
@@ -5634,11 +5635,8 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_melitene = {}
 				b_arca = {}
 				b_samosata = {}
-				b_corduene = {}
-				b_seneqerim = {}
-				b_arguvan = {}
-				b_kigi = {}
-				#b_yedisu = {}
+				b_qlaudia = {}
+				b_gubos = {}
 			} # end c_melitene
 		} # end d_melitene
 		allow = {
@@ -14243,6 +14241,24 @@ e_italy = { # Italia
 	color2 = { 255 255 255 }
 	capital = 235 # Burgaria # Milano # Lombardia
 	culture = italian
+	k_tuscany = {
+		color = { 59 59 119 }
+		color2 = { 255 255 255 }
+		capital = 328 # Firenze
+		culture = tuscan
+	}
+	k_tuscan_league = {
+		color = { 59 59 119 }
+		color2 = { 64 88 77 }
+		capital = 1137 # Prato
+		culture = tuscan
+	}
+	k_lombard_league = {
+		color = { 169 17 46 }
+		color2 = { 255 255 255 }
+		capital = 235 # Milano
+		culture = italian
+	}
 	k_genoa = { # Genoa
 		color = { 234 131 110 }
 		capital = 233 # Genoa # Genova
@@ -24322,6 +24338,7 @@ e_null = { #
 				b_jazirat = {}
 				b_barqaid = {}
 				b_faysabur = {}
+				b_fenek = {}
 			}
 			c_sinjar = { # Sinjar (711)
 				color = { 17 97 244 }

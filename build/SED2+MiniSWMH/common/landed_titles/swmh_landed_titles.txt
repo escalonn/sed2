@@ -1683,8 +1683,8 @@ e_hre = {
 			c_pontamousson = {
 				color = { 111 111 111 }
 				color2 = { 255 255 255 }
-				b_pontamousson = {}
-				b_briey = {}
+				b_saintdizier = {}
+				b_mousson = {}
 				b_scaaarpone = {}
 				b_toul = {}
 			}
@@ -5011,10 +5011,8 @@ e_byzantium = {
 				b_melitene = {}
 				b_arca = {}
 				b_samosata = {}
-				b_corduene = {}
-				b_seneqerim = {}
-				b_arguvan = {}
-				b_kigi = {}
+				b_qlaudia = {}
+				b_gubos = {}
 			}
 		}
 		allow = {
@@ -12521,6 +12519,24 @@ e_italy = {
 	color2 = { 255 255 255 }
 	capital = 235
 	culture = italian
+	k_tuscany = {
+		color = { 59 59 119 }
+		color2 = { 255 255 255 }
+		capital = 328
+		culture = tuscan
+	}
+	k_tuscan_league = {
+		color = { 59 59 119 }
+		color2 = { 64 88 77 }
+		capital = 1137
+		culture = tuscan
+	}
+	k_lombard_league = {
+		color = { 169 17 46 }
+		color2 = { 255 255 255 }
+		capital = 235
+		culture = italian
+	}
 	k_genoa = {
 		color = { 234 131 110 }
 		capital = 233
@@ -20049,6 +20065,7 @@ e_null = {
 				b_jazirat = {}
 				b_barqaid = {}
 				b_faysabur = {}
+				b_fenek = {}
 			}
 			c_sinjar = {
 				color = { 17 97 244 }
