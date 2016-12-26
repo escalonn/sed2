@@ -508,6 +508,15 @@ d_rhodos = { # Rhodos
 	title_prefix = CAESAR_OF
 }
 
+d_amiralarab = { # Amir-al-Arab
+	color = { 217 96 63 }
+	capital = 730 # Palmyra
+	allow = {
+		culture = bedouin_arabic
+		religion_group = muslim
+	}
+}
+
 d_norman_apulia = { # Apulia
 	color = { 124 30 77 }
 	capital = 347 # Melfi # Apulia
