@@ -43,9 +43,9 @@ def main():
     build_mini_lt = build / 'SED2+MiniSWMH/common/landed_titles'
     # build_emf_lt = build / 'SED2+EMF/common/landed_titles'
     # build_emfmini_lt = build / 'SED2+EMF+MiniSWMH/common/landed_titles'
-    while build.exists():
+    if build.exists():
         print('Removing old build...')
-        shutil.rmtree(str(build), ignore_errors=True)
+        shutil.rmtree(str(build))
     build_loc.mkdir(parents=True)
     build_lt.mkdir(parents=True)
     build_emf_loc.mkdir(parents=True)
