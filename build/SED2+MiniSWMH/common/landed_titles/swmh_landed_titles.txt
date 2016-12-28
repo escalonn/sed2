@@ -1683,8 +1683,8 @@ e_hre = {
 			c_pontamousson = {
 				color = { 111 111 111 }
 				color2 = { 255 255 255 }
-				b_saintdizier = {}
-				b_mousson = {}
+				b_pontamousson = {}
+				b_briey = {}
 				b_scaaarpone = {}
 				b_toul = {}
 			}
@@ -2920,6 +2920,9 @@ e_hre = {
 				color = { 224 249 237 }
 				color2 = { 255 255 255 }
 				culture = karantanci
+				corsican = Merano
+				central_italian = Merano
+				southern_italian = Merano
 				b_mitterburg = {}
 				b_motovun = {}
 				b_pican = {}
@@ -2951,10 +2954,10 @@ e_hre = {
 				b_aquileia = {}
 				b_udine = {}
 				b_motta = {}
+				b_concordia = {}
 				b_ciridale = {}
 				b_tarcento = {}
 				b_pieve = {}
-				b_portoguaro = {}
 			}
 			allow = {
 				religion_group = christian
@@ -3527,6 +3530,9 @@ e_byzantium = {
 		color2 = { 23 255 255 }
 		capital = 496
 		culture = greek
+		corsican = Tessalonica
+		central_italian = Tessalonica
+		southern_italian = Tessalonica
 		orthodox = 5000
 		catholic = 2000
 		zoroastrian_group = 100
@@ -3535,6 +3541,9 @@ e_byzantium = {
 			color = { 104 8 103 }
 			color2 = { 255 255 255 }
 			capital = 484
+			corsican = dell'arcipelago
+			central_italian = dell'arcipelago
+			southern_italian = dell'arcipelago
 			sardinian = "The Archipelago"
 			sicilian = "The Archipelago"
 			umbrian = "The Archipelago"
@@ -3574,6 +3583,9 @@ e_byzantium = {
 			c_naxos = {
 				color = { 149 57 117 }
 				color2 = { 255 255 255 }
+				corsican = Nasso
+				central_italian = Nasso
+				southern_italian = Nasso
 				sardinian = "Naxos"
 				sicilian = "Naxos"
 				umbrian = "Naxos"
@@ -3585,12 +3597,36 @@ e_byzantium = {
 				italian = "Naxos"
 				venetian = "Naxos"
 				dalmatian = "Naxos"
-				b_naxos = {}
-				b_paros = {}
-				b_thera = {}
-				b_andros = {}
-				b_syros = {}
-				b_mykonos = {}
+				b_naxos = {
+					corsican = Nasso
+					central_italian = Nasso
+					southern_italian = Nasso
+				}
+				b_paros = {
+					corsican = Pari
+					central_italian = Pari
+					southern_italian = Pari
+				}
+				b_thera = {
+					corsican = "Santa Irene"
+					central_italian = "Santa Irene"
+					southern_italian = "Santa Irene"
+				}
+				b_andros = {
+					corsican = Andria
+					central_italian = Andria
+					southern_italian = Andria
+				}
+				b_syros = {
+					corsican = Suda
+					central_italian = Suda
+					southern_italian = Suda
+				}
+				b_mykonos = {
+					corsican = Micolí
+					central_italian = Micolí
+					southern_italian = Micolí
+				}
 			}
 			c_chios = {
 				color = { 243 48 177 }
@@ -3603,6 +3639,9 @@ e_byzantium = {
 			c_lesbos = {
 				color = { 153 61 121 }
 				color2 = { 255 255 255 }
+				corsican = Lesbos
+				central_italian = Lesbos
+				southern_italian = Lesbos
 				turkish = "Lesbos"
 				turkmen = "Lesbos"
 				oghuz = "Lesbos"
@@ -3624,7 +3663,6 @@ e_byzantium = {
 				b_hephaistia = {}
 				b_samothrake = {}
 				b_imbros = {}
-				b_skyros = {}
 			}
 		}
 		d_thrace = {
@@ -3643,8 +3681,16 @@ e_byzantium = {
 				oghuz = "Gelibolu"
 				pecheneg = "Gelibolu"
 				b_selymbria = {}
-				b_raidestos = {}
-				b_herakleiaperinthos = {}
+				b_raidestos = {
+					corsican = Rodosto
+					central_italian = Rodosto
+					southern_italian = Rodosto
+				}
+				b_herakleiaperinthos = {
+					corsican = Heraclea
+					central_italian = Heraclea
+					southern_italian = Heraclea
+				}
 				b_gallipoli = {}
 				b_ainos = {}
 				b_tzouroulos = {}
@@ -3660,6 +3706,7 @@ e_byzantium = {
 				shiite = 100
 				top_de_jure_capital = yes
 				holy_site = orthodox
+				holy_site = nestorian
 				holy_site = waldensian
 				holy_site = maronite
 				holy_site = bogomilist
@@ -3690,7 +3737,11 @@ e_byzantium = {
 				color2 = { 255 255 255 }
 				b_arkadiopolis = {}
 				b_agathopolis = {}
-				b_brysis = {}
+				b_brysis = {
+					corsican = Verissa
+					central_italian = Verissa
+					southern_italian = Verissa
+				}
 				b_bizye = {}
 				b_bulgarophygon = {}
 				b_medea = {}
@@ -3749,6 +3800,9 @@ e_byzantium = {
 			color = { 205 22 30 }
 			color2 = { 255 255 255 }
 			capital = 490
+			corsican = Tessalonica
+			central_italian = Tessalonica
+			southern_italian = Tessalonica
 			frankish = "Thessalonica"
 			norman = "Thessalonica"
 			turkish = "Selânik"
@@ -3780,6 +3834,9 @@ e_byzantium = {
 			c_thessalonike = {
 				color = { 195 25 136 }
 				color2 = { 255 255 255 }
+				corsican = Tessalonica
+				central_italian = Tessalonica
+				southern_italian = Tessalonica
 				holy_site = hellenic_pagan
 				frankish = "Thessalonica"
 				norman = "Thessalonica"
@@ -3809,7 +3866,11 @@ e_byzantium = {
 				dalmatian = "Thessalonica"
 				b_kastronthessalonika = {}
 				b_hagiosdemetrios = {}
-				b_thessaloniki = {}
+				b_thessaloniki = {
+					corsican = Tessalonica
+					central_italian = Tessalonica
+					southern_italian = Tessalonica
+				}
 				b_thesedessa = {}
 				b_langadas = {}
 				b_gynaikokastron = {}
@@ -3828,6 +3889,9 @@ e_byzantium = {
 			color = { 64 90 64 }
 			color2 = { 255 255 20 }
 			capital = 1224
+			corsican = Neopatras
+			central_italian = Neopatras
+			southern_italian = Neopatras
 			frankish = "Neopatria"
 			norman = "Neopatria"
 			catalan = "Neopatria"
@@ -3849,6 +3913,9 @@ e_byzantium = {
 			c_thessalia = {
 				color = { 198 28 139 }
 				color2 = { 255 255 255 }
+				corsican = Tessaglia
+				central_italian = Tessaglia
+				southern_italian = Tessaglia
 				b_larissa = {}
 				b_elasson = {}
 				b_platamon = {}
@@ -3858,14 +3925,29 @@ e_byzantium = {
 			c_demetrias = {
 				color = { 209 69 161 }
 				color2 = { 255 255 255 }
+				corsican = Dimitrias
+				central_italian = Dimitrias
+				southern_italian = Dimitrias
 				turkish = "Volos"
 				turkmen = "Volos"
 				oghuz = "Volos"
 				pecheneg = "Volos"
-				b_demetrias = {}
-				b_halmyros = {}
+				b_demetrias = {
+					corsican = Dimitrias
+					central_italian = Dimitrias
+					southern_italian = Dimitrias
+				}
+				b_halmyros = {
+					corsican = Almiró
+					central_italian = Almiró
+					southern_italian = Almiró
+				}
 				b_velestino = {}
-				b_lekhonia = {}
+				b_lekhonia = {
+					corsican = Liconia
+					central_italian = Liconia
+					southern_italian = Liconia
+				}
 			}
 			c_upper_wallachia = {
 				color = { 212 72 164 }
@@ -3882,11 +3964,30 @@ e_byzantium = {
 			c_neopatras = {
 				color = { 212 72 164 }
 				color2 = { 255 255 255 }
-				b_zetounion = {}
+				corsican = Neopatras
+				central_italian = Neopatras
+				southern_italian = Neopatras
+				b_zetounion = {
+					corsican = Citó
+					central_italian = Citó
+					southern_italian = Citó
+				}
 				b_pharsalos = {}
-				b_neopatras = {}
-				b_domokos = {}
-				b_siderokastronthessaly = {}
+				b_neopatras = {
+					corsican = "La Pátria"
+					central_italian = "La Pátria"
+					southern_italian = "La Pátria"
+				}
+				b_domokos = {
+					corsican = Domaco
+					central_italian = Domaco
+					southern_italian = Domaco
+				}
+				b_siderokastronthessaly = {
+					corsican = Siderocastro
+					central_italian = Siderocastro
+					southern_italian = Siderocastro
+				}
 			}
 		}
 		allow = {
@@ -3901,6 +4002,9 @@ e_byzantium = {
 		color = { 60 126 200 }
 		color2 = { 23 255 255 }
 		culture = greek
+		corsican = Epirus
+		central_italian = Epirus
+		southern_italian = Epirus
 		capital = 473
 		orthodox = 400
 		catholic = 100
@@ -3909,6 +4013,9 @@ e_byzantium = {
 			color = { 38 38 38 }
 			color2 = { 255 255 255 }
 			capital = 470
+			corsican = Durazzo
+			central_italian = Durazzo
+			southern_italian = Durazzo
 			arberian = "Durrës"
 			turkish = "Durrës"
 			turkmen = "Durrës"
@@ -3930,6 +4037,9 @@ e_byzantium = {
 			c_dyrrachion = {
 				color = { 39 39 33 }
 				color2 = { 255 255 255 }
+				corsican = Durazzo
+				central_italian = Durazzo
+				southern_italian = Durazzo
 				arberian = "Durrës"
 				turkish = "Durrës"
 				turkmen = "Durrës"
@@ -3948,8 +4058,16 @@ e_byzantium = {
 				italian = "Durazzo"
 				venetian = "Durazzo"
 				dalmatian = "Durazzo"
-				b_durazzo = {}
-				b_lezhe = {}
+				b_durazzo = {
+					corsican = Durazzo
+					central_italian = Durazzo
+					southern_italian = Durazzo
+				}
+				b_lezhe = {
+					corsican = Alessio
+					central_italian = Alessio
+					southern_italian = Alessio
+				}
 				b_chounavia = {}
 				b_spinarizza = {}
 				b_graditzion = {}
@@ -3961,15 +4079,30 @@ e_byzantium = {
 				turkmen = "Albania"
 				oghuz = "Albania"
 				pecheneg = "Albania"
-				b_kruje = {}
-				b_berat = {}
+				b_kruje = {
+					corsican = Croia
+					central_italian = Croia
+					southern_italian = Croia
+				}
+				b_berat = {
+					corsican = "Belgrad di Romania"
+					central_italian = "Belgrad di Romania"
+					southern_italian = "Belgrad di Romania"
+				}
 				b_petrela = {}
 				b_hiskampis = {}
-				b_glavinitza = {}
+				b_glavinitza = {
+					corsican = Glavinizza
+					central_italian = Glavinizza
+					southern_italian = Glavinizza
+				}
 			}
 			c_valona = {
 				color = { 143 33 105 }
 				color2 = { 255 255 255 }
+				corsican = Valona
+				central_italian = Valona
+				southern_italian = Valona
 				arberian = "Vlorë"
 				turkish = "Vlorë"
 				turkmen = "Vlorë"
@@ -3986,8 +4119,16 @@ e_byzantium = {
 				venetian = "Valona"
 				dalmatian = "Valona"
 				b_kanina = {}
-				b_valona = {}
-				b_himara = {}
+				b_valona = {
+					corsican = Valona
+					central_italian = Valona
+					southern_italian = Valona
+				}
+				b_himara = {
+					corsican = Himara
+					central_italian = Himara
+					southern_italian = Himara
+				}
 				b_sopot = {}
 			}
 		}
@@ -3995,6 +4136,9 @@ e_byzantium = {
 			color = { 48 111 135 }
 			color2 = { 255 255 20 }
 			capital = 473
+			corsican = Epirus
+			central_italian = Epirus
+			southern_italian = Epirus
 			frankish = "Epirus"
 			norman = "Epirus"
 			turkish = "Ioannina"
@@ -4014,18 +4158,40 @@ e_byzantium = {
 			c_epeiros = {
 				color = { 138 67 113 }
 				color2 = { 255 255 255 }
+				corsican = Epirus
+				central_italian = Epirus
+				southern_italian = Epirus
 				turkish = "Ioannina"
 				turkmen = "Ioannina"
 				oghuz = "Ioannina"
-				b_butrint = {}
-				b_ioannina = {}
+				b_butrint = {
+					corsican = Butrinto
+					central_italian = Butrinto
+					southern_italian = Butrinto
+				}
+				b_ioannina = {
+					corsican = Giànnina
+					central_italian = Giànnina
+					southern_italian = Giànnina
+				}
 				b_dryinoupolis = {}
-				b_gjirokaster = {}
-				b_igoumenitsa = {}
+				b_gjirokaster = {
+					corsican = Argirocastro
+					central_italian = Argirocastro
+					southern_italian = Argirocastro
+				}
+				b_igoumenitsa = {
+					corsican = Gomenizza
+					central_italian = Gomenizza
+					southern_italian = Gomenizza
+				}
 			}
 			c_hellas = {
 				color = { 212 72 164 }
 				color2 = { 255 255 255 }
+				corsican = Lepanto
+				central_italian = Lepanto
+				southern_italian = Lepanto
 				turkish = "Inebahti"
 				turkmen = "Inebahti"
 				oghuz = "Inebahti"
@@ -4040,14 +4206,33 @@ e_byzantium = {
 				italian = "Lepanto"
 				venetian = "Lepanto"
 				dalmatian = "Lepanto"
-				b_naupaktos = {}
-				b_lidoriki = {}
-				b_galaxidi = {}
-				b_vitrinitsa = {}
+				b_naupaktos = {
+					corsican = Lepanto
+					central_italian = Lepanto
+					southern_italian = Lepanto
+				}
+				b_lidoriki = {
+					corsican = Lodorichi
+					central_italian = Lodorichi
+					southern_italian = Lodorichi
+				}
+				b_galaxidi = {
+					corsican = Galaxidi
+					central_italian = Galaxidi
+					southern_italian = Galaxidi
+				}
+				b_vitrinitsa = {
+					corsican = Vetrenica
+					central_italian = Vetrenica
+					southern_italian = Vetrenica
+				}
 			}
 			c_arta = {
 				color = { 142 71 117 }
 				color2 = { 255 255 255 }
+				corsican = Arta
+				central_italian = Arta
+				southern_italian = Arta
 				frankish = "Arta"
 				norman = "Arta"
 				turkish = "Arta"
@@ -4065,18 +4250,45 @@ e_byzantium = {
 				italian = "Arta"
 				venetian = "Arta"
 				dalmatian = "Arta"
-				b_angelokastron = {}
-				b_preveza = {}
-				b_arta = {}
-				b_rogoi = {}
-				b_vonitsza = {}
-				b_aetos = {}
+				b_angelokastron = {
+					corsican = Gello-Castro
+					central_italian = Gello-Castro
+					southern_italian = Gello-Castro
+				}
+				b_preveza = {
+					corsican = Preveza
+					central_italian = Preveza
+					southern_italian = Preveza
+				}
+				b_arta = {
+					corsican = Arta
+					central_italian = Arta
+					southern_italian = Arta
+				}
+				b_rogoi = {
+					corsican = Rogo
+					central_italian = Rogo
+					southern_italian = Rogo
+				}
+				b_vonitsza = {
+					corsican = Vonizza
+					central_italian = Vonizza
+					southern_italian = Vonizza
+				}
+				b_aetos = {
+					corsican = Aquilla
+					central_italian = Aquilla
+					southern_italian = Aquilla
+				}
 			}
 		}
 		d_cephalonia = {
 			color = { 48 111 135 }
 			color2 = { 255 255 255 }
 			capital = 474
+			corsican = Cefalonia
+			central_italian = Cefalonia
+			southern_italian = Cefalonia
 			frankish = "Cephalonia"
 			norman = "Cephalonia"
 			turkish = "Heptanese"
@@ -4097,15 +4309,37 @@ e_byzantium = {
 			c_cephalonia = {
 				color = { 146 75 121 }
 				color2 = { 255 255 255 }
-				b_kefalonia = {}
-				b_lefkas = {}
-				b_agiosgeorgios = {}
-				b_zante = {}
+				corsican = Cefalonia
+				central_italian = Cefalonia
+				southern_italian = Cefalonia
+				b_kefalonia = {
+					corsican = Cefalonia
+					central_italian = Cefalonia
+					southern_italian = Cefalonia
+				}
+				b_lefkas = {
+					corsican = "Santa Maura"
+					central_italian = "Santa Maura"
+					southern_italian = "Santa Maura"
+				}
+				b_agiosgeorgios = {
+					corsican = "San Giorgio"
+					central_italian = "San Giorgio"
+					southern_italian = "San Giorgio"
+				}
+				b_zante = {
+					corsican = Zante
+					central_italian = Zante
+					southern_italian = Zante
+				}
 				b_ithaca = {}
 			}
 			c_corfu = {
 				color = { 138 67 113 }
 				color2 = { 255 255 255 }
+				corsican = Corfú
+				central_italian = Corfú
+				southern_italian = Corfú
 				frankish = "Corfu"
 				norman = "Corfu"
 				turkish = "Corfu"
@@ -4125,10 +4359,26 @@ e_byzantium = {
 				italian = "Corfu"
 				venetian = "Corfu"
 				dalmatian = "Corfu"
-				b_palaiofrourio = {}
-				b_corfu = {}
-				b_kassiopi = {}
-				b_angelokastro = {}
+				b_palaiofrourio = {
+					corsican = "Fortezza Vecchia"
+					central_italian = "Fortezza Vecchia"
+					southern_italian = "Fortezza Vecchia"
+				}
+				b_corfu = {
+					corsican = Corfú
+					central_italian = Corfú
+					southern_italian = Corfú
+				}
+				b_kassiopi = {
+					corsican = Cassiopi
+					central_italian = Cassiopi
+					southern_italian = Cassiopi
+				}
+				b_angelokastro = {
+					corsican = "Castel Sant'Angelo"
+					central_italian = "Castel Sant'Angelo"
+					southern_italian = "Castel Sant'Angelo"
+				}
 			}
 		}
 		allow = {
@@ -4147,6 +4397,9 @@ e_byzantium = {
 		orthodox = 300
 		catholic = 150
 		muslim = 25
+		corsican = Achaia
+		central_italian = Achaia
+		southern_italian = Achaia
 		title = PRINCE
 		title_female = PRINCE_female
 		frankish = "Achaea"
@@ -4166,6 +4419,9 @@ e_byzantium = {
 			color = { 186 206 253 }
 			color2 = { 255 255 255 }
 			capital = 482
+			corsican = Atene
+			central_italian = Atene
+			southern_italian = Atene
 			frankish = "Athens"
 			norman = "Athens"
 			catalan = "Athens"
@@ -4187,6 +4443,9 @@ e_byzantium = {
 			c_thebai = {
 				color = { 209 69 161 }
 				color2 = { 255 255 255 }
+				corsican = Stivas
+				central_italian = Stivas
+				southern_italian = Stivas
 				frankish = "Thebes"
 				norman = "Thebes"
 				catalan = "Thebes"
@@ -4205,24 +4464,61 @@ e_byzantium = {
 				italian = "Thebes"
 				venetian = "Thebes"
 				dalmatian = "Thebes"
-				b_thebes = {}
-				b_amfissa = {}
-				b_levadia = {}
-				b_boudounitza = {}
+				b_thebes = {
+					corsican = Stivas
+					central_italian = Stivas
+					southern_italian = Stivas
+				}
+				b_amfissa = {
+					corsican = "La Sola"
+					central_italian = "La Sola"
+					southern_italian = "La Sola"
+				}
+				b_levadia = {
+					corsican = "La Vádia"
+					central_italian = "La Vádia"
+					southern_italian = "La Vádia"
+				}
+				b_boudounitza = {
+					corsican = Bondonize
+					central_italian = Bondonize
+					southern_italian = Bondonize
+				}
 				b_koroneia = {}
 			}
 			c_euboia = {
 				color = { 151 59 119 }
 				color2 = { 255 255 255 }
-				b_chalkis = {}
-				b_karystos = {}
-				b_oreoi = {}
-				b_armena = {}
-				b_skopelos = {}
+				corsican = Negroponte
+				central_italian = Negroponte
+				southern_italian = Negroponte
+				b_chalkis = {
+					corsican = Negroponte
+					central_italian = Negroponte
+					southern_italian = Negroponte
+				}
+				b_karystos = {
+					corsican = "Castel Rosso"
+					central_italian = "Castel Rosso"
+					southern_italian = "Castel Rosso"
+				}
+				b_oreoi = {
+					corsican = "Castel del Rio"
+					central_italian = "Castel del Rio"
+					southern_italian = "Castel del Rio"
+				}
+				b_armena = {
+					corsican = Larmena
+					central_italian = Larmena
+					southern_italian = Larmena
+				}
 			}
 			c_atheniai = {
 				color = { 215 75 167 }
 				color2 = { 255 255 255 }
+				corsican = Atene
+				central_italian = Atene
+				southern_italian = Atene
 				holy_site = hellenic_pagan
 				holy_site = druze
 				frankish = "Athens"
@@ -4243,18 +4539,45 @@ e_byzantium = {
 				italian = "Athens"
 				venetian = "Athens"
 				dalmatian = "Athens"
-				b_athens = {}
-				b_megara = {}
-				b_oropos = {}
-				b_piraeaus = {}
-				b_eleusis = {}
-				b_salamis = {}
+				b_athens = {
+					corsican = Atene
+					central_italian = Atene
+					southern_italian = Atene
+				}
+				b_megara = {
+					corsican = Megra
+					central_italian = Megra
+					southern_italian = Megra
+				}
+				b_oropos = {
+					corsican = Ripo
+					central_italian = Ripo
+					southern_italian = Ripo
+				}
+				b_piraeaus = {
+					corsican = "Porto Leone"
+					central_italian = "Porto Leone"
+					southern_italian = "Porto Leone"
+				}
+				b_eleusis = {
+					corsican = Lessina
+					central_italian = Lessina
+					southern_italian = Lessina
+				}
+				b_salamis = {
+					corsican = Culuris
+					central_italian = Culuris
+					southern_italian = Culuris
+				}
 			}
 		}
 		d_achaia = {
 			color = { 246 188 0 }
 			color2 = { 255 255 255 }
 			capital = 481
+			corsican = Achaia
+			central_italian = Achaia
+			southern_italian = Achaia
 			frankish = "Achaea"
 			norman = "Achaea"
 			turkish = "Morea"
@@ -4275,26 +4598,75 @@ e_byzantium = {
 			c_achaia = {
 				color = { 210 205 74 }
 				color2 = { 255 255 255 }
-				b_patras = {}
-				b_vostitza = {}
-				b_chalandritza = {}
-				b_andravida = {}
-				b_glarentza = {}
-				b_khlemoutsi = {}
+				corsican = Achaia
+				central_italian = Achaia
+				southern_italian = Achaia
+				b_patras = {
+					corsican = Patras
+					central_italian = Patras
+					southern_italian = Patras
+				}
+				b_vostitza = {
+					corsican = Vostizza
+					central_italian = Vostizza
+					southern_italian = Vostizza
+				}
+				b_chalandritza = {
+					corsican = Calandrizza
+					central_italian = Calandrizza
+					southern_italian = Calandrizza
+				}
+				b_andravida = {
+					corsican = Andravilla
+					central_italian = Andravilla
+					southern_italian = Andravilla
+				}
+				b_glarentza = {
+					corsican = Clarenza
+					central_italian = Clarenza
+					southern_italian = Clarenza
+				}
+				b_khlemoutsi = {
+					corsican = "Castel Tornese"
+					central_italian = "Castel Tornese"
+					southern_italian = "Castel Tornese"
+				}
 			}
 			c_korinthos = {
 				color = { 194 33 138 }
 				color2 = { 255 255 255 }
-				b_acrokorinthos = {}
-				b_corinth = {}
+				corsican = Coranto
+				central_italian = Coranto
+				southern_italian = Coranto
+				b_acrokorinthos = {
+					corsican = Acrocoranto
+					central_italian = Acrocoranto
+					southern_italian = Acrocoranto
+				}
+				b_corinth = {
+					corsican = Coranto
+					central_italian = Coranto
+					southern_italian = Coranto
+				}
 				b_argos = {}
-				b_nauplion = {}
-				b_aegina = {}
+				b_nauplion = {
+					corsican = "Napoli di Romania"
+					central_italian = "Napoli di Romania"
+					southern_italian = "Napoli di Romania"
+				}
+				b_aegina = {
+					corsican = Eguena
+					central_italian = Eguena
+					southern_italian = Eguena
+				}
 				b_damalas = {}
 			}
 			c_methone = {
 				color = { 196 35 140 }
 				color2 = { 255 255 255 }
+				corsican = Modon
+				central_italian = Modon
+				southern_italian = Modon
 				sardinian = "Methoni"
 				sicilian = "Methoni"
 				umbrian = "Methoni"
@@ -4306,14 +4678,29 @@ e_byzantium = {
 				italian = "Methoni"
 				venetian = "Methoni"
 				dalmatian = "Methoni"
-				b_kalamata = {}
-				b_modon = {}
-				b_coron = {}
+				b_kalamata = {
+					corsican = Calamatta
+					central_italian = Calamatta
+					southern_italian = Calamatta
+				}
+				b_modon = {
+					corsican = Modon
+					central_italian = Modon
+					southern_italian = Modon
+				}
+				b_coron = {
+					corsican = Coron
+					central_italian = Coron
+					southern_italian = Coron
+				}
 				b_androusa = {}
 			}
 			c_monemvasia = {
 				color = { 198 37 142 }
 				color2 = { 255 255 255 }
+				corsican = Malvasia
+				central_italian = Malvasia
+				southern_italian = Malvasia
 				frankish = "Chaconie"
 				norman = "Chaconie"
 				turkish = "Monemvasia"
@@ -4333,16 +4720,31 @@ e_byzantium = {
 				italian = "Monemvasia"
 				venetian = "Monemvasia"
 				dalmatian = "Monemvasia"
-				b_monemvasia = {}
+				b_monemvasia = {
+					corsican = Malvasia
+					central_italian = Malvasia
+					southern_italian = Malvasia
+				}
 				b_lacedaemonia = {}
 				b_elos = {}
-				b_geraki = {}
-				b_mistra = {}
+				b_geraki = {
+					corsican = Gerachi
+					central_italian = Gerachi
+					southern_italian = Gerachi
+				}
+				b_mistra = {
+					corsican = Misitra
+					central_italian = Misitra
+					southern_italian = Misitra
+				}
 				b_passavas = {}
 			}
 			c_arcadia = {
 				color = { 198 37 142 }
 				color2 = { 255 255 255 }
+				corsican = Arcadia
+				central_italian = Arcadia
+				southern_italian = Arcadia
 				turkish = "Tripoli"
 				turkmen = "Tripoli"
 				oghuz = "Tripoli"
@@ -4350,8 +4752,16 @@ e_byzantium = {
 				b_nikli = {}
 				b_veligosti = {}
 				b_akova = {}
-				b_karytaina = {}
-				b_tripolitsa = {}
+				b_karytaina = {
+					corsican = Caritena
+					central_italian = Caritena
+					southern_italian = Caritena
+				}
+				b_tripolitsa = {
+					corsican = Tripolizza
+					central_italian = Tripolizza
+					southern_italian = Tripolizza
+				}
 			}
 		}
 		allow = {
@@ -4371,28 +4781,80 @@ e_byzantium = {
 		orthodox = 300
 		catholic = 150
 		muslim = 25
+		corsican = Candia
+		central_italian = Candia
+		southern_italian = Candia
 		d_krete = {
 			color = { 45 34 77 }
 			color2 = { 255 255 255 }
 			capital = 480
+			corsican = Candia
+			central_italian = Candia
+			southern_italian = Candia
 			c_kaneia = {
 				color = { 178 11 120 }
 				color2 = { 255 255 255 }
-				b_kandia = {}
-				b_rethymno = {}
-				b_kissamos = {}
-				b_lampa = {}
+				corsican = Canea
+				central_italian = Canea
+				southern_italian = Canea
+				b_kandia = {
+					corsican = Canea
+					central_italian = Canea
+					southern_italian = Canea
+				}
+				b_rethymno = {
+					corsican = Rettimo
+					central_italian = Rettimo
+					southern_italian = Rettimo
+				}
+				b_kissamos = {
+					corsican = Chissamo
+					central_italian = Chissamo
+					southern_italian = Chissamo
+				}
+				b_lampa = {
+					corsican = Lambi
+					central_italian = Lambi
+					southern_italian = Lambi
+				}
 				b_gortyna = {}
-				b_paleohora = {}
+				b_paleohora = {
+					corsican = Palaeohora
+					central_italian = Palaeohora
+					southern_italian = Palaeohora
+				}
 			}
 			c_chandax = {
 				color = { 182 15 124 }
 				color2 = { 255 255 255 }
-				b_iraklio = {}
-				b_ierapetra = {}
-				b_sitia = {}
-				b_palaeokastro = {}
-				b_agiosnikolaos = {}
+				corsican = Candia
+				central_italian = Candia
+				southern_italian = Candia
+				b_iraklio = {
+					corsican = Candia
+					central_italian = Candia
+					southern_italian = Candia
+				}
+				b_ierapetra = {
+					corsican = Gerapetra
+					central_italian = Gerapetra
+					southern_italian = Gerapetra
+				}
+				b_sitia = {
+					corsican = Sitia
+					central_italian = Sitia
+					southern_italian = Sitia
+				}
+				b_palaeokastro = {
+					corsican = Palaeocastro
+					central_italian = Palaeocastro
+					southern_italian = Palaeocastro
+				}
+				b_agiosnikolaos = {
+					corsican = "Porto di San Nicolo"
+					central_italian = "Porto di San Nicolo"
+					southern_italian = "Porto di San Nicolo"
+				}
 			}
 		}
 		allow = {
@@ -4416,16 +4878,26 @@ e_byzantium = {
 			color = { 112 109 67 }
 			color2 = { 255 255 255 }
 			capital = 751
+			corsican = Paphlagonia
+			central_italian = Paphlagonia
+			southern_italian = Paphlagonia
 			turkish = "Kastamonu"
 			turkmen = "Kastamonu"
 			oghuz = "Kastamonu"
 			c_paphlagonia = {
 				color = { 231 74 177 }
 				color2 = { 255 255 255 }
+				corsican = Paphlagonia
+				central_italian = Paphlagonia
+				southern_italian = Paphlagonia
 				turkish = "Kastamonu"
 				turkmen = "Kastamonu"
 				oghuz = "Kastamonu"
-				b_kastamonu = {}
+				b_kastamonu = {
+					corsican = "Castra Comneni"
+					central_italian = "Castra Comneni"
+					southern_italian = "Castra Comneni"
+				}
 				b_dadybra = {}
 				b_pompeiopolis = {}
 			}
@@ -4454,23 +4926,45 @@ e_byzantium = {
 			c_herakleia = {
 				color = { 235 78 181 }
 				color2 = { 255 255 255 }
-				b_herakleia = {}
+				corsican = Heraclea
+				central_italian = Heraclea
+				southern_italian = Heraclea
+				b_herakleia = {
+					corsican = Heraclea
+					central_italian = Heraclea
+					southern_italian = Heraclea
+				}
 				b_tion = {}
 				b_prousias = {}
 			}
 			c_vithynion = {
 				color = { 235 78 181 }
 				color2 = { 255 255 255 }
+				corsican = Claudiopolis
+				central_italian = Claudiopolis
+				southern_italian = Claudiopolis
 				b_modrene = {}
 				b_flaviopolis = {}
-				b_klaudiopolis = {}
+				b_klaudiopolis = {
+					corsican = Claudiopolis
+					central_italian = Claudiopolis
+					southern_italian = Claudiopolis
+				}
 			}
 			c_ankyra = {
 				color = { 239 82 185 }
 				color2 = { 255 255 255 }
 				b_ankyra = {}
-				b_anastasiopolis = {}
-				b_iuliopolis = {}
+				b_anastasiopolis = {
+					corsican = Anastasiopolis
+					central_italian = Anastasiopolis
+					southern_italian = Anastasiopolis
+				}
+				b_iuliopolis = {
+					corsican = Iuliopolis
+					central_italian = Iuliopolis
+					southern_italian = Iuliopolis
+				}
 				b_haymana = {}
 				b_gordion = {}
 			}
@@ -4514,7 +5008,11 @@ e_byzantium = {
 				oghuz = "Izmir"
 				b_smyrna = {}
 				b_nymphaion = {}
-				b_phokaia = {}
+				b_phokaia = {
+					corsican = Focea
+					central_italian = Focea
+					southern_italian = Focea
+				}
 				b_magnesia = {}
 				b_erythrai = {}
 				b_klazomeanai = {}
@@ -4531,6 +5029,9 @@ e_byzantium = {
 			c_laodikeia = {
 				color = { 162 51 124 }
 				color2 = { 255 255 255 }
+				corsican = Laodicea
+				central_italian = Laodicea
+				southern_italian = Laodicea
 				frankish = "Laodicea"
 				norman = "Laodicea"
 				turkish = "Lâdik"
@@ -4548,15 +5049,26 @@ e_byzantium = {
 				venetian = "Laodicea"
 				dalmatian = "Laodicea"
 				b_chonai = {}
-				b_laodikeia = {}
+				b_laodikeia = {
+					corsican = Laodicea
+					central_italian = Laodicea
+					southern_italian = Laodicea
+				}
 				b_harpasa = {}
 				b_kibyra = {}
 			}
 			c_philadelphia = {
 				color = { 192 81 124 }
 				color2 = { 255 255 255 }
+				corsican = Philadelphea
+				central_italian = Philadelphea
+				southern_italian = Philadelphea
 				b_sardis = {}
-				b_philadelpheia = {}
+				b_philadelpheia = {
+					corsican = Philadelphea
+					central_italian = Philadelphea
+					southern_italian = Philadelphea
+				}
 				b_pyrgion = {}
 				b_thyraia = {}
 				b_nysa = {}
@@ -4576,6 +5088,9 @@ e_byzantium = {
 			color = { 36 83 169 }
 			color2 = { 255 255 255 }
 			capital = 750
+			corsican = Nicea
+			central_italian = Nicea
+			southern_italian = Nicea
 			frankish = "Nicaea"
 			norman = "Nicaea"
 			andalusian_arabic = "Nicaea"
@@ -4600,11 +5115,18 @@ e_byzantium = {
 			c_nikaea = {
 				color = { 205 104 170 }
 				color2 = { 255 255 255 }
+				corsican = Nicea
+				central_italian = Nicea
+				southern_italian = Nicea
 				turkish = "Iznik"
 				turkmen = "Iznik"
 				oghuz = "Iznik"
 				b_malagina = {}
-				b_nikaia = {}
+				b_nikaia = {
+					corsican = Nicea
+					central_italian = Nicea
+					southern_italian = Nicea
+				}
 				b_basilinopolis = {}
 				b_pylai = {}
 				b_kios = {}
@@ -4614,10 +5136,21 @@ e_byzantium = {
 			c_prusa = {
 				color = { 211 110 176 }
 				color2 = { 255 255 255 }
+				corsican = Prusa
+				central_italian = Prusa
+				southern_italian = Prusa
 				b_lopadion = {}
-				b_prusa = {}
+				b_prusa = {
+					corsican = Prusa
+					central_italian = Prusa
+					southern_italian = Prusa
+				}
 				b_miletopolis = {}
-				b_apamea = {}
+				b_apamea = {
+					corsican = Apamea
+					central_italian = Apamea
+					southern_italian = Apamea
+				}
 				b_apollonia = {}
 				b_adrianoi = {}
 			}
@@ -4630,7 +5163,11 @@ e_byzantium = {
 				b_poimanenos = {}
 				b_akhyraous = {}
 				b_synaos = {}
-				b_pegadia = {}
+				b_pegadia = {
+					corsican = Pegadea
+					central_italian = Pegadea
+					southern_italian = Pegadea
+				}
 				b_lentiana = {}
 				b_adrianeia = {}
 			}
@@ -4647,12 +5184,23 @@ e_byzantium = {
 			c_dorylaion = {
 				color = { 176 25 124 }
 				color2 = { 255 255 255 }
+				corsican = Dorylaeum
+				central_italian = Dorylaeum
+				southern_italian = Dorylaeum
 				turkish = "Kütahya"
 				turkmen = "Kütahya"
 				oghuz = "Kütahya"
-				b_dorylaion = {}
+				b_dorylaion = {
+					corsican = Dorylaeum
+					central_italian = Dorylaeum
+					southern_italian = Dorylaeum
+				}
 				b_kotyaion = {}
-				b_nakoleia = {}
+				b_nakoleia = {
+					corsican = Nacolea
+					central_italian = Nacolea
+					southern_italian = Nacolea
+				}
 				b_midaion = {}
 			}
 		}
@@ -4660,6 +5208,9 @@ e_byzantium = {
 			color = { 136 83 69 }
 			color2 = { 255 255 20 }
 			capital = 741
+			corsican = Nicomedia
+			central_italian = Nicomedia
+			southern_italian = Nicomedia
 			frankish = "Nicomedia"
 			norman = "Nicomedia"
 			andalusian_arabic = "Nicomedia"
@@ -4684,10 +5235,17 @@ e_byzantium = {
 			c_nikomedeia = {
 				color = { 208 107 173 }
 				color2 = { 255 255 255 }
+				corsican = Nicomedia
+				central_italian = Nicomedia
+				southern_italian = Nicomedia
 				turkish = "Ismid"
 				turkmen = "Ismid"
 				oghuz = "Ismid"
-				b_nikomedeia = {}
+				b_nikomedeia = {
+					corsican = Nicomedia
+					central_italian = Nicomedia
+					southern_italian = Nicomedia
+				}
 				b_praenetos = {}
 				b_daphnousia = {}
 				b_kibotos = {}
@@ -4698,8 +5256,19 @@ e_byzantium = {
 			c_chrysopolis = {
 				color = { 208 107 173 }
 				color2 = { 255 255 255 }
-				b_chrysopolis = {}
-				b_chalkedon = {}
+				corsican = Crisopoli
+				central_italian = Crisopoli
+				southern_italian = Crisopoli
+				b_chrysopolis = {
+					corsican = Crisopoli
+					central_italian = Crisopoli
+					southern_italian = Crisopoli
+				}
+				b_chalkedon = {
+					corsican = Calcedonia
+					central_italian = Calcedonia
+					southern_italian = Calcedonia
+				}
 				b_hieria = {}
 				b_kartalimen = {}
 			}
@@ -4708,13 +5277,23 @@ e_byzantium = {
 			color = { 44 83 40 }
 			color2 = { 255 255 255 }
 			capital = 755
+			corsican = Cibirreoti
+			central_italian = Cibirreoti
+			southern_italian = Cibirreoti
 			turkish = "Mentese"
 			turkmen = "Mentese"
 			oghuz = "Mentese"
 			c_attaleia = {
 				color = { 112 33 84 }
 				color2 = { 255 255 255 }
-				b_attaleia = {}
+				corsican = Sattalia
+				central_italian = Sattalia
+				southern_italian = Sattalia
+				b_attaleia = {
+					corsican = Sattalia
+					central_italian = Sattalia
+					southern_italian = Sattalia
+				}
 				b_kalonoros = {}
 				b_aspendos = {}
 				b_side = {}
@@ -4723,6 +5302,9 @@ e_byzantium = {
 			c_rhodos = {
 				color = { 116 37 88 }
 				color2 = { 255 255 255 }
+				corsican = Rodi
+				central_italian = Rodi
+				southern_italian = Rodi
 				frankish = "Rhodes"
 				norman = "Rhodes"
 				turkish = "Rhodes"
@@ -4739,7 +5321,11 @@ e_byzantium = {
 				italian = "Rhodes"
 				venetian = "Rhodes"
 				dalmatian = "Rhodes"
-				b_rhodos = {}
+				b_rhodos = {
+					corsican = Rodi
+					central_italian = Rodi
+					southern_italian = Rodi
+				}
 				b_kos = {}
 				b_lindos = {}
 				b_karpathos = {}
@@ -4747,6 +5333,9 @@ e_byzantium = {
 			c_lykia = {
 				color = { 120 41 92 }
 				color2 = { 255 255 255 }
+				corsican = Licia
+				central_italian = Licia
+				southern_italian = Licia
 				turkish = "Teke"
 				turkmen = "Teke"
 				oghuz = "Teke"
@@ -5011,8 +5600,10 @@ e_byzantium = {
 				b_melitene = {}
 				b_arca = {}
 				b_samosata = {}
-				b_qlaudia = {}
-				b_gubos = {}
+				b_corduene = {}
+				b_seneqerim = {}
+				b_arguvan = {}
+				b_kigi = {}
 			}
 		}
 		allow = {
@@ -5031,16 +5622,37 @@ e_byzantium = {
 		orthodox = 400
 		catholic = 400
 		muslim = 100
+		corsican = Cipro
+		central_italian = Cipro
+		southern_italian = Cipro
 		d_cyprus = {
 			color = { 85 138 236 }
 			color2 = { 255 255 255 }
 			capital = 1069
+			corsican = Cipro
+			central_italian = Cipro
+			southern_italian = Cipro
 			c_limisol = {
 				color = { 231 22 159 }
 				color2 = { 255 255 255 }
-				b_paphos = {}
-				b_limmassol = {}
-				b_solia = {}
+				corsican = Limisso
+				central_italian = Limisso
+				southern_italian = Limisso
+				b_paphos = {
+					corsican = Pafo
+					central_italian = Pafo
+					southern_italian = Pafo
+				}
+				b_limmassol = {
+					corsican = Limisso
+					central_italian = Limisso
+					southern_italian = Limisso
+				}
+				b_solia = {
+					corsican = Soli
+					central_italian = Soli
+					southern_italian = Soli
+				}
 				b_kolossi = {}
 				b_kykkos = {}
 				b_arsinoecyprus = {}
@@ -5048,19 +5660,49 @@ e_byzantium = {
 			c_nicosia = {
 				color = { 228 19 156 }
 				color2 = { 255 255 255 }
-				b_sthilarion = {}
-				b_nikosia = {}
+				corsican = Nicosia
+				central_italian = Nicosia
+				southern_italian = Nicosia
+				b_sthilarion = {
+					corsican = Sant'Ilario
+					central_italian = Sant'Ilario
+					southern_italian = Sant'Ilario
+				}
+				b_nikosia = {
+					corsican = Nicosia
+					central_italian = Nicosia
+					southern_italian = Nicosia
+				}
 				b_stavrovouni = {}
-				b_larnaca = {}
-				b_kyrenia = {}
+				b_larnaca = {
+					corsican = Larnaca
+					central_italian = Larnaca
+					southern_italian = Larnaca
+				}
+				b_kyrenia = {
+					corsican = Cerena
+					central_italian = Cerena
+					southern_italian = Cerena
+				}
 				b_lapithos = {}
-				b_buffavento = {}
+				b_buffavento = {
+					corsican = Buffavento
+					central_italian = Buffavento
+					southern_italian = Buffavento
+				}
 			}
 			c_famagusta = {
 				color = { 228 19 156 }
 				color2 = { 255 255 255 }
+				corsican = Famagosta
+				central_italian = Famagosta
+				southern_italian = Famagosta
 				b_kantara = {}
-				b_famagusta = {}
+				b_famagusta = {
+					corsican = Famagosta
+					central_italian = Famagosta
+					southern_italian = Famagosta
+				}
 				b_salamiscyprus = {}
 				b_karpasia = {}
 			}
@@ -5091,6 +5733,9 @@ e_byzantium = {
 			color = { 99 150 32 }
 			color2 = { 255 255 255 }
 			capital = 678
+			corsican = Chaldia
+			central_italian = Chaldia
+			southern_italian = Chaldia
 			armenian = "Trabzon"
 			georgian = "Trabzon"
 			turkish = "Trabzon"
@@ -5106,7 +5751,14 @@ e_byzantium = {
 			c_trapezous = {
 				color = { 103 155 37 }
 				color2 = { 255 255 255 }
-				b_trapezous = {}
+				corsican = Trebisonda
+				central_italian = Trebisonda
+				southern_italian = Trebisonda
+				b_trapezous = {
+					corsican = Trebisonda
+					central_italian = Trebisonda
+					southern_italian = Trebisonda
+				}
 				b_ophioun = {}
 				b_tzanikha = {}
 				b_kharton = {}
@@ -5130,6 +5782,9 @@ e_byzantium = {
 			color = { 225 187 34 }
 			color2 = { 255 255 255 }
 			capital = 560
+			corsican = Gothia
+			central_italian = Gothia
+			southern_italian = Gothia
 			east_gothic = "Theodoro"
 			turkish = "Feodosia"
 			turkmen = "Sudak"
@@ -5169,6 +5824,9 @@ e_byzantium = {
 			c_theodosia = {
 				color = { 190 93 156 }
 				color2 = { 255 255 255 }
+				corsican = Caffa
+				central_italian = Caffa
+				southern_italian = Caffa
 				turkmen = "Sudak"
 				oghuz = "Sudak"
 				pecheneg = "Sudak"
@@ -5178,21 +5836,52 @@ e_byzantium = {
 				karluk = "Sudak"
 				kasogi = "Sudak"
 				bashkir = "Sudak"
-				b_theodosia = {}
-				b_sukdak = {}
-				b_alushta = {}
-				b_partenit = {}
+				b_theodosia = {
+					corsican = Caffa
+					central_italian = Caffa
+					southern_italian = Caffa
+				}
+				b_sukdak = {
+					corsican = Soldaia
+					central_italian = Soldaia
+					southern_italian = Soldaia
+				}
+				b_alushta = {
+					corsican = Lusta
+					central_italian = Lusta
+					southern_italian = Lusta
+				}
+				b_partenit = {
+					corsican = Pertinice
+					central_italian = Pertinice
+					southern_italian = Pertinice
+				}
 			}
 			c_theodoro = {
 				color = { 92 95 58 }
 				color2 = { 255 255 255 }
-				b_mangup = {}
-				b_funa = {}
-				b_inkerman = {}
+				b_mangup = {
+					corsican = Theodoro
+					central_italian = Theodoro
+					southern_italian = Theodoro
+				}
+				b_funa = {
+					corsican = Funa
+					central_italian = Funa
+					southern_italian = Funa
+				}
+				b_inkerman = {
+					corsican = Kalamita
+					central_italian = Kalamita
+					southern_italian = Kalamita
+				}
 			}
 			c_cherson = {
 				color = { 194 97 160 }
 				color2 = { 255 255 255 }
+				corsican = "Gothia Maritima"
+				central_italian = "Gothia Maritima"
+				southern_italian = "Gothia Maritima"
 				sardinian = "Gothia Maritima"
 				sicilian = "Gothia Maritima"
 				umbrian = "Gothia Maritima"
@@ -5204,11 +5893,31 @@ e_byzantium = {
 				italian = "Gothia Maritima"
 				venetian = "Gothia Maritima"
 				dalmatian = "Gothia Maritima"
-				b_kherson = {}
-				b_balaklava = {}
-				b_yalta = {}
-				b_foros = {}
-				b_gurzuf = {}
+				b_kherson = {
+					corsican = Sarsona
+					central_italian = Sarsona
+					southern_italian = Sarsona
+				}
+				b_balaklava = {
+					corsican = Cembalo
+					central_italian = Cembalo
+					southern_italian = Cembalo
+				}
+				b_yalta = {
+					corsican = Caulita
+					central_italian = Caulita
+					southern_italian = Caulita
+				}
+				b_foros = {
+					corsican = Fovi
+					central_italian = Fovi
+					southern_italian = Fovi
+				}
+				b_gurzuf = {
+					corsican = Gorzona
+					central_italian = Gorzona
+					southern_italian = Gorzona
+				}
 			}
 		}
 		d_armeniacon = {
@@ -5297,7 +6006,11 @@ e_byzantium = {
 				b_alharuniya = {}
 				b_adana = {}
 				b_mamistra = {}
-				b_lajazzo = {}
+				b_lajazzo = {
+					corsican = Laiazzo
+					central_italian = Laiazzo
+					southern_italian = Laiazzo
+				}
 				b_yilankale = {}
 				b_savrandacastle = {}
 			}
@@ -5346,7 +6059,7 @@ e_byzantium = {
 				b_seleukeia = {}
 				b_lamas = {}
 				b_korasion = {}
-				b_novumola = {}
+				b_mokhbud = {}
 			}
 			c_anamur = {
 				color = { 147 208 60 }
@@ -5459,7 +6172,11 @@ e_byzantium = {
 			c_karvuna = {
 				color = { 210 95 253 }
 				color2 = { 255 255 255 }
-				b_provadiya = {}
+				b_provadiya = {
+					corsican = Provanto
+					central_italian = Provanto
+					southern_italian = Provanto
+				}
 				b_kaliakra = {}
 				b_varna = {}
 				b_karvuna = {}
@@ -5471,7 +6188,11 @@ e_byzantium = {
 				b_vicina = {}
 				b_tulcea = {}
 				b_constantia = {}
-				b_chilia = {}
+				b_chilia = {
+					corsican = Lycostomo
+					central_italian = Lycostomo
+					southern_italian = Lycostomo
+				}
 				b_harsova = {}
 			}
 		}
@@ -5480,6 +6201,9 @@ e_byzantium = {
 			color2 = { 255 255 20 }
 			capital = 494
 			culture = greek
+			corsican = Philippopolis
+			central_italian = Philippopolis
+			southern_italian = Philippopolis
 			andalusian_arabic = "Macedonia"
 			greek = "Macedonia"
 			east_gothic = "Macedonia"
@@ -5500,21 +6224,35 @@ e_byzantium = {
 			c_adrianopolis = {
 				color = { 216 77 168 }
 				color2 = { 255 255 20 }
+				corsican = Adrianopolis
+				central_italian = Adrianopolis
+				southern_italian = Adrianopolis
 				b_matochina = {}
 				b_perperikon = {}
 				b_lyutitsa = {}
 				b_versinikia = {}
-				b_adrianopolis = {}
+				b_adrianopolis = {
+					corsican = Adrianopolis
+					central_italian = Adrianopolis
+					southern_italian = Adrianopolis
+				}
 				b_kardzahli = {}
 			}
 			c_philippopolis = {
 				color = { 219 80 171 }
 				color2 = { 255 255 20 }
+				corsican = Philippopolis
+				central_italian = Philippopolis
+				southern_italian = Philippopolis
 				holy_site = bogomilist
 				holy_site = cathar
 				b_bachkovo = {}
 				b_perushtitsa = {}
-				b_plovdiv = {}
+				b_plovdiv = {
+					corsican = Philippopolis
+					central_italian = Philippopolis
+					southern_italian = Philippopolis
+				}
 				b_asenscastle_petrich = {}
 				b_tespina = {}
 				b_steinmahos = {}
@@ -5621,7 +6359,11 @@ e_byzantium = {
 				color2 = { 255 255 20 }
 				b_resen = {}
 				b_edessa_voden = {}
-				b_bitola = {}
+				b_bitola = {
+					corsican = Butella
+					central_italian = Butella
+					southern_italian = Butella
+				}
 				b_prespa = {}
 				b_ohrid = {}
 				b_kastoria = {}
@@ -5704,18 +6446,32 @@ e_byzantium = {
 			c_belgrade = {
 				color = { 150 124 61 }
 				color2 = { 255 255 255 }
+				corsican = Belgrado
+				central_italian = Belgrado
+				southern_italian = Belgrado
 				greek = "Singidunum"
 				east_gothic = "Singidunum"
 				roman = "Singidunum"
 				b_rudnik = {}
 				b_smederevo = {}
-				b_zemun = {}
-				b_belgrade = {}
+				b_zemun = {
+					corsican = Mallevila
+					central_italian = Mallevila
+					southern_italian = Mallevila
+				}
+				b_belgrade = {
+					corsican = Belgrado
+					central_italian = Belgrado
+					southern_italian = Belgrado
+				}
 			}
 		}
 		d_hum = {
 			color = { 179 94 13 }
 			color2 = { 255 255 255 }
+			corsican = Chelmania
+			central_italian = Chelmania
+			southern_italian = Chelmania
 			capital = 466
 			c_hum = {
 				color = { 176 143 64 }
@@ -5743,7 +6499,11 @@ e_byzantium = {
 				east_gothic = "Zachlumia"
 				b_biskup = {}
 				b_gacko = {}
-				b_stolac = {}
+				b_stolac = {
+					corsican = Stolaz
+					central_italian = Stolaz
+					southern_italian = Stolaz
+				}
 				b_kljuc = {}
 				b_blagaj = {}
 				b_zaborani = {}
@@ -5766,15 +6526,30 @@ e_byzantium = {
 				greek = "Duklja"
 				east_gothic = "Duklja"
 				roman = "Duklja"
-				b_drivast = {}
+				b_drivast = {
+					corsican = Drivasto
+					central_italian = Drivasto
+					southern_italian = Drivasto
+				}
 				b_zabljak_crnojevica = {}
-				b_skadar = {}
+				b_skadar = {
+					corsican = Scutari
+					central_italian = Scutari
+					southern_italian = Scutari
+				}
 				b_dioclea = {}
-				b_podgorica = {}
+				b_podgorica = {
+					corsican = Podgorizza
+					central_italian = Podgorizza
+					southern_italian = Podgorizza
+				}
 			}
 			c_primorje = {
 				color = { 151 96 15 }
 				color2 = { 255 255 255 }
+				corsican = Càttaro
+				central_italian = Càttaro
+				southern_italian = Càttaro
 				greek = "Kotor"
 				east_gothic = "Kotor"
 				turkish = "Kotor"
@@ -5792,15 +6567,34 @@ e_byzantium = {
 				venetian = "Kotor"
 				dalmatian = "Kotor"
 				roman = "Kotor"
-				b_ulcinj = {}
-				b_bar = {}
+				b_ulcinj = {
+					corsican = Dulcigno
+					central_italian = Dulcigno
+					southern_italian = Dulcigno
+				}
+				b_bar = {
+					corsican = Antivari
+					central_italian = Antivari
+					southern_italian = Antivari
+				}
 				b_kraljic_krajina = {}
-				b_kotor = {}
-				b_budva = {}
+				b_kotor = {
+					corsican = Càttaro
+					central_italian = Càttaro
+					southern_italian = Càttaro
+				}
+				b_budva = {
+					corsican = Budua
+					central_italian = Budua
+					southern_italian = Budua
+				}
 			}
 			c_travunija = {
 				color = { 145 35 35 }
 				color2 = { 255 255 255 }
+				corsican = Trebigne
+				central_italian = Trebigne
+				southern_italian = Trebigne
 				german = "Trebinje"
 				low_german = "Trebinje"
 				dutch = "Trebinje"
@@ -5821,9 +6615,17 @@ e_byzantium = {
 				italian = "Trebinje"
 				venetian = "Trebinje"
 				dalmatian = "Trebinje"
-				b_medun = {}
+				b_medun = {
+					corsican = Moduna
+					central_italian = Moduna
+					southern_italian = Moduna
+				}
 				b_onogost = {}
-				b_trebinje = {}
+				b_trebinje = {
+					corsican = Trebigne
+					central_italian = Trebigne
+					southern_italian = Trebigne
+				}
 			}
 		}
 		allow = {
@@ -5846,6 +6648,9 @@ e_byzantium = {
 			color = { 195 38 57 }
 			color2 = { 255 255 255 }
 			capital = 468
+			central_italian = Ragusa
+			southern_italian = Ragusa
+			corsican = Ragusa
 			german = "Ragusa"
 			low_german = "Ragusa"
 			dutch = "Ragusa"
@@ -5876,6 +6681,9 @@ e_byzantium = {
 			c_ragusa = {
 				color = { 72 145 88 }
 				color2 = { 255 255 255 }
+				central_italian = Ragusa
+				southern_italian = Ragusa
+				corsican = Ragusa
 				german = "Ragusa"
 				low_german = "Ragusa"
 				dutch = "Ragusa"
@@ -5903,12 +6711,36 @@ e_byzantium = {
 				venetian = "Ragusa"
 				dalmatian = "Ragusa"
 				roman = "Ragusium"
-				b_ragusa = {}
-				b_ston = {}
-				b_cavtat = {}
-				b_lokrum = {}
-				b_mljet = {}
-				b_slano = {}
+				b_ragusa = {
+					central_italian = Ragusa
+					southern_italian = Ragusa
+					corsican = Ragusa
+				}
+				b_ston = {
+					central_italian = Stagno
+					southern_italian = Stagno
+					corsican = Stagno
+				}
+				b_cavtat = {
+					central_italian = Ragusavecchia
+					southern_italian = Ragusavecchia
+					corsican = Ragusavecchia
+				}
+				b_lokrum = {
+					central_italian = Lacroma
+					southern_italian = Lacroma
+					corsican = Lacroma
+				}
+				b_mljet = {
+					central_italian = Meleda
+					southern_italian = Meleda
+					corsican = Meleda
+				}
+				b_slano = {
+					central_italian = Islana
+					southern_italian = Islana
+					corsican = Islana
+				}
 			}
 		}
 		allow = {
@@ -7109,7 +7941,7 @@ e_russia = {
 		allow = { title_king_basic_allow = yes }
 	}
 	k_ruthenia = {
-		color = { 131 108 71 }
+		color = { 220 183 61 }
 		color2 = { 255 255 255 }
 		capital = 547
 		culture = russian
@@ -8249,7 +9081,7 @@ e_carpathia = {
 				color2 = { 255 255 255 }
 				bulgarian = "Holavnik"
 				b_bucuresti = {}
-				b_slazialea = {}
+				b_slatina = {}
 				b_rosiorriidevede = {}
 				b_giurgiu = {}
 				b_turnu = {}
@@ -8373,7 +9205,11 @@ e_carpathia = {
 				color2 = { 255 255 255 }
 				b_oblucita = {}
 				b_tigheci = {}
-				b_cetaealba = {}
+				b_cetaealba = {
+					central_italian = Mauricastro
+					southern_italian = Mauricastro
+					corsican = Mauricastro
+				}
 			}
 		}
 		allow = {
@@ -8984,8 +9820,16 @@ e_carpathia = {
 				greek = "Delminium"
 				east_gothic = "Delminium"
 				roman = "Delminium"
-				b_duvno = {}
-				b_livna = {}
+				b_duvno = {
+					central_italian = Dumno
+					southern_italian = Dumno
+					corsican = Dumno
+				}
+				b_livna = {
+					central_italian = Cleuna
+					southern_italian = Cleuna
+					corsican = Cleuna
+				}
 				b_glamoc = {}
 				b_humac = {}
 			}
@@ -8998,8 +9842,15 @@ e_carpathia = {
 			c_soli = {
 				color = { 90 166 41 }
 				color2 = { 255 255 255 }
+				central_italian = Sale
+				southern_italian = Sale
+				corsican = Sale
 				b_srebenik = {}
-				b_soli = {}
+				b_soli = {
+					central_italian = Sale
+					southern_italian = Sale
+					corsican = Sale
+				}
 			}
 			c_usora = {
 				color = { 200 121 121 }
@@ -9031,13 +9882,41 @@ e_carpathia = {
 				greek = "Split"
 				east_gothic = "Split"
 				roman = "Split"
-				b_sibenik = {}
-				b_klis = {}
-				b_vrlika = {}
-				b_solin = {}
-				b_trogir = {}
-				b_split = {}
-				b_sinj = {}
+				b_sibenik = {
+					central_italian = Sebenico
+					southern_italian = Sebenico
+					corsican = Sebenico
+				}
+				b_klis = {
+					central_italian = Clissa
+					southern_italian = Clissa
+					corsican = Clissa
+				}
+				b_vrlika = {
+					central_italian = Verlicca
+					southern_italian = Verlicca
+					corsican = Verlicca
+				}
+				b_solin = {
+					central_italian = Salona
+					southern_italian = Salona
+					corsican = Salona
+				}
+				b_trogir = {
+					central_italian = Traù
+					southern_italian = Traù
+					corsican = Traù
+				}
+				b_split = {
+					central_italian = Spalato
+					southern_italian = Spalato
+					corsican = Spalato
+				}
+				b_sinj = {
+					central_italian = Sign
+					southern_italian = Sign
+					corsican = Sign
+				}
 			}
 			c_knin = {
 				color = { 88 141 41 }
@@ -9045,67 +9924,192 @@ e_carpathia = {
 				b_gradina_drnis = {}
 				b_necven = {}
 				b_cucevo = {}
-				b_knin = {}
+				b_knin = {
+					central_italian = Tenin
+					southern_italian = Tenin
+					corsican = Tenin
+				}
 			}
 			c_bribir = {
 				color = { 162 64 71 }
 				color2 = { 255 255 255 }
-				b_skradin = {}
-				b_biograd_na_moru = {}
+				central_italian = Berberi
+				southern_italian = Berberi
+				corsican = Berberi
+				b_skradin = {
+					central_italian = Scardona
+					southern_italian = Scardona
+					corsican = Scardona
+				}
+				b_biograd_na_moru = {
+					central_italian = Zaravecchia
+					southern_italian = Zaravecchia
+					corsican = Zaravecchia
+				}
 				b_vrana = {}
-				b_bribir = {}
+				b_bribir = {
+					central_italian = Berberi
+					southern_italian = Berberi
+					corsican = Berberi
+				}
 			}
 			c_zadar = {
 				color = { 188 141 141 }
 				color2 = { 255 255 255 }
-				b_pag = {}
-				b_obrovac = {}
-				b_nin = {}
-				b_zadar = {}
+				central_italian = Zara
+				southern_italian = Zara
+				corsican = Zara
+				b_pag = {
+					central_italian = Pago
+					southern_italian = Pago
+					corsican = Pago
+				}
+				b_obrovac = {
+					central_italian = Obrovazzo
+					southern_italian = Obrovazzo
+					corsican = Obrovazzo
+				}
+				b_nin = {
+					central_italian = Nona
+					southern_italian = Nona
+					corsican = Nona
+				}
+				b_zadar = {
+					central_italian = Zara
+					southern_italian = Zara
+					corsican = Zara
+				}
 			}
 			c_omis = {
 				color = { 66 17 21 }
 				color2 = { 255 255 255 }
-				b_imotski = {}
-				b_gabela = {}
-				b_omis = {}
-				b_makarska = {}
+				b_imotski = {
+					central_italian = Imoschi
+					southern_italian = Imoschi
+					corsican = Imoschi
+				}
+				b_gabela = {
+					central_italian = Gabella
+					southern_italian = Gabella
+					corsican = Gabella
+				}
+				b_omis = {
+					central_italian = Almissa
+					southern_italian = Almissa
+					corsican = Almissa
+				}
+				b_makarska = {
+					central_italian = Macarsca
+					southern_italian = Macarsca
+					corsican = Macarsca
+				}
 			}
 		}
 		d_krk = {
 			color = { 208 186 170 }
 			color2 = { 255 255 255 }
+			central_italian = Veglia
+			southern_italian = Veglia
+			corsican = Veglia
 			capital = 459
 			c_veglia = {
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
-				b_vrbnik_krk = {}
-				b_krk = {}
-				b_osor = {}
-				b_cres = {}
-				b_baska = {}
-				b_dobrinj = {}
-				b_omisalj = {}
+				central_italian = Veglia
+				southern_italian = Veglia
+				corsican = Veglia
+				b_vrbnik_krk = {
+					central_italian = Verbenico
+					southern_italian = Verbenico
+					corsican = Verbenico
+				}
+				b_krk = {
+					central_italian = Veglia
+					southern_italian = Veglia
+					corsican = Veglia
+				}
+				b_osor = {
+					central_italian = Ossero
+					southern_italian = Ossero
+					corsican = Ossero
+				}
+				b_cres = {
+					central_italian = Cherso
+					southern_italian = Cherso
+					corsican = Cherso
+				}
+				b_baska = {
+					central_italian = Bescanuova
+					southern_italian = Bescanuova
+					corsican = Bescanuova
+				}
+				b_dobrinj = {
+					central_italian = Dobrigno
+					southern_italian = Dobrigno
+					corsican = Dobrigno
+				}
+				b_omisalj = {
+					central_italian = Muschio
+					southern_italian = Muschio
+					corsican = Muschio
+				}
 			}
 		}
 		d_dalmatian_islands = {
 			color = { 25 106 33 }
 			color2 = { 255 255 255 }
 			capital = 936
+			central_italian = Lesina
+			southern_italian = Lesina
+			corsican = Lesina
 			c_hvar = {
 				color = { 106 143 189 }
 				color2 = { 255 255 255 }
-				b_vis = {}
-				b_nerezisca = {}
-				b_supetar = {}
-				b_hvar_stari_grad = {}
+				central_italian = Lesina
+				southern_italian = Lesina
+				corsican = Lesina
+				b_vis = {
+					central_italian = Lissa
+					southern_italian = Lissa
+					corsican = Lissa
+				}
+				b_nerezisca = {
+					central_italian = Neresi
+					southern_italian = Neresi
+					corsican = Neresi
+				}
+				b_supetar = {
+					central_italian = "San Pietro della Brazza"
+					southern_italian = "San Pietro della Brazza"
+					corsican = "San Pietro della Brazza"
+				}
+				b_hvar_stari_grad = {
+					central_italian = Lesina
+					southern_italian = Lesina
+					corsican = Lesina
+				}
 			}
 			c_korcula = {
 				color = { 106 143 59 }
 				color2 = { 255 255 255 }
-				b_lastovo = {}
-				b_blato = {}
-				b_korcula = {}
+				central_italian = Curzola
+				southern_italian = Curzola
+				corsican = Curzola
+				b_lastovo = {
+					central_italian = Lagosta
+					southern_italian = Lagosta
+					corsican = Lagosta
+				}
+				b_blato = {
+					central_italian = Blatta
+					southern_italian = Blatta
+					corsican = Blatta
+				}
+				b_korcula = {
+					central_italian = Curzola
+					southern_italian = Curzola
+					corsican = Curzola
+				}
 			}
 		}
 		d_croatia = {
@@ -9126,19 +10130,42 @@ e_carpathia = {
 			c_modrus = {
 				color = { 174 65 65 }
 				color2 = { 255 255 255 }
-				b_grobnik_vinodol = {}
-				b_rijeka = {}
-				b_trsat = {}
-				b_modrus_castle = {}
+				b_grobnik_vinodol = {
+					central_italian = Grobnico
+					southern_italian = Grobnico
+					corsican = Grobnico
+				}
+				b_rijeka = {
+					central_italian = Fiume
+					southern_italian = Fiume
+					corsican = Fiume
+				}
+				b_trsat = {
+					central_italian = Tersatto
+					southern_italian = Tersatto
+					corsican = Tersatto
+				}
+				b_modrus_castle = {
+					central_italian = Modrussa
+					southern_italian = Modrussa
+					corsican = Modrussa
+				}
 			}
 			c_senj = {
 				color = { 170 61 61 }
 				color2 = { 255 255 255 }
+				central_italian = Licca
+				southern_italian = Licca
+				corsican = Licca
 				greek = "Senj"
 				east_gothic = "Senj"
 				b_bihac = {}
 				b_udbina_krbava = {}
-				b_senj = {}
+				b_senj = {
+					central_italian = Segna
+					southern_italian = Segna
+					corsican = Segna
+				}
 			}
 			c_okic = {
 				color = { 174 65 65 }
@@ -9182,6 +10209,9 @@ e_carpathia = {
 			c_varadzin = {
 				color = { 191 143 143 }
 				color2 = { 255 255 255 }
+				central_italian = Varasdino
+				southern_italian = Varasdino
+				corsican = Varasdino
 				german = "Varaždin"
 				low_german = "Varaždin"
 				dutch = "Varaždin"
@@ -9208,8 +10238,16 @@ e_carpathia = {
 				dalmatian = "Varaždin"
 				roman = "Varaždin"
 				b_krizevci = {}
-				b_vitrovica = {}
-				b_varazdin = {}
+				b_vitrovica = {
+					central_italian = Varaviza
+					southern_italian = Varaviza
+					corsican = Varaviza
+				}
+				b_varazdin = {
+					central_italian = Varasdino
+					southern_italian = Varasdino
+					corsican = Varasdino
+				}
 				b_kraprina = {}
 			}
 		}
@@ -9288,7 +10326,6 @@ e_arabia = {
 				color2 = { 255 255 255 }
 				assyrian = "Beth Qatraye"
 				b_murwab = {}
-				b_ath_taqab = {}
 			}
 		}
 		d_medina = {
@@ -9457,7 +10494,6 @@ e_arabia = {
 				color = { 102 205 11 }
 				color2 = { 255 255 255 }
 				b_duqm = {}
-				b_sur_masirah = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
@@ -9598,7 +10634,6 @@ e_arabia = {
 			c_alexandria = {
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
-				holy_site = syriac
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
@@ -9615,20 +10650,6 @@ e_arabia = {
 				b_naucratis = {}
 				b_elkanoun = {}
 			}
-			c_buhairya = {
-				color = { 108 227 142 }
-				color2 = { 255 255 255 }
-				greek = "Hermopolis"
-				coptic = "Damanhur"
-				roman = "Hermopolis"
-				b_damanhur = {}
-				b_ramsis = {}
-				b_kharibta = {}
-				b_qartasa = {}
-				b_buhairya = {}
-				b_qasrfarfra = {}
-				b_elkharga = {}
-			}
 			c_al_alamayn = {
 				color = { 104 223 138 }
 				color2 = { 255 255 255 }
@@ -9641,6 +10662,17 @@ e_arabia = {
 				b_ghazal = {}
 				b_shammas = {}
 			}
+			c_quattara = {
+				color = { 106 225 140 }
+				color2 = { 255 255 255 }
+				b_siwa = {}
+				b_santariya = {}
+				b_quattara = {}
+				b_caraoasis = {}
+				b_qaretagnes = {}
+				b_abdannabi = {}
+				b_dayr = {}
+			}
 		}
 		d_damietta = {
 			color = { 229 181 206 }
@@ -9651,6 +10683,9 @@ e_arabia = {
 			c_gabiyaha = {
 				color = { 6 255 77 }
 				color2 = { 255 255 255 }
+				central_italian = Rosetta
+				southern_italian = Rosetta
+				corsican = Rosetta
 				frankish = "Rosetta"
 				norman = "Rosetta"
 				greek = "Rosetta"
@@ -9671,7 +10706,11 @@ e_arabia = {
 				b_burullus = {}
 				b_fuwa = {}
 				b_tida = {}
-				b_rashid = {}
+				b_rashid = {
+					central_italian = Rosetta
+					southern_italian = Rosetta
+					corsican = Rosetta
+				}
 				b_alshirak = {}
 				b_hermopolis = {}
 			}
@@ -9745,6 +10784,20 @@ e_arabia = {
 				b_zagazig = {}
 				b_qantir = {}
 			}
+			c_buhairya = {
+				color = { 108 227 142 }
+				color2 = { 255 255 255 }
+				greek = "Hermopolis"
+				coptic = "Damanhur"
+				roman = "Hermopolis"
+				b_damanhur = {}
+				b_ramsis = {}
+				b_kharibta = {}
+				b_qartasa = {}
+				b_buhairya = {}
+				b_qasrfarfra = {}
+				b_elkharga = {}
+			}
 			c_gizeh = {
 				color = { 110 229 144 }
 				color2 = { 255 255 255 }
@@ -9810,7 +10863,6 @@ e_arabia = {
 				color = { 187 235 127 }
 				color2 = { 255 255 255 }
 				b_bahriya = {}
-				b_alsaqya = {}
 			}
 			c_fayyum = {
 				color = { 165 244 115 }
@@ -9818,17 +10870,6 @@ e_arabia = {
 				b_fayyum = {}
 				b_fidaymin = {}
 				b_iqna = {}
-			}
-			c_quattara = {
-				color = { 106 225 140 }
-				color2 = { 255 255 255 }
-				b_siwa = {}
-				b_santariya = {}
-				b_quattara = {}
-				b_caraoasis = {}
-				b_qaretagnes = {}
-				b_abdannabi = {}
-				b_dayr = {}
 			}
 		}
 		d_aswan = {
@@ -10498,17 +11539,6 @@ e_abyssinia = {
 				b_shendi = {}
 				b_naqa = {}
 			}
-			c_atbara = {
-				color = { 130 172 84 }
-				color2 = { 255 255 255 }
-				b_atbara = {}
-				b_eddamer = {}
-				b_berber = {}
-				b_begarawiyah = {}
-				b_tabat = {}
-				b_wadrawah = {}
-				b_hajaralasla = {}
-			}
 		}
 		d_nubia = {
 			color = { 141 162 79 }
@@ -10520,9 +11550,20 @@ e_abyssinia = {
 				b_nuri = {}
 				b_kareima = {}
 				b_djebel_barka = {}
-				b_ghazali = {}
 				b_tankasi = {}
 				b_korti = {}
+				b_dotawo = {}
+			}
+			c_atbara = {
+				color = { 130 172 84 }
+				color2 = { 255 255 255 }
+				b_atbara = {}
+				b_eddamer = {}
+				b_berber = {}
+				b_begarawiyah = {}
+				b_tabat = {}
+				b_wadrawah = {}
+				b_hajaralasla = {}
 			}
 			c_dongola = {
 				color = { 142 172 70 }
@@ -10542,6 +11583,11 @@ e_abyssinia = {
 				b_abuhammad = {}
 				b_kurgus = {}
 				b_alusheir = {}
+			}
+			c_ghazali = {
+				color = { 140 160 70 }
+				color2 = { 255 255 255 }
+				b_ghazali = {}
 			}
 		}
 		d_nobatia = {
@@ -10662,7 +11708,6 @@ e_abyssinia = {
 				color = { 255 57 25 }
 				color2 = { 255 255 255 }
 				b_naqis = {}
-				b_wadi_al_allaqi = {}
 				b_hajar = {}
 			}
 			c_suakin = {
@@ -10676,7 +11721,6 @@ e_abyssinia = {
 				color = { 248 60 12 }
 				color2 = { 255 255 255 }
 				b_sinkat = {}
-				b_wadibaraka = {}
 			}
 		}
 		d_badi = {
@@ -10700,7 +11744,6 @@ e_abyssinia = {
 				color2 = { 255 255 255 }
 				b_adulis = {}
 				b_misiwwa = {}
-				b_debarwa = {}
 			}
 		}
 		d_kassala = {
@@ -10712,12 +11755,12 @@ e_abyssinia = {
 				color2 = { 255 255 255 }
 				b_djarin = {}
 				b_kassala = {}
+				b_showak = {}
 			}
 			c_wolqayt = {
 				color = { 215 58 33 }
 				color2 = { 255 255 255 }
 				b_wolqayt = {}
-				b_showak = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
@@ -11573,6 +12616,9 @@ e_britannia = {
 			c_jersey = {
 				color = { 255 50 5 }
 				color2 = { 255 255 255 }
+				corsican = Circea
+				central_italian = Circea
+				southern_italian = Circea
 				norse = "Jersey"
 				swedish = "Jersey"
 				norwegian = "Jersey"
@@ -12519,27 +13565,6 @@ e_italy = {
 	color2 = { 255 255 255 }
 	capital = 235
 	culture = italian
-	k_tuscany = {
-		color = { 59 59 119 }
-		color2 = { 255 255 255 }
-		capital = 328
-		culture = tuscan
-		allow = { title_king_basic_allow = yes }
-	}
-	k_tuscan_league = {
-		color = { 59 59 119 }
-		color2 = { 64 88 77 }
-		capital = 1137
-		culture = tuscan
-		allow = { title_king_basic_allow = yes }
-	}
-	k_lombard_league = {
-		color = { 169 17 46 }
-		color2 = { 255 255 255 }
-		capital = 235
-		culture = italian
-		allow = { title_king_basic_allow = yes }
-	}
 	k_genoa = {
 		color = { 234 131 110 }
 		capital = 233
@@ -12570,7 +13595,7 @@ e_italy = {
 		greek = "Italia Annonaria"
 		roman = "Italia Annonaria"
 		d_lombardia = {
-			color = { 140 200 213 }
+			color = { 133 82 150 }
 			color2 = { 255 255 255 }
 			capital = 235
 			culture = italian
@@ -12582,27 +13607,32 @@ e_italy = {
 				b_milano = {}
 				b_monza = {}
 				b_lodi = {}
-				b_parabiago = {}
-				b_trezzo = {}
-				b_cassina_aliprandi = {}
-				b_bissano = {}
-				b_rosate = {}
+				b_lecco = {}
+				b_abbaziadichiaravalle = {}
+				b_trezzosulladda = {}
+				b_rhomilano = {}
 			}
 			c_brescia = {
 				color = { 249 235 224 }
 				color2 = { 255 255 255 }
 				b_brescia = {}
+				b_saloitalia = {}
+				b_sirmione = {}
+				b_monestariosantifaustineegiovita = {}
 				b_montichiari = {}
-				b_asola = {}
-				b_casaloldo = {}
+				b_castellodibonoris = {}
+				b_castellodibrescia = {}
 			}
 			c_bergamo = {
 				color = { 249 235 224 }
 				color2 = { 255 255 255 }
 				b_bergamo = {}
-				b_clusone = {}
-				b_cortenouva = {}
-				b_taxis = {}
+				b_treviglio = {}
+				b_castellodimalpaga = {}
+				b_albino = {}
+				b_monasterodiastino = {}
+				b_castellodibianzano = {}
+				b_castellodimonasterolo = {}
 			}
 			c_pavia = {
 				color = { 255 243 232 }
@@ -12610,12 +13640,12 @@ e_italy = {
 				greek = "Ticinum"
 				roman = "Ticinum"
 				b_pavia = {}
-				b_montebello = {}
+				b_voghera = {}
 				b_vigevano = {}
-				b_langosco = {}
-				b_sparvara = {}
+				b_monasterodisanpietroincieldoro = {}
 				b_lomello = {}
-				b_mortara = {}
+				b_casteggio = {}
+				b_montebello = {}
 			}
 			c_cremona = {
 				color = { 255 245 234 }
@@ -12623,31 +13653,48 @@ e_italy = {
 				greek = "Cremona"
 				b_cremona = {}
 				b_crema = {}
-				b_camisano = {}
-				b_soncino = {}
-				b_viadana = {}
 				b_sospiro = {}
+				b_soncino = {}
+				b_casalmaggiore = {}
+				b_soresina = {}
+				b_trigolo = {}
 			}
-			c_valassina = {
+		}
+		d_como = {
+			color = { 50 123 57 }
+			color2 = { 255 255 255 }
+			capital = 1142
+			culture = italian
+			c_como = {
 				color = { 251 237 226 }
 				color2 = { 255 255 255 }
-				greek = "Como"
-				roman = "Como"
 				b_como = {}
-				b_lecco = {}
-				b_locarno = {}
-				b_martesana = {}
+				b_castellodibaradello = {}
+				b_legnano = {}
 				b_sondrio = {}
+				b_lugano = {}
+				b_castelloditirano = {}
+				b_tirano = {}
+			}
+			c_grisons = {
+				color = { 255 241 230 }
+				color2 = { 255 255 255 }
+				b_bellinzona = {}
+				b_biasca = {}
+				b_musso = {}
+				b_mendrisio = {}
 				b_chiavenna = {}
 			}
-			c_seprio = {
+			c_sepiro = {
 				color = { 120 15 199 }
 				color2 = { 255 255 255 }
+				b_castellodesepiro = {}
+				b_locarno = {}
+				b_arona = {}
+				b_turbigo = {}
 				b_varese = {}
-				b_seprio = {}
-				b_gallerate = {}
-				b_angera = {}
-				b_massino = {}
+				b_castellodivarese = {}
+				b_gallarate = {}
 			}
 		}
 		d_verona = {
@@ -12665,41 +13712,49 @@ e_italy = {
 				color = { 251 226 226 }
 				color2 = { 255 255 255 }
 				b_treviso = {}
-				b_montanara = {}
-				b_collalto = {}
-				b_belluno = {}
-				b_feltre = {}
+				b_oderzo = {}
+				b_ceneda = {}
+				b_castellodicisondivalmarino = {}
+				b_castellodimartellago = {}
+				b_mestretreviso = {}
+				b_castellodicollalto = {}
 			}
-			c_vicenza = {
+			c_bassano = {
 				color = { 251 226 226 }
 				color2 = { 255 255 255 }
 				b_bassano = {}
 				b_vicenza = {}
-				b_romano = {}
+				b_castelfranco = {}
+				b_schio = {}
+				b_castellodegliezzelini = {}
 				b_arzignano = {}
-				b_angarano = {}
+				b_thienebassano = {}
 			}
 			c_verona = {
 				color = { 255 230 230 }
 				color2 = { 255 255 255 }
 				b_verona = {}
-				b_sirmione = {}
-				b_cerea = {}
-				b_bevilacuqa = {}
-				b_san_bonifacio = {}
+				b_peschiera = {}
+				b_lonigo = {}
+				b_castellodicalmano = {}
+				b_abbaziadisanzeno = {}
+				b_montecchio = {}
+				b_sanmartino = {}
 			}
 			c_padova = {
 				color = { 255 234 234 }
 				color2 = { 255 255 255 }
 				b_padova = {}
-				b_carrara_carraraesi = {}
-				b_camposampiero = {}
-				b_cittadella = {}
-				b_onara = {}
+				b_carrrareapadua = {}
+				b_abbaziadisantostefano = {}
+				b_citadella = {}
+				b_doloveneto = {}
+				b_abbaziadisanpietro = {}
+				b_piovedisacco = {}
 			}
 		}
 		d_parma = {
-			color = { 239 224 62 }
+			color = { 140 200 213 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 321
@@ -12709,102 +13764,77 @@ e_italy = {
 				color = { 255 254 230 }
 				color2 = { 255 255 255 }
 				b_parma = {}
-				b_san_secondo = {}
-				b_fidenza_borgo_san_donnino = {}
+				b_montechiarugolo = {}
+				b_felino = {}
 				b_berceto = {}
-				b_pizzo = {}
-				b_sala_parmese = {}
-				b_tizzano = {}
+				b_corniglio = {}
+				b_roccasanvitale = {}
+				b_torrechiara = {}
 			}
 			c_piacenza = {
 				color = { 255 254 230 }
 				color2 = { 255 255 255 }
+				b_fidenza = {}
 				b_piacenza = {}
-				b_bardi = {}
-				b_busseto = {}
-				b_scipione = {}
-				b_ronacagli = {}
+				b_bardipiacenza = {}
+				b_abbaziadisansavino = {}
+				b_roccadolgisio = {}
+				b_salsomaggioreterme = {}
+				b_roccabianca = {}
 			}
 		}
-		d_ivrea = {
+		d_susa = {
 			color = { 0 66 145 }
 			color2 = { 255 255 255 }
 			capital = 236
 			culture = italian
-			greek = "Alpes Cottiae"
-			roman = "Alpes Cottiae"
-			c_piemonte = {
-				color = { 104 12 38 }
-				color2 = { 255 255 255 }
-				greek = "Turin"
-				roman = "Turin"
-				b_torino = {}
-				b_virle = {}
-				b_chieri = {}
-				b_susa = {}
-				b_carmagola = {}
-				b_carignano = {}
-				b_valgorrera = {}
-			}
-			c_pombia = {
-				color = { 107 15 41 }
-				color2 = { 255 255 255 }
-				greek = "Novara"
-				roman = "Novara"
-				b_novara = {}
-				b_pombia = {}
-				b_san_giulio = {}
-				b_biandrate = {}
-				b_arona = {}
-			}
-			c_grisons = {
-				culture = arpitan
-				color = { 107 15 41 }
-				color2 = { 255 255 255 }
-				b_aosta = {}
-				b_borriana = {}
-				b_clyaosta = {}
-				b_challantaosta = {}
-				b_fenisaosta = {}
-				b_usselaosta = {}
-				b_verresaosta = {}
-			}
-			c_vercelli = {
-				color = { 104 12 38 }
-				color2 = { 255 255 255 }
-				culture = italian
-				b_ivrea = {}
-				b_romagnano = {}
-				b_vercelli = {}
-				b_valperga = {}
-				b_crescentino = {}
-			}
-		}
-		d_saluzzo = {
-			color = { 116 69 11 }
-			color2 = { 255 255 255 }
-			capital = 231
-			culture = italian
-			greek = "Alpes Maritimae"
-			roman = "Alpes Maritimae"
 			c_saluzzo = {
 				color = { 155 46 76 }
 				color2 = { 255 255 255 }
 				culture = italian
 				b_saluzzo = {}
 				b_cuneo = {}
-				b_auriate = {}
+				b_racconigi = {}
+				b_abbziadisandalmass = {}
+				b_savigliano = {}
 				b_busca = {}
-				b_monticello = {}
+				b_paesana = {}
 			}
-			c_ceva = {
-				color = { 155 46 76 }
+			c_novara = {
+				color = { 107 15 41 }
+				color2 = { 255 255 255 }
+				b_novara = {}
+				b_domodossola = {}
+				b_nibbiola = {}
+				b_biandrate = {}
+				b_borgosesia = {}
+				b_domodossolacastello = {}
+				b_varallosesia = {}
+			}
+			c_ivrea = {
+				color = { 104 12 38 }
 				color2 = { 255 255 255 }
 				culture = italian
-				b_ceva = {}
-				b_mondovi = {}
-				b_clavesana = {}
-				b_alba = {}
+				b_ivrea = {}
+				b_biella = {}
+				b_vercelli = {}
+				b_santhia = {}
+				b_messarano = {}
+				b_crevacuore = {}
+				b_castellodivettigne = {}
+			}
+			c_piemonte = {
+				color = { 104 12 38 }
+				color2 = { 255 255 255 }
+				greek = "Turin"
+				roman = "Turin"
+				b_torino = {}
+				b_settimo = {}
+				b_moncalieri = {}
+				b_abbadiaalpina = {}
+				b_susapiemonte = {}
+				b_pinerolo = {}
+				b_sanpietrovallemina = {}
 			}
 		}
 		d_monferrato = {
@@ -12819,48 +13849,24 @@ e_italy = {
 				holy_site = waldensian
 				greek = "Asti"
 				roman = "Asti"
-				b_serralunga = {}
+				b_alessandria = {}
 				b_casale = {}
 				b_asti = {}
-				b_moncalvo = {}
-				b_ferrere = {}
-			}
-			c_bosco = {
-				color = { 155 46 76 }
-				color2 = { 255 255 255 }
-				greek = "Acqui"
-				roman = "Acqui"
-				b_bosco = {}
 				b_acqui = {}
-				b_ponzone = {}
-				b_sezzadio = {}
-				b_alessandria = {}
-				b_loreto_costiglione = {}
+				b_chivasso = {}
+				b_castellodigabiano = {}
+				b_alba = {}
 			}
-		}
-		d_massa = {
-			color = { 45 102 59 }
-			color2 = { 255 255 255 }
-			capital = 1120
-			culture = italian
-			c_luni = {
-				color = { 237 250 225 }
-				color2 = { 255 255 255 }
-				b_massa_ligure = {}
-				b_luna_ligure = {}
-				b_carrara_ligure = {}
-				b_mulazzo = {}
-				b_fosdinovo = {}
-			}
-			c_gavi = {
+			c_bobbio = {
 				color = { 155 46 76 }
 				color2 = { 255 255 255 }
-				greek = "Bobbio"
-				roman = "Bobbio"
 				b_bobbio = {}
 				b_tortona = {}
-				b_gavi = {}
-				b_voghera = {}
+				b_fortunago = {}
+				b_abizziadisancolombano = {}
+				b_possodigruppo = {}
+				b_varzibobbio = {}
+				b_ottone = {}
 			}
 		}
 		d_genoa = {
@@ -12873,16 +13879,15 @@ e_italy = {
 				color2 = { 255 255 255 }
 				b_genoa = {}
 				b_rapallo = {}
-				b_lavagna = {}
-				b_portovenere = {}
-				b_sarzana = {}
-				b_la_spezia = {}
-				b_pietra_ligure = {}
-				b_chivari = {}
+				b_lerici = {}
+				b_portofino = {}
+				b_sestrilevanti = {}
+				b_chiavari = {}
+				b_busalla = {}
 			}
 		}
 		d_savona = {
-			color = { 213 43 43 }
+			color = { 140 55 81 }
 			color2 = { 255 255 255 }
 			culture = ligurian
 			capital = 1316
@@ -12890,28 +13895,45 @@ e_italy = {
 			title_female = MARCHESA
 			foa = MARQUISATE_FOA
 			title_prefix = MARQUISATE_OF
-			c_finale = {
+			c_savona = {
 				color = { 153 247 128 }
 				color2 = { 255 255 255 }
+				b_savona = {}
+				b_albisolasuperiore = {}
+				b_cairomontenotte = {}
+				b_noliligure = {}
+				b_castellodimonteursino = {}
+				b_pontinvre = {}
+				b_casteldelfinoligure = {}
+			}
+			c_finale = {
+				color = { 253 247 228 }
+				color2 = { 255 255 255 }
+				culture = ligurian
 				greek = "Albenga"
 				roman = "Albenga"
-				b_savona = {}
 				b_albenga = {}
 				b_oneglia = {}
-				b_carretto = {}
-				b_finale = {}
+				b_finaleligure = {}
+				b_andoraligure = {}
+				b_castelgavone = {}
+				b_castelsangiovannifinale = {}
+				b_caliceligure = {}
 			}
 			c_ventimiglia = {
 				color = { 147 39 69 }
 				color2 = { 255 255 255 }
 				b_ventimiglia = {}
 				b_monaco = {}
-				b_tenda = {}
-				b_dolceacqua = {}
+				b_mentone = {}
+				b_castellodellalucertola = {}
+				b_sanremo = {}
+				b_campogrosso = {}
+				b_apricale = {}
 			}
 		}
 		d_modena = {
-			color = { 189 30 30 }
+			color = { 45 102 59 }
 			color2 = { 255 255 255 }
 			capital = 322
 			culture = italian
@@ -12921,35 +13943,39 @@ e_italy = {
 				color = { 251 250 226 }
 				color2 = { 255 255 255 }
 				b_modena = {}
-				b_canossa = {}
-				b_nonatola = {}
-				b_correggio = {}
+				b_carpi = {}
+				b_abbaziadinonantola = {}
+				b_vignola = {}
 				b_sassuolo = {}
-				b_bomporto = {}
+				b_finalemodena = {}
+				b_roccadellefinale = {}
 			}
 			c_reggionellemilia = {
 				color = { 221 180 126 }
 				color2 = { 255 255 255 }
 				b_reggionellemila = {}
-				b_gustalla = {}
-				b_mirandola = {}
-				b_gonzaga = {}
-				b_montezone = {}
-				b_bianello = {}
+				b_roccadicanossa = {}
+				b_albinea = {}
+				b_pratofontana = {}
+				b_rubiera = {}
+				b_roccadeiboiardo = {}
+				b_correggio = {}
 			}
 			c_frignano = {
 				color = { 221 220 216 }
 				color2 = { 255 255 255 }
 				greek = "Pistoia"
 				roman = "Pistoia"
-				b_pistoia = {}
-				b_pelago = {}
-				b_baiso = {}
-				b_montecuccolo = {}
+				b_castelnovo = {}
+				b_frignanomodena = {}
+				b_ligonchio = {}
+				b_serramazzoni = {}
+				b_salamedifelina = {}
+				b_pievepelago = {}
 			}
 		}
 		d_mantua = {
-			color = { 128 31 88 }
+			color = { 225 180 180 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 354
@@ -12958,18 +13984,23 @@ e_italy = {
 				color2 = { 255 255 255 }
 				greek = "Mantua"
 				b_mantua = {}
-				b_san_martino = {}
-				b_goito = {}
-				b_ostiglia = {}
+				b_serravalle = {}
+				b_castellucchio = {}
+				b_redondesco = {}
 				b_marmirolo = {}
+				b_asola = {}
+				b_goito = {}
 			}
-			c_sabionetta = {
+			c_novellara = {
 				color = { 255 238 238 }
 				color2 = { 255 255 255 }
-				b_marcaria = {}
+				b_novellara = {}
+				b_guastalla = {}
+				b_gonzaga = {}
 				b_sabbioneta = {}
-				b_leno = {}
-				b_redondesco = {}
+				b_luzzara = {}
+				b_marianamantovana = {}
+				b_suzzara = {}
 			}
 		}
 		d_lucca = {
@@ -12982,28 +14013,40 @@ e_italy = {
 				color2 = { 255 255 255 }
 				b_lucca = {}
 				b_altopascio = {}
-				b_corvaia = {}
-				b_vivinaia = {}
-				b_montemagno = {}
-				b_pescia = {}
-				b_poggio = {}
-				b_montecarloluccaveryniceplaceforaholiday = {}
+				b_viareggio = {}
+				b_seravezza = {}
+				b_fortezzadelleverrucole = {}
+				b_capannori = {}
+				b_montecastrese = {}
 			}
-			c_prato = {
+			c_malaspina = {
+				color = { 237 250 225 }
+				color2 = { 255 255 255 }
+				b_castellomalaspina = {}
+				b_lunibishop = {}
+				b_carrara = {}
+				b_sarzana = {}
+				b_aulla = {}
+				b_mulazzo = {}
+				b_minucciano = {}
+			}
+			c_guidi = {
 				color = { 243 253 231 }
 				color2 = { 255 255 255 }
-				b_prato = {}
+				b_castellodeicontiguidi = {}
+				b_castellodeltrebbio = {}
 				b_empoli = {}
-				b_certaldo = {}
-				b_vernio = {}
+				b_pistoia = {}
+				b_sanminiato = {}
+				b_poggibonsi = {}
+				b_pontassieve = {}
 			}
-			c_biserno = {
+			c_volterra = {
 				color = { 243 253 231 }
 				color2 = { 255 255 255 }
 				b_volterra = {}
-				b_st_gimignano = {}
-				b_forcoli = {}
-				b_biserno = {}
+				b_sangimignano = {}
+				b_montecastellipisano = {}
 			}
 		}
 		d_toscana = {
@@ -13017,85 +14060,47 @@ e_italy = {
 				color = { 240 253 228 }
 				color2 = { 255 255 255 }
 				b_firenze = {}
-				b_altafronte = {}
+				b_prato = {}
 				b_fiesole = {}
-				b_montagliari = {}
-				b_poggiobonsi = {}
-				b_passignano = {}
-				b_stinche = {}
-				b_vallombrosa = {}
+				b_sanmichelearcangleo = {}
+				b_castellinainchianti = {}
+				b_sanascianoinvaldipesa = {}
+				b_certaldo = {}
 			}
 			c_arezzo = {
 				color = { 226 251 226 }
 				color2 = { 255 255 255 }
-				b_monte_santa_maria = {}
-				b_peitramala = {}
-				b_montecchio = {}
+				b_cittadicastello = {}
+				b_montevarchi = {}
 				b_cortona = {}
 				b_arezzo = {}
-				b_mammi = {}
+				b_lucignano = {}
+				b_sansepolcro = {}
+				b_umbertide = {}
 			}
-			c_casentino = {
-				color = { 243 253 231 }
-				color2 = { 255 255 255 }
-				b_poppi = {}
-				b_romena = {}
-				b_porciano = {}
-				b_monevarchi = {}
-			}
-			c_modigliana = {
-				color = { 243 253 231 }
-				color2 = { 255 255 255 }
-				b_modigliana = {}
-				b_pila_modigliana = {}
-				b_dovadola = {}
-				b_del_trebbio = {}
-			}
-		}
-		d_siena = {
-			color = { 61 45 131 }
-			color2 = { 255 255 255 }
-			culture = tuscan
-			capital = 330
 			c_siena = {
 				color = { 243 253 231 }
 				color2 = { 255 255 255 }
 				b_siena = {}
-				b_orgia = {}
-				b_montalto = {}
+				b_pienza = {}
 				b_montalcino = {}
-				b_montebuoni = {}
-				b_sprunga = {}
-				b_montone_in_chianti = {}
-				b_castellina_in_chianti = {}
+				b_monteriggioni = {}
+				b_castelnuovoberardenga = {}
+				b_castellodibrolio = {}
+				b_montepulciano = {}
 			}
-			c_scialenga = {
-				color = { 236 255 230 }
-				color2 = { 255 255 255 }
-				greek = "Chiusi"
-				roman = "Chiusi"
-				b_asciano = {}
-				b_chiusi = {}
-				b_bibbiano = {}
-				b_radicofani = {}
-			}
-		}
-		d_sovana = {
-			color = { 123 114 64 }
-			color2 = { 255 255 255 }
-			capital = 332
 			c_piombino = {
 				color = { 236 255 230 }
 				color2 = { 255 255 255 }
 				greek = "Rusellae"
 				roman = "Rusellae"
-				b_santa_fiora = {}
-				b_scarlino = {}
+				b_suvereto = {}
 				b_grosseto = {}
-				b_massa_marittima = {}
-				b_sticciano = {}
-				b_travale = {}
 				b_roselle = {}
+				b_castellodimonteregio = {}
+				b_vetulonia = {}
+				b_scalino = {}
+				b_roccaaldobrandesca = {}
 			}
 			c_orbetello = {
 				color = { 240 255 234 }
@@ -13103,8 +14108,12 @@ e_italy = {
 				greek = "Cosa"
 				roman = "Cosa"
 				b_orbetello = {}
-				b_pitgliano = {}
+				b_pitigliano = {}
+				b_sorano = {}
 				b_sovana = {}
+				b_arcidosso = {}
+				b_santafiora = {}
+				b_giglio = {}
 			}
 		}
 		d_pisa = {
@@ -13116,41 +14125,19 @@ e_italy = {
 				color = { 232 251 226 }
 				color2 = { 255 255 255 }
 				b_pisa = {}
-				b_st_miniato = {}
-				b_donoratico = {}
-				b_porto_pisano = {}
+				b_castellodiripoli = {}
+				b_vicopisano = {}
 				b_piombino = {}
-				b_settimo = {}
-				b_campiglia = {}
+				b_bolgheri = {}
+				b_livorno = {}
+				b_calcinaia = {}
 			}
 		}
-		d_firenze_republic = {
-			color = { 255 248 186 }
+		d_siena = {
+			color = { 38 25 123 }
 			color2 = { 255 255 255 }
-			culture = tuscan
-			capital = 328
-			allow = { always = no }
-		}
-		d_lucca_republic = {
-			color = { 198 43 69 }
-			color2 = { 255 255 255 }
-			culture = tuscan
-			capital = 323
-			allow = { always = no }
-		}
-		d_arezzo_republic = {
-			color = { 76 124 69 }
-			color2 = { 255 255 255 }
-			culture = tuscan
-			capital = 1115
-			allow = { always = no }
-		}
-		d_siena_republic = {
-			color = { 2 19 127 }
-			color2 = { 255 255 255 }
-			culture = tuscan
 			capital = 330
-			allow = { always = no }
+			culture = tuscan
 		}
 		allow = {
 			religion_group = christian
@@ -13161,84 +14148,44 @@ e_italy = {
 		color = { 171 30 30 }
 		color2 = { 255 255 255 }
 		capital = 333
-		culture = laziale
+		culture = central_italian
 		christian = 8000
 		short_name = yes
 		armenian = "Exarchate of Ravenna"
 		greek = "Exarchate of Ravenna"
 		roman = "Exarchate of Ravenna"
-		d_latium = {
-			color = { 254 245 160 }
+		d_ferrara = {
+			color = { 123 189 123 }
 			color2 = { 255 255 255 }
-			capital = 333
-			culture = laziale
-			christian = 9000
-			greek = "Lazio"
-			c_roma = {
-				color = { 228 229 214 }
+			culture = italian
+			capital = 353
+			c_ferrara = {
+				color = { 245 251 226 }
 				color2 = { 255 255 255 }
-				christian = 10000
-				holy_site = catholic
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = aztec
-				holy_site = aztec_reformed
-				b_roma = {
-					pentarchy = yes
-					used_for_dynasty_names = no
-				}
-				b_castelsantangelo = {}
-				b_astura = {}
-				b_tivoli = {}
-				b_ostia_gregoriopolis = {}
-				b_bracciano = {}
-				b_colosseo = {}
+				greek = "Ferrara"
+				roman = "Ferrara"
+				b_ferrara = {}
+				b_commacchio = {}
+				b_codigoro = {}
+				b_finaleemilia = {}
+				b_copparo = {}
+				b_bondeno = {}
+				b_voghiera = {}
 			}
-			c_tusculum = {
-				color = { 166 233 156 }
+			c_rovigo = {
+				color = { 245 251 226 }
 				color2 = { 255 255 255 }
-				b_palestrina = {}
-				b_tusculum = {}
-				b_velletri = {}
-				b_albano = {}
-				b_subiaco = {}
-				b_molara = {}
-			}
-			c_segni = {
-				color = { 203 18 18 }
-				color2 = { 255 255 255 }
-				b_segni = {}
-				b_terracina = {}
-				b_piperno = {}
-				b_anagni = {}
-				b_sezze = {}
-				b_maenza = {}
-			}
-			c_sabina = {
-				color = { 242 233 156 }
-				color2 = { 255 255 255 }
-				greek = "Rieti"
-				roman = "Rieti"
-				b_nerola = {}
-				b_rieti = {}
-				b_monterondo = {}
-				b_farfa = {}
-				b_civita_castellana = {}
-			}
-			c_orvieto = {
-				color = { 118 166 112 }
-				color2 = { 255 255 255 }
-				greek = "Volsinii"
-				roman = "Volsinii"
-				b_orvieto = {}
-				b_sutri = {}
-				b_anguillara = {}
-				b_viterbo = {}
-				b_civitavecchia = {}
+				b_este = {}
+				b_occhiobello = {}
+				b_rovigo = {}
+				b_adria = {}
+				b_montagnana = {}
+				b_monselice = {}
+				b_roccadeglialberi = {}
 			}
 		}
 		d_ravenna = {
-			color = { 155 112 166 }
+			color = { 186 105 201 }
 			color2 = { 255 255 255 }
 			capital = 351
 			culture = italian
@@ -13248,160 +14195,47 @@ e_italy = {
 				color = { 247 253 228 }
 				color2 = { 255 255 255 }
 				b_ravenna = {}
-				b_traversara = {}
-				b_donigallia = {}
+				b_bagnacavallo = {}
 				b_cervia = {}
-				b_comacchio = {}
-				b_cotignola = {}
+				b_russi = {}
+				b_cunio = {}
+				b_raffanara = {}
+				b_castellocortina = {}
 			}
 			c_bologna = {
-				color = { 118 116 118 }
+				color = { 243 249 224 }
 				color2 = { 255 255 255 }
 				greek = "Bologna"
 				roman = "Bologna"
 				b_bologna = {}
-				b_loiano = {}
-				b_panigo = {}
+				b_monterenzio = {}
+				b_monghidoro = {}
+				b_budro = {}
+				b_munzuno = {}
+				b_sangiacomomaggiore = {}
+				b_castelguelf = {}
+			}
+			c_forli = {
+				color = { 243 249 224 }
+				color2 = { 255 255 255 }
 				b_faenza = {}
-				b_castel_del_rio = {}
-				b_imola = {}
-				b_zerfugnano = {}
-			}
-			c_bertinoro = {
-				color = { 49 85 188 }
-				color2 = { 255 255 255 }
-				greek = "Forlì"
-				roman = "Forlì"
-				b_castrocaro = {}
 				b_forli = {}
+				b_imola = {}
+				b_roccadellecaminate = {}
+				b_dovadola = {}
+				b_castelloteodorano = {}
 				b_forlimpopoli = {}
-				b_bertinoro = {}
-				b_polenta = {}
-			}
-			c_bagnacavallo = {
-				color = { 188 114 49 }
-				color2 = { 255 255 255 }
-				b_cunio = {}
-				b_bagnacavallo = {}
-				b_barbiano = {}
-				b_lugo_cunio = {}
-			}
-		}
-		d_spoleto = {
-			color = { 172 8 8 }
-			color2 = { 255 255 255 }
-			christian = 8500
-			capital = 349
-			culture = laziale
-			greek = "Valeria"
-			roman = "Valeria"
-			c_spoleto = {
-				color = { 49 108 188 }
-				color2 = { 255 255 255 }
-				greek = "Spoleto"
-				roman = "Spoleto"
-				b_spoleto = {}
-				b_assisi = {}
-				b_foligno = {}
-				b_narni = {}
-				b_terni = {}
-				b_ferentillo = {}
-			}
-			c_marsciano = {
-				color = { 188 177 49 }
-				color2 = { 255 255 255 }
-				greek = "Perugia"
-				roman = "Perugia"
-				b_perugia = {}
-				b_marsciano = {}
-				b_alviano = {}
-				b_todi = {}
-			}
-			c_borgovalle = {
-				color = { 124 176 95 }
-				color2 = { 255 255 255 }
-				greek = "Gubbio"
-				roman = "Gubbio"
-				b_luceoli = {}
-				b_montauto_anghira = {}
-				b_citta_di_castello = {}
-				b_cantiano = {}
-				b_gubbio = {}
-			}
-			c_camerino = {
-				color = { 138 125 53 }
-				color2 = { 255 255 255 }
-				b_matelica = {}
-				b_pergola = {}
-				b_camerino = {}
-				b_tolentino = {}
-				b_ascoli_piceno = {}
-			}
-		}
-		d_urbino = {
-			color = { 0 85 148 }
-			color2 = { 255 255 255 }
-			capital = 329
-			culture = laziale
-			greek = "Umbria"
-			roman = "Umbria"
-			c_urbino = {
-				color = { 59 53 138 }
-				color2 = { 255 255 255 }
-				greek = "Urbino"
-				roman = "Urbino"
-				b_urbino = {}
-				b_senigallia = {}
-				b_pesaro = {}
-				b_piobbico = {}
-				b_fano = {}
-				b_cagli = {}
 			}
 			c_rimini = {
-				color = { 61 26 63 }
+				color = { 224 249 224 }
 				color2 = { 255 255 255 }
 				b_rimini = {}
-				b_ghiaggiolo = {}
+				b_sigismondo = {}
 				b_cesena = {}
-				b_sogliano = {}
-			}
-			c_montefeltro = {
-				color = { 215 26 63 }
-				color2 = { 255 255 255 }
-				b_carpegna = {}
-				b_san_leo = {}
-				b_montecopiolo = {}
-				b_san_marino = {}
-			}
-		}
-		d_ferrara = {
-			color = { 123 189 123 }
-			color2 = { 255 255 255 }
-			culture = italian
-			capital = 353
-			c_ferrara = {
-				color = { 61 147 63 }
-				color2 = { 255 255 255 }
-				holy_site = waldensian
-				holy_site = cathar
-				holy_site = lollard
-				greek = "Ferrara"
-				roman = "Ferrara"
-				b_ferrara = {}
-				b_rovigo = {}
-				b_san_giorgio = {}
-				b_sermide = {}
-				b_argenta = {}
-			}
-			c_este = {
-				color = { 40 151 181 }
-				color2 = { 255 255 255 }
-				greek = "Ateste"
-				roman = "Ateste"
-				b_este = {}
-				b_monselice = {}
-				b_pomposa = {}
-				b_adria_ferrara = {}
+				b_gradara = {}
+				b_pesaro = {}
+				b_roccacostanza = {}
+				b_fano = {}
 			}
 		}
 		d_ancona = {
@@ -13411,15 +14245,191 @@ e_italy = {
 			greek = "Picenum"
 			roman = "Picenum"
 			c_ancona = {
-				color = { 223 204 48 }
+				color = { 224 249 224 }
 				color2 = { 255 255 255 }
-				culture = laziale
+				culture = central_italian
 				b_ancona = {}
 				b_osimo = {}
+				b_recanati = {}
+				b_tolentino = {}
+				b_mondavio = {}
+				b_offagna = {}
+				b_roccaroveresca = {}
+			}
+			c_fermo = {
+				color = { 224 249 224 }
+				color2 = { 255 255 255 }
+				culture = central_italian
+				b_tortoreto = {}
+				b_ascolipiceno = {}
 				b_fermo = {}
-				b_jezi = {}
-				b_macerata = {}
-				b_loreto = {}
+				b_portosangiorgio = {}
+				b_santelpidioamare = {}
+				b_guilianova = {}
+				b_ponzanodifermo = {}
+			}
+			c_camerino = {
+				color = { 224 249 224 }
+				color2 = { 255 255 255 }
+				culture = central_italian
+				b_roccaflea = {}
+				b_caldarola = {}
+				b_preci = {}
+				b_camerino = {}
+				b_matelica = {}
+				b_norcia = {}
+				b_gualdotadino = {}
+			}
+		}
+		d_urbino = {
+			color = { 0 85 148 }
+			color2 = { 255 255 255 }
+			capital = 329
+			culture = central_italian
+			greek = "Umbria"
+			roman = "Umbria"
+			c_montefeltro = {
+				color = { 226 251 226 }
+				color2 = { 255 255 255 }
+				b_carpegna = {}
+				b_sanleo = {}
+				b_montecopiolo = {}
+				b_sanmarino = {}
+			}
+			c_urbino = {
+				color = { 226 251 226 }
+				color2 = { 255 255 255 }
+				greek = "Urbino"
+				roman = "Urbino"
+				b_urbino = {}
+				b_sanseverino = {}
+				b_fossombrone = {}
+				b_gubbio = {}
+				b_roccatorrinone = {}
+				b_cagliurbino = {}
+				b_acqualagna = {}
+			}
+		}
+		d_spoleto = {
+			color = { 135 45 49 }
+			color2 = { 255 255 255 }
+			christian = 8500
+			capital = 349
+			culture = central_italian
+			greek = "Valeria"
+			roman = "Valeria"
+			c_spoleto = {
+				color = { 225 250 235 }
+				color2 = { 255 255 255 }
+				greek = "Spoleto"
+				roman = "Spoleto"
+				b_spoleto = {}
+				b_assisi = {}
+				b_todi = {}
+				b_terni = {}
+				b_foligno = {}
+				b_bevagna = {}
+				b_roccaalbornoz = {}
+			}
+			c_perugia = {
+				color = { 225 250 235 }
+				color2 = { 255 255 255 }
+				b_perugia = {}
+				b_magione = {}
+				b_castellodelleforme = {}
+				b_castellodelleone = {}
+				b_castelbuonospoleto = {}
+				b_torgiano = {}
+				b_bastiaumbria = {}
+			}
+			c_aprutium = {
+				color = { 205 210 205 }
+				color2 = { 255 255 255 }
+				greek = "Atri"
+				b_calascio = {}
+				b_teramo = {}
+				b_aquila = {}
+				b_capestrano = {}
+				b_popoliabruzzo = {}
+				b_scurcolamarsicana = {}
+				b_aprutium_penne = {}
+			}
+		}
+		d_latium = {
+			color = { 254 245 160 }
+			color2 = { 255 255 255 }
+			capital = 333
+			culture = central_italian
+			christian = 9000
+			greek = "Lazio"
+			c_roma = {
+				color = { 242 233 156 }
+				color2 = { 220 220 1 }
+				christian = 10000
+				holy_site = catholic
+				holy_site = hellenic_pagan
+				holy_site = pagan
+				holy_site = aztec
+				holy_site = aztec_reformed
+				holy_site = waldensian
+				holy_site = cathar
+				holy_site = lollard
+				b_roma = {
+					pentarchy = yes
+					used_for_dynasty_names = no
+				}
+				b_castelsantangelo = {}
+				b_castellodiLunghezza = {}
+				b_tivoli = {}
+				b_ostia = {}
+				b_palo = {}
+				b_bracciano = {}
+			}
+			c_tusculum = {
+				color = { 242 233 156 }
+				color2 = { 220 220 1 }
+				b_castelgandolfolatium = {}
+				b_tusculum = {}
+				b_anagni = {}
+				b_velletri = {}
+				b_castellocaetini = {}
+				b_sermoneta = {}
+				b_nettuno = {}
+			}
+			c_viterbo = {
+				color = { 242 233 156 }
+				color2 = { 220 220 1 }
+				b_roccaviterbo = {}
+				b_viterbo = {}
+				b_tolfa = {}
+				b_sorianonelcimino = {}
+				b_morlupo = {}
+				b_rignano = {}
+				b_castellodirota = {}
+			}
+			c_nerola = {
+				color = { 242 233 156 }
+				color2 = { 220 220 1 }
+				b_nerola = {}
+				b_arce = {}
+				b_montesangiovannicampano = {}
+				b_roccaguglielma = {}
+				b_roccadicampolato = {}
+				b_marcellina = {}
+				b_castellodellaroverediisoletta = {}
+			}
+			c_orvieto = {
+				color = { 228 253 238 }
+				color2 = { 255 255 255 }
+				greek = "Volsinii"
+				roman = "Volsinii"
+				b_orvieto = {}
+				b_ficulle = {}
+				b_narni = {}
+				b_alviano = {}
+				b_montecastrilli = {}
+				b_otricoli = {}
+				b_amelia = {}
 			}
 		}
 		allow = {
@@ -13435,39 +14445,49 @@ e_italy = {
 		culture = sardinian
 		christian = 4000
 		d_corsica = {
-			color = { 18 109 22 }
+			color = { 144 184 115 }
 			color2 = { 255 255 255 }
-			capital = 324
-			culture = umbrian
+			capital = 1101
+			culture = corsican
+			c_terradicomune = {
+				color = { 226 248 251 }
+				color2 = { 255 255 255 }
+				b_calvi = {}
+				b_alando = {}
+				b_castellodirostino = {}
+				b_lucciano = {}
+				b_morosagalia = {}
+				b_corte = {}
+				b_rustinu = {}
+			}
+			c_corse = {
+				color = { 226 248 251 }
+				color2 = { 255 255 255 }
+				b_nebbio = {}
+				b_cardo = {}
+				b_saintflorent = {}
+				b_bastia = {}
+				b_nonza = {}
+			}
 			c_corsica = {
 				color = { 226 248 251 }
 				color2 = { 255 255 255 }
-				b_rogliano = {}
-				b_mariana = {}
-				b_aleria = {}
-				b_alando = {}
-				b_accia = {}
-				b_calvi = {}
-				b_nebbio = {}
-				b_bastia_cardo = {}
-			}
-			c_cinarca = {
-				color = { 224 40 133 }
-				color2 = { 255 255 255 }
-				greek = "Ajaccio"
 				b_ajaccio = {}
 				b_bonifacio = {}
 				b_cinarca = {}
-				b_sagone = {}
+				b_mariani = {}
+				b_portevecchio = {}
+				b_capodibolo = {}
+				b_sartene = {}
 			}
 		}
 		d_sardinia = {
-			color = { 122 46 147 }
+			color = { 132 171 207 }
 			color2 = { 255 255 255 }
 			capital = 326
 			culture = sardinian
 			c_logudoro = {
-				color = { 203 15 64 }
+				color = { 170 182 225 }
 				color2 = { 255 255 255 }
 				culture = sardinian
 				title = GIUDICATO
@@ -13475,26 +14495,31 @@ e_italy = {
 				foa = GIUDICATO_FOA
 				title_prefix = GIUDICATO_OF
 				b_ardara = {}
-				b_bosa = {}
 				b_sassari = {}
 				b_portotorres = {}
 				b_alghero = {}
+				b_bosa = {}
+				b_serravallesardinia = {}
+				b_osilio = {}
 			}
 			c_gallura = {
-				color = { 188 158 166 }
+				color = { 170 200 170 }
 				color2 = { 255 255 255 }
 				culture = sardinian
 				title = GIUDICATO
 				title_female = GIUDICATO_F
 				foa = GIUDICATO_FOA
 				title_prefix = GIUDICATO_OF
-				b_olbia_civita = {}
-				b_nuoro = {}
-				b_posada = {}
-				b_galtelli = {}
+				b_dellafava = {}
+				b_olbia = {}
+				b_posadasardinia = {}
+				b_lamaddalena = {}
+				b_lugosauto = {}
+				b_castellodimollara = {}
+				b_tempiosardinia = {}
 			}
 			c_arborea = {
-				color = { 94 78 82 }
+				color = { 170 182 225 }
 				color2 = { 255 255 255 }
 				culture = sardinian
 				title = GIUDICATO
@@ -13503,11 +14528,14 @@ e_italy = {
 				title_prefix = GIUDICATO_OF
 				b_oristano = {}
 				b_cabras = {}
-				b_terralba = {}
+				b_barumele = {}
 				b_tharros = {}
+				b_furtei = {}
+				b_asuni = {}
+				b_marmilla = {}
 			}
 			c_cagliari = {
-				color = { 52 119 63 }
+				color = { 170 200 170 }
 				color2 = { 255 255 255 }
 				culture = sardinian
 				title = GIUDICATO
@@ -13515,19 +14543,24 @@ e_italy = {
 				foa = GIUDICATO_FOA
 				title_prefix = GIUDICATO_OF
 				b_cagliari = {}
-				b_tortoli = {}
-				b_santa_igia = {}
-				b_carbonara = {}
-				b_tratalias = {}
+				b_ogliastra = {}
+				b_saintmichele = {}
+				b_villasor = {}
+				b_sanluri = {}
+				b_casteldicastro = {}
+				b_casteldimedusa = {}
 			}
 		}
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			religion_group = christian
+			title_king_basic_allow = yes
+		}
 	}
 	k_sicily = {
 		color = { 170 170 210 }
 		color2 = { 255 255 255 }
 		capital = 334
-		culture = neapolitan
+		culture = southern_italian
 		catholic = 7000
 		orthodox = 50
 		muslim = 25
@@ -13545,6 +14578,31 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 335
+			c_benevento = {
+				color = { 224 240 249 }
+				color2 = { 255 255 255 }
+				greek = "Benevento"
+				roman = "Benevento"
+				b_benevento = {}
+				b_avellino = {}
+				b_ariano = {}
+				b_apice = {}
+				b_montemarono = {}
+				b_frigento = {}
+				b_trevico = {}
+			}
+			c_molise = {
+				color = { 224 240 249 }
+				color2 = { 255 255 255 }
+				culture = southern_italian
+				b_boiano = {}
+				b_campobasso = {}
+				b_trivento = {}
+				b_eremodeisanticosmaedamiano = {}
+				b_isernia = {}
+				b_castelsanvincenzo = {}
+				b_venafro = {}
+			}
 		}
 		d_napoli = {
 			color = { 196 139 77 }
@@ -13556,24 +14614,27 @@ e_italy = {
 				color2 = { 255 255 255 }
 				greek = "Naples"
 				b_napoli = {}
-				b_accera = {}
-				b_procida = {}
-				b_ischia = {}
-				b_pozzuoli = {}
-				b_barbato = {}
+				b_casteldellovo = {}
+				b_castelnuovo = {}
+				b_santelmo = {}
+				b_castellamare = {}
+				b_castelcapuano = {}
+				b_casoria = {}
 			}
-			c_amalfi = {
-				color = { 145 194 129 }
+			c_aversa = {
+				color = { 207 206 251 }
 				color2 = { 255 255 255 }
-				b_amalfi = {}
-				b_ravello = {}
-				b_sorrento = {}
-				b_sarno = {}
-				b_nocera = {}
+				b_aversa = {}
+				b_cumae = {}
+				b_pozzuoli = {}
+				b_ischia = {}
+				b_capri = {}
+				b_bacoliaversa = {}
+				b_baiaaversa = {}
 			}
 		}
 		d_capua = {
-			color = { 84 138 107 }
+			color = { 138 226 138 }
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 851
@@ -13584,68 +14645,44 @@ e_italy = {
 				b_capua = {}
 				b_teano = {}
 				b_caserta = {}
-				b_aversa = {}
-				b_nola = {}
-			}
-			c_molise = {
-				color = { 224 240 249 }
-				color2 = { 255 255 255 }
-				culture = neapolitan
-				b_boiano = {}
-				b_campobasso = {}
-				b_trivento = {}
-				b_molise = {}
-				b_sangro = {}
+				b_mondragone = {}
+				b_acerra = {}
+				b_marcianise = {}
+				b_sessaaurunca = {}
 			}
 			c_alife = {
 				color = { 186 202 251 }
 				color2 = { 255 255 255 }
 				b_alife = {}
-				b_caiazzo = {}
-				b_avellino = {}
-				b_altavilla_irpina = {}
+				b_puglianello = {}
+				b_gioiasannitica = {}
+				b_alvignano = {}
+				b_cusanomutri = {}
+				b_faicchio = {}
 			}
-		}
-		d_gaeta = {
-			color = { 123 11 64 }
-			color2 = { 255 255 255 }
-			culture = langobardisch
-			capital = 1105
-			c_fondi = {
-				color = { 78 35 75 }
+			c_sangermano = {
+				color = { 86 202 251 }
 				color2 = { 255 255 255 }
-				greek = "Gaeta"
-				roman = "Gaeta"
-				b_gaeta = {}
-				b_fondi = {}
-				b_itri = {}
-				b_caleno = {}
-			}
-			c_aquino = {
-				color = { 225 250 235 }
-				color2 = { 255 255 255 }
-				greek = "Alvito"
-				roman = "Alvito"
-				b_alvito = {}
-				b_sora = {}
 				b_montecassino = {}
 				b_aquino = {}
 				b_pontecorvo = {}
 			}
-			c_ceccano = {
-				color = { 166 95 35 }
+			c_gaeta = {
+				color = { 78 35 75 }
 				color2 = { 255 255 255 }
-				b_ceccano = {}
-				b_supino = {}
-				b_ferentino = {}
-				b_alatri = {}
-				b_moloro = {}
+				b_gaeta = {}
+				b_fondi = {}
+				b_itri = {}
+				b_sperlonga = {}
+				b_castelloneformia = {}
+				b_moladigaeta = {}
+				b_montesanbiagio = {}
 			}
 		}
 		d_apulia = {
 			color = { 102 130 128 }
 			color2 = { 255 255 255 }
-			culture = neapolitan
+			culture = southern_italian
 			capital = 347
 			greek = "Longobardia"
 			c_apulia = {
@@ -13653,70 +14690,22 @@ e_italy = {
 				color2 = { 255 255 255 }
 				greek = "Potenza"
 				b_melfi = {}
-				b_tricarico = {}
-				b_acerenza = {}
-				b_montepeloso = {}
+				b_bovino = {}
+				b_lavello = {}
+				b_lagopesole = {}
+				b_troia = {}
 				b_potenza = {}
 				b_avigliano = {}
 			}
-			c_marsico = {
-				color = { 81 133 52 }
-				color2 = { 255 255 255 }
-				b_san_severino_lucano = {}
-				b_marsico = {}
-				b_chiaromonte = {}
-				b_lauria = {}
-			}
-			c_gravina = {
-				color = { 236 225 250 }
-				color2 = { 255 255 255 }
-				b_roseto = {}
-				b_gravina = {}
-				b_montescagolioso = {}
-				b_matera = {}
-				b_policastro = {}
-			}
-		}
-		d_bari = {
-			color = { 210 194 16 }
-			color2 = { 255 255 255 }
-			culture = neapolitan
-			capital = 346
 			c_andria = {
 				color = { 197 229 48 }
 				color2 = { 255 255 255 }
 				b_andria = {}
 				b_trani = {}
-				b_canosa = {}
+				b_spinazzola = {}
 				b_barletta = {}
-			}
-			c_bari = {
-				color = { 205 237 56 }
-				color2 = { 255 255 255 }
-				greek = "Bari"
-				roman = "Bari"
-				b_conversano = {}
-				b_monopoli = {}
-				b_bari = {}
-				b_acquviva = {}
-				b_molfetta = {}
-			}
-		}
-		d_venosa = {
-			color = { 138 28 28 }
-			color2 = { 255 255 255 }
-			culture = neapolitan
-			capital = 348
-			c_loritello = {
-				color = { 201 233 52 }
-				color2 = { 255 255 255 }
-				greek = "Larino"
-				roman = "Larino"
-				b_vico = {}
-				b_larino = {}
-				b_lesina_capitanata = {}
-				b_sant_severo = {}
-				b_civitate = {}
+				b_cernigolaandria = {}
+				b_coratoandria = {}
 			}
 			c_foggia = {
 				color = { 201 233 52 }
@@ -13724,17 +14713,69 @@ e_italy = {
 				greek = "Siponto"
 				roman = "Siponto"
 				b_foggia = {}
-				b_seponto = {}
-				b_monte_sant_angelo = {}
-				b_troia = {}
-				b_lavello = {}
-				b_venosa = {}
+				b_siponto = {}
+				b_lucera = {}
+				b_montesantangelo = {}
+				b_vieste = {}
+				b_sansevero = {}
+			}
+			c_bari = {
+				color = { 205 237 56 }
+				color2 = { 255 255 255 }
+				greek = "Bari"
+				roman = "Bari"
+				b_bari = {}
+				b_giovinazzo = {}
+				b_terlizzi = {}
+				b_ruvo = {}
+				b_minervo = {}
+				b_valenzanobari = {}
+				b_molietta = {}
+			}
+			c_gravina = {
+				color = { 236 225 250 }
+				color2 = { 255 255 255 }
+				b_castellaneta = {}
+				b_gravina = {}
+				b_castellotramontano = {}
+				b_matera = {}
+				b_tursi = {}
+				b_montepeloso = {}
+				b_policoro = {}
+			}
+		}
+		d_loritello = {
+			color = { 96 192 140 }
+			color2 = { 255 255 255 }
+			culture = southern_italian
+			capital = 1108
+			c_larino = {
+				color = { 201 233 52 }
+				color2 = { 255 255 255 }
+				b_sannicandro = {}
+				b_termoli = {}
+				b_larinoloritello = {}
+				b_vastoloritello = {}
+				b_sansalvoloritello = {}
+				b_campomarino = {}
+				b_guglionesi = {}
+			}
+			c_chieti = {
+				color = { 205 210 205 }
+				color2 = { 255 255 255 }
+				b_crecchio = {}
+				b_pescara = {}
+				b_chieti = {}
+				b_atri = {}
+				b_ortona = {}
+				b_lanciano = {}
+				b_cepagatti = {}
 			}
 		}
 		d_tarent = {
-			color = { 39 39 111 }
+			color = { 227 77 77 }
 			color2 = { 255 255 255 }
-			culture = neapolitan
+			culture = southern_italian
 			capital = 344
 			short_name = yes
 			greek = "Taranto"
@@ -13743,9 +14784,12 @@ e_italy = {
 				color = { 236 225 250 }
 				color2 = { 255 255 255 }
 				b_taranto = {}
-				b_gallipoli_puglia = {}
-				b_nardo = {}
-				b_grottaglie = {}
+				b_mottola = {}
+				b_palagiano = {}
+				b_nardotarent = {}
+				b_pulsano = {}
+				b_crispiano = {}
+				b_montemesola = {}
 			}
 			c_lecce = {
 				color = { 209 241 60 }
@@ -13754,14 +14798,26 @@ e_italy = {
 				roman = "Otranto"
 				b_lecce = {}
 				b_otranto = {}
-				b_copertino = {}
-				b_soleto = {}
 				b_brindisi = {}
-				b_ostuni = {}
+				b_leuca = {}
+				b_soleto = {}
+				b_castro = {}
+				b_andrano = {}
+			}
+			c_conversano = {
+				color = { 236 225 250 }
+				color2 = { 255 255 255 }
+				b_conversano = {}
+				b_oria = {}
+				b_monopoli = {}
+				b_santostefano = {}
+				b_sanvitodeinormanni = {}
+				b_castellodenticedifrasso = {}
+				b_francavillafontana = {}
 			}
 		}
 		d_salerno = {
-			color = { 217 214 123 }
+			color = { 138 28 28 }
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 336
@@ -13771,51 +14827,60 @@ e_italy = {
 				color2 = { 255 255 255 }
 				greek = "Salerno"
 				b_salerno = {}
-				b_eboli = {}
-				b_capaccio = {}
-				b_cavea = {}
-				b_camerota = {}
+				b_acenzera = {}
+				b_acerno = {}
+				b_castellodiarechi = {}
+				b_campagna = {}
+				b_agropoli = {}
+				b_castellogerione = {}
 			}
-			c_benevento = {
-				color = { 224 240 249 }
+			c_marsico = {
+				color = { 81 133 52 }
 				color2 = { 255 255 255 }
-				greek = "Benevento"
-				roman = "Benevento"
-				b_benevento = {}
-				b_lauro = {}
-				b_ariano = {}
-				b_gesualdo = {}
-				b_montella = {}
-				b_montemarono = {}
-				b_buonalbergo = {}
+				b_caggiano = {}
+				b_marsico = {}
+				b_castellodicastrocucco = {}
+				b_maratea = {}
+				b_viggianello = {}
+				b_tito = {}
+			}
+			c_amalfi = {
+				color = { 145 194 129 }
+				color2 = { 255 255 255 }
+				b_amalfi = {}
+				b_positano = {}
+				b_sorrento = {}
+				b_sarno = {}
+				b_nocera = {}
 			}
 		}
-		d_atri = {
-			color = { 128 194 2 }
+		d_alvito = {
+			color = { 193 229 253 }
 			color2 = { 255 255 255 }
 			christian = 300
-			culture = neapolitan
-			capital = 929
-			c_marsi = {
+			culture = southern_italian
+			capital = 1114
+			c_alvito = {
+				color = { 225 250 235 }
+				color2 = { 255 255 255 }
+				b_alvitoabruzzo = {}
+				b_balsorano = {}
+				b_sora = {}
+				b_isolaliri = {}
+				b_castelloboncompagni = {}
+				b_vicalvi = {}
+				b_barrea = {}
+			}
+			c_celano = {
 				color = { 205 210 205 }
 				color2 = { 255 255 255 }
 				b_avezzano = {}
+				b_valvaabruzzo = {}
 				b_celano = {}
+				b_sulmona = {}
 				b_albe = {}
-				b_valva = {}
-				b_carsoli = {}
-				b_tagliacozzo = {}
-			}
-			c_aprutium = {
-				color = { 205 210 205 }
-				color2 = { 255 255 255 }
-				greek = "Atri"
-				b_montorio = {}
-				b_teramo = {}
-				b_atri = {}
-				b_penne_aprutio = {}
-				b_san_valentino = {}
-				b_ascoli = {}
+				b_pescina = {}
+				b_raiano = {}
 			}
 			c_manopello = {
 				color = { 205 210 205 }
@@ -13823,16 +14888,18 @@ e_italy = {
 				greek = "Aternum"
 				roman = "Aternum"
 				b_manopello = {}
-				b_chieti = {}
-				b_ortona = {}
-				b_pescara = {}
-				b_montedorisio = {}
+				b_civitaluparella = {}
+				b_guardiagrele = {}
+				b_casoli = {}
+				b_bomba = {}
+				b_montazzoli = {}
+				b_castiglionemessermarino = {}
 			}
 		}
 		d_calabria = {
 			color = { 195 161 44 }
 			color2 = { 255 255 255 }
-			culture = neapolitan
+			culture = southern_italian
 			capital = 338
 			roman = "Lucania et Brutii"
 			c_consenza = {
@@ -13841,19 +14908,25 @@ e_italy = {
 				greek = "Cosenza"
 				roman = "Cosenza"
 				b_cosenza = {}
+				b_malvito = {}
 				b_tarsia_calabria = {}
-				b_corgiliano = {}
-				b_rossano = {}
+				b_corigliano = {}
+				b_crucoli = {}
+				b_argentano = {}
+				b_scalea = {}
 			}
 			c_catanzaro = {
 				color = { 239 227 252 }
 				color2 = { 255 255 255 }
 				greek = "Crotone"
 				roman = "Crotone"
-				b_santa_severina = {}
+				b_caccuri = {}
+				b_rossano = {}
 				b_squillace = {}
 				b_catanzaro = {}
-				b_montelone = {}
+				b_cerenzia = {}
+				b_crotone = {}
+				b_belcastro = {}
 			}
 			c_reggio = {
 				color = { 241 229 254 }
@@ -13868,11 +14941,15 @@ e_italy = {
 				roman = "Reggio"
 				b_reggio = {}
 				b_mileto = {}
+				b_nicotera = {}
+				b_bova = {}
 				b_gerace = {}
+				b_tropea = {}
+				b_roa = {}
 			}
 		}
 		d_sicily = {
-			color = { 46 94 147 }
+			color = { 43 97 251 }
 			color2 = { 255 255 255 }
 			capital = 340
 			catholic = 250
@@ -13889,12 +14966,12 @@ e_italy = {
 				egyptian_arabic = "Palermo"
 				sicilian_arabic = "Palermo"
 				b_palermo = {}
-				b_collesano = {}
-				b_sclafani = {}
-				b_termini = {}
-				b_trapani = {}
-				b_partanna = {}
-				b_caccamo = {}
+				b_cefalu = {}
+				b_monreale = {}
+				b_gratteri = {}
+				b_misilmeri = {}
+				b_mistretta = {}
+				b_campofelicedifitalia = {}
 			}
 			c_messina = {
 				color = { 242 225 250 }
@@ -13906,11 +14983,24 @@ e_italy = {
 				levantine_arabic = "Cefalù"
 				egyptian_arabic = "Cefalù"
 				sicilian_arabic = "Cefalù"
-				b_geraci = {}
-				b_cefalu = {}
-				b_naso = {}
-				b_mistretta = {}
-				b_nicosia = {}
+				b_messina = {}
+				b_lipari = {}
+				b_taormina = {}
+				b_milazzu = {}
+				b_munforti = {}
+				b_randazzo = {}
+				b_sanmarcodalunzio = {}
+			}
+			c_enna = {
+				color = { 242 225 250 }
+				color2 = { 255 255 255 }
+				b_gagghianu = {}
+				b_troinia = {}
+				b_castrojanni = {}
+				b_piazza = {}
+				b_tavaca = {}
+				b_regalbuto = {}
+				b_castellodilombardia = {}
 			}
 			c_siracusa = {
 				color = { 150 231 143 }
@@ -13922,13 +15012,13 @@ e_italy = {
 				levantine_arabic = "Taormina"
 				egyptian_arabic = "Taormina"
 				sicilian_arabic = "Taormina"
+				b_syracusa = {}
 				b_catania = {}
-				b_messina = {}
-				b_taormina = {}
+				b_lentini = {}
 				b_paterno = {}
-				b_agosta = {}
-				b_brolo = {}
-				b_milazzo = {}
+				b_centuripe = {}
+				b_manicace = {}
+				b_augusta = {}
 			}
 			c_modica = {
 				color = { 150 231 143 }
@@ -13942,11 +15032,12 @@ e_italy = {
 				sicilian_arabic = "Noto"
 				sicilian = "Modica"
 				b_noto = {}
-				b_buccheri = {}
-				b_mineo = {}
+				b_chiramontesicily = {}
+				b_caltagirone = {}
 				b_modica = {}
-				b_ragusa_sicily = {}
-				b_syracusa = {}
+				b_ragusasicily = {}
+				b_ucannni = {}
+				b_gela = {}
 			}
 			c_agrigento = {
 				color = { 251 234 253 }
@@ -13958,12 +15049,13 @@ e_italy = {
 				levantine_arabic = "Agrigento"
 				egyptian_arabic = "Agrigento"
 				sicilian_arabic = "Agrigento"
-				b_girgenti = {}
-				b_butera = {}
-				b_caltabelotta = {}
-				b_favara = {}
-				b_caltagirone = {}
-				b_licata = {}
+				b_agricento = {}
+				b_canicatti = {}
+				b_castellodiluna = {}
+				b_sciacca = {}
+				b_caltabellotta = {}
+				b_raffadali = {}
+				b_montallegro = {}
 			}
 			c_trapani = {
 				color = { 150 237 120 }
@@ -13975,10 +15067,13 @@ e_italy = {
 				levantine_arabic = "Mazara"
 				egyptian_arabic = "Mazara"
 				sicilian_arabic = "Mazara"
-				b_aderno = {}
-				b_caltanisetta = {}
-				b_castrogiovanni = {}
-				b_aidone = {}
+				b_trapani = {}
+				b_mazara = {}
+				b_erice = {}
+				b_marsala = {}
+				b_partanna = {}
+				b_sanguiseppelato = {}
+				b_castelvertrano = {}
 			}
 			c_malta = {
 				color = { 254 244 253 }
@@ -14087,6 +15182,23 @@ e_france = {
 				b_chateaudoex = {}
 				b_corbieres = {}
 				b_charmey = {}
+			}
+		}
+		d_aosta = {
+			color = { 120 170 220 }
+			color2 = { 255 255 255 }
+			capital = 1041
+			culture = arpitan
+			c_aosta = {
+				color = { 107 15 41 }
+				color2 = { 255 255 255 }
+				b_fenisaosta = {}
+				b_usselaosta = {}
+				b_aosta = {}
+				b_verresaosta = {}
+				b_saintvincentaosta = {}
+				b_clyaosta = {}
+				b_saintpierreaosta = {}
 			}
 			c_valais = {
 				color = { 110 18 44 }
@@ -14411,14 +15523,18 @@ e_france = {
 				b_verdelet = {}
 				b_st_brieuc = {}
 				b_monkontour = {}
-				b_morlaix = {}
-				b_treguier = {}
-				b_guingamp = {}
-				b_chatelaudren = {}
 				b_paimpol = {}
 				b_peran = {}
 				b_loudeac = {}
 				b_quintin = {}
+			}
+			c_tregor = {
+				color = { 248 201 20 }
+				color2 = { 255 255 255 }
+				b_morlaix = {}
+				b_treguier = {}
+				b_guingamp = {}
+				b_chatelaudren = {}
 			}
 			c_rennes = {
 				color = { 150 1 120 }
@@ -16553,7 +17669,7 @@ e_spain = {
 				b_beja = {}
 				b_aljustrel = {}
 				b_almodovar = {}
-				b_alvito_beja = {}
+				b_alvito = {}
 				b_odemira = {}
 				b_ourique = {}
 			}
@@ -16732,7 +17848,7 @@ e_spain = {
 				b_jerez = {}
 			}
 			c_cadiz = {
-				color = { 185 20 180 }
+				color = { 255 0 255 }
 				color2 = { 255 255 255 }
 				b_carmona = {}
 				b_ecija = {}
@@ -17240,7 +18356,7 @@ e_africa = {
 		d_kabylia = {
 			color = { 201 21 38 }
 			color2 = { 255 255 255 }
-			capital = 1355
+			capital = 820
 			greek = "Numidia Cirtensis"
 			roman = "Numidia Cirtensis"
 			c_beni_yanni = {
@@ -17249,7 +18365,6 @@ e_africa = {
 				greek = "Igilgili"
 				roman = "Igilgili"
 				b_jijel = {}
-				b_djimla = {}
 				b_tigzirt = {}
 				b_bujima = {}
 				b_bourmedes = {}
@@ -17354,7 +18469,6 @@ e_africa = {
 				color = { 47 253 104 }
 				color2 = { 255 255 255 }
 				b_arigh = {}
-				b_tuggurt = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
@@ -17619,11 +18733,11 @@ e_africa = {
 				color2 = { 255 255 255 }
 				b_sijilmasa = {}
 				b_bechar = {}
-				b_zagora = {}
 				b_benitajjit = {}
 				b_boudnib = {}
 				b_merzane = {}
 				b_hannabou = {}
+				b_tadaout = {}
 			}
 			c_sous = {
 				color = { 49 156 38 }
@@ -17659,19 +18773,18 @@ e_africa = {
 			c_ifni = {
 				color = { 49 156 38 }
 				color2 = { 255 255 255 }
-				b_nullamta = {}
-				b_tamdult = {}
 				b_ifni = {}
+				b_nullamta = {}
 				b_guelmim = {}
 				b_rgab = {}
 				b_belkassem = {}
 				b_mihrleft = {}
+				b_tizgui = {}
 			}
 			c_tindouf = {
 				color = { 49 156 38 }
 				color2 = { 255 255 255 }
 				b_tindouf = {}
-				b_birumgrein = {}
 			}
 		}
 		d_adrar = {
@@ -17682,10 +18795,10 @@ e_africa = {
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_ouadane = {}
-				b_azuggi = {}
 				b_chinguitti = {}
 				b_binklabin = {}
 				b_tingi = {}
+				b_azuggi = {}
 				b_ksaralkiali = {}
 			}
 			c_idjil = {
@@ -17697,12 +18810,15 @@ e_africa = {
 				b_rouessa = {}
 				b_fderick = {}
 			}
+			c_birumgrein = {
+				color = { 130 180 61 }
+				color2 = { 255 255 255 }
+				b_birumgrein = {}
+			}
 			c_akjoujt = {
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_akjoujt = {}
-				b_awlil = {}
-				b_atrar = {}
 			}
 		}
 		d_taghaza = {
@@ -17716,9 +18832,9 @@ e_africa = {
 				b_taoudeni = {}
 				b_kerzaz = {}
 				b_metarta = {}
+				b_adrar = {}
 				b_aougrout = {}
 				b_charouine = {}
-				b_alouarta = {}
 			}
 			c_tassarahla = {
 				color = { 130 180 61 }
@@ -17729,6 +18845,7 @@ e_africa = {
 		allow = { title_king_basic_allow = yes }
 	}
 	allow = {
+		religion_group = muslim
 		has_landed_title = k_mauretania
 		has_landed_title = k_africa
 		title_emperor_basic_allow = yes
@@ -17757,7 +18874,6 @@ e_persia = {
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
 				holy_site = mazdaki
-				holy_site = manichean
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_esfahan = {}
@@ -17797,11 +18913,9 @@ e_persia = {
 				pahlavi = "Nahavand"
 				roman = "Nahavand"
 				b_nihavand = {}
-				b_khurramabad = {}
 				b_burujerd = {}
-				b_dorood = {}
-				b_alashtar = {}
-				b_aligoodarz = {}
+				b_lishtar = {}
+				b_khurramabad = {}
 				b_burdj = {}
 			}
 		}
@@ -17874,11 +18988,6 @@ e_persia = {
 				color = { 30 190 180 }
 				color2 = { 255 255 255 }
 				holy_site = nabawiyya
-				holy_site = zoroastrian
-				holy_site = mazdaki
-				holy_site = manichean
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				pahlavi = "Istakhr"
 				b_shiraz = {}
 				b_djuyum = {}
@@ -17907,6 +19016,17 @@ e_persia = {
 				b_qutruh = {}
 				b_niriz = {}
 				b_istahbanat = {}
+			}
+			c_yazd = {
+				color = { 40 200 185 }
+				color2 = { 255 255 255 }
+				b_yazd = {}
+				b_fahradj = {}
+				b_andjira = {}
+				b_unas = {}
+				b_abarquh = {}
+				b_bafq = {}
+				b_maybudh = {}
 			}
 		}
 		d_kerman = {
@@ -17945,8 +19065,13 @@ e_persia = {
 				b_khir = {}
 				b_baft = {}
 			}
+		}
+		d_hormuz = {
+			color = { 31 73 17 }
+			color2 = { 255 255 255 }
+			capital = 641
 			c_hormuz = {
-				color = { 40 65 10 }
+				color = { 200 85 255 }
 				color2 = { 255 255 255 }
 				b_hormuz = {}
 				b_sharuva = {}
@@ -17957,23 +19082,10 @@ e_persia = {
 				b_kishqeshmi = {}
 			}
 		}
-		d_yazd = {
+		d_mafaza = {
 			color = { 218 220 155 }
 			color2 = { 255 255 255 }
-			capital = 638
-			c_yazd = {
-				color = { 115 150 18 }
-				color2 = { 255 255 255 }
-				holy_site = zoroastrian
-				holy_site = mazdaki
-				b_yazd = {}
-				b_fahradj = {}
-				b_andjira = {}
-				b_unas = {}
-				b_abarquh = {}
-				b_bafq = {}
-				b_maybudh = {}
-			}
+			capital = 1533
 			c_mafaza = {
 				color = { 65 240 215 }
 				color2 = { 255 255 255 }
@@ -17983,6 +19095,7 @@ e_persia = {
 				b_zarand = {}
 				b_nain = {}
 			}
+			allow = { always = no }
 		}
 		d_ahwaz = {
 			color = { 154 172 148 }
@@ -18058,6 +19171,8 @@ e_persia = {
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
 				holy_site = mazdaki
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				b_rasht_gilan = {}
 				b_hawsam = {}
 				b_lahidjan = {}
@@ -18127,7 +19242,11 @@ e_persia = {
 			c_maragheh = {
 				color = { 67 92 138 }
 				color2 = { 255 255 255 }
+				holy_site = zoroastrian
+				holy_site = mazdaki
 				holy_site = yazidi
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				b_maragheh = {}
 				b_laylan = {}
 				b_dakharraqan = {}
@@ -18148,6 +19267,10 @@ e_persia = {
 			c_azerbaijan = {
 				color = { 164 236 24 }
 				color2 = { 255 255 255 }
+				holy_site = zoroastrian
+				holy_site = mazdaki
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				armenian = "Paytakaran"
 				assyrian = "Beylagan"
 				pahlavi = "Atropatene"
@@ -18162,7 +19285,7 @@ e_persia = {
 	k_khorasan = {
 		color = { 99 150 9 }
 		color2 = { 255 255 255 }
-		capital = 634
+		capital = 630
 		muslim = 300
 		zoroastrian = 400
 		pahlavi = "Khwarasan"
@@ -18176,8 +19299,8 @@ e_persia = {
 				color2 = { 255 255 255 }
 				holy_site = zoroastrian
 				holy_site = mazdaki
-				holy_site = manichean
 				holy_site = yazidi
+				holy_site = manichean
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_neshapur = {}
@@ -18198,6 +19321,14 @@ e_persia = {
 				b_asadabad_arghiyan = {}
 				b_isfarain = {}
 			}
+			c_farava = {
+				color = { 85 185 30 }
+				color2 = { 255 255 255 }
+				b_farava = {}
+				b_abivard = {}
+				b_akhor = {}
+				b_nasa = {}
+			}
 			c_tus = {
 				color = { 90 175 15 }
 				color2 = { 255 255 255 }
@@ -18216,6 +19347,11 @@ e_persia = {
 				b_bunabid = {}
 				b_zava = {}
 			}
+		}
+		d_qohistan = {
+			color = { 115 150 18 }
+			color2 = { 255 255 255 }
+			capital = 635
 			c_qohistan = {
 				color = { 105 155 13 }
 				color2 = { 255 255 255 }
@@ -18249,17 +19385,20 @@ e_persia = {
 				color = { 151 210 70 }
 				color2 = { 255 255 255 }
 				b_sarakhs = {}
-				b_mayhana = {}
-				b_dandankan = {}
 				b_mazduran = {}
+				b_dandankan = {}
+				b_mayhana = {}
 			}
-			c_abivard = {
-				color = { 85 185 30 }
+			c_guzgan = {
+				color = { 160 200 78 }
 				color2 = { 255 255 255 }
-				b_abivard = {}
-				b_farava = {}
-				b_nasa = {}
-				b_akhor = {}
+				b_fayrab = {}
+				b_naryan = {}
+				b_taleqan = {}
+				b_yahudan = {}
+				b_anbar = {}
+				b_andkhud = {}
+				b_ushburqan = {}
 			}
 			c_amol = {
 				color = { 156 210 80 }
@@ -18343,17 +19482,6 @@ e_persia = {
 				b_san = {}
 				b_ruy = {}
 			}
-			c_guzgan = {
-				color = { 160 200 78 }
-				color2 = { 255 255 255 }
-				b_faryab = {}
-				b_naryan = {}
-				b_taleqan = {}
-				b_yahudan = {}
-				b_anbar = {}
-				b_andkhud = {}
-				b_ushburqan = {}
-			}
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -18398,8 +19526,6 @@ e_persia = {
 			c_zamindavar = {
 				color = { 142 175 86 }
 				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				b_bust = {}
 				b_sarvan = {}
 				b_muaskar = {}
@@ -18484,7 +19610,6 @@ e_persia = {
 			c_samarqand = {
 				color = { 162 240 37 }
 				color2 = { 255 255 255 }
-				holy_site = manichean
 				b_samarqand = {}
 				b_istikhan = {}
 				b_arbinjan = {}
@@ -18607,7 +19732,6 @@ e_persia = {
 				color = { 1 79 206 }
 				color2 = { 255 255 255 }
 				b_igdy_kala = {}
-				b_karakul = {}
 			}
 			c_harazasp = {
 				color = { 179 185 86 }
@@ -18641,8 +19765,6 @@ e_persia = {
 			c_kabul = {
 				color = { 10 225 165 }
 				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				b_kabul = {}
 				b_pervan = {}
 				b_panjhir = {}
@@ -18666,12 +19788,16 @@ e_persia = {
 				color = { 18 2 170 }
 				color2 = { 255 255 255 }
 				b_badakhshan = {}
-				b_shughnan = {}
-				b_jerm = {}
 				b_rustaq = {}
+				b_jerm = {}
 				b_sanglich = {}
-				b_ishkashim = {}
+			}
+			c_vakhan = {
+				color = { 18 23 70 }
+				color2 = { 255 255 255 }
+				b_istakhmish = {}
 				b_dar-i-tubbat = {}
+				b_shughnan = {}
 			}
 			c_khuttal = {
 				color = { 18 23 10 }
@@ -18696,7 +19822,7 @@ e_persia = {
 				color2 = { 255 255 255 }
 				b_chaghaniyan = {}
 				b_charmangan = {}
-				b_basand = {}
+				b_rigar = {}
 				b_darzangi = {}
 				b_hashimgird = {}
 				b_hamvaran = {}
@@ -18705,9 +19831,9 @@ e_persia = {
 				color = { 18 3 10 }
 				color2 = { 255 255 255 }
 				b_talekan = {}
-				b_valvalij = {}
 				b_kishm = {}
 				b_andicharagh = {}
+				b_vavalij = {}
 				b_anderab = {}
 			}
 		}
@@ -18793,24 +19919,17 @@ e_persia = {
 		d_kermanshah = {
 			color = { 58 83 130 }
 			color2 = { 255 255 255 }
-			capital = 688
+			capital = 657
 			c_luristan = {
 				color = { 76 113 182 }
 				color2 = { 255 255 255 }
-				b_sirawan = {}
-				b_saimara = {}
-				b_tarhan = {}
+				b_dezbar = {}
+				b_khorramabad = {}
+				b_borujerd = {}
+				b_aligoodarz = {}
 				b_koohdasht = {}
-				b_poledokhtar = {}
-				b_abdanan = {}
-			}
-			c_kermanshah = {
-				color = { 74 111 180 }
-				color2 = { 255 255 255 }
-				b_kangivar = {}
-				b_kermanshah = {}
-				b_hulwan = {}
-				b_mahalkufa = {}
+				b_alashtar = {}
+				b_dorood = {}
 			}
 		}
 		d_baghdad = {
@@ -18822,7 +19941,6 @@ e_persia = {
 				color = { 129 169 243 }
 				color2 = { 255 255 255 }
 				holy_site = sunni
-				holy_site = nestorian
 				holy_site = manichean
 				greek = "Ctesiphon"
 				assyrian = "Seleucia"
@@ -18918,6 +20036,14 @@ e_persia = {
 				b_shahrazur = {}
 				b_tiranshah = {}
 				b_sine = {}
+			}
+			c_kermanshah = {
+				color = { 74 111 180 }
+				color2 = { 255 255 255 }
+				b_kangivar = {}
+				b_kermanshah = {}
+				b_hulwan = {}
+				b_mahalkufa = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
@@ -19366,7 +20492,6 @@ e_null = {
 				b_mertikerton = {}
 				b_chozanon = {}
 				b_charpete = {}
-				b_pertek = {}
 			}
 		}
 		gain_effect = {
@@ -19444,7 +20569,6 @@ e_null = {
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
-				holy_site = syriac
 				holy_site = pagan
 				holy_site = yazidi
 				holy_site = jewish
@@ -19611,7 +20735,6 @@ e_null = {
 				b_jaffa = {}
 				b_lydda = {}
 				b_mirabel = {}
-				b_ramleh = {}
 				b_beitdejan = {}
 				b_kharruba = {}
 				b_yazur = {}
@@ -19620,11 +20743,16 @@ e_null = {
 				color = { 12 205 43 }
 				color2 = { 255 255 255 }
 				b_ascalon = {}
-				b_ibelin = {}
-				b_latrun = {}
-				b_montgisard = {}
 				b_karatiyya = {}
 				b_laforbie = {}
+			}
+			c_ibelin = {
+				color = { 12 205 43 }
+				color2 = { 255 255 255 }
+				b_ibelin = {}
+				b_ramleh = {}
+				b_latrun = {}
+				b_montgisard = {}
 			}
 		}
 		d_galilee = {
@@ -19661,6 +20789,7 @@ e_null = {
 				color2 = { 255 255 255 }
 				holy_site = maronite
 				holy_site = druze
+				holy_site = manichean
 				greek = "Berytus"
 				roman = "Berytus"
 				b_beirut = {}
@@ -19795,7 +20924,6 @@ e_null = {
 			c_antiocheia = {
 				color = { 106 191 44 }
 				color2 = { 255 255 255 }
-				holy_site = syriac
 				holy_site = orthodox
 				holy_site = miaphysite
 				holy_site = monophysite
@@ -19957,7 +21085,6 @@ e_null = {
 			c_amida = {
 				color = { 129 166 48 }
 				color2 = { 255 255 255 }
-				holy_site = syriac
 				andalusian_arabic = "Diyarbakir"
 				armenian = "Tigranocerta"
 				turkish = "Diyarbekir"
@@ -20046,7 +21173,6 @@ e_null = {
 			c_mardin = {
 				color = { 129 166 48 }
 				color2 = { 255 255 255 }
-				holy_site = syriac
 				holy_site = nestorian
 				b_maridin = {}
 				b_resaina = {}
@@ -20070,7 +21196,6 @@ e_null = {
 				b_jazirat = {}
 				b_barqaid = {}
 				b_faysabur = {}
-				b_fenek = {}
 			}
 			c_sinjar = {
 				color = { 17 97 244 }
@@ -20102,9 +21227,7 @@ e_null = {
 				b_bakhdida = {}
 				b_baqofah = {}
 				b_duhok = {}
-				b_aqra = {}
-				b_maaltha = {}
-				b_marmattai = {}
+				b_dehi = {}
 			}
 			c_erbil = {
 				color = { 9 89 236 }
@@ -20112,7 +21235,6 @@ e_null = {
 				b_arbil = {}
 				b_shaqlawa = {}
 				b_darabad = {}
-				b_tellhaftun = {}
 			}
 			c_mosul = {
 				color = { 9 89 236 }
@@ -20748,7 +21870,11 @@ e_null = {
 				bosnian = "Lukomorye"
 				bulgarian = "Lukomorye"
 				b_kalmius = {}
-				b_melitopol = {}
+				b_melitopol = {
+					corsican = Melita
+					central_italian = Melita
+					southern_italian = Melita
+				}
 				b_kakhovka = {}
 			}
 			c_crimea = {
@@ -20767,6 +21893,9 @@ e_null = {
 			color = { 227 205 101 }
 			color2 = { 255 255 255 }
 			capital = 594
+			corsican = Levedia
+			central_italian = Levedia
+			southern_italian = Levedia
 			swedish = "Levedia"
 			norwegian = "Levedia"
 			danish = "Levedia"
@@ -20884,6 +22013,9 @@ e_null = {
 			color = { 170 218 153 }
 			color2 = { 255 255 255 }
 			capital = 542
+			corsican = Podolia
+			central_italian = Podolia
+			southern_italian = Podolia
 			swedish = "Podolia"
 			norwegian = "Podolia"
 			danish = "Podolia"
@@ -20945,7 +22077,11 @@ e_null = {
 				szekely = "Dniester"
 				b_berezan = {}
 				b_ochakiv = {}
-				b_odessa = {}
+				b_odessa = {
+					corsican = Ginestra
+					central_italian = Ginestra
+					southern_italian = Ginestra
+				}
 			}
 			c_oleshye = {
 				color = { 238 198 92 }
@@ -20956,6 +22092,9 @@ e_null = {
 			c_peresechen = {
 				color = { 225 204 147 }
 				color2 = { 255 255 255 }
+				corsican = Podolia
+				central_italian = Podolia
+				southern_italian = Podolia
 				b_sokolak = {}
 				b_braclav = {}
 				b_bakota_ponyzzia = {}
@@ -20966,6 +22105,9 @@ e_null = {
 	k_khazaria = {
 		color = { 224 142 35 }
 		color2 = { 255 255 255 }
+		corsican = Cassaria
+		central_italian = Cassaria
+		southern_italian = Cassaria
 		capital = 620
 		tengri_pagan_reformed = 500
 		muslim = 300
@@ -20984,6 +22126,9 @@ e_null = {
 			color = { 140 169 203 }
 			color2 = { 255 255 255 }
 			capital = 620
+			corsican = Atel
+			central_italian = Atel
+			southern_italian = Atel
 			swedish = "Volga"
 			norwegian = "Volga"
 			danish = "Volga"
@@ -21084,6 +22229,9 @@ e_null = {
 			c_itil = {
 				color = { 155 122 34 }
 				color2 = { 255 255 255 }
+				corsican = Atel
+				central_italian = Atel
+				southern_italian = Atel
 				holy_site = pagan
 				holy_site = jewish
 				holy_site = samaritan
@@ -21187,10 +22335,18 @@ e_null = {
 				dalmatian = "Volga"
 				roman = "Volga"
 				khitan = "Volga"
-				b_saksin = {}
+				b_saksin = {
+					corsican = Saksin
+					central_italian = Saksin
+					southern_italian = Saksin
+				}
 				b_khazaran = {}
 				b_chistibanka = {}
-				b_atil = {}
+				b_atil = {
+					corsican = Atel
+					central_italian = Atel
+					southern_italian = Atel
+				}
 				b_jenotajewka = {}
 				b_astrakhan = {}
 			}
@@ -21258,6 +22414,9 @@ e_null = {
 			color = { 167 40 40 }
 			color2 = { 255 255 255 }
 			capital = 597
+			corsican = Tana
+			central_italian = Tana
+			southern_italian = Tana
 			armenian = "Don"
 			greek = "Don"
 			east_gothic = "Don"
@@ -21281,6 +22440,9 @@ e_null = {
 			c_azov = {
 				color = { 226 187 83 }
 				color2 = { 255 255 255 }
+				corsican = Tana
+				central_italian = Tana
+				southern_italian = Tana
 				norse = "Don"
 				armenian = "Don"
 				greek = "Don"
@@ -21303,7 +22465,11 @@ e_null = {
 				italian = "Tana"
 				venetian = "Tana"
 				dalmatian = "Tana"
-				b_azov = {}
+				b_azov = {
+					corsican = Tana
+					central_italian = Tana
+					southern_italian = Tana
+				}
 				b_kagalnik = {}
 				b_cherkassk = {}
 			}
@@ -21318,6 +22484,9 @@ e_null = {
 			color = { 196 99 162 }
 			color2 = { 255 255 255 }
 			capital = 598
+			corsican = Cassaria
+			central_italian = Cassaria
+			southern_italian = Cassaria
 			armenian = "Perateia"
 			greek = "Perateia"
 			east_gothic = "Perateia"
@@ -21340,17 +22509,47 @@ e_null = {
 			c_tmutarakan = {
 				color = { 196 99 162 }
 				color2 = { 255 255 20 }
+				corsican = Matrega
+				central_italian = Matrega
+				southern_italian = Matrega
 				lithuanian = "Taman"
-				b_tmutarakan = {}
-				b_bata = {}
-				b_anapa = {}
-				b_temryk = {}
+				b_tmutarakan = {
+					corsican = Matrega
+					central_italian = Matrega
+					southern_italian = Matrega
+				}
+				b_bata = {
+					corsican = Batario
+					central_italian = Batario
+					southern_italian = Batario
+				}
+				b_anapa = {
+					corsican = Mapa
+					central_italian = Mapa
+					southern_italian = Mapa
+				}
+				b_temryk = {
+					corsican = Copa
+					central_italian = Copa
+					southern_italian = Copa
+				}
 			}
 			c_korchev = {
 				color = { 192 95 158 }
 				color2 = { 255 255 20 }
-				b_kerch = {}
-				b_kimmerikon = {}
+				corsican = Vosporo
+				central_italian = Vosporo
+				southern_italian = Vosporo
+				b_kerch = {
+					corsican = Cerco
+					central_italian = Cerco
+					southern_italian = Cerco
+				}
+				b_kimmerikon = {
+					corsican = Chimmero
+					central_italian = Chimmero
+					southern_italian = Chimmero
+				}
 				b_nymphaion_korchev = {}
 			}
 		}
@@ -21390,12 +22589,18 @@ e_null = {
 			color = { 36 46 75 }
 			color2 = { 255 255 255 }
 			capital = 602
+			corsican = Zichia
+			central_italian = Zichia
+			southern_italian = Zichia
 			armenian = "Sadzen"
 			georgian = "Sadzen"
 			russian = "Kabardia"
 			c_kasogs = {
 				color = { 250 156 156 }
 				color2 = { 255 255 255 }
+				corsican = Cherkisia
+				central_italian = Cherkisia
+				southern_italian = Cherkisia
 				armenian = "Kabardia"
 				greek = "Kabardia"
 				east_gothic = "Kabardia"
@@ -21483,13 +22688,11 @@ e_null = {
 				color = { 216 196 92 }
 				color2 = { 255 255 255 }
 				b_ustyurt = {}
-				b_aqkol = {}
 			}
 			c_buzachi = {
 				color = { 212 204 89 }
 				color2 = { 255 255 255 }
 				b_koshagyl = {}
-				b_aqtaw = {}
 			}
 			c_mangyshlak = {
 				color = { 82 86 123 }
@@ -21501,7 +22704,6 @@ e_null = {
 				color = { 215 194 83 }
 				color2 = { 255 255 255 }
 				b_karasu = {}
-				b_gazanjyk = {}
 			}
 		}
 		d_dasht-i-qipchaq = {
@@ -21532,7 +22734,6 @@ e_null = {
 				color = { 220 220 146 }
 				color2 = { 255 255 255 }
 				b_irgiz = {}
-				b_akespe = {}
 			}
 			c_sibir = {
 				color = { 225 222 140 }
@@ -21585,7 +22786,7 @@ e_null = {
 				b_illbaliq = {}
 				b_sarqand = {}
 			}
-			c_yulduz = {
+			c_almaliq = {
 				color = { 215 135 35 }
 				color2 = { 255 255 255 }
 				b_illi = {}
@@ -21603,13 +22804,13 @@ e_null = {
 				b_karakol = {}
 				b_arshatu = {}
 			}
-			c_balasaghun = {
+			c_balasaghnun = {
 				color = { 210 125 55 }
 				color2 = { 255 255 255 }
-				b_quzordu = {}
 				b_suyab = {}
-				b_balasaghun = {}
-				b_akbeshim = {}
+				b_balasaghnun = {}
+				b_nevaket = {}
+				b_toqmaq = {}
 			}
 			c_talas = {
 				color = { 215 145 35 }
@@ -21632,12 +22833,11 @@ e_null = {
 			c_kashgar = {
 				color = { 255 118 80 }
 				color2 = { 255 255 255 }
+				holy_site = manichean
 				b_kashgar = {}
 				b_ulugqat = {}
-				b_yarkand = {}
-				b_artuj = {}
-				b_pichan = {}
 				b_uksalur = {}
+				b_pichan = {}
 				b_kizilsu = {}
 			}
 		}
@@ -21712,7 +22912,6 @@ e_null = {
 				b_chadota = {}
 				b_calmadana = {}
 			}
-			allow = { independent = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -22335,9 +23534,7 @@ e_null = {
 				b_djvari = {}
 				b_mtskheta = {}
 				b_gori = {}
-				b_surami = {}
-				b_ateni = {}
-				b_urbnisi = {}
+				b_bebristsikhe = {}
 			}
 			c_javakheti = {
 				color = { 96 121 155 }
@@ -22346,7 +23543,6 @@ e_null = {
 				turkmen = "Akhalkalaki"
 				oghuz = "Akhalkalaki"
 				b_kldekari = {}
-				b_khertvisi = {}
 				b_tsunda = {}
 				b_tmogvi = {}
 				b_kumurdo = {}
@@ -22361,8 +23557,7 @@ e_null = {
 				b_odzrakhe = {}
 				b_zarzma = {}
 				b_akhaltsikhe = {}
-				b_tori = {}
-				b_atskuri = {}
+				b_likani = {}
 			}
 		}
 		d_tao = {
@@ -22501,9 +23696,8 @@ e_null = {
 				b_geguti = {}
 				b_kutaisi = {}
 				b_bagrati = {}
-				b_khoni = {}
-				b_shorapani = {}
 				b_tsikhegoji = {}
+				b_khoni = {}
 				b_ghelati = {}
 				b_motsameta = {}
 			}
@@ -22626,6 +23820,7 @@ e_null = {
 				color = { 162 234 22 }
 				color2 = { 255 255 255 }
 				holy_site = paulician
+				holy_site = manichean
 				b_baku = {}
 				b_lankaran = {}
 				b_absheron = {}
@@ -22752,17 +23947,9 @@ d_wielkopolska = {
 }
 
 d_hilal = {
-	color = { 198 128 43 }
+	color = { 173 150 43 }
 	color2 = { 0 128 128 }
 	capital = 807
-	culture = bedouin_arabic
-	allow = { always = no }
-}
-
-d_qurra = {
-	color = { 180 115 40 }
-	color2 = { 0 128 128 }
-	capital = 804
 	culture = bedouin_arabic
 	allow = { always = no }
 }
@@ -22778,7 +23965,7 @@ d_massufa = {
 
 d_lamtuna = {
 	color = { 86 51 13 }
-	capital = 920
+	capital = 921
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
@@ -22794,18 +23981,9 @@ d_lamta = {
 	foa = RAIS_FOA
 }
 
-d_lamta_east = {
-	color = { 160 95 75 }
-	capital = 1396
-	culture = tagelmust
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
 d_guddala = {
 	color = { 150 56 175 }
-	capital = 1368
+	capital = 921
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
@@ -22833,25 +24011,7 @@ d_targa = {
 d_lawata = {
 	color = { 122 53 19 }
 	culture = zanata
-	capital = 807
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_masila = {
-	color = { 85 8 24 }
-	culture = zanata
-	capital = 804
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_dakhila = {
-	color = { 240 124 24 }
-	culture = zanata
-	capital = 1342
+	capital = 1363
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
@@ -22887,6 +24047,13 @@ d_musab = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
+}
+
+d_tanmak = {
+	color = { 85 125 135 }
+	capital = 922
+	culture = tagelmust
+	allow = { always = no }
 }
 
 d_azger = {
@@ -22934,15 +24101,6 @@ d_naqis = {
 	foa = RAIS_FOA
 }
 
-d_kanz = {
-	color = { 130 99 122 }
-	culture = bedouin_arabic
-	capital = 794
-	allow = { always = no }
-	title = KANZ
-	foa = KANZ_FOA
-}
-
 d_baqlin = {
 	color = { 230 235 105 }
 	culture = beja
@@ -22988,13 +24146,6 @@ d_danakil = {
 	foa = RAIS_FOA
 }
 
-d_shewa = {
-	color = { 225 155 10 }
-	culture = ethiopian
-	capital = 1521
-	allow = { always = no }
-}
-
 d_silesians = {
 	color = { 231 183 14 }
 	culture = polish
@@ -23020,12 +24171,6 @@ d_mazovians = {
 	color = { 147 21 39 }
 	culture = polish
 	capital = 530
-	allow = { always = no }
-}
-
-d_hormuz = {
-	color = { 31 73 17 }
-	capital = 641
 	allow = { always = no }
 }
 
