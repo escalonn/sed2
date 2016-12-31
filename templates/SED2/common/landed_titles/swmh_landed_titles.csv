@@ -455,10 +455,6 @@ c_nordgau                       ;title_female       ;LANDGRAVINE;LANDGRAVINE
 c_nordgau                       ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
 c_nordgau                       ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 c_nordgau                       ;dutch              ;        ;Noordgouw
-c_sundgau                       ;title              ;LANDGRAVE;LANDGRAVE
-c_sundgau                       ;title_female       ;LANDGRAVINE;LANDGRAVINE
-c_sundgau                       ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
-c_sundgau                       ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 c_sundgau                       ;dutch              ;        ;Sundgouw
 c_aargau                        ;title              ;LANDGRAVE;LANDGRAVE
 c_aargau                        ;title_female       ;LANDGRAVINE;LANDGRAVINE
@@ -5786,6 +5782,12 @@ c_uibhist                       ;irish              ;        ;Uibhist
 c_uibhist                       ;scottish           ;        ;Uibhist
 c_uibhist                       ;welsh              ;        ;Uibhist
 c_uibhist                       ;norsegaelic        ;        ;Uibhist
+k_tuscan_league                 ;title              ;RECTOR  ;RECTOR
+k_tuscan_league                 ;title_female       ;RECTOR_FEMALE;RECTOR_FEMALE
+k_tuscan_league                 ;short_name         ;yes     ;yes
+k_lombard_league                ;title              ;RECTOR  ;RECTOR
+k_lombard_league                ;title_female       ;RECTOR_FEMALE;RECTOR_FEMALE
+k_lombard_league                ;short_name         ;yes     ;yes
 k_italy                         ;greek              ;Italia Annonaria;Annonaria
 k_italy                         ;roman              ;Italia Annonaria;Italia Annonaria
 c_lombardia                     ;greek              ;Mediolanum;Mediolanion
@@ -5889,6 +5891,30 @@ d_pisa                          ;greek              ;        ;Pisai
 d_pisa                          ;roman              ;        ;Pisae
 c_pisa                          ;greek              ;        ;Pisai
 c_pisa                          ;roman              ;        ;Pisae
+d_mantua_republic               ;title              ;CAPTAINOFTHEPEOPLE;CAPTAINOFTHEPEOPLE
+d_mantua_republic               ;title_female       ;CAPTAINOFTHEPEOPLE_FEMALE;CAPTAINOFTHEPEOPLE_FEMALE
+d_mantua_republic               ;short_name         ;yes     ;yes
+d_ferrara_republic              ;title              ;PODESTA ;PODESTA
+d_ferrara_republic              ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_ferrara_republic              ;short_name         ;yes     ;yes
+d_cremona_republic              ;title              ;CONSUL  ;CONSUL
+d_cremona_republic              ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
+d_cremona_republic              ;short_name         ;yes     ;yes
+d_asti_republic                 ;title              ;CONSUL  ;CONSUL
+d_asti_republic                 ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
+d_asti_republic                 ;short_name         ;yes     ;yes
+d_firenze_republic              ;title              ;CONSUL  ;CONSUL
+d_firenze_republic              ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
+d_firenze_republic              ;short_name         ;yes     ;yes
+d_lucca_republic                ;title              ;RECTOR  ;RECTOR
+d_lucca_republic                ;title_female       ;RECTOR_FEMALE;RECTOR_FEMALE
+d_lucca_republic                ;short_name         ;yes     ;yes
+d_arezzo_republic               ;title              ;PODESTA ;PODESTA
+d_arezzo_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_arezzo_republic               ;short_name         ;yes     ;yes
+d_siena_republic                ;title              ;GRANDE  ;GRANDE
+d_siena_republic                ;title_female       ;GRANDE_FEMALE;GRANDE_FEMALE
+d_siena_republic                ;short_name         ;yes     ;yes
 k_patrimoniumpetri              ;short_name         ;yes     ;yes
 k_patrimoniumpetri              ;armenian           ;Exarchate of Ravenna;Exarchos Ravenna
 k_patrimoniumpetri              ;greek              ;Exarchate of Ravenna;Exarchos Ravenna
@@ -7891,6 +7917,7 @@ d_taron                         ;egyptian_arabic    ;Manzikert;Minazjird
 d_taron                         ;sicilian_arabic    ;Manzikert;Minazjird
 d_taron                         ;kurdish            ;Manzikert;Malazgir
 c_dzopk                         ;andalusian_arabic  ;        ;Šimšat
+c_dzopk                         ;armenian           ;        ;Chapaghjur
 c_dzopk                         ;greek              ;        ;Arsamosaton
 c_dzopk                         ;turkish            ;Bingöl  ;Bingöl
 c_dzopk                         ;turkmen            ;Bingöl  ;Bingöl
@@ -8402,6 +8429,7 @@ c_hisn_kayf                     ;kurdish            ;        ;Heskîf
 d_jazira                        ;greek              ;Euphratensis;Euphratensis
 d_jazira                        ;roman              ;Euphratensis;Euphratensis
 c_asas                          ;greek              ;        ;Kallinikos
+c_asas                          ;assyrian           ;        ;Qaliniqos
 c_asas                          ;roman              ;        ;Callinicum
 c_al_bichri                     ;greek              ;Circesium;Kirkesion
 c_al_bichri                     ;assyrian           ;Circesium;Qerqesin
@@ -11700,16 +11728,12 @@ d_guddala                       ;title              ;RAIS    ;RAIS
 d_guddala                       ;foa                ;RAIS_FOA;RAIS_FOA
 d_gazzula                       ;title              ;RAIS    ;RAIS
 d_gazzula                       ;foa                ;RAIS_FOA;RAIS_FOA
-d_targa                         ;title              ;RAIS    ;RAIS
-d_targa                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_lawata                        ;title              ;RAIS    ;RAIS
 d_lawata                        ;foa                ;RAIS_FOA;RAIS_FOA
 d_masila                        ;title              ;RAIS    ;RAIS
 d_masila                        ;foa                ;RAIS_FOA;RAIS_FOA
 d_dakhila                       ;title              ;RAIS    ;RAIS
 d_dakhila                       ;foa                ;RAIS_FOA;RAIS_FOA
-d_zaghawa                       ;title              ;RAIS    ;RAIS
-d_zaghawa                       ;foa                ;RAIS_FOA;RAIS_FOA
 d_musab                         ;title              ;RAIS    ;RAIS
 d_musab                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_azger                         ;title              ;RAIS    ;RAIS
@@ -11718,8 +11742,6 @@ d_mazata                        ;title              ;RAIS    ;RAIS
 d_mazata                        ;foa                ;RAIS_FOA;RAIS_FOA
 d_azben                         ;title              ;RAIS    ;RAIS
 d_azben                         ;foa                ;RAIS_FOA;RAIS_FOA
-d_takarkart                     ;title              ;RAIS    ;RAIS
-d_takarkart                     ;foa                ;RAIS_FOA;RAIS_FOA
 d_naqis                         ;title              ;RAIS    ;RAIS
 d_naqis                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_kanz                          ;title              ;KANZ    ;KANZ
