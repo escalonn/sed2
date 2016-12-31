@@ -3568,10 +3568,6 @@ e_hre = { # Heiliges Römisches Reich
 			c_sundgau = { # Sundgau (134)
 				color = { 93 93 93 }
 				color2 = { 255 255 255 }
-				title = LANDGRAVE
-				title_female = LANDGRAVINE
-				foa = LANDGRAVE_FOA
-				title_prefix = LANDGRAVE_OF
 				b_kolmar = {}
 				b_murbach = {}
 				b_altkirch = {}
@@ -14254,6 +14250,9 @@ e_italy = { # Italia
 		capital = 1137 # Prato
 		culture = tuscan
 		allow = { title_king_basic_allow = yes }
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+		short_name = yes
 	}
 	k_lombard_league = {
 		color = { 169 17 46 }
@@ -14261,6 +14260,9 @@ e_italy = { # Italia
 		capital = 235 # Milano
 		culture = italian
 		allow = { title_king_basic_allow = yes }
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+		short_name = yes
 	}
 	k_genoa = { # Genoa
 		color = { 234 131 110 }
@@ -14846,12 +14848,45 @@ e_italy = { # Italia
 				b_campiglia = {}
 			}
 		}
+		d_mantua_republic = { # Mantua republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 354 # Mantua
+			allow = { always = no }
+			title = CAPTAINOFTHEPEOPLE
+			title_female = CAPTAINOFTHEPEOPLE_FEMALE
+			short_name = yes
+		}
+		d_ferrara_republic = { # Ferrara republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 353 # Ferrara
+			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+		}
+		d_cremona_republic = { # Cremona republic
+			color = { 174 170 72 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 320 # Cremona
+			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
+		}
 		d_asti_republic = { # Asti # Asti republic
 			color = { 45 124 39 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 232 # Asti/Monferrato
 			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 		}
 		d_firenze_republic = { # Firenze # Florentine republic
 			color = { 255 248 186 }
@@ -14859,6 +14894,9 @@ e_italy = { # Italia
 			culture = tuscan
 			capital = 328 # Firenze
 			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 		}
 		d_lucca_republic = { # Lucca # Luccan republic
 			color = { 198 43 69 }
@@ -14866,6 +14904,9 @@ e_italy = { # Italia
 			culture = tuscan
 			capital = 323 # Lucca
 			allow = { always = no }
+			title = RECTOR
+			title_female = RECTOR_FEMALE
+			short_name = yes
 		}
 		d_arezzo_republic = { # Arezzo # Arentine republic
 			color = { 76 124 69 }
@@ -14873,6 +14914,9 @@ e_italy = { # Italia
 			culture = tuscan
 			capital = 1115 # Arezzo
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_siena_republic = { # Siena # Sienese republic
 			color = { 2 19 127 }
@@ -14880,6 +14924,9 @@ e_italy = { # Italia
 			culture = tuscan
 			capital = 330 # Siena
 			allow = { always = no }
+			title = GRANDE
+			title_female = GRANDE_FEMALE
+			short_name = yes
 		}
 		# Creation/usurpation trigger
 		allow = {
@@ -27606,16 +27653,6 @@ d_gazzula = { # Djazzúla
 	foa = RAIS_FOA
 }
 
-d_targa = { # Targa
-	color = { 150 97 51 }
-	#tribe = yes
-	culture = tuareg
-	capital = 1405 # Zawila
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
 d_lawata = { # Lawata
 	color = { 122 53 19 }
 	#tribe = yes
@@ -27644,32 +27681,6 @@ d_dakhila = { # Dakhila
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-}
-
-d_soninke = { # Soninke
-	color = { 110 50 30 }
-	#tribe = yes
-	culture = soninke
-	capital = 913 # Wagadu # Ghana
-	allow = { always = no }
-}
-
-d_zaghawa = { # Zagháwa
-	color = { 22 111 22 }
-	capital = 1235 # Koufra # Borkou
-	#tribe = yes
-	culture = zaghawa
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_duguwa = { # Duguwa
-	color = { 143 64 64 }
-	#tribe = yes
-	culture = zaghawa
-	capital = 1480 # Wadai # Gasga
-	allow = { always = no }
 }
 
 d_musab = { # Mus'ab
@@ -27712,16 +27723,15 @@ d_azben = { # Azben
 	foa = RAIS_FOA
 }
 
-d_takarkart = { # Takarkart
-	color = { 232 36 208 }
-	capital = 1225 # Agadez # Takkeda
-	#tribe = yes
-	culture = tuareg
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
+#d_takarkart = { # Takarkart
+#	color = { 232 36 208 }
+#	capital = 1225 # Agadez # Takkeda
+#	#tribe = yes
+#	culture = tuareg
+#	title = RAIS
+#	foa = RAIS_FOA
+#	allow = { always = no }
+#}
 d_naqis = { # Naqís
 	color = { 230 160 75 }
 	capital = 1593 # Naqis

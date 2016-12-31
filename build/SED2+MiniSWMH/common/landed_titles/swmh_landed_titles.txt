@@ -3098,10 +3098,6 @@ e_hre = {
 			c_sundgau = {
 				color = { 93 93 93 }
 				color2 = { 255 255 255 }
-				title = LANDGRAVE
-				title_female = LANDGRAVINE
-				foa = LANDGRAVE_FOA
-				title_prefix = LANDGRAVE_OF
 				b_kolmar = {}
 				b_murbach = {}
 				b_altkirch = {}
@@ -12532,6 +12528,9 @@ e_italy = {
 		capital = 1137
 		culture = tuscan
 		allow = { title_king_basic_allow = yes }
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+		short_name = yes
 	}
 	k_lombard_league = {
 		color = { 169 17 46 }
@@ -12539,6 +12538,9 @@ e_italy = {
 		capital = 235
 		culture = italian
 		allow = { title_king_basic_allow = yes }
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+		short_name = yes
 	}
 	k_genoa = {
 		color = { 234 131 110 }
@@ -13124,12 +13126,45 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
+		d_mantua_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 354
+			allow = { always = no }
+			title = CAPTAINOFTHEPEOPLE
+			title_female = CAPTAINOFTHEPEOPLE_FEMALE
+			short_name = yes
+		}
+		d_ferrara_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 353
+			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+		}
+		d_cremona_republic = {
+			color = { 174 170 72 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 320
+			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
+		}
 		d_asti_republic = {
 			color = { 45 124 39 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 232
 			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 		}
 		d_firenze_republic = {
 			color = { 255 248 186 }
@@ -13137,6 +13172,9 @@ e_italy = {
 			culture = tuscan
 			capital = 328
 			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 		}
 		d_lucca_republic = {
 			color = { 198 43 69 }
@@ -13144,6 +13182,9 @@ e_italy = {
 			culture = tuscan
 			capital = 323
 			allow = { always = no }
+			title = RECTOR
+			title_female = RECTOR_FEMALE
+			short_name = yes
 		}
 		d_arezzo_republic = {
 			color = { 76 124 69 }
@@ -13151,6 +13192,9 @@ e_italy = {
 			culture = tuscan
 			capital = 1115
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_siena_republic = {
 			color = { 2 19 127 }
@@ -13158,6 +13202,9 @@ e_italy = {
 			culture = tuscan
 			capital = 330
 			allow = { always = no }
+			title = GRANDE
+			title_female = GRANDE_FEMALE
+			short_name = yes
 		}
 		allow = {
 			religion_group = christian
@@ -22829,15 +22876,6 @@ d_gazzula = {
 	foa = RAIS_FOA
 }
 
-d_targa = {
-	color = { 150 97 51 }
-	culture = tuareg
-	capital = 1405
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
 d_lawata = {
 	color = { 122 53 19 }
 	culture = zanata
@@ -22863,29 +22901,6 @@ d_dakhila = {
 	allow = { always = no }
 	title = RAIS
 	foa = RAIS_FOA
-}
-
-d_soninke = {
-	color = { 110 50 30 }
-	culture = soninke
-	capital = 913
-	allow = { always = no }
-}
-
-d_zaghawa = {
-	color = { 22 111 22 }
-	capital = 1235
-	culture = zaghawa
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_duguwa = {
-	color = { 143 64 64 }
-	culture = zaghawa
-	capital = 1480
-	allow = { always = no }
 }
 
 d_musab = {
@@ -22917,15 +22932,6 @@ d_mazata = {
 
 d_azben = {
 	color = { 22 238 106 }
-	capital = 1225
-	culture = tuareg
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_takarkart = {
-	color = { 232 36 208 }
 	capital = 1225
 	culture = tuareg
 	allow = { always = no }
