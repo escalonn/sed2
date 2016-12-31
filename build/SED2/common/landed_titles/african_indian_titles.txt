@@ -1,0 +1,47 @@
+# -*- ck2.landed_titles -*-
+
+d_targa = { # Targa
+	color = { 150 97 51 }
+	#tribe = yes
+	culture = tuareg
+	capital = 1405 # Zawila
+	allow = { always = no }
+	title = RAIS
+	foa = RAIS_FOA
+}
+
+d_azben = { # Azben
+	color = { 22 238 106 }
+	capital = 1225 # Agadez # Agadés
+	#tribe = yes
+	culture = tuareg
+	allow = { always = no }
+	title = RAIS
+	foa = RAIS_FOA
+}
+
+d_soninke = { # Soninke
+	color = { 110 50 30 }
+	#tribe = yes
+	culture = soninke
+	capital = 913 # Wagadu # Ghana
+	allow = { always = no }
+}
+
+d_zaghawa = { # Zagháwa
+	color = { 22 111 22 }
+	capital = 1235 # Koufra # Borkou
+	#tribe = yes
+	culture = zaghawa
+	allow = { always = no }
+	title = RAIS
+	foa = RAIS_FOA
+}
+
+d_duguwa = { # Duguwa
+	color = { 143 64 64 }
+	#tribe = yes
+	culture = zaghawa
+	capital = 1480 # Wadai # Gasga
+	allow = { always = no }
+}

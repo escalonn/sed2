@@ -27938,32 +27938,6 @@ d_lawata = { # Lawata
 	foa = RAIS_FOA
 }
 
-d_soninke = { # Soninke
-	color = { 110 50 30 }
-	#tribe = yes
-	culture = soninke
-	capital = 913 # Wagadu # Ghana
-	allow = { always = no }
-}
-
-d_zaghawa = { # Zagháwa
-	color = { 22 111 22 }
-	capital = 1235 # Koufra # Borkou
-	#tribe = yes
-	culture = zaghawa
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_duguwa = { # Duguwa
-	color = { 143 64 64 }
-	#tribe = yes
-	culture = zaghawa
-	capital = 1480 # Wadai # Gasga
-	allow = { always = no }
-}
-
 d_musab = { # Mus'ab
 	color = { 149 180 17 }
 	capital = 829 # Al-Aghwat # Ghardaiya
@@ -28004,26 +27978,15 @@ d_mazata = { # Mazáta
 	foa = RAIS_FOA
 }
 
-d_azben = { # Azben
-	color = { 22 238 106 }
-	capital = 1225 # Agadez # Agadés
-	#tribe = yes
-	culture = tuareg
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
-d_takarkart = { # Takarkart
-	color = { 232 36 208 }
-	capital = 1225 # Agadez # Takkeda
-	#tribe = yes
-	culture = tuareg
-	allow = { always = no }
-	title = RAIS
-	foa = RAIS_FOA
-}
-
+#d_takarkart = { # Takarkart
+#	color = { 232 36 208 }
+#	capital = 1225 # Agadez # Takkeda
+#	#tribe = yes
+#	culture = tuareg
+#	title = RAIS
+#	foa = RAIS_FOA
+#	allow = { always = no }
+#}
 d_naqis = { # Naqís
 	color = { 230 160 75 }
 	capital = 1593 # Naqis
