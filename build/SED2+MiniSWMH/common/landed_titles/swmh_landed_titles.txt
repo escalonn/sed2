@@ -13126,15 +13126,26 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
-		d_mantua_republic = {
+		d_vicenza_republic = {
 			color = { 74 174 83 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 354
+			capital = 1131
 			allow = { always = no }
-			title = CAPTAINOFTHEPEOPLE
-			title_female = CAPTAINOFTHEPEOPLE_FEMALE
-			short_name = yes
+		}
+		d_verona_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 319
+			allow = { always = no }
+		}
+		d_padova_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 355
+			allow = { always = no }
 		}
 		d_ferrara_republic = {
 			color = { 201 136 79 }
@@ -13145,6 +13156,72 @@ e_italy = {
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
+		}
+		d_mantua_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 354
+			allow = { always = no }
+			title = CAPTAINOFTHEPEOPLE
+			title_female = CAPTAINOFTHEPEOPLE_FEMALE
+			short_name = yes
+		}
+		d_brescia_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 318
+			allow = { always = no }
+		}
+		d_bergamo_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1125
+			allow = { always = no }
+		}
+		d_milano_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 235
+			allow = { always = no }
+		}
+		d_pavia_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 234
+			allow = { always = no }
+		}
+		d_modena_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 322
+			allow = { always = no }
+		}
+		d_reggio_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 957
+			allow = { always = no }
+		}
+		d_parma_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 321
+			allow = { always = no }
+		}
+		d_piacenza_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1124
+			allow = { always = no }
 		}
 		d_cremona_republic = {
 			color = { 174 170 72 }

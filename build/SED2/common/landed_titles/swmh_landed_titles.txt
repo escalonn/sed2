@@ -14848,15 +14848,26 @@ e_italy = { # Italia
 				b_campiglia = {}
 			}
 		}
-		d_mantua_republic = { # Mantua republic
+		d_vicenza_republic = { # Vicenza republic
 			color = { 74 174 83 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 354 # Mantua
+			capital = 1131 # Vicenza
 			allow = { always = no }
-			title = CAPTAINOFTHEPEOPLE
-			title_female = CAPTAINOFTHEPEOPLE_FEMALE
-			short_name = yes
+		}
+		d_verona_republic = { # Verona republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 319 # Verona
+			allow = { always = no }
+		}
+		d_padova_republic = { # Padua republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 355 # Padua
+			allow = { always = no }
 		}
 		d_ferrara_republic = { # Ferrara republic
 			color = { 201 136 79 }
@@ -14867,6 +14878,72 @@ e_italy = { # Italia
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
+		}
+		d_mantua_republic = { # Mantua republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 354 # Mantua
+			allow = { always = no }
+			title = CAPTAINOFTHEPEOPLE
+			title_female = CAPTAINOFTHEPEOPLE_FEMALE
+			short_name = yes
+		}
+		d_brescia_republic = { # Brescia republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 318 # Brescia
+			allow = { always = no }
+		}
+		d_bergamo_republic = { # Bergamo republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1125 # Bergamo
+			allow = { always = no }
+		}
+		d_milano_republic = { # Milanese republic
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 235 # Milano
+			allow = { always = no }
+		}
+		d_pavia_republic = { # Pavia republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 234 # Pavia
+			allow = { always = no }
+		}
+		d_modena_republic = { # Modena republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 322 # Modena
+			allow = { always = no }
+		}
+		d_reggio_republic = { # Reggio republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 957 # Reggio in Emilia
+			allow = { always = no }
+		}
+		d_parma_republic = { # Parma republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 321 # Parma
+			allow = { always = no }
+		}
+		d_piacenza_republic = { # Piacenza republic
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1124 # Piacenza
+			allow = { always = no }
 		}
 		d_cremona_republic = { # Cremona republic
 			color = { 174 170 72 }
