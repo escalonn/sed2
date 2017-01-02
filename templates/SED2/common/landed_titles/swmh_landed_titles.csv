@@ -5891,12 +5891,48 @@ d_pisa                          ;greek              ;        ;Pisai
 d_pisa                          ;roman              ;        ;Pisae
 c_pisa                          ;greek              ;        ;Pisai
 c_pisa                          ;roman              ;        ;Pisae
-d_mantua_republic               ;title              ;CAPTAINOFTHEPEOPLE;CAPTAINOFTHEPEOPLE
-d_mantua_republic               ;title_female       ;CAPTAINOFTHEPEOPLE_FEMALE;CAPTAINOFTHEPEOPLE_FEMALE
-d_mantua_republic               ;short_name         ;yes     ;yes
+d_vercelli_republic             ;title              ;PODESTA ;PODESTA
+d_vercelli_republic             ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_vercelli_republic             ;short_name         ;yes     ;yes
+d_vicenza_republic              ;title              ;PODESTA ;PODESTA
+d_vicenza_republic              ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_vicenza_republic              ;short_name         ;yes     ;yes
+d_verona_republic               ;title              ;PODESTA ;PODESTA
+d_verona_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_verona_republic               ;short_name         ;yes     ;yes
+d_padova_republic               ;title              ;PODESTA ;PODESTA
+d_padova_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_padova_republic               ;short_name         ;yes     ;yes
 d_ferrara_republic              ;title              ;PODESTA ;PODESTA
 d_ferrara_republic              ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
 d_ferrara_republic              ;short_name         ;yes     ;yes
+d_mantua_republic               ;title              ;CAPTAINOFTHEPEOPLE;CAPTAINOFTHEPEOPLE
+d_mantua_republic               ;title_female       ;CAPTAINOFTHEPEOPLE_FEMALE;CAPTAINOFTHEPEOPLE_FEMALE
+d_mantua_republic               ;short_name         ;yes     ;yes
+d_brescia_republic              ;title              ;PODESTA ;PODESTA
+d_brescia_republic              ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_brescia_republic              ;short_name         ;yes     ;yes
+d_bergamo_republic              ;title              ;PODESTA ;PODESTA
+d_bergamo_republic              ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_bergamo_republic              ;short_name         ;yes     ;yes
+d_milano_republic               ;title              ;CONSUL  ;CONSUL
+d_milano_republic               ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
+d_milano_republic               ;short_name         ;yes     ;yes
+d_pavia_republic                ;title              ;PODESTA ;PODESTA
+d_pavia_republic                ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_pavia_republic                ;short_name         ;yes     ;yes
+d_modena_republic               ;title              ;PODESTA ;PODESTA
+d_modena_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_modena_republic               ;short_name         ;yes     ;yes
+d_reggio_republic               ;title              ;PODESTA ;PODESTA
+d_reggio_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_reggio_republic               ;short_name         ;yes     ;yes
+d_parma_republic                ;title              ;PODESTA ;PODESTA
+d_parma_republic                ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_parma_republic                ;short_name         ;yes     ;yes
+d_piacenza_republic             ;title              ;PODESTA ;PODESTA
+d_piacenza_republic             ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
+d_piacenza_republic             ;short_name         ;yes     ;yes
 d_cremona_republic              ;title              ;CONSUL  ;CONSUL
 d_cremona_republic              ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
 d_cremona_republic              ;short_name         ;yes     ;yes
@@ -5906,14 +5942,14 @@ d_asti_republic                 ;short_name         ;yes     ;yes
 d_firenze_republic              ;title              ;CONSUL  ;CONSUL
 d_firenze_republic              ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
 d_firenze_republic              ;short_name         ;yes     ;yes
-d_lucca_republic                ;title              ;RECTOR  ;RECTOR
-d_lucca_republic                ;title_female       ;RECTOR_FEMALE;RECTOR_FEMALE
+d_lucca_republic                ;title              ;PODESTA ;PODESTA
+d_lucca_republic                ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
 d_lucca_republic                ;short_name         ;yes     ;yes
 d_arezzo_republic               ;title              ;PODESTA ;PODESTA
 d_arezzo_republic               ;title_female       ;PODESTA_FEMALE;PODESTA_FEMALE
 d_arezzo_republic               ;short_name         ;yes     ;yes
-d_siena_republic                ;title              ;GRANDE  ;GRANDE
-d_siena_republic                ;title_female       ;GRANDE_FEMALE;GRANDE_FEMALE
+d_siena_republic                ;title              ;CONSUL  ;CONSUL
+d_siena_republic                ;title_female       ;CONSUL_FEMALE;CONSUL_FEMALE
 d_siena_republic                ;short_name         ;yes     ;yes
 k_patrimoniumpetri              ;short_name         ;yes     ;yes
 k_patrimoniumpetri              ;armenian           ;Exarchate of Ravenna;Exarchos Ravenna
@@ -7917,7 +7953,7 @@ d_taron                         ;egyptian_arabic    ;Manzikert;Minazjird
 d_taron                         ;sicilian_arabic    ;Manzikert;Minazjird
 d_taron                         ;kurdish            ;Manzikert;Malazgir
 c_dzopk                         ;andalusian_arabic  ;        ;Šimšat
-c_dzopk                         ;armenian           ;        ;Chapaghjur
+c_dzopk                         ;armenian           ;Bingöl  ;Chapaghjur
 c_dzopk                         ;greek              ;        ;Arsamosaton
 c_dzopk                         ;turkish            ;Bingöl  ;Bingöl
 c_dzopk                         ;turkmen            ;Bingöl  ;Bingöl
@@ -11740,8 +11776,6 @@ d_azger                         ;title              ;RAIS    ;RAIS
 d_azger                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_mazata                        ;title              ;RAIS    ;RAIS
 d_mazata                        ;foa                ;RAIS_FOA;RAIS_FOA
-d_azben                         ;title              ;RAIS    ;RAIS
-d_azben                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_naqis                         ;title              ;RAIS    ;RAIS
 d_naqis                         ;foa                ;RAIS_FOA;RAIS_FOA
 d_kanz                          ;title              ;KANZ    ;KANZ

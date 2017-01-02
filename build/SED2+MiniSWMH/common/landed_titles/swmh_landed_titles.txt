@@ -13132,6 +13132,9 @@ e_italy = {
 			culture = italian
 			capital = 1130
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_vicenza_republic = {
 			color = { 44 102 26 }
@@ -13139,6 +13142,9 @@ e_italy = {
 			culture = italian
 			capital = 1131
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_verona_republic = {
 			color = { 15 166 111 }
@@ -13146,6 +13152,9 @@ e_italy = {
 			culture = italian
 			capital = 319
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_padova_republic = {
 			color = { 102 26 68 }
@@ -13153,6 +13162,9 @@ e_italy = {
 			culture = italian
 			capital = 355
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_ferrara_republic = {
 			color = { 141 179 213 }
@@ -13180,6 +13192,9 @@ e_italy = {
 			culture = italian
 			capital = 318
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_bergamo_republic = {
 			color = { 74 174 83 }
@@ -13187,6 +13202,9 @@ e_italy = {
 			culture = italian
 			capital = 1125
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_milano_republic = {
 			color = { 68 86 102 }
@@ -13194,6 +13212,9 @@ e_italy = {
 			culture = italian
 			capital = 235
 			allow = { always = no }
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 		}
 		d_pavia_republic = {
 			color = { 201 136 79 }
@@ -13201,6 +13222,9 @@ e_italy = {
 			culture = italian
 			capital = 234
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_modena_republic = {
 			color = { 86 166 15 }
@@ -13208,6 +13232,9 @@ e_italy = {
 			culture = italian
 			capital = 322
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_reggio_republic = {
 			color = { 166 93 131 }
@@ -13215,6 +13242,9 @@ e_italy = {
 			culture = italian
 			capital = 957
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_parma_republic = {
 			color = { 87 189 183 }
@@ -13222,6 +13252,9 @@ e_italy = {
 			culture = italian
 			capital = 321
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_piacenza_republic = {
 			color = { 102 82 68 }
@@ -13229,6 +13262,9 @@ e_italy = {
 			culture = italian
 			capital = 1124
 			allow = { always = no }
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 		}
 		d_cremona_republic = {
 			color = { 238 166 15 }
@@ -13266,8 +13302,8 @@ e_italy = {
 			culture = tuscan
 			capital = 323
 			allow = { always = no }
-			title = RECTOR
-			title_female = RECTOR_FEMALE
+			title = PODESTA
+			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
 		d_arezzo_republic = {
@@ -13286,8 +13322,8 @@ e_italy = {
 			culture = tuscan
 			capital = 330
 			allow = { always = no }
-			title = GRANDE
-			title_female = GRANDE_FEMALE
+			title = CONSUL
+			title_female = CONSUL_FEMALE
 			short_name = yes
 		}
 		allow = {
@@ -19393,6 +19429,7 @@ e_null = {
 			c_dzopk = {
 				color = { 125 162 44 }
 				color2 = { 255 255 255 }
+				armenian = "Bingöl"
 				turkish = "Bingöl"
 				turkmen = "Bingöl"
 				oghuz = "Bingöl"
