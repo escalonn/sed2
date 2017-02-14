@@ -3187,8 +3187,8 @@ c_belgorod                      ;uyghur             ;        ;Bender
 c_belgorod                      ;bashkir            ;        ;Bender
 k_hungary                       ;german             ;        ;Ungarn
 k_hungary                       ;polish             ;        ;Wegry
-k_hungary                       ;bohemian           ;        ;Uhersko
-k_hungary                       ;moravian           ;        ;Uhersko
+k_hungary                       ;bohemian           ;        ;Uhry
+k_hungary                       ;moravian           ;        ;Uhry
 d_esztergom                     ;german             ;Esztergom;Gran
 d_esztergom                     ;greek              ;Pannonia Valeria;Pannonia Valeria
 d_esztergom                     ;bohemian           ;Esztergom;Ostrihom
@@ -7747,12 +7747,12 @@ c_shash                         ;karluk             ;        ;Tashkand
 c_shash                         ;kirghiz            ;        ;Tashkand
 c_shash                         ;uyghur             ;        ;Tashkand
 c_shash                         ;bashkir            ;        ;Tashkand
+c_otrar                         ;khalaj             ;        ;Páráb
 c_otrar                         ;pahlavi            ;        ;Páráb
 c_otrar                         ;persian            ;        ;Páráb
 c_otrar                         ;sogdian            ;        ;Páráb
 c_otrar                         ;tajik              ;        ;Páráb
 c_otrar                         ;daylamite          ;        ;Páráb
-c_otrar                         ;khalaj             ;        ;Páráb
 c_otrar                         ;khwarezmi          ;        ;Páráb
 d_khwarazm                      ;pahlavi            ;        ;Khwarazm
 c_kerder                        ;turkish            ;        ;Kerder
@@ -8311,7 +8311,6 @@ d_antioch                       ;andalusian_arabic  ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;armenian           ;Ducate of Antioch;Antiok
 d_antioch                       ;greek              ;Ducate of Antioch;Antiokeias
 d_antioch                       ;alan               ;Ducate of Antioch;Antiokeias
-d_antioch                       ;sicilian_greek     ;Ducate of Antioch;Antiokeias
 d_antioch                       ;arberian           ;Ducate of Antioch;Antiokeias
 d_antioch                       ;georgian           ;Ducate of Antioch;Antiok
 d_antioch                       ;bedouin_arabic     ;Jund al-Awasim;Jund 'Awasim
@@ -9291,7 +9290,6 @@ d_crimea                        ;armenian           ;        ;Taurike
 d_crimea                        ;greek              ;        ;Taurike
 d_crimea                        ;east_gothic        ;        ;Taurike
 d_crimea                        ;alan               ;        ;Taurike
-d_crimea                        ;sicilian_greek     ;        ;Taurike
 d_crimea                        ;arberian           ;        ;Taurike
 d_crimea                        ;georgian           ;        ;Taurike
 d_crimea                        ;lithuanian         ;        ;Krymas
@@ -9328,7 +9326,6 @@ c_crimea                        ;armenian           ;        ;Taurike
 c_crimea                        ;greek              ;        ;Taurike
 c_crimea                        ;east_gothic        ;        ;Taurike
 c_crimea                        ;alan               ;        ;Taurike
-c_crimea                        ;sicilian_greek     ;        ;Taurike
 c_crimea                        ;arberian           ;        ;Taurike
 c_crimea                        ;georgian           ;        ;Taurike
 c_crimea                        ;lithuanian         ;        ;Krymas
@@ -9369,7 +9366,6 @@ d_sarkel                        ;greek              ;Levedia ;Lebedia
 d_sarkel                        ;east_gothic        ;Levedia ;Lebedia
 d_sarkel                        ;romanian           ;Levedia ;Levedia
 d_sarkel                        ;alan               ;Levedia ;Lebedia
-d_sarkel                        ;sicilian_greek     ;Levedia ;Lebedia
 d_sarkel                        ;arberian           ;Levedia ;Lebedia
 d_sarkel                        ;georgian           ;Levedia ;Lebedia
 d_sarkel                        ;khazar             ;        ;Buzan-Jük
@@ -9393,7 +9389,6 @@ c_sarkel                        ;armenian           ;        ;Aspron Hospition
 c_sarkel                        ;greek              ;        ;Aspron Hospition
 c_sarkel                        ;east_gothic        ;        ;Aspron Hospition
 c_sarkel                        ;alan               ;        ;Aspron Hospition
-c_sarkel                        ;sicilian_greek     ;        ;Aspron Hospition
 c_sarkel                        ;arberian           ;        ;Aspron Hospition
 c_sarkel                        ;georgian           ;        ;Aspron Hospition
 c_sarkel                        ;turkish            ;        ;Sharkil
@@ -9447,7 +9442,6 @@ d_zaporizhia                    ;greek              ;        ;Danapris
 d_zaporizhia                    ;east_gothic        ;        ;Var
 d_zaporizhia                    ;romanian           ;Zaporizhia;Zaporojia
 d_zaporizhia                    ;alan               ;        ;Danapris
-d_zaporizhia                    ;sicilian_greek     ;        ;Danapris
 d_zaporizhia                    ;arberian           ;        ;Danapris
 d_zaporizhia                    ;georgian           ;        ;Danapris
 d_zaporizhia                    ;lithuanian         ;Zaporizhia;Zaporoze
@@ -9472,7 +9466,6 @@ c_lower_dniepr                  ;greek              ;        ;Danapris
 c_lower_dniepr                  ;east_gothic        ;        ;Var
 c_lower_dniepr                  ;romanian           ;        ;Nipru
 c_lower_dniepr                  ;alan               ;        ;Danapris
-c_lower_dniepr                  ;sicilian_greek     ;        ;Danapris
 c_lower_dniepr                  ;arberian           ;        ;Danapris
 c_lower_dniepr                  ;georgian           ;        ;Danapris
 c_lower_dniepr                  ;lithuanian         ;        ;Dnepra
@@ -9679,12 +9672,12 @@ k_khazaria                      ;armenian           ;        ;Xazir-k'
 k_khazaria                      ;greek              ;        ;Chazaria
 k_khazaria                      ;east_gothic        ;        ;Chazaria
 k_khazaria                      ;alan               ;        ;Chazaria
-k_khazaria                      ;sicilian_greek     ;        ;Chazaria
 k_khazaria                      ;arberian           ;        ;Chazaria
 k_khazaria                      ;georgian           ;        ;Xazar'i
 k_khazaria                      ;turkish            ;        ;Hazarstan
 k_khazaria                      ;turkmen            ;        ;Hazarstan
 k_khazaria                      ;oghuz              ;        ;Hazarstan
+k_khazaria                      ;khalaj             ;        ;Xazarstán
 k_khazaria                      ;mongol             ;        ;Xäzärstan
 k_khazaria                      ;pecheneg           ;        ;Hazarstan
 k_khazaria                      ;karluk             ;        ;Qasarstan
@@ -9714,7 +9707,6 @@ k_khazaria                      ;persian            ;        ;Xazarstán
 k_khazaria                      ;sogdian            ;        ;Xazarstán
 k_khazaria                      ;tajik              ;        ;Xazarstán
 k_khazaria                      ;daylamite          ;        ;Xazarstán
-k_khazaria                      ;khalaj             ;        ;Xazarstán
 k_khazaria                      ;khwarezmi          ;        ;Xazarstán
 k_khazaria                      ;kurdish            ;        ;Xazarstán
 k_khazaria                      ;afghan             ;        ;Xazarstán
@@ -9765,7 +9757,6 @@ d_itil                          ;greek              ;Volga   ;Atel
 d_itil                          ;east_gothic        ;Volga   ;Atel
 d_itil                          ;romanian           ;Volga   ;Atel
 d_itil                          ;alan               ;Volga   ;Atel
-d_itil                          ;sicilian_greek     ;Volga   ;Atel
 d_itil                          ;arberian           ;Volga   ;Atel
 d_itil                          ;georgian           ;Volga   ;Atel
 d_itil                          ;finnish            ;Volga   ;Jul
@@ -9782,6 +9773,7 @@ d_itil                          ;lithuanian         ;Volga   ;Atel
 d_itil                          ;turkish            ;Volga   ;Idil
 d_itil                          ;turkmen            ;Volga   ;Idil
 d_itil                          ;oghuz              ;Volga   ;Idil
+d_itil                          ;khalaj             ;Volga   ;Atil
 d_itil                          ;mongol             ;Volga   ;Ejil
 d_itil                          ;cuman              ;Volga   ;Edil
 d_itil                          ;pecheneg           ;Volga   ;Idil
@@ -9810,7 +9802,6 @@ d_itil                          ;persian            ;Volga   ;Atil
 d_itil                          ;sogdian            ;Volga   ;Atil
 d_itil                          ;tajik              ;Volga   ;Atil
 d_itil                          ;daylamite          ;Volga   ;Atil
-d_itil                          ;khalaj             ;Volga   ;Atil
 d_itil                          ;khwarezmi          ;Volga   ;Atil
 d_itil                          ;kurdish            ;Volga   ;Atil
 d_itil                          ;afghan             ;Volga   ;Atil
@@ -9862,7 +9853,6 @@ c_itil                          ;greek              ;Volga   ;Atel
 c_itil                          ;east_gothic        ;Volga   ;Atel
 c_itil                          ;romanian           ;Volga   ;Atel
 c_itil                          ;alan               ;Volga   ;Atel
-c_itil                          ;sicilian_greek     ;Volga   ;Atel
 c_itil                          ;arberian           ;Volga   ;Atel
 c_itil                          ;georgian           ;Volga   ;Atel
 c_itil                          ;finnish            ;Volga   ;Jul
@@ -9879,6 +9869,7 @@ c_itil                          ;lithuanian         ;Volga   ;Atel
 c_itil                          ;turkish            ;Volga   ;Idil
 c_itil                          ;turkmen            ;Volga   ;Idil
 c_itil                          ;oghuz              ;Volga   ;Idil
+c_itil                          ;khalaj             ;Volga   ;Atil
 c_itil                          ;mongol             ;Volga   ;Ejil
 c_itil                          ;cuman              ;Volga   ;Edil
 c_itil                          ;pecheneg           ;Volga   ;Idil
@@ -9907,7 +9898,6 @@ c_itil                          ;persian            ;Volga   ;Atil
 c_itil                          ;sogdian            ;Volga   ;Atil
 c_itil                          ;tajik              ;Volga   ;Atil
 c_itil                          ;daylamite          ;Volga   ;Atil
-c_itil                          ;khalaj             ;Volga   ;Atil
 c_itil                          ;khwarezmi          ;Volga   ;Atil
 c_itil                          ;kurdish            ;Volga   ;Atil
 c_itil                          ;afghan             ;Volga   ;Atil
@@ -9936,9 +9926,9 @@ c_semender                      ;armenian           ;        ;Msndr
 c_semender                      ;greek              ;        ;Zabender
 c_semender                      ;east_gothic        ;        ;Zabender
 c_semender                      ;alan               ;        ;Msndr
-c_semender                      ;sicilian_greek     ;        ;Zabender
 c_semender                      ;arberian           ;        ;Zabender
 c_semender                      ;georgian           ;        ;Msndr
+c_semender                      ;khalaj             ;        ;Samandar
 c_semender                      ;bedouin_arabic     ;        ;Samandar
 c_semender                      ;maghreb_arabic     ;        ;Samandar
 c_semender                      ;levantine_arabic   ;        ;Samandar
@@ -9949,7 +9939,6 @@ c_semender                      ;persian            ;        ;Samandar
 c_semender                      ;sogdian            ;        ;Samandar
 c_semender                      ;tajik              ;        ;Samandar
 c_semender                      ;daylamite          ;        ;Samandar
-c_semender                      ;khalaj             ;        ;Samandar
 c_semender                      ;khwarezmi          ;        ;Samandar
 c_semender                      ;kurdish            ;        ;Samandar
 c_semender                      ;afghan             ;        ;Samandar
@@ -9962,6 +9951,7 @@ c_semender                      ;zanata             ;        ;Samandar
 c_semender                      ;tuareg             ;        ;Samandar
 c_philan                        ;khazar             ;Balanjar;Varach'an
 d_saray                         ;andalusian_arabic  ;        ;Sarai
+d_saray                         ;khalaj             ;        ;Sarai
 d_saray                         ;khazar             ;Ugru    ;Ugru
 d_saray                         ;bedouin_arabic     ;        ;Sarai
 d_saray                         ;maghreb_arabic     ;        ;Sarai
@@ -9973,7 +9963,6 @@ d_saray                         ;persian            ;        ;Sarai
 d_saray                         ;sogdian            ;        ;Sarai
 d_saray                         ;tajik              ;        ;Sarai
 d_saray                         ;daylamite          ;        ;Sarai
-d_saray                         ;khalaj             ;        ;Sarai
 d_saray                         ;khwarezmi          ;        ;Sarai
 d_saray                         ;kurdish            ;        ;Sarai
 d_saray                         ;afghan             ;        ;Sarai
@@ -9985,6 +9974,7 @@ d_saray                         ;masmuda            ;        ;Sarai
 d_saray                         ;zanata             ;        ;Sarai
 d_saray                         ;tuareg             ;        ;Sarai
 c_saray                         ;andalusian_arabic  ;        ;Sarai
+c_saray                         ;khalaj             ;        ;Sarai
 c_saray                         ;khazar             ;Akhtuba ;Akhtuba
 c_saray                         ;bedouin_arabic     ;        ;Sarai
 c_saray                         ;maghreb_arabic     ;        ;Sarai
@@ -9996,7 +9986,6 @@ c_saray                         ;persian            ;        ;Sarai
 c_saray                         ;sogdian            ;        ;Sarai
 c_saray                         ;tajik              ;        ;Sarai
 c_saray                         ;daylamite          ;        ;Sarai
-c_saray                         ;khalaj             ;        ;Sarai
 c_saray                         ;khwarezmi          ;        ;Sarai
 c_saray                         ;kurdish            ;        ;Sarai
 c_saray                         ;afghan             ;        ;Sarai
@@ -10030,7 +10019,6 @@ d_azov                          ;armenian           ;Don     ;Tanais
 d_azov                          ;greek              ;Don     ;Tanais
 d_azov                          ;east_gothic        ;Don     ;Tanais
 d_azov                          ;alan               ;Don     ;Tanais
-d_azov                          ;sicilian_greek     ;Don     ;Tanais
 d_azov                          ;arberian           ;Don     ;Tanais
 d_azov                          ;georgian           ;Don     ;Tanais
 d_azov                          ;lithuanian         ;        ;Azova
@@ -10075,7 +10063,6 @@ c_azov                          ;armenian           ;Don     ;Tanais
 c_azov                          ;greek              ;Don     ;Tanais
 c_azov                          ;east_gothic        ;Don     ;Tanaiskvísl
 c_azov                          ;alan               ;Don     ;Tanais
-c_azov                          ;sicilian_greek     ;Don     ;Tanais
 c_azov                          ;arberian           ;Don     ;Tanais
 c_azov                          ;georgian           ;Don     ;Tanais
 c_azov                          ;lithuanian         ;        ;Azova
@@ -10110,7 +10097,6 @@ c_kuban                         ;armenian           ;        ;Oukrouch
 c_kuban                         ;greek              ;        ;Oukrouch
 c_kuban                         ;east_gothic        ;        ;Oukrouch
 c_kuban                         ;alan               ;        ;Oukrouch
-c_kuban                         ;sicilian_greek     ;        ;Oukrouch
 c_kuban                         ;arberian           ;        ;Oukrouch
 c_kuban                         ;georgian           ;        ;Oukrouch
 c_kuban                         ;lithuanian         ;        ;Kubana
@@ -10134,7 +10120,6 @@ d_tmutarakan                    ;armenian           ;Perateia;Perateia
 d_tmutarakan                    ;greek              ;Perateia;Perateia
 d_tmutarakan                    ;east_gothic        ;Perateia;Perateia
 d_tmutarakan                    ;romanian           ;Gazaria ;Cassaria
-d_tmutarakan                    ;sicilian_greek     ;Perateia;Perateia
 d_tmutarakan                    ;arberian           ;Perateia;Perateia
 d_tmutarakan                    ;georgian           ;Perateia;Perateia
 d_tmutarakan                    ;lithuanian         ;Taman   ;Tamanas
@@ -10171,7 +10156,6 @@ c_tmutarakan                    ;armenian           ;        ;Tamatarxa
 c_tmutarakan                    ;greek              ;        ;Tamatarxa
 c_tmutarakan                    ;east_gothic        ;        ;Tamatarxa
 c_tmutarakan                    ;romanian           ;        ;Matrega
-c_tmutarakan                    ;sicilian_greek     ;        ;Tamatarxa
 c_tmutarakan                    ;arberian           ;        ;Tamatarxa
 c_tmutarakan                    ;georgian           ;        ;Tamatarxa
 c_tmutarakan                    ;lithuanian         ;Taman   ;Tamanas
@@ -10208,7 +10192,6 @@ c_korchev                       ;armenian           ;        ;Bospor
 c_korchev                       ;greek              ;        ;Bospor
 c_korchev                       ;east_gothic        ;        ;Bospor
 c_korchev                       ;romanian           ;        ;Vosporo
-c_korchev                       ;sicilian_greek     ;        ;Bospor
 c_korchev                       ;arberian           ;        ;Bospor
 c_korchev                       ;georgian           ;        ;Bospor
 c_korchev                       ;khazar             ;        ;Karcha
@@ -10242,6 +10225,7 @@ k_alania                        ;georgian           ;        ;Ovset'i
 k_alania                        ;turkish            ;        ;Aslar
 k_alania                        ;turkmen            ;        ;Aslar
 k_alania                        ;oghuz              ;        ;Aslar
+k_alania                        ;khalaj             ;        ;Al-Lan
 k_alania                        ;mongol             ;        ;Aslär
 k_alania                        ;cuman              ;        ;Aslar
 k_alania                        ;pecheneg           ;        ;Aslar
@@ -10263,7 +10247,6 @@ k_alania                        ;persian            ;        ;Al-Lan
 k_alania                        ;sogdian            ;        ;Al-Lan
 k_alania                        ;tajik              ;        ;Al-Lan
 k_alania                        ;daylamite          ;        ;Al-Lan
-k_alania                        ;khalaj             ;        ;Al-Lan
 k_alania                        ;khwarezmi          ;        ;Al-Lan
 k_alania                        ;kurdish            ;        ;Al-Lan
 k_alania                        ;afghan             ;        ;Al-Lan
@@ -10280,6 +10263,7 @@ d_alania                        ;georgian           ;        ;Ovset'i
 d_alania                        ;turkish            ;        ;Aslar
 d_alania                        ;turkmen            ;        ;Aslar
 d_alania                        ;oghuz              ;        ;Aslar
+d_alania                        ;khalaj             ;        ;Al-Lan
 d_alania                        ;mongol             ;        ;Aslär
 d_alania                        ;cuman              ;        ;Aslar
 d_alania                        ;pecheneg           ;        ;Aslar
@@ -10301,7 +10285,6 @@ d_alania                        ;persian            ;        ;Al-Lan
 d_alania                        ;sogdian            ;        ;Al-Lan
 d_alania                        ;tajik              ;        ;Al-Lan
 d_alania                        ;daylamite          ;        ;Al-Lan
-d_alania                        ;khalaj             ;        ;Al-Lan
 d_alania                        ;khwarezmi          ;        ;Al-Lan
 d_alania                        ;kurdish            ;        ;Al-Lan
 d_alania                        ;afghan             ;        ;Al-Lan
@@ -10318,6 +10301,7 @@ c_alania                        ;georgian           ;        ;Ovset'i
 c_alania                        ;turkish            ;        ;Aslar
 c_alania                        ;turkmen            ;        ;Aslar
 c_alania                        ;oghuz              ;        ;Aslar
+c_alania                        ;khalaj             ;        ;Al-Lan
 c_alania                        ;mongol             ;        ;Aslär
 c_alania                        ;cuman              ;        ;Aslar
 c_alania                        ;pecheneg           ;        ;Aslar
@@ -10339,7 +10323,6 @@ c_alania                        ;persian            ;        ;Al-Lan
 c_alania                        ;sogdian            ;        ;Al-Lan
 c_alania                        ;tajik              ;        ;Al-Lan
 c_alania                        ;daylamite          ;        ;Al-Lan
-c_alania                        ;khalaj             ;        ;Al-Lan
 c_alania                        ;khwarezmi          ;        ;Al-Lan
 c_alania                        ;kurdish            ;        ;Al-Lan
 c_alania                        ;afghan             ;        ;Al-Lan
@@ -10391,7 +10374,6 @@ d_zichia                        ;greek              ;        ;Zikhiya
 d_zichia                        ;east_gothic        ;        ;Zikhiya
 d_zichia                        ;romanian           ;        ;Zichia
 d_zichia                        ;alan               ;        ;Zikhiya
-d_zichia                        ;sicilian_greek     ;        ;Zikhiya
 d_zichia                        ;arberian           ;        ;Zikhiya
 d_zichia                        ;georgian           ;Sadzen  ;Jiket'i
 d_zichia                        ;turkish            ;        ;Cherkezistan
@@ -10470,7 +10452,6 @@ c_kasogs                        ;greek              ;Kabardia;Kasachia
 c_kasogs                        ;east_gothic        ;Kabardia;Kasachia
 c_kasogs                        ;romanian           ;        ;Cherkisia
 c_kasogs                        ;alan               ;Kabardia;Kæsægia
-c_kasogs                        ;sicilian_greek     ;Kabardia;Kasachia
 c_kasogs                        ;arberian           ;Kabardia;Kasachia
 c_kasogs                        ;georgian           ;Kabardia;K'ašaget'i
 c_kasogs                        ;mongol             ;        ;Tcherkezistan
@@ -10513,6 +10494,7 @@ d_sarir                         ;georgian           ;        ;Gunjet'i
 d_sarir                         ;turkish            ;        ;Serir
 d_sarir                         ;turkmen            ;        ;Serir
 d_sarir                         ;oghuz              ;        ;Serir
+d_sarir                         ;khalaj             ;        ;Al-Sarir
 d_sarir                         ;mongol             ;        ;Serir
 d_sarir                         ;cuman              ;        ;Serir
 d_sarir                         ;pecheneg           ;        ;Serir
@@ -10534,7 +10516,6 @@ d_sarir                         ;persian            ;        ;Al-Sarir
 d_sarir                         ;sogdian            ;        ;Al-Sarir
 d_sarir                         ;tajik              ;        ;Al-Sarir
 d_sarir                         ;daylamite          ;        ;Al-Sarir
-d_sarir                         ;khalaj             ;        ;Al-Sarir
 d_sarir                         ;khwarezmi          ;        ;Al-Sarir
 d_sarir                         ;kurdish            ;        ;Al-Sarir
 d_sarir                         ;afghan             ;        ;Al-Sarir
@@ -10763,6 +10744,7 @@ c_syrt                          ;bashkir            ;        ;Töp Sirt
 c_syrt                          ;russian            ;        ;Obshchiy Syrt
 c_syrt                          ;khitan             ;        ;Töp Sirt
 d_bashkirs                      ;andalusian_arabic  ;        ;al-Bashghird
+d_bashkirs                      ;khalaj             ;        ;Bashghirdistan
 d_bashkirs                      ;khazar             ;        ;Bašqurdlär
 d_bashkirs                      ;bolghar            ;        ;Bašqurdlär
 d_bashkirs                      ;avar               ;        ;Bašqurdlär
@@ -10786,7 +10768,6 @@ d_bashkirs                      ;persian            ;        ;Bashghirdistan
 d_bashkirs                      ;sogdian            ;        ;Bashghirdistan
 d_bashkirs                      ;tajik              ;        ;Bashghirdistan
 d_bashkirs                      ;daylamite          ;        ;Bashghirdistan
-d_bashkirs                      ;khalaj             ;        ;Bashghirdistan
 d_bashkirs                      ;khwarezmi          ;        ;Bashghirdistan
 d_bashkirs                      ;kurdish            ;        ;Bashghirdistan
 d_bashkirs                      ;afghan             ;        ;Bashghirdistan
@@ -11679,6 +11660,7 @@ c_lekia                         ;andalusian_arabic  ;        ;al-Lakza
 c_lekia                         ;turkish            ;Lezgistan;Lezgistan
 c_lekia                         ;turkmen            ;Lezgistan;Lezgistan
 c_lekia                         ;oghuz              ;Lezgistan;Lezgistan
+c_lekia                         ;khalaj             ;        ;al-Lakza
 c_lekia                         ;mongol             ;Lezgistan;Lezgistan
 c_lekia                         ;cuman              ;Lezgistan;Lezgistan
 c_lekia                         ;pecheneg           ;Lezgistan;Lezgistan
@@ -11700,7 +11682,6 @@ c_lekia                         ;persian            ;        ;al-Lakza
 c_lekia                         ;sogdian            ;        ;al-Lakza
 c_lekia                         ;tajik              ;        ;al-Lakza
 c_lekia                         ;daylamite          ;        ;al-Lakza
-c_lekia                         ;khalaj             ;        ;al-Lakza
 c_lekia                         ;khwarezmi          ;        ;al-Lakza
 c_lekia                         ;kurdish            ;        ;al-Lakza
 c_lekia                         ;afghan             ;        ;al-Lakza
