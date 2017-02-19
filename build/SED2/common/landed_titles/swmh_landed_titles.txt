@@ -3881,7 +3881,7 @@ e_hre = { # Heiliges Römisches Reich
 				color2 = { 255 255 255 }
 				german = "Leitmeritz"
 				b_litomerice = {}
-				b_bilina = {}
+				b_Pilsena = {}
 				b_doksany = {}
 				b_lipa = {}
 				b_duba_hre = {}
@@ -8838,7 +8838,7 @@ e_poland = { # Polska-Lietuva
 				b_tysmenytsya = {}
 				b_stryj = {}
 				#b_horod = {}
-				#b_vashkivtsi = {}
+				#b_vashkivtsi = { polish = "Waszkowce" }
 			}
 			c_peremyshl = { # Peremyshl (534)
 				color = { 254 255 218 }
@@ -8887,9 +8887,9 @@ e_poland = { # Polska-Lietuva
 				b_ustyluh = {}
 				b_luboml = {}
 				b_turiisk = {}
-				#b_ivanichy = {}
+				#b_ivanichy = { polish = "Iwanicze" }
 				b_stepan = {}
-				#b_kaminkashyrskyi = {}
+				#b_kaminkashyrskyi = { polish = "Kamien Koszyrski" }
 			}
 			c_beresty = { # Berestye (549)
 				color = { 255 255 225 }
@@ -14340,7 +14340,7 @@ e_italy = { # Italia
 				b_casaloldo = {}
 			}
 			c_bergamo = { # Bergamo (1125)
-				color = { 249 235 224 }
+				color = { 249 35 224 }
 				color2 = { 255 255 255 }
 				b_bergamo = {}
 				b_clusone = {}
@@ -14348,7 +14348,7 @@ e_italy = { # Italia
 				b_taxis = {}
 			}
 			c_pavia = { # Pavia (234)
-				color = { 255 243 232 }
+				color = { 25 243 232 }
 				color2 = { 255 255 255 }
 				greek = "Ticinum"
 				roman = "Ticinum"
@@ -14361,7 +14361,7 @@ e_italy = { # Italia
 				b_mortara = {}
 			}
 			c_cremona = { # Camisano (320)
-				color = { 255 245 234 }
+				color = { 60 245 24 }
 				color2 = { 255 255 255 }
 				greek = "Cremona"
 				b_cremona = {}
@@ -14405,7 +14405,7 @@ e_italy = { # Italia
 			greek = "Venetia"
 			roman = "Venetia"
 			c_treviso = { # Treviso (357)
-				color = { 251 226 226 }
+				color = { 151 226 56 }
 				color2 = { 255 255 255 }
 				b_treviso = {}
 				b_montanara = {}
@@ -14414,7 +14414,7 @@ e_italy = { # Italia
 				b_feltre = {}
 			}
 			c_vicenza = { # Vicenza (1131)
-				color = { 251 226 226 }
+				color = { 251 22 226 }
 				color2 = { 255 255 255 }
 				b_bassano = {}
 				b_vicenza = {}
@@ -14423,7 +14423,7 @@ e_italy = { # Italia
 				b_angarano = {}
 			}
 			c_verona = { # Verona (319)
-				color = { 255 230 230 }
+				color = { 25 230 30 }
 				color2 = { 255 255 255 }
 				b_verona = {}
 				b_sirmione = {}
@@ -14449,7 +14449,7 @@ e_italy = { # Italia
 			greek = "Emilia"
 			roman = "Emilia"
 			c_parma = { # Parma (321) # San Secondo
-				color = { 255 254 230 }
+				color = { 25 64 230 }
 				color2 = { 255 255 255 }
 				b_parma = {}
 				b_san_secondo = {}
@@ -14460,7 +14460,7 @@ e_italy = { # Italia
 				b_tizzano = {}
 			}
 			c_piacenza = { # Piacenza (1124)
-				color = { 255 254 230 }
+				color = { 200 254 11 }
 				color2 = { 255 255 255 }
 				b_piacenza = {}
 				b_bardi = {}
@@ -14477,7 +14477,7 @@ e_italy = { # Italia
 			greek = "Alpes Cottiae"
 			roman = "Alpes Cottiae"
 			c_piemonte = { # Susa (236)
-				color = { 104 12 38 }
+				color = { 154 31 88 }
 				color2 = { 255 255 255 }
 				greek = "Turin"
 				roman = "Turin"
@@ -14490,7 +14490,7 @@ e_italy = { # Italia
 				b_valgorrera = {}
 			}
 			c_pombia = { # Pombia (1046)
-				color = { 107 15 41 }
+				color = { 117 220 11 }
 				color2 = { 255 255 255 }
 				greek = "Novara"
 				roman = "Novara"
@@ -14541,7 +14541,7 @@ e_italy = { # Italia
 				b_monticello = {}
 			}
 			c_ceva = { # Ceva (1129)
-				color = { 155 46 76 }
+				color = { 203 43 16 }
 				color2 = { 255 255 255 }
 				culture = italian
 				b_ceva = {}
@@ -14598,7 +14598,7 @@ e_italy = { # Italia
 				b_verrucola = {}
 				b_luna_ligure = {}
 			}
-			c_gavi = { # Gavi (1140)
+			c_gavi = { # Gavi/Bobbio (1140)
 				color = { 155 46 76 }
 				color2 = { 255 255 255 }
 				greek = "Bobbio"
@@ -14674,7 +14674,7 @@ e_italy = { # Italia
 				b_bomporto = {}
 			}
 			c_reggionellemilia = { # Reggio (957)
-				color = { 221 180 126 }
+				color = { 221 80 126 }
 				color2 = { 255 255 255 }
 				b_reggionellemila = {}
 				b_gustalla = {}
@@ -14684,7 +14684,7 @@ e_italy = { # Italia
 				b_bianello = {}
 			}
 			c_frignano = { # Frignano (1122)
-				color = { 221 220 216 }
+				color = { 11 22 216 }
 				color2 = { 255 255 255 }
 				greek = "Pistoia"
 				roman = "Pistoia"
@@ -14744,7 +14744,7 @@ e_italy = { # Italia
 				b_vernio = {}
 			}
 			c_biserno = { # Volterra (1138) # Biserno
-				color = { 243 253 231 }
+				color = { 143 23 231 }
 				color2 = { 255 255 255 }
 				b_volterra = {}
 				b_st_gimignano = {}
@@ -14782,7 +14782,7 @@ e_italy = { # Italia
 				b_mammi = {}
 			}
 			c_casentino = { # Casentino (1134)
-				color = { 243 253 231 }
+				color = { 55 53 231 }
 				color2 = { 255 255 255 }
 				b_poppi = {}
 				b_romena = {}
@@ -14804,7 +14804,7 @@ e_italy = { # Italia
 			culture = tuscan
 			capital = 330 # Siena # Ardegnhesca
 			c_siena = { # Siena (330)
-				color = { 243 253 231 }
+				color = { 243 53 81 }
 				color2 = { 255 255 255 }
 				b_siena = {}
 				b_orgia = {}
@@ -15031,7 +15031,7 @@ e_italy = { # Italia
 			short_name = yes
 		}
 		d_firenze_republic = { # Firenze # Florentine republic
-			color = { 255 248 186 }
+			color = { 203 19 54 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 328 # Firenze
@@ -15041,7 +15041,7 @@ e_italy = { # Italia
 			short_name = yes
 		}
 		d_lucca_republic = { # Lucca # Luccan republic
-			color = { 198 43 69 }
+			color = { 203 184 19 }
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 323 # Lucca
@@ -15361,7 +15361,7 @@ e_italy = { # Italia
 			c_corsica = { # Rogliano
 				color = { 226 248 251 }
 				color2 = { 255 255 255 }
-				b_rogliano = {}
+				b_san_colombano = {}
 				b_mariana = {}
 				b_aleria = {}
 				b_alando = {}
@@ -15383,7 +15383,7 @@ e_italy = { # Italia
 		d_sardinia = { # Sardinia
 			color = { 122 46 147 }
 			color2 = { 255 255 255 }
-			capital = 326 # Cagliari
+			capital = 325 # Arborea
 			culture = sardinian
 			c_logudoro = { # Logudoro (1104)
 				color = { 203 15 64 }
@@ -15397,8 +15397,8 @@ e_italy = { # Italia
 				b_bosa = {}
 				b_sassari = {}
 				b_portotorres = {}
-				b_osilo = {}
 				b_alghero = {}
+				b_osilio = {}
 			}
 			c_gallura = { # Gallura (1103)
 				color = { 188 158 166 }
@@ -15424,6 +15424,7 @@ e_italy = { # Italia
 				b_oristano = {}
 				b_cabras = {}
 				b_terralba = {}
+				b_usellus = {}
 				b_tharros = {}
 			}
 			c_cagliari = { # Cagliari (326)
@@ -15436,9 +15437,10 @@ e_italy = { # Italia
 				title_prefix = GIUDICATO_OF
 				b_cagliari = {}
 				b_tortoli = {}
-				b_santa_igia = {}
+				b_dolinova = {}
+				b_villasor = {}
 				b_carbonara = {}
-				b_tratalias = {}
+				b_sulci = {}
 			}
 		} # end d_sardinia
 		allow = { title_king_basic_allow = yes }
