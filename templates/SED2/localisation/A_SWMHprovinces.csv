@@ -108,15 +108,15 @@ PROV458 ;Merania ;Merania;c_istria,Merano,Meranien,Meránia,Meraniae,Meranije;Ist
 ########################################,,,,,,,,,,,,,,;;;;
 #Bohemia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV438 ;Hradec  ;Hradec;c_hradec,Hradec,Grätz;Hradec
-PROV440 ;Olomouc ;Olomouc;c_olomouc,Olomouc,Olomuniec,Olmütz;Olomouc
-PROV439 ;Plzen   ;Plzen;c_plzen,Plzen,Pilsen;Plzen
+PROV438 ;Hradec  ;Hradec;c_hradec,Hradecz,Hradec,Grätz;Hradec
+PROV440 ;Olomouc ;Olomouc;c_olomouc,Olomúcz,Olomuniec,Olmütz,Olmits,Alamóc;Olomouc
+PROV439 ;Plzen   ;Plzen;c_plzen,Plzen,Pilsen,Pilzen,Pilzno;Plzen
 PROV362 ;Doudleby;Doudleby;c_domazlice,Jižní Czechy,Sudböhmen;Domazlice
-PROV363 ;Litomerice;Litomerice;c_litomerice,Leitmeritz,Litomerzice;Litomerice
+PROV363 ;Litomerice;Litomerice;c_litomerice,Leitmeritz,Litomierzicze,Litomierzyce;Litomerice
 PROV436 ;Kladsko ;Kladsko;c_boleslav,Kladsko,Klodsko,Glatz;Boleslav
-PROV437 ;Prague  ;Praha;c_praha,Prag,Praha;Prague
-PROV441 ;Brno    ;Boruy;c_brno,Brno,Brünn;Brno
-PROV446 ;Znojmo  ;Znojmo;c_znojmo,Znojmo,Znaym;Znojmo
+PROV437 ;Prague  ;Praha;c_praha,Prag,Praha,Praga;Prague
+PROV441 ;Brno    ;Boruy;c_brno,Brno,Brünn,Berno,Brin,Börön;Brno
+PROV446 ;Znojmo  ;Znojmo;c_znojmo,Znoymo,Znaym;Znojmo
 ########################################,,,,,,,,,,,,,,;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
@@ -163,10 +163,10 @@ PROV356 ;Venice  ;Venezia;c_venezia;Venezia
 PROV1101;Cinarca ;Cinarca;c_cinarca,Agiation;Volga
 PROV1102;Ceccano ;Ceccano;c_ceccano;Oka
 PROV324 ;Rogliano;Rogliano;c_corsica;Corsica
-PROV1104;Logudoro;Logudoro;c_logudoro;Oka
-PROV1103;Gallura ;Gallura;c_gallura;Volga
-PROV325 ;Arborea ;Arborea;c_arborea;Arborea
-PROV326 ;Cagliari;Cagliari;c_cagliari,Caralis,Karalis;Cagliari
+PROV1104;Logudoro;Logudoro;c_logudoro,Torres;Oka
+PROV1103;Gallura ;Gallura;c_gallura,Caddùra;Volga
+PROV325 ;Arborea ;Arborea;c_arborea,Arbarèe;Arborea
+PROV326 ;Cagliari;Cagliari;c_cagliari,Caralis,Karalis,Plùminos-Càlari;Cagliari
 PROV353 ;Rovigo  ;Rovigo;c_ferrara,Ferraria;Ferrara
 PROV1143;Este    ;Este;c_este,Ateste;Kalyani
 PROV351 ;Ravenna ;Ravenna;c_ravenna,Rhaouenna;Ravenna
@@ -206,7 +206,7 @@ PROV236 ;Susa    ;Susa;c_piemonte,Augusta Taurinorum,Augousta Taurinon;Piemonte
 PROV246 ;Aosta   ;Aosta;c_grisons,Augusta Praetoria,Augousta Praitopia;Grisons
 PROV232 ;Asti    ;Asti;c_monferrato,Hasta,Asta;Monferrato
 PROV1318;Bosco   ;Bosco;c_bosco,Aquae Statiellae,Akouai Statiella;Samatata
-PROV1140;Gavi    ;Gavi;c_gavi,Bobium,Bobion;Banavasi
+PROV1140;Bobbio  ;Bobbio;c_gavi,Bobium,Bobion;Banavasi
 PROV233 ;Genoa   ;Genoa;c_genoa,Genua,Genoua;Genoa
 PROV1316;Finale  ;Finale;c_finale,Album Ingaunum,Albingaunon;Brahmaputra
 PROV1129;Ceva    ;Ceva;c_ceva,Ceba;Kataka
@@ -270,12 +270,12 @@ PROV513 ;Bârlad  ;Bârlad;c_birlad,Barlád,Bariach;Birlad
 ########################################,,,,,,,,,,,,,,;;;;
 #Brittany,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV101 ;Rennes  ;Roazhon;c_rennes,Condate Redonum,Kondate;Rennes
+PROV101 ;Rennes  ;Roazhon;c_rennes,Condate Redonum,Kondate,Rennes;Rennes
 PROV102 ;Penthièvre;Turnagoued;c_penthievre;Penthievre
-PROV103 ;Léon    ;Leon;c_french_leon,Gesocribate;Léon
-PROV104 ;Cornouaille;Gernev;c_cornouaille,Vorgium,Ouorgion;Cornouaille
-PROV105 ;Vannes  ;Gwened;c_vannes,Darioritum,Darioriton;Vannes
-PROV106 ;Nantes  ;Naoned;c_nantes,Portus Namnetum;Nantes
+PROV103 ;Léon    ;Leon;c_french_leon,Gesocribate,Léon;Léon
+PROV104 ;Cornouaille;Gernev;c_cornouaille,Vorgium,Ouorgion,Cornouaille;Cornouaille
+PROV105 ;Vannes  ;Gwened;c_vannes,Darioritum,Darioriton,Vannes;Vannes
+PROV106 ;Nantes  ;Naoned;c_nantes,Portus Namnetum,Nantes;Nantes
 ########################################,,,,,,,,,,,,,,;;;;
 #Aquitaine,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
@@ -507,16 +507,16 @@ PROV410 ;Toropets;Toropec;c_toropets;Toropets
 PROV569 ;Vyazma  ;Viazma;c_vyazma;Vyazma
 PROV552 ;Turau   ;Turov;c_turov;Turov
 PROV548 ;Pinsk   ;Pinsk;c_pinsk;Pinsk
-PROV424 ;Vawkavysk;Volkovysk;c_jacwiez;Grodno
+PROV424 ;Vawkavysk;Volkovysk;c_jacwiez,Wolkowysk;Grodno
 PROV567 ;Novhorod-Siverskyi;Novgorod Seversky;c_novgorod_seversky;Novgorod Seversky
 PROV554 ;Chernihiv;Chernigov;c_chernigov;Chernigov
 PROV553 ;Liubech ;Lyubech;c_lyubech;Lyubech
 PROV576 ;Bryansk ;Briansk;c_bryansk;Bryansk
 PROV536 ;Halych  ;Halych;c_galich;Galich
-PROV534 ;Przemysl;Peremyshl;c_peremyshl;Peremyshl
-PROV549 ;Brest   ;Berestye;c_beresty;Beresty
-PROV425 ;Bielsk  ;Belsk;c_podlasie;Podlasie
-PROV546 ;Terebovlia;Terebovl;c_terebovl;Terebovl
+PROV534 ;Przemysl;Peremyshl;c_peremyshl,Przemysl;Peremyshl
+PROV549 ;Brest   ;Berestye;c_beresty,Brest;Beresty
+PROV425 ;Bielsk  ;Belsk;c_podlasie,Bielsk;Podlasie
+PROV546 ;Terebovlia;Terebovl;c_terebovl,Trembowla;Terebovl
 ########################################,,,,,,,,,,,,,,;;;;
 #Finland,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;

@@ -157,6 +157,7 @@ d_ghilman                       ;foa                ;CAPTAIN_FOA;CAPTAIN_FOA
 d_ghanan_band                   ;title              ;CAPTAIN ;CAPTAIN
 d_ghanan_band                   ;foa                ;CAPTAIN_FOA;CAPTAIN_FOA
 e_hre                           ;short_name         ;yes     ;yes
+e_hre                           ;bohemian           ;        ;Swatá Rzímská Rzísse
 k_frisia                        ;frisian            ;        ;Fresland
 k_frisia                        ;german             ;        ;Friesland
 k_frisia                        ;low_german         ;        ;Frieslaand
@@ -468,55 +469,177 @@ d_burgau                        ;title              ;MARGRAVE;MARGRAVE
 d_burgau                        ;title_female       ;MARGRAVINE;MARGRAVINE
 d_burgau                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 d_burgau                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+k_bohemia                       ;german             ;        ;Böhmen
+k_bohemia                       ;low_german         ;        ;Böhmen
+k_bohemia                       ;dutch              ;        ;Bohemen
+k_bohemia                       ;low_saxon          ;        ;Bohemen
+k_bohemia                       ;thuringian         ;        ;Böhmen
+k_bohemia                       ;franconian         ;        ;Böhmen
+k_bohemia                       ;swabian            ;        ;Böhme
+k_bohemia                       ;bavarian           ;        ;Behmen
+k_bohemia                       ;low_frankish       ;        ;Bohemen
+k_bohemia                       ;greek              ;        ;Boemías
+k_bohemia                       ;pommeranian        ;        ;Czechy
+k_bohemia                       ;polish             ;        ;Czechy
+k_bohemia                       ;bohemian           ;        ;Czechy
+k_bohemia                       ;moravian           ;        ;Czechy
+k_bohemia                       ;ashkenazi          ;        ;Pihm
 d_bohemia                       ;title              ;DB      ;DB
 d_bohemia                       ;foa                ;DB_FOA  ;DB_FOA
 d_bohemia                       ;title_prefix       ;DB_OF   ;DB_OF
 d_bohemia                       ;german             ;        ;Böhmen
+d_bohemia                       ;low_german         ;        ;Böhmen
+d_bohemia                       ;dutch              ;        ;Bohemen
+d_bohemia                       ;low_saxon          ;        ;Bohemen
+d_bohemia                       ;thuringian         ;        ;Böhmen
+d_bohemia                       ;franconian         ;        ;Böhmen
+d_bohemia                       ;swabian            ;        ;Böhme
+d_bohemia                       ;bavarian           ;        ;Behmen
+d_bohemia                       ;low_frankish       ;        ;Bohemen
+d_bohemia                       ;greek              ;        ;Boemías
+d_bohemia                       ;pommeranian        ;        ;Czechy
+d_bohemia                       ;polish             ;        ;Czechy
 d_bohemia                       ;bohemian           ;        ;Czechy
 d_bohemia                       ;moravian           ;        ;Czechy
+d_bohemia                       ;ashkenazi          ;        ;Behmen
 c_praha                         ;german             ;        ;Prag
+c_praha                         ;low_german         ;        ;Praha
+c_praha                         ;dutch              ;        ;Praha
+c_praha                         ;low_saxon          ;        ;Praha
+c_praha                         ;thuringian         ;        ;Praha
+c_praha                         ;franconian         ;        ;Praha
+c_praha                         ;swabian            ;        ;Praha
+c_praha                         ;bavarian           ;        ;Praha
+c_praha                         ;low_frankish       ;        ;Praha
+c_praha                         ;pommeranian        ;        ;Praha
+c_praha                         ;polish             ;        ;Praga
 c_praha                         ;bohemian           ;        ;Praha
 c_praha                         ;moravian           ;        ;Praha
+c_praha                         ;ashkenazi          ;        ;Prag
 c_domazlice                     ;german             ;South Bohemia;Sudböhmen
 c_domazlice                     ;bohemian           ;South Bohemia;Jižní Czechy
 c_domazlice                     ;moravian           ;South Bohemia;Jižní Czechy
 c_hradec                        ;german             ;        ;Grätz
-c_hradec                        ;bohemian           ;        ;Hradec
-c_hradec                        ;moravian           ;        ;Hradec
+c_hradec                        ;low_german         ;        ;Grätz
+c_hradec                        ;low_saxon          ;        ;Grätz
+c_hradec                        ;thuringian         ;        ;Grätz
+c_hradec                        ;franconian         ;        ;Grätz
+c_hradec                        ;swabian            ;        ;Grätz
+c_hradec                        ;bavarian           ;        ;Grätz
+c_hradec                        ;low_frankish       ;        ;Grätz
+c_hradec                        ;polish             ;        ;Hradec
+c_hradec                        ;bohemian           ;        ;Hradecz
+c_hradec                        ;moravian           ;        ;Hradecz
 c_boleslav                      ;german             ;Glatz   ;Glatz
+c_boleslav                      ;low_german         ;Glatz   ;Glatz
+c_boleslav                      ;low_saxon          ;Glatz   ;Glatz
+c_boleslav                      ;thuringian         ;Glatz   ;Glatz
+c_boleslav                      ;franconian         ;Glatz   ;Glatz
+c_boleslav                      ;swabian            ;Glatz   ;Glatz
+c_boleslav                      ;bavarian           ;Glatz   ;Glatz
+c_boleslav                      ;low_frankish       ;Glatz   ;Glatz
 c_boleslav                      ;polish             ;Klodzko ;Klodsko
 c_boleslav                      ;bohemian           ;        ;Kladsko
 c_boleslav                      ;moravian           ;        ;Kladsko
-c_litomerice                    ;german             ;Leitmeritz;Leitmeritz
-c_litomerice                    ;bohemian           ;        ;Litomerzice
-c_litomerice                    ;moravian           ;        ;Litomerzice
+c_litomerice                    ;german             ;        ;Leitmeritz
+c_litomerice                    ;low_german         ;        ;Leitmeritz
+c_litomerice                    ;low_saxon          ;        ;Leitmeritz
+c_litomerice                    ;thuringian         ;        ;Leitmeritz
+c_litomerice                    ;franconian         ;        ;Leitmeritz
+c_litomerice                    ;swabian            ;        ;Leitmeritz
+c_litomerice                    ;bavarian           ;        ;Leitmeritz
+c_litomerice                    ;low_frankish       ;        ;Leitmeritz
+c_litomerice                    ;polish             ;        ;Litomierzyce
+c_litomerice                    ;bohemian           ;        ;Litomierzicze
+c_litomerice                    ;moravian           ;        ;Litomierzicze
 c_zatec                         ;german             ;Saaz    ;Saaz
-c_zatec                         ;bohemian           ;        ;Žatec
-c_zatec                         ;moravian           ;        ;Žatec
+c_zatec                         ;low_german         ;Saaz    ;Saaz
+c_zatec                         ;low_saxon          ;Saaz    ;Saaz
+c_zatec                         ;thuringian         ;Saaz    ;Saaz
+c_zatec                         ;franconian         ;Saaz    ;Saaz
+c_zatec                         ;swabian            ;Saaz    ;Saaz
+c_zatec                         ;bavarian           ;Saaz    ;Saaz
+c_zatec                         ;low_frankish       ;Saaz    ;Saaz
+c_zatec                         ;bohemian           ;        ;Zatecz
+c_zatec                         ;moravian           ;        ;Zatecz
 c_plzen                         ;german             ;Pilsen  ;Pilsen
+c_plzen                         ;low_german         ;Pilsen  ;Pilsen
+c_plzen                         ;low_saxon          ;Pilsen  ;Pilsen
+c_plzen                         ;thuringian         ;Pilsen  ;Pilsen
+c_plzen                         ;franconian         ;Pilsen  ;Pilsen
+c_plzen                         ;swabian            ;Pilsen  ;Pilsen
+c_plzen                         ;bavarian           ;Pilsen  ;Pilsen
+c_plzen                         ;low_frankish       ;Pilsen  ;Pilsen
+c_plzen                         ;pommeranian        ;Pilsen  ;Pilzen
+c_plzen                         ;polish             ;Pilsen  ;Pilzno
 c_plzen                         ;bohemian           ;        ;Plzen
 c_plzen                         ;moravian           ;        ;Plzen
+c_plzen                         ;ashkenazi          ;        ;Pilzen
 d_moravia                       ;title              ;DM      ;DM
 d_moravia                       ;foa                ;DM_FOA  ;DM_FOA
 d_moravia                       ;title_prefix       ;DM_OF   ;DM_OF
 d_moravia                       ;german             ;        ;Mähren
-d_moravia                       ;polish             ;        ;Morawa
-d_moravia                       ;bohemian           ;        ;Morava
-d_moravia                       ;moravian           ;        ;Morava
-c_olomouc                       ;german             ;Olmütz  ;Olmütz
+d_moravia                       ;low_german         ;        ;Mähren
+d_moravia                       ;dutch              ;        ;Moravië
+d_moravia                       ;low_saxon          ;        ;Moravië
+d_moravia                       ;thuringian         ;        ;Mähren
+d_moravia                       ;franconian         ;        ;Mähren
+d_moravia                       ;swabian            ;        ;Mähre
+d_moravia                       ;bavarian           ;        ;Mährn
+d_moravia                       ;low_frankish       ;        ;Moravië
+d_moravia                       ;greek              ;        ;Moravías
+d_moravia                       ;polish             ;        ;Morawy
+d_moravia                       ;bohemian           ;        ;Morawa
+d_moravia                       ;moravian           ;        ;Morawa
+d_moravia                       ;hungarian          ;        ;Morvaország
+d_moravia                       ;ashkenazi          ;        ;Mehren
+c_olomouc                       ;german             ;        ;Olmütz
+c_olomouc                       ;low_german         ;        ;Olmütz
+c_olomouc                       ;low_saxon          ;        ;Olmütz
+c_olomouc                       ;thuringian         ;        ;Olmütz
+c_olomouc                       ;franconian         ;        ;Olmütz
+c_olomouc                       ;swabian            ;        ;Olmütz
+c_olomouc                       ;bavarian           ;        ;Olmütz
+c_olomouc                       ;low_frankish       ;        ;Olmütz
 c_olomouc                       ;polish             ;        ;Olomuniec
-c_olomouc                       ;bohemian           ;        ;Olomouc
-c_olomouc                       ;moravian           ;        ;Olomouc
+c_olomouc                       ;bohemian           ;        ;Olomúcz
+c_olomouc                       ;moravian           ;        ;Olomúcz
+c_olomouc                       ;hungarian          ;        ;Alamóc
+c_olomouc                       ;ashkenazi          ;        ;Olmits
 c_opava                         ;german             ;Troppau ;Troppau
+c_opava                         ;low_german         ;Troppau ;Troppau
+c_opava                         ;low_saxon          ;Troppau ;Troppau
+c_opava                         ;thuringian         ;Troppau ;Troppau
+c_opava                         ;franconian         ;Troppau ;Troppau
+c_opava                         ;swabian            ;Troppau ;Troppau
+c_opava                         ;bavarian           ;Troppau ;Troppau
+c_opava                         ;low_frankish       ;Troppau ;Troppau
 c_opava                         ;polish             ;        ;Opawa
-c_opava                         ;bohemian           ;        ;Opava
-c_opava                         ;moravian           ;        ;Opava
+c_opava                         ;bohemian           ;        ;Opawa
+c_opava                         ;moravian           ;        ;Opawa
 c_znojmo                        ;german             ;        ;Znaym
-c_znojmo                        ;bohemian           ;        ;Znojmo
-c_znojmo                        ;moravian           ;        ;Znojmo
+c_znojmo                        ;low_german         ;        ;Znaym
+c_znojmo                        ;low_saxon          ;        ;Znaym
+c_znojmo                        ;thuringian         ;        ;Znaym
+c_znojmo                        ;franconian         ;        ;Znaym
+c_znojmo                        ;swabian            ;        ;Znaym
+c_znojmo                        ;bavarian           ;        ;Znaym
+c_znojmo                        ;low_frankish       ;        ;Znaym
+c_znojmo                        ;bohemian           ;        ;Znoymo
+c_znojmo                        ;moravian           ;        ;Znoymo
 c_brno                          ;german             ;Brünn   ;Brünn
+c_brno                          ;low_german         ;Brünn   ;Brünn
+c_brno                          ;low_saxon          ;Brünn   ;Brünn
+c_brno                          ;thuringian         ;Brünn   ;Brünn
+c_brno                          ;franconian         ;Brünn   ;Brünn
+c_brno                          ;swabian            ;Brünn   ;Brünn
+c_brno                          ;bavarian           ;Brünn   ;Brünn
+c_brno                          ;low_frankish       ;Brünn   ;Brünn
+c_brno                          ;polish             ;Brünn   ;Berno
 c_brno                          ;bohemian           ;        ;Brno
 c_brno                          ;moravian           ;        ;Brno
+c_brno                          ;hungarian          ;        ;Börön
+c_brno                          ;ashkenazi          ;        ;Brin
 e_roman_empire                  ;short_name         ;yes     ;yes
 e_roman_empire                  ;norse              ;        ;Rómverska keisaradæmið
 e_roman_empire                  ;swedish            ;        ;Rómverska keisaradæmið
@@ -546,7 +669,7 @@ e_byzantium                     ;norwegian          ;        ;Rómverska keisarad
 e_byzantium                     ;danish             ;        ;Rómverska keisaradæmið
 e_byzantium                     ;icelandic          ;        ;Rómverska keisaradæmið
 e_byzantium                     ;anglonorse         ;        ;Rómverska keisaradæmið
-e_byzantium                     ;armenian           ;        ;Hrromeakan Kaysrut'yun
+e_byzantium                     ;armenian           ;        ;Hrromeakan Kaysrutyun
 e_byzantium                     ;romanian           ;        ;Imperiul Roman
 e_byzantium                     ;arberian           ;        ;Perandoria Romake
 e_byzantium                     ;georgian           ;        ;Romis Imperia
@@ -3071,9 +3194,21 @@ c_nadruvia                      ;pommeranian        ;        ;Nadrowia
 c_nadruvia                      ;polish             ;        ;Nadrowia
 c_nadruvia                      ;bohemian           ;        ;Nadrowia
 c_nadruvia                      ;moravian           ;        ;Nadrowia
+k_galicia                       ;polish             ;        ;Halicz-Wolyn
+d_galich                        ;polish             ;        ;Halicz
+c_peremyshl                     ;polish             ;        ;Przemysl
+c_terebovl                      ;polish             ;Trembowla;Trembowla
+c_lutsk                         ;polish             ;Luck    ;Luck
+d_volhynia                      ;polish             ;        ;Wolyn
+c_vladimir_volynsky             ;polish             ;        ;Wlodzimierz Wolynski
+c_beresty                       ;polish             ;        ;Brest
+c_dorogobuzh                    ;polish             ;        ;Drohobuz
 d_podlaise                      ;lettigallish       ;        ;Palenke
 d_podlaise                      ;lithuanian         ;        ;Palenke
 d_podlaise                      ;prussian           ;        ;Palenke
+d_podlaise                      ;polish             ;Podlasie;Podlasie
+c_podlasie                      ;polish             ;        ;Bielsk
+c_jacwiez                       ;polish             ;        ;Wolkowysk
 k_wallachia                     ;title              ;VOIEVODAT;VOIEVODAT
 k_wallachia                     ;foa                ;VOIEVODAT_FOA;VOIEVODAT_FOA
 k_wallachia                     ;title_prefix       ;VOIEVODAT_OF;VOIEVODAT_OF
@@ -3186,9 +3321,29 @@ c_belgorod                      ;kirghiz            ;        ;Bender
 c_belgorod                      ;uyghur             ;        ;Bender
 c_belgorod                      ;bashkir            ;        ;Bender
 k_hungary                       ;german             ;        ;Ungarn
+k_hungary                       ;low_german         ;        ;Ungarn
+k_hungary                       ;dutch              ;        ;Hongarije
+k_hungary                       ;low_saxon          ;        ;Hongaarnlaand
+k_hungary                       ;thuringian         ;        ;Ungarn
+k_hungary                       ;franconian         ;        ;Ungarn
+k_hungary                       ;swabian            ;        ;Ungarn
+k_hungary                       ;bavarian           ;        ;Ungarn
+k_hungary                       ;low_frankish       ;        ;Hongarije
+k_hungary                       ;english            ;        ;Hungarland
+k_hungary                       ;saxon              ;        ;Ungerland
+k_hungary                       ;greek              ;        ;Oungarías
+k_hungary                       ;romanian           ;        ;Ungaria
+k_hungary                       ;turkish            ;        ;Macaristan
+k_hungary                       ;mongol             ;        ;Ungar Uls
 k_hungary                       ;polish             ;        ;Wegry
 k_hungary                       ;bohemian           ;        ;Uhry
 k_hungary                       ;moravian           ;        ;Uhry
+k_hungary                       ;karantanci         ;        ;Ógrska
+k_hungary                       ;croatian           ;        ;Ugarska
+k_hungary                       ;serbian            ;        ;Ugarska
+k_hungary                       ;bosnian            ;        ;Ugarska
+k_hungary                       ;bulgarian          ;        ;Ungariya
+k_hungary                       ;ashkenazi          ;        ;Ungern
 d_esztergom                     ;german             ;Esztergom;Gran
 d_esztergom                     ;greek              ;Pannonia Valeria;Pannonia Valeria
 d_esztergom                     ;bohemian           ;Esztergom;Ostrihom
@@ -5838,8 +5993,8 @@ c_bosco                         ;greek              ;Acqui   ;Akouai Statiella
 c_bosco                         ;roman              ;Acqui   ;Aquae Statiellae
 c_luni                          ;greek              ;        ;Louna
 c_luni                          ;roman              ;        ;Luna
-c_gavi                          ;greek              ;Bobbio  ;Bobion
-c_gavi                          ;roman              ;Bobbio  ;Bobium
+c_gavi                          ;greek              ;        ;Bobion
+c_gavi                          ;roman              ;        ;Bobium
 c_genoa                         ;greek              ;        ;Genoua
 c_genoa                         ;roman              ;        ;Genua
 d_savona                        ;title              ;MARQUISATE;MARQUISATE
@@ -6006,19 +6161,23 @@ c_logudoro                      ;title              ;GIUDICATO;GIUDICATO
 c_logudoro                      ;title_female       ;GIUDICATO_F;GIUDICATO_F
 c_logudoro                      ;foa                ;GIUDICATO_FOA;GIUDICATO_FOA
 c_logudoro                      ;title_prefix       ;GIUDICATO_OF;GIUDICATO_OF
+c_logudoro                      ;sardinian          ;Torres  ;Torres
 c_gallura                       ;title              ;GIUDICATO;GIUDICATO
 c_gallura                       ;title_female       ;GIUDICATO_F;GIUDICATO_F
 c_gallura                       ;foa                ;GIUDICATO_FOA;GIUDICATO_FOA
 c_gallura                       ;title_prefix       ;GIUDICATO_OF;GIUDICATO_OF
+c_gallura                       ;sardinian          ;        ;Caddùra
 c_arborea                       ;title              ;GIUDICATO;GIUDICATO
 c_arborea                       ;title_female       ;GIUDICATO_F;GIUDICATO_F
 c_arborea                       ;foa                ;GIUDICATO_FOA;GIUDICATO_FOA
 c_arborea                       ;title_prefix       ;GIUDICATO_OF;GIUDICATO_OF
+c_arborea                       ;sardinian          ;        ;Arbarèe
 c_cagliari                      ;title              ;GIUDICATO;GIUDICATO
 c_cagliari                      ;title_female       ;GIUDICATO_F;GIUDICATO_F
 c_cagliari                      ;foa                ;GIUDICATO_FOA;GIUDICATO_FOA
 c_cagliari                      ;title_prefix       ;GIUDICATO_OF;GIUDICATO_OF
 c_cagliari                      ;greek              ;        ;Karalis
+c_cagliari                      ;sardinian          ;        ;Plùminos-Càlari
 c_cagliari                      ;roman              ;        ;Caralis
 k_sicily                        ;greek              ;Italy   ;Italías
 k_sicily                        ;roman              ;Italia Suburbicaria;Suburbicaria
@@ -6170,17 +6329,25 @@ d_upper_burgundy                ;title_prefix       ;CPALATIN_OF;CPALATIN_OF
 c_besancon                      ;greek              ;        ;Ouisontion
 c_besancon                      ;roman              ;        ;Vesontio
 k_brittany                      ;norse              ;        ;Bertangaland
+k_brittany                      ;frankish           ;        ;Bretagne
 d_brittany                      ;norse              ;        ;Bertangaland
+d_brittany                      ;frankish           ;        ;Bretagne
+c_vannes                        ;frankish           ;        ;Vannes
 c_vannes                        ;greek              ;        ;Darioriton
 c_vannes                        ;roman              ;        ;Darioritum
+c_cornouaille                   ;frankish           ;        ;Cornouaille
 c_cornouaille                   ;greek              ;Carhaix ;Ouorgion
 c_cornouaille                   ;roman              ;Carhaix ;Vorgium
+c_french_leon                   ;frankish           ;        ;Léon
 c_french_leon                   ;greek              ;Gesocribate;Gesocribate
 c_french_leon                   ;roman              ;Gesocribate;Gesocribate
+c_nantes                        ;frankish           ;        ;Nantes
 c_nantes                        ;greek              ;        ;Portus Namnetum
 c_nantes                        ;roman              ;        ;Portus Namnetum
+c_rennes                        ;frankish           ;        ;Rennes
 c_rennes                        ;greek              ;        ;Kondate
 c_rennes                        ;roman              ;        ;Condate Redonum
+d_lowerbrittany                 ;frankish           ;        ;Basse Bretagne
 k_france                        ;saxon              ;        ;Francland
 k_france                        ;basque             ;        ;Frantzia
 k_france                        ;occitan            ;        ;França
@@ -7925,7 +8092,6 @@ c_varazhnunik                   ;georgian           ;Amberd  ;Amberdi
 c_ani                           ;armenian           ;Shirak  ;Širak
 c_ani                           ;greek              ;        ;Anion
 c_ani                           ;georgian           ;        ;Širaki
-c_ani                           ;georgian           ;        ;Anisi
 c_ani                           ;kurdish            ;        ;Anî
 c_bagrewand                     ;georgian           ;        ;Airarati
 c_bagrewand                     ;turkish            ;Igdir   ;Igdir

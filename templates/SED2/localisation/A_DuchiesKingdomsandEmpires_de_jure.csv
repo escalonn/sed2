@@ -3,7 +3,7 @@
 ########################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #HRE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #######################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-e_hre                                   ;Holy Roman Empire;Heiliges Römisches Reich;;Holy Roman Empire
+e_hre                                   ;Holy Roman Empire;Heiliges Römisches Reich;Swatá Rzímská Rzísse;Holy Roman Empire
 e_hre_adj                               ;Imperial;Kaiserliche;;Holy Roman
 k_germany                               ;Germany ;Deutschland;;Germany
 k_germany_adj                           ;German  ;Deutsche;;German
@@ -142,10 +142,10 @@ d_arles_adj                             ;Arlesian;Arlésien;;
 d_provence                              ;Provence;Provença;;Provence
 d_provence_adj                          ;Provençal;Provençal;;Provencal
 #Bohemia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_bohemia                               ;Bohemia ;Czechy;;Bohemia
+k_bohemia                               ;Bohemia ;Czechy;Böhmen,Böhme,Behmen,Bohemen,Czechy,Pihm,Boemías;Bohemia
 k_bohemia_adj                           ;Bohemian;Ceský;;Bohemian
-d_moravia                               ;Moravia ;Morawske;Morava,Morawa,Mähren;Moravia
-d_bohemia                               ;Bohemia ;Czeske;Böhmen,Czechy;Bohemia
+d_moravia                               ;Moravia ;Morawske;Morawa,Morawy,Mähren,Mähre,Mährn,Moravië,Mehren,Morvaország,Moravías;Moravia
+d_bohemia                               ;Bohemia ;Czeske;Böhmen,Böhme,Behmen,Bohemen,Czechy,Boemías;Bohemia
 #################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Greater Hungary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -165,7 +165,7 @@ d_moldau_adj                            ;Moldovan;Moldovenesc;;Moldovian
 d_basarabia                             ;Lower Country;Tara de Jos;;
 d_basarabia_adj                         ;Moldovan;Moldovenesc;;
 #Hungary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_hungary                               ;Hungary ;Magyarország;Uhry,Wegry,Ungarn;Hungary
+k_hungary                               ;Hungary ;Magyarország;Uhry,Wegry,Ungarn,Hongaarnlaand,Hongarije,Ugarska,Ungaria,Macaristan,Oungarías,Ungern,Ógrska,Ungariya,Hungarland,Ungerland,Ungar Uls;Hungary
 k_hungary_adj                           ;Hungarian;Magyar;;Hungarian
 d_esztergom                             ;Visegrád;Visegrád;Ostrihom,Gran,Pannonia Valeria;Esztergom
 d_pecs                                  ;Somogy  ;Somogyország;Balaton,Fünfkirchen,Pannonia Prima;Pecs
@@ -461,9 +461,9 @@ d_nevers                                ;Nevers  ;Nevers;;
 d_nevers_adj                            ;Nevers  ;Nivernais;;
 d_bourbon_adj                           ;Bourbon ;Bourbon;;
 #Brittany,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_brittany                              ;Brittany;Breizh;Bertangaland;Brittany
+k_brittany                              ;Brittany;Breizh;Bertangaland,Bretagne;Brittany
 k_brittany_adj                          ;Breton  ;Brezhoneg;;Breton
-d_brittany                              ;Brittany;Breizh;Bertangaland;Brittany
+d_brittany                              ;Brittany;Breizh;Bertangaland,Bretagne;Brittany
 d_brittany_adj                          ;Breton  ;Brezhoneg;;Breton
 k_saxonengland                          ;England ;Englaland;;
 k_saxonengland_adj                      ;English ;Ænglisc;;
@@ -757,15 +757,15 @@ d_chernigov                             ;Chernigov;Chernigov;;Chernigov
 d_chernigov_adj                         ;Chernigovian;Chernigov;;Chernigovan
 d_novosil                               ;Verkhovye;Verhovye;;
 d_novosil_adj                           ;Verkhovye;Verhovye;;
-k_galicia                               ;Galicia–Volhynia;Halych-Volyn;;
+k_galicia                               ;Galicia–Volhynia;Halych-Volyn;Halicz-Wolyn;
 k_galicia_adj                           ;Galician–Volhynian;Halych-Volyn;;
-d_galich                                ;Galicia ;Halych;;Galich
+d_galich                                ;Galicia ;Halych;Halicz;Galich
 d_galich_adj                            ;Galician;Halych;;Galichian
-d_volhynia                              ;Volhynia;Volyn;;Volhynia
+d_volhynia                              ;Volhynia;Volyn;Wolyn;Volhynia
 d_volhynia_adj                          ;Volhynian;Volyn;;Volhynian
 d_belz                                  ;Belz    ;Belz;;
 d_belz_adj                              ;Belz    ;Belz;;
-d_podlaise                              ;Podlachia;Podlyashe;Palenke;
+d_podlaise                              ;Podlachia;Podlyashe;Palenke,Podlasie;
 d_podlaise_adj                          ;Podlachian;Podlyashe;;
 e_russia                                ;Rus’    ;Rus;Garðaríki;Russia
 e_russia_adj                            ;Russian ;Rus;;Russian
@@ -1601,7 +1601,7 @@ d_adrianopolis_adj_zanata               ;Macedonian;Maqaduniyan;;
 #######################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Byzzie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #######################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-e_byzantium                             ;Byzantine Empire;Basileia Rhõmaiõn;Imperium Romaniae,Rómverska keisaradæmið,Rzímská Rzíse,Római Birodalom,Cesarstwo Rzymski,Srpsko-Rimsko Carstvo,Rimsko Carstvo,Rimsku Imperiju,Rimsko Cesárstvo,Rimskaya Imperiya,Rimska Imperiya,Imperiul Roman,Perandoria Romake,Hrromeakan Kaysrut'yun,Romis Imperia;Byzantine Empire
+e_byzantium                             ;Byzantine Empire;Basileia Rhõmaiõn;Imperium Romaniae,Rómverska keisaradæmið,Rzímská Rzíse,Római Birodalom,Cesarstwo Rzymski,Srpsko-Rimsko Carstvo,Rimsko Carstvo,Rimsku Imperiju,Rimsko Cesárstvo,Rimskaya Imperiya,Rimska Imperiya,Imperiul Roman,Perandoria Romake,Hrromeakan Kaysrutyun,Romis Imperia;Byzantine Empire
 e_byzantium_adj                         ;Byzantine;Rhõmaiõn;;Byzantine
 e_byzantium_adj_armenian                ;        ;Hrromeakan;;
 e_byzantium_adj_georgian                ;        ;Romis;;
