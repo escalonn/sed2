@@ -114,7 +114,16 @@ def get_more_keys_to_override(parser, localisation, max_provs):
         for _, tree in parser.parse_files(glob, errors='replace'):
             dfs = [(p, []) for p in tree]
             while dfs:
-                (n, v), parents = dfs.pop()
+                p, parents = dfs.pop()
+                try:
+                    n, v = p
+                except TypeError:
+                    if (parents == ['character_event', 'option',
+                                    'character_event'] and
+                        p.val in ['random', 70]):
+                        continue
+                    import pdb; pdb.set_trace()
+                    raise
                 if isinstance(v, Obj) and v.has_pairs:
                     dfs.extend((p2, parents + [n.val]) for p2 in v)
                 elif (parents not in bl_pars and
@@ -159,7 +168,7 @@ def keys_overridden_in_mod(basedir, *moddirs):
     base_keys = set(get_localisation(basedir=basedir))
     seen = set()
     result = set()
-    for path in files('localisation/*', moddirs=moddirs, basedir=basedir):
+    for path in files('localisation/*.csv', moddirs=moddirs, basedir=basedir):
         for key, *_ in csv_rows(path):
             if key not in seen:
                 seen.add(key)
@@ -217,7 +226,7 @@ def main():
 
         templates = rootpath / 'sed2/templates'
         templates_sed2 = templates / 'SED2'
-        for path in files('localisation/*', basedir=templates_sed2):
+        for path in files('localisation/*.csv', basedir=templates_sed2):
             prev_loc.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(path)})
         for path in files('common/landed_titles/*', basedir=templates_sed2):
@@ -234,7 +243,7 @@ def main():
         (templates_t_sed2 / 'common/landed_titles').mkdir(parents=True)
         (templates_t / 'SED2+EMF/localisation').mkdir(parents=True)
         swmh_files = set()
-        for inpath in files('localisation/*', basedir=swmhpath):
+        for inpath in files('localisation/*.csv', basedir=swmhpath):
             swmh_files.add(inpath.name)
             outpath = templates_t_sed2 / inpath.relative_to(swmhpath)
             out_rows = [
@@ -309,7 +318,7 @@ def main():
             out_row = [key, prev_loc[key], '', '', key]
             override_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*'):
+        for path in files('localisation/*.csv'):
             if path.name not in swmh_files:
                 override_rows.append(['#' + path.name, '', '', '', ''])
                 for row in csv_rows(path):
@@ -361,7 +370,7 @@ def main():
             out_row = [key, prev_loc_emf[key], key, '', '', '', '']
             emf_rows.append(out_row)
             col_width[0] = max(len(key), col_width[0])
-        for path in files('localisation/*', [emfswmhpath], basedir=emfpath):
+        for path in files('localisation/*.csv', [emfswmhpath], basedir=emfpath):
             emf_rows.append(['#' + path.name, '', '', '', '', ''])
             for row in csv_rows(path):
                 key, val = row[:2]
