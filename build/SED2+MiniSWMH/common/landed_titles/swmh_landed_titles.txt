@@ -22867,34 +22867,6 @@ e_null = {
 		}
 		allow = { title_king_basic_allow = yes }
 	}
-	k_canarias = {
-		color = { 182 198 176 }
-		color2 = { 255 255 255 }
-		capital = 1365
-		culture = canarian
-		d_canarias = {
-			color = { 24 58 121 }
-			color2 = { 255 255 255 }
-			capital = 1365
-			c_tenerife = {
-				color = { 15 185 243 }
-				color2 = { 255 255 255 }
-				canarian = "Achinet"
-				b_adeje = {}
-				b_taoro = {}
-				b_guimar = {}
-				b_candelaria = {}
-			}
-			c_canarias = {
-				color = { 50 185 243 }
-				color2 = { 255 255 255 }
-				b_agaldar = {}
-				b_telde = {}
-				b_aguimes = {}
-			}
-		}
-		allow = { title_king_basic_allow = yes }
-	}
 	allow = { always = no }
 }
 
