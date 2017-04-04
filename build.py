@@ -177,7 +177,7 @@ def main():
                 if key in ['male_names', 'female_names']:
                     val = Obj([String(x.strip('"'))
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)])
-                sed2[template][title].append(Pair.from_kv(key, val))
+                sed2[template][title].append(Pair(key, val))
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))
