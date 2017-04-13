@@ -2022,7 +2022,7 @@ e_hre = { # Heiliges Römisches Reich
 		d_barleduc = { # Bar
 			color = { 38 24 109 }
 			color2 = { 255 166 0 }
-			capital = 1028 # Pont-á-Mousson # Pont-a-Mousson
+			capital = 1028 # Mousson # Pont-á-Mousson # Pont-a-Mousson
 			culture = frankish
 			c_verdun = { # Verdun (129)
 				color = { 111 111 111 }
@@ -4011,7 +4011,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_bruntal = {}
 				b_krnov = {}
 				b_odry = {}
-			}
+			} # end c_opava
 			c_znojmo = { # Znojmo (446)
 				color = { 163 107 41 }
 				color2 = { 255 255 255 }
@@ -4022,7 +4022,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_vranov = {}
 				b_jemnice = {}
 				b_louka = {}
-			}
+			} # end c_znojmo
 			c_brno = { # Boruy (441)
 				color = { 166 110 44 }
 				color2 = { 255 255 255 }
@@ -8438,7 +8438,7 @@ e_poland = { # Polska-Lietuva
 				b_lubin = {}
 				b_czarnkow = {}
 				#b_srme = {}
-			}
+			} # end c_poznanskie
 			c_kaliskie = { # Kalisz (432)
 				color = { 6 155 20 }
 				color2 = { 255 255 255 }
@@ -8491,7 +8491,7 @@ e_poland = { # Polska-Lietuva
 				b_krosno = {}
 				b_lubiaz = {}
 				b_scinawa = {}
-			}
+			} # end c_lower_silesia
 			c_opole = { # Opole (433)
 				color = { 17 238 10 }
 				color2 = { 255 255 255 }
@@ -8501,7 +8501,7 @@ e_poland = { # Polska-Lietuva
 				b_raciborz = {}
 				b_strzelce = {}
 				b_olesno = {}
-			}
+			} # end c_opole
 			c_legnica = { # Legnica (999)
 				color = { 17 238 10 }
 				color2 = { 255 255 255 }
@@ -8509,7 +8509,7 @@ e_poland = { # Polska-Lietuva
 				b_lwowek = {}
 				b_swidnica = {}
 				b_boleslawiec = {}
-			}
+			} # end c_legnica
 			c_cieszyn = { # Cieszyn (526)
 				color = { 6 127 2 }
 				color2 = { 255 255 255 }
@@ -8519,7 +8519,7 @@ e_poland = { # Polska-Lietuva
 				b_bielsko = {}
 				b_ustron = {}
 				b_skoczow = {}
-			}
+			} # end c_cieszyn
 		} # end d_silesia
 		d_lesser_poland = { # Malopolska
 			color = { 17 17 102 }
@@ -8539,7 +8539,7 @@ e_poland = { # Polska-Lietuva
 				#b_olkusz = {}
 				#b_kazimierz = {}
 				#b_czestochowa = {}
-			}
+			} # end c_krakowskie
 			c_sacz = { # Sacz (532)
 				color = { 6 117 2 }
 				color2 = { 255 255 255 }
@@ -8549,7 +8549,7 @@ e_poland = { # Polska-Lietuva
 				b_tarnow = {}
 				b_jaslo = {}
 				b_gorlice = {}
-			}
+			} # end c_sacz
 			c_lublin = { # Lublin (996)
 				color = { 174 43 43 }
 				color2 = { 255 255 255 }
@@ -8620,7 +8620,7 @@ e_poland = { # Polska-Lietuva
 				b_sulejow = {}
 				b_radomsko = {}
 				b_wolborz = {}
-			}
+			} # end c_sieradzko-leczyckie
 			c_leczyca = { # Leczyca (1315)
 				color = { 100 255 80 }
 				color2 = { 255 255 255 }
@@ -11363,7 +11363,7 @@ e_abyssinia = { # Abyssinia
 				b_mertulematiam = {}
 				b_gafat = {}
 			}
-		}
+		} # end d_damot
 		d_gondar = { # Gondar
 			color = { 148 59 92 }
 			color2 = { 255 255 255 }
@@ -14295,14 +14295,14 @@ e_italy = { # Italia
 	color2 = { 255 255 255 }
 	capital = 235 # Burgaria # Milano # Lombardia
 	culture = italian
-	k_tuscany = {
+	k_tuscany = { # Toscana
 		color = { 59 59 119 }
 		color2 = { 255 255 255 }
 		capital = 328 # Firenze
 		culture = tuscan
 		allow = { title_king_basic_allow = yes }
 	}
-	k_tuscan_league = {
+	k_tuscan_league = { # Lega San Genesio
 		color = { 59 59 119 }
 		color2 = { 64 88 77 }
 		capital = 1137 # Prato
@@ -14312,10 +14312,10 @@ e_italy = { # Italia
 		title_female = RECTOR_FEMALE
 		short_name = yes
 	}
-	k_lombard_league = {
+	k_lombard_league = { # Lega Lombarda
 		color = { 169 17 46 }
 		color2 = { 255 255 255 }
-		capital = 235 # Milano
+		capital = 235 # Burgaria # Milano
 		culture = italian
 		allow = { title_king_basic_allow = yes }
 		title = RECTOR
@@ -14637,7 +14637,7 @@ e_italy = { # Italia
 				b_verrucola = {}
 				b_luna_ligure = {}
 			}
-			c_gavi = { # Gavi/Bobbio (1140)
+			c_gavi = { # Bobbio (1140) # Gavi
 				color = { 35 46 76 }
 				color2 = { 255 255 255 }
 				b_bobbio = {}
@@ -14645,7 +14645,7 @@ e_italy = { # Italia
 				b_gavi = {}
 				b_voghera = {}
 			}
-		}
+		} # end d_massa
 		d_genoa = { # Genova
 			color = { 255 194 10 }
 			color2 = { 255 255 255 }
@@ -14907,7 +14907,7 @@ e_italy = { # Italia
 				b_campiglia = {}
 			}
 		}
-		d_vercelli_republic = { # vercelli republic
+		d_vercelli_republic = { # Comune di Vercelli # vercelli republic
 			color = { 26 60 102 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14917,7 +14917,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_vicenza_republic = { # Vicenza republic
+		d_vicenza_republic = { # Comune di Vicenza # Vicenza republic
 			color = { 44 102 26 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14927,7 +14927,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_verona_republic = { # Verona republic
+		d_verona_republic = { # Comune di Verona # Verona republic
 			color = { 15 166 111 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14937,7 +14937,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_padova_republic = { # Padua republic
+		d_padova_republic = { # Comune di Padova # Padua republic
 			color = { 102 26 68 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14947,27 +14947,27 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_ferrara_republic = { # Ferrara republic
+		d_ferrara_republic = { # Comune di Ferrara # Ferrara republic
 			color = { 141 179 213 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 353 # Ferrara
+			capital = 353 # Rovigo # Ferrara
 			allow = { always = no }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_mantua_republic = { # Mantua republic
+		d_mantua_republic = { # Comune di Mantova # Mantua republic
 			color = { 74 174 83 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 354 # Mantua
+			capital = 354 # San Martino # Mantua
 			allow = { always = no }
 			title = CAPTAINOFTHEPEOPLE
 			title_female = CAPTAINOFTHEPEOPLE_FEMALE
 			short_name = yes
 		}
-		d_brescia_republic = { # Brescia republic
+		d_brescia_republic = { # Comune di Brescia # Brescia republic
 			color = { 201 136 79 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14977,7 +14977,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_bergamo_republic = { # Bergamo republic
+		d_bergamo_republic = { # Comune di Bergamo # Bergamo republic
 			color = { 74 174 83 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -14987,17 +14987,17 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_milano_republic = { # Milanese republic
+		d_milano_republic = { # Comune di Milano # Milanese republic
 			color = { 68 86 102 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 235 # Milano
+			capital = 235 # Burgaria # Milano
 			allow = { always = no }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
 		}
-		d_pavia_republic = { # Pavia republic
+		d_pavia_republic = { # Comune di Pavia # Pavia republic
 			color = { 201 136 79 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -15007,7 +15007,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_modena_republic = { # Modena republic
+		d_modena_republic = { # Comune di Modena # Modena republic
 			color = { 86 166 15 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -15017,17 +15017,17 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_reggio_republic = { # Reggio republic
+		d_reggio_republic = { # Comune di Reggio # Reggio republic
 			color = { 166 93 131 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 957 # Reggio in Emilia
+			capital = 957 # Reggio # Reggio in Emilia
 			allow = { always = no }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_parma_republic = { # Parma republic
+		d_parma_republic = { # Comune di Parma # Parma republic
 			color = { 87 189 183 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -15037,7 +15037,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_piacenza_republic = { # Piacenza republic
+		d_piacenza_republic = { # Comune di Piacenza # Piacenza republic
 			color = { 102 82 68 }
 			color2 = { 255 255 255 }
 			culture = italian
@@ -15047,27 +15047,27 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_cremona_republic = { # Cremona republic
+		d_cremona_republic = { # Comune di Cremona # Cremona republic
 			color = { 238 166 15 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 320 # Cremona
+			capital = 320 # Camisano # Cremona
 			allow = { always = no }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
 		}
-		d_asti_republic = { # Asti # Asti republic
+		d_asti_republic = { # Comune di Asti # Asti # Asti republic
 			color = { 45 124 39 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 232 # Asti/Monferrato
+			capital = 232 # Asti # Monferrato
 			allow = { always = no }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
 		}
-		d_firenze_republic = { # Firenze # Florentine republic
+		d_firenze_republic = { # Comune di Firenze # Firenze # Florentine republic
 			color = { 203 19 54 }
 			color2 = { 255 255 255 }
 			culture = tuscan
@@ -15077,7 +15077,7 @@ e_italy = { # Italia
 			title_female = CONSUL_FEMALE
 			short_name = yes
 		}
-		d_lucca_republic = { # Lucca # Luccan republic
+		d_lucca_republic = { # Comune di Lucca # Lucca # Luccan republic
 			color = { 203 184 19 }
 			color2 = { 255 255 255 }
 			culture = tuscan
@@ -15087,7 +15087,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_arezzo_republic = { # Arezzo # Arentine republic
+		d_arezzo_republic = { # Comune di Arezzo # Arezzo # Arentine republic
 			color = { 76 124 69 }
 			color2 = { 255 255 255 }
 			culture = tuscan
@@ -15097,7 +15097,7 @@ e_italy = { # Italia
 			title_female = PODESTA_FEMALE
 			short_name = yes
 		}
-		d_siena_republic = { # Siena # Sienese republic
+		d_siena_republic = { # Comune di Siena # Siena # Sienese republic
 			color = { 2 19 127 }
 			color2 = { 255 255 255 }
 			culture = tuscan
@@ -15756,7 +15756,7 @@ e_italy = { # Italia
 			christian = 300 # Crusade target weight
 			culture = neapolitan
 			capital = 929 # Aprutio
-			c_marsi = { # Marsi (1132)
+			c_marsi = { # Marsica (1132) # Marsi
 				color = { 205 210 205 }
 				color2 = { 255 255 255 }
 				b_avezzano = {}
@@ -15839,12 +15839,12 @@ e_italy = { # Italia
 		d_sicily = { # Sicilia
 			color = { 46 94 147 }
 			color2 = { 255 255 255 }
-			capital = 340 # Collesano # Palermu # Palermo
+			capital = 340 # Palermo # Collesano # Palermu
 			catholic = 250 # Crusade target weight
 			orthodox = 50 # Crusade target weight
 			muslim = 75 # Crusade target weight
 			name_tier = count
-			c_palermo = { # Collesano (340)
+			c_palermo = { # Palermo (340) # Collesano
 				color = { 100 228 111 }
 				color2 = { 255 255 255 }
 				b_palermo = {}
@@ -21598,7 +21598,7 @@ e_persia = { # Érán
 				b_dandankan = {}
 				b_mazduran = {}
 			}
-			c_abivard = { # Abívard (629) # Abívard
+			c_abivard = { # Abívard (629)
 				color = { 85 185 30 }
 				color2 = { 255 255 255 }
 				b_abivard = {}
@@ -21606,7 +21606,7 @@ e_persia = { # Érán
 				b_nasa = {}
 				b_akhor = {}
 			}
-			c_amol = { # Âmol (1543)
+			c_amol = { # Ámol (1543) # Âmol
 				color = { 156 210 80 }
 				color2 = { 255 255 255 }
 				b_amol = {}
@@ -21765,7 +21765,7 @@ e_persia = { # Érán
 			color = { 136 169 80 }
 			color2 = { 255 255 255 }
 			capital = 899 # Pandjgúr
-			c_makran = { # Makran (854)
+			c_makran = { # Tiz (854) # Makran
 				color = { 146 169 80 }
 				color2 = { 255 255 255 }
 				pahlavi = "Paradan"
@@ -22787,7 +22787,7 @@ e_rajastan = { # Rajastan
 				b_kartikeyapura = {}
 				b_jageshwar = {}
 			}
-		}
+		} # end d_vodamayutja
 		allow = { title_king_basic_allow = yes }
 	} # end k_delhi
 	k_gujarat = { # Gujarat
@@ -23648,7 +23648,7 @@ e_null = { #
 				b_dvin = {}
 				b_surpgrigor = {}
 				b_artashat = {}
-			}
+			} # end c_dwin
 			c_varazhnunik = { # Varazhnunik (1531)
 				color = { 168 87 50 }
 				color2 = { 255 255 255 }
@@ -24133,7 +24133,7 @@ e_null = { #
 				b_laforbie = {}
 			} # end c_ascalon
 		} # end d_ascalon
-		d_galilee = { # Principauté de Galilée
+		d_galilee = { # Galilée # Principauté de Galilée
 			color = { 41 45 138 }
 			color2 = { 255 255 255 }
 			#title = PRINCE
@@ -24268,7 +24268,7 @@ e_null = { #
 				b_karkaron = {}
 			} # end c_kaisun
 		} # end d_edessa
-		d_antioch = { # Principauté d'Antioche
+		d_antioch = { # Antioche # Principauté d'Antioche
 			color = { 91 139 188 }
 			color2 = { 255 255 255 }
 			capital = 764 # Antioch
@@ -26216,7 +26216,7 @@ e_null = { #
 				b_tarim = {}
 				b_bal = {}
 				b_kukuchi = {}
-			}
+			} # end c_kucha
 			c_qarashahr = { # Qarashahr (1570)
 				color = { 255 225 85 }
 				color2 = { 255 255 255 }
@@ -28301,7 +28301,7 @@ d_tekke = { # Teke
 
 k_trinacria = { # Trinacria
 	color = { 89 128 70 }
-	capital = 340 # Collesano # Palermu # Palermo
+	capital = 340 # Palermo # Collesano # Palermu
 	allow = {
 		OR = {
 			religion = catholic
