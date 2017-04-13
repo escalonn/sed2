@@ -13760,7 +13760,10 @@ e_italy = {
 				b_sulci = {}
 			}
 		}
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			is_republic = no
+			title_king_basic_allow = yes
+		}
 	}
 	k_sicily = {
 		color = { 170 170 210 }
