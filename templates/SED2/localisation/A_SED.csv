@@ -155,6 +155,7 @@ title_court_eunuch_desc                        ;Eunuchs perform many valued cour
 #MonksAndMystics.csv;;;;
 title_hermetics_apprentice                     ;Apprentice;;;Apprentice
 title_hermetics_apprentice_desc                ;Hermetic scholars may chose an apprentice. In exchange for tutoring, the apprentice will take care of one’s laboratory and assist during experiments.;;;Hermetic scholars may chose an apprentice. In exchange for tutoring, the apprentice will take care of one's laboratory and assist during experiments.
+temple_baron_female_christian                  ;Bishop  ;;;Bishop
 #ReapersDue.csv;;;;
 hospital_building_1                            ;Sickhouse;;;Sick House
 hospital_building_1_desc                       ;A basic building to house the sick.;;;A basic building to house the sick.
@@ -380,9 +381,9 @@ e_rebels                                       ;Rebels  ;;;Rebels
 e_rebels_adj                                   ;Rebel   ;;;Rebel
 e_pirates                                      ;Pirates ;;;Pirates
 e_latin_empire_adj                             ;Latin   ;;;Latin
-c_kaisereia_adj                                ;Kayserian;;;Kaisereian
+c_kaisereia_adj                                ;Caesarean;;;Kaisereian
 c_galatia_adj                                  ;Galatian;;;Galatian
-c_amisos_adj                                   ;Samsun  ;;;Amisosian
+c_amisos_adj                                   ;Amisus  ;;;Amisosian
 c_sinope_adj                                   ;Sinopean;;;Sinopean
 c_paphlagonia_adj                              ;Paphlagonian;;;Paphlagonian
 c_herakleia_adj                                ;Eregli  ;;;Herakleian
@@ -391,7 +392,7 @@ c_nikaea_adj                                   ;Nicaean ;;;Nikaean
 c_nikomedeia_adj                               ;Nicomedian;;;Nikomedeian
 c_kyzikos_adj                                  ;Cyzicus ;;;Kyzikosian
 c_dorylaion_adj                                ;Dorylaeum;;;Dorylaionian
-c_ikonion_adj                                  ;Konya   ;;;Ikonionian
+c_ikonion_adj                                  ;Ikonion ;;;Ikonionian
 c_smyrna_adj                                   ;Smyrnan ;;;Smyrnan
 c_abydos_adj                                   ;Abydos  ;;;Abydosian
 c_euboia_adj                                   ;Euboeote;;;Euboian
@@ -407,7 +408,7 @@ c_korinthos_adj                                ;Corinthian;;;Korinthian
 c_methone_adj                                  ;Methoni ;;;Methonian
 c_theodosia_adj                                ;Feodosian;;;Theodosian
 c_cherson_adj                                  ;Chersonesus;;;Chersonian
-c_attaleia_adj                                 ;Antalya ;;;Attaleian
+c_attaleia_adj                                 ;Attalean;;;Attaleian
 c_rhodos_adj                                   ;Rhodian ;;;Rhodian
 c_lykia_adj                                    ;Lycian  ;;;Lykian
 c_gastrikland_adj                              ;Gästrikland;;;Gästriklander
@@ -642,9 +643,9 @@ c_melitene_adj                                 ;Malatyan;;;Melitenian
 c_lykandos_adj                                 ;Lykandian;;;Lykandosian
 c_tarsos_adj                                   ;Tarsus  ;;;Tarsosian
 c_adana_adj                                    ;Adana   ;;;Adanan
-c_teluch_adj                                   ;Teluch  ;;;Teluchian
-c_seleukeia_adj                                ;Silifke ;;;Seleukeian
-c_theodosiopolis_adj                           ;Erzurum ;;;Theodosiopolite
+c_teluch_adj                                   ;Marash  ;;;Teluchian
+c_seleukeia_adj                                ;Seleucian;;;Seleukeian
+c_theodosiopolis_adj                           ;Karin   ;;;Theodosiopolite
 c_trapezous_adj                                ;Trabzonian;;;Trapezousian
 c_chaldea_adj                                  ;Chaldian;;;Chaldean
 c_kartli_adj                                   ;Kartlian;;;Kartlian
@@ -1314,7 +1315,7 @@ PROV678                                        ;Trabzon ;;c_trapezous,Trabzun,Tr
 PROV680                                        ;Tao     ;;c_tao,Oltu,Tayk;Tao
 PROV681                                        ;Ani     ;;c_ani,Širaki,Širak,Anion,Anî;Ani
 PROV682                                        ;Vaspurakan;;c_vaspurakan,Vaasprakania,Van,Wan;Vaspurakan
-PROV683                                        ;Amida   ;;c_amida,Tigranakert,Diyar-i Bekr,Âmid,Amid,Amed;Amida
+PROV683                                        ;Amida   ;;c_amida,Tigranakert,Diyar-i Bekr,Ámid,Amid,Amed;Amida
 PROV686                                        ;Urmia   ;;c_oromieh,Vormi,Ourmia,Urmiyah,Urmiye,Urmê;Oromieh
 PROV688                                        ;Kermanshah;;c_kermanshah,Kirmanshah,Qarmîsin;Kermanshah
 PROV693                                        ;Baghdad ;;c_baghdad,Ctesiphon,Ktesiphon,Seliq,Tesifon;Baghdad
@@ -1322,7 +1323,7 @@ PROV694                                        ;Karbala ;;c_karbala;Karbala
 PROV697                                        ;Mosul   ;;c_mosul,Mepsila,Nînwe,Mûsil,Nod-Ardashir;Mosul
 PROV699                                        ;Edessa  ;;c_edessa,Ar-Ruha,Urfa,Riha,Urhây;Edessa
 PROV706                                        ;Shebinkarahisar;;c_koloneia,Šebin Kara Hisar,Kogoniya;Koloneia
-PROV707                                        ;Malatya ;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî,Melitene;Melitene
+PROV707                                        ;Melitene;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî,Melitene;Melitene
 PROV711                                        ;Sinjar  ;;c_sinjar,Singara,Beth Arabaye,Sengal;Sinjar
 PROV721                                        ;Tabuk   ;;c_tabuk;Tabuk
 PROV730                                        ;Palmyra ;;c_palmyra;Palmyra
@@ -2888,10 +2889,12 @@ empire_russian                                 ;Tsardom ;;;Tsardom
 #v2_51.csv;;;;
 #v2_52.csv;;;;
 #v2_62.csv;;;;
+#v2_70.csv;;;;
 #z_Joel.csv;;;;
 #z_Milla.csv;;;;
 #z_PLACEHOLDER_DO_NOT_FORGET_ME.csv;;;;
 #z_alex.csv;;;;
+#z_arthur.csv;;;;
 #z_axel.csv;;;;
 #z_custom.csv;;;;
 #z_david.csv;;;;
