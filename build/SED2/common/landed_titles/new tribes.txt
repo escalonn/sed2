@@ -738,17 +738,15 @@ d_basmils = { # Bamils
 	title_prefix = Yabghuluq_OF
 }
 
-#d_tukhsi = { # Tukhsi
-#	color = { 147 21 39 }
-#	#tribe = yes
-#	culture = karluk
-#	capital = 1572 # Balasaghun
-#	title = Yabghu
-#	foa = Yabghu_FOA
-#	title_prefix = Yabghuluq_OF
-#	allow = { always = no }
-#}
-#####################################
+d_tukhsi = { # Tukhsi
+	color = { 147 21 39 }
+	#tribe = yes
+	culture = karluk
+	capital = 1572 # Balasaghun
+	allow = { always = no }
+}
+
+######################################
 # Qipchaq
 ######################################
 d_qipchaq = { # Qipchaq
