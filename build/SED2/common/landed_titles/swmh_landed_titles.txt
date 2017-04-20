@@ -22114,6 +22114,16 @@ e_persia = { # Érán
 			color = { 15 165 19 }
 			color2 = { 255 255 255 }
 			capital = 696 # Samarrah # Euphrates
+			c_euphrates = { # Samarrah (696) # Samarra
+				color = { 137 177 250 }
+				color2 = { 255 255 255 }
+				b_alqadisiyyah = {}
+				b_samarra = {}
+				b_ukbara = {}
+				b_balad = {}
+				b_harba = {}
+				b_aldur = {}
+			}
 			c_deir = { # Anbar (695) # Deir
 				color = { 133 173 247 }
 				color2 = { 255 255 255 }
@@ -22136,16 +22146,6 @@ e_persia = { # Érán
 				b_tagrit = {}
 				b_jabulta = {}
 				b_barimma = {}
-			}
-			c_euphrates = { # Samarrah (696) # Samarra
-				color = { 137 177 250 }
-				color2 = { 255 255 255 }
-				b_alqadisiyyah = {}
-				b_samarra = {}
-				b_ukbara = {}
-				b_balad = {}
-				b_harba = {}
-				b_aldur = {}
 			}
 		} # end d_samarra
 		d_kurdistan = { # Kurdistan
