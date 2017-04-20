@@ -21802,108 +21802,6 @@ e_persia = { # Érán
 		} # end d_balkh
 		allow = { title_king_basic_allow = yes }
 	} # end k_khorasan
-	k_sistan = { # Sístán
-		color = { 120 190 90 }
-		color2 = { 255 255 255 }
-		capital = 637 # Sístán # Sistan
-		muslim = 200 # Crusade target weight
-		zoroastrian = 350 # Crusade target weight
-		pahlavi = "Sakastan"
-		d_sistan = { # Sístán
-			color = { 111 40 97 }
-			color2 = { 255 255 255 }
-			capital = 637 # Sístán # Sistan
-			pahlavi = "Sakastan"
-			c_farah = { # Farrah (299)
-				color = { 140 173 84 }
-				color2 = { 255 255 255 }
-				greek = "Prophthasia"
-				roman = "Prophthasia"
-				b_farah = {}
-				b_djuvayn = {}
-				b_djiza = {}
-				b_khvash = {}
-				b_qarnin = {}
-			}
-			c_rudbar = { # Rúdbár (1348)
-				color = { 142 182 80 }
-				color2 = { 255 255 255 }
-				b_rudbar = {}
-				b_kish = {}
-			}
-			c_sistan = { # Sístán (637)
-				color = { 102 122 67 }
-				color2 = { 255 255 255 }
-				b_zaranj = {}
-				b_karkuya = {}
-				b_nih = {}
-				b_sibih = {}
-				b_ram = {}
-			}
-			c_zamindavar = { # Zamindavar (852)
-				color = { 142 175 86 }
-				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				b_bust = {}
-				b_sarvan = {}
-				b_muaskar = {}
-				b_baghnin = {}
-				b_durghash = {}
-				b_bishlang = {}
-				b_till = {}
-			}
-			c_rukhadj = { # Rukhádj (1536)
-				color = { 148 170 89 }
-				color2 = { 255 255 255 }
-				b_kahdahar = {}
-				b_pandjvay = {}
-				b_bakrabad = {}
-			}
-		} # end d_sistan
-		d_makran = { # Makrán
-			color = { 136 169 80 }
-			color2 = { 255 255 255 }
-			capital = 899 # Pandjgúr
-			c_makran = { # Tiz (854) # Makran
-				color = { 146 169 80 }
-				color2 = { 255 255 255 }
-				pahlavi = "Paradan"
-				b_bampur = {}
-				b_fahraj = {}
-				b_tiz = {}
-				b_iskaf = {}
-				b_khwash = {}
-				b_bih = {}
-				b_rask = {}
-				#b_kasr-i-kand = {}
-				#b_bint = {}
-			}
-			c_mashkel = { # Mashkél (894)
-				color = { 146 179 90 }
-				color2 = { 255 255 255 }
-				b_djalk = {}
-				b_dizak = {}
-				b_saravan = {}
-			}
-			c_pandjgur = { # Pandjgúr (899)
-				color = { 148 181 92 }
-				color2 = { 255 255 255 }
-				b_pandjgur = {}
-				b_kiz = {}
-				b_khawr = {}
-			}
-			c_turan = { # Turán (1535)
-				color = { 152 185 96 }
-				color2 = { 255 255 255 }
-				pahlavi = "Turgistan"
-				b_turan = {}
-				b_qusdar = {}
-				b_sura = {}
-			}
-		} # end d_makran
-		allow = { title_king_basic_allow = yes }
-	} # end k_sistan
 	k_mavarannahr = { # Mavár-an-Nahr
 		color = { 180 220 148 }
 		color2 = { 255 255 255 }
@@ -22067,100 +21965,6 @@ e_persia = { # Érán
 		} # end d_khwarazm
 		allow = { title_king_basic_allow = yes }
 	} # end k_mavarannahr
-	k_kafarestan = { # Kábulistán
-		#color = { 50 200 180 }
-		color = { 124 60 128 }
-		color2 = { 255 255 255 }
-		capital = 1547 # Ghazna
-		d_zabolestan = { # Zábolestán
-			color = { 10 220 160 }
-			color2 = { 255 255 255 }
-			capital = 1547 # Ghazna
-			c_ghazna = { # Ghazna (1547)
-				color = { 15 215 155 }
-				color2 = { 255 255 255 }
-				b_ghazna = {}
-				b_nawabad = {}
-				b_arus-al-falak = {}
-				b_gardiz = {}
-				b_sukawand = {}
-				b_bamiyan = {}
-			}
-			c_kabul = { # Kábul (1550)
-				color = { 10 225 165 }
-				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				b_kabul = {}
-				b_pervan = {}
-				b_panjhir = {}
-				b_chitral = {}
-				b_mundjan = {}
-				b_jarbaya = {}
-			}
-			c_lamghan = { # Lamghán (1551)
-				color = { 12 215 165 }
-				color2 = { 255 255 255 }
-				b_lamghan = {}
-				b_nagarahara = {}
-			}
-		}
-		d_khottal = { # Khatlón
-			color = { 118 223 170 }
-			color2 = { 255 255 255 }
-			capital = 1556 # Khuttal # Khottal
-			pahlavi = "Kushanshahr"
-			c_badakhshan = { # Badakhshán (1553)
-				color = { 18 2 170 }
-				color2 = { 255 255 255 }
-				b_badakhshan = {}
-				b_shughnan = {}
-				b_jerm = {}
-				b_rustaq = {}
-				b_sanglich = {}
-				b_ishkashim = {}
-				b_dar-i-tubbat = {}
-			}
-			c_khuttal = { # Khuttal (1556)
-				color = { 18 23 10 }
-				color2 = { 255 255 255 }
-				b_pargar = {}
-				b_munk = {}
-				b_hulbuk = {}
-				b_halavand = {}
-				b_qubadiyan = {}
-				b_livkand = {}
-			}
-			c_rasht = { # Rasht (1555)
-				color = { 118 23 170 }
-				color2 = { 255 255 255 }
-				b_rasht = {}
-				b_vashgird = {}
-				b_afridhan = {}
-				b_shuman = {}
-			}
-			c_chaghaniyan = { # Chaghániyán (1545)
-				color = { 90 223 170 }
-				color2 = { 255 255 255 }
-				b_chaghaniyan = {}
-				b_charmangan = {}
-				b_basand = {}
-				b_darzangi = {}
-				b_hashimgird = {}
-				b_hamvaran = {}
-			}
-			c_talekan = { # Tálekán (1578)
-				color = { 18 3 10 }
-				color2 = { 255 255 255 }
-				b_talekan = {}
-				b_valvalij = {}
-				b_kishm = {}
-				b_andicharagh = {}
-				b_anderab = {}
-			}
-		} # end d_khottal
-		allow = { title_king_basic_allow = yes }
-	} # end k_kafarestan
 	k_mesopotamia = { # al-Iraq
 		color = { 55 128 67 }
 		color2 = { 255 255 255 }
@@ -26122,6 +25926,202 @@ e_null = { #
 		allow = { title_king_basic_allow = yes }
 	} # end k_alania
 	# END k_alania
+	k_kafarestan = { # Kábulistán
+		#color = { 50 200 180 }
+		color = { 124 60 128 }
+		color2 = { 255 255 255 }
+		capital = 1547 # Ghazna
+		d_zabolestan = { # Zábolestán
+			color = { 10 220 160 }
+			color2 = { 255 255 255 }
+			capital = 1547 # Ghazna
+			c_ghazna = { # Ghazna (1547)
+				color = { 15 215 155 }
+				color2 = { 255 255 255 }
+				b_ghazna = {}
+				b_nawabad = {}
+				b_arus-al-falak = {}
+				b_gardiz = {}
+				b_sukawand = {}
+				b_bamiyan = {}
+			}
+			c_kabul = { # Kábul (1550)
+				color = { 10 225 165 }
+				color2 = { 255 255 255 }
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
+				b_kabul = {}
+				b_pervan = {}
+				b_panjhir = {}
+				b_chitral = {}
+				b_mundjan = {}
+				b_jarbaya = {}
+			}
+			c_lamghan = { # Lamghán (1551)
+				color = { 12 215 165 }
+				color2 = { 255 255 255 }
+				b_lamghan = {}
+				b_nagarahara = {}
+			}
+		}
+		d_khottal = { # Khatlón
+			color = { 118 223 170 }
+			color2 = { 255 255 255 }
+			capital = 1556 # Khuttal # Khottal
+			pahlavi = "Kushanshahr"
+			c_badakhshan = { # Badakhshán (1553)
+				color = { 18 2 170 }
+				color2 = { 255 255 255 }
+				b_badakhshan = {}
+				b_shughnan = {}
+				b_jerm = {}
+				b_rustaq = {}
+				b_sanglich = {}
+				b_ishkashim = {}
+				b_dar-i-tubbat = {}
+			}
+			c_khuttal = { # Khuttal (1556)
+				color = { 18 23 10 }
+				color2 = { 255 255 255 }
+				b_pargar = {}
+				b_munk = {}
+				b_hulbuk = {}
+				b_halavand = {}
+				b_qubadiyan = {}
+				b_livkand = {}
+			}
+			c_rasht = { # Rasht (1555)
+				color = { 118 23 170 }
+				color2 = { 255 255 255 }
+				b_rasht = {}
+				b_vashgird = {}
+				b_afridhan = {}
+				b_shuman = {}
+			}
+			c_chaghaniyan = { # Chaghániyán (1545)
+				color = { 90 223 170 }
+				color2 = { 255 255 255 }
+				b_chaghaniyan = {}
+				b_charmangan = {}
+				b_basand = {}
+				b_darzangi = {}
+				b_hashimgird = {}
+				b_hamvaran = {}
+			}
+			c_talekan = { # Tálekán (1578)
+				color = { 18 3 10 }
+				color2 = { 255 255 255 }
+				b_talekan = {}
+				b_valvalij = {}
+				b_kishm = {}
+				b_andicharagh = {}
+				b_anderab = {}
+			}
+		} # end d_khottal
+		allow = { title_king_basic_allow = yes }
+	} # end k_kafarestan
+	k_sistan = { # Sístán
+		color = { 120 190 90 }
+		color2 = { 255 255 255 }
+		capital = 637 # Sístán # Sistan
+		muslim = 200 # Crusade target weight
+		zoroastrian = 350 # Crusade target weight
+		pahlavi = "Sakastan"
+		d_sistan = { # Sístán
+			color = { 111 40 97 }
+			color2 = { 255 255 255 }
+			capital = 637 # Sístán # Sistan
+			pahlavi = "Sakastan"
+			c_farah = { # Farrah (299)
+				color = { 140 173 84 }
+				color2 = { 255 255 255 }
+				greek = "Prophthasia"
+				roman = "Prophthasia"
+				b_farah = {}
+				b_djuvayn = {}
+				b_djiza = {}
+				b_khvash = {}
+				b_qarnin = {}
+			}
+			c_rudbar = { # Rúdbár (1348)
+				color = { 142 182 80 }
+				color2 = { 255 255 255 }
+				b_rudbar = {}
+				b_kish = {}
+			}
+			c_sistan = { # Sístán (637)
+				color = { 102 122 67 }
+				color2 = { 255 255 255 }
+				b_zaranj = {}
+				b_karkuya = {}
+				b_nih = {}
+				b_sibih = {}
+				b_ram = {}
+			}
+			c_zamindavar = { # Zamindavar (852)
+				color = { 142 175 86 }
+				color2 = { 255 255 255 }
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
+				b_bust = {}
+				b_sarvan = {}
+				b_muaskar = {}
+				b_baghnin = {}
+				b_durghash = {}
+				b_bishlang = {}
+				b_till = {}
+			}
+			c_rukhadj = { # Rukhádj (1536)
+				color = { 148 170 89 }
+				color2 = { 255 255 255 }
+				b_kahdahar = {}
+				b_pandjvay = {}
+				b_bakrabad = {}
+			}
+		} # end d_sistan
+		d_makran = { # Makrán
+			color = { 136 169 80 }
+			color2 = { 255 255 255 }
+			capital = 899 # Pandjgúr
+			c_makran = { # Tiz (854) # Makran
+				color = { 146 169 80 }
+				color2 = { 255 255 255 }
+				pahlavi = "Paradan"
+				b_bampur = {}
+				b_fahraj = {}
+				b_tiz = {}
+				b_iskaf = {}
+				b_khwash = {}
+				b_bih = {}
+				b_rask = {}
+				#b_kasr-i-kand = {}
+				#b_bint = {}
+			}
+			c_mashkel = { # Mashkél (894)
+				color = { 146 179 90 }
+				color2 = { 255 255 255 }
+				b_djalk = {}
+				b_dizak = {}
+				b_saravan = {}
+			}
+			c_pandjgur = { # Pandjgúr (899)
+				color = { 148 181 92 }
+				color2 = { 255 255 255 }
+				b_pandjgur = {}
+				b_kiz = {}
+				b_khawr = {}
+			}
+			c_turan = { # Turán (1535)
+				color = { 152 185 96 }
+				color2 = { 255 255 255 }
+				pahlavi = "Turgistan"
+				b_turan = {}
+				b_qusdar = {}
+				b_sura = {}
+			}
+		} # end d_makran
+		allow = { title_king_basic_allow = yes }
+	} # end k_sistan
 	k_turkestan_west = { # Aq Turkestán
 		color = { 172 41 75 }
 		#color = { 250 184 31 }

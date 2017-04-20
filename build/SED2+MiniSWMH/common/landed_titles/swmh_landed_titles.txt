@@ -18687,106 +18687,6 @@ e_persia = {
 		}
 		allow = { title_king_basic_allow = yes }
 	}
-	k_sistan = {
-		color = { 120 190 90 }
-		color2 = { 255 255 255 }
-		capital = 637
-		muslim = 200
-		zoroastrian = 350
-		pahlavi = "Sakastan"
-		d_sistan = {
-			color = { 111 40 97 }
-			color2 = { 255 255 255 }
-			capital = 637
-			pahlavi = "Sakastan"
-			c_farah = {
-				color = { 140 173 84 }
-				color2 = { 255 255 255 }
-				greek = "Prophthasia"
-				roman = "Prophthasia"
-				b_farah = {}
-				b_djuvayn = {}
-				b_djiza = {}
-				b_khvash = {}
-				b_qarnin = {}
-			}
-			c_rudbar = {
-				color = { 142 182 80 }
-				color2 = { 255 255 255 }
-				b_rudbar = {}
-				b_kish = {}
-			}
-			c_sistan = {
-				color = { 102 122 67 }
-				color2 = { 255 255 255 }
-				b_zaranj = {}
-				b_karkuya = {}
-				b_nih = {}
-				b_sibih = {}
-				b_ram = {}
-			}
-			c_zamindavar = {
-				color = { 142 175 86 }
-				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				b_bust = {}
-				b_sarvan = {}
-				b_muaskar = {}
-				b_baghnin = {}
-				b_durghash = {}
-				b_bishlang = {}
-				b_till = {}
-			}
-			c_rukhadj = {
-				color = { 148 170 89 }
-				color2 = { 255 255 255 }
-				b_kahdahar = {}
-				b_pandjvay = {}
-				b_bakrabad = {}
-			}
-		}
-		d_makran = {
-			color = { 136 169 80 }
-			color2 = { 255 255 255 }
-			capital = 899
-			c_makran = {
-				color = { 146 169 80 }
-				color2 = { 255 255 255 }
-				pahlavi = "Paradan"
-				b_bampur = {}
-				b_fahraj = {}
-				b_tiz = {}
-				b_iskaf = {}
-				b_khwash = {}
-				b_bih = {}
-				b_rask = {}
-			}
-			c_mashkel = {
-				color = { 146 179 90 }
-				color2 = { 255 255 255 }
-				b_djalk = {}
-				b_dizak = {}
-				b_saravan = {}
-			}
-			c_pandjgur = {
-				color = { 148 181 92 }
-				color2 = { 255 255 255 }
-				b_pandjgur = {}
-				b_kiz = {}
-				b_khawr = {}
-			}
-			c_turan = {
-				color = { 152 185 96 }
-				color2 = { 255 255 255 }
-				pahlavi = "Turgistan"
-				b_turan = {}
-				b_qusdar = {}
-				b_sura = {}
-			}
-		}
-		allow = { title_king_basic_allow = yes }
-	}
 	k_mavarannahr = {
 		color = { 180 220 148 }
 		color2 = { 255 255 255 }
@@ -18946,99 +18846,6 @@ e_persia = {
 				b_sadvar = {}
 				b_darghan = {}
 				b_jigirband = {}
-			}
-		}
-		allow = { title_king_basic_allow = yes }
-	}
-	k_kafarestan = {
-		color = { 124 60 128 }
-		color2 = { 255 255 255 }
-		capital = 1547
-		d_zabolestan = {
-			color = { 10 220 160 }
-			color2 = { 255 255 255 }
-			capital = 1547
-			c_ghazna = {
-				color = { 15 215 155 }
-				color2 = { 255 255 255 }
-				b_ghazna = {}
-				b_nawabad = {}
-				b_arus-al-falak = {}
-				b_gardiz = {}
-				b_sukawand = {}
-				b_bamiyan = {}
-			}
-			c_kabul = {
-				color = { 10 225 165 }
-				color2 = { 255 255 255 }
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				b_kabul = {}
-				b_pervan = {}
-				b_panjhir = {}
-				b_chitral = {}
-				b_mundjan = {}
-				b_jarbaya = {}
-			}
-			c_lamghan = {
-				color = { 12 215 165 }
-				color2 = { 255 255 255 }
-				b_lamghan = {}
-				b_nagarahara = {}
-			}
-		}
-		d_khottal = {
-			color = { 118 223 170 }
-			color2 = { 255 255 255 }
-			capital = 1556
-			pahlavi = "Kushanshahr"
-			c_badakhshan = {
-				color = { 18 2 170 }
-				color2 = { 255 255 255 }
-				b_badakhshan = {}
-				b_shughnan = {}
-				b_jerm = {}
-				b_rustaq = {}
-				b_sanglich = {}
-				b_ishkashim = {}
-				b_dar-i-tubbat = {}
-			}
-			c_khuttal = {
-				color = { 18 23 10 }
-				color2 = { 255 255 255 }
-				b_pargar = {}
-				b_munk = {}
-				b_hulbuk = {}
-				b_halavand = {}
-				b_qubadiyan = {}
-				b_livkand = {}
-			}
-			c_rasht = {
-				color = { 118 23 170 }
-				color2 = { 255 255 255 }
-				b_rasht = {}
-				b_vashgird = {}
-				b_afridhan = {}
-				b_shuman = {}
-			}
-			c_chaghaniyan = {
-				color = { 90 223 170 }
-				color2 = { 255 255 255 }
-				b_chaghaniyan = {}
-				b_charmangan = {}
-				b_basand = {}
-				b_darzangi = {}
-				b_hashimgird = {}
-				b_hamvaran = {}
-			}
-			c_talekan = {
-				color = { 18 3 10 }
-				color2 = { 255 255 255 }
-				b_talekan = {}
-				b_valvalij = {}
-				b_kishm = {}
-				b_andicharagh = {}
-				b_anderab = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
@@ -21782,6 +21589,199 @@ e_null = {
 				b_samkalako = {}
 				b_nikaroi = {}
 				b_tetchick_ev = {}
+			}
+		}
+		allow = { title_king_basic_allow = yes }
+	}
+	k_kafarestan = {
+		color = { 124 60 128 }
+		color2 = { 255 255 255 }
+		capital = 1547
+		d_zabolestan = {
+			color = { 10 220 160 }
+			color2 = { 255 255 255 }
+			capital = 1547
+			c_ghazna = {
+				color = { 15 215 155 }
+				color2 = { 255 255 255 }
+				b_ghazna = {}
+				b_nawabad = {}
+				b_arus-al-falak = {}
+				b_gardiz = {}
+				b_sukawand = {}
+				b_bamiyan = {}
+			}
+			c_kabul = {
+				color = { 10 225 165 }
+				color2 = { 255 255 255 }
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
+				b_kabul = {}
+				b_pervan = {}
+				b_panjhir = {}
+				b_chitral = {}
+				b_mundjan = {}
+				b_jarbaya = {}
+			}
+			c_lamghan = {
+				color = { 12 215 165 }
+				color2 = { 255 255 255 }
+				b_lamghan = {}
+				b_nagarahara = {}
+			}
+		}
+		d_khottal = {
+			color = { 118 223 170 }
+			color2 = { 255 255 255 }
+			capital = 1556
+			pahlavi = "Kushanshahr"
+			c_badakhshan = {
+				color = { 18 2 170 }
+				color2 = { 255 255 255 }
+				b_badakhshan = {}
+				b_shughnan = {}
+				b_jerm = {}
+				b_rustaq = {}
+				b_sanglich = {}
+				b_ishkashim = {}
+				b_dar-i-tubbat = {}
+			}
+			c_khuttal = {
+				color = { 18 23 10 }
+				color2 = { 255 255 255 }
+				b_pargar = {}
+				b_munk = {}
+				b_hulbuk = {}
+				b_halavand = {}
+				b_qubadiyan = {}
+				b_livkand = {}
+			}
+			c_rasht = {
+				color = { 118 23 170 }
+				color2 = { 255 255 255 }
+				b_rasht = {}
+				b_vashgird = {}
+				b_afridhan = {}
+				b_shuman = {}
+			}
+			c_chaghaniyan = {
+				color = { 90 223 170 }
+				color2 = { 255 255 255 }
+				b_chaghaniyan = {}
+				b_charmangan = {}
+				b_basand = {}
+				b_darzangi = {}
+				b_hashimgird = {}
+				b_hamvaran = {}
+			}
+			c_talekan = {
+				color = { 18 3 10 }
+				color2 = { 255 255 255 }
+				b_talekan = {}
+				b_valvalij = {}
+				b_kishm = {}
+				b_andicharagh = {}
+				b_anderab = {}
+			}
+		}
+		allow = { title_king_basic_allow = yes }
+	}
+	k_sistan = {
+		color = { 120 190 90 }
+		color2 = { 255 255 255 }
+		capital = 637
+		muslim = 200
+		zoroastrian = 350
+		pahlavi = "Sakastan"
+		d_sistan = {
+			color = { 111 40 97 }
+			color2 = { 255 255 255 }
+			capital = 637
+			pahlavi = "Sakastan"
+			c_farah = {
+				color = { 140 173 84 }
+				color2 = { 255 255 255 }
+				greek = "Prophthasia"
+				roman = "Prophthasia"
+				b_farah = {}
+				b_djuvayn = {}
+				b_djiza = {}
+				b_khvash = {}
+				b_qarnin = {}
+			}
+			c_rudbar = {
+				color = { 142 182 80 }
+				color2 = { 255 255 255 }
+				b_rudbar = {}
+				b_kish = {}
+			}
+			c_sistan = {
+				color = { 102 122 67 }
+				color2 = { 255 255 255 }
+				b_zaranj = {}
+				b_karkuya = {}
+				b_nih = {}
+				b_sibih = {}
+				b_ram = {}
+			}
+			c_zamindavar = {
+				color = { 142 175 86 }
+				color2 = { 255 255 255 }
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
+				b_bust = {}
+				b_sarvan = {}
+				b_muaskar = {}
+				b_baghnin = {}
+				b_durghash = {}
+				b_bishlang = {}
+				b_till = {}
+			}
+			c_rukhadj = {
+				color = { 148 170 89 }
+				color2 = { 255 255 255 }
+				b_kahdahar = {}
+				b_pandjvay = {}
+				b_bakrabad = {}
+			}
+		}
+		d_makran = {
+			color = { 136 169 80 }
+			color2 = { 255 255 255 }
+			capital = 899
+			c_makran = {
+				color = { 146 169 80 }
+				color2 = { 255 255 255 }
+				pahlavi = "Paradan"
+				b_bampur = {}
+				b_fahraj = {}
+				b_tiz = {}
+				b_iskaf = {}
+				b_khwash = {}
+				b_bih = {}
+				b_rask = {}
+			}
+			c_mashkel = {
+				color = { 146 179 90 }
+				color2 = { 255 255 255 }
+				b_djalk = {}
+				b_dizak = {}
+				b_saravan = {}
+			}
+			c_pandjgur = {
+				color = { 148 181 92 }
+				color2 = { 255 255 255 }
+				b_pandjgur = {}
+				b_kiz = {}
+				b_khawr = {}
+			}
+			c_turan = {
+				color = { 152 185 96 }
+				color2 = { 255 255 255 }
+				pahlavi = "Turgistan"
+				b_turan = {}
+				b_qusdar = {}
+				b_sura = {}
 			}
 		}
 		allow = { title_king_basic_allow = yes }
