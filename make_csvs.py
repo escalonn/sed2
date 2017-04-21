@@ -358,8 +358,8 @@ def main():
         gov_prefixes = get_gov_prefixes(parser)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
-        for _, tree in parser.parse_files('common/landed_titles/*',
-                                          [emfswmhpath], emfpath):
+        for _, tree in parser.parse_files('common/landed_titles/*', emfpath,
+                                          [emfswmhpath]):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass
