@@ -3412,6 +3412,7 @@ e_hre = { # Heiliges Römisches Reich
 				color2 = { 255 255 255 }
 				culture = venetian
 				b_aquileia = {}
+				b_portogruaro = {}
 				b_udine = {}
 				b_motta = {}
 				b_ciridale = {}
@@ -16074,13 +16075,21 @@ e_italy = { # Italia
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
 				b_venezia = {}
-				b_san_marco = {}
+				b_rialto = {}
+				b_pallestrina = {}
 				b_chioggia = {}
-				b_portogruaro = {}
-				b_concordia = {}
+				b_jesolo = {}
 				b_murano = {}
 				b_torcello = {}
-				b_caorle = {}
+				#b_lido = {}
+				#b_venezia = {}
+				#b_san_marco = {}
+				#b_chioggia = { venetian = "Cióxa" }
+				#b_portogruaro = { venetian = "Portogruèr" }
+				#b_concordia = { venetian = "Cuncuardhia" }
+				#b_murano = { venetian = "Muran" }
+				#b_torcello = { venetian = "Torcèlo" }
+				#b_caorle = { venetian = "Càorle" }
 			}
 		}
 		allow = {
