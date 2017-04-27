@@ -165,28 +165,28 @@ k_oborites = { # Obodriti
 	color = { 41 85 98 }
 	capital = 260 # Mecklenburg # Mecklemburg
 	culture = pommeranian
-	allow = { always = no }
+	allow = { title_king_basic_allow = yes }
 }
 
 k_pommeranians = { # Pomorzani
 	color = { 11 5 129 }
 	capital = 1313 # Belgard # Kolberg
 	culture = pommeranian
-	allow = { always = no }
+	allow = { title_king_basic_allow = yes }
 }
 
 k_lutici = { # Ljutici
 	color = { 22 57 233 }
 	capital = 365 # Brandenburg
 	culture = pommeranian
-	allow = { always = no }
+	allow = { title_king_basic_allow = yes }
 }
 
 k_sorbs = { # Sorbi
 	color = { 209 147 2 }
 	capital = 364 # Oberlausitz
 	culture = pommeranian
-	allow = { always = no }
+	allow = { title_king_basic_allow = yes }
 }
 
 ######################################
@@ -1440,8 +1440,5 @@ k_hilal = { # Hilal
 	capital = 1352 # Qashtiliya # Qamuda
 	#tribe = yes
 	culture = bedouin_arabic
-	allow = {
-		always = no
-		title_king_basic_allow = yes
-	}
+	allow = { title_king_basic_allow = yes }
 }

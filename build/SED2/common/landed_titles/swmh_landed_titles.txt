@@ -1674,7 +1674,7 @@ e_hre = { # Heiliges Römisches Reich
 		color2 = { 255 255 255 }
 		capital = 262 # Lübeck
 		dignity = 200 # Never want the Hanseatic League to change primary title
-		allow = { always = no }
+		allow = { title_king_basic_allow = yes }
 	}
 	k_frisia = { # Fryslân
 		color = { 255 120 0 }
