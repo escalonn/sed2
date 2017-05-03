@@ -804,6 +804,13 @@ d_airgialla = { # Airgíalla
 	capital = 7 # Oriel
 }
 
+d_khawarij = { # Khawarij (used for the Kharijite Rebellion)
+	color = { 35 145 25 }
+	color2 = { 255 255 255 }
+	allow = { religion = kharijite }
+	capital = 697 # Mosul
+}
+
 # moved from k_asturias to fix usurpation bug
 d_asturias = { # Asturias
 	color = { 19 83 180 }
