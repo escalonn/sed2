@@ -10734,13 +10734,14 @@ e_arabia = { # Arabian Empire
 			c_cairo = { # Cairo (796)
 				color = { 24 236 119 }
 				color2 = { 255 255 255 }
+				sicilian_arabic_arabic = Qáhira
 				holy_site = east_african_pagan
 				holy_site = east_african_pagan_reformed
 				holy_site = druze
 				greek = "Fustat"
 				coptic = "Fustat"
 				roman = "Babylon"
-				b_cairo = {}
+				b_cairo = { sicilian_arabic_arabic = Qáhira }
 				b_fustat = {}
 				b_qaylub = {}
 				b_alazhar = {}
