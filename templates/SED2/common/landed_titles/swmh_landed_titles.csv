@@ -4085,14 +4085,33 @@ d_oman                          ;pahlavi            ;Maka    ;Mazun
 k_yemen                         ;greek              ;Arabia Felix;Arabia Felix
 k_yemen                         ;roman              ;Arabia Felix;Arabia Felix
 k_egypt                         ;greek              ;        ;Aigyptos
+k_egypt                         ;ethiopian          ;        ;Gibs
+k_egypt                         ;falashim           ;        ;Misrayim
 k_egypt                         ;coptic             ;        ;Khemi
+k_egypt                         ;nubian             ;        ;Khemi
+k_egypt                         ;sanhaja            ;        ;Igibt
+k_egypt                         ;tagelmust          ;        ;Igibt
+k_egypt                         ;masmuda            ;        ;Igibt
+k_egypt                         ;zanata             ;        ;Igibt
+k_egypt                         ;tuareg             ;        ;Igibt
 k_egypt                         ;roman              ;        ;Aegyptus
 d_alexandria                    ;greek              ;Egypt   ;Aigyptos
 d_alexandria                    ;coptic             ;        ;Rakote
+d_alexandria                    ;nubian             ;        ;Alexandre
+d_alexandria                    ;sanhaja            ;        ;Taskendrit
+d_alexandria                    ;tagelmust          ;        ;Taskendrit
+d_alexandria                    ;masmuda            ;        ;Taskendrit
+d_alexandria                    ;zanata             ;        ;Taskendrit
+d_alexandria                    ;tuareg             ;        ;Taskendrit
 d_alexandria                    ;roman              ;Egypt   ;Aegyptus
 c_alexandria                    ;greek              ;        ;Alexandreia
 c_alexandria                    ;coptic             ;        ;Rakote
 c_alexandria                    ;nubian             ;        ;Alexandre
+c_alexandria                    ;sanhaja            ;        ;Taskendrit
+c_alexandria                    ;tagelmust          ;        ;Taskendrit
+c_alexandria                    ;masmuda            ;        ;Taskendrit
+c_alexandria                    ;zanata             ;        ;Taskendrit
+c_alexandria                    ;tuareg             ;        ;Taskendrit
 c_buhairya                      ;greek              ;Hermopolis;Hermopolis
 c_buhairya                      ;coptic             ;Damanhur;Timinhor
 c_buhairya                      ;roman              ;Hermopolis;Hermopolis
@@ -4125,9 +4144,28 @@ c_bilbays                       ;greek              ;        ;Bilbeis
 c_bilbays                       ;coptic             ;        ;Phelbs
 c_bilbays                       ;roman              ;        ;Bilbeis
 d_cairo                         ;greek              ;Arcadia Aegypti;Arkadia
+d_cairo                         ;ethiopian          ;        ;Kayro
+d_cairo                         ;sanhaja            ;        ;Taqahirt
+d_cairo                         ;tagelmust          ;        ;Taqahirt
+d_cairo                         ;masmuda            ;        ;Taqahirt
+d_cairo                         ;zanata             ;        ;Taqahirt
+d_cairo                         ;tuareg             ;        ;Taqahirt
 d_cairo                         ;roman              ;Arcadia Aegypti;Arcadia
+c_cairo                         ;andalusian_arabic  ;        ;Qáhira
 c_cairo                         ;greek              ;Fustat  ;Phystaton
+c_cairo                         ;bedouin_arabic     ;        ;Qáhira
+c_cairo                         ;yemeni             ;        ;Qáhira
+c_cairo                         ;hijazi             ;        ;Qáhira
+c_cairo                         ;maghreb_arabic     ;        ;Qáhira
+c_cairo                         ;levantine_arabic   ;        ;Qáhira
+c_cairo                         ;egyptian_arabic    ;        ;Qáhira
+c_cairo                         ;ethiopian          ;        ;Kayro
 c_cairo                         ;coptic             ;Fustat  ;Phystaton
+c_cairo                         ;sanhaja            ;        ;Taqahirt
+c_cairo                         ;tagelmust          ;        ;Taqahirt
+c_cairo                         ;masmuda            ;        ;Taqahirt
+c_cairo                         ;zanata             ;        ;Taqahirt
+c_cairo                         ;tuareg             ;        ;Taqahirt
 c_cairo                         ;roman              ;Babylon ;Babylon
 c_manupura                      ;greek              ;Athribis;Athribis
 c_manupura                      ;coptic             ;Banha   ;Panaho
@@ -4173,6 +4211,11 @@ c_ikhmin                        ;coptic             ;        ;Shmin
 c_ikhmin                        ;roman              ;        ;Panopolis
 c_qus                           ;greek              ;Thebes  ;Thebai
 c_qus                           ;coptic             ;Luxor   ;Ne
+c_qus                           ;sanhaja            ;Luxor   ;Luqsur
+c_qus                           ;tagelmust          ;Luxor   ;Luqsur
+c_qus                           ;masmuda            ;Luxor   ;Luqsur
+c_qus                           ;zanata             ;Luxor   ;Luqsur
+c_qus                           ;tuareg             ;Luxor   ;Luqsur
 c_qus                           ;roman              ;Thebes  ;Thebae
 c_asyut                         ;greek              ;        ;Lykopolis
 c_asyut                         ;coptic             ;        ;Siout
@@ -4181,14 +4224,29 @@ c_aswan                         ;greek              ;        ;Syene
 c_aswan                         ;coptic             ;        ;Suan
 c_aswan                         ;roman              ;        ;Syene
 d_cyrenaica                     ;greek              ;        ;Libya Pentapolis
+d_cyrenaica                     ;sanhaja            ;        ;Barqet
+d_cyrenaica                     ;tagelmust          ;        ;Barqet
+d_cyrenaica                     ;masmuda            ;        ;Barqet
+d_cyrenaica                     ;zanata             ;        ;Barqet
+d_cyrenaica                     ;tuareg             ;        ;Barqet
 d_cyrenaica                     ;roman              ;        ;Libya Pentapolis
 c_senoussi                      ;greek              ;        ;Augila
 c_senoussi                      ;roman              ;        ;Augila
 c_ajadabiya                     ;greek              ;        ;Corniclanum
 c_ajadabiya                     ;roman              ;        ;Corniclanum
 c_benghazi                      ;greek              ;Cyrene  ;Kyrene
+c_benghazi                      ;sanhaja            ;        ;Barqet
+c_benghazi                      ;tagelmust          ;        ;Barqet
+c_benghazi                      ;masmuda            ;        ;Barqet
+c_benghazi                      ;zanata             ;        ;Barqet
+c_benghazi                      ;tuareg             ;        ;Barqet
 c_benghazi                      ;roman              ;Cyrene  ;Cyrene
 c_tobruk                        ;greek              ;        ;Antipyrgos
+c_tobruk                        ;sanhaja            ;        ;Tubruq
+c_tobruk                        ;tagelmust          ;        ;Tubruq
+c_tobruk                        ;masmuda            ;        ;Tubruq
+c_tobruk                        ;zanata             ;        ;Tubruq
+c_tobruk                        ;tuareg             ;        ;Tubruq
 c_tobruk                        ;roman              ;        ;Antipyrgus
 d_sinai                         ;coptic             ;        ;Sina
 c_el-arish                      ;greek              ;Pelusium;Pelousion
@@ -4253,6 +4311,22 @@ c_madaba                        ;frankish           ;        ;Gerasa
 c_madaba                        ;norman             ;        ;Gerasa
 c_madaba                        ;greek              ;Irbid   ;Arbela
 c_madaba                        ;roman              ;Irbid   ;Arbela
+d_tedjoura                      ;ethiopian          ;        ;Tagura
+d_tedjoura                      ;somali             ;        ;Tajuura
+d_tedjoura                      ;afar               ;        ;Tagórri
+c_tadjoura                      ;ethiopian          ;        ;Tagura
+c_tadjoura                      ;somali             ;        ;Tajuura
+c_tadjoura                      ;afar               ;        ;Tagórri
+c_zaila                         ;somali             ;        ;Saylac
+k_abyssinia                     ;andalusian_arabic  ;        ;Habasha
+k_abyssinia                     ;bedouin_arabic     ;        ;Habasha
+k_abyssinia                     ;yemeni             ;        ;Habasha
+k_abyssinia                     ;hijazi             ;        ;Habasha
+k_abyssinia                     ;maghreb_arabic     ;        ;Habasha
+k_abyssinia                     ;levantine_arabic   ;        ;Habasha
+k_abyssinia                     ;egyptian_arabic    ;        ;Habasha
+k_abyssinia                     ;sicilian_arabic    ;        ;Habasha
+k_abyssinia                     ;ethiopian          ;        ;Ityoppya
 k_abyssinia                     ;coptic             ;Ethiopia;Ethaush
 d_gondar                        ;falashim           ;Semien  ;Semien
 c_dongola                       ;coptic             ;Toungoul;Toungoul
@@ -7836,14 +7910,19 @@ c_menorca                       ;levantine_arabic   ;        ;Manurqa
 c_menorca                       ;egyptian_arabic    ;        ;Manurqa
 c_menorca                       ;sicilian_arabic    ;        ;Manurqa
 k_africa                        ;greek              ;Africa  ;Africae
+k_africa                        ;sanhaja            ;        ;Tafrikt
+k_africa                        ;tagelmust          ;        ;Tafrikt
+k_africa                        ;masmuda            ;        ;Tafrikt
+k_africa                        ;zanata             ;        ;Tafrikt
+k_africa                        ;tuareg             ;        ;Tafrikt
 k_africa                        ;roman              ;Africa  ;Africae
 d_tunis                         ;greek              ;Africa  ;Africa Proconsularis
 d_tunis                         ;roman              ;Africa  ;Africa Proconsularis
 c_tunis                         ;greek              ;Carthage;Karchedon
 c_tunis                         ;roman              ;Carthage;Carthago
-c_medjerda                      ;greek              ;Hadrumetum;Hadrumetum
+c_medjerda                      ;greek              ;Hadrumetum;Adroúmetos
 c_medjerda                      ;roman              ;Hadrumetum;Hadrumetum
-c_bizerte                       ;greek              ;        ;Hippo Diarrhytos
+c_bizerte                       ;greek              ;        ;Hippòn Diárrhytos
 c_bizerte                       ;roman              ;        ;Hippo Diarrhytus
 c_kairwan                       ;greek              ;Thysdrus;Thysdrus
 c_kairwan                       ;roman              ;Thysdrus;Thysdrus
@@ -7859,15 +7938,35 @@ c_nafzawa                       ;greek              ;Nafta   ;Nepte
 c_nafzawa                       ;roman              ;Nafta   ;Nepte
 c_qashtiliya                    ;greek              ;Gafsa   ;Capsa
 c_qashtiliya                    ;roman              ;Gafsa   ;Capsa
-c_leptis_magna                  ;greek              ;        ;Lepcis Magna
+d_tripolitania                  ;sanhaja            ;Tripoli ;Tripuli
+d_tripolitania                  ;tagelmust          ;Tripoli ;Tripuli
+d_tripolitania                  ;masmuda            ;Tripoli ;Tripuli
+d_tripolitania                  ;zanata             ;Tripoli ;Tripuli
+d_tripolitania                  ;tuareg             ;Tripoli ;Tripuli
+c_tripolitana                   ;sanhaja            ;Tripoli ;Tripuli
+c_tripolitana                   ;tagelmust          ;Tripoli ;Tripuli
+c_tripolitana                   ;masmuda            ;Tripoli ;Tripuli
+c_tripolitana                   ;zanata             ;Tripoli ;Tripuli
+c_tripolitana                   ;tuareg             ;Tripoli ;Tripuli
+c_leptis_magna                  ;greek              ;        ;Léptis Megále
 c_leptis_magna                  ;bedouin_arabic     ;        ;Labda
 c_leptis_magna                  ;maghreb_arabic     ;        ;Labda
 c_leptis_magna                  ;levantine_arabic   ;        ;Labda
 c_leptis_magna                  ;egyptian_arabic    ;        ;Labda
 c_leptis_magna                  ;roman              ;        ;Lepcis Magna
 c_syrte                         ;greek              ;        ;Macomades
+c_syrte                         ;sanhaja            ;        ;Surt
+c_syrte                         ;tagelmust          ;        ;Surt
+c_syrte                         ;masmuda            ;        ;Surt
+c_syrte                         ;zanata             ;        ;Surt
+c_syrte                         ;tuareg             ;        ;Surt
 c_syrte                         ;roman              ;        ;Macomades
 c_zawiya                        ;greek              ;Sabratha;Abrotonon
+c_zawiya                        ;sanhaja            ;        ;Zzaweyya
+c_zawiya                        ;tagelmust          ;        ;Zzaweyya
+c_zawiya                        ;masmuda            ;        ;Zzaweyya
+c_zawiya                        ;zanata             ;        ;Zzaweyya
+c_zawiya                        ;tuareg             ;        ;Zzaweyya
 c_zawiya                        ;roman              ;Sabratha;Abrotonum
 d_kabylia                       ;greek              ;Numidia Cirtensis;Numidia Cirtensis
 d_kabylia                       ;roman              ;Numidia Cirtensis;Numidia Cirtensis
@@ -8367,6 +8466,7 @@ k_jerusalem                     ;maghreb_arabic     ;Palestine;Filastin
 k_jerusalem                     ;levantine_arabic   ;Palestine;Filastin
 k_jerusalem                     ;egyptian_arabic    ;Palestine;Filastin
 k_jerusalem                     ;sicilian_arabic    ;Palestine;Filastin
+k_jerusalem                     ;ethiopian          ;        ;Yerusalem
 k_jerusalem                     ;sanhaja            ;Palestine;Filastin
 k_jerusalem                     ;tagelmust          ;Palestine;Filastin
 k_jerusalem                     ;masmuda            ;Palestine;Filastin
@@ -8379,6 +8479,7 @@ d_jerusalem                     ;maghreb_arabic     ;Palestine;Filastin
 d_jerusalem                     ;levantine_arabic   ;Palestine;Filastin
 d_jerusalem                     ;egyptian_arabic    ;Palestine;Filastin
 d_jerusalem                     ;sicilian_arabic    ;Palestine;Filastin
+d_jerusalem                     ;ethiopian          ;        ;Yerusalem
 d_jerusalem                     ;sanhaja            ;Palestine;Filastin
 d_jerusalem                     ;tagelmust          ;Palestine;Filastin
 d_jerusalem                     ;masmuda            ;Palestine;Filastin
@@ -8395,6 +8496,7 @@ c_jerusalem                     ;maghreb_arabic     ;        ;Al-Quds
 c_jerusalem                     ;levantine_arabic   ;        ;Al-Quds
 c_jerusalem                     ;egyptian_arabic    ;        ;Al-Quds
 c_jerusalem                     ;sicilian_arabic    ;        ;Al-Quds
+c_jerusalem                     ;ethiopian          ;        ;Yerusalem
 c_jerusalem                     ;nubian             ;        ;Ierousalmi
 c_jerusalem                     ;sanhaja            ;        ;Al-Quds
 c_jerusalem                     ;tagelmust          ;        ;Al-Quds
@@ -8550,6 +8652,7 @@ k_antioch                       ;maghreb_arabic     ;al-Awasim;Awasim
 k_antioch                       ;levantine_arabic   ;al-Awasim;Awasim
 k_antioch                       ;egyptian_arabic    ;al-Awasim;Awasim
 k_antioch                       ;sicilian_arabic    ;al-Awasim;Awasim
+k_antioch                       ;ethiopian          ;        ;Ansokya
 k_antioch                       ;sanhaja            ;al-Awasim;Awasim
 k_antioch                       ;tagelmust          ;al-Awasim;Awasim
 k_antioch                       ;masmuda            ;al-Awasim;Awasim
@@ -8627,6 +8730,7 @@ d_antioch                       ;maghreb_arabic     ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;levantine_arabic   ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;egyptian_arabic    ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;sicilian_arabic    ;Jund al-Awasim;Jund 'Awasim
+d_antioch                       ;ethiopian          ;        ;Ansokya
 d_antioch                       ;sanhaja            ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;tagelmust          ;Jund al-Awasim;Jund 'Awasim
 d_antioch                       ;masmuda            ;Jund al-Awasim;Jund 'Awasim
@@ -8643,6 +8747,7 @@ c_antiocheia                    ;maghreb_arabic     ;        ;Antakiya
 c_antiocheia                    ;levantine_arabic   ;        ;Antakiya
 c_antiocheia                    ;egyptian_arabic    ;        ;Antakiya
 c_antiocheia                    ;sicilian_arabic    ;        ;Antakiya
+c_antiocheia                    ;ethiopian          ;        ;Ansokya
 c_antiocheia                    ;sanhaja            ;        ;Antakiya
 c_antiocheia                    ;tagelmust          ;        ;Antakiya
 c_antiocheia                    ;masmuda            ;        ;Antakiya

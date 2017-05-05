@@ -866,13 +866,12 @@ c_muscat_adj                                   ;Muscatian;;;Muscatian
 c_duqm_adj                                     ;Duqm    ;;;Duqmian
 c_dhofar_adj                                   ;Dhofar  ;;;Dhofarian
 c_mahra_adj                                    ;Al Mahrah;;;Mahran
-k_abyssinia                                    ;Abyssinia;;Ethaush;Abyssinia
+k_abyssinia                                    ;Abyssinia;;Ityoppya,Ethaush,Habasha;Abyssinia
 k_abyssinia_adj                                ;Abyssinian;;;Abyssinian
 c_busaso_adj                                   ;Bosaso  ;;;Busasonian
 c_berbera_adj                                  ;Berbera ;;;Berberan
 c_harer_adj                                    ;Harari  ;;;Harerian
 c_tadjoura_adj                                 ;Tadjoura;;;Tadjouran
-d_axum                                         ;Aksum   ;;;Axum
 d_axum_adj                                     ;Aksumite;;;Axumite
 c_aksum_adj                                    ;Axumite ;;;Axumite
 c_akordat_adj                                  ;Agordat ;;;Akordatian
@@ -887,7 +886,7 @@ c_ankober_adj                                  ;Ankober ;;;Ankoberian
 c_gondar_adj                                   ;Gondarine;;;Gondarian
 c_antalo_adj                                   ;Hintalo ;;;Antalonian
 c_matamma_adj                                  ;Al-Matamma;;;Matamman
-k_jerusalem                                    ;Jerusalem;;Filastin,Palaestina;Jerusalem
+k_jerusalem                                    ;Jerusalem;;Filastin,Palaestina,Yerusalem;Jerusalem
 k_jerusalem_adj                                ;Jerusalemite;;;Jerusalemite
 d_oultrejourdain                               ;Oultrejordain;;Palaestina Salutaris;Oultrejourdain
 d_oultrejourdain_adj                           ;Oultrejordain;;;Oultrejourdainian
@@ -897,7 +896,7 @@ c_darum_adj                                    ;Deir al-Balah;;;Darumian
 c_jaffa_adj                                    ;Jaffan  ;;;Jaffan
 c_ascalon_adj                                  ;Ashkelonian;;;Ascalonian
 c_beersheb_adj                                 ;Nablus  ;;;Beershebian
-d_jerusalem                                    ;Jerusalem;;Filastin,Palaestina Prima;Jerusalem
+d_jerusalem                                    ;Jerusalem;;Filastin,Palaestina Prima,Yerusalem;Jerusalem
 d_jerusalem_adj                                ;Jerusalemite;;;Jerusalemite
 c_jerusalem_adj                                ;Jerusalemite;;;Jerusalemite
 c_acre_adj                                     ;Acre    ;;;Acrenian
@@ -1328,7 +1327,7 @@ PROV711                                        ;Sinjar  ;;c_sinjar,Singara,Beth 
 PROV721                                        ;Tabuk   ;;c_tabuk;Tabuk
 PROV730                                        ;Palmyra ;;c_palmyra;Palmyra
 PROV732                                        ;Hama    ;;c_hama,Epiphania;Hama
-PROV764                                        ;Antioch ;;c_antiocheia,Antakiya,Antiok,Antiokia;Antioch
+PROV764                                        ;Antioch ;;c_antiocheia,Antakiya,Antiok,Antiokia,Ansokya;Antioch
 PROV766                                        ;Tartus  ;;c_tortosa,Antartus,Antarados;Tortosa
 PROV770                                        ;Beirut  ;;c_beirut,Berytus,Berytos;Beirut
 PROV772                                        ;Acre    ;;c_acre,Akka,Ptolemais;Acre
@@ -1342,10 +1341,10 @@ PROV787                                        ;Arish   ;;c_el-arish,Pelusium,Pe
 PROV792                                        ;Nubia   ;;c_nubia,Pachoras,Pakhôras,Para;Nubia
 PROV794                                        ;Aswan   ;;c_aswan,Syene,Suan;Aswan
 PROV795                                        ;Asyut   ;;c_asyut,Lycopolis,Lykopolis,Siout;Asyut
-PROV796                                        ;Cairo   ;;c_cairo,Babylon,Phystaton;Cairo
-PROV809                                        ;Sirte   ;;c_syrte,Macomades;Syrte
-PROV810                                        ;Leptis Magna;;c_leptis_magna,Lepcis Magna,Labda;Leptis Magna
-PROV811                                        ;Tripolitania;;c_tripolitana;Tripolitana
+PROV796                                        ;Cairo   ;;c_cairo,Babylon,Phystaton,Taqahirt,Kayro,Qáhira;Cairo
+PROV809                                        ;Sirte   ;;c_syrte,Macomades,Surt;Syrte
+PROV810                                        ;Leptis Magna;;c_leptis_magna,Lepcis Magna,Léptis Megále,Labda;Leptis Magna
+PROV811                                        ;Tripolitania;;c_tripolitana,Tripuli;Tripolitana
 PROV813                                        ;Djerba  ;;c_djerba,Girba;Djerba
 PROV814                                        ;Gabès   ;;c_gabes,Tacapae,Tacape;Gabes
 PROV815                                        ;Kairouan;;c_kairwan,Thysdrus;Kairwan
@@ -1362,7 +1361,7 @@ PROV864                                        ;Ha’il   ;;c_hail;Hail
 PROV867                                        ;Duqm    ;;c_duqm;Duqm
 PROV871                                        ;Bosaso  ;;c_busaso;Busaso
 PROV872                                        ;Berbera ;;c_berbera;Berbera
-PROV874                                        ;Tadjoura;;c_tadjoura;Tadjoura
+PROV874                                        ;Tadjoura;;c_tadjoura,Tagura,Tagórri,Tajuura;Tadjoura
 PROV875                                        ;Axum    ;;c_aksum;Aksum
 PROV877                                        ;Kassala ;;c_kassala;Kassala
 PROV879                                        ;Atbara  ;;c_atbara;Atbara

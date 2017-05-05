@@ -471,7 +471,7 @@ k_sahara                                ;Sahara  ;Sahara;;
 k_sahara_adj                            ;Saharan ;Saharan;;
 d_sahara                                ;Sahara  ;Sahara;;
 d_sahara_adj                            ;Saharan ;Saharan;;
-k_antioch                               ;Antioch ;Antioche;Awasim,Principatus Antiochenus,Antiócheias;
+k_antioch                               ;Antioch ;Antioche;Awasim,Principatus Antiochenus,Antiócheias,Ansokya;
 k_antioch_adj                           ;Antiochene;Antiochean;;
 d_germanias                             ;Germanies;Germanias;;
 d_germanias_adj                         ;Germanies;Germaniasian;;
@@ -498,7 +498,7 @@ k_aljazira                              ;Upper Mesopotamia;Al-Jazira;Assyria,Arv
 k_aljazira_adj                          ;Upper Mesopotamian;Jaziran;;
 k_aljazira_adj_greek                    ;Assyrian;Assyrian;;
 d_mosul_adj_greek                       ;        ;Mepsilan;;
-d_antioch                               ;Antioch ;Antioche;Jund 'Awasim,Antiokeias,Antiok,Principauté d'Antioche;Antioch
+d_antioch                               ;Antioch ;Antioche;Jund 'Awasim,Antiokeias,Antiok,Principauté d'Antioche,Ansokya;Antioch
 d_antioch_adj                           ;Antiochene;Antiochean;;Antiochian
 d_antioch_adj_bedouin_arabic            ;al-Awasim;Awasiman;;
 d_antioch_adj_maghreb_arabic            ;al-Awasim;Awasiman;;
@@ -648,6 +648,7 @@ d_roufra                                ;Kufra   ;Roufra;;
 d_roufra_adj                            ;Kufra   ;Roufra;;
 d_awlil                                 ;Awlil   ;Awlil;;
 d_awlil_adj                             ;Awlil   ;Awlil;;
+d_axum                                  ;Aksum   ;Aksum;;Axum
 k_insalah                               ;In Salah;In Salah;;
 k_insalah_adj                           ;In Salah;In Salah;;
 k_ghadames                              ;Ghadames;Ghadamès;;
@@ -819,7 +820,7 @@ d_mossi_adj                             ;Mossi   ;Mossí;;
 ###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 e_africa                                ;Africa  ;Africa;;
 e_africa_adj                            ;African ;African;;
-k_africa                                ;Ifriqiya;Ifriqiya;Africae;Africa
+k_africa                                ;Ifriqiya;Ifriqiya;Africae,Tafrikt;Africa
 k_africa_adj                            ;Ifriqiyan;Ifriqi;;African
 k_africa_adj_greek                      ;African ;Africaian;;
 k_africa_adj_roman                      ;African ;Africaian;;
@@ -833,7 +834,7 @@ d_qamuda                                ;Qammuda ;Qamuda;Byzacena;
 d_qamuda_adj                            ;Qammuda ;Qamudi;;
 d_qamuda_adj_roman                      ;Byzacena;Byzacenan;;
 d_qamuda_adj_greek                      ;Byzacena;Byzacenan;;
-d_tripolitania                          ;Tripolitania;Tripolitania;;Tripolitania
+d_tripolitania                          ;Tripolitania;Tripolitania;Tripuli;Tripolitania
 d_tripolitania_adj                      ;Tripolitanian;Tripolitani;;
 d_kabylia                               ;Kabylia ;Kabylia;Numidia Cirtensis;Kabylia
 d_kabylia_adj                           ;Kabyle  ;Kabyli;;Kabylian
@@ -862,16 +863,16 @@ d_taghaza_adj                           ;Taghaza ;Taghazi;;
 d_takrur                                ;Takrur  ;Takrur;;
 d_takrur_adj                            ;Takrur  ;Takrurí;;
 #Egypt,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
-k_egypt                                 ;Egypt   ;Misr;Aegyptus,Aigyptos,Khemi;Egypt
+k_egypt                                 ;Egypt   ;Misr;Aegyptus,Aigyptos,Khemi,Gibs,Misrayim,Igibt;Egypt
 k_egypt_adj                             ;Egyptian;Misri;;Egyptian
 k_egypt_adj_greek                       ;        ;Aigyptian;;
-d_alexandria                            ;Alexandria;Iskandariya;Aegyptus,Aigyptos,Rakote;Alexandria
+d_alexandria                            ;Alexandria;Iskandariya;Aegyptus,Aigyptos,Alexandre,Rakote,Taskendrit;Alexandria
 d_alexandria_adj                        ;Alexandrian;Iskandariyi;;Alexandrian
 d_alexandria_adj_greek                  ;Egyptian;Aigyptian;;
 d_damietta                              ;Damietta;Dumiyát;Augustamnica,Augustamnike;Damietta
 d_damietta_adj                          ;Damiettan;Dumiyátí;;Damiettan
 d_damietta_adj_greek                    ;Augustamnica;Augustamnikan;;
-d_cairo                                 ;Cairo   ;Qáhira;Arcadia,Arkadia;Cairo
+d_cairo                                 ;Cairo   ;Qáhira;Arcadia,Arkadia,Taqahirt,Kayro;Cairo
 d_cairo_adj                             ;Cairene ;Qáhirí;;Cairene
 d_cairo_adj_greek                       ;Arcadian;Arkadian;;
 d_alwahat                               ;Al Wahat;Al-Wahát;;
@@ -879,7 +880,7 @@ d_alwahat_adj                           ;Al Wahat;Al-Wahátí;;
 d_aswan                                 ;Upper Egypt;Al-Sa'íd;Thebais,Thebaïs;Aswan
 d_aswan_adj                             ;Upper Egyptian;Al-Sa'ídí;;Aswani
 d_aswan_adj_greek                       ;Theban  ;Thebaïan;;
-d_cyrenaica                             ;Cyrenaica;Barqa;Libya Pentapolis;Cyrenaica
+d_cyrenaica                             ;Cyrenaica;Barqa;Libya Pentapolis,Barqet;Cyrenaica
 d_cyrenaica_adj                         ;Cyrenaican;Barqí;;Cyrenaican
 d_cyrenaica_adj_greek                   ;        ;Lybia Pentapolitan;;
 d_nubia                                 ;Nubia   ;Noubia;;Makuria
@@ -959,7 +960,7 @@ d_ifat                                  ;Ifat    ;Ifat;;
 d_ifat_adj                              ;Ifat    ;Ifati;;
 d_berbera                               ;Berbera ;Berbera;;
 d_berbera_adj                           ;Berbera ;Berberi;;
-d_tedjoura                              ;Tadjoura;Tadjoura;;
+d_tedjoura                              ;Tadjoura;Tadjoura;Tagura,Tagórri,Tajuura;
 d_tedjoura_adj                          ;Tadjoura;Tadjouri;;
 ########,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 k_adal                                  ;Adal    ;Adal;;
