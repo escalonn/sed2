@@ -11742,6 +11742,38 @@ e_britannia = {
 				b_st_peter_port = {}
 			}
 		}
+		k_east_anglia = {
+			color = { 60 109 121 }
+			color2 = { 255 255 255 }
+			capital = 70
+			culture = saxon
+			dignity = 30
+			allow = { title_king_basic_allow = yes }
+		}
+		k_northumberland = {
+			color = { 234 207 99 }
+			color2 = { 255 255 255 }
+			capital = 52
+			culture = saxon
+			dignity = 30
+			allow = { title_king_basic_allow = yes }
+		}
+		k_mercia = {
+			color = { 6 42 127 }
+			color2 = { 255 255 255 }
+			capital = 17
+			culture = saxon
+			dignity = 30
+			allow = { title_king_basic_allow = yes }
+		}
+		k_wessex = {
+			color = { 68 140 48 }
+			color2 = { 255 255 255 }
+			capital = 26
+			culture = saxon
+			dignity = 30
+			allow = { title_king_basic_allow = yes }
+		}
 		allow = { title_king_basic_allow = yes }
 	}
 	k_wales = {
@@ -12465,6 +12497,22 @@ e_britannia = {
 			}
 		}
 		allow = { title_king_basic_allow = yes }
+		k_strathclyde = {
+			color = { 90 226 196 }
+			color2 = { 255 255 255 }
+			culture = cumbric
+			capital = 1484
+			dignity = 30
+			allow = {
+				OR = {
+					culture = scottish
+					culture = cumbric
+					culture = breton
+					culture = welsh
+				}
+				title_king_basic_allow = yes
+			}
+		}
 	}
 	k_ellan_vannin = {
 		color = { 60 60 118 }
