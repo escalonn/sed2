@@ -13441,40 +13441,40 @@ e_britannia = { # Britannia
 				b_st_peter_port = {}
 			}
 		} # end d_channel_islands
-		k_east_anglia = { # Eastengle
-			color = { 60 109 121 }
-			color2 = { 255 255 255 }
-			capital = 70 # Norfolk
-			culture = saxon
-			dignity = 30
-			allow = { title_king_basic_allow = yes }
-		}
-		k_northumberland = { # Northymbraland
-			color = { 234 207 99 }
-			color2 = { 255 255 255 }
-			capital = 52 # Northumberland
-			culture = saxon
-			dignity = 30
-			allow = { title_king_basic_allow = yes }
-		}
-		k_mercia = { # Mierce
-			color = { 6 42 127 }
-			color2 = { 255 255 255 }
-			capital = 17 # Hereford
-			culture = saxon
-			dignity = 30
-			allow = { title_king_basic_allow = yes }
-		}
-		k_wessex = { # Westseaxe
-			color = { 68 140 48 }
-			color2 = { 255 255 255 }
-			capital = 26 # Winchester
-			culture = saxon
-			dignity = 30
-			allow = { title_king_basic_allow = yes }
-		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_england
+	k_east_anglia = { # Eastengle
+		color = { 60 109 121 }
+		color2 = { 255 255 255 }
+		capital = 70 # Norfolk
+		culture = saxon
+		dignity = 30
+		allow = { title_king_basic_allow = yes }
+	}
+	k_northumberland = { # Northymbraland
+		color = { 234 207 99 }
+		color2 = { 255 255 255 }
+		capital = 52 # Northumberland
+		culture = saxon
+		dignity = 30
+		allow = { title_king_basic_allow = yes }
+	}
+	k_mercia = { # Mierce
+		color = { 6 42 127 }
+		color2 = { 255 255 255 }
+		capital = 17 # Hereford
+		culture = saxon
+		dignity = 30
+		allow = { title_king_basic_allow = yes }
+	}
+	k_wessex = { # Westseaxe
+		color = { 68 140 48 }
+		color2 = { 255 255 255 }
+		capital = 26 # Winchester
+		culture = saxon
+		dignity = 30
+		allow = { title_king_basic_allow = yes }
+	}
 	k_wales = { # Wales
 		color = { 135 25 3 }
 		color2 = { 255 255 255 }
