@@ -12497,21 +12497,21 @@ e_britannia = {
 			}
 		}
 		allow = { title_king_basic_allow = yes }
-		k_strathclyde = {
-			color = { 90 226 196 }
-			color2 = { 255 255 255 }
-			culture = cumbric
-			capital = 1484
-			dignity = 30
-			allow = {
-				OR = {
-					culture = scottish
-					culture = cumbric
-					culture = breton
-					culture = welsh
-				}
-				title_king_basic_allow = yes
+	}
+	k_strathclyde = {
+		color = { 90 226 196 }
+		color2 = { 255 255 255 }
+		culture = cumbric
+		capital = 1484
+		dignity = 30
+		allow = {
+			OR = {
+				culture = scottish
+				culture = cumbric
+				culture = breton
+				culture = welsh
 			}
+			title_king_basic_allow = yes
 		}
 	}
 	k_ellan_vannin = {

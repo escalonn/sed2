@@ -14223,23 +14223,23 @@ e_britannia = { # Britannia
 			} # end c_dunphris
 		} # end d_strathclyde
 		allow = { title_king_basic_allow = yes }
-		k_strathclyde = { # Ystrad Clut
-			color = { 90 226 196 }
-			color2 = { 255 255 255 }
-			culture = cumbric
-			capital = 1484 # Rinn Friu # Strathclyde
-			dignity = 30
-			allow = {
-				OR = {
-					culture = scottish
-					culture = cumbric
-					culture = breton
-					culture = welsh
-				}
-				title_king_basic_allow = yes
-			}
-		}
 	} # end k_scotland
+	k_strathclyde = { # Ystrad Clut
+		color = { 90 226 196 }
+		color2 = { 255 255 255 }
+		culture = cumbric
+		capital = 1484 # Rinn Friu # Strathclyde
+		dignity = 30
+		allow = {
+			OR = {
+				culture = scottish
+				culture = cumbric
+				culture = breton
+				culture = welsh
+			}
+			title_king_basic_allow = yes
+		}
+	}
 	k_ellan_vannin = { # Man
 		color = { 60 60 118 }
 		color2 = { 255 255 255 }
