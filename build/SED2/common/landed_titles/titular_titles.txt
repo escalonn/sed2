@@ -134,6 +134,14 @@ k_cuman = { # Kumanlar # Non wild Cumans
 	dynasty_title_names = no
 }
 
+k_qangli = { # Qanglilar # Qangli
+	color = { 25 130 65 }
+	color2 = { 255 255 255 }
+	capital = 893 # Turgay
+	culture = cuman
+	allow = { title_king_basic_allow = yes }
+}
+
 k_pechenegs = { # Beçeneklar
 	color = { 79 116 79 }
 	color2 = { 255 255 255 }
