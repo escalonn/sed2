@@ -223,6 +223,7 @@ d_manichean = { # Manichaean Church
 		piety = 500
 	}
 	title = MANI_LEADER
+	title_female = MANI_LEADER
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -242,6 +243,7 @@ d_maronite = { # Maronite Church
 	primary = yes
 	allow = { always = no }
 	title = MARONITE_PATRIARCH
+	title_female = MARONITE_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -261,6 +263,7 @@ d_syriac = { # Syriac Orthodox Church
 	primary = yes
 	allow = { always = no }
 	title = SYRIAC_PATRIARCH
+	title_female = SYRIAC_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no

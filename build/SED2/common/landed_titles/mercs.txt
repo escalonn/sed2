@@ -29,6 +29,7 @@ d_band_of_the_brave = { # The brave band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -56,6 +57,7 @@ d_band_of_the_red = { # Floti hinn rauði
 		}
 	}
 	title = DROTTINN
+	title_female = DROTTINN
 	foa = CAPTAIN_FOA
 }
 
@@ -77,6 +79,7 @@ d_black_gang = { # Arumer Zwarte Hoop
 	# Hire Trigger
 	allow = { culture = frisian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -98,6 +101,7 @@ d_ulfhedar = { # Úlfhéðnar
 	# Hire Trigger
 	allow = { religion = norse_pagan }
 	title = DROTTINN
+	title_female = DROTTINN
 	foa = CAPTAIN_FOA
 }
 
@@ -119,5 +123,6 @@ d_valr = { # Valr
 	# Hire Trigger
 	allow = { religion = norse_pagan }
 	title = DROTTINN
+	title_female = DROTTINN
 	foa = CAPTAIN_FOA
 }

@@ -59,6 +59,7 @@ k_orthodox = { # The Ecumenical Patriarchate
 	# Cannot be held as a secondary title
 	primary = yes
 	title = ECUMENICAL_PATRIARCH
+	title_female = ECUMENICAL_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -162,6 +163,7 @@ d_miaphysite = { # The Miaphysite Papacy
 	# Cannot be held as a secondary title
 	primary = yes
 	title = COPTIC_POPE
+	title_female = COPTIC_POPE
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -184,6 +186,7 @@ d_monophysite = { # The Monophysite Papacy
 	# Cannot be held as a secondary title
 	primary = yes
 	title = MONOPHYSITE_POPE
+	title_female = MONOPHYSITE_POPE
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -206,6 +209,7 @@ d_nestorian = { # The Patriarchate of the East
 	# Cannot be held as a secondary title
 	primary = yes
 	title = PATRIARCH_IN_THE_EAST
+	title_female = PATRIARCH_IN_THE_EAST
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -227,6 +231,7 @@ d_paulician = { # The Paulician Patriarchate
 	# Cannot be held as a secondary title
 	primary = yes
 	title = PAULICIAN_PATRIARCH
+	title_female = PAULICIAN_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -252,6 +257,7 @@ d_monothelite = { # The Monothelite Patriarchate
 	# Cannot be held as a secondary title
 	primary = yes
 	title = MONOTHELITE_PATRIARCH
+	title_female = MONOTHELITE_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -280,6 +286,7 @@ d_fraticelli = { # The Fraticelli Papacy
 		always = no # Only by special decision
 	}
 	title = POPE
+	title_female = POPE
 	foa = POPE_FOA
 	short_name = yes
 	location_ruler_title = yes
@@ -307,6 +314,7 @@ d_iconoclast = { # The Iconoclast Patriarchate
 		always = no # Only by special decision
 	}
 	title = ECUMENICAL_PATRIARCH
+	title_female = ECUMENICAL_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -590,6 +598,7 @@ d_jewish = { # The Jewish High Priesthood
 	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_KOHEN_GADOL
+	title_female = HEAD_KOHEN_GADOL
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no
@@ -755,6 +764,7 @@ d_zoroastrian = { # The Zoroastrian Church
 	# Cannot be held as a secondary title
 	primary = yes
 	title = HEAD_MOABADAN_MOABAD
+	title_female = HEAD_MOABADAN_MOABAD
 	foa = POPE_FOA
 	short_name = yes
 	dynasty_title_names = no

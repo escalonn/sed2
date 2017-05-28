@@ -171,13 +171,19 @@ def main():
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2[template] = collections.defaultdict(list)
+        title_title = None
         for row in csv_rows(template):
             title, key, val = (s.strip() for s in row[:3])
             if val:
                 if key in ['male_names', 'female_names']:
                     val = Obj([String(x.strip('"'))
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)])
+                # default title_female to title
+                if title_title and key != 'title_female':
+                    sed2[template][title].append(Pair('title_female',
+                                                      title_title))
                 sed2[template][title].append(Pair(key, val))
+                title_title = val if key == 'title' else None
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))

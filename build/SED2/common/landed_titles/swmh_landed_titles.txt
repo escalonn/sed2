@@ -18,6 +18,7 @@ d_knights_templar = { # Knights Templar
 	# Extra income due to banking, etc
 	monthly_income = 10 # (Must be an integer between 1 and 512)
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -38,6 +39,7 @@ d_teutonic_order = { # Teutonic Order
 	# Extra income due to donations, etc
 	monthly_income = 4 # (Must be an integer between 1 and 512)
 	title = HOCHMEISTER
+	title_female = HOCHMEISTER
 	foa = HOCHMEISTER_FOA
 }
 
@@ -58,6 +60,7 @@ d_livonian_brothers_of_the_sword = { # Schwertbrüderorden
 	monthly_income = 3 # (Must be an integer between 1 and 512)
 	mercenary_type = teutonic_order_composition
 	title = HOCHMEISTER
+	title_female = HOCHMEISTER
 	foa = HOCHMEISTER_FOA
 }
 
@@ -78,6 +81,7 @@ d_knights_hospitaler = { # Knights Hospitaller
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = knights_hospitaler_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -100,6 +104,7 @@ d_hashshashin = { # Hashshashin
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = hashshashin_composition
 	title = GRANDHEADMASTER
+	title_female = GRANDHEADMASTER
 	foa = GRANDHEADMASTER_FOA
 }
 
@@ -122,6 +127,7 @@ d_bektashi = { # Bektashi Order
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = bektashi_composition
 	title = DEDEBABA
+	title_female = DEDEBABA
 	foa = GRANDHEADMASTER_FOA
 }
 
@@ -144,6 +150,7 @@ d_haruriyyah = { # Haruriyyah
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = haruriyyah_composition
 	title = DEDEBABA
+	title_female = DEDEBABA
 	foa = GRANDHEADMASTER_FOA
 }
 
@@ -164,6 +171,7 @@ d_jomsvikings = { # Jomsvikings
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = jomsvikings_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -183,6 +191,7 @@ d_immortals = { # Immortals
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = immortals_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -202,6 +211,7 @@ d_zealots = { # Zealots
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = zealots_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -221,6 +231,7 @@ d_holy_sepulchre = { # Brotherhood of the Holy Sepulchre
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = holy_sepulchre_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -240,6 +251,7 @@ d_saint_anthony = { # Order of Saint Anthony
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = saint_anthony_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -259,6 +271,7 @@ d_saint_addai = { # Order of Saint Addai
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = saint_addai_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -277,6 +290,7 @@ d_sky_lords = { # Lords of the Sky
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = sky_lords_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -296,6 +310,7 @@ d_spirit_guardians = { # Spirit Guardians
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = spirit_guardians_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -315,6 +330,7 @@ d_warriors_perun = { # Warriors of Perun
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = warriors_perun_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -334,6 +350,7 @@ d_chosen_perkunas = { # Chosen of Perkunas
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = chosen_perkunas_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -353,6 +370,7 @@ d_sons_kaleva = { # Sons of Kaleva
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = sons_kaleva_composition
 	title = WARCHIEF
+	title_female = WARCHIEF
 	foa = WARCHIEF_FOA
 }
 
@@ -372,6 +390,7 @@ d_huitzilopochtli = { # Cult of Huitzilopochtli
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = huitzilopochtli_composition
 	title = HIGHPRIEST
+	title_female = HIGHPRIEST
 	foa = GRANDMASTER_FOA
 }
 
@@ -391,6 +410,7 @@ d_knights_santiago = { # Knights of Santiago
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = knights_santiago_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -410,6 +430,7 @@ d_knights_calatrava = { # Knights of Calatrava
 	monthly_income = 6 # (Must be an integer between 1 and 512)
 	mercenary_type = knights_calatrava_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -429,6 +450,7 @@ d_followers_arjuna = { # Followers of Arjuna
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = followers_arjuna_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -448,6 +470,7 @@ d_ashokas_chosen = { # Chosen of Ashoka
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = ashokas_chosen_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -467,6 +490,7 @@ d_bulls_rishabha = { # Bulls of Rishabha
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = bulls_rishabha_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -485,6 +509,7 @@ d_zun_warriors = { # Knights of the Sun
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	mercenary_type = zun_warriors_composition
 	title = GRANDMASTER
+	title_female = GRANDMASTER
 	foa = GRANDMASTER_FOA
 }
 
@@ -506,6 +531,7 @@ d_sunni_turkic_company = { # Turkmen Company
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_turkic_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -533,6 +559,7 @@ d_sunni_cuman_company = { # Khazar Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -560,6 +587,7 @@ d_sunni_berber_company = { # Berber Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -587,6 +615,7 @@ d_sunni_bedouin_company = { # Arab Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -607,6 +636,7 @@ d_shiite_turkic_company = { # Turkoman Company
 	strength_growth_per_century = 1.0
 	mercenary_type = muslim_turkic_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -634,6 +664,7 @@ d_shiite_cuman_company = { # Steppe Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -661,6 +692,7 @@ d_shiite_berber_company = { # Tuareg Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -688,6 +720,7 @@ d_shiite_bedouin_company = { # Bedouin Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -709,6 +742,7 @@ d_white_company = { # White Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -730,6 +764,7 @@ d_great_company = { # Great Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -751,6 +786,7 @@ d_company_of_st_george = { # Company of St. George
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -772,6 +808,7 @@ d_star_company = { # Company of the Star
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -793,6 +830,7 @@ d_little_hat_company = { # Company of the Hat
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -814,6 +852,7 @@ d_rose_company = { # Company of the Rose
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -836,6 +875,7 @@ d_catalan_company = { # Catalan Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -858,6 +898,7 @@ d_navarrese_company = { # Navarrese Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -879,6 +920,7 @@ d_swiss_company = { # Swiss Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -901,6 +943,7 @@ d_breton_company = { # Breton Company
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -932,6 +975,7 @@ d_victual_brothers = { # Victual Brothers
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -951,6 +995,7 @@ d_varangian_guard = { # Varangian Guard
 	strength_growth_per_century = 0.33
 	mercenary_type = varangian_guard_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -971,6 +1016,7 @@ d_cuman_company = { # Cuman Company
 	strength_growth_per_century = 1.0
 	mercenary_type = cuman_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -998,6 +1044,7 @@ d_rus_company = { # Rus Company
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1018,6 +1065,7 @@ d_pecheneg_company = { # Pecheneg Company
 	strength_growth_per_century = 1.0
 	mercenary_type = pecheneg_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1038,6 +1086,7 @@ d_bulgarian_company = { # Bulgarian Company
 	strength_growth_per_century = 1.0
 	mercenary_type = bulgarian_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1058,6 +1107,7 @@ d_turkic_company = { # Turkic Company
 	strength_growth_per_century = 1.0
 	mercenary_type = turkic_company_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1079,6 +1129,7 @@ d_lombard_band = { # Lombard Band
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -1100,6 +1151,7 @@ d_swiss_band = { # Swiss Band
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1122,6 +1174,7 @@ d_breton_band = { # Breton Band
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1144,6 +1197,7 @@ d_catalan_band = { # Catalan Band
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CONDOTTIERO
+	title_female = CONDOTTIERO
 	foa = CONDOTTIERO_FOA
 }
 
@@ -1166,6 +1220,7 @@ d_saxon_band = { # Saxon Band
 	# Hire Trigger
 	allow = { religion_group = christian }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1186,6 +1241,7 @@ d_cuman_band = { # Cuman Band
 	strength_growth_per_century = 1.0
 	mercenary_type = cuman_band_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1213,6 +1269,7 @@ d_rus_band = { # Rus Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1240,6 +1297,7 @@ d_finnish_band = { # Finnish Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1267,6 +1325,7 @@ d_lappish_band = { # Sami Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1294,6 +1353,7 @@ d_lithuanian_band = { # Lithuanian Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1321,6 +1381,7 @@ d_abyssinian_band = { # Abyssinian Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1348,6 +1409,7 @@ d_nubian_band = { # Nubian Band
 		}
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1370,6 +1432,7 @@ d_scottish_band = { # Scottish Band
 	# Hire Trigger
 	allow = { always = yes }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1392,6 +1455,7 @@ d_irish_band = { # Irish Band
 	# Hire Trigger
 	allow = { always = yes }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1414,6 +1478,7 @@ d_alan_band = { # Alan Riders
 	# Hire Trigger
 	allow = { always = yes }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1434,6 +1499,7 @@ d_pecheneg_band = { # Pecheneg Band
 	strength_growth_per_century = 1.0
 	mercenary_type = pecheneg_band_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1454,6 +1520,7 @@ d_bulgarian_band = { # Bulgarian Band
 	strength_growth_per_century = 1.0
 	mercenary_type = bulgarian_band_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1474,6 +1541,7 @@ d_turkic_band = { # Turkic Band
 	strength_growth_per_century = 1.0
 	mercenary_type = turkic_band_composition
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1494,6 +1562,7 @@ d_mamluks = { # Mamluks
 	# Hire Trigger
 	allow = { religion_group = muslim }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1517,6 +1586,7 @@ d_venetian_navy = { # Adriatic Galleys
 		year = 1066
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 	short_name = yes
 }
@@ -1541,6 +1611,7 @@ d_genoese_navy = { # Ligurian Galleys
 		year = 1066
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 	short_name = yes
 }
@@ -1565,6 +1636,7 @@ d_hanseatic_navy = { # Baltic Cogs
 		year = 1066
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 	short_name = yes
 }
@@ -1589,6 +1661,7 @@ d_frisian_navy = { # North Sea Cogs
 		year = 1066
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 	short_name = yes
 }
@@ -1614,6 +1687,7 @@ d_maghreb_corsairs = { # Maghreb Navy
 		year = 1066
 	}
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 	short_name = yes
 }
@@ -1636,6 +1710,7 @@ d_ghilman = { # Ghilman
 	# Hire Trigger
 	allow = { religion_group = muslim }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1658,6 +1733,7 @@ d_ghanan_band = { # Ghanan Band
 	# Hire Trigger
 	allow = { culture_group = west_african }
 	title = CAPTAIN
+	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
 }
 
@@ -1856,6 +1932,7 @@ e_hre = { # Heiliges Römisches Reich
 			dignity = 10
 			capital = 118 # Trier
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_trier = { # Trier (118)
@@ -2243,6 +2320,7 @@ e_hre = { # Heiliges Römisches Reich
 			culture = franconian
 			dignity = 10
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_koln = { # Cologne (119) # Köln
@@ -2416,6 +2494,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 87 # Osnabrück
 			culture = low_saxon
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_osnabruck = { # Osnabrück (87)
@@ -2439,6 +2518,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 88 # Münster
 			culture = low_saxon
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_munster = { # Münster (88)
@@ -2464,6 +2544,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 848 # Bremen
 			culture = low_saxon
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_bremen = { # Bremen (848)
@@ -2542,6 +2623,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 1074 # Magdeburg
 			culture = low_saxon
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_magdeburg = { # Magdeburg (1074)
@@ -2851,6 +2933,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 123 # Mainz
 			culture = franconian
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_mainz = { # Mainz (123)
@@ -3053,6 +3136,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 313 # Bamberg
 			culture = franconian
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_bamberg = { # Bamberg (313)
@@ -3148,6 +3232,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 448 # Salzburg
 			culture = bavarian
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			greek = "Iuvavum"
@@ -3451,6 +3536,7 @@ e_hre = { # Heiliges Römisches Reich
 			culture = swabian
 			capital = 955 # Augsburg
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_augsburg = { # Augsburg (955)
@@ -3517,6 +3603,7 @@ e_hre = { # Heiliges Römisches Reich
 			culture = swabian
 			capital = 247 # Chur
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			greek = "Curia Raetorum"
@@ -3780,6 +3867,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 437 # Praha
 			culture = bohemian
 			title = DB
+			title_female = DB
 			foa = DB_FOA
 			title_prefix = DB_OF
 			c_praha = { # Praha (437)
@@ -3971,6 +4059,7 @@ e_hre = { # Heiliges Römisches Reich
 			capital = 440 # Olomouc
 			culture = moravian
 			title = DM
+			title_female = DM
 			foa = DM_FOA
 			title_prefix = DM_OF
 			c_olomouc = { # Olomouc (440)
@@ -9121,6 +9210,7 @@ e_carpathia = { # Magyarország
 		catholic = 100 # Crusade target weight
 		orthodox = 200 # Crusade target weight
 		title = VOIEVODAT
+		title_female = VOIEVODAT
 		foa = VOIEVODAT_FOA
 		title_prefix = VOIEVODAT_OF
 		d_wallachia = { # Muntenia
@@ -9200,6 +9290,7 @@ e_carpathia = { # Magyarország
 		catholic = 100 # Crusade target weight
 		orthodox = 200 # Crusade target weight
 		title = VOIEVODAT
+		title_female = VOIEVODAT
 		foa = VOIEVODAT_FOA
 		title_prefix = VOIEVODAT_OF
 		d_moldau = { # Tara de Sus
@@ -16406,6 +16497,7 @@ e_france = { # France
 			capital = 1037 # Basel
 			culture = german
 			title = FE
+			title_female = FE
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_basel = { # Basel (1037)
@@ -23445,6 +23537,7 @@ e_null = { #
 			title_king_basic_allow = yes
 		}
 		title = ISHKHAN
+		title_female = ISHKHAN
 		foa = ISHKHAN_FOA
 		title_prefix = ISHKHAN_OF
 	}
@@ -27957,6 +28050,7 @@ d_massufa = { # Massúfa
 	culture = sanhaja
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -27967,6 +28061,7 @@ d_lamtuna = { # Lamtúna
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -27977,6 +28072,7 @@ d_lamta = { # Lamta
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -27987,6 +28083,7 @@ d_lamta_east = { # Lamta
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -27997,6 +28094,7 @@ d_guddala = { # Djuddála
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28007,6 +28105,7 @@ d_gazzula = { # Djazzúla
 	culture = tagelmust
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28017,6 +28116,7 @@ d_lawata = { # Lawata
 	capital = 807 # Awjíla
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28027,6 +28127,7 @@ d_masila = { # Masila
 	capital = 804 # Sullum
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28037,6 +28138,7 @@ d_dakhila = { # Dakhila
 	capital = 1342 # Dakhila
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28047,6 +28149,7 @@ d_musab = { # Mus'ab
 	culture = zaghawa
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28057,6 +28160,7 @@ d_azger = { # Azger
 	culture = sanhaja
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28067,6 +28171,7 @@ d_mazata = { # Mazáta
 	culture = zanata
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28086,6 +28191,7 @@ d_naqis = { # Naqís
 	culture = beja
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28096,6 +28202,7 @@ d_kanz = { # Kanz # Banu al-Kanz
 	capital = 794 # Aswan
 	allow = { always = no }
 	title = KANZ
+	title_female = KANZ
 	foa = KANZ_FOA
 }
 
@@ -28106,6 +28213,7 @@ d_baqlin = { # Baqlín
 	capital = 1502 # Maikele Bahr
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28116,6 +28224,7 @@ d_djarin = { # Djarín
 	capital = 1489 # Wolqayt
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28126,6 +28235,7 @@ d_qataa = { # Qata'a
 	capital = 1507 # Marya
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28136,6 +28246,7 @@ d_bazin = { # Bazín
 	capital = 1508 # Adulis # Audlis (or 878?)
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28146,6 +28257,7 @@ d_danakil = { # Danakil
 	capital = 1517 # Danakil
 	allow = { always = no }
 	title = RAIS
+	title_female = RAIS
 	foa = RAIS_FOA
 }
 
@@ -28551,6 +28663,7 @@ k_tiaret = { # Tiáret
 	capital = 833 # Táhart # Táhert/c_atlas_mnt
 	allow = { title_king_basic_allow = yes }
 	title = IMAM
+	title_female = IMAM
 	foa = IMAM_FOA
 	title_prefix = IMAMATE_OF
 }
@@ -28591,6 +28704,7 @@ k_kimek = { # Kimek
 	capital = 1575 # Zaysan
 	allow = { title_king_basic_allow = yes }
 	title = Khan
+	title_female = Khan
 	foa = Khan_FOA
 	title_prefix = Khanliq_of
 }
