@@ -3427,12 +3427,10 @@ e_hre = { # Heiliges Römisches Reich
 				color2 = { 255 255 255 }
 				culture = karantanci
 				b_gorz = {}
-				b_grado = {}
-				b_vrtojba = {}
-				b_cervignano = {}
-				b_monfalcone = {}
+				b_kanal = {}
 				b_cormons = {}
-				b_gradisca = {}
+				b_farra = {}
+				b_monfalcone = {}
 			} # end c_gorz
 			c_karnten = { # Kärnten (456)
 				color = { 244 247 160 }
@@ -3497,13 +3495,13 @@ e_hre = { # Heiliges Römisches Reich
 				color2 = { 255 255 255 }
 				culture = venetian
 				b_aquileia = {}
-				b_portoguaro = {}
+				b_porcia = {}
 				b_udine = {}
-				b_motta = {}
+				b_Polcenic = {}
 				b_ciridale = {}
-				b_tarcento = {}
-				b_pieve = {}
-				#b_sacile = {}
+				b_polcenigo = {}
+				b_pordenone = {}
+				b_spilimbergo = {}
 			}
 			allow = {
 				religion_group = christian
@@ -16214,22 +16212,14 @@ e_italy = { # Italia
 			c_venezia = { # Venezia (356)
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
-				b_venezia = {}
-				b_rialto = {}
-				b_pallestrina = {}
+				b_venezia = {} # Rialto
+				b_san_marco = {}
 				b_chioggia = {}
-				b_jesolo = {}
+				b_portogruaro = {}
+				b_concordia = {}
 				b_murano = {}
 				b_torcello = {}
-				#b_lido = {}
-				#b_venezia = {}
-				#b_san_marco = {}
-				#b_chioggia = { venetian = "Cióxa" }
-				#b_portogruaro = { venetian = "Portogruèr" }
-				#b_concordia = { venetian = "Cuncuardhia" }
-				#b_murano = { venetian = "Muran" }
-				#b_torcello = { venetian = "Torcèlo" }
-				#b_caorle = { venetian = "Càorle" }
+				b_caorle = {}
 			}
 		}
 		allow = {
