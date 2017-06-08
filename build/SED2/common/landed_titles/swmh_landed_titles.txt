@@ -13538,7 +13538,12 @@ e_britannia = { # Britannia
 			}
 			title_king_basic_allow = yes
 		}
-		gain_effect = { custom_tooltip = { text = ENGLAND_BECOMES_DE_JURE_TT } }
+		gain_effect = {
+			if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				custom_tooltip = { text = ENGLAND_BECOMES_DE_JURE_TT }
+			}
+		}
 	} # end k_england
 	k_east_anglia = { # Eastengle
 		color = { 60 109 121 }
