@@ -11832,7 +11832,15 @@ e_britannia = {
 				b_st_peter_port = {}
 			}
 		}
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			regional_percentage = {
+				region = custom_england
+				percentage = 0.5
+				owner_under_ROOT = yes
+			}
+			title_king_basic_allow = yes
+		}
+		gain_effect = { custom_tooltip = { text = ENGLAND_BECOMES_DE_JURE_TT } }
 	}
 	k_east_anglia = {
 		color = { 60 109 121 }
