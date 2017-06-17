@@ -483,7 +483,7 @@ d_volhynians = { # Volyniane
 }
 
 d_buzhans = { # Buzhane
-	color = { 82 81 75 }
+	color = { 20 75 90 }
 	color2 = { 255 255 255 }
 	culture = russian
 	#tribe = yes
@@ -550,6 +550,15 @@ d_radimichi = { # Radimichi
 	culture = russian
 	#tribe = yes
 	capital = 551 # Mstislavl
+	allow = { always = no }
+}
+
+d_polyane = { # Polyane
+	color = { 82 81 75 }
+	color2 = { 255 255 255 }
+	culture = russian
+	#tribe = yes
+	capital = 547 # Kiev
 	allow = { always = no }
 }
 
