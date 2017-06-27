@@ -743,7 +743,7 @@ e_wendish_empire = { # Wendish Empire
 	capital = 441 # Boruy # Brno
 	allow = {
 		OR = {
-			religion = catholic
+			religion_group = christian
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
 		}

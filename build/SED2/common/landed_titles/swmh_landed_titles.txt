@@ -13551,7 +13551,7 @@ e_britannia = { # Britannia
 						has_character_flag = swmh_can_form_england
 					}
 				}
-				FROM = { has_holder = yes } # usurpation always OK; assumes titular kingdom creation is disabled
+				FROM = { has_holder = yes } # usurpation always OK
 			}
 			title_king_basic_allow = yes
 		}
@@ -14351,8 +14351,8 @@ e_britannia = { # Britannia
 		dignity = 30
 		allow = {
 			OR = {
-				culture = scottish
 				culture = cumbric
+				culture = scottish
 				culture = breton
 				culture = welsh
 			}
@@ -14377,28 +14377,8 @@ e_britannia = { # Britannia
 				b_maughold = {}
 			} # end c_isle_of_man
 			allow = {
-				OR = {
-					lower_real_tier_than = duke
-					any_vassal = {
-						lower_real_tier_than = duke
-						has_landed_title = c_isle_of_man
-					}
-					AND = {
-						higher_real_tier_than = count
-						any_demesne_title = {
-							tier = count
-							NOT = { title = c_isle_of_man }
-						}
-					}
-					any_vassal = {
-						higher_real_tier_than = count
-						has_landed_title = c_isle_of_man
-						any_demesne_title = {
-							tier = count
-							NOT = { title = c_isle_of_man }
-						}
-					}
-				}
+				c_isle_of_man = { owner_under_ROOT = yes }
+				num_of_count_titles = 2
 			}
 		} # end d_ellan_vannin
 		d_hebrides = { # Inner Hebrides
@@ -14554,7 +14534,9 @@ e_britannia = { # Britannia
 	allow = {
 		OR = {
 			religion_group = christian
-			religion_group = pagan_group
+			culture_group = north_germanic
+			culture_group = west_germanic
+			culture_group = celtic
 		}
 		title_emperor_basic_allow = yes
 	}

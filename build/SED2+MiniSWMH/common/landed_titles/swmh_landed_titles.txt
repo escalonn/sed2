@@ -12626,8 +12626,8 @@ e_britannia = {
 		dignity = 30
 		allow = {
 			OR = {
-				culture = scottish
 				culture = cumbric
+				culture = scottish
 				culture = breton
 				culture = welsh
 			}
@@ -12652,28 +12652,8 @@ e_britannia = {
 				b_maughold = {}
 			}
 			allow = {
-				OR = {
-					lower_real_tier_than = duke
-					any_vassal = {
-						lower_real_tier_than = duke
-						has_landed_title = c_isle_of_man
-					}
-					AND = {
-						higher_real_tier_than = count
-						any_demesne_title = {
-							tier = count
-							NOT = { title = c_isle_of_man }
-						}
-					}
-					any_vassal = {
-						higher_real_tier_than = count
-						has_landed_title = c_isle_of_man
-						any_demesne_title = {
-							tier = count
-							NOT = { title = c_isle_of_man }
-						}
-					}
-				}
+				c_isle_of_man = { owner_under_ROOT = yes }
+				num_of_count_titles = 2
 			}
 		}
 		d_hebrides = {
@@ -12827,7 +12807,9 @@ e_britannia = {
 	allow = {
 		OR = {
 			religion_group = christian
-			religion_group = pagan_group
+			culture_group = north_germanic
+			culture_group = west_germanic
+			culture_group = celtic
 		}
 		title_emperor_basic_allow = yes
 	}
