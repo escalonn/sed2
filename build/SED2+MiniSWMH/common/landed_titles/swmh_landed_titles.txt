@@ -11845,12 +11845,16 @@ e_britannia = {
 			}
 		}
 		allow = {
+			independent = yes
 			OR = {
 				custom_tooltip = {
 					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
 					hidden_tooltip = {
 						ai = no
-						has_character_flag = swmh_can_form_england
+						any_realm_province = {
+							count = 23
+							region = custom_england
+						}
 					}
 				}
 				FROM = { has_holder = yes }

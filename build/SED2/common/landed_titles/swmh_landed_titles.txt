@@ -13543,12 +13543,16 @@ e_britannia = { # Britannia
 			}
 		} # end d_channel_islands
 		allow = {
+			independent = yes
 			OR = {
 				custom_tooltip = {
 					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
 					hidden_tooltip = {
-						ai = no
-						has_character_flag = swmh_can_form_england
+						ai = no # AI creates this title solely via explicit maintenance, so none of this is for them
+						any_realm_province = {
+							count = 23 # there are 44 counties in the current custom_england; this is >50%
+							region = custom_england
+						}
 					}
 				}
 				FROM = { has_holder = yes } # usurpation always OK
