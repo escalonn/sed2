@@ -5,19 +5,19 @@
 d_oxford = { # Oxford
 	color = { 99 68 5 }
 	capital = 22 # Oxford
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_chester = { # Chester
 	color = { 121 29 29 }
 	capital = 59 # Chester
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_gloucester = { # Hwicce
 	color = { 57 21 209 }
 	capital = 21 # Gloucester
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 b_zussow = {}
@@ -27,26 +27,26 @@ b_kolbatz = {}
 d_yaroslavl = { # Yaroslavl
 	color = { 178 192 134 }
 	capital = 572 # Yaroslavl
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
 	capital = 417 # Vitebsk
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_cheremisa = { # Cheremisa
 	color = { 188 115 43 }
 	color2 = { 255 255 255 }
 	capital = 590 # Sura # Chuvash
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_pronsk = { # Pronsk
 	color = { 23 132 81 }
 	capital = 577 # Pronsk
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_socotra = { # Socotra
@@ -54,7 +54,7 @@ d_socotra = { # Socotra
 	color2 = { 255 255 255 }
 	capital = 1552 # Suqutra # Socotra
 	dignity = 10
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_aosta = { # Aosta
@@ -62,7 +62,7 @@ d_aosta = { # Aosta
 	color2 = { 255 255 255 }
 	capital = 246 # Aosta
 	culture = arpitan
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 # TITULAR SWMH
@@ -189,7 +189,7 @@ d_black_caps = { # Karakalpaklar
 			culture = oghuz
 			culture = pecheneg
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	dynasty_title_names = no
 	russian = "Chorni Klobuky"
@@ -269,7 +269,7 @@ d_lauenburg = { # Sachsen-Lauenburg
 	allow = {
 		c_lauenburg = { owner_under_ROOT = yes }
 		NOT = { tier = emperor }
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -281,7 +281,7 @@ d_sangermano = { # Terra Sancti Benedicti
 		religion_group = christian
 		is_theocracy = yes
 		piety = 500
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	short_name = yes
 }
@@ -313,7 +313,7 @@ d_krain = { # Krain # Marcher County of Krain/Carniola
 		religion_group = christian
 		has_landed_title = c_celje
 		has_landed_title = c_krain
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	title = MARGRAVE
 	title_female = MARGRAVINE
@@ -330,7 +330,7 @@ d_austrialombardic = { # Austria
 		religion_group = christian
 		has_landed_title = d_verona
 		has_landed_title = d_aquileia
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -346,7 +346,7 @@ d_neustria = { # Neustria
 		has_landed_title = d_modena
 		has_landed_title = d_ivrea
 		has_landed_title = d_monferrato
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -359,7 +359,7 @@ d_tuscia = { # Tuscia
 		religion_group = christian
 		has_landed_title = d_lucca
 		has_landed_title = d_toscana
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -407,7 +407,7 @@ d_smaland = { # Småland
 			has_landed_title = c_finnveden
 		}
 		lower_tier_than = king
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -453,7 +453,7 @@ d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer le
 	color2 = { 255 255 255 }
 	capital = 214 # Tolosa # Toulouse
 	culture = occitan
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 # King
@@ -466,7 +466,7 @@ d_paulicians = { # Paulikianoi
 			culture = armenian
 		}
 		religion = paulician
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -517,7 +517,7 @@ d_pagania = { # Neretljani
 			culture = croatian
 		}
 		religion = slavic_pagan
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -531,7 +531,7 @@ d_rhodos = { # Rhodos
 		}
 		religion_group = christian
 		has_landed_title = c_rhodos
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	title = CAESAR
 	title_female = CAESAR
@@ -545,7 +545,7 @@ d_amiralarab = { # Arabiyya # Amir-al-Arab
 	allow = {
 		culture = bedouin_arabic
 		religion_group = muslim
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	title = AMIR_AL_ARAB
 }
@@ -556,7 +556,7 @@ d_norman_apulia = { # Apulia
 	allow = {
 		culture = frankish
 		religion_group = christian
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	title_female = AMIR_AL_ARAB
 	name_tier = count
@@ -576,7 +576,7 @@ d_tiflis = { # Tiflis
 	capital = 1357 # Tbilisi
 	allow = {
 		religion_group = muslim
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -598,7 +598,7 @@ d_vanand = { # Vanand
 	allow = {
 		culture = armenian
 		religion_group = christian
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -609,7 +609,7 @@ d_mingrelia = { # Samegrelo
 	allow = {
 		culture = georgian
 		religion_group = christian
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -619,7 +619,7 @@ d_theodoro = { # Gotthías # Gothia
 	capital = 1699 # Doros # Theodoro
 	allow = {
 		culture = east_gothic
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -630,7 +630,7 @@ d_meshketi = { # Meskheti
 	allow = {
 		culture = georgian
 		religion_group = christian
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -701,7 +701,7 @@ k_iberia = { # Kartli
 d_dahlak = { # Dahlak
 	color = { 255 164 17 }
 	capital = 1509 # Saho # Dahlak
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_sadah = { # Sadah
@@ -718,7 +718,7 @@ d_sadah = { # Sadah
 			culture = somali
 		}
 		religion_group = muslim
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -736,7 +736,7 @@ d_sharif_medina = { # Madinah # Medina
 			culture = somali
 		}
 		religion_group = muslim
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -754,7 +754,7 @@ d_sharif_mecca = { # Makkah # Mecca
 			culture = somali
 		}
 		religion_group = muslim
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -768,7 +768,7 @@ d_siraf = { # Siráf
 			culture = bedouin_arabic
 		}
 		is_republic = yes
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -815,21 +815,21 @@ d_breifne = { # Breifne
 	color = { 54 135 39 }
 	color2 = { 136 0 21 }
 	capital = 8 # Leitrim
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_thomond = { # Thomond
 	color = { 30 100 80 }
 	color2 = { 255 255 255 }
 	capital = 13 # Clare # Thomond
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_ossory = { # Ossory
 	color = { 60 200 10 }
 	color2 = { 255 255 255 }
 	capital = 12 # Ossory
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	irish = "Osraige"
 	scottish = "Osraige"
 	cumbric = "Osraige"
@@ -843,7 +843,7 @@ d_oneill = { # O'Neill
 	color = { 70 106 21 }
 	color2 = { 255 255 255 }
 	capital = 4 # Tyrone
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	irish = "Uí Néill"
 	scottish = "Uí Néill"
 	cumbric = "Uí Néill"
@@ -857,7 +857,7 @@ d_airgialla = { # Airgíalla
 	color = { 30 180 20 }
 	color2 = { 251 140 17 }
 	capital = 7 # Oriel
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_khawarij = { # Khawarij (used for the Kharijite Rebellion)
@@ -866,7 +866,7 @@ d_khawarij = { # Khawarij (used for the Kharijite Rebellion)
 	capital = 697 # Mosul
 	allow = {
 		religion = kharijite
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -875,5 +875,5 @@ d_asturias = { # Asturias
 	color = { 19 83 180 }
 	color2 = { 0 0 0 }
 	capital = 155 # Asturias de Oviedo
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }

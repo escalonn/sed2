@@ -1789,7 +1789,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_borsele = {}
 				#b_zierikzee = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_holland
 		d_utrecht = { # Utrecht
 			color = { 17 104 8 }
@@ -1818,7 +1818,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_coevorden = {}
 				b_zwolle = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_gelre = { # Gelre
 			color = { 64 105 139 }
@@ -1854,7 +1854,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_eerbeek = {}
 				b_leuvenheim = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gelre
 		d_frisia = { # Friesland
 			color = { 7 18 161 }
@@ -1907,7 +1907,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_assen = {}
 				#b_harlingen = { frisian = "Harns" }
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_frisia
 		allow = {
 			hidden_tooltip = {
@@ -1956,7 +1956,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_trier
 		d_luxembourg = { # Luxembourg
@@ -2004,7 +2004,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_orchimont = {}
 				b_orval = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_luxembourg
 		d_pfalz = { # Pfalzgrafschaft bei Rhein
 			color = { 37 114 179 }
@@ -2047,7 +2047,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_lemberg = {}
 				b_sclossveldenz = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pfalz
 		d_upper_lorraine = { # Lothringen
 			color = { 255 166 0 }
@@ -2102,7 +2102,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_mortagnedevosges = {}
 				#b_saintavoid = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_upper_lorraine
 		d_barleduc = { # Bar
 			color = { 38 24 109 }
@@ -2135,7 +2135,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_scaaarpone = {}
 				b_toul = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			OR = {
@@ -2232,7 +2232,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_andenne = {}
 				b_dinant = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_brabant
 		d_liege = { # Liége
 			color = { 250 79 0 }
@@ -2260,7 +2260,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_tongeren = {}
 				b_hesbaie = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_liege
 		d_hainaut = { # Hainaut
 			color = { 85 3 196 }
@@ -2299,7 +2299,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_dachin = {}
 				b_lecateau = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_hainaut
 		d_limburg = { # Limburg
 			color = { 87 87 128 }
@@ -2324,7 +2324,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_ham = {}
 				b_duren = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_koln = { # Köln
 			color = { 27 78 32 }
@@ -2357,7 +2357,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_koln
 		d_berg = { # Jülich-Kleve-Berg
@@ -2411,7 +2411,7 @@ e_hre = { # Heiliges Römisches Reich
 				}
 				b_aachen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_berg
 		allow = {
 			OR = {
@@ -2470,7 +2470,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_oberkirchsaxony = {}
 				b_buckeburg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_oldenburg = { # Niedersachsen
 			color = { 181 9 53 }
@@ -2503,7 +2503,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_delmenhorst = {}
 				b_wiefelstede = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_osnabruck = { # Osnabrück
 			color = { 106 128 191 }
@@ -2527,7 +2527,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bishopmunster = { # Münster
@@ -2554,7 +2554,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bremen = { # Bremen
@@ -2582,7 +2582,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_holstein = { # Holstein
@@ -2636,7 +2636,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_hachhede = {}
 				#b_buxtehude = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_holstein
 		d_magdeburg = { # Magdeburg
 			color = { 133 50 75 }
@@ -2658,7 +2658,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_saxewittenberg = { # Sachsen-Wittenberg
@@ -2722,7 +2722,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_gotha = {}
 				#b_apoldoa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_saxewittenberg
 		d_meissen = { # Meissen
 			color = { 200 193 40 }
@@ -2770,7 +2770,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_halle = {}
 				b_naumburg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_meissen
 		d_altmark = { # Altmark
 			color = { 47 71 31 }
@@ -2787,7 +2787,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_walbeck = {}
 				b_tangermunde = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_brunswick = { # Braunschweig-Lüneburg
 			color = { 224 182 85 }
@@ -2844,7 +2844,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_helmstedt = {}
 				b_gandersheim = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_brunswick
 		allow = {
 			OR = {
@@ -2910,7 +2910,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_biburc = {}
 				b_moskebach = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_rheinfranken
 		d_wurzburg = { # Ostfranken
 			color = { 231 221 198 }
@@ -2953,7 +2953,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_theiheim = {}
 				b_mainderheim = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_wurzburg
 		d_mainz = { # Mainz
 			color = { 218 61 23 }
@@ -2981,7 +2981,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_thuringia = { # Thüringen
@@ -3014,7 +3014,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_eichsfeld = {}
 				#b_reuss = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_hessen = { # Hessen
 			color = { 8 64 255 }
@@ -3049,7 +3049,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_isenburg = {}
 				#b_braunfels = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			OR = {
@@ -3118,7 +3118,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_rohrbach = {}
 				#b_kirchroth = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_niederbayern
 		d_tyrol = { # Tirol
 			color = { 126 28 19 }
@@ -3161,7 +3161,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_albano = {}
 				#b_avio = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tyrol
 		d_bamberg = { # Bamberg
 			color = { 240 189 63 }
@@ -3186,7 +3186,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nuremberg = { # Nürnberg
@@ -3229,7 +3229,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_furth = {}
 				b_erlangen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nuremberg
 		d_oberbayern = { # Oberbaiern
 			color = { 81 151 200 }
@@ -3260,7 +3260,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_pfaffenberg = {}
 				#b_ebersberg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_salzburg = { # Salzburg
 			color = { 164 33 33 }
@@ -3291,7 +3291,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_osterreich = { # Österreich
@@ -3364,7 +3364,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_pottschach = {}
 				b_seebenstein = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_osterreich
 		allow = {
 			OR = {
@@ -3430,7 +3430,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_windischgraz = {}
 				#b_guetenegg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_styria
 		d_carinthia = { # Kärnten
 			color = { 98 120 93 }
@@ -3502,7 +3502,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_volkermarkt = {}
 				#b_trixen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_carinthia
 		d_istria = { # Istra
 			color = { 59 51 164 }
@@ -3536,7 +3536,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_koper = {}
 				b_duino = {}
 			} # end c_trieste
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_istria
 		d_aquileia = { # Friùli
 			color = { 167 136 62 }
@@ -3560,7 +3560,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -3608,7 +3608,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_baden = { # Baden
@@ -3649,7 +3649,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_breisach = {}
 				#b_rottweil = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_baden
 		d_chur = { # Chur
 			color = { 100 76 131 }
@@ -3680,7 +3680,7 @@ e_hre = { # Heiliges Römisches Reich
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alsace = { # Alsace
@@ -3719,7 +3719,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_landser = {}
 				#b_thann = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alsace
 		d_zahringen = { # Zähringen
 			color = { 17 85 70 }
@@ -3779,7 +3779,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_winterthur = {}
 				#b_schanis = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zahringen
 		d_teck = { # Teck
 			color = { 106 109 53 }
@@ -3841,7 +3841,7 @@ e_hre = { # Heiliges Römisches Reich
 				#b_esslingen = {}
 				#b_herrenberg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_teck
 		d_burgau = { # Burgau
 			color = { 164 102 0 }
@@ -3900,7 +3900,7 @@ e_hre = { # Heiliges Römisches Reich
 				b_baldern = {}
 				b_spielberg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_burgau
 		allow = {
 			OR = {
@@ -4111,7 +4111,7 @@ e_hre = { # Heiliges Römisches Reich
 				#	german = "Töpel"
 				#}
 			} # end c_plzen
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bohemia
 		d_moravia = { # Morawske
 			color = { 157 101 35 }
@@ -4208,7 +4208,7 @@ e_hre = { # Heiliges Römisches Reich
 				#}
 				#b_tisnov = {}
 			} # end c_brno
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_moravia
 		allow = {
 			has_landed_title = d_bohemia
@@ -4398,7 +4398,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_imbros = {}
 				b_skyros = {}
 			} # end c_lesbos
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aegean_islands
 		d_thrace = { # Thrakes
 			color = { 194 129 1 }
@@ -4493,7 +4493,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_bulgarophygon = {}
 				b_medea = {}
 			} # end c_thrake
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_thrace
 		d_strymon = { # Strymonos
 			color = { 0 86 148 }
@@ -4543,7 +4543,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_polystylon = {}
 				b_xanthia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_strymon
 		d_thessalonika = { # Thessalonikes
 			color = { 205 22 30 }
@@ -4623,7 +4623,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_kitros = {}
 				b_dion = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_thessalonika
 		d_neopatras = { # Megále Vlachía
 			color = { 64 90 64 }
@@ -4689,7 +4689,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_domokos = {}
 				b_siderokastronthessaly = {}
 			} # end c_neopatras
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_neopatras
 		allow = {
 			OR = {
@@ -4792,7 +4792,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_himara = {}
 				b_sopot = {}
 			} # end c_valona
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dyrrachion
 		d_epirus = { # Nikopoleos
 			color = { 48 111 135 }
@@ -4875,7 +4875,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_vonitsza = {}
 				b_aetos = {}
 			} # end c_arta
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_epirus
 		d_cephalonia = { # Kephallenias
 			color = { 48 111 135 }
@@ -4934,7 +4934,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_kassiopi = {}
 				b_angelokastro = {}
 			} # end c_corfu
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cephalonia
 		allow = {
 			OR = {
@@ -5055,7 +5055,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_eleusis = {}
 				b_salamis = {}
 			} # end c_atheniai
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_athens
 		d_achaia = { # Peloponnesou
 			color = { 246 188 0 }
@@ -5174,7 +5174,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_karytaina = {}
 				b_tripolitsa = {}
 			} # end c_arcadia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_achaia
 		allow = {
 			OR = {
@@ -5216,7 +5216,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_palaeokastro = {}
 				b_agiosnikolaos = {}
 			} # end c_chandax
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_krete
 		allow = {
 			OR = {
@@ -5269,7 +5269,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_gangra = {}
 				b_dokeia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_paphlagonia
 		d_boukellarion = { # Boukellarion
 			color = { 80 159 20 }
@@ -5323,7 +5323,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_haymana = {}
 				b_gordion = {}
 			} # end c_ankyra
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_boukellarion
 		d_samos = { # Samou
 			color = { 67 112 88 }
@@ -5370,7 +5370,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_klazomeanai = {}
 				b_tios = {}
 			} # end c_smyrna
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_samos
 		d_thracesia = { # Thrakesion
 			color = { 154 43 116 }
@@ -5425,7 +5425,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_khliara = {}
 				b_kalamos = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_thracesia
 		d_opsikon = { # Opsikion
 			color = { 36 83 169 }
@@ -5510,7 +5510,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_nakoleia = {}
 				b_midaion = {}
 			} # end c_dorylaion
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_opsikon
 		d_optimatoi = { # Optimàton
 			color = { 136 83 69 }
@@ -5575,7 +5575,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_hieria = {}
 				b_kartalimen = {}
 			} # end c_chrysopolis
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_optimatoi
 		d_cibyrrhaeot = { # Kibyrrhaioton
 			color = { 44 83 40 }
@@ -5642,7 +5642,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_knidos = {}
 				b_strobilos = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cibyrrhaeot
 		allow = {
 			OR = {
@@ -5697,7 +5697,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_mokissos = {}
 				b_basilika_therma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_charsianon
 		d_cappadocia = { # Kappadokias
 			color = { 109 95 80 }
@@ -5736,7 +5736,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_nyssa = {}
 				b_aspona = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cappadocia
 		d_coloneia = { # Koloneias
 			color = { 217 127 61 }
@@ -5775,7 +5775,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_koptos = {}
 				b_arabrakes = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_coloneia
 		d_sebasteia = { # Sebasteias
 			color = { 17 50 61 }
@@ -5813,7 +5813,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_ariaratheia = {}
 				b_armaxa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sebasteia
 		d_lykandos = { # Lykàndou
 			color = { 30 220 31 }
@@ -5847,7 +5847,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_ariaramneia = {}
 				b_komanachryse = {}
 			} # end c_lykandos
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lykandos
 		d_anatolia = { # Anatolikon
 			color = { 255 206 45 }
@@ -5906,7 +5906,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_barata = {}
 				b_derbe = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_anatolia
 		d_melitene = { # Malatya
 			color = { 27 56 162 }
@@ -5926,7 +5926,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_qlaudia = {}
 				b_gubos = {}
 			} # end c_melitene
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_melitene
 		allow = {
 			OR = {
@@ -5981,7 +5981,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				has_landed_title = c_nicosia
 				has_landed_title = c_famagusta
 				has_landed_title = c_limisol
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_cyprus
 		allow = {
@@ -6044,7 +6044,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#	turkish = "Ünye"
 				#}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_trebizond
 		d_cherson = { # Chersõnos # Chersonessos
 			color = { 225 187 34 }
@@ -6130,7 +6130,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_foros = {}
 				b_gurzuf = {}
 			} # end c_cherson
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cherson
 		d_armeniacon = { # Armeniakon
 			color = { 188 191 175 }
@@ -6185,7 +6185,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_eukhaita = {}
 				b_andrapa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_armeniacon
 		allow = {
 			OR = {
@@ -6262,7 +6262,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_bagras = {}
 				b_myriandus = {}
 			} # end c_alexandretta
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_armenia_minor
 		d_seleukeia = { # Seleukeia
 			color = { 26 13 107 }
@@ -6305,7 +6305,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_selinus = {}
 				b_seguik = {}
 			} # end c_anamur
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_seleukeia
 		allow = {
 			OR = {
@@ -6387,7 +6387,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_kran = {}
 				b_kteina = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_turnovo
 		d_karvuna = { # Karvuna
 			color = { 63 127 98 }
@@ -6413,7 +6413,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_chilia = {}
 				b_harsova = {}
 			} # end c_constantia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_karvuna
 		d_adrianopolis = { # Plovdiv
 			color = { 146 0 5 }
@@ -6482,7 +6482,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_kopsis = { # Is it actually just a greek rendering of Sopot?
 				}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_adrianopolis
 		d_vidin = { # Vidin
 			color = { 122 103 58 }
@@ -6514,7 +6514,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_branicevo = {}
 				b_golubac = {}
 			} # end c_branicevo
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vidin
 		d_ohrid = { # Ohrid
 			color = { 249 254 214 }
@@ -6598,7 +6598,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#	pecheneg = "Ivranye"
 				#}
 			} # end c_naissus
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ohrid
 		allow = {
 			OR = {
@@ -6647,7 +6647,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_pec_hvosno = {}
 				b_prizren = {}
 			} # end c_prizren
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_rashka
 		d_macva = { # Macva
 			color = { 215 207 123 }
@@ -6675,7 +6675,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_zemun = {}
 				b_belgrade = {}
 			} # end c_belgrade
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_macva
 		d_hum = { # Zahumlje
 			color = { 179 94 13 }
@@ -6712,7 +6712,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_blagaj = {}
 				b_zaborani = {}
 			} # end c_zachlumia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_hum
 		d_dioclea = { # Zeta
 			color = { 170 184 115 }
@@ -6790,7 +6790,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_onogost = {}
 				b_trebinje = {}
 			} # end c_travunija
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dioclea
 		allow = {
 			OR = {
@@ -6876,7 +6876,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_mljet = {}
 				b_slano = {}
 			} # end c_ragusa
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ragusa
 		allow = {
 			religion_group = christian
@@ -6946,7 +6946,7 @@ e_scandinavia = { # Nordmannia
 				b_ronneby = {}
 				b_solvesborg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_skane
 		d_sjaelland = { # Syaland
 			color = { 47 81 128 }
@@ -6999,7 +6999,7 @@ e_scandinavia = { # Nordmannia
 				b_odense = {}
 				b_nyborg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sjaelland
 		d_halland = { # Halland
 			color = { 217 186 64 }
@@ -7026,7 +7026,7 @@ e_scandinavia = { # Nordmannia
 				b_hjelm = {}
 				b_samsoe = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_jylland = { # Jutland
 			color = { 148 179 150 }
@@ -7080,7 +7080,7 @@ e_scandinavia = { # Nordmannia
 				b_holstebro = {}
 				b_skive = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jylland
 		d_slesvig = { # Sliesvík
 			color = { 198 194 81 }
@@ -7125,7 +7125,7 @@ e_scandinavia = { # Nordmannia
 				b_leck = {}
 				b_rungholt = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_slesvig
 		d_bornholm = { # Burghændæholm
 			color = { 222 186 42 }
@@ -7137,14 +7137,14 @@ e_scandinavia = { # Nordmannia
 				b_hammershus = {}
 				b_ronne = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_nordfrisland = { # Utlande
 			color = { 50 123 71 }
 			color2 = { 255 255 255 }
 			capital = 1182 # Utland # North Frisia
 			culture = frisian
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_denmark
@@ -7192,7 +7192,7 @@ e_scandinavia = { # Nordmannia
 				b_holar = {}
 				b_goddalir = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_iceland
 		allow = { title_king_basic_allow = yes }
 	} # end k_iceland
@@ -7272,7 +7272,7 @@ e_scandinavia = { # Nordmannia
 				b_eckero = {}
 				#b_kumlinge = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_uppland
 		d_ostergotland = { # Ostrogothia # Östergötland
 			color = { 143 19 45 }
@@ -7341,7 +7341,7 @@ e_scandinavia = { # Nordmannia
 				b_ljungby = {}
 				b_piksborg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ostergotland
 		d_vastergotland = { # Westrogothia # Västergötland
 			color = { 16 58 77 }
@@ -7382,7 +7382,7 @@ e_scandinavia = { # Nordmannia
 				b_amordh = {}
 				#b_mellerud = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vastergotland
 		d_sodermandland = { # Södermanland # Sodermandsland
 			color = { 66 148 186 }
@@ -7437,7 +7437,7 @@ e_scandinavia = { # Nordmannia
 				b_badelunda = {}
 				#b_munktorp = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sodermandland
 		d_halsingland = { # Hälsingland
 			color = { 104 147 54 }
@@ -7492,7 +7492,7 @@ e_scandinavia = { # Nordmannia
 				b_alir = {}
 				#b_sundhed = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_halsingland
 		d_gotland = { # Gotland
 			color = { 52 91 121 }
@@ -7514,7 +7514,7 @@ e_scandinavia = { # Nordmannia
 				b_alva = {}
 				#b_hemse = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_sweden
@@ -7572,7 +7572,7 @@ e_scandinavia = { # Nordmannia
 				b_fivlavollen = {}
 				b_gimsoy = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ostlandet
 		d_opplandene = { # Upplondum
 			color = { 111 45 98 }
@@ -7608,7 +7608,7 @@ e_scandinavia = { # Nordmannia
 				b_tingelstad = {}
 				b_hole = {} # Hólar/Steinn
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_vestlandet = { # Biorgvin
 			color = { 49 65 17 }
@@ -7656,7 +7656,7 @@ e_scandinavia = { # Nordmannia
 				b_aasmul = {}
 				b_aatloeyna = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vestlandet
 		d_more = { # Mœri
 			color = { 80 83 107 }
@@ -7683,7 +7683,7 @@ e_scandinavia = { # Nordmannia
 				b_giske = {}
 				b_blindheim = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_trondelag = { # Þrœndalóg
 			color = { 43 115 67 }
@@ -7711,7 +7711,7 @@ e_scandinavia = { # Nordmannia
 				b_egge = {}
 				b_stormoen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_trondelag
 		d_halogaland = { # Hálogaland
 			color = { 10 81 97 }
@@ -7737,7 +7737,7 @@ e_scandinavia = { # Nordmannia
 				color2 = { 255 255 255 }
 				b_tromsoe = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_halogaland
 		d_jamtland = { # Jamtaland
 			color = { 161 169 149 }
@@ -7756,7 +7756,7 @@ e_scandinavia = { # Nordmannia
 				b_lillhardal = {}
 				b_sveg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_faereyar = { # Faereyar
 			color = { 20 117 179 }
@@ -7773,7 +7773,7 @@ e_scandinavia = { # Nordmannia
 				b_kirkjubour = {}
 				b_torshavn = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_norway
@@ -7852,7 +7852,7 @@ e_russia = { # Rus
 				# b_gavrilovyam = {} # Moved from c_rostov
 				#
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vladimir
 		d_nizhny_novgorod = { # Nizovye
 			color = { 166 163 140 }
@@ -7878,7 +7878,7 @@ e_russia = { # Rus
 				b_puchishche = {}
 				b_kovemino = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ustyg = { # Ustjug
 			color = { 143 55 67 }
@@ -7899,7 +7899,7 @@ e_russia = { # Rus
 				b_gradmersky = {}
 				b_chukholma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tver = { # Tver
 			color = { 152 68 45 }
@@ -7933,7 +7933,7 @@ e_russia = { # Rus
 				b_kalyazin = {}
 				b_myshkin = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_rostov = { # Rostov
 			color = { 186 184 35 }
@@ -7969,7 +7969,7 @@ e_russia = { # Rus
 				b_danilov = {}
 				#b_pertoma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_rostov
 		d_moskva = { # Moskva
 			color = { 199 123 56 }
@@ -8009,7 +8009,7 @@ e_russia = { # Rus
 				#b_kondrovo = {}
 				#b_stpaphnutiusmonestary = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_moskva
 		d_ryazan = { # Ryazan
 			color = { 186 32 35 }
@@ -8049,7 +8049,7 @@ e_russia = { # Rus
 				b_venev = {}
 				b_dedilovo = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ryazan
 		d_murom = { # Murom
 			color = { 70 123 56 }
@@ -8071,7 +8071,7 @@ e_russia = { # Rus
 				b_temnikov = {}
 				b_sarov = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_murom
 		allow = { title_king_basic_allow = yes }
 	} # end k_vladimir
@@ -8123,7 +8123,7 @@ e_russia = { # Rus
 				b_druya = {}
 				b_kraslava = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_polotsk
 		d_minsk = { # Minsk
 			color = { 88 157 103 }
@@ -8155,7 +8155,7 @@ e_russia = { # Rus
 				b_budslau = {}
 				b_vileyka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_polotsk
@@ -8220,7 +8220,7 @@ e_russia = { # Rus
 				b_chernobel = {}
 				b_mezhyrica = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kiev
 		d_pereyaslavl = { # Perejaslavl
 			color = { 144 96 148 }
@@ -8254,7 +8254,7 @@ e_russia = { # Rus
 				b_mittromneystyle_heeeeeeeeeey_wealthy_ladies = {}
 				b_hlynsk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_novgorod-seversk = { # Sivershchyna
 			color = { 92 68 44 }
@@ -8282,7 +8282,7 @@ e_russia = { # Rus
 				b_kursk = {}
 				b_oboyan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_smolensk = { # Smolensk
 			color = { 189 175 55 }
@@ -8330,7 +8330,7 @@ e_russia = { # Rus
 				b_khislvichi = {}
 				b_chocimsk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_smolensk
 		d_toropec = { # Toropec
 			color = { 31 75 21 }
@@ -8361,7 +8361,7 @@ e_russia = { # Rus
 				b_rzhev = {}
 				b_oscen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_turov = { # Turov
 			color = { 65 21 75 }
@@ -8398,7 +8398,7 @@ e_russia = { # Rus
 				b_motal = {}
 				b_luninets = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_chernigov = { # Chernigov
 			color = { 65 117 206 }
@@ -8443,7 +8443,7 @@ e_russia = { # Rus
 				b_vshchizh = {}
 				b_starodub_chernigov = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_chernigov
 		d_novosil = { # Verhovye
 			color = { 166 206 183 }
@@ -8484,7 +8484,7 @@ e_russia = { # Rus
 				b_meshchovsk = {}
 				b_serpeysk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_novosil
 		allow = { title_king_basic_allow = yes }
 	} # end k_ruthenia
@@ -8551,7 +8551,7 @@ e_russia = { # Rus
 				b_tudorzerkij = {}
 				b_vytegra = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_novgorod
 		d_russa = { # Rusa
 			color = { 22 66 139 }
@@ -8586,7 +8586,7 @@ e_russia = { # Rus
 				b_nevel = {}
 				b_loknya = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_pskov = { # Pskov
 			color = { 175 80 50 }
@@ -8606,7 +8606,7 @@ e_russia = { # Rus
 				#b_sebezpskov = {}
 				#b_opockapskov = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_beloozero = { # Beloozero
 			color = { 94 32 63 }
@@ -8646,7 +8646,7 @@ e_russia = { # Rus
 				b_spasopreobrazenskij = {}
 				b_veksenga = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_beloozero
 		allow = { title_king_basic_allow = yes }
 	} # end k_novgorod
@@ -8720,7 +8720,7 @@ e_poland = { # Polska-Lietuva
 				b_liw = {}
 				b_brodno = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mazovia
 		d_greater_poland = { # Wielkopolska
 			color = { 114 30 41 }
@@ -8789,7 +8789,7 @@ e_poland = { # Polska-Lietuva
 					has_landed_title = c_poznanskie
 					any_vassal = { has_landed_title = c_poznanskie }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_greater_poland
 		d_silesia = { # Slask
@@ -8854,7 +8854,7 @@ e_poland = { # Polska-Lietuva
 				b_ustron = {}
 				b_skoczow = {}
 			} # end c_cieszyn
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_silesia
 		d_lesser_poland = { # Malopolska
 			color = { 17 17 102 }
@@ -8905,7 +8905,7 @@ e_poland = { # Polska-Lietuva
 				b_zawichost = {}
 				b_radom = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lesser_poland
 		d_kuyavia = { # Kujawy
 			color = { 119 64 47 }
@@ -8940,7 +8940,7 @@ e_poland = { # Polska-Lietuva
 					has_landed_title = c_kujawy
 					any_vassal = { has_landed_title = c_kujawy }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_kuyavia
 		d_sieradzko-leczyckie = { # Sieradz-Leczyca
@@ -8973,7 +8973,7 @@ e_poland = { # Polska-Lietuva
 					has_landed_title = c_sieradzko-leczyckie
 					any_vassal = { has_landed_title = c_sieradzko-leczyckie }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_sieradzko-leczyckie
 		allow = { title_king_basic_allow = yes }
@@ -9038,7 +9038,7 @@ e_poland = { # Polska-Lietuva
 				b_lida = {}
 				b_astryna = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lithuanians
 		d_trakai = { # Trakai
 			color = { 73 118 83 }
@@ -9076,7 +9076,7 @@ e_poland = { # Polska-Lietuva
 					has_landed_title = c_trakai
 					any_vassal = { has_landed_title = c_trakai }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_trakai
 		d_samogitia = { # Samogitia
@@ -9122,7 +9122,7 @@ e_poland = { # Polska-Lietuva
 					has_landed_title = c_zhmud
 					any_vassal = { has_landed_title = c_zhmud }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_samogitia
 		d_prussia = { # Prusa
@@ -9190,7 +9190,7 @@ e_poland = { # Polska-Lietuva
 				b_romuva = {}
 				b_velowe = {}
 			} # end c_nadruvia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_prussia
 		allow = { title_king_basic_allow = yes }
 	} # end k_lithuania
@@ -9252,7 +9252,7 @@ e_poland = { # Polska-Lietuva
 				b_lutsk = {}
 				b_brody = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_galich
 		d_volhynia = { # Volyn
 			color = { 138 181 117 }
@@ -9291,7 +9291,7 @@ e_poland = { # Polska-Lietuva
 				b_dorohobuzh = {}
 				b_peresopnytsya = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_volhynia
 		d_podlaise = { # Podlyashe
 			color = { 138 181 196 }
@@ -9314,7 +9314,7 @@ e_poland = { # Polska-Lietuva
 				b_volkovysk = {}
 				b_lavrashevmonastery = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_belz = { # Belz
 			color = { 174 73 43 }
@@ -9338,7 +9338,7 @@ e_poland = { # Polska-Lietuva
 				b_wlodawa = {}
 				b_hrubieszow = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_galicia
@@ -9409,7 +9409,7 @@ e_carpathia = { # Magyarország
 				b_parscov = {}
 				b_buzau = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_wallachia
 		d_oltenia = { # Oltenia
 			color = { 109 2 3 }
@@ -9433,7 +9433,7 @@ e_carpathia = { # Magyarország
 				b_tismana = {}
 				b_targujiu = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_oltenia
 		allow = {
 			OR = {
@@ -9490,7 +9490,7 @@ e_carpathia = { # Magyarország
 				b_bogdana = {}
 				b_suceava = {}
 			} # end c_torki
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_moldau
 		d_basarabia = { # Tara de Jos
 			color = { 98 127 40 }
@@ -9522,7 +9522,7 @@ e_carpathia = { # Magyarország
 				b_tigheci = {}
 				b_cetaealba = {}
 			} # end c_galaz
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_basarabia
 		allow = {
 			OR = {
@@ -9600,7 +9600,7 @@ e_carpathia = { # Magyarország
 				b_tatahungary = {}
 				b_szony = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_esztergom
 		d_gyor = { # Gyõr
 			color = { 91 80 250 }
@@ -9654,7 +9654,7 @@ e_carpathia = { # Magyarország
 				#b_ugodvar = {}
 				#b_belhungary = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gyor
 		d_nyitra = { # Nyitraország
 			color = { 54 77 27 }
@@ -9776,7 +9776,7 @@ e_carpathia = { # Magyarország
 				#b_korpona = {}
 				#b_selmecbanya = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nyitra
 		d_pecs = { # Somogyország
 			color = { 100 121 75 }
@@ -9845,7 +9845,7 @@ e_carpathia = { # Magyarország
 				b_csurgo = {}
 				#b_babocsa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pecs
 		d_ungvar = { # Ungvar
 			color = { 210 55 55 }
@@ -9925,7 +9925,7 @@ e_carpathia = { # Magyarország
 				#}
 				#b_szerencs = {}
 			} # end c_zemplen
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ungvar
 		d_ujavar = { # Újavár
 			color = { 74 130 183 }
@@ -9969,7 +9969,7 @@ e_carpathia = { # Magyarország
 						has_landed_title = c_heves
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_ujavar
 		d_csanad = { # Csanád
@@ -10013,7 +10013,7 @@ e_carpathia = { # Magyarország
 				b_temesvar = {}
 				b_rekas = {}
 			} # end c_temes
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_csanad
 		d_bacs = { # Bács
 			color = { 210 95 55 }
@@ -10065,7 +10065,7 @@ e_carpathia = { # Magyarország
 				b_kecskemet = {}
 				b_csongrad = {}
 			} # end c_szekezfehervar
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bacs
 		d_syrmia = { # Srem
 			color = { 110 89 20 }
@@ -10096,7 +10096,7 @@ e_carpathia = { # Magyarország
 				b_vukovar = {}
 				b_gorjani = {}
 			} # end c_krizevci
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_syrmia
 		d_pest = { # Biharország
 			color = { 150 51 51 }
@@ -10132,7 +10132,7 @@ e_carpathia = { # Magyarország
 				b_szeghalom = {}
 				b_bekesvar = {}
 			} # end c_bekes
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pest
 		d_transylvania = { # Erdélyország
 			color = { 63 31 95 }
@@ -10199,7 +10199,7 @@ e_carpathia = { # Magyarország
 				b_doboka = {}
 				b_szatmarvar = {}
 			} # end c_marmaros
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_transylvania
 		allow = { title_king_basic_allow = yes }
 	} # end k_hungary
@@ -10262,7 +10262,7 @@ e_carpathia = { # Magyarország
 				b_glamoc = {}
 				b_humac = {}
 			} # end c_zavrsje
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bosnia
 		d_usora_i_soli = { # Usora
 			color = { 145 157 140 }
@@ -10282,7 +10282,7 @@ e_carpathia = { # Magyarország
 				b_tesanj = {}
 				b_dobojgrad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_usora_i_soli
 		allow = { title_king_basic_allow = yes }
 	} # end k_bosnia
@@ -10346,7 +10346,7 @@ e_carpathia = { # Magyarország
 				b_omis = {}
 				b_makarska = {}
 			} # end c_omis
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dalmatia
 		d_krk = { # Krk
 			color = { 208 186 170 }
@@ -10363,7 +10363,7 @@ e_carpathia = { # Magyarország
 				b_dobrinj = {}
 				b_omisalj = {}
 			} # end c_veglia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_krk
 		d_dalmatian_islands = { # Hvar
 			color = { 25 106 33 }
@@ -10384,7 +10384,7 @@ e_carpathia = { # Magyarország
 				b_blato = {}
 				b_korcula = {}
 			} # end c_korcula
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dalmatian_islands
 		d_croatia = { # Hrvatska
 			color = { 162 53 53 }
@@ -10433,7 +10433,7 @@ e_carpathia = { # Magyarország
 				b_vrbaski_grad = {}
 				b_liplje = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_croatia
 		d_slavonia = { # Slavonia
 			color = { 184 137 137 }
@@ -10491,7 +10491,7 @@ e_carpathia = { # Magyarország
 				b_varazdin = {}
 				b_kraprina = {}
 			} # end c_varadzin
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_slavonia
 		allow = { title_king_basic_allow = yes }
 	} # end k_croatia
@@ -10534,7 +10534,7 @@ e_arabia = { # Arabian Empire
 				b_maan = {}
 				b_madyan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_amman = { # Bahrayn
 			color = { 32 127 30 }
@@ -10572,7 +10572,7 @@ e_arabia = { # Arabian Empire
 				b_murwab = {}
 				b_ath_taqab = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_amman
 		d_medina = { # Hijaz
 			color = { 0 51 218 }
@@ -10642,7 +10642,7 @@ e_arabia = { # Arabian Empire
 				b_hali = {}
 				b_jurash = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_medina
 		d_nefoud = { # Najd
 			color = { 150 249 43 }
@@ -10687,7 +10687,7 @@ e_arabia = { # Arabian Empire
 				b_hafaralbatin = {}
 				b_nibaj = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nefoud
 		allow = { title_king_basic_allow = yes }
 	} # end k_arabia
@@ -10744,7 +10744,7 @@ e_arabia = { # Arabian Empire
 				b_duqm = {}
 				b_sur_masirah = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_oman
 		allow = { title_king_basic_allow = yes }
 	} # end k_oman
@@ -10786,7 +10786,7 @@ e_arabia = { # Arabian Empire
 				b_khadra = {}
 				b_zinjibar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_sanaa = { # Sanaa
 			color = { 163 89 107 }
@@ -10825,7 +10825,7 @@ e_arabia = { # Arabian Empire
 				b_janad = {}
 				b_yarim = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sanaa
 		d_hadramaut = { # Hadramawt
 			color = { 193 86 32 }
@@ -10866,7 +10866,7 @@ e_arabia = { # Arabian Empire
 				b_siqirah = {}
 				b_qashiu = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_hadramaut
 		allow = { title_king_basic_allow = yes }
 	} # end k_yemen
@@ -10935,7 +10935,7 @@ e_arabia = { # Arabian Empire
 				b_ghazal = {}
 				b_shammas = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alexandria
 		d_damietta = { # Dumiyát
 			color = { 229 181 206 }
@@ -11006,7 +11006,7 @@ e_arabia = { # Arabian Empire
 				b_banha = {}
 				b_samannud = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_damietta
 		d_cairo = { # Qáhira
 			color = { 36 97 53 }
@@ -11096,7 +11096,7 @@ e_arabia = { # Arabian Empire
 				b_ansina = {}
 				b_ahnas = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cairo
 		d_alwahat = { # Al-Wahát # Al Wahát
 			color = { 229 181 32 }
@@ -11143,7 +11143,7 @@ e_arabia = { # Arabian Empire
 				#b_alamelshwawish = {}
 				#b_ziwaelbahari = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alwahat
 		d_aswan = { # Al-Sa'íd
 			color = { 205 95 73 }
@@ -11222,7 +11222,7 @@ e_arabia = { # Arabian Empire
 				#b_girge = {}
 				#b_jebeladda = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aswan
 		d_cyrenaica = { # Barqa
 			color = { 32 150 63 }
@@ -11278,7 +11278,7 @@ e_arabia = { # Arabian Empire
 				#b_zanzur = {}
 				#b_rukbah = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cyrenaica
 		d_sinai = { # Sinai
 			color = { 100 138 41 }
@@ -11314,7 +11314,7 @@ e_arabia = { # Arabian Empire
 				b_rafah = {}
 				b_khanyunis = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sinai
 		allow = { title_king_basic_allow = yes }
 	} # end k_egypt
@@ -11374,7 +11374,7 @@ e_arabia = { # Arabian Empire
 				b_shayzar = {}
 				b_barinsyria = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aleppo
 		d_homs = { # Hims
 			color = { 107 75 13 }
@@ -11410,7 +11410,7 @@ e_arabia = { # Arabian Empire
 				b_qasralhayralgharbi = {}
 				b_shmemiscastle = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_homs
 		d_damascus = { # Dimashq
 			color = { 107 13 106 }
@@ -11483,7 +11483,7 @@ e_arabia = { # Arabian Empire
 				b_shaqqa = {}
 				b_salkhard = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_damascus
 		d_jordan = { # al-Urdunn
 			color = { 35 232 20 }
@@ -11531,7 +11531,7 @@ e_arabia = { # Arabian Empire
 				b_deir_alla = {}
 				b_russeifa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jordan
 		allow = { title_king_basic_allow = yes }
 	} # end k_syria
@@ -11578,7 +11578,7 @@ e_abyssinia = { # Abyssinia
 				b_daarbuduq = {}
 				#b_shiikh = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ifat = { # Ifat
 			color = { 165 10 20 }
@@ -11603,7 +11603,7 @@ e_abyssinia = { # Abyssinia
 				b_gidim = {}
 				b_bati = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tedjoura = { # Tadjoura
 			color = { 150 80 125 }
@@ -11630,7 +11630,7 @@ e_abyssinia = { # Abyssinia
 				b_djibouti = {}
 				b_holhol = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_afar = { # Afar
 			color = { 76 165 255 }
@@ -11658,7 +11658,7 @@ e_abyssinia = { # Abyssinia
 				b_edd = {}
 				b_halib = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_adal
@@ -11724,7 +11724,7 @@ e_abyssinia = { # Abyssinia
 				b_bugena = {}
 				b_sekota = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_axum
 		d_damot = { # Da'mot
 			color = { 0 153 15 }
@@ -11763,7 +11763,7 @@ e_abyssinia = { # Abyssinia
 				b_mertulematiam = {}
 				b_gafat = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_damot
 		d_gondar = { # Gondar
 			color = { 148 59 92 }
@@ -11796,7 +11796,7 @@ e_abyssinia = { # Abyssinia
 				b_sana = {}
 				b_debrelibanos = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_amhara = { # Amhara
 			color = { 204 140 65 }
@@ -11826,7 +11826,7 @@ e_abyssinia = { # Abyssinia
 				b_antsokia = {}
 				b_debreberhan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_abyssinia
@@ -11873,7 +11873,7 @@ e_abyssinia = { # Abyssinia
 				b_wadrawah = {}
 				b_hajaralasla = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alodia
 		d_nubia = { # Noubia # Nubia
 			color = { 141 162 79 }
@@ -11918,7 +11918,7 @@ e_abyssinia = { # Abyssinia
 				b_kurgus = {}
 				b_alusheir = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nubia
 		d_nobatia = { # Noubadia # Nobatia
 			color = { 174 125 97 }
@@ -11958,7 +11958,7 @@ e_abyssinia = { # Abyssinia
 				b_sheikhdaud = {}
 				b_mahareaka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nobatia
 		allow = { title_king_basic_allow = yes }
 	} # end k_nubia
@@ -11997,7 +11997,7 @@ e_abyssinia = { # Abyssinia
 				b_ketema = {}
 				#b_kormuk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_darfur = { # Darfur
 			color = { 105 121 97 }
@@ -12016,7 +12016,7 @@ e_abyssinia = { # Abyssinia
 				b_elobeid = {}
 				b_tagali = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			religion_group = christian
@@ -12062,7 +12062,7 @@ e_abyssinia = { # Abyssinia
 				b_sinkat = {}
 				b_wadibaraka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aydhab
 		d_badi = { # Badi
 			color = { 240 75 15 }
@@ -12087,7 +12087,7 @@ e_abyssinia = { # Abyssinia
 				b_misiwwa = {}
 				b_debarwa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kassala = { # Kassala
 			color = { 215 43 28 }
@@ -12105,7 +12105,7 @@ e_abyssinia = { # Abyssinia
 				b_wolqayt = {}
 				b_showak = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_maikelebahr
@@ -12393,7 +12393,7 @@ e_britannia = { # Britannia
 				#}
 				#b_newburycastle = {}
 			} # end c_berks
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_somerset
 		d_canterbury = { # Kent
 			color = { 130 93 176 }
@@ -12554,7 +12554,7 @@ e_britannia = { # Britannia
 				#	norman = "Ordinges"
 				#}
 			} # end c_sussex
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_canterbury
 		d_cornwall = { # Cornwall
 			color = { 76 97 85 }
@@ -12682,7 +12682,7 @@ e_britannia = { # Britannia
 				#	saxon = "Aixeministra"
 				#}
 			} # end c_devon
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cornwall
 		d_hereford = { # Mercia
 			color = { 6 42 127 }
@@ -12856,7 +12856,7 @@ e_britannia = { # Britannia
 				b_tutbury = {}
 				b_chartley = {}
 			} # end c_stafford
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_hereford
 		d_bedford = { # Middle Anglia
 			color = { 205 196 121 }
@@ -12992,7 +12992,7 @@ e_britannia = { # Britannia
 				#}
 				#b_eynsham = {}
 			} # end c_oxford
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bedford
 		d_essex = { # Essex
 			color = { 172 99 22 }
@@ -13115,7 +13115,7 @@ e_britannia = { # Britannia
 				#	saxon = "Haethfeld"
 				#}
 			} # end c_hertford
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_essex
 		d_norfolk = { # East Anglia
 			color = { 60 109 121 }
@@ -13205,7 +13205,7 @@ e_britannia = { # Britannia
 				b_bourn = {}
 				b_impington = {}
 			} # end c_cambridge
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_norfolk
 		d_fivebouroughs = { # Lincoln
 			color = { 79 113 174 }
@@ -13363,7 +13363,7 @@ e_britannia = { # Britannia
 				b_newstead = {}
 				b_rufford = {}
 			} # end c_nottingham
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_fivebouroughs
 		d_york = { # York
 			color = { 207 192 167 }
@@ -13526,7 +13526,7 @@ e_britannia = { # Britannia
 				b_driffield = {}
 				b_howden = {}
 			} # end c_york_wolds
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_york
 		d_lancaster = { # Lancaster
 			color = { 121 29 29 }
@@ -13611,7 +13611,7 @@ e_britannia = { # Britannia
 				b_cartmel = {}
 				b_brougham = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lancaster
 		d_northumberland = { # Northumberland
 			color = { 234 207 99 }
@@ -13733,7 +13733,7 @@ e_britannia = { # Britannia
 				#	saxon = "Boothceaster"
 				#}
 			} # end c_cumberland
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_northumberland
 		d_channel_islands = { # Îles d'la Manche
 			color = { 232 200 20 }
@@ -13759,7 +13759,7 @@ e_britannia = { # Britannia
 				b_gorey = {}
 				b_st_peter_port = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_channel_islands
 		gain_effect = {
 			if = {
@@ -13853,7 +13853,7 @@ e_britannia = { # Britannia
 				b_dinbych = {}
 				b_rhuddlan = {}
 			} # end c_perfeddwlad
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gwynedd
 		d_deheubarth = { # Deheubarth
 			color = { 125 51 3 }
@@ -13891,7 +13891,7 @@ e_britannia = { # Britannia
 				b_crug_hywel = {}
 				b_talgarth = {}
 			} # end c_brycheiniog
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_deheubarth
 		d_powys = { # Powis
 			color = { 88 33 64 }
@@ -13935,7 +13935,7 @@ e_britannia = { # Britannia
 				b_abbeycwmhir = {}
 				b_aberedw = {}
 			} # end c_rhwng
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_powys
 		d_morgannwg = { # Glamorgan
 			color = { 201 111 23 }
@@ -13968,7 +13968,7 @@ e_britannia = { # Britannia
 				b_swansea = {}
 				b_margam = {}
 			} # end c_gwyr
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_morgannwg
 		allow = { title_king_basic_allow = yes }
 	} # end k_wales
@@ -14032,7 +14032,7 @@ e_britannia = { # Britannia
 				b_annagassan = {}
 				b_newry = {}
 			} # end c_oriel
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ulster
 		d_connacht = { # Connacht
 			color = { 70 123 126 }
@@ -14092,7 +14092,7 @@ e_britannia = { # Britannia
 				b_cloughoughter = {}
 				b_drumlane = {}
 			} # end c_cavan
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_connacht
 		d_meath = { # Mide
 			color = { 106 70 126 }
@@ -14161,7 +14161,7 @@ e_britannia = { # Britannia
 				b_dunleary = {}
 				b_clontarf = {}
 			} # end c_dublin
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_meath
 		d_leinster = { # Leinster
 			color = { 51 95 40 }
@@ -14205,7 +14205,7 @@ e_britannia = { # Britannia
 				b_grannagh = {}
 				#b_grennan = {}
 			} # end c_ossory
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_leinster
 		d_munster = { # Munster
 			color = { 17 93 112 }
@@ -14271,7 +14271,7 @@ e_britannia = { # Britannia
 				b_tipperary = {}
 				b_kilcash = {}
 			} # end c_tipperary
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_munster
 		gain_effect = {
 			# If title receiver also owns the titular Tara, then
@@ -14326,7 +14326,7 @@ e_britannia = { # Britannia
 				b_maybole = {}
 				b_crossraguel = {}
 			} # end c_carrick
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_galloway
 		d_lothian = { # Lothian
 			color = { 184 189 196 }
@@ -14398,7 +14398,7 @@ e_britannia = { # Britannia
 				b_stobo = {}
 				b_stow_of_wedale = {}
 			} # end c_tweedale
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lothian
 		d_albany = { # Albany
 			color = { 210 161 30 }
@@ -14446,7 +14446,7 @@ e_britannia = { # Britannia
 				b_fortingall = {}
 				b_grandtully = {}
 			} # end c_atholl
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_albany
 		d_moray = { # Moray
 			color = { 90 126 96 }
@@ -14477,7 +14477,7 @@ e_britannia = { # Britannia
 				b_invergarry = {}
 				b_urquhart = {}
 			} # end c_inbhirnis
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_moray
 		d_aberdeen = { # Aberdeen
 			color = { 90 146 196 }
@@ -14511,7 +14511,7 @@ e_britannia = { # Britannia
 				b_ecclesgreig = {}
 				b_inverbervie = {}
 			} # end c_cinnchardainn
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aberdeen
 		d_sutherland = { # Sutherland
 			color = { 190 126 96 }
@@ -14532,7 +14532,7 @@ e_britannia = { # Britannia
 				b_wick = {}
 				b_dunbeath = {}
 			} # end c_caithness
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sutherland
 		d_strathclyde = { # Strathclyde
 			color = { 90 226 196 }
@@ -14578,7 +14578,7 @@ e_britannia = { # Britannia
 				b_dumfries = {}
 				b_caerlaverock = {}
 			} # end c_dunphris
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_strathclyde
 		allow = { title_king_basic_allow = yes }
 	} # end k_scotland
@@ -14618,7 +14618,7 @@ e_britannia = { # Britannia
 			allow = {
 				c_isle_of_man = { owner_under_ROOT = yes }
 				num_of_count_titles = 2
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_ellan_vannin
 		d_hebrides = { # Inner Hebrides
@@ -14670,7 +14670,7 @@ e_britannia = { # Britannia
 				b_kingarth = {}
 				b_aileach_bod = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_hebrides
 		d_orkney = { # Orkney
 			color = { 102 51 93 }
@@ -14708,7 +14708,7 @@ e_britannia = { # Britannia
 				b_sanday = {}
 				#b_ronaldsay = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_orkney
 		d_western_isles = { # Outer Hebrides
 			color = { 32 48 99 }
@@ -14754,7 +14754,7 @@ e_britannia = { # Britannia
 				b_bornais = {}
 				b_cille_pheadair = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_western_isles
 		allow = { title_king_basic_allow = yes }
 	} # end k_ellan_vannin
@@ -14926,7 +14926,7 @@ e_italy = { # Italia
 				b_angera = {}
 				b_massino = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lombardia
 		d_verona = { # Verona
 			color = { 0 86 148 }
@@ -14980,7 +14980,7 @@ e_italy = { # Italia
 				b_sacco = {}
 				b_onara = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_verona
 		d_parma = { # Parma
 			color = { 239 224 62 }
@@ -15009,7 +15009,7 @@ e_italy = { # Italia
 				b_scipione = {}
 				b_ronacagli = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ivrea = { # Ivrea
 			color = { 0 66 145 }
@@ -15064,7 +15064,7 @@ e_italy = { # Italia
 				b_valperga = {}
 				b_crescentino = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ivrea
 		d_saluzzo = { # Saluzzo
 			color = { 116 69 11 }
@@ -15096,7 +15096,7 @@ e_italy = { # Italia
 				b_clavesana = {}
 				b_alba = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_monferrato = { # Monferrato
 			color = { 104 12 38 }
@@ -15133,7 +15133,7 @@ e_italy = { # Italia
 				b_loreto_costiglione = {}
 				b_cortemilia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_monferrato
 		d_massa = { # Massa
 			color = { 45 102 59 }
@@ -15159,7 +15159,7 @@ e_italy = { # Italia
 				b_gavi = {}
 				b_voghera = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_massa
 		d_genoa = { # Genova
 			color = { 255 194 10 }
@@ -15178,7 +15178,7 @@ e_italy = { # Italia
 				b_pietra_ligure = {}
 				b_chivari = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_savona = { # Savona
 			color = { 213 43 43 }
@@ -15208,7 +15208,7 @@ e_italy = { # Italia
 				b_tenda = {}
 				b_dolceacqua = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_savona
 		d_modena = { # Modena
 			color = { 189 30 30 }
@@ -15247,7 +15247,7 @@ e_italy = { # Italia
 				b_baiso = {}
 				b_montecuccolo = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_modena
 		d_mantua = { # Mantua
 			color = { 128 31 88 }
@@ -15272,7 +15272,7 @@ e_italy = { # Italia
 				b_leno = {}
 				b_redondesco = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_lucca = { # Lucca
 			color = { 85 100 130 }
@@ -15307,7 +15307,7 @@ e_italy = { # Italia
 				b_forcoli = {}
 				b_biserno = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lucca
 		d_toscana = { # Firenze
 			color = { 241 193 26 }
@@ -15354,7 +15354,7 @@ e_italy = { # Italia
 				b_dovadola = {}
 				b_del_trebbio = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_toscana
 		d_siena = { # Siena
 			color = { 61 45 131 }
@@ -15383,7 +15383,7 @@ e_italy = { # Italia
 				b_bibbiano = {}
 				b_radicofani = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_siena
 		d_sovana = { # Sovana
 			color = { 123 114 64 }
@@ -15411,7 +15411,7 @@ e_italy = { # Italia
 				b_pitgliano = {}
 				b_sovana = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sovana
 		d_pisa = { # Pisa
 			color = { 108 30 40 }
@@ -15429,14 +15429,14 @@ e_italy = { # Italia
 				b_settimo = {}
 				b_campiglia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_vercelli_republic = { # Comune di Vercelli # vercelli republic
 			color = { 26 60 102 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1130 # Vercelli
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15446,7 +15446,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1131 # Vicenza
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15456,7 +15456,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 319 # Verona
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15466,7 +15466,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 355 # Padua
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15476,7 +15476,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 353 # Rovigo # Ferrara
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15486,7 +15486,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 354 # San Martino # Mantua
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = CAPTAINOFTHEPEOPLE
 			title_female = CAPTAINOFTHEPEOPLE_FEMALE
 			short_name = yes
@@ -15496,7 +15496,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 318 # Brescia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15506,7 +15506,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1125 # Bergamo
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15516,7 +15516,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 235 # Burgaria # Milano
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
@@ -15526,7 +15526,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 234 # Pavia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15536,7 +15536,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 322 # Modena
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15546,7 +15546,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 957 # Reggio # Reggio in Emilia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15556,7 +15556,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 321 # Parma
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15566,7 +15566,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1124 # Piacenza
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15576,7 +15576,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 320 # Camisano # Cremona
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
@@ -15586,7 +15586,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 232 # Asti # Monferrato
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
@@ -15596,7 +15596,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 328 # Firenze
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = CONSUL
 			title_female = CONSUL_FEMALE
 			short_name = yes
@@ -15606,7 +15606,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 323 # Lucca
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15616,7 +15616,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 1115 # Arezzo
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -15626,7 +15626,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 330 # Siena
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 			title = GRANDE
 			title_female = GRANDE_FEMALE
 			short_name = yes
@@ -15716,7 +15716,7 @@ e_italy = { # Italia
 				b_viterbo = {}
 				b_civitavecchia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_latium
 		d_ravenna = { # Ravenna
 			color = { 155 112 166 }
@@ -15767,7 +15767,7 @@ e_italy = { # Italia
 				b_barbiano = {}
 				b_lugo_cunio = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ravenna
 		d_spoleto = { # Spoleto
 			color = { 172 8 8 }
@@ -15819,7 +15819,7 @@ e_italy = { # Italia
 				b_tolentino = {}
 				b_ascoli_piceno = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_spoleto
 		d_urbino = { # Urbino
 			color = { 0 85 148 }
@@ -15856,7 +15856,7 @@ e_italy = { # Italia
 				b_montecopiolo = {}
 				b_san_marino = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_urbino
 		d_ferrara = { # Ferrara
 			color = { 123 189 123 }
@@ -15888,7 +15888,7 @@ e_italy = { # Italia
 				b_baone = {}
 				b_adria_ferrara = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ferrara
 		d_ancona = { # Ancona
 			color = { 148 118 0 }
@@ -15907,7 +15907,7 @@ e_italy = { # Italia
 				b_macerata = {}
 				b_loreto = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			religion_group = christian
@@ -15947,7 +15947,7 @@ e_italy = { # Italia
 				b_cinarca = {}
 				b_sagone = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_sardinia = { # Sardinia
 			color = { 122 46 147 }
@@ -16012,7 +16012,7 @@ e_italy = { # Italia
 				b_carbonara = {}
 				b_sulci = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sardinia
 		allow = {
 			is_republic = no
@@ -16036,7 +16036,7 @@ e_italy = { # Italia
 			culture = langobardisch
 			allow = {
 				is_republic = yes
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_benevento = { # Benevento
@@ -16044,7 +16044,7 @@ e_italy = { # Italia
 			color2 = { 255 255 255 }
 			culture = langobardisch
 			capital = 335 # Bounalbergo # Benevento
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_napoli = { # Napoli
 			color = { 196 139 77 }
@@ -16071,7 +16071,7 @@ e_italy = { # Italia
 				b_sarno = {}
 				b_nocera = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_capua = { # Capua
 			color = { 84 138 107 }
@@ -16106,7 +16106,7 @@ e_italy = { # Italia
 				b_avellino = {}
 				b_altavilla_irpina = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_capua
 		d_gaeta = { # Gaeta
 			color = { 123 11 64 }
@@ -16143,7 +16143,7 @@ e_italy = { # Italia
 				b_alatri = {}
 				b_moloro = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gaeta
 		d_apulia = { # Puglia
 			color = { 102 130 128 }
@@ -16179,7 +16179,7 @@ e_italy = { # Italia
 				b_matera = {}
 				b_policastro = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_apulia
 		d_bari = { # Bari
 			color = { 210 194 16 }
@@ -16205,7 +16205,7 @@ e_italy = { # Italia
 				b_acquviva = {}
 				b_molfetta = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_venosa = { # Venosa
 			color = { 138 28 28 }
@@ -16235,7 +16235,7 @@ e_italy = { # Italia
 				b_lavello = {}
 				b_venosa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_venosa
 		d_tarent = { # Taranto # Principato di Taranto
 			color = { 39 39 111 }
@@ -16265,7 +16265,7 @@ e_italy = { # Italia
 				b_brindisi = {}
 				b_ostuni = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tarent
 		d_salerno = { # Salerno
 			color = { 217 214 123 }
@@ -16296,7 +16296,7 @@ e_italy = { # Italia
 				b_montemarono = {}
 				b_buonalbergo = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_atri = { # Atri
 			color = { 128 194 2 }
@@ -16337,7 +16337,7 @@ e_italy = { # Italia
 				b_pescara = {}
 				b_montedorisio = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_atri
 		d_calabria = { # Calabria
 			color = { 195 161 44 }
@@ -16384,7 +16384,7 @@ e_italy = { # Italia
 				b_mileto = {}
 				b_gerace = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_calabria
 		d_sicily = { # Sicilia
 			color = { 46 94 147 }
@@ -16506,7 +16506,7 @@ e_italy = { # Italia
 				b_mgarr = {}
 				#b_sangjilan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sicily
 		allow = { title_king_basic_allow = yes }
 	} # end k_sicily
@@ -16532,7 +16532,7 @@ e_italy = { # Italia
 				b_torcello = {}
 				b_caorle = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			is_republic = yes
@@ -16625,7 +16625,7 @@ e_france = { # France
 				b_monthey = {}
 				b_martigny = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_savoie
 		d_arles = { # Arles
 			color = { 243 209 23 }
@@ -16643,7 +16643,7 @@ e_france = { # France
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_provence = { # Provença
@@ -16710,7 +16710,7 @@ e_france = { # France
 				b_lecheylard = {}
 				#b_joyeuse = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_provence
 		d_lyon = { # Lyon
 			color = { 128 0 40 }
@@ -16737,7 +16737,7 @@ e_france = { # France
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dauphine = { # Dauphiné
@@ -16792,7 +16792,7 @@ e_france = { # France
 				b_lamure = {}
 				b_pontcharra = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dauphine
 		d_basel = { # Basel
 			color = { 195 183 210 }
@@ -16815,7 +16815,7 @@ e_france = { # France
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_upper_burgundy = { # Haute Bourgogne
@@ -16877,7 +16877,7 @@ e_france = { # France
 				b_estavayer = {}
 				b_avences = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_upper_burgundy
 		allow = { title_king_basic_allow = yes }
 	} # end k_burgundy
@@ -16980,7 +16980,7 @@ e_france = { # France
 				b_dol = {}
 				#b_dinan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_brittany
 		d_lowerbrittany = { # Breizh Izel
 			color = { 148 148 116 }
@@ -16990,7 +16990,7 @@ e_france = { # France
 			allow = {
 				independent = yes
 				NOT = { has_landed_title = d_brittany }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -17078,7 +17078,7 @@ e_france = { # France
 				#b_moerkerke = {}
 				#b_aardenburg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_flanders
 		d_artois = { # Artois
 			color = { 90 157 103 }
@@ -17143,7 +17143,7 @@ e_france = { # France
 				b_gravelines = {}
 				#b_coulogne = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_artois
 		d_burgundy = { # Bourgogne
 			color = { 77 0 107 }
@@ -17208,7 +17208,7 @@ e_france = { # France
 				b_stjeandelosne = {}
 				#b_cuisery = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_burgundy
 		d_bourbon = { # Bourbon
 			color = { 74 133 186 }
@@ -17237,7 +17237,7 @@ e_france = { # France
 				b_chalmazel = {}
 				#b_stetienne = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_anjou = { # Anjou
 			color = { 0 126 128 }
@@ -17295,7 +17295,7 @@ e_france = { # France
 				b_montmirail_vendome = {}
 				#b_stavit = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_anjou
 		d_normandy = { # Normandy
 			color = { 121 24 38 }
@@ -17405,7 +17405,7 @@ e_france = { # France
 				b_neufchatel-en-bray = {}
 				b_serqueux = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_normandy
 		d_alencon = { # Alençon
 			color = { 48 48 95 }
@@ -17441,7 +17441,7 @@ e_france = { # France
 				b_maitenon = {}
 				b_houdan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_orleans = { # Orleans
 			color = { 250 250 250 }
@@ -17469,7 +17469,7 @@ e_france = { # France
 				b_chateaulandon = {}
 				b_montereau = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_blois = { # Blois
 			color = { 46 114 59 }
@@ -17505,7 +17505,7 @@ e_france = { # France
 				b_beaugency = {}
 				b_bonneval = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_blois
 		d_berry = { # Berry
 			color = { 200 49 110 }
@@ -17537,7 +17537,7 @@ e_france = { # France
 				b_gien = {}
 				b_charenton = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_nevers = { # Nevers
 			color = { 98 104 29 }
@@ -17576,7 +17576,7 @@ e_france = { # France
 				b_stsauveurenpuisaye = {}
 				b_mailly = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nevers
 		d_archreims = { # Reims
 			color = { 130 93 74 }
@@ -17594,7 +17594,7 @@ e_france = { # France
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_champagne = { # Champagne
@@ -17647,7 +17647,7 @@ e_france = { # France
 				b_nogent = {}
 				b_chalindrey = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_champagne
 		d_rethel = { # Rethel
 			color = { 239 219 52 }
@@ -17672,7 +17672,7 @@ e_france = { # France
 				b_sedan = {}
 				b_montcornet = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_valois = { # Valois
 			color = { 0 50 155 }
@@ -17746,7 +17746,7 @@ e_france = { # France
 				b_liancourt = {}
 				b_creil = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_valois
 		allow = { title_king_basic_allow = yes }
 	} # end k_france
@@ -17814,7 +17814,7 @@ e_france = { # France
 				b_rabastens = {}
 				b_brusque = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_toulouse
 		d_gevaudan = { # Gévaudan
 			color = { 0 127 14 }
@@ -17853,7 +17853,7 @@ e_france = { # France
 				b_stsauveur = {}
 				b_tournel = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gevaudan
 		d_foix = { # Pirenèus
 			color = { 235 224 73 }
@@ -17910,7 +17910,7 @@ e_france = { # France
 				b_tarbes = {}
 				b_montaner = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_foix
 		d_septimania = { # Septimania
 			color = { 0 50 180 }
@@ -18001,7 +18001,7 @@ e_france = { # France
 				b_faugeres = {}
 				b_puisserguier = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_septimania
 		d_gascogne = { # Gascogne
 			color = { 107 102 68 }
@@ -18064,7 +18064,7 @@ e_france = { # France
 				b_gabarret = {}
 				b_castelnau = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gascogne
 		d_aquitaine = { # Aquitània
 			color = { 255 30 50 }
@@ -18112,7 +18112,7 @@ e_france = { # France
 				b_auberoche = {}
 				#b_bonaguil = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aquitaine
 		d_auvergne = { # Auvèrnhe
 			color = { 250 150 0 }
@@ -18165,7 +18165,7 @@ e_france = { # France
 				b_yssingeaux = {}
 				b_vorey = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_auvergne
 		d_poitou = { # Poitou
 			color = { 30 80 200 }
@@ -18241,7 +18241,7 @@ e_france = { # France
 				b_fontdouce = {}
 				#b_latranchade = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_poitou
 		d_limousin = { # Lemosin
 			color = { 250 250 250 }
@@ -18280,7 +18280,7 @@ e_france = { # France
 				b_turenne = {}
 				b_tulle = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_limousin
 		allow = {
 			NOT = { has_landed_title = k_france }
@@ -18389,7 +18389,7 @@ e_spain = { # España
 				b_aguilardecampoo = {}
 				b_astudillo = {}
 			} # end c_palencia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_castilla
 		d_segovia = { # Segovia
 			color = { 237 28 36 }
@@ -18422,7 +18422,7 @@ e_spain = { # España
 				b_medinadelcampo = {}
 				b_tordesillas = {}
 			} # end c_medina_del_campo
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_segovia
 		d_najera = { # Nájera
 			color = { 0 113 188 }
@@ -18445,7 +18445,7 @@ e_spain = { # España
 				b_calahorra = {}
 				b_arnedo = {}
 			} # end c_logrono
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_najera
 		d_alba_de_tormes = { # Alba de Tormes
 			color = { 255 224 94 }
@@ -18461,7 +18461,7 @@ e_spain = { # España
 					has_landed_title = k_leon
 				}
 				c_salamanca = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_medina_sidonia = { # Medina Sidonia
@@ -18478,7 +18478,7 @@ e_spain = { # España
 					has_landed_title = k_leon
 				}
 				c_cadiz = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alburquerque = { # Alburquerque
@@ -18495,7 +18495,7 @@ e_spain = { # España
 					has_landed_title = k_leon
 				}
 				c_alcantara = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_medinaceli = { # Medinaceli
@@ -18512,7 +18512,7 @@ e_spain = { # España
 					has_landed_title = k_leon
 				}
 				c_soria = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_infantado = { # Infantado
@@ -18529,7 +18529,7 @@ e_spain = { # España
 					has_landed_title = k_leon
 				}
 				c_palencia = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		# Creation/usurpation trigger
@@ -18599,7 +18599,7 @@ e_spain = { # España
 				b_carcastillo = {}
 				b_valtierra = {}
 			} # end c_tudela
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_navarra
 		# Creation/usurpation trigger
 		allow = {
@@ -18676,7 +18676,7 @@ e_spain = { # España
 				b_valdeorras = {}
 				b_santoestevo = {}
 			} # end c_lemos
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_galicia
 		d_leon = { # León
 			color = { 227 228 229 }
@@ -18740,7 +18740,7 @@ e_spain = { # España
 				b_villalpando = {}
 				b_fuentesauco = {}
 			} # end c_toro
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_leon
 		d_salamanca = { # Salamanca
 			color = { 8 132 74 }
@@ -18763,7 +18763,7 @@ e_spain = { # España
 				b_ledesma = {}
 				b_sanctispiritus = {}
 			} # end c_ciudad_rodrigo
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_salamanca
 		# Creation/usurpation trigger
 		allow = {
@@ -18811,7 +18811,7 @@ e_spain = { # España
 				b_benasque = {}
 				b_laguarres = {}
 			} # end c_ribagorza
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_aragon
 		d_zaragoza = { # Zaragoza
 			color = { 84 95 149 }
@@ -18859,7 +18859,7 @@ e_spain = { # España
 				b_ayerbe = {}
 				b_alquezar = {}
 			} # end c_huesca
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zaragoza
 		d_barcelona = { # Barcelona
 			color = { 167 39 0 }
@@ -18985,7 +18985,7 @@ e_spain = { # España
 				#	frankish = "Mateplaine"
 				#}
 			} # end c_girona
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_barcelona
 		d_catalunya_nova = { # Catalunya Nova
 			color = { 228 77 21 }
@@ -19038,7 +19038,7 @@ e_spain = { # España
 				#	frankish = "Amposte"
 				#}
 			} # end c_tarragona
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_catalunya_nova
 		d_teruel = { # Teruel
 			color = { 250 209 212 }
@@ -19073,7 +19073,7 @@ e_spain = { # España
 				b_alcanyiz = {}
 				b_calanda = {}
 			} # end c_caspe
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_teruel
 		d_gandia = { # Gandia
 			color = { 255 224 94 }
@@ -19088,7 +19088,7 @@ e_spain = { # España
 					has_landed_title = k_aragon
 				}
 				c_denia = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cardona = { # Cardona
@@ -19104,7 +19104,7 @@ e_spain = { # España
 					has_landed_title = k_aragon
 				}
 				c_barcelona = { owner_under_ROOT = yes }
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		# Creation/usurpation trigger
@@ -19262,7 +19262,7 @@ e_spain = { # España
 				#	frankish = "Port de Meules"
 				#}
 			} # end c_leiria
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ribatejo
 		d_beira = { # Beira
 			color = { 19 83 180 }
@@ -19502,7 +19502,7 @@ e_spain = { # España
 				#	frankish = "Villeneuve de Foz-sur-Coa"
 				#}
 			} # end c_trancoso
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_beira
 		d_porto = { # Portucale
 			color = { 221 230 255 }
@@ -19554,7 +19554,7 @@ e_spain = { # España
 				#	frankish = "Chênosse"
 				#}
 			} # end c_braganza
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_porto
 		# Creation/usurpation trigger
 		allow = {
@@ -19775,7 +19775,7 @@ e_spain = { # España
 				b_palmela = {}
 				b_sesimbra = {}
 			} # end c_setubal
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_beja
 		d_algarve = { # Algarve
 			color = { 157 189 212 }
@@ -19798,7 +19798,7 @@ e_spain = { # España
 				b_aljezur = {}
 				b_castroverde = {}
 			} # end c_silves
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_algarve
 		d_badajoz = { # Extremadura
 			color = { 203 186 114 }
@@ -19855,7 +19855,7 @@ e_spain = { # España
 				b_zalamea = {}
 				b_monesterio = {}
 			} # end c_aracena
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_badajoz
 		d_toledo = { # Toledo
 			color = { 210 134 124 }
@@ -19926,7 +19926,7 @@ e_spain = { # España
 				b_siguenza = {}
 				b_atienza = {}
 			} # end c_molina
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_toledo
 		d_sevilla = { # Sevilla
 			color = { 240 235 138 }
@@ -20094,7 +20094,7 @@ e_spain = { # España
 				b_utrera = {}
 				b_laalgaba = {}
 			} # end c_sevilla
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sevilla
 		d_granada = { # Granada
 			color = { 63 117 148 }
@@ -20158,7 +20158,7 @@ e_spain = { # España
 				#	catalan = "Torremolins"
 				#}
 			} # end c_malaga
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_granada
 		d_cordoba = { # Córdoba
 			color = { 115 199 242 }
@@ -20209,7 +20209,7 @@ e_spain = { # España
 				b_alcaudete = {}
 				b_arjona = {}
 			} # end c_jaen
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_cordoba
 		d_la_mancha = { # La Mancha
 			color = { 203 152 74 }
@@ -20242,7 +20242,7 @@ e_spain = { # España
 				b_almagro = {}
 				b_alcazardesanjuan = {}
 			} # end c_calatrava
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_la_mancha
 		d_valencia = { # Valencia
 			color = { 210 73 50 }
@@ -20303,7 +20303,7 @@ e_spain = { # España
 				#	castillan = "Torrente"
 				#}
 			} # end c_valencia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_valencia
 		d_murcia = { # Murcia
 			color = { 240 201 101 }
@@ -20431,7 +20431,7 @@ e_spain = { # España
 				#	portuguese = "A Roda"
 				#}
 			} # end c_almansa
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_murcia
 		d_mallorca = { # Mallorca
 			color = { 87 149 117 }
@@ -20479,7 +20479,7 @@ e_spain = { # España
 				#	frankish = "Ferreries"
 				#}
 			} # end c_menorca
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mallorca
 		# Creation/usurpation trigger
 		allow = {
@@ -20684,7 +20684,7 @@ e_africa = { # Africa
 				b_slakta = {}
 				b_alhamma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tunis
 		d_qamuda = { # Qamuda
 			color = { 116 177 156 }
@@ -20735,7 +20735,7 @@ e_africa = { # Africa
 				b_qafsa = {}
 				b_tazwir = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_qamuda
 		d_tripolitania = { # Tripolitania
 			color = { 227 227 200 }
@@ -20797,7 +20797,7 @@ e_africa = { # Africa
 				b_zuwara = {}
 				b_surman = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tripolitania
 		d_kabylia = { # Kabylia
 			color = { 201 21 38 }
@@ -20867,7 +20867,7 @@ e_africa = { # Africa
 				b_setif = {}
 				b_qalatbhammad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kabylia
 		d_zab = { # Zab
 			color = { 61 21 38 }
@@ -20932,7 +20932,7 @@ e_africa = { # Africa
 				b_arigh = {}
 				b_tuggurt = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zab
 		allow = { title_king_basic_allow = yes }
 	} # end k_africa
@@ -21005,7 +21005,7 @@ e_africa = { # Africa
 				b_tendrara = {}
 				b_ahfir = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alger
 		d_tlemcen = { # Tilimsan
 			color = { 128 113 31 }
@@ -21057,7 +21057,7 @@ e_africa = { # Africa
 				b_bougtob = {}
 				#b_saida = {} # c_atlas_mnt
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tlemcen
 		d_tangiers = { # Tanja
 			color = { 128 113 120 }
@@ -21105,7 +21105,7 @@ e_africa = { # Africa
 				b_driouch = {}
 				b_geurcif = {} # c_el_rif / Also renamed b_guercif
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tangiers
 		d_fes = { # Fas
 			color = { 128 18 73 }
@@ -21167,7 +21167,7 @@ e_africa = { # Africa
 				#b_midar = {} # c_nakur
 				#b_driouch = {} # c_nakur
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_fes
 		d_marrakech = { # Marrakush
 			color = { 25 95 73 }
@@ -21244,7 +21244,7 @@ e_africa = { # Africa
 				b_ouarzazate = {}
 				b_alnif = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_marrakech
 		allow = { title_king_basic_allow = yes }
 	} # end k_maghreb
@@ -21287,7 +21287,7 @@ e_africa = { # Africa
 				b_tindouf = {}
 				b_birumgrein = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_adrar = { # Adrar
 			color = { 130 180 61 }
@@ -21319,7 +21319,7 @@ e_africa = { # Africa
 				b_awlil = {}
 				b_atrar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_adrar
 		d_taghaza = { # Taghaza
 			color = { 92 188 163 }
@@ -21341,7 +21341,7 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				b_tassarahla = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_mauretania
@@ -21394,7 +21394,7 @@ e_mali = { # Mali
 				b_soso = {}
 				b_beledugu = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_mema = { # Mema
 			color = { 191 206 73 }
@@ -21429,7 +21429,7 @@ e_mali = { # Mali
 				b_femaye = {}
 				#b_derary = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tagant = { # Tagant
 			color = { 191 112 73 }
@@ -21455,7 +21455,7 @@ e_mali = { # Mali
 				b_moudjeria = {}
 				b_tamchakett = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_oualata = { # Walata
 			color = { 90 170 30 }
@@ -21480,7 +21480,7 @@ e_mali = { # Mali
 				b_awkar = {}
 				b_tirka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_ghana
@@ -21533,7 +21533,7 @@ e_mali = { # Mali
 				b_bamako = {}
 				b_tabou = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mali
 		d_bambuk = { # Bambuk
 			color = { 215 198 14 }
@@ -21555,7 +21555,7 @@ e_mali = { # Mali
 				b_sankaran = {}
 				b_do = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kala = { # Kala
 			color = { 135 66 167 }
@@ -21580,7 +21580,7 @@ e_mali = { # Mali
 				b_sama = {}
 				b_fadaku = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_wolof = { # Wolof
 			color = { 135 66 14 }
@@ -21609,7 +21609,7 @@ e_mali = { # Mali
 				b_cayor = {}
 				b_barisa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_mali
@@ -21643,7 +21643,7 @@ e_mali = { # Mali
 				b_guidimakka = {}
 				b_kaniaga = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -21682,7 +21682,7 @@ e_mali = { # Mali
 				b_say = {}
 				b_bura = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_timbuktu = { # Timbuktu
 			color = { 28 50 148 }
@@ -21714,7 +21714,7 @@ e_mali = { # Mali
 				b_tazrouk = {}
 				#b_tamanrasset = {} # c_hoggar
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_mossi = { # Mossi
 			color = { 130 189 86 }
@@ -21734,7 +21734,7 @@ e_mali = { # Mali
 				color2 = { 255 255 255 }
 				b_risiom = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_songhay
@@ -21812,7 +21812,7 @@ e_persia = { # Érán
 				b_burdj = {}
 				#b_lishtar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jebal
 		d_khoar = { # Khoar
 			color = { 255 90 50 }
@@ -21847,7 +21847,7 @@ e_persia = { # Érán
 				b_badhash = {}
 				b_kharkan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_khoar
 		d_fars = { # Párs
 			color = { 152 24 48 }
@@ -21918,7 +21918,7 @@ e_persia = { # Érán
 				b_niriz = {}
 				b_istahbanat = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_fars
 		d_kerman = { # Kermán
 			color = { 196 79 255 }
@@ -21967,7 +21967,7 @@ e_persia = { # Érán
 				b_larak = {}
 				b_kishqeshmi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kerman
 		d_yazd = { # Yazd
 			color = { 218 220 155 }
@@ -21995,7 +21995,7 @@ e_persia = { # Érán
 				b_zarand = {}
 				b_nain = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ahwaz = { # Ahwáz # Khuzestan
 			color = { 154 172 148 }
@@ -22026,7 +22026,7 @@ e_persia = { # Érán
 				b_tustar = {}
 				b_sus-khuzestani = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ahwaz
 		allow = { title_king_basic_allow = yes }
 	} # end k_persia
@@ -22062,7 +22062,7 @@ e_persia = { # Érán
 				b_kalar = {}
 				b_natil = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_gilan = { # Gílán
 			color = { 68 105 174 }
@@ -22097,7 +22097,7 @@ e_persia = { # Érán
 				b_khunaj = {}
 				b_shamiran = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_gurgan = { # Gorgán
 			color = { 35 140 255 }
@@ -22119,7 +22119,7 @@ e_persia = { # Érán
 				b_akhor_dishistan = {}
 				b_okarem = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_azerbaijan = { # Adharbaygan
 			color = { 94 163 249 }
@@ -22173,7 +22173,7 @@ e_persia = { # Érán
 				b_barzand = {}
 				b_vartan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_azerbaijan
 		allow = { title_king_basic_allow = yes }
 	} # end k_daylam
@@ -22246,7 +22246,7 @@ e_persia = { # Érán
 				b_naband_qohistan = {}
 				b_kuri = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_nishapur
 		d_merv = { # Marï
 			color = { 153 201 70 }
@@ -22291,7 +22291,7 @@ e_persia = { # Érán
 				b_akhsikak = {}
 				b_nevida = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_merv
 		d_herat = { # Herát
 			color = { 220 210 80 }
@@ -22341,7 +22341,7 @@ e_persia = { # Érán
 				b_ribat-i-karvan = {}
 				b_manshan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_herat
 		d_balkh = { # Balkh
 			color = { 68 77 148 }
@@ -22376,7 +22376,7 @@ e_persia = { # Érán
 				b_andkhud = {}
 				b_ushburqan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_balkh
 		allow = { title_king_basic_allow = yes }
 	} # end k_khorasan
@@ -22426,7 +22426,7 @@ e_persia = { # Érán
 				b_subakh = {}
 				b_bezda = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_soghd
 		d_ustrushana = { # Ustrushána
 			color = { 9 58 10 }
@@ -22446,7 +22446,7 @@ e_persia = { # Érán
 				b_kesh = {}
 				b_varaghser = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ferghana = { # Ferghána
 			color = { 98 119 0 }
@@ -22483,7 +22483,7 @@ e_persia = { # Érán
 				b_qubaferghana = {}
 				b_naqad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ferghana
 		d_shash = { # Chách
 			color = { 130 160 75 }
@@ -22507,7 +22507,7 @@ e_persia = { # Érán
 				b_otrar = {}
 				b_sutkend = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_shash
 		d_khwarazm = { # Khorazm
 			color = { 174 192 91 }
@@ -22544,7 +22544,7 @@ e_persia = { # Érán
 				b_darghan = {}
 				b_jigirband = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_khwarazm
 		allow = { title_king_basic_allow = yes }
 	} # end k_mavarannahr
@@ -22592,7 +22592,7 @@ e_persia = { # Érán
 				b_bayan = {}
 				b_kazima = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tigris
 		d_kufa = { # al-Kufa
 			color = { 155 115 9 }
@@ -22625,7 +22625,7 @@ e_persia = { # Érán
 				b_ainaltamur = {}
 				b_safata = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kermanshah = { # Kermanshah # Lorestan # Luristan
 			color = { 58 83 130 }
@@ -22649,7 +22649,7 @@ e_persia = { # Érán
 				b_hulwan = {}
 				b_mahalkufa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kermanshah
 		d_baghdad = { # Baghdad
 			color = { 125 165 239 }
@@ -22695,7 +22695,7 @@ e_persia = { # Érán
 				b_hillah = {}
 				b_birmallaha = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_baghdad
 		d_samarra = { # Samarrah
 			color = { 15 165 19 }
@@ -22734,7 +22734,7 @@ e_persia = { # Érán
 				b_jabulta = {}
 				b_barimma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_samarra
 		d_kurdistan = { # Kurdistan
 			color = { 115 148 55 }
@@ -22759,7 +22759,7 @@ e_persia = { # Érán
 				b_tiranshah = {}
 				b_sine = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kurdistan
 		allow = { title_king_basic_allow = yes }
 	} # end k_mesopotamia
@@ -22857,7 +22857,7 @@ e_rajastan = { # Rajastan
 				b_guja = {}
 				b_vicalapura = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sauvira
 		d_bhakkar = { # Bhakkar
 			color = { 200 105 18 }
@@ -22909,7 +22909,7 @@ e_rajastan = { # Rajastan
 				b_bodein = {}
 				b_jhal = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bhakkar
 		allow = { title_king_basic_allow = yes }
 	} # end k_sindh
@@ -22988,7 +22988,7 @@ e_rajastan = { # Rajastan
 				b_kalamboli = { # Fictional - For Prosperity
 				}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_multan
 		d_lahore = { # Lahore
 			color = { 180 110 41 }
@@ -23071,7 +23071,7 @@ e_rajastan = { # Rajastan
 				b_karianwala = {}
 				#b_bhaddar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lahore
 		d_gandhara = { # Gandhara
 			color = { 255 150 31 }
@@ -23132,7 +23132,7 @@ e_rajastan = { # Rajastan
 				b_dinkot = {}
 				b_kalabagh = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gandhara
 		allow = { title_king_basic_allow = yes }
 	} # end k_punjab
@@ -23177,7 +23177,7 @@ e_rajastan = { # Rajastan
 				b_samana = {}
 				b_panipat = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kuru
 		d_haritanaka = { # Haritanaka
 			color = { 100 25 3 }
@@ -23211,7 +23211,7 @@ e_rajastan = { # Rajastan
 				b_bhatnir = {}
 				b_tarain = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_mathura = { # Mathura
 			color = { 150 45 10 }
@@ -23250,7 +23250,7 @@ e_rajastan = { # Rajastan
 				b_dholeshwar_mahadev = {}
 				b_abanhagari = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mathura
 		d_vodamayutja = { # Vodamayutja
 			color = { 195 90 0 }
@@ -23288,7 +23288,7 @@ e_rajastan = { # Rajastan
 				b_kartikeyapura = {}
 				b_jageshwar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vodamayutja
 		allow = { title_king_basic_allow = yes }
 	} # end k_delhi
@@ -23335,7 +23335,7 @@ e_rajastan = { # Rajastan
 				b_unjha = {}
 				b_danta = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_gurjara_mandala
 		d_anartta = { # Anartta
 			color = { 195 50 10 }
@@ -23369,7 +23369,7 @@ e_rajastan = { # Rajastan
 				b_dhaneti = {}
 				b_bhuj = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_saurashtra = { # Saurashtra
 			color = { 220 100 50 }
@@ -23416,7 +23416,7 @@ e_rajastan = { # Rajastan
 				b_shatrunjaya = {}
 				b_dhandhuka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_saurashtra
 		d_lata = { # Lata
 			color = { 200 150 90 }
@@ -23460,7 +23460,7 @@ e_rajastan = { # Rajastan
 				data = { 0 0 0 34 10 0 0 }
 				religion = hindu
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lata
 		allow = { title_king_basic_allow = yes }
 	} # end k_gujarat
@@ -23503,7 +23503,7 @@ e_rajastan = { # Rajastan
 				b_naddula = {}
 				b_khudala = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_jangladesh = { # Jangladesh
 			color = { 144 47 0 }
@@ -23527,7 +23527,7 @@ e_rajastan = { # Rajastan
 				b_bidasar = {}
 				b_sidhmukh = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_stravani = { # Stravani
 			color = { 150 60 30 }
@@ -23558,7 +23558,7 @@ e_rajastan = { # Rajastan
 				b_ranakpur = {}
 				b_juna_barmer = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_medapata = { # Medapata
 			color = { 136 66 32 }
@@ -23593,7 +23593,7 @@ e_rajastan = { # Rajastan
 				b_ramgarh = {}
 				b_bundi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ajmer = { # Ajmer
 			color = { 230 190 51 }
@@ -23643,7 +23643,7 @@ e_rajastan = { # Rajastan
 				b_kuchaman = {}
 				b_mundwa = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ajmer
 		allow = { title_king_basic_allow = yes }
 	} # end k_rajputana
@@ -23698,7 +23698,7 @@ e_rajastan = { # Rajastan
 				b_maksi = {}
 				b_akodia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dadhipadra
 		d_akara_dasarna = { # Akara-Dasarna
 			color = { 210 150 15 }
@@ -23756,7 +23756,7 @@ e_rajastan = { # Rajastan
 				b_sabalgarh = {}
 				b_vijaypur = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_akara_dasarna
 		d_anupa = { # Anupa
 			color = { 150 110 5 }
@@ -23800,7 +23800,7 @@ e_rajastan = { # Rajastan
 				b_laling = {}
 				b_amalner = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_anupa
 		allow = { title_king_basic_allow = yes }
 	} # end k_malwa
@@ -23872,7 +23872,7 @@ e_rajastan = { # Rajastan
 				b_kara = {}
 				b_dariyabad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kanyakubja
 		d_saryupara = { # Saryupara
 			color = { 180 110 40 }
@@ -23913,7 +23913,7 @@ e_rajastan = { # Rajastan
 				b_faizabad = {}
 				b_sarairasi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_saryupara
 		d_jejakabhukti = { # Jejakabhukti
 			color = { 120 50 10 }
@@ -23955,7 +23955,7 @@ e_rajastan = { # Rajastan
 				b_bathgahora = {}
 				b_chandrehi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jejakabhukti
 		allow = { title_king_basic_allow = yes }
 	} # end k_kosala
@@ -24022,7 +24022,7 @@ e_null = { #
 				b_amaras = {}
 				b_nakorzan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_artsakh
 		d_suenik = { # Siwnik
 			color = { 47 17 85 }
@@ -24074,7 +24074,7 @@ e_null = { #
 				b_boghrut = {}
 				b_ordubad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_suenik
 		d_vaspurakan = { # Vaspurakan
 			color = { 174 23 122 }
@@ -24147,7 +24147,7 @@ e_null = { #
 				b_berkri = {}
 				b_artske = {}
 			} # end c_bznunik
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vaspurakan
 		d_armenia = { # Hayk
 			color = { 88 87 52 }
@@ -24228,7 +24228,7 @@ e_null = { #
 				b_surpstephanos = {}
 				b_surparakelots = {}
 			} # end c_vanand
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_armenia
 		d_lori = { # Tašir
 			color = { 210 202 150 }
@@ -24257,7 +24257,7 @@ e_null = { #
 				b_khoranashat = {}
 				b_gardman = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_taron = { # Tarawn
 			color = { 130 118 13 }
@@ -24313,7 +24313,7 @@ e_null = { #
 				b_olnoutin = {}
 				b_khnus = {}
 			} # end c_manzikert
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_taron
 		d_mesopotamia = { # Bardzr Hayk
 			color = { 30 118 113 }
@@ -24358,7 +24358,7 @@ e_null = { #
 				b_sper = {}
 				b_varzahan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mesopotamia
 		d_dzopk = { # Dzopk
 			color = { 9 12 119 }
@@ -24403,7 +24403,7 @@ e_null = { #
 				b_charpete = {}
 				b_pertek = {}
 			} # end c_charpete
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dzopk
 		gain_effect = {
 			# If title receiver also owns the titular Hayk, then
@@ -24544,7 +24544,7 @@ e_null = { #
 				b_salqah = {}
 				b_abasan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jerusalem
 		d_acre = { # Acre
 			color = { 235 224 73 }
@@ -24580,7 +24580,7 @@ e_null = { #
 				b_syrcaesarea = {}
 				b_calansue = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_acre
 		d_oultrejourdain = { # Oultrejourdain
 			color = { 203 159 24 }
@@ -24644,7 +24644,7 @@ e_null = { #
 				b_tafila = {}
 				b_syralrabbah = {}
 			} # end c_kerak
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_oultrejourdain
 		d_ascalon = { # Jaffa-Ascalon
 			color = { 225 65 34 }
@@ -24672,7 +24672,7 @@ e_null = { #
 				b_karatiyya = {}
 				b_laforbie = {}
 			} # end c_ascalon
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_ascalon
 		d_galilee = { # Galilée # Principauté de Galilée
 			color = { 41 45 138 }
@@ -24726,7 +24726,7 @@ e_null = { #
 				b_meronisreal = {}
 				b_chastelet = {}
 			} # end c_safed
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_galilee
 		# Creation/Usurp Trigger
 		allow = {
@@ -24809,7 +24809,7 @@ e_null = { #
 				b_hartanedessa = {}
 				b_karkaron = {}
 			} # end c_kaisun
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_edessa
 		d_antioch = { # Antioche # Principauté d'Antioche
 			color = { 91 139 188 }
@@ -24905,7 +24905,7 @@ e_null = { #
 				b_bourzeycastle = {}
 				b_treiz = {}
 			} # end c_archa
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_antioch
 		d_tripoli = { # Tripoli
 			color = { 154 39 39 }
@@ -24975,7 +24975,7 @@ e_null = { #
 				b_besmedin = {}
 				b_msheilfort = {}
 			} # end c_gibelet
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tripoli
 		allow = {
 			religion_group = christian
@@ -25045,7 +25045,7 @@ e_null = { #
 				b_siird = {}
 				b_arzan = {}
 			} # end c_hisn_kayf
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_amida
 		d_jazira = { # Diyar Mudar
 			color = { 96 115 255 }
@@ -25087,7 +25087,7 @@ e_null = { #
 				b_akcakale = {}
 				b_ceylanpinar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_jazira
 		d_diyareast = { # Diyar Rabi'a
 			color = { 255 239 63 }
@@ -25176,7 +25176,7 @@ e_null = { #
 				b_bawazij = {}
 				b_haditha = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_diyareast
 		allow = { title_king_basic_allow = yes }
 	} # end k_aljazira
@@ -25234,7 +25234,7 @@ e_null = { #
 				b_waren = {}
 				b_penzlin = {}
 			} # end c_werle
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mecklemburg
 		d_pomeralia = { # Pomeralia
 			color = { 236 234 46 }
@@ -25261,7 +25261,7 @@ e_null = { #
 				b_chojnice = {}
 				b_bytow = {}
 			} # end c_swiecie
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pomeralia
 		d_lubeck = { # Lübeck
 			color = { 177 69 69 }
@@ -25291,7 +25291,7 @@ e_null = { #
 				b_eutin = {}
 				b_bornhovd = {}
 			} # end c_wargrien
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lubeck
 		d_lubusz = { # Lebus
 			color = { 78 115 219 }
@@ -25343,7 +25343,7 @@ e_null = { #
 				#	russian = "Choszczno"
 				#}
 			} # end c_neumark
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lubusz
 		d_pommerania = { # Pomerania
 			color = { 63 92 65 }
@@ -25437,7 +25437,7 @@ e_null = { #
 				b_darlowo = {}
 				b_ustka = {}
 			} # end c_slupsk
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pommerania
 		d_rugen = { # Rügen
 			color = { 106 35 121 }
@@ -25461,7 +25461,7 @@ e_null = { #
 				b_barth = {}
 				b_stralsund = {}
 			} # end c_barth
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_rugen
 		d_brandenburg = { # Nordmark
 			color = { 229 223 200 }
@@ -25506,7 +25506,7 @@ e_null = { #
 				b_perleberg = {}
 				b_ruppin = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_brandenburg
 		d_lausitz = { # Lausitz
 			color = { 87 87 157 }
@@ -25533,7 +25533,7 @@ e_null = { #
 				b_gorlitz = {}
 				b_raothenburg = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
 			OR = {
@@ -25612,7 +25612,7 @@ e_null = { #
 				b_karksi = {}
 				b_viljandi = {}
 			} # end c_livs
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_livonia
 		d_talava = { # Tholowa
 			color = { 126 162 210 }
@@ -25648,7 +25648,7 @@ e_null = { #
 				b_gulbene = {}
 				b_gaujiena = {}
 			} # end c_atzele
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_talava
 		d_courland = { # Courland
 			color = { 41 41 77 }
@@ -25691,7 +25691,7 @@ e_null = { #
 				b_sabile = {}
 				b_tukums = {}
 			} # end c_kurs
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_courland
 		d_zemigalia = { # Zemgali
 			color = { 142 65 139 }
@@ -25715,7 +25715,7 @@ e_null = { #
 				b_aizkraukle = {}
 				b_selpils = {}
 			} # end c_selija
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zemigalia
 		d_lettigale = { # Gerzike
 			color = { 125 80 50 }
@@ -25741,7 +25741,7 @@ e_null = { #
 				b_ludza = {}
 				b_rezekene = {}
 			} # end c_west_dvina
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_lettigale
 		d_esthonia = { # Eesti
 			color = { 178 184 27 }
@@ -25774,7 +25774,7 @@ e_null = { #
 				b_keava = {}
 				b_paide = {}
 			} # end c_jarva
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_esthonia
 		d_dorpat = { # Ugandi
 			color = { 207 45 45 }
@@ -25810,7 +25810,7 @@ e_null = { #
 					piety = 500
 					NOT = { religion_group = christian }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_dorpat
 		d_osel_wiek = { # Ösel–Wiek
@@ -25842,7 +25842,7 @@ e_null = { #
 					piety = 500
 					NOT = { religion_group = christian }
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_osel_wiek
 		allow = { title_king_basic_allow = yes }
@@ -25909,7 +25909,7 @@ e_null = { #
 				b_aqmescit = {}
 				b_kirim = {}
 			} # end c_crimea
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_crimea
 		d_sarkel = { # Duna-Jük
 			color = { 227 205 101 }
@@ -25986,7 +25986,7 @@ e_null = { #
 				b_chuhuiv = {}
 				b_sharukan = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sarkel
 		d_zaporizhia = { # Özü
 			color = { 60 180 160 }
@@ -26009,7 +26009,7 @@ e_null = { #
 				b_kodak = {}
 				b_khortytsia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zaporizhia
 		d_vorksla = { # Vorskla
 			color = { 105 140 80 }
@@ -26028,7 +26028,7 @@ e_null = { #
 				b_belgorod_vorskla = {}
 				b_hotmysl = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vorksla
 		d_podolia = { # Yedisan
 			color = { 170 218 153 }
@@ -26110,7 +26110,7 @@ e_null = { #
 				b_braclav = {}
 				b_bakota_ponyzzia = {}
 			} # end c_peresechen
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_podolia
 		allow = { title_king_basic_allow = yes }
 	} # end k_taurica
@@ -26369,7 +26369,7 @@ e_null = { #
 				b_aqusha = {}
 				b_ur_karakh = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_itil
 		d_saray = { # Saray
 			color = { 40 87 53 }
@@ -26404,7 +26404,7 @@ e_null = { #
 				b_yegorlyk = {}
 				b_kalaus = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_saray
 		d_azov = { # Azaq
 			color = { 167 40 40 }
@@ -26463,7 +26463,7 @@ e_null = { #
 				b_sapaksi = {}
 				b_kuban = {}
 			} # end c_kuban
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_azov
 		d_tmutarakan = { # Tamatarkha
 			color = { 196 99 162 }
@@ -26503,7 +26503,7 @@ e_null = { #
 				b_kimmerikon = {}
 				b_nymphaion_korchev = {}
 			} # end c_korchev
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tmutarakan
 		allow = { title_king_basic_allow = yes }
 	} # end k_khazaria
@@ -26537,7 +26537,7 @@ e_null = { #
 				b_terek = {}
 				b_sunzha = {}
 			} # end c_don_portage
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_alania
 		d_zichia = { # Adyghe Khaeku
 			color = { 36 46 75 }
@@ -26574,7 +26574,7 @@ e_null = { #
 				b_zikh = {}
 				b_nicopsia = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zichia
 		d_sarir = { # Sarir
 			color = { 43 55 106 }
@@ -26594,7 +26594,7 @@ e_null = { #
 				b_nikaroi = {}
 				b_tetchick_ev = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sarir
 		allow = { title_king_basic_allow = yes }
 	} # end k_alania
@@ -26636,7 +26636,7 @@ e_null = { #
 				b_lamghan = {}
 				b_nagarahara = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_khottal = { # Khatlón
 			color = { 118 223 170 }
@@ -26691,7 +26691,7 @@ e_null = { #
 				b_andicharagh = {}
 				b_anderab = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_khottal
 		allow = { title_king_basic_allow = yes }
 	} # end k_kafarestan
@@ -26753,7 +26753,7 @@ e_null = { #
 				b_pandjvay = {}
 				b_bakrabad = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sistan
 		d_makran = { # Makrán
 			color = { 136 169 80 }
@@ -26795,7 +26795,7 @@ e_null = { #
 				b_qusdar = {}
 				b_sura = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_makran
 		allow = { title_king_basic_allow = yes }
 	} # end k_sistan
@@ -26830,7 +26830,7 @@ e_null = { #
 				b_or = {}
 				b_emba = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_ustyurt = { # Ust-Yurt
 			color = { 219 199 86 }
@@ -26861,7 +26861,7 @@ e_null = { #
 				b_karasu = {}
 				b_gazanjyk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_dasht-i-qipchaq = { # Dasht-e-Qipchaq
 			color = { 210 185 15 }
@@ -26900,7 +26900,7 @@ e_null = { #
 				b_isilkul = {}
 				b_kostanay = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_dasht-i-qipchaq
 		d_jand = { # Jand
 			color = { 20 220 146 }
@@ -26925,7 +26925,7 @@ e_null = { #
 				b_sawran = {}
 				b_shavgar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_turkestan_west
@@ -26979,7 +26979,7 @@ e_null = { #
 				b_shelji = {}
 				b_chigil = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_zhetysu
 		d_kashgar = { # Kashgar
 			color = { 255 110 70 }
@@ -27002,7 +27002,7 @@ e_null = { #
 				b_uksalur = {}
 				b_kizilsu = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kashgar
 		d_kucha = { # Kucha
 			color = { 255 220 80 }
@@ -27036,7 +27036,7 @@ e_null = { #
 				b_qocho = {}
 				b_charchi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kucha
 		d_ayaguz = { # Ayaguz
 			color = { 150 195 50 }
@@ -27062,7 +27062,7 @@ e_null = { #
 				b_aksuat = {}
 				b_akzhar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_khotan = { # Khotan
 			color = { 80 200 50 }
@@ -27079,7 +27079,7 @@ e_null = { #
 			}
 			allow = {
 				independent = yes
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		} # end d_khotan
 		allow = { title_king_basic_allow = yes }
@@ -27138,7 +27138,7 @@ e_null = { #
 				b_simbirsk_ulyanovsk = {}
 				b_suar = {}
 			} # end c_tyumen
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bulgar
 		d_samara = { # Samar
 			color = { 75 40 105 }
@@ -27163,7 +27163,7 @@ e_null = { #
 				b_buzuluk = {}
 				b_karakiya = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_samara
 		d_bashkirs = { # Bashqurdlar
 			color = { 20 40 29 }
@@ -27182,7 +27182,7 @@ e_null = { #
 				b_masra_sakmar = {}
 				b_kasra_sakmar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bashkirs
 		d_mordva = { # Mokša
 			color = { 243 183 22 }
@@ -27209,7 +27209,7 @@ e_null = { #
 				b_tambov = {}
 				b_mokshi = {}
 			} # end c_mordva
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mordva
 		d_podonye = { # Qaratayak
 			color = { 143 183 22 }
@@ -27266,7 +27266,7 @@ e_null = { #
 				b_mayaki = {}
 				b_osen = {}
 			} # end c_desht-i-kipchak
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_podonye
 		d_sura = { # Sura
 			color = { 88 165 4 }
@@ -27286,7 +27286,7 @@ e_null = { #
 				b_saransk = {}
 				b_alatyr = {}
 			} # end c_mountain_cheremisa
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_sura
 		allow = { title_king_basic_allow = yes }
 	} # end k_volga_bulgaria
@@ -27394,7 +27394,7 @@ e_null = { #
 				b_sotkamo = {}
 				b_mikkeli = {}
 			} # end c_savolaks
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_finland
 		d_viipuri = { # Viipuri
 			color = { 186 5 3 }
@@ -27421,7 +27421,7 @@ e_null = { #
 				b_viensuu = {}
 				b_lieksa = {}
 			} # end c_kexholm
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_viipuri
 		d_norrland = { # Hälsingland # Norrland
 			color = { 131 108 26 }
@@ -27467,7 +27467,7 @@ e_null = { #
 				b_neiden = {}
 				#b_kemi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_norrland
 		d_karelia = { # Karelia
 			color = { 208 191 5 }
@@ -27501,7 +27501,7 @@ e_null = { #
 				b_kantalahti = {}
 				b_umba = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_karelia
 		d_ingria = { # Ingria
 			color = { 66 71 112 }
@@ -27524,7 +27524,7 @@ e_null = { #
 				b_koporje = {}
 				b_kingisepp = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_finland
@@ -27564,7 +27564,7 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_kudymkar = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_perm
 		d_vyatka = { # Vice
 			color = { 134 102 207 }
@@ -27601,7 +27601,7 @@ e_null = { #
 				b_yoshkar_ola = {}
 				b_kokshaysk = {}
 			} # end c_kokshaga
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_vyatka
 		d_pelym = { # Polum # Pelym/Polum
 			color = { 191 57 32 }
@@ -27622,7 +27622,7 @@ e_null = { #
 				b_nizhnechusovskie_gorodki = {}
 				b_verkhoturye = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pelym
 		d_perm_vychegda = { # Ežva # Vychegda/Ežva
 			color = { 62 105 142 }
@@ -27641,7 +27641,7 @@ e_null = { #
 				b_solvychegodsk = {}
 				b_yarensk = {}
 			} # end c_zyriane
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_perm_vychegda
 		allow = { title_king_basic_allow = yes }
 	} # end k_perm
@@ -27679,7 +27679,7 @@ e_null = { #
 				b_ust_vaga = {}
 				b_shenkursk = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_bjarmia
 		d_onega = { # Änine
 			color = { 70 85 106 }
@@ -27699,7 +27699,7 @@ e_null = { #
 				b_nikolokorelskij = {}
 				b_ust-onega = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_onega
 		d_pechora = { # Pechöra
 			color = { 91 127 151 }
@@ -27717,7 +27717,7 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_izhma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_pechora
 		allow = { title_king_basic_allow = yes }
 	} # end k_bjarmia
@@ -27772,7 +27772,7 @@ e_null = { #
 				b_tori = {}
 				b_atskuri = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kartli
 		d_tao = { # Tayk
 			color = { 210 204 50 }
@@ -27791,7 +27791,7 @@ e_null = { #
 				b_khakhuli = {}
 				b_oshki = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_klarjeti = { # Klarjeti
 			color = { 72 204 160 }
@@ -27817,7 +27817,7 @@ e_null = { #
 				b_parekhi = {}
 				b_doliskana = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_klarjeti
 		d_kakheti = { # Kakheti
 			color = { 96 21 158 }
@@ -27856,7 +27856,7 @@ e_null = { #
 				b_akhieli = {}
 				b_lebaiskari = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_kakheti
 		d_abkhazia = { # Apkhazeti
 			color = { 184 203 170 }
@@ -27889,7 +27889,7 @@ e_null = { #
 				b_ilori = {}
 				b_bzyb = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_abkhazia
 		d_imeretia = { # Imereti
 			color = { 184 203 5 }
@@ -27920,7 +27920,7 @@ e_null = { #
 				b_ghelati = {}
 				b_motsameta = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_imeretia
 		d_racha = { # Racha
 			color = { 104 103 180 }
@@ -27941,7 +27941,7 @@ e_null = { #
 				b_oni = {}
 				b_gebi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_hereti = { # Hereti
 			color = { 196 31 139 }
@@ -27958,7 +27958,7 @@ e_null = { #
 				b_khornabuji = {}
 				b_dedoplistsqaro = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_georgia
@@ -27987,7 +27987,7 @@ e_null = { #
 				b_ganja = {}
 				b_shamkhor = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_derbent = { # Derbend
 			color = { 155 25 65 }
@@ -28027,7 +28027,7 @@ e_null = { #
 				b_tsakhur = {}
 				b_tabarsaran = {}
 			} # end c_lekia
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_derbent
 		d_shirvan = { # Shirwan
 			color = { 97 147 60 }
@@ -28077,7 +28077,7 @@ e_null = { #
 				b_martakert = {}
 				b_aghuen = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_shirvan
 		allow = { title_king_basic_allow = yes }
 	} # end k_caucasian_albania
@@ -28106,7 +28106,7 @@ e_null = { #
 				b_telde = {}
 				b_aguimes = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_canarias
 		allow = { title_king_basic_allow = yes }
 	} # end k_canarias
@@ -28136,7 +28136,7 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_ilizi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tuat = { # Tuat
 			color = { 245 189 86 }
@@ -28178,7 +28178,7 @@ e_null = { #
 				b_elgolea = {}
 				b_taursit = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_tuat
 		d_mzab = { # Mzab
 			color = { 130 180 61 }
@@ -28214,7 +28214,7 @@ e_null = { #
 				b_ghadames = {}
 				b_daradj = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_mzab
 		d_air = { # Air
 			color = { 105 121 97 }
@@ -28234,7 +28234,7 @@ e_null = { #
 				b_azawa = {}
 				b_hamra = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tanmak = { # Tanmak
 			color = { 85 125 135 }
@@ -28253,7 +28253,7 @@ e_null = { #
 				b_tessalit = {}
 				b_aguelhok = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_sahara
@@ -28297,7 +28297,7 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_tummo = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		} # end d_fezzan
 		d_nafusa = { # Jabal Nafusa # Djabal Nafusa
 			color = { 105 85 85 }
@@ -28321,7 +28321,7 @@ e_null = { #
 				b_waddan = {}
 				b_tadjrift = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_tibesti = { # Tibesti
 			color = { 105 107 77 }
@@ -28340,7 +28340,7 @@ e_null = { #
 				b_tazerbo = {}
 				b_gherma = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_fezzan
@@ -28379,7 +28379,7 @@ e_null = { #
 				b_munio = {}
 				b_nguru = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kanem = { # Kanem
 			color = { 250 111 111 }
@@ -28401,7 +28401,7 @@ e_null = { #
 				b_makari = {}
 				b_kuka = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_wadai = { # Wadai
 			color = { 255 145 56 }
@@ -28414,7 +28414,7 @@ e_null = { #
 				b_gasga = {}
 				b_wara = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kawar = { # Kawar
 			color = { 230 160 38 }
@@ -28433,7 +28433,7 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_djado = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_kanem
@@ -28462,7 +28462,7 @@ e_null = { #
 				b_daura = {}
 				b_maradi = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_kebbi = { # Kebbi
 			color = { 187 61 255 }
@@ -28494,7 +28494,7 @@ e_null = { #
 				b_argungu = {}
 				b_dosso = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_gobir = { # Gobir
 			color = { 105 65 97 }
@@ -28512,7 +28512,7 @@ e_null = { #
 				b_tahoua = {}
 				b_abalak = {}
 			}
-			allow = { title_duchy_basic_allow = yes }
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_hausaland
@@ -28524,13 +28524,13 @@ d_the_isles = { # Man
 	color = { 10 48 243 }
 	color2 = { 255 255 255 }
 	capital = 36 # Orkneyar # Orkney
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_abbasid = { # Abbasid
 	color = { 19 180 16 }
 	capital = 693 # Baghdad # Lut
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 #d_cumberland = { color = { 31 186 244 } }
@@ -28541,7 +28541,7 @@ d_danes = { # Danmark
 	dignity = 10
 	capital = 266 # Nørræ Syaland # Sjaelland
 	culture = norse
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_geats = { # Gauthiod
@@ -28550,14 +28550,14 @@ d_geats = { # Gauthiod
 	dignity = 8
 	capital = 297 # Lödöse # Västergötland
 	culture = norse
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_sandomiersk = { # Sandomiersk
 	# OBSOLETE
 	color = { 253 137 137 }
 	capital = 531 # Sandomierz
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_sweden = { # Svithjod
@@ -28566,25 +28566,25 @@ d_sweden = { # Svithjod
 	dignity = 10
 	capital = 290 # Tiundaland # Uppland
 	culture = norse
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_swiss = { # Switzerland
 	color = { 255 1 1 }
 	capital = 244 # Zähringen # Bern
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_temes = { # Temes
 	color = { 147 121 58 }
 	capital = 517 # Temes
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_wielkopolska = { # Wielkopolska
 	color = { 252 144 144 }
 	capital = 431 # Poznan
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_hilal = { # Banu Hilál
@@ -28593,7 +28593,7 @@ d_hilal = { # Banu Hilál
 	capital = 807 # Awjíla # c_Senoussi
 	#tribe = yes
 	culture = bedouin_arabic
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_qurra = { # Banu Qurra
@@ -28602,7 +28602,7 @@ d_qurra = { # Banu Qurra
 	capital = 804 # Sullum
 	#tribe = yes
 	culture = bedouin_arabic
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_massufa = { # Massúfa
@@ -28610,7 +28610,7 @@ d_massufa = { # Massúfa
 	capital = 916 # Taghaza
 	#tribe = yes
 	culture = sanhaja
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28621,7 +28621,7 @@ d_lamtuna = { # Lamtúna
 	capital = 920 # Wadán # Ouadane/Wadán
 	#tribe = yes
 	culture = tagelmust
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28632,7 +28632,7 @@ d_lamta = { # Lamta
 	capital = 846 # Ifni
 	#tribe = yes
 	culture = tagelmust
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28643,7 +28643,7 @@ d_lamta_east = { # Lamta
 	capital = 1396 # Tuat
 	#tribe = yes
 	culture = tagelmust
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28654,7 +28654,7 @@ d_guddala = { # Djuddála
 	capital = 1368 # Amatlus
 	#tribe = yes
 	culture = tagelmust
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28665,7 +28665,7 @@ d_gazzula = { # Djazzúla
 	capital = 1363 # Draa
 	#tribe = yes
 	culture = tagelmust
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28676,7 +28676,7 @@ d_lawata = { # Lawata
 	#tribe = yes
 	culture = zanata
 	capital = 807 # Awjíla
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28687,7 +28687,7 @@ d_masila = { # Masila
 	#tribe = yes
 	culture = zanata
 	capital = 804 # Sullum
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28698,7 +28698,7 @@ d_dakhila = { # Dakhila
 	#tribe = yes
 	culture = zanata
 	capital = 1342 # Dakhila
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28709,7 +28709,7 @@ d_musab = { # Mus'ab
 	capital = 829 # Al-Aghwat # Ghardaiya
 	#tribe = yes
 	culture = zaghawa
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28720,7 +28720,7 @@ d_azger = { # Azger
 	capital = 1402 # Djanet
 	#tribe = yes
 	culture = sanhaja
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28731,7 +28731,7 @@ d_mazata = { # Mazáta
 	capital = 809 # Syrte
 	#tribe = yes
 	culture = zanata
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28751,7 +28751,7 @@ d_naqis = { # Naqís
 	capital = 1593 # Naqis
 	#tribe = yes
 	culture = beja
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28762,7 +28762,7 @@ d_kanz = { # Kanz # Banu al-Kanz
 	#tribe = yes
 	culture = bedouin_arabic
 	capital = 794 # Aswan
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = KANZ
 	title_female = KANZ
 	foa = KANZ_FOA
@@ -28773,7 +28773,7 @@ d_baqlin = { # Baqlín
 	#tribe = yes
 	culture = beja
 	capital = 1502 # Maikele Bahr
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28784,7 +28784,7 @@ d_djarin = { # Djarín
 	#tribe = yes
 	culture = beja
 	capital = 1489 # Wolqayt
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28795,7 +28795,7 @@ d_qataa = { # Qata'a
 	#tribe = yes
 	culture = beja
 	capital = 1507 # Marya
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28806,7 +28806,7 @@ d_bazin = { # Bazín
 	#tribe = yes
 	culture = beja
 	capital = 1508 # Adulis # Audlis (or 878?)
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28817,7 +28817,7 @@ d_danakil = { # Danakil
 	#tribe = yes
 	culture = afar
 	capital = 1517 # Danakil
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -28828,7 +28828,7 @@ d_shewa = { # Shewa
 	#tribe = yes
 	culture = ethiopian
 	capital = 1521 # Shewa
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_silesians = { # Slezanie
@@ -28836,7 +28836,7 @@ d_silesians = { # Slezanie
 	#tribe = yes
 	culture = polish
 	capital = 434 # Wroclaw
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_polans = { # Polanie
@@ -28844,7 +28844,7 @@ d_polans = { # Polanie
 	#tribe = yes
 	culture = polish
 	capital = 431 # Poznan
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_vistulans = { # Wislanie
@@ -28852,7 +28852,7 @@ d_vistulans = { # Wislanie
 	#tribe = yes
 	culture = polish
 	capital = 527 # Krakow
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_mazovians = { # Mazowszanie
@@ -28860,13 +28860,13 @@ d_mazovians = { # Mazowszanie
 	#tribe = yes
 	culture = polish
 	capital = 530 # Czersk
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 d_hormuz = { # Hormuz
 	color = { 31 73 17 }
 	capital = 641 # Hormuz
-	allow = { title_duchy_basic_allow = yes }
+	allow = { title_duke_basic_allow = yes }
 }
 
 # TITULAR KINGDOMS
@@ -28908,7 +28908,7 @@ d_aydin = { # Aydin
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -28930,7 +28930,7 @@ d_candar = { # Candar
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Paphlagonia"
 }
@@ -28946,7 +28946,7 @@ d_eretnid = { # Eretna
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -28970,7 +28970,7 @@ d_germiyan = { # Germiyan
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Phrygia"
 	turkmen = "Eskisehir"
@@ -29002,7 +29002,7 @@ d_karaman = { # Qaraman
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Lycaonia"
 }
@@ -29033,7 +29033,7 @@ d_mentese = { # Mentese
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Milas"
 }
@@ -29050,7 +29050,7 @@ d_karasi = { # Qarasi
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Mysia"
 }
@@ -29074,7 +29074,7 @@ d_osmanli = { # Osmanli
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 
@@ -29124,7 +29124,7 @@ d_saruhan = { # Saruhan
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Ionia"
 }
@@ -29151,7 +29151,7 @@ d_ahi = { # Ahiler
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Ancyra"
 	turkmen = "Ankara"
@@ -29169,7 +29169,7 @@ d_hamid = { # Hamid
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Pisidia"
 }
@@ -29185,7 +29185,7 @@ d_tekke = { # Teke
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 	greek = "Cibyrrhaeots"
 }
