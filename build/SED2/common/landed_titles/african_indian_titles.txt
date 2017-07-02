@@ -5,7 +5,7 @@ d_targa = { # Targa
 	#tribe = yes
 	culture = tuareg
 	capital = 1405 # Zawila
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -16,7 +16,7 @@ d_azben = { # Azben
 	capital = 1225 # Agadez # Agadés
 	#tribe = yes
 	culture = tuareg
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -27,7 +27,7 @@ d_soninke = { # Soninke
 	#tribe = yes
 	culture = soninke
 	capital = 913 # Wagadu # Ghana
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
 
 d_zaghawa = { # Zagháwa
@@ -35,7 +35,7 @@ d_zaghawa = { # Zagháwa
 	capital = 1235 # Koufra # Borkou
 	#tribe = yes
 	culture = zaghawa
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
 	foa = RAIS_FOA
@@ -46,5 +46,5 @@ d_duguwa = { # Duguwa
 	#tribe = yes
 	culture = zaghawa
 	capital = 1480 # Wadai # Gasga
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }

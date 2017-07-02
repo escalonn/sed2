@@ -8,7 +8,7 @@ d_swabia = { # Schwaben
 	color2 = { 220 220 20 }
 	capital = 249 # Montfort # Schwaben
 	dignity = 100
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
 
 # Lower Lorraine
@@ -17,7 +17,7 @@ d_lower_lorraine = { # Niederlothringen
 	color2 = { 220 220 20 }
 	capital = 117 # Leuven # Brabant
 	dignity = 5
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
 
 # Bavaria
@@ -26,7 +26,7 @@ d_bavaria = { # Baiern
 	color2 = { 220 220 20 }
 	capital = 360 # Oberbayern
 	dignity = 100
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
 
 # Saxony
@@ -35,7 +35,7 @@ d_saxony = { # Sachsen
 	color2 = { 220 220 20 }
 	dignity = 100
 	capital = 258 # Lüneburg
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
 
 # Franconia
@@ -44,5 +44,5 @@ d_franconia = { # Franken
 	color2 = { 220 220 20 }
 	capital = 123 # Mainz
 	dignity = 100
-	allow = { always = no }
+	allow = { title_duchy_basic_allow = yes }
 }
