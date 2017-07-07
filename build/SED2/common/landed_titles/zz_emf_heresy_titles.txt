@@ -564,6 +564,15 @@ d_east_african_pagan_reformed = { # East African Reformed Church
 	religion = east_african_pagan_reformed
 	# Cannot be held as a secondary title
 	primary = yes
+	allow = {
+		religion = east_african_pagan_reformed
+		is_adult = yes
+		is_incapable = no
+		prisoner = no
+		war = no
+		piety = 1000
+		num_of_holy_sites = 3
+	}
 	title = HEAD_PRIEST
 	title_female = HEAD_PRIESTESS
 	foa = HEAD_PRIEST_FOA
