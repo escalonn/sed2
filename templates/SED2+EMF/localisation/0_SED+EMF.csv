@@ -226,6 +226,7 @@ d_saqaliba                                     ;        ;Saqaliba;;;;
 d_saqaliba_adj                                 ;Saqaliba;Saqlabi;;;;
 d_hashshashin                                  ;Hashshashin;Hashshashin;Hashshashin;;Hashshashin;Fedayeen
 d_hashshashin_adj                              ;Hashshashin;Hashshashin;Hashshashin;;Hashshashin;Fedayeen
+#1_emf_hre.csv;;;;;
 #1_emf_imperial.csv;;;;;
 #1_emf_intrigue.csv;;;;;
 #1_emf_laws.csv;;;;;
@@ -1595,10 +1596,10 @@ PINK_START_TT                                  ;        ;§P;§P;;§P;
 RED_START_TT                                   ;        ;§R;§R;;§R;
 YELLOW_START_TT                                ;        ;§Y;§Y;;§Y;
 IS_DE_JURE_TITLE_TT                            ;        ;Title is NOT titular\n;Title is NOT titular\n;;Title is NOT titular\n;
-OWNER_UNDER_ROOT_TT                            ;        ;In §Y[Root.GetBestName]§!'s subrealm\n;In §Y[Root.GetBestName]§!'s subrealm\n;;In §Y[Root.GetBestName]§!’s subrealm\n;
-OWNER_UNDER_FROM_TT                            ;        ;In §Y[From.GetBestName]§!'s subrealm\n;In §Y[From.GetBestName]§!'s subrealm\n;;In §Y[From.GetBestName]§!’s subrealm\n;
-OWNER_UNDER_FROMFROM_TT                        ;        ;In §Y[FromFrom.GetBestName]§!'s subrealm\n;In §Y[FromFrom.GetBestName]§!'s subrealm\n;;In §Y[FromFrom.GetBestName]§!’s subrealm\n;
-OWNER_UNDER_PREV_TT                            ;        ;In §Y[Prev.GetBestName]§!'s subrealm\n;In §Y[Prev.GetBestName]§!'s subrealm\n;;In §Y[Prev.GetBestName]§!’s subrealm\n;
+OWNER_UNDER_ROOT_TT                            ;        ;In §Y[Root.GetBestName]§!'s realm\n;In §Y[Root.GetBestName]§!'s subrealm\n;;In §Y[Root.GetBestName]§!’s subrealm\n;
+OWNER_UNDER_FROM_TT                            ;        ;In §Y[From.GetBestName]§!'s realm\n;In §Y[From.GetBestName]§!'s subrealm\n;;In §Y[From.GetBestName]§!’s subrealm\n;
+OWNER_UNDER_FROMFROM_TT                        ;        ;In §Y[FromFrom.GetBestName]§!'s realm\n;In §Y[FromFrom.GetBestName]§!'s subrealm\n;;In §Y[FromFrom.GetBestName]§!’s subrealm\n;
+OWNER_UNDER_PREV_TT                            ;        ;In §Y[Prev.GetBestName]§!'s realm\n;In §Y[Prev.GetBestName]§!'s subrealm\n;;In §Y[Prev.GetBestName]§!’s subrealm\n;
 OWNER_UNDER_PREVPREV_TT                        ;        ;In §Y[PrevPrev.GetBestName]§!'s realm\n;In §Y[PrevPrev.GetBestName]§!'s realm\n;;In §Y[PrevPrev.GetBestName]§!’s realm\n;
 UNDER_ROOT_TT                                  ;        ;§Y[Root.GetBestName]§! or under [Root.GetObjectPronoun]\n;§Y[Root.GetBestName]§! or under [Root.GetObjectPronoun]\n;;§Y[Root.GetBestName]§! or under [Root.GetObjectPronoun]\n;
 UNDER_FROM_TT                                  ;        ;§Y[From.GetBestName]§! or under [From.GetObjectPronoun]\n;§Y[From.GetBestName]§! or under [From.GetObjectPronoun]\n;;§Y[From.GetBestName]§! or under [From.GetObjectPronoun]\n;

@@ -4096,6 +4096,12 @@ d_oman                          ;assyrian           ;Beth Mazunaye;Beth Mazunaye
 d_oman                          ;pahlavi            ;Maka    ;Mazun
 k_yemen                         ;greek              ;Arabia Felix;Arabia Felix
 k_yemen                         ;roman              ;Arabia Felix;Arabia Felix
+c_aden                          ;greek              ;Eudaemon;Eudaimon
+c_aden                          ;roman              ;Eudaemon;Eudaemon
+c_sanaa                         ;somali             ;        ;Sanca
+c_dhofar                        ;greek              ;        ;Moscha
+c_dhofar                        ;roman              ;        ;Moscha
+c_socotra                       ;somali             ;        ;Soqotra
 k_egypt                         ;greek              ;        ;Aigyptos
 k_egypt                         ;ethiopian          ;        ;Gibs
 k_egypt                         ;falashim           ;        ;Misrayim
@@ -4323,6 +4329,8 @@ c_madaba                        ;frankish           ;        ;Gerasa
 c_madaba                        ;norman             ;        ;Gerasa
 c_madaba                        ;greek              ;Irbid   ;Arbela
 c_madaba                        ;roman              ;Irbid   ;Arbela
+k_adal                          ;somali             ;        ;Cadal
+c_busaso                        ;somali             ;        ;Boosaaso
 d_tedjoura                      ;ethiopian          ;        ;Tagura
 d_tedjoura                      ;somali             ;        ;Tajuura
 d_tedjoura                      ;afar               ;        ;Tagórri
@@ -4330,6 +4338,7 @@ c_tadjoura                      ;ethiopian          ;        ;Tagura
 c_tadjoura                      ;somali             ;        ;Tajuura
 c_tadjoura                      ;afar               ;        ;Tagórri
 c_zaila                         ;somali             ;        ;Saylac
+d_afar                          ;somali             ;        ;Cafar
 k_abyssinia                     ;andalusian_arabic  ;        ;Habasha
 k_abyssinia                     ;bedouin_arabic     ;        ;Habasha
 k_abyssinia                     ;yemeni             ;        ;Habasha
@@ -4338,9 +4347,11 @@ k_abyssinia                     ;maghreb_arabic     ;        ;Habasha
 k_abyssinia                     ;levantine_arabic   ;        ;Habasha
 k_abyssinia                     ;egyptian_arabic    ;        ;Habasha
 k_abyssinia                     ;sicilian_arabic    ;        ;Habasha
-k_abyssinia                     ;ethiopian          ;        ;Ityoppya
+k_abyssinia                     ;ethiopian          ;Ethiopia;Ityoppya
+k_abyssinia                     ;somali             ;Ethiopia;Itoobiya
 k_abyssinia                     ;coptic             ;Ethiopia;Ethaush
 d_gondar                        ;falashim           ;Semien  ;Semien
+d_amhara                        ;somali             ;        ;Amxaara
 c_dongola                       ;coptic             ;Toungoul;Toungoul
 c_dongola                       ;nubian             ;Toungoul;Toungoul
 c_nubia                         ;greek              ;Faras   ;Pakhôras
@@ -6527,6 +6538,7 @@ c_trapani                       ;maghreb_arabic     ;Mazara  ;Qasr Ianni
 c_trapani                       ;levantine_arabic   ;Mazara  ;Qasr Ianni
 c_trapani                       ;egyptian_arabic    ;Mazara  ;Qasr Ianni
 c_trapani                       ;sicilian_arabic    ;Mazara  ;Qasr Ianni
+c_malta                         ;greek              ;Melite  ;Melite
 k_venice                        ;venetian           ;        ;Venexia
 d_venice                        ;venetian           ;        ;Venexia
 c_venezia                       ;venetian           ;        ;Venexia
@@ -8455,7 +8467,7 @@ c_taron                         ;egyptian_arabic    ;Mush    ;Muš
 c_taron                         ;sicilian_arabic    ;Mush    ;Muš
 c_taron                         ;kurdish            ;Mush    ;Mûs
 c_manzikert                     ;andalusian_arabic  ;        ;Minazjird
-c_manzikert                     ;greek              ;        ;Manzikert
+c_manzikert                     ;greek              ;        ;Matzierte
 c_manzikert                     ;turkish            ;        ;Malazgird
 c_manzikert                     ;turkmen            ;        ;Malazgird
 c_manzikert                     ;oghuz              ;        ;Malazgird
@@ -8857,7 +8869,7 @@ c_archa                         ;egyptian_arabic    ;Afamiyya;Fámieh
 c_archa                         ;sicilian_arabic    ;Afamiyya;Fámieh
 d_tripoli                       ;name_tier          ;count   ;count
 d_tripoli                       ;andalusian_arabic  ;        ;Tarabulus
-d_tripoli                       ;greek              ;Phoenice;Phoenike
+d_tripoli                       ;greek              ;Phoenice;Phoiníkes
 d_tripoli                       ;bedouin_arabic     ;        ;Tarabulus
 d_tripoli                       ;maghreb_arabic     ;        ;Tarabulus
 d_tripoli                       ;levantine_arabic   ;        ;Tarabulus
@@ -10779,21 +10791,21 @@ d_tmutarakan                    ;langobardisch      ;Gazaria ;Cassaria
 d_tmutarakan                    ;italian            ;Gazaria ;Cassaria
 d_tmutarakan                    ;venetian           ;Gazaria ;Cassaria
 d_tmutarakan                    ;dalmatian          ;Gazaria ;Cassaria
-d_tmutarakan                    ;roman              ;        ;Hermonassa
-c_tmutarakan                    ;armenian           ;        ;Tamatarxa
-c_tmutarakan                    ;greek              ;        ;Tamatarxa
-c_tmutarakan                    ;east_gothic        ;        ;Tamatarxa
-c_tmutarakan                    ;romanian           ;        ;Matrega
-c_tmutarakan                    ;arberian           ;        ;Tamatarxa
-c_tmutarakan                    ;georgian           ;        ;Tamatarxa
+d_tmutarakan                    ;roman              ;Hermonassa;Hermonassa
+c_tmutarakan                    ;armenian           ;        ;Tamatarcha
+c_tmutarakan                    ;greek              ;        ;Tamatarcha
+c_tmutarakan                    ;east_gothic        ;        ;Tamatarcha
+c_tmutarakan                    ;romanian           ;Phanagoria;Matrega
+c_tmutarakan                    ;arberian           ;        ;Tamatarcha
+c_tmutarakan                    ;georgian           ;        ;Tamatarcha
 c_tmutarakan                    ;lithuanian         ;Taman   ;Tamanas
-c_tmutarakan                    ;mongol             ;        ;Matrika
-c_tmutarakan                    ;cuman              ;        ;Matrika
+c_tmutarakan                    ;mongol             ;Phanagoria;Matrika
+c_tmutarakan                    ;cuman              ;Phanagoria;Matrika
 c_tmutarakan                    ;khazar             ;        ;Samkarsh
 c_tmutarakan                    ;bolghar            ;        ;Samkarsh
 c_tmutarakan                    ;avar               ;        ;Samkarsh
-c_tmutarakan                    ;kirghiz            ;        ;Matrika
-c_tmutarakan                    ;uyghur             ;        ;Matrika
+c_tmutarakan                    ;kirghiz            ;Phanagoria;Matrika
+c_tmutarakan                    ;uyghur             ;Phanagoria;Matrika
 c_tmutarakan                    ;russian            ;        ;Tmutarakan
 c_tmutarakan                    ;pommeranian        ;        ;Tmutarakan
 c_tmutarakan                    ;polish             ;        ;Tmutarakan
@@ -10804,49 +10816,49 @@ c_tmutarakan                    ;croatian           ;        ;Tmutarakan
 c_tmutarakan                    ;serbian            ;        ;Tmutarakan
 c_tmutarakan                    ;bosnian            ;        ;Tmutarakan
 c_tmutarakan                    ;bulgarian          ;        ;Tmutarakan
-c_tmutarakan                    ;sardinian          ;        ;Matrega
-c_tmutarakan                    ;sicilian           ;        ;Matrega
-c_tmutarakan                    ;umbrian            ;        ;Matrega
-c_tmutarakan                    ;laziale            ;        ;Matrega
-c_tmutarakan                    ;neapolitan         ;        ;Matrega
-c_tmutarakan                    ;tuscan             ;        ;Matrega
-c_tmutarakan                    ;ligurian           ;        ;Matrega
-c_tmutarakan                    ;langobardisch      ;        ;Matrega
-c_tmutarakan                    ;italian            ;        ;Matrega
-c_tmutarakan                    ;venetian           ;        ;Matrega
-c_tmutarakan                    ;dalmatian          ;        ;Matrega
-c_tmutarakan                    ;roman              ;        ;Hermonassa
-c_korchev                       ;armenian           ;        ;Bospor
-c_korchev                       ;greek              ;        ;Bospor
-c_korchev                       ;east_gothic        ;        ;Bospor
-c_korchev                       ;romanian           ;        ;Vosporo
-c_korchev                       ;arberian           ;        ;Bospor
-c_korchev                       ;georgian           ;        ;Bospor
+c_tmutarakan                    ;sardinian          ;Phanagoria;Matrega
+c_tmutarakan                    ;sicilian           ;Phanagoria;Matrega
+c_tmutarakan                    ;umbrian            ;Phanagoria;Matrega
+c_tmutarakan                    ;laziale            ;Phanagoria;Matrega
+c_tmutarakan                    ;neapolitan         ;Phanagoria;Matrega
+c_tmutarakan                    ;tuscan             ;Phanagoria;Matrega
+c_tmutarakan                    ;ligurian           ;Phanagoria;Matrega
+c_tmutarakan                    ;langobardisch      ;Phanagoria;Matrega
+c_tmutarakan                    ;italian            ;Phanagoria;Matrega
+c_tmutarakan                    ;venetian           ;Phanagoria;Matrega
+c_tmutarakan                    ;dalmatian          ;Phanagoria;Matrega
+c_tmutarakan                    ;roman              ;Hermonassa;Hermonassa
+c_korchev                       ;armenian           ;Bosporus;Bosporos
+c_korchev                       ;greek              ;Bosporus;Bosporos
+c_korchev                       ;east_gothic        ;Bosporus;Bosporos
+c_korchev                       ;romanian           ;Bosporus;Vosporo
+c_korchev                       ;arberian           ;Bosporus;Bosporos
+c_korchev                       ;georgian           ;Bosporus;Bosporos
 c_korchev                       ;khazar             ;        ;Karcha
 c_korchev                       ;bolghar            ;        ;Karcha
 c_korchev                       ;avar               ;        ;Karcha
-c_korchev                       ;russian            ;        ;Korchev
-c_korchev                       ;pommeranian        ;        ;Korczev
-c_korchev                       ;polish             ;        ;Korczev
-c_korchev                       ;bohemian           ;        ;Korczev
-c_korchev                       ;moravian           ;        ;Korczev
-c_korchev                       ;karantanci         ;        ;Korchev
-c_korchev                       ;croatian           ;        ;Korchev
-c_korchev                       ;serbian            ;        ;Korchev
-c_korchev                       ;bosnian            ;        ;Korchev
-c_korchev                       ;bulgarian          ;        ;Korchev
-c_korchev                       ;sardinian          ;        ;Vosporo
-c_korchev                       ;sicilian           ;        ;Vosporo
-c_korchev                       ;umbrian            ;        ;Vosporo
-c_korchev                       ;laziale            ;        ;Vosporo
-c_korchev                       ;neapolitan         ;        ;Vosporo
-c_korchev                       ;tuscan             ;        ;Vosporo
-c_korchev                       ;ligurian           ;        ;Vosporo
-c_korchev                       ;langobardisch      ;        ;Vosporo
-c_korchev                       ;italian            ;        ;Vosporo
-c_korchev                       ;venetian           ;        ;Vosporo
-c_korchev                       ;dalmatian          ;        ;Vosporo
-c_korchev                       ;roman              ;        ;Vospor
+c_korchev                       ;russian            ;Korchev ;Korchev
+c_korchev                       ;pommeranian        ;Korchev ;Korczev
+c_korchev                       ;polish             ;Korchev ;Korczev
+c_korchev                       ;bohemian           ;Korchev ;Korczev
+c_korchev                       ;moravian           ;Korchev ;Korczev
+c_korchev                       ;karantanci         ;Korchev ;Korchev
+c_korchev                       ;croatian           ;Korchev ;Korchev
+c_korchev                       ;serbian            ;Korchev ;Korchev
+c_korchev                       ;bosnian            ;Korchev ;Korchev
+c_korchev                       ;bulgarian          ;Korchev ;Korchev
+c_korchev                       ;sardinian          ;Bosporus;Vosporo
+c_korchev                       ;sicilian           ;Bosporus;Vosporo
+c_korchev                       ;umbrian            ;Bosporus;Vosporo
+c_korchev                       ;laziale            ;Bosporus;Vosporo
+c_korchev                       ;neapolitan         ;Bosporus;Vosporo
+c_korchev                       ;tuscan             ;Bosporus;Vosporo
+c_korchev                       ;ligurian           ;Bosporus;Vosporo
+c_korchev                       ;langobardisch      ;Bosporus;Vosporo
+c_korchev                       ;italian            ;Bosporus;Vosporo
+c_korchev                       ;venetian           ;Bosporus;Vosporo
+c_korchev                       ;dalmatian          ;Bosporus;Vosporo
+c_korchev                       ;roman              ;Bospor  ;Vospor
 k_alania                        ;andalusian_arabic  ;        ;Al-Lan
 k_alania                        ;armenian           ;        ;Alauni
 k_alania                        ;georgian           ;        ;Ovset'i
