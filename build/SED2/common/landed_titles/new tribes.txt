@@ -483,7 +483,7 @@ d_volhynians = { # Volyniane
 }
 
 d_buzhans = { # Buzhane
-	color = { 20 75 90 }
+	color = { 82 81 75 }
 	color2 = { 255 255 255 }
 	culture = russian
 	#tribe = yes
@@ -925,7 +925,7 @@ d_bayawut = { # Bayawut
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_chaghraq = { # Çaghraq
+d_baruq = { # Çaghraq # reverted ID from d_chaghraq for v3.02 compat
 	color = { 41 90 69 }
 	color2 = { 255 255 255 }
 	culture = cuman
