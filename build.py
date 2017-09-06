@@ -171,19 +171,33 @@ def main():
         template = templates_lt / inpath.with_suffix('.csv').name
         outpath = build_lt / inpath.name
         sed2[template] = collections.defaultdict(list)
-        title_title = None
+        prev_title = None
+        seen_title_female = False
+        title_female_to_set = None
+        title_title_index = -1
         for row in csv_rows(template):
             title, key, val = (s.strip() for s in row[:3])
+            # default title_female to title
+            if prev_title != title:
+                if title_female_to_set and not seen_title_female:
+                    sed2[template][prev_title].insert(title_title_index,
+                        Pair('title_female', title_female_to_set))
+                title_female_to_set = None
+                seen_title_female = False
             if val:
                 if key in ['male_names', 'female_names']:
                     val = Obj([String(x.strip('"'))
                                for x in re.findall(r'[^"\s]+|"[^"]*"', val)])
-                # default title_female to title
-                if title_title and key != 'title_female':
-                    sed2[template][title].append(Pair('title_female',
-                                                      title_title))
                 sed2[template][title].append(Pair(key, val))
-                title_title = val if key == 'title' else None
+                if key == 'title':
+                    title_title_index = len(sed2[template][title])
+                    title_female_to_set = val
+            if key == 'title_female':
+                seen_title_female = True
+            prev_title = title
+        if title_female_to_set and not seen_title_female:
+            sed2[template][title].insert(title_title_index,
+                Pair('title_female', title_female_to_set))
         update_tree(tree, sed2[template], lt_keys)
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))
