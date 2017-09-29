@@ -371,12 +371,12 @@ duke_norse                                     ;Jarl    ;;;Jarl
 count_pagan_group                              ;Chief   ;;;Chief
 d_uppland                                      ;Uppland ;;Sviþjod;Uppland
 d_uppland_adj                                  ;Upplandic;;;Upplander
-c_uppland_adj                                  ;Upplandic;;;Upplander
-c_vastergotland_adj                            ;Västergötlandic;;;West Geatish
-c_ostergotland_adj                             ;Östergötlandic;;;East Geatish
+c_uppland_adj                                  ;Tiundaland;;;Upplander
+c_vastergotland_adj                            ;Lödöse  ;;;West Geatish
+c_ostergotland_adj                             ;Östergötland;;;East Geatish
 c_sodermanland_adj                             ;Södermanlandic;;;Södermannian
 c_gotland_adj                                  ;Gotlandic;;;Gotlander
-c_smaland_adj                                  ;Värend  ;;;Värender
+c_smaland_adj                                  ;Njudung ;;;Värender
 e_rebels                                       ;Rebels  ;;;Rebels
 e_rebels_adj                                   ;Rebel   ;;;Rebel
 e_pirates                                      ;Pirates ;;;Pirates
@@ -413,125 +413,39 @@ c_rhodos_adj                                   ;Rhodian ;;;Rhodian
 c_lykia_adj                                    ;Lycian  ;;;Lykian
 c_gastrikland_adj                              ;Gästrikland;;;Gästriklander
 c_aland_adj                                    ;Ålandic ;;;Ålander
-d_ostergotland                                 ;Östergötland;;Austrgautland,Østergøtland;Ostrogothia
-d_ostergotland_adj                             ;Östergötlandic;;;East Geatish
+d_ostergotland_adj                             ;Östergötland;;;East Geatish
 c_narke_adj                                    ;Närke   ;;;Närkian
-d_vastergotland                                ;Västergötland;;Vestrgautland;Westrogothia
-d_vastergotland_adj                            ;Västergötlandic;;;West Geatish
+d_vastergotland_adj                            ;Västergötland;;;West Geatish
 c_dal_adj                                      ;Dal     ;;;Dalabo
 c_viken_adj                                    ;Viken   ;;;Vikish
-c_vasterbotten_adj                             ;Västerbotten;;;Västerbottnian
+c_vasterbotten_adj                             ;Norrland;;;Västerbottnian
 c_angermanland_adj                             ;Ångermanlandic;;;Ångermanlander
-c_medelpad_adj                                 ;Medelpad;;;Medelpadian
-c_halsingland_adj                              ;Hälsingland;;;Hälsinglander
+c_medelpad_adj                                 ;Sunded  ;;;Medelpadian
+c_halsingland_adj                              ;Alir    ;;;Hälsinglander
 c_dalarna_adj                                  ;Dalecarlian;;;Dalish
 c_varmland_adj                                 ;Värmlandic;;;Wermelandian
 c_vastmanland_adj                              ;Västmanland;;;Västmanlander
 d_smaland                                      ;Småland ;;Smáland;Småland
 d_smaland_adj                                  ;Smålandic;;;Smålander
 c_oland_adj                                    ;Ölandic ;;;Ölander
-c_hamburg_adj                                  ;Hamburg ;;;Hamburgian
-c_lubeck_adj                                   ;Lübeck  ;;;Lübecker
-c_holstein_adj                                 ;Holstein;;;Holsteinian
-c_bremen_adj                                   ;Bremian ;;;Bremenian
-c_oldenburg_adj                                ;Oldenburg;;;Oldenburgian
-c_osnabruck_adj                                ;Osnabrück;;;Osnabrückian
-c_munster_adj                                  ;Münster ;;;Munsterian
-c_gottingen_adj                                ;Göttingen;;;Göttingian
-c_rostock_adj                                  ;Rostock ;;;Rostocker
-c_werle_adj                                    ;Werle   ;;;Werlian
-c_rugen_adj                                    ;Rügen   ;;;Rügenian
-c_celle_adj                                    ;Celle   ;;;Cellian
-c_luneburg_adj                                 ;Lüneburgian;;;Lüneburgian
-c_braunschweig_adj                             ;Brunswickian;;;Braunschweigian
-c_altmark_adj                                  ;Altmark ;;;Altmarkian
-c_anhalt_adj                                   ;Anhaltian;;;Anhaltian
 d_meissen                                      ;Meissen ;;;Meissen
 d_meissen_adj                                  ;Meissen ;;;Meissian
-c_meissen_adj                                  ;Meissen ;;;Meissian
-c_weimar_adj                                   ;Weimarian;;;Weimarian
-c_plauen_adj                                   ;Plauen  ;;;Plauenian
-c_thuringen_adj                                ;Thuringian;;;Thüringian
-c_nassau_adj                                   ;Nassau  ;;;Nassauian
 d_holland                                      ;Holland ;;Hollande,Hollân;Holland
 d_holland_adj                                  ;Holland ;;;Hollander
-c_frisia_adj                                   ;Frisian ;;;Frisian
-c_holland_adj                                  ;Holland ;;;Hollander
-c_westfriesland_adj                            ;West Frisian;;;Westfrieslander
-c_zeeland_adj                                  ;Zeelandic;;;Zeelander
 d_gelre                                        ;Guelders;;Geldern,Gueldre;Gelre
-c_ostfriesland_adj                             ;East Frisian;;;Ostfrieslander
-c_gelre_adj                                    ;Guelders;;;Gelrian
-c_sticht_adj                                   ;Nedersticht;;;Stichtian
 d_brabant                                      ;Brabant ;;;Brabant
 d_brabant_adj                                  ;Brabant ;;;Brabantian
-c_brabant_adj                                  ;Brabant ;;;Brabantian
-c_hainaut_adj                                  ;Hainautian;;;Hainautian
-c_breda_adj                                    ;Breda   ;;;Bredian
 d_luxembourg                                   ;Luxembourg;;Lützelburg,Lutzelburg;Luxembourg
 d_luxembourg_adj                               ;Luxembourgian;;;Luxembourgian
-c_luxembourg_adj                               ;Luxembourgian;;;Luxembourgian
-c_loon_adj                                     ;Loon    ;;;Loonian
-c_liege_adj                                    ;Liège   ;;;Liegian
-c_koln_adj                                     ;Colognian;;;Colognian
-c_julich_adj                                   ;Jülich  ;;;Jülichian
-c_trier_adj                                    ;Trier   ;;;Trierian
-c_kleve_adj                                    ;Cleves  ;;;Klevian
-c_mainz_adj                                    ;Mainz   ;;;Mainzian
-c_leiningen_adj                                ;Leiningen;;;Leiningian
-c_bamberg_adj                                  ;Bamberg ;;;Bambergian
-c_pfalz_adj                                    ;Palatine;;;Pfalzian
-c_metz_adj                                     ;Metz    ;;;Metzian
-c_verdun_adj                                   ;Verdun  ;;;Verdunian
-c_lorraine_adj                                 ;Lorrainian;;;Lorrainian
-c_saintois_adj                                 ;Saintois;;;Saintoisian
 d_baden                                        ;Baden   ;;;Baden
 d_baden_adj                                    ;Baden   ;;;Badenian
-c_baden_adj                                    ;Baden   ;;;Badenian
-c_breisgau_adj                                 ;Breisgau;;;Breisgauer
 d_alsace                                       ;Alsace  ;;Elsass,Alsace,Elzas;Alsace
 d_alsace_adj                                   ;Alsatian;;;Alsatian
-c_nordgau_adj                                  ;Nordgau ;;;Nordgauer
-c_sundgau_adj                                  ;Sundgau ;;;Sundgauer
-c_tirol_adj                                    ;Tyrolean;;;Tyrolian
-c_trent_adj                                    ;Tridentine;;;Trentian
-c_st_gallen_adj                                ;St. Gallen;;;St. Gallenian
-c_innsbruck_adj                                ;Innsbruck;;;Innsbruckian
-c_schwaben_adj                                 ;Swabian ;;;Swabian
-c_ulm_adj                                      ;Ulm     ;;;Ulmian
-c_furstenberg_adj                              ;Fürstenbergian;;;Fürstenbergian
-c_wurttemberg_adj                              ;Württembergian;;;Württembergian
-c_kempten_adj                                  ;Kempten ;;;Kemptian
-c_oberbayern_adj                               ;Upper Bavarian;;;Oberbayerian
 c_salzburg_adj                                 ;Salzburgian;;;Salzburgian
-c_niederbayern_adj                             ;Lower Bavarian;;;Niederbayerian
-c_nurnberg_adj                                 ;Nurembergian;;;Nürnbergian
-c_passau_adj                                   ;Passau  ;;;Passauian
-c_znojmo_adj                                   ;Znojmo  ;;;Znojmo
-c_osterreich_adj                               ;Austrian;;;Österreicher
-c_steiermark_adj                               ;Styrian ;;;Steiermarkian
-c_wolgast_adj                                  ;Wolgast ;;;Wolgastian
-c_stettin_adj                                  ;Szczecin;;;Stettiner
 d_pomeralia                                    ;Pomerelia;;Pommerellen;Pomeralia
 d_pomeralia_adj                                ;Pomerelian;;;Pomeralian
 c_chelminskie_adj                              ;Chelmno ;;;Chelminskian
-c_slupsk_adj                                   ;Slupskian;;;Slupskian
-c_lubusz_adj                                   ;Lubusz  ;;;Lubuszian
-c_gnieznienskie_adj                            ;Gniezno ;;;Gnieznienskian
-c_poznanskie_adj                               ;Poznan  ;;;Poznanskian
-c_kaliskie_adj                                 ;Kalisz  ;;;Kaliskian
-c_lower_silesia_adj                            ;Lower Silesian;;;Lower Silesian
-c_upper_silesia_adj                            ;Upper Silesian;;;Upper Silesian
-c_opole_adj                                    ;Opolian ;;;Opolian
-c_cieszyn_adj                                  ;Cieszyn ;;;Cieszyan
-c_krakowskie_adj                               ;Cracovian;;;Krakowskian
-c_sacz_adj                                     ;Stary Sacz;;;Saczian
-c_sandomierskie_adj                            ;Sandomierz;;;Sandomierskian
-c_sieradzko-leczyckie_adj                      ;Sieradz-Leczyca;;;Sieradzko-Leczyckian
-c_kujawy_adj                                   ;Kujavian;;;Kujawian
 c_scalovia_adj                                 ;Scalovian;;;Scalovian
-c_plock_adj                                    ;Plockian;;;Plockian
-c_czersk_adj                                   ;Czersk  ;;;Czerskian
 c_west_dvina_adj                               ;Daugava ;;;West Dvinian
 d_vitebsk                                      ;Vitebsk ;;;Vitebsk
 d_vitebsk_adj                                  ;Vitebsk ;;;Vitebskian
@@ -569,8 +483,6 @@ c_velikiye_luki_adj                            ;Velikiye Luki;;;Lukian
 d_yaroslavl                                    ;Yaroslavl;;;Yaroslavl
 d_yaroslavl_adj                                ;Yaroslavian;;;Yaroslavian
 d_ryazan                                       ;Ryazan  ;;;Ryazan
-d_cheremisa                                    ;Mari    ;;;Cheremisa
-d_cheremisa_adj                                ;Mari    ;;;Cheremisan
 c_yaik_adj                                     ;Ural    ;;;Yaikian
 c_torki_adj                                    ;Oghuz   ;;;Torkian
 c_belgorod_adj                                 ;Belgorodian;;;Belgorodian
@@ -666,10 +578,6 @@ c_sopron_adj                                   ;Sopronian;;;Sopronian
 d_ungvar                                       ;Uzhhorod;;Chrobatia,Ungwar;Ungvar
 c_abauj_adj                                    ;Abaúj   ;;;Abaujian
 c_heves_adj                                    ;Heves   ;;;Hevian
-c_istria_adj                                   ;Istrian ;;;Istrian
-c_krain_adj                                    ;Carniolan;;;Krainian
-c_karnten_adj                                  ;Carinthian;;;Karntenian
-c_aquileia_adj                                 ;Aquileian;;;Aquileian
 c_padova_adj                                   ;Paduan  ;;;Padovian
 c_lombardia_adj                                ;Lombard ;;;Lombard
 d_ferrara_adj                                  ;Ferrara ;;;Ferraran
@@ -681,23 +589,11 @@ d_benevento                                    ;Benevento;;Beneventum,Beneuenton
 d_benevento_adj                                ;Beneventan;;;Benevenetian
 d_salerno_adj                                  ;Salernitan;;;Salernian
 c_consenza_adj                                 ;Catanzaro;;;Catanzaron
-c_nice_adj                                     ;Niçois  ;;;Niçois
-c_provence_adj                                 ;Provençal;;;Provencal
-c_venaissin_adj                                ;Venaissin;;;Venaissinian
 d_savoie                                       ;Savoy   ;;;Savoy
 d_savoie_adj                                   ;Savoyard;;;Savoyard
-c_savoie_adj                                   ;Savoyard;;;Savoian
-c_valais_adj                                   ;Valais  ;;;Valaisian
-c_geneve_adj                                   ;Genevan ;;;Genevan
 d_dauphine                                     ;Dauphiné;;;Dauphiné
-c_lyon_adj                                     ;Lyonnais;;;Lyonnais
 c_forez_adj                                    ;Forez   ;;;Forezian
 c_chalons_adj                                  ;Chalon  ;;;Chalonnianj
-c_neuchatel_adj                                ;Neuchâtel;;;Neuchatelian
-c_bern_adj                                     ;Bern    ;;;Bernian
-c_schwyz_adj                                   ;Schwyz  ;;;Schwyzian
-c_aargau_adj                                   ;Aargau  ;;;Aargaunian
-c_besancon_adj                                 ;Besançon;;;Besanconian
 k_france                                       ;France  ;;Franza,França,Francia,Francland,Frantzia,Galliae,Gallia;France
 k_france_adj                                   ;French  ;;;French
 c_montpellier_adj                              ;Montpellier;;;Montpellierian
@@ -946,15 +842,9 @@ c_shetland_adj                                 ;Shetlander;;;Shetlander
 c_orkney_adj                                   ;Orcadian;;;Orcadians
 c_rogaland_adj                                 ;Rogaland;;;Rogalander
 d_bohemia_adj                                  ;Bohemian;;;Bohemian
-c_domazlice_adj                                ;Domažlice;;;Domazlician
-c_praha_adj                                    ;Praguian;;;Pragian
-c_boleslav_adj                                 ;Mladá Boleslav;;;Boleslavian
 c_litomerice_adj                               ;Litomerice;;;Litomerician
-c_plzen_adj                                    ;Plzen   ;;;Plzenian
 d_moravia_adj                                  ;Moravian;;;Moravian
-c_hradec_adj                                   ;Hradec  ;;;Hradecian
 c_olomouc_adj                                  ;Olomoucian;;;Olomoucian
-c_brno_adj                                     ;Brno    ;;;Brünnian
 d_abbasid                                      ;Abbasids;;;Abbasid
 d_pronsk                                       ;Pronsk  ;;;Pronsk
 d_pronsk_adj                                   ;Pronsk  ;;;Pronskian
@@ -1130,18 +1020,6 @@ PROV75                                         ;Boulogne;;c_boulogne,Bonen;Boulo
 PROV76                                         ;Ypres   ;;c_yperen,Ieper;Yperen
 PROV77                                         ;Artois  ;;c_artois,Artesië;Artois
 PROV78                                         ;Bruges  ;;c_brugge;Brugge
-PROV79                                         ;Zeeland ;;c_zeeland;Zeeland
-PROV80                                         ;Holland ;;c_holland;Holland
-PROV81                                         ;West Frisia;;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;Westfriesland
-PROV82                                         ;Nedersticht;;c_sticht;Sticht
-PROV83                                         ;Guelders;;c_gelre;Gelre
-PROV84                                         ;Frisia  ;;c_frisia,Fresland,Friesland,Frise;Friesland
-PROV85                                         ;East Frisia;;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;Ostfriesland
-PROV86                                         ;Oldenburg;;c_oldenburg;Oldenburg
-PROV87                                         ;Osnabrück;;c_osnabruck;Osnabrück
-PROV88                                         ;Münster ;;c_munster;Münster
-PROV90                                         ;Jülich  ;;c_julich,Gulik,Juliers;Jülich
-PROV91                                         ;Loon    ;;c_loon,Looz;Loon
 PROV93                                         ;Ghent   ;;c_gent;Gent
 PROV95                                         ;Amiens  ;;c_amiens,Samarobriva;Amiens
 PROV96                                         ;Eu      ;;c_eu;Eu
@@ -1154,18 +1032,6 @@ PROV109                                        ;Vendôme ;;c_vendome;Vendôme
 PROV110                                        ;Blois   ;;c_blois;Blois
 PROV111                                        ;Chartres;;c_chartres,Autricum,Autrikon;Chartres
 PROV113                                        ;Vermandois;;c_vermandois;Vermandois
-PROV115                                        ;Luxembourg;;c_luxembourg,Lützelburg,Lutzelburg;Luxembourg
-PROV116                                        ;Liège   ;;c_liege,Lüttich,Luik,Liége;Liege
-PROV118                                        ;Trier   ;;c_trier,Trèves,Augusta Treverorum,Augousta Treveroron;Trier
-PROV119                                        ;Cologne ;;c_koln,Keulen,Cologne;Cologne
-PROV121                                        ;Nassau  ;;c_nassau;Nassau
-PROV123                                        ;Mainz   ;;c_mainz,Mogontiacum,Mogontiakon;Mainz
-PROV124                                        ;Palatinate;;c_pfalz,Palts,Pfalz,Palatinat;Pfalz
-PROV125                                        ;Baden   ;;c_baden;Baden
-PROV126                                        ;Nordgau ;;c_nordgau,Noordgouw;Nordgau
-PROV128                                        ;Metz    ;;c_metz;Metz
-PROV129                                        ;Verdun  ;;c_verdun,Wirtten;Verdun
-PROV134                                        ;Sundgau ;;c_sundgau,Sundgouw;Sundgau
 PROV136                                        ;Dijon   ;;c_dijon;Dijon
 PROV137                                        ;Nevers  ;;c_nevers,Nevirnum;Nevers
 PROV138                                        ;Orléans ;;c_orleans,Cenabum,Kenabon;Orléans
@@ -1229,63 +1095,24 @@ PROV209                                        ;Armagnac;;c_armagnac;Armagnac
 PROV211                                        ;Roussillon;;c_rosello,Rusl'un,Rozeion,Roussillon,Rosellón,Roselló,Rossilhão,Ruscino,Rhouskinon;Rosello
 PROV215                                        ;Agen    ;;c_agen;Agen
 PROV216                                        ;Périgord;;c_perigord,Vesunna,Ouesouna;Périgord
-PROV221                                        ;Provence;;c_provence,Massilia,Massalia;Provence
-PROV222                                        ;Venaissin;;c_venaissin,Avenio,Auenion;Venaissin
 PROV224                                        ;Forez   ;;c_forez;Forez
 PROV225                                        ;Mâcon   ;;c_macon;Mâcon
 PROV226                                        ;Charolais;;c_charolais;Charolais
-PROV227                                        ;Lyon    ;;c_lyon,Lugdunum,Lougdounon;Lyon
-PROV238                                        ;Valais  ;;c_valais;Valais
-PROV239                                        ;Geneva  ;;c_geneve,Genava,Genoia;Genève
 PROV240                                        ;Chalon  ;;c_chalons;Chalons
-PROV241                                        ;Neuchâtel;;c_neuchatel;Neuchatel
-PROV242                                        ;Aargau  ;;c_aargau;Aargau
-PROV245                                        ;Schwyz  ;;c_schwyz;Schwyz
-PROV247                                        ;Chur    ;;c_chur,Curia;Chur
-PROV250                                        ;Breisgau;;c_breisgau;Breisgau
-PROV251                                        ;Fürstenberg;;c_furstenberg;Fürstenberg
-PROV252                                        ;Ulm     ;;c_ulm;Ulm
-PROV253                                        ;Württemberg;;c_wurttemberg;Württemberg
-PROV254                                        ;Würzburg;;c_wurzburg;Würzburg
-PROV255                                        ;Thuringia;;c_thuringen;Thüringen
-PROV256                                        ;Weimar  ;;c_weimar;Weimar
-PROV257                                        ;Brunswick;;c_braunschweig;Braunschweig
-PROV258                                        ;Lüneburg;;c_luneburg;Lüneburg
-PROV262                                        ;Lübeck  ;;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;Lübeck
 PROV279                                        ;Lapland ;;;Lappland
 PROV281                                        ;Ångermanland;;c_angermanland;Ångermanland
 PROV286                                        ;Gästrikland;;c_gastrikland,Gestrikland;Gästrikland
 PROV287                                        ;Dalarna ;;c_dalarna,Jernbæraland;Järnbäraland
 PROV289                                        ;Västmanland;;c_vastmanland,Vestmanland;Västmanland
 PROV291                                        ;Åland   ;;c_aland;Åland
-PROV292                                        ;Södermanland;;c_sodermanland,Sødermanland;Sudermannia
-PROV293                                        ;Östergötland;;c_ostergotland,Austrgautland,Østergøtland;Ostrogothia
 PROV295                                        ;Dal     ;;c_dal;Dal
 PROV299                                        ;Farah   ;;c_farah,Prophthasia,Phra;Farrah
 PROV300                                        ;Öland   ;;c_oland,Øland;Öland
 PROV301                                        ;Gotland ;;c_gotland,Gautland,Gulland;Gotland
-PROV306                                        ;Rostock ;;c_rostock,Roztok,Rozstoc,Rostoch;Rostock
-PROV307                                        ;Werle   ;;c_werle,Orle;Werle
-PROV309                                        ;Altmark ;;c_altmark;Altmark
-PROV310                                        ;Anhalt  ;;c_anhalt,Chutizi;Anhalt
-PROV312                                        ;Meissen ;;c_meissen,Dalaminza;Meissen
-PROV313                                        ;Bamberg ;;c_bamberg;Bamberg
-PROV314                                        ;Nuremberg;;c_nurnberg;Nürnberg
-PROV315                                        ;Kempten ;;c_kempten,Cambodunum,Kambodunum;Kempten
-PROV316                                        ;Tyrol   ;;c_tirol;Tirol
-PROV317                                        ;Trent   ;;c_trent,Tridentum,Tridente;Trent
-PROV358                                        ;Aquileia;;c_aquileia,Akouileia;Aquileia
-PROV360                                        ;Upper Bavaria;;c_oberbayern;Oberbayern
-PROV361                                        ;Lower Bavaria;;c_niederbayern,Castra Regina,Kastra Regina;Niederbayern
-PROV365                                        ;Brandenburg;;c_brandenburg,Branibór,Braniborz,Brennaburg,Brenna;Brandenburg
-PROV366                                        ;Szczecin;;c_stettin,Štetín,Szczecin,Szczëtno;Stettin
-PROV368                                        ;Gdansk  ;;c_danzig,Gdansk,Gyddanyzc;Danzig
+PROV363                                        ;Litomerice;;c_litomerice,Leitmeritz,Litomierzicze,Litomierzyce;Litomerice
 PROV388                                        ;Karelia ;;c_karelen;Karjala
 PROV411                                        ;Ingria  ;;c_vodi;Ingria
-PROV433                                        ;Opole   ;;c_opole,Uppeln;Opole
-PROV449                                        ;Austria ;;c_osterreich,Vindobona,Ouindobouna;Österreich
-PROV455                                        ;Styria  ;;c_steiermark;Steiermark
-PROV456                                        ;Carinthia;;c_karnten;Kärnten
+PROV448                                        ;Salzburg;;c_salzburg,Iuvavum;Salzburg
 PROV461                                        ;Zagreb  ;;c_zagreb,Andautonia,Agram,Zágráb,Zagabria;Zagreb
 PROV463                                        ;Usora   ;;c_usora;Usora
 PROV502                                        ;Rascia  ;;c_rashka,Rascia,Rashkës;Rashka
@@ -1295,8 +1122,6 @@ PROV514                                        ;Turnu   ;;c_turnu,Holavnik;Turnu
 PROV515                                        ;Târgoviste;;c_tirgoviste;Tirgoviste
 PROV516                                        ;Severin ;;c_severin,Szörényvár;Severin
 PROV521                                        ;Csanád  ;;c_csanad,Tschanad,Cenad,Chanad,Chanád,Morisena;Csanad
-PROV526                                        ;Cieszyn ;;c_cieszyn,Teschen;Cieszyn
-PROV529                                        ;Plock   ;;c_plock;Plock
 PROV535                                        ;Volodymyr-Volynsky;;c_vladimir_volynsky,Wlodzimierz Wolynski;Vladimir Volynsky
 PROV560                                        ;Chersonesus;;c_cherson,Gothia Maritima,Cherson,Korsun;Cherson
 PROV561                                        ;Feodosia;;c_theodosia,Sudaq,Kefe,Cafà,Caffa,Kaffa;Theodosia
@@ -1348,7 +1173,6 @@ PROV814                                        ;Gabès   ;;c_gabes,Tacapae,Tacape
 PROV815                                        ;Kairouan;;c_kairwan,Thysdrus,Takerwant;Kairwan
 PROV826                                        ;Minorca ;;c_menorca,Manurqa,Menorka,Minorque,Minorca;Menorca
 PROV827                                        ;Majorca ;;c_mallorca,Mayurqa,Maiorka,Maiorca,Majorque;Mallorca
-PROV848                                        ;Bremen  ;;c_bremen;Bremen
 PROV850                                        ;Kandalaksha;;c_kandalax;Kantalahti
 PROV855                                        ;Al Mahrah;;c_mahra;Mahra
 PROV858                                        ;Aden    ;;c_aden,Eudaemon,Eudaimon;Aden
@@ -1467,10 +1291,8 @@ tp_barracks_5                                  ;Militia Quarters;;;Militia Quart
 tp_barracks_6                                  ;Militia Quarters;;;Militia Quarters
 PROV27                                         ;Dorset  ;;c_dorset,Dornsæte,Caer Durnac,Durnovaria;Dorset
 PROV28                                         ;Somerset;;c_somerset,Sumorsæte,Glastenning;Somerset
-PROV260                                        ;Mecklenburg;;c_mecklemburg,Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;Mecklenburg
 d_mecklemburg                                  ;Mecklenburg;;Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;Mecklenburg
 d_mecklemburg_adj                              ;Mecklenburgian;;;Mecklenburgian
-c_mecklemburg_adj                              ;Mecklenburgian;;;Mecklenburgian
 d_pommerania                                   ;Pomerania;;Pommern,Pomorzí,Pomorze,Pòmòrsko,Pomerania,Poméranie,Pomerània,Pommeri,Pomeranija;Pomerania
 d_pommerania_adj                               ;Pomeranian;;;Pomeranian
 #text4.csv;;;;

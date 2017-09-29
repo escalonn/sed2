@@ -41,21 +41,29 @@ PROV285 ;Alir    ;Alir;c_halsingland;Hälsingland
 PROV283 ;Sunded  ;Sunded;c_medelpad;Medelpad
 PROV280 ;Norrland;Norrland;c_vasterbotten,Norlanti;Westrobothnia
 PROV290 ;Tiundaland;Tiundaland;c_uppland;Uppland
+PROV292 ;Södermanland;Södermanland;c_sodermanland,Sødermanland;Sudermannia
+PROV293 ;Östergötland;Östergötland;c_ostergotland,Austrgautland,Østergøtland;Ostrogothia
 ########################################,,,,,,,,,,,,,,;;;;
-#Polish,,,,,,,,,,,,,,;;;;
-########################################,,,,,,,,,,,,,,;;;;
-PROV428 ;Kujawy  ;Kujawy;c_kujawy;Kujawy
-PROV429 ;Gniezno ;Gniezno;c_gnieznienskie,Gnesen;Gniezno
-PROV430 ;Lubusz  ;Lubusz;c_lubusz,Lubusz,Lubuš,Lebus;Lubusz
-PROV431 ;Poznan  ;Poznan;c_poznanskie,Posen;Poznan
-PROV432 ;Kalisz  ;Kalisz;c_kaliskie;Kalisz
-PROV435 ;Glogów  ;Glogów;c_lower_silesia,Glogau;Upper Silesia
-PROV434 ;Wroclaw ;Wroclaw;c_upper_silesia,Breslau;Lower Silesia
-PROV527 ;Krakow  ;Krakow;c_krakowskie,Krakau;Krakow
-PROV528 ;Sieradz ;Sieradz;c_sieradzko-leczyckie,Schieratz;Sieradzko-Leczyckie
+#Poland,,,,,,,,,,,,,,########################################,,,,,,,,,,,,,,;;;;
+PROV529 ;Plock   ;Plock;c_plock,Plotzk;Plock
 PROV530 ;Czersk  ;Czersk;c_czersk;Czersk
+PROV1314;Rawa    ;Rawa;c_rawamazovia;Ganges
+PROV431 ;Poznan  ;Poznan;c_poznanskie,Posen;Poznan
+PROV429 ;Gniezno ;Gniezno;c_gnieznienskie,Gnesen;Gniezno
+PROV432 ;Kalisz  ;Kalisz;c_kaliskie,Kalisch;Kalisz
+PROV527 ;Krakow  ;Krakow;c_krakowskie,Krakau;Krakow
+PROV532 ;Stary Sacz;Sandec;c_sacz,Sandez;Sacz
+PROV528 ;Sieradz ;Sieradz;c_sieradzko-leczyckie,Schieratz;Sieradzko-Leczyckie
+PROV1315;Leczyca ;Leczyca;c_leczyca,Lentschitza;Ganges
 PROV531 ;Sandomierz;Sandomierz;c_sandomierskie;Sandomierz
-PROV532 ;Stary Sacz;Sacz;c_sacz,Sandez;Sacz
+PROV996 ;Wislica ;Wislica;c_wislica;The Wash
+PROV435 ;Glogów  ;Glogów;c_glogow,Glogau,Hlohov;Upper Silesia
+PROV434 ;Wroclaw ;Wroclaw;c_wroclaw,Breslau,Vratislav;Lower Silesia
+PROV433 ;Opole   ;Opole;c_opole,Uppeln,Opolí;Opole
+PROV999 ;Legnica ;Legnica;c_legnica,Liegnitz,Lehnice;The Sound
+PROV526 ;Racibórz;Racibórz;c_cieszyn,Teschen,Ratibor;Cieszyn
+PROV1055;Inowroclaw;Inowroclaw;c_inowroclaw,Inowrazlaw;Vistula
+PROV428 ;Brzesc  ;Brzesc;c_kujawy,Brest;Kujawy
 ########################################,,,,,,,,,,,,,,;;;;
 #Balkans,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
@@ -84,51 +92,263 @@ PROV510 ;Constanta;Konstanta;c_constantia,Konstantia,Constantia,Köstence,Constan
 ########################################,,,,,,,,,,,,,,;;;;
 #German territories,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV89  ;Cleves  ;Kleve;c_kleve,Kleef,Cléves;Kleve
-PROV120 ;Grone   ;Grone;c_gottingen;Göttingen
-PROV259 ;Lippe   ;Lippe;c_celle;Celle
-PROV311 ;Bayreuth;Bayreuth;c_plauen;Plauen
-PROV359 ;Traungau;Traungau;c_innsbruck;Innsbruck
-PROV364 ;Upper Lusatia;Oberlausitz;c_lausitz;Lausitz
-PROV448 ;Salzburg;Salzburg;c_salzburg,Iuvavum;Salzburg
-PROV457 ;Carniola;Carniola;c_krain;Krain
-PROV261 ;Stormarn;Stormarn;c_hamburg;Hamburg
-PROV248 ;Thurgau ;Thurgau;c_st_gallen;St. Gallen
-PROV249 ;Montfort;Montfort;c_schwaben;Schwaben
-PROV244 ;Zähringen;Zähringen;c_bern;Bern
-PROV447 ;Ortenburg;Ortenburg;c_passau,Batavinum,Batavinon;Passau
-PROV127 ;Blâmont ;Blâmont;c_lorraine;Lorraine
-PROV133 ;Vaudémont;Vaudémont;c_saintois;Saintois
+PROV80  ;Holland ;Holland;c_holland;Holland
+PROV79  ;Zeeland ;Zeeland;c_zeeland;Zeeland
+PROV82  ;Nedersticht;Sticht;c_sticht;Sticht
+PROV84  ;Frisia  ;Friesland;c_frisia,Fresland,Friesland,Frise;Friesland
+PROV81  ;West Frisia;Westfriesland;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;Westfriesland
+PROV85  ;East Frisia;Ostfriesland;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;Ostfriesland
+#Gelre,,,,,,,,,,;;;;
+PROV83  ;Wassenberg;Wassenberg;c_gelre;Gelre
+PROV1017;Hamaland;Hamaland;c_hamaland;Western Cyclades
+PROV1058;Zutphen ;Zutphen;c_zutphen,Zutfent,Sutfen;Danube
+PROV1059;Oversticht;Oversticht;c_oversticht,Oaversticht;Danube
+#Brabant,,,,,,,,,,,,;;;;
 PROV117 ;Leuven  ;Leuven;c_brabant,Löwen,Louvain,Leuven;Brabant
-PROV122 ;Wertheim;Wertheim;c_leiningen;Leiningen
-PROV92  ;Antwerp ;Antwerp;c_breda,Antorf,Anvers,Antwerpen;Breda
+PROV1019;Brussels;Brussel;c_brussel,Brüssel,Bruxelles,Broekzele;Irish Sea
+PROV92  ;Antwerp ;Antwerpen;c_breda,Antorf,Anvers,Antwerpen;Breda
+PROV1956;Aalst   ;Aalst;c_aalst;
+#Hainaut,,,,,,,,,,,,;;;;
 PROV94  ;Mons    ;Mons;c_hainaut,Bergen;Hainaut
-PROV263 ;Itzehoe ;Eselsfleth;c_holstein;Holstein
-PROV458 ;Merania ;Merania;c_istria,Merania,Meranien,Meránia,Meraniae,Meranije,Merano;Istria
+PROV1022;Valenciennes;Valenciennes;c_valenciennes,Valencijn;Islas Baleares
+PROV1024;Cambrai ;Cambrai;c_cambrai,Kamerijk,Kamerich;Mediterranean Sea
+#Limburg,,,,,,,,,,,,;;;;
+PROV1057;Limburg ;Limburg;c_limburg;Dniester
+PROV1957;Salm    ;Salm;c_salm;
+PROV91  ;Loon    ;Loon;c_loon,Looz;Loon
+PROV116 ;Liège   ;Liege;c_liege,Lüttich,Luik,Liége;Liege
+PROV1056;Namur   ;Namur;c_namur,Namür,Namen;Dniester
+#Jülich,,,,,,,,,,,,;;;;
+PROV90  ;Jülich  ;Jülich;c_julich,Gulik,Juliers;Jülich
+PROV89  ;Cleves  ;Kleve;c_kleve,Kleef,Cléves;Kleve
+PROV1063;Berg    ;Berg;c_berg;Danube
+PROV1026;Aix-la-Chapelle;Aachen;c_aachen,Aken,Aix-la-Chapelle;Lake Léman
+#Köln,,,,,,,,,,,,;;;;
+PROV119 ;Cologne ;Köln;c_koln,Keulen,Cologne;Cologne
+#Lotharingen,,,,,,,,,,,,;;;;
+PROV127 ;Blâmont ;Blâmont;c_blamont;Lorraine
+PROV133 ;Vaudémont;Vaudémont;c_vaudemont;Saintois
+PROV128 ;Metz    ;Metz;c_metz;Metz
+PROV942 ;Saarbrücken;Saarbrücken;c_saarbrucken,Saarbrücken,Sarrebruck,Saarbruggen;Western Aegean Sea
+PROV1044;Dagsburg;Dagsburg;c_dagsburg;Rhine
+#Bar,,,,,,,,,,,,;;;;
+PROV930 ;Bar     ;Bar;c_bar;Bar
+PROV129 ;Verdun  ;Verdun;c_verdun,Wirtten;Verdun
+PROV1061;Chiny   ;Chiny;c_chiny;Danube
+#Luxembourg,,,,,,,,,,,,;;;;
+PROV115 ;Luxembourg;Luxembourg;c_luxembourg,Lützelburg,Lutzelburg;Luxembourg
+PROV1018;Vianden ;Vianden;c_vianden;Päijänne
+PROV1021;Arlon   ;Arlon;c_arlon,Arel,Aarlen;Golfo de Valencia
+PROV1060;La Roche;La Roche;c_laroche;Danube
+#Trier,,,,,,,,,,,,;;;;
+PROV118 ;Trier   ;Trier;c_trier,Trèves,Augusta Treverorum,Augousta Treveroron;Trier
+PROV252 ;Schelklingen;Schelklingen;c_schelklingen;Ulm
+PROV977 ;Waldburg;Waldburg;c_waldburg;Bretagne Coast
+PROV955 ;Augsburg;Augsburg;c_augsburg,Augusta Vindelicum,Augousta Ouendelikon;Saimaa
+PROV1029;Teck    ;Teck;c_teck;Tyrrhenian Sea
+PROV1034;Helfenstein;Helfenstein;c_helfenstein;Malta Channel
+PROV1964;Nellenburg;Nellenburg;c_nellenburg;
+PROV1031;Zollern ;Zollern;c_zollern;Golfo di Napoli
+PROV1963;Hohenstaufen;Staufen;c_staufen;
+PROV253 ;Württemberg;Württemberg;c_wurttemberg;Württemberg
+PROV1030;Calw    ;Calw;c_calw;Coast of Sardegna
+PROV1032;Oettingen;Öttingen;c_oettingen;Strait di Messina
+PROV125 ;Baden   ;Baden;c_baden;Baden
+PROV250 ;Breisgau;Breisgau;c_breisgau;Breisgau
+PROV251 ;Fürstenberg;Fürstenberg;c_furstenberg;Fürstenberg
+PROV126 ;Nordgau ;Nordgau;c_nordgau,Noordgouw;Nordgau
+PROV134 ;Sundgau ;Sundgau;c_sundgau,Sundgouw;Sundgau
+PROV248 ;Thurgau ;Thurgau;c_thurgau;St. Gallen
+PROV242 ;Aargau  ;Aargau;c_aargau;Aargau
+PROV245 ;Schwyz  ;Schwyz;c_schwyz;Schwyz
+PROV247 ;Chur    ;Chur;c_chur,Curia;Chur
+PROV249 ;Montfort;Montfort;c_montfort;Schwaben
+#Österreich,,,,,,,,,,,,;;;;
+PROV449 ;Austria ;Österreich;c_osterreich,Vindobona,Ouindobouna;Österreich
+PROV1970;        ;Traungau;;
+PROV1264;Kuenring;Kuenring;c_kuenring;Nandurbar
+PROV1969;        ;Schaunberg;;
+#Niederbayern,,,,,,,,,,,,;;;;
+PROV361 ;Bogen   ;Bogen;c_niederbayern;Niederbayern
+PROV447 ;Passau  ;Passau;c_passau,Batavinum,Batavinon;Passau
+PROV1967;Ortenberg;Ortenberg;c_ortenberg;
+PROV1966;Abensberg;Abensberg;c_abensberg;
+#Oberbayern,,,,,,,,,,,,;;;;
+PROV360 ;Scheyern;Scheyern;c_oberbayern;Oberbayern
+PROV315 ;Andechs ;Andechs;c_andechs,Cambodunum,Kambodunum;Kempten
+PROV1968;        ;Kraiburg;;
+#Nordgau,,,,,,,,,,,,;;;;
+PROV970 ;Sulzbach;Sulzbach;c_sulzbach;Cabo de Finisterre
+PROV1965;Hirschberg;Hirschberg;c_hirschberg;
+PROV1033;Leuchtenberg;Leuchtenberg;c_leuchtenberg;Golfe de Hammamet
+#Tirol,,,,,,,,,,,,;;;;
+PROV316 ;Tyrol   ;Tirol;c_tirol;Tirol
+PROV317 ;Trent   ;Trient;c_trent,Tridentum,Tridente;Trent
+PROV359 ;Lienz   ;Lienz;c_lienz;Innsbruck
+#Kärnten,,,,,,,,,,,,,;;;;
+PROV456 ;Carinthia;Kärnten;c_karnten;Kärnten
+PROV457 ;Carniola;Krain;c_krain;Krain
+PROV1417;Windic March;Windische Mark;c_windische_mark;Wag
+#Steirmark,,,,,,,,,,,,,;;;;
+PROV455 ;Styria  ;Steiermark;c_steiermark;Steiermark
+PROV1184;Eppenstein;Eppenstein;c_eppenstein;Kalat
+PROV1317;Cilli   ;Cilli;c_celje,Celeia,Keleia;Brahmaputra
+PROV972 ;Pitten  ;Pitten;c_pitten;Kara-Bogaz Gol
+#Friuli,,,,,,,,,,,,,;;;;
+PROV358 ;Aquileia;Aquileia;c_aquileia,Akouileia;Aquileia
+PROV1247;Görz    ;Görz;c_gorz,Gorica,Gurize,Gorizia;Khijjingakota
+#Merania,,,,,,,,,,,,,;;;;
+PROV958 ;Duino   ;Duino;c_trieste,Tergeste;Ladoga
+PROV458 ;Istria  ;Istria;c_istria,Istrien,Isztria,Histria,Istra,Istrie,Istria;Istria
+#Hessen,,,,,,,,,,,,;;;;
+PROV948 ;Gleiberg;Gleiberg;c_gleiberg;Gulf of Varna
+PROV1960;Ziegenhain;Ziegenhain;c_ziegenhain;
+PROV1961;Gudensberg;Gudensberg;c_gudensberg;
+#Thüringen,,,,,,,,,,,,;;;;
+PROV255 ;Thuringia;Thüringen;c_thuringen;Thüringen
+PROV256 ;Weimar  ;Weimar;c_weimar;Weimar
+PROV1078;Schwarzburg;Schwarzburg;c_schwarzburg;Dnieper
+#Nürnberg,,,,,,,,,,,,;;;;
+PROV314 ;Nuremberg;Nürnberg;c_nurnberg;Nürnberg
+PROV981 ;Truhendingen;Truhendingen;c_truhendingen;Golfo de Cadiz
+PROV998 ;Sonneberg;Sonneberg;c_sonneberg;North Sea
+#Ostfranken,,,,,,,,,,,,;;;;
+PROV254 ;Würzburg;Würzburg;c_wurzburg;Würzburg
+PROV1054;Henneberg;Henneberg;c_henneberg;Vistula
+PROV313 ;Bamberg ;Bamberg;c_bamberg;Bamberg
+PROV1035;Hohenlohe;Hohenlohe;c_hohenlohe;Gulf of Sidra
+PROV960 ;Wertheim;Wertheim;c_wertheim;Faroya
+#Westfranken,,,,,,,,,,,,;;;;
+PROV121 ;Nassau  ;Nassau;c_nassau;Nassau
+PROV952 ;Hanau   ;Hanau;c_hanau;Caspian Sea
+PROV1007;Katzenelnbogen;Katzenelbogen;c_katzenelnbogen;Gulf of Bothnia
+PROV1958;Sayn    ;Sayn;c_sayn;
+#Mainz,,,,,,,,,,,,;;;;
+PROV123 ;Mainz   ;Mainz;c_mainz,Mogontiacum,Mogontiakon;Mainz
+#Pfalz,,,,,,,,,,,,;;;;
+PROV124 ;Palatinate;Pfalz;c_pfalz,Palts,Pfalz,Palatinat;Pfalz
+PROV122 ;Leiningen;Leiningen;c_leiningen;Leiningen
+PROV1062;Sponheim;Sponheim;c_sponheim,Spanheim;Northern Caspian Sea
+PROV1008;Zweibrücken;Zweibrücken;c_zweibrucken,Tweebruggen,Zweibrücken,Deux Ponts;Gulf of Bothnia
+#Engern,,,,,,,,,,,,,,,,;;;;
+PROV1025;Stade   ;Stade;c_stade;Golfe du Lion
+PROV848 ;Bremen  ;Bremen;c_bremen;Bremen
+PROV1962;Hoya    ;Hoya;c_hoya;
+PROV1020;Schaumburg;Schauenburg;c_schaumburg;Western Mediterranean
+PROV86  ;Oldenburg;Oldenburg;c_oldenburg;Oldenburg
+PROV259 ;Lippe   ;Lippe;c_lippe;Celle
+#Braunschweig-Lüneburg,,,,,,,,,,,,,,,,;;;;
+PROV258 ;Lüneburg;Lüneburg;c_luneburg;Lüneburg
+PROV257 ;Brunswick;Braunschweig;c_braunschweig;Braunschweig
+PROV120 ;Northeim;Northeim;c_gottingen;Göttingen
+PROV980 ;Everstein;Everstein;c_everstein;Portugal Coast
+PROV1076;Blankenburg;Blankenburg;c_blankenburg;Dnieper
+#Westfalen,,,,,,,,,,,,,,,,;;;;
+PROV1959;Arnsberg;Arnsberg;c_arnsberg;
+PROV1009;Mark    ;Mark;c_mark;Baie de la Seine
+PROV88  ;Münster ;Münster;c_munster;Münster
+PROV87  ;Ravensberg;Ravensberg;c_osnabruck;Osnabrück
+PROV953 ;Bentheim;Bentheim;c_bentheim;Coast of Morocco
+PROV1079;Tecklenburg;Tecklenburg;c_tecklenburg;Pripyat
+#Holstein,,,,,,,,,,,,,,,,;;;;
+PROV263 ;Rendsburg;Rendsburg;c_holstein,Reinoldsborg,Reynoldsburgh;Holstein
+PROV261 ;Stormarn;Stormarn;c_hamburg;Hamburg
+PROV1065;Dithmarschen;Dithmarschen;c_dithmarschen,Thetmærsch;Danube
+#Wittenberg,,,,,,,,,,,,,,,,;;;;
+PROV1075;Wittenberg;Wittenberg;c_wittenberg;Desna
+PROV310 ;Anhalt  ;Anhalt;c_anhalt,Chutizi;Anhalt
+PROV1077;Brehna  ;Brehna;c_brehna;Dnieper
+PROV1267;Mansfeld;Mansfeld;c_mansfeld;Vardhamana
+#Meissen,,,,,,,,,,,,,,,,;;;;
+PROV312 ;Meissen ;Meissen;c_meissen,Dalaminza;Meissen
+PROV311 ;Vogtland;Voigtland;c_plauen;Plauen
+PROV954 ;Groitzsch;Groitzsch;c_groitzsch;Strait of Gibraltar
+PROV978 ;Landsberg;Landsberg;c_landsberg;Atlantic
+#Lausitz,,,,,,,,,,,,,,,,;;;;
+PROV364 ;Upper Lusatia;Oberlausitz;c_lausitz;Lausitz
+PROV1064;Lower Lusatia;Niederlausitz;c_niederlausitz;Southern Caspian Sea
+#Lauenburg,,,,,,,,,,,,,,,,;;;;
+PROV1098;Ratzeburg;Ratzeburg;c_ratzeburg;Volga
+PROV951 ;Schwerin;Schwerin;c_schwerin,Zwierzyn,Zverzín,Zuarin,Zvierzín;Coast of Kolkhida
+PROV1053;Dannenberg;Dannenberg;c_dannenberg;Vistula
 ########################################,,,,,,,,,,,,,,;;;;
 #Bohemia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV438 ;Hradec  ;Hradec;c_hradec,Hradecz,Hradec,Grätz;Hradec
-PROV440 ;Olomouc ;Olomouc;c_olomouc,Olomúcz,Olomuniec,Olmütz,Olmits,Alamóc;Olomouc
-PROV439 ;Plzen   ;Plzen;c_plzen,Plzen,Pilsen,Pilzen,Pilzno;Plzen
-PROV362 ;Doudleby;Doudleby;c_domazlice,Jižní Czechy,Sudböhmen;Domazlice
-PROV363 ;Litomerice;Litomerice;c_litomerice,Leitmeritz,Litomierzicze,Litomierzyce;Litomerice
+#Böhmen,;;;;
 PROV436 ;Kladsko ;Kladsko;c_boleslav,Kladsko,Klodsko,Glatz;Boleslav
 PROV437 ;Prague  ;Praha;c_praha,Prag,Praha,Praga;Prague
-PROV441 ;Brno    ;Boruy;c_brno,Brno,Brünn,Berno,Brin,Börön;Brno
+PROV438 ;Hradec Králové;Hradec;c_hradec,Hradecz,Hradec,Grätz;Hradec
+PROV439 ;Plzen   ;Plzen;c_plzen,Plzen,Pilsen,Pilzen,Pilzno;Plzen
+PROV362 ;Doudleby;Doudleby;c_domazlice,Jižní Czechy,Sudböhmen;Domazlice
+PROV1265;Žatec   ;Zatec;c_zatec,Zatecz,Saaz;Sagar
+#Morava,;;;;
+PROV441 ;Brno    ;Brno;c_brno,Brno,Brünn,Berno,Brin,Börön;Brno
+PROV440 ;Olomouc ;Olomuc;c_olomouc,Olomúcz,Olomuniec,Olmütz,Olmits,Alamóc;Olomouc
 PROV446 ;Znojmo  ;Znojmo;c_znojmo,Znoymo,Znaym;Znojmo
+PROV1263;Opava   ;Opava;c_opava,Opawa,Troppau;Burhanpur
+########################################,,,,,,,,,,,,,,;;;;
+#Wenden,,,,,,,,,,,,,,;;;;
+#Wagrien,;;;;
+PROV262 ;Lübeck  ;Lübeck;c_lubeck,Lybæk,Lybäck,Liubice,Lubek,Lubeka;Lübeck
+PROV1066;Kiel    ;Kiel;c_kiel;Danube
+#Mecklembourg,;;;;
+PROV260 ;Mecklenburg;Mecklemburg;c_mecklemburg,Meklemburgia,Veligrad,Qal'at Nakon,Mikelenburgh,Mikelenborg;Mecklenburg
+PROV306 ;Rostock ;Rostock;c_rostock,Roztok,Rozstoc,Rostoch;Rostock
+PROV307 ;Werle   ;Werle;c_werle,Orle;Werle
+#Rügen,;;;;
+PROV304 ;Rügen   ;Rügen;c_rugen,Rujána,Rugia,Rana,Rugye,Rygen;Rügen
+PROV1505;Barth   ;Barth;c_barth,Bardo;
+#Pommern,;;;;
+PROV366 ;Stettin ;Stettin;c_stettin,Štetín,Szczecin,Szczëtno;Stettin
+PROV308 ;Wolgast ;Wolgast;c_wolgast,Volgast,Wologoszcz,Hologost,Volhast,Waløgost,Jómsborg;Wolgast
+PROV1028;Gützkow ;Gützkow;c_gutzkow,Chockov,Chocków,Gotzekowe;Ligurian Sea
+PROV367 ;Stolp   ;Stolp;c_slupsk,Slupsk-Slavno,Slupsk-Slawno,Slëpsk-Slowno;Slupsk
+PROV1313;Belgard ;Belgard;c_belgard,Belehrad,Bialogard,Biologard,Bielehrad;Ganges
+#Brandenburg,;;;;
+PROV365 ;Mittelmark;Mittelmark;c_brandenburg,Branibór,Braniborz,Brennaburg,Brenna;Brandenburg
+PROV309 ;Altmark ;Altmark;c_altmark;Altmark
+PROV1074;Magdeburg;Magdeburg;c_magdeburg;Desna
+PROV982 ;Prignitz;Prignitz;c_prignitz;Coast of Iceland
+#Pommerellen,;;;;
+PROV368 ;Danzig  ;Danzig;c_danzig,Gdansk,Gyddanyzc;Danzig
+PROV1301;Swiecie ;Swiecie;c_swiecie,Swiecie,Swiéce;Mahoba
+#Lebus,;;;;
+PROV1303;Neumark ;Neumark;c_neumark,Cedynia,Cedyne,Cediniô,Cedynye;Ranikot
+PROV430 ;Sternberg;Sternberg;c_lubusz,Cozsterine,Kostrzín,Sternberg;Lubusz
+PROV1302;Santok  ;Zantoch;c_santok;Chitrakut
 ########################################,,,,,,,,,,,,,,;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV229 ;Haute-Provence;Auta Provença;c_forcalquier;Forcalquier
-PROV230 ;Nice    ;Nissa;c_nice,Antipolis;Nice
+PROV135 ;Besançon;Besançon;c_besancon,Vesontio,Ouisontion;Bourgogne
+PROV1036;Montbéliard;Montbéliard;c_montbeliard;Golfo di Taranto
+PROV1045;Vesoul  ;Vesoul;c_vesoul;Rhine
+PROV1039;Dole    ;Dole;c_dole;Loire
+#Zähringen,;;;;
+PROV244 ;Rheinfelden;Rheinfelden;c_rheinfelden;Bern
+PROV1038;Gruyères;Gruyère;c_gruyere;Strait of Otranto
+PROV241 ;Neuchâtel;Neuchâtel;c_neuchatel;Neuchatel
+PROV1037;Basel   ;Basel;c_basel,Basilia,Basileia;Ionian Sea
+PROV1049;Vaud    ;Vaud;c_vaud;Elbe
+PROV237 ;Maurienne;Maurienne;c_savoie;Savoy
+PROV239 ;Geneva  ;Geneve;c_geneve,Genava,Genoia;Genève
+PROV1040;Chablais;Chablais;c_chablais;Loire
+PROV238 ;Valais  ;Valais;c_valais;Valais
+PROV1042;Bresse  ;Bresse;c_bresse;Seine
 PROV228 ;Viennois;Viennois;c_dauphine_viennois,Vienna,Ouienna;Vienne
-PROV237 ;Savoy   ;Savoia;c_savoie;Savoy
-PROV135 ;Besançon;Besancon;c_besancon,Vesontio,Ouisontion;Bourgogne
+PROV1048;Grésivaudan;Graisvaudan;c_graisivaudan,Gratianopolis;Elbe
+PROV227 ;Lyon    ;Lyon;c_lyon,Lugdunum,Lougdounon;Lyon
+#Markgriavte of Provence,;;;;
+PROV1252;Valentinois;Valentinois;c_valentinois,Valentia,Oualentia;Barasuru
+PROV222 ;Venaissin;Venaissin;c_venaissin,Avenio,Auenion;Venaissin
+PROV223 ;Vivarais;Vivarés;c_viviers;Vivarais
+PROV221 ;Provence;Provence;c_provence,Massilia,Massalia;Provence
+PROV1047;Marseille;Marseille;c_marseille,Arelate;Elbe
+PROV230 ;Antibes ;Antibes;c_antibes,Antipolis;Nice
+PROV229 ;Forcalquier;Forcalquier;c_forcalquier;Forcalquier
 ########################################,,,,,,,,,,,,,,;;;;
 #Italy,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV335 ;Buonalbergo;Bounalbergo;c_benevento,Beneventum,Beneuenton;Benevento
+PROV335 ;Buonalbergo;Buonalbergo;c_benevento,Beneventum,Beneuenton;Benevento
 PROV1112;Molise  ;Molise;c_molise;Madurai
 PROV334 ;Acerra  ;Acerra;c_napoli,Neapolis;Napoli
 PROV851 ;Aversa  ;Aversa;c_capua,Kapue;Capua
@@ -224,7 +444,7 @@ PROV328 ;Florence;Firenze;c_firenze,Florentia,Phlorentia;Florence
 PROV1115;Arezzo  ;Arezzo;c_arezzo,Arretium,Arretion;Cholamandalam
 PROV330 ;Siena   ;Siena;c_siena,Saena;Siena
 PROV331 ;Santa Fiora;Santafiora;c_piombino,Rusellae,Rhousellai;Piombino
-PROV332 ;Pitigliano;Pitgliano;c_orbetello,Cosa;Orbetello
+PROV332 ;Pitigliano;Pitigliano;c_orbetello,Cosa;Orbetello
 PROV327 ;Pisa    ;Pisa;c_pisa,Pisae,Pisai;Pisa
 PROV1135;Scialenga;Scialenga;c_scialenga,Clusium,Klysion;Valabhi
 PROV1134;Casentino;Casentino;c_casentino;Bhumilka
@@ -403,7 +623,7 @@ PROV767 ;Tripoli ;Trípolis;c_tripoli,Tarabulus;Tripoli
 PROV769 ;Toron   ;Toron;c_safed,Paneas,Tsfat,Safad;Safed
 PROV779 ;Nablus  ;Naples;c_beersheb,Nablus,Neapolis;Beersheb
 PROV776 ;Hebron  ;St-Abraham;c_hebron,El-Khail,Hebron,Hebrón;Hebron
-PROV782 ;Negev   ;Negev desert;;Negev
+PROV782 ;Negev   ;Negev Desert;;Negev
 PROV774 ;Jerusalem;Jérusalem;c_jerusalem,Al-Quds,Kudüs,Ierosolyma,Hierosolyma,Ierousalmi,Yerusalem;Jerusalem
 PROV781 ;Deir al-Balah;Darom;c_darum;Darum
 PROV786 ;Mount Catherine;Jabal Katrina;c_eilat;Eilat
@@ -530,12 +750,6 @@ PROV390 ;Savonia ;Savolax;c_savolaks,Savo;Savo
 PROV386 ;Kvenland;Kvänland;c_kemi,Kænlandi,Cwenaland,Kainuu;Kemi
 PROV385 ;Ostrobothnia;Österbotten;c_osterbotten,Pohjanmaa;Ostrobothnia
 ########################################,,,,,,,,,,,,,,;;;;
-#Pomerania,,,,,,,,,,,,,,;;;;
-########################################,,,,,,,,,,,,,,;;;;
-PROV367 ;Schlawe and Stolp;Schlawe-Stolp;c_slupsk,Slupsk-Slavno,Slupsk-Slawno,Slëpsk-Slowno;Slupsk
-PROV308 ;Gützkow ;Gützkow;c_wolgast,Volgast,Wologoszcz,Hologost,Volhast,Waløgost;Wolgast
-PROV304 ;Rügen   ;Rügen;c_rugen,Rujána,Rugia,Rana,Rugye,Rygen;Rügen
-########################################,,,,,,,,,,,,,,;;;;
 #Baltics,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
 PROV369 ;Chelmno ;Chelmno;c_chelminskie,Kulmas,Kulm;Chelmno
@@ -588,7 +802,7 @@ PROV842 ;Rabat   ;Ribát al-Fath;c_infa,Anfus;Infa
 PROV843 ;Marrakesh;Marrákush;c_marrakech;Marrakech
 PROV844 ;Safi    ;Asfí;c_massat;Massat
 PROV845 ;Tin Mal ;Tinmallál;c_anti-atlas;Anti-Atlas
-PROV846 ;Ifni    ;Ifni;c_ifni;Taroudant
+PROV846 ;Nul     ;Núl;c_ifni;Taroudant
 PROV847 ;Taroudant;Tarúdant;c_tharasset;Tamdoult
 PROV849 ;Gran Canaria;Gran Canaria;c_canarias,Gran Canaria,Kanaria Handia,Tamãran,Tamarán,Grã Canária;Canarias
 ########################################,,,,,,,,,,,,,,;;;;

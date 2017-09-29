@@ -83,7 +83,7 @@ d_pruthenians = { # Prùsà #  prussian uprising.
 
 d_goliadj = { # Goladi # Galindians
 	color = { 42 132 210 }
-	capital = 569 # Viazma # Vyazma
+	capital = 569 # Vyazma # Viazma
 	culture = prussian
 	allow = { title_duke_basic_allow = yes }
 	russian = "Goliads"
@@ -163,7 +163,7 @@ d_sambians = { # Sembai
 ######################################
 k_oborites = { # Obodriti
 	color = { 41 85 98 }
-	capital = 260 # Mecklenburg # Mecklemburg
+	capital = 260 # Mecklemburg # Mecklenburg
 	culture = pommeranian
 	allow = { title_king_basic_allow = yes }
 }
@@ -177,7 +177,7 @@ k_pommeranians = { # Pomorzani
 
 k_lutici = { # Ljutici
 	color = { 22 57 233 }
-	capital = 365 # Brandenburg
+	capital = 365 # Mittelmark # Brandenburg
 	culture = pommeranian
 	allow = { title_king_basic_allow = yes }
 }
@@ -194,7 +194,7 @@ k_sorbs = { # Sorbi
 #####
 d_hevelli = { # Hawolani
 	color = { 66 35 86 }
-	capital = 365 # Brandenburg
+	capital = 365 # Mittelmark # Brandenburg
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
@@ -223,7 +223,7 @@ d_lunkini = { # Glinjani
 
 d_circipanes = { # Czerzpjani
 	color = { 33 72 55 }
-	capital = 308 # Gützkow
+	capital = 1028 # Gützkow
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
@@ -271,7 +271,7 @@ d_wolinians = { # Wolinjani # Velunzani
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 1267 # Swine # Szvuine
+	capital = 308 # Wolgast
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -280,14 +280,14 @@ d_wolinians = { # Wolinjani # Velunzani
 #####
 d_oborites = { # Obodriti
 	color = { 131 66 114 }
-	capital = 260 # Mecklenburg # Mecklemburg
+	capital = 260 # Mecklemburg # Mecklenburg
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
 
 d_wagrians = { # Wajiri
 	color = { 199 155 11 }
-	capital = 1066 # Wagrien # Wagrinen
+	capital = 1066 # Kiel # Wagrien # Wagrinen
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
@@ -301,7 +301,7 @@ d_drevani = { # Drewani
 
 d_travnjane = { # Trawnjani
 	color = { 41 175 201 }
-	capital = 1098 # Lauenburg
+	capital = 1098 # Ratzeburg # Lauenburg
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
@@ -332,7 +332,7 @@ d_prissani = { # Przicani
 
 d_slovinici = { # Slowinci
 	color = { 79 51 28 }
-	capital = 367 # Schlawe-Stolp
+	capital = 367 # Stolp # Schlawe-Stolp
 	culture = pommeranian
 	allow = { title_duke_basic_allow = yes }
 }
@@ -352,7 +352,7 @@ d_chutizi = { # Chutici # Chutizi
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 978 # Merseburg
+	capital = 978 # Landsberg # Merseburg
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -361,7 +361,7 @@ d_leubuzzi = { # Lestkowici # Licicaviki
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 430 # Lubusz
+	capital = 430 # Sternberg # Lubusz
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -370,7 +370,7 @@ d_glomacze = { # Glomaci # Glomacze # Aka Dolomici
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 998 # Voigtland
+	capital = 331 # Voigtland
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -424,7 +424,7 @@ d_coledizi = { # Koledici
 	color2 = { 255 255 255 }
 	culture = pommeranian
 	#tribe = yes
-	capital = 954 # Zeitz
+	capital = 954 # Groitzsch # Zeitz
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -464,7 +464,7 @@ d_drevlyans = { # Drevlyane
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_ulichs = { # Ulichane
+d_ulichs = { # Ulichi # Ulichane
 	color = { 39 77 104 }
 	color2 = { 255 255 255 }
 	culture = russian
@@ -491,7 +491,7 @@ d_buzhans = { # Buzhane
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_tivertsi = { # Tivertsi
+d_tivertsi = { # Tivertsy # Tivertsi
 	color = { 54 92 124 }
 	color2 = { 255 255 255 }
 	culture = russian
@@ -934,7 +934,7 @@ d_chaghraq = { # Çaghraq
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_badach = { # Badach
+d_badach = { # Badaç # Badach
 	color = { 120 40 79 }
 	color2 = { 255 255 255 }
 	culture = cuman
@@ -1478,7 +1478,7 @@ d_baloch = { # Baloch
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_kufichi = { # Qufs
+d_kufichi = { # Kufichi # Qufs
 	color = { 190 165 65 }
 	color2 = { 255 255 255 }
 	culture = qufs

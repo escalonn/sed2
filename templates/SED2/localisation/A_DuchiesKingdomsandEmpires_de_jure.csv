@@ -12,85 +12,87 @@ k_lotharingia_adj                       ;Lotharingian;Lotharingi;;Middle Francia
 #Lower Lothringa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_lower_lorraine                        ;Lower Lorraine;Niederlothringen;Neder Lotharingen,Niederlothringen,Basse Lotharingie;
 k_lower_lorraine_adj                    ;Lower Lorrainian;Niederlothringische;;
-d_julich                                ;Jülich  ;Jülich;;
-d_julich_adj                            ;Jülich  ;Jülichische;;
+d_julich                                ;Jülich  ;Jülich;Juliers,Gulik;
+d_julich_adj                            ;Jülich  ;Jülich;;
 d_limburg                               ;Limburg ;Limburg;Limbourg;
-d_limburg_adj                           ;Limburg ;Limburgse;;
-d_berg                                  ;Jülich-Cleves-Berg;Jülich-Kleve-Berg;Juliers-Cléves-Berg,Gulik-Kleef-Berg;
-d_berg_adj                              ;Lower Rhenish;Niederrheinische;;
+d_limburg_adj                           ;Limburg ;Limburg;;
+d_bouillon                              ;Bouillon;Bouillon;;
+d_bouillon_adj                          ;Bouillon;Bouillon;;
 d_koln                                  ;Cologne ;Köln;Keulen,Cologne;Cologne
-d_koln_adj                              ;Colognian;Kölsche;;Colognian
+d_koln_adj                              ;Colognian;Köln;;Colognian
 d_liege                                 ;Liège   ;Liége;Lüttich,Luik,Liége;
-d_liege_adj                             ;Liège   ;Liégeois;;
+d_liege_adj                             ;Liège   ;Liége;;
 d_hainaut                               ;Hainaut ;Hainaut;Hennegau,Henegouwen;
-d_hainaut_adj                           ;Walloon ;Wallon;;
+d_hainaut_adj                           ;Hainaut ;Hainaut;;
 #Saxony,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_saxony                                ;Saxony  ;Sachsen;;Saxony
 k_saxony_adj                            ;Saxon   ;Sächsische;;Saxon
-d_lubeck                                ;Lübeck  ;Lübeck;Lybæk,Lybäck,Liubice,Lubeka,Lubek;
-d_lubeck_adj                            ;Lübeck  ;Lübeckische;;
-d_oldenburg                             ;Lower Saxony;Niedersachsen;;
-d_oldenburg_adj                         ;Lower Saxon;Niedersächsischer;;
+d_wagria                                ;Wagria  ;Wagrien;Lybæk,Lybäck,Liubice,Lubeka,Lubek;
+d_wagria_adj                            ;Wagrian ;Wagrien;;
+d_westfalen                             ;Westphalia;Westfalen;;
+d_westfalen_adj                         ;Westphalian;Westfalen;;
 d_holstein                              ;Holstein;Holstein;;Holstein
-d_holstein_adj                          ;Holstein;Holsteinische;;Holsteiner
+d_holstein_adj                          ;Holstein;Holstein;;Holsteiner
 d_brunswick                             ;Brunswick-Lüneburg;Braunschweig-Lüneburg;;Brunswick
-d_brunswick_adj                         ;Brunswickian;Braunschweigische;;Brunswickian
-d_brandenburg                           ;Northern March;Nordmark;Branibór,Braniborz,Brennaburg,Brenna;Brandenburg
-d_brandenburg_adj                       ;Northern March;Nordmärkisch;;Brandenburger
+d_brunswick_adj                         ;Brunswick-Lüneburg;Braunschweig-Lüneburg;;Brunswickian
+d_brandenburg                           ;Brandenburg;Brandenburg;Branibór,Braniborz,Brennaburg,Brenna;Brandenburg
+d_brandenburg_adj                       ;Brandenburg;Brandenburg;;Brandenburger
 d_bishopmunster                         ;Münster ;Münster;;
 d_bishopmunster_adj                     ;Münster ;Münstersche;;
 d_osnabruck                             ;Osnabrück;Osnabrück;;
-d_osnabruck_adj                         ;Osnabrück;Osnabrückische;;
+d_osnabruck_adj                         ;Osnabrück;Osnabrück;;
 d_magdeburg                             ;Magdeburg;Magdeburg;;
-d_magdeburg_adj                         ;Magdeburg;Magdeburgische;;
+d_magdeburg_adj                         ;Magdeburg;Magdeburg;;
 d_bremen                                ;Bremen  ;Bremen;;
-d_bremen_adj                            ;Bremian ;Bremische;;
-d_saxewittenberg                        ;Saxe-Wittenberg;Sachsen-Wittenberg;;
-d_saxewittenberg_adj                    ;Saxon   ;Sächsische;;
+d_bremen_adj                            ;Bremian ;Bremen;;
+d_saxewittenberg                        ;Wittenberg;Wittenberg;;
+d_saxewittenberg_adj                    ;Wittenberg;Wittenberg;;
 d_altmark                               ;Altmark ;Altmark;;
 d_altmark_adj                           ;Altmark ;Altmärkische;;
 d_angria                                ;Angria  ;Engern;;
 d_angria_adj                            ;Angrian ;Engerische;;
+d_lauenburg                             ;Lauenburg;Lauenburg;;
+d_lauenburg_adj                         ;Lauenburgian;Lauenburg;;
 #Bavaria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_bavaria                               ;Bavaria ;Baiern;;Bavaria
-k_bavaria_adj                           ;Bavarian;Bairische;;Bavarian
+k_bavaria_adj                           ;Bavarian;Baiern;;Bavarian
 d_nuremberg                             ;Nuremberg;Nürnberg;;
-d_nuremberg_adj                         ;Nuremberg;Nürnbergische;;
+d_nuremberg_adj                         ;Nuremberg;Nürnberg;;
 d_nordgau                               ;Nordgau ;Nordgau;;
-d_nordgau_adj                           ;Nordgau ;Nordgauische;;
+d_nordgau_adj                           ;Nordgau ;Nordgau;;
 d_tyrol                                 ;Tyrol   ;Tirol;;Tyrol
-d_tyrol_adj                             ;Tyrolean;Tirolische;;
+d_tyrol_adj                             ;Tyrolean;Tirol;;
 d_niederbayern                          ;Lower Bavaria;Niederbaiern;Rhaetia Secunda,Rhaitia Sekunda;
 d_niederbayern_adj                      ;Lower Bavarian;Niederbairische;;
 d_salzburg                              ;Salzburg;Salzburg;Iuvavum;
-d_salzburg_adj                          ;Salzburger;Salzburgische;;
+d_salzburg_adj                          ;Salzburger;Salzburg;;
 d_osterreich                            ;Austria ;Österreich;Noricum Ripense;Austria
 d_osterreich_adj                        ;Austrian;Österreichische;;Austrian
 d_oberbayern                            ;Upper Bavaria;Oberbaiern;Rhaetia Prima,Rhaitia Prima;
-d_oberbayern_adj                        ;Upper Bavarian;Oberbaierisch;;
+d_oberbayern_adj                        ;Upper Bavarian;Oberbaiern;;
 ###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Carinthia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_carinthia                             ;Carinthia;Kärnten;;
 k_carinthia_adj                         ;Carinthian;Kärntenische;;
 d_styria                                ;Styria  ;Steiermark;;
-d_styria_adj                            ;Styrian ;Steierisch;;
-d_istria                                ;Istria  ;Istra;Istrien,Isztria,Histria,Istra,Istrie,Istria;
-d_istria_adj                            ;Istrian ;Istrian;;
-d_istria_adj_german                     ;        ;Istrische;;
+d_styria_adj                            ;Styrian ;Steiermark;;
+d_merania                               ;Merania ;Merania;Merania,Meranien,Meránia,Meraniae,Meranije,Merano;
+d_merania_adj                           ;Meranian;Merania;;
+d_merania_adj_german                    ;        ;Meranien;;
 #####,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 #Franconia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_franconia                             ;Franconia;Franken;;
 k_franconia_adj                         ;Franconian;Fränkische;;
 d_hessen                                ;Hesse   ;Hessen;;
 d_hessen_adj                            ;Hessian ;Hessische;;
-d_rheinfranken                          ;Rhenish Franconia;Rheinfranken;;
-d_rheinfranken_adj                      ;Rhenish Franconian;Rheinfränkische;;
+d_rheinfranken                          ;Western Franconia;Westfranken;;
+d_rheinfranken_adj                      ;Western Franconian;Westfranken;;
 d_mainz                                 ;Mainz   ;Mainz;;
 d_mainz_adj                             ;Mainz   ;Mainzische;;
-d_wurzburg                              ;Eastern Franconia;Ostfranken;;
-d_wurzburg_adj                          ;Eastern Franconian;Ostfränkische;;
+d_ostfranken                            ;Eastern Franconia;Ostfranken;;
+d_ostfranken_adj                        ;Eastern Franconian;Ostfranken;;
 d_thuringia                             ;Thuringia;Thüringen;;Thüringia
-d_thuringia_adj                         ;Thuringian;Thüringische;;Thüringian
+d_thuringia_adj                         ;Thuringian;Thüringen;;Thüringian
 d_bamberg                               ;Bamberg ;Bamberg;;
 d_bamberg_adj                           ;Bamberg ;Bambergische;;
 #Upper Lorraine,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -108,13 +110,17 @@ d_pfalz                                 ;County Palatine of the Rhine;Pfalzgrafs
 d_pfalz_adj                             ;Palatinate;Pfälzische;;
 #Swabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_schwaben                              ;Swabia  ;Schwaben;;
-k_schwaben_adj                          ;Swabian ;Schwäbische;;
+k_schwaben_adj                          ;Swabian ;Schwaben;;
 d_burgau                                ;Burgau  ;Burgau;;
-d_burgau_adj                            ;Burgau  ;Burgauische;;
+d_burgau_adj                            ;Burgau  ;Burgau;;
 d_zahringen                             ;Zähringen;Zähringen;;
-d_zahringen_adj                         ;Zähringer;Zähringische;;
+d_zahringen_adj                         ;Zähringer;Zähringen;;
+d_tubingen                              ;Tübingen;Tübingen;;
+d_tubingen_adj                          ;Tübingen;Tübingen;;
 d_teck                                  ;Teck    ;Teck;;
-d_teck_adj                              ;Swabian ;Schwäbische;;
+d_teck_adj                              ;Teck    ;Teck;;
+d_ratien                                ;Raetia  ;Rätien;;
+d_ratien_adj                            ;Raetian ;Rätien;;
 d_chur                                  ;Chur    ;Chur;Curia;
 d_chur_adj                              ;Chur    ;Churische;;
 d_augsburg                              ;Augsburg;Augsburg;;
@@ -137,15 +143,15 @@ d_aosta                                 ;Aosta   ;Aosta;;
 d_aosta_adj                             ;Savoyard;Savoyard;;
 d_basel                                 ;Basel   ;Basel;;
 d_basel_adj                             ;Basel   ;Baslerische;;
-d_arles                                 ;Arles   ;Arles;Arelate;
+d_arles                                 ;Arles   ;Arles;;
 d_arles_adj                             ;Arlesian;Arlésien;;
 d_provence                              ;Provence;Provença;;Provence
 d_provence_adj                          ;Provençal;Provençal;;Provencal
 #Bohemia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_bohemia                               ;Bohemia ;Czechy;Böhmen,Böhme,Behmen,Bohemen,Czechy,Pihm,Boemías;Bohemia
+k_bohemia                               ;Bohemia ;Czechy;Böhmen,Behmen,Bohemen,Czechy,Pihm,Boemías;Bohemia
 k_bohemia_adj                           ;Bohemian;Ceský;;Bohemian
 d_moravia                               ;Moravia ;Morawske;Morawa,Morawy,Mähren,Mähre,Mährn,Moravië,Mehren,Morvaország,Moravías;Moravia
-d_bohemia                               ;Bohemia ;Czeske;Böhmen,Böhme,Behmen,Bohemen,Czechy,Boemías;Bohemia
+d_bohemia                               ;Bohemia ;Czeske;Böhmen,Behmen,Bohemen,Czechy,Boemías;Bohemia
 #################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Greater Hungary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -398,18 +404,18 @@ e_poland_adj                            ;Polish  ;Polski-Lietuvo;;
 #Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_poland                                ;Poland  ;Polska;Pulinaland;Poland
 k_poland_adj                            ;Polish  ;Polski;;Polish
-d_greater_poland                        ;Greater Poland;Wielkopolska;Posen;Greater Poland
-d_greater_poland_adj                    ;Greater Polish;Wielkopolskie;;Greater Polish
-d_lesser_poland                         ;Lesser Poland;Malopolska;;Lesser Poland
-d_lesser_poland_adj                     ;Lesser Polish;Malopolskie;;Lesser Polish
-d_mazovia                               ;Mazovia ;Mazowsze;;Mazovia
-d_mazovia_adj                           ;Mazovian;Mazowieckie;;Mazovian
-d_kuyavia                               ;Kujawy  ;Kujawy;Kujavija,Kujawien;Kuyavia
-d_kuyavia_adj                           ;Kujawy  ;Kujawsko;;Kuyavian
-d_silesia                               ;Silesia ;Slask;;Silesia
-d_silesia_adj                           ;Silesian;Slaski;;Silesian
-d_sieradzko-leczyckie                   ;Sieradz-Leczyca;Sieradz-Leczyca;;
-d_sieradzko-leczyckie_adj               ;Sieradz ;Sieradzko;;
+d_greater_poland                        ;Greater Poland;Wielkopolska;Grosspolen,Velkopolsko;Greater Poland
+d_greater_poland_adj                    ;Greater Polish;Wielkopolska;;Greater Polish
+d_lesser_poland                         ;Kraków  ;Kraków;;Lesser Poland
+d_lesser_poland_adj                     ;Kraków  ;Kraków;;Lesser Polish
+d_mazovia                               ;Mazovia ;Mazowsze;Mazovija,Masowien,Mazovsko;Mazovia
+d_mazovia_adj                           ;Mazovian;Mazowsze;;Mazovian
+d_kuyavia                               ;Kuyavia ;Kujawy;Kujavija,Kujawien;Kuyavia
+d_kuyavia_adj                           ;Kuyavia ;Kujawy;;Kuyavian
+d_silesia                               ;Silesia ;Slask;Schlesien,Slezsko;Silesia
+d_silesia_adj                           ;Silesian;Slask;;Silesian
+d_sandomierz                            ;Sandomierz;Sandomierz;Sandomieras,Sandomeža,Sandomir;
+d_sandomierz_adj                        ;Sandomierz;Sandomierz;;
 #Lithuania,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_lithuania                             ;Lithuania;Lietuva;;Lithuania
 k_lithuania_adj                         ;Lithuanian;Lietuvos;;Lithuanian
@@ -854,6 +860,8 @@ d_fes                                   ;Fes     ;Fas;Mauretania Volubilis;Fes
 d_fes_adj                               ;Fes     ;Fasi;;Fesian
 d_marrakech                             ;Marrakesh;Marrakush;;Marrakech
 d_marrakech_adj                         ;Marrakeshi;Marrakushi;;Marrakechi
+d_sijilmasa                             ;Sijilmasa;Sijilmasa;;
+d_sijilmasa_adj                         ;Sijilmasa;Sijilmasi;;
 d_draa                                  ;Draa    ;Draa;;
 d_draa_adj                              ;Draa    ;Drai;;
 d_adrar                                 ;Adrar   ;Adrar;;
@@ -3108,6 +3116,8 @@ d_zhetysu_adj                           ;Zhetysu ;Zhetisu;;Zhetysu
 d_zhetysu                               ;Zhetysu ;Zhetisu;;Zhetysu
 d_zabolestan_adj                        ;Zabulistan;Zábolestání;;
 d_zabolestan                            ;Zabulistan;Zábolestán;;
+d_walishan_adj                          ;Walishan;Wálishání;;
+d_walishan                              ;Walishan;Wálishán;;
 d_ustyurt_adj                           ;Ustyurt ;Ust-Yurt;;
 d_ustyurt                               ;Ustyurt ;Ust-Yurt;;
 d_tabarestan_adj                        ;Tabaristani;Tabarestání;;
@@ -3130,8 +3140,10 @@ d_khwarazm_adj                          ;Khwarezmian;Khorazmí;;
 d_khwarazm                              ;Khwarezm;Khorazm;Khwarazm;
 d_khottal_adj                           ;Khatlon ;Khatlóní;;
 d_khottal                               ;Khatlon ;Khatlón;Kushanshahr;
-d_khoar_adj                             ;Dasht-e Kavir;Khoarí;;
-d_khoar                                 ;Dasht-e Kavir;Khoar;;
+d_rayy_adj                              ;Ray     ;Rayyí;;
+d_rayy                                  ;Ray     ;Rayy;;
+d_kumis_adj                             ;Qumis   ;Kúmisí;;
+d_kumis                                 ;Qumis   ;Kúmis;;
 d_kerman_adj                            ;Kerman  ;Kermání;;Kermani
 d_kerman                                ;Kerman  ;Kermán;Carmania,Karmania,Kirman;Kerman
 d_kashgar_adj                           ;Kashgar ;Kashgarí;;
@@ -3168,8 +3180,8 @@ d_ustrushana                            ;Osrushana;Ustrushána;;
 d_ustrushana_adj                        ;Osrushana;Ustrushání;;
 d_khotan                                ;Khotan  ;Khotan;Hvam,Udun;Khotan
 d_khotan_adj                            ;Khotanese;Khotanese;;
-d_yazd                                  ;Yazd    ;Yazd;;
-d_yazd_adj                              ;Yazdi   ;Yazdí;;
+d_qohistan                              ;Quhistan;Qohistán;;
+d_qohistan_adj                          ;Quhistan;Qohistání;;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 d_dehestan                              ;Dehistan;Dehestán;;
 d_dehestan_adj                          ;Dehistan;Dehestání;;
@@ -3229,8 +3241,10 @@ d_gotland_adj                           ;Gotlandish;Gotlandish;;Visby
 d_gotland_adj_norse                     ;Geatish ;Gautlandish;;
 d_gotland_adj_norwegian                 ;Geatish ;Gautlandish;;
 d_gotland_adj_danish                    ;        ;Gullandish;;
+d_vastergotland                         ;Västergötland;Västergötland;Vestrgautland;Westrogothia
 d_vastergotland_adj_norse               ;        ;Vestrgautlandish;;
 d_vastergotland_adj_norwegian           ;        ;Vestrgautlandish;;
+d_ostergotland                          ;Östergötland;Östergötland;Austrgautland,Østergøtland;Ostrogothia
 d_ostergotland_adj_norse                ;        ;Austrgautlandish;;
 d_ostergotland_adj_norwegian            ;        ;Austrgautlandish;;
 ###,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;

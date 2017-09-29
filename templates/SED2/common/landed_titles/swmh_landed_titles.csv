@@ -166,13 +166,11 @@ k_frisia                        ;frankish           ;        ;Frise
 d_holland                       ;name_tier          ;count   ;count
 d_holland                       ;frisian            ;        ;Hollân
 d_holland                       ;frankish           ;        ;Hollande
-d_utrecht                       ;name_tier          ;count   ;count
-d_utrecht                       ;frisian            ;        ;Utert
-c_oversticht                    ;low_german         ;        ;Oaversticht
 d_gelre                         ;german             ;        ;Geldern
 d_gelre                         ;frankish           ;        ;Gueldre
 c_zutphen                       ;frisian            ;        ;Sutfen
 c_zutphen                       ;low_german         ;        ;Zutfent
+c_oversticht                    ;low_german         ;        ;Oaversticht
 d_frisia                        ;frisian            ;        ;Fresland
 d_frisia                        ;german             ;        ;Friesland
 d_frisia                        ;low_german         ;        ;Freesland
@@ -183,8 +181,6 @@ c_ostfriesland                  ;german             ;        ;Ostfriesland
 c_ostfriesland                  ;low_german         ;        ;Oostfreesland
 c_ostfriesland                  ;dutch              ;        ;Oost Friesland
 c_ostfriesland                  ;frankish           ;        ;Frise Orientale
-c_rustringen                    ;frisian            ;        ;Rjustringen
-c_rustringen                    ;dutch              ;        ;Rustringen
 c_westfriesland                 ;frisian            ;        ;West Fryslân
 c_westfriesland                 ;german             ;        ;Westfriesland
 c_westfriesland                 ;dutch              ;        ;West Friesland
@@ -193,10 +189,71 @@ c_frisia                        ;frisian            ;        ;Fresland
 c_frisia                        ;german             ;        ;Friesland
 c_frisia                        ;dutch              ;        ;Friesland
 c_frisia                        ;frankish           ;        ;Frise
+d_utrecht                       ;name_tier          ;count   ;count
+d_utrecht                       ;frisian            ;        ;Utert
+k_lower_lorraine                ;name_tier          ;duke    ;duke
+k_lower_lorraine                ;german             ;        ;Niederlothringen
+k_lower_lorraine                ;dutch              ;        ;Neder Lotharingen
+k_lower_lorraine                ;frankish           ;        ;Basse Lotharingie
+c_brabant                       ;german             ;        ;Löwen
+c_brabant                       ;dutch              ;        ;Leuven
+c_brabant                       ;frankish           ;Louvain ;Louvain
+c_brussel                       ;german             ;        ;Brüssel
+c_brussel                       ;dutch              ;        ;Broekzele
+c_brussel                       ;frankish           ;        ;Bruxelles
+c_breda                         ;german             ;        ;Antorf
+c_breda                         ;dutch              ;        ;Antwerpen
+c_breda                         ;frankish           ;        ;Anvers
+d_hainaut                       ;name_tier          ;count   ;count
+d_hainaut                       ;german             ;        ;Hennegau
+d_hainaut                       ;dutch              ;        ;Henegouwen
+c_hainaut                       ;german             ;        ;Bergen
+c_hainaut                       ;dutch              ;        ;Bergen
+c_valenciennes                  ;dutch              ;        ;Valencijn
+c_cambrai                       ;german             ;        ;Kamerich
+c_cambrai                       ;dutch              ;        ;Kamerijk
+d_limburg                       ;frankish           ;Limbourg;Limbourg
+c_loon                          ;frankish           ;        ;Looz
+c_liege                         ;german             ;        ;Lüttich
+c_liege                         ;dutch              ;        ;Luik
+c_liege                         ;frankish           ;        ;Liége
+c_namur                         ;german             ;        ;Namür
+c_namur                         ;dutch              ;        ;Namen
+d_julich                        ;dutch              ;        ;Gulik
+d_julich                        ;frankish           ;        ;Juliers
+c_julich                        ;dutch              ;        ;Gulik
+c_julich                        ;frankish           ;        ;Juliers
+c_kleve                         ;dutch              ;        ;Kleef
+c_kleve                         ;frankish           ;        ;Cléves
+c_aachen                        ;dutch              ;        ;Aken
+c_aachen                        ;frankish           ;        ;Aix-la-Chapelle
+d_koln                          ;title              ;FE      ;FE
+d_koln                          ;foa                ;FE_FOA  ;FE_FOA
+d_koln                          ;title_prefix       ;FE_OF   ;FE_OF
+d_koln                          ;dutch              ;        ;Keulen
+d_koln                          ;frankish           ;        ;Cologne
+c_koln                          ;dutch              ;        ;Keulen
+c_koln                          ;frankish           ;        ;Cologne
+d_liege                         ;german             ;        ;Lüttich
+d_liege                         ;dutch              ;        ;Luik
+d_liege                         ;frankish           ;        ;Liége
 k_upper_lorraine                ;name_tier          ;duke    ;duke
 k_upper_lorraine                ;german             ;        ;Oberlothringen
 k_upper_lorraine                ;dutch              ;        ;Opper Lotharingen
 k_upper_lorraine                ;frankish           ;        ;Haute Lotharingie
+d_upper_lorraine                ;german             ;        ;Lothringen
+d_upper_lorraine                ;dutch              ;        ;Lorreinen
+d_upper_lorraine                ;frankish           ;        ;Lorraine
+c_saarbrucken                   ;german             ;        ;Saarbrücken
+c_saarbrucken                   ;dutch              ;        ;Saarbruggen
+c_saarbrucken                   ;frankish           ;        ;Sarrebruck
+d_luxembourg                    ;german             ;        ;Lützelburg
+d_luxembourg                    ;dutch              ;        ;Lutzelburg
+c_luxembourg                    ;german             ;        ;Lützelburg
+c_luxembourg                    ;dutch              ;        ;Lutzelburg
+c_arlon                         ;german             ;        ;Arel
+c_arlon                         ;dutch              ;        ;Aarlen
+c_verdun                        ;german             ;        ;Wirtten
 d_trier                         ;title              ;FE      ;FE
 d_trier                         ;foa                ;FE_FOA  ;FE_FOA
 d_trier                         ;title_prefix       ;FE_OF   ;FE_OF
@@ -204,12 +261,44 @@ d_trier                         ;frankish           ;        ;Trèves
 c_trier                         ;frankish           ;        ;Trèves
 c_trier                         ;greek              ;Augusta Treverorum;Augousta Treveroron
 c_trier                         ;roman              ;Augusta Treverorum;Augusta Treverorum
-d_luxembourg                    ;german             ;        ;Lützelburg
-d_luxembourg                    ;dutch              ;        ;Lutzelburg
-c_arlon                         ;german             ;        ;Arel
-c_arlon                         ;dutch              ;        ;Aarlen
-c_luxembourg                    ;german             ;        ;Lützelburg
-c_luxembourg                    ;dutch              ;        ;Lutzelburg
+k_saxony                        ;name_tier          ;duke    ;duke
+c_holstein                      ;norse              ;        ;Reinoldsborg
+c_holstein                      ;swedish            ;        ;Reinoldsborg
+c_holstein                      ;norwegian          ;        ;Reinoldsborg
+c_holstein                      ;danish             ;        ;Reynoldsburgh
+c_holstein                      ;icelandic          ;        ;Reinoldsborg
+c_holstein                      ;anglonorse         ;        ;Reinoldsborg
+c_holstein                      ;norsegaelic        ;        ;Reinoldsborg
+c_dithmarschen                  ;danish             ;        ;Thetmærsch
+c_anhalt                        ;pommeranian        ;Chutizi ;Chutizi
+c_schwerin                      ;russian            ;        ;Zuarin
+c_schwerin                      ;pommeranian        ;        ;Zuarin
+c_schwerin                      ;polish             ;        ;Zwierzyn
+c_schwerin                      ;bohemian           ;        ;Zverzín
+c_schwerin                      ;moravian           ;        ;Zvierzín
+c_schwerin                      ;karantanci         ;        ;Zuarin
+c_schwerin                      ;croatian           ;        ;Zuarin
+c_schwerin                      ;serbian            ;        ;Zuarin
+c_schwerin                      ;bosnian            ;        ;Zuarin
+c_schwerin                      ;bulgarian          ;        ;Zuarin
+d_meissen                       ;title              ;MARGRAVE;MARGRAVE
+d_meissen                       ;title_female       ;MARGRAVINE;MARGRAVINE
+d_meissen                       ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+d_meissen                       ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+c_meissen                       ;pommeranian        ;Glomacze;Dalaminza
+d_osnabruck                     ;title              ;FE      ;FE
+d_osnabruck                     ;foa                ;FE_FOA  ;FE_FOA
+d_osnabruck                     ;title_prefix       ;FE_OF   ;FE_OF
+d_bishopmunster                 ;title              ;FE      ;FE
+d_bishopmunster                 ;foa                ;FE_FOA  ;FE_FOA
+d_bishopmunster                 ;title_prefix       ;FE_OF   ;FE_OF
+d_bremen                        ;title              ;FE      ;FE
+d_bremen                        ;foa                ;FE_FOA  ;FE_FOA
+d_bremen                        ;title_prefix       ;FE_OF   ;FE_OF
+d_magdeburg                     ;title              ;FE      ;FE
+d_magdeburg                     ;foa                ;FE_FOA  ;FE_FOA
+d_magdeburg                     ;title_prefix       ;FE_OF   ;FE_OF
+k_franconia                     ;name_tier          ;duke    ;duke
 d_pfalz                         ;title              ;PALATINE;PALATINE
 d_pfalz                         ;title_female       ;PALATINEA;PALATINEA
 d_pfalz                         ;foa                ;PALATINE_FOA;PALATINE_FOA
@@ -226,87 +315,6 @@ c_sponheim                      ;frankish           ;        ;Spanheim
 c_zweibrucken                   ;german             ;        ;Zweibrücken
 c_zweibrucken                   ;dutch              ;        ;Tweebruggen
 c_zweibrucken                   ;frankish           ;        ;Deux Ponts
-d_upper_lorraine                ;german             ;        ;Lothringen
-d_upper_lorraine                ;dutch              ;        ;Lorreinen
-d_upper_lorraine                ;frankish           ;        ;Lorraine
-c_saarbrucken                   ;german             ;        ;Saarbrücken
-c_saarbrucken                   ;dutch              ;        ;Saarbruggen
-c_saarbrucken                   ;frankish           ;        ;Sarrebruck
-c_verdun                        ;german             ;        ;Wirtten
-k_lower_lorraine                ;name_tier          ;duke    ;duke
-k_lower_lorraine                ;german             ;        ;Niederlothringen
-k_lower_lorraine                ;dutch              ;        ;Neder Lotharingen
-k_lower_lorraine                ;frankish           ;        ;Basse Lotharingie
-c_brabant                       ;german             ;        ;Löwen
-c_brabant                       ;dutch              ;        ;Leuven
-c_brabant                       ;frankish           ;        ;Louvain
-c_brussel                       ;german             ;        ;Brüssel
-c_brussel                       ;dutch              ;        ;Broekzele
-c_brussel                       ;frankish           ;        ;Bruxelles
-c_breda                         ;german             ;        ;Antorf
-c_breda                         ;dutch              ;        ;Antwerpen
-c_breda                         ;frankish           ;        ;Anvers
-c_namur                         ;german             ;        ;Namür
-c_namur                         ;dutch              ;        ;Namen
-d_liege                         ;german             ;        ;Lüttich
-d_liege                         ;dutch              ;        ;Luik
-d_liege                         ;frankish           ;        ;Liége
-c_liege                         ;german             ;        ;Lüttich
-c_liege                         ;dutch              ;        ;Luik
-c_liege                         ;frankish           ;        ;Liége
-c_loon                          ;frankish           ;        ;Looz
-d_hainaut                       ;name_tier          ;count   ;count
-d_hainaut                       ;german             ;        ;Hennegau
-d_hainaut                       ;dutch              ;        ;Henegouwen
-c_hainaut                       ;german             ;        ;Bergen
-c_hainaut                       ;dutch              ;        ;Bergen
-c_valenciennes                  ;dutch              ;        ;Valencijn
-c_cambrai                       ;german             ;        ;Kamerich
-c_cambrai                       ;dutch              ;        ;Kamerijk
-d_limburg                       ;frankish           ;        ;Limbourg
-d_koln                          ;title              ;FE      ;FE
-d_koln                          ;foa                ;FE_FOA  ;FE_FOA
-d_koln                          ;title_prefix       ;FE_OF   ;FE_OF
-d_koln                          ;dutch              ;        ;Keulen
-d_koln                          ;frankish           ;        ;Cologne
-c_koln                          ;dutch              ;        ;Keulen
-c_koln                          ;frankish           ;        ;Cologne
-d_berg                          ;dutch              ;        ;Gulik-Kleef-Berg
-d_berg                          ;frankish           ;        ;Juliers-Cléves-Berg
-c_julich                        ;dutch              ;        ;Gulik
-c_julich                        ;frankish           ;        ;Juliers
-c_kleve                         ;dutch              ;        ;Kleef
-c_kleve                         ;frankish           ;        ;Cléves
-c_aachen                        ;dutch              ;        ;Aken
-c_aachen                        ;frankish           ;        ;Aix-la-Chapelle
-k_saxony                        ;name_tier          ;duke    ;duke
-d_osnabruck                     ;title              ;FE      ;FE
-d_osnabruck                     ;foa                ;FE_FOA  ;FE_FOA
-d_osnabruck                     ;title_prefix       ;FE_OF   ;FE_OF
-d_bishopmunster                 ;title              ;FE      ;FE
-d_bishopmunster                 ;foa                ;FE_FOA  ;FE_FOA
-d_bishopmunster                 ;title_prefix       ;FE_OF   ;FE_OF
-d_bremen                        ;title              ;FE      ;FE
-d_bremen                        ;foa                ;FE_FOA  ;FE_FOA
-d_bremen                        ;title_prefix       ;FE_OF   ;FE_OF
-c_dithmarschen                  ;danish             ;        ;Thetmærsch
-c_reinholdsburg                 ;norse              ;        ;Reinoldsborg
-c_reinholdsburg                 ;swedish            ;        ;Reinoldsborg
-c_reinholdsburg                 ;norwegian          ;        ;Reinoldsborg
-c_reinholdsburg                 ;danish             ;        ;Reynoldsburgh
-c_reinholdsburg                 ;icelandic          ;        ;Reinoldsborg
-c_reinholdsburg                 ;anglonorse         ;        ;Reinoldsborg
-c_reinholdsburg                 ;norsegaelic        ;        ;Reinoldsborg
-d_magdeburg                     ;title              ;FE      ;FE
-d_magdeburg                     ;foa                ;FE_FOA  ;FE_FOA
-d_magdeburg                     ;title_prefix       ;FE_OF   ;FE_OF
-c_anhalt                        ;pommeranian        ;Chutizi ;Chutizi
-d_meissen                       ;title              ;MARGRAVE;MARGRAVE
-d_meissen                       ;title_female       ;MARGRAVINE;MARGRAVINE
-d_meissen                       ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
-d_meissen                       ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-c_meissen                       ;pommeranian        ;Glomacze;Dalaminza
-k_franconia                     ;name_tier          ;duke    ;duke
 d_mainz                         ;title              ;FE      ;FE
 d_mainz                         ;foa                ;FE_FOA  ;FE_FOA
 d_mainz                         ;title_prefix       ;FE_OF   ;FE_OF
@@ -320,38 +328,28 @@ d_hessen                        ;title              ;LANDGRAVE;LANDGRAVE
 d_hessen                        ;title_female       ;LANDGRAVINE;LANDGRAVINE
 d_hessen                        ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
 d_hessen                        ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
+d_nuremberg                     ;title              ;BURGRAVE;BURGRAVE
+d_nuremberg                     ;title_female       ;BURGRAVINE;BURGRAVINE
+d_nuremberg                     ;foa                ;BURGRAVE_FOA;BURGRAVE_FOA
+d_nuremberg                     ;title_prefix       ;BURGRAVE_OF;BURGRAVE_OF
+d_bamberg                       ;title              ;FE      ;FE
+d_bamberg                       ;foa                ;FE_FOA  ;FE_FOA
+d_bamberg                       ;title_prefix       ;FE_OF   ;FE_OF
 k_bavaria                       ;name_tier          ;duke    ;duke
 d_niederbayern                  ;greek              ;Raetia Secunda;Rhaitia Sekunda
 d_niederbayern                  ;roman              ;Raetia Secunda;Rhaetia Secunda
 c_passau                        ;greek              ;Batavis ;Batavinon
 c_passau                        ;roman              ;Batavis ;Batavinum
-c_leuchenberg                   ;title              ;LANDGRAVE;LANDGRAVE
-c_leuchenberg                   ;title_female       ;LANDGRAVINE;LANDGRAVINE
-c_leuchenberg                   ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
-c_leuchenberg                   ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
-c_niederbayern                  ;greek              ;Castra Regina;Kastra Regina
-c_niederbayern                  ;roman              ;Castra Regina;Castra Regina
-d_tyrol                         ;name_tier          ;count   ;count
-c_trent                         ;greek              ;Tridentum;Tridente
-c_trent                         ;roman              ;Tridentum;Tridentum
-d_bamberg                       ;title              ;FE      ;FE
-d_bamberg                       ;foa                ;FE_FOA  ;FE_FOA
-d_bamberg                       ;title_prefix       ;FE_OF   ;FE_OF
-d_nuremberg                     ;title              ;BURGRAVE;BURGRAVE
-d_nuremberg                     ;title_female       ;BURGRAVINE;BURGRAVINE
-d_nuremberg                     ;foa                ;BURGRAVE_FOA;BURGRAVE_FOA
-d_nuremberg                     ;title_prefix       ;BURGRAVE_OF;BURGRAVE_OF
 d_oberbayern                    ;greek              ;Raetia Prima;Rhaitia Prima
 d_oberbayern                    ;roman              ;Raetia Prima;Rhaetia Prima
-c_kempten                       ;greek              ;Cambodunum;Kambodunum
-c_kempten                       ;roman              ;Cambodunum;Cambodunum
-d_salzburg                      ;title              ;FE      ;FE
-d_salzburg                      ;foa                ;FE_FOA  ;FE_FOA
-d_salzburg                      ;title_prefix       ;FE_OF   ;FE_OF
-d_salzburg                      ;greek              ;Iuvavum ;Iuvavum
-d_salzburg                      ;roman              ;Iuvavum ;Iuvavum
+c_andechs                       ;greek              ;        ;Kambodunum
+c_andechs                       ;roman              ;        ;Cambodunum
 c_salzburg                      ;greek              ;Iuvavum ;Iuvavum
 c_salzburg                      ;roman              ;Iuvavum ;Iuvavum
+c_leuchtenberg                  ;title              ;LANDGRAVE;LANDGRAVE
+c_leuchtenberg                  ;title_female       ;LANDGRAVINE;LANDGRAVINE
+c_leuchtenberg                  ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
+c_leuchtenberg                  ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
 d_osterreich                    ;greek              ;Noricum Ripense;Noricum Ripense
 d_osterreich                    ;roman              ;Noricum Ripense;Noricum Ripense
 c_osterreich                    ;title              ;MARGRAVE;MARGRAVE
@@ -360,6 +358,14 @@ c_osterreich                    ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 c_osterreich                    ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 c_osterreich                    ;greek              ;Vindobona;Ouindobouna
 c_osterreich                    ;roman              ;Vindobona;Vindobona
+d_tyrol                         ;name_tier          ;count   ;count
+c_trent                         ;greek              ;Tridentum;Tridente
+c_trent                         ;roman              ;Tridentum;Tridentum
+d_salzburg                      ;title              ;FE      ;FE
+d_salzburg                      ;foa                ;FE_FOA  ;FE_FOA
+d_salzburg                      ;title_prefix       ;FE_OF   ;FE_OF
+d_salzburg                      ;greek              ;Iuvavum ;Iuvavum
+d_salzburg                      ;roman              ;Iuvavum ;Iuvavum
 k_carinthia                     ;name_tier          ;duke    ;duke
 c_steiermark                    ;title              ;MARGRAVE;MARGRAVE
 c_steiermark                    ;title_female       ;MARGRAVINE;MARGRAVINE
@@ -373,6 +379,64 @@ c_krain                         ;title              ;MARGRAVE;MARGRAVE
 c_krain                         ;title_female       ;MARGRAVINE;MARGRAVINE
 c_krain                         ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 c_krain                         ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+d_merania                       ;german             ;        ;Meranien
+d_merania                       ;low_german         ;        ;Meranien
+d_merania                       ;dutch              ;        ;Meranien
+d_merania                       ;low_saxon          ;        ;Meranien
+d_merania                       ;thuringian         ;        ;Meranien
+d_merania                       ;franconian         ;        ;Meranien
+d_merania                       ;swabian            ;        ;Meranien
+d_merania                       ;bavarian           ;        ;Meranien
+d_merania                       ;low_frankish       ;        ;Meranien
+d_merania                       ;greek              ;        ;Meraniae
+d_merania                       ;russian            ;        ;Meranije
+d_merania                       ;pommeranian        ;        ;Meranije
+d_merania                       ;polish             ;        ;Meranije
+d_merania                       ;bohemian           ;        ;Meranije
+d_merania                       ;moravian           ;        ;Merano
+d_merania                       ;karantanci         ;        ;Meranije
+d_merania                       ;croatian           ;        ;Meranije
+d_merania                       ;serbian            ;        ;Meranije
+d_merania                       ;bosnian            ;        ;Meranije
+d_merania                       ;bulgarian          ;        ;Meranije
+d_merania                       ;hungarian          ;        ;Meránia
+d_merania                       ;szekely            ;        ;Meránia
+d_merania                       ;sardinian          ;        ;Merania
+d_merania                       ;sicilian           ;        ;Merania
+d_merania                       ;umbrian            ;        ;Merania
+d_merania                       ;laziale            ;        ;Merania
+d_merania                       ;neapolitan         ;        ;Merania
+d_merania                       ;tuscan             ;        ;Merania
+d_merania                       ;ligurian           ;        ;Merania
+d_merania                       ;langobardisch      ;        ;Merania
+d_merania                       ;italian            ;        ;Merania
+d_merania                       ;venetian           ;        ;Merania
+d_merania                       ;dalmatian          ;        ;Merania
+d_merania                       ;roman              ;        ;Meraniae
+c_istria                        ;title              ;MARGRAVE;MARGRAVE
+c_istria                        ;title_female       ;MARGRAVINE;MARGRAVINE
+c_istria                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+c_istria                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+c_istria                        ;german             ;        ;Istrien
+c_istria                        ;greek              ;        ;Histria
+c_istria                        ;russian            ;        ;Istra
+c_istria                        ;pommeranian        ;        ;Istra
+c_istria                        ;polish             ;        ;Istra
+c_istria                        ;bohemian           ;        ;Istrie
+c_istria                        ;moravian           ;        ;Istria
+c_istria                        ;karantanci         ;        ;Istra
+c_istria                        ;croatian           ;        ;Istra
+c_istria                        ;serbian            ;        ;Istra
+c_istria                        ;bosnian            ;        ;Istra
+c_istria                        ;bulgarian          ;        ;Istra
+c_istria                        ;hungarian          ;        ;Isztria
+c_istria                        ;szekely            ;        ;Isztria
+c_istria                        ;roman              ;        ;Histria
+c_trieste                       ;greek              ;Tergeste;Tergeste
+c_trieste                       ;east_gothic        ;Tergeste;Tergeste
+c_trieste                       ;roman              ;Tergeste;Tergeste
+c_aquileia                      ;greek              ;        ;Akouileia
+c_aquileia                      ;east_gothic        ;        ;Akouileia
 c_gorz                          ;karantanci         ;Gorizia ;Gorica
 c_gorz                          ;sardinian          ;Gorizia ;Gorizia
 c_gorz                          ;sicilian           ;Gorizia ;Gorizia
@@ -385,81 +449,17 @@ c_gorz                          ;langobardisch      ;Gorizia ;Gorizia
 c_gorz                          ;italian            ;Gorizia ;Gorizia
 c_gorz                          ;venetian           ;Gorizia ;Gurize
 c_gorz                          ;dalmatian          ;Gorizia ;Gorizia
-d_istria                        ;title              ;MARGRAVE;MARGRAVE
-d_istria                        ;title_female       ;MARGRAVINE;MARGRAVINE
-d_istria                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
-d_istria                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-d_istria                        ;german             ;        ;Istrien
-d_istria                        ;greek              ;        ;Histria
-d_istria                        ;russian            ;        ;Istra
-d_istria                        ;pommeranian        ;        ;Istra
-d_istria                        ;polish             ;        ;Istra
-d_istria                        ;bohemian           ;        ;Istrie
-d_istria                        ;moravian           ;        ;Istria
-d_istria                        ;karantanci         ;        ;Istra
-d_istria                        ;croatian           ;        ;Istra
-d_istria                        ;serbian            ;        ;Istra
-d_istria                        ;bosnian            ;        ;Istra
-d_istria                        ;bulgarian          ;        ;Istra
-d_istria                        ;hungarian          ;        ;Isztria
-d_istria                        ;szekely            ;        ;Isztria
-d_istria                        ;roman              ;Histria ;Histria
-c_istria                        ;german             ;        ;Meranien
-c_istria                        ;low_german         ;        ;Meranien
-c_istria                        ;dutch              ;        ;Meranien
-c_istria                        ;low_saxon          ;        ;Meranien
-c_istria                        ;thuringian         ;        ;Meranien
-c_istria                        ;franconian         ;        ;Meranien
-c_istria                        ;swabian            ;        ;Meranien
-c_istria                        ;bavarian           ;        ;Meranien
-c_istria                        ;low_frankish       ;        ;Meranien
-c_istria                        ;greek              ;        ;Meraniae
-c_istria                        ;russian            ;        ;Meranije
-c_istria                        ;pommeranian        ;        ;Meranije
-c_istria                        ;polish             ;        ;Meranije
-c_istria                        ;bohemian           ;        ;Meranije
-c_istria                        ;moravian           ;        ;Merano
-c_istria                        ;karantanci         ;        ;Meranije
-c_istria                        ;croatian           ;        ;Meranije
-c_istria                        ;serbian            ;        ;Meranije
-c_istria                        ;bosnian            ;        ;Meranije
-c_istria                        ;bulgarian          ;        ;Meranije
-c_istria                        ;hungarian          ;        ;Meránia
-c_istria                        ;szekely            ;        ;Meránia
-c_istria                        ;sardinian          ;        ;Merania
-c_istria                        ;sicilian           ;        ;Merania
-c_istria                        ;umbrian            ;        ;Merania
-c_istria                        ;laziale            ;        ;Merania
-c_istria                        ;neapolitan         ;        ;Merania
-c_istria                        ;tuscan             ;        ;Merania
-c_istria                        ;ligurian           ;        ;Merania
-c_istria                        ;langobardisch      ;        ;Merania
-c_istria                        ;italian            ;        ;Merania
-c_istria                        ;venetian           ;        ;Merania
-c_istria                        ;dalmatian          ;        ;Merania
-c_istria                        ;roman              ;        ;Meraniae
-c_trieste                       ;greek              ;Tergeste;Tergeste
-c_trieste                       ;east_gothic        ;Tergeste;Tergeste
-c_trieste                       ;roman              ;Tergeste;Tergeste
-c_aquileia                      ;greek              ;        ;Akouileia
-c_aquileia                      ;east_gothic        ;        ;Akouileia
 k_schwaben                      ;name_tier          ;duke    ;duke
-d_augsburg                      ;title              ;FE      ;FE
-d_augsburg                      ;foa                ;FE_FOA  ;FE_FOA
-d_augsburg                      ;title_prefix       ;FE_OF   ;FE_OF
-c_augsburg                      ;greek              ;Augusta Vindelicorum;Augousta Ouendelikon
-c_augsburg                      ;roman              ;Augusta Vindelicorum;Augusta Vindelicum
 d_baden                         ;title              ;MARGRAVE;MARGRAVE
 d_baden                         ;title_female       ;MARGRAVINE;MARGRAVINE
 d_baden                         ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 d_baden                         ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-d_chur                          ;title              ;FE      ;FE
-d_chur                          ;foa                ;FE_FOA  ;FE_FOA
-d_chur                          ;title_prefix       ;FE_OF   ;FE_OF
-d_chur                          ;greek              ;Curia Raetorum;Curia
-d_chur                          ;roman              ;Curia Raetorum;Curia
-c_chur                          ;greek              ;Curia Raetorum;Curia
-c_chur                          ;roman              ;Curia Raetorum;Curia
+d_burgau                        ;title              ;MARGRAVE;MARGRAVE
+d_burgau                        ;title_female       ;MARGRAVINE;MARGRAVINE
+d_burgau                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+d_burgau                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+c_augsburg                      ;greek              ;Augusta Vindelicorum;Augousta Ouendelikon
+c_augsburg                      ;roman              ;Augusta Vindelicorum;Augusta Vindelicum
 d_alsace                        ;german             ;        ;Elsass
 d_alsace                        ;dutch              ;        ;Elzas
 d_alsace                        ;frankish           ;        ;Alsace
@@ -473,21 +473,27 @@ c_aargau                        ;title              ;LANDGRAVE;LANDGRAVE
 c_aargau                        ;title_female       ;LANDGRAVINE;LANDGRAVINE
 c_aargau                        ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
 c_aargau                        ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
-c_st_gallen                     ;title              ;LANDGRAVE;LANDGRAVE
-c_st_gallen                     ;title_female       ;LANDGRAVINE;LANDGRAVINE
-c_st_gallen                     ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
-c_st_gallen                     ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
-d_burgau                        ;title              ;MARGRAVE;MARGRAVE
-d_burgau                        ;title_female       ;MARGRAVINE;MARGRAVINE
-d_burgau                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
-d_burgau                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+c_thurgau                       ;title              ;LANDGRAVE;LANDGRAVE
+c_thurgau                       ;title_female       ;LANDGRAVINE;LANDGRAVINE
+c_thurgau                       ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
+c_thurgau                       ;title_prefix       ;LANDGRAVE_OF;LANDGRAVE_OF
+c_chur                          ;greek              ;Curia Raetorum;Curia
+c_chur                          ;roman              ;Curia Raetorum;Curia
+d_chur                          ;title              ;FE      ;FE
+d_chur                          ;foa                ;FE_FOA  ;FE_FOA
+d_chur                          ;title_prefix       ;FE_OF   ;FE_OF
+d_chur                          ;greek              ;Curia Raetorum;Curia
+d_chur                          ;roman              ;Curia Raetorum;Curia
+d_augsburg                      ;title              ;FE      ;FE
+d_augsburg                      ;foa                ;FE_FOA  ;FE_FOA
+d_augsburg                      ;title_prefix       ;FE_OF   ;FE_OF
 k_bohemia                       ;german             ;        ;Böhmen
 k_bohemia                       ;low_german         ;        ;Böhmen
 k_bohemia                       ;dutch              ;        ;Bohemen
 k_bohemia                       ;low_saxon          ;        ;Bohemen
 k_bohemia                       ;thuringian         ;        ;Böhmen
 k_bohemia                       ;franconian         ;        ;Böhmen
-k_bohemia                       ;swabian            ;        ;Böhme
+k_bohemia                       ;swabian            ;        ;Böhmen
 k_bohemia                       ;bavarian           ;        ;Behmen
 k_bohemia                       ;low_frankish       ;        ;Bohemen
 k_bohemia                       ;greek              ;        ;Boemías
@@ -505,7 +511,7 @@ d_bohemia                       ;dutch              ;        ;Bohemen
 d_bohemia                       ;low_saxon          ;        ;Bohemen
 d_bohemia                       ;thuringian         ;        ;Böhmen
 d_bohemia                       ;franconian         ;        ;Böhmen
-d_bohemia                       ;swabian            ;        ;Böhme
+d_bohemia                       ;swabian            ;        ;Böhmen
 d_bohemia                       ;bavarian           ;        ;Behmen
 d_bohemia                       ;low_frankish       ;        ;Bohemen
 d_bohemia                       ;greek              ;        ;Boemías
@@ -531,14 +537,14 @@ c_praha                         ;ashkenazi          ;        ;Prag
 c_domazlice                     ;german             ;South Bohemia;Sudböhmen
 c_domazlice                     ;bohemian           ;South Bohemia;Jižní Czechy
 c_domazlice                     ;moravian           ;South Bohemia;Jižní Czechy
-c_hradec                        ;german             ;        ;Grätz
-c_hradec                        ;low_german         ;        ;Grätz
-c_hradec                        ;low_saxon          ;        ;Grätz
-c_hradec                        ;thuringian         ;        ;Grätz
-c_hradec                        ;franconian         ;        ;Grätz
-c_hradec                        ;swabian            ;        ;Grätz
-c_hradec                        ;bavarian           ;        ;Grätz
-c_hradec                        ;low_frankish       ;        ;Grätz
+c_hradec                        ;german             ;Königgrätz;Grätz
+c_hradec                        ;low_german         ;Königgrätz;Grätz
+c_hradec                        ;low_saxon          ;Königgrätz;Grätz
+c_hradec                        ;thuringian         ;Königgrätz;Grätz
+c_hradec                        ;franconian         ;Königgrätz;Grätz
+c_hradec                        ;swabian            ;Königgrätz;Grätz
+c_hradec                        ;bavarian           ;Königgrätz;Grätz
+c_hradec                        ;low_frankish       ;Königgrätz;Grätz
 c_hradec                        ;polish             ;        ;Hradec
 c_hradec                        ;bohemian           ;        ;Hradecz
 c_hradec                        ;moravian           ;        ;Hradecz
@@ -605,14 +611,14 @@ d_moravia                       ;bohemian           ;        ;Morawa
 d_moravia                       ;moravian           ;        ;Morawa
 d_moravia                       ;hungarian          ;        ;Morvaország
 d_moravia                       ;ashkenazi          ;        ;Mehren
-c_olomouc                       ;german             ;        ;Olmütz
-c_olomouc                       ;low_german         ;        ;Olmütz
-c_olomouc                       ;low_saxon          ;        ;Olmütz
-c_olomouc                       ;thuringian         ;        ;Olmütz
-c_olomouc                       ;franconian         ;        ;Olmütz
-c_olomouc                       ;swabian            ;        ;Olmütz
-c_olomouc                       ;bavarian           ;        ;Olmütz
-c_olomouc                       ;low_frankish       ;        ;Olmütz
+c_olomouc                       ;german             ;Olmütz  ;Olmütz
+c_olomouc                       ;low_german         ;Olmütz  ;Olmütz
+c_olomouc                       ;low_saxon          ;Olmütz  ;Olmütz
+c_olomouc                       ;thuringian         ;Olmütz  ;Olmütz
+c_olomouc                       ;franconian         ;Olmütz  ;Olmütz
+c_olomouc                       ;swabian            ;Olmütz  ;Olmütz
+c_olomouc                       ;bavarian           ;Olmütz  ;Olmütz
+c_olomouc                       ;low_frankish       ;Olmütz  ;Olmütz
 c_olomouc                       ;polish             ;        ;Olomuniec
 c_olomouc                       ;bohemian           ;        ;Olomúcz
 c_olomouc                       ;moravian           ;        ;Olomúcz
@@ -629,14 +635,14 @@ c_opava                         ;low_frankish       ;Troppau ;Troppau
 c_opava                         ;polish             ;        ;Opawa
 c_opava                         ;bohemian           ;        ;Opawa
 c_opava                         ;moravian           ;        ;Opawa
-c_znojmo                        ;german             ;        ;Znaym
-c_znojmo                        ;low_german         ;        ;Znaym
-c_znojmo                        ;low_saxon          ;        ;Znaym
-c_znojmo                        ;thuringian         ;        ;Znaym
-c_znojmo                        ;franconian         ;        ;Znaym
-c_znojmo                        ;swabian            ;        ;Znaym
-c_znojmo                        ;bavarian           ;        ;Znaym
-c_znojmo                        ;low_frankish       ;        ;Znaym
+c_znojmo                        ;german             ;Znaim   ;Znaym
+c_znojmo                        ;low_german         ;Znaim   ;Znaym
+c_znojmo                        ;low_saxon          ;Znaim   ;Znaym
+c_znojmo                        ;thuringian         ;Znaim   ;Znaym
+c_znojmo                        ;franconian         ;Znaim   ;Znaym
+c_znojmo                        ;swabian            ;Znaim   ;Znaym
+c_znojmo                        ;bavarian           ;Znaim   ;Znaym
+c_znojmo                        ;low_frankish       ;Znaim   ;Znaym
 c_znojmo                        ;bohemian           ;        ;Znoymo
 c_znojmo                        ;moravian           ;        ;Znoymo
 c_brno                          ;german             ;Brünn   ;Brünn
@@ -647,7 +653,7 @@ c_brno                          ;franconian         ;Brünn   ;Brünn
 c_brno                          ;swabian            ;Brünn   ;Brünn
 c_brno                          ;bavarian           ;Brünn   ;Brünn
 c_brno                          ;low_frankish       ;Brünn   ;Brünn
-c_brno                          ;polish             ;Brünn   ;Berno
+c_brno                          ;polish             ;        ;Berno
 c_brno                          ;bohemian           ;        ;Brno
 c_brno                          ;moravian           ;        ;Brno
 c_brno                          ;hungarian          ;        ;Börön
@@ -2917,102 +2923,6 @@ k_poland                        ;icelandic          ;        ;Pulinaland
 k_poland                        ;gothic             ;        ;Pulinaland
 k_poland                        ;anglonorse         ;        ;Pulinaland
 k_poland                        ;norsegaelic        ;        ;Pulinaland
-d_greater_poland                ;german             ;Poznan  ;Posen
-c_gnieznienskie                 ;norse              ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;swedish            ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;norwegian          ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;danish             ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;german             ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;low_german         ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;dutch              ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;low_saxon          ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;thuringian         ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;franconian         ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;swabian            ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;bavarian           ;Gnesen  ;Gnesen
-c_gnieznienskie                 ;low_frankish       ;Gnesen  ;Gnesen
-c_poznanskie                    ;norse              ;        ;Posen
-c_poznanskie                    ;swedish            ;        ;Posen
-c_poznanskie                    ;norwegian          ;        ;Posen
-c_poznanskie                    ;danish             ;        ;Posen
-c_poznanskie                    ;german             ;        ;Posen
-c_poznanskie                    ;low_german         ;        ;Posen
-c_poznanskie                    ;dutch              ;        ;Posen
-c_poznanskie                    ;low_saxon          ;        ;Posen
-c_poznanskie                    ;thuringian         ;        ;Posen
-c_poznanskie                    ;franconian         ;        ;Posen
-c_poznanskie                    ;swabian            ;        ;Posen
-c_poznanskie                    ;bavarian           ;        ;Posen
-c_poznanskie                    ;low_frankish       ;        ;Posen
-c_upper_silesia                 ;norse              ;        ;Breslau
-c_upper_silesia                 ;swedish            ;        ;Breslau
-c_upper_silesia                 ;norwegian          ;        ;Breslau
-c_upper_silesia                 ;danish             ;        ;Breslau
-c_upper_silesia                 ;german             ;        ;Breslau
-c_upper_silesia                 ;low_german         ;        ;Breslau
-c_upper_silesia                 ;dutch              ;        ;Breslau
-c_upper_silesia                 ;low_saxon          ;        ;Breslau
-c_upper_silesia                 ;thuringian         ;        ;Breslau
-c_upper_silesia                 ;franconian         ;        ;Breslau
-c_upper_silesia                 ;swabian            ;        ;Breslau
-c_upper_silesia                 ;bavarian           ;        ;Breslau
-c_upper_silesia                 ;low_frankish       ;        ;Breslau
-c_lower_silesia                 ;norse              ;        ;Glogau
-c_lower_silesia                 ;swedish            ;        ;Glogau
-c_lower_silesia                 ;norwegian          ;        ;Glogau
-c_lower_silesia                 ;danish             ;        ;Glogau
-c_lower_silesia                 ;german             ;        ;Glogau
-c_lower_silesia                 ;low_german         ;        ;Glogau
-c_lower_silesia                 ;dutch              ;        ;Glogau
-c_lower_silesia                 ;low_saxon          ;        ;Glogau
-c_lower_silesia                 ;thuringian         ;        ;Glogau
-c_lower_silesia                 ;franconian         ;        ;Glogau
-c_lower_silesia                 ;swabian            ;        ;Glogau
-c_lower_silesia                 ;bavarian           ;        ;Glogau
-c_lower_silesia                 ;low_frankish       ;        ;Glogau
-c_opole                         ;norse              ;        ;Uppeln
-c_opole                         ;swedish            ;        ;Uppeln
-c_opole                         ;norwegian          ;        ;Uppeln
-c_opole                         ;danish             ;        ;Uppeln
-c_opole                         ;german             ;        ;Uppeln
-c_opole                         ;low_german         ;        ;Uppeln
-c_opole                         ;dutch              ;        ;Uppeln
-c_opole                         ;low_saxon          ;        ;Uppeln
-c_opole                         ;thuringian         ;        ;Uppeln
-c_opole                         ;franconian         ;        ;Uppeln
-c_opole                         ;swabian            ;        ;Uppeln
-c_opole                         ;bavarian           ;        ;Uppeln
-c_opole                         ;low_frankish       ;        ;Uppeln
-c_legnica                       ;norse              ;        ;Liegnitz
-c_legnica                       ;swedish            ;        ;Liegnitz
-c_legnica                       ;norwegian          ;        ;Liegnitz
-c_legnica                       ;danish             ;        ;Liegnitz
-c_legnica                       ;german             ;        ;Liegnitz
-c_legnica                       ;low_german         ;        ;Liegnitz
-c_legnica                       ;dutch              ;        ;Liegnitz
-c_legnica                       ;low_saxon          ;        ;Liegnitz
-c_legnica                       ;thuringian         ;        ;Liegnitz
-c_legnica                       ;franconian         ;        ;Liegnitz
-c_legnica                       ;swabian            ;        ;Liegnitz
-c_legnica                       ;bavarian           ;        ;Liegnitz
-c_legnica                       ;low_frankish       ;        ;Liegnitz
-c_cieszyn                       ;norse              ;        ;Teschen
-c_cieszyn                       ;swedish            ;        ;Teschen
-c_cieszyn                       ;norwegian          ;        ;Teschen
-c_cieszyn                       ;danish             ;        ;Teschen
-c_cieszyn                       ;german             ;        ;Teschen
-c_cieszyn                       ;low_german         ;        ;Teschen
-c_cieszyn                       ;dutch              ;        ;Teschen
-c_cieszyn                       ;low_saxon          ;        ;Teschen
-c_cieszyn                       ;thuringian         ;        ;Teschen
-c_cieszyn                       ;franconian         ;        ;Teschen
-c_cieszyn                       ;swabian            ;        ;Teschen
-c_cieszyn                       ;bavarian           ;        ;Teschen
-c_cieszyn                       ;low_frankish       ;        ;Teschen
-c_krakowskie                    ;norse              ;        ;Krakau
-c_krakowskie                    ;swedish            ;        ;Krakau
-c_krakowskie                    ;norwegian          ;        ;Krakau
-c_krakowskie                    ;danish             ;        ;Krakau
 c_krakowskie                    ;german             ;        ;Krakau
 c_krakowskie                    ;low_german         ;        ;Krakau
 c_krakowskie                    ;dutch              ;        ;Krakau
@@ -3022,10 +2932,6 @@ c_krakowskie                    ;franconian         ;        ;Krakau
 c_krakowskie                    ;swabian            ;        ;Krakau
 c_krakowskie                    ;bavarian           ;        ;Krakau
 c_krakowskie                    ;low_frankish       ;        ;Krakau
-c_sacz                          ;norse              ;        ;Sandez
-c_sacz                          ;swedish            ;        ;Sandez
-c_sacz                          ;norwegian          ;        ;Sandez
-c_sacz                          ;danish             ;        ;Sandez
 c_sacz                          ;german             ;        ;Sandez
 c_sacz                          ;low_german         ;        ;Sandez
 c_sacz                          ;dutch              ;        ;Sandez
@@ -3035,6 +2941,163 @@ c_sacz                          ;franconian         ;        ;Sandez
 c_sacz                          ;swabian            ;        ;Sandez
 c_sacz                          ;bavarian           ;        ;Sandez
 c_sacz                          ;low_frankish       ;        ;Sandez
+c_sieradzko-leczyckie           ;german             ;        ;Schieratz
+c_sieradzko-leczyckie           ;low_german         ;        ;Schieratz
+c_sieradzko-leczyckie           ;dutch              ;        ;Schieratz
+c_sieradzko-leczyckie           ;low_saxon          ;        ;Schieratz
+c_sieradzko-leczyckie           ;thuringian         ;        ;Schieratz
+c_sieradzko-leczyckie           ;franconian         ;        ;Schieratz
+c_sieradzko-leczyckie           ;swabian            ;        ;Schieratz
+c_sieradzko-leczyckie           ;bavarian           ;        ;Schieratz
+c_sieradzko-leczyckie           ;low_frankish       ;        ;Schieratz
+c_leczyca                       ;german             ;        ;Lentschitza
+c_leczyca                       ;low_german         ;        ;Lentschitza
+c_leczyca                       ;dutch              ;        ;Lentschitza
+c_leczyca                       ;low_saxon          ;        ;Lentschitza
+c_leczyca                       ;thuringian         ;        ;Lentschitza
+c_leczyca                       ;franconian         ;        ;Lentschitza
+c_leczyca                       ;swabian            ;        ;Lentschitza
+c_leczyca                       ;bavarian           ;        ;Lentschitza
+c_leczyca                       ;low_frankish       ;        ;Lentschitza
+d_greater_poland                ;german             ;        ;Grosspolen
+d_greater_poland                ;low_german         ;        ;Grosspolen
+d_greater_poland                ;dutch              ;        ;Grosspolen
+d_greater_poland                ;low_saxon          ;        ;Grosspolen
+d_greater_poland                ;thuringian         ;        ;Grosspolen
+d_greater_poland                ;franconian         ;        ;Grosspolen
+d_greater_poland                ;swabian            ;        ;Grosspolen
+d_greater_poland                ;bavarian           ;        ;Grosspolen
+d_greater_poland                ;low_frankish       ;        ;Grosspolen
+d_greater_poland                ;bohemian           ;        ;Velkopolsko
+d_greater_poland                ;moravian           ;        ;Velkopolsko
+c_poznanskie                    ;german             ;Posen   ;Posen
+c_poznanskie                    ;low_german         ;Posen   ;Posen
+c_poznanskie                    ;dutch              ;Posen   ;Posen
+c_poznanskie                    ;low_saxon          ;Posen   ;Posen
+c_poznanskie                    ;thuringian         ;Posen   ;Posen
+c_poznanskie                    ;franconian         ;Posen   ;Posen
+c_poznanskie                    ;swabian            ;Posen   ;Posen
+c_poznanskie                    ;bavarian           ;Posen   ;Posen
+c_poznanskie                    ;low_frankish       ;Posen   ;Posen
+c_gnieznienskie                 ;german             ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;low_german         ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;dutch              ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;low_saxon          ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;thuringian         ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;franconian         ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;swabian            ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;bavarian           ;Gnesen  ;Gnesen
+c_gnieznienskie                 ;low_frankish       ;Gnesen  ;Gnesen
+c_kaliskie                      ;german             ;        ;Kalisch
+c_kaliskie                      ;low_german         ;        ;Kalisch
+c_kaliskie                      ;dutch              ;        ;Kalisch
+c_kaliskie                      ;low_saxon          ;        ;Kalisch
+c_kaliskie                      ;thuringian         ;        ;Kalisch
+c_kaliskie                      ;franconian         ;        ;Kalisch
+c_kaliskie                      ;swabian            ;        ;Kalisch
+c_kaliskie                      ;bavarian           ;        ;Kalisch
+c_kaliskie                      ;low_frankish       ;        ;Kalisch
+d_mazovia                       ;german             ;        ;Masowien
+d_mazovia                       ;low_german         ;        ;Masowien
+d_mazovia                       ;dutch              ;        ;Masowien
+d_mazovia                       ;low_saxon          ;        ;Masowien
+d_mazovia                       ;thuringian         ;        ;Masowien
+d_mazovia                       ;franconian         ;        ;Masowien
+d_mazovia                       ;swabian            ;        ;Masowien
+d_mazovia                       ;bavarian           ;        ;Masowien
+d_mazovia                       ;low_frankish       ;        ;Masowien
+d_mazovia                       ;lettigallish       ;        ;Mazovija
+d_mazovia                       ;lithuanian         ;        ;Mazovija
+d_mazovia                       ;prussian           ;        ;Mazovija
+d_mazovia                       ;bohemian           ;        ;Mazovsko
+d_mazovia                       ;moravian           ;        ;Mazovsko
+c_plock                         ;german             ;        ;Plotzk
+c_plock                         ;low_german         ;        ;Plotzk
+c_plock                         ;dutch              ;        ;Plotzk
+c_plock                         ;low_saxon          ;        ;Plotzk
+c_plock                         ;thuringian         ;        ;Plotzk
+c_plock                         ;franconian         ;        ;Plotzk
+c_plock                         ;swabian            ;        ;Plotzk
+c_plock                         ;bavarian           ;        ;Plotzk
+c_plock                         ;low_frankish       ;        ;Plotzk
+d_silesia                       ;german             ;        ;Schlesien
+d_silesia                       ;low_german         ;        ;Schlesien
+d_silesia                       ;dutch              ;        ;Schlesien
+d_silesia                       ;low_saxon          ;        ;Schlesien
+d_silesia                       ;thuringian         ;        ;Schlesien
+d_silesia                       ;franconian         ;        ;Schlesien
+d_silesia                       ;swabian            ;        ;Schlesien
+d_silesia                       ;bavarian           ;        ;Schlesien
+d_silesia                       ;low_frankish       ;        ;Schlesien
+d_silesia                       ;bohemian           ;        ;Slezsko
+d_silesia                       ;moravian           ;        ;Slezsko
+c_wroclaw                       ;german             ;Breslau ;Breslau
+c_wroclaw                       ;low_german         ;Breslau ;Breslau
+c_wroclaw                       ;dutch              ;Breslau ;Breslau
+c_wroclaw                       ;low_saxon          ;Breslau ;Breslau
+c_wroclaw                       ;thuringian         ;Breslau ;Breslau
+c_wroclaw                       ;franconian         ;Breslau ;Breslau
+c_wroclaw                       ;swabian            ;Breslau ;Breslau
+c_wroclaw                       ;bavarian           ;Breslau ;Breslau
+c_wroclaw                       ;low_frankish       ;Breslau ;Breslau
+c_wroclaw                       ;bohemian           ;        ;Vratislav
+c_wroclaw                       ;moravian           ;        ;Vratislav
+c_glogow                        ;german             ;Glogau  ;Glogau
+c_glogow                        ;low_german         ;Glogau  ;Glogau
+c_glogow                        ;dutch              ;Glogau  ;Glogau
+c_glogow                        ;low_saxon          ;Glogau  ;Glogau
+c_glogow                        ;thuringian         ;Glogau  ;Glogau
+c_glogow                        ;franconian         ;Glogau  ;Glogau
+c_glogow                        ;swabian            ;Glogau  ;Glogau
+c_glogow                        ;bavarian           ;Glogau  ;Glogau
+c_glogow                        ;low_frankish       ;Glogau  ;Glogau
+c_glogow                        ;bohemian           ;        ;Hlohov
+c_glogow                        ;moravian           ;        ;Hlohov
+c_opole                         ;german             ;        ;Uppeln
+c_opole                         ;low_german         ;        ;Uppeln
+c_opole                         ;dutch              ;        ;Uppeln
+c_opole                         ;low_saxon          ;        ;Uppeln
+c_opole                         ;thuringian         ;        ;Uppeln
+c_opole                         ;franconian         ;        ;Uppeln
+c_opole                         ;swabian            ;        ;Uppeln
+c_opole                         ;bavarian           ;        ;Uppeln
+c_opole                         ;low_frankish       ;        ;Uppeln
+c_opole                         ;bohemian           ;        ;Opolí
+c_opole                         ;moravian           ;        ;Opolí
+c_legnica                       ;german             ;Liegnitz;Liegnitz
+c_legnica                       ;low_german         ;Liegnitz;Liegnitz
+c_legnica                       ;dutch              ;Liegnitz;Liegnitz
+c_legnica                       ;low_saxon          ;Liegnitz;Liegnitz
+c_legnica                       ;thuringian         ;Liegnitz;Liegnitz
+c_legnica                       ;franconian         ;Liegnitz;Liegnitz
+c_legnica                       ;swabian            ;Liegnitz;Liegnitz
+c_legnica                       ;bavarian           ;Liegnitz;Liegnitz
+c_legnica                       ;low_frankish       ;Liegnitz;Liegnitz
+c_legnica                       ;bohemian           ;        ;Lehnice
+c_legnica                       ;moravian           ;        ;Lehnice
+c_cieszyn                       ;german             ;Teschen ;Teschen
+c_cieszyn                       ;low_german         ;Teschen ;Teschen
+c_cieszyn                       ;dutch              ;Teschen ;Teschen
+c_cieszyn                       ;low_saxon          ;Teschen ;Teschen
+c_cieszyn                       ;thuringian         ;Teschen ;Teschen
+c_cieszyn                       ;franconian         ;Teschen ;Teschen
+c_cieszyn                       ;swabian            ;Teschen ;Teschen
+c_cieszyn                       ;bavarian           ;Teschen ;Teschen
+c_cieszyn                       ;low_frankish       ;Teschen ;Teschen
+c_cieszyn                       ;bohemian           ;Ratibor ;Ratibor
+c_cieszyn                       ;moravian           ;Ratibor ;Ratibor
+d_sandomierz                    ;german             ;        ;Sandomir
+d_sandomierz                    ;low_german         ;        ;Sandomir
+d_sandomierz                    ;dutch              ;        ;Sandomir
+d_sandomierz                    ;low_saxon          ;        ;Sandomir
+d_sandomierz                    ;thuringian         ;        ;Sandomir
+d_sandomierz                    ;franconian         ;        ;Sandomir
+d_sandomierz                    ;swabian            ;        ;Sandomir
+d_sandomierz                    ;bavarian           ;        ;Sandomir
+d_sandomierz                    ;low_frankish       ;        ;Sandomir
+d_sandomierz                    ;lettigallish       ;        ;Sandomeža
+d_sandomierz                    ;lithuanian         ;        ;Sandomieras
+d_sandomierz                    ;prussian           ;        ;Sandomieras
 d_kuyavia                       ;german             ;        ;Kujawien
 d_kuyavia                       ;low_german         ;        ;Kujawien
 d_kuyavia                       ;dutch              ;        ;Kujawien
@@ -3047,31 +3110,36 @@ d_kuyavia                       ;low_frankish       ;        ;Kujawien
 d_kuyavia                       ;lettigallish       ;        ;Kujavija
 d_kuyavia                       ;lithuanian         ;        ;Kujavija
 d_kuyavia                       ;prussian           ;        ;Kujavija
-c_chelminskie                   ;german             ;        ;Kulm
-c_chelminskie                   ;low_german         ;        ;Kulm
-c_chelminskie                   ;dutch              ;        ;Kulm
-c_chelminskie                   ;low_saxon          ;        ;Kulm
-c_chelminskie                   ;thuringian         ;        ;Kulm
-c_chelminskie                   ;franconian         ;        ;Kulm
-c_chelminskie                   ;swabian            ;        ;Kulm
-c_chelminskie                   ;bavarian           ;        ;Kulm
-c_chelminskie                   ;low_frankish       ;        ;Kulm
+c_chelminskie                   ;german             ;Kulm    ;Kulm
+c_chelminskie                   ;low_german         ;Kulm    ;Kulm
+c_chelminskie                   ;dutch              ;Kulm    ;Kulm
+c_chelminskie                   ;low_saxon          ;Kulm    ;Kulm
+c_chelminskie                   ;thuringian         ;Kulm    ;Kulm
+c_chelminskie                   ;franconian         ;Kulm    ;Kulm
+c_chelminskie                   ;swabian            ;Kulm    ;Kulm
+c_chelminskie                   ;bavarian           ;Kulm    ;Kulm
+c_chelminskie                   ;low_frankish       ;Kulm    ;Kulm
 c_chelminskie                   ;lettigallish       ;        ;Kulmas
 c_chelminskie                   ;lithuanian         ;        ;Kulmas
 c_chelminskie                   ;prussian           ;        ;Kulmas
-c_sieradzko-leczyckie           ;norse              ;        ;Schieratz
-c_sieradzko-leczyckie           ;swedish            ;        ;Schieratz
-c_sieradzko-leczyckie           ;norwegian          ;        ;Schieratz
-c_sieradzko-leczyckie           ;danish             ;        ;Schieratz
-c_sieradzko-leczyckie           ;german             ;        ;Schieratz
-c_sieradzko-leczyckie           ;low_german         ;        ;Schieratz
-c_sieradzko-leczyckie           ;dutch              ;        ;Schieratz
-c_sieradzko-leczyckie           ;low_saxon          ;        ;Schieratz
-c_sieradzko-leczyckie           ;thuringian         ;        ;Schieratz
-c_sieradzko-leczyckie           ;franconian         ;        ;Schieratz
-c_sieradzko-leczyckie           ;swabian            ;        ;Schieratz
-c_sieradzko-leczyckie           ;bavarian           ;        ;Schieratz
-c_sieradzko-leczyckie           ;low_frankish       ;        ;Schieratz
+c_kujawy                        ;german             ;        ;Brest
+c_kujawy                        ;low_german         ;        ;Brest
+c_kujawy                        ;dutch              ;        ;Brest
+c_kujawy                        ;low_saxon          ;        ;Brest
+c_kujawy                        ;thuringian         ;        ;Brest
+c_kujawy                        ;franconian         ;        ;Brest
+c_kujawy                        ;swabian            ;        ;Brest
+c_kujawy                        ;bavarian           ;        ;Brest
+c_kujawy                        ;low_frankish       ;        ;Brest
+c_inowroclaw                    ;german             ;        ;Inowrazlaw
+c_inowroclaw                    ;low_german         ;        ;Inowrazlaw
+c_inowroclaw                    ;dutch              ;        ;Inowrazlaw
+c_inowroclaw                    ;low_saxon          ;        ;Inowrazlaw
+c_inowroclaw                    ;thuringian         ;        ;Inowrazlaw
+c_inowroclaw                    ;franconian         ;        ;Inowrazlaw
+c_inowroclaw                    ;swabian            ;        ;Inowrazlaw
+c_inowroclaw                    ;bavarian           ;        ;Inowrazlaw
+c_inowroclaw                    ;low_frankish       ;        ;Inowrazlaw
 c_deltuva                       ;german             ;        ;Dewilto
 c_deltuva                       ;low_german         ;        ;Dewilto
 c_deltuva                       ;dutch              ;        ;Dewilto
@@ -4177,6 +4245,7 @@ c_cairo                         ;hijazi             ;        ;Qáhira
 c_cairo                         ;maghreb_arabic     ;        ;Qáhira
 c_cairo                         ;levantine_arabic   ;        ;Qáhira
 c_cairo                         ;egyptian_arabic    ;        ;Qáhira
+c_cairo                         ;sicilian_arabic    ;        ;Qáhira
 c_cairo                         ;ethiopian          ;        ;Kayro
 c_cairo                         ;coptic             ;Fustat  ;Phystaton
 c_cairo                         ;sanhaja            ;        ;Taqahirt
@@ -4451,8 +4520,6 @@ c_wiltshire                     ;cornish            ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;welsh              ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;breton             ;Old Sarum;Caer Gradawc
 c_wiltshire                     ;norsegaelic        ;Wilton  ;Wiltun
-c_wight                         ;saxon              ;        ;Wiht
-c_wight                         ;anglonorse         ;        ;Wiht
 c_dorset                        ;norse              ;        ;Dornsæte
 c_dorset                        ;swedish            ;        ;Dornsæte
 c_dorset                        ;norwegian          ;        ;Dornsæte
@@ -6441,7 +6508,6 @@ c_loritello                     ;greek              ;Larino  ;Larinon
 c_loritello                     ;roman              ;Larino  ;Larinum
 c_foggia                        ;greek              ;Siponto ;Sepius
 c_foggia                        ;roman              ;Siponto ;Sipontum
-d_tarent                        ;short_name         ;yes     ;yes
 d_tarent                        ;greek              ;Taranto ;Taras
 d_tarent                        ;roman              ;Taranto ;Tarentum
 c_taranto                       ;greek              ;        ;Taras
@@ -6545,40 +6611,36 @@ c_venezia                       ;venetian           ;        ;Venexia
 k_burgundy                      ;german             ;        ;Burgund
 c_geneve                        ;greek              ;        ;Genoia
 c_geneve                        ;roman              ;        ;Genava
-d_arles                         ;greek              ;        ;Arelate
-d_arles                         ;roman              ;        ;Arelate
-c_arles                         ;greek              ;        ;Arelate
-c_arles                         ;roman              ;        ;Arelate
+c_basel                         ;greek              ;Basilea ;Basileia
+c_basel                         ;roman              ;Basilea ;Basilia
 d_provence                      ;name_tier          ;count   ;count
-c_provence                      ;greek              ;Marseille;Massalia
-c_provence                      ;roman              ;Marseille;Massilia
-c_nice                          ;greek              ;Antibes ;Antipolis
-c_nice                          ;roman              ;Antibes ;Antipolis
+c_provence                      ;greek              ;        ;Massalia
+c_provence                      ;roman              ;        ;Massilia
+c_marseille                     ;greek              ;Arelate ;Arelate
+c_marseille                     ;roman              ;Arelate ;Arelate
+c_antibes                       ;greek              ;Antipolis;Antipolis
+c_antibes                       ;roman              ;Antipolis;Antipolis
 c_venaissin                     ;greek              ;Avignon ;Auenion
 c_venaissin                     ;roman              ;Avignon ;Avenio
-d_lyon                          ;greek              ;        ;Lougdounon
-d_lyon                          ;roman              ;        ;Lugdunum
+c_dauphine_viennois             ;greek              ;Vienna  ;Ouienna
+c_dauphine_viennois             ;roman              ;Vienna  ;Vienna
+c_valentinois                   ;greek              ;Valentia;Oualentia
+c_valentinois                   ;roman              ;Valentia;Valentia
 c_lyon                          ;greek              ;Lugdunum;Lougdounon
 c_lyon                          ;roman              ;Lugdunum;Lugdunum
-c_dauphine_viennois             ;greek              ;Vienne  ;Ouienna
-c_dauphine_viennois             ;roman              ;Vienne  ;Vienna
-c_valentinois                   ;greek              ;        ;Oualentia
-c_valentinois                   ;roman              ;        ;Valentia
-c_gapencais                     ;greek              ;        ;Vappincum
-c_gapencais                     ;roman              ;        ;Vappincum
-c_graisivaudan                  ;greek              ;        ;Gratianopolis
-c_graisivaudan                  ;roman              ;        ;Gratianopolis
-d_basel                         ;title              ;FE      ;FE
-d_basel                         ;foa                ;FE_FOA  ;FE_FOA
-d_basel                         ;title_prefix       ;FE_OF   ;FE_OF
-c_basel                         ;greek              ;        ;Basileia
-c_basel                         ;roman              ;        ;Basilia
+c_graisivaudan                  ;greek              ;Grenoble;Gratianopolis
+c_graisivaudan                  ;roman              ;Grenoble;Gratianopolis
 d_upper_burgundy                ;title              ;CPALATIN;CPALATIN
 d_upper_burgundy                ;title_female       ;CEPALATIN;CEPALATIN
 d_upper_burgundy                ;foa                ;CPALATIN_FOA;CPALATIN_FOA
 d_upper_burgundy                ;title_prefix       ;CPALATIN_OF;CPALATIN_OF
-c_besancon                      ;greek              ;        ;Ouisontion
-c_besancon                      ;roman              ;        ;Vesontio
+c_besancon                      ;greek              ;Vesontio;Ouisontion
+c_besancon                      ;roman              ;Vesontio;Vesontio
+d_lyon                          ;greek              ;Lugdunum;Lougdounon
+d_lyon                          ;roman              ;Lugdunum;Lugdunum
+d_basel                         ;title              ;FE      ;FE
+d_basel                         ;foa                ;FE_FOA  ;FE_FOA
+d_basel                         ;title_prefix       ;FE_OF   ;FE_OF
 k_brittany                      ;norse              ;        ;Bertangaland
 k_brittany                      ;frankish           ;        ;Bretagne
 d_brittany                      ;norse              ;        ;Bertangaland
@@ -6609,9 +6671,6 @@ k_france                        ;greek              ;Gaul    ;Gallia
 k_france                        ;roman              ;Gaul    ;Galliae
 d_flanders                      ;name_tier          ;count   ;count
 c_lille                         ;dutch              ;        ;Rijsel
-c_tournai                       ;dutch              ;        ;Doornik
-c_tournai                       ;greek              ;        ;Turnacum
-c_tournai                       ;roman              ;        ;Turnacum
 c_yperen                        ;dutch              ;        ;Ieper
 d_artois                        ;dutch              ;        ;Artesië
 c_artois                        ;dutch              ;        ;Artesië
@@ -8116,8 +8175,7 @@ c_rayy                          ;greek              ;        ;Ragai
 c_rayy                          ;assyrian           ;        ;Beth Raziqaye
 c_rayy                          ;pahlavi            ;        ;Rag
 c_rayy                          ;roman              ;        ;Rhagae
-c_kumis                         ;greek              ;        ;Hekatompylos
-c_kumis                         ;pahlavi            ;        ;Komish
+c_qazwin                        ;pahlavi            ;        ;Shad-Shapur
 d_fars                          ;greek              ;        ;Persis
 d_fars                          ;assyrian           ;        ;Beth Parsaye
 d_fars                          ;roman              ;        ;Persis
@@ -8144,7 +8202,6 @@ d_tabarestan                    ;pahlavi            ;        ;Tapurstan
 d_tabarestan                    ;roman              ;Hyrcania;Hyrcania
 c_mazandaran                    ;pahlavi            ;Tabaristan;Tapurstan
 d_gilan                         ;pahlavi            ;        ;Gelan
-c_qazwin                        ;pahlavi            ;        ;Shad-Shapur
 c_kharraqan                     ;pahlavi            ;Apahr   ;Apahr
 d_azerbaijan                    ;armenian           ;Paytakaran;Paytakaran
 d_azerbaijan                    ;greek              ;Atropatene;Media Atropatene
@@ -8179,6 +8236,8 @@ c_oromieh                       ;kurdish            ;        ;Urmê
 c_azerbaijan                    ;armenian           ;Paytakaran;Paytakaran
 c_azerbaijan                    ;assyrian           ;Beylagan;Paidangaran
 c_azerbaijan                    ;pahlavi            ;Atropatene;Aturpatakan
+c_kumis                         ;greek              ;        ;Hekatompylos
+c_kumis                         ;pahlavi            ;        ;Komish
 k_khorasan                      ;pahlavi            ;Khwarasan;Khwarasan
 d_nishapur                      ;pahlavi            ;Abarshahr;Abarshahr
 c_nishapur                      ;pahlavi            ;        ;Nev-Shapur
@@ -9133,16 +9192,6 @@ c_rostock                       ;croatian           ;        ;Rozstoc
 c_rostock                       ;serbian            ;        ;Rozstoc
 c_rostock                       ;bosnian            ;        ;Rozstoc
 c_rostock                       ;bulgarian          ;        ;Rozstoc
-c_schwerin                      ;russian            ;        ;Zuarin
-c_schwerin                      ;pommeranian        ;        ;Zuarin
-c_schwerin                      ;polish             ;        ;Zwierzyn
-c_schwerin                      ;bohemian           ;        ;Zverzín
-c_schwerin                      ;moravian           ;        ;Zvierzín
-c_schwerin                      ;karantanci         ;        ;Zuarin
-c_schwerin                      ;croatian           ;        ;Zuarin
-c_schwerin                      ;serbian            ;        ;Zuarin
-c_schwerin                      ;bosnian            ;        ;Zuarin
-c_schwerin                      ;bulgarian          ;        ;Zuarin
 c_werle                         ;russian            ;        ;Orle
 c_werle                         ;pommeranian        ;        ;Orle
 c_werle                         ;polish             ;        ;Orle
@@ -9154,16 +9203,16 @@ c_werle                         ;serbian            ;        ;Orle
 c_werle                         ;bosnian            ;        ;Orle
 c_werle                         ;bulgarian          ;        ;Orle
 d_pomeralia                     ;german             ;        ;Pommerellen
-c_danzig                        ;russian            ;        ;Gdansk
-c_danzig                        ;pommeranian        ;        ;Gyddanyzc
-c_danzig                        ;polish             ;        ;Gdansk
-c_danzig                        ;bohemian           ;        ;Gdansk
-c_danzig                        ;moravian           ;        ;Gdansk
-c_danzig                        ;karantanci         ;        ;Gdansk
-c_danzig                        ;croatian           ;        ;Gdansk
-c_danzig                        ;serbian            ;        ;Gdansk
-c_danzig                        ;bosnian            ;        ;Gdansk
-c_danzig                        ;bulgarian          ;        ;Gdansk
+c_danzig                        ;russian            ;Gdansk  ;Gdansk
+c_danzig                        ;pommeranian        ;Gdansk  ;Gyddanyzc
+c_danzig                        ;polish             ;Gdansk  ;Gdansk
+c_danzig                        ;bohemian           ;Gdansk  ;Gdansk
+c_danzig                        ;moravian           ;Gdansk  ;Gdansk
+c_danzig                        ;karantanci         ;Gdansk  ;Gdansk
+c_danzig                        ;croatian           ;Gdansk  ;Gdansk
+c_danzig                        ;serbian            ;Gdansk  ;Gdansk
+c_danzig                        ;bosnian            ;Gdansk  ;Gdansk
+c_danzig                        ;bulgarian          ;Gdansk  ;Gdansk
 c_swiecie                       ;russian            ;        ;Swiecie
 c_swiecie                       ;pommeranian        ;        ;Swiéce
 c_swiecie                       ;polish             ;        ;Swiecie
@@ -9174,20 +9223,20 @@ c_swiecie                       ;croatian           ;        ;Swiecie
 c_swiecie                       ;serbian            ;        ;Swiecie
 c_swiecie                       ;bosnian            ;        ;Swiecie
 c_swiecie                       ;bulgarian          ;        ;Swiecie
-d_lubeck                        ;swedish            ;        ;Lybäck
-d_lubeck                        ;norwegian          ;        ;Lybæk
-d_lubeck                        ;danish             ;        ;Lybæk
-d_lubeck                        ;prussian           ;Liubice ;Liubice
-d_lubeck                        ;russian            ;        ;Lubeka
-d_lubeck                        ;pommeranian        ;Liubice ;Liubice
-d_lubeck                        ;polish             ;        ;Lubeka
-d_lubeck                        ;bohemian           ;        ;Lubek
-d_lubeck                        ;moravian           ;        ;Lubek
-d_lubeck                        ;karantanci         ;        ;Lubeka
-d_lubeck                        ;croatian           ;        ;Lubeka
-d_lubeck                        ;serbian            ;        ;Lubeka
-d_lubeck                        ;bosnian            ;        ;Lubeka
-d_lubeck                        ;bulgarian          ;        ;Lubeka
+d_wagria                        ;swedish            ;Lübeck  ;Lybäck
+d_wagria                        ;norwegian          ;Lübeck  ;Lybæk
+d_wagria                        ;danish             ;Lübeck  ;Lybæk
+d_wagria                        ;prussian           ;Liubice ;Liubice
+d_wagria                        ;russian            ;Lübeck  ;Lubeka
+d_wagria                        ;pommeranian        ;Liubice ;Liubice
+d_wagria                        ;polish             ;Lübeck  ;Lubeka
+d_wagria                        ;bohemian           ;Lübeck  ;Lubek
+d_wagria                        ;moravian           ;Lübeck  ;Lubek
+d_wagria                        ;karantanci         ;Lübeck  ;Lubeka
+d_wagria                        ;croatian           ;Lübeck  ;Lubeka
+d_wagria                        ;serbian            ;Lübeck  ;Lubeka
+d_wagria                        ;bosnian            ;Lübeck  ;Lubeka
+d_wagria                        ;bulgarian          ;Lübeck  ;Lubeka
 c_lubeck                        ;swedish            ;        ;Lybäck
 c_lubeck                        ;norwegian          ;        ;Lybæk
 c_lubeck                        ;danish             ;        ;Lybæk
@@ -9202,6 +9251,34 @@ c_lubeck                        ;croatian           ;        ;Lubeka
 c_lubeck                        ;serbian            ;        ;Lubeka
 c_lubeck                        ;bosnian            ;        ;Lubeka
 c_lubeck                        ;bulgarian          ;        ;Lubeka
+d_brandenburg                   ;title              ;MARGRAVE;MARGRAVE
+d_brandenburg                   ;title_female       ;MARGRAVINE;MARGRAVINE
+d_brandenburg                   ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+d_brandenburg                   ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+d_brandenburg                   ;russian            ;        ;Brenna
+d_brandenburg                   ;pommeranian        ;        ;Brennaburg
+d_brandenburg                   ;polish             ;        ;Branibór
+d_brandenburg                   ;bohemian           ;        ;Braniborz
+d_brandenburg                   ;moravian           ;        ;Braniborz
+d_brandenburg                   ;karantanci         ;        ;Brenna
+d_brandenburg                   ;croatian           ;        ;Brenna
+d_brandenburg                   ;serbian            ;        ;Brenna
+d_brandenburg                   ;bosnian            ;        ;Brenna
+d_brandenburg                   ;bulgarian          ;        ;Brenna
+c_brandenburg                   ;russian            ;Brandenburg;Brenna
+c_brandenburg                   ;pommeranian        ;Brandenburg;Brennaburg
+c_brandenburg                   ;polish             ;Brandenburg;Branibór
+c_brandenburg                   ;bohemian           ;Brandenburg;Braniborz
+c_brandenburg                   ;moravian           ;Brandenburg;Braniborz
+c_brandenburg                   ;karantanci         ;Brandenburg;Brenna
+c_brandenburg                   ;croatian           ;Brandenburg;Brenna
+c_brandenburg                   ;serbian            ;Brandenburg;Brenna
+c_brandenburg                   ;bosnian            ;Brandenburg;Brenna
+c_brandenburg                   ;bulgarian          ;Brandenburg;Brenna
+d_lausitz                       ;title              ;MARGRAVE;MARGRAVE
+d_lausitz                       ;title_female       ;MARGRAVINE;MARGRAVINE
+d_lausitz                       ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+d_lausitz                       ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 d_lubusz                        ;russian            ;        ;Lubusz
 d_lubusz                        ;pommeranian        ;        ;Lubusz
 d_lubusz                        ;polish             ;        ;Lubusz
@@ -9212,31 +9289,27 @@ d_lubusz                        ;croatian           ;        ;Lubusz
 d_lubusz                        ;serbian            ;        ;Lubusz
 d_lubusz                        ;bosnian            ;        ;Lubusz
 d_lubusz                        ;bulgarian          ;        ;Lubusz
-c_lubusz                        ;norse              ;        ;Lebus
-c_lubusz                        ;swedish            ;        ;Lebus
-c_lubusz                        ;norwegian          ;        ;Lebus
-c_lubusz                        ;danish             ;        ;Lebus
-c_lubusz                        ;german             ;        ;Lebus
-c_lubusz                        ;russian            ;        ;Lubusz
-c_lubusz                        ;pommeranian        ;        ;Lubusz
-c_lubusz                        ;polish             ;        ;Lubusz
-c_lubusz                        ;bohemian           ;        ;Lubuš
-c_lubusz                        ;moravian           ;        ;Lubuš
-c_lubusz                        ;karantanci         ;        ;Lubusz
-c_lubusz                        ;croatian           ;        ;Lubusz
-c_lubusz                        ;serbian            ;        ;Lubusz
-c_lubusz                        ;bosnian            ;        ;Lubusz
-c_lubusz                        ;bulgarian          ;        ;Lubusz
-c_neumark                       ;russian            ;        ;Cedynye
-c_neumark                       ;pommeranian        ;        ;Cediniô
-c_neumark                       ;polish             ;        ;Cedynia
-c_neumark                       ;bohemian           ;        ;Cedyne
-c_neumark                       ;moravian           ;        ;Cedynia
-c_neumark                       ;karantanci         ;        ;Cedynia
-c_neumark                       ;croatian           ;        ;Cedynia
-c_neumark                       ;serbian            ;        ;Cedynia
-c_neumark                       ;bosnian            ;        ;Cedynia
-c_neumark                       ;bulgarian          ;        ;Cedynia
+c_lubusz                        ;german             ;        ;Sternberg
+c_lubusz                        ;russian            ;Kostrzyn;Cozsterine
+c_lubusz                        ;pommeranian        ;Kostrzyn;Cozsterine
+c_lubusz                        ;polish             ;Kostrzyn;Cozsterine
+c_lubusz                        ;bohemian           ;Kostrzyn;Kostrzín
+c_lubusz                        ;moravian           ;Kostrzyn;Kostrzín
+c_lubusz                        ;karantanci         ;Kostrzyn;Cozsterine
+c_lubusz                        ;croatian           ;Kostrzyn;Cozsterine
+c_lubusz                        ;serbian            ;Kostrzyn;Cozsterine
+c_lubusz                        ;bosnian            ;Kostrzyn;Cozsterine
+c_lubusz                        ;bulgarian          ;Kostrzyn;Cozsterine
+c_neumark                       ;russian            ;Cedynia ;Cedynye
+c_neumark                       ;pommeranian        ;Cedynia ;Cediniô
+c_neumark                       ;polish             ;Cedynia ;Cedynia
+c_neumark                       ;bohemian           ;Cedynia ;Cedyne
+c_neumark                       ;moravian           ;Cedynia ;Cedynia
+c_neumark                       ;karantanci         ;Cedynia ;Cedynia
+c_neumark                       ;croatian           ;Cedynia ;Cedynia
+c_neumark                       ;serbian            ;Cedynia ;Cedynia
+c_neumark                       ;bosnian            ;Cedynia ;Cedynia
+c_neumark                       ;bulgarian          ;Cedynia ;Cedynia
 d_pommerania                    ;norse              ;        ;Pommern
 d_pommerania                    ;swedish            ;        ;Pommern
 d_pommerania                    ;norwegian          ;        ;Pommern
@@ -9277,72 +9350,64 @@ d_pommerania                    ;croatian           ;        ;Pomorze
 d_pommerania                    ;serbian            ;        ;Pomorze
 d_pommerania                    ;bosnian            ;        ;Pomorze
 d_pommerania                    ;bulgarian          ;        ;Pomorze
-c_stettin                       ;russian            ;        ;Szczecin
-c_stettin                       ;pommeranian        ;        ;Szczëtno
-c_stettin                       ;polish             ;        ;Szczecin
+c_stettin                       ;russian            ;Szczecin;Szczecin
+c_stettin                       ;pommeranian        ;Szczecin;Szczëtno
+c_stettin                       ;polish             ;Szczecin;Szczecin
 c_stettin                       ;bohemian           ;        ;Štetín
 c_stettin                       ;moravian           ;        ;Štetín
-c_stettin                       ;karantanci         ;        ;Szczecin
-c_stettin                       ;croatian           ;        ;Szczecin
-c_stettin                       ;serbian            ;        ;Szczecin
-c_stettin                       ;bosnian            ;        ;Szczecin
-c_stettin                       ;bulgarian          ;        ;Szczecin
-c_szvuine                       ;norse              ;        ;Jómsborg
-c_szvuine                       ;swedish            ;        ;Jómsborg
-c_szvuine                       ;norwegian          ;        ;Jómsborg
-c_szvuine                       ;danish             ;        ;Jómsburgh
-c_szvuine                       ;icelandic          ;        ;Jómsborg
-c_szvuine                       ;gothic             ;        ;Jómsborg
-c_szvuine                       ;anglonorse         ;        ;Jómsborg
-c_szvuine                       ;norsegaelic        ;        ;Jómsborg
-c_szvuine                       ;russian            ;        ;Szvuine
-c_szvuine                       ;pommeranian        ;        ;Szvuine
-c_szvuine                       ;polish             ;        ;Szvuine
-c_szvuine                       ;bohemian           ;        ;Švuine
-c_szvuine                       ;moravian           ;        ;Švuine
-c_szvuine                       ;karantanci         ;        ;Szvuine
-c_szvuine                       ;croatian           ;        ;Szvuine
-c_szvuine                       ;serbian            ;        ;Szvuine
-c_szvuine                       ;bosnian            ;        ;Szvuine
-c_szvuine                       ;bulgarian          ;        ;Szvuine
-c_wolgast                       ;norse              ;Wolgast ;Waløgost
-c_wolgast                       ;swedish            ;Wolgast ;Waløgost
-c_wolgast                       ;norwegian          ;Wolgast ;Waløgost
-c_wolgast                       ;danish             ;Wolgast ;Waløgost
-c_wolgast                       ;icelandic          ;Wolgast ;Waløgost
-c_wolgast                       ;gothic             ;Wolgast ;Waløgost
-c_wolgast                       ;anglonorse         ;Wolgast ;Waløgost
-c_wolgast                       ;norsegaelic        ;Wolgast ;Waløgost
-c_wolgast                       ;russian            ;Wolgast ;Wologoszcz
-c_wolgast                       ;pommeranian        ;Wolgast ;Hologost
-c_wolgast                       ;polish             ;Wolgast ;Wologoszcz
-c_wolgast                       ;bohemian           ;Wolgast ;Volgast
-c_wolgast                       ;moravian           ;Wolgast ;Volhast
-c_wolgast                       ;karantanci         ;Wolgast ;Wologoszcz
-c_wolgast                       ;croatian           ;Wolgast ;Wologoszcz
-c_wolgast                       ;serbian            ;Wolgast ;Wologoszcz
-c_wolgast                       ;bosnian            ;Wolgast ;Wologoszcz
-c_wolgast                       ;bulgarian          ;Wolgast ;Wologoszcz
-c_belgard                       ;russian            ;        ;Biologard
-c_belgard                       ;pommeranian        ;        ;Biologard
-c_belgard                       ;polish             ;        ;Bialogard
-c_belgard                       ;bohemian           ;        ;Belehrad
-c_belgard                       ;moravian           ;        ;Bielehrad
-c_belgard                       ;karantanci         ;        ;Biologard
-c_belgard                       ;croatian           ;        ;Biologard
-c_belgard                       ;serbian            ;        ;Biologard
-c_belgard                       ;bosnian            ;        ;Biologard
-c_belgard                       ;bulgarian          ;        ;Biologard
-c_slupsk                        ;russian            ;        ;Slupsk-Slawno
-c_slupsk                        ;pommeranian        ;        ;Slëpsk-Slowno
-c_slupsk                        ;polish             ;        ;Slupsk-Slawno
-c_slupsk                        ;bohemian           ;        ;Slupsk-Slavno
-c_slupsk                        ;moravian           ;        ;Slupsk-Slavno
-c_slupsk                        ;karantanci         ;        ;Slupsk-Slawno
-c_slupsk                        ;croatian           ;        ;Slupsk-Slawno
-c_slupsk                        ;serbian            ;        ;Slupsk-Slawno
-c_slupsk                        ;bosnian            ;        ;Slupsk-Slawno
-c_slupsk                        ;bulgarian          ;        ;Slupsk-Slawno
+c_stettin                       ;karantanci         ;Szczecin;Szczecin
+c_stettin                       ;croatian           ;Szczecin;Szczecin
+c_stettin                       ;serbian            ;Szczecin;Szczecin
+c_stettin                       ;bosnian            ;Szczecin;Szczecin
+c_stettin                       ;bulgarian          ;Szczecin;Szczecin
+c_wolgast                       ;norse              ;Jomsborg;Jómsborg
+c_wolgast                       ;swedish            ;        ;Waløgost
+c_wolgast                       ;norwegian          ;        ;Waløgost
+c_wolgast                       ;danish             ;        ;Waløgost
+c_wolgast                       ;icelandic          ;        ;Waløgost
+c_wolgast                       ;gothic             ;        ;Waløgost
+c_wolgast                       ;anglonorse         ;        ;Waløgost
+c_wolgast                       ;norsegaelic        ;        ;Waløgost
+c_wolgast                       ;russian            ;        ;Wologoszcz
+c_wolgast                       ;pommeranian        ;        ;Hologost
+c_wolgast                       ;polish             ;        ;Wologoszcz
+c_wolgast                       ;bohemian           ;        ;Volgast
+c_wolgast                       ;moravian           ;        ;Volhast
+c_wolgast                       ;karantanci         ;        ;Wologoszcz
+c_wolgast                       ;croatian           ;        ;Wologoszcz
+c_wolgast                       ;serbian            ;        ;Wologoszcz
+c_wolgast                       ;bosnian            ;        ;Wologoszcz
+c_wolgast                       ;bulgarian          ;        ;Wologoszcz
+c_gutzkow                       ;russian            ;        ;Chocków
+c_gutzkow                       ;pommeranian        ;        ;Gotzekowe
+c_gutzkow                       ;polish             ;        ;Chocków
+c_gutzkow                       ;bohemian           ;        ;Chockov
+c_gutzkow                       ;moravian           ;        ;Chockov
+c_gutzkow                       ;karantanci         ;        ;Chocków
+c_gutzkow                       ;croatian           ;        ;Chocków
+c_gutzkow                       ;serbian            ;        ;Chocków
+c_gutzkow                       ;bosnian            ;        ;Chocków
+c_gutzkow                       ;bulgarian          ;        ;Chocków
+c_belgard                       ;russian            ;Bialogard;Biologard
+c_belgard                       ;pommeranian        ;Bialogard;Biologard
+c_belgard                       ;polish             ;Bialogard;Bialogard
+c_belgard                       ;bohemian           ;Bialogard;Belehrad
+c_belgard                       ;moravian           ;Bialogard;Bielehrad
+c_belgard                       ;karantanci         ;Bialogard;Biologard
+c_belgard                       ;croatian           ;Bialogard;Biologard
+c_belgard                       ;serbian            ;Bialogard;Biologard
+c_belgard                       ;bosnian            ;Bialogard;Biologard
+c_belgard                       ;bulgarian          ;Bialogard;Biologard
+c_slupsk                        ;russian            ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;pommeranian        ;Slupsk-Slawno;Slëpsk-Slowno
+c_slupsk                        ;polish             ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;bohemian           ;Slupsk-Slawno;Slupsk-Slavno
+c_slupsk                        ;moravian           ;Slupsk-Slawno;Slupsk-Slavno
+c_slupsk                        ;karantanci         ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;croatian           ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;serbian            ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;bosnian            ;Slupsk-Slawno;Slupsk-Slawno
+c_slupsk                        ;bulgarian          ;Slupsk-Slawno;Slupsk-Slawno
 d_rugen                         ;norse              ;        ;Rygen
 d_rugen                         ;swedish            ;        ;Rygen
 d_rugen                         ;norwegian          ;        ;Rygen
@@ -9389,34 +9454,6 @@ c_barth                         ;croatian           ;        ;Bardo
 c_barth                         ;serbian            ;        ;Bardo
 c_barth                         ;bosnian            ;        ;Bardo
 c_barth                         ;bulgarian          ;        ;Bardo
-d_brandenburg                   ;title              ;MARGRAVE;MARGRAVE
-d_brandenburg                   ;title_female       ;MARGRAVINE;MARGRAVINE
-d_brandenburg                   ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
-d_brandenburg                   ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
-d_brandenburg                   ;russian            ;Brandenburg;Brenna
-d_brandenburg                   ;pommeranian        ;Brandenburg;Brennaburg
-d_brandenburg                   ;polish             ;Brandenburg;Branibór
-d_brandenburg                   ;bohemian           ;Brandenburg;Braniborz
-d_brandenburg                   ;moravian           ;Brandenburg;Braniborz
-d_brandenburg                   ;karantanci         ;Brandenburg;Brenna
-d_brandenburg                   ;croatian           ;Brandenburg;Brenna
-d_brandenburg                   ;serbian            ;Brandenburg;Brenna
-d_brandenburg                   ;bosnian            ;Brandenburg;Brenna
-d_brandenburg                   ;bulgarian          ;Brandenburg;Brenna
-c_brandenburg                   ;russian            ;        ;Brenna
-c_brandenburg                   ;pommeranian        ;        ;Brennaburg
-c_brandenburg                   ;polish             ;        ;Branibór
-c_brandenburg                   ;bohemian           ;        ;Braniborz
-c_brandenburg                   ;moravian           ;        ;Braniborz
-c_brandenburg                   ;karantanci         ;        ;Brenna
-c_brandenburg                   ;croatian           ;        ;Brenna
-c_brandenburg                   ;serbian            ;        ;Brenna
-c_brandenburg                   ;bosnian            ;        ;Brenna
-c_brandenburg                   ;bulgarian          ;        ;Brenna
-d_lausitz                       ;title              ;MARGRAVE;MARGRAVE
-d_lausitz                       ;title_female       ;MARGRAVINE;MARGRAVINE
-d_lausitz                       ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
-d_lausitz                       ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 k_terra                         ;german             ;        ;Livland
 k_terra                         ;low_german         ;        ;Livland
 k_terra                         ;dutch              ;        ;Livland
@@ -11225,6 +11262,7 @@ c_kashgar                       ;karluk             ;        ;Ordukänd
 c_kashgar                       ;kirghiz            ;        ;Ordukänd
 c_kashgar                       ;uyghur             ;        ;Ordukänd
 c_kashgar                       ;bashkir            ;        ;Ordukänd
+c_yarkand                       ;khotanese          ;        ;Saka
 d_kucha                         ;turkish            ;        ;Küsän
 d_kucha                         ;turkmen            ;        ;Küsän
 d_kucha                         ;oghuz              ;        ;Küsän

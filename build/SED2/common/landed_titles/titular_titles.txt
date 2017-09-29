@@ -22,8 +22,6 @@ d_gloucester = { # Hwicce
 
 b_zussow = {}
 
-b_kolbatz = {}
-
 d_yaroslavl = { # Yaroslavl
 	color = { 178 192 134 }
 	capital = 572 # Yaroslavl
@@ -33,13 +31,6 @@ d_yaroslavl = { # Yaroslavl
 d_vitebsk = { # Vitebsk
 	color = { 196 33 55 }
 	capital = 417 # Vitebsk
-	allow = { title_duke_basic_allow = yes }
-}
-
-d_cheremisa = { # Cheremisa
-	color = { 188 115 43 }
-	color2 = { 255 255 255 }
-	capital = 590 # Sura # Chuvash
 	allow = { title_duke_basic_allow = yes }
 }
 
@@ -68,9 +59,9 @@ d_aosta = { # Aosta
 # TITULAR SWMH
 e_ulm = { # Ulm
 	color = { 110 110 110 }
-	capital = 252 # Ulm # ULM
+	capital = 1034 # Helfenstein
 	allow = {
-		has_landed_title = c_ulm
+		has_landed_title = c_helfenstein
 		c_ferrara = { owner_under_ROOT = yes }
 		prestige = 2000
 		title_emperor_basic_allow = yes
@@ -262,17 +253,6 @@ k_lombardy = { # Lombardy
 	allow = { always = no }
 }
 
-d_lauenburg = { # Sachsen-Lauenburg
-	capital = 1098 # Lauenburg
-	color = { 77 127 196 }
-	color2 = { 255 255 255 }
-	allow = {
-		c_lauenburg = { owner_under_ROOT = yes }
-		NOT = { tier = emperor }
-		title_duke_basic_allow = yes
-	}
-}
-
 d_sangermano = { # Terra Sancti Benedicti
 	capital = 1318 # Bosco # Aquino # Sangermano
 	color = { 77 127 196 }
@@ -307,7 +287,7 @@ k_salerno = { # Principato di Salerno
 d_krain = { # Krain # Marcher County of Krain/Carniola
 	color = { 4 33 122 }
 	culture = german
-	capital = 457 # Carniola # Krain
+	capital = 457 # Krain # Carniola
 	allow = {
 		culture_group = central_germanic
 		religion_group = christian
@@ -774,7 +754,7 @@ d_siraf = { # Siráf
 
 e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
-	capital = 441 # Boruy # Brno
+	capital = 441 # Brno # Boruy
 	allow = {
 		OR = {
 			religion_group = christian
@@ -860,7 +840,7 @@ d_airgialla = { # Airgíalla
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_khawarij = { # Khawarij (used for the Kharijite Rebellion)
+d_khawarij = { # Khawarij # (used for the Kharijite Rebellion)
 	color = { 70 130 10 }
 	color2 = { 255 255 255 }
 	capital = 697 # Mosul
