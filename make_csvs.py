@@ -250,23 +250,19 @@ def main():
                 ['#CODE', 'SED', 'SWMH', 'OTHER', 'VANILLA']]
             col_width = [0, 8]
             for row in csv_rows(inpath, comments=True):
-                try:
-                    if row[0]:
-                        if not row[0].startswith('#'):
-                            overridden_keys.add(row[0])
-                        if not row[0].startswith('b_'):
-                            if row[0].startswith('#'):
-                                row = [','.join(row)] + [''] * (len(row) - 1)
-                            else:
-                                col_width[0] = max(len(row[0]), col_width[0])
-                            out_row = [row[0],
-                                       prev_loc[row[0]],
-                                       row[1],
-                                       ','.join(dynamics[row[0]]),
-                                       vanilla.get(row[0], '')]
-                            out_rows.append(out_row)
-                except IndexError:
-                    continue
+                if not row[0].startswith('#'):
+                    overridden_keys.add(row[0])
+                if not row[0].startswith('b_'):
+                    if row[0].startswith('#'):
+                        row = [','.join(row), '']
+                    else:
+                        col_width[0] = max(len(row[0]), col_width[0])
+                    out_row = [row[0],
+                               prev_loc[row[0]],
+                               row[1],
+                               ','.join(dynamics[row[0]]),
+                               vanilla.get(row[0], '')]
+                    out_rows.append(out_row)
             for i, out_row in enumerate(out_rows):
                 if not out_row[0].startswith('#') or i == 0:
                     for col, width in enumerate(col_width):
