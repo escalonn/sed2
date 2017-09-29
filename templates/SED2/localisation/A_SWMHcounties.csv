@@ -42,17 +42,24 @@ c_slesvig_adj                         ;Istedsyssel;Istathesysælr;;Slesvigian
 c_southern_jylland_adj                ;        ;Ellæmsysælr;;
 c_north_frisia_adj                    ;        ;Utlandr;;
 c_bornholm_adj                        ;Bornholm;Burghændæholmr;;Bornholmian
+###########################################;;;;
 #HRE,,,,,,,,,,,,,,;;;;
+###########################################;;;;
+######Frisia;;;;
+#Holland;;;;
 c_holland_adj                         ;Holland ;Holland;;Hollander
 c_zeeland_adj                         ;Zeelandic;Zeeland;;Zeelander
 c_sticht_adj                          ;Nedersticht;Sticht;;Stichtian
+#Frisia;;;;
 c_frisia_adj                          ;Frisian ;Frisia;;Frisian
 c_westfriesland_adj                   ;West Frisian;Westfriesland;;Westfrieslander
 c_ostfriesland_adj                    ;East Frisian;Ostfriesland;;Ostfrieslander
+#Gelre;;;;
 c_gelre_adj                           ;Wassenberg;Wassenberg;;Gelrian
 c_hamaland_adj                        ;        ;Hamaland;;
 c_zutphen_adj                         ;        ;Zutphen;;
 c_oversticht_adj                      ;        ;Oversticht;;
+######Lower Lorraine;;;;
 #Brabant,,,,,,,,,,,,;;;;
 c_brabant_adj                         ;Leuven  ;Leuven;;Brabantian
 c_brussel_adj                         ;        ;Brüssel;;
@@ -75,6 +82,7 @@ c_berg_adj                            ;        ;Berg;;
 c_aachen_adj                          ;        ;Aachen;;
 #Köln,,,,,,,,,,,,;;;;
 c_koln_adj                            ;Colognian;Köln;;Colognian
+######Upper Lorraine;;;;
 #Lotharingen,,,,,,,,,,,,;;;;
 c_blamont_adj                         ;        ;Blâmont;;
 c_vaudemont_adj                       ;        ;Vaudémont;;
@@ -93,27 +101,35 @@ c_arlon_adj                           ;        ;Arlon;;
 c_laroche_adj                         ;        ;La Roche;;
 #Trier,,,,,,,,,,,,;;;;
 c_trier_adj                           ;Trier   ;Trier;;Trierian
+######Swabia;;;;
+#Burgau;;;;
 c_schelklingen_adj                    ;        ;Schelklingen;;
 c_waldburg_adj                        ;        ;Waldburg;;
 c_augsburg_adj                        ;        ;;;
+#Teck;;;;
 c_teck_adj                            ;        ;Teck;;
 c_helfenstein_adj                     ;        ;Helfenstein;;
 c_nellenburg_adj                      ;        ;Nellenburg;;
 c_zollern_adj                         ;        ;Zollern;;
+#Tübingen;;;;
 c_staufen_adj                         ;        ;Staufen;;
 c_wurttemberg_adj                     ;Württembergian;Württemberg;;Württembergian
 c_calw_adj                            ;        ;Calw;;
 c_oettingen_adj                       ;        ;Öttingen;;
+#Baden;;;;
 c_baden_adj                           ;Baden   ;Baden;;Badenian
 c_breisgau_adj                        ;Breisgau;Breisgau;;Breisgauer
 c_furstenberg_adj                     ;Fürstenbergian;Fürstenberg;;Fürstenbergian
+#Elass;;;;
 c_nordgau_adj                         ;Nordgau ;Nordgau;;Nordgauer
 c_sundgau_adj                         ;Sundgau ;Sundgau;;Sundgauer
+#Rätien;;;;
 c_thurgau_adj                         ;        ;Thurgau;;
 c_aargau_adj                          ;Aargau  ;Aargau;;Aargaunian
 c_schwyz_adj                          ;Schwyz  ;Schwyz;;Schwyzian
 c_chur_adj                            ;        ;Churx;;
 c_montfort_adj                        ;        ;Montfort;;
+######Bavaria;;;;
 #Österreich,,,,,,,,,,,,;;;;
 c_osterreich_adj                      ;Austrian;Österreich;;Österreicher
 c_traungau_adj                        ;        ;Traungau;;
@@ -136,6 +152,7 @@ c_leuchtenberg_adj                    ;        ;Leuchtenberg;;
 c_tirol_adj                           ;Tyrolean;Tirol;;Tyrolian
 c_trent_adj                           ;Tridentine;Trient;;Trentian
 c_lienz_adj                           ;        ;Lienz;;
+######Carinthia;;;;
 #Kärnten,,,,,,,,,,,,,;;;;
 c_karnten_adj                         ;Carinthian;Kärnten;;Karntenian
 c_krain_adj                           ;Carniolan;Krain;;Krainian
@@ -151,6 +168,7 @@ c_gorz_adj                            ;        ;Görz;;
 #Merania,,,,,,,,,,,,,;;;;
 c_istria_adj                          ;Istrian ;Istria;;Istrian
 c_trieste_adj                         ;        ;Duino;;
+######Franken;;;;
 #Hessen,,,,,,,,,,,,;;;;
 c_gleiberg_adj                        ;        ;Gleiberg;;
 c_ziegenhain_adj                      ;        ;Ziegenhain;;
@@ -181,6 +199,7 @@ c_pfalz_adj                           ;Palatine;Pfalz;;Pfalzian
 c_leiningen_adj                       ;Leiningen;Leiningen;;Leiningian
 c_sponheim_adj                        ;        ;Sponheim;;
 c_zweibrucken_adj                     ;        ;Zweibrücken;;
+######Saxony;;;;
 #Engern,,,,,,,,,,,,,,,,;;;;
 c_stade_adj                           ;        ;Stade;;
 c_bremen_adj                          ;Bremian ;Bremen;;Bremenian
@@ -222,6 +241,7 @@ c_niederlausitz_adj                   ;Lower Lusatian;Niederlausitz;;
 c_ratzeburg_adj                       ;        ;Ratzeburg;;
 c_schwerin_adj                        ;        ;Schwerin;;
 c_dannenberg_adj                      ;        ;Dannenberg;;
+####Bohemia;;;;
 #Böhmen,;;;;
 c_praha_adj                           ;Praguian;Praha;;Pragian
 c_hradec_adj                          ;Hradec Králové;Hradec;;Hradecian
@@ -234,28 +254,39 @@ c_brno_adj                            ;Brno    ;Brno;;Brünnian
 c_olomuc_adj                          ;        ;Olomuc;;
 c_znojmo_adj                          ;Znojmo  ;Znojmo;;Znojmo
 c_opava_adj                           ;        ;Opava;;
+######;;;;
+####Wenden;;;;
+#Lübeck;;;;
 c_lubeck_adj                          ;Lübeck  ;Lübeck;;Lübecker
 c_kiel_adj                            ;        ;Kiel;;
+#Mecklembourg;;;;
 c_mecklemburg_adj                     ;Mecklenburgian;Mecklemburg;;Mecklenburgian
 c_rostock_adj                         ;Rostock ;Rostock;;Rostocker
 c_werle_adj                           ;Werle   ;Werle;;Werlian
+#Rügen;;;;
 c_rugen_adj                           ;Rügen   ;Rügen;;Rügenian
 c_barth_adj                           ;        ;Barth;;
+#Pommern;;;;
 c_stettin_adj                         ;Stettin ;Stettin;;Stettiner
 c_wolgast_adj                         ;Wolgast ;Wolgast;;Wolgastian
 c_gutzkow_adj                         ;        ;Gützkow;;
 c_slupsk_adj                          ;Stolp   ;Stolp;;Slupskian
 c_belgard_adj                         ;        ;Belgard;;
+#Pommerellen;;;;
 c_danzig_adj                          ;Danzig  ;Danzig;;Danziger
 c_swiecie_adj                         ;        ;Schlochau;;
+#Brandenburg;;;;
 c_brandenburg_adj                     ;        ;Mittelmark;;
 c_altmark_adj                         ;Altmark ;Altmark;;Altmarkian
 c_magdeburg_adj                       ;        ;Magdeburg;;
 c_prignitz_adj                        ;        ;Prignitz;;
+#Lebus;;;;
 c_neumark_adj                         ;        ;Neumark;;
 c_lubusz_adj                          ;Sternberg;Sternberg;;Lubuszian
 c_santok_adj                          ;        ;Zantoch;;
+######;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
+#Palatine de Burgund;;;;
 c_besancon_adj                        ;Besançon;Besançon;;Besanconian
 c_montbeliard_adj                     ;        ;Montbéliard;;
 c_vesoul_adj                          ;        ;Vesoul;;
@@ -266,11 +297,13 @@ c_gruyere_adj                         ;        ;Gruyère;;
 c_neuchatel_adj                       ;Neuchâtel;Neuchâtel;;Neuchatelian
 c_basel_adj                           ;        ;Basel;;
 c_vaud_adj                            ;        ;Vaud;;
+#Savoie;;;;
 c_savoie_adj                          ;Maurienne;Maurienne;;Savoian
 c_geneve_adj                          ;Genevan ;Geneve;;Genevan
 c_chablais_adj                        ;        ;Chablais;;
 c_valais_adj                          ;Valais  ;Valais;;Valaisian
 c_bresse_adj                          ;        ;Bresse;;
+#Dauphineé;;;;
 c_dauphine_viennois_adj               ;        ;Viennois;;
 c_graisivaudan_adj                    ;        ;Graisvaudan;;
 c_lyon_adj                            ;Lyonnais;Lyon;;Lyonnais
@@ -278,10 +311,12 @@ c_lyon_adj                            ;Lyonnais;Lyon;;Lyonnais
 c_valentinois_adj                     ;        ;Valentinois;;
 c_venaissin_adj                       ;Venaissin;Venaissin;;Venaissinian
 c_vivers_adj                          ;        ;Vivarés;;
+#Provence;;;;
 c_provence_adj                        ;Provençal;Provence;;Provencal
 c_marseille_adj                       ;        ;Marseille;;
 c_antibes_adj                         ;        ;Antibes;;
 c_forcalquier_adj                     ;Forcalquier;Forcalquier;;Forcalquierian
+######;;;;
 #Poland,,,,,,,,,,,,,,;;;;
 c_plock_adj                           ;Plockian;Plock;;Plockian
 c_czersk_adj                          ;Czersk  ;Czersk;;Czerskian

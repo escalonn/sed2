@@ -92,9 +92,12 @@ PROV510 ;Constanta;Konstanta;c_constantia,Konstantia,Constantia,Köstence,Constan
 ########################################,,,,,,,,,,,,,,;;;;
 #German territories,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
+#####Frisia;;;;
+#Holland;;;;
 PROV80  ;Holland ;Holland;c_holland;Holland
 PROV79  ;Zeeland ;Zeeland;c_zeeland;Zeeland
 PROV82  ;Nedersticht;Sticht;c_sticht;Sticht
+#Friesland;;;;
 PROV84  ;Frisia  ;Friesland;c_frisia,Fresland,Friesland,Frise;Friesland
 PROV81  ;West Frisia;Westfriesland;c_westfriesland,West Friesland,West Fryslân,Westfriesland,Frise Occidentale;Westfriesland
 PROV85  ;East Frisia;Ostfriesland;c_ostfriesland,Aastfräislound,Oostfreesland,Ostfriesland,Oost Friesland,Frise Orientale;Ostfriesland
@@ -103,6 +106,7 @@ PROV83  ;Wassenberg;Wassenberg;c_gelre;Gelre
 PROV1017;Hamaland;Hamaland;c_hamaland;Western Cyclades
 PROV1058;Zutphen ;Zutphen;c_zutphen,Zutfent,Sutfen;Danube
 PROV1059;Oversticht;Oversticht;c_oversticht,Oaversticht;Danube
+#####Lower Lorraine;;;;
 #Brabant,,,,,,,,,,,,;;;;
 PROV117 ;Leuven  ;Leuven;c_brabant,Löwen,Louvain,Leuven;Brabant
 PROV1019;Brussels;Brussel;c_brussel,Brüssel,Bruxelles,Broekzele;Irish Sea
@@ -116,6 +120,7 @@ PROV1024;Cambrai ;Cambrai;c_cambrai,Kamerijk,Kamerich;Mediterranean Sea
 PROV1057;Limburg ;Limburg;c_limburg;Dniester
 PROV1957;Salm    ;Salm;c_salm;
 PROV91  ;Loon    ;Loon;c_loon,Looz;Loon
+#Bouillon;;;;
 PROV116 ;Liège   ;Liege;c_liege,Lüttich,Luik,Liége;Liege
 PROV1056;Namur   ;Namur;c_namur,Namür,Namen;Dniester
 #Jülich,,,,,,,,,,,,;;;;
@@ -125,6 +130,7 @@ PROV1063;Berg    ;Berg;c_berg;Danube
 PROV1026;Aix-la-Chapelle;Aachen;c_aachen,Aken,Aix-la-Chapelle;Lake Léman
 #Köln,,,,,,,,,,,,;;;;
 PROV119 ;Cologne ;Köln;c_koln,Keulen,Cologne;Cologne
+#####Upper Lorraine;;;;
 #Lotharingen,,,,,,,,,,,,;;;;
 PROV127 ;Blâmont ;Blâmont;c_blamont;Lorraine
 PROV133 ;Vaudémont;Vaudémont;c_vaudemont;Saintois
@@ -142,27 +148,35 @@ PROV1021;Arlon   ;Arlon;c_arlon,Arel,Aarlen;Golfo de Valencia
 PROV1060;La Roche;La Roche;c_laroche;Danube
 #Trier,,,,,,,,,,,,;;;;
 PROV118 ;Trier   ;Trier;c_trier,Trèves,Augusta Treverorum,Augousta Treveroron;Trier
+#####Swabia;;;;
+#Burgau;;;;
 PROV252 ;Schelklingen;Schelklingen;c_schelklingen;Ulm
 PROV977 ;Waldburg;Waldburg;c_waldburg;Bretagne Coast
 PROV955 ;Augsburg;Augsburg;c_augsburg,Augusta Vindelicum,Augousta Ouendelikon;Saimaa
+#Teck;;;;
 PROV1029;Teck    ;Teck;c_teck;Tyrrhenian Sea
 PROV1034;Helfenstein;Helfenstein;c_helfenstein;Malta Channel
 PROV1964;Nellenburg;Nellenburg;c_nellenburg;
 PROV1031;Zollern ;Zollern;c_zollern;Golfo di Napoli
+#Tübingen;;;;
 PROV1963;Hohenstaufen;Staufen;c_staufen;
 PROV253 ;Württemberg;Württemberg;c_wurttemberg;Württemberg
 PROV1030;Calw    ;Calw;c_calw;Coast of Sardegna
 PROV1032;Oettingen;Öttingen;c_oettingen;Strait di Messina
+#Baden;;;;
 PROV125 ;Baden   ;Baden;c_baden;Baden
 PROV250 ;Breisgau;Breisgau;c_breisgau;Breisgau
 PROV251 ;Fürstenberg;Fürstenberg;c_furstenberg;Fürstenberg
+#Elass;;;;
 PROV126 ;Nordgau ;Nordgau;c_nordgau,Noordgouw;Nordgau
 PROV134 ;Sundgau ;Sundgau;c_sundgau,Sundgouw;Sundgau
+#Rätien;;;;
 PROV248 ;Thurgau ;Thurgau;c_thurgau;St. Gallen
 PROV242 ;Aargau  ;Aargau;c_aargau;Aargau
 PROV245 ;Schwyz  ;Schwyz;c_schwyz;Schwyz
 PROV247 ;Chur    ;Chur;c_chur,Curia;Chur
 PROV249 ;Montfort;Montfort;c_montfort;Schwaben
+#####Bavaria;;;;
 #Österreich,,,,,,,,,,,,;;;;
 PROV449 ;Austria ;Österreich;c_osterreich,Vindobona,Ouindobouna;Österreich
 PROV1970;        ;Traungau;;
@@ -185,6 +199,7 @@ PROV1033;Leuchtenberg;Leuchtenberg;c_leuchtenberg;Golfe de Hammamet
 PROV316 ;Tyrol   ;Tirol;c_tirol;Tirol
 PROV317 ;Trent   ;Trient;c_trent,Tridentum,Tridente;Trent
 PROV359 ;Lienz   ;Lienz;c_lienz;Innsbruck
+#####Carinthia;;;;
 #Kärnten,,,,,,,,,,,,,;;;;
 PROV456 ;Carinthia;Kärnten;c_karnten;Kärnten
 PROV457 ;Carniola;Krain;c_krain;Krain
@@ -200,6 +215,7 @@ PROV1247;Görz    ;Görz;c_gorz,Gorica,Gurize,Gorizia;Khijjingakota
 #Merania,,,,,,,,,,,,,;;;;
 PROV958 ;Duino   ;Duino;c_trieste,Tergeste;Ladoga
 PROV458 ;Istria  ;Istria;c_istria,Istrien,Isztria,Histria,Istra,Istrie,Istria;Istria
+#####Franconia;;;;
 #Hessen,,,,,,,,,,,,;;;;
 PROV948 ;Gleiberg;Gleiberg;c_gleiberg;Gulf of Varna
 PROV1960;Ziegenhain;Ziegenhain;c_ziegenhain;
@@ -230,6 +246,7 @@ PROV124 ;Palatinate;Pfalz;c_pfalz,Palts,Pfalz,Palatinat;Pfalz
 PROV122 ;Leiningen;Leiningen;c_leiningen;Leiningen
 PROV1062;Sponheim;Sponheim;c_sponheim,Spanheim;Northern Caspian Sea
 PROV1008;Zweibrücken;Zweibrücken;c_zweibrucken,Tweebruggen,Zweibrücken,Deux Ponts;Gulf of Bothnia
+#####Saxony;;;;
 #Engern,,,,,,,,,,,,,,,,;;;;
 PROV1025;Stade   ;Stade;c_stade;Golfe du Lion
 PROV848 ;Bremen  ;Bremen;c_bremen;Bremen
@@ -319,6 +336,7 @@ PROV1302;Santok  ;Zantoch;c_santok;Chitrakut
 ########################################,,,,,,,,,,,,,,;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
+#Palatine de Burgund;;;;
 PROV135 ;Besançon;Besançon;c_besancon,Vesontio,Ouisontion;Bourgogne
 PROV1036;Montbéliard;Montbéliard;c_montbeliard;Golfo di Taranto
 PROV1045;Vesoul  ;Vesoul;c_vesoul;Rhine
@@ -329,11 +347,13 @@ PROV1038;Gruyères;Gruyère;c_gruyere;Strait of Otranto
 PROV241 ;Neuchâtel;Neuchâtel;c_neuchatel;Neuchatel
 PROV1037;Basel   ;Basel;c_basel,Basilia,Basileia;Ionian Sea
 PROV1049;Vaud    ;Vaud;c_vaud;Elbe
+#Savoie;;;;
 PROV237 ;Maurienne;Maurienne;c_savoie;Savoy
 PROV239 ;Geneva  ;Geneve;c_geneve,Genava,Genoia;Genève
 PROV1040;Chablais;Chablais;c_chablais;Loire
 PROV238 ;Valais  ;Valais;c_valais;Valais
 PROV1042;Bresse  ;Bresse;c_bresse;Seine
+#Dauphineé;;;;
 PROV228 ;Viennois;Viennois;c_dauphine_viennois,Vienna,Ouienna;Vienne
 PROV1048;Grésivaudan;Graisvaudan;c_graisivaudan,Gratianopolis;Elbe
 PROV227 ;Lyon    ;Lyon;c_lyon,Lugdunum,Lougdounon;Lyon
@@ -341,6 +361,7 @@ PROV227 ;Lyon    ;Lyon;c_lyon,Lugdunum,Lougdounon;Lyon
 PROV1252;Valentinois;Valentinois;c_valentinois,Valentia,Oualentia;Barasuru
 PROV222 ;Venaissin;Venaissin;c_venaissin,Avenio,Auenion;Venaissin
 PROV223 ;Vivarais;Vivarés;c_viviers;Vivarais
+#Provence;;;;
 PROV221 ;Provence;Provence;c_provence,Massilia,Massalia;Provence
 PROV1047;Marseille;Marseille;c_marseille,Arelate;Elbe
 PROV230 ;Antibes ;Antibes;c_antibes,Antipolis;Nice
