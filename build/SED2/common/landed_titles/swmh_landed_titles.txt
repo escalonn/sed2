@@ -2423,7 +2423,7 @@ e_hre = { # Heiliges Römisches Reich
 				color = { 67 22 195 }
 				color2 = { 255 255 255 }
 				b_luneburg = {}
-				b_st_michael = {}
+				b_st_michael_lunbeburg = {}
 				b_bardowick = {}
 				b_celle = {}
 				b_lauenrode = {}
@@ -3935,6 +3935,8 @@ e_hre = { # Heiliges Römisches Reich
 			c_waldburg = { # Waldburg (977)
 				color = { 45 81 67 }
 				color2 = { 255 255 255 }
+				greek = "Cambodunum"
+				roman = "Cambodunum"
 				b_ravensburg = {}
 				b_kempten = {}
 				b_biberach = {}
@@ -16767,8 +16769,8 @@ e_france = { # France
 			c_marseille = { # Marseille (1047)
 				color = { 0 30 130 }
 				color2 = { 255 255 255 }
-				greek = "Arelate"
-				roman = "Arelate"
+				greek = "Massalia"
+				roman = "Massalia"
 				b_arles = {}
 				b_marseille = {}
 				b_trets = {}
@@ -26891,7 +26893,7 @@ e_null = { #
 		} # end d_makran
 		allow = { title_king_basic_allow = yes }
 	} # end k_sistan
-	k_turkestan_west = { # Aq Turkestán
+	k_turkestan_west = { # Dasht-e-Qipchaq
 		color = { 172 41 75 }
 		#color = { 250 184 31 }
 		color2 = { 255 255 255 }
@@ -27019,7 +27021,7 @@ e_null = { #
 		} # end d_jand
 		allow = { title_king_basic_allow = yes }
 	} # end k_turkestan_west
-	k_turkestan_east = { # Mavi Turkestán
+	k_turkestan_east = { # Turkestán
 		color = { 200 140 40 }
 		color2 = { 255 255 255 }
 		capital = 1572 # Balasaghun

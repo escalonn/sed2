@@ -342,8 +342,6 @@ c_passau                        ;greek              ;Batavis ;Batavinon
 c_passau                        ;roman              ;Batavis ;Batavinum
 d_oberbayern                    ;greek              ;Raetia Prima;Rhaitia Prima
 d_oberbayern                    ;roman              ;Raetia Prima;Rhaetia Prima
-c_andechs                       ;greek              ;        ;Kambodunum
-c_andechs                       ;roman              ;        ;Cambodunum
 c_salzburg                      ;greek              ;Iuvavum ;Iuvavum
 c_salzburg                      ;roman              ;Iuvavum ;Iuvavum
 c_leuchtenberg                  ;title              ;LANDGRAVE;LANDGRAVE
@@ -458,6 +456,8 @@ d_burgau                        ;title              ;MARGRAVE;MARGRAVE
 d_burgau                        ;title_female       ;MARGRAVINE;MARGRAVINE
 d_burgau                        ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
 d_burgau                        ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
+c_waldburg                      ;greek              ;Cambodunum;Kambodunum
+c_waldburg                      ;roman              ;Cambodunum;Cambodunum
 c_augsburg                      ;greek              ;Augusta Vindelicorum;Augousta Ouendelikon
 c_augsburg                      ;roman              ;Augusta Vindelicorum;Augusta Vindelicum
 d_alsace                        ;german             ;        ;Elsass
@@ -6614,10 +6614,8 @@ c_geneve                        ;roman              ;        ;Genava
 c_basel                         ;greek              ;Basilea ;Basileia
 c_basel                         ;roman              ;Basilea ;Basilia
 d_provence                      ;name_tier          ;count   ;count
-c_provence                      ;greek              ;        ;Massalia
-c_provence                      ;roman              ;        ;Massilia
-c_marseille                     ;greek              ;Arelate ;Arelate
-c_marseille                     ;roman              ;Arelate ;Arelate
+c_marseille                     ;greek              ;Massalia;Massalia
+c_marseille                     ;roman              ;Massalia;Massilia
 c_antibes                       ;greek              ;Antipolis;Antipolis
 c_antibes                       ;roman              ;Antipolis;Antipolis
 c_venaissin                     ;greek              ;Avignon ;Auenion
@@ -11220,6 +11218,7 @@ d_makran                        ;pahlavi            ;        ;Makuran
 d_makran                        ;roman              ;        ;Gedrosia
 c_makran                        ;pahlavi            ;Paradan ;Paradan
 c_turan                         ;pahlavi            ;Turgistan;Turestan
+k_turkestan_west                ;russian            ;        ;Polovskoye Polye
 d_dasht-i-qipchaq               ;russian            ;        ;Polovskoye Polye
 c_turgay                        ;turkish            ;        ;Turgay
 c_turgay                        ;turkmen            ;        ;Turgay
