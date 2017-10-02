@@ -39,13 +39,14 @@ def get_dynamics(parser, cultures, prov_id):
 
     dynamics = collections.defaultdict(list,
                                        [(v, [k]) for k, v in prov_id.items()])
-    for _, tree in parser.parse_files('common/landed_titles/*', memcache=True):
+    for _, tree in parser.parse_files('common/landed_titles/*.txt',
+                                      memcache=True):
         recurse(tree)
     return dynamics
 
 def get_gov_prefixes(parser):
     prefixes = []
-    for _, tree in parser.parse_files('common/governments/*'):
+    for _, tree in parser.parse_files('common/governments/*.txt'):
         for _, v in tree:
             for n2, v2 in v:
                 try:
@@ -59,7 +60,7 @@ def get_gov_prefixes(parser):
 def get_more_keys_to_override(parser, localisation, max_provs):
     override = set()
     missing_loc = []
-    for _, tree in parser.parse_files('common/bookmarks/*'):
+    for _, tree in parser.parse_files('common/bookmarks/*.txt'):
         for n, v in tree:
             override.add(v['name'].val)
             override.add(v['desc'].val)
@@ -77,7 +78,7 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                     except KeyError:
                         pass
                     override.add('ERA_CHAR_INFO_{}'.format(v2['id'].val))
-    for _, tree in parser.parse_files('common/buildings/*'):
+    for _, tree in parser.parse_files('common/buildings/*.txt'):
         for n, v in tree:
             for n2, v2 in v:
                 override.add(n2.val)
@@ -85,19 +86,19 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                     if n3.val == 'desc':
                         override.add(v3.val)
     ul_titles = []
-    for _, tree in parser.parse_files('common/job_titles/*'):
+    for _, tree in parser.parse_files('common/job_titles/*.txt'):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add('desc_' + n.val)
-    for _, tree in parser.parse_files('common/minor_titles/*'):
+    for _, tree in parser.parse_files('common/minor_titles/*.txt'):
         for n, v in tree:
             ul_titles.append(n.val)
             override.add(n.val + '_FOA')
             override.add(n.val + '_desc')
-    for _, tree in parser.parse_files('common/retinue_subunits/*'):
+    for _, tree in parser.parse_files('common/retinue_subunits/*.txt'):
         for n, v in tree:
             override.add(n.val)
-    for _, tree in parser.parse_files('common/trade_routes/*'):
+    for _, tree in parser.parse_files('common/trade_routes/*.txt'):
         for n, v in tree:
             override.add(n.val)
     bl_pars = [
@@ -110,8 +111,8 @@ def get_more_keys_to_override(parser, localisation, max_provs):
         ['character_event', 'option', 'if'],
         ['narrative_event', 'option', 'if']
     ]
-    for glob in ('decisions/*', 'events/*'):
-        for _, tree in parser.parse_files(glob, errors='replace'):
+    for glob in ['decisions/*.txt', 'events/*.txt']:
+        for _, tree in parser.parse_files(glob):
             dfs = [(p, []) for p in tree]
             while dfs:
                 p, parents = dfs.pop()
@@ -127,17 +128,17 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                 if isinstance(v, Obj) and v.has_pairs:
                     dfs.extend((p2, parents + [n.val]) for p2 in v)
                 elif (parents not in bl_pars and
-                      n.val in ('set_name', 'adjective') and v.val):
+                      n.val in ['set_name', 'adjective'] and v.val):
                     if v.val in localisation:
                         override.add(v.val)
                     elif v.val not in missing_loc:
                         missing_loc.append(v.val)
-    for glob in ('history/provinces/*', 'history/titles/*'):
+    for glob in ['history/provinces/*.txt', 'history/titles/*.txt']:
         for _, tree in parser.parse_files(glob):
             for n, v in tree:
                 if isinstance(n, Date):
                     for n2, v2 in v:
-                        if n2.val in ('name', 'adjective'):
+                        if n2.val in ['name', 'adjective']:
                             if v2.val in localisation:
                                 override.add(v2.val)
                             elif v2.val not in missing_loc:
@@ -151,7 +152,7 @@ def get_more_keys_to_override(parser, localisation, max_provs):
     return override, missing_loc, ul_titles
 
 def get_max_provinces(parser):
-    return next(parser.parse_files('map/default.map'))[1]['max_provinces'].val
+    return parser.parse_file('map/default.map')['max_provinces'].val
 
 def make_noble_title_regex(cultures, religions, ul_titles, prefixes):
     type_re = '|'.join(['family_palace_', 'vice_royalty_'] + prefixes)
@@ -183,7 +184,7 @@ def main():
         title_match = re.match(r'[ekdcb]_((?!_adj($|_)).)*', key)
         if title_match is not None:
             title = title_match.group()
-            return (title in titles and not title.startswith('b_') and
+            return (title in titles and title[0] != 'b' and
                     re.fullmatch(r'c_((?!_adj($|_)).)*', key) is None)
         if key in keys_to_override:
             return True
@@ -229,7 +230,8 @@ def main():
         for path in files('localisation/*.csv', basedir=templates_sed2):
             prev_loc.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(path)})
-        for path in files('common/landed_titles/*', basedir=templates_sed2):
+        for path in files('common/landed_titles/*.csv',
+                          basedir=templates_sed2):
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv_rows(path)})
 
@@ -276,7 +278,7 @@ def main():
             'male_names']
         lt_keys = lt_keys_not_cultures + cultures
 
-        for inpath, tree in parser.parse_files('common/landed_titles/*',
+        for inpath, tree in parser.parse_files('common/landed_titles/*.txt',
                                                memcache=True):
             out_rows = [['#TITLE', 'KEY', 'SED2', 'SWMH']]
             col_width = [0, 0, 8]
@@ -354,8 +356,8 @@ def main():
         gov_prefixes = get_gov_prefixes(parser)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
-        for _, tree in parser.parse_files('common/landed_titles/*', emfpath,
-                                          [emfswmhpath]):
+        for _, tree in parser.parse_files('common/landed_titles/*.txt',
+                                          emfpath, [emfswmhpath]):
             # iterate for side effects (add to titles)
             for _ in recurse(tree):
                 pass
