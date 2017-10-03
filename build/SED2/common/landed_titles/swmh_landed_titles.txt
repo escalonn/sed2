@@ -13653,19 +13653,26 @@ e_britannia = { # Britannia
 			allow = { title_duke_basic_allow = yes }
 		} # end d_channel_islands
 		allow = {
-			independent = yes
 			OR = {
-				custom_tooltip = {
-					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-					hidden_tooltip = {
-						ai = no # AI creates this title solely via explicit maintenance, so none of this is for them
-						any_realm_province = {
-							count = 22 # there are 43 counties in the current custom_england; this is >50%
-							region = custom_england
+				FROM = { is_de_jure_title = yes }
+				FROM = { has_holder = yes } # usurpation always OK
+				AND = {
+					independent = yes
+					custom_tooltip = {
+						text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+						hidden_tooltip = {
+							# AI creates this title solely via explicit maintenance,
+							# so none of this is for them
+							ai = no
+							any_realm_province = {
+								# there are 43 counties in the current custom_england;
+								# this is >50%
+								count = 22
+								region = custom_england
+							}
 						}
 					}
 				}
-				FROM = { has_holder = yes } # usurpation always OK
 			}
 			title_king_basic_allow = yes
 		}

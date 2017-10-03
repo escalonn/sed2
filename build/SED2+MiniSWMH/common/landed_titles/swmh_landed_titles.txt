@@ -11954,19 +11954,22 @@ e_britannia = {
 			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
-			independent = yes
 			OR = {
-				custom_tooltip = {
-					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-					hidden_tooltip = {
-						ai = no
-						any_realm_province = {
-							count = 22
-							region = custom_england
+				FROM = { is_de_jure_title = yes }
+				FROM = { has_holder = yes }
+				AND = {
+					independent = yes
+					custom_tooltip = {
+						text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+						hidden_tooltip = {
+							ai = no
+							any_realm_province = {
+								count = 22
+								region = custom_england
+							}
 						}
 					}
 				}
-				FROM = { has_holder = yes }
 			}
 			title_king_basic_allow = yes
 		}
