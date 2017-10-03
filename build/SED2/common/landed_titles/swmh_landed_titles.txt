@@ -4587,11 +4587,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				bosnian = "Tsargrad"
 				bulgarian = "Tsargrad"
 				b_constantinople = {}
-				b_hagiasophia = {
-					pentarchy = orthodox
-					pentarchy = monothelite
-					pentarchy = iconoclast
-				}
+				b_hagiasophia = {}
 				b_galata = {}
 				b_blachernae = {}
 				b_phanarion = {}
@@ -8885,10 +8881,7 @@ e_poland = { # Polska-Lietuva
 				b_jarocin = {}
 			} # end c_kaliskie
 			allow = {
-				OR = {
-					has_landed_title = c_poznanskie
-					any_vassal = { has_landed_title = c_poznanskie }
-				}
+				c_poznanskie = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		} # end d_greater_poland
@@ -9207,10 +9200,7 @@ e_poland = { # Polska-Lietuva
 				b_druskieniki = {}
 			} # end c_yatvyagi
 			allow = {
-				OR = {
-					has_landed_title = c_trakai
-					any_vassal = { has_landed_title = c_trakai }
-				}
+				c_trakai = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		} # end d_trakai
@@ -9253,10 +9243,7 @@ e_poland = { # Polska-Lietuva
 				b_birzai = {}
 			} # end c_upyte
 			allow = {
-				OR = {
-					has_landed_title = c_zhmud
-					any_vassal = { has_landed_title = c_zhmud }
-				}
+				c_zhmud = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		} # end d_samogitia
@@ -10090,16 +10077,8 @@ e_carpathia = { # Magyarország
 				#b_poroszlo = {}
 			}
 			allow = {
-				OR = {
-					AND = {
-						has_landed_title = c_abauj
-						has_landed_title = c_heves
-					}
-					any_vassal = {
-						has_landed_title = c_abauj
-						has_landed_title = c_heves
-					}
-				}
+				c_abauj = { owner_under_ROOT = yes }
+				c_heves = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		} # end d_ujavar
@@ -11003,7 +10982,7 @@ e_arabia = { # Arabian Empire
 			c_alexandria = { # Iskandaríya (802)
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
-				b_alexandria = { pentarchy = yes }
+				b_alexandria = {}
 				b_abukir = {}
 				b_hammam = {}
 				b_marabout = {}
@@ -13839,19 +13818,26 @@ e_britannia = { # Britannia
 			}
 		}
 		allow = {
-			independent = yes
 			OR = {
-				custom_tooltip = {
-					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-					hidden_tooltip = {
-						ai = no # AI creates this title solely via explicit maintenance, so none of this is for them
-						any_realm_province = {
-							count = 22 # there are 43 counties in the current custom_england; this is >50%
-							region = custom_england
+				FROM = { is_de_jure_title = yes }
+				FROM = { has_holder = yes } # usurpation always OK
+				AND = {
+					independent = yes
+					custom_tooltip = {
+						text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+						hidden_tooltip = {
+							# AI creates this title solely via explicit maintenance,
+							# so none of this is for them
+							ai = no
+							any_realm_province = {
+								# there are 43 counties in the current custom_england;
+								# this is >50%
+								count = 22
+								region = custom_england
+							}
 						}
 					}
 				}
-				FROM = { has_holder = yes } # usurpation always OK
 			}
 			title_king_basic_allow = yes
 		}
@@ -15728,10 +15714,7 @@ e_italy = { # Italia
 				color = { 228 229 214 }
 				color2 = { 255 255 255 }
 				christian = 10000 # Crusade target weight
-				b_roma = {
-					pentarchy = yes
-					used_for_dynasty_names = no
-				}
+				b_roma = { used_for_dynasty_names = no }
 				b_castelsantangelo = {}
 				b_astura = {}
 				b_tivoli = {}
@@ -24505,11 +24488,7 @@ e_null = { #
 				muslim = 500 # Crusade target weight
 				b_towerofdavid = {}
 				b_bethlehem = {}
-				b_jerusalem = {
-					pentarchy = orthodox
-					pentarchy = monothelite
-					pentarchy = iconoclast
-				}
+				b_jerusalem = {}
 				b_rammala = {}
 				b_blanchegarde = {}
 				b_saintsamuel = {}
@@ -24838,7 +24817,7 @@ e_null = { #
 			c_antiocheia = { # Antioch (764)
 				color = { 106 191 44 }
 				color2 = { 255 255 255 }
-				b_antiocheia = { pentarchy = yes }
+				b_antiocheia = {}
 				b_stsymeon = {}
 				b_darbsak = {}
 				b_harenc = {}
@@ -28978,7 +28957,7 @@ d_aydin = { # Aydin
 	capital = 746 # Ionía # Ephesos # Tralleis
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29000,7 +28979,7 @@ d_candar = { # Candar
 	capital = 751 # Paphlagonia
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29016,7 +28995,7 @@ d_eretnid = { # Eretna
 	capital = 1218 # Sebasteia # Sebastia
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29040,7 +29019,7 @@ d_germiyan = { # Germiyan
 	capital = 749 # Dorylaion # Kotyaion
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29072,7 +29051,7 @@ d_karaman = { # Qaraman
 	capital = 1219 # Laranda
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29103,7 +29082,7 @@ d_mentese = { # Mentese
 	capital = 1231 # Mylasa
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29120,7 +29099,7 @@ d_karasi = { # Qarasi
 	capital = 1332 # Mysía # Akhyraous
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29144,7 +29123,7 @@ d_osmanli = { # Osmanli
 	capital = 956 # Sangários # Sügüt
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29194,7 +29173,7 @@ d_saruhan = { # Saruhan
 	capital = 745 # Smyrna
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29221,7 +29200,7 @@ d_ahi = { # Ahiler
 	capital = 753 # Ankyra
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29239,7 +29218,7 @@ d_hamid = { # Hamid
 	capital = 754 # Pisidía # Sozopolis
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -29255,7 +29234,7 @@ d_tekke = { # Teke
 	capital = 755 # Attáleia # Attaleia
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes

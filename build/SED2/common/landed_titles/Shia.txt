@@ -30,51 +30,16 @@ d_shiite = { # The Shi'a Imamate # Shia
 			custom_tooltip = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
-					719 = { # Mecca
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					718 = { # Medina
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
+					c_mecca = { owner_under_ROOT = yes }
+					c_medina = { owner_under_ROOT = yes }
 				}
 			}
 			custom_tooltip = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
-					774 = { # Jerusalem
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					728 = { # Damascus
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
-					693 = { # Baghdad
-						owner = {
-							OR = {
-								is_liege_or_above = ROOT
-								character = ROOT
-							}
-						}
-					}
+					c_jerusalem = { owner_under_ROOT = yes }
+					c_damascus = { owner_under_ROOT = yes }
+					c_baghdad = { owner_under_ROOT = yes }
 				}
 			}
 		}
