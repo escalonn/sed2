@@ -28,16 +28,14 @@ d_sunni = { # The Sunni Caliphate
 			custom_tooltip = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
-					719 = { # Mecca
-						owner = {
+					719 = 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
 						}
 					}
-					718 = { # Medina
-						owner = {
+					718 = 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
@@ -49,24 +47,21 @@ d_sunni = { # The Sunni Caliphate
 			custom_tooltip = {
 				text = controls_jerusalem_damascus_baghdad
 				hidden_tooltip = {
-					774 = { # Jerusalem
-						owner = {
+					774 = 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
 						}
 					}
-					728 = { # Damascus
-						owner = {
+					728 = 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
 							}
 						}
 					}
-					693 = { # Baghdad
-						owner = {
+					693 = 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
 								character = ROOT
