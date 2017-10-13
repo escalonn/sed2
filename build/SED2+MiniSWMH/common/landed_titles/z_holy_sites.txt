@@ -1,104 +1,118 @@
 # -*- ck2.landed_titles -*-
 
-c_koln = {
+c_koln = { # Cologne (119) # Köln
 	holy_site = catholic
 	holy_site = lollard
 }
 
-c_karnten = {
+c_karnten = { # Kärnten (456)
 	holy_site = slavic_pagan
 	holy_site = slavic_pagan_reformed
 }
 
-c_abydos = { holy_site = hellenic_pagan }
+c_abydos = { # Troád (744)
+	holy_site = hellenic_pagan
+}
 
-c_byzantion = {
+c_byzantion = { # Konstantinoupolis (496)
 	holy_site = orthodox
 	holy_site = waldensian
 	holy_site = maronite
 	holy_site = bogomilist
 }
 
-c_chalkidike = { holy_site = orthodox }
+c_chalkidike = { # Chalkidike (491)
+	holy_site = orthodox
+}
 
-c_thessalonike = { holy_site = hellenic_pagan }
+c_thessalonike = { # Thessaloníke (490)
+	holy_site = hellenic_pagan
+}
 
-c_atheniai = {
+c_atheniai = { # Attika (482)
 	holy_site = hellenic_pagan
 	holy_site = druze
 }
 
-c_ephesos = { holy_site = orthodox }
+c_ephesos = { # Ionía (746)
+	holy_site = orthodox
+}
 
-c_tephrike = { holy_site = paulician }
+c_tephrike = { # Tephrike (944)
+	holy_site = paulician
+}
 
-c_sis = { holy_site = apostolic }
+c_sis = { # Sision (969)
+	holy_site = apostolic
+}
 
-c_philippopolis = {
+c_philippopolis = { # Plovdiv (493)
 	holy_site = bogomilist
 	holy_site = cathar
 }
 
-c_sjaelland = {
+c_sjaelland = { # Nørræ Syaland (266) # Northern Sjælland
 	holy_site = norse_pagan
 	holy_site = norse_pagan_reformed
 }
 
-c_uppland = {
+c_uppland = { # Tiundaland (290)
 	holy_site = norse_pagan
 	holy_site = norse_pagan_reformed
 }
 
-c_steinkjer = {
+c_steinkjer = { # Innriþrœndalóg (1257)
 	holy_site = pagan
 	holy_site = norse_pagan
 	holy_site = norse_pagan_reformed
 }
 
-c_ryazan = {
+c_ryazan = { # Riazan' (580)
 	holy_site = finnish_pagan
 	holy_site = finnish_pagan_reformed
 }
 
-c_kiev = {
+c_kiev = { # Kiev (547)
 	holy_site = baltic_pagan
 	holy_site = baltic_pagan_reformed
 }
 
-c_vyazma = {
+c_vyazma = { # Viazma (569)
 	holy_site = baltic_pagan
 	holy_site = baltic_pagan_reformed
 }
 
-c_novgorod = {
+c_novgorod = { # Novgorod (414)
 	holy_site = slavic_pagan
 	holy_site = slavic_pagan_reformed
 	holy_site = bogomilist
 }
 
-c_upper_silesia = {
+c_upper_silesia = { # Wroclaw (434)
 	holy_site = slavic_pagan
 	holy_site = slavic_pagan_reformed
 }
 
-c_deltuva = {
+c_deltuva = { # Deltuva (979)
 	holy_site = baltic_pagan
 	holy_site = baltic_pagan_reformed
 }
 
-c_nadruvia = {
+c_nadruvia = { # Nadruvia (1300)
 	holy_site = baltic_pagan
 	holy_site = baltic_pagan_reformed
 }
 
-c_esztergom = {
+c_esztergom = { # Visegrád (444)
 	holy_site = tengri_pagan
 	holy_site = tengri_pagan_reformed
 }
 
-c_vodica = { holy_site = bogomilist }
+c_vodica = { # Vodica (959)
+	holy_site = bogomilist
+}
 
-c_medina = {
+c_medina = { # Madinah (718) # Medina
 	holy_site = sunni
 	holy_site = shiite
 	holy_site = ibadi
@@ -106,7 +120,7 @@ c_medina = {
 	holy_site = zaydi
 }
 
-c_mecca = {
+c_mecca = { # Makkah (719) # Mecca
 	holy_site = sunni
 	holy_site = shiite
 	holy_site = pagan
@@ -116,15 +130,17 @@ c_mecca = {
 	holy_site = zaydi
 }
 
-c_hajar = { holy_site = ibadi }
+c_hajar = { # Nizwa (869) # Hajar
+	holy_site = ibadi
+}
 
-c_dhofar = {
+c_dhofar = { # Zufar (866) # Dhofar
 	holy_site = jewish
 	holy_site = samaritan
 	holy_site = karaite
 }
 
-c_alexandria = {
+c_alexandria = { # Iskandaríya (802)
 	holy_site = syriac
 	holy_site = miaphysite
 	holy_site = monophysite
@@ -136,24 +152,24 @@ c_alexandria = {
 	holy_site = nabawiyya
 }
 
-c_cairo = {
+c_cairo = { # Cairo (796)
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
 	holy_site = druze
 }
 
-c_benghazi = {
+c_benghazi = { # Barqa (808)
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
 }
 
-c_eilat = {
+c_eilat = { # Jabal Katrina (786)
 	holy_site = jewish
 	holy_site = samaritan
 	holy_site = karaite
 }
 
-c_damascus = {
+c_damascus = { # Ghutah (728)
 	holy_site = jewish
 	holy_site = samaritan
 	holy_site = karaite
@@ -162,53 +178,59 @@ c_damascus = {
 	holy_site = zaydi
 }
 
-c_baalbek = { holy_site = druze }
+c_baalbek = { # Bekaa (768)
+	holy_site = druze
+}
 
-c_aksum = {
+c_aksum = { # Aksum (875)
 	holy_site = miaphysite
 	holy_site = monophysite
 }
 
-c_ankober = {
+c_ankober = { # Damot (882) # original c_ankober
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
 }
 
-c_makuria = {
+c_makuria = { # Makouria (793) # Makuria
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
 }
 
-c_dongola = {
+c_dongola = { # Dongola (1230)
 	holy_site = miaphysite
 	holy_site = monophysite
 }
 
-c_sennar = {
+c_sennar = { # Sennar (880)
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
 }
 
-c_kent = {
+c_kent = { # Kent (73)
 	holy_site = catholic
 	holy_site = lollard
 }
 
-c_gloucester = { holy_site = lollard }
+c_gloucester = { # Gloucester (21)
+	holy_site = lollard
+}
 
-c_middlesex = {
+c_middlesex = { # Middlesex (32)
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
 
-c_york = {
+c_york = { # West York Ridding # West ridding / York Vale
 	holy_site = norse_pagan
 	holy_site = norse_pagan_reformed
 }
 
-c_monferrato = { holy_site = waldensian }
+c_monferrato = { # Asti (232)
+	holy_site = waldensian
+}
 
-c_roma = {
+c_roma = { # Roma (333)
 	holy_site = catholic
 	holy_site = hellenic_pagan
 	holy_site = pagan
@@ -216,57 +238,82 @@ c_roma = {
 	holy_site = aztec_reformed
 }
 
-c_ferrara = {
+c_ferrara = { # Rovigo (353)
 	holy_site = waldensian
 	holy_site = cathar
 	holy_site = lollard
 }
 
-c_lyon = {
+c_lyon = { # Lyon (227)
 	holy_site = cathar
 	holy_site = waldensian
 }
 
-c_brugge = {
+c_brugge = { # Brugge (78)
 	holy_site = norse_pagan
 	holy_site = norse_pagan_reformed
 }
 
-c_ile_de_france = {
+c_ile_de_france = { # Paris (112)
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
 
-c_carcassonne = { holy_site = cathar }
+c_carcassonne = { # Carcassona (213)
+	holy_site = cathar
+}
 
-c_santiago = { holy_site = catholic }
+c_santiago = { # Santiago (157)
+	holy_site = catholic
+}
 
-c_cordoba = {
+c_cordoba = { # Cordoba (181)
 	holy_site = sunni
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
 
-c_tunis = { holy_site = nabawiyya }
+c_tunis = { # Tunis (817)
+	holy_site = nabawiyya
+}
 
-c_al_djazair = { holy_site = ibadi }
+c_al_djazair = { # Al-Jazáir (831)
+	holy_site = ibadi
+}
 
-c_marrakech = {
+c_marrakech = { # Marrákush (843)
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
 
-c_massat = { holy_site = nabawiyya }
+c_massat = { # Asfí (844)
+	holy_site = nabawiyya
+}
 
-c_esfahan = {
-	holy_site = zoroastrian
+c_ghana = { # Wagadu (913)
+	holy_site = west_african_pagan
+	holy_site = west_african_pagan_reformed
+}
+
+c_mali = { # Manding (925)
+	holy_site = west_african_pagan
+	holy_site = west_african_pagan_reformed
+}
+
+c_timbuktu = { # Timbuktu (911)
+	holy_site = west_african_pagan
+	holy_site = west_african_pagan_reformed
+}
+
+c_esfahan = { # Isfahan (646)
+	holy_site = zoroastrian # The Great Fire of Adur Farnbag # placeholder_holysite
 	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
 }
 
-c_shiraz = {
+c_shiraz = { # Shiraz (644)
 	holy_site = nabawiyya
 	holy_site = zoroastrian
 	holy_site = mazdaki
@@ -275,20 +322,22 @@ c_shiraz = {
 	holy_site = zun_pagan_reformed
 }
 
-c_yazd = {
-	holy_site = zoroastrian
+c_yazd = { # Yazd (638)
+	holy_site = zoroastrian # Seems to still be a fairly important Zoroastrian centre and it contains several important Holy sites for Zoroastrians
 	holy_site = mazdaki
 }
 
-c_gilan = {
-	holy_site = zoroastrian
+c_gilan = { # Gilan (666)
+	holy_site = zoroastrian # placeholder_holysite
 	holy_site = mazdaki
 }
 
-c_maragheh = { holy_site = yazidi }
+c_maragheh = { # Maragheh (650)
+	holy_site = yazidi # Placeholder
+}
 
-c_nishapur = {
-	holy_site = zoroastrian
+c_nishapur = { # Nishápur (634)
+	holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
 	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = yazidi
@@ -296,24 +345,84 @@ c_nishapur = {
 	holy_site = zun_pagan_reformed
 }
 
-c_samarqand = { holy_site = manichean }
+c_samarqand = { # Samarkand (903)
+	holy_site = manichean
+}
 
-c_al_nadjaf = { holy_site = ismaili }
+c_al_nadjaf = { # Qadisiyyah (692) # Al Nadjaf
+	holy_site = ismaili
+}
 
-c_kufa = {
+c_kufa = { # Al-Kufah (655) # Kufa
 	holy_site = shiite
 	holy_site = zaydi
 }
 
-c_baghdad = {
+c_baghdad = { # Baghdad (693)
 	holy_site = sunni
 	holy_site = nestorian
 	holy_site = manichean
 }
 
-c_varazhnunik = { holy_site = apostolic }
+c_udabhanda = { # Udabhanda (1624)
+	holy_site = buddhist
+}
 
-c_jerusalem = {
+c_mathura = { # Mathura (1664)
+	holy_site = hindu
+}
+
+c_kol = { # Kol (1665)
+	holy_site = buddhist # Sankassa
+}
+
+c_katehar = { # Katehar (1669)
+	holy_site = hindu # Haridwar/Gangadvara
+}
+
+c_sarasvata_mandala = { # Sarasvata Mandala (1629)
+	holy_site = jain
+}
+
+c_dvaraka = { # Dvaraka (1633)
+	holy_site = hindu
+}
+
+c_kutch = { # Kutch (1634)
+	holy_site = jain # Bhadreshwar
+}
+
+c_bhumilka = { # Bhumilka (1635)
+	holy_site = jain
+}
+
+c_godwad = { # Godwad (1644)
+	holy_site = jain
+}
+
+c_ujjayini = { # Ujjayini (1673)
+	holy_site = jain
+	holy_site = hindu
+}
+
+c_vidisa = { # Vidisa (1675)
+	holy_site = buddhist
+}
+
+c_sravasti = { # Sravasti (1689)
+	holy_site = buddhist # as physically close as possible to other Buddhist holy sites to the east
+}
+
+c_ayodhya = { # Ayodhya (1690)
+	holy_site = hindu
+	holy_site = buddhist # placeholder
+}
+
+c_varazhnunik = { # Varazhnunik (1531)
+	holy_site = apostolic
+}
+
+c_jerusalem = { # Jérusalem (774)
 	holy_site = catholic
 	holy_site = orthodox
 	holy_site = sunni
@@ -340,12 +449,12 @@ c_jerusalem = {
 	holy_site = nabawiyya
 }
 
-c_beirut = {
+c_beirut = { # Beirut (770)
 	holy_site = maronite
 	holy_site = druze
 }
 
-c_antiocheia = {
+c_antiocheia = { # Antioch (764)
 	holy_site = syriac
 	holy_site = orthodox
 	holy_site = miaphysite
@@ -357,41 +466,45 @@ c_antiocheia = {
 	holy_site = druze
 }
 
-c_amida = { holy_site = syriac }
+c_amida = { # Amida (683)
+	holy_site = syriac
+}
 
-c_mardin = {
+c_mardin = { # Mardin (1239)
 	holy_site = syriac
 	holy_site = nestorian
 }
 
-c_nineveh = { holy_site = yazidi }
+c_nineveh = { # Ninawa (685)
+	holy_site = yazidi
+}
 
-c_mecklemburg = {
+c_mecklemburg = { # Mecklenburg (260)
 	holy_site = slavic_pagan
 	holy_site = slavic_pagan_reformed
 }
 
-c_rugen = {
+c_rugen = { # Rügen (304)
 	holy_site = slavic_pagan
 	holy_site = slavic_pagan_reformed
 }
 
-c_jeriska = {
+c_jeriska = { # Jersika (963)
 	holy_site = baltic_pagan
 	holy_site = baltic_pagan_reformed
 }
 
-c_osel = {
+c_osel = { # Osilia (376)
 	holy_site = finnish_pagan
 	holy_site = finnish_pagan_reformed
 }
 
-c_crimea = {
+c_crimea = { # Qirim (559)
 	holy_site = tengri_pagan
 	holy_site = tengri_pagan_reformed
 }
 
-c_itil = {
+c_itil = { # Itil (620)
 	holy_site = pagan
 	holy_site = jewish
 	holy_site = samaritan
@@ -400,39 +513,51 @@ c_itil = {
 	holy_site = tengri_pagan_reformed
 }
 
-c_kabul = {
+c_kabul = { # Kábul (1550)
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
 }
 
-c_zamindavar = {
+c_zamindavar = { # Zamindavar (852)
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
 }
 
-c_jand = {
+c_jand = { # Jand (900)
 	holy_site = tengri_pagan
 	holy_site = tengri_pagan_reformed
 }
 
-c_barskhan = {
+c_barskhan = { # Barskhan (1577)
 	holy_site = tengri_pagan
 	holy_site = tengri_pagan_reformed
 }
 
-c_viipuri = {
+c_viipuri = { # Viipuri (1296)
 	holy_site = finnish_pagan
 	holy_site = finnish_pagan_reformed
 }
 
-c_perm = {
+c_perm = { # Viser (886) # Višera
 	holy_site = finnish_pagan
 	holy_site = finnish_pagan_reformed
 }
 
-c_hlynov = {
+c_hlynov = { # Vice (401) # Vyatka
 	holy_site = finnish_pagan
 	holy_site = finnish_pagan_reformed
 }
 
-c_absheron = { holy_site = paulician }
+c_absheron = { # Abšaran (668)
+	holy_site = paulician
+}
+
+c_tuat = { # Tuat (1396)
+	holy_site = west_african_pagan
+	holy_site = west_african_pagan_reformed
+}
+
+c_zamfara = { # Zamfara (1323)
+	holy_site = west_african_pagan
+	holy_site = west_african_pagan_reformed
+}
