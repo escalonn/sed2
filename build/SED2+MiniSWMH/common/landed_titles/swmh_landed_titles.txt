@@ -1,6 +1,6 @@
 # -*- ck2.landed_titles -*-
 
-d_knights_templar = {
+d_knights_templar_error = {
 	color = { 230 230 230 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
@@ -12,9 +12,6 @@ d_knights_templar = {
 	religion = catholic
 	primary = yes
 	monthly_income = 10
-	title = GRANDMASTER
-	title_female = GRANDMASTER
-	foa = GRANDMASTER_FOA
 }
 
 d_teutonic_order = {

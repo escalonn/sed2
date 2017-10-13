@@ -1,7 +1,7 @@
 # -*- ck2.landed_titles -*-
 
 # HOLY ORDERS
-d_knights_templar = { # Knights Templar
+d_knights_templar_error = { # Knights Templar
 	color = { 230 230 230 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
@@ -17,9 +17,6 @@ d_knights_templar = { # Knights Templar
 	primary = yes
 	# Extra income due to banking, etc
 	monthly_income = 10 # (Must be an integer between 1 and 512)
-	title = GRANDMASTER
-	title_female = GRANDMASTER
-	foa = GRANDMASTER_FOA
 }
 
 d_teutonic_order = { # Teutonic Order
