@@ -368,7 +368,8 @@ k_duklja = { # Duklja
 	culture = serbian
 	capital = 469 # Crna Gora # Zeta
 	allow = {
-		k_serbia = 			has_holder = no
+		k_serbia = { # Srbija
+			has_holder = no
 		}
 		title_king_basic_allow = yes
 	}

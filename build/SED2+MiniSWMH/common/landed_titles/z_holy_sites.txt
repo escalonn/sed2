@@ -19,6 +19,12 @@ c_byzantion = {
 	holy_site = bogomilist
 }
 
+b_hagiasophia = {
+	pentarchy = orthodox
+	pentarchy = monothelite
+	pentarchy = iconoclast
+}
+
 c_chalkidike = { holy_site = orthodox }
 
 c_thessalonike = { holy_site = hellenic_pagan }
@@ -136,6 +142,8 @@ c_alexandria = {
 	holy_site = nabawiyya
 }
 
+b_alexandria = { pentarchy = yes }
+
 c_cairo = {
 	holy_site = east_african_pagan
 	holy_site = east_african_pagan_reformed
@@ -215,6 +223,8 @@ c_roma = {
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
+
+b_roma = { pentarchy = yes }
 
 c_ferrara = {
 	holy_site = waldensian
@@ -340,6 +350,12 @@ c_jerusalem = {
 	holy_site = nabawiyya
 }
 
+b_jerusalem = {
+	pentarchy = orthodox
+	pentarchy = monothelite
+	pentarchy = iconoclast
+}
+
 c_beirut = {
 	holy_site = maronite
 	holy_site = druze
@@ -356,6 +372,8 @@ c_antiocheia = {
 	holy_site = maronite
 	holy_site = druze
 }
+
+b_antiocheia = { pentarchy = yes }
 
 c_amida = { holy_site = syriac }
 

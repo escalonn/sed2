@@ -3839,11 +3839,7 @@ e_byzantium = {
 				bosnian = "Tsargrad"
 				bulgarian = "Tsargrad"
 				b_constantinople = {}
-				b_hagiasophia = {
-					pentarchy = orthodox
-					pentarchy = monothelite
-					pentarchy = iconoclast
-				}
+				b_hagiasophia = {}
 				b_galata = {}
 				b_blachernae = {}
 				b_phanarion = {}
@@ -9943,7 +9939,7 @@ e_arabia = {
 			c_alexandria = {
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
-				b_alexandria = { pentarchy = yes }
+				b_alexandria = {}
 				b_abukir = {}
 				b_hammam = {}
 				b_marabout = {}
@@ -13814,10 +13810,7 @@ e_italy = {
 				color = { 228 229 214 }
 				color2 = { 255 255 255 }
 				christian = 10000
-				b_roma = {
-					pentarchy = yes
-					used_for_dynasty_names = no
-				}
+				b_roma = { used_for_dynasty_names = no }
 				b_castelsantangelo = {}
 				b_astura = {}
 				b_tivoli = {}
@@ -19994,11 +19987,7 @@ e_null = {
 				muslim = 500
 				b_towerofdavid = {}
 				b_bethlehem = {}
-				b_jerusalem = {
-					pentarchy = orthodox
-					pentarchy = monothelite
-					pentarchy = iconoclast
-				}
+				b_jerusalem = {}
 				b_rammala = {}
 				b_blanchegarde = {}
 				b_saintsamuel = {}
@@ -20322,7 +20311,7 @@ e_null = {
 			c_antiocheia = {
 				color = { 106 191 44 }
 				color2 = { 255 255 255 }
-				b_antiocheia = { pentarchy = yes }
+				b_antiocheia = {}
 				b_stsymeon = {}
 				b_darbsak = {}
 				b_harenc = {}
