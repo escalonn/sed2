@@ -204,6 +204,7 @@ c_brussel                       ;frankish           ;        ;Bruxelles
 c_breda                         ;german             ;        ;Antorf
 c_breda                         ;dutch              ;        ;Antwerpen
 c_breda                         ;frankish           ;        ;Anvers
+c_loon                          ;frankish           ;        ;Looz
 d_hainaut                       ;name_tier          ;count   ;count
 d_hainaut                       ;german             ;        ;Hennegau
 d_hainaut                       ;dutch              ;        ;Henegouwen
@@ -213,7 +214,6 @@ c_valenciennes                  ;dutch              ;        ;Valencijn
 c_cambrai                       ;german             ;        ;Kamerich
 c_cambrai                       ;dutch              ;        ;Kamerijk
 d_limburg                       ;frankish           ;Limbourg;Limbourg
-c_loon                          ;frankish           ;        ;Looz
 c_liege                         ;german             ;        ;Lüttich
 c_liege                         ;dutch              ;        ;Luik
 c_liege                         ;frankish           ;        ;Liége
@@ -344,6 +344,10 @@ d_oberbayern                    ;greek              ;Raetia Prima;Rhaitia Prima
 d_oberbayern                    ;roman              ;Raetia Prima;Rhaetia Prima
 c_salzburg                      ;greek              ;Iuvavum ;Iuvavum
 c_salzburg                      ;roman              ;Iuvavum ;Iuvavum
+d_nordgau                       ;title              ;MARGRAVE;MARGRAVE
+d_nordgau                       ;title_female       ;MARGRAVINE;MARGRAVINE
+d_nordgau                       ;foa                ;MARGRAVE_FOA;MARGRAVE_FOA
+d_nordgau                       ;title_prefix       ;MARGRAVE_OF;MARGRAVE_OF
 c_leuchtenberg                  ;title              ;LANDGRAVE;LANDGRAVE
 c_leuchtenberg                  ;title_female       ;LANDGRAVINE;LANDGRAVINE
 c_leuchtenberg                  ;foa                ;LANDGRAVE_FOA;LANDGRAVE_FOA
@@ -2487,12 +2491,12 @@ c_naissus                       ;roman              ;        ;Naissus
 k_serbia                        ;greek              ;        ;Serblías
 k_serbia                        ;east_gothic        ;        ;Serblías
 k_serbia                        ;roman              ;Moesia Superior;Moesia Prima
-d_rashka                        ;greek              ;        ;Rascia
-d_rashka                        ;east_gothic        ;        ;Rascia
+d_rashka                        ;greek              ;Rascia  ;Rascia
+d_rashka                        ;east_gothic        ;Rascia  ;Rascia
 d_rashka                        ;arberian           ;        ;Rashkës
 d_rashka                        ;roman              ;Moesia Superior;Moesia Prima
-c_rashka                        ;greek              ;        ;Rascia
-c_rashka                        ;east_gothic        ;        ;Rascia
+c_rashka                        ;greek              ;Rascia  ;Rascia
+c_rashka                        ;east_gothic        ;Rascia  ;Rascia
 c_rashka                        ;arberian           ;        ;Rashkës
 c_prizren                       ;greek              ;Prizren ;Petrizen
 c_prizren                       ;east_gothic        ;Prizren ;Petrizen
@@ -2568,14 +2572,14 @@ d_dioclea                       ;turkish            ;Shkodër ;Iskodra
 d_dioclea                       ;turkmen            ;Shkodër ;Iskodra
 d_dioclea                       ;oghuz              ;Shkodër ;Iskodra
 d_dioclea                       ;pecheneg           ;Shkodër ;Iskodra
-d_dioclea                       ;roman              ;Duklja  ;Dioclea
-c_zeta                          ;greek              ;Duklja  ;Diokleia
-c_zeta                          ;east_gothic        ;Duklja  ;Diokleia
-c_zeta                          ;turkish            ;        ;Karadag
-c_zeta                          ;turkmen            ;        ;Karadag
-c_zeta                          ;oghuz              ;        ;Karadag
-c_zeta                          ;pecheneg           ;        ;Karadag
-c_zeta                          ;roman              ;Duklja  ;Dioclea
+d_dioclea                       ;roman              ;Dioclea ;Dioclea
+c_zeta                          ;greek              ;        ;Diokleia
+c_zeta                          ;east_gothic        ;        ;Diokleia
+c_zeta                          ;turkish            ;Montenegro;Karadag
+c_zeta                          ;turkmen            ;Montenegro;Karadag
+c_zeta                          ;oghuz              ;Montenegro;Karadag
+c_zeta                          ;pecheneg           ;Montenegro;Karadag
+c_zeta                          ;roman              ;Dioclea ;Dioclea
 c_primorje                      ;greek              ;Kotor   ;Askrivion
 c_primorje                      ;east_gothic        ;Kotor   ;Askrivion
 c_primorje                      ;turkish            ;Kotor   ;Kotur
@@ -10365,7 +10369,7 @@ k_khazaria                      ;maghreb_arabic     ;        ;Khazarstan
 k_khazaria                      ;levantine_arabic   ;        ;Khazarstan
 k_khazaria                      ;egyptian_arabic    ;        ;Khazarstan
 k_khazaria                      ;sicilian_arabic    ;        ;Khazarstan
-k_khazaria                      ;russian            ;        ;Kozarye
+k_khazaria                      ;russian            ;        ;Kozariya
 k_khazaria                      ;pommeranian        ;        ;Kozaria
 k_khazaria                      ;polish             ;        ;Kozariaia
 k_khazaria                      ;bohemian           ;        ;Chazarsko
@@ -10403,7 +10407,6 @@ k_khazaria                      ;langobardisch      ;Gazaria ;Cassaria
 k_khazaria                      ;italian            ;Gazaria ;Cassaria
 k_khazaria                      ;venetian           ;Gazaria ;Cassaria
 k_khazaria                      ;dalmatian          ;Gazaria ;Cassaria
-k_khazaria                      ;khitan             ;        ;Ho-sastan
 d_itil                          ;swedish            ;Volga   ;Atel
 d_itil                          ;norwegian          ;Volga   ;Atel
 d_itil                          ;danish             ;Volga   ;Atel
@@ -11207,6 +11210,7 @@ d_khottal                       ;pahlavi            ;Kushanshahr;Kushanshahr
 k_sistan                        ;pahlavi            ;Sakastan;Sakastan
 d_sistan                        ;pahlavi            ;Sakastan;Sakastan
 c_farah                         ;greek              ;Prophthasia;Prophthasia
+c_farah                         ;assyrian           ;Aprah   ;Aprah
 c_farah                         ;pahlavi            ;        ;Phra
 c_farah                         ;roman              ;Prophthasia;Prophthasia
 c_zamindavar                    ;pahlavi            ;        ;Zamin-i-datbar
@@ -11262,6 +11266,32 @@ c_kashgar                       ;kirghiz            ;        ;Ordukänd
 c_kashgar                       ;uyghur             ;        ;Ordukänd
 c_kashgar                       ;bashkir            ;        ;Ordukänd
 c_yarkand                       ;khotanese          ;        ;Saka
+d_khotan                        ;turkish            ;        ;Udun
+d_khotan                        ;turkmen            ;        ;Udun
+d_khotan                        ;oghuz              ;        ;Udun
+d_khotan                        ;cuman              ;        ;Udun
+d_khotan                        ;pecheneg           ;        ;Udun
+d_khotan                        ;khazar             ;        ;Udun
+d_khotan                        ;bolghar            ;        ;Udun
+d_khotan                        ;avar               ;        ;Udun
+d_khotan                        ;karluk             ;        ;Udun
+d_khotan                        ;kirghiz            ;        ;Udun
+d_khotan                        ;uyghur             ;        ;Udun
+d_khotan                        ;bashkir            ;        ;Udun
+d_khotan                        ;khotanese          ;        ;Hvam
+c_khotan                        ;turkish            ;        ;Udun
+c_khotan                        ;turkmen            ;        ;Udun
+c_khotan                        ;oghuz              ;        ;Udun
+c_khotan                        ;cuman              ;        ;Udun
+c_khotan                        ;pecheneg           ;        ;Udun
+c_khotan                        ;khazar             ;        ;Udun
+c_khotan                        ;bolghar            ;        ;Udun
+c_khotan                        ;avar               ;        ;Udun
+c_khotan                        ;karluk             ;        ;Udun
+c_khotan                        ;kirghiz            ;        ;Udun
+c_khotan                        ;uyghur             ;        ;Udun
+c_khotan                        ;bashkir            ;        ;Udun
+c_khotan                        ;khotanese          ;        ;Hvam
 d_kucha                         ;turkish            ;        ;Küsän
 d_kucha                         ;turkmen            ;        ;Küsän
 d_kucha                         ;oghuz              ;        ;Küsän
@@ -11290,32 +11320,6 @@ c_kucha                         ;uyghur             ;        ;Küsän
 c_kucha                         ;bashkir            ;        ;Küsän
 c_kucha                         ;khotanese          ;        ;Kuchi
 c_qarashahr                     ;khotanese          ;        ;Agnidesha
-d_khotan                        ;turkish            ;        ;Udun
-d_khotan                        ;turkmen            ;        ;Udun
-d_khotan                        ;oghuz              ;        ;Udun
-d_khotan                        ;cuman              ;        ;Udun
-d_khotan                        ;pecheneg           ;        ;Udun
-d_khotan                        ;khazar             ;        ;Udun
-d_khotan                        ;bolghar            ;        ;Udun
-d_khotan                        ;avar               ;        ;Udun
-d_khotan                        ;karluk             ;        ;Udun
-d_khotan                        ;kirghiz            ;        ;Udun
-d_khotan                        ;uyghur             ;        ;Udun
-d_khotan                        ;bashkir            ;        ;Udun
-d_khotan                        ;khotanese          ;        ;Hvam
-c_khotan                        ;turkish            ;        ;Udun
-c_khotan                        ;turkmen            ;        ;Udun
-c_khotan                        ;oghuz              ;        ;Udun
-c_khotan                        ;cuman              ;        ;Udun
-c_khotan                        ;pecheneg           ;        ;Udun
-c_khotan                        ;khazar             ;        ;Udun
-c_khotan                        ;bolghar            ;        ;Udun
-c_khotan                        ;avar               ;        ;Udun
-c_khotan                        ;karluk             ;        ;Udun
-c_khotan                        ;kirghiz            ;        ;Udun
-c_khotan                        ;uyghur             ;        ;Udun
-c_khotan                        ;bashkir            ;        ;Udun
-c_khotan                        ;khotanese          ;        ;Hvam
 k_volga_bulgaria                ;russian            ;Volga   ;Povolzhye
 k_volga_bulgaria                ;pommeranian        ;        ;Bulgar
 k_volga_bulgaria                ;polish             ;        ;Bulgar

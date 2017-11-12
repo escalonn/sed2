@@ -105,12 +105,7 @@ e_khitan = { # Huldji Qidai Gur # Kara Khitai
 	color = { 130 10 50 }
 	capital = 1572 # Balasaghun
 	allow = {
-		FROM = {
-			OR = {
-				has_holder = yes
-				is_de_jure_title = yes
-			}
-		}
+		FROM = { is_de_jure_title = yes }
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
@@ -190,7 +185,10 @@ e_kaleva = { # Kalevala
 	color = { 144 157 181 }
 	capital = 381 # Nyland
 	allow = {
-		culture_group = finno_ugric
+		OR = {
+			culture_group = finno_ugric
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = k_finland
 		has_landed_title = k_terra
 		title_emperor_basic_allow = yes
@@ -202,15 +200,11 @@ k_geats = { # Gautaríki
 	capital = 293 # Östergötland # Ostrogothia
 	allow = {
 		independent = yes
+		d_vastergotland = { owner_under_ROOT = yes }
+		d_ostergotland = { owner_under_ROOT = yes }
 		OR = {
+			lower_real_tier_than = KING
 			AND = {
-				has_landed_title = d_vastergotland
-				has_landed_title = d_ostergotland
-				lower_real_tier_than = king
-			}
-			AND = {
-				d_vastergotland = { owner_under_ROOT = yes }
-				d_ostergotland = { owner_under_ROOT = yes }
 				OR = {
 					has_landed_title = k_denmark
 					has_landed_title = k_sweden
@@ -229,12 +223,7 @@ e_germany = { # Germania
 	capital = 121 # Nassau
 	culture = german
 	allow = {
-		FROM = {
-			OR = {
-				has_holder = yes
-				is_de_jure_title = yes
-			}
-		}
+		FROM = { is_de_jure_title = yes }
 		title_emperor_basic_allow = yes
 	}
 }
@@ -277,7 +266,10 @@ k_salerno = { # Principato di Salerno
 				culture = langobardisch
 			}
 		}
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = d_salerno
 		title_king_basic_allow = yes
 	}
@@ -366,7 +358,10 @@ k_austria = { # Österreich
 				culture_group = central_germanic
 			}
 		}
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = d_osterreich
 		has_landed_title = d_carinthia
 		title_king_basic_allow = yes
@@ -386,7 +381,7 @@ d_smaland = { # Småland
 			has_landed_title = c_tjust
 			has_landed_title = c_finnveden
 		}
-		lower_tier_than = king
+		lower_tier_than = KING
 		title_duke_basic_allow = yes
 	}
 }
@@ -399,10 +394,15 @@ e_occitania = { # Occitània
 	dignity = 100 # Counted as having 100 more counties than it does
 	allow = {
 		OR = {
-			culture = occitan
-			culture = catalan
+			AND = {
+				OR = {
+					culture = occitan
+					culture = catalan
+				}
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
 		}
-		religion_group = christian
 		title_emperor_basic_allow = yes
 	}
 }
@@ -416,13 +416,16 @@ k_flanders = { # Vlaanderen
 	allow = {
 		has_landed_title = d_flanders
 		OR = {
-			has_landed_title = c_brugge
-			has_landed_title = c_gent
-			has_landed_title = c_yperen
-			has_landed_title = c_lille
-			has_landed_title = c_tournai
+			c_brugge = { owner_under_ROOT = yes }
+			c_gent = { owner_under_ROOT = yes }
+			c_yperen = { owner_under_ROOT = yes }
+			c_lille = { owner_under_ROOT = yes }
+			c_tournai = { owner_under_ROOT = yes }
 		}
-		lower_tier_than = king
+		OR = {
+			lower_tier_than = KING
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 }
@@ -483,7 +486,10 @@ k_armenia_minor = { # Mikrá Armenia
 				culture = armenian
 			}
 		}
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 }
@@ -548,7 +554,10 @@ e_chagatai = { # Chagatai
 	capital = 1571 # Yulduz # Almaliq
 	culture = mongol
 	religion = tengri_pagan
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
 }
 
 d_tiflis = { # Tiflis
@@ -565,8 +574,13 @@ k_vaspurakan = { # Vaspurakan
 	culture = armenian
 	capital = 682 # Vaspurakan
 	allow = {
-		culture = armenian
-		religion_group = christian
+		OR = {
+			AND = {
+				culture = armenian
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 }
@@ -619,11 +633,16 @@ k_abkhazia = { # Apkhazeti
 	capital = 601 # Imereti # Imeretia
 	allow = {
 		OR = {
-			culture = greek
-			culture = armenian
-			culture = georgian
+			AND = {
+				OR = {
+					culture = greek
+					culture = armenian
+					culture = georgian
+				}
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
 		}
-		religion_group = christian
 		title_king_basic_allow = yes
 	}
 	title = MEPE
@@ -636,8 +655,13 @@ k_imereti = { # Imereti
 	color = { 99 175 4 }
 	capital = 601 # Imereti # Imeretia
 	allow = {
-		culture = georgian
-		religion_group = christian
+		OR = {
+			AND = {
+				culture = georgian
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 	title = MEPE
@@ -650,8 +674,13 @@ k_kakheti = { # Kakheti
 	color = { 194 110 67 }
 	capital = 676 # Kakheti
 	allow = {
-		culture = georgian
-		religion_group = christian
+		OR = {
+			AND = {
+				culture = georgian
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 	title = MEPE
@@ -665,11 +694,16 @@ k_iberia = { # Kartli
 	capital = 679 # Kartli
 	allow = {
 		OR = {
-			culture = greek
-			culture = armenian
-			culture = georgian
+			AND = {
+				OR = {
+					culture = greek
+					culture = armenian
+					culture = georgian
+				}
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
 		}
-		religion_group = christian
 		title_king_basic_allow = yes
 	}
 	title = MEPE
@@ -756,16 +790,6 @@ e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
 	capital = 441 # Brno # Boruy
 	allow = {
-		OR = {
-			religion_group = christian
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-		}
-		OR = {
-			culture_group = west_slavic
-			culture = karantanci
-			culture = croatian
-		}
 		has_landed_title = k_moravia
 		OR = {
 			has_landed_title = k_poland
@@ -773,12 +797,7 @@ e_wendish_empire = { # Wendish Empire
 			has_landed_title = k_bohemia
 			has_landed_title = k_hungary
 		}
-		FROM = {
-			OR = {
-				has_holder = yes
-				is_de_jure_title = yes
-			}
-		}
+		FROM = { is_de_jure_title = yes }
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes

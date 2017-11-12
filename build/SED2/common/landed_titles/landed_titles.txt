@@ -110,7 +110,10 @@ e_golden_horde = { # Golden Horde
 	landless = yes
 	culture = mongol
 	religion = tengri_pagan
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
 	short_name = yes
 }
 
@@ -121,7 +124,10 @@ e_il-khanate = { # Ilkhanate
 	landless = yes
 	culture = mongol
 	religion = tengri_pagan
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
 	short_name = yes
 }
 
@@ -133,7 +139,10 @@ e_mongol_empire = { # Yeke Mongol Ulus
 	landless = yes
 	culture = mongol
 	religion = tengri_pagan
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
 	short_name = yes
 }
 
@@ -144,7 +153,10 @@ e_timurids = { # Timurids
 	# landless = yes
 	culture = mongol
 	religion = sunni
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
 }
 
 # SoA head of religion
