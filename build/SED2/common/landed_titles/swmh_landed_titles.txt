@@ -26668,11 +26668,24 @@ e_null = { #
 				color2 = { 255 255 255 }
 				b_ghazna = {}
 				b_gardiz = {}
-				b_bamiyan = {}
 				b_nawabad = {}
-				b_sukawand = {}
 				b_arus-al-falak = {}
+				b_nay = {}
 			}
+			c_bamiyan = { # Bamiyan (1969)
+				color = { 30 185 165 }
+				color2 = { 15 140 198 }
+				b_bamiyan = {}
+				b_sukawand = {}
+				b_basghurfand = {}
+				b_lakhrab = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_kabul = { # Kábul
+			color = { 30 165 75 }
+			color2 = { 255 255 255 }
+			capital = 1550 # Kábul
 			c_kabul = { # Kábul (1550)
 				color = { 10 225 165 }
 				color2 = { 255 255 255 }
