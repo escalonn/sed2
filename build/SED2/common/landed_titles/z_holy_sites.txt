@@ -380,13 +380,14 @@ c_udabhanda = { # Udabhanda (1624)
 
 c_mathura = { # Mathura (1664)
 	holy_site = hindu
+	holy_site = buddhist
 }
 
 c_kol = { # Kol (1665)
 	holy_site = buddhist # Sankassa
 }
 
-c_katehar = { # Katehar (1669)
+c_garhwal = { # Garhwal (1980)
 	holy_site = hindu # Haridwar/Gangadvara
 }
 
@@ -411,7 +412,6 @@ c_godwad = { # Godwad (1644)
 }
 
 c_ujjayini = { # Ujjayini (1673)
-	holy_site = jain
 	holy_site = hindu
 }
 
@@ -421,11 +421,6 @@ c_vidisa = { # Vidisa (1675)
 
 c_sravasti = { # Sravasti (1689)
 	holy_site = buddhist # as physically close as possible to other Buddhist holy sites to the east
-}
-
-c_ayodhya = { # Ayodhya (1690)
-	holy_site = hindu
-	holy_site = buddhist # placeholder
 }
 
 c_varazhnunik = { # Varazhnunik (1531)
@@ -531,9 +526,10 @@ c_itil = { # Itil (620)
 	holy_site = tengri_pagan_reformed
 }
 
-c_kabul = { # Kábul (1550)
+c_ghazna = { # Ghazna (1547)
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
+	holy_site = bon # placeholder
 }
 
 c_zamindavar = { # Zamindavar (852)
@@ -578,4 +574,39 @@ c_tuat = { # Tuat (1396)
 c_zamfara = { # Zamfara (1323)
 	holy_site = west_african_pagan
 	holy_site = west_african_pagan_reformed
+}
+
+c_kashgar = { # Kashgar (1567)
+	holy_site = taoist # one of the four main bases of the Anxi Protectorate
+}
+
+c_kucha = { # Kashgar (1569)
+	holy_site = taoist # one of the four main bases of the Anxi Protectorate
+}
+
+c_balasaghun = { # Balasaghun (1572)
+	holy_site = taoist # one of the four main bases of the Anxi Protectorate (transferred from Qarashahr)
+}
+
+c_khotan = { # Khotan (1580)
+	holy_site = taoist # one of the four main bases of the Anxi Protectorate
+}
+
+c_badakhshan = { # Badakhshan (1553)
+	holy_site = bon # placeholder
+}
+
+c_gilgit = { # Gilgit (1975)
+	holy_site = bon
+}
+
+c_purang = { # Purang (1985)
+	holy_site = hindu # Mount Kailash
+	holy_site = jain
+	holy_site = bon
+}
+
+c_kunlun = { # Kunlun (1989)
+	holy_site = taoist # shares the same name as a mythical mountain in Chinese/Taoist mythology
+	holy_site = bon # placeholder
 }

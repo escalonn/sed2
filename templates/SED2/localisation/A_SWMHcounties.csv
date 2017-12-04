@@ -282,8 +282,38 @@ c_magdeburg_adj                       ;        ;Magdeburg;;
 c_prignitz_adj                        ;        ;Prignitz;;
 #Lebus;;;;
 c_neumark_adj                         ;        ;Neumark;;
-c_lubusz_adj                          ;Sternberg;Sternberg;;Lubuszian
+c_neumark_adj_polish                  ;Cedynia ;Cedynia;;
+c_neumark_adj_bohemian                ;Cedynia ;Cedyne;;
+c_neumark_adj_moravian                ;Cedynia ;Cedyne;;
+c_neumark_adj_pommeranian             ;Cedynia ;Cediniô;;
+c_neumark_adj_croatian                ;Cedynia ;Cedynia;;
+c_neumark_adj_bosnian                 ;Cedynia ;Cedynia;;
+c_neumark_adj_serbian                 ;Cedynia ;Cedynia;;
+c_neumark_adj_karantanci              ;Cedynia ;Cedynia;;
+c_neumark_adj_bulgarian               ;Cedynia ;Cedynia;;
+c_neumark_adj_russian                 ;Cedynia ;Cedynye;;
+c_lubusz_adj                          ;Küstrin ;Küstrin;;Lubuszian
+c_lubusz_adj_polish                   ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_bohemian                 ;Kostrzyn;Kostrzín;;
+c_lubusz_adj_moravian                 ;Kostrzyn;Kostrzín;;
+c_lubusz_adj_pommeranian              ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_croatian                 ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_bosnian                  ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_serbian                  ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_karantanci               ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_bulgarian                ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_russian                  ;Kostrzyn;Cozsterine;;
 c_santok_adj                          ;        ;Zantoch;;
+c_santok_adj_polish                   ;        ;Santok;;
+c_santok_adj_bohemian                 ;        ;Santok;;
+c_santok_adj_moravian                 ;        ;Santok;;
+c_santok_adj_pommeranian              ;        ;Santok;;
+c_santok_adj_croatian                 ;        ;Santok;;
+c_santok_adj_bosnian                  ;        ;Santok;;
+c_santok_adj_serbian                  ;        ;Santok;;
+c_santok_adj_karantanci               ;        ;Santok;;
+c_santok_adj_bulgarian                ;        ;Santok;;
+c_santok_adj_russian                  ;        ;Santok;;
 ######;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
 #Palatine de Burgund;;;;
@@ -298,7 +328,7 @@ c_neuchatel_adj                       ;Neuchâtel;Neuchâtel;;Neuchatelian
 c_basel_adj                           ;        ;Basel;;
 c_vaud_adj                            ;        ;Vaud;;
 #Savoie;;;;
-c_savoie_adj                          ;Maurienne;Maurienne;;Savoian
+c_savoie_adj                          ;Savoyard;Savoie;;Savoian
 c_geneve_adj                          ;Genevan ;Geneve;;Genevan
 c_chablais_adj                        ;        ;Chablais;;
 c_valais_adj                          ;Valais  ;Valais;;Valaisian
@@ -632,11 +662,11 @@ c_trapani_adj                         ;Aderno  ;Aderno;;Trapanian
 c_malta_adj                           ;Maltese ;Malta;;Maltese
 c_aprutium_adj                        ;Abruzzese;Aprutio;;Aprutian
 c_venezia_adj                         ;Venetian;Venezia;;Venezian
-c_cinarca_adj                         ;        ;Cinarca;;
+c_cinarca_adj                         ;Cinarca ;Cinarca;;Cinarcan
 c_ceccano_adj                         ;        ;Ceccano;;
 c_rogliano_adj                        ;        ;Rogliano;;
 c_logudoro_adj                        ;Logudorese;Logudoro;;
-c_gallura_adj                         ;Gallurese;Gallura;;
+c_gallura_adj                         ;Gallurese;Gallura;;Gallurese
 c_arborea_adj                         ;Arborean;Arborea;;Arborean
 c_cagliari_adj                        ;Cagliaritan;Cagliari;;Cagliarian
 c_ferrara_adj                         ;Rovigo  ;Rovigo;;Ferrarian
@@ -2062,7 +2092,7 @@ c_harran_adj                          ;        ;Harranan;;
 c_harran_adj_greek                    ;        ;Karraian;;
 c_nineveh_adj                         ;        ;Ninawan;;
 c_nineveh_adj_assyrian                ;        ;Hadyaban;;
-c_al_jazira_adj                       ;Cizre   ;Jazírat ibn 'Umaran;;Al Jaziran
+c_al_jazira_adj                       ;Cizre   ;Jazírat ibn 'Umaran;;Hasakahn
 c_al_jazira_adj_assyrian              ;        ;Gziran;;
 c_al_jazira_adj_oghuz                 ;        ;Cizran;;
 c_al_jazira_adj_turkmen               ;        ;Cizran;;
@@ -2079,7 +2109,7 @@ c_bira_adj_turkmen                    ;        ;Nusaybinan;;
 c_bira_adj_turkish                    ;        ;Nusaybinan;;
 c_bira_adj_armenian                   ;        ;Mtsbinan;;
 c_bira_adj_greek                      ;        ;Nisibinan;;
-c_shahrazur_adj                       ;        ;Shahrazuri;;
+c_shahrazur_adj                       ;Shahrizor;Shahrazuri;;Shahrazurian
 c_shahrazur_adj_oghuz                 ;        ;Šehr-i Zori;;
 c_shahrazur_adj_turkmen               ;        ;Šehr-i Zori;;
 c_shahrazur_adj_turkish               ;        ;Šehr-i Zori;;
@@ -3132,7 +3162,7 @@ c_gojjam_adj                          ;Gojjam  ;Gojjami;;Gojjam
 d_timbuktu_adj                        ;        ;Timbuktu;;
 #Persia,,,,,,,,,,,,,,;;;;
 c_khwarizm_adj                        ;        ;Khwarizmi;;
-c_sistan_adj                          ;        ;Sístání;;
+c_sistan_adj                          ;Sistan  ;Sístání;;Jabal Qufian
 c_jask_adj                            ;        ;Jaski;;
 c_baluchistan_adj                     ;        ;Baluchi;;
 c_khiva_adj                           ;Khivan  ;Khivan;;Khivan
@@ -5022,3 +5052,14 @@ c_szekelyfold_adj_romanian            ;Turda   ;Turdan;;
 c_szekelyfold_adj_german              ;Turda   ;Thorenburgish;;
 #Sistan additional province,,,,,,,,,,,,,,;;;;
 c_rudbar_adj                          ;        ;Rúdbárí;;
+#Himalayas,,,,,,,,,,,,,,;;;;
+c_hunza_adj                           ;        ;Hunzan;;
+#Various from Middle East update,,,,,,,,,,,,,,;;;;
+c_oromieh_adj                         ;Urmia   ;Oromieh;;Irbilian
+c_duqm_adj                            ;Duqm    ;Duqm;;Nizwian
+c_damman_adj                          ;Qatif   ;Al-Qatif;;Qatifian
+c_rummah_adj                          ;Hafar Al-Batin;Hafar;;Ain Saidian
+c_tigris_adj                          ;Wasit   ;Wasit;;Súsian
+c_hijaz_adj                           ;Al-‘Ula ;Al-Ula;;Al 'Ulan
+c_hajar_adj                           ;Nizwa   ;Nizwa;;Suhárian
+c_dhu_zabi_adj                        ;Ras al-Khaimah;Julfar;;Julfarian

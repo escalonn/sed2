@@ -3296,7 +3296,7 @@ e_hre = { # Heiliges Römisches Reich
 				roman = "Batavis"
 				b_formbach = {}
 				b_passau = {}
-				b_stift_passau = {}
+				b_scharding = {}
 				b_niederaltaich = {}
 				b_hals = {}
 				b_vilshofen = {}
@@ -23071,7 +23071,6 @@ e_rajastan = { # Rajastan
 				color = { 190 100 31 }
 				color2 = { 255 255 255 }
 				b_jalandhar = {}
-				b_kahlur = {}
 				b_rahon = {}
 				b_pathankot = {}
 				b_kaparthula = {}
@@ -23129,17 +23128,6 @@ e_rajastan = { # Rajastan
 				b_khushab = {}
 				b_tulaja = {}
 				b_khewra = {}
-			}
-			c_kasmira = { # Kasmira (1628)
-				color = { 245 160 31 }
-				color2 = { 255 255 255 }
-				b_srinagara = {}
-				b_shankaracharya = {}
-				b_parihasapura = {}
-				b_padmapura = {}
-				b_loharakota = {}
-				b_amaresvara = {}
-				b_baghsar = {}
 			}
 			c_bannu = { # Bannu (1626)
 				color = { 245 150 51 }
@@ -23301,7 +23289,6 @@ e_rajastan = { # Rajastan
 				b_gangadvara = {}
 				b_rishikesh = {}
 				b_nehtaur = {}
-				b_kartikeyapura = {}
 				b_jageshwar = {}
 			}
 			allow = { title_duke_basic_allow = yes }
@@ -23966,6 +23953,232 @@ e_rajastan = { # Rajastan
 	} # end k_kosala
 	allow = { title_emperor_basic_allow = yes }
 } # end e_rajastan
+
+e_tibet = {
+	color = { 250 40 0 }
+	color2 = { 255 255 255 }
+	capital = 1983 # Tsaparang
+	k_guge = {
+		color = { 137 168 188 }
+		color2 = { 255 255 255 }
+		capital = 1983 # Tsaparang
+		culture = zhangzhung
+		zhangzhung = "Zhangzhung"
+		han = "Zhangzhung"
+		d_purang = {
+			color = { 67 130 219 }
+			color2 = { 255 255 255 }
+			capital = 1986 # Purang
+			zhangzhung = "Zhangzhung"
+			c_kyunglung = {
+				color = { 102 132 206 }
+				color2 = { 255 255 255 }
+				han = "Qulong"
+				b_kyunglung = {}
+				b_gurugem = { # temple
+				}
+				b_tirthapuri = { # temple
+				}
+				b_dolchu = { # temple
+				}
+				b_monicer = {}
+				b_xalazakung = {}
+				b_gyanyima = {}
+			}
+			c_purang = {
+				color = { 96 149 216 }
+				color2 = { 255 255 255 }
+				b_kardung = {}
+				b_khorzhak = { # temple
+				}
+				b_teglakar = {}
+				b_simbiling = { # temple
+				}
+				b_zhangja = {}
+				b_dulung = {}
+			}
+			c_gegyai = {
+				color = { 72 168 216 }
+				color2 = { 255 255 255 }
+				b_gegyai = {}
+				b_zhungpa = {}
+				b_yakra = {}
+				b_chuktsang = {}
+				b_arkog = {}
+				b_kelle = {}
+				b_sekhadrig = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ngari = {
+			color = { 144 152 206 }
+			color2 = { 255 255 255 }
+			capital = 1988 # Gar
+			han = "Ali"
+			c_gar = {
+				color = { 154 152 190 }
+				color2 = { 255 255 255 }
+				b_gar = {}
+				b_senggezangbo = {}
+				b_rala_kharmar = {}
+				b_rabang = {}
+				b_kupa = {}
+				b_chakgang = {}
+				b_langchu = {}
+			}
+			c_kunlun = {
+				color = { 134 142 180 }
+				color2 = { 255 255 255 }
+				b_bangdag = {}
+				b_ashi = {}
+				b_ulug = {}
+				b_pur = {}
+				b_yulya = {}
+				b_dulihri = {}
+				b_seldang = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ladakh = {
+			color = { 63 113 158 }
+			color2 = { 255 255 255 }
+			capital = 1983 # Tsaparang
+			bodpa = "Maryul"
+			c_tsaparang = {
+				color = { 85 155 200 }
+				color2 = { 255 255 255 }
+				b_tsaparang = {}
+				b_tholing = {}
+				b_tholinggompa = { # temple
+				}
+				b_mangnang = { # temple
+				}
+				b_dungkar = {}
+				b_mangga = {}
+				b_gartok = {}
+			}
+			c_leh = {
+				color = { 73 113 168 }
+				color2 = { 255 255 255 }
+				b_leh = {}
+				b_nyarma = {}
+				b_shey = { # temple
+				}
+				b_alchi = {}
+				b_lamayuru = {}
+				b_padum = {}
+				b_keylong = {}
+			}
+			c_rutog = {
+				color = { 164 152 206 }
+				color2 = { 255 255 255 }
+				b_lhundrub = {}
+				b_rawang_rutog = { # temple
+				}
+				b_derok = {}
+				b_gobak = {}
+				b_sumshi = {}
+				b_tsapuk = {}
+				b_domar = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_king_basic_allow = yes }
+	}
+	k_kashmir = {
+		color = { 204 180 30 }
+		color2 = { 255 255 255 }
+		capital = 1628 # Kasmira
+		d_kashmir = {
+			color = { 204 180 30 }
+			color2 = { 255 255 255 }
+			capital = 1628 # Kasmira
+			c_kasmira = { # Kasmira (1628)
+				color = { 245 160 31 }
+				color2 = { 255 255 255 }
+				b_srinagara = {}
+				b_shankaracharya = {}
+				b_parihasapura = {}
+				b_padmapura = {}
+				b_loharakota = {}
+				b_amaresvara = {}
+				b_baghsar = {}
+			}
+			c_skardu = {
+				color = { 170 160 20 }
+				color2 = { 255 255 255 }
+				b_skardu = {}
+				b_huldi = {}
+				b_madhupur_skardu = {}
+				b_kharkoo = {}
+				b_khaplu = {}
+				b_hilmat = {}
+				b_janwai = {}
+			}
+			c_gilgit = {
+				color = { 204 170 30 }
+				color2 = { 255 255 255 }
+				b_gilgit = {}
+				b_danyor = {}
+				b_minawar = {}
+				b_pahot = {}
+				b_chatorkhand = {}
+				b_barjangle = {}
+			}
+			c_hunza = {
+				color = { 174 120 0 }
+				color2 = { 255 255 255 }
+				b_baltit = {}
+				b_ganish = {}
+				b_altit = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_uttaranchal = {
+			color = { 200 180 50 }
+			color2 = { 255 255 255 }
+			capital = 1980 # Garhwal
+			c_kangra = {
+				color = { 150 140 30 }
+				color2 = { 255 255 255 }
+				b_kangra = {}
+				b_shimla = {}
+				b_nurpur = {}
+				b_chamba = {}
+				b_bharmour = {}
+				b_kahlur = {}
+				b_kullu = {}
+			}
+			c_garhwal = {
+				color = { 200 180 50 }
+				color2 = { 255 255 255 }
+				b_devalghar = {}
+				b_badrinath = { # Temple & Hindu Holy Site
+				}
+				b_srinagar = {}
+				b_tehri = {}
+				b_uttarkashi = {}
+				b_sudhnagar = {}
+				b_haridwar = {}
+				# Joshimath / Jyotirmath
+			}
+			c_kurmanchal = {
+				color = { 220 200 70 }
+				color2 = { 255 255 255 }
+				b_kartikeyapura = {}
+				b_katarmal = {}
+				b_askot_kurmanchal = {}
+				b_govishana = {}
+				b_ranikhet = {}
+				b_didihat = {}
+				b_champawat = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_king_basic_allow = yes }
+	}
+	allow = { title_emperor_basic_allow = yes }
+}
 
 # All landed kingdom titles that have no de jure empire must go
 # into e_null, a clever solution to Paradox bugs.
@@ -25383,7 +25596,7 @@ e_null = { #
 			color = { 78 115 219 }
 			color2 = { 255 255 255 }
 			capital = 430 # Sternberg # Lubusz
-			c_lubusz = { # Sternberg (430) # Kostrzyn
+			c_lubusz = { # Küstrin (430) # Kostrzyn
 				color = { 6 135 2 }
 				color2 = { 255 255 255 }
 				russian = "Kostrzyn"
@@ -26204,6 +26417,7 @@ e_null = { #
 			kirghiz = "Volga"
 			uyghur = "Volga"
 			bashkir = "Volga"
+			khitan = "Volga"
 			bedouin_arabic = "Volga"
 			maghreb_arabic = "Volga"
 			levantine_arabic = "Volga"
@@ -26248,7 +26462,6 @@ e_null = { #
 			venetian = "Volga"
 			dalmatian = "Volga"
 			roman = "Volga"
-			khitan = "Volga"
 			c_itil = { # Itil (620)
 				color = { 155 122 34 }
 				color2 = { 255 255 255 }
@@ -26303,6 +26516,7 @@ e_null = { #
 				kirghiz = "Volga"
 				uyghur = "Volga"
 				bashkir = "Volga"
+				khitan = "Volga"
 				bedouin_arabic = "Volga"
 				maghreb_arabic = "Volga"
 				levantine_arabic = "Volga"
@@ -26347,7 +26561,6 @@ e_null = { #
 				venetian = "Volga"
 				dalmatian = "Volga"
 				roman = "Volga"
-				khitan = "Volga"
 				b_saksin = {} # end b_saksin
 				b_khazaran = {}
 				b_chistibanka = {}
@@ -26669,6 +26882,7 @@ e_null = { #
 				b_ghazna = {}
 				b_gardiz = {}
 				b_nawabad = {}
+				b_sukawand = {}
 				b_arus-al-falak = {}
 				b_nay = {}
 			}
@@ -26676,7 +26890,6 @@ e_null = { #
 				color = { 30 185 165 }
 				color2 = { 15 140 198 }
 				b_bamiyan = {}
-				b_sukawand = {}
 				b_basghurfand = {}
 				b_lakhrab = {}
 			}
@@ -27085,6 +27298,28 @@ e_null = { #
 				b_pishan = {}
 				b_karghalik = {}
 				b_guma = {}
+			}
+			c_tashkurgan = { # Tashkurgan (1978)
+				color = { 224 150 50 }
+				color2 = { 255 255 255 }
+				khalaj = "Sarikol"
+				pahlavi = "Sarikol"
+				persian = "Sarikol"
+				sogdian = "Sarikol"
+				tajik = "Sarikol"
+				daylamite = "Sarikol"
+				khwarezmi = "Sarikol"
+				kurdish = "Sarikol"
+				afghan = "Sarikol"
+				baloch = "Sarikol"
+				qufs = "Sarikol"
+				b_tashkurgan = {}
+				b_jianggala = {}
+				b_hangdi = {}
+				b_kaladong = {}
+				b_zankan = {}
+				b_qiate = {}
+				b_bulongke = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_kashgar

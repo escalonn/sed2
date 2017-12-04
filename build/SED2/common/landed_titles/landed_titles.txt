@@ -673,3 +673,24 @@ d_zoroastrian = { # The Zoroastrian Church
 	short_name = yes
 	dynasty_title_names = no
 }
+
+e_china_west_governor = { # placeholder for the Chinese Empire Western Governor
+	color = { 245 240 10 }
+	color2 = { 220 220 0 }
+	capital = 1570 # Qarashahr
+	#location_ruler_title = yes
+	# Always exists
+	landless = yes
+	# Cannot be vassalized
+	independent = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	can_be_claimed = no
+	can_be_usurped = no
+	extra_ai_eval_troops = 7500
+	title = WESTERN_GOVERNOR_MALE
+	title_female = WESTERN_GOVERNOR_FEMALE
+	foa = WESTERN_GOVERNOR_TITLE_FOA
+	short_name = yes
+	dynasty_title_names = no
+}
