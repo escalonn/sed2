@@ -1403,7 +1403,10 @@ e_hre = {
 		color2 = { 255 255 255 }
 		capital = 262
 		dignity = 200
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			is_republic = yes
+			title_king_basic_allow = yes
+		}
 	}
 	k_frisia = {
 		color = { 255 120 0 }
@@ -1423,50 +1426,33 @@ e_hre = {
 				color2 = { 255 255 255 }
 				b_haarlem = {}
 				b_amsterdam = {}
-				b_vlaardingen = {}
 				b_sgravenhage = {}
 				b_dordrecht = {}
-				b_gouda = {}
+				b_brederode = {}
 				b_leiden = {}
+				b_rijnsburg = {}
 			}
 			c_zeeland = {
 				color = { 165 165 165 }
 				color2 = { 255 255 255 }
 				b_middelburg = {}
 				b_tholen = {}
-				b_veere = {}
 				b_vlissingen = {}
-				b_cadzand = {}
+				b_voorne = {}
+				b_strijen = {}
 				b_renesse = {}
-				b_borsele = {}
+				b_goes = {}
+				b_zierikzee = {}
 			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_utrecht = {
-			color = { 17 104 8 }
-			color2 = { 240 140 10 }
-			capital = 82
-			culture = low_frankish
-			name_tier = count
 			c_sticht = {
 				color = { 156 156 156 }
 				color2 = { 255 255 255 }
 				b_woerden = {}
 				b_utrecht = {}
-				b_gorinchem = {}
 				b_ijsselstein = {}
 				b_dorestad = {}
-				b_zeist = {}
-				b_buren = {}
-			}
-			c_oversticht = {
-				color = { 159 160 161 }
-				color2 = { 255 255 255 }
-				culture = low_saxon
-				b_deventer = {}
-				b_kampen = {}
-				b_coevorden = {}
-				b_zwolle = {}
+				b_vianen = {}
+				b_oudewater = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -1475,34 +1461,51 @@ e_hre = {
 			color2 = { 240 125 10 }
 			capital = 83
 			culture = low_frankish
-			c_arnhem = {
+			c_hamaland = {
 				color = { 159 159 159 }
 				color2 = { 255 255 255 }
-				b_elburg = {}
+				b_marienwaerdt = {}
 				b_arnhem = {}
-				b_harderwijk = {}
-				b_hattem = {}
-				b_wageningen = {}
+				b_nijmegen = {}
+				b_tiel = {}
+				b_buren = {}
+				b_rheden = {}
+				b_elburg = {}
 			}
 			c_gelre = {
 				color = { 159 159 159 }
 				color2 = { 255 255 255 }
-				b_nijmegen = {}
 				b_geldern = {}
+				b_thorn_gelre = {}
 				b_roermond = {}
-				b_montfort_gelre = {}
-				b_gendt = {}
-				b_zaltbommel = {}
-				b_straelen = {}
+				b_wassenberg = {}
+				b_cuijck = {}
+				b_kessel = {}
+				b_venlo = {}
 			}
 			c_zutphen = {
 				color = { 159 159 159 }
 				color2 = { 255 255 255 }
 				culture = low_saxon
 				b_zutphen = {}
-				b_steenderen = {}
-				b_eerbeek = {}
-				b_leuvenheim = {}
+				b_doetinchem = {}
+				b_bielheim = {}
+				b_bergh = {}
+				b_bronckhorst = {}
+				b_doesburg = {}
+				b_borculo = {}
+			}
+			c_oversticht = {
+				color = { 159 160 161 }
+				color2 = { 255 255 255 }
+				culture = low_saxon
+				b_deventer = {}
+				b_groningen = {}
+				b_coevorden = {}
+				b_voorst = {}
+				b_zwolle = {}
+				b_kampen = {}
+				b_almelo = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -1514,47 +1517,45 @@ e_hre = {
 			c_ostfriesland = {
 				color = { 162 162 162 }
 				color2 = { 255 255 255 }
-				b_emden = {}
-				b_aurich = {}
-				b_borkum = {}
 				b_norden = {}
-				b_norderney = {}
-				b_leer = {}
-				b_wittmund = {}
-			}
-			c_rustringen = {
-				color = { 214 214 214 }
-				color2 = { 255 255 255 }
+				b_aurich = {}
+				b_ihlow = {}
+				b_emden = {}
 				b_jever = {}
-				b_siebethsburg = {}
-				b_varel = {}
-				b_loningen = {}
-				b_schortens = {}
-				b_kniphausen = {}
+				b_oestringfelde = {}
+				b_leer = {}
 			}
 			c_westfriesland = {
 				color = { 40 40 40 }
 				color2 = { 255 255 255 }
 				b_alkmaar = {}
-				b_hoorn = {}
-				b_medemblik = {}
 				b_egmond = {}
+				b_schagen = {}
+				b_medemblik = {}
+				b_egmond_aan_den_hof = {}
+				b_hoorn = {}
 				b_enkhuizen = {}
-				b_heerhugowaard = {}
-				b_texel = {}
 			}
 			c_frisia = {
 				color = { 160 160 160 }
 				color2 = { 255 255 255 }
-				b_groningen = {}
-				b_leeuwarden = {}
+				b_franeker = {}
 				b_stavoren = {}
 				b_dokkum = {}
+				b_harlingen = {}
+				b_kuinre = {}
 				b_bolsward = {}
-				b_franeker = {}
-				b_assen = {}
+				b_leeuwarden = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_utrecht = {
+			color = { 17 104 8 }
+			color2 = { 240 140 10 }
+			capital = 82
+			culture = low_frankish
+			allow = { title_duke_basic_allow = yes }
+			name_tier = count
 		}
 		allow = {
 			hidden_tooltip = {
@@ -1566,224 +1567,6 @@ e_hre = {
 			}
 			independent = yes
 			NOT = { tier = emperor }
-			title_king_basic_allow = yes
-		}
-	}
-	k_upper_lorraine = {
-		color = { 250 150 20 }
-		color2 = { 220 220 20 }
-		capital = 127
-		culture = franconian
-		catholic = 4000
-		name_tier = duke
-		d_trier = {
-			color = { 232 232 208 }
-			color2 = { 255 255 255 }
-			culture = franconian
-			dignity = 10
-			capital = 118
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_trier = {
-				color = { 135 135 135 }
-				color2 = { 255 255 255 }
-				greek = "Augusta Treverorum"
-				roman = "Augusta Treverorum"
-				b_andernach = {}
-				b_trier = {}
-				b_coblenz = {}
-				b_wittlich = {}
-				b_gerolstein = {}
-				b_laach = {}
-				b_bitburg = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
-		}
-		d_luxembourg = {
-			color = { 38 172 57 }
-			color2 = { 214 140 0 }
-			capital = 115
-			culture = franconian
-			c_arlon = {
-				color = { 147 147 147 }
-				color2 = { 255 255 255 }
-				b_arlon = {}
-				b_useldange = {}
-				b_longwy = {}
-				b_wilzenn = {}
-				b_septfontaines = {}
-			}
-			c_luxembourg = {
-				color = { 147 147 147 }
-				color2 = { 255 255 255 }
-				b_luxembourg = {}
-				b_echternach = {}
-				b_ansembourg = {}
-				b_bradenbourg = {}
-				b_thionville = {}
-				b_bourscheid = {}
-				b_beauforten = {}
-			}
-			c_laroche = {
-				color = { 145 145 145 }
-				color2 = { 255 255 255 }
-				culture = frankish
-				b_laroche = {}
-				b_durbuy = {}
-				b_bastogne = {}
-				b_clervaux = {}
-				b_houffalize = {}
-			}
-			c_chiny = {
-				color = { 146 146 146 }
-				color2 = { 255 255 255 }
-				culture = frankish
-				b_chiny = {}
-				b_orchimont = {}
-				b_orval = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_pfalz = {
-			color = { 37 114 179 }
-			color2 = { 255 204 0 }
-			capital = 124
-			culture = franconian
-			title = PALATINE
-			title_female = PALATINEA
-			foa = PALATINE_FOA
-			short_name = yes
-			c_pfalz = {
-				color = { 117 117 117 }
-				color2 = { 255 255 255 }
-				b_kaiserslautern = {}
-				b_worms = {}
-				b_heidelberg = {}
-				b_hagenau = {}
-				b_stahleck = {}
-				b_trifels = {}
-				b_speyer = {}
-			}
-			c_sponheim = {
-				color = { 41 181 141 }
-				color2 = { 255 255 255 }
-				b_sponheim = {}
-				b_alteburg = {}
-				b_starkenburg = {}
-				b_kreuznach = {}
-				b_rheinfels = {}
-				b_enkirch = {}
-				b_grevenburg = {}
-			}
-			c_zweibrucken = {
-				color = { 41 181 141 }
-				color2 = { 255 255 255 }
-				b_zweibrucken = {}
-				b_veldenz = {}
-				b_hornbach = {}
-				b_vittlich = {}
-				b_lemberg = {}
-				b_sclossveldenz = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_upper_lorraine = {
-			color = { 255 166 0 }
-			color2 = { 255 166 0 }
-			capital = 127
-			culture = frankish
-			c_metz = {
-				color = { 114 114 114 }
-				color2 = { 255 255 255 }
-				b_metz = {}
-				b_rixingen = {}
-				b_saintjulien = {}
-				b_hingsingen = {}
-				b_remilly = {}
-				b_bouzonville = {}
-				b_ramersvillers = {}
-			}
-			c_saarbrucken = {
-				color = { 41 181 141 }
-				color2 = { 255 255 255 }
-				culture = franconian
-				b_saarbrucken = {}
-				b_hohnburg = {}
-				b_neukirchen = {}
-				b_homburg = {}
-			}
-			c_saintois = {
-				color = { 105 105 105 }
-				color2 = { 255 255 255 }
-				b_saintois = {}
-				b_joinville = {}
-				b_neufchateau = {}
-				b_vaudemont = {}
-				b_brixey = {}
-				b_sorcystmartin = {}
-				b_ivios = {}
-			}
-			c_lorraine = {
-				color = { 108 108 108 }
-				color2 = { 255 255 255 }
-				b_nancy = {}
-				b_blamont = {}
-				b_sarrebourg = {}
-				b_mirecourt = {}
-				b_epinal = {}
-				b_luneville = {}
-				b_charpeigne = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_barleduc = {
-			color = { 38 24 109 }
-			color2 = { 255 166 0 }
-			capital = 1028
-			culture = frankish
-			c_verdun = {
-				color = { 111 111 111 }
-				color2 = { 255 255 255 }
-				b_verdun = {}
-				b_saintmihel = {}
-				b_longuyon = {}
-				b_doaumont = {}
-			}
-			c_bar = {
-				color = { 111 111 111 }
-				color2 = { 255 255 255 }
-				b_commercy = {}
-				b_ligneybarroias = {}
-				b_barleduc = {}
-				b_vaucouleurs = {}
-				b_barlecomte = {}
-			}
-			c_pontamousson = {
-				color = { 111 111 111 }
-				color2 = { 255 255 255 }
-				b_saintdizier = {}
-				b_mousson = {}
-				b_scaaarpone = {}
-				b_toul = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		allow = {
-			OR = {
-				emf_trigger = yes
-				prestige = 2500
-				AND = {
-					NOT = { tier = emperor }
-					prestige = 700
-				}
-			}
 			title_king_basic_allow = yes
 		}
 	}
@@ -1806,70 +1589,46 @@ e_hre = {
 				color2 = { 255 255 255 }
 				frankish = "Louvain"
 				b_leuven = {}
+				b_diest = {}
 				b_tienen = {}
-				b_horstcastle = {}
-				b_diestcity = {}
+				b_gembloux = {}
 				b_aarschot = {}
-				b_bonletz = {}
-				b_dongelberg = {}
+				b_leeuw = {}
+				b_leefdaal = {}
 			}
 			c_brussel = {
 				color = { 153 159 153 }
 				color2 = { 255 255 255 }
 				b_coudeberg = {}
-				b_affligem = {}
-				b_grimbergen = {}
-				b_mechelen = {}
 				b_brussel = {}
-				b_beersel = {}
-				b_gassbeck = {}
+				b_mechelen = {}
+				b_nivelles = {}
+				b_affligem = {}
+				b_vilvoorde = {}
+				b_grimbergen = {}
 			}
 			c_breda = {
 				color = { 150 150 150 }
 				color2 = { 255 255 255 }
-				b_breda = {}
-				b_lier = {}
 				b_turnhout = {}
 				b_antwerpen = {}
-				b_tilburg = {}
+				b_tongerlo = {}
+				b_breda = {}
+				b_shertogenbosch = {}
 				b_bergenopzoom = {}
 				b_ravenstein = {}
-			}
-			c_namur = {
-				color = { 154 152 153 }
-				color2 = { 255 255 255 }
-				culture = frankish
-				b_namur = {}
-				b_andenne = {}
-				b_dinant = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_liege = {
-			color = { 250 79 0 }
-			color2 = { 240 79 0 }
-			capital = 116
-			culture = frankish
-			c_liege = {
-				color = { 144 144 144 }
-				color2 = { 255 255 255 }
-				b_liege = {}
-				b_huy = {}
-				b_fexhe = {}
-				b_bouillon = {}
-				b_aulne = {}
-				b_stavelot = {}
-				b_malmedy = {}
 			}
 			c_loon = {
 				color = { 147 146 154 }
 				color2 = { 255 255 255 }
 				culture = low_frankish
 				b_loon = {}
-				b_hasselt = {}
-				b_heinsberg = {}
 				b_tongeren = {}
-				b_hesbaie = {}
+				b_st_truiden = {}
+				b_horn = {}
+				b_hasselt = {}
+				b_averbode = {}
+				b_duras = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -1882,33 +1641,46 @@ e_hre = {
 			c_hainaut = {
 				color = { 151 152 153 }
 				color2 = { 255 255 255 }
-				b_hallen = {}
-				b_soignies = {}
-				b_lessines = {}
 				b_mons = {}
+				b_lobbes = {}
+				b_soignies = {}
 				b_enghien = {}
+				b_chimay = {}
+				b_beaumont_hainaut = {}
 				b_ath = {}
 			}
 			c_valenciennes = {
 				color = { 151 152 153 }
 				color2 = { 255 255 255 }
 				b_valenciennes = {}
-				b_cihmay = {}
-				b_avesnes = {}
+				b_maroilles = {}
 				b_maubeuge = {}
-				b_beaumonte = {}
-				b_charleroi = {}
+				b_avesnes = {}
+				b_conde = {}
+				b_bavay = {}
+				b_landrecies = {}
 			}
 			c_cambrai = {
 				color = { 151 152 153 }
 				color2 = { 255 255 255 }
-				b_arleux = {}
 				b_cambrai = {}
-				b_saintspouplet = {}
-				b_crevecoeursurlescaut = {}
 				b_esnes = {}
-				b_dachin = {}
-				b_lecateau = {}
+				b_le_cateau_cambresis = {}
+				b_honnecourt = {}
+				b_oisy = {}
+				b_crevecoeur = {}
+				b_vaucelles = {}
+			}
+			c_aalst = {
+				color = { 44 12 200 }
+				color2 = { 255 255 255 }
+				b_aalst = {}
+				b_geraardsbergen = {}
+				b_ename = {}
+				b_dendermonde = {}
+				b_oudenaarde = {}
+				b_boelare = {}
+				b_gavere = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -1922,18 +1694,109 @@ e_hre = {
 				color = { 149 150 153 }
 				color2 = { 255 255 255 }
 				b_limburg = {}
-				b_valkenburg = {}
 				b_maastricht = {}
-				b_wassenberg = {}
-				b_eupen = {}
+				b_rolduc = {}
+				b_heinsberg = {}
+				b_valkenburg = {}
+				b_wittem = {}
+				b_dalhem = {}
 			}
-			c_vianden = {
+			c_salm = {
+				color = { 14 74 17 }
+				color2 = { 255 255 255 }
+				b_vielsalm = {}
+				b_stablo = {}
+				b_malmedy = {}
+				b_franchimont = {}
+				b_sprimont = {}
+				b_logne = {}
+				b_herve = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_bouillon = {
+			color = { 174 3 2 }
+			color2 = { 240 51 0 }
+			capital = 116
+			culture = franconian
+			c_liege = {
+				color = { 144 144 144 }
+				color2 = { 255 255 255 }
+				b_liege = {}
+				b_bouillon = {}
+				b_dinant = {}
+				b_huy = {}
+				b_givet = {}
+				b_rochefort = {}
+				b_ciney = {}
+				b_val_dieu = {}
+			}
+			c_namur = {
+				color = { 154 152 153 }
+				color2 = { 255 255 255 }
+				culture = frankish
+				b_namur = {}
+				b_bouvignes_sur_meuse = {}
+				b_florennes = {}
+				b_floreffe = {}
+				b_dhuy = {}
+				b_agimont = {}
+				b_andenne = {}
+			}
+			allow = {
+				title_duke_basic_allow = yes
+				is_theocracy = no
+			}
+		}
+		d_julich = {
+			color = { 240 209 56 }
+			color2 = { 255 255 255 }
+			capital = 1063
+			culture = franconian
+			c_julich = {
 				color = { 138 138 138 }
 				color2 = { 255 255 255 }
-				b_vianden = {}
-				b_prum = {}
-				b_ham = {}
+				b_julich = {}
 				b_duren = {}
+				b_steinfeld = {}
+				b_zulpich = {}
+				b_arenberg = {}
+				b_hengebach = {}
+				b_schleiden = {}
+			}
+			c_kleve = {
+				color = { 132 132 132 }
+				color2 = { 255 255 255 }
+				culture = low_frankish
+				b_kleve = {}
+				b_moers = {}
+				b_duisburg = {}
+				b_bedburg = {}
+				b_wesel = {}
+				b_emmerich = {}
+				b_anholt = {}
+			}
+			c_berg = {
+				color = { 181 41 121 }
+				color2 = { 255 255 255 }
+				b_berg = {}
+				b_wipperfurth = {}
+				b_deutz = {}
+				b_dusseldorf = {}
+				b_huckeswagen = {}
+				b_homburg_berg = {}
+				b_elberfeld = {}
+			}
+			c_aachen = {
+				color = { 138 138 138 }
+				color2 = { 255 255 255 }
+				b_pfalzaachen = { used_for_dynasty_names = no }
+				b_aachen = {}
+				b_kornelimunster = {}
+				b_schonau_aachen = {}
+				b_eschweiler = {}
+				b_stahlburg = {}
+				b_montjoie = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -1951,13 +1814,24 @@ e_hre = {
 				color = { 141 141 141 }
 				color2 = { 255 255 255 }
 				b_koln = {}
-				b_bonn = {}
-				b_dietz = {}
-				b_saffenburg = {}
+				b_neuss = {}
 				b_hochstaden = {}
+				b_neuenahr = {}
 				b_brauweiler = {}
-				b_rolandseck = {}
+				b_remagen = {}
+				b_saffenburg = {}
 			}
+			allow = {
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+		}
+		d_liege = {
+			color = { 250 79 0 }
+			color2 = { 240 79 0 }
+			capital = 116
+			culture = frankish
 			allow = {
 				religion_group = christian
 				is_theocracy = yes
@@ -1965,51 +1839,211 @@ e_hre = {
 				title_duke_basic_allow = yes
 			}
 		}
-		d_berg = {
-			color = { 240 209 56 }
-			color2 = { 255 255 255 }
-			capital = 1063
-			culture = franconian
-			c_julich = {
-				color = { 138 138 138 }
-				color2 = { 255 255 255 }
-				b_julich = {}
-				b_nideggen = {}
-				b_monschau = {}
-				b_zulpich = {}
-				b_schleiden = {}
-				b_kronenburg = {}
-				b_aldenhoven = {}
+		allow = {
+			OR = {
+				emf_trigger = yes
+				prestige = 2500
+				AND = {
+					NOT = { tier = emperor }
+					prestige = 700
+				}
 			}
-			c_kleve = {
-				color = { 132 132 132 }
+			title_king_basic_allow = yes
+		}
+	}
+	k_upper_lorraine = {
+		color = { 250 150 20 }
+		color2 = { 220 220 20 }
+		capital = 127
+		culture = franconian
+		catholic = 4000
+		name_tier = duke
+		d_upper_lorraine = {
+			color = { 255 166 0 }
+			color2 = { 255 166 0 }
+			capital = 127
+			culture = frankish
+			c_blamont = {
+				color = { 108 108 108 }
 				color2 = { 255 255 255 }
-				culture = low_frankish
-				b_kleve = {}
-				b_moers = {}
-				b_krinvelde = {}
-				b_duisburg = {}
-				b_schwanenburg = {}
-				b_goch = {}
-				b_rees = {}
+				b_nancy = {}
+				b_bonmoutier = {}
+				b_sarrebourg = {}
+				b_luneville = {}
+				b_blamont = {}
+				b_salm_en_vosge = {}
+				b_lenoncourt = {}
 			}
-			c_berg = {
-				color = { 181 41 121 }
+			c_metz = {
+				color = { 114 114 114 }
 				color2 = { 255 255 255 }
-				b_siegen = {}
-				b_westerberg = {}
-				b_olpe = {}
-				b_berg = {}
-				b_ermingardibruggern = {}
+				b_metz = {}
+				b_rixingen = {}
+				b_saint_arnoul = {}
+				b_saint_avold = {}
+				b_fenetrange = {}
+				b_puttlingen = {}
+				b_marsal = {}
 			}
-			c_aachen = {
-				color = { 138 138 138 }
+			c_saarbrucken = {
+				color = { 41 181 141 }
 				color2 = { 255 255 255 }
-				b_pfalzaachen = { used_for_dynasty_names = no }
-				b_burtscheid = {}
-				b_aachen = {}
+				culture = franconian
+				b_homburg_saar = {}
+				b_saarbrucken = {}
+				b_tholey = {}
+				b_forbach = {}
+				b_merzig = {}
+				b_bouzonville = {}
+				b_wallerfangen = {}
+			}
+			c_vaudemont = {
+				color = { 105 105 105 }
+				color2 = { 255 255 255 }
+				b_chatenois = {}
+				b_remiremont = {}
+				b_epinal = {}
+				b_chatelet = {}
+				b_vaudemont = {}
+				b_st_die = {}
+				b_mirecourt = {}
+			}
+			c_dagsburg = {
+				color = { 15 15 45 }
+				color2 = { 255 255 255 }
+				b_saarwerden = {}
+				b_dagsburg = {}
+				b_zabern = {}
+				b_herbitzheim = {}
+				b_lutzelstein = {}
+				b_lichtenberg = {}
+				b_neuwiller = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_luxembourg = {
+			color = { 38 172 57 }
+			color2 = { 214 140 0 }
+			capital = 115
+			culture = franconian
+			c_luxembourg = {
+				color = { 147 147 147 }
+				color2 = { 255 255 255 }
+				b_luxembourg = {}
+				b_echternach = {}
+				b_thionville = {}
+				b_bitburg = {}
+				b_manderscheid = {}
+				b_bourscheid = {}
+				b_fels = {}
+			}
+			c_arlon = {
+				color = { 147 32 147 }
+				color2 = { 255 255 255 }
+				b_arlon = {}
+				b_wiltz = {}
+				b_clairfontaine_arlon = {}
+				b_useldange = {}
+				b_esch = {}
+				b_herbeumont = {}
+				b_autelbas = {}
+			}
+			c_vianden = {
+				color = { 19 138 138 }
+				color2 = { 255 255 255 }
+				b_vianden = {}
+				b_prum = {}
+				b_gerolstein = {}
+				b_reifferscheid = {}
+				b_hamm = {}
+				b_clerf = {}
+				b_blankenheim = {}
+			}
+			c_laroche = {
+				color = { 145 145 80 }
+				color2 = { 255 255 255 }
+				culture = frankish
+				b_laroche = {}
+				b_durbuy = {}
+				b_st_hubert = {}
+				b_bastogne = {}
+				b_houffalize = {}
+				b_marche_en_famenne = {}
+				b_mirwart = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_barleduc = {
+			color = { 38 24 109 }
+			color2 = { 255 166 0 }
+			capital = 930
+			culture = frankish
+			c_bar = {
+				color = { 1 77 35 }
+				color2 = { 255 255 255 }
+				b_barleduc = {}
+				b_commercy = {}
+				b_pontamousson = {}
+				b_toul = {}
+				b_apremont = {}
+				b_sampigny = {}
+				b_neufchateau = {}
+				b_ligny = {}
+				b_bourmont_mousson = {}
+			}
+			c_verdun = {
+				color = { 111 54 111 }
+				color2 = { 255 255 255 }
+				b_briey = {}
+				b_verdun = {}
+				b_gorcy = {}
+				b_saintmithiel = {}
+				b_lisle-en-barrois = {}
+				b_clermont_en_argonne = {}
+				b_stenay = {}
+			}
+			c_chiny = {
+				color = { 46 146 98 }
+				color2 = { 255 255 255 }
+				culture = frankish
+				b_chiny = {}
+				b_orval = {}
+				b_yvois = {}
+				b_longwy = {}
+				b_virton = {}
+				b_montmedy = {}
+				b_mouzon = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_trier = {
+			color = { 232 232 208 }
+			color2 = { 255 255 255 }
+			culture = franconian
+			dignity = 10
+			capital = 118
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
+			c_trier = {
+				color = { 35 135 76 }
+				color2 = { 255 255 255 }
+				greek = "Augusta Treverorum"
+				roman = "Augusta Treverorum"
+				b_trier = {}
+				b_coblenz = {}
+				b_andernach = {}
+				b_st_maximin = {}
+				b_veldenz = {}
+				b_virneburg = {}
+				b_cochem = {}
+			}
+			allow = {
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
 		}
 		allow = {
 			OR = {
@@ -2033,152 +2067,214 @@ e_hre = {
 		slavic_pagan_reformed = 200
 		baltic_pagan_reformed = 50
 		name_tier = duke
+		d_brunswick = {
+			color = { 224 182 85 }
+			color2 = { 255 255 255 }
+			capital = 258
+			culture = low_saxon
+			c_luneburg = {
+				color = { 67 22 195 }
+				color2 = { 255 255 255 }
+				b_luneburg = {}
+				b_st_michael_lunbeburg = {}
+				b_bardowick = {}
+				b_celle = {}
+				b_lauenrode = {}
+				b_hannover = {}
+				b_ahlden = {}
+				b_depenau = {}
+			}
+			c_braunschweig = {
+				color = { 67 33 1 }
+				color2 = { 255 255 255 }
+				b_wolfenbuttel = {}
+				b_braunschweig = {}
+				b_lutter = {}
+				b_suepplingenburg = {}
+				b_helmstedt = {}
+				b_st_ludgeri = {}
+				b_asseburg = {}
+			}
+			c_gottingen = {
+				color = { 2 79 35 }
+				color2 = { 255 255 255 }
+				b_pfalzgrona = {}
+				b_gandersheim = {}
+				b_gottingen = {}
+				b_northeim = {}
+				b_plesse = {}
+				b_einbeck = {}
+				b_eschwege = {}
+			}
+			c_blankenburg = {
+				color = { 122 95 35 }
+				color2 = { 255 255 255 }
+				b_regenstein = {}
+				b_quedlinburg = {}
+				b_blankenburg = {}
+				b_wernigerode = {}
+				b_halberstadt = {}
+				b_alvensleben = {}
+				b_groningen_blankenburg = {}
+			}
+			c_everstein = {
+				color = { 110 78 210 }
+				color2 = { 255 255 255 }
+				b_everstein = {}
+				b_hildesheim = {}
+				b_goslar = {}
+				b_dassel = {}
+				b_wohldenberg = {}
+				b_alfeld = {}
+				b_homburg = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
 		d_angria = {
-			color = { 180 155 85 }
+			color = { 127 5 3 }
 			color2 = { 255 255 255 }
 			capital = 259
 			culture = low_saxon
-			c_mark = {
-				color = { 141 161 141 }
+			c_bremen = {
+				color = { 73 94 58 }
 				color2 = { 255 255 255 }
-				b_altena = {}
-				b_hamm = {}
-				b_gevelsberg = {}
-				b_essen = {}
-				b_nienbrugge = {}
-				b_hovel = {}
+				b_bremen = {}
+				b_verden = {}
+				b_versfleth = {}
+				b_rotenburg = {}
+				b_voerde = {}
+				b_achim = {}
+				b_luneberg = {}
 			}
-			c_celle = {
-				color = { 214 214 214 }
+			c_stade = {
+				color = { 16 47 19 }
 				color2 = { 255 255 255 }
-				b_stenberg = {}
-				b_paderborn = {}
-				b_detmold = {}
-				b_wevelsburg = {}
+				b_stade = {}
+				b_stotel = {}
+				b_bederkesa = {}
+				b_otterndorf = {}
+				b_harsefeld = {}
+				b_buxtehude = {}
+				b_hadeln = {}
+			}
+			c_hoya = {
+				color = { 48 134 223 }
+				color2 = { 255 255 255 }
+				b_stumpenhusen = {}
+				b_hoya = {}
+				b_bucken = {}
+				b_nienburg = {}
+				b_wolpe = {}
+				b_bruchhausen = {}
+				b_hodenberg = {}
+			}
+			c_lippe = {
+				color = { 46 178 122 }
+				color2 = { 255 255 255 }
 				b_lippe = {}
-				b_blomberg = {}
+				b_detmold = {}
+				b_paderborn = {}
+				b_corvey = {}
+				b_schwalenberg = {}
+				b_rietberg = {}
+				b_pyrmont = {}
 			}
 			c_schaumburg = {
-				color = { 214 214 214 }
+				color = { 38 214 1 }
 				color2 = { 255 255 255 }
 				b_schauenburg = {}
 				b_minden = {}
+				b_wunstorf = {}
+				b_roden = {}
 				b_rinteln = {}
-				b_querheim = {}
-				b_oberkirchsaxony = {}
-				b_buckeburg = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_oldenburg = {
-			color = { 181 9 53 }
-			color2 = { 255 255 255 }
-			capital = 1079
-			culture = low_saxon
-			c_tecklenburg = {
-				color = { 213 213 213 }
-				color2 = { 255 255 255 }
-				b_wildeshausen = {}
-				b_tecklenburg = {}
-				b_quackenbruck = {}
-				b_meppen = {}
-			}
-			c_bentheim = {
-				color = { 213 113 213 }
-				color2 = { 255 255 255 }
-				b_bentheim = {}
-				b_nordhorn = {}
-				b_lingen = {}
-				b_emilcheim = {}
+				b_berge = {}
+				b_ricklingen = {}
 			}
 			c_oldenburg = {
-				color = { 214 214 214 }
+				color = { 34 55 12 }
 				color2 = { 255 255 255 }
 				b_oldenburg = {}
-				b_cloppenburg = {}
-				b_westerstede = {}
+				b_wildeshausen = {}
+				b_rastede = {}
 				b_delmenhorst = {}
-				b_wiefelstede = {}
+				b_varel = {}
+				b_fikensolt = {}
+				b_wardenburg = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_osnabruck = {
-			color = { 106 128 191 }
+		d_westfalen = {
+			color = { 47 71 31 }
 			color2 = { 255 255 255 }
-			capital = 87
+			capital = 1959
 			culture = low_saxon
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_osnabruck = {
-				color = { 213 213 213 }
+			c_arnsberg = {
+				color = { 221 3 34 }
 				color2 = { 255 255 255 }
-				b_osnabruck = {}
-				b_ravensberg = {}
-				b_werhta = {}
-				b_diepholz = {}
+				b_arnsberg = {}
+				b_soest = {}
+				b_wedinghausen = {}
+				b_bueren = {}
+				b_ruthen = {}
+				b_padberg = {}
+				b_werl = {}
 			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
+			c_mark = {
+				color = { 1 161 141 }
+				color2 = { 255 255 255 }
+				b_altena = {}
+				b_dortmund = {}
+				b_essen = {}
+				b_hoevel = {}
+				b_bilstein = {}
+				b_recklinghausen = {}
+				b_volmarstein = {}
 			}
-		}
-		d_bishopmunster = {
-			color = { 240 189 63 }
-			color2 = { 255 255 255 }
-			capital = 88
-			culture = low_saxon
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
 			c_munster = {
-				color = { 212 212 212 }
+				color = { 44 42 212 }
 				color2 = { 255 255 255 }
 				b_munster = {}
-				b_dortmund = {}
-				b_greven = {}
 				b_gronau = {}
-				b_gutersloh = {}
-				b_steinfurt = {}
+				b_werden = {}
+				b_coesfeld = {}
+				b_ahaus = {}
 				b_ahlen = {}
+				b_cappenberg = {}
 			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
-		}
-		d_bremen = {
-			color = { 178 24 23 }
-			color2 = { 255 255 255 }
-			capital = 848
-			culture = low_saxon
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_bremen = {
-				color = { 216 216 216 }
+			c_tecklenburg = {
+				color = { 63 213 2 }
 				color2 = { 255 255 255 }
-				b_bremen = {}
-				b_hoya = {}
-				b_verden = {}
-				b_stade = {}
-				b_blumenthal = {}
-				b_beverstedt = {}
-				b_ritzebuttel = {}
+				b_tecklenburg = {}
+				b_meppen = {}
+				b_malgarten = {}
+				b_iburg = {}
+				b_ibbenburen = {}
+				b_cloppenburg = {}
+				b_quakenbruck = {}
 			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
+			c_bentheim = {
+				color = { 66 7 231 }
+				color2 = { 255 255 255 }
+				b_bentheim = {}
+				b_lingen = {}
+				b_wietmarschen = {}
+				b_steinfurt = {}
+				b_schuttorf = {}
+				b_horstmar = {}
+				b_laar = {}
 			}
+			c_osnabruck = {
+				color = { 56 27 2 }
+				color2 = { 255 255 255 }
+				b_ravensberg = {}
+				b_osnabruck = {}
+				b_wiedenbruck = {}
+				b_vechta = {}
+				b_diepholz = {}
+				b_rheda = {}
+				b_herford_westfalen = {}
+			}
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_holstein = {
 			color = { 152 112 112 }
@@ -2186,131 +2282,129 @@ e_hre = {
 			capital = 263
 			culture = low_saxon
 			c_holstein = {
-				color = { 219 219 219 }
+				color = { 33 44 219 }
 				color2 = { 255 255 255 }
 				b_itzehoe = {}
-				b_pinneberg = {}
-				b_gluckstadt = {}
+				b_rendsburg = {}
+				b_krummediek = {}
+				b_neumunster = {}
+				b_bornhoved = {}
 				b_wilster = {}
-				b_brunsbuttel = {}
-				b_elmshorn = {}
-				b_schenfeldt = {}
+				b_brokdorf = {}
+			}
+			c_hamburg = {
+				color = { 23 232 12 }
+				color2 = { 255 255 255 }
+				b_pinneberg = {}
+				b_hamburg = {}
+				b_reinfeld = {}
+				b_oldesloe = {}
+				b_barmstedt = {}
+				b_haseldorf = {}
+				b_wedel = {}
 			}
 			c_dithmarschen = {
 				color = { 29 219 249 }
 				color2 = { 255 255 255 }
-				b_heide = {}
 				b_meldorf = {}
-			}
-			c_reinholdsburg = {
-				color = { 219 219 219 }
-				color2 = { 255 255 255 }
-				b_kiel = {}
-				b_krummediek = {}
-				b_reinholdsburg = {}
-				b_neumunster = {}
-				b_glucksburg = {}
-			}
-			c_lauenburg = {
-				color = { 219 219 219 }
-				color2 = { 255 255 255 }
-				b_ratzeburg = {}
-				b_neuhaus = {}
-				b_tripkau = {}
-				b_lauenburg = {}
-			}
-			c_hamburg = {
-				color = { 225 225 225 }
-				color2 = { 255 255 255 }
-				b_oldesloe = {}
-				b_steinburg = {}
-				b_segeberg = {}
-				b_hamburg = {}
-				b_blankenese = {}
-				b_bergdorfhamburg = {}
-				b_hachhede = {}
+				b_bokelnburg = {}
+				b_marienkloster_meldorf = {}
+				b_reventlow = {}
+				b_lehe = {}
+				b_woehrden = {}
+				b_lunden = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		}
-		d_magdeburg = {
-			color = { 133 50 75 }
-			color2 = { 255 255 255 }
-			capital = 1074
-			culture = low_saxon
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_magdeburg = {
-				color = { 184 184 184 }
-				color2 = { 255 255 255 }
-				b_belzig = {}
-				b_magdeburg = {}
-				b_havelberg = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
 		}
 		d_saxewittenberg = {
 			color = { 129 154 112 }
 			color2 = { 255 255 255 }
-			capital = 310
+			capital = 1075
 			culture = thuringian
+			c_wittenberg = {
+				color = { 24 34 65 }
+				color2 = { 255 255 255 }
+				b_kemberg = {}
+				b_wittenberg = {}
+				b_zinna = {}
+				b_juterbog = {}
+				b_richow = {}
+				b_dahme = {}
+				b_lichtenburg = {}
+			}
 			c_anhalt = {
-				color = { 184 184 184 }
+				color = { 222 184 3 }
 				color2 = { 255 255 255 }
 				pommeranian = "Chutizi"
-				b_zerbst = {}
-				b_aschersleben = {}
-				b_dessau = {}
-				b_querfurt = {}
 				b_bernburg = {}
-				b_plotzkau = {}
-				b_mansfeld = {}
-			}
-			c_blankenburg = {
-				color = { 184 184 184 }
-				color2 = { 255 255 255 }
-				culture = low_saxon
-				b_reggenstein = {}
-				b_haldensleben = {}
-				b_derenburg = {}
-				b_blankenburg = {}
-				b_quedlinburg = {}
-				b_halberstedt = {}
-				b_braunlage = {}
-			}
-			c_wittenberg = {
-				color = { 184 184 184 }
-				color2 = { 255 255 255 }
-				b_wittenberg = {}
-				b_juterbog = {}
-				b_zinna = {}
-				b_pretzsch = {}
-				b_grafenhainichen = {}
+				b_zerbst = {}
+				b_gernrode = {}
+				b_aschersleben = {}
+				b_anhalt = {}
+				b_lindau_sachsen = {}
+				b_barby = {}
 			}
 			c_brehna = {
-				color = { 184 184 184 }
+				color = { 63 67 2 }
 				color2 = { 255 255 255 }
 				b_wettin = {}
+				b_halle = {}
 				b_brehna = {}
-				b_torgau = {}
+				b_lauterberg = {}
+				b_bitterfeld = {}
+				b_herzberg = {}
+				b_pretzsch = {}
 			}
-			c_weimar = {
-				color = { 183 183 183 }
+			c_mansfeld = {
+				color = { 11 221 223 }
 				color2 = { 255 255 255 }
-				culture = thuringian
-				b_weimar = {}
-				b_jena = {}
-				b_walkenried = {}
-				b_gera = {}
+				b_mansfeld = {}
 				b_nordhausen = {}
-				b_memelsen = {}
-				b_gotha = {}
+				b_walkenried = {}
+				b_hohnstein = {}
+				b_sangerhausen = {}
+				b_querfurt = {}
+				b_arnstein = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_lauenburg = {
+			color = { 129 154 112 }
+			color2 = { 255 255 255 }
+			capital = 1098
+			culture = low_saxon
+			c_ratzeburg = {
+				color = { 27 22 1 }
+				color2 = { 255 255 255 }
+				b_ratzeburg = {}
+				b_molln = {}
+				b_kothel = {}
+				b_lauenburg = {}
+				b_gadebusch = {}
+				b_rehna = {}
+				b_linau = {}
+			}
+			c_dannenberg = {
+				color = { 33 73 89 }
+				color2 = { 255 255 255 }
+				b_dannenberg = {}
+				b_luchow = {}
+				b_hitzacker = {}
+				b_ebstorf = {}
+				b_domitz = {}
+				b_wustrow = {}
+				b_schnackenburg = {}
+			}
+			c_schwerin = {
+				color = { 80 219 119 }
+				color2 = { 255 255 255 }
+				b_crivitz = {}
+				b_boizenburg = {}
+				b_schwerin = {}
+				b_wittenburg = {}
+				b_neustadt_glewe = {}
+				b_zarrentin = {}
+				b_lehsen = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -2324,114 +2418,116 @@ e_hre = {
 			foa = MARGRAVE_FOA
 			title_prefix = MARGRAVE_OF
 			c_meissen = {
-				color = { 177 177 177 }
+				color = { 11 22 44 }
 				color2 = { 255 255 255 }
 				pommeranian = "Glomacze"
-				b_dresden = {}
+				b_misni = {}
+				b_freiberg = {}
 				b_meissen = {}
 				b_dohna = {}
-				b_belgern = {}
-				b_radeburg = {}
-				b_strehla = {}
-				b_rabenau = {}
+				b_chemnitz = {}
+				b_hartenstein = {}
+				b_dresden = {}
 			}
-			c_voigtland = {
-				color = { 180 182 180 }
+			c_plauen = {
+				color = { 12 182 180 }
 				color2 = { 255 255 255 }
-				b_plauen = {}
 				b_weida = {}
-				b_voigtsberg = {}
-				b_greiz = {}
-				b_ronneburg = {}
-				b_schoneck = {}
+				b_plauen = {}
+				b_zwickau = {}
+				b_schoenburg = {}
+				b_gera = {}
+				b_lobenstein = {}
+				b_asch = {}
 			}
-			c_merseburg = {
-				color = { 153 186 189 }
+			c_landsberg = {
+				color = { 153 186 4 }
 				color2 = { 255 255 255 }
+				b_duben = {}
 				b_merseburg = {}
 				b_leipzig = {}
-				b_weissensfels = {}
+				b_landsberg = {}
+				b_torgau = {}
+				b_eilenburg = {}
+				b_muhlberg = {}
 			}
-			c_zeitz = {
-				color = { 183 186 189 }
+			c_groitzsch = {
+				color = { 241 186 37 }
 				color2 = { 255 255 255 }
+				b_groitzsch = {}
+				b_leisnig = {}
 				b_zeitz = {}
-				b_halle = {}
 				b_naumburg = {}
+				b_colditz = {}
+				b_altenburg = {}
+				b_waldenburg = {}
+				b_starkenberg = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_altmark = {
-			color = { 47 71 31 }
+		d_osnabruck = {
+			color = { 106 128 191 }
 			color2 = { 255 255 255 }
-			capital = 309
+			capital = 87
 			culture = low_saxon
-			c_altmark = {
-				color = { 189 189 189 }
-				color2 = { 255 255 255 }
-				b_werben = {}
-				b_salzwedel = {}
-				b_stendal = {}
-				b_osterburg = {}
-				b_walbeck = {}
-				b_tangermunde = {}
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
 			}
-			allow = { title_duke_basic_allow = yes }
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
 		}
-		d_brunswick = {
-			color = { 224 182 85 }
+		d_bishopmunster = {
+			color = { 240 189 63 }
 			color2 = { 255 255 255 }
-			capital = 258
+			capital = 88
 			culture = low_saxon
-			c_luneburg = {
-				color = { 195 195 195 }
-				color2 = { 255 255 255 }
-				b_luneburg = {}
-				b_bardowick = {}
-				b_celle = {}
-				b_gifhorn = {}
-				b_evern = {}
-				b_reppenstedt = {}
-				b_ludersburg = {}
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
 			}
-			c_dannenberg = {
-				color = { 195 195 195 }
-				color2 = { 255 255 255 }
-				b_grabowdannenberg = {}
-				b_luchow = {}
-				b_dannenberg = {}
-				b_domitzdannenberg = {}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
+		}
+		d_bremen = {
+			color = { 178 24 23 }
+			color2 = { 255 255 255 }
+			capital = 848
+			culture = low_saxon
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
 			}
-			c_gottingen = {
-				color = { 210 210 210 }
-				color2 = { 255 255 255 }
-				b_corvey = {}
-				b_hardenberg = {}
-				b_pfalzgrona = {}
-				b_adelebsen = {}
-				b_gottingen = {}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
+		}
+		d_magdeburg = {
+			color = { 133 50 75 }
+			color2 = { 255 255 255 }
+			capital = 1074
+			culture = low_saxon
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
 			}
-			c_everstein = {
-				color = { 110 210 210 }
-				color2 = { 255 255 255 }
-				b_goslar = {}
-				b_everstein = {}
-				b_northeim = {}
-				b_boyneburg = {}
-				b_homburg_everstein = {}
-			}
-			c_braunschweig = {
-				color = { 192 192 192 }
-				color2 = { 255 255 255 }
-				b_braunschweig = {}
-				b_bielefeld = {}
-				b_hildesheim = {}
-				b_hannover = {}
-				b_wolfenbuttel = {}
-				b_helmstedt = {}
-				b_gandersheim = {}
-			}
-			allow = { title_duke_basic_allow = yes }
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
 		}
 		allow = {
 			OR = {
@@ -2448,97 +2544,175 @@ e_hre = {
 	k_franconia = {
 		color = { 130 100 100 }
 		color2 = { 220 220 20 }
-		capital = 1007
+		capital = 122
 		culture = franconian
 		catholic = 4000
 		name_tier = duke
 		d_rheinfranken = {
 			color = { 100 99 100 }
 			color2 = { 255 255 255 }
-			capital = 122
+			capital = 952
 			culture = franconian
-			c_leiningen = {
-				color = { 126 126 126 }
+			c_hanau = {
+				color = { 29 129 29 }
 				color2 = { 255 255 255 }
-				b_wertheim = {}
-				b_burgwertheim = {}
-				b_durne = {}
-				b_klingen = {}
-				b_breuberg = {}
-				b_freudenberg = {}
-			}
-			c_lauffen = {
-				color = { 166 146 116 }
-				color2 = { 255 255 255 }
-				b_eberbach = {}
-				b_darmstadt = {}
-				b_lauffen = {}
-				b_mosbach = {}
-				b_marksburg = {}
-			}
-			c_frankfurt = {
-				color = { 29 129 129 }
-				color2 = { 255 255 255 }
-				b_birstein = {}
-				b_offenbach = {}
-				b_aschaffenburg = {}
-				b_frankfurt = {}
 				b_hanau = {}
-				b_eppstein = {}
+				b_frankfurt = {}
+				b_seligenstadt = {}
+				b_aschaffenburg = {}
+				b_nidda = {}
+				b_gelnhausen = {}
+				b_budingen = {}
 			}
-			c_konigssondergau = {
-				color = { 171 171 171 }
+			c_nassau = {
+				color = { 64 200 171 }
 				color2 = { 255 255 255 }
+				b_nassau = {}
+				b_siegen = {}
+				b_weilburg = {}
+				b_diez = {}
+				b_limburg_lahn = {}
+				b_runkel = {}
+				b_laurenburg = {}
+			}
+			c_sayn = {
+				color = { 43 126 1 }
+				color2 = { 255 255 255 }
+				b_sayn = {}
+				b_altenkirchen = {}
+				b_rommersdorf = {}
+				b_wied = {}
+				b_isenburg = {}
+				b_wildenburg = {}
+				b_dierdorf = {}
+			}
+			c_katzenelnbogen = {
+				color = { 75 39 171 }
+				color2 = { 255 255 255 }
+				b_katzenelnbogen = {}
 				b_wiesbaden = {}
-				b_lipporn = {}
-				b_sonnenberg = {}
-				b_katz = {}
-				b_lorch = {}
-				b_biburc = {}
-				b_moskebach = {}
+				b_schonau = {}
+				b_bessungen = {}
+				b_darmstadt = {}
+				b_rheinfels = {}
+				b_bickenbach = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_wurzburg = {
+		d_pfalz = {
+			color = { 37 114 179 }
+			color2 = { 255 204 0 }
+			capital = 124
+			culture = franconian
+			title = PALATINE
+			title_female = PALATINEA
+			foa = PALATINE_FOA
+			short_name = yes
+			c_pfalz = {
+				color = { 86 117 32 }
+				color2 = { 255 255 255 }
+				b_heidelberg = {}
+				b_speyer = {}
+				b_annweiler = {}
+				b_erbach = {}
+				b_landau_pfalz = {}
+				b_bolanden = {}
+				b_wersau = {}
+			}
+			c_leiningen = {
+				color = { 126 68 126 }
+				color2 = { 255 255 255 }
+				b_leiningen = {}
+				b_worms = {}
+				b_lorsch = {}
+				b_lautern = {}
+				b_falkenstein = {}
+				b_alzey = {}
+				b_stauf = {}
+			}
+			c_sponheim = {
+				color = { 41 181 141 }
+				color2 = { 255 255 255 }
+				b_sponheim = {}
+				b_boppard = {}
+				b_ravengiersburg = {}
+				b_stein = {}
+				b_schmidtburg = {}
+				b_simmern = {}
+				b_kreuznach = {}
+			}
+			c_zweibrucken = {
+				color = { 58 67 41 }
+				color2 = { 255 255 255 }
+				b_zweibrucken = {}
+				b_weissenburg = {}
+				b_lauterburg = {}
+				b_bitsch = {}
+				b_blieskastel = {}
+				b_fleckenstein = {}
+				b_grafenstein = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ostfranken = {
 			color = { 231 221 198 }
 			color2 = { 255 255 255 }
 			capital = 254
 			culture = franconian
-			c_henneberg = {
-				color = { 39 82 255 }
-				color2 = { 255 255 255 }
-				b_arnstadt = {}
-				b_salzungen = {}
-				b_henneberg = {}
-				b_schmalkalden = {}
-			}
-			c_hohenloe = {
-				color = { 120 120 120 }
-				color2 = { 255 255 255 }
-				b_hochlach = {}
-				b_waldenburg = {}
-				b_neustein = {}
-				b_uffenheim = {}
-				b_mockmuhl = {}
-				b_weikersheim = {}
-			}
-			c_comburg = {
-				color = { 195 160 65 }
-				color2 = { 255 255 255 }
-				b_rothenburg = {}
-				b_comburg = {}
-				b_staufer = {}
-				b_gebsattle = {}
-			}
 			c_wurzburg = {
 				color = { 123 123 123 }
 				color2 = { 255 255 255 }
-				b_wurzburg = {}
-				b_dettlebach = {}
 				b_karlsburg = {}
+				b_wurzburg = {}
+				b_ochsenfurt = {}
+				b_schluchtern = {}
+				b_rieneck = {}
+				b_trimburg = {}
 				b_hammelburg = {}
-				b_theiheim = {}
-				b_mainderheim = {}
+			}
+			c_henneberg = {
+				color = { 39 82 255 }
+				color2 = { 255 255 255 }
+				b_henneberg = {}
+				b_fulda = {}
+				b_schweinfurt = {}
+				b_meiningen = {}
+				b_bibra = {}
+				b_wiltberg = {}
+				b_schmalkalden = {}
+			}
+			c_hohenlohe = {
+				color = { 120 76 23 }
+				color2 = { 255 255 255 }
+				b_hochlach = {}
+				b_ohringen = {}
+				b_rothenburg = {}
+				b_castell = {}
+				b_dinkelsbuhl = {}
+				b_mergentheim = {}
+				b_tierberg = {}
+			}
+			c_wertheim = {
+				color = { 166 146 116 }
+				color2 = { 255 255 255 }
+				b_wertheim = {}
+				b_mosbach = {}
+				b_heilbronn = {}
+				b_lauffen = {}
+				b_wimpfen = {}
+				b_durn = {}
+				b_weinsberg = {}
+			}
+			c_bamberg = {
+				color = { 11 78 11 }
+				color2 = { 255 255 255 }
+				b_babenberg = {}
+				b_forchheim = {}
+				b_schlusselberg = {}
+				b_bamberg = {}
+				b_pottenstein = {}
+				b_erlangen = {}
+				b_weissenohe = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -2552,20 +2726,19 @@ e_hre = {
 			foa = FE_FOA
 			title_prefix = FE_OF
 			c_mainz = {
-				color = { 129 129 129 }
+				color = { 86 129 129 }
 				color2 = { 255 255 255 }
 				greek = "Mogontiacum"
 				roman = "Mogontiacum"
 				b_mainz = {}
+				b_bingen = {}
 				b_ingelheim = {}
-				b_dornburg = {}
-				b_geisenheim = {}
-				b_rudesheim = {}
-				b_weilburg = {}
-				b_oestrich = {}
+				b_rheinberg = {}
+				b_eberbach = {}
+				b_oppenheim = {}
+				b_stromburg = {}
 			}
 			allow = {
-				religion_group = christian
 				is_theocracy = yes
 				piety = 500
 				title_duke_basic_allow = yes
@@ -2580,25 +2753,38 @@ e_hre = {
 			title_female = LANDGRAVINE
 			foa = LANDGRAVE_FOA
 			title_prefix = LANDGRAVE_OF
-			c_schwartzburg = {
-				color = { 42 42 42 }
-				color2 = { 255 255 255 }
-				b_schwartzburg = {}
-				b_kafernburg = {}
-				b_geogenthal = {}
-				b_frankenhausen = {}
-				b_rudolfstadt = {}
-			}
 			c_thuringen = {
-				color = { 42 42 42 }
+				color = { 31 112 42 }
 				color2 = { 255 255 255 }
-				b_erfurt = {}
 				b_wartburg = {}
 				b_gleichen = {}
-				b_waschenberg = {}
 				b_muhlhausen = {}
+				b_reinhardsbrunn = {}
 				b_eisenach = {}
-				b_eichsfeld = {}
+				b_salza = {}
+				b_heiligenstadt = {}
+			}
+			c_weimar = {
+				color = { 11 46 183 }
+				color2 = { 255 255 255 }
+				b_weimar = {}
+				b_erfurt = {}
+				b_memleben = {}
+				b_beichlingen = {}
+				b_rudolstadt = {}
+				b_orlamunde = {}
+				b_rabenswalde = {}
+			}
+			c_schwarzburg = {
+				color = { 200 14 13 }
+				color2 = { 255 255 255 }
+				b_schwarzburg = {}
+				b_georgenthal = {}
+				b_saalfeld = {}
+				b_lobdaburg = {}
+				b_jena = {}
+				b_kafernburg = {}
+				b_lauenstein = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -2611,29 +2797,100 @@ e_hre = {
 			title_female = LANDGRAVINE
 			foa = LANDGRAVE_FOA
 			title_prefix = LANDGRAVE_OF
-			c_hessen = {
-				color = { 210 210 210 }
+			c_gleiberg = {
+				color = { 36 98 210 }
 				color2 = { 255 255 255 }
-				b_waldeck = {}
-				b_gudensberg = {}
-				b_fulda = {}
-				b_kassel = {}
-				b_marburga = {}
-				b_hersfeld = {}
-				b_lich = {}
-			}
-			c_nassau = {
-				color = { 171 171 171 }
-				color2 = { 255 255 255 }
-				b_nassau = {}
-				b_laurenburg = {}
+				b_marburg = {}
+				b_gleiberg = {}
 				b_wetzlar = {}
+				b_altenberg = {}
 				b_solms = {}
-				b_schaldeck = {}
-				b_falkenstein_nassau = {}
-				b_isenburg = {}
+				b_giessen = {}
+				b_alsfeld = {}
+			}
+			c_gudensberg = {
+				color = { 126 36 171 }
+				color2 = { 255 255 255 }
+				b_gudensberg = {}
+				b_hersfeld = {}
+				b_kassel = {}
+				b_boyneburg = {}
+				b_sontra = {}
+				b_breitenau = {}
+				b_doernberg = {}
+			}
+			c_ziegenhain = {
+				color = { 180 17 53 }
+				color2 = { 255 255 255 }
+				b_ziegenhain = {}
+				b_fritzlar = {}
+				b_haina = {}
+				b_waldeck = {}
+				b_wittgenstein = {}
+				b_itter = {}
+				b_treysa = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_nuremberg = {
+			color = { 101 116 136 }
+			color2 = { 255 255 255 }
+			capital = 314
+			culture = franconian
+			title = BURGRAVE
+			title_female = BURGRAVINE
+			foa = BURGRAVE_FOA
+			title_prefix = BURGRAVE_OF
+			c_sonneberg = {
+				color = { 46 12 53 }
+				color2 = { 255 255 255 }
+				b_plassenburg = {}
+				b_bayreuth = {}
+				b_banz = {}
+				b_sonneberg = {}
+				b_giech = {}
+				b_redwitz = {}
+				b_hof = {}
+			}
+			c_truhendingen = {
+				color = { 57 97 77 }
+				color2 = { 255 255 255 }
+				b_abenberg = {}
+				b_feuchtwangen = {}
+				b_ansbach = {}
+				b_truhendingen = {}
+				b_dornberg = {}
+				b_gunzenhausen = {}
+				b_spielberg = {}
+			}
+			c_nurnberg = {
+				color = { 200 157 57 }
+				color2 = { 255 255 255 }
+				b_nurnbergerburg = {}
+				b_nordenberg = {}
+				b_nurnberg = {}
+				b_heilsbronn = {}
+				b_windsheim = {}
+				b_cadolzburg = {}
+				b_schwabach = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_bamberg = {
+			color = { 240 189 63 }
+			color2 = { 255 255 255 }
+			capital = 313
+			culture = franconian
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
 		}
 		allow = {
 			OR = {
@@ -2662,138 +2919,51 @@ e_hre = {
 			culture = bavarian
 			greek = "Raetia Secunda"
 			roman = "Raetia Secunda"
+			c_niederbayern = {
+				color = { 96 43 60 }
+				color2 = { 255 255 255 }
+				b_bogen = {}
+				b_metten = {}
+				b_straubing = {}
+				b_sattelbogen = {}
+				b_degenberg = {}
+				b_deggendorf = {}
+				b_windberg = {}
+			}
+			c_abensberg = {
+				color = { 57 87 32 }
+				color2 = { 255 255 255 }
+				b_vohburg = {}
+				b_regensburg = { name_tier = count }
+				b_sankt_emmeran = {}
+				b_landshut = {}
+				b_abensberg = {}
+				b_rottenburg = {}
+				b_moosburg = {}
+			}
 			c_passau = {
-				color = { 54 54 54 }
+				color = { 54 99 31 }
 				color2 = { 255 255 255 }
 				greek = "Batavis"
 				roman = "Batavis"
-				b_passau = {}
-				b_ortenburg = {}
-				b_schaumberg = {}
 				b_formbach = {}
-				b_ulrichsberg = {}
-				b_freistadt = {}
-				b_freyung = {}
-			}
-			c_leuchenberg = {
-				color = { 60 60 60 }
-				color2 = { 255 255 255 }
-				b_leuchenberg = {}
+				b_passau = {}
+				b_scharding = {}
+				b_niederaltaich = {}
 				b_hals = {}
-				b_grafenwohr = {}
-				b_pleystein = {}
-				b_reichenstein = {}
+				b_vilshofen = {}
+				b_seiboldsdorf = {}
 			}
-			c_niederbayern = {
-				color = { 60 60 60 }
+			c_ortenberg = {
+				color = { 14 222 60 }
 				color2 = { 255 255 255 }
-				b_hohenburg = {}
-				b_straubing = {}
-				b_regensburg = { name_tier = count }
-				b_landshut = {}
-				b_ingolstadt = {}
-				b_cham = {}
-				b_rohrbach = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_tyrol = {
-			color = { 126 28 19 }
-			color2 = { 255 255 255 }
-			capital = 316
-			culture = bavarian
-			name_tier = count
-			c_tirol = {
-				color = { 90 90 90 }
-				color2 = { 255 255 255 }
-				b_tirol = {}
-				b_meran = {}
-				b_brixen = {}
-				b_lienz = {}
-				b_innsbruck = {}
-				b_stams = {}
-				b_innichen = {}
-			}
-			c_trent = {
-				color = { 253 239 228 }
-				color2 = { 255 255 255 }
-				culture = italian
-				greek = "Tridentum"
-				roman = "Tridentum"
-				b_trento = {}
-				b_riva = {}
-				b_rovereto = {}
-				b_sanantonio = {}
-				b_tione = {}
-				b_borgovalsugana = {}
-				b_arco = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_bamberg = {
-			color = { 240 189 63 }
-			color2 = { 255 255 255 }
-			capital = 313
-			culture = franconian
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_bamberg = {
-				color = { 120 120 120 }
-				color2 = { 255 255 255 }
-				b_bamberg = {}
-				b_schweinfurt = {}
-				b_babenberg = {}
-				b_pottenstein = {}
-				b_heilingenstadt = {}
-				b_baiersdorf = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
-		}
-		d_nuremberg = {
-			color = { 101 116 136 }
-			color2 = { 255 255 255 }
-			capital = 314
-			culture = franconian
-			title = BURGRAVE
-			title_female = BURGRAVINE
-			foa = BURGRAVE_FOA
-			title_prefix = BURGRAVE_OF
-			c_plauen = {
-				color = { 180 180 180 }
-				color2 = { 255 255 255 }
-				b_plassenburg = {}
-				b_cheb = {}
-				b_kulmbach = {}
-				b_bayreuth = {}
-				b_wunsiedel = {}
-				b_guttenberg = {}
-				b_hof = {}
-			}
-			c_ansbach = {
-				color = { 57 97 77 }
-				color2 = { 255 255 255 }
-				b_ansbach = {}
-				b_colmberg = {}
-				b_nordlingen = {}
-				b_eichstatt = { name_tier = count }
-			}
-			c_nurnberg = {
-				color = { 57 57 57 }
-				color2 = { 255 255 255 }
-				b_roth = {}
-				b_cadolzburg = {}
-				b_nurnberg = {}
-				b_nurnbergerburg = {}
-				b_crailsheim = {}
-				b_furth = {}
-				b_erlangen = {}
+				b_ortenberg = {}
+				b_landau = {}
+				b_aldersbach = {}
+				b_leonberg = {}
+				b_muhldorf = {}
+				b_harbach = {}
+				b_osterhofen = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -2804,57 +2974,101 @@ e_hre = {
 			culture = bavarian
 			greek = "Raetia Prima"
 			roman = "Raetia Prima"
-			c_kempten = {
-				color = { 69 69 69 }
-				color2 = { 255 255 255 }
-				b_kempten = {}
-				b_wittelsbach = {}
-				b_zumarshausen = {}
-				b_friedberg = {}
-			}
 			c_oberbayern = {
-				color = { 66 66 66 }
+				color = { 25 66 37 }
 				color2 = { 255 255 255 }
-				b_munchen = {}
+				b_wittelsbach = {}
 				b_dachau = {}
 				b_freising = { name_tier = count }
-				b_andechs = {}
-				b_diessen = {}
-				b_dingolfing = {}
-				b_pfaffenberg = {}
+				b_munchen = {}
+				b_inglostadt = {}
+				b_erding = {}
+				b_fraunberg = {}
 			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_salzburg = {
-			color = { 164 33 33 }
-			color2 = { 255 255 255 }
-			capital = 448
-			culture = bavarian
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			greek = "Iuvavum"
-			roman = "Iuvavum"
+			c_andechs = {
+				color = { 215 69 61 }
+				color2 = { 255 255 255 }
+				b_andechs = {}
+				b_tegernsee = {}
+				b_landsberg_bayern = {}
+				b_eschenlohe = {}
+				b_falkenstein_bayern = {}
+				b_ebersberg = {}
+				b_werdenfels = {}
+			}
+			c_kraiburg = {
+				color = { 111 21 203 }
+				color2 = { 255 255 255 }
+				b_kraiburg = {}
+				b_traunstein = {}
+				b_wasserburg = {}
+				b_berchtesgaden = {}
+				b_reichenhall = {}
+				b_marquartstein = {}
+				b_massing = {}
+			}
 			c_salzburg = {
-				color = { 63 63 63 }
+				color = { 73 63 27 }
 				color2 = { 255 255 255 }
 				greek = "Iuvavum"
 				roman = "Iuvavum"
 				b_salzburg = {}
-				b_durmberg = {}
-				b_waging = {}
-				b_berchtesgaden = {}
-				b_tittmoning = {}
-				b_laufen = {}
-				b_muhldorf = {}
+				b_plain = {}
+				b_stift_sankt_peter = {}
+				b_radstadt = {}
+				b_goldegg = {}
+				b_toerring = {}
+				b_lebenau = {}
 			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_nordgau = {
+			color = { 3 48 190 }
+			color2 = { 255 255 255 }
+			capital = 970
+			culture = bavarian
+			title = MARGRAVE
+			title_female = MARGRAVINE
+			foa = MARGRAVE_FOA
+			title_prefix = MARGRAVE_OF
+			c_sulzbach = {
+				color = { 72 111 201 }
+				color2 = { 255 255 255 }
+				b_hohenburg = {}
+				b_sulzbach = {}
+				b_cham = {}
+				b_reichenbach = {}
+				b_kastl = {}
+				b_amberg = {}
+				b_trausnitz = {}
 			}
+			c_leuchtenberg = {
+				color = { 60 3 81 }
+				color2 = { 255 255 255 }
+				title = LANDGRAVE
+				title_female = LANDGRAVINE
+				foa = LANDGRAVE_FOA
+				title_prefix = LANDGRAVE_OF
+				b_leuchtenberg = {}
+				b_cheb = {}
+				b_waldsassen = {}
+				b_sternstein = {}
+				b_waldeck_bayern = {}
+				b_neumarkt = {}
+				b_speinshart = {}
+			}
+			c_hirschberg = {
+				color = { 11 88 52 }
+				color2 = { 255 255 255 }
+				b_hirschberg = {}
+				b_eichstatt = {}
+				b_weissenburg_am_sand = {}
+				b_lechsgemund = {}
+				b_pappenheim = {}
+				b_heideck = {}
+				b_plankstetten = {}
+			}
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_osterreich = {
 			color = { 188 0 7 }
@@ -2864,7 +3078,7 @@ e_hre = {
 			greek = "Noricum Ripense"
 			roman = "Noricum Ripense"
 			c_osterreich = {
-				color = { 48 48 48 }
+				color = { 86 24 48 }
 				color2 = { 255 255 255 }
 				culture = bavarian
 				title = MARGRAVE
@@ -2873,47 +3087,111 @@ e_hre = {
 				title_prefix = MARGRAVE_OF
 				greek = "Vindobona"
 				roman = "Vindobona"
-				b_pochlarn = {}
+				b_tulln = {}
 				b_wien = {}
 				b_melk = {}
-				b_raabs = {}
-				b_klosterneuburg = {}
+				b_peilstein = {}
 				b_stpolten = {}
-				b_heiligenkreuz = {}
+				b_liechtenstein = {}
+				b_zelking = {}
 			}
-			c_innsbruck = {
-				color = { 84 84 84 }
+			c_traungau = {
+				color = { 184 95 121 }
 				color2 = { 255 255 255 }
 				b_steyr = {}
-				b_linz = {}
-				b_lambach = {}
-				b_schaunberg = {}
 				b_kremsmunster = {}
-				b_sanktflorian = {}
-				b_wilhering = {}
+				b_wels = {}
+				b_traun = {}
+				b_enns = {}
+				b_rebgau = {}
+				b_reichersberg = {}
 			}
 			c_kuenring = {
-				color = { 51 51 51 }
+				color = { 81 2 85 }
 				color2 = { 255 255 255 }
+				b_raabs = {}
 				b_kuhenring = {}
-				b_zwettl = {}
 				b_krems = {}
-				b_weitra = {}
-				b_stein = {}
+				b_zwettl = {}
+				b_waidhofen_an_der_thaya = {}
+				b_poigen = {}
 				b_hardegg = {}
-				b_hartenstein = {}
 			}
-			c_pitten = {
-				color = { 87 46 29 }
+			c_schaunberg = {
+				color = { 21 151 51 }
 				color2 = { 255 255 255 }
-				b_pitten = {}
-				b_neunkirchen = {}
-				b_wienerneustadt = {}
-				b_gloggnitz = {}
-				b_pottschach = {}
-				b_seebenstein = {}
+				b_schaunberg = {}
+				b_mondsee = {}
+				b_linz = {}
+				b_starhemberg = {}
+				b_eferding = {}
+				b_wilhering = {}
+				b_kammer = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_tyrol = {
+			color = { 126 28 19 }
+			color2 = { 255 255 255 }
+			capital = 316
+			culture = bavarian
+			name_tier = count
+			c_tirol = {
+				color = { 90 4 7 }
+				color2 = { 255 255 255 }
+				b_tirol = {}
+				b_brixen = {}
+				b_innsbruck = {}
+				b_eppan = {}
+				b_meran = {}
+				b_amras = {}
+				b_bolzano = {}
+			}
+			c_trent = {
+				color = { 253 239 228 }
+				color2 = { 255 255 255 }
+				culture = italian
+				greek = "Tridentum"
+				roman = "Tridentum"
+				b_trento = {}
+				b_riva = {}
+				b_rovereto = {}
+				b_arco = {}
+				b_borgovalsugana = {}
+				b_pergine = {}
+				b_castelbarco = {}
+			}
+			c_lienz = {
+				color = { 23 211 82 }
+				color2 = { 255 255 255 }
+				culture = italian
+				b_bruck_an_der_drava = {}
+				b_innichen = {}
+				b_lienz = {}
+				b_matrei = {}
+				b_heinfels = {}
+				b_lengberg = {}
+				b_anras = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_salzburg = {
+			color = { 164 33 33 }
+			color2 = { 255 255 255 }
+			capital = 448
+			culture = bavarian
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
+			greek = "Iuvavum"
+			roman = "Iuvavum"
 		}
 		allow = {
 			OR = {
@@ -2941,34 +3219,56 @@ e_hre = {
 			capital = 455
 			culture = bavarian
 			c_steiermark = {
-				color = { 45 45 45 }
+				color = { 231 45 85 }
 				color2 = { 255 255 255 }
 				culture = bavarian
 				title = MARGRAVE
 				title_female = MARGRAVINE
 				foa = MARGRAVE_FOA
 				title_prefix = MARGRAVE_OF
-				b_eppenstein = {}
+				b_hengistburg = {}
 				b_graz = {}
-				b_seckau = {}
-				b_stubing = {}
+				b_rein = {}
+				b_wildon = {}
+				b_stubenberg = {}
+				b_pfannberg = {}
+				b_furstenfeld = {}
+			}
+			c_eppenstein = {
+				color = { 11 23 45 }
+				color2 = { 255 255 255 }
+				b_eppenstein = {}
+				b_bruck = {}
 				b_admont = {}
-				b_goss = {}
-				b_leibnitz = {}
+				b_pranckh = {}
+				b_leoben = {}
+				b_seckau = {}
+				b_pernegg = {}
 			}
 			c_celje = {
-				color = { 244 227 180 }
+				color = { 67 227 17 }
 				color2 = { 255 255 255 }
 				culture = karantanci
 				greek = "Celeia"
 				roman = "Celeia"
 				b_sanneck = {}
-				b_celje = {}
+				b_maribor = {}
 				b_lavant = {}
-				b_soune = {}
-				b_marburg = {}
-				b_rann = {}
 				b_pettau = {}
+				b_windisch_graetz = {}
+				b_celje = {}
+				b_zalec = {}
+			}
+			c_pitten = {
+				color = { 18 188 29 }
+				color2 = { 255 255 255 }
+				b_seebenstein = {}
+				b_wienerneustadt = {}
+				b_gloggnitz = {}
+				b_pottschach = {}
+				b_dunkelstein = {}
+				b_kranichberg = {}
+				b_wartenstein = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -2987,13 +3287,95 @@ e_hre = {
 				title_female = MARGRAVINE
 				foa = MARGRAVE_FOA
 				title_prefix = MARGRAVE_OF
-				b_auersperg = {}
 				b_krainburg = {}
-				b_sittich = {}
-				b_bischoflack = {}
-				b_konstanjevica = {}
-				b_michelstetten = {}
 				b_laibach = {}
+				b_auersperg = {}
+				b_seiz = {}
+				b_kamnik = {}
+				b_gamberk = {}
+				b_postojna = {}
+			}
+			c_karnten = {
+				color = { 244 247 160 }
+				color2 = { 255 255 255 }
+				culture = bavarian
+				b_karnburg = {}
+				b_villach = {}
+				b_gurk = {}
+				b_heunburg = {}
+				b_ortenburg = {}
+				b_sanktveit = {}
+				b_millstatt = {}
+			}
+			c_windische_mark = {
+				color = { 2 65 48 }
+				color2 = { 255 255 255 }
+				b_altenburg_krain = {}
+				b_sittich = {}
+				b_konstanjevica = {}
+				b_weichselberg = {}
+				b_trebnje = {}
+				b_graben = {}
+				b_rudolphswerth = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_merania = {
+			color = { 59 51 164 }
+			color2 = { 255 255 255 }
+			culture = karantanci
+			capital = 458
+			c_istria = {
+				color = { 224 249 237 }
+				color2 = { 255 255 255 }
+				culture = karantanci
+				title = MARGRAVE
+				title_female = MARGRAVINE
+				foa = MARGRAVE_FOA
+				title_prefix = MARGRAVE_OF
+				b_mitterburg = {}
+				b_motovun = {}
+				b_pican = {}
+				b_labin = {}
+				b_waxenstein = {}
+				b_buzet = {}
+				b_posert = {}
+			}
+			c_trieste = {
+				color = { 124 229 237 }
+				color2 = { 255 255 255 }
+				culture = karantanci
+				greek = "Tergeste"
+				east_gothic = "Tergeste"
+				roman = "Tergeste"
+				b_triest = {}
+				b_pula = {}
+				b_pirano = {}
+				b_koper = {}
+				b_duino = {}
+				b_rovinj = {}
+				b_umag = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_aquileia = {
+			color = { 167 136 62 }
+			color2 = { 255 255 255 }
+			capital = 358
+			culture = venetian
+			c_aquileia = {
+				color = { 37 140 129 }
+				color2 = { 255 255 255 }
+				culture = venetian
+				b_aquileia = {}
+				b_porcia = {}
+				b_udine = {}
+				b_grado = {}
+				b_cividale = {}
+				b_attemis = {}
+				b_polcenigo = {}
+				b_pordenone = {}
+				b_spilimbergo = {}
 			}
 			c_gorz = {
 				color = { 244 227 180 }
@@ -3012,83 +3394,14 @@ e_hre = {
 				venetian = "Gorizia"
 				dalmatian = "Gorizia"
 				b_gorz = {}
-				b_grado = {}
-				b_vrtojba = {}
-				b_cervignano = {}
-				b_monfalcone = {}
+				b_kanal = {}
 				b_cormons = {}
-				b_gradisca = {}
-			}
-			c_karnten = {
-				color = { 244 247 160 }
-				color2 = { 255 255 255 }
-				culture = bavarian
-				b_friesach = {}
-				b_sanktveit = {}
-				b_klagenfurt = {}
-				b_gurk = {}
-				b_karnburg = {}
-				b_millstatt = {}
-				b_eberndorf = {}
+				b_farra = {}
+				b_monfalcone = {}
+				b_trussio = {}
+				b_stanjel = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		}
-		d_istria = {
-			color = { 59 51 164 }
-			color2 = { 255 255 255 }
-			culture = karantanci
-			capital = 458
-			c_istria = {
-				color = { 224 249 237 }
-				color2 = { 255 255 255 }
-				culture = karantanci
-				title = MARGRAVE
-				title_female = MARGRAVINE
-				foa = MARGRAVE_FOA
-				title_prefix = MARGRAVE_OF
-				b_mitterburg = {}
-				b_motovun = {}
-				b_pican = {}
-				b_labin = {}
-			}
-			c_trieste = {
-				color = { 124 229 237 }
-				color2 = { 255 255 255 }
-				culture = karantanci
-				greek = "Tergeste"
-				east_gothic = "Tergeste"
-				roman = "Tergeste"
-				b_triest = {}
-				b_pula = {}
-				b_pirano = {}
-				b_koper = {}
-				b_duino = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_aquileia = {
-			color = { 167 136 62 }
-			color2 = { 255 255 255 }
-			capital = 358
-			culture = venetian
-			c_aquileia = {
-				color = { 37 140 129 }
-				color2 = { 255 255 255 }
-				culture = venetian
-				b_aquileia = {}
-				b_portoguaro = {}
-				b_udine = {}
-				b_motta = {}
-				b_ciridale = {}
-				b_tarcento = {}
-				b_pieve = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
 		}
 		allow = {
 			OR = {
@@ -3109,35 +3422,6 @@ e_hre = {
 		culture = swabian
 		catholic = 3000
 		name_tier = duke
-		d_augsburg = {
-			color = { 255 160 122 }
-			color2 = { 255 255 255 }
-			culture = swabian
-			capital = 955
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_augsburg = {
-				color = { 169 69 169 }
-				color2 = { 255 255 255 }
-				greek = "Augusta Vindelicorum"
-				roman = "Augusta Vindelicorum"
-				b_augsburg = {}
-				b_donauworth = {}
-				b_benediktbeuern = {}
-				b_kaufbeuren = {}
-				b_hochstadt = {}
-				b_rain = {}
-				b_ottobeuren = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
-		}
 		d_baden = {
 			color = { 249 187 0 }
 			color2 = { 255 255 255 }
@@ -3150,146 +3434,35 @@ e_hre = {
 			c_baden = {
 				color = { 102 102 102 }
 				color2 = { 255 255 255 }
+				b_hohenbaden = {}
+				b_schwarzach = {}
 				b_baden = {}
-				b_hodenhagen = {}
-				b_pforzheim = {}
-				b_durlach = {}
-				b_backnang = {}
-				b_besigheim = {}
-			}
-			c_eberstein = {
-				color = { 102 102 102 }
-				color2 = { 255 255 255 }
+				b_sulz = {}
 				b_eberstein = {}
-				b_gernsbach = {}
-				b_wimpfen = {}
+				b_geroldseck = {}
+				b_wolfach = {}
+			}
+			c_furstenberg = {
+				color = { 45 81 220 }
+				color2 = { 255 255 255 }
+				b_furstenberg = {}
+				b_sanktgeorgen = {}
+				b_villingen = {}
+				b_lupfen = {}
+				b_stuhlingen = {}
+				b_kussenberg = {}
+				b_braunlingen = {}
 			}
 			c_breisgau = {
 				color = { 105 94 105 }
 				color2 = { 255 255 255 }
-				b_freiburg = {}
+				b_zahringen = {}
 				b_stblasien = {}
-				b_offenburg = {}
-				b_schaffhausen = {}
-				b_lahr = {}
-				b_lohrrach = {}
-				b_breisach = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_chur = {
-			color = { 100 76 131 }
-			color2 = { 255 255 255 }
-			culture = swabian
-			capital = 247
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			greek = "Curia Raetorum"
-			roman = "Curia Raetorum"
-			c_chur = {
-				color = { 87 87 87 }
-				color2 = { 255 255 255 }
-				greek = "Curia Raetorum"
-				roman = "Curia Raetorum"
-				b_chur = {}
-				b_davos = {}
-				b_glurns = {}
-				b_churwalden = {}
-				b_maienfeld = {}
-				b_illanz = {}
-				b_thusis = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
-		}
-		d_alsace = {
-			color = { 111 19 32 }
-			color2 = { 200 106 0 }
-			capital = 134
-			culture = swabian
-			c_nordgau = {
-				color = { 96 96 96 }
-				color2 = { 255 255 255 }
-				title = LANDGRAVE
-				title_female = LANDGRAVINE
-				foa = LANDGRAVE_FOA
-				title_prefix = LANDGRAVE_OF
-				b_egisheim = {}
-				b_strassburg = {}
-				b_lauterburg = {}
-				b_selz = {}
-				b_erstein = {}
-				b_molsheim = {}
-				b_brumath = {}
-			}
-			c_sundgau = {
-				color = { 93 93 93 }
-				color2 = { 255 255 255 }
-				b_kolmar = {}
-				b_murbach = {}
-				b_altkirch = {}
-				b_ferette = {}
-				b_ensisheim = {}
-				b_mulhouse = {}
-				b_landser = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_zahringen = {
-			color = { 17 85 70 }
-			color2 = { 200 106 0 }
-			culture = swabian
-			capital = 244
-			c_schwyz = {
-				color = { 167 28 66 }
-				color2 = { 255 255 255 }
-				b_schwyz = {}
-				b_engelberg = {}
-				b_luzern = {}
-				b_altrapperswill = {}
-				b_einsideln = {}
-			}
-			c_aargau = {
-				color = { 167 28 66 }
-				color2 = { 255 255 255 }
-				title = LANDGRAVE
-				title_female = LANDGRAVINE
-				foa = LANDGRAVE_FOA
-				title_prefix = LANDGRAVE_OF
-				b_aargau = {}
-				b_habsburg = {}
-				b_muri = {}
-				b_rheinfelden = {}
-				b_lenzburg = {}
-				b_brugg = {}
-			}
-			c_bern = {
-				color = { 165 26 64 }
-				color2 = { 255 255 255 }
-				b_bern = {}
-				b_fribourg = {}
-				b_interlaken = {}
-				b_solothurn = {}
-				b_trub = {}
-				b_burgdorf = {}
-				b_murten = {}
-			}
-			c_st_gallen = {
-				color = { 85 80 85 }
-				color2 = { 255 255 255 }
-				b_konstanz = { name_tier = count }
-				b_stgallen = {}
-				b_kyburg = {}
-				b_zurich = {}
-				b_badenschweiz = {}
-				b_alttogenburg = {}
-				b_winterthur = {}
+				b_freiburg = {}
+				b_hachberg = {}
+				b_sausenberg = {}
+				b_triberg = {}
+				b_badenweiler = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -3299,56 +3472,99 @@ e_hre = {
 			culture = swabian
 			capital = 1029
 			c_teck = {
-				color = { 81 81 81 }
+				color = { 13 81 124 }
 				color2 = { 255 255 255 }
 				b_teck = {}
-				b_hohenstauffen = {}
-				b_kirchheim = {}
-				b_nurtingen = {}
-				b_rottenburg = {}
-				b_goppingen = {}
+				b_reutlingen = {}
+				b_gruningen = {}
+				b_urach = {}
+				b_schussenried = {}
+				b_achalm = {}
+				b_neuffen = {}
 			}
-			c_hohenzollern = {
-				color = { 75 75 75 }
+			c_zollern = {
+				color = { 75 2 43 }
 				color2 = { 255 255 255 }
 				b_zollern = {}
-				b_hechingen = {}
-				b_schalksburg = {}
-				b_hohenberg = {}
+				b_rottweil = {}
 				b_stetten = {}
+				b_hohenberg = {}
+				b_hechingen = {}
+				b_stauffenberg = {}
 				b_balingen = {}
 			}
-			c_helfenstein = {
-				color = { 81 81 81 }
+			c_nellenburg = {
+				color = { 33 83 15 }
 				color2 = { 255 255 255 }
-				b_tubingen = {}
-				b_heidenheim = {}
-				b_helfenstein = {}
-				b_sig = {}
-				b_blaubeuren = {}
-				b_weisensteig = {}
+				b_nellenburg = {}
+				b_konstanz = {}
+				b_reichenau = {}
+				b_schaffhausen = {}
+				b_veringen = {}
+				b_sigmaringen = {}
+				b_uberlingen = {}
 			}
-			c_furstenberg = {
-				color = { 75 75 75 }
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_tubingen = {
+			color = { 45 100 12 }
+			color2 = { 255 255 255 }
+			culture = swabian
+			capital = 1030
+			c_calw = {
+				color = { 102 34 1 }
 				color2 = { 255 255 255 }
-				b_furstenberg = {}
-				b_sanktgeorgen = {}
-				b_villingen = {}
-				b_baar = {}
-				b_haslach = {}
-				b_wolfach = {}
-				b_donaueschingen = {}
-			}
-			c_wurttemberg = {
-				color = { 72 72 72 }
-				color2 = { 255 255 255 }
-				b_stuttgart = {}
 				b_calw = {}
 				b_hirsau = {}
-				b_heilbronn = {}
-				b_wirtenberg = {}
-				b_reutlingen = {}
-				b_waiblingen = {}
+				b_tubingen = {}
+				b_nagold = {}
+				b_weil = {}
+				b_ehingen = {}
+				b_boblingen = {}
+			}
+			c_staufen = {
+				color = { 81 5 45 }
+				color2 = { 255 255 255 }
+				b_staufen = {}
+				b_esslingen = {}
+				b_lorch = {}
+				b_schwabisch_gmund = {}
+				b_limpurg = {}
+				b_ellwangen = {}
+				b_nordlingen = {}
+			}
+			c_helfenstein = {
+				color = { 11 34 81 }
+				color2 = { 255 255 255 }
+				b_wiesensteig = {}
+				b_ulm = {}
+				b_helfenstein = {}
+				b_giengen = {}
+				b_hellenstein = {}
+				b_spitzenberg = {}
+				b_geislingen = {}
+			}
+			c_oettingen = {
+				color = { 118 78 38 }
+				color2 = { 255 255 255 }
+				b_oettingen = {}
+				b_dillingen = {}
+				b_neresheim = {}
+				b_bopfingen = {}
+				b_flochberg = {}
+				b_thannhausen = {}
+				b_bissingen = {}
+			}
+			c_wurttemberg = {
+				color = { 172 15 22 }
+				color2 = { 255 255 255 }
+				b_wirtemberg = {}
+				b_sindelfingen = {}
+				b_stuttgart = {}
+				b_vaihingen = {}
+				b_lowenstein = {}
+				b_eselsberg = {}
+				b_rosswag = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -3361,50 +3577,184 @@ e_hre = {
 			title_female = MARGRAVINE
 			foa = MARGRAVE_FOA
 			title_prefix = MARGRAVE_OF
-			c_schwaben = {
-				color = { 81 81 81 }
+			c_schelklingen = {
+				color = { 24 83 74 }
 				color2 = { 255 255 255 }
-				b_bregenz = {}
-				b_montfort = {}
-				b_lindau = {}
-				b_vaduz = {}
-				b_dornbirn = {}
-				b_sonnenberg_montfort = {}
-				b_langenargen = {}
+				b_marstetten = {}
+				b_schelklingen = {}
+				b_rot = {}
+				b_burgau = {}
+				b_donauworth = {}
+				b_ochsenhausen = {}
+				b_kirchberg = {}
 			}
 			c_waldburg = {
 				color = { 45 81 67 }
 				color2 = { 255 255 255 }
 				greek = "Cambodunum"
 				roman = "Cambodunum"
-				b_waldburg = {}
 				b_ravensburg = {}
-				b_altdorf = {}
-				b_weingarten = {}
+				b_kempten = {}
 				b_biberach = {}
-				b_schussenried = {}
-				b_wangen = {}
+				b_waldburg = {}
+				b_weingarten = {}
+				b_pfullendorf = {}
+				b_schmalegg = {}
 			}
-			c_ulm = {
-				color = { 24 83 74 }
+			c_augsburg = {
+				color = { 34 69 149 }
 				color2 = { 255 255 255 }
-				b_ulm = {}
-				b_katzenstein = {}
-				b_zwiefalten = {}
-				b_leipheim = {}
+				greek = "Augusta Vindelicorum"
+				roman = "Augusta Vindelicorum"
+				b_beuren = {}
+				b_augsburg = {}
+				b_fussen = {}
 				b_memmingen = {}
-				b_erbach = {}
-			}
-			c_oettingen = {
-				color = { 78 78 78 }
-				color2 = { 255 255 255 }
-				b_oettingen = {}
-				b_pappenheim = {}
-				b_wallerstein = {}
-				b_baldern = {}
-				b_spielberg = {}
+				b_ronsberg = {}
+				b_mindelheim = {}
+				b_rothenstein = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_alsace = {
+			color = { 111 19 32 }
+			color2 = { 200 106 0 }
+			capital = 134
+			culture = swabian
+			c_nordgau = {
+				color = { 176 201 96 }
+				color2 = { 255 255 255 }
+				title = LANDGRAVE
+				title_female = LANDGRAVINE
+				foa = LANDGRAVE_FOA
+				title_prefix = LANDGRAVE_OF
+				b_andlau = {}
+				b_strassburg = {}
+				b_hagenau = {}
+				b_schlettstadt = {}
+				b_werd = {}
+				b_molsheim = {}
+				b_ville = {}
+			}
+			c_sundgau = {
+				color = { 93 164 64 }
+				color2 = { 255 255 255 }
+				b_ferette = {}
+				b_murbach = {}
+				b_kolmar = {}
+				b_rappoltstein = {}
+				b_ensisheim = {}
+				b_mulhouse = {}
+				b_landser = {}
+				b_altkirch = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ratien = {
+			color = { 17 85 70 }
+			color2 = { 200 106 0 }
+			culture = swabian
+			capital = 249
+			c_montfort = {
+				color = { 181 21 66 }
+				color2 = { 255 255 255 }
+				b_montfort = {}
+				b_bregenz = {}
+				b_lindau = {}
+				b_hohenems = {}
+				b_werdenberg = {}
+				b_feldkirch = {}
+				b_sax = {}
+			}
+			c_schwyz = {
+				color = { 167 28 66 }
+				color2 = { 255 255 255 }
+				b_altrapperswill = {}
+				b_schwyz = {}
+				b_engelberg = {}
+				b_attinghausen = {}
+				b_altdorf = {}
+				b_sarnen = {}
+				b_stans = {}
+			}
+			c_aargau = {
+				color = { 167 28 66 }
+				color2 = { 255 255 255 }
+				title = LANDGRAVE
+				title_female = LANDGRAVINE
+				foa = LANDGRAVE_FOA
+				title_prefix = LANDGRAVE_OF
+				b_habsburg = {}
+				b_luzern = {}
+				b_lenzburg = {}
+				b_muri = {}
+				b_laufenburg = {}
+				b_einsiedeln = {}
+				b_tegerfelden = {}
+			}
+			c_thurgau = {
+				color = { 35 200 15 }
+				color2 = { 255 255 255 }
+				title = LANDGRAVE
+				title_female = LANDGRAVINE
+				foa = LANDGRAVE_FOA
+				title_prefix = LANDGRAVE_OF
+				b_kyburg = {}
+				b_stgallen = {}
+				b_zurich = {}
+				b_toggenburg = {}
+				b_winterthur = {}
+				b_regensberg = {}
+				b_schanis = {}
+			}
+			c_chur = {
+				color = { 37 188 87 }
+				color2 = { 255 255 255 }
+				greek = "Curia Raetorum"
+				roman = "Curia Raetorum"
+				b_chur = {}
+				b_vaz = {}
+				b_disentis = {}
+				b_bellinzona = {}
+				b_misox = {}
+				b_rhazuns = {}
+				b_ilanz = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_chur = {
+			color = { 100 76 131 }
+			color2 = { 255 255 255 }
+			culture = swabian
+			capital = 247
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
+			greek = "Curia Raetorum"
+			roman = "Curia Raetorum"
+		}
+		d_augsburg = {
+			color = { 255 160 122 }
+			color2 = { 255 255 255 }
+			culture = swabian
+			capital = 955
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
 		}
 		allow = {
 			OR = {
@@ -3436,13 +3786,14 @@ e_hre = {
 			c_praha = {
 				color = { 199 114 15 }
 				color2 = { 255 255 255 }
+				b_levyhradec = {}
 				b_praha = {}
+				b_stare_mesto = {}
 				b_brevnov = {}
 				b_boleslav = {}
+				b_slany = {}
 				b_sternbergprague = {}
-				b_krivoklat = {}
-				b_stare_mesto = {}
-				b_levyhradec = {}
+				b_sazava = {}
 			}
 			c_domazlice = {
 				color = { 197 112 13 }
@@ -3461,10 +3812,10 @@ e_hre = {
 				b_doudleby = {}
 				b_pisek = {}
 				b_vyssi_brod = {}
-				b_trebon = {}
+				b_milevsko = {}
 				b_rosenberg = {}
 				b_budweis = {}
-				b_netolice = {}
+				b_landstejn = {}
 			}
 			c_hradec = {
 				color = { 160 104 38 }
@@ -3478,12 +3829,12 @@ e_hre = {
 				bavarian = "Königgrätz"
 				low_frankish = "Königgrätz"
 				b_hradeckralove = {}
-				b_opatovice = {}
-				b_policka = {}
-				b_caslav = {}
-				b_jaromer = {}
 				b_chrudim = {}
-				b_trutnov = {}
+				b_opatovice = {}
+				b_jaromer = {}
+				b_caslav = {}
+				b_zeliv = {}
+				b_vartemberka = {}
 			}
 			c_boleslav = {
 				color = { 201 116 17 }
@@ -3498,12 +3849,12 @@ e_hre = {
 				low_frankish = "Glatz"
 				polish = "Klodzko"
 				b_glatz = {}
-				b_nachod = {}
 				b_jicin = {}
 				b_broumovkladsko = {}
-				b_wunschelburgkladsko = {}
-				b_neurodekladsko = {}
-				b_kamieniec = {}
+				b_nachod = {}
+				b_hummel = {}
+				b_karpien = {}
+				b_habelschwerdt = {}
 			}
 			c_litomerice = {
 				color = { 203 118 19 }
@@ -3511,10 +3862,10 @@ e_hre = {
 				b_litomerice = {}
 				b_bilina = {}
 				b_doksany = {}
-				b_lipa = {}
 				b_duba_hre = {}
+				b_lipa = {}
 				b_usti = {}
-				b_frydlant = {}
+				b_zittau = {}
 			}
 			c_zatec = {
 				color = { 205 120 21 }
@@ -3531,9 +3882,9 @@ e_hre = {
 				b_louny = {}
 				b_osek = {}
 				b_loket = {}
-				b_chomutov = {}
-				b_most = {}
-				b_ostrovzatec = {}
+				b_egerberk = {}
+				b_sumberk = {}
+				b_kadan = {}
 			}
 			c_plzen = {
 				color = { 205 120 21 }
@@ -3549,12 +3900,14 @@ e_hre = {
 				pommeranian = "Pilsen"
 				polish = "Pilsen"
 				b_plzen = {}
-				b_stribo = {}
 				b_kladruby = {}
-				b_plasy = {}
+				b_stribo = {}
 				b_primda = {}
+				b_plasy = {}
 				b_velhartice = {}
 				b_susice = {}
+				b_tepla = {}
+				b_klatovy = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -3582,9 +3935,10 @@ e_hre = {
 				b_hradiste = {}
 				b_ostrava = {}
 				b_unicov = {}
+				b_velehrad = {}
 				b_kromeriz = {}
+				b_bouzov = {}
 				b_staremesto = {}
-				b_prerov = {}
 			}
 			c_opava = {
 				color = { 163 107 41 }
@@ -3601,6 +3955,9 @@ e_hre = {
 				b_bruntal = {}
 				b_krnov = {}
 				b_odry = {}
+				b_hlubcice = {}
+				b_edelstejn = {}
+				b_hlucin = {}
 			}
 			c_znojmo = {
 				color = { 163 107 41 }
@@ -3617,9 +3974,9 @@ e_hre = {
 				b_jihlava = {}
 				b_trebic = {}
 				b_bitov = {}
-				b_vranov = {}
-				b_jemnice = {}
-				b_louka = {}
+				b_kunstat = {}
+				b_breclav = {}
+				b_moravsky_krumlov = {}
 			}
 			c_brno = {
 				color = { 166 110 44 }
@@ -3632,13 +3989,14 @@ e_hre = {
 				swabian = "Brünn"
 				bavarian = "Brünn"
 				low_frankish = "Brünn"
-				b_brno = {}
-				b_mikulov = {}
-				b_zdar = {}
-				b_rejhrad = {}
-				b_pohansko = {}
 				b_mikulcice = {}
+				b_pohansko = {}
+				b_brno = {}
+				b_rejhrad = {}
+				b_zdar = {}
+				b_mikulov = {}
 				b_pernstejn = {}
+				b_boskovice = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -3668,10 +4026,7 @@ e_hre = {
 		allow = { title_king_basic_allow = yes }
 	}
 	allow = {
-		FROM = {
-			has_holder = yes
-			is_de_jure_title = yes
-		}
+		FROM = { is_de_jure_title = yes }
 		OR = {
 			realm_size = 320
 			AND = {
@@ -3706,10 +4061,7 @@ e_roman_empire = {
 	culture = italian
 	religion = orthodox
 	allow = {
-		FROM = {
-			has_holder = yes
-			is_de_jure_title = yes
-		}
+		FROM = { is_de_jure_title = yes }
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
@@ -4559,7 +4911,6 @@ e_byzantium = {
 				emf_trigger = yes
 				byzantine_lockout_trigger = yes
 			}
-			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	}
@@ -5026,7 +5377,6 @@ e_byzantium = {
 				emf_trigger = yes
 				byzantine_lockout_trigger = yes
 			}
-			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	}
@@ -5364,7 +5714,6 @@ e_byzantium = {
 				emf_trigger = yes
 				byzantine_lockout_trigger = yes
 			}
-			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	}
@@ -5562,7 +5911,6 @@ e_byzantium = {
 				emf_trigger = yes
 				byzantine_lockout_trigger = yes
 			}
-			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	}
@@ -6151,7 +6499,6 @@ e_byzantium = {
 				emf_trigger = yes
 				byzantine_lockout_trigger = yes
 			}
-			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	}
@@ -6232,13 +6579,9 @@ e_byzantium = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			religion_group = christian
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	allow = {
-		religion_group = christian
 		e_roman_empire = { has_holder = no }
 		c_byzantion = { owner_under_ROOT = yes }
 		title_emperor_basic_allow = yes
@@ -7095,6 +7438,7 @@ e_scandinavia = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
+			FROM = { is_de_jure_title = yes }
 		}
 		has_landed_title = k_denmark
 		has_landed_title = k_norway
@@ -7469,10 +7813,10 @@ e_russia = {
 			c_kiev = {
 				color = { 106 106 26 }
 				color2 = { 255 255 255 }
+				b_kievkremlin = {}
 				b_bilohorodka = {}
 				b_kiev = {}
 				b_kanevkievskij = {}
-				b_trypillya = {}
 				b_vasylkiv = {}
 				b_vyshhorod = {}
 				b_churchofthetithes = { short_name = yes }
@@ -7904,6 +8248,7 @@ e_russia = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
+			FROM = { is_de_jure_title = yes }
 		}
 		title_emperor_basic_allow = yes
 	}
@@ -7926,49 +8271,55 @@ e_poland = {
 		catholic = 100
 		slavic_pagan_reformed = 800
 		baltic_pagan_reformed = 100
-		d_mazovia = {
-			color = { 147 21 39 }
+		d_lesser_poland = {
+			color = { 45 17 34 }
 			color2 = { 255 255 255 }
-			capital = 529
+			capital = 527
 			culture = polish
-			c_plock = {
-				color = { 30 127 2 }
+			c_krakowskie = {
+				color = { 6 137 2 }
 				color2 = { 255 255 255 }
-				b_plock = {}
-				b_plonsk = {}
-				b_ciechanow = {}
-				b_wyszogrod = {}
+				b_wawel = {}
+				b_krakow = {}
+				b_tyniec = {}
+				b_lelow = {}
+				b_mstow = {}
+				b_olkusz = {}
+				b_kazimierz = {}
+				b_czestochowa = {}
 			}
-			c_pultusk = {
-				color = { 130 121 2 }
+			c_sacz = {
+				color = { 61 5 2 }
 				color2 = { 255 255 255 }
-				b_zakroczym = {}
-				b_pultusk = {}
-				b_czerwinsk = {}
-				b_wizna = {}
-				b_przasnysz = {}
-				b_lomzapoland = {}
-				b_ostroleka = {}
+				b_sacz = {}
+				b_biecz = {}
+				b_szczyrzycz = {}
+				b_bochnia = {}
+				b_nowy_targ = {}
+				b_brzesko = {}
+				b_krosno = {}
 			}
-			c_rawamazovia = {
-				color = { 130 121 2 }
+			c_sieradzko-leczyckie = {
+				color = { 2 255 57 }
 				color2 = { 255 255 255 }
-				b_rawa = {}
-				b_lowicz = {}
-				b_sochaczew = {}
-				b_jezow = {}
-				b_bialapoland = {}
+				b_sieradz = {}
+				b_radomsko = {}
+				b_wolborz = {}
+				b_warta = {}
+				b_piotrkow = {}
+				b_konin = {}
+				b_kolo = {}
 			}
-			c_czersk = {
-				color = { 6 127 50 }
+			c_leczyca = {
+				color = { 102 218 80 }
 				color2 = { 255 255 255 }
-				b_czersk = {}
-				b_grojec = {}
-				b_sieciechow = {}
-				b_warszawa = {}
-				b_garwolin = {}
-				b_liw = {}
-				b_brodno = {}
+				b_leczyca = {}
+				b_sulejow = {}
+				b_tum = {}
+				b_inowlodz = {}
+				b_zgierz = {}
+				b_uniejow = {}
+				b_przedborz = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -7977,36 +8328,8 @@ e_poland = {
 			color2 = { 255 255 255 }
 			capital = 431
 			culture = polish
-			c_santok = {
-				color = { 6 135 2 }
-				color2 = { 255 255 255 }
-				b_santok = {}
-				b_drzen = {}
-				b_gorzow = {}
-				b_tuczno = {}
-				b_pila = {}
-				b_swiebodzi = {}
-			}
-			c_gnieznienskie = {
-				color = { 6 125 2 }
-				color2 = { 255 255 255 }
-				german = "Gnesen"
-				low_german = "Gnesen"
-				dutch = "Gnesen"
-				low_saxon = "Gnesen"
-				thuringian = "Gnesen"
-				franconian = "Gnesen"
-				swabian = "Gnesen"
-				bavarian = "Gnesen"
-				low_frankish = "Gnesen"
-				b_gniezno = {}
-				b_wagrowiec = {}
-				b_lekno = {}
-				b_znin = {}
-				b_naklo = {}
-			}
 			c_poznanskie = {
-				color = { 6 145 2 }
+				color = { 61 145 23 }
 				color2 = { 255 255 255 }
 				german = "Posen"
 				low_german = "Posen"
@@ -8018,68 +8341,154 @@ e_poland = {
 				bavarian = "Posen"
 				low_frankish = "Posen"
 				b_poznan = {}
-				b_miedryrzecz = {}
-				b_zbaszyn = {}
-				b_obrzycko = {}
-				b_sroda = {}
-				b_lubin = {}
-				b_czarnkow = {}
+				b_przemet = {}
+				b_wschowa = {}
+				b_naklo = {}
+				b_miedzyrzecz = {}
+				b_rogozno = {}
+				b_zlotow = {}
+				b_koscian = {}
+				b_skwierzyna = {}
+			}
+			c_gnieznienskie = {
+				color = { 61 125 2 }
+				color2 = { 255 255 255 }
+				german = "Gnesen"
+				low_german = "Gnesen"
+				dutch = "Gnesen"
+				low_saxon = "Gnesen"
+				thuringian = "Gnesen"
+				franconian = "Gnesen"
+				swabian = "Gnesen"
+				bavarian = "Gnesen"
+				low_frankish = "Gnesen"
+				b_gniezno = {}
+				b_srem_wielkopolska = {}
+				b_znin = {}
+				b_giecz = {}
+				b_trzemezno = {}
+				b_pyzdry = {}
+				b_kcynia = {}
+				b_gasawa = {}
+				b_biechowo = {}
 			}
 			c_kaliskie = {
-				color = { 6 155 20 }
+				color = { 26 155 20 }
 				color2 = { 255 255 255 }
-				b_ostrzeszow = {}
 				b_kalisz = {}
-				b_konin = {}
-				b_wielun = {}
 				b_ladte = {}
+				b_wielun = {}
+				b_ruda = {}
+				b_kepno = {}
+				b_ostrzeszow = {}
 				b_jarocin = {}
-				b_ostrowielkopolski = {}
 			}
 			allow = {
-				OR = {
-					has_landed_title = c_poznanskie
-					any_vassal = { has_landed_title = c_poznanskie }
-				}
+				c_poznanskie = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
+		}
+		d_mazovia = {
+			color = { 147 21 39 }
+			color2 = { 255 255 255 }
+			capital = 529
+			culture = polish
+			c_plock = {
+				color = { 30 127 2 }
+				color2 = { 255 255 255 }
+				b_plock = {}
+				b_gostynin = {}
+				b_ciechanow = {}
+				b_wyszogrod_mazovia = {}
+				b_szrensk = {}
+				b_lowicz = {}
+				b_sierpc = {}
+			}
+			c_rawamazovia = {
+				color = { 130 121 2 }
+				color2 = { 255 255 255 }
+				b_rawa = {}
+				b_pultusk = {}
+				b_sochaczew = {}
+				b_wizna = {}
+				b_biala_rawska = {}
+				b_lomza = {}
+				b_rozan = {}
+			}
+			c_czersk = {
+				color = { 6 127 50 }
+				color2 = { 255 255 255 }
+				b_czersk = {}
+				b_grojec = {}
+				b_warszawa = {}
+				b_liw = {}
+				b_jazdow = {}
+				b_brodno = {}
+				b_nur_mazovia = {}
+			}
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_silesia = {
 			color = { 231 183 14 }
 			color2 = { 255 255 255 }
 			capital = 434
-			c_upper_silesia = {
+			c_wroclaw = {
 				color = { 17 218 10 }
 				color2 = { 255 255 255 }
+				german = "Breslau"
+				low_german = "Breslau"
+				dutch = "Breslau"
+				low_saxon = "Breslau"
+				thuringian = "Breslau"
+				franconian = "Breslau"
+				swabian = "Breslau"
+				bavarian = "Breslau"
+				low_frankish = "Breslau"
 				b_wroclaw = {}
-				b_ostrow_tumski = {}
-				b_sleza = {}
-				b_henrykow = {}
-				b_brzeg = {}
+				b_trzebnica = {}
+				b_brzeg_slaski = {}
 				b_niemcza = {}
 				b_olesnica = {}
+				b_ziebice = {}
+				b_henrykow = {}
+				b_nysa_slaski = {}
+				b_sleza = {}
+				b_pogorzela = {}
 			}
-			c_lower_silesia = {
+			c_glogow = {
 				color = { 17 228 10 }
 				color2 = { 255 255 255 }
+				german = "Glogau"
+				low_german = "Glogau"
+				dutch = "Glogau"
+				low_saxon = "Glogau"
+				thuringian = "Glogau"
+				franconian = "Glogau"
+				swabian = "Glogau"
+				bavarian = "Glogau"
+				low_frankish = "Glogau"
 				b_glogow = {}
-				b_zagan = {}
-				b_krosno = {}
+				b_krosno_odrzanskie = {}
 				b_lubiaz = {}
+				b_zagan = {}
+				b_gora = {}
 				b_scinawa = {}
+				b_wolow = {}
+				b_wierzbna = {}
 			}
 			c_opole = {
-				color = { 17 238 10 }
+				color = { 117 238 10 }
 				color2 = { 255 255 255 }
 				b_opole = {}
-				b_kozle = {}
-				b_ruda = {}
-				b_raciborz = {}
-				b_strzelce = {}
 				b_olesno = {}
+				b_bytom = {}
+				b_kozle = {}
+				b_strzelce_opolskie = {}
+				b_rudy = {}
+				b_mikolow = {}
 			}
 			c_legnica = {
-				color = { 17 238 10 }
+				color = { 17 12 10 }
 				color2 = { 255 255 255 }
 				german = "Liegnitz"
 				low_german = "Liegnitz"
@@ -8091,12 +8500,15 @@ e_poland = {
 				bavarian = "Liegnitz"
 				low_frankish = "Liegnitz"
 				b_legnica = {}
-				b_lwowek = {}
+				b_jawor = {}
+				b_legnickie_pole = {}
+				b_lewowek_slaski = {}
 				b_swidnica = {}
+				b_lubin = {}
 				b_boleslawiec = {}
 			}
 			c_cieszyn = {
-				color = { 6 127 2 }
+				color = { 16 127 2 }
 				color2 = { 255 255 255 }
 				german = "Teschen"
 				low_german = "Teschen"
@@ -8109,67 +8521,49 @@ e_poland = {
 				low_frankish = "Teschen"
 				bohemian = "Ratibor"
 				moravian = "Ratibor"
+				b_raciborz = {}
 				b_cieszyn = {}
 				b_oswiecim = {}
 				b_zator = {}
-				b_bielsko = {}
-				b_ustron = {}
-				b_skoczow = {}
+				b_orlowa = {}
+				b_zory = {}
+				b_pzczyna = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_lesser_poland = {
-			color = { 17 17 102 }
+		d_sandomierz = {
+			color = { 119 64 147 }
 			color2 = { 255 255 255 }
 			capital = 531
 			culture = polish
-			c_krakowskie = {
-				color = { 6 137 2 }
-				color2 = { 255 255 255 }
-				b_wawel = {}
-				b_krakow = {}
-				b_tyniec = {}
-				b_brzesko = {}
-				b_kleparz = {}
-				b_wojnicz = {}
-				b_jerzejow = {}
-			}
-			c_sacz = {
-				color = { 6 117 2 }
-				color2 = { 255 255 255 }
-				b_sacz = {}
-				b_biecz = {}
-				b_szczyrzycz = {}
-				b_tarnow = {}
-				b_jaslo = {}
-				b_gorlice = {}
-			}
-			c_lublin = {
-				color = { 174 43 43 }
-				color2 = { 255 255 255 }
-				b_goraj = {}
-				b_cock = {}
-				b_lublin = {}
-				b_lukow = {}
-				b_parczew = {}
-			}
 			c_sandomierskie = {
 				color = { 16 147 2 }
 				color2 = { 255 255 255 }
 				b_sandomierz = {}
-				b_opoczno = {}
+				b_radom = {}
+				b_koprzywnica = {}
+				b_zarnow = {}
+				b_lublin = {}
+				b_lukow = {}
+				b_sieciechow = {}
+			}
+			c_wislica = {
+				color = { 174 43 43 }
+				color2 = { 255 255 255 }
 				b_wislica = {}
 				b_kielce = {}
+				b_tarnow = {}
+				b_wojnicz = {}
+				b_jerzejow = {}
 				b_opatow = {}
-				b_zawichost = {}
-				b_radom = {}
+				b_malogoszcz = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
 		d_kuyavia = {
 			color = { 119 64 47 }
 			color2 = { 255 255 255 }
-			capital = 428
+			capital = 1055
 			culture = polish
 			c_chelminskie = {
 				color = { 40 145 2 }
@@ -8194,54 +8588,26 @@ e_poland = {
 			c_kujawy = {
 				color = { 10 245 10 }
 				color2 = { 255 255 255 }
-				b_inowroclaw = {}
+				b_brzesc = {}
 				b_wloclawek = {}
-				b_bydgoszcz = {}
-				b_kruszwica = {}
-				b_brzesckujawski = {}
-				b_gniewkow = {}
 				b_radziejow = {}
+				b_moglino = {}
+				b_kowal = {}
+				b_strzelno = {}
+				b_przedecz = {}
 			}
-			allow = {
-				OR = {
-					has_landed_title = c_kujawy
-					any_vassal = { has_landed_title = c_kujawy }
-				}
-				title_duke_basic_allow = yes
-			}
-		}
-		d_sieradzko-leczyckie = {
-			color = { 212 210 189 }
-			color2 = { 255 255 255 }
-			capital = 528
-			culture = polish
-			c_sieradzko-leczyckie = {
-				color = { 0 255 0 }
+			c_inowroclaw = {
+				color = { 130 11 2 }
 				color2 = { 255 255 255 }
-				b_sieradz = {}
-				b_warta = {}
-				b_piotrkow = {}
-				b_sulejow = {}
-				b_radomsko = {}
-				b_wolborz = {}
+				b_inowroclaw = {}
+				b_gniwekowo = {}
+				b_kruszwica = {}
+				b_wyszogrod_bydgoszcz = {}
+				b_dobrzyn = {}
+				b_bydoszcz = {}
+				b_slonsk_ciechocinek = {}
 			}
-			c_leczyca = {
-				color = { 100 255 80 }
-				color2 = { 255 255 255 }
-				b_inowlodz = {}
-				b_leczyca = {}
-				b_tum = {}
-				b_piatek = {}
-				b_zgierz = {}
-				b_uniejow = {}
-			}
-			allow = {
-				OR = {
-					has_landed_title = c_sieradzko-leczyckie
-					any_vassal = { has_landed_title = c_sieradzko-leczyckie }
-				}
-				title_duke_basic_allow = yes
-			}
+			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -8337,10 +8703,7 @@ e_poland = {
 				b_druskieniki = {}
 			}
 			allow = {
-				OR = {
-					has_landed_title = c_trakai
-					any_vassal = { has_landed_title = c_trakai }
-				}
+				c_trakai = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		}
@@ -8383,10 +8746,7 @@ e_poland = {
 				b_birzai = {}
 			}
 			allow = {
-				OR = {
-					has_landed_title = c_zhmud
-					any_vassal = { has_landed_title = c_zhmud }
-				}
+				c_zhmud = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		}
@@ -9102,16 +9462,8 @@ e_carpathia = {
 				b_petervasara = {}
 			}
 			allow = {
-				OR = {
-					AND = {
-						has_landed_title = c_abauj
-						has_landed_title = c_heves
-					}
-					any_vassal = {
-						has_landed_title = c_abauj
-						has_landed_title = c_heves
-					}
-				}
+				c_abauj = { owner_under_ROOT = yes }
+				c_heves = { owner_under_ROOT = yes }
 				title_duke_basic_allow = yes
 			}
 		}
@@ -9638,7 +9990,10 @@ e_carpathia = {
 		allow = { title_king_basic_allow = yes }
 	}
 	allow = {
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = k_hungary
 		has_landed_title = k_croatia
 		title_emperor_basic_allow = yes
@@ -10128,11 +10483,10 @@ e_arabia = {
 			c_cairo = {
 				color = { 24 236 119 }
 				color2 = { 255 255 255 }
-				sicilian_arabic_arabic = Qáhira
 				greek = "Fustat"
 				coptic = "Fustat"
 				roman = "Babylon"
-				b_cairo = { sicilian_arabic_arabic = Qáhira }
+				b_cairo = {}
 				b_fustat = {}
 				b_qaylub = {}
 				b_alazhar = {}
@@ -11060,10 +11414,7 @@ e_abyssinia = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			religion_group = christian
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_maikelebahr = {
 		color = { 255 67 20 }
@@ -11230,6 +11581,7 @@ e_britannia = {
 				b_andover = {}
 				b_odiham = {}
 				b_wherwell = {}
+				b_carisbrooke = {}
 			}
 			c_wiltshire = {
 				color = { 241 95 45 }
@@ -11256,12 +11608,6 @@ e_britannia = {
 				b_ramsbury = {}
 				b_marlborough = {}
 				b_clarendon = {}
-			}
-			c_wight = {
-				color = { 241 95 45 }
-				color2 = { 255 255 255 }
-				b_carisbrooke = {}
-				b_east_cowes = {}
 			}
 			c_dorset = {
 				color = { 241 25 70 }
@@ -12025,10 +12371,15 @@ e_britannia = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
+		gain_effect = {
+			if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				custom_tooltip = { text = ENGLAND_BECOMES_DE_JURE_TT }
+			}
+		}
 		allow = {
 			OR = {
 				FROM = { is_de_jure_title = yes }
-				FROM = { has_holder = yes }
 				AND = {
 					independent = yes
 					custom_tooltip = {
@@ -12044,12 +12395,6 @@ e_britannia = {
 				}
 			}
 			title_king_basic_allow = yes
-		}
-		gain_effect = {
-			if = {
-				limit = { FROM = { is_de_jure_title = no } }
-				custom_tooltip = { text = ENGLAND_BECOMES_DE_JURE_TT }
-			}
 		}
 	}
 	k_east_anglia = {
@@ -12834,6 +13179,7 @@ e_britannia = {
 				culture = scottish
 				culture = breton
 				culture = welsh
+				FROM = { is_de_jure_title = yes }
 			}
 			title_king_basic_allow = yes
 		}
@@ -13018,6 +13364,7 @@ e_britannia = {
 			culture_group = north_germanic
 			culture_group = west_germanic
 			culture_group = celtic
+			FROM = { is_de_jure_title = yes }
 		}
 		title_emperor_basic_allow = yes
 	}
@@ -13256,9 +13603,11 @@ e_italy = {
 			culture = italian
 			greek = "Alpes Cottiae"
 			roman = "Alpes Cottiae"
-			c_piemonte = {
+			c_susa = {
 				color = { 154 31 88 }
 				color2 = { 255 255 255 }
+				greek = "Turin"
+				roman = "Turin"
 				b_torino = {}
 				b_virle = {}
 				b_chieri = {}
@@ -13278,7 +13627,7 @@ e_italy = {
 				b_biandrate = {}
 				b_arona = {}
 			}
-			c_grisons = {
+			c_aosta = {
 				culture = arpitan
 				color = { 107 15 41 }
 				color2 = { 255 255 255 }
@@ -13343,10 +13692,12 @@ e_italy = {
 			title_female = MARCHESA
 			foa = MARQUISATE_FOA
 			title_prefix = MARQUISATE_OF
-			c_monferrato = {
+			c_asti = {
 				color = { 250 244 225 }
 				color2 = { 255 255 255 }
 				culture = italian
+				greek = "Asti"
+				roman = "Asti"
 				b_serralunga = {}
 				b_casale = {}
 				b_asti = {}
@@ -13864,10 +14215,7 @@ e_italy = {
 			title_female = GRANDE_FEMALE
 			short_name = yes
 		}
-		allow = {
-			religion_group = christian
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_patrimoniumpetri = {
 		color = { 171 30 30 }
@@ -14147,7 +14495,7 @@ e_italy = {
 			color2 = { 255 255 255 }
 			capital = 324
 			culture = umbrian
-			c_corsica = {
+			c_rogliano = {
 				color = { 226 248 251 }
 				color2 = { 255 255 255 }
 				b_san_colombano = {}
@@ -14744,12 +15092,13 @@ e_italy = {
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
 				b_venezia = {}
-				b_rialto = {}
-				b_pallestrina = {}
+				b_san_marco = {}
 				b_chioggia = {}
-				b_jesolo = {}
+				b_portogruaro = {}
+				b_concordia = {}
 				b_murano = {}
 				b_torcello = {}
+				b_caorle = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -14759,7 +15108,10 @@ e_italy = {
 		}
 	}
 	allow = {
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = k_italy
 		has_landed_title = k_sicily
 		title_emperor_basic_allow = yes
@@ -14786,81 +15138,123 @@ e_france = {
 				color = { 107 15 21 }
 				color2 = { 255 255 255 }
 				b_montmelian = {}
-				b_moutiers = {}
+				b_moutiers_tarentaise = {}
+				b_belley = {}
 				b_ciamberi = {}
-				b_conflans = {}
-				b_aixlesbains = {}
+				b_miolans = {}
 				b_hautecombe = {}
-				b_modane = {}
+				b_la_chambre = {}
 			}
-			c_geneve = {
-				color = { 113 21 47 }
-				color2 = { 255 255 255 }
-				b_geneve = {}
-				b_romainmotier = {}
-				b_nyon = {}
-				b_lausanne = {}
-				b_echallens = {}
-				b_aubonne = {}
-				b_orbe = {}
-			}
-			c_bugey = {
+			c_bresse = {
 				color = { 104 12 38 }
 				color2 = { 255 255 255 }
-				b_bellegarde = {}
-				b_brou = {}
-				b_belley = {}
-				b_nantua = {}
-				b_oyonnax = {}
-				b_amberieu = {}
-			}
-			c_cheese = {
-				color = { 110 18 44 }
-				color2 = { 255 255 255 }
-				b_montsalvens = {}
-				b_rougemont = {}
-				b_riaz = {}
-				b_greyerz = {}
-				b_chateaudoex = {}
-				b_corbieres = {}
-				b_charmey = {}
+				b_bauge = {}
+				b_ambronay = {}
+				b_bourg = {}
+				b_coligny = {}
+				b_thoire = {}
+				b_varey = {}
+				b_colombier = {}
+				b_grolee = {}
 			}
 			c_valais = {
 				color = { 110 18 44 }
 				color2 = { 255 255 255 }
-				b_brig = {}
-				b_siders = {}
 				b_sitten = {}
+				b_gestelnburg = {}
+				b_leuk = {}
+				b_raron = {}
+				b_visp = {}
+				b_grengiols = {}
+				b_ayent = {}
 			}
 			c_chablais = {
 				color = { 107 35 41 }
 				color2 = { 255 255 255 }
-				b_aigle = {}
-				b_thonon = {}
 				b_stmaurice = {}
-				b_monthey = {}
+				b_aigle = {}
 				b_martigny = {}
+				b_faucigny = {}
+				b_blonay = {}
+				b_allinges = {}
+				b_saillon = {}
+			}
+			c_geneve = {
+				color = { 13 21 147 }
+				color2 = { 255 255 255 }
+				b_geneve = {}
+				b_annecy = {}
+				b_nyon = {}
+				b_gex = {}
+				b_viry = {}
+				b_pragins = {}
+				b_menthon = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_arles = {
-			color = { 243 209 23 }
-			color2 = { 220 220 0 }
-			capital = 1047
-			culture = occitan
-			c_arles = {
-				color = { 0 30 130 }
+		d_zahringen = {
+			color = { 106 163 204 }
+			color2 = { 200 106 0 }
+			culture = swabian
+			capital = 244
+			c_rheinfelden = {
+				color = { 165 26 64 }
 				color2 = { 255 255 255 }
-				b_arles = {}
-				b_chateaudelemperi = {}
-				b_salondeprovence = {}
+				b_rheinfelden = {}
+				b_solothurn = {}
+				b_bern = {}
+				b_frohburg = {}
+				b_buchegg = {}
+				b_fribourg = {}
+				b_homberg = {}
 			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
+			c_neuchatel = {
+				color = { 163 24 62 }
+				color2 = { 255 255 255 }
+				b_neuchatel = {}
+				b_stimier = {}
+				b_avenches = {}
+				b_grandson = {}
+				b_strassberg = {}
+				b_nidau = {}
+				b_erlach = {}
 			}
+			c_gruyere = {
+				color = { 110 18 44 }
+				color2 = { 255 255 255 }
+				b_greyerz = {}
+				b_rougemont_greyerz = {}
+				b_bulle = {}
+				b_montsalvens = {}
+				b_strattlingen = {}
+				b_wimmis = {}
+				b_weissenau = {}
+			}
+			c_vaud = {
+				color = { 87 38 62 }
+				color2 = { 255 255 255 }
+				b_lausanne = {}
+				b_orbe = {}
+				b_cossany = {}
+				b_aubonne = {}
+				b_villarzel = {}
+				b_lutry = {}
+				b_romainmotier = {}
+			}
+			c_basel = {
+				color = { 169 30 68 }
+				color2 = { 255 255 255 }
+				greek = "Basilea"
+				roman = "Basilea"
+				b_basel = {}
+				b_biel = {}
+				b_thierstein = {}
+				b_buchburg = {}
+				b_porrentruy = {}
+				b_bellelay = {}
+				b_farnsburg = {}
+			}
+			allow = { title_duke_basic_allow = yes }
 		}
 		d_provence = {
 			color = { 92 127 157 }
@@ -14873,31 +15267,51 @@ e_france = {
 				color = { 149 40 70 }
 				color2 = { 255 255 255 }
 				b_aix = {}
-				b_marseille = {}
-				b_grimaud = {}
 				b_frejus = {}
-				b_grasse = {}
+				b_toulon = {}
+				b_digne = {}
 				b_castellane = {}
-				b_tarascon = {}
+				b_glandeves = {}
+				b_hyeres = {}
+				b_brignoles = {}
+			}
+			c_marseille = {
+				color = { 0 30 130 }
+				color2 = { 255 255 255 }
+				greek = "Massalia"
+				roman = "Massalia"
+				b_arles = {}
+				b_marseille = {}
+				b_trets = {}
+				b_baux = {}
+				b_fos_sur_mer = {}
+				b_porcellets = {}
+				b_salondeprovence = {}
 			}
 			c_forcalquier = {
 				color = { 151 42 72 }
 				color2 = { 255 255 255 }
 				b_forcalquier = {}
+				b_gap = {}
+				b_embrun = {}
 				b_sisteron = {}
-				b_sault = {}
-				b_digne = {}
-				b_nyons = {}
+				b_agoult = {}
 				b_apt = {}
-				b_riez = {}
+				b_montorcier = {}
+				b_montmaur = {}
 			}
-			c_nice = {
-				color = { 147 39 69 }
+			c_antibes = {
+				color = { 147 39 169 }
 				color2 = { 255 255 255 }
+				greek = "Antipolis"
+				roman = "Antipolis"
 				b_nizza = {}
 				b_antibes = {}
-				b_lantosque = {}
-				b_contes = {}
+				b_grasse = {}
+				b_vence = {}
+				b_berre = {}
+				b_lerins = {}
+				b_barcelonette = {}
 			}
 			c_venaissin = {
 				color = { 153 44 74 }
@@ -14908,47 +15322,11 @@ e_france = {
 				b_avignon = {}
 				b_venasque = {}
 				b_carpentras = {}
-				b_stpaul = {}
-			}
-			c_viviers = {
-				color = { 12 18 245 }
-				color2 = { 255 255 255 }
-				b_aubenas = {}
-				b_tournon = {}
-				b_viviers = {}
-				b_largentiere = {}
-				b_albalaromaine = {}
-				b_privas = {}
-				b_lecheylard = {}
+				b_vaison = {}
+				b_saint_paul_trois_chateaux = {}
+				b_cavaillon = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		}
-		d_lyon = {
-			color = { 128 0 40 }
-			color2 = { 255 255 255 }
-			capital = 227
-			culture = arpitan
-			greek = "Lugdunum"
-			roman = "Lugdunum"
-			c_lyon = {
-				color = { 138 0 20 }
-				color2 = { 255 255 255 }
-				greek = "Lugdunum"
-				roman = "Lugdunum"
-				b_brindas = {}
-				b_stjeanbaptiste = {}
-				b_lyon = {}
-				b_anse = {}
-				b_pusignan = {}
-				b_chessy = {}
-				b_lacenas = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
 		}
 		d_dauphine = {
 			color = { 75 50 50 }
@@ -14962,34 +15340,38 @@ e_france = {
 				roman = "Vienna"
 				b_albon = {}
 				b_vienne = {}
+				b_annonay = {}
 				b_chateaudeclermont = {}
-				b_chateaudefallavier = {}
-				b_septeme = {}
-				b_chateaudevirieu = {}
 				b_latourdupin = {}
+				b_bressieux = {}
+				b_romans_sur_isere = {}
+				b_bonnevaux = {}
 			}
 			c_valentinois = {
-				color = { 119 30 54 }
+				color = { 19 60 57 }
 				color2 = { 255 255 255 }
 				greek = "Valentia"
 				roman = "Valentia"
-				b_chateaudesadhemar = {}
 				b_valence = {}
-				b_stantoine = {}
+				b_nyons = {}
 				b_die = {}
-				b_chamaret = {}
+				b_grignan = {}
 				b_montelimar = {}
-				b_romans = {}
+				b_mevouillon = {}
+				b_montauban_valentionis = {}
 			}
-			c_gapencais = {
-				color = { 127 38 62 }
+			c_lyon = {
+				color = { 138 0 20 }
 				color2 = { 255 255 255 }
-				b_embrun = {}
-				b_gap = {}
-				b_briancon = {}
-				b_stbonnet = {}
-				b_serresn = {}
-				b_veynes = {}
+				greek = "Lugdunum"
+				roman = "Lugdunum"
+				b_pusignan = {}
+				b_jarez = {}
+				b_lyon = {}
+				b_venissieux = {}
+				b_bron = {}
+				b_chandieu = {}
+				b_givors = {}
 			}
 			c_graisivaudan = {
 				color = { 127 38 62 }
@@ -14998,72 +15380,44 @@ e_france = {
 				roman = "Grenoble"
 				b_vif = {}
 				b_grenoble = {}
-				b_voreppe = {}
-				b_valbonnais = {}
-				b_lamure = {}
-				b_pontcharra = {}
+				b_grande_chartreuse = {}
+				b_sassenage = {}
+				b_briancon = {}
+				b_montbel = {}
+				b_saint_bonnet_en_champsaur = {}
+			}
+			c_viviers = {
+				color = { 12 18 245 }
+				color2 = { 255 255 255 }
+				b_aubenas = {}
+				b_largentiere = {}
+				b_viviers = {}
+				b_chalancon = {}
+				b_privas = {}
+				b_le_monastier_sur_gazeill = {}
+				b_vogue = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		}
-		d_basel = {
-			color = { 195 183 210 }
-			color2 = { 255 255 255 }
-			capital = 1037
-			culture = german
-			title = FE
-			title_female = FE
-			foa = FE_FOA
-			title_prefix = FE_OF
-			c_basel = {
-				color = { 169 30 68 }
-				color2 = { 255 255 255 }
-				greek = "Basilea"
-				roman = "Basilea"
-				b_basel = {}
-				b_laufenburg = {}
-				b_arlesheim = {}
-				b_kleinlutzel = {}
-			}
-			allow = {
-				religion_group = christian
-				is_theocracy = yes
-				piety = 500
-				title_duke_basic_allow = yes
-			}
 		}
 		d_upper_burgundy = {
 			color = { 104 2 94 }
 			color2 = { 255 255 255 }
-			capital = 1044
+			capital = 1039
 			culture = frankish
 			title = CPALATIN
 			title_female = CEPALATIN
 			foa = CPALATIN_FOA
 			title_prefix = CPALATIN_OF
-			c_portois = {
-				color = { 163 24 62 }
+			c_dole = {
+				color = { 33 24 3 }
 				color2 = { 255 255 255 }
-				b_oricourt = {}
-				b_fondremand = {}
-				b_luxeuil = {}
-				b_lure = {}
-				b_marnay = {}
-			}
-			c_amous = {
-				color = { 163 24 62 }
-				color2 = { 255 255 255 }
-				b_dole = {}
 				b_gray = {}
-				b_auxonne = {}
-			}
-			c_varais = {
-				color = { 171 50 50 }
-				color2 = { 255 255 255 }
-				b_baume = {}
-				b_pontarlier = {}
-				b_poligny = {}
+				b_dole = {}
+				b_saint_oyand = {}
 				b_salins = {}
-				b_clairvauox = {}
+				b_acey = {}
+				b_poligny = {}
+				b_arlay = {}
 			}
 			c_besancon = {
 				color = { 171 70 70 }
@@ -15071,28 +15425,66 @@ e_france = {
 				greek = "Vesontio"
 				roman = "Vesontio"
 				b_besancon = {}
-				b_stferjeux = {}
+				b_rougemont = {}
+				b_ornans = {}
+				b_joux = {}
+				b_montfaucon = {}
+				b_saint_maurice_en_montagne = {}
+				b_montferrand_de_la_chateau = {}
+			}
+			c_vesoul = {
+				color = { 163 22 62 }
+				color2 = { 255 255 255 }
+				b_faucogney = {}
+				b_vesoul = {}
+				b_luxeuil = {}
+				b_montsaugeon = {}
+				b_baume = {}
+				b_lure = {}
+				b_cherlieu = {}
 			}
 			c_montbeliard = {
-				color = { 171 32 70 }
+				color = { 17 32 70 }
 				color2 = { 255 255 255 }
-				b_montfaucon = {}
-				b_hericourtm = {}
-				b_clemontm = {}
 				b_montbeliard = {}
-				b_montecheroux = {}
-			}
-			c_neuchatel = {
-				color = { 163 24 62 }
-				color2 = { 255 255 255 }
-				b_neuchatel = {}
-				b_stimier = {}
-				b_grandson = {}
-				b_yverdon = {}
-				b_estavayer = {}
-				b_avences = {}
+				b_hericourt = {}
+				b_belchamp = {}
+				b_la_roche_montbeliard = {}
+				b_neuchatel_urtiere = {}
+				b_belvoir_comte = {}
+				b_glere = {}
 			}
 			allow = { title_duke_basic_allow = yes }
+		}
+		d_lyon = {
+			color = { 128 0 40 }
+			color2 = { 255 255 255 }
+			capital = 227
+			culture = arpitan
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			greek = "Lugdunum"
+			roman = "Lugdunum"
+		}
+		d_basel = {
+			color = { 195 183 210 }
+			color2 = { 255 255 255 }
+			capital = 1037
+			culture = german
+			allow = {
+				religion_group = christian
+				is_theocracy = yes
+				piety = 500
+				title_duke_basic_allow = yes
+			}
+			title = FE
+			title_female = FE
+			foa = FE_FOA
+			title_prefix = FE_OF
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -15232,53 +15624,45 @@ e_france = {
 				color = { 59 92 232 }
 				color2 = { 255 255 255 }
 				b_gent = {}
-				b_oudenaarde = {}
-				b_aalst = {}
-				b_st_niklaas = {}
 				b_gravensteencastle = {}
 				b_saintbavo = {}
-				b_dendermonde = {}
+				b_deinze = {}
+				b_kortrijk = {}
+				b_beveren = {}
+				b_bornem = {}
 			}
 			c_lille = {
 				color = { 59 92 232 }
 				color2 = { 255 255 255 }
-				b_kortrijk = {}
-				b_lille = {}
-				b_bouvines = {}
-				b_mouscron = {}
-				b_wattignies = {}
-				b_fachesthumesnil = {}
-			}
-			c_tournai = {
-				color = { 59 92 232 }
-				color2 = { 255 255 255 }
-				b_doornik = {}
 				b_douai = {}
-				b_orchies = {}
+				b_lille = {}
+				b_tourcoing = {}
 				b_cysoing = {}
-				b_saintmartin = {}
+				b_wattignies = {}
+				b_orchies = {}
+				b_doornik = {}
 			}
 			c_yperen = {
 				color = { 51 84 224 }
 				color2 = { 255 255 255 }
 				b_ypres = {}
-				b_rosebeke = {}
+				b_wervik = {}
 				b_cassel = {}
-				b_roeselare = {}
-				b_poperinge = {}
-				b_menen = {}
-				b_diksmuide = {}
+				b_sint_winoksbergen = {}
+				b_belle = {}
+				b_dunkerque = {}
+				b_waasten = {}
 			}
 			c_brugge = {
 				color = { 55 88 228 }
 				color2 = { 255 255 255 }
+				b_aardenburg = {}
 				b_brugge = {}
-				b_damme = {}
-				b_sluys = {}
-				b_oostende = {}
-				b_male = {}
-				b_nieuwpoort = {}
 				b_torhout = {}
+				b_oostende = {}
+				b_oudenburg = {}
+				b_wijnendale = {}
+				b_male = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -15757,7 +16141,6 @@ e_france = {
 				b_louvois = {}
 			}
 			allow = {
-				religion_group = christian
 				is_theocracy = yes
 				piety = 500
 				title_duke_basic_allow = yes
@@ -16214,7 +16597,7 @@ e_france = {
 				b_blaye = {}
 				b_lasauve = {}
 				b_libourne = {}
-				b_bourg = {}
+				b_labrede = {}
 			}
 			c_agen = {
 				color = { 62 18 251 }
@@ -16418,7 +16801,10 @@ e_france = {
 				culture = norman
 			}
 		}
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			FROM = { is_de_jure_title = yes }
+		}
 		has_landed_title = k_france
 		has_landed_title = k_burgundy
 		title_emperor_basic_allow = yes
@@ -16643,13 +17029,7 @@ e_spain = {
 				title_duke_basic_allow = yes
 			}
 		}
-		allow = {
-			OR = {
-				religion_group = christian
-				FROM = { has_holder = yes }
-			}
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_navarra = {
 		color = { 225 22 22 }
@@ -16711,16 +17091,7 @@ e_spain = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			OR = {
-				AND = {
-					culture = basque
-					religion_group = christian
-				}
-				FROM = { has_holder = yes }
-			}
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_leon = {
 		color = { 142 53 124 }
@@ -16873,13 +17244,7 @@ e_spain = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			OR = {
-				religion_group = christian
-				FROM = { has_holder = yes }
-			}
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_aragon = {
 		color = { 255 237 120 }
@@ -17132,13 +17497,7 @@ e_spain = {
 				title_duke_basic_allow = yes
 			}
 		}
-		allow = {
-			OR = {
-				religion_group = christian
-				FROM = { has_holder = yes }
-			}
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_portugal = {
 		color = { 207 160 255 }
@@ -17290,13 +17649,7 @@ e_spain = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			OR = {
-				religion_group = christian
-				FROM = { has_holder = yes }
-			}
-			title_king_basic_allow = yes
-		}
+		allow = { title_king_basic_allow = yes }
 	}
 	k_andalusia = {
 		color = { 140 186 128 }
@@ -17778,8 +18131,13 @@ e_spain = {
 		color2 = { 255 255 255 }
 		capital = 157
 		allow = {
-			culture_group = iberian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			c_coruna = { owner_under_ROOT = yes }
 			c_lugo = { owner_under_ROOT = yes }
 			c_lemos = { owner_under_ROOT = yes }
@@ -17791,8 +18149,13 @@ e_spain = {
 		color2 = { 255 255 255 }
 		capital = 204
 		allow = {
-			culture_group = iberian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			c_urgell = { owner_under_ROOT = yes }
 			c_rosello = { owner_under_ROOT = yes }
 			c_empuries = { owner_under_ROOT = yes }
@@ -17807,8 +18170,13 @@ e_spain = {
 		color2 = { 255 255 255 }
 		capital = 171
 		allow = {
-			culture_group = iberian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			c_denia = { owner_under_ROOT = yes }
 			c_castellon = { owner_under_ROOT = yes }
 			c_murcia = { owner_under_ROOT = yes }
@@ -17821,8 +18189,13 @@ e_spain = {
 		color2 = { 255 255 255 }
 		capital = 180
 		allow = {
-			culture_group = iberian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			c_malaga = { owner_under_ROOT = yes }
 			c_almeria = { owner_under_ROOT = yes }
 			c_jaen = { owner_under_ROOT = yes }
@@ -17836,8 +18209,13 @@ e_spain = {
 		capital = 155
 		dignity = 15
 		allow = {
-			culture_group = iberian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			c_asturias_de_oviedo = { owner_under_ROOT = yes }
 			c_asturias_de_santillana = { owner_under_ROOT = yes }
 			title_king_basic_allow = yes
@@ -18432,6 +18810,12 @@ e_africa = {
 				b_qumelaioun = {}
 				b_aguedal = {}
 			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_sijilmasa = {
+			color = { 85 105 55 }
+			color2 = { 255 255 255 }
+			capital = 918
 			c_sijilmasa = {
 				color = { 72 214 60 }
 				color2 = { 255 255 255 }
@@ -18478,9 +18862,9 @@ e_africa = {
 			c_ifni = {
 				color = { 49 156 38 }
 				color2 = { 255 255 255 }
+				b_taghjizat = {}
 				b_nullamta = {}
 				b_tamdult = {}
-				b_ifni = {}
 				b_guelmim = {}
 				b_rgab = {}
 				b_belkassem = {}
@@ -18545,6 +18929,7 @@ e_africa = {
 				color = { 130 180 61 }
 				color2 = { 255 255 255 }
 				b_tassarahla = {}
+				b_tatintal = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -18621,9 +19006,18 @@ e_persia = {
 				b_aligoodarz = {}
 				b_burdj = {}
 			}
+			c_mafaza = {
+				color = { 65 240 215 }
+				color2 = { 255 255 255 }
+				b_nain = {}
+				b_zarand = {}
+				b_saghand = {}
+				b_djarmaq = {}
+				b_bihabad = {}
+			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_khoar = {
+		d_rayy = {
 			color = { 255 90 50 }
 			color2 = { 255 255 255 }
 			capital = 663
@@ -18638,23 +19032,13 @@ e_persia = {
 				b_damavand = {}
 				b_khuvar = {}
 			}
-			c_kumis = {
-				color = { 250 95 45 }
+			c_qazwin = {
+				color = { 70 107 176 }
 				color2 = { 255 255 255 }
-				b_damghan = {}
-				b_ahuvan = {}
-				b_ras-al-kalb = {}
-				b_vanda = {}
-				b_simnan = {}
-				b_shalamba = {}
-			}
-			c_biyar = {
-				color = { 250 85 40 }
-				color2 = { 255 255 255 }
-				b_biyar = {}
-				b_bistam = {}
-				b_badhash = {}
-				b_kharkan = {}
+				b_kazvin = {}
+				b_farisjin = {}
+				b_alamut = {}
+				b_lambassar = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -18662,33 +19046,6 @@ e_persia = {
 			color = { 152 24 48 }
 			color2 = { 255 255 255 }
 			capital = 644
-			c_larestan = {
-				color = { 30 200 185 }
-				color2 = { 255 255 255 }
-				b_huzu = {}
-				b_lar = {}
-				b_hisn-ibn-umara = {}
-				b_kariyan = {}
-			}
-			c_siraf = {
-				color = { 40 190 189 }
-				color2 = { 255 255 255 }
-				b_siraf = {}
-				b_kuran = {}
-				b_naband = {}
-				b_lawan = {}
-			}
-			c_mandistan = {
-				color = { 35 200 195 }
-				color2 = { 255 255 255 }
-				b_nadjiram = {}
-				b_khurmuj = {}
-				b_djur = {}
-				b_laghir = {}
-				b_djarhum = {}
-				b_ghundidjan = {}
-				b_khabr = {}
-			}
 			c_shiraz = {
 				color = { 30 190 180 }
 				color2 = { 255 255 255 }
@@ -18700,6 +19057,33 @@ e_persia = {
 				b_mayin = {}
 				b_kamin = {}
 				b_fasa = {}
+			}
+			c_siraf = {
+				color = { 40 190 189 }
+				color2 = { 255 255 255 }
+				b_siraf = {}
+				b_kuran = {}
+				b_naband = {}
+				b_lawan = {}
+			}
+			c_larestan = {
+				color = { 30 200 185 }
+				color2 = { 255 255 255 }
+				b_huzu = {}
+				b_lar = {}
+				b_hisn-ibn-umara = {}
+				b_kariyan = {}
+			}
+			c_mandistan = {
+				color = { 35 200 195 }
+				color2 = { 255 255 255 }
+				b_nadjiram = {}
+				b_khurmuj = {}
+				b_djur = {}
+				b_laghir = {}
+				b_djarhum = {}
+				b_ghundidjan = {}
+				b_khabr = {}
 			}
 			c_arrajan = {
 				color = { 35 195 180 }
@@ -18720,6 +19104,17 @@ e_persia = {
 				b_qutruh = {}
 				b_niriz = {}
 				b_istahbanat = {}
+			}
+			c_yazd = {
+				color = { 115 150 18 }
+				color2 = { 255 255 255 }
+				b_abarquh = {}
+				b_yazd = {}
+				b_andjira = {}
+				b_unas = {}
+				b_maybudh = {}
+				b_fahradj = {}
+				b_bafq = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -18769,32 +19164,6 @@ e_persia = {
 				b_jarun = {}
 				b_larak = {}
 				b_kishqeshmi = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_yazd = {
-			color = { 218 220 155 }
-			color2 = { 255 255 255 }
-			capital = 638
-			c_yazd = {
-				color = { 115 150 18 }
-				color2 = { 255 255 255 }
-				b_yazd = {}
-				b_fahradj = {}
-				b_andjira = {}
-				b_unas = {}
-				b_abarquh = {}
-				b_bafq = {}
-				b_maybudh = {}
-			}
-			c_mafaza = {
-				color = { 65 240 215 }
-				color2 = { 255 255 255 }
-				b_saghand = {}
-				b_djarmaq = {}
-				b_bihabad = {}
-				b_zarand = {}
-				b_nain = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -18862,6 +19231,7 @@ e_persia = {
 				b_chalus_ruyan = {}
 				b_kalar = {}
 				b_natil = {}
+				b_tak = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -18877,13 +19247,6 @@ e_persia = {
 				b_lahidjan = {}
 				b_fumin = {}
 				b_kutum = {}
-			}
-			c_qazwin = {
-				color = { 70 107 176 }
-				color2 = { 255 255 255 }
-				b_kazvin = {}
-				b_alamut = {}
-				b_lambassar = {}
 			}
 			c_kharraqan = {
 				color = { 64 89 136 }
@@ -18973,6 +19336,30 @@ e_persia = {
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
+		d_kumis = {
+			color = { 218 220 155 }
+			color2 = { 255 255 255 }
+			capital = 660
+			c_kumis = {
+				color = { 250 95 45 }
+				color2 = { 255 255 255 }
+				b_damghan = {}
+				b_ahuvan = {}
+				b_ras-al-kalb = {}
+				b_vanda = {}
+				b_simnan = {}
+				b_shalamba = {}
+			}
+			c_biyar = {
+				color = { 250 85 40 }
+				color2 = { 255 255 255 }
+				b_biyar = {}
+				b_bistam = {}
+				b_badhash = {}
+				b_kharkan = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
 		allow = { title_king_basic_allow = yes }
 	}
 	k_khorasan = {
@@ -19017,6 +19404,23 @@ e_persia = {
 				b_radkan = {}
 				b_khuchan = {}
 			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_qohistan = {
+			color = { 115 150 18 }
+			color2 = { 255 255 255 }
+			capital = 635
+			c_qohistan = {
+				color = { 105 155 13 }
+				color2 = { 255 255 255 }
+				b_birjand = {}
+				b_kain = {}
+				b_tun = {}
+				b_khusb = {}
+				b_naband_qohistan = {}
+				b_khur = {}
+				b_kuri = {}
+			}
 			c_bakharz = {
 				color = { 70 170 25 }
 				color2 = { 255 255 255 }
@@ -19025,17 +19429,6 @@ e_persia = {
 				b_khwaf = {}
 				b_bunabid = {}
 				b_zava = {}
-			}
-			c_qohistan = {
-				color = { 105 155 13 }
-				color2 = { 255 255 255 }
-				b_birjand = {}
-				b_kain = {}
-				b_tun = {}
-				b_khur = {}
-				b_khusb = {}
-				b_naband_qohistan = {}
-				b_kuri = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -19097,15 +19490,16 @@ e_persia = {
 				pahlavi = "Herat"
 				roman = "Alexandria in Ariana"
 				b_herat = {}
-				b_malin = {}
 				b_pushang = {}
-				b_kusuy = {}
 				b_karukh = {}
 				b_esfezar = {}
+				b_kusuy = {}
+				b_malin = {}
 			}
 			c_gharchistan = {
 				color = { 225 210 85 }
 				color2 = { 255 255 255 }
+				b_balikan = {}
 				b_bashin = {}
 				b_shurmin = {}
 			}
@@ -19114,22 +19508,42 @@ e_persia = {
 				color2 = { 255 255 255 }
 				b_firuzkuh = {}
 				b_ahangaran = {}
-				b_khwadja-chisht = {}
-				b_tamran = {}
+				b_khasht = {}
+				b_khust = {}
+				b_ribat-i-karvan = {}
+				b_khaysar = {}
+				b_kharkhiz = {}
 			}
 			c_ganj-rustaq = {
 				color = { 220 215 75 }
 				color2 = { 255 255 255 }
+				b_baban = {}
 				b_baghshur = {}
 				b_djebel-fidda = {}
 				b_dihistan-ganj = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_guzgan = {
+			color = { 225 124 43 }
+			color2 = { 255 255 255 }
+			capital = 1542
+			c_guzgan = {
+				color = { 160 200 78 }
+				color2 = { 255 255 255 }
+				b_anbar = {}
+				b_gurzuvan = {}
+				b_yahudan = {}
+				b_taleqan = {}
+				b_faryab = {}
+				b_ushburqan = {}
+				b_andkhud = {}
 			}
 			c_rivsharan = {
 				color = { 225 220 90 }
 				color2 = { 255 255 255 }
 				b_rivsharan = {}
 				b_gurzivan = {}
-				b_ribat-i-karvan = {}
 				b_manshan = {}
 			}
 			allow = { title_duke_basic_allow = yes }
@@ -19145,6 +19559,7 @@ e_persia = {
 				color2 = { 255 255 255 }
 				b_balkh = {}
 				b_tirmidh = {}
+				b_naw_bahar = {}
 				b_navida = {}
 				b_kalif = {}
 			}
@@ -19155,17 +19570,16 @@ e_persia = {
 				b_samangan = {}
 				b_san = {}
 				b_ruy = {}
+				b_khost_tokharestan = {}
 			}
-			c_guzgan = {
-				color = { 160 200 78 }
+			c_talekan = {
+				color = { 18 3 10 }
 				color2 = { 255 255 255 }
-				b_faryab = {}
-				b_naryan = {}
-				b_taleqan = {}
-				b_yahudan = {}
-				b_anbar = {}
-				b_andkhud = {}
-				b_ushburqan = {}
+				b_talekan = {}
+				b_valvalij = {}
+				b_kishm = {}
+				b_andicharagh = {}
+				b_anderab = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -19211,10 +19625,10 @@ e_persia = {
 				color2 = { 255 255 255 }
 				b_nakhsheb = {}
 				b_kasba = {}
-				b_kandak = {}
 				b_nawqad-kureysh = {}
-				b_subakh = {}
 				b_bezda = {}
+				b_subakh = {}
+				b_kandak = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -19584,8 +19998,13 @@ e_null = {
 		culture = armenian
 		capital = 681
 		allow = {
-			culture = armenian
-			religion_group = christian
+			OR = {
+				AND = {
+					culture = armenian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
 			title_king_basic_allow = yes
 		}
 		title = ISHKHAN
@@ -20752,40 +21171,36 @@ e_null = {
 			c_mecklemburg = {
 				color = { 207 207 207 }
 				color2 = { 255 255 255 }
-				b_wismar = {}
-				b_grevesmuhlen = {}
-				b_sternberg = {}
-				b_rerik = {}
 				b_mecklemburg = {}
+				b_sternberg = {}
 				b_butzow = {}
-				b_lutzow = {}
+				b_wismar = {}
+				b_parchim = {}
+				b_pressentin = {}
+				b_weltzien = {}
+				b_rerik = {}
 			}
 			c_rostock = {
 				color = { 204 204 204 }
 				color2 = { 255 255 255 }
 				b_kessin = {}
-				b_dobran = {}
-				b_ribnitz = {}
 				b_rostock = {}
-			}
-			c_schwerin = {
-				color = { 80 219 119 }
-				color2 = { 255 255 255 }
-				b_boizenburg = {}
-				b_schwerin = {}
-				b_hagenow = {}
-				b_malchow = {}
-				b_parchim = {}
+				b_doberan = {}
+				b_ribnitz = {}
+				b_kalen = {}
+				b_linstow = {}
+				b_kropelin = {}
 			}
 			c_werle = {
 				color = { 202 202 202 }
 				color2 = { 255 255 255 }
-				b_dargunabbey = {}
-				b_stargard = {}
-				b_gustrow = {}
 				b_werle = {}
 				b_waren = {}
-				b_penzlin = {}
+				b_dargunabbey = {}
+				b_gustrow = {}
+				b_land_stargard = {}
+				b_bellin_werle = {}
+				b_gentzkow = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -20808,49 +21223,167 @@ e_null = {
 				bosnian = "Gdansk"
 				bulgarian = "Gdansk"
 				b_starogardgdansk = {}
-				b_mewe = {}
-				b_lubiszewo = {}
-				b_oliva = {}
 				b_gdansk = {}
+				b_oliva = {}
+				b_lubiszewo = {}
 				b_danlauenburg = {}
-				b_tczew = {}
+				b_puck = {}
+				b_jatzkow = {}
 			}
 			c_swiecie = {
 				color = { 250 168 168 }
 				color2 = { 255 255 255 }
-				b_schlochau = {}
 				b_schwetz = {}
 				b_tuchel = {}
 				b_chojnice = {}
-				b_bytow = {}
+				b_schlochau = {}
+				b_brusy = {}
+				b_wobeser = {}
+				b_koscierzyna = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_lubeck = {
+		d_wagria = {
 			color = { 177 69 69 }
 			color2 = { 255 255 255 }
 			capital = 262
+			swedish = "Lübeck"
+			norwegian = "Lübeck"
+			danish = "Lübeck"
+			prussian = "Liubice"
+			russian = "Lübeck"
+			pommeranian = "Liubice"
+			polish = "Lübeck"
+			bohemian = "Lübeck"
+			moravian = "Lübeck"
+			karantanci = "Lübeck"
+			croatian = "Lübeck"
+			serbian = "Lübeck"
+			bosnian = "Lübeck"
+			bulgarian = "Lübeck"
 			c_lubeck = {
 				color = { 142 142 142 }
 				color2 = { 255 255 255 }
 				prussian = "Liubice"
 				pommeranian = "Liubice"
 				polish = "Liubice"
-				b_bucu = {}
-				b_ahrensbok = {}
-				b_molln = {}
-				b_snykrode = {}
-				b_travemunde = {}
 				b_lubeck = {}
+				b_eutin = {}
+				b_gosevelde = {}
+				b_travemunde = {}
+				b_snykrode = {}
 				b_scharbeutz = {}
+				b_ahrensbok = {}
+				b_bucu = {}
 			}
-			c_wargrien = {
+			c_kiel = {
 				color = { 80 219 119 }
 				color2 = { 255 255 255 }
 				b_plon = {}
 				b_oldenburgeast = {}
-				b_eutin = {}
-				b_bornhovd = {}
+				b_preetz = {}
+				b_kiel = {}
+				b_segeberg = {}
+				b_cismar = {}
+				b_rantzau = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_brandenburg = {
+			color = { 229 223 200 }
+			color2 = { 255 255 255 }
+			capital = 365
+			culture = german
+			title = MARGRAVE
+			title_female = MARGRAVINE
+			foa = MARGRAVE_FOA
+			title_prefix = MARGRAVE_OF
+			c_brandenburg = {
+				color = { 68 34 186 }
+				color2 = { 255 255 255 }
+				russian = "Brandenburg"
+				pommeranian = "Brandenburg"
+				polish = "Brandenburg"
+				bohemian = "Brandenburg"
+				moravian = "Brandenburg"
+				karantanci = "Brandenburg"
+				croatian = "Brandenburg"
+				serbian = "Brandenburg"
+				bosnian = "Brandenburg"
+				bulgarian = "Brandenburg"
+				b_copenick = {}
+				b_brenna = {}
+				b_brandenburg = {}
+				b_lehnin = {}
+				b_berlin = {}
+				b_prenzlau = {}
+				b_quitzow = {}
+			}
+			c_altmark = {
+				color = { 57 12 42 }
+				color2 = { 255 255 255 }
+				b_salzwedel = {}
+				b_stendal = {}
+				b_marienwerder_diesdorf = {}
+				b_osterburg = {}
+				b_gardelegen = {}
+				b_tangermunde = {}
+				b_schulenburg = {}
+			}
+			c_magdeburg = {
+				color = { 2 86 3 }
+				color2 = { 255 255 255 }
+				b_magdeburg = {}
+				b_belzig = {}
+				b_haldensleben = {}
+				b_burg = {}
+				b_jerichow = {}
+				b_stassfurt = {}
+				b_plotho = {}
+			}
+			c_prignitz = {
+				color = { 86 24 22 }
+				color2 = { 255 255 255 }
+				b_putlitz = {}
+				b_wittstock = {}
+				b_havelberg = {}
+				b_ruppin = {}
+				b_perleberg = {}
+				b_dossow = {}
+				b_kyritz = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_lausitz = {
+			color = { 87 87 157 }
+			color2 = { 255 255 255 }
+			capital = 364
+			culture = german
+			title = MARGRAVE
+			title_female = MARGRAVINE
+			foa = MARGRAVE_FOA
+			title_prefix = MARGRAVE_OF
+			c_niederlausitz = {
+				color = { 174 124 189 }
+				color2 = { 255 255 255 }
+				b_luckau = {}
+				b_cottbus = {}
+				b_dobrilugk = {}
+				b_piensk = {}
+				b_finsterwalde = {}
+				b_lubben = {}
+				b_guben = {}
+			}
+			c_lausitz = {
+				color = { 174 64 174 }
+				color2 = { 255 255 255 }
+				b_gorlitz = {}
+				b_bautzen = {}
+				b_st_marienstern = {}
+				b_kittlitz = {}
+				b_kamenz_lausitz = {}
+				b_hoyerswerda = {}
+				b_luban = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -20871,11 +21404,24 @@ e_null = {
 				serbian = "Kostrzyn"
 				bosnian = "Kostrzyn"
 				bulgarian = "Kostrzyn"
-				b_frankfurtoder = {}
 				b_kostrzyn = {}
-				b_krosnoodrzanskie = {}
 				b_lubusz = {}
+				b_frankfurt_oder = {}
 				b_torzym = {}
+				b_osno_lubuskie = {}
+				b_slonsk = {}
+				b_selchow = {}
+			}
+			c_santok = {
+				color = { 6 135 2 }
+				color2 = { 255 255 255 }
+				b_santok = {}
+				b_usch = {}
+				b_paradies = {}
+				b_wielen = {}
+				b_landsberg_oder = {}
+				b_woldenberg = {}
+				b_pila = {}
 			}
 			c_neumark = {
 				color = { 6 125 2 }
@@ -20890,12 +21436,12 @@ e_null = {
 				serbian = "Cedynia"
 				bosnian = "Cedynia"
 				bulgarian = "Cedynia"
+				b_zehden = {}
+				b_konigsbergneumark = {}
 				b_reetz = {}
 				b_soldin = {}
-				b_konigsbergneumark = {}
-				b_zehden = {}
-				b_oderberg = {}
-				b_schiavelbein = {}
+				b_arnswalde = {}
+				b_marwitz = {}
 				b_dramburg = {}
 			}
 			allow = { title_duke_basic_allow = yes }
@@ -20916,32 +21462,38 @@ e_null = {
 				serbian = "Szczecin"
 				bosnian = "Szczecin"
 				bulgarian = "Szczecin"
-				b_kammin = {}
-				b_naugard = {}
-				b_stargardpommern = {}
-				b_stettin = {}
 				b_dabie = {}
+				b_stettin = {}
+				b_kolbatz = {}
+				b_groswin = {}
+				b_anklam = {}
 				b_pyritz = {}
-				b_gollnow = {}
-			}
-			c_szvuine = {
-				color = { 51 213 51 }
-				color2 = { 255 255 255 }
-				b_usedom = {}
-				b_wolin = {}
-				b_szvuinecastle = {}
+				b_pasewalk = {}
+				b_stargard_pommern = {}
+				b_wussow = {}
 			}
 			c_wolgast = {
 				color = { 51 243 51 }
 				color2 = { 255 255 255 }
 				norse = "Jomsborg"
-				b_stolpemonestary = {}
-				b_gutzkow = {}
-				b_loitzwolgast = {}
-				b_groswin = {}
 				b_wolgast = {}
+				b_wollin = {}
+				b_kammin = {}
+				b_naugard = {}
+				b_grobe = {}
+				b_szvuine = {}
+				b_treptow = {}
+			}
+			c_gutzkow = {
+				color = { 32 46 226 }
+				color2 = { 255 255 255 }
+				b_gutzkow = {}
 				b_demmin = {}
-				b_pasewalk = {}
+				b_stolpe = {}
+				b_loitz = {}
+				b_greifswald = {}
+				b_jarmen = {}
+				b_kemnitz = {}
 			}
 			c_belgard = {
 				color = { 160 155 25 }
@@ -20957,9 +21509,12 @@ e_null = {
 				bosnian = "Bialogard"
 				bulgarian = "Bialogard"
 				b_belgard = {}
+				b_colberg = {}
 				b_kozalin = {}
 				b_tempelburg = {}
-				b_colberg = {}
+				b_bonin = {}
+				b_barwalde = {}
+				b_polanow = {}
 			}
 			c_slupsk = {
 				color = { 6 155 25 }
@@ -20976,8 +21531,11 @@ e_null = {
 				bulgarian = "Slupsk-Slawno"
 				b_slawno = {}
 				b_slupsk = {}
+				b_buckow = {}
+				b_drosedow = {}
 				b_darlowo = {}
-				b_ustka = {}
+				b_zitzewitz = {}
+				b_sianow = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -20989,10 +21547,13 @@ e_null = {
 			c_rugen = {
 				color = { 201 201 201 }
 				color2 = { 255 255 255 }
-				b_putbus = {}
 				b_rugard = {}
-				b_arkona = {}
 				b_charenza = {}
+				b_arkona = {}
+				b_putbus = {}
+				b_bergen_auf_rugen = {}
+				b_krakewitz = {}
+				b_garz_rugen = {}
 			}
 			c_barth = {
 				color = { 201 201 201 }
@@ -21000,74 +21561,10 @@ e_null = {
 				b_eldenaabbey = {}
 				b_barth = {}
 				b_stralsund = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_brandenburg = {
-			color = { 229 223 200 }
-			color2 = { 255 255 255 }
-			capital = 365
-			culture = german
-			title = MARGRAVE
-			title_female = MARGRAVINE
-			foa = MARGRAVE_FOA
-			title_prefix = MARGRAVE_OF
-			c_brandenburg = {
-				color = { 186 186 186 }
-				color2 = { 255 255 255 }
-				russian = "Brandenburg"
-				pommeranian = "Brandenburg"
-				polish = "Brandenburg"
-				bohemian = "Brandenburg"
-				moravian = "Brandenburg"
-				karantanci = "Brandenburg"
-				croatian = "Brandenburg"
-				serbian = "Brandenburg"
-				bosnian = "Brandenburg"
-				bulgarian = "Brandenburg"
-				b_prenzlau = {}
-				b_muncheberg = {}
-				b_templin = {}
-				b_brenna = {}
-				b_copenick = {}
-				b_brandenburg = {}
-				b_bernau = {}
-			}
-			c_prignitz = {
-				color = { 186 186 186 }
-				color2 = { 255 255 255 }
-				b_pritzwalk = {}
-				b_lindow = {}
-				b_wittstock = {}
-				b_perleberg = {}
-				b_ruppin = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_lausitz = {
-			color = { 87 87 157 }
-			color2 = { 255 255 255 }
-			capital = 364
-			culture = german
-			title = MARGRAVE
-			title_female = MARGRAVINE
-			foa = MARGRAVE_FOA
-			title_prefix = MARGRAVE_OF
-			c_niederlausitz = {
-				color = { 174 124 189 }
-				color2 = { 255 255 255 }
-				b_forst = {}
-				b_cottbus = {}
-				b_luckau = {}
-				b_lebus = {}
-			}
-			c_lausitz = {
-				color = { 174 174 174 }
-				color2 = { 255 255 255 }
-				b_zittau = {}
-				b_bautzen = {}
-				b_gorlitz = {}
-				b_raothenburg = {}
+				b_gristow = {}
+				b_neuenkamp = {}
+				b_divitz = {}
+				b_lobnitz = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -21081,7 +21578,6 @@ e_null = {
 							NOT = { tier = emperor }
 							has_landed_title = d_mecklemburg
 							has_landed_title = d_pommerania
-							has_landed_title = d_brandenburg
 						}
 					}
 				}
@@ -22178,12 +22674,25 @@ e_null = {
 				color = { 15 215 155 }
 				color2 = { 255 255 255 }
 				b_ghazna = {}
-				b_nawabad = {}
-				b_arus-al-falak = {}
 				b_gardiz = {}
+				b_nawabad = {}
 				b_sukawand = {}
-				b_bamiyan = {}
+				b_arus-al-falak = {}
+				b_nay = {}
 			}
+			c_bamiyan = {
+				color = { 30 185 165 }
+				color2 = { 15 140 198 }
+				b_bamiyan = {}
+				b_basghurfand = {}
+				b_lakhrab = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_kabul = {
+			color = { 30 165 75 }
+			color2 = { 255 255 255 }
+			capital = 1550
 			c_kabul = {
 				color = { 10 225 165 }
 				color2 = { 255 255 255 }
@@ -22221,9 +22730,9 @@ e_null = {
 			c_khuttal = {
 				color = { 18 23 10 }
 				color2 = { 255 255 255 }
+				b_hulbuk = {}
 				b_pargar = {}
 				b_munk = {}
-				b_hulbuk = {}
 				b_halavand = {}
 				b_qubadiyan = {}
 				b_livkand = {}
@@ -22231,10 +22740,10 @@ e_null = {
 			c_rasht = {
 				color = { 118 23 170 }
 				color2 = { 255 255 255 }
-				b_rasht = {}
+				b_shuman = {}
 				b_vashgird = {}
 				b_afridhan = {}
-				b_shuman = {}
+				b_rasht = {}
 			}
 			c_chaghaniyan = {
 				color = { 90 223 170 }
@@ -22245,15 +22754,6 @@ e_null = {
 				b_darzangi = {}
 				b_hashimgird = {}
 				b_hamvaran = {}
-			}
-			c_talekan = {
-				color = { 18 3 10 }
-				color2 = { 255 255 255 }
-				b_talekan = {}
-				b_valvalij = {}
-				b_kishm = {}
-				b_andicharagh = {}
-				b_anderab = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -22287,6 +22787,7 @@ e_null = {
 				color = { 142 182 80 }
 				color2 = { 255 255 255 }
 				b_rudbar = {}
+				b_salakan = {}
 				b_kish = {}
 			}
 			c_sistan = {
@@ -22312,9 +22813,10 @@ e_null = {
 			c_rukhadj = {
 				color = { 148 170 89 }
 				color2 = { 255 255 255 }
-				b_kahdahar = {}
+				b_kandahar = {}
 				b_pandjvay = {}
 				b_bakrabad = {}
+				b_kuhak = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -22329,10 +22831,10 @@ e_null = {
 				b_bampur = {}
 				b_fahraj = {}
 				b_tiz = {}
-				b_iskaf = {}
 				b_khwash = {}
-				b_bih = {}
 				b_rask = {}
+				b_iskaf = {}
+				b_bih = {}
 			}
 			c_mashkel = {
 				color = { 146 179 90 }
@@ -22347,14 +22849,37 @@ e_null = {
 				b_pandjgur = {}
 				b_kiz = {}
 				b_khawr = {}
+				b_armabil = {}
 			}
 			c_turan = {
 				color = { 152 185 96 }
 				color2 = { 255 255 255 }
 				pahlavi = "Turgistan"
-				b_turan = {}
-				b_qusdar = {}
+				b_kizkanan = {}
+				b_quzdar = {}
+				b_bodein = {}
 				b_sura = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_walishan = {
+			color = { 62 120 151 }
+			color2 = { 255 255 255 }
+			capital = 1611
+			c_wana = {
+				color = { 244 80 5 }
+				color2 = { 255 255 255 }
+				b_kushk = {}
+				b_bori = {}
+				b_asfanjay = {}
+			}
+			c_sibi = {
+				color = { 200 145 18 }
+				color2 = { 255 255 255 }
+				b_sibi_india = {}
+				b_mastanj = {}
+				b_dadhar = {}
+				b_walishtan = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -22471,9 +22996,9 @@ e_null = {
 				color2 = { 255 255 255 }
 				b_jand = {}
 				b_yangikent = {}
+				b_khuwara = {}
+				b_barchkent = {}
 				b_syganak = {}
-				b_dihinaw = {}
-				b_kyzylorda = {}
 			}
 			c_sighnaq = {
 				color = { 220 20 46 }
@@ -22490,7 +23015,7 @@ e_null = {
 	k_turkestan_east = {
 		color = { 200 140 40 }
 		color2 = { 255 255 255 }
-		capital = 1567
+		capital = 1572
 		tengri_pagan_reformed = 500
 		muslim = 300
 		d_zhetysu = {
@@ -22503,6 +23028,7 @@ e_null = {
 				b_qayaliq = {}
 				b_illbaliq = {}
 				b_sarqand = {}
+				b_ala_qamaq = {}
 			}
 			c_yulduz = {
 				color = { 215 135 35 }
@@ -22510,8 +23036,8 @@ e_null = {
 				b_illi = {}
 				b_almaliq = {}
 				b_pulad = {}
+				b_quyash = {}
 				b_sarbulaq = {}
-				b_kash = {}
 			}
 			c_barskhan = {
 				color = { 220 125 50 }
@@ -22535,28 +23061,77 @@ e_null = {
 				b_shelji = {}
 				b_chigil = {}
 			}
+			c_naryn = {
+				color = { 250 100 75 }
+				color2 = { 255 255 255 }
+				b_tartuq = {}
+				b_naryn = {}
+				b_atbash = {}
+			}
 			allow = { title_duke_basic_allow = yes }
 		}
 		d_kashgar = {
 			color = { 255 110 70 }
 			color2 = { 255 255 255 }
 			capital = 1567
-			c_naryn = {
-				color = { 250 100 75 }
-				color2 = { 255 255 255 }
-				b_naryn = {}
-				b_atbash = {}
-			}
 			c_kashgar = {
 				color = { 255 118 80 }
 				color2 = { 255 255 255 }
 				b_kashgar = {}
 				b_ulugqat = {}
-				b_yarkand = { khotanese = Saka }
-				b_artuj = {}
-				b_pichan = {}
-				b_uksalur = {}
-				b_kizilsu = {}
+				b_akqi = {}
+				b_yengisar = {}
+			}
+			c_yarkand = {
+				color = { 211 95 110 }
+				color2 = { 255 255 255 }
+				b_yarkand = {}
+				b_pishan = {}
+				b_karghalik = {}
+				b_guma = {}
+			}
+			c_tashkurgan = {
+				color = { 224 150 50 }
+				color2 = { 255 255 255 }
+				khalaj = "Sarikol"
+				pahlavi = "Sarikol"
+				persian = "Sarikol"
+				sogdian = "Sarikol"
+				tajik = "Sarikol"
+				daylamite = "Sarikol"
+				khwarezmi = "Sarikol"
+				kurdish = "Sarikol"
+				afghan = "Sarikol"
+				baloch = "Sarikol"
+				qufs = "Sarikol"
+				b_tashkurgan = {}
+				b_jianggala = {}
+				b_hangdi = {}
+				b_kaladong = {}
+				b_zankan = {}
+				b_qiate = {}
+				b_bulongke = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_khotan = {
+			color = { 80 200 50 }
+			color2 = { 255 255 255 }
+			capital = 1580
+			c_khotan = {
+				color = { 85 205 45 }
+				color2 = { 255 255 255 }
+				b_khotan = {}
+				b_keriya = {}
+				b_khema = {}
+				b_dandan_uilik = {}
+			}
+			c_niya = {
+				color = { 45 12 74 }
+				color2 = { 255 255 255 }
+				b_niya = {}
+				b_endere = {}
+				b_cherchen = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -22564,12 +23139,10 @@ e_null = {
 			color = { 255 220 80 }
 			color2 = { 255 255 255 }
 			capital = 1569
-			khotanese = Kuchi
 			c_aqsu = {
 				color = { 250 120 65 }
 				color2 = { 255 255 255 }
-				khotanese = Bharuka
-				b_aqsu = { khotanese = Bharuka }
+				b_aqsu = {}
 				b_uchaqsu = {}
 				b_tumshuk = {}
 				b_kalpin = {}
@@ -22578,8 +23151,7 @@ e_null = {
 			c_kucha = {
 				color = { 250 215 75 }
 				color2 = { 255 255 255 }
-				khotanese = Kuchi
-				b_kucha = { khotanese = Kuchi }
+				b_kucha = {}
 				b_kush-tura = {}
 				b_kizil = {}
 				b_tarim = {}
@@ -22589,11 +23161,9 @@ e_null = {
 			c_qarashahr = {
 				color = { 255 225 85 }
 				color2 = { 255 255 255 }
-				khotanese = Agnidesha
-				b_qarashahr = { khotanese = Agnidesha }
+				b_qarashahr = {}
 				b_korla = {}
 				b_ushak-tal = {}
-				b_qocho = {}
 				b_charchi = {}
 			}
 			allow = { title_duke_basic_allow = yes }
@@ -22623,26 +23193,6 @@ e_null = {
 				b_akzhar = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		}
-		d_khotan = {
-			color = { 80 200 50 }
-			color2 = { 255 255 255 }
-			capital = 1580
-			khotanese = Hvam
-			c_khotan = {
-				color = { 85 205 45 }
-				color2 = { 255 255 255 }
-				khotanese = Hvam
-				b_khotan = { khotanese = Hvam }
-				b_keriya = {}
-				b_guma = {}
-				b_chadota = {}
-				b_calmadana = {}
-			}
-			allow = {
-				independent = yes
-				title_duke_basic_allow = yes
-			}
 		}
 		allow = { title_king_basic_allow = yes }
 	}
@@ -23084,6 +23634,7 @@ e_null = {
 				color = { 197 162 67 }
 				color2 = { 255 255 255 }
 				b_kudymkar = {}
+				b_karbas = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -23152,6 +23703,7 @@ e_null = {
 				color = { 122 137 77 }
 				color2 = { 255 255 255 }
 				b_ust_vym = {}
+				b_emva = {}
 			}
 			c_zyriane = {
 				color = { 195 160 65 }
@@ -23235,6 +23787,7 @@ e_null = {
 				color = { 243 217 146 }
 				color2 = { 255 255 255 }
 				b_izhma = {}
+				b_ust_izhma = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -23596,6 +24149,214 @@ e_null = {
 		}
 		allow = { title_king_basic_allow = yes }
 	}
+	k_guge = {
+		color = { 137 168 188 }
+		color2 = { 255 255 255 }
+		capital = 1983
+		culture = zhangzhung
+		zhangzhung = "Zhangzhung"
+		han = "Zhangzhung"
+		d_purang = {
+			color = { 67 130 219 }
+			color2 = { 255 255 255 }
+			capital = 1986
+			zhangzhung = "Zhangzhung"
+			c_kyunglung = {
+				color = { 102 132 206 }
+				color2 = { 255 255 255 }
+				han = "Qulong"
+				b_kyunglung = {}
+				b_gurugem = {}
+				b_tirthapuri = {}
+				b_dolchu = {}
+				b_monicer = {}
+				b_xalazakung = {}
+				b_gyanyima = {}
+			}
+			c_purang = {
+				color = { 96 149 216 }
+				color2 = { 255 255 255 }
+				b_kardung = {}
+				b_khorzhak = {}
+				b_teglakar = {}
+				b_simbiling = {}
+				b_zhangja = {}
+				b_dulung = {}
+			}
+			c_gegyai = {
+				color = { 72 168 216 }
+				color2 = { 255 255 255 }
+				b_gegyai = {}
+				b_zhungpa = {}
+				b_yakra = {}
+				b_chuktsang = {}
+				b_arkog = {}
+				b_kelle = {}
+				b_sekhadrig = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ngari = {
+			color = { 144 152 206 }
+			color2 = { 255 255 255 }
+			capital = 1988
+			han = "Ali"
+			c_gar = {
+				color = { 154 152 190 }
+				color2 = { 255 255 255 }
+				b_gar = {}
+				b_senggezangbo = {}
+				b_rala_kharmar = {}
+				b_rabang = {}
+				b_kupa = {}
+				b_chakgang = {}
+				b_langchu = {}
+			}
+			c_kunlun = {
+				color = { 134 142 180 }
+				color2 = { 255 255 255 }
+				b_bangdag = {}
+				b_ashi = {}
+				b_ulug = {}
+				b_pur = {}
+				b_yulya = {}
+				b_dulihri = {}
+				b_seldang = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_ladakh = {
+			color = { 63 113 158 }
+			color2 = { 255 255 255 }
+			capital = 1983
+			bodpa = "Maryul"
+			c_tsaparang = {
+				color = { 85 155 200 }
+				color2 = { 255 255 255 }
+				b_tsaparang = {}
+				b_tholing = {}
+				b_tholinggompa = {}
+				b_mangnang = {}
+				b_dungkar = {}
+				b_mangga = {}
+				b_gartok = {}
+			}
+			c_leh = {
+				color = { 73 113 168 }
+				color2 = { 255 255 255 }
+				b_leh = {}
+				b_nyarma = {}
+				b_shey = {}
+				b_alchi = {}
+				b_lamayuru = {}
+				b_padum = {}
+				b_keylong = {}
+			}
+			c_rutog = {
+				color = { 164 152 206 }
+				color2 = { 255 255 255 }
+				b_lhundrub = {}
+				b_rawang_rutog = {}
+				b_derok = {}
+				b_gobak = {}
+				b_sumshi = {}
+				b_tsapuk = {}
+				b_domar = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_king_basic_allow = yes }
+	}
+	k_kashmir = {
+		color = { 204 180 30 }
+		color2 = { 255 255 255 }
+		capital = 1628
+		d_kashmir = {
+			color = { 204 180 30 }
+			color2 = { 255 255 255 }
+			capital = 1628
+			c_kasmira = {
+				color = { 245 160 31 }
+				color2 = { 255 255 255 }
+				b_srinagara = {}
+				b_shankaracharya = {}
+				b_parihasapura = {}
+				b_padmapura = {}
+				b_loharakota = {}
+				b_amaresvara = {}
+				b_baghsar = {}
+			}
+			c_skardu = {
+				color = { 170 160 20 }
+				color2 = { 255 255 255 }
+				b_skardu = {}
+				b_huldi = {}
+				b_madhupur_skardu = {}
+				b_kharkoo = {}
+				b_khaplu = {}
+				b_hilmat = {}
+				b_janwai = {}
+			}
+			c_gilgit = {
+				color = { 204 170 30 }
+				color2 = { 255 255 255 }
+				b_gilgit = {}
+				b_danyor = {}
+				b_minawar = {}
+				b_pahot = {}
+				b_chatorkhand = {}
+				b_barjangle = {}
+			}
+			c_hunza = {
+				color = { 174 120 0 }
+				color2 = { 255 255 255 }
+				b_baltit = {}
+				b_ganish = {}
+				b_altit = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_uttaranchal = {
+			color = { 200 180 50 }
+			color2 = { 255 255 255 }
+			capital = 1980
+			c_kangra = {
+				color = { 150 140 30 }
+				color2 = { 255 255 255 }
+				b_kangra = {}
+				b_shimla = {}
+				b_nurpur = {}
+				b_chamba = {}
+				b_bharmour = {}
+				b_kahlur = {}
+				b_kullu = {}
+			}
+			c_garhwal = {
+				color = { 200 180 50 }
+				color2 = { 255 255 255 }
+				b_devalghar = {}
+				b_badrinath = {}
+				b_srinagar = {}
+				b_tehri = {}
+				b_uttarkashi = {}
+				b_sudhnagar = {}
+				b_haridwar = {}
+			}
+			c_kurmanchal = {
+				color = { 220 200 70 }
+				color2 = { 255 255 255 }
+				b_kartikeyapura = {}
+				b_katarmal = {}
+				b_askot_kurmanchal = {}
+				b_govishana = {}
+				b_ranikhet = {}
+				b_didihat = {}
+				b_champawat = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_king_basic_allow = yes }
+	}
 	allow = { always = no }
 }
 
@@ -23728,7 +24489,7 @@ d_guddala = {
 
 d_gazzula = {
 	color = { 150 56 175 }
-	capital = 1363
+	capital = 846
 	culture = tagelmust
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
@@ -23939,7 +24700,7 @@ d_aydin = {
 	capital = 746
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -23961,7 +24722,7 @@ d_candar = {
 	capital = 751
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -23977,7 +24738,7 @@ d_eretnid = {
 	capital = 1218
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24000,7 +24761,7 @@ d_germiyan = {
 	capital = 749
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24032,7 +24793,7 @@ d_karaman = {
 	capital = 1219
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24062,7 +24823,7 @@ d_mentese = {
 	capital = 1231
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24079,7 +24840,7 @@ d_karasi = {
 	capital = 1332
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24103,7 +24864,7 @@ d_osmanli = {
 	capital = 956
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24122,7 +24883,10 @@ k_ottoman = {
 			emf_trigger = yes
 			byzantine_lockout_trigger = yes
 		}
-		culture_group = altaic
+		OR = {
+			culture_group = altaic
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 }
@@ -24153,7 +24917,7 @@ d_saruhan = {
 	capital = 745
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24169,7 +24933,7 @@ e_seljuk_turks = {
 	capital = 646
 	culture = turkmen
 	allow = {
-		FROM = { has_holder = yes }
+		FROM = { is_de_jure_title = yes }
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
@@ -24180,7 +24944,7 @@ d_ahi = {
 	capital = 753
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24198,7 +24962,7 @@ d_hamid = {
 	capital = 754
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24214,7 +24978,7 @@ d_tekke = {
 	capital = 755
 	allow = {
 		OR = {
-			FROM = { is_titular = no }
+			FROM = { is_de_jure_title = yes }
 			AND = {
 				culture_group = altaic
 				byzantine_lockout_trigger = yes
@@ -24232,6 +24996,7 @@ k_trinacria = {
 		OR = {
 			religion = catholic
 			is_heresy_of = catholic
+			FROM = { is_de_jure_title = yes }
 		}
 		title_king_basic_allow = yes
 	}
@@ -24325,7 +25090,10 @@ k_kerman = {
 			emf_trigger = yes
 			byzantine_lockout_trigger = yes
 		}
-		culture_group = altaic
+		OR = {
+			culture_group = altaic
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 	}
 }
@@ -24337,6 +25105,7 @@ e_latin_empire = {
 		OR = {
 			religion = catholic
 			is_heresy_of = catholic
+			FROM = { is_de_jure_title = yes }
 		}
 		e_byzantium = { has_holder = no }
 		e_roman_empire = { has_holder = no }
@@ -24350,6 +25119,13 @@ e_latin_empire = {
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
+}
+
+e_tibet = {
+	color = { 250 40 0 }
+	color2 = { 255 255 255 }
+	capital = 1983
+	allow = { title_emperor_basic_allow = yes }
 }
 
 e_india = {
