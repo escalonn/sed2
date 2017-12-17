@@ -1391,6 +1391,362 @@ d_ghanan_band = {
 	foa = CAPTAIN_FOA
 }
 
+d_han_massive = {
+	color = { 60 165 80 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_massive_composition
+}
+
+d_han_large = {
+	color = { 235 235 235 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_large_composition
+}
+
+d_han_mid = {
+	color = { 150 80 40 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_mid_composition
+}
+
+d_han_mid_low = {
+	color = { 30 150 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_mid_low_composition
+}
+
+d_outlaws_of_the_marsh = {
+	color = { 66 66 66 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = outlaws_of_the_marsh
+}
+
+d_han_low = {
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_low_composition
+}
+
+d_han_tiny_1 = {
+	color = { 38 120 51 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_tiny_composition_1
+}
+
+d_han_tiny_2 = {
+	color = { 32 175 57 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = han_tiny_composition_2
+}
+
+d_jurchen_band = {
+	color = { 32 120 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570
+	hire_range = 1300
+	religion = taoist
+	culture = jurchen
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = jurchen_band_composition
+}
+
+d_tangut_low = {
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1968
+	hire_range = 800
+	religion = buddhist
+	culture = tangut
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = tangut_low_composition
+}
+
+d_bodpa_low = {
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1986
+	hire_range = 800
+	religion = bon
+	culture = bodpa
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = bodpa_low_composition
+}
+
+d_treasure_fleet = {
+	color = { 222 80 20 }
+	color2 = { 255 255 255 }
+	capital = 1640
+	hire_range = 1200
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = treasure_fleet_composition
+}
+
+d_han_junks = {
+	color = { 222 80 20 }
+	color2 = { 255 255 255 }
+	capital = 1640
+	hire_range = 1000
+	religion = taoist
+	culture = han
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_jurchen_corsairs = {
+	color = { 222 180 20 }
+	color2 = { 255 255 255 }
+	capital = 1640
+	hire_range = 1000
+	religion = taoist
+	culture = jurchen
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_tamil_band = {
+	color = { 110 60 30 }
+	color2 = { 255 255 255 }
+	capital = 1679
+	religion = hindu
+	culture = tamil
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = tamil_band_composition
+}
+
+d_marathi_company = {
+	color = { 150 80 40 }
+	color2 = { 255 255 255 }
+	capital = 1680
+	religion = hindu
+	culture = marathi
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = marathi_company_composition
+}
+
+d_marathi_band = {
+	color = { 180 80 40 }
+	color2 = { 255 255 255 }
+	capital = 1680
+	religion = hindu
+	culture = marathi
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = marathi_band_composition
+}
+
+d_bengal_company = {
+	color = { 30 150 50 }
+	color2 = { 255 255 255 }
+	capital = 1694
+	religion = hindu
+	culture = bengali
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = bengal_company_composition
+}
+
+d_bengal_band = {
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1694
+	religion = hindu
+	culture = bengali
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = bengal_band_composition
+}
+
+d_rajput_company = {
+	color = { 180 65 0 }
+	color2 = { 255 255 255 }
+	capital = 1642
+	religion = hindu
+	culture = rajput
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = rajput_company_composition
+}
+
+d_rajput_band = {
+	color = { 170 50 0 }
+	color2 = { 255 255 255 }
+	capital = 1642
+	religion = hindu
+	culture = rajput
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = rajput_band_composition
+}
+
+d_persian_caravan_guards = {
+	color = { 67 155 135 }
+	color2 = { 255 255 255 }
+	capital = 630
+	religion = sunni
+	culture = persian
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = persian_caravan_guards_composition
+}
+
+d_silk_road_sentinels = {
+	color = { 167 125 135 }
+	color2 = { 255 255 255 }
+	capital = 1624
+	religion = buddhist
+	culture = panjabi
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = silk_road_sentinels_composition
+}
+
+d_turkic_guard = {
+	color = { 167 125 135 }
+	color2 = { 255 255 255 }
+	capital = 900
+	religion = tengri_pagan
+	culture = oghuz
+	mercenary = yes
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1
+	mercenary_type = turkic_guards_composition
+}
+
 e_hre = {
 	color = { 224 195 65 }
 	color2 = { 220 220 20 }
