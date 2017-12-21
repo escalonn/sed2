@@ -1738,60 +1738,78 @@ d_ghanan_band = { # Ghanan Band
 }
 
 # Chinese Mercenaries
-d_han_massive = { # Massive Merc
-	color = { 60 165 80 }
-	color2 = { 255 255 255 }
-	graphical_culture = chinesegfx
-	capital = 1570 # Qarashahr
-	hire_range = 1300
-	# Parent Religion
-	religion = taoist
-	# Parent Culture
-	culture = han
-	mercenary = yes
-	# Always exists
-	landless = yes
-	# Cannot be held as a secondary title
-	primary = yes
-	# Cannot be vassalized
-	independent = yes
-	strength_growth_per_century = 1.0
-	mercenary_type = han_massive_composition
-	title = CAPTAIN
-	title_female = CAPTAIN
-	foa = CAPTAIN_FOA
-}
-
-d_han_large = { # Large Merc
-	color = { 235 235 235 }
-	color2 = { 255 255 255 }
-	graphical_culture = chinesegfx
-	capital = 1570 # Qarashahr
-	hire_range = 1300
-	# Parent Religion
-	religion = taoist
-	# Parent Culture
-	culture = han
-	mercenary = yes
-	# Always exists
-	landless = yes
-	# Cannot be held as a secondary title
-	primary = yes
-	# Cannot be vassalized
-	independent = yes
-	strength_growth_per_century = 1.0
-	mercenary_type = han_large_composition
-	title = CAPTAIN
-	title_female = CAPTAIN
-	foa = CAPTAIN_FOA
-}
-
+# d_han_massive = { # Massive Merc - commented out due to its massive size
+# color={ 60 165 80 }
+# color2={ 255 255 255 }
+#
+# graphical_culture = chinesegfx
+#
+# capital = 1570 # Qarashahr
+# hire_range = 1300
+#
+## Parent Religion
+# religion = taoist
+#
+## Parent Culture
+# culture = han
+#
+# mercenary = yes
+#
+# title = "CAPTAIN"
+# foa = "CAPTAIN_FOA"
+#
+## Always exists
+# landless = yes
+#
+## Cannot be held as a secondary title
+# primary = yes
+#
+## Cannot be vassalized
+# independent = yes
+#
+# strength_growth_per_century = 1.0
+#
+# mercenary_type = han_massive_composition
+# }
+# d_han_large = { # Large Merc
+# color={ 235 235 235 }
+# color2={ 255 255 255 }
+#
+# graphical_culture = chinesegfx
+#
+# capital = 1570 # Qarashahr
+# hire_range = 1300
+#
+## Parent Religion
+# religion = taoist
+#
+## Parent Culture
+# culture = han
+#
+# mercenary = yes
+#
+# title = "CAPTAIN"
+# foa = "CAPTAIN_FOA"
+#
+## Always exists
+# landless = yes
+#
+## Cannot be held as a secondary title
+# primary = yes
+#
+## Cannot be vassalized
+# independent = yes
+#
+# strength_growth_per_century = 1.0
+#
+# mercenary_type = han_large_composition
+# }
 d_han_mid = { # Mid Merc
 	color = { 150 80 40 }
 	color2 = { 255 255 255 }
 	graphical_culture = chinesegfx
 	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#hire_range = 1300
 	# Parent Religion
 	religion = taoist
 	# Parent Culture
@@ -1815,7 +1833,7 @@ d_han_mid_low = { # Mid-Low Merc
 	color2 = { 255 255 255 }
 	graphical_culture = chinesegfx
 	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#hire_range = 1300
 	# Parent Religion
 	religion = taoist
 	# Parent Culture
@@ -1834,36 +1852,34 @@ d_han_mid_low = { # Mid-Low Merc
 	foa = CAPTAIN_FOA
 }
 
-d_outlaws_of_the_marsh = { # Big merc
-	color = { 66 66 66 }
-	color2 = { 255 255 255 }
-	graphical_culture = chinesegfx
-	capital = 1570 # Qarashahr
-	hire_range = 1300
-	# Parent Religion
-	religion = taoist
-	# Parent Culture
-	culture = han
-	mercenary = yes
-	# Always exists
-	landless = yes
-	# Cannot be held as a secondary title
-	primary = yes
-	# Cannot be vassalized
-	independent = yes
-	strength_growth_per_century = 1.0
-	mercenary_type = outlaws_of_the_marsh
-	title = CAPTAIN
-	title_female = CAPTAIN
-	foa = CAPTAIN_FOA
-}
-
+#d_outlaws_of_the_marsh = { # Big merc - commented out because this is more of an easter egg (Water Margin/Shuihu Zuan)
+#	color = { 66 66 66 }
+#	color2 = { 255 255 255 }
+#	graphical_culture = chinesegfx
+#	capital = 1570 # Qarashahr
+#	hire_range = 1300
+#	# Parent Religion
+#	religion = taoist
+#	# Parent Culture
+#	culture = han
+#	mercenary = yes
+#	title = CAPTAIN
+#	foa = CAPTAIN_FOA
+#	# Always exists
+#	landless = yes
+#	# Cannot be held as a secondary title
+#	primary = yes
+#	# Cannot be vassalized
+#	independent = yes
+#	strength_growth_per_century = 1.0
+#	mercenary_type = outlaws_of_the_marsh
+#}
 d_han_low = { # Small Merc
 	color = { 30 170 50 }
 	color2 = { 255 255 255 }
 	graphical_culture = chinesegfx
 	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#hire_range = 1300
 	# Parent Religion
 	religion = taoist
 	# Parent Culture
@@ -1887,7 +1903,7 @@ d_han_tiny_1 = { # Tiny Merc
 	color2 = { 255 255 255 }
 	graphical_culture = chinesegfx
 	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#hire_range = 1300
 	# Parent Religion
 	religion = taoist
 	# Parent Culture
@@ -1911,7 +1927,7 @@ d_han_tiny_2 = { # Tiny Merc
 	color2 = { 255 255 255 }
 	graphical_culture = chinesegfx
 	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#hire_range = 1300
 	# Parent Religion
 	religion = taoist
 	# Parent Culture
@@ -1930,16 +1946,16 @@ d_han_tiny_2 = { # Tiny Merc
 	foa = CAPTAIN_FOA
 }
 
-d_jurchen_band = { # Mid-Low Merc
+d_jurchen_band = { # Mid-Low Merc; repurposed into Karluk band
 	color = { 32 120 50 }
 	color2 = { 255 255 255 }
-	graphical_culture = chinesegfx
-	capital = 1570 # Qarashahr
-	hire_range = 1300
+	#graphical_culture = turkishgfx
+	capital = 1573 # Yeti-su
+	#hire_range = 1300
 	# Parent Religion
-	religion = taoist
+	religion = tengri_pagan
 	# Parent Culture
-	culture = jurchen
+	culture = karluk
 	mercenary = yes
 	# Always exists
 	landless = yes
@@ -1958,7 +1974,7 @@ d_tangut_low = { # Small Merc
 	color = { 30 170 50 }
 	color2 = { 255 255 255 }
 	capital = 1968 # Niya
-	hire_range = 800
+	#hire_range = 800
 	# Parent Religion
 	religion = buddhist
 	# Parent Culture
@@ -1981,7 +1997,7 @@ d_bodpa_low = { # Small Merc
 	color = { 30 170 50 }
 	color2 = { 255 255 255 }
 	capital = 1986 # Purang
-	hire_range = 800
+	#hire_range = 800
 	# Parent Religion
 	religion = bon
 	# Parent Culture
@@ -2000,15 +2016,15 @@ d_bodpa_low = { # Small Merc
 	foa = CAPTAIN_FOA
 }
 
-d_treasure_fleet = {
+d_treasure_fleet = { # repurposed into Yemeni Fleet
 	color = { 222 80 20 }
 	color2 = { 255 255 255 }
-	capital = 1640 # Daman
-	hire_range = 1200
+	capital = 858 # Aden
+	#hire_range = 1200
 	# Parent Religion
-	religion = taoist
+	religion = sunni
 	# Parent Culture
-	culture = han
+	culture = yemeni
 	mercenary = yes
 	# Always exists
 	landless = yes
@@ -2020,17 +2036,18 @@ d_treasure_fleet = {
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
+	short_name = yes
 }
 
-d_han_junks = {
+d_han_junks = { # repurposed into Hormuzi Navy
 	color = { 222 80 20 }
 	color2 = { 255 255 255 }
-	capital = 1640 # Daman
-	hire_range = 1000
+	capital = 641 # Hormuz
+	#hire_range = 1000
 	# Parent Religion
-	religion = taoist
+	religion = sunni
 	# Parent Culture
-	culture = han
+	culture = persian
 	mercenary = yes
 	# Always exists
 	landless = yes
@@ -2045,15 +2062,15 @@ d_han_junks = {
 	short_name = yes
 }
 
-d_jurchen_corsairs = {
+d_jurchen_corsairs = { # repurposed into Gujarati Corsairs
 	color = { 222 180 20 }
 	color2 = { 255 255 255 }
-	capital = 1640 # Daman
-	hire_range = 1000
+	capital = 1636 # Somnath
+	#hire_range = 1000
 	# Parent Religion
-	religion = taoist
+	religion = hindu
 	# Parent Culture
-	culture = jurchen
+	culture = gujurati
 	mercenary = yes
 	# Always exists
 	landless = yes
