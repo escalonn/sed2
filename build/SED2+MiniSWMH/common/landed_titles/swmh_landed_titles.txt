@@ -1404,6 +1404,9 @@ d_han_mid = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = han_mid_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_han_mid_low = {
@@ -1419,6 +1422,9 @@ d_han_mid_low = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = han_mid_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_han_low = {
@@ -1434,6 +1440,9 @@ d_han_low = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = han_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_han_tiny_1 = {
@@ -1449,6 +1458,9 @@ d_han_tiny_1 = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = han_tiny_composition_1
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_han_tiny_2 = {
@@ -1464,6 +1476,9 @@ d_han_tiny_2 = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = han_tiny_composition_2
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_jurchen_band = {
@@ -1478,6 +1493,9 @@ d_jurchen_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = jurchen_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_tangut_low = {
@@ -1492,6 +1510,9 @@ d_tangut_low = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = tangut_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_bodpa_low = {
@@ -1506,6 +1527,9 @@ d_bodpa_low = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = bodpa_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_treasure_fleet = {
@@ -1519,6 +1543,10 @@ d_treasure_fleet = {
 	primary = yes
 	independent = yes
 	mercenary_type = treasure_fleet_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
 }
 
 d_han_junks = {
@@ -1532,6 +1560,10 @@ d_han_junks = {
 	primary = yes
 	independent = yes
 	mercenary_type = naval_merc_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
 }
 
 d_jurchen_corsairs = {
@@ -1545,6 +1577,10 @@ d_jurchen_corsairs = {
 	primary = yes
 	independent = yes
 	mercenary_type = naval_merc_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
 }
 
 d_tamil_band = {
@@ -1559,6 +1595,9 @@ d_tamil_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = tamil_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_marathi_company = {
@@ -1573,6 +1612,9 @@ d_marathi_company = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = marathi_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_marathi_band = {
@@ -1587,6 +1629,9 @@ d_marathi_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = marathi_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_bengal_company = {
@@ -1601,6 +1646,9 @@ d_bengal_company = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = bengal_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_bengal_band = {
@@ -1615,6 +1663,9 @@ d_bengal_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = bengal_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_rajput_company = {
@@ -1629,6 +1680,9 @@ d_rajput_company = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = rajput_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_rajput_band = {
@@ -1643,6 +1697,9 @@ d_rajput_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = rajput_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_persian_caravan_guards = {
@@ -1657,6 +1714,9 @@ d_persian_caravan_guards = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = persian_caravan_guards_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_silk_road_sentinels = {
@@ -1671,6 +1731,9 @@ d_silk_road_sentinels = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = silk_road_sentinels_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 d_turkic_guard = {
@@ -1685,6 +1748,9 @@ d_turkic_guard = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = turkic_guards_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
 }
 
 e_hre = {
@@ -6281,8 +6347,8 @@ e_byzantium = {
 			color = { 26 13 107 }
 			color2 = { 255 255 255 }
 			capital = 758
-			frankish = "Cilicia Trachea"
-			norman = "Cilicia Trachea"
+			frankish = "Saleph"
+			norman = "Saleph"
 			turkish = "Karaman"
 			turkmen = "Silifke"
 			oghuz = "Silifke"
@@ -14529,7 +14595,6 @@ e_italy = {
 			capital = 333
 			culture = laziale
 			christian = 9000
-			greek = "Lazio"
 			c_roma = {
 				color = { 228 229 214 }
 				color2 = { 255 255 255 }
@@ -14759,7 +14824,6 @@ e_italy = {
 			color = { 148 118 0 }
 			color2 = { 255 255 255 }
 			capital = 350
-			greek = "Picenum"
 			roman = "Picenum"
 			c_ancona = {
 				color = { 223 204 48 }
@@ -15054,6 +15118,7 @@ e_italy = {
 			c_andria = {
 				color = { 197 229 48 }
 				color2 = { 255 255 255 }
+				greek = "Barletta"
 				b_andria = {}
 				b_trani = {}
 				b_canosa = {}
@@ -15261,6 +15326,7 @@ e_italy = {
 			c_palermo = {
 				color = { 100 228 111 }
 				color2 = { 255 255 255 }
+				greek = "Panormos"
 				b_palermo = {}
 				b_collesano = {}
 				b_sclafani = {}
@@ -16846,8 +16912,9 @@ e_france = {
 				title_female = VICOMTESSE
 				foa = VICOMTE_FOA
 				title_prefix = VICOMTE_OF
-				greek = "Bayonne"
-				roman = "Bayonne"
+				basque = "Labourd"
+				greek = "Labourd"
+				roman = "Labourd"
 				b_sauveterre = {}
 				b_bayonne = {}
 				b_dax = {}
@@ -21041,6 +21108,7 @@ e_null = {
 			color2 = { 255 255 255 }
 			capital = 699
 			name_tier = count
+			greek = "Edessa"
 			turkish = "Urfa"
 			turkmen = "Urfa"
 			oghuz = "Urfa"
@@ -21072,6 +21140,7 @@ e_null = {
 				frankish = "Gaziantep"
 				norman = "Gaziantep"
 				andalusian_arabic = "Gaziantep"
+				greek = "Doliche"
 				bedouin_arabic = "Gaziantep"
 				maghreb_arabic = "Gaziantep"
 				levantine_arabic = "Gaziantep"
@@ -24336,21 +24405,35 @@ e_null = {
 		culture = udi
 		orthodox = 200
 		capital = 1092
+		armenian = "Albania"
+		udi = "Albania"
+		georgian = "Albania"
+		pahlavi = "Albania"
 		d_albania = {
 			color = { 255 203 100 }
 			color2 = { 255 255 255 }
 			capital = 1530
+			armenian = "Albania"
+			udi = "Albania"
+			georgian = "Albania"
+			pahlavi = "Albania"
 			c_arran = {
 				color = { 253 176 176 }
 				color2 = { 255 255 255 }
 				armenian = "Barda"
+				greek = "Albania"
 				udi = "Barda"
+				georgian = "Albania"
+				pahlavi = "Albania"
 				b_barda = {}
 				b_baylakan = {}
 			}
 			c_utik = {
 				color = { 253 176 176 }
 				color2 = { 255 255 255 }
+				turkish = "Ganja"
+				turkmen = "Ganja"
+				oghuz = "Ganja"
 				b_ganja = {}
 				b_shamkhor = {}
 			}
@@ -24451,7 +24534,6 @@ e_null = {
 		capital = 1983
 		culture = zhangzhung
 		zhangzhung = "Zhangzhung"
-		han = "Zhangzhung"
 		d_purang = {
 			color = { 67 130 219 }
 			color2 = { 255 255 255 }
@@ -24460,7 +24542,6 @@ e_null = {
 			c_kyunglung = {
 				color = { 102 132 206 }
 				color2 = { 255 255 255 }
-				han = "Qulong"
 				b_kyunglung = {}
 				b_gurugem = {}
 				b_tirthapuri = {}
