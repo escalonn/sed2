@@ -310,11 +310,6 @@ title_china_emperor                            ;Emperor ;;;Emperor
 cat                                            ;Cat     ;;;Cat
 bon                                            ;Bön     ;;;Bön
 temple_baron_bon                               ;Lama    ;;;Lama
-d_han_mid                                      ;Qilin Company;;;Qilin Company
-d_han_mid_low                                  ;Tortoise Company;;;Tortoise Company
-d_han_low                                      ;Crane Band;;;Crane Band
-d_tangut_low                                   ;Tangut Band;;;Tangut Band
-d_bodpa_low                                    ;Bödpa Band;;;Bödpa Band
 ca_culture_tibetan_1                           ;Mountaineer Academy;;;Mountaineer Academy
 ca_culture_tibetan_2                           ;Mountaineer Academy;;;Mountaineer Academy
 ca_culture_tibetan_3                           ;Mountaineer Academy;;;Mountaineer Academy
@@ -344,7 +339,7 @@ nepali                                         ;Nepali  ;;;Nepali
 tibetan_group                                  ;Tibeto-Burman;;;Tibeto-Burman
 e_tibet                                        ;Tibet   ;;Tufan,Tubbat,Töpät,Tüpüt;Tibet
 e_tibet_adj                                    ;Tibetan ;;;Tibetan
-k_guge                                         ;Guge    ;;Xangxung,Kuo-k'êk;Guge
+k_guge                                         ;Guge    ;;Zhangzhung,Xiangxiong;Guge
 k_guge_adj                                     ;Guge    ;;;Gugese
 d_ngari                                        ;Ngari   ;;Ali;Ngari
 d_ngari_adj                                    ;Ngari   ;;;Ngari
@@ -352,7 +347,7 @@ c_tsaparang_adj                                ;Tsaparang;;;Tsaparangi
 c_gar_adj                                      ;Gar     ;;;Gari
 c_rutog_adj                                    ;Rutog   ;;;Rutogi
 c_kunlun_adj                                   ;Kunlun  ;;;Kunlun
-d_purang                                       ;Purang  ;;P'uo-lan,Zhangzhung;Purang
+d_purang                                       ;Purang  ;;Zhangzhung;Purang
 d_purang_adj                                   ;Purang  ;;;Purang
 c_kyunglung_adj                                ;Kyunglung;;;Kyunglungi
 c_purang_adj                                   ;Burang  ;;;Purangi
@@ -412,11 +407,6 @@ chinese_book_history_name                      ;History of [offmap_china.GetShor
 chinese_book_economy_name                      ;[offmap_china.Governor.GetFirstName]’s Chronicle of Economic Principle;;;[offmap_china.Governor.GetFirstName]'s Chronicle of Economic Principle
 chinese_tapestry_name                          ;Tapestry of [tapestry_target.GetName];;;Tapestry of [tapestry_target.GetName]
 chinese_tapestry_grand_name                    ;[offmap_china.GetShortName] Tapestry;;;[offmap_china.GetShortName] Tapestry
-d_han_mid_adj                                  ;Qilin Company;;;Qilin Company
-d_han_mid_low_adj                              ;Tortoise Company;;;Tortoise Company
-d_han_low_adj                                  ;Crane Band;;;Crane Band
-d_tangut_low_adj                               ;Tangut Band;;;Tangut Band
-d_bodpa_low_adj                                ;Bödpa Band;;;Bödpa Band
 title_administrator_desc                       ;A scholar-bureaucrat is an educated member of the Chinese gentry, who has earned academic degrees by passing the imperial examinations. They will aid you with the administration of your realm by organizing the local building projects.;;;A scholar-bureaucrat is an educated member of the Chinese gentry, who has earned academic degrees by passing the imperial examinations. They will aid you with the administration of your realm by organizing the local building projects.
 title_china_emperor_female                     ;Empress ;;;Empress
 c_tihama_adj                                   ;Tihamah ;;;Tihaman
@@ -429,16 +419,6 @@ c_khaylam_adj                                  ;Khaylam ;;;Khaylamian
 chinese_artwork_name                           ;[offmap_china.GetShortName] Artwork;;;[offmap_china.GetShortName] Artwork
 chinese_calligraphy_name                       ;[offmap_china.GetShortName] Calligraphy;;;[offmap_china.GetShortName] Calligraphy
 chinese_sculpture_name                         ;[offmap_china.GetShortName] Sculpture;;;[offmap_china.GetShortName] Sculpture
-d_han_tiny_1                                   ;Peony Band;;;Peony Band
-d_han_tiny_1_adj                               ;Peony Band;;;Peony Band
-d_han_tiny_2                                   ;Orchid Band;;;Orchid Band
-d_han_tiny_2_adj                               ;Orchid Band;;;Orchid Band
-d_persian_caravan_guards                       ;Persian Caravan Guards;;;Persian Caravan Guards
-d_persian_caravan_guards_adj                   ;Persian Caravan Guards;;;Persian Caravan Guards
-d_silk_road_sentinels                          ;Silk Road Sentinels;;;Silk Road Sentinels
-d_silk_road_sentinels_adj                      ;Silk Road Sentinels;;;Silk Road Sentinels
-d_turkic_guard                                 ;Turkic Guard;;;Turkic Guard
-d_turkic_guard_adj                             ;Turkic Guard;;;Turkic Guard
 c_gegyai_adj                                   ;Gê’gyai ;;;Gegyai
 sumpa                                          ;Sumpa   ;;;Sumpa
 zhangzhung                                     ;Zhangzhung;;;Zhangzhung
@@ -881,7 +861,7 @@ c_vaspurakan_adj                               ;Vaspurakan;;;Vaspurakani
 c_dwin_adj                                     ;Dvin    ;;;Dwinian
 c_ani_adj                                      ;Ani     ;;;Anian
 c_amida_adj                                    ;Amidan  ;;;Amidan
-d_edessa                                       ;Edessa  ;;Ar-Ruha,Urfa,Riha,Urhây,Edesses;Edessa
+d_edessa                                       ;Edessa  ;;Ar-Ruha,Urfa,Riha,Urhây;Edessa
 d_edessa_adj                                   ;Edessan ;;;Edessan
 c_edessa_adj                                   ;Edessan ;;;Edessan
 c_tell_bashir_adj                              ;Turbessel;;;Tell Bashirian
@@ -900,7 +880,7 @@ c_kartli_adj                                   ;Kartlian;;;Kartlian
 c_tao_adj                                      ;Taoian  ;;;Taoian
 c_guria_adj                                    ;Gurian  ;;;Gurian
 c_kakheti_adj                                  ;Kakhetian;;;Kakhetian
-c_albania_adj                                  ;Albanian;;;Albanian
+c_albania_adj                                  ;Caucasian Albanian;;;Albanian
 c_derbent_adj                                  ;Derbentian;;;Derbentian
 c_imeretia_adj                                 ;Imeretian;;;Imeretian
 c_abkhazia_adj                                 ;Abkhazian;;;Abkhazian
@@ -1376,7 +1356,7 @@ PROV146                                        ;Bourbon ;;c_bourbon;Bourbon
 PROV147                                        ;Limousin;;c_limousin,Augustoritum,Augoustoriton;Limousin
 PROV148                                        ;Angoulême;;c_angouleme,Iculisma;Angoulême
 PROV149                                        ;Bordeaux;;c_bordeaux,Burdigala,Bourdigala;Bordeaux
-PROV151                                        ;Dax     ;;c_labourd,Lapurdum,Lapurdi;Dax
+PROV151                                        ;Dax     ;;c_labourd,Lapurdum;Dax
 PROV152                                        ;Navarre ;;c_navarra,al-Nahara,Nafarroa,Navarre;Navarra
 PROV153                                        ;Biscay  ;;c_viscaya,Bisqayya,Bizkaia,Biscaye,Biscaia;Viscaya
 PROV157                                        ;Santiago;;c_santiago,Yaqquba,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;Santiago
@@ -1723,7 +1703,7 @@ d_armenia_minor_adj_armenian                   ;Armenian;;;Armenian
 e_abyssinia                                    ;Abyssinia;;;Abyssinia
 e_abyssinia_adj                                ;Abyssinian;;;Abyssinian
 d_timbuktu                                     ;Timbuktu;;;Timbuktu
-d_latium                                       ;Latium  ;;Lation;Latium
+d_latium                                       ;Latium  ;;lazialee;Latium
 d_latium_adj                                   ;Latin   ;;;Latin
 c_tadmor_adj                                   ;Al-Sukhnah;;;Al-Sukhnahn
 c_syria_adj                                    ;Bosra   ;;;Bostrian
@@ -2451,20 +2431,6 @@ title_guru                                     ;Court Guru;;;Court Guru
 title_guru_desc                                ;A guru is a wise master or teacher, one who imparts wisdom, usually by giving oral instruction and advice. Having a respected guru residing at your court can be useful, giving you access to sage advice.;;;A guru is a wise master or teacher, one who imparts wisdom, usually by giving oral instruction and advice. Having a respected guru residing at your court can be useful, giving you access to sage advice.
 #v2_10b.csv;;;;
 e_india                                        ;India   ;;;India
-d_tamil_band                                   ;Tamil Band;;;Tamil Band
-d_tamil_band_adj                               ;Tamil   ;;;Tamil
-d_marathi_company                              ;Marathi Company;;;Marathi Company
-d_marathi_company_adj                          ;Marathi ;;;Marathi
-d_marathi_band                                 ;Marathi Band;;;Marathi Band
-d_marathi_band_adj                             ;Marathi ;;;Marathi
-d_bengal_company                               ;Bengal Company;;;Bengal Company
-d_bengal_company_adj                           ;Bengal  ;;;Bengal
-d_bengal_band                                  ;Bengal Band;;;Bengal Band
-d_bengal_band_adj                              ;Bengal  ;;;Bengal
-d_rajput_company                               ;Rajput Company;;;Rajput Company
-d_rajput_company_adj                           ;Rajput  ;;;Rajput
-d_rajput_band                                  ;Rajput Band;;;Rajput Band
-d_rajput_band_adj                              ;Rajput  ;;;Rajput
 temple_barony_of_hindu                         ;Temple of;;;Mandir of
 temple_barony_of_buddhist                      ;Vihara of;;;Vihara of
 temple_barony_of_jain                          ;Temple of;;;Derasar of

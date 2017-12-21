@@ -375,8 +375,8 @@ PROV851 ;Aversa  ;Aversa;c_capua,Kapue;Capua
 PROV1106;Alife   ;Alife;c_alife,Allifae,Alliphai;Volga
 PROV1105;Fondi   ;Fondi;c_fondi,Caieta,Kaiete;Volga
 PROV347 ;Melfi   ;Melfi;c_apulia,Potentia;Apulia
-PROV1111;Andria  ;Andria;c_andria,Bardoulos;Aegean Sea
-PROV348 ;Monte Sant’Angelo;Monte Sant' Angelo;c_foggia,Sipontum,Sipious;Foggia
+PROV1111;Andria  ;Andria;c_andria;Aegean Sea
+PROV348 ;Monte Sant’Angelo;Monte Sant' Angelo;c_foggia,Sipontum,Sepius;Foggia
 PROV346 ;Conversano;Conversano;c_bari,Barium,Barion;Bari
 PROV1110;Gravina ;Gravina;c_gravina,Silvium,Sìlbion;Gulf of Venice
 PROV1108;Loritello;Loritello;c_loritello,Larinum,Larinon;Garonne
@@ -384,14 +384,14 @@ PROV344 ;Taranto ;Taranto;c_taranto,Tarentum,Taras;Taranto
 PROV345 ;Lecce   ;Lecce;c_lecce,Hydruntum,Hydrunton;Lecce
 PROV336 ;Principato;Principato;c_salerno,Salernon;Salerno
 PROV937 ;Marsicovetere;Marsico;c_marsico;Sea of Crete
-PROV935 ;Amalfi  ;Amalfi;c_amalfi,Amalphe;Amalfi
+PROV935 ;Amalfi  ;Amalfi;c_amalfi;Amalfi
 PROV1114;Aquino  ;Aquino;c_aquino,Albitum,Albiton;Mahoyadapuram
 PROV1132;Marsica ;Marsica;c_marsi;Kirghiz
 PROV1113;Manoppello;Manopello;c_manopello,Aternum,Áternon;Chagai
 PROV337 ;Tarsia  ;Tarsia;c_consenza,Consentia,Konsentia;Catanzaro
 PROV1136;Catanzaro;Catanzaro;c_catanzaro,Croton,Kroton,Qatansar;Dvaraka
 PROV338 ;Gerace  ;Gerace;c_reggio,Rhegium,Rhegion,Rivàh;Reggio
-PROV340 ;Palermo ;Palermo;c_palermo,Balharm,Panormos;Palermo
+PROV340 ;Palermo ;Palermo;c_palermo,Balharm;Palermo
 PROV339 ;Geraci  ;Geraci;c_messina,Kefaloídion,Gafludi;Messina
 PROV343 ;Paterno ;Paterno;c_siracusa,Tauromenion,Mu'izziyyah;Siracusa
 PROV1126;Modica  ;Modica;c_modica,Syrakousai,Noto,Muòrica;Daman
@@ -409,7 +409,7 @@ PROV325 ;Arborea ;Arborea;c_arborea,Arbarèe;Arborea
 PROV326 ;Cagliari;Cagliari;c_cagliari,Caralis,Karalis,Plùminos-Càlari;Cagliari
 PROV353 ;Rovigo  ;Rovigo;c_ferrara,Ferraria;Ferrara
 PROV1143;Este    ;Este;c_este,Ateste;Kalyani
-PROV351 ;Ravenna ;Ravenna;c_ravenna,Rhabenna;Ravenna
+PROV351 ;Ravenna ;Ravenna;c_ravenna,Rhaouenna;Ravenna
 PROV352 ;Romagna ;Romagna;c_bologna,Bononia;Bologna
 PROV1123;Bertinoro;Bertinoro;c_bertinoro,Forum Livii,Phoron Livii;Vengipura
 PROV1133;Rimini  ;Rimini;c_rimini,Ariminum,Ariminon;Vadodara
@@ -564,7 +564,7 @@ PROV703 ;Tercan  ;Derdjan;c_karin,Keltzene,Erzincan,Arzinjan,Ezirgan;Karin
 PROV704 ;Karin   ;Karin;c_theodosiopolis,Theodosioupolis,Karin,Erzen er-Rúm,Arzan ar-Rúm,Erzîrom;Theodosiopolis
 PROV705 ;Chaldia ;Chaldia;c_chaldea,Giresun;Chaldea
 PROV735 ;Marash  ;Marash;c_teluch,Maras,Maraš,Mar'ash,Mariscum,Germanikeia;Teluch
-PROV734 ;Ravendal;Ravendal;c_aintab,Ayn Tab,Hamtab,Doliche;Aintab
+PROV734 ;Ravendal;Ravendal;c_aintab,Ayn Tab,Hamtab;Aintab
 PROV736 ;Lykandos;Lykandos;c_lykandos,Ablustain,Ablastayn,Elbistan;Lykandos
 PROV737 ;Caesarea;Kaisareia;c_kaisereia,Gesaria,Césarée,Kayseriye;Kaisereia
 PROV738 ;Amisus  ;Amisos;c_amisos,Canik;Amisos
@@ -885,7 +885,7 @@ PROV622 ;Sighnaq ;Sighnaq;c_sighnaq;Turkestan
 PROV623 ;Kerder  ;Kerder;c_kerder,Kerder;Aral
 PROV624 ;Mangyshlak;Mangyshlak;c_mangyshlak;Mangyshlak
 PROV625 ;Ustyurt ;Ust-Yurt;c_ustyurt;Usturt
-PROV626 ;Khwarezm;Khwárazm;c_kath;Khiva
+PROV626 ;Khwarezm;Khwarezm;c_kath;Khiva
 PROV627 ;Karakum ;Kara-Kum;;Kara-Kum
 PROV628 ;Bukhara ;Bukhara;c_bukhara;Bukhara
 PROV629 ;Abiward ;Abívard;c_abivard;Konjikala
@@ -925,7 +925,7 @@ PROV668 ;Absheron;Abšaran;c_absheron;Shirvan
 PROV669 ;Maskat  ;Maskat;c_maskat,Shapuran;Shemakha
 PROV670 ;Mugan   ;Muqan;c_azerbaijan,Paytakaran,Paidangaran,Aturpatakan;Azerbaijan
 PROV673 ;Layzan  ;Layzan;c_albania;Albania
-PROV684 ;Amadiya ;Amadiyah;c_amadiya,Kordyene,Korchayk,Amadiye,Kardox,Amadiya;Nisibin
+PROV684 ;Amadiya ;Amadiyah;c_amadiya,Corduene,Korchayk,Amadiye,Kardox,Amadiya;Nisibin
 PROV687 ;Daquq   ;Daquqa;c_kirkuk,Corcura,Korkyra,Dakuk,Garmagan;Kirkuk
 PROV689 ;Al-Igharayn;Igharayn;c_igharayn,Antiochia in Media,Antiokheia tes Medias,Nihawand;Ilam
 PROV690 ;Nahrawan;Nahrawan;c_al_amarah,Dasqarta d’Malka,Dastgerd;Al Amarah
