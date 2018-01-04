@@ -24526,7 +24526,9 @@ e_rajastan = { # Rajastan
 e_null = { #
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
-	capital = 774 # Jérusalem # Jerusalem
+	capital = 333
+	can_be_usurped = no
+	can_be_claimed = no
 	short_name = yes
 	# Must be defined before k_armenia
 	k_bagratid_grand_principality = { # Hayk
