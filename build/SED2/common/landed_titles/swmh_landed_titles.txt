@@ -10874,7 +10874,21 @@ e_carpathia = { # Magyarország
 			} # end c_marmaros
 			allow = { title_duke_basic_allow = yes }
 		} # end d_transylvania
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					has_global_flag = EMF
+					FROM = { has_holder = no }
+					ai = yes
+				}
+				OR = {
+					NOT = { culture = hungarian }
+					is_tribal = no
+					has_global_flag = emf_conquest_hungary_completed
+				}
+			}
+			title_king_basic_allow = yes
+		}
 	} # end k_hungary
 	k_bosnia = { # Bosna
 		color = { 0 86 148 }
