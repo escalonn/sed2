@@ -21299,7 +21299,7 @@ e_africa = { # Africa
 				b_alabbasiyaifr = {}
 				b_rakkada = {}
 				b_sabiba = {}
-				b_eljem = {}
+				b_sabra = {}
 				b_subaytila = {}
 			} # end c_kairwan
 			c_sfax = { # Sfax (1353)
@@ -21336,13 +21336,14 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				greek = "Girba"
 				roman = "Girba"
+				b_djerba = {}
 				b_houmtsouk = {}
 				b_midoun = {}
 				b_ajim = {}
 				b_aghir = {}
 				b_abarda = {}
 				b_elmey = {}
-				b_cedriane = {}
+				#b_cedriane = {}
 				#b_taguermess = {}
 			}
 			c_nafzawa = { # Jerid (1351)
@@ -21495,6 +21496,7 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				b_setif = {}
 				b_qalatbhammad = {}
+				b_ikjan = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_kabylia
@@ -21529,7 +21531,6 @@ e_africa = { # Africa
 				b_bigou = {}
 				b_mekhadma = {}
 				b_branis = {}
-				#b_khenchela = {} # c_tabassa
 			}
 			c_tell_atlas = { # Tabna (824)
 				color = { 37 155 48 }
@@ -21553,6 +21554,7 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				b_tabassa = {}
 				b_khenchela = {}
+				b_baghaya = {}
 				b_ouenza = {}
 			}
 			c_arigh = { # Arigh (1356)
@@ -21589,7 +21591,7 @@ e_africa = { # Africa
 				b_saida = {}
 				b_bordj = {}
 			}
-			c_lemdiyya = { # Achir (830)
+			c_lemdiyya = { # Ashír (830)
 				color = { 51 198 85 }
 				color2 = { 255 255 255 }
 				greek = "Auzia"
@@ -21702,8 +21704,15 @@ e_africa = { # Africa
 				b_asilah = {}
 				b_kasrkutama = {}
 				b_laraiche = {}
+				#b_alcazarquivir = { # identical with Qasr Kutama
+				#	bedouin_arabic = "Qasr al-Kabir"
+				#	maghreb_arabic = "Qasr al-Kabir"
+				#	levantine_arabic = "Qasr al-Kabir"
+				#	egyptian_arabic = "Qasr al-Kabir"
+				#	andalusian_arabic = "Qasr al-Kabir"
+				#	sicilian_arabic = "Qasr al-Kabir"
+				#}
 				b_mulaybuselham = {}
-				b_alcazarquivir = {}
 				b_ainbenamar = {}
 				#b_charkia = {}
 				#b_barrha = {}
@@ -23020,6 +23029,7 @@ e_persia = { # Érán
 		color2 = { 255 255 255 }
 		capital = 903 # Samarkand # Samarqand
 		culture = persian
+		soghdian = Soghd
 		muslim = 200 # Crusade target weight
 		zoroastrian = 300 # Crusade target weight
 		greek = "Sogdia"
@@ -24042,6 +24052,23 @@ e_rajastan = { # Rajastan
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_lata
+		d_konkana = {
+			color = { 115 20 40 }
+			color2 = { 255 255 255 }
+			capital = 1694 # Thana
+			c_thana = {
+				color = { 100 20 40 }
+				color2 = { 255 255 255 }
+				b_thana = {}
+				b_dabhol = {}
+				b_kanhagiri = {}
+				b_chaul = {}
+				b_mahim = {}
+				b_bassein = {}
+				b_janjira = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_gujarat
 	k_rajputana = { # Rajputana
@@ -24378,6 +24405,34 @@ e_rajastan = { # Rajastan
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_anupa
+		d_nasikya = {
+			color = { 120 50 90 }
+			color2 = { 255 255 255 }
+			capital = 1687 # Nasikya
+			c_nasikya = {
+				color = { 140 50 90 }
+				color2 = { 255 255 255 }
+				b_nasikya = {}
+				b_seunapura = {}
+				b_patta = {}
+				b_saptashrungi = {}
+				b_ratangad = {}
+				b_igatpuri = {}
+				b_tryambaka = {}
+			}
+			c_nandurbar = {
+				color = { 120 50 110 }
+				color2 = { 255 255 255 }
+				b_nandurbar = {}
+				b_bhambhagiri = {}
+				b_chandor = {}
+				b_malegaon = {}
+				b_songarh = {}
+				b_sultanpur = {}
+				b_mayuragiri = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_malwa
 	k_kosala = { # Kosala
@@ -24418,14 +24473,6 @@ e_rajastan = { # Rajastan
 				b_kurara = {}
 				b_konch = {}
 			}
-			c_bharauli = { # Bharauli (1685)
-				color = { 225 135 77 }
-				color2 = { 255 255 255 }
-				b_bharauli = {}
-				b_manikpur = {}
-				b_lalganj = {}
-				b_bhadri = {}
-			}
 			c_asni = { # Asni (1686)
 				color = { 225 155 97 }
 				color2 = { 255 255 255 }
@@ -24437,23 +24484,12 @@ e_rajastan = { # Rajastan
 				b_bindki = {}
 				b_khaga = {}
 			}
-			c_prayaga = { # Prayaga (1687)
-				color = { 215 165 67 }
-				color2 = { 255 255 255 }
-				b_prayaga = {}
-				b_daraganj = {}
-				b_alopibagh = {}
-				b_kausambi = {}
-				b_chowk = {}
-				b_kara = {}
-				b_dariyabad = {}
-			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_kanyakubja
 		d_saryupara = { # Saryupara
 			color = { 180 110 40 }
 			color2 = { 255 255 255 }
-			capital = 1690 # Ayodhya
+			capital = 1688 # Namisa
 			c_naimisa = { # Namisa (1688)
 				color = { 180 110 60 }
 				color2 = { 255 255 255 }
@@ -24463,28 +24499,6 @@ e_rajastan = { # Rajastan
 				b_lakhimpur = {}
 				b_sitapur = {}
 				b_misrikh = {}
-			}
-			c_sravasti = { # Sravasti (1689)
-				color = { 160 110 60 }
-				color2 = { 255 255 255 }
-				b_sravasti = {}
-				b_barohiya = {}
-				b_jetavana = {}
-				b_amorha = {}
-				b_gorakhnath_math = {}
-				b_gorakhpur = {}
-				b_maghar = {}
-			}
-			c_ayodhya = { # Ayodhya (1690)
-				color = { 180 130 60 }
-				color2 = { 255 255 255 }
-				b_ayodhya = {}
-				b_ramkot = {}
-				b_ram_janmabhoomi = {}
-				b_nageshwarnath = {}
-				b_hanuman_garhi = {}
-				b_faizabad = {}
-				b_sarairasi = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_saryupara
@@ -24520,16 +24534,48 @@ e_rajastan = { # Rajastan
 				b_singrampur = {}
 				b_narsinghgarh = {}
 			}
-			c_gurgi = { # Gurgi (1694)
-				color = { 150 255 91 }
-				color2 = { 255 255 255 }
-				b_gurgi = {}
-				b_satna = {}
-				b_bathgahora = {}
-				b_chandrehi = {}
-			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_jejakabhukti
+		d_dahala = {
+			color = { 30 125 55 }
+			color2 = { 255 255 255 }
+			capital = 1689 # Tripuri
+			c_tripuri = {
+				color = { 50 125 55 }
+				color2 = { 255 255 255 }
+				b_tripuri = {}
+				b_mandla = {}
+				b_garha = {}
+				b_tungaturti = { # Fictional - For Prosperity
+				}
+				b_velan = { # Fictional - For Prosperity
+				}
+				b_rasidpur = { # Fictional - For Prosperity
+				}
+				b_samdong = { # Fictional - For Prosperity
+				}
+			}
+			c_chauragarh = {
+				color = { 30 125 35 }
+				color2 = { 255 255 255 }
+				b_chauragarh = {}
+				b_bohani = {}
+				b_barman = {}
+				b_sirsali = { # Fictional - For Prosperity
+				}
+				b_siruvachur = { # Fictional - For Prosperity
+				}
+				b_tingra = { # Fictional - For Prosperity
+				}
+				b_hainsasar = { # Fictional - For Prosperity
+				}
+			}
+			coat_of_arms = {
+				data = { 0 0 0 35 0 10 10 }
+				religion = jain
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_kosala
 	allow = { title_emperor_basic_allow = yes }
