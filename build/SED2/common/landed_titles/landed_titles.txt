@@ -106,8 +106,6 @@ e_shiite = { # The Shia Caliphate
 e_golden_horde = { # Golden Horde
 	color = { 243 180 17 }
 	capital = 619 # Saray
-	# Always exists
-	landless = yes
 	culture = mongol
 	religion = tengri_pagan
 	allow = {
@@ -120,8 +118,6 @@ e_golden_horde = { # Golden Horde
 e_il-khanate = { # Ilkhanate
 	color = { 120 180 20 }
 	capital = 667 # Tabriz # Tabriz and Maragheh
-	# Always exists
-	landless = yes
 	culture = mongol
 	religion = tengri_pagan
 	allow = {
@@ -135,8 +131,6 @@ e_mongol_empire = { # Yeke Mongol Ulus
 	color = { 255 255 255 }
 	color2 = { 255 20 20 }
 	capital = 1571 # Yulduz # Almaliq # (Chagatid Capital)
-	# Always exists
-	landless = yes
 	culture = mongol
 	religion = tengri_pagan
 	allow = {
@@ -149,8 +143,6 @@ e_mongol_empire = { # Yeke Mongol Ulus
 e_timurids = { # Timurids
 	color = { 120 20 20 }
 	capital = 903 # Samarkand
-	# Always exists
-	# landless = yes
 	culture = mongol
 	religion = sunni
 	allow = {
