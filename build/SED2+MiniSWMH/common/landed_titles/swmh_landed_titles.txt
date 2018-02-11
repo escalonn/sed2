@@ -4389,22 +4389,25 @@ e_hre = {
 	}
 	allow = {
 		FROM = { is_de_jure_title = yes }
-		OR = {
-			realm_size = 320
-			AND = {
-				realm_size = 120
-				OR = {
-					not_emf_trigger = yes
-					FROM = {
-						has_holder = yes
-						has_law = crown_authority_4
-					}
-					AND = {
-						FROM = { has_holder = no }
-						primary_title = {
-							OR = {
-								has_law = crown_authority_3
-								has_law = crown_authority_4
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			FROM = { has_holder = yes }
+			OR = {
+				realm_size = 320
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
 							}
 						}
 					}
@@ -4424,6 +4427,30 @@ e_roman_empire = {
 	religion = orthodox
 	allow = {
 		FROM = { is_de_jure_title = yes }
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 420
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
@@ -12034,7 +12061,33 @@ e_arabia = {
 		}
 		allow = { title_king_basic_allow = yes }
 	}
-	allow = { title_emperor_basic_allow = yes }
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 220
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		title_emperor_basic_allow = yes
+	}
 }
 
 e_abyssinia = {
@@ -21350,22 +21403,24 @@ e_persia = {
 		allow = { title_king_basic_allow = yes }
 	}
 	allow = {
-		OR = {
-			realm_size = 220
-			AND = {
-				realm_size = 120
-				OR = {
-					not_emf_trigger = yes
-					FROM = {
-						has_holder = yes
-						has_law = crown_authority_4
-					}
-					AND = {
-						FROM = { has_holder = no }
-						primary_title = {
-							OR = {
-								has_law = crown_authority_3
-								has_law = crown_authority_4
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 220
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
 							}
 						}
 					}
