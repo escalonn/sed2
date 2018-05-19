@@ -207,7 +207,7 @@ def main():
                 yield from recurse(v)
 
     with tempfile.TemporaryDirectory() as td:
-        parser = SimpleParser()
+        parser = SimpleParser(strict=False)
         parser.moddirs = [swmhpath]
         prov_id, prov_title = get_province_id(parser)
         max_provs = get_max_provinces(parser)

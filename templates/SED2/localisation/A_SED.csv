@@ -133,7 +133,6 @@ c_otrar_adj                                    ;Otrar   ;;;Otrarian
 c_turgay_adj                                   ;Turgai  ;;;Turgay
 c_balkhash_adj                                 ;Balkhash;;;Balkhashi
 c_socotra_adj                                  ;Socotran;;;Socotran
-e_rajastan                                     ;Rajasthan;;;Rajastan
 k_sindh                                        ;Sindh   ;;;Sindh
 d_sauvira                                      ;Sauvira ;;;Sauvira
 d_bhakkar                                      ;Bhakkar ;;;Bhakkar
@@ -540,6 +539,7 @@ d_norrland                                     ;Hälsingland;;Kænlandi,Cwenaland,
 d_norrland_adj                                 ;Hälsingland;;;Hälsinglander
 AUSTRASIA                                      ;Austrasia;;;Austrasia
 AUSTRASIA_ADJ                                  ;Austrasian;;;Austrasian
+#RedKing.csv;;;;
 #RulerDesigner.csv;;;;
 #SwordOfIslam.csv;;;;
 #WikipediaLinks.csv;;;;
@@ -585,18 +585,9 @@ ct_marketplace_3                               ;Toll Booth;;;Toll Booth
 ct_marketplace_4                               ;Court   ;;;Court
 ct_marketplace_5                               ;Assay Office;;;Assay Office
 ct_marketplace_6                               ;Fair    ;;;Fair
-tp_monastery_1                                 ;Church  ;;;Church
-tp_monastery_2                                 ;Church  ;;;Church
-tp_monastery_3                                 ;Church  ;;;Church
 tp_monastery_4                                 ;Cathedral;;;Cathedral
 tp_monastery_5                                 ;Cathedral;;;Cathedral
 tp_monastery_6                                 ;Cathedral;;;Cathedral
-tp_town_1                                      ;Church Town;;;Church Town
-tp_town_2                                      ;Church Town;;;Church Town
-tp_town_3                                      ;Church Town;;;Church Town
-tp_town_4                                      ;Church Town;;;Church Town
-tp_town_5                                      ;Church Town;;;Church Town
-tp_town_6                                      ;Church Town;;;Church Town
 english                                        ;English ;;;English
 occitan                                        ;Occitan ;;;Occitan
 lettigallish                                   ;Latgalian;;;Lettigallian
@@ -1850,7 +1841,6 @@ tr_garrison_3                                  ;Garrison;;;Garrison
 tr_port_1_desc                                 ;Merchant galleys load and off-load their cargo at this small port.;;;Merchant galleys load and off-load their cargo at this small port.
 tr_port_2_desc                                 ;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.;;;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.
 tr_port_3_desc                                 ;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.;;;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.
-tr_enclave_1_desc                              ;A small enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;A small enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
 tr_enclave_2_desc                              ;An enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;An enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
 tr_enclave_3_desc                              ;A large enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;A large enclave of expatriates from the republic have established themselves in this foreign land to conduct trade.
 tr_garrison_1_desc                             ;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.;;;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.
@@ -1901,20 +1891,20 @@ ct_marketplace_5_desc                          ;Assay offices test the purity of
 ct_marketplace_6_desc                          ;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.;;;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.
 ct_port_1_desc                                 ;A port that services ships coming in to load or unload cargo.;;;A port that services ships coming in to load or unload cargo.
 ct_university_1_desc                           ;A place of higher learning for those with influence enough to gain admission.;;;A place of higher learning for those with influence enough to gain admission.
-tp_wall_q_1_desc                               ;This shallow moat surrounding the church provides another obstacle for attackers to overcome.;;;This shallow moat surrounding the church provides another obstacle for attackers to overcome.
-tp_wall_q_2_desc                               ;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.;;;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.
-tp_wall_3_desc                                 ;These stone walls surround the church and must be overcome by any attacker.;;;These stone walls surround the church and must be overcome by any attacker.
-tp_wall_4_desc                                 ;These large walls surround the church and must be overcome by any attacker.;;;These large walls surround the church and must be overcome by any attacker.
-tp_wall_5_desc                                 ;These massive walls surround the church and must be overcome by any attacker.;;;These massive walls surround the church and must be overcome by any attacker.
-tp_monastery_1_desc                            ;This church serves as the spiritual center of the local community.;;;This church serves as the spiritual center of the local community.
+tp_wall_q_1_desc                               ;This shallow moat surrounding the [Root.Holder.GetHouseOfWorship] provides another obstacle for attackers to overcome.;;;This shallow moat surrounding the [Root.Holder.GetHouseOfWorship] provides another obstacle for attackers to overcome.
+tp_wall_q_2_desc                               ;This gatehouse defends the entrance to the [Root.Holder.GetHouseOfWorship], and makes it easier to control who comes in and who leaves.;;;This gatehouse defends the entrance to the [Root.Holder.GetHouseOfWorship], and makes it easier to control who comes in and who leaves.
+tp_wall_3_desc                                 ;These stone walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;These stone walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.
+tp_wall_4_desc                                 ;These large walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;These large walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.
+tp_wall_5_desc                                 ;These massive walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;These massive walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.
+tp_monastery_1_desc                            ;This [Root.Holder.GetHouseOfWorship] serves as the spiritual center of the local community.;;;This [Root.Holder.GetHouseOfWorship] serves as the spiritual center of the local community.
 tp_monastery_2_desc                            ;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.;;;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.
-tp_barracks_1_desc                             ;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.;;;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.
-tp_elite_barracks_1_desc                       ;These holy warriors have sworn to defend this church with their lives.;;;These holy warriors have sworn to defend this church with their lives.
-tp_town_1_desc                                 ;This small village of faithful peasants has formed around the church.;;;This small village of faithful peasants has formed around the church.
-tp_town_2_desc                                 ;This town of faithful peasants has formed around the church.;;;This town of faithful peasants has formed around the church.
-tp_town_3_desc                                 ;This large town of faithful peasants has formed around the church.;;;This large town of faithful peasants has formed around the church.
-tp_town_4_desc                                 ;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.;;;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.
-tp_town_5_desc                                 ;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
+tp_barracks_1_desc                             ;When necessary, peasants from the local farms are conscripted into the [Root.Holder.GetHouseOfWorship] militia and stationed here.;;;When necessary, peasants from the local farms are conscripted into the [Root.Holder.GetHouseOfWorship] militia and stationed here.
+tp_elite_barracks_1_desc                       ;These holy warriors have sworn to defend this [Root.Holder.GetHouseOfWorship] with their lives.;;;These holy warriors have sworn to defend this [Root.Holder.GetHouseOfWorship] with their lives.
+tp_town_1_desc                                 ;This small village of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;This small village of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].
+tp_town_2_desc                                 ;This town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;This town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].
+tp_town_3_desc                                 ;This large town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;This large town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].
+tp_town_4_desc                                 ;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a large city, with thousands of inhabitants calling it their home.;;;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a large city, with thousands of inhabitants calling it their home.
+tp_town_5_desc                                 ;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a bustling metropolis, with thousands of inhabitants calling it their home.
 tp_school_1_desc                               ;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.;;;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.
 #v1_091.csv;;;;
 #v1_092.csv;;;;
@@ -2144,16 +2134,16 @@ ct_port_2                                      ;Port    ;;;Port
 ct_port_3                                      ;Port    ;;;Port
 ct_port_4                                      ;Port    ;;;Port
 ct_port_5                                      ;Port    ;;;Port
-tp_wall_q_1                                    ;Church Fortifications;;;Church Fortifications
-tp_wall_q_2                                    ;Church Fortifications;;;Church Fortifications
-tp_wall_q_3                                    ;Church Fortifications;;;Church Fortifications
-tp_wall_q_4                                    ;Church Fortifications;;;Church Fortifications
-tp_wall_q_5                                    ;Church Fortifications;;;Church Fortifications
-tp_wall_1                                      ;Church Walls;;;Church Walls
-tp_wall_2                                      ;Church Walls;;;Church Walls
-tp_wall_3                                      ;Church Walls;;;Church Walls
-tp_wall_4                                      ;Church Walls;;;Church Walls
-tp_wall_5                                      ;Church Walls;;;Church Walls
+tp_wall_q_1                                    ;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;[Root.Holder.GetHouseOfWorshipCap] Fortifications
+tp_wall_q_2                                    ;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;[Root.Holder.GetHouseOfWorshipCap] Fortifications
+tp_wall_q_3                                    ;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;[Root.Holder.GetHouseOfWorshipCap] Fortifications
+tp_wall_q_4                                    ;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;[Root.Holder.GetHouseOfWorshipCap] Fortifications
+tp_wall_q_5                                    ;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;[Root.Holder.GetHouseOfWorshipCap] Fortifications
+tp_wall_1                                      ;[Root.Holder.GetHouseOfWorshipCap] Walls;;;[Root.Holder.GetHouseOfWorshipCap] Walls
+tp_wall_2                                      ;[Root.Holder.GetHouseOfWorshipCap] Walls;;;[Root.Holder.GetHouseOfWorshipCap] Walls
+tp_wall_3                                      ;[Root.Holder.GetHouseOfWorshipCap] Walls;;;[Root.Holder.GetHouseOfWorshipCap] Walls
+tp_wall_4                                      ;[Root.Holder.GetHouseOfWorshipCap] Walls;;;[Root.Holder.GetHouseOfWorshipCap] Walls
+tp_wall_5                                      ;[Root.Holder.GetHouseOfWorshipCap] Walls;;;[Root.Holder.GetHouseOfWorshipCap] Walls
 tp_elite_barracks_1                            ;Barracks;;;Barracks
 tp_elite_barracks_2                            ;Barracks;;;Barracks
 tp_elite_barracks_3                            ;Barracks;;;Barracks
@@ -2734,7 +2724,7 @@ tribal_king_female                             ;Queen   ;;;Queen
 tribal_emperor_female                          ;Empress ;;;Empress
 temple_duke_female_pagan_group                 ;Archpriestess;;;Archpriestess
 temple_king_female_pagan_group                 ;Queen-Priestess;;;Queen-Priestess
-temple_emperor_female_pagan_group              ;Emperor ;;;Emperor
+temple_emperor_female_pagan_group              ;Empress ;;;Empress
 #v2_21b.csv;;;;
 #v2_30.csv;;;;
 #v2_30b.csv;;;;
@@ -3052,10 +3042,25 @@ empire_russian                                 ;Tsardom ;;;Tsardom
 #v2_70.csv;;;;
 #v2_81.csv;;;;
 temple_barony_of_taoist                        ;Temple of;;;Temple of
+#v2_82.csv;;;;
+tr_enclave_1_desc                              ;A small enclave established by traders from all over the region in order to conduct trade.;;;A small enclave established by traders from all over the region in order to conduct trade.
+artifact_name                                  ;[GetWeaponName];;;[GetWeaponName]
+e_rajastan                                     ;Rajasthan;;;Rajasthan
+tp_monastery_1                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]
+tp_monastery_2                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]
+tp_monastery_3                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]
+tp_town_1                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
+tp_town_2                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
+tp_town_3                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
+tp_town_4                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
+tp_town_5                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
+tp_town_6                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
 #z_Dan.csv;;;;
 #z_JD_patch.csv;;;;
+#z_Joachim_Patch.csv;;;;
 #z_Joel.csv;;;;
 #z_Milla.csv;;;;
+#z_Milla_Patch.csv;;;;
 #z_PLACEHOLDER_DO_NOT_FORGET_ME.csv;;;;
 #z_alex.csv;;;;
 #z_arthur.csv;;;;
@@ -3064,6 +3069,7 @@ temple_barony_of_taoist                        ;Temple of;;;Temple of
 #z_david.csv;;;;
 #z_drikus.csv;;;;
 #z_emil.csv;;;;
+#z_flavio_patch.csv;;;;
 #z_groogy.csv;;;;
 #z_gwenael.csv;;;;
 #z_henrik.csv;;;;
@@ -3072,8 +3078,10 @@ temple_barony_of_taoist                        ;Temple of;;;Temple of
 #z_henrik_l.csv;;;;
 #z_jakob.csv;;;;
 #z_jimmy.csv;;;;
+#z_joel_patch.csv;;;;
 #z_launcher.csv;;;;
 #z_magne.csv;;;;
+#z_magne_patch.csv;;;;
 #z_markus.csv;;;;
 #z_mathilda.csv;;;;
 #z_matthew.csv;;;;
