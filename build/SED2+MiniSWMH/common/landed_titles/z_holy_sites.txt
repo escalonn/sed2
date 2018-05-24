@@ -252,10 +252,11 @@ c_carcassonne = { holy_site = cathar }
 c_santiago = { holy_site = catholic }
 
 c_cordoba = {
-	holy_site = sunni
 	holy_site = aztec
 	holy_site = aztec_reformed
 }
+
+c_kairwan = { holy_site = sunni }
 
 c_tunis = { holy_site = nabawiyya }
 
@@ -269,8 +270,6 @@ c_marrakech = {
 c_massat = { holy_site = nabawiyya }
 
 c_esfahan = {
-	holy_site = zoroastrian
-	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
@@ -283,6 +282,11 @@ c_shiraz = {
 	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
+}
+
+c_sistan = {
+	holy_site = zoroastrian
+	holy_site = mazdaki
 }
 
 c_yazd = {

@@ -26,7 +26,7 @@ d_neustria                          ;Neustria;Neustria;;
 d_neustria_adj                      ;Neustrian;Neustrian;;
 d_tuscia                            ;Tuscia  ;Tuscia;;
 d_tuscia_adj                        ;Tuscia  ;Tuscian;;
-d_amalfi                            ;Amalfi  ;Amalfi;;Amalfi
+d_amalfi                            ;Amalfi  ;Amalfi;Amalphe;Amalfi
 d_amalfi_adj                        ;Amalfitan;Amalfitani;;Amalfitan
 d_norman_apulia                     ;Apulia  ;Apulia;;
 d_norman_apulia_adj                 ;Apulian ;Apulian;;
@@ -414,8 +414,8 @@ d_tukhsi                            ;Tukhsi  ;Tukhsi;;
 d_tukhsi_adj                        ;Tukhsi  ;Tukhsi;;
 d_zunbil                            ;Rutbils ;Rutbils;;
 d_zunbil_adj                        ;Rutbil  ;Rutbil;;
-k_khwarezmia                        ;Khwarezm;Khwarezm;;
-k_khwarezmia_adj                    ;Khwarezmian;Khwarezmí;;
+k_khwarezmia                        ;Khwarezm;Khwárazm;;
+k_khwarezmia_adj                    ;Khwarezmian;Khwárazmí;;
 d_qarluq                            ;Karluks ;Qarluq;;
 d_qarluq_adj                        ;Karluk  ;Qarluq;;
 d_naimans                           ;Naiman  ;Naiman;;
@@ -507,6 +507,9 @@ e_khazaria_adj_sardinian            ;        ;Cassaro;;
 e_khazaria_adj_sicilian             ;        ;Cassaro;;
 #,,,,,,,,,,,,,,;;;;
 e_mongol_empire                     ;Mongol Empire;Yeke Mongol Ulus;;Mongol Empire
+e_egypt                             ;Egypt   ;Misr;Aegyptus,Aigyptos,Khemi,Gibs,Misrayim,Igibt;
+e_egypt_adj                         ;Egyptian;Misri;;
+e_egypt_adj_greek                   ;        ;Aigyptian;;
 #,,,,,,,,,,,,,,;;;;
 d_black_caps                        ;Black Caps;Karakalpaklar;Chyornye Klobuki,Qaum-i Kulah-i Siyahan;
 d_black_caps_adj                    ;Black Cap;Karakalpaklan;;

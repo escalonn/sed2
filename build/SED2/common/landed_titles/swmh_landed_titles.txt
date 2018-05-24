@@ -1737,6 +1737,563 @@ d_ghanan_band = { # Ghanan Band
 	foa = CAPTAIN_FOA
 }
 
+# Chinese Mercenaries
+# d_han_massive = { # Massive Merc - commented out due to its massive size
+# color={ 60 165 80 }
+# color2={ 255 255 255 }
+#
+# graphical_culture = chinesegfx
+#
+# capital = 1570 # Qarashahr
+# hire_range = 1300
+#
+## Parent Religion
+# religion = taoist
+#
+## Parent Culture
+# culture = han
+#
+# mercenary = yes
+#
+# title = "CAPTAIN"
+# foa = "CAPTAIN_FOA"
+#
+## Always exists
+# landless = yes
+#
+## Cannot be held as a secondary title
+# primary = yes
+#
+## Cannot be vassalized
+# independent = yes
+#
+# strength_growth_per_century = 1.0
+#
+# mercenary_type = han_massive_composition
+# }
+# d_han_large = { # Large Merc
+# color={ 235 235 235 }
+# color2={ 255 255 255 }
+#
+# graphical_culture = chinesegfx
+#
+# capital = 1570 # Qarashahr
+# hire_range = 1300
+#
+## Parent Religion
+# religion = taoist
+#
+## Parent Culture
+# culture = han
+#
+# mercenary = yes
+#
+# title = "CAPTAIN"
+# foa = "CAPTAIN_FOA"
+#
+## Always exists
+# landless = yes
+#
+## Cannot be held as a secondary title
+# primary = yes
+#
+## Cannot be vassalized
+# independent = yes
+#
+# strength_growth_per_century = 1.0
+#
+# mercenary_type = han_large_composition
+# }
+d_han_mid = { # Mid Merc
+	color = { 150 80 40 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570 # Qarashahr
+	#hire_range = 1300
+	# Parent Religion
+	religion = taoist
+	# Parent Culture
+	culture = han
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = han_mid_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_han_mid_low = { # Mid-Low Merc
+	color = { 30 150 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570 # Qarashahr
+	#hire_range = 1300
+	# Parent Religion
+	religion = taoist
+	# Parent Culture
+	culture = han
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = han_mid_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+#d_outlaws_of_the_marsh = { # Big merc - commented out because this is more of an easter egg (Water Margin/Shuihu Zuan)
+#	color = { 66 66 66 }
+#	color2 = { 255 255 255 }
+#	graphical_culture = chinesegfx
+#	capital = 1570 # Qarashahr
+#	hire_range = 1300
+#	# Parent Religion
+#	religion = taoist
+#	# Parent Culture
+#	culture = han
+#	mercenary = yes
+#	title = CAPTAIN
+#	foa = CAPTAIN_FOA
+#	# Always exists
+#	landless = yes
+#	# Cannot be held as a secondary title
+#	primary = yes
+#	# Cannot be vassalized
+#	independent = yes
+#	strength_growth_per_century = 1.0
+#	mercenary_type = outlaws_of_the_marsh
+#}
+d_han_low = { # Small Merc
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570 # Qarashahr
+	#hire_range = 1300
+	# Parent Religion
+	religion = taoist
+	# Parent Culture
+	culture = han
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = han_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_han_tiny_1 = { # Tiny Merc
+	color = { 38 120 51 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570 # Qarashahr
+	#hire_range = 1300
+	# Parent Religion
+	religion = taoist
+	# Parent Culture
+	culture = han
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = han_tiny_composition_1
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_han_tiny_2 = { # Tiny Merc
+	color = { 32 175 57 }
+	color2 = { 255 255 255 }
+	graphical_culture = chinesegfx
+	capital = 1570 # Qarashahr
+	#hire_range = 1300
+	# Parent Religion
+	religion = taoist
+	# Parent Culture
+	culture = han
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = han_tiny_composition_2
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_jurchen_band = { # Mid-Low Merc; repurposed into Karluk band
+	color = { 32 120 50 }
+	color2 = { 255 255 255 }
+	#graphical_culture = turkishgfx
+	capital = 1573 # Yeti-su
+	#hire_range = 1300
+	# Parent Religion
+	religion = tengri_pagan
+	# Parent Culture
+	culture = karluk
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = jurchen_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_tangut_low = { # Small Merc
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1968 # Niya
+	#hire_range = 800
+	# Parent Religion
+	religion = buddhist
+	# Parent Culture
+	culture = tangut
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = tangut_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_bodpa_low = { # Small Merc
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1986 # Purang
+	#hire_range = 800
+	# Parent Religion
+	religion = bon
+	# Parent Culture
+	culture = bodpa
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = bodpa_low_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_treasure_fleet = { # repurposed into Yemeni Fleet
+	color = { 222 80 20 }
+	color2 = { 255 255 255 }
+	capital = 858 # Aden
+	#hire_range = 1200
+	# Parent Religion
+	religion = sunni
+	# Parent Culture
+	culture = yemeni
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	mercenary_type = treasure_fleet_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
+}
+
+d_han_junks = { # repurposed into Hormuzi Navy
+	color = { 222 80 20 }
+	color2 = { 255 255 255 }
+	capital = 641 # Hormuz
+	#hire_range = 1000
+	# Parent Religion
+	religion = sunni
+	# Parent Culture
+	culture = persian
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	mercenary_type = naval_merc_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
+}
+
+d_jurchen_corsairs = { # repurposed into Gujarati Corsairs
+	color = { 222 180 20 }
+	color2 = { 255 255 255 }
+	capital = 1636 # Somnath
+	#hire_range = 1000
+	# Parent Religion
+	religion = hindu
+	# Parent Culture
+	culture = gujurati
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	mercenary_type = naval_merc_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+	short_name = yes
+}
+
+# INDIAN MERCS
+d_tamil_band = {
+	color = { 110 60 30 }
+	color2 = { 255 255 255 }
+	capital = 1679 # Asirgarh
+	# Parent Religion
+	religion = hindu
+	culture = tamil
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = tamil_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_marathi_company = {
+	color = { 150 80 40 }
+	color2 = { 255 255 255 }
+	capital = 1680 # Burhanpur
+	# Parent Religion
+	religion = hindu
+	culture = marathi
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = marathi_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_marathi_band = {
+	color = { 180 80 40 }
+	color2 = { 255 255 255 }
+	capital = 1680 # Burhanpur
+	# Parent Religion
+	religion = hindu
+	culture = marathi
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = marathi_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_bengal_company = {
+	color = { 30 150 50 }
+	color2 = { 255 255 255 }
+	capital = 1694 # Gurgi
+	# Parent Religion
+	religion = hindu
+	culture = bengali
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = bengal_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_bengal_band = {
+	color = { 30 170 50 }
+	color2 = { 255 255 255 }
+	capital = 1694 # Gurgi
+	# Parent Religion
+	religion = hindu
+	culture = bengali
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = bengal_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_rajput_company = {
+	color = { 180 65 0 }
+	color2 = { 255 255 255 }
+	capital = 1642 # Mandavyapura
+	# Parent Religion
+	religion = hindu
+	culture = rajput
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = rajput_company_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_rajput_band = {
+	color = { 170 50 0 }
+	color2 = { 255 255 255 }
+	capital = 1642 # Mandavyapura
+	# Parent Religion
+	religion = hindu
+	culture = rajput
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = rajput_band_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+# Silk Road Mercs
+d_persian_caravan_guards = {
+	color = { 67 155 135 }
+	color2 = { 255 255 255 }
+	capital = 630 # Merv
+	religion = sunni # was shiite
+	culture = khorasani # was persian
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = persian_caravan_guards_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_silk_road_sentinels = {
+	color = { 167 125 135 }
+	color2 = { 255 255 255 }
+	capital = 1624 # Udabhanda
+	religion = buddhist
+	culture = panjabi
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = silk_road_sentinels_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
+d_turkic_guard = {
+	color = { 167 125 135 }
+	color2 = { 255 255 255 }
+	capital = 900 # Syr Darya
+	religion = tengri_pagan
+	culture = oghuz
+	mercenary = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	# Cannot be vassalized
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = turkic_guards_composition
+	title = CAPTAIN
+	title_female = CAPTAIN
+	foa = CAPTAIN_FOA
+}
+
 # EMPIRES
 e_hre = { # Heiliges Römisches Reich
 	color = { 224 195 65 }
@@ -4377,22 +4934,25 @@ e_hre = { # Heiliges Römisches Reich
 	}
 	allow = {
 		FROM = { is_de_jure_title = yes }
-		OR = {
-			realm_size = 320
-			AND = {
-				realm_size = 120
-				OR = {
-					not_emf_trigger = yes
-					FROM = {
-						has_holder = yes
-						has_law = crown_authority_4
-					}
-					AND = {
-						FROM = { has_holder = no }
-						primary_title = {
-							OR = {
-								has_law = crown_authority_3
-								has_law = crown_authority_4
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			FROM = { has_holder = yes }
+			OR = {
+				realm_size = 320
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
 							}
 						}
 					}
@@ -4412,6 +4972,30 @@ e_roman_empire = { # Roman Empire
 	religion = orthodox
 	allow = {
 		FROM = { is_de_jure_title = yes }
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 420
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
@@ -6380,8 +6964,8 @@ e_byzantium = { # Basileia Rhõmaiõn
 			color = { 26 13 107 }
 			color2 = { 255 255 255 }
 			capital = 758 # Seleukeia
-			frankish = "Cilicia Trachea"
-			norman = "Cilicia Trachea"
+			frankish = "Saleph"
+			norman = "Saleph"
 			turkish = "Karaman"
 			turkmen = "Silifke"
 			oghuz = "Silifke"
@@ -10317,7 +10901,21 @@ e_carpathia = { # Magyarország
 			} # end c_marmaros
 			allow = { title_duke_basic_allow = yes }
 		} # end d_transylvania
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					has_global_flag = EMF
+					FROM = { has_holder = no }
+					ai = yes
+				}
+				OR = {
+					NOT = { culture = hungarian }
+					is_tribal = no
+					has_global_flag = emf_conquest_hungary_completed
+				}
+			}
+			title_king_basic_allow = yes
+		}
 	} # end k_hungary
 	k_bosnia = { # Bosna
 		color = { 0 86 148 }
@@ -10625,7 +11223,7 @@ e_carpathia = { # Magyarország
 e_arabia = { # Arabian Empire
 	color = { 21 128 0 }
 	color2 = { 255 255 255 }
-	capital = 693 # Baghdad
+	capital = 719 # Mecca
 	culture = bedouin_arabic
 	k_arabia = { # Arabiyya
 		color = { 45 169 12 }
@@ -11614,7 +12212,741 @@ e_arabia = { # Arabian Empire
 		} # end d_jordan
 		allow = { title_king_basic_allow = yes }
 	} # end k_syria
-	allow = { title_emperor_basic_allow = yes }
+	k_jerusalem = { # Jerusalem
+		color = { 180 180 180 }
+		color2 = { 255 255 255 }
+		capital = 774 # Jérusalem # Jerusalem
+		culture = levantine_arabic
+		assimilate = no
+		# Creation Effect
+		gain_effect = {
+			prestige = 5000
+			piety = 2000
+		}
+		christian = 1000 # Crusade target weight
+		muslim = 125 # Crusade target weight
+		andalusian_arabic = "Palestine"
+		greek = "Syria Palaestina"
+		bedouin_arabic = "Palestine"
+		maghreb_arabic = "Palestine"
+		levantine_arabic = "Palestine"
+		egyptian_arabic = "Palestine"
+		sicilian_arabic = "Palestine"
+		sanhaja = "Palestine"
+		tagelmust = "Palestine"
+		masmuda = "Palestine"
+		zanata = "Palestine"
+		tuareg = "Palestine"
+		d_jerusalem = { # Jerusalem
+			color = { 223 224 199 }
+			color2 = { 255 255 255 }
+			christian = 500 # Crusade target weight
+			muslim = 250 # Crusade target weight
+			capital = 774 # Jérusalem # Jerusalem
+			andalusian_arabic = "Palestine"
+			greek = "Palaestina Prima"
+			bedouin_arabic = "Palestine"
+			maghreb_arabic = "Palestine"
+			levantine_arabic = "Palestine"
+			egyptian_arabic = "Palestine"
+			sicilian_arabic = "Palestine"
+			sanhaja = "Palestine"
+			tagelmust = "Palestine"
+			masmuda = "Palestine"
+			zanata = "Palestine"
+			tuareg = "Palestine"
+			roman = "Palaestina Prima"
+			c_jerusalem = { # Jérusalem (774)
+				color = { 45 251 69 }
+				color2 = { 255 255 255 }
+				christian = 1000 # Crusade target weight
+				muslim = 500 # Crusade target weight
+				b_towerofdavid = {}
+				b_bethlehem = {}
+				b_jerusalem = {}
+				b_rammala = {}
+				b_blanchegarde = {}
+				b_saintsamuel = {}
+				b_syrbelmont = {}
+			} # end c_jerusalem
+			c_beersheb = { # Naples (779)
+				color = { 15 208 46 }
+				color2 = { 255 255 255 }
+				b_bethsan = {}
+				b_nablus = {}
+				b_jericho = {}
+				b_lafeve = {}
+				b_syrsebastia = {}
+				b_aynjalut = {}
+			}
+			c_hebron = { # St-Abraham (776)
+				color = { 49 255 73 }
+				color2 = { 255 255 255 }
+				b_hebron = {}
+				b_syrcarmel = {}
+				b_alsamoa = {}
+				b_bethgibelin = {}
+				b_syrsebbe = {}
+			} # end c_hebron
+			c_darum = { # Darom (781)
+				color = { 5 199 37 }
+				color2 = { 255 255 255 }
+				b_darum = {}
+				b_gaza = {}
+				b_radwan = {}
+				b_salqah = {}
+				b_abasan = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_jerusalem
+		d_acre = { # Acre
+			color = { 235 224 73 }
+			color2 = { 255 255 255 }
+			capital = 772 # Acre
+			greek = "Tyre"
+			roman = "Tyre"
+			c_acre = { # Acre (772)
+				color = { 47 253 71 }
+				color2 = { 255 255 255 }
+				b_acre = {}
+				b_castellumregis = {}
+				b_tyrus = {}
+				b_haifa = {}
+				b_scandelon = {}
+				b_adelon = {}
+			} # end c_acre
+			c_tyrus = { # Sidon (771)
+				color = { 8 202 67 }
+				color2 = { 255 255 255 }
+				b_sarafand = {}
+				b_sidon = {}
+				b_syrbelfort = {}
+				b_schuf = {}
+			} # end c_tyrus
+			c_caesarea = { # Caesarea (1260)
+				color = { 47 253 71 }
+				color2 = { 255 255 255 }
+				greek = "Caesarea"
+				roman = "Caesarea"
+				b_caymont = {}
+				b_arsuf = {}
+				b_syrcaesarea = {}
+				b_calansue = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_acre
+		d_oultrejourdain = { # Oultrejourdain
+			color = { 203 159 24 }
+			color2 = { 255 255 255 }
+			capital = 778 # Monreal
+			greek = "Palaestina Salutaris"
+			roman = "Palaestina Salutaris"
+			c_monreal = { # Monreal (778)
+				color = { 47 253 52 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Shoubak"
+				bedouin_arabic = "Shoubak"
+				maghreb_arabic = "Shoubak"
+				levantine_arabic = "Shoubak"
+				egyptian_arabic = "Shoubak"
+				sicilian_arabic = "Shoubak"
+				sanhaja = "Shoubak"
+				tagelmust = "Shoubak"
+				masmuda = "Shoubak"
+				zanata = "Shoubak"
+				tuareg = "Shoubak"
+				b_monreal = {}
+				b_syrsegor = {}
+				b_alwuayra = {}
+				b_petra = {}
+				b_wadi_musa = {}
+				b_alhabis = {}
+			}
+			c_petra = { # Elim (722)
+				color = { 133 208 14 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Aqaba"
+				greek = "Eilat"
+				bedouin_arabic = "Aqaba"
+				maghreb_arabic = "Aqaba"
+				levantine_arabic = "Aqaba"
+				egyptian_arabic = "Aqaba"
+				sicilian_arabic = "Aqaba"
+				roman = "Eilat"
+				b_pharaohosisland = {}
+				b_jordanaqba = {}
+				b_syrarandal = {}
+			}
+			c_kerak = { # Kerak (777)
+				color = { 49 255 54 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Al Karak"
+				bedouin_arabic = "Al Karak"
+				maghreb_arabic = "Al Karak"
+				levantine_arabic = "Al Karak"
+				egyptian_arabic = "Al Karak"
+				sicilian_arabic = "Al Karak"
+				sanhaja = "Al Karak"
+				tagelmust = "Al Karak"
+				masmuda = "Al Karak"
+				zanata = "Al Karak"
+				tuareg = "Al Karak"
+				b_krakdemoab = {}
+				b_kerak = {}
+				b_syrdibban = {}
+				b_tafila = {}
+				b_syralrabbah = {}
+			} # end c_kerak
+			allow = { title_duke_basic_allow = yes }
+		} # end d_oultrejourdain
+		d_ascalon = { # Jaffa-Ascalon
+			color = { 225 65 34 }
+			color2 = { 255 255 255 }
+			capital = 780 # Ascalon
+			c_jaffa = { # Jaffa (775)
+				color = { 8 202 40 }
+				color2 = { 255 255 255 }
+				b_qula = {}
+				b_jaffa = {}
+				b_lydda = {}
+				b_mirabel = {}
+				b_ramleh = {}
+				b_beitdejan = {}
+				b_kharruba = {}
+				b_yazur = {}
+			}
+			c_ascalon = { # Ascalon (780)
+				color = { 12 205 43 }
+				color2 = { 255 255 255 }
+				b_ascalon = {}
+				b_ibelin = {}
+				b_latrun = {}
+				b_montgisard = {}
+				b_karatiyya = {}
+				b_laforbie = {}
+			} # end c_ascalon
+			allow = { title_duke_basic_allow = yes }
+		} # end d_ascalon
+		d_galilee = { # Galilée # Principauté de Galilée
+			color = { 41 45 138 }
+			color2 = { 255 255 255 }
+			#title = PRINCE
+			capital = 773 # Tiberias
+			short_name = yes
+			frankish = "Principality of Galilee"
+			norman = "Principality of Galilee"
+			greek = "Palaestina Secunda"
+			roman = "Palaestina Secunda"
+			c_tiberias = { # Tiberias (773)
+				color = { 5 199 64 }
+				color2 = { 255 255 255 }
+				b_tiberias = {}
+				b_belvoir = {}
+				b_cavedesueth = {}
+				b_sepphoria = {}
+				b_nazareth = {}
+				b_mnttabor = {}
+				b_forbelet = {}
+				#b_hattin = {}
+			} # end c_tiberias
+			c_beirut = { # Beirut (770)
+				color = { 11 205 70 }
+				color2 = { 255 255 255 }
+				greek = "Berytus"
+				roman = "Berytus"
+				b_beirut = {}
+				b_beitkfeya = {}
+				b_chiyah = {}
+				b_choueir = {}
+			}
+			c_safed = { # Toron (769)
+				color = { 14 208 73 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Safed"
+				greek = "Banias"
+				bedouin_arabic = "Safed"
+				maghreb_arabic = "Safed"
+				levantine_arabic = "Safed"
+				egyptian_arabic = "Safed"
+				sicilian_arabic = "Safed"
+				ashkenazi = "Safed"
+				roman = "Banias"
+				b_safed = {}
+				b_banyas = {}
+				b_toron = {}
+				b_meronisreal = {}
+				b_chastelet = {}
+			} # end c_safed
+			allow = { title_duke_basic_allow = yes }
+		} # end d_galilee
+		# Creation/Usurp Trigger
+		allow = {
+			religion_group = christian
+			title_king_basic_allow = yes
+		}
+	} # end k_jerusalem
+	k_antioch = { # Antioche
+		color = { 50 76 150 }
+		color2 = { 255 255 255 }
+		culture = armenian
+		capital = 764 # Antioch
+		catholic = 300 # Crusade target weight
+		orthodox = 300 # Crusade target weight
+		muslim = 150 # Crusade target weight
+		andalusian_arabic = "al-Awasim"
+		bedouin_arabic = "al-Awasim"
+		maghreb_arabic = "al-Awasim"
+		levantine_arabic = "al-Awasim"
+		egyptian_arabic = "al-Awasim"
+		sicilian_arabic = "al-Awasim"
+		sanhaja = "al-Awasim"
+		tagelmust = "al-Awasim"
+		masmuda = "al-Awasim"
+		zanata = "al-Awasim"
+		tuareg = "al-Awasim"
+		d_edessa = { # Edessa
+			color = { 89 21 66 }
+			color2 = { 255 255 255 }
+			capital = 699 # Edessa
+			name_tier = count
+			greek = "Edessa"
+			turkish = "Urfa"
+			turkmen = "Urfa"
+			oghuz = "Urfa"
+			kurdish = "Urfa"
+			c_edessa = { # Edessa (699)
+				color = { 153 255 5 }
+				color2 = { 255 255 255 }
+				turkish = "Urfa"
+				turkmen = "Urfa"
+				oghuz = "Urfa"
+				kurdish = "Urfa"
+				b_edessa = {}
+				b_sruk = {}
+				b_bile = {}
+				b_hromgla = {}
+				b_samsat = {}
+			} # end c_edessa
+			c_tell_bashir = { # Turbessel (708)
+				color = { 155 255 7 }
+				color2 = { 255 255 255 }
+				b_turbessel = {}
+				b_trihalet = {}
+				b_kyrrhos = {}
+				b_nizip = {}
+			} # end c_tell_bashir
+			c_aintab = { # Ravendal (734)
+				color = { 157 255 9 }
+				color2 = { 255 255 255 }
+				frankish = "Gaziantep"
+				norman = "Gaziantep"
+				andalusian_arabic = "Gaziantep"
+				greek = "Doliche"
+				bedouin_arabic = "Gaziantep"
+				maghreb_arabic = "Gaziantep"
+				levantine_arabic = "Gaziantep"
+				egyptian_arabic = "Gaziantep"
+				sicilian_arabic = "Gaziantep"
+				b_aintab = {}
+				b_tulupe = {}
+				b_killiz = {}
+				b_ravendan = {}
+				b_duluk = {}
+			} # end c_aintab
+			c_kaisun = { # Kaisun (1220)
+				color = { 157 255 9 }
+				color2 = { 255 255 255 }
+				b_kaisun = {}
+				b_behetselin = {}
+				b_raban = {}
+				b_hartanedessa = {}
+				b_karkaron = {}
+			} # end c_kaisun
+			allow = { title_duke_basic_allow = yes }
+		} # end d_edessa
+		d_antioch = { # Antioche # Principauté d'Antioche
+			color = { 91 139 188 }
+			color2 = { 255 255 255 }
+			capital = 764 # Antioch
+			christian = 400 # Crusade target weight
+			muslim = 200 # Crusade target weight
+			short_name = yes
+			frankish = "Principality of Antioch"
+			norman = "Principality of Antioch"
+			andalusian_arabic = "Jund al-Awasim"
+			armenian = "Ducate of Antioch"
+			greek = "Ducate of Antioch"
+			alan = "Ducate of Antioch"
+			arberian = "Ducate of Antioch"
+			georgian = "Ducate of Antioch"
+			bedouin_arabic = "Jund al-Awasim"
+			yemeni = "Jund al-Awasim"
+			hijazi = "Jund al-Awasim"
+			maghreb_arabic = "Jund al-Awasim"
+			levantine_arabic = "Jund al-Awasim"
+			egyptian_arabic = "Jund al-Awasim"
+			sicilian_arabic = "Jund al-Awasim"
+			sanhaja = "Jund al-Awasim"
+			tagelmust = "Jund al-Awasim"
+			masmuda = "Jund al-Awasim"
+			zanata = "Jund al-Awasim"
+			tuareg = "Jund al-Awasim"
+			c_antiocheia = { # Antioch (764)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				b_antiocheia = {}
+				b_stsymeon = {}
+				b_darbsak = {}
+				b_harenc = {}
+				b_baghras = {}
+				b_artasium = {}
+			} # end c_antiocheia
+			c_hazart = { # Hazart (1236)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				b_hazart = {}
+				b_harimantiochia = {}
+				b_zerdana = {}
+				b_sarmada = {}
+			}
+			c_saone = { # Saone (968)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Latakia"
+				greek = "Latakia"
+				bedouin_arabic = "Latakia"
+				yemeni = "Latakia"
+				hijazi = "Latakia"
+				maghreb_arabic = "Latakia"
+				levantine_arabic = "Latakia"
+				egyptian_arabic = "Latakia"
+				sicilian_arabic = "Latakia"
+				b_latakiah = {}
+				b_hisnaddair = {}
+				b_stdanielsyria = {}
+				b_saone = {}
+				b_jabala = {}
+				b_balatanos = {}
+				b_gibellum = {}
+			} # end c_saone
+			c_archa = { # Berzieh (765)
+				color = { 109 194 47 }
+				color2 = { 255 255 255 }
+				frankish = "Apamea"
+				norman = "Apamea"
+				andalusian_arabic = "Afamiyya"
+				greek = "Apamea"
+				bedouin_arabic = "Afamiyya"
+				yemeni = "Afamiyya"
+				hijazi = "Afamiyya"
+				maghreb_arabic = "Afamiyya"
+				levantine_arabic = "Afamiyya"
+				egyptian_arabic = "Afamiyya"
+				sicilian_arabic = "Afamiyya"
+				b_sarmeniasyria = {}
+				b_albarasyria = {}
+				b_famia = {}
+				b_bourzeycastle = {}
+				b_treiz = {}
+			} # end c_archa
+			allow = { title_duke_basic_allow = yes }
+		} # end d_antioch
+		d_tripoli = { # Tripoli
+			color = { 154 39 39 }
+			color2 = { 255 255 255 }
+			capital = 767 # Trípolis # Tripoli
+			name_tier = count
+			greek = "Phoenice"
+			roman = "Phoenice"
+			c_tortosa = { # Tortosa (766)
+				color = { 73 152 34 }
+				color2 = { 255 255 255 }
+				b_tortosa = {}
+				b_maraclea = {}
+				b_valania = {}
+				b_margat = {}
+				b_ruad = {}
+				b_alkhawabi = {}
+			} # end c_tortosa
+			c_monferrand = { # Monferrand (1244)
+				color = { 73 152 34 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Hisn al-Akrad"
+				greek = "Raphanea"
+				bedouin_arabic = "Hisn al-Akrad"
+				yemeni = "Hisn al-Akrad"
+				hijazi = "Hisn al-Akrad"
+				maghreb_arabic = "Hisn al-Akrad"
+				levantine_arabic = "Hisn al-Akrad"
+				egyptian_arabic = "Hisn al-Akrad"
+				sicilian_arabic = "Hisn al-Akrad"
+				sanhaja = "Hisn al-Akrad"
+				tagelmust = "Hisn al-Akrad"
+				masmuda = "Hisn al-Akrad"
+				zanata = "Hisn al-Akrad"
+				tuareg = "Hisn al-Akrad"
+				b_chastelrouge = {}
+				b_zweitina = {}
+				b_chastelblanc = {}
+				b_krakdeschevaliers = {}
+				b_raphania = {}
+			} # end c_monferrand
+			c_masyaf = { # Masyaf (1237)
+				color = { 73 152 34 }
+				color2 = { 255 255 255 }
+				b_alkahf = {}
+				b_masyaf = {}
+				b_alqadamus = {}
+			}
+			c_tripoli = { # Trípolis (767) # Tripoli
+				color = { 75 154 36 }
+				color2 = { 255 255 255 }
+				b_syrtripoli = {}
+				b_citadeloftripoli = {}
+				b_citdaelofsaintgilles = {}
+				b_buissera = {}
+				b_archa = {}
+				b_amiountripoli = {}
+				b_nephin = {}
+			} # end c_tripoli
+			c_gibelet = { # Gibelet (1245)
+				color = { 75 154 36 }
+				color2 = { 255 255 255 }
+				name_tier = baron
+				b_gibeletcastle = {}
+				b_gibelet = {}
+				b_boutron = {}
+				b_besmedin = {}
+				b_msheilfort = {}
+			} # end c_gibelet
+			allow = { title_duke_basic_allow = yes }
+		} # end d_tripoli
+		allow = {
+			religion_group = christian
+			title_king_basic_allow = yes
+		}
+	} # end k_antioch
+	k_aljazira = { # Al-Jazira # Al Jazira
+		color = { 255 2 36 }
+		color2 = { 255 255 255 }
+		capital = 697 # Mosul
+		culture = levantine_arabic
+		orthodox = 200 # Crusade target weight
+		muslim = 400 # Crusade target weight
+		armenian = "Arbayistan"
+		greek = "Assyria"
+		pahlavi = "Arbayistan"
+		roman = "Assyria"
+		d_amida = { # Amid
+			color = { 102 78 57 }
+			color2 = { 255 255 255 }
+			capital = 683 # Amida
+			andalusian_arabic = "Diyar Bakr"
+			armenian = "Arzanene"
+			greek = "Arzanene"
+			turkish = "Diyar Bakr"
+			turkmen = "Diyar Bakr"
+			oghuz = "Diyar Bakr"
+			bedouin_arabic = "Diyar Bakr"
+			yemeni = "Diyar Bakr"
+			hijazi = "Diyar Bakr"
+			maghreb_arabic = "Diyar Bakr"
+			levantine_arabic = "Diyar Bakr"
+			egyptian_arabic = "Diyar Bakr"
+			sicilian_arabic = "Diyar Bakr"
+			c_amida = { # Amida (683)
+				color = { 129 166 48 }
+				color2 = { 255 255 255 }
+				armenian = "Tigranocerta"
+				turkish = "Diyarbakir"
+				turkmen = "Diyarbakir"
+				oghuz = "Diyarbakir"
+				b_kiaburc = {}
+				b_amida = {}
+				b_ulucamii = {}
+				b_suraamede = {}
+				b_hazretisuleymancamii = {}
+				b_egil = {}
+				b_idtodyolataloho = {}
+			} # end c_amida
+			c_hisn_kayf = { # Hisn Kayf (1482)
+				color = { 162 191 44 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Silvan"
+				armenian = "Silvan"
+				greek = "Silvan"
+				assyrian = "Silvan"
+				bedouin_arabic = "Silvan"
+				yemeni = "Silvan"
+				hijazi = "Silvan"
+				maghreb_arabic = "Silvan"
+				levantine_arabic = "Silvan"
+				egyptian_arabic = "Silvan"
+				sicilian_arabic = "Silvan"
+				b_mayyafarikin = {}
+				b_hisnkayf = {}
+				b_siird = {}
+				b_arzan = {}
+			} # end c_hisn_kayf
+			allow = { title_duke_basic_allow = yes }
+		} # end d_amida
+		d_jazira = { # Diyar Mudar
+			color = { 96 115 255 }
+			color2 = { 255 255 255 }
+			capital = 709 # Ar-Raqqah # Raqqa
+			greek = "Euphratensis"
+			roman = "Euphratensis"
+			c_asas = { # Ar-Raqqah (709)
+				color = { 87 234 22 }
+				color2 = { 255 255 255 }
+				b_rakka = {}
+				b_qalatjabar = {}
+				b_talabyad = {}
+				b_resafa = {}
+				b_ar-rafiqa = {}
+				b_bizunasyria = {}
+				b_zarzakka = {}
+			}
+			c_al_bichri = { # Rahba (710) # Al Bichri
+				color = { 15 95 242 }
+				color2 = { 255 255 255 }
+				greek = "Circesium"
+				assyrian = "Circesium"
+				roman = "Circesium"
+				b_bichri = {}
+				b_deiralzur = {}
+				b_osrhoene = {}
+				b_abukamal = {}
+				b_shamiyya = {}
+				b_mayadin = {}
+				b_sirhi = {}
+				b_mhaymidah = {}
+			}
+			c_harran = { # Harran (1238)
+				color = { 153 255 5 }
+				color2 = { 255 255 255 }
+				b_harran = {}
+				b_tallmazwan = {}
+				b_akcakale = {}
+				b_ceylanpinar = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_jazira
+		d_diyareast = { # Diyar Rabi'a
+			color = { 255 239 63 }
+			color2 = { 255 255 255 }
+			capital = 697 # Mosul
+			armenian = "Arbayistan"
+			pahlavi = "Arbayistan"
+			c_mardin = { # Mardin (1239)
+				color = { 129 166 48 }
+				color2 = { 255 255 255 }
+				b_maridin = {}
+				b_resaina = {}
+				b_dunaysir = {}
+				b_dairodmorhannanyo = {}
+				b_alsywaydaturkey = {}
+			} # end c_mardin
+			c_amadiya = { # Amadiyah (684)
+				color = { 133 170 52 }
+				color2 = { 255 255 255 }
+				armenian = "Corduene"
+				greek = "Corduene"
+				kurdish = "Corduene"
+				b_amadiyah = {}
+				b_hakkari = {}
+				b_alki = {}
+			}
+			c_al_jazira = { # Jazírat ibn 'Umar (698)
+				color = { 13 93 240 }
+				color2 = { 255 255 255 }
+				b_jazirat = {}
+				b_barqaid = {}
+				b_faysabur = {}
+				b_fenek = {}
+			}
+			c_sinjar = { # Sinjar (711)
+				color = { 17 97 244 }
+				color2 = { 255 255 255 }
+				greek = "Singara"
+				assyrian = "Beth ‘Arabaye"
+				roman = "Singara"
+				b_sinjar = {}
+				b_tallafar = {}
+				b_hayyal = {}
+				b_baaj = {}
+				b_makisin = {}
+			}
+			c_bira = { # Nasíbín (700)
+				color = { 19 99 246 }
+				color2 = { 255 255 255 }
+				b_nasibin = {}
+				b_dara = {}
+				b_araban = {}
+				b_amuda = {}
+			}
+			c_nineveh = { # Ninawa (685)
+				color = { 11 91 238 }
+				color2 = { 255 255 255 }
+				assyrian = "Adiabene"
+				b_bartella = {}
+				b_karamlish = {}
+				b_bakhdida = {}
+				b_baqofah = {}
+				b_duhok = {}
+				b_aqra = {}
+				b_maaltha = {}
+				b_marmattai = {}
+			}
+			c_erbil = { # Erbil (1591)
+				color = { 9 89 236 }
+				color2 = { 255 255 255 }
+				b_arbil = {}
+				b_shaqlawa = {}
+				b_darabad = {}
+				b_tellhaftun = {}
+			}
+			c_mosul = { # Mosul (697)
+				color = { 9 89 236 }
+				color2 = { 255 255 255 }
+				pahlavi = "Adiabene"
+				b_mosulcastle = {}
+				b_mosul = {}
+				b_baladmosul = {}
+				b_bawazij = {}
+				b_haditha = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_diyareast
+		allow = { title_king_basic_allow = yes }
+	} # end k_aljazira
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 220
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		title_emperor_basic_allow = yes
+	}
 } # end e_arabia
 
 e_abyssinia = { # Abyssinia
@@ -12070,7 +13402,7 @@ e_abyssinia = { # Abyssinia
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_darfur = { # Darfur
+		d_darfur = { # Uri
 			color = { 105 121 97 }
 			color2 = { 255 255 255 }
 			capital = 1229 # Uri
@@ -12217,6 +13549,7 @@ e_britannia = { # Britannia
 		color = { 191 16 16 }
 		color2 = { 255 255 255 }
 		capital = 26 # Winchester
+		creation_requires_capital = no
 		dignity = 10 # Counted as having this many more counties than it does
 		catholic = 300 # Crusade target weight
 		greek = "Britannia"
@@ -15713,7 +17046,6 @@ e_italy = { # Italia
 			capital = 333 # Roma
 			culture = laziale
 			christian = 9000 # Crusade target weight
-			greek = "Lazio"
 			c_roma = { # Roma (333)
 				color = { 228 229 214 }
 				color2 = { 255 255 255 }
@@ -15943,7 +17275,6 @@ e_italy = { # Italia
 			color = { 148 118 0 }
 			color2 = { 255 255 255 }
 			capital = 350 # Ancona
-			greek = "Picenum"
 			roman = "Picenum"
 			c_ancona = { # Ancona (350)
 				color = { 223 204 48 }
@@ -16238,6 +17569,7 @@ e_italy = { # Italia
 			c_andria = { # Andria (1111)
 				color = { 197 229 48 }
 				color2 = { 255 255 255 }
+				greek = "Barletta"
 				b_andria = {}
 				b_trani = {}
 				b_canosa = {}
@@ -16445,6 +17777,7 @@ e_italy = { # Italia
 			c_palermo = { # Palermo (340) # Collesano
 				color = { 100 228 111 }
 				color2 = { 255 255 255 }
+				greek = "Panormos"
 				b_palermo = {}
 				b_collesano = {}
 				b_sclafani = {}
@@ -18100,8 +19433,9 @@ e_france = { # France
 				title_female = VICOMTESSE
 				foa = VICOMTE_FOA
 				title_prefix = VICOMTE_OF
-				greek = "Bayonne"
-				roman = "Bayonne"
+				basque = "Labourd"
+				greek = "Labourd"
+				roman = "Labourd"
 				b_sauveterre = {}
 				b_bayonne = {}
 				b_dax = {}
@@ -20652,7 +21986,7 @@ e_africa = { # Africa
 	k_africa = { # Ifriqiya
 		color = { 255 204 102 }
 		color2 = { 255 255 255 }
-		capital = 817 # Tunis
+		capital = 815 # Kairwan
 		culture = maghreb_arabic
 		orthodox = 10 # Crusade target weight
 		catholic = 10 # Crusade target weight
@@ -20662,7 +21996,7 @@ e_africa = { # Africa
 		d_tunis = { # Ifriqiya
 			color = { 116 116 177 }
 			color2 = { 255 255 255 }
-			capital = 817 # Tunis
+			capital = 815 # Kairwan
 			greek = "Africa"
 			sanhaja = "Tunis"
 			tagelmust = "Tunis"
@@ -20995,7 +22329,7 @@ e_africa = { # Africa
 	k_maghreb = { # Maghreb
 		color = { 150 110 210 }
 		color2 = { 255 255 255 }
-		capital = 843 # Marrákush # Marrakech
+		capital = 840 # Fás
 		culture = sanhaja
 		catholic = 10 # Crusade target weight
 		muslim = 100 # Crusade target weight
@@ -22570,6 +23904,57 @@ e_persia = { # Érán
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_shash
+		d_khottal = { # Khatlón
+			color = { 118 223 170 }
+			color2 = { 255 255 255 }
+			capital = 1556 # Khuttal # Khottal
+			pahlavi = "Kushanshahr"
+			c_badakhshan = { # Badakhshán (1553)
+				color = { 18 2 170 }
+				color2 = { 255 255 255 }
+				b_badakhshan = {}
+				b_shughnan = {}
+				b_jerm = {}
+				b_rustaq = {}
+				b_sanglich = {}
+				b_ishkashim = {}
+				b_dar-i-tubbat = {}
+			}
+			c_khuttal = { # Khuttal (1556)
+				color = { 18 23 10 }
+				color2 = { 255 255 255 }
+				b_hulbuk = {}
+				b_pargar = {}
+				b_munk = {}
+				b_halavand = {}
+				b_qubadiyan = {}
+				b_livkand = {}
+			}
+			c_rasht = { # Rasht (1555)
+				color = { 118 23 170 }
+				color2 = { 255 255 255 }
+				b_shuman = {}
+				b_vashgird = {}
+				b_afridhan = {}
+				b_rasht = {}
+			}
+			c_chaghaniyan = { # Chaghániyán (1545)
+				color = { 90 223 170 }
+				color2 = { 255 255 255 }
+				b_chaghaniyan = {}
+				b_charmangan = {}
+				b_basand = {}
+				b_darzangi = {}
+				b_hashimgird = {}
+				b_hamvaran = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_khottal
+		allow = { title_king_basic_allow = yes }
+	} # end k_mavarannahr
+	k_khwarezmia = { # Khwarezm
+		color = { 255 67 20 }
+		capital = 626 # Khwarezm # Káth
 		d_khwarazm = { # Khorazm
 			color = { 174 192 91 }
 			color2 = { 255 255 255 }
@@ -22608,7 +23993,7 @@ e_persia = { # Érán
 			allow = { title_duke_basic_allow = yes }
 		} # end d_khwarazm
 		allow = { title_king_basic_allow = yes }
-	} # end k_mavarannahr
+	} # end k_khwarezmia
 	k_mesopotamia = { # al-Iraq
 		color = { 55 128 67 }
 		color2 = { 255 255 255 }
@@ -22818,23 +24203,285 @@ e_persia = { # Érán
 		} # end d_kurdistan
 		allow = { title_king_basic_allow = yes }
 	} # end k_mesopotamia
+	k_caucasian_albania = { # Arran
+		color = { 60 126 98 }
+		color2 = { 255 255 255 }
+		culture = udi
+		# Creation/usurpation trigger
+		orthodox = 200 # Crusade target weight
+		capital = 1092 # Shirvan
+		armenian = "Albania"
+		udi = "Albania"
+		georgian = "Albania"
+		pahlavi = "Albania"
+		d_albania = { # Arran
+			color = { 255 203 100 }
+			color2 = { 255 255 255 }
+			capital = 1530 # Arran
+			armenian = "Albania"
+			udi = "Albania"
+			georgian = "Albania"
+			pahlavi = "Albania"
+			c_arran = { # Arran (1530)
+				color = { 253 176 176 }
+				color2 = { 255 255 255 }
+				armenian = "Barda"
+				greek = "Albania"
+				udi = "Barda"
+				georgian = "Albania"
+				pahlavi = "Albania"
+				b_barda = {}
+				b_baylakan = {}
+			}
+			c_utik = { # Utik (1084)
+				color = { 253 176 176 }
+				color2 = { 255 255 255 }
+				turkish = "Ganja"
+				turkmen = "Ganja"
+				oghuz = "Ganja"
+				b_ganja = {}
+				b_shamkhor = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		d_derbent = { # Derbend
+			color = { 155 25 65 }
+			color2 = { 255 255 255 }
+			capital = 674 # Derbent
+			c_derbent = { # Derbent (674)
+				color = { 253 147 179 }
+				color2 = { 255 255 255 }
+				b_narinkala = {}
+				b_derbent = {}
+				b_juma = {}
+				b_chikkulkan = {}
+				b_quba = {}
+				b_kuli = {}
+				b_tayus = {}
+				#b_tarki = {}
+				#b_datuna = {}
+			}
+			c_lekia = { # Lekia (1696)
+				color = { 253 147 179 }
+				color2 = { 255 255 255 }
+				turkish = "Lezgistan"
+				turkmen = "Lezgistan"
+				oghuz = "Lezgistan"
+				mongol = "Lezgistan"
+				cuman = "Lezgistan"
+				pecheneg = "Lezgistan"
+				khazar = "Lezgistan"
+				bolghar = "Lezgistan"
+				avar = "Lezgistan"
+				karluk = "Lezgistan"
+				kasogi = "Lezgistan"
+				kirghiz = "Lezgistan"
+				uyghur = "Lezgistan"
+				bashkir = "Lezgistan"
+				b_kumukh = {}
+				b_tsakhur = {}
+				b_tabarsaran = {}
+			} # end c_lekia
+			allow = { title_duke_basic_allow = yes }
+		} # end d_derbent
+		d_shirvan = { # Shirwan
+			color = { 97 147 60 }
+			color2 = { 255 255 255 }
+			capital = 1092 # Shirvan
+			pahlavi = "Balasagan"
+			c_shirvan = { # Shirvan (1092)
+				color = { 23 179 176 }
+				color2 = { 255 255 255 }
+				b_gulistan = {}
+				b_ahemakha = {}
+				b_bardij = {}
+				b_agsu = {}
+				b_arabsaki = {}
+			}
+			c_absheron = { # Abšaran (668)
+				color = { 162 234 22 }
+				color2 = { 255 255 255 }
+				b_baku = {}
+				b_lankaran = {}
+				b_absheron = {}
+				b_shirvan = {}
+				b_shakhriyar = {}
+				b_salyan = {}
+				b_khizirzinda = {}
+				b_altiagay = {}
+			}
+			c_maskat = { # Maskat (669)
+				color = { 168 240 28 }
+				color2 = { 255 255 255 }
+				pahlavi = "Shabaran"
+				b_shabaran = {}
+				b_shikhlar = {}
+				b_khachmaz = {}
+				b_chiraggala = {}
+				b_anig = {}
+				b_maraza = {}
+				b_khil = {}
+			}
+			c_albania = { # Layzan (673)
+				color = { 253 176 176 }
+				color2 = { 255 255 255 }
+				b_kaghankatuyk = {}
+				b_gish = {}
+				b_kabala = {}
+				b_martakert = {}
+				b_aghuen = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_shirvan
+		allow = { title_king_basic_allow = yes }
+	} # end k_caucasian_albania
+	k_sistan = { # Sístán
+		color = { 120 190 90 }
+		color2 = { 255 255 255 }
+		capital = 637 # Sístán # Sistan
+		muslim = 200 # Crusade target weight
+		zoroastrian = 350 # Crusade target weight
+		pahlavi = "Sakastan"
+		d_sistan = { # Sístán
+			color = { 111 40 97 }
+			color2 = { 255 255 255 }
+			capital = 637 # Sístán # Sistan
+			pahlavi = "Sakastan"
+			c_farah = { # Farrah (299)
+				color = { 140 173 84 }
+				color2 = { 255 255 255 }
+				greek = "Prophthasia"
+				assyrian = "Aprah"
+				roman = "Prophthasia"
+				b_farah = {}
+				b_djuvayn = {}
+				b_djiza = {}
+				b_khvash = {}
+				b_qarnin = {}
+			}
+			c_rudbar = { # Rúdbár (1348)
+				color = { 142 182 80 }
+				color2 = { 255 255 255 }
+				b_rudbar = {}
+				b_salakan = {}
+				b_kish = {}
+			}
+			c_sistan = { # Sístán (637)
+				color = { 102 122 67 }
+				color2 = { 255 255 255 }
+				b_zaranj = {}
+				b_karkuya = {}
+				b_nih = {}
+				b_sibih = {}
+				b_ram = {}
+			}
+			c_zamindavar = { # Zamindavar (852)
+				color = { 142 175 86 }
+				color2 = { 255 255 255 }
+				b_bust = {}
+				b_sarvan = {}
+				b_muaskar = {}
+				b_baghnin = {}
+				b_durghash = {}
+				b_bishlang = {}
+				b_till = {}
+			}
+			c_rukhadj = { # Rukhádj (1536)
+				color = { 148 170 89 }
+				color2 = { 255 255 255 }
+				b_kandahar = {}
+				b_pandjvay = {}
+				b_bakrabad = {}
+				b_kuhak = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_sistan
+		d_makran = { # Makrán
+			color = { 136 169 80 }
+			color2 = { 255 255 255 }
+			capital = 899 # Pandjgúr
+			c_makran = { # Tíz (854) # Makran # Tiz
+				color = { 146 169 80 }
+				color2 = { 255 255 255 }
+				pahlavi = "Paradan"
+				b_bampur = {}
+				b_fahraj = {}
+				b_tiz = {}
+				b_khwash = {}
+				b_rask = {}
+				b_iskaf = {}
+				b_bih = {}
+				#b_kasr-i-kand = {}
+				#b_bint = {}
+			}
+			c_mashkel = { # Mashkél (894)
+				color = { 146 179 90 }
+				color2 = { 255 255 255 }
+				b_djalk = {}
+				b_dizak = {}
+				b_saravan = {}
+			}
+			c_pandjgur = { # Pandjgúr (899)
+				color = { 148 181 92 }
+				color2 = { 255 255 255 }
+				b_pandjgur = {}
+				b_kiz = {}
+				b_khawr = {}
+				b_armabil = {}
+			}
+			c_turan = { # Turán (1535)
+				color = { 152 185 96 }
+				color2 = { 255 255 255 }
+				pahlavi = "Turgistan"
+				b_kizkanan = {}
+				b_quzdar = {}
+				b_bodein = {}
+				b_sura = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_makran
+		d_walishan = { # Wálishán
+			color = { 62 120 151 }
+			color2 = { 255 255 255 }
+			capital = 1611 # Bori
+			c_wana = { # Bori (1611)
+				color = { 244 80 5 }
+				color2 = { 255 255 255 }
+				b_kushk = {}
+				b_bori = {}
+				b_asfanjay = {}
+			}
+			c_sibi = { # Sibi (1610)
+				color = { 200 145 18 }
+				color2 = { 255 255 255 }
+				b_sibi_india = {}
+				b_mastanj = {}
+				b_dadhar = {}
+				b_walishtan = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_king_basic_allow = yes }
+	} # end k_sistan
 	allow = {
-		OR = {
-			realm_size = 220
-			AND = {
-				realm_size = 120
-				OR = {
-					not_emf_trigger = yes
-					FROM = {
-						has_holder = yes
-						has_law = crown_authority_4
-					}
-					AND = {
-						FROM = { has_holder = no }
-						primary_title = {
-							OR = {
-								has_law = crown_authority_3
-								has_law = crown_authority_4
+		conditional_tooltip = {
+			trigger = { has_global_flag = EMF }
+			OR = {
+				realm_size = 220
+				AND = {
+					realm_size = 120
+					OR = {
+						FROM = {
+							has_holder = yes
+							has_law = crown_authority_4
+						}
+						AND = {
+							FROM = { has_holder = no }
+							primary_title = {
+								OR = {
+									has_law = crown_authority_3
+									has_law = crown_authority_4
+								}
 							}
 						}
 					}
@@ -23967,7 +25614,9 @@ e_rajastan = { # Rajastan
 e_null = { #
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
-	capital = 774 # Jérusalem # Jerusalem
+	capital = 333
+	can_be_usurped = no
+	can_be_claimed = no
 	short_name = yes
 	# Must be defined before k_armenia
 	k_bagratid_grand_principality = { # Hayk
@@ -24435,712 +26084,6 @@ e_null = { #
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_armenia
-	k_jerusalem = { # Jerusalem
-		color = { 180 180 180 }
-		color2 = { 255 255 255 }
-		capital = 774 # Jérusalem # Jerusalem
-		culture = levantine_arabic
-		assimilate = no
-		# Creation Effect
-		gain_effect = {
-			prestige = 5000
-			piety = 2000
-		}
-		christian = 1000 # Crusade target weight
-		muslim = 125 # Crusade target weight
-		andalusian_arabic = "Palestine"
-		greek = "Syria Palaestina"
-		bedouin_arabic = "Palestine"
-		maghreb_arabic = "Palestine"
-		levantine_arabic = "Palestine"
-		egyptian_arabic = "Palestine"
-		sicilian_arabic = "Palestine"
-		sanhaja = "Palestine"
-		tagelmust = "Palestine"
-		masmuda = "Palestine"
-		zanata = "Palestine"
-		tuareg = "Palestine"
-		d_jerusalem = { # Jerusalem
-			color = { 223 224 199 }
-			color2 = { 255 255 255 }
-			christian = 500 # Crusade target weight
-			muslim = 250 # Crusade target weight
-			capital = 774 # Jérusalem # Jerusalem
-			andalusian_arabic = "Palestine"
-			greek = "Palaestina Prima"
-			bedouin_arabic = "Palestine"
-			maghreb_arabic = "Palestine"
-			levantine_arabic = "Palestine"
-			egyptian_arabic = "Palestine"
-			sicilian_arabic = "Palestine"
-			sanhaja = "Palestine"
-			tagelmust = "Palestine"
-			masmuda = "Palestine"
-			zanata = "Palestine"
-			tuareg = "Palestine"
-			roman = "Palaestina Prima"
-			c_jerusalem = { # Jérusalem (774)
-				color = { 45 251 69 }
-				color2 = { 255 255 255 }
-				christian = 1000 # Crusade target weight
-				muslim = 500 # Crusade target weight
-				b_towerofdavid = {}
-				b_bethlehem = {}
-				b_jerusalem = {}
-				b_rammala = {}
-				b_blanchegarde = {}
-				b_saintsamuel = {}
-				b_syrbelmont = {}
-			} # end c_jerusalem
-			c_beersheb = { # Naples (779)
-				color = { 15 208 46 }
-				color2 = { 255 255 255 }
-				b_bethsan = {}
-				b_nablus = {}
-				b_jericho = {}
-				b_lafeve = {}
-				b_syrsebastia = {}
-				b_aynjalut = {}
-			}
-			c_hebron = { # St-Abraham (776)
-				color = { 49 255 73 }
-				color2 = { 255 255 255 }
-				b_hebron = {}
-				b_syrcarmel = {}
-				b_alsamoa = {}
-				b_bethgibelin = {}
-				b_syrsebbe = {}
-			} # end c_hebron
-			c_darum = { # Darom (781)
-				color = { 5 199 37 }
-				color2 = { 255 255 255 }
-				b_darum = {}
-				b_gaza = {}
-				b_radwan = {}
-				b_salqah = {}
-				b_abasan = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_jerusalem
-		d_acre = { # Acre
-			color = { 235 224 73 }
-			color2 = { 255 255 255 }
-			capital = 772 # Acre
-			greek = "Tyre"
-			roman = "Tyre"
-			c_acre = { # Acre (772)
-				color = { 47 253 71 }
-				color2 = { 255 255 255 }
-				b_acre = {}
-				b_castellumregis = {}
-				b_tyrus = {}
-				b_haifa = {}
-				b_scandelon = {}
-				b_adelon = {}
-			} # end c_acre
-			c_tyrus = { # Sidon (771)
-				color = { 8 202 67 }
-				color2 = { 255 255 255 }
-				b_sarafand = {}
-				b_sidon = {}
-				b_syrbelfort = {}
-				b_schuf = {}
-			} # end c_tyrus
-			c_caesarea = { # Caesarea (1260)
-				color = { 47 253 71 }
-				color2 = { 255 255 255 }
-				greek = "Caesarea"
-				roman = "Caesarea"
-				b_caymont = {}
-				b_arsuf = {}
-				b_syrcaesarea = {}
-				b_calansue = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_acre
-		d_oultrejourdain = { # Oultrejourdain
-			color = { 203 159 24 }
-			color2 = { 255 255 255 }
-			capital = 778 # Monreal
-			greek = "Palaestina Salutaris"
-			roman = "Palaestina Salutaris"
-			c_monreal = { # Monreal (778)
-				color = { 47 253 52 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Shoubak"
-				bedouin_arabic = "Shoubak"
-				maghreb_arabic = "Shoubak"
-				levantine_arabic = "Shoubak"
-				egyptian_arabic = "Shoubak"
-				sicilian_arabic = "Shoubak"
-				sanhaja = "Shoubak"
-				tagelmust = "Shoubak"
-				masmuda = "Shoubak"
-				zanata = "Shoubak"
-				tuareg = "Shoubak"
-				b_monreal = {}
-				b_syrsegor = {}
-				b_alwuayra = {}
-				b_petra = {}
-				b_wadi_musa = {}
-				b_alhabis = {}
-			}
-			c_petra = { # Elim (722)
-				color = { 133 208 14 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Aqaba"
-				greek = "Eilat"
-				bedouin_arabic = "Aqaba"
-				maghreb_arabic = "Aqaba"
-				levantine_arabic = "Aqaba"
-				egyptian_arabic = "Aqaba"
-				sicilian_arabic = "Aqaba"
-				roman = "Eilat"
-				b_pharaohosisland = {}
-				b_jordanaqba = {}
-				b_syrarandal = {}
-			}
-			c_kerak = { # Kerak (777)
-				color = { 49 255 54 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Al Karak"
-				bedouin_arabic = "Al Karak"
-				maghreb_arabic = "Al Karak"
-				levantine_arabic = "Al Karak"
-				egyptian_arabic = "Al Karak"
-				sicilian_arabic = "Al Karak"
-				sanhaja = "Al Karak"
-				tagelmust = "Al Karak"
-				masmuda = "Al Karak"
-				zanata = "Al Karak"
-				tuareg = "Al Karak"
-				b_krakdemoab = {}
-				b_kerak = {}
-				b_syrdibban = {}
-				b_tafila = {}
-				b_syralrabbah = {}
-			} # end c_kerak
-			allow = { title_duke_basic_allow = yes }
-		} # end d_oultrejourdain
-		d_ascalon = { # Jaffa-Ascalon
-			color = { 225 65 34 }
-			color2 = { 255 255 255 }
-			capital = 780 # Ascalon
-			c_jaffa = { # Jaffa (775)
-				color = { 8 202 40 }
-				color2 = { 255 255 255 }
-				b_qula = {}
-				b_jaffa = {}
-				b_lydda = {}
-				b_mirabel = {}
-				b_ramleh = {}
-				b_beitdejan = {}
-				b_kharruba = {}
-				b_yazur = {}
-			}
-			c_ascalon = { # Ascalon (780)
-				color = { 12 205 43 }
-				color2 = { 255 255 255 }
-				b_ascalon = {}
-				b_ibelin = {}
-				b_latrun = {}
-				b_montgisard = {}
-				b_karatiyya = {}
-				b_laforbie = {}
-			} # end c_ascalon
-			allow = { title_duke_basic_allow = yes }
-		} # end d_ascalon
-		d_galilee = { # Galilée # Principauté de Galilée
-			color = { 41 45 138 }
-			color2 = { 255 255 255 }
-			#title = PRINCE
-			capital = 773 # Tiberias
-			short_name = yes
-			frankish = "Principality of Galilee"
-			norman = "Principality of Galilee"
-			greek = "Palaestina Secunda"
-			roman = "Palaestina Secunda"
-			c_tiberias = { # Tiberias (773)
-				color = { 5 199 64 }
-				color2 = { 255 255 255 }
-				b_tiberias = {}
-				b_belvoir = {}
-				b_cavedesueth = {}
-				b_sepphoria = {}
-				b_nazareth = {}
-				b_mnttabor = {}
-				b_forbelet = {}
-				#b_hattin = {}
-			} # end c_tiberias
-			c_beirut = { # Beirut (770)
-				color = { 11 205 70 }
-				color2 = { 255 255 255 }
-				greek = "Berytus"
-				roman = "Berytus"
-				b_beirut = {}
-				b_beitkfeya = {}
-				b_chiyah = {}
-				b_choueir = {}
-			}
-			c_safed = { # Toron (769)
-				color = { 14 208 73 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Safed"
-				greek = "Banias"
-				bedouin_arabic = "Safed"
-				maghreb_arabic = "Safed"
-				levantine_arabic = "Safed"
-				egyptian_arabic = "Safed"
-				sicilian_arabic = "Safed"
-				ashkenazi = "Safed"
-				roman = "Banias"
-				b_safed = {}
-				b_banyas = {}
-				b_toron = {}
-				b_meronisreal = {}
-				b_chastelet = {}
-			} # end c_safed
-			allow = { title_duke_basic_allow = yes }
-		} # end d_galilee
-		# Creation/Usurp Trigger
-		allow = {
-			religion_group = christian
-			title_king_basic_allow = yes
-		}
-	} # end k_jerusalem
-	k_antioch = { # Antioche
-		color = { 50 76 150 }
-		color2 = { 255 255 255 }
-		culture = armenian
-		capital = 764 # Antioch
-		catholic = 300 # Crusade target weight
-		orthodox = 300 # Crusade target weight
-		muslim = 150 # Crusade target weight
-		andalusian_arabic = "al-Awasim"
-		bedouin_arabic = "al-Awasim"
-		maghreb_arabic = "al-Awasim"
-		levantine_arabic = "al-Awasim"
-		egyptian_arabic = "al-Awasim"
-		sicilian_arabic = "al-Awasim"
-		sanhaja = "al-Awasim"
-		tagelmust = "al-Awasim"
-		masmuda = "al-Awasim"
-		zanata = "al-Awasim"
-		tuareg = "al-Awasim"
-		d_edessa = { # Edessa
-			color = { 89 21 66 }
-			color2 = { 255 255 255 }
-			capital = 699 # Edessa
-			name_tier = count
-			turkish = "Urfa"
-			turkmen = "Urfa"
-			oghuz = "Urfa"
-			kurdish = "Urfa"
-			c_edessa = { # Edessa (699)
-				color = { 153 255 5 }
-				color2 = { 255 255 255 }
-				turkish = "Urfa"
-				turkmen = "Urfa"
-				oghuz = "Urfa"
-				kurdish = "Urfa"
-				b_edessa = {}
-				b_sruk = {}
-				b_bile = {}
-				b_hromgla = {}
-				b_samsat = {}
-			} # end c_edessa
-			c_tell_bashir = { # Turbessel (708)
-				color = { 155 255 7 }
-				color2 = { 255 255 255 }
-				b_turbessel = {}
-				b_trihalet = {}
-				b_kyrrhos = {}
-				b_nizip = {}
-			} # end c_tell_bashir
-			c_aintab = { # Ravendal (734)
-				color = { 157 255 9 }
-				color2 = { 255 255 255 }
-				frankish = "Gaziantep"
-				norman = "Gaziantep"
-				andalusian_arabic = "Gaziantep"
-				bedouin_arabic = "Gaziantep"
-				maghreb_arabic = "Gaziantep"
-				levantine_arabic = "Gaziantep"
-				egyptian_arabic = "Gaziantep"
-				sicilian_arabic = "Gaziantep"
-				b_aintab = {}
-				b_tulupe = {}
-				b_killiz = {}
-				b_ravendan = {}
-				b_duluk = {}
-			} # end c_aintab
-			c_kaisun = { # Kaisun (1220)
-				color = { 157 255 9 }
-				color2 = { 255 255 255 }
-				b_kaisun = {}
-				b_behetselin = {}
-				b_raban = {}
-				b_hartanedessa = {}
-				b_karkaron = {}
-			} # end c_kaisun
-			allow = { title_duke_basic_allow = yes }
-		} # end d_edessa
-		d_antioch = { # Antioche # Principauté d'Antioche
-			color = { 91 139 188 }
-			color2 = { 255 255 255 }
-			capital = 764 # Antioch
-			christian = 400 # Crusade target weight
-			muslim = 200 # Crusade target weight
-			short_name = yes
-			frankish = "Principality of Antioch"
-			norman = "Principality of Antioch"
-			andalusian_arabic = "Jund al-Awasim"
-			armenian = "Ducate of Antioch"
-			greek = "Ducate of Antioch"
-			alan = "Ducate of Antioch"
-			arberian = "Ducate of Antioch"
-			georgian = "Ducate of Antioch"
-			bedouin_arabic = "Jund al-Awasim"
-			yemeni = "Jund al-Awasim"
-			hijazi = "Jund al-Awasim"
-			maghreb_arabic = "Jund al-Awasim"
-			levantine_arabic = "Jund al-Awasim"
-			egyptian_arabic = "Jund al-Awasim"
-			sicilian_arabic = "Jund al-Awasim"
-			sanhaja = "Jund al-Awasim"
-			tagelmust = "Jund al-Awasim"
-			masmuda = "Jund al-Awasim"
-			zanata = "Jund al-Awasim"
-			tuareg = "Jund al-Awasim"
-			c_antiocheia = { # Antioch (764)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				b_antiocheia = {}
-				b_stsymeon = {}
-				b_darbsak = {}
-				b_harenc = {}
-				b_baghras = {}
-				b_artasium = {}
-			} # end c_antiocheia
-			c_hazart = { # Hazart (1236)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				b_hazart = {}
-				b_harimantiochia = {}
-				b_zerdana = {}
-				b_sarmada = {}
-			}
-			c_saone = { # Saone (968)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Latakia"
-				greek = "Latakia"
-				bedouin_arabic = "Latakia"
-				yemeni = "Latakia"
-				hijazi = "Latakia"
-				maghreb_arabic = "Latakia"
-				levantine_arabic = "Latakia"
-				egyptian_arabic = "Latakia"
-				sicilian_arabic = "Latakia"
-				b_latakiah = {}
-				b_hisnaddair = {}
-				b_stdanielsyria = {}
-				b_saone = {}
-				b_jabala = {}
-				b_balatanos = {}
-				b_gibellum = {}
-			} # end c_saone
-			c_archa = { # Berzieh (765)
-				color = { 109 194 47 }
-				color2 = { 255 255 255 }
-				frankish = "Apamea"
-				norman = "Apamea"
-				andalusian_arabic = "Afamiyya"
-				greek = "Apamea"
-				bedouin_arabic = "Afamiyya"
-				yemeni = "Afamiyya"
-				hijazi = "Afamiyya"
-				maghreb_arabic = "Afamiyya"
-				levantine_arabic = "Afamiyya"
-				egyptian_arabic = "Afamiyya"
-				sicilian_arabic = "Afamiyya"
-				b_sarmeniasyria = {}
-				b_albarasyria = {}
-				b_famia = {}
-				b_bourzeycastle = {}
-				b_treiz = {}
-			} # end c_archa
-			allow = { title_duke_basic_allow = yes }
-		} # end d_antioch
-		d_tripoli = { # Tripoli
-			color = { 154 39 39 }
-			color2 = { 255 255 255 }
-			capital = 767 # Trípolis # Tripoli
-			name_tier = count
-			greek = "Phoenice"
-			roman = "Phoenice"
-			c_tortosa = { # Tortosa (766)
-				color = { 73 152 34 }
-				color2 = { 255 255 255 }
-				b_tortosa = {}
-				b_maraclea = {}
-				b_valania = {}
-				b_margat = {}
-				b_ruad = {}
-				b_alkhawabi = {}
-			} # end c_tortosa
-			c_monferrand = { # Monferrand (1244)
-				color = { 73 152 34 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Hisn al-Akrad"
-				greek = "Raphanea"
-				bedouin_arabic = "Hisn al-Akrad"
-				yemeni = "Hisn al-Akrad"
-				hijazi = "Hisn al-Akrad"
-				maghreb_arabic = "Hisn al-Akrad"
-				levantine_arabic = "Hisn al-Akrad"
-				egyptian_arabic = "Hisn al-Akrad"
-				sicilian_arabic = "Hisn al-Akrad"
-				sanhaja = "Hisn al-Akrad"
-				tagelmust = "Hisn al-Akrad"
-				masmuda = "Hisn al-Akrad"
-				zanata = "Hisn al-Akrad"
-				tuareg = "Hisn al-Akrad"
-				b_chastelrouge = {}
-				b_zweitina = {}
-				b_chastelblanc = {}
-				b_krakdeschevaliers = {}
-				b_raphania = {}
-			} # end c_monferrand
-			c_masyaf = { # Masyaf (1237)
-				color = { 73 152 34 }
-				color2 = { 255 255 255 }
-				b_alkahf = {}
-				b_masyaf = {}
-				b_alqadamus = {}
-			}
-			c_tripoli = { # Trípolis (767) # Tripoli
-				color = { 75 154 36 }
-				color2 = { 255 255 255 }
-				b_syrtripoli = {}
-				b_citadeloftripoli = {}
-				b_citdaelofsaintgilles = {}
-				b_buissera = {}
-				b_archa = {}
-				b_amiountripoli = {}
-				b_nephin = {}
-			} # end c_tripoli
-			c_gibelet = { # Gibelet (1245)
-				color = { 75 154 36 }
-				color2 = { 255 255 255 }
-				name_tier = baron
-				b_gibeletcastle = {}
-				b_gibelet = {}
-				b_boutron = {}
-				b_besmedin = {}
-				b_msheilfort = {}
-			} # end c_gibelet
-			allow = { title_duke_basic_allow = yes }
-		} # end d_tripoli
-		allow = {
-			religion_group = christian
-			title_king_basic_allow = yes
-		}
-	} # end k_antioch
-	k_aljazira = { # Al-Jazira # Al Jazira
-		color = { 255 2 36 }
-		color2 = { 255 255 255 }
-		capital = 697 # Mosul
-		culture = levantine_arabic
-		orthodox = 200 # Crusade target weight
-		muslim = 400 # Crusade target weight
-		armenian = "Arbayistan"
-		greek = "Assyria"
-		pahlavi = "Arbayistan"
-		roman = "Assyria"
-		d_amida = { # Amid
-			color = { 102 78 57 }
-			color2 = { 255 255 255 }
-			capital = 683 # Amida
-			andalusian_arabic = "Diyar Bakr"
-			armenian = "Arzanene"
-			greek = "Arzanene"
-			turkish = "Diyar Bakr"
-			turkmen = "Diyar Bakr"
-			oghuz = "Diyar Bakr"
-			bedouin_arabic = "Diyar Bakr"
-			yemeni = "Diyar Bakr"
-			hijazi = "Diyar Bakr"
-			maghreb_arabic = "Diyar Bakr"
-			levantine_arabic = "Diyar Bakr"
-			egyptian_arabic = "Diyar Bakr"
-			sicilian_arabic = "Diyar Bakr"
-			c_amida = { # Amida (683)
-				color = { 129 166 48 }
-				color2 = { 255 255 255 }
-				armenian = "Tigranocerta"
-				turkish = "Diyarbakir"
-				turkmen = "Diyarbakir"
-				oghuz = "Diyarbakir"
-				b_kiaburc = {}
-				b_amida = {}
-				b_ulucamii = {}
-				b_suraamede = {}
-				b_hazretisuleymancamii = {}
-				b_egil = {}
-				b_idtodyolataloho = {}
-			} # end c_amida
-			c_hisn_kayf = { # Hisn Kayf (1482)
-				color = { 162 191 44 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Silvan"
-				armenian = "Silvan"
-				greek = "Silvan"
-				assyrian = "Silvan"
-				bedouin_arabic = "Silvan"
-				yemeni = "Silvan"
-				hijazi = "Silvan"
-				maghreb_arabic = "Silvan"
-				levantine_arabic = "Silvan"
-				egyptian_arabic = "Silvan"
-				sicilian_arabic = "Silvan"
-				b_mayyafarikin = {}
-				b_hisnkayf = {}
-				b_siird = {}
-				b_arzan = {}
-			} # end c_hisn_kayf
-			allow = { title_duke_basic_allow = yes }
-		} # end d_amida
-		d_jazira = { # Diyar Mudar
-			color = { 96 115 255 }
-			color2 = { 255 255 255 }
-			capital = 709 # Ar-Raqqah # Raqqa
-			greek = "Euphratensis"
-			roman = "Euphratensis"
-			c_asas = { # Ar-Raqqah (709)
-				color = { 87 234 22 }
-				color2 = { 255 255 255 }
-				b_rakka = {}
-				b_qalatjabar = {}
-				b_talabyad = {}
-				b_resafa = {}
-				b_ar-rafiqa = {}
-				b_bizunasyria = {}
-				b_zarzakka = {}
-			}
-			c_al_bichri = { # Rahba (710) # Al Bichri
-				color = { 15 95 242 }
-				color2 = { 255 255 255 }
-				greek = "Circesium"
-				assyrian = "Circesium"
-				roman = "Circesium"
-				b_bichri = {}
-				b_deiralzur = {}
-				b_osrhoene = {}
-				b_abukamal = {}
-				b_shamiyya = {}
-				b_mayadin = {}
-				b_sirhi = {}
-				b_mhaymidah = {}
-			}
-			c_harran = { # Harran (1238)
-				color = { 153 255 5 }
-				color2 = { 255 255 255 }
-				b_harran = {}
-				b_tallmazwan = {}
-				b_akcakale = {}
-				b_ceylanpinar = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_jazira
-		d_diyareast = { # Diyar Rabi'a
-			color = { 255 239 63 }
-			color2 = { 255 255 255 }
-			capital = 697 # Mosul
-			armenian = "Arbayistan"
-			pahlavi = "Arbayistan"
-			c_mardin = { # Mardin (1239)
-				color = { 129 166 48 }
-				color2 = { 255 255 255 }
-				b_maridin = {}
-				b_resaina = {}
-				b_dunaysir = {}
-				b_dairodmorhannanyo = {}
-				b_alsywaydaturkey = {}
-			} # end c_mardin
-			c_amadiya = { # Amadiyah (684)
-				color = { 133 170 52 }
-				color2 = { 255 255 255 }
-				armenian = "Corduene"
-				greek = "Corduene"
-				kurdish = "Corduene"
-				b_amadiyah = {}
-				b_hakkari = {}
-				b_alki = {}
-			}
-			c_al_jazira = { # Jazírat ibn 'Umar (698)
-				color = { 13 93 240 }
-				color2 = { 255 255 255 }
-				b_jazirat = {}
-				b_barqaid = {}
-				b_faysabur = {}
-				b_fenek = {}
-			}
-			c_sinjar = { # Sinjar (711)
-				color = { 17 97 244 }
-				color2 = { 255 255 255 }
-				greek = "Singara"
-				assyrian = "Beth ‘Arabaye"
-				roman = "Singara"
-				b_sinjar = {}
-				b_tallafar = {}
-				b_hayyal = {}
-				b_baaj = {}
-				b_makisin = {}
-			}
-			c_bira = { # Nasíbín (700)
-				color = { 19 99 246 }
-				color2 = { 255 255 255 }
-				b_nasibin = {}
-				b_dara = {}
-				b_araban = {}
-				b_amuda = {}
-			}
-			c_nineveh = { # Ninawa (685)
-				color = { 11 91 238 }
-				color2 = { 255 255 255 }
-				assyrian = "Adiabene"
-				b_bartella = {}
-				b_karamlish = {}
-				b_bakhdida = {}
-				b_baqofah = {}
-				b_duhok = {}
-				b_aqra = {}
-				b_maaltha = {}
-				b_marmattai = {}
-			}
-			c_erbil = { # Erbil (1591)
-				color = { 9 89 236 }
-				color2 = { 255 255 255 }
-				b_arbil = {}
-				b_shaqlawa = {}
-				b_darabad = {}
-				b_tellhaftun = {}
-			}
-			c_mosul = { # Mosul (697)
-				color = { 9 89 236 }
-				color2 = { 255 255 255 }
-				pahlavi = "Adiabene"
-				b_mosulcastle = {}
-				b_mosul = {}
-				b_baladmosul = {}
-				b_bawazij = {}
-				b_haditha = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_diyareast
-		allow = { title_king_basic_allow = yes }
-	} # end k_aljazira
 	k_pomerania = { # Wendland
 		color = { 136 89 151 }
 		color2 = { 220 220 20 }
@@ -26653,7 +27596,7 @@ e_null = { #
 		#color = { 50 200 180 }
 		color = { 124 60 128 }
 		color2 = { 255 255 255 }
-		capital = 1547 # Ghazna
+		capital = 1550 # Kabul
 		d_zabolestan = { # Zábolestán
 			color = { 10 220 160 }
 			color2 = { 255 255 255 }
@@ -26699,182 +27642,8 @@ e_null = { #
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_khottal = { # Khatlón
-			color = { 118 223 170 }
-			color2 = { 255 255 255 }
-			capital = 1556 # Khuttal # Khottal
-			pahlavi = "Kushanshahr"
-			c_badakhshan = { # Badakhshán (1553)
-				color = { 18 2 170 }
-				color2 = { 255 255 255 }
-				b_badakhshan = {}
-				b_shughnan = {}
-				b_jerm = {}
-				b_rustaq = {}
-				b_sanglich = {}
-				b_ishkashim = {}
-				b_dar-i-tubbat = {}
-			}
-			c_khuttal = { # Khuttal (1556)
-				color = { 18 23 10 }
-				color2 = { 255 255 255 }
-				b_hulbuk = {}
-				b_pargar = {}
-				b_munk = {}
-				b_halavand = {}
-				b_qubadiyan = {}
-				b_livkand = {}
-			}
-			c_rasht = { # Rasht (1555)
-				color = { 118 23 170 }
-				color2 = { 255 255 255 }
-				b_shuman = {}
-				b_vashgird = {}
-				b_afridhan = {}
-				b_rasht = {}
-			}
-			c_chaghaniyan = { # Chaghániyán (1545)
-				color = { 90 223 170 }
-				color2 = { 255 255 255 }
-				b_chaghaniyan = {}
-				b_charmangan = {}
-				b_basand = {}
-				b_darzangi = {}
-				b_hashimgird = {}
-				b_hamvaran = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_khottal
 		allow = { title_king_basic_allow = yes }
 	} # end k_kafarestan
-	k_sistan = { # Sístán
-		color = { 120 190 90 }
-		color2 = { 255 255 255 }
-		capital = 637 # Sístán # Sistan
-		muslim = 200 # Crusade target weight
-		zoroastrian = 350 # Crusade target weight
-		pahlavi = "Sakastan"
-		d_sistan = { # Sístán
-			color = { 111 40 97 }
-			color2 = { 255 255 255 }
-			capital = 637 # Sístán # Sistan
-			pahlavi = "Sakastan"
-			c_farah = { # Farrah (299)
-				color = { 140 173 84 }
-				color2 = { 255 255 255 }
-				greek = "Prophthasia"
-				assyrian = "Aprah"
-				roman = "Prophthasia"
-				b_farah = {}
-				b_djuvayn = {}
-				b_djiza = {}
-				b_khvash = {}
-				b_qarnin = {}
-			}
-			c_rudbar = { # Rúdbár (1348)
-				color = { 142 182 80 }
-				color2 = { 255 255 255 }
-				b_rudbar = {}
-				b_salakan = {}
-				b_kish = {}
-			}
-			c_sistan = { # Sístán (637)
-				color = { 102 122 67 }
-				color2 = { 255 255 255 }
-				b_zaranj = {}
-				b_karkuya = {}
-				b_nih = {}
-				b_sibih = {}
-				b_ram = {}
-			}
-			c_zamindavar = { # Zamindavar (852)
-				color = { 142 175 86 }
-				color2 = { 255 255 255 }
-				b_bust = {}
-				b_sarvan = {}
-				b_muaskar = {}
-				b_baghnin = {}
-				b_durghash = {}
-				b_bishlang = {}
-				b_till = {}
-			}
-			c_rukhadj = { # Rukhádj (1536)
-				color = { 148 170 89 }
-				color2 = { 255 255 255 }
-				b_kandahar = {}
-				b_pandjvay = {}
-				b_bakrabad = {}
-				b_kuhak = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_sistan
-		d_makran = { # Makrán
-			color = { 136 169 80 }
-			color2 = { 255 255 255 }
-			capital = 899 # Pandjgúr
-			c_makran = { # Tíz (854) # Makran # Tiz
-				color = { 146 169 80 }
-				color2 = { 255 255 255 }
-				pahlavi = "Paradan"
-				b_bampur = {}
-				b_fahraj = {}
-				b_tiz = {}
-				b_khwash = {}
-				b_rask = {}
-				b_iskaf = {}
-				b_bih = {}
-				#b_kasr-i-kand = {}
-				#b_bint = {}
-			}
-			c_mashkel = { # Mashkél (894)
-				color = { 146 179 90 }
-				color2 = { 255 255 255 }
-				b_djalk = {}
-				b_dizak = {}
-				b_saravan = {}
-			}
-			c_pandjgur = { # Pandjgúr (899)
-				color = { 148 181 92 }
-				color2 = { 255 255 255 }
-				b_pandjgur = {}
-				b_kiz = {}
-				b_khawr = {}
-				b_armabil = {}
-			}
-			c_turan = { # Turán (1535)
-				color = { 152 185 96 }
-				color2 = { 255 255 255 }
-				pahlavi = "Turgistan"
-				b_kizkanan = {}
-				b_quzdar = {}
-				b_bodein = {}
-				b_sura = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_makran
-		d_walishan = { # Wálishán
-			color = { 62 120 151 }
-			color2 = { 255 255 255 }
-			capital = 1611 # Bori
-			c_wana = { # Bori (1611)
-				color = { 244 80 5 }
-				color2 = { 255 255 255 }
-				b_kushk = {}
-				b_bori = {}
-				b_asfanjay = {}
-			}
-			c_sibi = { # Sibi (1610)
-				color = { 200 145 18 }
-				color2 = { 255 255 255 }
-				b_sibi_india = {}
-				b_mastanj = {}
-				b_dadhar = {}
-				b_walishtan = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		allow = { title_king_basic_allow = yes }
-	} # end k_sistan
 	k_turkestan_west = { # Dasht-e-Qipchaq
 		color = { 172 41 75 }
 		#color = { 250 184 31 }
@@ -28062,131 +28831,12 @@ e_null = { #
 		}
 		allow = { title_king_basic_allow = yes }
 	} # end k_georgia
-	k_caucasian_albania = { # Arran
-		color = { 60 126 98 }
-		color2 = { 255 255 255 }
-		culture = georgian
-		# Creation/usurpation trigger
-		orthodox = 200 # Crusade target weight
-		capital = 1092 # Shirvan
-		d_albania = { # Arran
-			color = { 255 203 100 }
-			color2 = { 255 255 255 }
-			capital = 1530 # Arran
-			c_arran = { # Arran (1530)
-				color = { 253 176 176 }
-				color2 = { 255 255 255 }
-				armenian = "Barda"
-				udi = "Barda"
-				b_barda = {}
-				b_baylakan = {}
-			}
-			c_utik = { # Utik (1084)
-				color = { 253 176 176 }
-				color2 = { 255 255 255 }
-				b_ganja = {}
-				b_shamkhor = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_derbent = { # Derbend
-			color = { 155 25 65 }
-			color2 = { 255 255 255 }
-			capital = 674 # Derbent
-			c_derbent = { # Derbent (674)
-				color = { 253 147 179 }
-				color2 = { 255 255 255 }
-				b_narinkala = {}
-				b_derbent = {}
-				b_juma = {}
-				b_chikkulkan = {}
-				b_quba = {}
-				b_kuli = {}
-				b_tayus = {}
-				#b_tarki = {}
-				#b_datuna = {}
-			}
-			c_lekia = { # Lekia (1696)
-				color = { 253 147 179 }
-				color2 = { 255 255 255 }
-				turkish = "Lezgistan"
-				turkmen = "Lezgistan"
-				oghuz = "Lezgistan"
-				mongol = "Lezgistan"
-				cuman = "Lezgistan"
-				pecheneg = "Lezgistan"
-				khazar = "Lezgistan"
-				bolghar = "Lezgistan"
-				avar = "Lezgistan"
-				karluk = "Lezgistan"
-				kasogi = "Lezgistan"
-				kirghiz = "Lezgistan"
-				uyghur = "Lezgistan"
-				bashkir = "Lezgistan"
-				b_kumukh = {}
-				b_tsakhur = {}
-				b_tabarsaran = {}
-			} # end c_lekia
-			allow = { title_duke_basic_allow = yes }
-		} # end d_derbent
-		d_shirvan = { # Shirwan
-			color = { 97 147 60 }
-			color2 = { 255 255 255 }
-			capital = 1092 # Shirvan
-			pahlavi = "Balasagan"
-			c_shirvan = { # Shirvan (1092)
-				color = { 23 179 176 }
-				color2 = { 255 255 255 }
-				b_gulistan = {}
-				b_ahemakha = {}
-				b_bardij = {}
-				b_agsu = {}
-				b_arabsaki = {}
-			}
-			c_absheron = { # Abšaran (668)
-				color = { 162 234 22 }
-				color2 = { 255 255 255 }
-				b_baku = {}
-				b_lankaran = {}
-				b_absheron = {}
-				b_shirvan = {}
-				b_shakhriyar = {}
-				b_salyan = {}
-				b_khizirzinda = {}
-				b_altiagay = {}
-			}
-			c_maskat = { # Maskat (669)
-				color = { 168 240 28 }
-				color2 = { 255 255 255 }
-				pahlavi = "Shabaran"
-				b_shabaran = {}
-				b_shikhlar = {}
-				b_khachmaz = {}
-				b_chiraggala = {}
-				b_anig = {}
-				b_maraza = {}
-				b_khil = {}
-			}
-			c_albania = { # Layzan (673)
-				color = { 253 176 176 }
-				color2 = { 255 255 255 }
-				b_kaghankatuyk = {}
-				b_gish = {}
-				b_kabala = {}
-				b_martakert = {}
-				b_aghuen = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_shirvan
-		allow = { title_king_basic_allow = yes }
-	} # end k_caucasian_albania
 	k_guge = {
 		color = { 137 168 188 }
 		color2 = { 255 255 255 }
 		capital = 1983 # Tsaparang
 		culture = zhangzhung
 		zhangzhung = "Zhangzhung"
-		han = "Zhangzhung"
 		d_purang = {
 			color = { 67 130 219 }
 			color2 = { 255 255 255 }
@@ -28195,7 +28845,6 @@ e_null = { #
 			c_kyunglung = {
 				color = { 102 132 206 }
 				color2 = { 255 255 255 }
-				han = "Qulong"
 				b_kyunglung = {}
 				b_gurugem = { # temple
 				}
@@ -29239,7 +29888,7 @@ d_candar = { # Candar
 }
 
 d_eretnid = { # Eretna
-	color = { 253 182 182 }
+	color = { 91 124 240 }
 	capital = 1218 # Sebasteia # Sebastia
 	allow = {
 		OR = {
@@ -29569,12 +30218,6 @@ k_blemmyes = { # Béja
 	#tribe = yes
 	culture = beja
 	capital = 1593 # Naqis
-	allow = { title_king_basic_allow = yes }
-}
-
-k_khwarezmia = { # Khwarezm
-	color = { 255 67 20 }
-	capital = 626 # Khwarezm # Káth
 	allow = { title_king_basic_allow = yes }
 }
 

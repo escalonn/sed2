@@ -278,9 +278,12 @@ c_santiago = { # Santiago (157)
 }
 
 c_cordoba = { # Cordoba (181)
-	holy_site = sunni
 	holy_site = aztec
 	holy_site = aztec_reformed
+}
+
+c_kairwan = { # Kairwan (815)
+	holy_site = sunni
 }
 
 c_tunis = { # Tunis (817)
@@ -316,8 +319,6 @@ c_timbuktu = { # Timbuktu (911)
 }
 
 c_esfahan = { # Isfahan (646)
-	holy_site = zoroastrian # The Great Fire of Adur Farnbag # placeholder_holysite
-	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
@@ -325,11 +326,16 @@ c_esfahan = { # Isfahan (646)
 
 c_shiraz = { # Shíráz (644) # Shiraz
 	holy_site = nabawiyya
-	holy_site = zoroastrian
+	holy_site = zoroastrian # The Great Fire of Adur Farnbag (Pars)
 	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
+}
+
+c_sistan = { # Sistan (637)
+	holy_site = zoroastrian # Fire temple of Karkuya
+	holy_site = mazdaki
 }
 
 c_yazd = { # Yazd (638)
@@ -338,7 +344,7 @@ c_yazd = { # Yazd (638)
 }
 
 c_gilan = { # Gilan (666)
-	holy_site = zoroastrian # placeholder_holysite
+	holy_site = zoroastrian # The Great Fire of Adur Gushnasp (Media)
 	holy_site = mazdaki
 }
 
@@ -347,7 +353,7 @@ c_maragheh = { # Maragheh (650)
 }
 
 c_nishapur = { # Níshápúr (634) # Nishápur
-	holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
+	holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr (possibly a mountain near Nishapur)
 	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = yazidi

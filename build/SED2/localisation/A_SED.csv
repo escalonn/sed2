@@ -129,7 +129,6 @@ c_otrar_adj;Otrar;;;;;;;;;;;;;x
 c_turgay_adj;Turgai;;;;;;;;;;;;;x
 c_balkhash_adj;Balkhash;;;;;;;;;;;;;x
 c_socotra_adj;Socotran;;;;;;;;;;;;;x
-e_rajastan;Rajasthan;;;;;;;;;;;;;x
 k_sindh;Sindh;;;;;;;;;;;;;x
 d_sauvira;Sauvira;;;;;;;;;;;;;x
 d_bhakkar;Bhakkar;;;;;;;;;;;;;x
@@ -299,12 +298,20 @@ ca_culture_altaic_jurchen_2;Jurchen Cavalry Barracks;;;;;;;;;;;;;x
 ca_culture_altaic_jurchen_3;Jurchen Cavalry Barracks;;;;;;;;;;;;;x
 ca_culture_altaic_jurchen_4;Jurchen Cavalry Barracks;;;;;;;;;;;;;x
 ca_culture_altaic_jurchen_1_desc;The Jurchen are famous for their skilled cavalry, the Tie-Futu and their unique battle tactics – this is their practice grounds where they train to improve upon their specialty.;;;;;;;;;;;;;x
+RETTYPE_CUL_HAN;Nubing;;;;;;;;;;;;;x
+RETTYPE_CUL_JURCHEN;Tie-Futu;;;;;;;;;;;;;x
 e_china_west_governor;Western Protectorate;;;;;;;;;;;;;x
 e_china_west_governor_adj;Chinese;;;;;;;;;;;;;x
 title_china_emperor;Emperor;;;;;;;;;;;;;x
 cat;Cat;;;;;;;;;;;;;x
 bon;Bön;;;;;;;;;;;;;x
 temple_baron_bon;Lama;;;;;;;;;;;;;x
+d_han_mid;Qilin Company;;;;;;;;;;;;;x
+d_han_mid_low;Tortoise Company;;;;;;;;;;;;;x
+d_han_low;Crane Band;;;;;;;;;;;;;x
+d_tangut_low;Tangut Band;;;;;;;;;;;;;x
+d_bodpa_low;Bödpa Band;;;;;;;;;;;;;x
+RETTYPE_CUL_TIBET;Himalayan Mountaineer;;;;;;;;;;;;;x
 ca_culture_tibetan_1;Mountaineer Academy;;;;;;;;;;;;;x
 ca_culture_tibetan_2;Mountaineer Academy;;;;;;;;;;;;;x
 ca_culture_tibetan_3;Mountaineer Academy;;;;;;;;;;;;;x
@@ -402,6 +409,11 @@ chinese_book_history_name;History of [offmap_china.GetShortName];;;;;;;;;;;;;x
 chinese_book_economy_name;[offmap_china.Governor.GetFirstName]’s Chronicle of Economic Principle;;;;;;;;;;;;;x
 chinese_tapestry_name;Tapestry of [tapestry_target.GetName];;;;;;;;;;;;;x
 chinese_tapestry_grand_name;[offmap_china.GetShortName] Tapestry;;;;;;;;;;;;;x
+d_han_mid_adj;Qilin Company;;;;;;;;;;;;;x
+d_han_mid_low_adj;Tortoise Company;;;;;;;;;;;;;x
+d_han_low_adj;Crane Band;;;;;;;;;;;;;x
+d_tangut_low_adj;Tangut Band;;;;;;;;;;;;;x
+d_bodpa_low_adj;Bödpa Band;;;;;;;;;;;;;x
 title_administrator_desc;A scholar-bureaucrat is an educated member of the Chinese gentry, who has earned academic degrees by passing the imperial examinations. They will aid you with the administration of your realm by organizing the local building projects.;;;;;;;;;;;;;x
 title_china_emperor_female;Empress;;;;;;;;;;;;;x
 c_tihama_adj;Tihamah;;;;;;;;;;;;;x
@@ -414,6 +426,16 @@ c_khaylam_adj;Khaylam;;;;;;;;;;;;;x
 chinese_artwork_name;[offmap_china.GetShortName] Artwork;;;;;;;;;;;;;x
 chinese_calligraphy_name;[offmap_china.GetShortName] Calligraphy;;;;;;;;;;;;;x
 chinese_sculpture_name;[offmap_china.GetShortName] Sculpture;;;;;;;;;;;;;x
+d_han_tiny_1;Peony Band;;;;;;;;;;;;;x
+d_han_tiny_1_adj;Peony Band;;;;;;;;;;;;;x
+d_han_tiny_2;Orchid Band;;;;;;;;;;;;;x
+d_han_tiny_2_adj;Orchid Band;;;;;;;;;;;;;x
+d_persian_caravan_guards;Persian Caravan Guards;;;;;;;;;;;;;x
+d_persian_caravan_guards_adj;Persian Caravan Guards;;;;;;;;;;;;;x
+d_silk_road_sentinels;Silk Road Sentinels;;;;;;;;;;;;;x
+d_silk_road_sentinels_adj;Silk Road Sentinels;;;;;;;;;;;;;x
+d_turkic_guard;Turkic Guard;;;;;;;;;;;;;x
+d_turkic_guard_adj;Turkic Guard;;;;;;;;;;;;;x
 c_gegyai_adj;Gê’gyai;;;;;;;;;;;;;x
 sumpa;Sumpa;;;;;;;;;;;;;x
 zhangzhung;Zhangzhung;;;;;;;;;;;;;x
@@ -549,18 +571,9 @@ ct_marketplace_3;Toll Booth;;;;;;;;;;;;;x
 ct_marketplace_4;Court;;;;;;;;;;;;;x
 ct_marketplace_5;Assay Office;;;;;;;;;;;;;x
 ct_marketplace_6;Fair;;;;;;;;;;;;;x
-tp_monastery_1;Church;;;;;;;;;;;;;x
-tp_monastery_2;Church;;;;;;;;;;;;;x
-tp_monastery_3;Church;;;;;;;;;;;;;x
 tp_monastery_4;Cathedral;;;;;;;;;;;;;x
 tp_monastery_5;Cathedral;;;;;;;;;;;;;x
 tp_monastery_6;Cathedral;;;;;;;;;;;;;x
-tp_town_1;Church Town;;;;;;;;;;;;;x
-tp_town_2;Church Town;;;;;;;;;;;;;x
-tp_town_3;Church Town;;;;;;;;;;;;;x
-tp_town_4;Church Town;;;;;;;;;;;;;x
-tp_town_5;Church Town;;;;;;;;;;;;;x
-tp_town_6;Church Town;;;;;;;;;;;;;x
 english;English;;;;;;;;;;;;;x
 occitan;Occitan;;;;;;;;;;;;;x
 lettigallish;Latgalian;;;;;;;;;;;;;x
@@ -867,7 +880,7 @@ c_kartli_adj;Kartlian;;;;;;;;;;;;;x
 c_tao_adj;Taoian;;;;;;;;;;;;;x
 c_guria_adj;Gurian;;;;;;;;;;;;;x
 c_kakheti_adj;Kakhetian;;;;;;;;;;;;;x
-c_albania_adj;Caucasian Albanian;;;;;;;;;;;;;x
+c_albania_adj;Albanian;;;;;;;;;;;;;x
 c_derbent_adj;Derbentian;;;;;;;;;;;;;x
 c_imeretia_adj;Imeretian;;;;;;;;;;;;;x
 c_abkhazia_adj;Abkhazian;;;;;;;;;;;;;x
@@ -1797,7 +1810,6 @@ tr_garrison_3;Garrison;;;;;;;;;;;;;x
 tr_port_1_desc;Merchant galleys load and off-load their cargo at this small port.;;;;;;;;;;;;;x
 tr_port_2_desc;Merchant galleys load and off-load their cargo aided by a simple wooden harbor crane at this port.;;;;;;;;;;;;;x
 tr_port_3_desc;Merchant galleys load and off-load their cargo aided by several wooden harbor cranes at this bustling port.;;;;;;;;;;;;;x
-tr_enclave_1_desc;A small enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;;;;;;;;;;x
 tr_enclave_2_desc;An enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;;;;;;;;;;x
 tr_enclave_3_desc;A large enclave of expatriates from the republic has established itself in this foreign land to conduct trade.;;;;;;;;;;;;;x
 tr_garrison_1_desc;A small garrison stands vigil over the trade post to deter bandits and rival trade powers.;;;;;;;;;;;;;x
@@ -1848,20 +1860,20 @@ ct_marketplace_5_desc;Assay offices test the purity of precious metals, and the 
 ct_marketplace_6_desc;These fairgrounds are large enough to host a magnificent fair, bringing in traders and entertainers from all over the realm.;;;;;;;;;;;;;x
 ct_port_1_desc;A port that services ships coming in to load or unload cargo.;;;;;;;;;;;;;x
 ct_university_1_desc;A place of higher learning for those with influence enough to gain admission.;;;;;;;;;;;;;x
-tp_wall_q_1_desc;This shallow moat surrounding the church provides another obstacle for attackers to overcome.;;;;;;;;;;;;;x
-tp_wall_q_2_desc;This gatehouse defends the entrance to the church, and makes it easier to control who comes in and who leaves.;;;;;;;;;;;;;x
-tp_wall_3_desc;These stone walls surround the church and must be overcome by any attacker.;;;;;;;;;;;;;x
-tp_wall_4_desc;These large walls surround the church and must be overcome by any attacker.;;;;;;;;;;;;;x
-tp_wall_5_desc;These massive walls surround the church and must be overcome by any attacker.;;;;;;;;;;;;;x
-tp_monastery_1_desc;This church serves as the spiritual center of the local community.;;;;;;;;;;;;;x
+tp_wall_q_1_desc;This shallow moat surrounding the [Root.Holder.GetHouseOfWorship] provides another obstacle for attackers to overcome.;;;;;;;;;;;;;x
+tp_wall_q_2_desc;This gatehouse defends the entrance to the [Root.Holder.GetHouseOfWorship], and makes it easier to control who comes in and who leaves.;;;;;;;;;;;;;x
+tp_wall_3_desc;These stone walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;;;;;;;;;;;x
+tp_wall_4_desc;These large walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;;;;;;;;;;;x
+tp_wall_5_desc;These massive walls surround the [Root.Holder.GetHouseOfWorship] and must be overcome by any attacker.;;;;;;;;;;;;;x
+tp_monastery_1_desc;This [Root.Holder.GetHouseOfWorship] serves as the spiritual center of the local community.;;;;;;;;;;;;;x
 tp_monastery_2_desc;People from across the realm come here to visit this impressive cathedral. It serves as a major landmark, and its spires can be seen from far away.;;;;;;;;;;;;;x
-tp_barracks_1_desc;When necessary, peasants from the local farms are conscripted into the church militia and stationed here.;;;;;;;;;;;;;x
-tp_elite_barracks_1_desc;These holy warriors have sworn to defend this church with their lives.;;;;;;;;;;;;;x
-tp_town_1_desc;This small village of faithful peasants has formed around the church.;;;;;;;;;;;;;x
-tp_town_2_desc;This town of faithful peasants has formed around the church.;;;;;;;;;;;;;x
-tp_town_3_desc;This large town of faithful peasants has formed around the church.;;;;;;;;;;;;;x
-tp_town_4_desc;The small village that once surrounded this church has turned into a large city, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
-tp_town_5_desc;The small village that once surrounded this church has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
+tp_barracks_1_desc;When necessary, peasants from the local farms are conscripted into the [Root.Holder.GetHouseOfWorship] militia and stationed here.;;;;;;;;;;;;;x
+tp_elite_barracks_1_desc;These holy warriors have sworn to defend this [Root.Holder.GetHouseOfWorship] with their lives.;;;;;;;;;;;;;x
+tp_town_1_desc;This small village of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;;;;;;;;;;;x
+tp_town_2_desc;This town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;;;;;;;;;;;x
+tp_town_3_desc;This large town of faithful peasants has formed around the [Root.Holder.GetHouseOfWorship].;;;;;;;;;;;;;x
+tp_town_4_desc;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a large city, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
+tp_town_5_desc;The small village that once surrounded this [Root.Holder.GetHouseOfWorship] has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
 tp_school_1_desc;This school teaches many subjects and is a rare center of high learning, but the students enrolled here primarily study to prepare themselves for future careers in the clergy. No girls allowed.;;;;;;;;;;;;;x
 d_venetian_navy;Adriatic Galleys;;;;;;;;;;;;;x
 d_venetian_navy_adj;Adriatic;;;;;;;;;;;;;x
@@ -2086,16 +2098,16 @@ ct_port_2;Port;;;;;;;;;;;;;x
 ct_port_3;Port;;;;;;;;;;;;;x
 ct_port_4;Port;;;;;;;;;;;;;x
 ct_port_5;Port;;;;;;;;;;;;;x
-tp_wall_q_1;Church Fortifications;;;;;;;;;;;;;x
-tp_wall_q_2;Church Fortifications;;;;;;;;;;;;;x
-tp_wall_q_3;Church Fortifications;;;;;;;;;;;;;x
-tp_wall_q_4;Church Fortifications;;;;;;;;;;;;;x
-tp_wall_q_5;Church Fortifications;;;;;;;;;;;;;x
-tp_wall_1;Church Walls;;;;;;;;;;;;;x
-tp_wall_2;Church Walls;;;;;;;;;;;;;x
-tp_wall_3;Church Walls;;;;;;;;;;;;;x
-tp_wall_4;Church Walls;;;;;;;;;;;;;x
-tp_wall_5;Church Walls;;;;;;;;;;;;;x
+tp_wall_q_1;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;;;;;;;;;;;x
+tp_wall_q_2;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;;;;;;;;;;;x
+tp_wall_q_3;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;;;;;;;;;;;x
+tp_wall_q_4;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;;;;;;;;;;;x
+tp_wall_q_5;[Root.Holder.GetHouseOfWorshipCap] Fortifications;;;;;;;;;;;;;x
+tp_wall_1;[Root.Holder.GetHouseOfWorshipCap] Walls;;;;;;;;;;;;;x
+tp_wall_2;[Root.Holder.GetHouseOfWorshipCap] Walls;;;;;;;;;;;;;x
+tp_wall_3;[Root.Holder.GetHouseOfWorshipCap] Walls;;;;;;;;;;;;;x
+tp_wall_4;[Root.Holder.GetHouseOfWorshipCap] Walls;;;;;;;;;;;;;x
+tp_wall_5;[Root.Holder.GetHouseOfWorshipCap] Walls;;;;;;;;;;;;;x
 tp_elite_barracks_1;Barracks;;;;;;;;;;;;;x
 tp_elite_barracks_2;Barracks;;;;;;;;;;;;;x
 tp_elite_barracks_3;Barracks;;;;;;;;;;;;;x
@@ -2385,6 +2397,20 @@ temple_king_jain;Monk;;;;;;;;;;;;;x
 title_guru;Court Guru;;;;;;;;;;;;;x
 title_guru_desc;A guru is a wise master or teacher, one who imparts wisdom, usually by giving oral instruction and advice. Having a respected guru residing at your court can be useful, giving you access to sage advice.;;;;;;;;;;;;;x
 e_india;India;;;;;;;;;;;;;x
+d_tamil_band;Tamil Band;;;;;;;;;;;;;x
+d_tamil_band_adj;Tamil;;;;;;;;;;;;;x
+d_marathi_company;Marathi Company;;;;;;;;;;;;;x
+d_marathi_company_adj;Marathi;;;;;;;;;;;;;x
+d_marathi_band;Marathi Band;;;;;;;;;;;;;x
+d_marathi_band_adj;Marathi;;;;;;;;;;;;;x
+d_bengal_company;Bengal Company;;;;;;;;;;;;;x
+d_bengal_company_adj;Bengal;;;;;;;;;;;;;x
+d_bengal_band;Bengal Band;;;;;;;;;;;;;x
+d_bengal_band_adj;Bengal;;;;;;;;;;;;;x
+d_rajput_company;Rajput Company;;;;;;;;;;;;;x
+d_rajput_company_adj;Rajput;;;;;;;;;;;;;x
+d_rajput_band;Rajput Band;;;;;;;;;;;;;x
+d_rajput_band_adj;Rajput;;;;;;;;;;;;;x
 temple_barony_of_hindu;Temple of;;;;;;;;;;;;;x
 temple_barony_of_buddhist;Vihara of;;;;;;;;;;;;;x
 temple_barony_of_jain;Temple of;;;;;;;;;;;;;x
@@ -2640,7 +2666,7 @@ tribal_king_female;Queen;;;;;;;;;;;;;x
 tribal_emperor_female;Empress;;;;;;;;;;;;;x
 temple_duke_female_pagan_group;Archpriestess;;;;;;;;;;;;;x
 temple_king_female_pagan_group;Queen-Priestess;;;;;;;;;;;;;x
-temple_emperor_female_pagan_group;Emperor;;;;;;;;;;;;;x
+temple_emperor_female_pagan_group;Empress;;;;;;;;;;;;;x
 vice_royalty_duke_female_byzantine;Strategos;;;;;;;;;;;;;x
 vice_royalty_king_female_byzantine;Exarch;;;;;;;;;;;;;x
 temple_barony_of_zun_pagan;Sun Temple of;;;;;;;;;;;;;x
@@ -2934,3 +2960,15 @@ tribal_empire_russian;Tsardom;;;;;;;;;;;;;x
 duchy_russian;Grand Principality;;;;;;;;;;;;;x
 empire_russian;Tsardom;;;;;;;;;;;;;x
 temple_barony_of_taoist;Temple of;;;;;;;;;;;;;x
+tr_enclave_1_desc;A small enclave established by traders from all over the region in order to conduct trade.;;;;;;;;;;;;;x
+artifact_name;[GetWeaponName];;;;;;;;;;;;;x
+e_rajastan;Rajasthan;;;;;;;;;;;;;x
+tp_monastery_1;[Root.Holder.GetHouseOfWorshipCap];;;;;;;;;;;;;x
+tp_monastery_2;[Root.Holder.GetHouseOfWorshipCap];;;;;;;;;;;;;x
+tp_monastery_3;[Root.Holder.GetHouseOfWorshipCap];;;;;;;;;;;;;x
+tp_town_1;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x
+tp_town_2;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x
+tp_town_3;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x
+tp_town_4;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x
+tp_town_5;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x
+tp_town_6;[Root.Holder.GetHouseOfWorshipCap] Town;;;;;;;;;;;;;x

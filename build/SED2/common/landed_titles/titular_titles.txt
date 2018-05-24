@@ -116,7 +116,10 @@ k_qipchaq = { # Qipchaqlar # Wild Cumans
 	color2 = { 255 255 255 }
 	capital = 619 # Saray
 	culture = cuman
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -125,7 +128,10 @@ k_cuman = { # Kumanlar # Non wild Cumans
 	color2 = { 255 255 255 }
 	capital = 557 # Tokmak
 	culture = cuman
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -134,7 +140,10 @@ k_qangli = { # Qanglilar # Qangli
 	color2 = { 255 255 255 }
 	capital = 893 # Turgay
 	culture = cuman
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -143,7 +152,10 @@ k_pechenegs = { # Beçeneklar
 	color2 = { 255 255 255 }
 	capital = 618 # Saray-Jük # Little Sarai
 	culture = pecheneg
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -152,7 +164,10 @@ k_qangar = { # Qangar
 	color2 = { 255 255 255 }
 	capital = 557 # Tokmak
 	culture = pecheneg
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -161,7 +176,10 @@ k_uzes = { # Uzlar
 	color2 = { 255 255 255 }
 	capital = 895 # Yaik
 	culture = oghuz
-	allow = { title_king_basic_allow = yes }
+	allow = {
+		FROM = { is_de_jure_title = yes }
+		title_king_basic_allow = yes
+	}
 	dynasty_title_names = no
 }
 
@@ -170,13 +188,7 @@ d_black_caps = { # Karakalpaklar
 	color2 = { 255 255 255 }
 	capital = 544 # Ros’
 	culture = oghuz
-	allow = {
-		OR = {
-			culture = oghuz
-			culture = pecheneg
-		}
-		title_duke_basic_allow = yes
-	}
+	allow = { always = no }
 	dynasty_title_names = no
 	russian = "Chorni Klobuky"
 }
@@ -442,14 +454,7 @@ d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer le
 d_paulicians = { # Paulikianoi
 	color = { 78 33 125 }
 	capital = 944 # Tephrike
-	allow = {
-		OR = {
-			culture = greek
-			culture = armenian
-		}
-		religion = paulician
-		title_duke_basic_allow = yes
-	}
+	allow = { always = no }
 }
 
 #d_melitene = {
@@ -784,6 +789,17 @@ d_siraf = { # Siráf
 		title_duke_basic_allow = yes
 	}
 }
+
+e_egypt = { # Misr
+	color = { 210 240 210 }
+	color2 = { 255 255 255 }
+	capital = 796 # Cairo
+	allow = {
+		has_landed_title = k_egypt
+		FROM = { is_de_jure_title = yes }
+		title_emperor_basic_allow = yes
+	}
+} # end e_egypt
 
 e_wendish_empire = { # Wendish Empire
 	color = { 65 25 125 }
