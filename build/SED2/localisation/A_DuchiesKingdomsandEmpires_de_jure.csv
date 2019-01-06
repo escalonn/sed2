@@ -162,7 +162,7 @@ d_bacs;Bács;;;;;;;;;;;;;x
 d_bacs_adj;Bács;;;;;;;;;;;;;x
 d_csanad;Csanád;;;;;;;;;;;;;x
 d_csanad_adj;Csanád;;;;;;;;;;;;;x
-d_csanad_adj_east_gothic;Morisena;;;;;;;;;;;;;x
+d_csanad_adj_crimean_gothic;Morisenan;;;;;;;;;;;;;x
 d_csanad_adj_greek;Morisena;;;;;;;;;;;;;x
 d_csanad_adj_roman;Morisena;;;;;;;;;;;;;x
 d_pest;Bihar;;;;;;;;;;;;;x
@@ -421,6 +421,8 @@ d_leon;León;;;;;;;;;;;;;x
 d_leon_adj;Leonese;;;;;;;;;;;;;x
 d_aragon;Aragon;;;;;;;;;;;;;x
 d_aragon_adj;Aragonese;;;;;;;;;;;;;x
+d_urgell;Urgell;;;;;;;;;;;;;x
+d_urgell_adj;Urgella;;;;;;;;;;;;;x
 d_catalunya_nova;New Catalonia;;;;;;;;;;;;;x
 d_catalunya_nova_adj;New Catalan;;;;;;;;;;;;;x
 d_catalunya_vella;Old Catalonia;;;;;;;;;;;;;x
@@ -465,8 +467,6 @@ d_hoggar;Hoggar;;;;;;;;;;;;;x
 d_hoggar_adj;Hoggar;;;;;;;;;;;;;x
 d_fezzan;Fezzan;;;;;;;;;;;;;x
 d_fezzan_adj;Fezzan;;;;;;;;;;;;;x
-d_nafusa;Nafusa Mountains;;;;;;;;;;;;;x
-d_nafusa_adj;Nafusa;;;;;;;;;;;;;x
 d_tibesti;Tibesti;;;;;;;;;;;;;x
 d_tibesti_adj;Tibesti;;;;;;;;;;;;;x
 d_kawar;Kaouar;;;;;;;;;;;;;x
@@ -1044,15 +1044,16 @@ k_ragusa_adj_occitan;Ragusan;;;;;;;;;;;;;x
 k_ragusa_adj_german;Ragusian;;;;;;;;;;;;;x
 k_serbia;Serbia;;;;;;;;;;;;;x
 k_serbia_adj;Serbian;;;;;;;;;;;;;x
+k_serbia_adj_crimean_gothic;Serblían;;;;;;;;;;;;;x
 d_rashka;Raška;;;;;;;;;;;;;x
 d_rashka_adj;Raška;;;;;;;;;;;;;x
 d_rashka_adj_greek;Rascian;;;;;;;;;;;;;x
-d_rashka_adj_east_gothic;Rascian;;;;;;;;;;;;;x
+d_rashka_adj_crimean_gothic;Rascian;;;;;;;;;;;;;x
 d_rashka_adj_roman;Moesian;;;;;;;;;;;;;x
 d_macva;Macva;;;;;;;;;;;;;x
 d_macva_adj;Macva;;;;;;;;;;;;;x
 d_macva_adj_greek;Užice;;;;;;;;;;;;;x
-d_macva_adj_east_gothic;Užice;;;;;;;;;;;;;x
+d_macva_adj_crimean_gothic;Capedounian;;;;;;;;;;;;;x
 d_hum;Zachlumia;;;;;;;;;;;;;x
 d_hum_adj;Zachlumian;;;;;;;;;;;;;x
 d_dioclea;Zeta;;;;;;;;;;;;;x
@@ -1120,6 +1121,7 @@ d_adrianopolis_adj_masmuda;Macedonian;;;;;;;;;;;;;x
 d_adrianopolis_adj_zanata;Macedonian;;;;;;;;;;;;;x
 e_byzantium;Byzantine Empire;;;;;;;;;;;;;x
 e_byzantium_adj;Byzantine;;;;;;;;;;;;;x
+e_byzantium_adj_carantanian;Rimsko;;;;;;;;;;;;;x
 k_byzantium;Thessalonica;;;;;;;;;;;;;x
 k_byzantium_adj;Thessalonian;;;;;;;;;;;;;x
 k_anatolia;Iconium;;;;;;;;;;;;;x
@@ -1240,6 +1242,7 @@ d_neopatras;Great Vlachia;;;;;;;;;;;;;x
 d_thessalonika_adj;Thessalonian;;;;;;;;;;;;;x
 d_thessalonika;Thessaloniki;;;;;;;;;;;;;x
 d_thessalonika_adj_turkish;Salonika;;;;;;;;;;;;;x
+d_thessalonika_adj_carantanian;Solunian;;;;;;;;;;;;;x
 d_strymon_adj;Strymon;;;;;;;;;;;;;x
 d_strymon_adj_oghuz;Serres;;;;;;;;;;;;;x
 d_strymon_adj_turkmen;Serres;;;;;;;;;;;;;x
@@ -1385,6 +1388,7 @@ d_cherson_adj_kirghiz;Feodosia;;;;;;;;;;;;;x
 d_cherson_adj_uyghur;Feodosia;;;;;;;;;;;;;x
 d_cherson_adj_turkish;Feodosia;;;;;;;;;;;;;x
 d_cherson_adj_bolghar;Sudak;;;;;;;;;;;;;x
+d_cherson_adj_carantanian;Korsunian;;;;;;;;;;;;;x
 d_cherson_adj_dalmatian;Theodoro;;;;;;;;;;;;;x
 d_cherson_adj_italian;Theodoro;;;;;;;;;;;;;x
 d_cherson_adj_venetian;Theodoro;;;;;;;;;;;;;x
@@ -1396,7 +1400,7 @@ d_cherson_adj_neapolitan;Theodoro;;;;;;;;;;;;;x
 d_cherson_adj_umbrian;Theodoro;;;;;;;;;;;;;x
 d_cherson_adj_sardinian;Theodoro;;;;;;;;;;;;;x
 d_cherson_adj_sicilian;Theodoro;;;;;;;;;;;;;x
-d_cherson_adj_east_gothic;Theodoro;;;;;;;;;;;;;x
+d_cherson_adj_crimean_gothic;Theodoroian;;;;;;;;;;;;;x
 d_sebasteia_adj;Sebasteia;;;;;;;;;;;;;x
 d_sebasteia_adj_frankish;Sivas;;;;;;;;;;;;;x
 d_sebasteia_adj_norman;Sivas;;;;;;;;;;;;;x
@@ -1433,8 +1437,11 @@ d_armenia_minor_adj_turkish;Adana;;;;;;;;;;;;;x
 d_armenia_minor;Cilicia;;;;;;;;;;;;;x
 k_khazaria;Khazaria;;;;;;;;;;;;;x
 k_khazaria_adj;Khazar;;;;;;;;;;;;;x
+k_khazaria_adj_crimean_gothic;Chazaroi;;;;;;;;;;;;;x
+k_khazaria_adj_carantanian;Kozaran;;;;;;;;;;;;;x
 d_tmutarakan;Tmutarakan;;;;;;;;;;;;;x
 d_tmutarakan_adj;Tmutarakan;;;;;;;;;;;;;x
+d_tmutarakan_adj_carantanian;Tmutarakanian;;;;;;;;;;;;;x
 d_tmutarakan_adj_dalmatian;Gazaria;;;;;;;;;;;;;x
 d_tmutarakan_adj_italian;Gazaria;;;;;;;;;;;;;x
 d_tmutarakan_adj_venetian;Gazaria;;;;;;;;;;;;;x
@@ -1451,10 +1458,11 @@ d_tmutarakan_adj_arberian;Perateia;;;;;;;;;;;;;x
 d_tmutarakan_adj_armenian;Perateia;;;;;;;;;;;;;x
 d_tmutarakan_adj_georgian;Perateia;;;;;;;;;;;;;x
 d_tmutarakan_adj_greek;Perateia;;;;;;;;;;;;;x
-d_tmutarakan_adj_east_gothic;Perateia;;;;;;;;;;;;;x
+d_tmutarakan_adj_crimean_gothic;Perateian;;;;;;;;;;;;;x
 d_tmutarakan_adj_roman;Hermonassa;;;;;;;;;;;;;x
 d_azov;Azov;;;;;;;;;;;;;x
 d_azov_adj;Azovian;;;;;;;;;;;;;x
+d_azov_adj_carantanian;Azovan;;;;;;;;;;;;;x
 d_azov_adj_dalmatian;Tana;;;;;;;;;;;;;x
 d_azov_adj_italian;Tana;;;;;;;;;;;;;x
 d_azov_adj_venetian;Tana;;;;;;;;;;;;;x
@@ -1472,7 +1480,7 @@ d_azov_adj_bolghar;Don;;;;;;;;;;;;;x
 d_azov_adj_arberian;Don;;;;;;;;;;;;;x
 d_azov_adj_armenian;Don;;;;;;;;;;;;;x
 d_azov_adj_georgian;Don;;;;;;;;;;;;;x
-d_azov_adj_east_gothic;Don;;;;;;;;;;;;;x
+d_azov_adj_crimean_gothic;Tanaiskvíslian;;;;;;;;;;;;;x
 d_azov_adj_norse;Don;;;;;;;;;;;;;x
 d_azov_adj_greek;Don;;;;;;;;;;;;;x
 d_itil;Atil;;;;;;;;;;;;;x
@@ -1486,7 +1494,7 @@ d_itil_adj_russian;Volga;;;;;;;;;;;;;x
 d_itil_adj_serbian;Volga;;;;;;;;;;;;;x
 d_itil_adj_croatian;Volga;;;;;;;;;;;;;x
 d_itil_adj_bulgarian;Volga;;;;;;;;;;;;;x
-d_itil_adj_karantanci;Volga;;;;;;;;;;;;;x
+d_itil_adj_carantanian;Vl'gan;;;;;;;;;;;;;x
 d_itil_adj_bosnian;Volga;;;;;;;;;;;;;x
 d_itil_adj_dalmatian;Volga;;;;;;;;;;;;;x
 d_itil_adj_italian;Volga;;;;;;;;;;;;;x
@@ -1559,7 +1567,7 @@ d_itil_adj_baloch;Volga;;;;;;;;;;;;;x
 d_itil_adj_arberian;Volga;;;;;;;;;;;;;x
 d_itil_adj_armenian;Volga;;;;;;;;;;;;;x
 d_itil_adj_georgian;Volga;;;;;;;;;;;;;x
-d_itil_adj_east_gothic;Volga;;;;;;;;;;;;;x
+d_itil_adj_crimean_gothic;Atelian;;;;;;;;;;;;;x
 d_itil_adj_greek;Volga;;;;;;;;;;;;;x
 d_itil_adj_alan;Volga;;;;;;;;;;;;;x
 d_saray;Sarai;;;;;;;;;;;;;x
@@ -1574,19 +1582,21 @@ d_sarir_adj;Sarir;;;;;;;;;;;;;x
 d_zichia;Circassia;;;;;;;;;;;;;x
 d_zichia_adj;Circassian;;;;;;;;;;;;;x
 d_zichia_adj_russian;Kabardian;;;;;;;;;;;;;x
+d_zichia_adj_carantanian;Zichian;;;;;;;;;;;;;x
 d_zichia_adj_armenian;Sadz;;;;;;;;;;;;;x
 d_zichia_adj_georgian;Sadz;;;;;;;;;;;;;x
+d_zichia_adj_crimean_gothic;Zikhiyan;;;;;;;;;;;;;x
 k_taurica;Crimea;;;;;;;;;;;;;x
 k_taurica_adj;Crimean;;;;;;;;;;;;;x
 k_taurica_adj_arberian;Scythian;;;;;;;;;;;;;x
 k_taurica_adj_armenian;Scythian;;;;;;;;;;;;;x
 k_taurica_adj_georgian;Scythian;;;;;;;;;;;;;x
 k_taurica_adj_greek;Scythian;;;;;;;;;;;;;x
-k_taurica_adj_east_gothic;Oium;;;;;;;;;;;;;x
+k_taurica_adj_crimean_gothic;Oiuman;;;;;;;;;;;;;x
 k_taurica_adj_serbian;Wild Fields;;;;;;;;;;;;;x
 k_taurica_adj_croatian;Wild Fields;;;;;;;;;;;;;x
 k_taurica_adj_bulgarian;Wild Fields;;;;;;;;;;;;;x
-k_taurica_adj_karantanci;Wild Fields;;;;;;;;;;;;;x
+k_taurica_adj_carantanian;Divoká Polean;;;;;;;;;;;;;x
 k_taurica_adj_bosnian;Wild Fields;;;;;;;;;;;;;x
 k_taurica_adj_polish;Wild Fields;;;;;;;;;;;;;x
 k_taurica_adj_pommeranian;Wild Fields;;;;;;;;;;;;;x
@@ -1596,8 +1606,11 @@ k_taurica_adj_lithuanian;Wild Fields;;;;;;;;;;;;;x
 k_taurica_adj_russian;Wild Fields;;;;;;;;;;;;;x
 d_crimea;Crimea;;;;;;;;;;;;;x
 d_crimea_adj;Crimean;;;;;;;;;;;;;x
+d_crimea_adj_carantanian;Krymian;;;;;;;;;;;;;x
+d_crimea_adj_crimean_gothic;Taurikean;;;;;;;;;;;;;x
 d_sarkel;Donets;;;;;;;;;;;;;x
 d_sarkel_adj;Donets;;;;;;;;;;;;;x
+d_sarkel_adj_carantanian;Donel'ian;;;;;;;;;;;;;x
 d_sarkel_adj_dalmatian;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_italian;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_venetian;Levedia;;;;;;;;;;;;;x
@@ -1637,7 +1650,7 @@ d_sarkel_adj_arberian;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_armenian;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_georgian;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_greek;Levedia;;;;;;;;;;;;;x
-d_sarkel_adj_east_gothic;Levedia;;;;;;;;;;;;;x
+d_sarkel_adj_crimean_gothic;Lebedian;;;;;;;;;;;;;x
 d_sarkel_adj_alan;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_bashkir;Levedia;;;;;;;;;;;;;x
 d_sarkel_adj_szekely;Levedia;;;;;;;;;;;;;x
@@ -1646,7 +1659,9 @@ d_zaporizhia_adj;Dnieper;;;;;;;;;;;;;x
 d_zaporizhia_adj_russian;Zaporizhian;;;;;;;;;;;;;x
 d_zaporizhia_adj_polish;Zaporizhian;;;;;;;;;;;;;x
 d_zaporizhia_adj_lithuanian;Zaporizhian;;;;;;;;;;;;;x
+d_zaporizhia_adj_carantanian;Slavutychian;;;;;;;;;;;;;x
 d_zaporizhia_adj_romanian;Zaporizhian;;;;;;;;;;;;;x
+d_zaporizhia_adj_crimean_gothic;Varan;;;;;;;;;;;;;x
 d_podolia;Yedisan;;;;;;;;;;;;;x
 d_podolia_adj;Yedisan;;;;;;;;;;;;;x
 d_podolia_adj_lithuanian;Podolian;;;;;;;;;;;;;x
@@ -1658,7 +1673,7 @@ d_podolia_adj_russian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_serbian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_croatian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_bulgarian;Podolian;;;;;;;;;;;;;x
-d_podolia_adj_karantanci;Podolian;;;;;;;;;;;;;x
+d_podolia_adj_carantanian;Ponyzzian;;;;;;;;;;;;;x
 d_podolia_adj_bosnian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_dalmatian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_italian;Podolian;;;;;;;;;;;;;x
@@ -1698,42 +1713,57 @@ d_podolia_adj_romanian;Podolian;;;;;;;;;;;;;x
 d_podolia_adj_szekely;Podolian;;;;;;;;;;;;;x
 d_vorksla;Vorskla;;;;;;;;;;;;;x
 d_vorksla_adj;Vorskla;;;;;;;;;;;;;x
+d_vorskla_adj_carantanian;Vor'skolian;;;;;;;;;;;;;x
 k_volga_bulgaria;Volga Bulgaria;;;;;;;;;;;;;x
 k_volga_bulgaria_adj;Volga Bulgarian;;;;;;;;;;;;;x
 k_volga_bulgaria_russian;Volga;;;;;;;;;;;;;x
 k_volga_bulgaria_hungarian;Dentumoger;;;;;;;;;;;;;x
+k_volga_bulgaria_adj_carantanian;Bulgar;;;;;;;;;;;;;x
 d_bulgar;Volga Bulgaria;;;;;;;;;;;;;x
 d_bulgar_adj;Volga Bulgarian;;;;;;;;;;;;;x
+d_bulgar_adj_carantanian;Bulgar;;;;;;;;;;;;;x
 d_podonye;Voronezh;;;;;;;;;;;;;x
 d_podonye_adj;Voronezh;;;;;;;;;;;;;x
 d_podonye_adj_russian;Podonye;;;;;;;;;;;;;x
+d_podonye_adj_carantanian;Voronežian;;;;;;;;;;;;;x
 d_samara;Samara;;;;;;;;;;;;;x
 d_samara_adj;Samara;;;;;;;;;;;;;x
+d_samara_adj_carantanian;Samaraian;;;;;;;;;;;;;x
 d_mordva;Moksha;;;;;;;;;;;;;x
 d_mordva_adj;Moksha;;;;;;;;;;;;;x
 d_sura;Sura;;;;;;;;;;;;;x
 d_sura_adj;Sura;;;;;;;;;;;;;x
 d_bashkirs;Bashkiria;;;;;;;;;;;;;x
 d_bashkirs_adj;Bashkir;;;;;;;;;;;;;x
+d_bashkirs_adj_carantanian;Baškir;;;;;;;;;;;;;x
 k_bjarmia;Bjarmaland;;;;;;;;;;;;;x
 k_bjarmia_adj;Bjarmian;;;;;;;;;;;;;x
 k_bjarmia_adj_lappish;Tšuudmi;;;;;;;;;;;;;x
+k_bjarmia_adj_carantanian;Zavolochian;;;;;;;;;;;;;x
 d_bjarmia;Northern Dvina;;;;;;;;;;;;;x
 d_bjarmia_adj;Northern Dvina;;;;;;;;;;;;;x
+d_bjarmia_adj_carantanian;Dvinan;;;;;;;;;;;;;x
 d_onega;Onega;;;;;;;;;;;;;x
 d_onega_adj;Onega;;;;;;;;;;;;;x
+d_onega_adj_carantanian;Onegan;;;;;;;;;;;;;x
 d_pechora;Pechora;;;;;;;;;;;;;x
 d_pechora_adj;Pechoran;;;;;;;;;;;;;x
+d_pechora_adj_carantanian;Pechoran;;;;;;;;;;;;;x
 k_perm;Great Perm;;;;;;;;;;;;;x
 k_perm_adj;Permian;;;;;;;;;;;;;x
+k_perm_adj_carantanian;Perm' Velikayan;;;;;;;;;;;;;x
 d_perm;Great Perm;;;;;;;;;;;;;x
 d_perm_adj;Permian;;;;;;;;;;;;;x
+d_perm_adj_carantanian;Permian;;;;;;;;;;;;;x
 d_perm_vychegda;Vychegda;;;;;;;;;;;;;x
 d_perm_vychegda_adj;Vychegdan;;;;;;;;;;;;;x
+d_perm_vychegda_adj_carantanian;Vychegdan;;;;;;;;;;;;;x
 d_pelym;Pelym;;;;;;;;;;;;;x
 d_pelym_adj;Pelym;;;;;;;;;;;;;x
+d_pelym_adj_carantanian;Pelyman;;;;;;;;;;;;;x
 d_vyatka;Vyatka;;;;;;;;;;;;;x
 d_vyatka_adj;Vyatka;;;;;;;;;;;;;x
+d_vyatka_adj_carantanian;Vyatka;;;;;;;;;;;;;x
 k_finland;Finland;;;;;;;;;;;;;x
 k_finland_adj;Finnish;;;;;;;;;;;;;x
 d_finland;Finland;;;;;;;;;;;;;x
@@ -1742,6 +1772,7 @@ d_sampi;Lapland;;;;;;;;;;;;;x
 d_sampi_adj;Lappish;;;;;;;;;;;;;x
 d_ingria;Ingria;;;;;;;;;;;;;x
 d_ingria_adj;Ingrian;;;;;;;;;;;;;x
+d_ingria_adj_carantanian;Izhora;;;;;;;;;;;;;x
 d_viipuri;Vyborg;;;;;;;;;;;;;x
 d_viipuri_adj;Vyborg;;;;;;;;;;;;;x
 d_viipuri_adj_russian;Karelian;;;;;;;;;;;;;x
@@ -1752,7 +1783,7 @@ d_viipuri_adj_pommeranian;Karelian;;;;;;;;;;;;;x
 d_viipuri_adj_croatian;Karelian;;;;;;;;;;;;;x
 d_viipuri_adj_bosnian;Karelian;;;;;;;;;;;;;x
 d_viipuri_adj_serbian;Karelian;;;;;;;;;;;;;x
-d_viipuri_adj_karantanci;Karelian;;;;;;;;;;;;;x
+d_viipuri_adj_carantanian;Korela;;;;;;;;;;;;;x
 d_viipuri_adj_bulgarian;Karelian;;;;;;;;;;;;;x
 k_pomerania;Wendland;;;;;;;;;;;;;x
 k_pomerania_adj;Wendish;;;;;;;;;;;;;x
@@ -1762,6 +1793,7 @@ d_lubusz;Lubusz;;;;;;;;;;;;;x
 d_lubusz_adj;Lubusz;;;;;;;;;;;;;x
 d_rugen;Rügen;;;;;;;;;;;;;x
 d_rugen_adj;Rügish;;;;;;;;;;;;;x
+d_rugen_adj_carantanian;Rugish;;;;;;;;;;;;;x
 k_terra;Livonia;;;;;;;;;;;;;x
 k_terra_adj;Livonian;;;;;;;;;;;;;x
 d_talava;Talava;;;;;;;;;;;;;x
@@ -1782,6 +1814,8 @@ k_turkestan_west_adj;Cuman;;;;;;;;;;;;;x
 k_turkestan_west;Cumania;;;;;;;;;;;;;x
 k_turkestan_east_adj;Turkic;;;;;;;;;;;;;x
 k_turkestan_east;Turkestan;;;;;;;;;;;;;x
+k_khotan_adj;Tarimí;;;;;;;;;;;;;x
+k_khotan;Tarim;;;;;;;;;;;;;x
 k_sistan_adj;Sistani;;;;;;;;;;;;;x
 k_sistan;Sistan;;;;;;;;;;;;;x
 k_persia_adj;Persian;;;;;;;;;;;;;x
@@ -1806,8 +1840,8 @@ d_zabolestan_adj;Zabulistan;;;;;;;;;;;;;x
 d_zabolestan;Zabulistan;;;;;;;;;;;;;x
 d_kabul_adj;Kabul;;;;;;;;;;;;;x
 d_kabul;Kabul;;;;;;;;;;;;;x
-d_walishan_adj;Walishan;;;;;;;;;;;;;x
-d_walishan;Walishan;;;;;;;;;;;;;x
+d_walishtan_adj;Wálishtání;;;;;;;;;;;;;x
+d_walishtan;Wálishtán;;;;;;;;;;;;;x
 d_ustyurt_adj;Ustyurt;;;;;;;;;;;;;x
 d_ustyurt;Ustyurt;;;;;;;;;;;;;x
 d_tabarestan_adj;Tabaristani;;;;;;;;;;;;;x
@@ -1818,8 +1852,8 @@ d_sistan_adj;Sistani;;;;;;;;;;;;;x
 d_sistan;Sistan;;;;;;;;;;;;;x
 d_shash_adj;Tashkent;;;;;;;;;;;;;x
 d_shash;Tashkent;;;;;;;;;;;;;x
-d_kucha_adj;Kuchanese;;;;;;;;;;;;;x
-d_kucha;Kucha;;;;;;;;;;;;;x
+d_karashar_adj;Kucha;;;;;;;;;;;;;x
+d_karashar;Kucha;;;;;;;;;;;;;x
 d_nishapur_adj;Nishapuri;;;;;;;;;;;;;x
 d_nishapur;Nishapur;;;;;;;;;;;;;x
 d_merv_adj;Mervian;;;;;;;;;;;;;x
@@ -2060,3 +2094,19 @@ d_arabia_petrae;Al-Jawf;;;;;;;;;;;;;x
 d_arabia_petrae_adj;Al-Jawf;;;;;;;;;;;;;x
 d_uttaranchal;Kuninda;;;;;;;;;;;;;x
 d_uttaranchal_adj;Kuninda;;;;;;;;;;;;;x
+k_punjab;Punjab;;;;;;;;;;;;;x
+k_punjab_adj;Panchanadi;;;;;;;;;;;;;x
+k_delhi;Delhi;;;;;;;;;;;;;x
+k_delhi_adj;Kuri;;;;;;;;;;;;;x
+k_kosala;Kosala;;;;;;;;;;;;;x
+k_kosala_adj;Panchali;;;;;;;;;;;;;x
+k_gondwana;Cedi;;;;;;;;;;;;;x
+k_gondwana_adj;Cedi;;;;;;;;;;;;;x
+d_bhakkar;Bhakkar;;;;;;;;;;;;;x
+d_bhakkar_adj;Sindhi;;;;;;;;;;;;;x
+d_nisada;Nisada;;;;;;;;;;;;;x
+d_nisada_adj;Nisadi;;;;;;;;;;;;;x
+d_gurjara_mandala;Gujarat;;;;;;;;;;;;;x
+d_gurjara_mandala_adj;Gurjaradesi;;;;;;;;;;;;;x
+d_vodamayutja;Budaun;;;;;;;;;;;;;x
+d_vodamayutja_adj;Vodamayuti;;;;;;;;;;;;;x

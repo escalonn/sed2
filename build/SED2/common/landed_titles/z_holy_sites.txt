@@ -109,7 +109,7 @@ c_nadruvia = { # Nadruvia (1300)
 	holy_site = baltic_pagan_reformed
 }
 
-c_esztergom = { # Visegrád (444)
+c_severin = { # Severin (516)
 	holy_site = tengri_pagan
 	holy_site = tengri_pagan_reformed
 }
@@ -380,10 +380,6 @@ c_baghdad = { # Baghdad (693)
 	holy_site = manichean
 }
 
-c_udabhanda = { # Udabhanda (1624)
-	holy_site = buddhist
-}
-
 c_mathura = { # Mathura (1664)
 	holy_site = hindu
 	holy_site = buddhist
@@ -397,7 +393,7 @@ c_garhwal = { # Garhwal (1980)
 	holy_site = hindu # Haridwar/Gangadvara
 }
 
-c_sarasvata_mandala = { # Sarasvata Mandala (1629)
+c_sarasvata_mandala = { # Anahilapataka/Vadnagar (1629)
 	holy_site = jain
 }
 
@@ -410,7 +406,7 @@ c_kutch = { # Kutch (1634)
 }
 
 c_bhumilka = { # Bhumilka (1635)
-	holy_site = jain
+	holy_site = jain # Girnar
 }
 
 c_godwad = { # Godwad (1644)
@@ -425,8 +421,9 @@ c_vidisa = { # Vidisa (1675)
 	holy_site = buddhist
 }
 
-c_sravasti = { # Sravasti (1689)
-	holy_site = buddhist # as physically close as possible to other Buddhist holy sites to the east
+c_purushapura = { # Purushapura (1625)
+	holy_site = buddhist # Kanishka Vihara
+	holy_site = bon # placeholder
 }
 
 c_varazhnunik = { # Varazhnunik (1531)
@@ -535,7 +532,7 @@ c_itil = { # Itil (620)
 c_ghazna = { # Ghazna (1547)
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
-	holy_site = bon # placeholder
+	holy_site = buddhist # site of "pagan" pilgrimage according to Muslim records
 }
 
 c_zamindavar = { # Zamindavar (852)

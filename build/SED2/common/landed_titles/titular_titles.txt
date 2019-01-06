@@ -183,16 +183,16 @@ k_uzes = { # Uzlar
 	dynasty_title_names = no
 }
 
-d_black_caps = { # Karakalpaklar
-	color = { 189 121 13 }
-	color2 = { 255 255 255 }
-	capital = 544 # Ros’
-	culture = oghuz
-	allow = { always = no }
-	dynasty_title_names = no
-	russian = "Chorni Klobuky"
-}
-
+#d_black_caps = { # Karakalpaklar
+#	color = { 189 121 13 }
+#	color2 = { 255 255 255 }
+#	dynasty_title_names = no
+#	capital = 544 # Ros’
+#	russian = "Chyornye Klobuki"
+#	persian = "Qaum-i Kulah-i Siyahan"
+#	culture = oghuz
+#	allow = { always = no }
+#}
 e_kaleva = { # Kalevala
 	color = { 144 157 181 }
 	capital = 381 # Nyland
@@ -613,10 +613,10 @@ d_mingrelia = { # Samegrelo
 
 d_theodoro = { # Gotthías # Gothia
 	color = { 82 199 44 }
-	culture = east_gothic
+	culture = crimean_gothic
 	capital = 1699 # Doros # Theodoro
 	allow = {
-		culture = east_gothic
+		culture = crimean_gothic
 		title_duke_basic_allow = yes
 	}
 }
@@ -791,7 +791,7 @@ d_siraf = { # Siráf
 }
 
 e_egypt = { # Misr
-	color = { 210 240 210 }
+	color = { 200 255 200 }
 	color2 = { 255 255 255 }
 	capital = 796 # Cairo
 	allow = {
@@ -820,7 +820,7 @@ e_wendish_empire = { # Wendish Empire
 	polish = "Great Poland"
 	bohemian = "Great Bohemia"
 	moravian = "Great Moravia"
-	karantanci = "Wends"
+	karantanci = Wends
 	croatian = "Wends"
 } # end e_wendish_empire
 

@@ -670,7 +670,7 @@ d_qirghiz = { # Qirghiz
 # Oghuz
 ######################################
 # Uzes tribes
-d_salgur = { # Salgur
+d_uzes = { # Uzes
 	color = { 154 92 24 }
 	color2 = { 255 255 255 }
 	culture = oghuz
@@ -700,10 +700,10 @@ d_oghuz = { # Oghuz
 	title_prefix = Yabghuluq_OF
 }
 
-d_iraqiya_oghuz = { # Iraqíya
+d_ghuzz = { # Ghuzz
 	color = { 210 45 45 }
 	culture = oghuz
-	capital = 683 # Amida
+	capital = 904 # Balkh
 	allow = { always = no }
 }
 
@@ -1128,7 +1128,7 @@ d_mordvins = { # Mokshet
 	leonese = "Mordvins"
 	armenian = "Mordvins"
 	greek = "Mordvins"
-	east_gothic = "Mordvins"
+	east_gothic = Mordvins
 	romanian = "Mordvins"
 	alan = "Mordvins"
 	arberian = "Mordvins"
@@ -1137,7 +1137,7 @@ d_mordvins = { # Mokshet
 	polish = "Mordvins"
 	bohemian = "Mordvins"
 	moravian = "Mordvins"
-	karantanci = "Mordvins"
+	karantanci = Mordvins
 	croatian = "Mordvins"
 	serbian = "Mordvins"
 	bosnian = "Mordvins"
@@ -1352,7 +1352,7 @@ d_tavasts = { # Hämäläiset
 	polish = "Yem"
 	bohemian = "Yem"
 	moravian = "Yem"
-	karantanci = "Yem"
+	karantanci = Yem
 	croatian = "Yem"
 	serbian = "Yem"
 	bosnian = "Yem"
@@ -1470,6 +1470,18 @@ d_barghawata = { # Tamasna # Sala
 	#tribe = yes
 	capital = 844 # Asfí # Asfî
 	allow = { always = no }
+}
+
+####
+# Nafusa
+####
+d_nafusa = { # Nafusa/Infusen
+	color = { 105 85 85 }
+	color2 = { 255 255 255 }
+	culture = zanata
+	#tribe = yes
+	capital = 1398 # Nafusa
+	allow = { title_duke_basic_allow = yes }
 }
 
 ######################################
