@@ -4935,7 +4935,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 	has_top_de_jure_capital = yes
 	purple_born_heirs = yes
 	short_name = yes
-	k_byzantium = { # Thessalonika
+	k_thrace = { # Thessalonika
 		color = { 217 59 59 }
 		color2 = { 23 255 255 }
 		capital = 496 # Konstantinoupolis # Byzantion
@@ -4943,7 +4943,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 		orthodox = 5000 # Crusade target weight
 		catholic = 2000 # Crusade target weight
 		zoroastrian_group = 100 # Crusade target weight
-		greek = "Thessaloniki"
 		d_aegean_islands = { # Aigaiou Pelàgous
 			color = { 104 8 103 }
 			color2 = { 255 255 255 }
@@ -5328,7 +5327,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			title_king_basic_allow = yes
 		}
-	} # end k_byzantium
+	} # end k_thrace
 	k_epirus = { # Epeiros
 		color = { 60 126 200 }
 		color2 = { 23 255 255 }
