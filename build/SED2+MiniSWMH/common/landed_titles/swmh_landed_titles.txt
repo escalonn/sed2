@@ -15813,7 +15813,8 @@ e_italy = {
 		color2 = { 255 255 255 }
 		capital = 333
 		culture = laziale
-		christian = 8000
+		christian = 10000
+		hellenic_pagan_reformed = 5000
 		d_latium = {
 			color = { 254 245 160 }
 			color2 = { 255 255 255 }
@@ -16064,8 +16065,12 @@ e_italy = {
 			allow = { title_duke_basic_allow = yes }
 		}
 		allow = {
-			religion_group = christian
-			liege = { has_landed_title = e_byzantium }
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
+			controls_religion = catholic
+			c_roma = { owner_under_ROOT = yes }
 			title_king_basic_allow = yes
 		}
 	}
