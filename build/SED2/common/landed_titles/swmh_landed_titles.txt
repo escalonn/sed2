@@ -618,7 +618,7 @@ d_sunni_cuman_company = { # Khazar Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -649,7 +649,7 @@ d_sunni_berber_company = { # Berber Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -680,7 +680,7 @@ d_sunni_bedouin_company = { # Arab Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -732,7 +732,7 @@ d_shiite_cuman_company = { # Steppe Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -763,7 +763,7 @@ d_shiite_berber_company = { # Tuareg Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -794,7 +794,7 @@ d_shiite_bedouin_company = { # Bedouin Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -824,7 +824,7 @@ d_white_company = { # White Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -851,7 +851,7 @@ d_great_company = { # Great Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -878,7 +878,7 @@ d_company_of_st_george = { # Company of St. George
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -905,7 +905,7 @@ d_star_company = { # Company of the Star
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -932,7 +932,7 @@ d_little_hat_company = { # Company of the Hat
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -959,7 +959,7 @@ d_rose_company = { # Company of the Rose
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -987,7 +987,7 @@ d_catalan_company = { # Catalan Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1015,7 +1015,7 @@ d_navarrese_company = { # Navarrese Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1042,7 +1042,7 @@ d_swiss_company = { # Swiss Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1070,7 +1070,7 @@ d_breton_company = { # Breton Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1086,7 +1086,7 @@ d_sardinian_company = {
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1111,7 +1111,7 @@ d_sardinian_band = {
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1147,7 +1147,7 @@ d_victual_brothers = { # Victual Brothers
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
@@ -1224,7 +1224,7 @@ d_rus_company = { # Rus Company
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			year = 950
 			OR = {
 				religion_group = pagan_group
@@ -1318,7 +1318,7 @@ d_lombard_band = { # Lombard Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1345,7 +1345,7 @@ d_swiss_band = { # Swiss Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1373,7 +1373,7 @@ d_breton_band = { # Breton Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1401,7 +1401,7 @@ d_catalan_band = { # Catalan Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1429,7 +1429,7 @@ d_saxon_band = { # Saxon Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				NOT = { year = 1100 }
 				any_independent_ruler = { culture = saxon }
@@ -1482,7 +1482,7 @@ d_rus_band = { # Rus Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			year = 950
 			OR = {
 				religion_group = christian
@@ -1514,7 +1514,7 @@ d_finnish_band = { # Finnish Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1545,7 +1545,7 @@ d_lappish_band = { # Sami Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1576,7 +1576,7 @@ d_lithuanian_band = { # Lithuanian Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1607,7 +1607,7 @@ d_abyssinian_band = { # Abyssinian Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = jewish_group
@@ -1638,7 +1638,7 @@ d_nubian_band = { # Nubian Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = jewish_group
@@ -1667,7 +1667,7 @@ d_scottish_band = { # Scottish Band
 	strength_growth_per_century = 1.0
 	mercenary_type = scottish_band_composition
 	# Hire Trigger
-	allow = { conditional_tooltip = { trigger = { NOT = { is_alternate_start = yes } } } }
+	allow = { conditional_tooltip = { trigger = { is_alternate_start = no } } }
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -1799,7 +1799,7 @@ d_mamluks = { # Mamluks
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 		}
 	}
@@ -1825,7 +1825,7 @@ d_venetian_navy = { # Adriatic Galleys
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1853,7 +1853,7 @@ d_genoese_navy = { # Ligurian Galleys
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1881,7 +1881,7 @@ d_hanseatic_navy = { # Baltic Cogs
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1909,7 +1909,7 @@ d_frisian_navy = { # North Sea Cogs
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1938,7 +1938,7 @@ d_maghreb_corsairs = { # Maghreb Navy
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 			year = 955
 		}
@@ -1967,7 +1967,7 @@ d_ghilman = { # Ghilman
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 		}
 	}
@@ -1995,7 +1995,7 @@ d_ghanan_band = { # Ghanan Band
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			culture_group = west_african
 		}
 	}

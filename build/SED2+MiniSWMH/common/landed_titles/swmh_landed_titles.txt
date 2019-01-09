@@ -490,7 +490,7 @@ d_sunni_cuman_company = {
 	mercenary_type = muslim_cuman_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -516,7 +516,7 @@ d_sunni_berber_company = {
 	mercenary_type = berber_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -542,7 +542,7 @@ d_sunni_bedouin_company = {
 	mercenary_type = bedouin_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -585,7 +585,7 @@ d_shiite_cuman_company = {
 	mercenary_type = muslim_cuman_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -611,7 +611,7 @@ d_shiite_berber_company = {
 	mercenary_type = berber_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -637,7 +637,7 @@ d_shiite_bedouin_company = {
 	mercenary_type = bedouin_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = muslim
 				religion_group = zoroastrian_group
@@ -662,7 +662,7 @@ d_white_company = {
 	mercenary_type = white_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -684,7 +684,7 @@ d_great_company = {
 	mercenary_type = great_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -706,7 +706,7 @@ d_company_of_st_george = {
 	mercenary_type = company_of_st_george_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -728,7 +728,7 @@ d_star_company = {
 	mercenary_type = star_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -750,7 +750,7 @@ d_little_hat_company = {
 	mercenary_type = little_hat_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -772,7 +772,7 @@ d_rose_company = {
 	mercenary_type = rose_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -795,7 +795,7 @@ d_catalan_company = {
 	mercenary_type = catalan_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -818,7 +818,7 @@ d_navarrese_company = {
 	mercenary_type = navarrese_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -840,7 +840,7 @@ d_swiss_company = {
 	mercenary_type = swiss_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -863,7 +863,7 @@ d_breton_company = {
 	mercenary_type = breton_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -878,7 +878,7 @@ d_sardinian_company = {
 	capital = 326
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -898,7 +898,7 @@ d_sardinian_band = {
 	capital = 325
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -925,7 +925,7 @@ d_victual_brothers = {
 	strength_growth_per_century = 0.25
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
@@ -990,7 +990,7 @@ d_rus_company = {
 	mercenary_type = rus_company_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			year = 950
 			OR = {
 				religion_group = pagan_group
@@ -1067,7 +1067,7 @@ d_lombard_band = {
 	mercenary_type = lombard_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1089,7 +1089,7 @@ d_swiss_band = {
 	mercenary_type = swiss_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1112,7 +1112,7 @@ d_breton_band = {
 	mercenary_type = breton_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1135,7 +1135,7 @@ d_catalan_band = {
 	mercenary_type = catalan_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 		}
 	}
@@ -1158,7 +1158,7 @@ d_saxon_band = {
 	mercenary_type = saxon_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				NOT = { year = 1100 }
 				any_independent_ruler = { culture = saxon }
@@ -1202,7 +1202,7 @@ d_rus_band = {
 	mercenary_type = rus_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			year = 950
 			OR = {
 				religion_group = christian
@@ -1229,7 +1229,7 @@ d_finnish_band = {
 	mercenary_type = finnish_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1255,7 +1255,7 @@ d_lappish_band = {
 	mercenary_type = lappish_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1281,7 +1281,7 @@ d_lithuanian_band = {
 	mercenary_type = lithuanian_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = pagan_group
@@ -1307,7 +1307,7 @@ d_abyssinian_band = {
 	mercenary_type = abyssinian_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = jewish_group
@@ -1333,7 +1333,7 @@ d_nubian_band = {
 	mercenary_type = nubian_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			OR = {
 				religion_group = christian
 				religion_group = jewish_group
@@ -1357,7 +1357,7 @@ d_scottish_band = {
 	independent = yes
 	strength_growth_per_century = 1
 	mercenary_type = scottish_band_composition
-	allow = { conditional_tooltip = { trigger = { NOT = { is_alternate_start = yes } } } }
+	allow = { conditional_tooltip = { trigger = { is_alternate_start = no } } }
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -1463,7 +1463,7 @@ d_mamluks = {
 	mercenary_type = mamluks_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 		}
 	}
@@ -1484,7 +1484,7 @@ d_venetian_navy = {
 	mercenary_type = naval_merc_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1507,7 +1507,7 @@ d_genoese_navy = {
 	mercenary_type = naval_merc_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1530,7 +1530,7 @@ d_hanseatic_navy = {
 	mercenary_type = naval_merc_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1553,7 +1553,7 @@ d_frisian_navy = {
 	mercenary_type = naval_merc_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = christian
 			year = 955
 		}
@@ -1577,7 +1577,7 @@ d_maghreb_corsairs = {
 	mercenary_type = naval_merc_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 			year = 955
 		}
@@ -1602,7 +1602,7 @@ d_ghilman = {
 	mercenary_type = ghilman_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			religion_group = muslim
 		}
 	}
@@ -1625,7 +1625,7 @@ d_ghanan_band = {
 	mercenary_type = ghanan_band_composition
 	allow = {
 		conditional_tooltip = {
-			trigger = { NOT = { is_alternate_start = yes } }
+			trigger = { is_alternate_start = no }
 			culture_group = west_african
 		}
 	}
