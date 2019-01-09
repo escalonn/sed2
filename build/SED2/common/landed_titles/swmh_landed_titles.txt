@@ -2727,8 +2727,41 @@ e_hre = { # Heiliges Römisches Reich
 	religion = catholic
 	culture = german
 	short_name = yes
+	k_austria = { # Österreich
+		color = { 188 0 7 }
+		culture = german
+		capital = 449 # Österreich
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = central_germanic
+					FROM = { is_de_jure_title = yes }
+				}
+			}
+			OR = {
+				religion_group = christian
+				FROM = { is_de_jure_title = yes }
+			}
+			has_landed_title = d_osterreich
+			has_landed_title = d_carinthia
+			title_king_basic_allow = yes
+		}
+	}
+	k_eastern_marches = {
+		color = { 240 240 240 }
+		color2 = { 255 255 255 }
+		capital = 449
+		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
+			title_king_basic_allow = yes
+		}
+	}
 	k_hansa = { # The Hansa
-		color = { 142 142 142 }
+		color = { 210 210 210 }
 		color2 = { 255 255 255 }
 		capital = 262 # Lübeck
 		dignity = 200 # Never want the Hanseatic League to change primary title
@@ -7935,9 +7968,15 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = { title_king_basic_allow = yes }
 	} # end k_ragusa
 	allow = {
-		e_roman_empire = { # Roman Empire
-			has_holder = no
+		trigger_if = {
+			limit = { e_roman_empire = { has_holder = yes } }
+			e_roman_empire = { has_holder = no }
 		}
+		trigger_if = {
+			limit = { e_latin_empire = { has_holder = yes } }
+			e_latin_empire = { has_holder = no }
+		}
+		e_roman_empire = { has_holder = no }
 		c_byzantion = { owner_under_ROOT = yes }
 		title_emperor_basic_allow = yes
 	}
@@ -8397,6 +8436,18 @@ e_scandinavia = { # Nordmannia
 			c_skara = { # Skara (1071)
 				color = { 5 155 255 }
 				color2 = { 255 255 255 }
+				pagan_coa = {
+					template = 0
+					layer = {
+						texture = 3
+						texture_internal = 2
+						emblem = 0
+						color = 0
+						color = 0
+						color = 0
+					}
+					religion = norse_pagan
+				}
 				b_galakvist = {}
 				b_ymseborg = {}
 				b_lacko = {}
@@ -8853,6 +8904,18 @@ e_russia = { # Rus
 		color = { 24 78 39 }
 		color2 = { 255 255 255 }
 		capital = 582 # Vladimir
+		pagan_coa = {
+			template = 0
+			layer = {
+				texture = 3
+				texture_internal = 6
+				emblem = 0
+				color = 0
+				color = 0
+				color = 0
+			}
+			religion = slavic_pagan
+		}
 		slavic_pagan_reformed = 350 # Crusade target weight
 		baltic_pagan_reformed = 100 # Crusade target weight
 		tengri_pagan_reformed = 100
@@ -9218,6 +9281,18 @@ e_russia = { # Rus
 			color2 = { 255 255 255 }
 			capital = 547 # Kiev
 			dignity = 10
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 1
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = norse_pagan
+			}
 			c_kiev = { # Kiev (547)
 				color = { 106 106 26 }
 				color2 = { 255 255 255 }
@@ -9540,6 +9615,18 @@ e_russia = { # Rus
 			color2 = { 255 255 255 }
 			capital = 414 # Novgorod
 			dignity = 10
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 4
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = norse_pagan
+			}
 			c_novgorod = { # Novgorod (414)
 				color = { 149 166 106 }
 				color2 = { 255 255 255 }
@@ -11356,7 +11443,13 @@ e_carpathia = { # Magyarország
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_usora_i_soli
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
+			title_king_basic_allow = yes
+		}
 	} # end k_bosnia
 	k_croatia = { # Hrvatska
 		color = { 184 184 0 }
@@ -12577,7 +12670,7 @@ e_arabia = { # Arabian Empire
 		color2 = { 255 255 255 }
 		capital = 774 # Jérusalem # Jerusalem
 		culture = levantine_arabic
-		assimilate = no
+		assimilate = no # Duchies cannot de jure drift IN or OUT of this title
 		# Creation Effect
 		gain_effect = {
 			prestige = 5000
@@ -13919,6 +14012,20 @@ e_britannia = { # Britannia
 		welsh = "Logres"
 		breton = "Logres"
 		roman = "Britains"
+		d_durham_palatine = {
+			color = { 251 33 12 }
+			color2 = { 220 220 0 }
+			capital = 56 # Durham
+			religion = catholic
+			# Cannot be held as a secondary title
+			primary = yes
+			assimilate = no
+			dignity = 20
+			allow = {
+				is_theocracy = yes
+				title_duke_basic_allow = yes
+			}
+		}
 		d_somerset = { # Wessex
 			color = { 68 140 48 }
 			color2 = { 255 255 255 }
@@ -16589,6 +16696,10 @@ e_italy = { # Italia
 		culture = ligurian
 		dignity = 200 # Never want the Republic of Genoa to change primary title
 		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
 			is_republic = yes
 			title_king_basic_allow = yes
 		}
@@ -16600,7 +16711,47 @@ e_italy = { # Italia
 		culture = tuscan
 		dignity = 200 # Never want the Republic of Pisa to change primary title
 		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
 			is_republic = yes
+			title_king_basic_allow = yes
+		}
+	}
+	k_amalfi = {
+		color = { 140 200 230 }
+		capital = 935 # Amalfi
+		dignity = 20
+		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
+			is_republic = yes
+			title_king_basic_allow = yes
+		}
+	}
+	k_romagna = {
+		color = { 215 141 152 }
+		color2 = { 255 255 255 }
+		capital = 351 # Rome
+		christian = 10000 # Crusade target weight
+		allow = {
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				FROM = { is_de_jure_title = yes }
+			}
+			OR = {
+				AND = {
+					has_landed_title = d_latium
+					has_landed_title = c_roma
+				}
+				trigger_if = {
+					limit = { FROM = { owner = { has_landed_title = k_papal_state } } }
+					NOT = { religion = catholic }
+				}
+			}
 			title_king_basic_allow = yes
 		}
 	}
@@ -18291,13 +18442,49 @@ e_italy = { # Italia
 		}
 	}
 	allow = {
-		OR = {
-			religion_group = christian
+		trigger_if = {
+			limit = { NOT = { religion_group = christian } }
 			FROM = { is_de_jure_title = yes }
 		}
 		has_landed_title = k_italy
 		has_landed_title = k_sicily
+		trigger_if = {
+			limit = {
+				k_naples = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			has_landed_title = k_naples
+		}
+		trigger_if = {
+			limit = {
+				k_trinacria = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			has_landed_title = k_trinacria
+		}
 		title_emperor_basic_allow = yes
+	}
+	gain_effect = {
+		if = {
+			limit = {
+				k_naples = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			k_naples = {
+				show_scope_change = no
+				de_jure_liege = FROM
+			}
+		}
+		if = {
+			limit = {
+				k_trinacria = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			k_trinacria = {
+				show_scope_change = no
+				de_jure_liege = FROM
+			}
+		}
 	}
 } # end e_italy
 
@@ -22351,7 +22538,32 @@ e_spain = { # España
 				culture = andalusian_arabic
 			}
 		}
+		conditional_tooltip = {
+			trigger = {
+				FROM = { any_direct_de_jure_vassal_title = { owner = { NOT = { religion_group = ROOT } } } }
+				has_dlc = "Holy Fury"
+			}
+			custom_tooltip = {
+				text = e_spain_allow_TT
+				always = no
+			}
+		}
+		conditional_tooltip = {
+			trigger = { has_global_flag = active_reconquista }
+			custom_tooltip = {
+				text = active_reconquista_condition_TT
+				always = no
+			}
+		}
 		title_emperor_basic_allow = yes
+	}
+	gain_effect = {
+		if = {
+			limit = { NOT = { has_global_flag = reconquista_finished } }
+			any_playable_ruler = { narrative_event = { id = HF.49451 } }
+			ROOT = { narrative_event = { id = HF.49451 } }
+			set_global_flag = reconquista_finished
+		}
 	}
 	# END TITULAR SWMH Spain
 } # end e_spain
@@ -30025,7 +30237,13 @@ d_sweden = { # Svithjod
 d_swiss = { # Switzerland
 	color = { 255 1 1 }
 	capital = 244 # Rheinfelden # Zähringen # Bern
-	allow = { title_duke_basic_allow = yes }
+	allow = {
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_duke_basic_allow = yes
+	}
 }
 
 d_temes = { # Temes
@@ -30330,17 +30548,45 @@ d_hormuz = { # Hormuz
 	allow = { title_duke_basic_allow = yes }
 }
 
+d_thessalia = {
+	color = { 198 28 139 }
+	color2 = { 255 255 20 }
+	allow = {
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_duke_basic_allow = yes
+	}
+}
+
+d_peloponnese = {
+	color = { 196 35 140 }
+	color2 = { 255 255 20 }
+	allow = {
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_duke_basic_allow = yes
+	}
+}
+
 # TITULAR KINGDOMS
 k_moravia = { # Velká Morava
 	color = { 125 25 65 }
 	culture = moravian
 	capital = 441 # Brno # Boruy
 	allow = {
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
 		title_king_basic_allow = yes
 		hidden_tooltip = {
 			OR = {
 				ai = no
-				NOT = { has_landed_title = k_bohemia }
+				NOT = { has_landed_title = k_bohemia } # Maske Bohemia drift Moravia if they are overlords
 			}
 		}
 	}
@@ -30662,6 +30908,10 @@ k_trinacria = { # Trinacria
 			religion = catholic
 			is_heresy_of = catholic
 			FROM = { is_de_jure_title = yes }
+		}
+		trigger_if = {
+			limit = { FROM = { NOT = { any_previous_holder = { always = yes } } } }
+			FROM = { any_previous_holder = { always = yes } }
 		}
 		title_king_basic_allow = yes
 	}

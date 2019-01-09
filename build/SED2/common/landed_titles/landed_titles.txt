@@ -46,6 +46,7 @@ k_papal_state = { # Status Pontificius
 	religion = catholic
 	# Cannot be held as a secondary title
 	primary = yes
+	assimilate = no
 	title = POPE
 	title_female = POPESS
 	foa = POPE_FOA
@@ -72,6 +73,7 @@ k_orthodox = { # The Ecumenical Patriarchate
 	religion = orthodox
 	# Cannot be held as a secondary title
 	primary = yes
+	assimilate = no
 	title = ECUMENICAL_PATRIARCH
 	title_female = ECUMENICAL_PATRIARCH
 	foa = ECUMENICAL_PATRIARCH_FOA

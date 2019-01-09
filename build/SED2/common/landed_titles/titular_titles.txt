@@ -72,6 +72,41 @@ e_ulm = { # Ulm
 	short_name = yes
 }
 
+e_outremer = {
+	color = { 180 180 180 }
+	color2 = { 255 255 255 }
+	capital = 774
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOR = {
+					religion = catholic
+					religion = cathar
+					religion = fraticelli
+					religion = waldensian
+					religion = lollard
+					religion = adoptionist
+					religion = arian
+				}
+			}
+			OR = {
+				religion = catholic
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+				religion = adoptionist
+				religion = arian
+			}
+		}
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_emperor_basic_allow = yes
+	}
+} # end e_outremer
+
 e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
 	capital = 620 # Itil
@@ -359,30 +394,18 @@ k_duklja = { # Duklja
 	}
 }
 
-k_austria = { # Österreich
-	color = { 188 0 7 }
-	culture = german
-	capital = 449 # Österreich
+k_switzerland = {
+	color = { 255 80 80 }
+	color2 = { 200 50 50 }
+	capital = 244 # Bern # Rheinfelden (244)
 	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture_group = central_germanic
-			}
-		}
-		OR = {
-			religion_group = christian
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
 			FROM = { is_de_jure_title = yes }
 		}
-		has_landed_title = d_osterreich
-		has_landed_title = d_carinthia
 		title_king_basic_allow = yes
 	}
-	title = ADA
-	title_female = ADA
-	foa = ADA_FOA
-	title_prefix = ADA_OF
-}
+} # end k_switzerland
 
 d_smaland = { # Småland
 	color = { 88 138 70 }
