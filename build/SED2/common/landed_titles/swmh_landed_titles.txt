@@ -17550,16 +17550,12 @@ e_italy = { # Italia
 		# Creation/usurpation trigger
 		allow = { title_king_basic_allow = yes }
 	} # end k_italy
-	k_patrimoniumpetri = { # Patrimonium Sancti Petri
+	k_papacy = { # Patrimonium Sancti Petri
 		color = { 171 30 30 }
 		color2 = { 255 255 255 }
 		capital = 333 # Roma
 		culture = laziale
 		christian = 8000 # Crusade target weight
-		short_name = yes
-		armenian = "Exarchate of Ravenna"
-		greek = "Exarchate of Ravenna"
-		roman = "Exarchate of Ravenna"
 		d_latium = { # Latium
 			color = { 254 245 160 }
 			color2 = { 255 255 255 }
@@ -17814,7 +17810,7 @@ e_italy = { # Italia
 			liege = { has_landed_title = e_byzantium }
 			title_king_basic_allow = yes
 		}
-	} # end k_patrimoniumpetri
+	} # end k_papacy
 	k_sardinia = { # Sardinia # Corsicae et Sardiniae
 		color = { 72 96 176 }
 		color2 = { 255 255 255 }
