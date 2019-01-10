@@ -10,8 +10,9 @@ c_karnten = { # Kärnten (456)
 	holy_site = slavic_pagan_reformed
 }
 
-c_abydos = { # Troád (744)
+c_siracusa = { # Paterno (343)
 	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
 }
 
 c_byzantion = { # Konstantinoupolis (496)
@@ -33,10 +34,12 @@ c_chalkidike = { # Chalkidike (491)
 
 c_thessalonike = { # Thessaloníke (490)
 	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
 }
 
 c_atheniai = { # Attika (482)
 	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
 	holy_site = druze
 }
 
@@ -152,6 +155,7 @@ c_alexandria = { # Iskandaríya (802)
 	holy_site = monophysite
 	holy_site = nestorian
 	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
 	holy_site = paulician
 	holy_site = apostolic
 	holy_site = maronite
@@ -241,6 +245,7 @@ c_asti = { # Asti (232)
 c_roma = { # Roma (333)
 	holy_site = catholic
 	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
 	holy_site = pagan
 	holy_site = aztec
 	holy_site = aztec_reformed
@@ -424,6 +429,7 @@ c_vidisa = { # Vidisa (1675)
 c_purushapura = { # Purushapura (1625)
 	holy_site = buddhist # Kanishka Vihara
 	holy_site = bon # placeholder
+	holy_site = bon_reformed
 }
 
 c_varazhnunik = { # Varazhnunik (1531)
@@ -597,19 +603,23 @@ c_khotan = { # Khotan (1580)
 
 c_badakhshan = { # Badakhshan (1553)
 	holy_site = bon # placeholder
+	holy_site = bon_reformed
 }
 
 c_gilgit = { # Gilgit (1975)
 	holy_site = bon
+	holy_site = bon_reformed
 }
 
 c_purang = { # Purang (1985)
 	holy_site = hindu # Mount Kailash
 	holy_site = jain
 	holy_site = bon
+	holy_site = bon_reformed
 }
 
 c_kunlun = { # Kunlun (1989)
 	holy_site = taoist # shares the same name as a mythical mountain in Chinese/Taoist mythology
 	holy_site = bon # placeholder
+	holy_site = bon_reformed
 }
