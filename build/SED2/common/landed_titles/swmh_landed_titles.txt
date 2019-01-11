@@ -16754,17 +16754,6 @@ e_italy = { # Italia
 				limit = { FROM = { is_de_jure_title = no } }
 				FROM = { is_de_jure_title = yes }
 			}
-			OR = {
-				AND = {
-					has_landed_title = d_latium
-					has_landed_title = c_roma
-				}
-				trigger_if = {
-					limit = { FROM = { owner = { has_landed_title = k_papal_state } } }
-					NOT = { religion = catholic }
-				}
-			}
-			title_king_basic_allow = yes
 		}
 	}
 	k_italy = { # Lombardia
@@ -17819,15 +17808,7 @@ e_italy = { # Italia
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		allow = {
-			trigger_if = {
-				limit = { FROM = { is_de_jure_title = no } }
-				FROM = { is_de_jure_title = yes }
-			}
-			controls_religion = catholic
-			c_roma = { owner_under_ROOT = yes }
-			title_king_basic_allow = yes
-		}
+		allow = { always = no }
 	} # end k_papacy
 	k_sardinia = { # Sardinia # Corsicae et Sardiniae
 		color = { 72 96 176 }
