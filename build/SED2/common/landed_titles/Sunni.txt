@@ -51,8 +51,8 @@ d_sunni = { # The Sunni Caliphate
 					trait = sayyid
 					piety = 1000
 				}
-				conditional_tooltip = {
-					trigger = { NOT = { has_global_flag = destroyed_caliphates } }
+				trigger_if = {
+					limit = { NOT = { has_global_flag = destroyed_caliphates } }
 					custom_tooltip = {
 						text = controls_mecca_medina
 						hidden_tooltip = {
@@ -82,8 +82,8 @@ d_sunni = { # The Sunni Caliphate
 				}
 			}
 		}
-		conditional_tooltip = {
-			trigger = { has_global_flag = destroyed_caliphates }
+		trigger_if = {
+			limit = { has_global_flag = destroyed_caliphates }
 			custom_tooltip = {
 				text = controls_mecca_medina
 				hidden_tooltip = {
