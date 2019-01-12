@@ -636,7 +636,7 @@ d_sunni_berber_company = { # Berber Company
 	capital = 833 # Táhart # Atlas
 	# Parent Religion
 	religion = sunni
-	culture = maghreb_arabic
+	culture = zanata
 	mercenary = yes
 	# Always exists
 	landless = yes
@@ -744,13 +744,13 @@ d_shiite_cuman_company = { # Steppe Company
 	foa = CAPTAIN_FOA
 }
 
-d_shiite_berber_company = { # Tuareg Company
+d_shiite_berber_company = { # Tuareg Company; renamed to Zenata Company
 	color = { 90 150 30 }
 	color2 = { 255 255 255 }
 	capital = 833 # Táhart # Atlas
 	# Parent Religion
 	religion = shiite
-	culture = maghreb_arabic
+	culture = zanata
 	mercenary = yes
 	# Always exists
 	landless = yes
@@ -2692,7 +2692,7 @@ d_african_tiny = { # Tiny Merc
 	# Parent Religion
 	religion = west_african_pagan
 	# Parent Culture
-	culture = maghreb_arabic
+	culture = tuareg
 	mercenary = yes
 	# Always exists
 	landless = yes
