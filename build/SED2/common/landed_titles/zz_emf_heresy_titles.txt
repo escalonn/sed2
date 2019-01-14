@@ -1,5 +1,27 @@
 # -*- ck2.landed_titles -*-
 
+d_army_light = {
+	color = { 120 160 30 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	capital = 693 # Baghdad
+	# Always exists
+	landless = yes
+	holy_order = yes
+	# Parent Religion
+	religion = manichean
+	culture = persian
+	# Cannot be held as a secondary title
+	primary = yes
+	# Extra income due to donations, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+	mercenary_type = saint_addai_composition
+	coat_of_arms = {
+		data = { 2 0 3 4 7 11 11 }
+		religion = manichean
+	}
+}
+
 d_ismaili = { # The Isma'ili Caliphate
 	color = { 60 190 60 }
 	color2 = { 220 220 0 }
