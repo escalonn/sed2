@@ -113,8 +113,9 @@ def main():
         sed2row[-1] = 'x'
         if sed2row[1] or sed2row[0] in keys_to_blank:
             sed2rows.append(sed2row)
-        elif original_file in overridden_files:
-            sed2row[1] = sed2[sed2row[0]]
+        elif (original_file in overridden_files or
+            sed2.get(sed2row[0]) != row[2]):
+            sed2row[1] = sed2.get(sed2row[0], '')
             sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:

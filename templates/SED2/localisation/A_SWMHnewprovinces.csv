@@ -6,28 +6,28 @@
 PROV909 ;White Desert;White Desert;;Sahara Desert
 PROV911 ;Timbuktu;Timbuktu;c_timbuktu;Timbuktu
 PROV912 ;Aoudaghost;Awdaghust;c_aoudaghost;Aoudaghost
-PROV913 ;Ghana   ;Wagadu;c_ghana;Ghana
+PROV913 ;Ghana   ;Wagadu;c_ghana;Wagadu
 PROV914 ;Gao     ;Gao;c_gao;Gao
 PROV915 ;Djenné  ;Djenné;c_djenne;Djenné
 PROV916 ;Taghaza ;Taghaza;c_taghaza;Taghaza
 PROV917 ;Araouane;Arawán;c_araouane;Araouane
-PROV918 ;Sijilmasa;Sijilmasa;c_sijilmasa;Sijilmasa
+PROV918 ;Sijilmasa;Sijilmása;c_sijilmasa;Sijilmasa
 PROV919 ;Oualata ;Walata;c_oualata;Oualata
 PROV920 ;Ouadane ;Wadán;c_ouadane;Ouadane
-PROV921 ;Idjil   ;Idjil;c_idjil,Izal;Idjil
+PROV921 ;Idjil   ;Idjil;c_idjil,Izal;Bir Um Grein
 PROV922 ;Tadmekka;Tadmekka;c_tadmekka;Tadmekka
 PROV923 ;Adrar Plateau;Adrar Plateau;;Adrar Plateau
 PROV924 ;Western Sahara;Western Sahara;;Western Sahara
-PROV925 ;Manding ;Manding;c_mali;Mali
+PROV925 ;Manding ;Manding;c_mali;Niani
 PROV926 ;Bambouk ;Bambuk;c_bambuk;Bambuk
-PROV927 ;Zarma   ;Zarma;c_zarma;Zarma
+PROV927 ;Zarma   ;Zarma;c_zarma;Yuari
 PROV928 ;Gurma   ;Gurma;c_gurma;Gurma
 #PROV929,Abruzzo,Abruzzo,Abruzzo,,Abruzzo,,,,,x,,,,;;;;
 #PROV930,Bar,,,,,,,,,,,,,x;;;;
 PROV931 ;Möre    ;Möre;c_more,Möre;Möre
 PROV932 ;Värend  ;Värend;c_tjust;Tjust
 PROV933 ;Roslavl ;Roslavl;c_roslavl;Roslavl
-PROV934 ;Lahoysk ;Logozsk;c_lepiel;Lepiel
+PROV934 ;Lahoysk ;Logozsk;c_lepiel;Lukoml
 #PROV935,Amalfi,Amalfi,Amalfi,,Amalfi,,,,,x,,,,;;;;
 PROV936 ;Hvar    ;Hvar;c_hvar,Lesina,Pharos,Pharina;Cyclades
 #PROV937,Marsico,Marsico,Marsico,,Marsico,,,,,x,,,,;;;;
@@ -60,7 +60,7 @@ PROV963 ;Jersika ;Jersika;c_jeriska;Vänern
 PROV964 ;Richmond;Richmond;c_richmond,Ghellinges,Gellinges;White Sea
 PROV965 ;Travunija;Travunija;c_travunija,Terbounia,Trebigne,Trebing;Strait of Dover
 PROV966 ;Vorotynsk;Vorotynsk;c_vorotynsk;The Solent
-PROV967 ;Ibiza   ;Eivissa;c_eivissa,Yebisah,Eivissa,Ibiza,Ibiça,Ibice;Land's End
+PROV967 ;Cerdanya;Cerdanya;c_cerdanya,Syrdanna,Cerdagne,Cerdaña,Zerdaña,Cerdanha;Land's End
 PROV968 ;Saône   ;Saone;c_saone,al-Ladiqiya,Laodikeia;St. George's Channel
 #PROV969,Sision,Sision,Sision,,Sision,,,,,x,,,,;;;;
 #PROV970,Sulzbach,,,,,,,,,,,,,x;;;;
@@ -108,7 +108,7 @@ PROV1011;Arbanon ;Arbër;c_arbanon,Arbanon,Arbër,Arvanid;Mauretanian Coast
 PROV1012;Hvosno  ;Hvosno;c_prizren,Petrizen,Prizreni,Pürzeyn;Peipus
 PROV1013;Aulon   ;Aulona;c_valona,Valona,Vlorë,Avlonya;Lori
 #PROV1014,Kérkyra,Kérkyra,Kérkyra,,Kérkyra,,,,,x,,,,;;;;
-PROV1015;Skopje  ;Skopje;c_skopje,Skopia,Shkupi,Üsküp,Parleap;Northern Bay of Biscay
+PROV1015;Skopje  ;Skopje;c_skopje,Skopia,Shkupi,Üsküp,Parleap;Armorican Coast
 PROV1016;Traianoupolis;Traianoupolis;c_traianopolis,Dimotika,Demotika;Celtic Sea
 #PROV1017,Hamaland,,,,,,,,,,,,,x;;;;
 #PROV1018,Vianden,,,,,,,,,,,,,x;;;;
@@ -179,7 +179,7 @@ PROV1082;Hereti  ;Hereti;c_hereti;Dwina
 PROV1083;Baghk   ;Baghk;c_baghk,Kafan;Neva
 PROV1084;Utik    ;Utik;c_utik,Utiq,Otene,Gence;Svir
 PROV1085;Artsakh ;Artsakh;c_artsakh,Artsah;Volkhov
-PROV1086;Sadzen  ;Jiket'i;c_jiqeti;Lake Ilmen
+PROV1086;Sadzen  ;Jiket'i;c_jiqeti;Ilmen
 PROV1087;Klarjeti;Klarjeti;c_klarjeti,Ardanuç,Artanuj;Lovat
 PROV1088;Vanand  ;Vanand;c_vanand,Karse,Karsi,Qárs,Qars,Qers;Don
 PROV1089;Simsir  ;Simsir;c_simsir;Don
@@ -242,27 +242,27 @@ PROV1188;Quercy  ;Quercy;c_quercy;Khuttal
 PROV1189;Gâtinais;Gâtinais;c_gatinas;Bamian
 PROV1190;Lugo    ;Lugo;c_lugo,Luq;Gurjaratra
 PROV1191;Lemos   ;Lemos;c_lemos,Lyimus;Bannu
-PROV1192;Jaén    ;Jaén;c_jaen,Yayyan,Chaén,Xaén,Xaém,Jaen,Aurgi;Bhera
+PROV1192;Jaén    ;Jaén;c_jaen,Jayyán,Chaén,Xaén,Xaém,Jaen,Aurgi;Bhera
 PROV1193;Toro    ;Toro;c_toro,Turu;Trigarta
-PROV1194;Ciudad Rodrigo;Ciudad Rodrigo;c_ciudad_rodrigo,Madina Ludhriq,Ciarrodrigu,Ciutat Roderic,Cité Rodrigue,Cidade Rodrigo,Cidade Rui,Errodeika-Hiri,Ciudat Roderic;Nagadipa
+PROV1194;Ledesma ;Ledesma;c_ledesma,Bletisa,Ledesme;Nagadipa
 PROV1195;Tomar   ;Tomar;c_thomar,Tummar;Pihiti
 PROV1196;Palencia;Palencia;c_palencia,Belansiya,Palentzia,Palència,Palência,Palence;Srirangapatna
-PROV1197;Medina del Campo;Medina del Campo;c_medina_del_campo,Madina al-Marje,Medina Zelaia,Medina del Camp,Medina'l Campu,Medina d'o Campo,Medina do Campo,Almedina do Campo,Médine du Champ;Dwarasamudra
+PROV1197;Medina del Campo;Medina del Campo;c_medina_del_campo,Madína al-Marje,Medina Zelaia,Medina del Camp,Medina'l Campu,Medina d'o Campo,Medina do Campo,Almedina do Campo,Médine du Champ;Dwarasamudra
 PROV1198;Ávila   ;Ávila;c_avila,Abbila,Abila,Àvila,Obila;Vatapi
-PROV1199;Segovia ;Segovia;c_segovia,Siqubiyyah,Segobia,Segòvia,Segóvia,Ségovie,Segovia,Segoubia;Penugonda
-PROV1200;Setúbal ;Setúbal;c_setubal,Xetubre,Setubal,Caetobriga,Kaitobrie;Kanara
-PROV1201;Guadalajara;Guadalajara;c_guadalajara,Wad al-Hiyara,Guadalachara,Guadalaxara,Guadalaiara;Kongu
+PROV1199;Segovia ;Segovia;c_segovia,Shaqúbiya,Segobia,Segòvia,Segóvia,Ségovie,Segovia,Segoubia;Penugonda
+PROV1200;Setúbal ;Setúbal;c_setubal,Shetubre,Setubal,Caetobriga,Kaitobrie;Kanara
+PROV1201;Guadalajara;Guadalajara;c_guadalajara,Wádí 'l-Hijára,Guadalachara,Guadalaxara,Guadalaiara;Kongu
 PROV1202;Álava   ;Álava;c_alava,Alabba,Araba,Alava,Àlaba;Kudalasangama
 PROV1203;Gipuzkoa;Guipúzcoa;c_guipuzcoa,Ybbusqa,Gipuzkoa,Guipuzcua,Guipuscoa,Guipúscoa;Idatarainadu
-PROV1204;Tudela  ;Tudela;c_tudela,al-Tutili,Tutera,Tudèle;Nellore
+PROV1204;Tudela  ;Tudela;c_tudela,Tutíla,Tutera,Tudèle;Nellore
 PROV1205;Sobrarbe;Sobrarbe;c_sobrarbe,Subrarb,Sobrarb;Narim
 PROV1206;Ribagorza;Ribagorza;c_ribagorza,Ribbagursa,Ribagorça,Ribagorce;Taradavadi
-PROV1207;Huesca  ;Huesca;c_huesca,Wasqa,Uesca,Osca,Oska,Güesca,Osque;Amaravati
+PROV1207;Huesca  ;Huesca;c_huesca,Washqa,Uesca,Osca,Oska,Güesca,Osque;Amaravati
 PROV1208;Teruel  ;Teruel;c_teruel,Tirwal;Kambampet
 PROV1209;Caspe   ;Caspe;c_caspe,Qasp,Casp;Racakonda
-PROV1210;Girona  ;Girona;c_girona,Yiruna,Chirona,Girona,Gérone,Gerona,Gerunda,Xirona,Xerona,Gerounda;Manyakheta
-PROV1211;Beja    ;Beja;c_beja,al-Bajah az-Zayt,Pax Iulia,Pax Ioulia;Pannagallu
-PROV1212;Braga   ;Braga;c_braga,Bragarah,Brague,Bracara Augusta,Braikar Augousta;Lattalura
+PROV1210;Girona  ;Girona;c_girona,Jarunda,Chirona,Girona,Gérone,Gerona,Gerunda,Xirona,Xerona,Gerounda;Manyakheta
+PROV1211;Beja    ;Beja;c_beja,Bája al-Zayt,Pax Iulia,Pax Ioulia;Pannagallu
+PROV1212;Braga   ;Braga;c_braga,Braqara,Brague,Bracara Augusta,Braikar Augousta;Lattalura
 PROV1213;Viseu   ;Viseu;c_viseu,Buza,Biseu;Kondana
 PROV1214;Trancoso;Trancoso;c_trancoso,Tranqusu,Trankoso,Trancosu,Trancose;Tirunelveli
 PROV1215;Leiria  ;Leiria;c_leiria,Liriyya,Lleiria,Léiry;Dakhina Desa
@@ -377,7 +377,7 @@ PROV1324;Yauri   ;Yauri;c_yauri;Suvarnagram
 PROV1326;Katsina ;Katsina;c_katsina;Napata
 #PROV1327,,,,,,,,,,x,,,,;;;;
 PROV1328;Kano    ;Kano;c_kano;Prayaga
-PROV1329;Kanem   ;Kanem;c_kanem;Ket
+PROV1329;Kanem   ;Kanem;c_kanem;Anuy
 PROV1330;Omiš    ;Omis;c_omis,Drijeva,Onaeum,Almiyssion;Suakin
 PROV1331;Bilbeis ;Bilbays;c_bilbays,Bilbeis,Phelbs;Sonda
 #PROV1332,Placeholder,Placeholder,Placeholder,,Placeholder,,,,,x,,,,;;;;
@@ -397,11 +397,11 @@ PROV1345;Ajdabiya;Adjadabiya;c_ajadabiya,Corniclanum;Medapata
 #PROV1346,,,,,,,,,,x,,,,;;;;
 #PROV1347,,,,,,,,,,x,,,,;;;;
 PROV1348;Rudbar  ;Rúdbár;c_rudbar;Arakanese Mountains
-PROV1349;Zawiya  ;Zawiya;c_zawiya,Abrotonum,Abrotonon,Zzaweyya;Vikramapura
+PROV1349;Jafara  ;Jafára;c_jafara,Abrotonum,Abrotonon;Vikramapura
 PROV1350;Meskheti;Samtskhe;c_samtskhe,Ahiska;Reni
-PROV1351;Southern Djerid;Jerid;c_nafzawa,Nepte;Nagchu
-PROV1352;Northern Djerid;Qashtiliya;c_qashtiliya,Capsa;Sarasvati
-PROV1353;Sfax    ;Sfax;c_sfax,Thapsus,Sifaks;Vairata
+PROV1351;Nefzaoua;Nafzawa;c_nafzawa;Nagchu
+PROV1352;Gafsa   ;Qashtiliya;c_qashtiliya,Capsa;Sarasvati
+PROV1353;Sfax    ;Sfax;c_sfax,Thapsus,Safákus,Sifaks;Vairata
 PROV1354;Tébessa ;Tabassa;c_tabassa,Theveste;Nagauda
 PROV1355;Kabylia ;Kabylia;c_setif,Setifis;Ranthambore
 PROV1356;Oued Righ;Arigh;c_arigh;Kanyakubja
@@ -426,7 +426,7 @@ PROV1374;Diarra  ;Kingui;c_kingui;Sibi
 PROV1375;Sosso   ;Soso;c_soso;Kafirkot
 PROV1376;Awgham  ;Awgham;c_awkar;Bori
 PROV1377;Méma    ;Mema;c_mema;Maymana
-PROV1378;Macina  ;Massina;c_massina;Urgench
+PROV1378;Macina  ;Massina;c_massina;Madminiya
 PROV1379;Jolof   ;Djolof;c_djolof;Asayita
 PROV1380;Traungau;Traungau;c_traungau;Semien
 PROV1381;Gajaaga ;Galam;c_galam;Pundravardhana
@@ -444,7 +444,7 @@ PROV1392;Ouargla ;Wargla;c_wargla;Gulf of Oman
 PROV1393;Rizim   ;Risiom;c_risiom;Strait of Hormuz
 PROV1394;Tessalit;Tessalit;c_tessalit;Eastern Persian Gulf
 PROV1395;Ouallene;Wallen;c_wallen;Western Persian Gulf
-PROV1396;Tuat    ;Tuat;c_tuat;Coast of Makran
+PROV1396;Tuat    ;Tuat;c_tuat,Tuwát;Coast of Makran
 PROV1397;El Goléa;El Golea;c_elgolea;Indus Delta
 PROV1398;Nafusa  ;Nafusa;c_nafusa,Thenteos;Coast of Gujarat
 PROV1399;Waddan  ;Waddan;c_waddan,Gholaia;Coast of Konkan
@@ -452,9 +452,9 @@ PROV1400;Djado   ;Djado;c_djado;Coast of Malabar
 PROV1401;Azawagh ;Ain Azawa;c_ainazawa;Karnataka Coast
 PROV1402;Djanet  ;Djanet;c_djanet;Gulf of Mannar
 PROV1403;Hoggar  ;Hoggar;c_hoggar;South Lanka Coast
-PROV1404;Murzuk  ;Murzuk;c_murzuk;Palk Strait
+PROV1404;Germa   ;Djarma;c_djarma;Palk Strait
 PROV1405;Zwila   ;Zawila;c_zawila;North Lanka Coast
-PROV1406;Germa   ;Gherma;c_tazerbo;South Coromandel Coast
+PROV1406;Gherma  ;Gherma;c_tazerbo;South Coromandel Coast
 PROV1407;Javakheti;Javakheti;c_javakheti,Ahilkelek;North Coromandel Coast
 #PROV1408,Kraiburg,,,,,,,,,,,,,x;;;;
 PROV1409;Stafford;Stafford;c_stafford,Stæffordscir,Tomsæte,Swydd Stafford;Coast of Orissa
@@ -472,18 +472,18 @@ PROV1420;Islay   ;Ile;c_ile,Ìle,Islay,Íl;Simaramapura
 PROV1421;Kintyre ;Kintyre;c_kintyre,Cinn Tìre,Kintyre;Sravasti
 PROV1422;Bute    ;Bod;c_bod,Eilean Bhòid,Bute,Bót;Naimisa
 PROV1423;Aberdeen;Obar Dheathain;c_obardheathain,Obar Dheathain,Aberdeen;Fergana
-PROV1424;Kincardine;Cinn Chardainn;c_cinnchardainn,Cinn Chàrdainn,Kincardine;Chuy
+PROV1424;Kincardine;Cinn Chardainn;c_cinnchardainn,Cinn Chàrdainn,Kincardine;Balasagun
 PROV1425;Inverness;Inbhir Nis;c_inbhirnis,Inbhir Nis,Inverness;Ili
-PROV1426;Lewis   ;Leodhas;c_leodhas,Leodhas,Lewis;Zhetysu
-PROV1427;Uist    ;Uibhist;c_uibhist,Uibhist,Uist,Ivist;Urzhar
+PROV1426;Lewis   ;Leodhas;c_leodhas,Leodhas,Lewis;Karatal
+PROV1427;Uist    ;Uibhist;c_uibhist,Uibhist,Uist,Ivist;Ayakoz
 PROV1428;Tipperary;Thiobraid Arann;c_tipperary,Tiobraid Árann,Hybbyrt Aarey;Damot
 PROV1429;Limerick;Luimnigh;c_limerick,Luimnigh,Hlymrekr,Limmeragh;Begemder
-PROV1430;Cork    ;Corcaigh;c_cork,Corcaigh,Cork,Corc,Chorkee;Kipchak
+PROV1430;Cork    ;Corcaigh;c_cork,Corcaigh,Cork,Corc,Chorkee;Tengiz
 PROV1431;Sutherland;Cataibh;c_sutherland,Cataibh,Sutherland,Suþland,Suðrland;Otrar
 PROV1432;Wicklow ;Chill Mhantain;c_wicklow,Cill Mhantáin,Wykynlo,Wygingelow;Karluk
 PROV1433;Tethbae ;Tethbae;c_tethbae,Teabhtha,Teffia;Kazakh
 PROV1434;Offaly  ;Uibh Fhaili;c_offaly,Uíbh Fhailí;Balkhash
-PROV1435;Hy Many ;Hy Many;c_hy_many,Uí Maine;Kimak
+PROV1435;Hy Many ;Hy Many;c_hy_many,Uí Maine;Karasor
 PROV1436;Cavan   ;Chabhain;c_cavan,An Cabhán,Chavan;Lakomelza
 PROV1437;Lake Neuchâtel;Lake Neuchâtel;;Tigrinya
 PROV1438;Lake Lucerne;Lake Lucerne;;Yarkand
@@ -499,19 +499,19 @@ PROV1447;Lake Trichonida;Lake Trichonida;;Loulan
 PROV1448;Lake Volvi;Lake Volvi;;Dunhuang
 PROV1449;Lake Koroneia;Lake Koronia;;Luntai
 PROV1450;Lake Iznik;Lake Iznik;;Kumul
-PROV1451;Lake Kus;Lake Kus;;Altay
+PROV1451;Lake Kus;Lake Kus;;Ulungur
 PROV1452;Lake Uluabat;Lake Ulubat;;Beshbaliq
 PROV1453;Lake Bafa;Lake Bafa;;Aj Bogd
-PROV1454;Lake Acigöl;Lake Acigöl;;Muztau
-PROV1455;Lake Burdur;Lake Burdur;;Tsagaannuur
+PROV1454;Lake Acigöl;Lake Acigöl;;Western Sayan
+PROV1455;Lake Burdur;Lake Burdur;;Zavkhan
 PROV1456;Lake Egirdir;Lake Egirdir;;Ikh Bogd
 PROV1457;Lake Beysehir;Lake Beysehir;;Kara Khorum
 PROV1458;Lake Tuz;Lake Tuz;;Khangai
-PROV1459;Lake Tana;Lake Tana;;Kyzyl
+PROV1459;Lake Tana;Lake Tana;;Khyargas
 PROV1460;Lake Ghoubet;Lake Ghoubet;;Baygal
 PROV1461;Lake Assal;Lake Assal;;Ötüken
-PROV1462;Namak Lake;Lake Namak;;Gorgol
-PROV1463;Lough Ree;Lough Ree;;Erchis
+PROV1462;Namak Lake;Lake Namak;;Yenisei
+PROV1463;Lough Ree;Lough Ree;;Ket
 PROV1464;Lough Derg;Lough Derg;;Gilgit
 PROV1465;Lough Corrib;Lough Corrib;;Tashkurgan
 PROV1466;Lough Mask;Lough Mask;;Skardu
@@ -530,7 +530,7 @@ PROV1478;Baguirmi;Bagirmi;c_bagirmi;Kathmandu
 PROV1479;Tweeddale;Tweedale;c_tweedale;Limbuwan
 PROV1480;Wadai   ;Wadai;c_wadai;Sikkim
 PROV1481;Nisa    ;Nisáya;c_uzboy,Nisaia;Paro
-PROV1482;Hasankeyf;Hisn Kayf;c_hisn_kayf,Martyropolis,Mayyafariqin,Hasankeyf,Heskîf,Nprkert,Mayperqit;Bumthang
+PROV1482;Hasankeyf;Hisn Kayf;c_hisn_kayf,Martyropolis,Mayyáfáriqín,Hasankeyf,Heskîf,Nprkert,Mayperqit;Bumthang
 PROV1483;Syrian Desert;Badiyat ash-Sham;;Monyul
 PROV1484;Renfrew ;Rinn Friu;c_rinnfriu,Strathclyde;Lhoyu
 PROV1485;Kurdufan;Kordofan;c_kordofan;Rutog
@@ -584,15 +584,15 @@ PROV1532;Dasht-e Kavir;Dasht-e Kevír;;Zabid
 PROV1533;Mafaza  ;Mafáza;c_mafaza;Najran
 PROV1534;Darab   ;Darabjird;c_darabjird,Darabgerd;al-Ahqaf
 PROV1535;Turan   ;Turán;c_turan,Turestan;Tihama
-PROV1536;Arachosia;Rukhádj;c_rukhadj,Arachosia,Harauvatish;Khaybar
+PROV1536;Arachosia;Rukhkhaj;c_rukhadj,Arachosia,Harauvatish;Khaybar
 PROV1537;Bakharz ;Bákharz;c_bakharz;Maragha
 PROV1538;Sarakhs ;Sarakhs;c_sarakhs;Badghis
 PROV1539;Ganj Rustaq;Ganj Rustáq;c_ganj-rustaq;Kanj Rustaq
 PROV1540;Ghor    ;Ghór;c_ghor;Guzgan
 PROV1541;Gharchistan;Gharchistán;c_gharchistan;Amol
 PROV1542;Guzgan  ;Guzgán;c_guzgan;Sarakhs
-PROV1543;Amol    ;Ámol;c_amol;Vakhan
-PROV1544;Nakhsheb;Nakhsheb;c_nakhsheb;Chaghaniyan
+PROV1543;Ámul    ;Ámúya;c_amol;Vakhan
+PROV1544;Nakhshab;Nakhshab;c_nakhshab;Chaghaniyan
 PROV1545;Chaghaniyan;Chaghániyán;c_chaghaniyan;Nakhshab
 PROV1546;Tokharistan;Tokharestán;c_tokharestan;Khojand
 PROV1547;Ghazni  ;Ghazna;c_ghazna;Badakhshan
@@ -605,20 +605,20 @@ PROV1553;Badakhshan;Badakhshán;c_badakhshan;Bome
 PROV1554;        ; ;;Banbar
 PROV1555;Rasht Valley;Rasht;c_rasht;Medog
 PROV1556;Khuttal ;Khuttal;c_khuttal;Lhunzhub
-PROV1557;Osrushana;Ustrushana;c_ustrushana;Kunggar
+PROV1557;Osrushana;Ustrúshana;c_ustrushana;Kunggar
 PROV1558;Khujand ;Khojand;c_khojand,Alexandria Eschate,Alexandreia Eschate;Amdo
-PROV1559;Ferghana;Ferghana;c_ferghana;Xainza
-PROV1560;Khaylam ;Khaylam;c_khaylam;Ogliastra
-PROV1561;Tashkent;Shásh;c_shash,Tashkand;Lhatse
+PROV1559;Ferghana;Ferghána;c_ferghana;Xainza
+PROV1560;Khailam ;Khaylám;c_khaylam;Ogliastra
+PROV1561;Tashkent;Shásh;c_shash,Tashkänd,Chách;Lhatse
 PROV1562;Otrar   ;Otrár;c_otrar,Páráb;Zhongba
-PROV1563;Taraz   ;Talas;c_talas;Gegyai
-PROV1564;Aval    ;Aval;c_aval;Qangtang
+PROV1563;Talas   ;Talas;c_talas;Gegyai
+PROV1564;Nasya   ;Nasyá;c_nasya;Qangtang
 PROV1565;Shahrisabz;Kish;c_panjikend;Tsakha
 PROV1566;Naryn   ;Naryn;c_naryn;Gyesar
 PROV1567;Kashgar ;Kashgar;c_kashgar,Ordukänd;Mainling
-PROV1568;Aksu    ;Aqsu;c_aqsu,Bharuka;Yumen
+PROV1568;Aksu    ;Aqsu;c_aksu,Bharuka;Yumen
 PROV1569;Kucha   ;Kucha;c_kucha,Küsän,Kuchi;Delingha
-PROV1570;Karashahr;Qarashahr;c_qarashahr,Agnidesha;Qaidam
+PROV1570;Karashahr;Qarashahr;c_karashar,Agnidesha;Qaidam
 PROV1571;Yulduz  ;Yulduz;c_yulduz;Lenghu
 PROV1572;Balasagun;Balasaghun;c_balasaghun,Quz-Ulush,Gobalik;Arjin
 PROV1573;Zhetysu ;Yetisu;c_yeti-su;Tanggula
@@ -629,382 +629,382 @@ PROV1577;Barskon ;Barskhan;c_barskhan;Cinarca
 PROV1578;Taloqan ;Tálekán;c_talekan;Dulan
 PROV1579;Balkhash;Balkhash;c_balkhash;Nedong
 PROV1580;Khotan  ;Khotan;c_khotan,Hvam,Udun;Lop Nor
-PROV1581;Tuzla   ;Soli;c_soli,Salinae,Sale,Salines,Só,Tuzla;
-PROV1582;Taklamakan Desert;Takla Makan Desert;;
-PROV1583;Pamir Mountains;The Pamir;;
-PROV1584;Himmersyssel;Himbræsysæl;c_northeastern_jylland;
-PROV1585;Vardesyssel;Warwithsysæl;c_central_jylland;
-PROV1586;Samso   ;Samsø;c_samsoe,Sámsey;
-PROV1587;Northern Halland;Nørræ Halland;c_northern_halland;
-PROV1588;Changtang;Changtang;;
-PROV1589;Tian Shan;Tian Shan;;
-PROV1590;India   ;India;;
-PROV1591;Erbil   ;Erbil;c_erbil,Arbil,Arbela,Arbel,Erbil;
-PROV1592;Sohar   ;Suhar;c_suhar;
-PROV1593;Naqis   ;Naqis;c_naqis;
-PROV1594;Irahistan;Irahistan;c_siraf;
-PROV1595;Lake Balkhash;Lake Balkash;;
-PROV1596;Lake Issyk;Lake Issyk;;
-PROV1597;Lake Zaysan;Lake Zaysan;;
-PROV1598;Lake Alakol;Lake Alakol;;
-PROV1599;Ebi Lake;Lake Ebinur;;
-PROV1600;Debal   ;Debul;c_debul;
-PROV1601;Ranikot ;Ranikot;c_ranikot;
-PROV1602;Sodha   ;Sonda;c_sonda;
-PROV1603;Mansura ;Mansura;c_mansura;
-PROV1604;Siwistan;Siwistan;c_siwistan;
-PROV1605;Aror    ;Aror;c_aror;
-PROV1606;Bhakkar ;Bhakkar;c_bhakkar;
-PROV1607;Gardman ;Gardman;c_gardman;
-PROV1608;Kandail ;Kandail;c_kandail;
-PROV1609;Rajanpur;Rajanpur;c_rajanpur;
-PROV1610;Sibi    ;Sibi;c_sibi;
-PROV1611;Loralai ;Bori;c_wana;
-PROV1612;Kafir Kot;Kafirkot;c_kafirkot;
-PROV1613;Uch     ;Uch;c_uch;
-PROV1614;Kahror Pacca;Karur;c_karur;
-PROV1615;Multan  ;Multan;c_multan;
-PROV1616;Karor   ;Karor;c_karor;
-PROV1617;Bhera   ;Bhera;c_bhera;
-PROV1618;Shorkot ;Shorkot;c_shorkot;
-PROV1619;Dipalpur;Dialpur;c_dipalpur;
-PROV1620;Lahore  ;Lahur;c_lahur;
-PROV1621;Trigarta;Trigarta;c_trigarta;
-PROV1622;Sagala  ;Sakala;c_sakala;
-PROV1623;Gujrat  ;Gurjarata;c_gurjaratra;
-PROV1624;Hund    ;Udabhanda;c_udabhanda;
-PROV1625;Peshawar;Purushapura;c_purushapura;
-PROV1626;Bannu   ;Bannu;c_bannu;
-PROV1627;Nandana ;Nandana;c_nandana;
-PROV1628;Kashmir ;Kasmira;c_kasmira;
-PROV1629;Sarasvata Mandala;Sarasvata Mandala;c_sarasvata_mandala;
-PROV1630;Kheda   ;Khetaka;c_khetaka;
-PROV1631;Modasa  ;Mohadavasaka;c_mohadavasaka;
-PROV1632;Dhrol   ;Dhamalpur;c_dhamalpur;
-PROV1633;Dwarka  ;Dvaraka;c_dvaraka;
-PROV1634;Kutch   ;Kutch;c_kutch;
-PROV1635;Bilkha  ;Bhumilka;c_bhumilka;
-PROV1636;Somnath ;Somnath;c_somnath;
-PROV1637;Vallabhi;Valabhi;c_valabhi;
-PROV1638;Wadhwan ;Vardhamana;c_vardhamana;
-PROV1639;Navsari ;Navasarika;c_navasarika;
-PROV1640;Daman   ;Daman;c_daman;
-PROV1641;Vadodara;Vadodara;c_vadodara;
-PROV1642;Mandore ;Mandavyapura;c_mandavyapura;
-PROV1643;Merta   ;Medantaka;c_medantaka;
-PROV1644;Gorwar  ;Godwad;c_godwad;
-PROV1645;Bikampur;Vikramapura;c_vikramapura;
-PROV1646;Taranagar;Reni;c_reni;
-PROV1647;Nagaur  ;Nagauda;c_nagauda;
-PROV1648;Lodhruva;Ludrava;c_ludrava;
-PROV1649;Vijnot  ;Vijnot;c_vijnot;
-PROV1650;Sanchore;Satyapura;c_satyapura;
-PROV1651;Mewar   ;Medapata;c_medapata;
-PROV1652;Chittorgarh;Chitrakut;c_chitrakut;
-PROV1653;Kota    ;Kota;c_kota;
-PROV1654;Ajmer   ;Ajayameru;c_ajayameru;
-PROV1655;Ranthambore;Ranthambore;c_ranthambore;
-PROV1656;Bairat  ;Vairata;c_vairata;
-PROV1657;Gwalior ;Gwalior;c_gwalior;
-PROV1658;Delhi   ;Delhi;c_delhi;
-PROV1659;Hastinapur;Hastinapura;c_hastinapura;
-PROV1660;Thanesar;Sthanisvara;c_sthanisvara;
-PROV1661;Hisar   ;Hisar;c_hisar;
-PROV1662;Tribandapura;Tribandapura;c_tribandapura;
-PROV1663;Saraswati;Sarasvati;c_sarasvati;
-PROV1664;Mathura ;Mathura;c_mathura;
-PROV1665;Aligarh ;Kol;c_kol;
-PROV1666;Bayana  ;Sripatha;c_sripatha;
-PROV1667;Budaun  ;Vodamayutja;c_vodamayutja;
-PROV1668;Sambhal ;Sambhal;c_sambhal;
-PROV1669;Rohilkhand;Katehar;c_katehar;
-PROV1670;Dahod   ;Dadhipadra;c_dadhipadra;
-PROV1671;Dhar    ;Dhara;c_dhara;
-PROV1672;Mandsaur;Dasapura;c_dasapura;
-PROV1673;Ujjain  ;Ujjayini;c_ujjayini;
-PROV1674;Sarangpur;Sarangpur;c_sarangpur;
-PROV1675;Vidisha ;Vidisa;c_vidisa;
-PROV1676;Chanderi;Chanderi;c_chanderi;
-PROV1677;Candhoba;Candhoba;c_candhoba;
-PROV1678;Mandu   ;Mandapika;c_mandapika;
-PROV1679;Asirgarh;Asirgarh;c_asirgarh;
-PROV1680;Burhanpur;Burhanpur;c_burhanpur;
-PROV1681;Thalner ;Thalner;c_thalner;
-PROV1682;Kannauj ;Kanyakubja;c_kanyakubja;
-PROV1683;Lucknow ;Lakhnau;c_lakhnau;
-PROV1684;Kalpi   ;Kalpi;c_kalpi;
-PROV1685;Barauli ;Bharauli;c_bharauli;
-PROV1686;Asni    ;Asni;c_asni;
-PROV1687;Allahabad;Prayaga;c_prayaga;
-PROV1688;Naimisha;Namisa;c_naimisa;
-PROV1689;Sravasti;Sravasti;c_sravasti;
-PROV1690;Ayodhya ;Ayodhya;c_ayodhya;
-PROV1691;Mahoba  ;Mahoba;c_mahoba;
-PROV1692;Kalanjara;Kalanjara;c_kalanjara;
-PROV1693;Damoh   ;Damoh;c_damoh;
-PROV1694;Gurgi   ;Gurgi;c_gurgi;
-PROV1695;Filan   ;Filan;c_philan,Varach'an;
-PROV1696;Lakia   ;Lekia;c_lekia,al-Lakza,Lezgistan;
-PROV1697;Malkhicho;Malkhicho;c_malkhicho;
-PROV1698;Ryn Desert;Ryn;;
-PROV1699;Mangup  ;Doros;c_theodoro;
-PROV1700;Gulf of Hammamet;Golfe de Hammamet;;
-PROV1701;Malta Channel;Malta Channel;;
-PROV1702;Gulf of Sidra;Gulf of Sidra;;
-PROV1703;Gulf of Taranto;Golfo di Taranto;;
-PROV1704;Ionian Sea;Ionian Sea;;
-PROV1705;Strait of Otranto;Strait of Otranto;;
-PROV1706;Adriatic Sea;Adriatic Sea;;
-PROV1707;Gulf of Venice;Gulf of Venice;;
-PROV1708;Aegean Sea;Aegean Sea;;
-PROV1709;Cyclades;Cyclades;;
-PROV1710;Sea of Crete;Sea of Crete;;
-PROV1711;Mediterranean Coast of Egypt;Coast of Egypt;;
-PROV1712;Nile Delta;Nile Delta;;
-PROV1713;Sea of Palestine;Sea of Palestine;;
-PROV1714;Eastern Mediterranean;Eastern Mediterranean;;
-PROV1715;Western Aegean Sea;Western Aegean Sea;;
-PROV1716;Näsijärvi;Näsijärvi;;
-PROV1717;Aral Sea;Aral Sea;;
-PROV1718;Levantine Sea;Levantine Sea;;
-PROV1719;Cilician Sea;Cilician Sea;;
-PROV1720;Sea of Marmara;Sea of Marmara;;
-PROV1721;Gulf of Varna;Gulf of Varna;;
-PROV1722;Coast of Crimea;Coast of Taurida;;
-PROV1723;Coast of Paphlagonia;Coast of Paphlagonia;;
-PROV1724;Coast of Colchis;Coast of Kolkhida;;
-PROV1725;Caspian Sea;Caspian Sea;;
-PROV1726;Coast of Morocco;Coast of Morocco;;
-PROV1727;Strait of Gibraltar;Strait of Gibraltar;;
-PROV1728;Saimaa  ;Saimaa;;
-PROV1729;Lake Balaton;Lake Balaton;;
-PROV1730;Oulujärvi;Oulujärvi;;
-PROV1731;Lake Ladoga;Lake Ladoga;;
-PROV1732;Mälaren ;Mälaren;;
-PROV1733;Faroe Islands;Faroya;;
-PROV1734;Hjälmaren;Hjälmaren;;
-PROV1735;Vättern ;Vättern;;
-PROV1736;Vänern  ;Vänern;;
-PROV1737;White Sea;White Sea;;
-PROV1738;Strait of Dover;Strait of Dover;;
-PROV1739;Solent  ;The Solent;;
-PROV1740;Land’s End;Land's End;;
-PROV1741;St. George’s Channel;St. George's Channel;;
-PROV1742;Sea of Azov;Sea of Azov;;
-PROV1743;Cape Finisterre;Cabo de Finisterre;;
-PROV1744;Lake Constance;Bodensee;;
-PROV1745;Garabogazköl;Kara-Bogaz Gol;;
-PROV1746;North Sea;Noordzee;;
-PROV1747;Bay of Biscay;Bay of Biscay;;
-PROV1748;Donegal Bay;Donegal Bay;;
-PROV1749;Sea of the Canary Islands;Sea of Canarias;;
-PROV1750;Breton Coast;Bretagne Coast;;
-PROV1751;Mjøsa   ;Mjøsa;;
-PROV1752;Sea of Galilee;Tiveriade Lake;;
-PROV1753;Portuguese Coast;Portugal Coast;;
-PROV1754;Gulf of Cádiz;Golfo de Cadiz;;
-PROV1755;Tyrifjorden;Tyrifjorden;;
-PROV1756;Dead Sea;Dead Sea;;
-PROV1757;Gulf of Riga;Gulf of Riga;;
-PROV1758;North Atlantic;North Atlantic;;
-PROV1759;Southern Coast of Norway;Southern Coast of Norway;;
-PROV1760;North Sea;North Sea;;
-PROV1761;North Sea;North Sea;;
-PROV1762;North Sea;North Sea;;
-PROV1763;Sea of Shetland;Sea of Shetland;;
-PROV1764;Bantry Bay;Bantry Bay;;
-PROV1765;The Minch;The Minch;;
-PROV1766;Moray Firth;Moray Firth;;
-PROV1767;Firth of Forth;Firth of Forth;;
-PROV1768;Dogger Bank;Dogger bank;;
-PROV1769;The Wash;The Wash;;
-PROV1770;Lake Onega;Onego;;
-PROV1771;North Sea;North Sea;;
-PROV1772;The Sound;Øresund;;
-PROV1773;Heligoland Bight;Gulf of Heligoland;;
-PROV1774;Kattegat;Kattegat;;
-PROV1775;Colberger Heide;Kolberger Heide;;
-PROV1776;Hanöbukten;Bight of Hanö;;
-PROV1777;Gdansk Bay;Gulf of Danzig;;
-PROV1778;Sea of Åland;Sea of Åland;;
-PROV1779;Gulf of Finland;Gulf of Finland;;
-PROV1780;Gulf of Bothnia;Gulf of Bothnia;;
-PROV1781;Gulf of Bothnia;Gulf of Bothnia;;
-PROV1782;Adriatic Sea;Adriatic Sea;;
-PROV1783;Channel Islands;Îles de la Manche;;
-PROV1784;Mauretanian Coast;Mauretanian Coast;;
-PROV1785;Lake Peipus;Lake Peipus;;
-PROV1786;Lake Yalpuh;Lake Yalpug;;
-PROV1787;Coast of Asturias;Coast of Asturias;;
-PROV1788;Northern Bay of Biscay;Northern Bay of Biscay;;
-PROV1789;Celtic Sea;Celtic Sea;;
-PROV1790;Lake Inari;Inarijärvi;;
-PROV1791;Coast of Iceland;Coast of Iceland;;
-PROV1792;Western Cyclades;Western Cyclades;;
-PROV1793;Lake Skadar;Lake Scutari;;
-PROV1794;Lake Ohrid;Lake Ohrid;;
-PROV1795;Lake Prespa;Lake Prespa;;
-PROV1796;Lake Päijänne;Päijänne;;
-PROV1797;Irish Sea;Irish Sea;;
-PROV1798;Western Mediterranean;Western Mediterranean;;
-PROV1799;Gulf of Valencia;Golfo de Valencia;;
-PROV1800;Balearic Islands;Islas Baleares;;
-PROV1801;Ponant  ;Ponant;;
-PROV1802;Mediterranean Sea;Mediterranean Sea;;
-PROV1803;Gulf of Lion;Golfe du Lion;;
-PROV1804;Lake Geneva;Lake Léman;;
-PROV1805;French Riviera;Côte d'Azur;;
-PROV1806;Ligurian Sea;Ligurian Sea;;
-PROV1807;Tyrrhenian Sea;Tyrrhenian Sea;;
-PROV1808;Coast of Sardinia;Coast of Sardegna;;
-PROV1809;Gulf of Naples;Golfo di Napoli;;
-PROV1810;Strait of Messina;Strait di Messina;;
-PROV1811;Lake Sevan;Lake Sevan;;
-PROV1812;Lake Van;Lake Van;;
-PROV1813;Lake Urmia;Lake Urmia;;
-PROV1814;Lake Neusiedl;Lake Fertö;;
-PROV1815;Limfjord;Limfjorden;;
-PROV1816;Skagerrak;Skagerak;;
-PROV1817;Jammerbugt;Jammerbugten;;
-PROV1818;Great Belt;Storebælt;;
-PROV1819;North Sea;Vesterhavet;;
-PROV1820;Smålandsfarvandet;Smålandshavet;;
-PROV1821;Lake Ilmen;Lake Ilmen;;
-PROV1822;Vortsjärv;Lake Vörts;;
-PROV1823;Plyussa ;Plyussa;;
-PROV1824;Volkhov ;Volkhov;;
-PROV1825;Mediterranean Sea;Mediterranean Sea;;
-PROV1826;Vastenjaure;Lake Vastenjaure;;
-PROV1827;Göta älv;Gautelfr;;
-PROV1828;Salsvatnet;Salsvatnet;;
-PROV1829;Lake Beloye;Lake Beloe;;
-PROV1830;Kama    ;Kama;;
-PROV1831;Kokshaga;Kakšan;c_kokshaga,Kaksha,Kokšaga;
-PROV1832;Pechora ;Pechora;;
-PROV1833;Sarygamysh Lake;Lake Sarygamysh;;
-PROV1834;Manych  ;Manych;;
-PROV1835;Chott el Djerid;Chot El Jerid;;
-PROV1836;Chott el Gharsa;Chot El Gharsa;;
-PROV1837;Chott Melrhir;Chot El Melghir;;
-PROV1838;Lake Chad;Lake Chad;;
-PROV1839;Loch Lomond;Loch Lomond;;
-PROV1840;Lough Neagh;Lough Neagh;;
-PROV1841;Erne    ;Erne;;
-PROV1842;Indus   ;Indus;;
-PROV1843;Indus   ;Indus;;
-PROV1844;Arabian Sea;Arabian Sea;;
-PROV1845;Gulf of Khambhat;Gulf of Khambhat;;
-PROV1846;Gulf of Kutch;Gulf of Kutch;;
-PROV1847;Malabar Coast;Coast of Malabar;;
-PROV1848;Indus River Delta;Indus Delta;;
-PROV1849;Svir    ;Svir;;
-PROV1850;Andoma  ;Andoma;;
-PROV1851;Soyda   ;Soyda;;
-PROV1852;Kema    ;Kema;;
-PROV1853;Sheksna ;Sheksna;;
-PROV1854;Sheksna ;Sheksna;;
-PROV1855;Suda    ;Suda;;
-PROV1856;Mologa  ;Mologa;;
-PROV1857;Mologa  ;Mologa;;
-PROV1858;Chagodoshcha;Chagodoshcha;;
-PROV1859;Volga   ;Volga;;
-PROV1860;Volga   ;Volga;;
-PROV1861;Volga   ;Volga;;
-PROV1862;Volga   ;Volga;;
-PROV1863;Volga   ;Volga;;
-PROV1864;Volga   ;Volga;;
-PROV1865;Volga   ;Volga;;
-PROV1866;Volga   ;Volga;;
-PROV1867;Volga   ;Volga;;
-PROV1868;Volga   ;Volga;;
-PROV1869;Volga   ;Volga;;
-PROV1870;Volga   ;Volga;;
-PROV1871;Oka     ;Oka;;
-PROV1872;Oka     ;Oka;;
-PROV1873;Oka     ;Oka;;
-PROV1874;Oka     ;Oka;;
-PROV1875;Oka     ;Oka;;
-PROV1876;Moskva  ;Moskva;;
-PROV1877;Moskva  ;Moskva;;
-PROV1878;Klyazma ;Klyazma;;
-PROV1879;Klyazma ;Klyazma;;
-PROV1880;Pronya  ;Pronya;;
-PROV1881;Don     ;Don;;
-PROV1882;Don     ;Don;;
-PROV1883;Don     ;Don;;
-PROV1884;Don     ;Don;;
-PROV1885;Smolnya ;Smolnya;;
-PROV1886;Smolnya ;Smolnya;;
-PROV1887;Smolnya ;Smolnya;;
-PROV1888;Pripyat ;Pripjat;;
-PROV1889;Dnieper ;Dneiper;;
-PROV1890;Dnieper ;Dneiper;;
-PROV1891;Dnieper ;Dneiper;;
-PROV1892;Dnieper ;Dneiper;;
-PROV1893;Daugava ;West Dvina;;
-PROV1894;Daugava ;West Dvina;;
-PROV1895;Daugava ;West Dvina;;
-PROV1896;Lovat   ;Lovat;;
-PROV1897;Desna   ;Desna;;
-PROV1898;Desna   ;Desna;;
-PROV1899;Seym    ;Sejm;;
-PROV1900;Seym    ;Sejm;;
-PROV1901;Thames  ;Thames;;
-PROV1902;Thames  ;Thames;;
-PROV1903;Vilaine ;Vilaine;;
-PROV1904;Somme   ;Somme;;
-PROV1905;Main    ;Main;;
-PROV1906;Seine   ;Seine;;
-PROV1907;Seine   ;Seine;;
-PROV1908;Seine   ;Seine;;
-PROV1909;Yonne   ;Yonne;;
-PROV1910;Marne   ;Marne;;
-PROV1911;Marne   ;Marne;;
-PROV1912;Oise    ;Oise;;
-PROV1913;Oise    ;Oise;;
-PROV1914;Aisne   ;Aisne;;
-PROV1915;Loire   ;Loire;;
-PROV1916;Loire   ;Loire;;
-PROV1917;Loire   ;Loire;;
-PROV1918;Vienne  ;Vienne;;
-PROV1919;Moselle ;Mosel;;
-PROV1920;Charente;Charente;;
-PROV1921;Moselle ;Mosel;;
-PROV1922;Dordogne;Dordogne;;
-PROV1923;Garonne ;Garonne;;
-PROV1924;Garonne ;Garonne;;
-PROV1925;Garonne ;Garonne;;
-PROV1926;Adour   ;Adour;;
-PROV1927;Rhône   ;Rhone;;
-PROV1928;Guadalquivir;Guadalquivir;;
-PROV1929;Rhine   ;Rhein;;
-PROV1930;Rhine   ;Rhein;;
-PROV1931;Rhine   ;Rhein;;
-PROV1932;Meuse   ;Maas;;
-PROV1933;Meuse   ;Maas;;
-PROV1934;Meuse   ;Maas;;
-PROV1935;Strait of Hormuz;Strait of Hormuz;;
-PROV1936;Persian Gulf;Persian Gulf;;
-PROV1937;Persian Gulf;Persian Gulf;;
-PROV1938;Red Sea ;Red Sea;;
-PROV1939;Red Sea ;Red Sea;;
-PROV1940;Red Sea ;Red Sea;;
-PROV1941;Gulf of Aden;Gulf of Aden;;
-PROV1942;Coast of Somalia;Coast of Somalia;;
-PROV1943;Coast of Yemen;Coast of Yemen;;
-PROV1944;Coast of Oman;Coast of Oman;;
-PROV1945;Gulf of Oman;Gulf of Oman;;
-PROV1946;Coast of Catalonia;Coast of Catalonia;;
-PROV1947;Central Black Sea;Central Black Sea;;
-PROV1948;Lake Bracciano;Lake Bracciano;;
-PROV1949;Lake Bolsena;Lake Bolsena;;
-PROV1950;Lake Trasimeno;Lake Trasimeno;;
-PROV1951;Fucine Lake;Lake Fucino;;
-PROV1952;Ténéré  ;Ténéré;;
+PROV1581;Tuzla   ;Soli;c_soli,Salinae,Sale,Salines,Só,Tuzla;Dobrzyn
+PROV1582;Taklamakan Desert;Takla Makan Desert;;Sieradz
+PROV1583;Pamir Mountains;The Pamir;;Lomza
+PROV1584;Himmersyssel;Himbræsysæl;c_northeastern_jylland;Stezyca
+PROV1585;Vardesyssel;Warwithsysæl;c_central_jylland;Lublin
+PROV1586;Samso   ;Samsø;c_samsoe,Sámsey;Wielun
+PROV1587;Northern Halland;Nørræ Halland;c_northern_halland;Bytow
+PROV1588;Changtang;Changtang;;Neumark
+PROV1589;Tian Shan;Tian Shan;;Gorlitz
+PROV1590;India   ;India;;Nalsia
+PROV1591;Erbil   ;Erbil;c_erbil,Arbil,Arbela,Arbel,Erbil;Selija
+PROV1592;Sohar   ;Suhar;c_suhar;Tukums
+PROV1593;Wadi Allaqi;Allaqi;c_allaqi;Vanema
+PROV1594;Irahistan;Irahistan;c_siraf;Jersika
+PROV1595;Lake Balkhash;Lake Balkash;;Talava
+PROV1596;Lake Issyk;Lake Issyk;;Riga
+PROV1597;Lake Zaysan;Lake Zaysan;;Deltuva
+PROV1598;Lake Alakol;Lake Alakol;;Järva
+PROV1599;Ebi Lake;Lake Ebinur;;Joensuu
+PROV1600;Debal   ;Debul;c_debul;Oulu
+PROV1601;Ranikot ;Ranikot;c_ranikot;Kainuu
+PROV1602;Sodha   ;Sonda;c_sonda;Sortavala
+PROV1603;Mansura ;Mansura;c_mansura,Mirman;Pomorye
+PROV1604;Siwistan;Siwistan;c_siwistan;Rovaniemi
+PROV1605;Aror    ;Aror;c_aror;Kallavesi
+PROV1606;Bhakkar ;Bhakkar;c_bhakkar;Karjaa
+PROV1607;Gardman ;Gardman;c_gardman;Keitele
+PROV1608;Gandawah;Kandabil;c_kandail;Montbéliard
+PROV1609;Rajanpur;Rajanpur;c_rajanpur;Portois
+PROV1610;Sibi    ;Sibi;c_sibi;Aosta
+PROV1611;Loralai ;Bori;c_wana;Vaud
+PROV1612;Kafir Kot;Kafirkot;c_kafirkot;Bellinzona
+PROV1613;Uch     ;Uch;c_uch;Bolzano
+PROV1614;Kahror Pacca;Karur;c_karur;Escuens
+PROV1615;Multan  ;Multan;c_multan;Amous
+PROV1616;Karor   ;Karor;c_karor;Norðland
+PROV1617;Bhera   ;Bhera;c_bhera;Suðurland
+PROV1618;Shorkot ;Shorkot;c_shorkot;Northern Coast of Iceland
+PROV1619;Dipalpur;Dipalpur;c_dipalpur;Western Coast of Iceland
+PROV1620;Lahore  ;Lahur;c_lahur;Romerike
+PROV1621;Trigarta;Trigarta;c_trigarta;Gudbrandsdalen
+PROV1622;Sagala  ;Sakala;c_sakala;Romsdal
+PROV1623;Gujrat  ;Gurjarata;c_gurjaratra;Sunnmøre
+PROV1624;Hund    ;Udabhanda;c_udabhanda,Waihind;Førde
+PROV1625;Peshawar;Purushapura;c_purushapura;Sogn
+PROV1626;Bannu   ;Bannu;c_bannu;Pripyat
+PROV1627;Nandana ;Nandana;c_nandana;Dniester
+PROV1628;Kashmir ;Kasmira;c_kasmira;Kama
+PROV1629;Anhilwara;Anahilapataka;c_sarasvata_mandala;Kama
+PROV1630;Kheda   ;Khetaka;c_khetaka;Kama
+PROV1631;Modasa  ;Mohadavasaka;c_mohadavasaka;Zaslav
+PROV1632;Dhrol   ;Dhamalpur;c_dhamalpur;Belz
+PROV1633;Dwarka  ;Dvaraka;c_dvaraka;Lutsk
+PROV1634;Kutch   ;Kutch;c_kutch,al-Kíraj;Novosil
+PROV1635;Bilkha  ;Bhumilka;c_bhumilka;Cherven
+PROV1636;Somnath ;Somnath;c_somnath;Zvenyhorod
+PROV1637;Vallabhi;Valabhi;c_valabhi;Ushytsia
+PROV1638;Wadhwan ;Vardhamana;c_vardhamana;Iasi
+PROV1639;Navsari ;Navasarika;c_navasarika;Bacau
+PROV1640;Daman   ;Daman;c_daman;Chilia
+PROV1641;Vadodara;Vadodara;c_vadodara;Bratslav
+PROV1642;Mandore ;Mandavyapura;c_mandavyapura;Calarasi
+PROV1643;Merta   ;Medantaka;c_medantaka;Craiova
+PROV1644;Gorwar  ;Godwad;c_godwad;Câmpulung
+PROV1645;Bikampur;Vikramapura;c_vikramapura;Targu Jiu
+PROV1646;Taranagar;Reni;c_reni;Odessa
+PROV1647;Nagaur  ;Nagauda;c_nagauda;Vinnytsia
+PROV1648;Lodhruva;Ludrava;c_ludrava;Medjybij
+PROV1649;Vijnot  ;Vijnot;c_vijnot;Korosten
+PROV1650;Sanchore;Satyapura;c_satyapura;Vorotynsk
+PROV1651;Mewar   ;Medapata;c_medapata;Vozviahel
+PROV1652;Chittorgarh;Chitrakut;c_chitrakut;Borovichi
+PROV1653;Kota    ;Kota;c_kota;Slutsk
+PROV1654;Ajmer   ;Ajayameru;c_ajayameru;Novogrodek
+PROV1655;Ranthambore;Ranthambore;c_ranthambore;Volkovysk
+PROV1656;Bairat  ;Vairata;c_vairata;Starodub
+PROV1657;Gwalior ;Gwalior;c_gwalior;Voin
+PROV1658;Delhi   ;Delhi;c_delhi,Dihlí;Hradyzk
+PROV1659;Hastinapur;Hastinapura;c_hastinapura;Drutsk
+PROV1660;Thanesar;Sthanisvara;c_sthanisvara;Chlisselbourg
+PROV1661;Hisar   ;Hisar;c_hisar;Gdov
+PROV1662;Tribandapura;Tribandapura;c_tribandapura;Rusa
+PROV1663;Saraswati;Sarasvati;c_sarasvati;Izborsk
+PROV1664;Mathura ;Mathura;c_mathura;Tikhvine
+PROV1665;Aligarh ;Kol;c_kol;Yelets
+PROV1666;Bayana  ;Sripatha;c_sripatha;Karachev
+PROV1667;Budaun  ;Vodamayuta;c_vodamayutja;Kholm
+PROV1668;Sambhal ;Sambhal;c_sambhal;Rzheva
+PROV1669;Rohilkhand;Katehar;c_katehar;Kashin
+PROV1670;Dahod   ;Dadhipadra;c_dadhipadra;Bezichy
+PROV1671;Dhar    ;Dhara;c_dhara;Rylsk
+PROV1672;Mandsaur;Dasapura;c_dasapura;Zubtsov
+PROV1673;Ujjain  ;Ujjayini;c_ujjayini,Uzayn;Oka
+PROV1674;Sarangpur;Sarangpur;c_sarangpur;Oka
+PROV1675;Vidisha ;Vidisa;c_vidisa;Priluk
+PROV1676;Chanderi;Chanderi;c_chanderi;Kromy
+PROV1677;Candhoba;Candhoba;c_candhoba;Naro-Fominsk
+PROV1678;Mandu   ;Mandapika;c_mandapika;Orekhovo-Zuyevo
+PROV1679;Asirgarh;Asirgarh;c_asirgarh;Serpukhov
+PROV1680;Burhanpur;Burhanpur;c_burhanpur;Yuryev
+PROV1681;Thalner ;Thalner;c_thalner;Kursk
+PROV1682;Kannauj ;Kanyakubja;c_kanyakubja,Kannauj;Kozelsk
+PROV1683;Lucknow ;Lakhnau;c_lakhnau;Varde
+PROV1684;Kalpi   ;Kalpi;c_kalpi;Aarhus
+PROV1685;Nandurbar;Nandurbar;c_nandurbar;Aalborg
+PROV1686;Asni    ;Asni;c_asni;North Sea
+PROV1687;Nasikya ;Nasikya;c_nasikya;Lolland
+PROV1688;Naimisha;Naimisa;c_naimisa;Dithmarschen
+PROV1689;Tripuri ;Tripuri;c_tripuri;Pongau
+PROV1690;Chauragarh;Chauragarh;c_chauragarh;Traungau
+PROV1691;Mahoba  ;Mahoba;c_mahoba;Pettau
+PROV1692;Kalanjara;Kalanjara;c_kalanjara;Eppenstein
+PROV1693;Damoh   ;Damoh;c_damoh;Graz
+PROV1694;Devagiri;Devagiri;c_devagiri;Pitten
+PROV1695;Filan   ;Filan;c_philan,Varach'an;Udine
+PROV1696;Lakia   ;Lekia;c_lekia,al-Lakza,Lezgistan;Friesach
+PROV1697;Malkhicho;Malkhicho;c_malkhicho;Chremis
+PROV1698;Ryn Desert;Ryn;;Freistadt
+PROV1699;Mangup  ;Doros;c_theodoro;Medelike
+PROV1700;Gulf of Hammamet;Golfe de Hammamet;;Regensburg
+PROV1701;Malta Channel;Malta Channel;;Vista
+PROV1702;Gulf of Sidra;Gulf of Sidra;;Finnveden
+PROV1703;Gulf of Taranto;Golfo di Taranto;;Njudung
+PROV1704;Ionian Sea;Ionian Sea;;Sevede
+PROV1705;Strait of Otranto;Strait of Otranto;;Kinda
+PROV1706;Bay of Mali Ston;Gulf of Narenta;;Skara
+PROV1707;Gulf of Venice;Gulf of Venice;;Chieti
+PROV1708;Aegean Sea;Aegean Sea;;Perugia
+PROV1709;Cyclades;Cyclades;;Como
+PROV1710;Sea of Crete;Sea of Crete;;Ivrea
+PROV1711;Mediterranean Coast of Egypt;Coast of Egypt;;Rimini
+PROV1712;Nile Delta;Nile Delta;;Catanzaro
+PROV1713;Sea of Palestine;Sea of Palestine;;Arezzo
+PROV1714;Eastern Mediterranean;Eastern Mediterranean;;Noli
+PROV1715;Western Aegean Sea;Western Aegean Sea;;Vetluga
+PROV1716;Näsijärvi;Näsijärvi;;Kremenchuk
+PROV1717;Aral Sea;Aral Sea;;Alabuga
+PROV1718;Levantine Sea;Levantine Sea;;Khlynov
+PROV1719;Cilician Sea;Cilician Sea;;Udmurts
+PROV1720;Sea of Marmara;Sea of Marmara;;Kudymkar
+PROV1721;Gulf of Varna;Gulf of Varna;;Ajadabiya
+PROV1722;Coast of Crimea;Coast of Taurida;;Tadjrift
+PROV1723;Coast of Paphlagonia;Coast of Paphlagonia;;Nafusa
+PROV1724;Coast of Colchis;Coast of Kolkhida;;Nalut
+PROV1725;Caspian Sea;Caspian Sea;;Suf
+PROV1726;Coast of Morocco;Coast of Morocco;;Gafsa
+PROV1727;Strait of Gibraltar;Strait of Gibraltar;;Arigh
+PROV1728;Saimaa  ;Saimaa;;Tébessa
+PROV1729;Lake Balaton;Lake Balaton;;Tuggurt
+PROV1730;Oulujärvi;Oulujärvi;;Murzuk
+PROV1731;Lake Ladoga;Lake Ladoga;;Zawila
+PROV1732;Mälaren ;Mälaren;;Djado
+PROV1733;Faroe Islands;Faroya;;Muluja
+PROV1734;Hjälmaren;Hjälmaren;;Ashir
+PROV1735;Vättern ;Vättern;;Bilma
+PROV1736;Vänern  ;Vänern;;Manan
+PROV1737;White Sea;White Sea;;Fachi
+PROV1738;Strait of Dover;Strait of Dover;;Air
+PROV1739;Solent  ;The Solent;;Djimi
+PROV1740;Land’s End;Land's End;;Masseniya
+PROV1741;St. George’s Channel;St. George's Channel;;Makari
+PROV1742;Sea of Azov;Sea of Azov;;Kagha
+PROV1743;Cape Finisterre;Cabo de Finisterre;;Bornu
+PROV1744;Lake Constance;Bodensee;;Munio
+PROV1745;Garabogazköl;Kara-Bogaz Gol;;Bauchi
+PROV1746;North Sea;Noordzee;;Kano
+PROV1747;Bay of Biscay;Bay of Biscay;;Daura
+PROV1748;Donegal Bay;Donegal Bay;;Gobir
+PROV1749;Sea of the Canary Islands;Sea of Canarias;;Tahoua
+PROV1750;Breton Coast;Bretagne Coast;;Zamfara
+PROV1751;Mjøsa   ;Mjøsa;;Katsina
+PROV1752;Sea of Galilee;Tiveriade Lake;;Kebbi
+PROV1753;Portuguese Coast;Portugal Coast;;Dyamare
+PROV1754;Gulf of Cádiz;Golfo de Cadiz;;Songhay
+PROV1755;Tyrifjorden;Tyrifjorden;;Dendi
+PROV1756;Dead Sea;Dead Sea;;Kurumba
+PROV1757;Gulf of Riga;Gulf of Riga;;Yatenga
+PROV1758;North Atlantic;North Atlantic;;Bobo Dyulasso
+PROV1759;Southern Coast of Norway;Southern Coast of Norway;;Wagadougou
+PROV1760;North Sea;North Sea;;Kiri
+PROV1761;North Sea;North Sea;;Bure
+PROV1762;North Sea;North Sea;;Tagant
+PROV1763;Sea of Shetland;Sea of Shetland;;Dodugu
+PROV1764;Bantry Bay;Bantry Bay;;Diafunu
+PROV1765;The Minch;The Minch;;Kantor
+PROV1766;Moray Firth;Moray Firth;;Central Africa
+PROV1767;Firth of Forth;Firth of Forth;;Eastern Sahara
+PROV1768;Dogger Bank;Dogger bank;;Mema
+PROV1769;The Wash;The Wash;;Fitri
+PROV1770;Lake Onega;Onego;;Wadai
+PROV1771;North Sea;North Sea;;Ennedi
+PROV1772;The Sound;Øresund;;Darfur
+PROV1773;Heligoland Bight;Gulf of Heligoland;;Taza
+PROV1774;Kattegat;Kattegat;;Meknes
+PROV1775;Colberger Heide;Kolberger Heide;;Tudgha
+PROV1776;Hanöbukten;Bight of Hanö;;Warzazat
+PROV1777;Gdansk Bay;Gulf of Danzig;;Tadla
+PROV1778;Sea of Åland;Sea of Åland;;Tinmallal
+PROV1779;Gulf of Finland;Gulf of Finland;;Draa
+PROV1780;Gulf of Bothnia;Gulf of Bothnia;;Ziz
+PROV1781;Gulf of Bothnia;Gulf of Bothnia;;al-Qusair
+PROV1782;Coast of Abruzzo;Coast of Abruzzo;;Kharga
+PROV1783;Channel Islands;Îles de la Manche;;Algerian Coast
+PROV1784;Mauretanian Coast;Mauretanian Coast;;Cantabrian Sea
+PROV1785;Lake Peipus;Lake Peipus;;Coast of Aquitaine
+PROV1786;Lake Yalpuh;Lake Yalpug;;Lake Sariqamish
+PROV1787;Coast of Asturias;Coast of Asturias;;Buzachi
+PROV1788;Northern Bay of Biscay;Northern Bay of Biscay;;Kara Bogaz
+PROV1789;Celtic Sea;Celtic Sea;;Kyzyl-Su
+PROV1790;Lake Inari;Inarijärvi;;Kara-Kum Desert
+PROV1791;Coast of Iceland;Coast of Iceland;;Urgench
+PROV1792;Western Cyclades;Western Cyclades;;Kusbulak
+PROV1793;Lake Skadar;Lake Scutari;;Emba Steppe
+PROV1794;Lake Ohrid;Lake Ohrid;;Yangikent
+PROV1795;Lake Prespa;Lake Prespa;;Talas
+PROV1796;Lake Päijänne;Päijänne;;Barskhan
+PROV1797;Irish Sea;Irish Sea;;Almaty
+PROV1798;Western Mediterranean;Western Mediterranean;;Almaliq
+PROV1799;Gulf of Valencia;Golfo de Valencia;;Qayaliq
+PROV1800;Balearic Islands;Islas Baleares;;Blue Sea
+PROV1801;Ponant  ;Ponant;;Coast of Itil
+PROV1802;Mediterranean Sea;Mediterranean Sea;;Agragan Riviera
+PROV1803;Gulf of Lion;Golfe du Lion;;Shirvan Coast
+PROV1804;Lake Geneva;Lake Léman;;Balkan Gulf
+PROV1805;French Riviera;Côte d'Azur;;Balanjar
+PROV1806;Ligurian Sea;Ligurian Sea;;Egrisi
+PROV1807;Tyrrhenian Sea;Tyrrhenian Sea;;Klarjeti
+PROV1808;Coast of Sardinia;Coast of Sardegna;;Mtshketa
+PROV1809;Gulf of Naples;Golfo di Napoli;;Durdzukia
+PROV1810;Strait of Messina;Strait di Messina;;Terek
+PROV1811;Lake Sevan;Lake Sevan;;Kalaus
+PROV1812;Lake Van;Lake Van;;Saqsin
+PROV1813;Lake Urmia;Lake Urmia;;Ryn
+PROV1814;Lake Neusiedl;Lake Fertö;;Uvek
+PROV1815;Limfjord;Limfjorden;;Yeruslan
+PROV1816;Skagerrak;Skagerak;;Belaya
+PROV1817;Jammerbugt;Jammerbugten;;Syktyvkar
+PROV1818;Great Belt;Storebælt;;Viled
+PROV1819;North Sea;Vesterhavet;;Kargopol
+PROV1820;Smålandsfarvandet;Smålandshavet;;Kanin
+PROV1821;Lake Ilmen;Lake Ilmen;;Onega Peninsula
+PROV1822;Vortsjärv;Lake Vörts;;Kuloy
+PROV1823;Plyussa ;Plyussa;;Mezen
+PROV1824;Volkhov ;Volkhov;;Pinega
+PROV1825;Mediterranean Sea;Mediterranean Sea;;Vashka
+PROV1826;Vastenjaure;Lake Vastenjaure;;Velsk
+PROV1827;Göta älv;Gautelfr;;Lyzha
+PROV1828;Salsvatnet;Salsvatnet;;Zavarot
+PROV1829;Lake Beloye;Lake Beloe;;Kolguyev
+PROV1830;Kama    ;Kama;;Indiga
+PROV1831;Kokshaga;Kakšan;c_kokshaga,Kaksha,Kokšaga;Koshma
+PROV1832;Pechora ;Pechora;;Tobysh
+PROV1833;Sarygamysh Lake;Lake Sarygamysh;;Tsilma
+PROV1834;Manych  ;Manych;;Kozhva
+PROV1835;Chott el Djerid;Chot El Jerid;;Izhma
+PROV1836;Chott el Gharsa;Chot El Gharsa;;Vel
+PROV1837;Chott Melrhir;Chot El Melghir;;Severnaya
+PROV1838;Lake Chad;Lake Chad;;Vychegda
+PROV1839;Loch Lomond;Loch Lomond;;Vym
+PROV1840;Lough Neagh;Lough Neagh;;Sedyu
+PROV1841;Erne    ;Erne;;Kolva
+PROV1842;Indus   ;Indus;;Keltma
+PROV1843;Indus   ;Indus;;Thisageta
+PROV1844;Arabian Sea;Arabian Sea;;Vishera
+PROV1845;Gulf of Khambhat;Gulf of Khambhat;;Tynea
+PROV1846;Gulf of Kutch;Gulf of Kutch;;Chosha Bay
+PROV1847;Malabar Coast;Coast of Malabar;;Arctic Sea
+PROV1848;Indus River Delta;Indus Delta;;Sakmara
+PROV1849;Svir    ;Svir;;Irtek
+PROV1850;Andoma  ;Andoma;;Or
+PROV1851;Soyda   ;Soyda;;Mughalzhar
+PROV1852;Kema    ;Kema;;Utva
+PROV1853;Sheksna ;Sheksna;;Magnitaya
+PROV1854;Sheksna ;Sheksna;;Kartaly-Ayat
+PROV1855;Suda    ;Suda;;Lake Zaysan
+PROV1856;Mologa  ;Mologa;;Ubagan
+PROV1857;Mologa  ;Mologa;;Miass
+PROV1858;Chagodoshcha;Chagodoshcha;;Tavda
+PROV1859;Volga   ;Volga;;Bolshoy Yugan
+PROV1860;Volga   ;Volga;;Vasyugan
+PROV1861;Volga   ;Volga;;Om
+PROV1862;Volga   ;Volga;;Tara
+PROV1863;Volga   ;Volga;;Vagay
+PROV1864;Volga   ;Volga;;Osha
+PROV1865;Volga   ;Volga;;Tui
+PROV1866;Volga   ;Volga;;Shish
+PROV1867;Volga   ;Volga;;Betpaqdala
+PROV1868;Volga   ;Volga;;Sarysu
+PROV1869;Volga   ;Volga;;Irgiz
+PROV1870;Volga   ;Volga;;Boqtybay
+PROV1871;Oka     ;Oka;;Katun
+PROV1872;Oka     ;Oka;;Zaysan
+PROV1873;Oka     ;Oka;;Ob
+PROV1874;Oka     ;Oka;;Saur
+PROV1875;Oka     ;Oka;;Aylik
+PROV1876;Moskva  ;Moskva;;Tarbagatai
+PROV1877;Moskva  ;Moskva;;Buqtirma
+PROV1878;Klyazma ;Klyazma;;Seletyteniz
+PROV1879;Klyazma ;Klyazma;;Qarazhyrya
+PROV1880;Pronya  ;Pronya;;Soso
+PROV1881;Don     ;Don;;Naupaktos
+PROV1882;Don     ;Don;;Serrae
+PROV1883;Don     ;Don;;Kastoria
+PROV1884;Don     ;Don;;Traianopolis
+PROV1885;Smolnya ;Smolnya;;Maroneia
+PROV1886;Smolnya ;Smolnya;;Avlonas
+PROV1887;Smolnya ;Smolnya;;Bitola
+PROV1888;Pripyat ;Pripjat;;Astibus
+PROV1889;Dnieper ;Dneiper;;Zakynthos
+PROV1890;Dnieper ;Dneiper;;Korkyra
+PROV1891;Dnieper ;Dneiper;;Peloponnesian Bay
+PROV1892;Dnieper ;Dneiper;;Mediterranean Sea
+PROV1893;Daugava ;West Dvina;;Coast of Tripolitana
+PROV1894;Daugava ;West Dvina;;Tyrrhenian Sea
+PROV1895;Daugava ;West Dvina;;Belukha
+PROV1896;Lovat   ;Lovat;;Khüiten
+PROV1897;Desna   ;Desna;;Mönkh Khairkhan
+PROV1898;Desna   ;Desna;;Markakol
+PROV1899;Seym    ;Sejm;;Abakan
+PROV1900;Seym    ;Sejm;;Tom
+PROV1901;Thames  ;Thames;;Kuznetsk
+PROV1902;Thames  ;Thames;;Eastern Sayan
+PROV1903;Vilaine ;Vilaine;;Khövsgöl
+PROV1904;Somme   ;Somme;;Egiin
+PROV1905;Main    ;Main;;Tannu Ola
+PROV1906;Seine   ;Seine;;Uvs
+PROV1907;Seine   ;Seine;;Kharkiraa
+PROV1908;Seine   ;Seine;;Tsambagarav
+PROV1909;Yonne   ;Yonne;;Khökh Serkh
+PROV1910;Marne   ;Marne;;Sutai
+PROV1911;Marne   ;Marne;;Khasagt Khairkhan
+PROV1912;Oise    ;Oise;;Otgontenger
+PROV1913;Oise    ;Oise;;Suvraga Khairkhan
+PROV1914;Aisne   ;Aisne;;Tarvagatai
+PROV1915;Loire   ;Loire;;Terkhiin Tsagaan
+PROV1916;Loire   ;Loire;;Burkhan Buudai
+PROV1917;Loire   ;Loire;;Gurvan Saikhan
+PROV1918;Vienne  ;Vienne;;Delgerkhangai
+PROV1919;Moselle ;Mosel;;Juyan
+PROV1920;Charente;Charente;;Orkhon
+PROV1921;Moselle ;Mosel;;Selenge
+PROV1922;Dordogne;Dordogne;;Uda
+PROV1923;Garonne ;Garonne;;Khilok
+PROV1924;Garonne ;Garonne;;Chikoi
+PROV1925;Garonne ;Garonne;;Tuul
+PROV1926;Adour   ;Adour;;Zatec
+PROV1927;Rhône   ;Rhone;;Opava
+PROV1928;Guadalquivir;Guadalquivir;;Amastris
+PROV1929;Rhine   ;Rhein;;Kastamon
+PROV1930;Rhine   ;Rhein;;Claudiopolis
+PROV1931;Rhine   ;Rhein;;Amorion
+PROV1932;Meuse   ;Maas;;Akroinon
+PROV1933;Meuse   ;Maas;;Nyssa
+PROV1934;Meuse   ;Maas;;Charsianon
+PROV1935;Strait of Hormuz;Strait of Hormuz;;Sardis
+PROV1936;Persian Gulf;Persian Gulf;;Tregor
+PROV1937;Persian Gulf;Persian Gulf;;Poher
+PROV1938;Red Sea ;Red Sea;;Iarmond
+PROV1939;Red Sea ;Red Sea;;Iona
+PROV1940;Red Sea ;Red Sea;;Lindisfarne
+PROV1941;Gulf of Aden;Gulf of Aden;;Hull
+PROV1942;Coast of Somalia;Coast of Somalia;;Leeds
+PROV1943;Coast of Yemen;Coast of Yemen;;Yoredale
+PROV1944;Coast of Oman;Coast of Oman;;Bath
+PROV1945;Gulf of Oman;Gulf of Oman;;Brycheiniog
+PROV1946;Coast of Catalonia;Coast of Catalonia;;Gower
+PROV1947;Central Black Sea;Central Black Sea;;Builth
+PROV1948;Lake Bracciano;Lake Bracciano;;Ceredigion
+PROV1949;Lake Bolsena;Lake Bolsena;;Anglesey
+PROV1950;Lake Trasimeno;Lake Trasimeno;;Wight
+PROV1951;Fucine Lake;Lake Fucino;;Meath
+PROV1952;Ténéré  ;Ténéré;;Westmeath
 PROV806 ;Libyan Desert;Libyan Desert;;Cyrenaica
-PROV1953;Hamun Lake;Lake Hamun;;
-PROV1954;Tyrrhenian Sea;Tyrrhenian Sea;;
-PROV1955;Coast of Sardinia;Coast of Sardegna;;
+PROV1953;Hamun Lake;Lake Hamun;;Leix
+PROV1954;Tyrrhenian Sea;Tyrrhenian Sea;;North Connacht
+PROV1955;Coast of Sardinia;Coast of Sardegna;;Hy-Many
 #PROV1956,Aalst,,,,,,,,,,,,,x;;;;
 #PROV1957,Salm,,,,,,,,,,,,,x;;;;
 #PROV1958,Sayn,,,,,,,,,,,,,x;;;;
@@ -1017,33 +1017,33 @@ PROV1955;Coast of Sardinia;Coast of Sardegna;;
 #PROV1965,Hirschberg,,,,,,,,,,,,,x;;;;
 #PROV1966,Abensberg,,,,,,,,,,,,,x;;;;
 #PROV1967,Ortenberg,,,,,,,,,,,,,x;;;;
-PROV1968;Niya    ;Niya;c_niya,Cadota;
-PROV1969;Bamyan  ;Bámiyán;c_bamiyan;
-PROV1970;Tian Shan;Tian Shan;;
-PROV1971;Karakum Desert;Kara-Kum;;
-PROV1972;An Nafud;An Nafud;;
-PROV1973;Syrian Desert;Syrian Desert;;
-PROV1974;Winter Coast;Zimniy Bereg;;
-PROV1975;Gilgit  ;Gilgit;c_gilgit;
-PROV1976;Skardu  ;Skardu;c_skardu;
-PROV1977;Hunza   ;Hunza;c_hunza;
-PROV1978;Tashkurgan;Tashkurgan;c_tashkurgan,Sarikol;
-PROV1979;Kangra  ;Kangra;c_kangra;
-PROV1980;Garhwal ;Garhwal;c_garhwal;
-PROV1981;Kumaon  ;Kurmanchal;c_kurmanchal;
-PROV1982;Leh     ;Leh;c_leh,Lie;
-PROV1983;Tsaparang;Tsaparang;c_tsaparang;
-PROV1984;Rutog   ;Rutog;c_rutog,Ritu;
-PROV1985;Kyunglung;Kyunglung;c_kyunglung,K'üeh-lung;
-PROV1986;Burang  ;Purang;c_purang,P'uo-lan,Puhrang;
-PROV1987;Gê’gyai ;Ge'gyai;c_gegyai,Gê'gyai,Kêk-kit;
-PROV1988;Gar     ;Gar;c_gar,Ga'er;
-PROV1989;Kunlun  ;Kunlun;c_kunlun,Kulung,Khöndlön;
-PROV1990;Hindu Kush;Hindu Kush;;
-PROV1991;Pangong Tso;Pangong Tso;;
-PROV1992;Lake Rakshastal;Lake Rakshastal;;
-PROV1993;Lake Manasarovar;Lake Manasarovar;;
-PROV1994;Lumajangdong Co;Luma Drak Tso;;
+PROV1968;Niya    ;Niya;c_cadota,Cadota;Syrmia
+PROV1969;Bamyan  ;Bámiyán;c_bamiyan;Vukovar
+PROV1970;Tian Shan;Tian Shan;;Usora
+PROV1971;Karakum Desert;Kara-Kum;;Vrhbosna
+PROV1972;An Nafud;An Nafud;;Travunia
+PROV1973;Syrian Desert;Syrian Desert;;Onogost
+PROV1974;Winter Coast;Zimniy Bereg;;Jaen
+PROV1975;Gilgit  ;Gilgit;c_gilgit;Palencia
+PROV1976;Skardu  ;Skardu;c_skardu;Lugo
+PROV1977;Hunza   ;Hunza;c_hunza;Osma
+PROV1978;Tashkurgan;Tashkurgan;c_tashkurgan,Sarikol;Alcalá
+PROV1979;Kahlur  ;Kahlur;c_kangra;Minden
+PROV1980;Garhwal ;Garhwal;c_garhwal;Verden
+PROV1981;Kumaon  ;Kurmanchal;c_kurmanchal;Frankfurt
+PROV1982;Leh     ;Leh;c_leh,Lie;Magdeburg
+PROV1983;Tsaparang;Tsaparang;c_tsaparang;Berg
+PROV1984;Rutog   ;Rutog;c_rutog,Ritu;Weinsberg
+PROV1985;Kyunglung;Kyunglung;c_kyunglung,K'üeh-lung;Eichstadt
+PROV1986;Burang  ;Purang;c_purang,P'uo-lan,Puhrang;Saarbrücken
+PROV1987;Gê’gyai ;Ge'gyai;c_gegyai,Gê'gyai,Kêk-kit;Marburg
+PROV1988;Gar     ;Gar;c_gar,Ga'er;Havelberg
+PROV1989;Kunlun  ;Kunlun;c_kunlun,Kulung,Khöndlön;Overijssel
+PROV1990;Hindu Kush;Hindu Kush;;Lough Neagh
+PROV1991;Pangong Tso;Pangong Tso;;Lough Erne
+PROV1992;Lake Rakshastal;Lake Rakshastal;;Lough Mask
+PROV1993;Lake Manasarovar;Lake Manasarovar;;Gezira
+PROV1994;Lumajangdong Co;Luma Drak Tso;;Bayuda
 PROV1995;Memar Co;Memar Lake;;
 PROV1996;Aksai Chin Lake;Aksai Chin Lake;;
 PROV1997;Guozha Lake;Kotra Tso;;
@@ -1054,3 +1054,12 @@ PROV2001;Caspian Sea;Caspian Sea;;
 PROV2002;Caspian Sea;Caspian Sea;;
 PROV2003;Caspian Sea;Caspian Sea;;
 PROV2004;Caspian Sea;Caspian Sea;;
+PROV2005;Kvarner Gulf;Gulf of Kvarner;;
+PROV2006;Bay of Kotor;Gulf of Kotor;;
+PROV2007;Gulf of Manfredonia;Gulf of Manfredonia;;
+PROV2008;Tyrrhenian Sea;Tyrrhenian Sea;;
+PROV2009;IJsselmeer;Ijsselmeer;;
+PROV2010;Wadden Sea;Waddenzee;;
+PROV2011;Coast of Marche;Coast of Marche;;
+PROV2012;Sari    ;Sari;c_sari;
+PROV2013;Pallars ;Pallars;c_pallars,Balirs;

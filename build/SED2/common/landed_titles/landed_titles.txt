@@ -33,6 +33,11 @@ k_hellenic_pagan = {
 	controls_religion = hellenic_pagan_reformed
 	religion = hellenic_pagan_reformed
 	assimilate = no
+	title = PONTIFEX_MAXIMUS
+	title_female = PONTIFEX_MAXIMA
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
 }
 
 k_papal_state = { # Status Pontificius
@@ -456,9 +461,9 @@ d_ibadi = { # The Ibadi Imamate
 			}
 		}
 	}
-	title = CALIPH
-	title_female = CALIPHA
-	foa = CALIPH_FOA
+	title = IMAM
+	title_female = IMAMA
+	foa = IMAM_FOA
 	short_name = yes
 } # end d_ibadi
 
@@ -788,6 +793,11 @@ d_bon_reformed = {
 	religion = bon_reformed
 	# Cannot be held as a secondary title
 	primary = yes
+	title = HEAD_DALAI_LAMA
+	title_female = HEAD_DALAI_LAMA
+	foa = POPE_FOA
+	short_name = yes
+	dynasty_title_names = no
 }
 
 d_zoroastrian = { # The Zoroastrian Church

@@ -128,7 +128,8 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                 if isinstance(v, Obj) and v.has_pairs:
                     dfs.extend((p2, parents + [n.val]) for p2 in v)
                 elif (parents not in bl_pars and
-                      n.val in ['set_name', 'adjective'] and v.val):
+                      n.val in ['set_name', 'adjective'] and v.val and
+                      not v.val.startswith('event_target')):
                     if v.val in localisation:
                         override.add(v.val)
                     elif v.val not in missing_loc:

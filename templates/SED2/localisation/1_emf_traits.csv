@@ -44,16 +44,16 @@ calm_voice              ;        ;Calm Voice;;
 calm_voice_desc         ;        ;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;;
 crowned                 ;        ;Crowned;;
 crowned_desc            ;        ;This character has been officially coronated and recognized as ruler in front of their gathered vassals.;;
-crowned_by_pope         ;        ;Crowned By The Pope;;
-crowned_by_pope_desc    ;        ;This character has been officially coronated and recognized as ruler in front of their gathered vassals in a ceremony administered by the His Holiness the Pope.;;
+crowned_by_pope         ;        ;Crowned By The Pope;;Crowned by [Root.GetCrownedByName]
+crowned_by_pope_desc    ;        ;This character has been officially coronated and recognized as ruler in front of their gathered vassals in a ceremony administered by the His Holiness the Pope.;;This ruler was anointed by the Vicar of [GetChristName] himself.\nThis is incontrovertible proof of [Root.GetHerHis] divine right to rule.
 deaf                    ;        ;Deaf;;
 deaf_desc               ;        ;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits their ability to function.;;
 fertile                 ;        ;Fertile;;
 fertile_desc            ;        ;This character has been blessed with a propensity for easily having children.;;
 imposing                ;        ;Imposing;;
 imposing_desc           ;        ;Whether because of their physical stature or just their typical complexion, this character has a striking posture and a commanding presence. To some, they are even terrifying at times.;;
-lefthanded              ;        ;Lefthanded;;
-lefthanded_desc         ;        ;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;;
+lefthanded              ;        ;Lefthanded;;Left-Handed
+lefthanded_desc         ;        ;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;;This character is left-handed. While seen with suspicion by the clergy, left-handed people tend to have a considerable advantage in combat.
 melodious_voice         ;        ;Silver Tongue;;
 melodious_voice_desc    ;        ;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;;
 perceptive              ;        ;Perceptive;;
@@ -64,8 +64,8 @@ strong_basileus         ;        ;Strong Basileus;;
 strong_basileus_desc    ;        ;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;;
 tall                    ;        ;Tall;;
 tall_desc               ;        ;This character is of considerable stature, taller than most.;;
-uncrowned               ;        ;Uncrowned;;
-uncrowned_desc          ;        ;While this character already rules their realm, they have not yet been officially coronated. Without that ceremony to cement their position, there are some who yet claim they are not the rightful ruler.;;
+uncrowned               ;        ;Uncrowned;;Uncrowned
+uncrowned_desc          ;        ;While this character already rules their realm, they have not yet been officially coronated. Without that ceremony to cement their position, there are some who yet claim they are not the rightful ruler.;;This ruler died before he could even receive his crown, a most shameful display.
 weak_basileus           ;        ;Coronated Basileus;;
 weak_basileus_desc      ;        ;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;;
 wrymouth                ;        ;Wrymouth;;

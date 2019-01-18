@@ -20,6 +20,9 @@ d_army_light = {
 		data = { 2 0 3 4 7 11 11 }
 		religion = manichean
 	}
+	title = GRANDMASTER
+	title_female = GRANDMASTER
+	foa = GRANDMASTER_FOA
 }
 
 d_ismaili = { # The Isma'ili Caliphate
@@ -389,7 +392,7 @@ d_shiite = { # The Shi'a Imamate
 	}
 	title = IMAM
 	title_female = IMAMA
-	foa = CALIPH_FOA
+	foa = IMAM_FOA
 	short_name = yes
 	dynasty_title_names = no
 	# allow is in original definition in Shia.txt, otherwise the conditions append
@@ -512,9 +515,9 @@ d_zaydi = { # The Zaydi Caliphate
 			}
 		}
 	}
-	title = CALIPH
-	title_female = CALIPHA
-	foa = CALIPH_FOA
+	title = IMAM
+	title_female = IMAMA
+	foa = IMAM_FOA
 	short_name = yes
 } # end d_zaydi
 

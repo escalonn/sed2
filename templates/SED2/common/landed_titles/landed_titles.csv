@@ -1,4 +1,9 @@
 #TITLE                       ;KEY                 ;SED2    ;SWMH
+k_hellenic_pagan             ;title               ;PONTIFEX_MAXIMUS;PONTIFEX_MAXIMUS
+k_hellenic_pagan             ;title_female        ;PONTIFEX_MAXIMA;PONTIFEX_MAXIMA
+k_hellenic_pagan             ;foa                 ;POPE_FOA;POPE_FOA
+k_hellenic_pagan             ;short_name          ;yes     ;yes
+k_hellenic_pagan             ;dynasty_title_names ;no      ;no
 k_papal_state                ;title               ;POPE    ;POPE
 k_papal_state                ;title_female        ;POPESS  ;POPESS
 k_papal_state                ;foa                 ;POPE_FOA;POPE_FOA
@@ -62,9 +67,9 @@ d_yazidi                     ;title               ;SHEIKH  ;SHEIKH
 d_yazidi                     ;title_female        ;SHEIKHA ;SHEIKHA
 d_yazidi                     ;foa                 ;CALIPH_FOA;CALIPH_FOA
 d_yazidi                     ;short_name          ;yes     ;yes
-d_ibadi                      ;title               ;CALIPH  ;CALIPH
-d_ibadi                      ;title_female        ;CALIPHA ;CALIPHA
-d_ibadi                      ;foa                 ;CALIPH_FOA;CALIPH_FOA
+d_ibadi                      ;title               ;IMAM    ;IMAM
+d_ibadi                      ;title_female        ;IMAMA   ;IMAMA
+d_ibadi                      ;foa                 ;IMAM_FOA;IMAM_FOA
 d_ibadi                      ;short_name          ;yes     ;yes
 d_kharijite                  ;title               ;CALIPH  ;CALIPH
 d_kharijite                  ;title_female        ;CALIPHA ;CALIPHA
@@ -118,6 +123,10 @@ d_zun_pagan_reformed         ;title_female        ;HEAD_PRIESTESS;HEAD_PRIESTESS
 d_zun_pagan_reformed         ;foa                 ;HEAD_PRIEST_FOA;HEAD_PRIEST_FOA
 d_zun_pagan_reformed         ;short_name          ;yes     ;yes
 d_zun_pagan_reformed         ;dynasty_title_names ;no      ;no
+d_bon_reformed               ;title               ;HEAD_DALAI_LAMA;HEAD_DALAI_LAMA
+d_bon_reformed               ;foa                 ;POPE_FOA;POPE_FOA
+d_bon_reformed               ;short_name          ;yes     ;yes
+d_bon_reformed               ;dynasty_title_names ;no      ;no
 d_zoroastrian                ;title               ;HEAD_MOABADAN_MOABAD;HEAD_MOABADAN_MOABAD
 d_zoroastrian                ;foa                 ;POPE_FOA;POPE_FOA
 d_zoroastrian                ;short_name          ;yes     ;yes

@@ -1,4 +1,6 @@
 #TITLE                       ;KEY                ;SED2    ;SWMH
+d_army_light                 ;title              ;GRANDMASTER;GRANDMASTER
+d_army_light                 ;foa                ;GRANDMASTER_FOA;GRANDMASTER_FOA
 d_ismaili                    ;title              ;CALIPH  ;CALIPH
 d_ismaili                    ;title_female       ;CALIPHA ;CALIPHA
 d_ismaili                    ;foa                ;CALIPH_FOA;CALIPH_FOA
@@ -25,12 +27,12 @@ d_nabawiyya                  ;foa                ;MALIK_FOA;MALIK_FOA
 d_nabawiyya                  ;short_name         ;yes     ;yes
 d_shiite                     ;title              ;IMAM    ;IMAM
 d_shiite                     ;title_female       ;IMAMA   ;IMAMA
-d_shiite                     ;foa                ;CALIPH_FOA;CALIPH_FOA
+d_shiite                     ;foa                ;IMAM_FOA;IMAM_FOA
 d_shiite                     ;short_name         ;yes     ;yes
 d_shiite                     ;dynasty_title_names;no      ;no
-d_zaydi                      ;title              ;CALIPH  ;CALIPH
-d_zaydi                      ;title_female       ;CALIPHA ;CALIPHA
-d_zaydi                      ;foa                ;CALIPH_FOA;CALIPH_FOA
+d_zaydi                      ;title              ;IMAM    ;IMAM
+d_zaydi                      ;title_female       ;IMAMA   ;IMAMA
+d_zaydi                      ;foa                ;IMAM_FOA;IMAM_FOA
 d_zaydi                      ;short_name         ;yes     ;yes
 d_east_african_pagan_reformed;title              ;HEAD_PRIEST;HEAD_PRIEST
 d_east_african_pagan_reformed;title_female       ;HEAD_PRIESTESS;HEAD_PRIESTESS

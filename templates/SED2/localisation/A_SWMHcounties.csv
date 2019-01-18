@@ -1,18 +1,18 @@
 #CODE                                 ;SED     ;SWMH;OTHER;VANILLA
 #CODE,ENGLISH,FRENCH,GERMAN,,SPANISH,,,,,,,,,x;;;;
 #Baltics,,,,,,,,,,,,,,;;;;
-c_deltuva_adj                         ;        ;Deltuvian;;
+c_deltuva_adj                         ;Deltuva ;Deltuvian;;Deltuvian
 c_jeriska_adj                         ;        ;Jeriskaian;;
 c_zemgalians_adj                      ;        ;Zemgalia;;
-c_jarva_adj                           ;        ;Järvia;;
-c_selija_adj                          ;Selonian;Selija;;
+c_jarva_adj                           ;Järva   ;Järvia;;Järvian
+c_selija_adj                          ;Selonian;Selija;;Selonian
 c_metsepole_adj                       ;        ;Metsepole;;
 c_laanemaa_adj                        ;        ;Laanemaai;;
 c_atzele_adj                          ;        ;Atzelei;;
 c_trakai_adj                          ;        ;Trakai;;
 c_lida_adj                            ;        ;Lyda;;
-c_sudovia_adj                         ;Suvalkija;Sudovia;;Trakian
-c_yatvyagi_adj                        ;Western Dzukija;Dainava;;Yatvyagian
+c_sudovia_adj                         ;Suvalkija;Sudovia;;Sudovian
+c_yatvyagi_adj                        ;Western Dzukija;Dainava;;Kaunasian
 c_asmena_adj                          ;        ;Ašmena;;
 c_upyte_adj                           ;        ;Upytian;;
 c_nalshia_adj                         ;        ;Nalsian;;
@@ -28,11 +28,11 @@ c_blekinge_adj                        ;Blekinge;Blekynghr;;Blekinger
 c_sjaelland_adj                       ;North Zealand;Nørræ Syalandr;;Sjællander
 c_western_sjaelland_adj               ;        ;Wæstær Syalandr;;
 c_southern_sjaelland_adj              ;        ;Syndræ Syalandr;;
-c_lolland_adj                         ;Lollandic;Lalandr;;
+c_lolland_adj                         ;Lollandic;Lalandr;;Lollander
 c_fyn_adj                             ;Funen   ;Fyunr;;Fynian
 c_northern_halland_adj                ;        ;Nørræ Hallandr;;
 c_halland_adj                         ;Southern Halland;Syndræ Hallandr;;Hallander
-c_jylland_adj                         ;Åbosyssel;Abosysælr;;Jyllander
+c_jylland_adj                         ;Åbosyssel;Abosysælr;;Skagenboer
 c_central_jylland_adj                 ;        ;Warwithsysælr;;
 c_northeastern_jylland_adj            ;        ;Himbræsysælr;;
 c_northern_jylland_adj                ;        ;Wændlesysælr;;
@@ -78,7 +78,7 @@ c_salm_adj                            ;        ;Salm;;
 #Jülich,,,,,,,,,,,,;;;;
 c_julich_adj                          ;Jülich  ;Jülich;;Jülichian
 c_kleve_adj                           ;Cleves  ;Kleve;;Klevian
-c_berg_adj                            ;        ;Berg;;
+c_berg_adj                            ;Berg    ;Berg;;Berger
 c_aachen_adj                          ;        ;Aachen;;
 #Köln,,,,,,,,,,,,;;;;
 c_koln_adj                            ;Colognian;Köln;;Colognian
@@ -125,23 +125,23 @@ c_nordgau_adj                         ;Nordgau ;Nordgau;;Nordgauer
 c_sundgau_adj                         ;Sundgau ;Sundgau;;Sundgauer
 #Rätien;;;;
 c_thurgau_adj                         ;        ;Thurgau;;
-c_aargau_adj                          ;Aargau  ;Aargau;;Aargaunian
+c_aargau_adj                          ;Aargau  ;Aargau;;Basler
 c_schwyz_adj                          ;Schwyz  ;Schwyz;;Schwyzian
-c_chur_adj                            ;        ;Churx;;
+c_chur_adj                            ;Chur    ;Churx;;Churian
 c_montfort_adj                        ;        ;Montfort;;
 ######Bavaria;;;;
 #Österreich,,,,,,,,,,,,;;;;
-c_osterreich_adj                      ;Austrian;Österreich;;Österreicher
-c_traungau_adj                        ;        ;Traungau;;
+c_osterreich_adj                      ;Austrian;Österreich;;Viennese
+c_traungau_adj                        ;Traungau;Traungau;;Traungauer
 c_kuenring_adj                        ;        ;Kuenring;;
 c_schaunberg_adj                      ;        ;Schaunberg;;
 #Niederbayern,,,,,,,,,,,,;;;;
-c_niederbayern_adj                    ;Bogen   ;Bogen;;Niederbayerian
+c_niederbayern_adj                    ;Bogen   ;Bogen;;Chamer
 c_passau_adj                          ;Passau  ;Passau;;Passauian
 c_ortenberg_adj                       ;        ;Ortenberg;;
 c_abensberg_adj                       ;        ;Abensberg;;
 #Oberbayern,,,,,,,,,,,,;;;;
-c_oberbayern_adj                      ;Scheyern;Scheyern;;Oberbayerian
+c_oberbayern_adj                      ;Scheyern;Scheyern;;Freisinger
 c_andechs_adj                         ;        ;Andechs;;
 c_kraiburg_adj                        ;        ;Kraiburg;;
 #Nordgau,,,,,,,,,,,,;;;;
@@ -149,19 +149,19 @@ c_sulzbach_adj                        ;        ;Sulzbach;;
 c_hirschberg_adj                      ;        ;Hirschberg;;
 c_leuchtenberg_adj                    ;        ;Leuchtenberg;;
 #Tirol,,,,,,,,,,,,;;;;
-c_tirol_adj                           ;Tyrolean;Tirol;;Tyrolian
+c_tirol_adj                           ;Tyrolean;Tirol;;Landecker
 c_trent_adj                           ;Tridentine;Trient;;Trentian
 c_lienz_adj                           ;        ;Lienz;;
 ######Carinthia;;;;
 #Kärnten,,,,,,,,,,,,,;;;;
-c_karnten_adj                         ;Carinthian;Kärnten;;Karntenian
-c_krain_adj                           ;Carniolan;Krain;;Krainian
+c_karnten_adj                         ;Carinthian;Kärnten;;Villachian
+c_krain_adj                           ;Carniolan;Krain;;Chreinian
 c_windische_mark_adj                  ;        ;Windische Mark;;
 #Steirmark,,,,,,,,,,,,,;;;;
-c_steiermark_adj                      ;Styrian ;Steiermark;;Steiermarkian
+c_steiermark_adj                      ;Styrian ;Steiermark;;Styrian
 c_eppenstein_adj                      ;        ;Eppenstein;;
 c_celje_adj                           ;        ;Cilli;;
-c_pitten_adj                          ;        ;Pitten;;
+c_pitten_adj                          ;Pitten  ;Pitten;;Pittenian
 #Friuli,,,,,,,,,,,,,;;;;
 c_aquileia_adj                        ;Aquileian;Aquileia;;Aquileian
 c_gorz_adj                            ;        ;Görz;;
@@ -182,27 +182,27 @@ c_nurnberg_adj                        ;Nurembergian;Nürnberg;;Nürnbergian
 c_truhendingen_adj                    ;        ;Truhendingen;;
 c_sonneberg_adj                       ;        ;Sonneberg;;
 #Ostfranken,,,,,,,,,,,,;;;;
-c_wurzburg_adj                        ;        ;Würzburg;;
+c_wurzburg_adj                        ;Würzburg;Würzburg;;Wurzburger
 c_henneberg_adj                       ;        ;Henneberg;;
 c_bamberg_adj                         ;Bamberg ;Bamberg;;Bambergian
 c_hohenlohe_adj                       ;        ;Hohenlohe;;
 c_wertheim_adj                        ;        ;Wertheim;;
 #Westfranken,,,,,,,,,,,,;;;;
-c_nassau_adj                          ;Nassau  ;Nassau;;Nassauian
+c_nassau_adj                          ;Nassau  ;Nassau;;Fritzlarer
 c_hanau_adj                           ;        ;Hanau;;
 c_katzenelbogen_adj                   ;        ;Katzenelbogen;;
 c_sayn_adj                            ;        ;Sayn;;
 #Mainz,,,,,,,,,,,,;;;;
 c_mainz_adj                           ;Mainz   ;Mainz;;Mainzian
 #Pfalz,,,,,,,,,,,,;;;;
-c_pfalz_adj                           ;Palatine;Pfalz;;Pfalzian
-c_leiningen_adj                       ;Leiningen;Leiningen;;Leiningian
+c_pfalz_adj                           ;Palatine;Pfalz;;Worms
+c_leiningen_adj                       ;Leiningen;Leiningen;;Aschaffenburger
 c_sponheim_adj                        ;        ;Sponheim;;
 c_zweibrucken_adj                     ;        ;Zweibrücken;;
 ######Saxony;;;;
 #Engern,,,,,,,,,,,,,,,,;;;;
 c_stade_adj                           ;        ;Stade;;
-c_bremen_adj                          ;Bremian ;Bremen;;Bremenian
+c_bremen_adj                          ;Bremian ;Bremen;;Hadelner
 c_hoya_adj                            ;        ;Hoya;;
 c_schaumburg_adj                      ;        ;Schauenburg;;
 c_oldenburg_adj                       ;Oldenburg;Oldenburg;;Oldenburgian
@@ -210,7 +210,7 @@ c_lippe_adj                           ;        ;Lippe;;
 #Braunschweig-Lüneburg,,,,,,,,,,,,,,,,;;;;
 c_luneburg_adj                        ;Lüneburgian;Lüneburg;;Lüneburgian
 c_braunschweig_adj                    ;Brunswickian;Braunschweig;;Braunschweigian
-c_gottingen_adj                       ;Northeim;Northeim;;Göttingian
+c_gottingen_adj                       ;Northeim;Northeim;;Paderborner
 c_everstein_adj                       ;        ;Everstein;;
 c_blankenburg_adj                     ;        ;Blankenburg;;
 #Westfalen,,,,,,,,,,,,,,,,;;;;
@@ -223,15 +223,15 @@ c_tecklenburg_adj                     ;        ;Tecklenburg;;
 #Holstein,,,,,,,,,,,,,,,,;;;;
 c_holstein_adj                        ;Rendsburg;Rendsburg;;Holsteinian
 c_hamburg_adj                         ;Stormarn;Stormarn;;Hamburgian
-c_dithmarschen_adj                    ;Ditmarsian;Dithmarschen;;
+c_dithmarschen_adj                    ;Ditmarsian;Dithmarschen;;Dithmarscher
 #Wittenberg,,,,,,,,,,,,,,,,;;;;
 c_wittenberg_adj                      ;        ;Wittenberg;;
-c_anhalt_adj                          ;Anhaltian;Anhalt;;Anhaltian
+c_anhalt_adj                          ;Anhaltian;Anhalt;;Zerwisti
 c_brehna_adj                          ;        ;Brehna;;
 c_mansfeld_adj                        ;        ;Mansfeld;;
 #Meissen,,,,,,,,,,,,,,,,;;;;
 c_meissen_adj                         ;Meissen ;Meissen;;Meissian
-c_plauen_adj                          ;Vogtland;Voigtland;;Plauenian
+c_plauen_adj                          ;Vogtland;Voigtland;;Merseburger
 c_groitzsch_adj                       ;        ;Groitzsch;;
 c_landsberg_adj                       ;        ;Landsberg;;
 #Lausitz,,,,,,,,,,,,,,,,;;;;
@@ -245,15 +245,15 @@ c_dannenberg_adj                      ;        ;Dannenberg;;
 #Böhmen,;;;;
 c_praha_adj                           ;Praguian;Praha;;Pragian
 c_hradec_adj                          ;Hradec Králové;Hradec;;Hradecian
-c_boleslav_adj                        ;Kladsko ;Kladsko;;Boleslavian
+c_boleslav_adj                        ;Kladsko ;Kladsko;;
 c_plzen_adj                           ;Plzen   ;Plzen;;Plzenian
-c_domazlice_adj                       ;Doudleby;Doudleby;;Domazlician
-c_zatec_adj                           ;        ;Zatec;;
+c_domazlice_adj                       ;Doudleby;Doudleby;;South-Bohemian
+c_zatec_adj                           ;Žatec   ;Zatec;;Zatecian
 #Morava,;;;;
 c_brno_adj                            ;Brno    ;Brno;;Brünnian
 c_olomuc_adj                          ;        ;Olomuc;;
 c_znojmo_adj                          ;Znojmo  ;Znojmo;;Znojmo
-c_opava_adj                           ;        ;Opava;;
+c_opava_adj                           ;Opava   ;Opava;;Opavian
 ######;;;;
 ####Wenden;;;;
 #Lübeck;;;;
@@ -276,12 +276,12 @@ c_belgard_adj                         ;        ;Belgard;;
 c_danzig_adj                          ;Danzig  ;Danzig;;Danziger
 c_swiecie_adj                         ;        ;Schwetz;;
 #Brandenburg;;;;
-c_brandenburg_adj                     ;        ;Mittelmark;;
-c_altmark_adj                         ;Altmark ;Altmark;;Altmarkian
-c_magdeburg_adj                       ;        ;Magdeburg;;
+c_brandenburg_adj                     ;Mittelmark;Mittelmark;;Brandenburger
+c_altmark_adj                         ;Altmark ;Altmark;;Werbener
+c_magdeburg_adj                       ;Magdeburg;Magdeburg;;Magdeburger
 c_prignitz_adj                        ;        ;Prignitz;;
 #Lebus;;;;
-c_neumark_adj                         ;        ;Neumark;;
+c_neumark_adj                         ;Neumark ;Neumark;;Neumarkian
 c_neumark_adj_polish                  ;Cedynia ;Cedynia;;
 c_neumark_adj_bohemian                ;Cedynia ;Cedyne;;
 c_neumark_adj_moravian                ;Cedynia ;Cedyne;;
@@ -289,7 +289,7 @@ c_neumark_adj_pommeranian             ;Cedynia ;Cediniô;;
 c_neumark_adj_croatian                ;Cedynia ;Cedynia;;
 c_neumark_adj_bosnian                 ;Cedynia ;Cedynia;;
 c_neumark_adj_serbian                 ;Cedynia ;Cedynia;;
-c_neumark_adj_karantanci              ;Cedynia ;Cedynia;;
+c_neumark_adj_carantanian             ;Cedynia ;Cedynia;;
 c_neumark_adj_bulgarian               ;Cedynia ;Cedynia;;
 c_neumark_adj_russian                 ;Cedynia ;Cedynye;;
 c_lubusz_adj                          ;Küstrin ;Küstrin;;Lubuszian
@@ -300,7 +300,7 @@ c_lubusz_adj_pommeranian              ;Kostrzyn;Cozsterine;;
 c_lubusz_adj_croatian                 ;Kostrzyn;Cozsterine;;
 c_lubusz_adj_bosnian                  ;Kostrzyn;Cozsterine;;
 c_lubusz_adj_serbian                  ;Kostrzyn;Cozsterine;;
-c_lubusz_adj_karantanci               ;Kostrzyn;Cozsterine;;
+c_lubusz_adj_carantanian              ;Kostrzyn;Cozsterine;;
 c_lubusz_adj_bulgarian                ;Kostrzyn;Cozsterine;;
 c_lubusz_adj_russian                  ;Kostrzyn;Cozsterine;;
 c_santok_adj                          ;        ;Zantoch;;
@@ -311,22 +311,22 @@ c_santok_adj_pommeranian              ;        ;Santok;;
 c_santok_adj_croatian                 ;        ;Santok;;
 c_santok_adj_bosnian                  ;        ;Santok;;
 c_santok_adj_serbian                  ;        ;Santok;;
-c_santok_adj_karantanci               ;        ;Santok;;
+c_santok_adj_carantanian              ;        ;Santok;;
 c_santok_adj_bulgarian                ;        ;Santok;;
 c_santok_adj_russian                  ;        ;Santok;;
 ######;;;;
 #Burgundy,,,,,,,,,,,,,,;;;;
 #Palatine de Burgund;;;;
 c_besancon_adj                        ;Besançon;Besançon;;Besanconian
-c_montbeliard_adj                     ;        ;Montbéliard;;
-c_vesoul_adj                          ;        ;Vesoul;;
+c_montbeliard_adj                     ;Montbéliard;Montbéliard;;Montbeliardian
+c_vesoul_adj                          ;Vesoul  ;Vesoul;;Burgundian
 c_dole_adj                            ;        ;Dole;;
 #Zähringen,;;;;
 c_rheinfelden_adj                     ;        ;Rheinfelden;;
 c_gruyere_adj                         ;        ;Gruyère;;
 c_neuchatel_adj                       ;Neuchâtel;Neuchâtel;;Neuchatelian
 c_basel_adj                           ;        ;Basel;;
-c_vaud_adj                            ;        ;Vaud;;
+c_vaud_adj                            ;Vaud    ;Vaud;;Vaudois
 #Savoie;;;;
 c_savoie_adj                          ;Savoyard;Savoie;;Savoian
 c_geneve_adj                          ;Genevan ;Geneve;;Genevan
@@ -334,7 +334,7 @@ c_chablais_adj                        ;        ;Chablais;;
 c_valais_adj                          ;Valais  ;Valais;;Valaisian
 c_bresse_adj                          ;        ;Bresse;;
 #Dauphineé;;;;
-c_dauphine_viennois_adj               ;        ;Viennois;;
+c_dauphine_viennois_adj               ;Viennois;Viennois;;Dauphiner
 c_graisivaudan_adj                    ;        ;Graisvaudan;;
 c_lyon_adj                            ;Lyonnais;Lyon;;Lyonnais
 #Markgriavte of Provence,;;;;
@@ -352,17 +352,17 @@ c_plock_adj                           ;Plockian;Plock;;Plockian
 c_czersk_adj                          ;Czersk  ;Czersk;;Czerskian
 c_rawamazovia_adj                     ;        ;Rawa;;
 c_poznanskie_adj                      ;Poznan  ;Poznan;;Poznanskian
-c_gnieznienskie_adj                   ;Gniezno ;Gniezno;;Gnieznienskian
+c_gnieznienskie_adj                   ;Gniezno ;Gniezno;;Naklan
 c_kaliskie_adj                        ;Kalisz  ;Kalisz;;Kaliskian
 c_krakowskie_adj                      ;Krakow  ;Krakow;;Krakowskian
 c_sacz_adj                            ;Stary Sacz;Sandec;;Saczian
-c_sieradzko-leczyckie_adj             ;Sieradz ;Sieradz;;Sieradzko-Leczyckian
+c_sieradzko-leczyckie_adj             ;Sieradz ;Sieradz;;Gostynian
 c_leczyca_adj                         ;        ;Leczyca;;
 c_sandomierskie_adj                   ;Sandomierz;Sandomierz;;Sandomierskian
 c_wislica_adj                         ;        ;Wislica;;
 c_wroclaw_adj                         ;        ;Wroclaw;;
 c_glogow_adj                          ;        ;Glogów;;
-c_opole_adj                           ;Opolian ;Opole;;Opolian
+c_opole_adj                           ;Opolian ;Opole;;Upper Silesian
 c_legnica_adj                         ;        ;Legnica;;
 c_cieszyn_adj                         ;Racibórz;Racibórz;;Cieszyan
 c_inowroclaw_adj                      ;        ;Inowroclaw;;
@@ -371,7 +371,7 @@ c_kujawy_adj                          ;Brzesc  ;Brzesc;;Kujawian
 c_odishi_adj                          ;        ;Odishian;;
 c_hereti_adj                          ;Heretian;Heretian;;
 c_jiqeti_adj                          ;        ;Jiqetian;;
-c_klarjeti_adj                        ;Klarjetian;Klarjetian;;
+c_klarjeti_adj                        ;Klarjetian;Klarjetian;;Klarjetian
 c_simsir_adj                          ;        ;Simsirian;;
 c_tusheti_adj                         ;Tushetian;Tushetian;;
 c_racha_adj                           ;        ;Rachaian;;
@@ -623,10 +623,10 @@ c_charpete_adj_turkmen                ;        ;Harputian;;
 c_charpete_adj_turkish                ;        ;Harputian;;
 c_charpete_adj_kurdish                ;        ;Xarpetan;;
 #Sweden,,,,,,,,,,,,,,;;;;
-c_finnveden_adj                       ;        ;Finnvedenr;;
+c_finnveden_adj                       ;Finnveden;Finnvedenr;;Finnvedian
 c_attundaland_adj                     ;        ;Attundalandr;;
 c_fjadrundaland_adj                   ;        ;Fjädrundalandr;;
-c_skara_adj                           ;        ;Skarar;;
+c_skara_adj                           ;Skara   ;Skarar;;Skaran
 c_more_adj                            ;Möre    ;Mörer;;Mörian
 c_tjust_adj                           ;Värend  ;Värendr;;Tjustian
 #Italy,,,,,,,,,,,,,,;;;;
@@ -651,7 +651,7 @@ c_alvito_adj                          ;Alvitan ;Alvito;;
 c_marsi_adj                           ;        ;Marsi;;
 c_manopello_adj                       ;        ;Manopello;;
 c_cosenza_adj                         ;        ;Tarsia;;
-c_catanzaro_adj                       ;Catanzarese;Catanzaro;;
+c_catanzaro_adj                       ;Catanzarese;Catanzaro;;Catanzaron
 c_reggio_adj                          ;Gerace  ;Gerace;;Reggioian
 c_palermo_adj                         ;Palermitan;Palermo;;Palermian
 c_messina_adj                         ;Geraci  ;Geraci;;Messinian
@@ -660,7 +660,7 @@ c_modica_adj                          ;Modican ;Modica;;
 c_agrigento_adj                       ;Butera  ;Butera;;Girgentian
 c_trapani_adj                         ;Aderno  ;Aderno;;Trapanian
 c_malta_adj                           ;Maltese ;Malta;;Maltese
-c_aprutium_adj                        ;Abruzzese;Aprutio;;Aprutian
+c_aprutium_adj                        ;Abruzzese;Aprutio;;Aquiline
 c_venezia_adj                         ;Venetian;Venezia;;Venezian
 c_cinarca_adj                         ;Cinarca ;Cinarca;;Cinarcan
 c_ceccano_adj                         ;        ;Ceccano;;
@@ -674,7 +674,7 @@ c_este_adj                            ;        ;Este;;
 c_ravenna_adj                         ;Ravennate;Ravenna;;Ravennian
 c_bologna_adj                         ;Romagna ;Romagna;;Bolognian
 c_dovadola_adj                        ;        ;Dovadola;;
-c_rimini_adj                          ;Riminese;Rimini;;
+c_rimini_adj                          ;Riminese;Rimini;;Riminese
 c_ancona_adj                          ;Anconitan;Ancona;;Anconian
 c_bagnacavallo_adj                    ;        ;Bagnacavallo;;
 c_camerino_adj                        ;        ;Camerino;;
@@ -704,7 +704,7 @@ c_piacenza_adj                        ;Piacentine;Piacenza;;
 c_saluzzo_adj                         ;Auriate ;Auriate;;Saluzzian
 c_pombia_adj                          ;        ;Pombia;;
 c_vercelli_adj                        ;        ;Vercelli;;
-c_aosta_adj                           ;Aostan  ;Aosta;;
+c_aosta_adj                           ;Aostan  ;Aosta;;Aostan
 c_susa_adj                            ;        ;Susa;;
 c_asti_adj                            ;Astigiani;Asti;;
 c_bosco_adj                           ;        ;Bosco;;
@@ -723,7 +723,7 @@ c_luni_adj                            ;        ;Luni;;
 c_prato_adj                           ;        ;Prato;;
 c_biserno_adj                         ;Volterran;Volterra;;
 c_firenze_adj                         ;Florentine;Firenze;;Florentine
-c_arezzo_adj                          ;Aretine ;Arezzo;;
+c_arezzo_adj                          ;Aretine ;Arezzo;;Arretine
 c_siena_adj                           ;Sienese ;Siena;;Sienian
 c_piombino_adj                        ;Santa Fiora;Santafiora;;Piombinian
 c_orbetello_adj                       ;Pitigliano;Pitgliano;;Orbetellian
@@ -732,8 +732,8 @@ c_scialenga_adj                       ;        ;Scialenga;;
 c_casentino_adj                       ;        ;Casentino;;
 c_modigliana_adj                      ;        ;Modigliana;;
 #Moldovia,,,,,,,,,,,,,,;;;;
-c_bacau_adj                           ;        ;Bacauian;;
-c_iasi_adj                            ;Iasian  ;Iasian;;
+c_bacau_adj                           ;Bacau   ;Bacauian;;Bacauian
+c_iasi_adj                            ;Iasian  ;Iasian;;Iasian
 c_targujiu_adj                        ;        ;Targu Jiuan;;
 c_buzau_adj                           ;        ;Buzauan;;
 c_ialomita_adj                        ;        ;Ialomitan;;
@@ -747,14 +747,14 @@ c_albi_adj                            ;        ;Albi;;
 c_beziers_adj                         ;        ;Besièrs;;
 c_beauvais_adj                        ;        ;Beauvais;;
 c_rethel_adj                          ;        ;Réthel;;
-c_sancerre_adj                        ;        ;Sancerre;;
+c_sancerre_adj                        ;Sancerre;Sancerre;;Sancerrian
 c_archreims_adj                       ;        ;Reims;;
 c_bourges_adj                         ;Bourges ;Bourges;;Bourgesian
 c_champagne_adj                       ;        ;Troyes;;
 c_tonnerre_adj                        ;        ;Tonnerre;;
 c_langres_adj                         ;        ;Langres;;
-c_brie_adj                            ;Brie    ;Brie;;
-c_perche_adj                          ;        ;Perche;;
+c_brie_adj                            ;Brie    ;Brie;;Briard
+c_perche_adj                          ;Perche  ;Perche;;Perchian
 c_velay_adj                           ;        ;Velai;;
 c_comminges_adj                       ;        ;Comenge;;
 c_turenne_adj                         ;        ;Ventadorn;;
@@ -778,9 +778,9 @@ c_bigorre_adj                         ;        ;Bigorre;;
 c_quercy_adj                          ;        ;Quercy;;
 c_aunis_adj                           ;        ;Aunis;;
 c_laval_adj                           ;        ;Laval;;
-c_bourbon_adj                         ;        ;Bourbon;;
-c_ponthieu_adj                        ;        ;Ponthieu;;
-c_artois_adj                          ;        ;Artois;;
+c_bourbon_adj                         ;Bourbon ;Bourbon;;Bourbouner
+c_ponthieu_adj                        ;Ponthieu;Ponthieu;;Ponthian
+c_artois_adj                          ;Artois  ;Artois;;Artoisan
 c_porhoet_adj                         ;        ;Porhoët;;
 c_ventadour_adj                       ;        ;Ventadour;;
 c_mortain_adj                         ;        ;Mortain;;
@@ -854,7 +854,7 @@ c_cephalonia_adj_sicilian             ;        ;Cephalonian;;
 c_cephalonia_adj_italian              ;        ;Cephalonian;;
 c_cephalonia_adj_frankish             ;        ;Cephalonian;;
 c_cephalonia_adj_norman               ;        ;Cephalonian;;
-c_corfu_adj                           ;Kerkyra ;Kerkyran;;
+c_corfu_adj                           ;Kerkyra ;Kerkyran;;Corfuer
 c_corfu_adj_oghuz                     ;Corfu   ;Körfuan;;
 c_corfu_adj_turkmen                   ;Corfu   ;Körfuan;;
 c_corfu_adj_turkish                   ;Corfu   ;Körfuan;;
@@ -1128,7 +1128,7 @@ c_thessalonike_adj_pommeranian        ;        ;Solunian;;
 c_thessalonike_adj_croatian           ;        ;Solunian;;
 c_thessalonike_adj_bosnian            ;        ;Solunian;;
 c_thessalonike_adj_serbian            ;        ;Solunian;;
-c_thessalonike_adj_karantanci         ;        ;Solunian;;
+c_thessalonike_adj_carantanian        ;        ;Solunian;;
 c_thessalonike_adj_bulgarian          ;        ;Solunian;;
 c_thessalonike_adj_dalmatian          ;        ;Tessalonican;;
 c_thessalonike_adj_venetian           ;        ;Tessalonican;;
@@ -1159,7 +1159,7 @@ c_strymon_adj_turkmen                 ;Serres  ;Serezian;;
 c_strymon_adj_turkish                 ;Serres  ;Serezian;;
 c_strymon_adj_serbian                 ;Serres  ;Serian;;
 c_strymon_adj_bulgarian               ;Serres  ;Syarian;;
-c_traianopolis_adj                    ;Traianoupolis;Traianopolitan;;
+c_traianopolis_adj                    ;Traianoupolis;Traianopolitan;;Traiani
 c_traianopolis_adj_oghuz              ;Demotika;Demotikan;;
 c_traianopolis_adj_turkmen            ;Demotika;Demotikan;;
 c_traianopolis_adj_turkish            ;Demotika;Demotikan;;
@@ -1182,7 +1182,7 @@ c_byzantion_adj_pommeranian           ;Tsargrad;Tsargradian;;
 c_byzantion_adj_croatian              ;Tsargrad;Tsargradian;;
 c_byzantion_adj_bosnian               ;Tsargrad;Tsargradian;;
 c_byzantion_adj_serbian               ;Tsargrad;Tsargradian;;
-c_byzantion_adj_karantanci            ;Tsargrad;Tsargradian;;
+c_byzantion_adj_carantanian           ;Tsargrad;Tsargradian;;
 c_byzantion_adj_bulgarian             ;Tsargrad;Tsargradian;;
 c_byzantion_adj_norwegian             ;        ;Miklagarðrian;;
 c_byzantion_adj_danish                ;        ;Miklagarðrian;;
@@ -1302,7 +1302,7 @@ c_paphlagonia_adj_norman              ;        ;Paphlagonian;;
 c_paphlagonia_adj_oghuz               ;Kastamonu;Kastamúniyyan;;
 c_paphlagonia_adj_turkmen             ;Kastamonu;Kastamúniyyan;;
 c_paphlagonia_adj_turkish             ;Kastamonu;Kastamúniyyan;;
-c_amastris_adj                        ;        ;Amastrian;;
+c_amastris_adj                        ;Amasra  ;Amastrian;;Amastrian
 c_amastris_adj_oghuz                  ;        ;Amasran;;
 c_amastris_adj_turkmen                ;        ;Amasran;;
 c_amastris_adj_turkish                ;        ;Amasran;;
@@ -1583,7 +1583,7 @@ c_archelais_adj                       ;Colonian;Archelaïsan;;
 c_archelais_adj_oghuz                 ;Aksaray ;Ak Sarayan;;
 c_archelais_adj_turkmen               ;Aksaray ;Ak Sarayan;;
 c_archelais_adj_turkish               ;Aksaray ;Ak Sarayan;;
-c_nyssa_adj                           ;        ;Nyssan;;
+c_nyssa_adj                           ;Nyssa   ;Nyssan;;Nyssan
 c_nyssa_adj_oghuz                     ;        ;Kuš Hisaran;;
 c_nyssa_adj_turkmen                   ;        ;Kuš Hisaran;;
 c_nyssa_adj_turkish                   ;        ;Kuš Hisaran;;
@@ -1632,7 +1632,7 @@ c_sozopolis_adj                       ;Pisidian;Pisidian;;Sozopolisian
 c_sozopolis_adj_oghuz                 ;Hamidid ;Hamidian;;
 c_sozopolis_adj_turkmen               ;Hamidid ;Hamidian;;
 c_sozopolis_adj_turkish               ;Hamidid ;Hamidian;;
-c_amorion_adj                         ;Amorian ;Amorian;;
+c_amorion_adj                         ;Amorian ;Amorian;;Amoran
 c_amorion_adj_oghuz                   ;        ;Amúriyyan;;
 c_amorion_adj_turkmen                 ;        ;Amúriyyan;;
 c_amorion_adj_turkish                 ;        ;Amúriyyan;;
@@ -2118,13 +2118,13 @@ c_maragheh_adj                        ;        ;Maraghean;;
 #Spain,,,,,,,,,,,,,,;;;;
 c_pontevedra_adj                      ;        ;Pontevedresa;;
 c_eivissa_adj                         ;Ibizan  ;Ibicenca;;
-c_lugo_adj                            ;        ;Lucense;;
+c_lugo_adj                            ;Lugo    ;Lucense;;Lugoisi
 c_lemos_adj                           ;Monforte;Monfortina;;
-c_jaen_adj                            ;        ;Jienense;;
+c_jaen_adj                            ;Jaén    ;Jienense;;Jaeni
 c_toro_adj                            ;        ;Toresana;;
-c_ciudad_rodrigo_adj                  ;        ;Mirobriguense;;
+c_ledesma_adj                         ;        ;Ledesma;;
 c_thomar_adj                          ;        ;Nabantina;;
-c_palencia_adj                        ;Palencian;Palentina;;
+c_palencia_adj                        ;Palencian;Palentina;;Palencian
 c_medina_del_campo_adj                ;Medinan ;Medinense;;
 c_avila_adj                           ;        ;Abulense;;
 c_segovia_adj                         ;Segovian;Segoviana;;
@@ -2160,7 +2160,7 @@ c_luki_adj                            ;        ;Luki;;
 c_beloozero_adj                       ;Belozersk;Beloozero;;Belo Ozerian
 c_mologa_adj                          ;        ;Mologa;;
 c_vologda_adj                         ;Vologda ;Vologda;;Vologdan
-c_trans-portage_adj                   ;Pomor’e ;Pomorye;;Onegian
+c_trans-portage_adj                   ;Pomor’e ;Pomorye;;Onegan
 c_tver_adj                            ;Tver    ;Tver;;Tverian
 c_uglich_adj                          ;Uglich  ;Uglich;;Uglichian
 c_volokolamsk_adj                     ;        ;Volok Lamskiy;;
@@ -2175,15 +2175,15 @@ c_galich_mersky_adj                   ;Galich  ;Galich Merskiy;;Galich Merskyian
 c_nizhny_novgorod_adj                 ;Nizhny Novgorodian;Nizhny Novgorod;;Nizhny Novgorodian
 c_gorodez_adj                         ;Gorodets;Radilov;;Gorodetsian
 c_ryazan_adj                          ;Ryazan  ;Ryazan;;Ryazanian
-c_kolomna_adj                         ;Kolomna ;Kolomna;;Kolomnian
+c_kolomna_adj                         ;Kolomna ;Kolomna;;Tula
 c_pronsk_adj                          ;Pronsk  ;Pronsk;;Pronskian
 c_murom_adj                           ;Muromian;Murom;;Muromian
 c_kadom_adj                           ;        ;Kadom;;
-c_kozelsk_adj                         ;        ;Kezel';;
-c_novosil_adj                         ;        ;Novosil;;
+c_kozelsk_adj                         ;Kozelsk ;Kezel';;Kozelskian
+c_novosil_adj                         ;Novosil ;Novosil;;Novosilian
 c_tarusa_adj                          ;        ;Tarusa;;
-c_vorotynsk_adj                       ;        ;Vorotynsk;;
-c_karachev_adj                        ;        ;Karachev;;
+c_vorotynsk_adj                       ;Vorotynsk;Vorotynsk;;Vorotynskian
+c_karachev_adj                        ;Karachev;Karachev;;Karachevian
 c_obolensk_adj                        ;        ;Obolensk;;
 c_moskva_adj                          ;Muscovite;Moskva;;Muscovite
 c_mozhaysk_adj                        ;Mozhaysk;Mozhaysk;;Mozhayskian
@@ -2210,7 +2210,7 @@ c_turov_adj                           ;Turovian;Turov;;Turovian
 c_pinsk_adj                           ;Pinsk   ;Pinsk;;Pinskian
 c_jacwiez_adj                         ;Vawkavysk;Navhrudka;;Grodnian
 c_novgorod_seversky_adj               ;Novhorod-Siverskyi;Novgorod Severskiy;;Novgorod-Severskian
-c_kursk_adj                           ;        ;Kursk;;
+c_kursk_adj                           ;Kursk   ;Kursk;;Kurskian
 c_rilsk_adj                           ;        ;Rilsk;;
 c_chernigov_adj                       ;Chernihiv;Chernigov;;Chernigovian
 c_lyubech_adj                         ;Liubech ;Lyubech;;Lyubechian
@@ -2220,38 +2220,38 @@ c_galich_adj                          ;Halychian;Galich;;Galichian
 c_peremyshl_adj                       ;Przemysl;Peremyshl;;Peremyshlian
 c_vladimir_volynsky_adj               ;Volodymyr-Volynsky;Vladimir-Volynskiy;;Vladimir Volynskyan
 c_beresty_adj                         ;Brest   ;Berestye;;Berestian
-c_dorogobuzh_adj                      ;        ;Dorogobuž;;
+c_dorogobuzh_adj                      ;Dorogobuzh;Dorogobuž;;Dorogobuzhian
 c_podlasie_adj                        ;Bielsk  ;Belsk;;Podlasian
-c_belz_adj                            ;        ;Belz;;
+c_belz_adj                            ;Belz    ;Belz;;Belzian
 c_chelm_adj                           ;        ;Chelm;;
 c_lublin_adj                          ;        ;Lublin;;
 c_terebovl_adj                        ;Terebovlia;Terebovl;;Terebovlian
-c_lutsk_adj                           ;        ;Lutsk;;
+c_lutsk_adj                           ;Lutsk   ;Lutsk;;Lutskian
 c_poltava_adj                         ;        ;Ltava;;
 c_hotmysl_adj                         ;        ;Hotmysl;;
 c_belgorod_russia_adj                 ;        ;Belgorod;;
 c_leipel_adj                          ;        ;Logozsk;;
-c_slutsk_adj                          ;        ;Slutsk;;
+c_slutsk_adj                          ;Slutsk  ;Slutsk;;Slutskian
 c_viipuri_adj                         ;Vyborgian;Viipuri;;
 ##Africa,,,,,,,,,,,,,,;;;;
 #Ghana,,,,,,,,,,,,,,;;;;
-c_ghana_adj                           ;Ghanaian;Hodhí;;
+c_ghana_adj                           ;Ghanaian;Hodhí;;Wagadunian
 c_kingui_adj                          ;        ;Kinguí;;
-c_soso_adj                            ;        ;Sosso;;
-c_mema_adj                            ;        ;Meman;;
+c_soso_adj                            ;Sosso   ;Sosso;;Sosian
+c_mema_adj                            ;Méma    ;Meman;;Meman
 c_massina_adj                         ;        ;Massiní;;
-c_djenne_adj                          ;        ;Djenne;;
-c_tagant_adj                          ;        ;Tagantí;;
+c_djenne_adj                          ;Djenné  ;Djenne;;Djenneri
+c_tagant_adj                          ;Tagant  ;Tagantí;;Tagantian
 c_masin_adj                           ;        ;Masiní;;
-c_aoudaghost_adj                      ;        ;Awdaghustí;;
-c_oualata_adj                         ;        ;Walatí;;
+c_aoudaghost_adj                      ;Aoudaghost;Awdaghustí;;Aoudaghosti
+c_oualata_adj                         ;Oualata ;Walatí;;Oualatan
 c_awkar_adj                           ;Awkar   ;Awkarí;;
 #Mali,,,,,,,,,,,,,,;;;;
-c_mali_adj                            ;Malian  ;Malian;;
-c_bure_adj                            ;        ;Burí;;
-c_kiri_adj                            ;        ;Kirí;;
+c_mali_adj                            ;Malian  ;Malian;;Nianian
+c_bure_adj                            ;Bure    ;Burí;;Burenese
+c_kiri_adj                            ;Kita    ;Kirí;;Kirian
 c_sibiridugu_adj                      ;        ;Sibiridugí;;
-c_bambuk_adj                          ;        ;Bambukí;;
+c_bambuk_adj                          ;Bambouk ;Bambukí;;Bambukan
 c_malal_adj                           ;        ;Malalí;;
 c_sikasso_adj                         ;        ;Sikassí;;
 c_binduku_adj                         ;        ;Bindukí;;
@@ -2295,9 +2295,9 @@ c_manupura_adj                        ;Manuf   ;Manúfí;;Manupuran
 c_manupura_adj_greek                  ;Athribis;Athriban;;
 c_buhairya_adj                        ;Al-Hawf al-Gharbi;Hawfí;;Buhairyan
 c_buhairya_adj_greek                  ;Hermopolitan;Hermopolitan;;
-c_gizeh_adj                           ;Giza    ;Gízí;;Gizehian
+c_gizeh_adj                           ;Giza    ;Gízí;;Faiyuman
 c_gizeh_adj_greek                     ;Memphis ;Memphian;;
-c_sarqihya_adj                        ;Clysma  ;Quzlumí;;Sarqihyan
+c_sarqihya_adj                        ;Clysma  ;Qulzumí;;Sarqihyan
 c_sarqihya_adj_greek                  ;        ;Klysman;;
 c_itfih_adj                           ;        ;Itfíhí;;
 c_itfih_adj_greek                     ;        ;Aphroditoupolitan;;
@@ -2315,7 +2315,7 @@ c_quena_adj                           ;Al-Qusayr;Qusayrí;;Quenan
 c_quena_adj_greek                     ;Myos Hormos;Myos Horman;;
 c_manfalut_adj                        ;        ;Manfalútí;;
 c_manfalut_adj_greek                  ;        ;Manbalotan;;
-c_ikhmin_adj                          ;        ;Ikhmíní;;
+c_ikhmin_adj                          ;        ;Akhmímí;;
 c_ikhmin_adj_greek                    ;        ;Panopolitan;;
 c_qus_adj                             ;Qus     ;Qúsí;;
 c_qus_adj_greek                       ;Theban  ;Thebaian;;
@@ -2325,42 +2325,42 @@ c_aswan_adj                           ;Aswan   ;Aswání;;Aswanian
 c_aswan_adj_greek                     ;        ;Syenan;;
 c_senoussi_adj                        ;Awjila  ;Awjílí;;Senoussian
 c_senoussi_adj_greek                  ;        ;Augilan;;
-c_ajadabiya_adj                       ;        ;Ajadabíyí;;
+c_ajadabiya_adj                       ;Ajdabiya;Ajadabíyí;;Ajadabiyan
 c_ajadabiya_adj_greek                 ;        ;Corniclanian;;
 c_benghazi_adj                        ;Barca   ;Barqí;;Benghazian
 c_benghazi_adj_greek                  ;Cyrenian;Kyrenian;;
 c_tobruk_adj                          ;Tobruk  ;Tobrúkí;;Tobrukian
 c_tobruk_adj_greek                    ;        ;Antipyrgian;;
 #Songhay,and,Sahara,,,,,,,,,,,,;;;;
-c_gao_adj                             ;        ;Gaan;;
-c_timbuktu_adj                        ;Timbuktu;Timbuktí;;
-c_tadmekka_adj                        ;        ;Tadmekkí;;
-c_zarma_adj                           ;Kukiya  ;Kukiyí;;Zarman
+c_gao_adj                             ;Gao     ;Gaan;;Gaoan
+c_timbuktu_adj                        ;Timbuktu;Timbuktí;;Timbuktunian
+c_tadmekka_adj                        ;Tadmekka;Tadmekkí;;Tadmekkan
+c_zarma_adj                           ;Kukiya  ;Kukiyí;;Yuarian
 c_tessalit_adj                        ;        ;Tessalití;;
 c_gurma_adj                           ;Ouagadougou;Wagadougí;;Gurman
 c_risiom_adj                          ;        ;Risiomí;;
-c_figuig_adj                          ;Figuig  ;Figuigí;;Figuigian
+c_figuig_adj                          ;Figuig  ;Figuigí;;Tendaran
 c_wallen_adj                          ;        ;Wallení;;
 c_tuat_adj                            ;        ;Touatí;;
 c_elgolea_adj                         ;        ;Qulayí;;
-c_mzab_adj                            ;Mozabite;Mzábí;;Mzabian
+c_mzab_adj                            ;Mozabite;Mzábí;;Ghardaian
 c_wargla_adj                          ;        ;Warjílání;;
 c_ghadames_adj                        ;        ;Ghadamísí;;
 c_hoggar_adj                          ;        ;Hoggarí;;
 c_djanet_adj                          ;        ;Djanítí;;
 #c_ilizi_adj,Ilízí,,,,,,,,,,,,,x;;;;
 c_ghat_adj                            ;        ;Ghátí;;
-c_nafusa_adj                          ;        ;Nafúsí;;
+c_nafusa_adj                          ;Nafusa  ;Nafúsí;;Nafusan
 c_nafusa_adj_greek                    ;        ;Thentean;;
 c_nafusa_adj_roman                    ;        ;Thentean;;
 c_waddan_adj                          ;        ;Waddaní;;
-c_murzuk_adj                          ;        ;Murzukí;;
-c_zawila_adj                          ;        ;Zawílí;;
+c_djarma_adj                          ;        ;Djarmí;;
+c_zawila_adj                          ;Zwila   ;Zawílí;;Zawilan
 c_tummo_adj                           ;        ;Tummí;;
 c_roufra_adj                          ;        ;Koufrí;;
 c_tazerbo_adj                         ;        ;Ghermí;;
-c_bilma_adj                           ;Bilma   ;Bilmí;;
-c_djado_adj                           ;        ;Djadí;;
+c_bilma_adj                           ;Bilma   ;Bilmí;;Bilman
+c_djado_adj                           ;Djado   ;Djadí;;Djadian
 c_agades_adj                          ;        ;Agadí;;
 c_ainazawa_adj                        ;        ;Azáwí;;
 #Africa,,,,,,,,,,,,,,;;;;
@@ -2384,7 +2384,7 @@ c_medjerda_adj_roman                  ;Hadrumetum;Hadrumetan;;
 c_bizerte_adj                         ;Bizerte ;Banzartí;;Bizertenian
 c_bizerte_adj_roman                   ;        ;Hippo Diarrhytan;;
 c_bizerte_adj_greek                   ;        ;Hippo Diarrhytan;;
-c_kairwan_adj                         ;Kairouan;Kairawání;;Kairwanian
+c_kairwan_adj                         ;Kairouan;Qayrawání;;Kairouanian
 c_kairwan_adj_greek                   ;Thysdrus;Thysdrian;;
 c_kairwan_adj_roman                   ;Thysdrus;Thysdrian;;
 c_sfax_adj                            ;        ;Sufáksí;;
@@ -2399,7 +2399,7 @@ c_djerba_adj_greek                    ;        ;Girban;;
 c_nafzawa_adj                         ;Nefzaoua;Nafzáwí;;
 c_nafzawa_adj_greek                   ;        ;Neptian;;
 c_nafzawa_adj_roman                   ;        ;Neptian;;
-c_qashtiliya_adj                      ;        ;Qashtilíyí;;
+c_qashtiliya_adj                      ;Capsian ;Qashtilíyí;;
 c_qashtiliya_adj_greek                ;        ;Capsian;;
 c_qashtiliya_adj_roman                ;        ;Capsian;;
 c_tripolitana_adj                     ;Tripolitanian;Tarábulsí;;Tripolitanian
@@ -2412,13 +2412,13 @@ c_syrte_adj_roman                     ;        ;Macomadian;;
 c_labda_adj                           ;        ;Labdí;;
 c_labda_adj_greek                     ;        ;Quintilianan;;
 c_labda_adj_roman                     ;        ;Quintilianan;;
-c_zawiya_adj                          ;        ;Zawíyí;;
-c_zawiya_adj_greek                    ;        ;Abrotonan;;
-c_zawiya_adj_roman                    ;        ;Abrotonan;;
+c_jafara_adj                          ;Jafara  ;Jafaran;;
+c_jafara_adj_greek                    ;Sabratha;Abrotonan;;
+c_jafara_adj_roman                    ;Sabratha;Abrotonan;;
 c_beni_yanni_adj                      ;Jijel   ;Jijílí;;Beni Yannian
 c_beni_yanni_adj_greek                ;Igilgili;Igilgilan;;
 c_beni_yanni_adj_roman                ;Igilgili;Igilgilan;;
-c_constantine_adj                     ;Constantinian;Kustantíní;;
+c_constantine_adj                     ;Constantinian;Kustantíní;;Constantinian
 c_constantine_adj_greek               ;Cirta   ;Cirtan;;
 c_constantine_adj_roman               ;Cirta   ;Cirtan;;
 c_bejaija_adj                         ;Béjaïa  ;Bijayí;;Bejaijan
@@ -2427,53 +2427,53 @@ c_bejaija_adj_roman                   ;Saldae  ;Saldaian;;
 c_annaba_adj                          ;Annaba  ;Annábí;;Annaban
 c_annaba_adj_greek                    ;        ;Hippo Regian;;
 c_annaba_adj_roman                    ;        ;Hippo Regian;;
-c_setif_adj                           ;Sétif   ;Setifí;;
-c_setif_adj_greek                     ;        ;Setifisan;;
-c_setif_adj_roman                     ;        ;Setifisan;;
-c_ouled_nail_adj                      ;Bou Saâda;Bou Saadí;;Ouled Nailian
+c_setif_adj                           ;Kabylian;Kabylian;;
+c_setif_adj_greek                     ;Setifis ;Setifisan;;
+c_setif_adj_roman                     ;Setifis ;Setifisan;;
+c_ouled_nail_adj                      ;Bou Saâda;Bú Sa'ídí;;Laghouatian
 c_ouled_nail_adj_greek                ;Messad  ;Dimmidan;;
 c_ouled_nail_adj_roman                ;Messad  ;Dimmidan;;
 c_biskra_adj                          ;Biskra  ;Biskrí;;Biskran
 c_biskra_adj_greek                    ;        ;Vesceran;;
 c_biskra_adj_roman                    ;        ;Vesceran;;
-c_tell_atlas_adj                      ;M’Sila  ;Masílí;;Tell Atlasian
+c_tell_atlas_adj                      ;M’Sila  ;Masílí;;Setifian
 c_tell_atlas_adj_greek                ;Lambaesis;Lambaesian;;
 c_tell_atlas_adj_roman                ;Lambaesis;Lambaesian;;
 c_tabassa_adj                         ;        ;Tabassí;;
 c_tabassa_adj_greek                   ;        ;Thevestan;;
 c_tabassa_adj_roman                   ;        ;Thevestan;;
-c_arigh_adj                           ;        ;Aríghí;;
-c_atlas_mnt_adj                       ;Tiaret  ;Táhartí;;Atlas Mountainian
-c_lemdiyya_adj                        ;Achir   ;Achirí;;Lemdiyyan
+c_arigh_adj                           ;Oued Righ;Aríghí;;Arighian
+c_atlas_mnt_adj                       ;Tiaret  ;Táhartí;;Askedalian
+c_lemdiyya_adj                        ;Achir   ;Ashírí;;Tahertian
 c_al_djazair_adj                      ;Algiers ;Djazairí;;Al Djazairian
-c_snassen_adj                         ;Ténès   ;Tanasí;;Snassenian
+c_snassen_adj                         ;Ténès   ;Tanasí;;Wajdan
 c_tlemcen_adj                         ;Tlemcen ;Tilimsání;;Tlemcenian
 c_orania_adj                          ;Oranian ;Wahrání;;Oranian
-c_hanyan_adj                          ;Honaine ;Hunayní;;Hanyanian
+c_hanyan_adj                          ;Honaine ;Hunayní;;Yalálan
 c_tangiers_adj                        ;Tangier ;Tandjí;;Tangieran
-c_cebta_adj                           ;Ceutan  ;Sebtí;;Cebtan
+c_cebta_adj                           ;Ceutan  ;Sebtí;;Ceutan
 c_nakur_adj                           ;        ;Nakúrí;;
 c_fes_adj                             ;Fez     ;Fásí;;Fesian
 c_infa_adj                            ;Rabat   ;Infí;;Infan
 c_sa_adj                              ;        ;Sa'í;;
 c_sala_adj                            ;        ;Salí;;
 c_el_rif_adj                          ;Rif     ;Rífí;;El Rifian
-c_marrakech_adj                       ;Marrakesh;Marrákúshí;;Marrakechi
-c_tharasset_adj                       ;Taroudant;Tarúdantí;;Tamdoulti
-c_anti-atlas_adj                      ;Tin Mal ;Tinmallalí;;Anti-Atlasian
-c_massat_adj                          ;Safi    ;Asfí;;Massatian
+c_marrakech_adj                       ;Marrakesh;Marrákushí;;Marrakechi
+c_tharasset_adj                       ;Taroudant;Tarúdantí;;Sousian
+c_anti-atlas_adj                      ;Tin Mal ;Tinmallalí;;Safian
+c_massat_adj                          ;Safi    ;Asfí;;Anfan
 c_sous_adj                            ;        ;Tinghirí;;
-c_draa_adj                            ;        ;Dra'í;;
-c_ifni_adj                            ;Nul     ;Núlí;;Taroudanti
+c_draa_adj                            ;Draa    ;Dra'í;;Draanian
+c_ifni_adj                            ;Nul     ;Núlí;;Ifnian
 c_tindouf_adj                         ;        ;Tindoufí;;
-c_ouadane_adj                         ;        ;Wadání;;
-c_idjil_adj                           ;        ;Idjílí;;
+c_ouadane_adj                         ;Ouadane ;Wadání;;Ouadanei
+c_idjil_adj                           ;Idjil   ;Idjílí;;Bir Um Greinian
 c_birumgrein_adj                      ;        ;Birumgreiní;;
 c_akjoujt_adj                         ;Akjoujt ;Akjoujtí;;
-c_araouane_adj                        ;        ;Arawání;;
+c_araouane_adj                        ;Araouane;Arawání;;Araouanei
 c_tassarahla_adj                      ;        ;Tassarahlí;;
-c_taghaza_adj                         ;        ;Taghází;;
-c_sijilmasa_adj                       ;        ;Sijilmasí;;
+c_taghaza_adj                         ;Taghaza ;Taghází;;Taghazan
+c_sijilmasa_adj                       ;Sijilmasa;Sijilmásí;;Sijilmasan
 #Prussia,,,,,,,,,,,,,,;;;;
 c_sambia_adj                          ;Sambian ;Sambian;;Sambian
 c_nadruvia_adj                        ;Nadruvian;Nadruvian;;
@@ -2525,7 +2525,7 @@ c_wiltshire_adj_cumbric               ;Old Sarum;Gradawcian;;
 c_wiltshire_adj_breton                ;Old Sarum;Gradawcian;;
 c_wiltshire_adj_cornish               ;Old Sarum;Gradawcian;;
 #,,,,,,,,,,,,,,;;;;
-c_wight_adj                           ;        ;Wightish;;
+c_wight_adj                           ;        ;Wightish;;Wightian
 c_wight_adj_welsh                     ;        ;Weithian;;
 #,,,,,,,,,,,,,,;;;;
 c_dorset_adj                          ;Dorset  ;Dorsetian;;Dorsetian
@@ -3001,20 +3001,20 @@ c_telemark_adj                        ;Telemark;Þelamørkr;;Telemarkian
 c_agder_adj                           ;Agder   ;Agðir;;Agderian
 c_raumrike_adj                        ;        ;Raumríkír;;
 c_gudbrandzdalar_adj                  ;        ;Guðbrandzdœlir;;
-c_oppland_adj                         ;Ringerike;Hringaríkir;;Opplander
-c_hedmark_adj                         ;Hedmark ;Heiðmørkr;;Hedmarkian
+c_oppland_adj                         ;Ringerike;Hringaríkir;;Hedmarking
+c_hedmark_adj                         ;Hedmark ;Heiðmørkr;;Østerdøling
 c_bergenshus_adj                      ;Hordaland;Horðr;;Bergenian
-c_sogn_adj                            ;        ;Sognr;;
+c_sogn_adj                            ;Sogn    ;Sognr;;Sogndølinger
 c_foerde_adj                          ;        ;Firðir;;
 c_nordland_adj                        ;Nordmøre;Norðmœrir;;Nordlander
 c_sunmore_adj                         ;        ;Sunnmœrir;;
-c_romsdal_adj                         ;        ;Raumsdœlir;;
+c_romsdal_adj                         ;Romsdal ;Raumsdœlir;;Romsdalinger
 c_trondelag_adj                       ;Uttrøndelag;Ytriþrœndalóg;;Trondish
 #c_orkanger_adj,Okrdœlir,Okrdœlir,Okrdœlir,,Okrdœlir,,,,,,,,,x;;;;
 c_steinkjer_adj                       ;        ;Innriþrœndalóg;;
-c_halogaland_adj                      ;Hålogaland;Hálogalandr;;Hålogalander
+c_halogaland_adj                      ;Herøy   ;Hálogalandr;;Hålogalander
 c_naumadal_adj                        ;Namdalen;Naumdœlir;;Naumadalian
-c_finnmark_adj                        ;Finnmark;Finnr;;Finnmarkian
+c_finnmark_adj                        ;Rødøy   ;Finnr;;Finnmarkian
 c_jamtland_adj                        ;Jamtish ;Jamtalandr;;Jamtlandic
 c_herjedalen_adj                      ;Härjedalen;Herjárdœlir;;Herjedalian
 c_southisland_adj                     ;        ;Suðurlandr;;
@@ -3023,10 +3023,10 @@ c_nordisland_adj                      ;        ;Norðurlandr;;
 #Wales,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
 c_dyfed_adj                           ;Dyfed   ;Dyfedeg;;Dyfedian
-c_ceredigion_adj                      ;        ;Ceredigioneg;;
+c_ceredigion_adj                      ;Ceredigion;Ceredigioneg;;Ceredigioner
 c_ystrad_tywi_adj                     ;        ;Ystrad Tywieg;;
-c_brycheiniog_adj                     ;        ;Brycheiniogeg;;
-c_anglesey_adj                        ;        ;Ynys Moneg;;
+c_brycheiniog_adj                     ;Brecknock;Brycheiniogeg;;Brycheiner
+c_anglesey_adj                        ;Anglesey;Ynys Moneg;;Anglesee
 c_gwynedd_adj                         ;Gwynedd ;Gwyneddeg;;Gwyneddian
 c_perfeddwlad_adj                     ;Perfeddwlad;Perfeddwladeg;;Perfeddwladian
 c_gwyr_adj                            ;        ;Gwyreg;;
@@ -3063,7 +3063,7 @@ c_lothian_adj                         ;Lothian ;Lodainneach;;Lothian
 c_napuballan_adj                      ;        ;Na Puballaneach;;
 c_salcraig_adj                        ;        ;Salcraigeach;;
 c_teviotdale_adj                      ;Roxburgh;Roxburgheach;;Teviotdalian
-c_moray_adj                           ;        ;Moireibheach;;
+c_moray_adj                           ;Moray   ;Moireibheach;;Morayer
 c_inbhirnarann_adj                    ;        ;Inbhir Naranneach;;
 c_inbhirnis_adj                       ;        ;Inbhir Niseach;;
 c_dunbreatainn_adj                    ;        ;Lennoxeach;;
@@ -3081,12 +3081,12 @@ c_tenerife_adj_zanata                 ;        ;Ašenšen;;
 c_fuerteventura_adj                   ;        ;Fuerteventura;;
 c_fuerteventura_adj_zanata            ;        ;Mahãr-at;;
 #Indian ocean islands,,,,,,,,,,,,,,;;;;
-c_naqis_adj                           ;        ;Naqísí;;
+c_allaqi_adj                          ;        ;Allaqí;;
 #Ireland,,,,,,,,,,,,,,;;;;
 c_brega_adj                           ;        ;Brega;;
 c_offaly_adj                          ;        ;Offalyan;;
 c_cavan_adj                           ;        ;Cavanan;;
-c_hy_many_adj                         ;        ;Hy Many;;
+c_hy_many_adj                         ;Hy Many ;Hy Many;;Mainer
 c_tethbae_adj                         ;        ;Tethbaean;;
 c_tipperary_adj                       ;        ;Tipperaryan;;
 c_wicklow_adj                         ;        ;Wicklowan;;
@@ -3097,7 +3097,7 @@ c_bangor_adj                          ;        ;Bangoran;;
 #Africa,,,,,,,,,,,,,,;;;;
 c_takrur_adj                          ;        ;Takruran;;
 c_silla_adj                           ;        ;Sillaan;;
-c_diafunu_adj                         ;        ;Diafunuan;;
+c_diafunu_adj                         ;Diafunu ;Diafunuan;;Diafunese
 c_say_adj                             ;        ;Sayan;;
 #East,african,,,,,,,,,,,,,;;;;
 c_wolqayt_adj                         ;        ;Wolqayt;;
@@ -3120,19 +3120,19 @@ c_alwa_adj                            ;Alodian ;Alwanan;;
 c_soba_adj                            ;        ;Soban;;
 #Hausaland,,,,,,,,,,,,,,;;;;
 c_tauha_adj                           ;        ;Tauhi;;
-c_gobir_adj                           ;        ;Gobiri;;
-c_kebbi_adj                           ;        ;Kebbi;;
+c_gobir_adj                           ;Gobir   ;Gobiri;;Gobirian
+c_kebbi_adj                           ;Kebbi   ;Kebbi;;Kebbian
 c_yauri_adj                           ;        ;Yauri;;
-c_zamfara_adj                         ;        ;Zamfari;;
+c_zamfara_adj                         ;Zamfara ;Zamfari;;Zamfaran
 #Kanem,,,,,,,,,,,,,,;;;;
-c_katsina_adj                         ;        ;Katsini;;
-c_kano_adj                            ;        ;Kano;;
-c_wadai_adj                           ;        ;Wadai;;
+c_katsina_adj                         ;Katsina ;Katsini;;Katsinan
+c_kano_adj                            ;Kano    ;Kano;;Kanian
+c_wadai_adj                           ;Wadai   ;Wadai;;Wadaian
 c_bagirmi_adj                         ;        ;Bagirmi;;
 c_kanem_adj                           ;        ;Kanem;;
-c_munio_adj                           ;        ;Munii;;
-c_kagha_adj                           ;        ;Kaghi;;
-c_bornu_adj                           ;        ;Bornu;;
+c_munio_adj                           ;Munio   ;Munii;;Munian
+c_kagha_adj                           ;Kaga    ;Kaghi;;Kaghan
+c_bornu_adj                           ;Borno   ;Bornu;;Bornian
 #Adal,,,,,,,,,,,,,,;;;;
 c_assab_adj                           ;Assab   ;Assabi;;Assab
 c_danakil_adj                         ;        ;Danakili;;
@@ -3159,10 +3159,10 @@ c_tigre_adj                           ;Tigrean ;Tigrean;;
 c_lasta_adj                           ;        ;Lastan;;
 c_intarta_adj                         ;        ;Intartan;;
 c_gojjam_adj                          ;Gojjam  ;Gojjami;;Gojjam
-d_timbuktu_adj                        ;        ;Timbuktu;;
+d_timbuktu_adj                        ;Timbuktu;Timbuktu;;Timbuktuan
 #Persia,,,,,,,,,,,,,,;;;;
 c_khwarizm_adj                        ;        ;Khwarizmi;;
-c_sistan_adj                          ;Sistan  ;Sístání;;Jabal Qufian
+c_sistan_adj                          ;Zaranj  ;Sístání;;Jabal Qufian
 c_jask_adj                            ;        ;Jaski;;
 c_baluchistan_adj                     ;        ;Baluchi;;
 c_khiva_adj                           ;Khivan  ;Khivan;;Khivan
@@ -3170,20 +3170,20 @@ c_makran_adj                          ;Tis     ;Tízi;;Makran
 #Germany,,,,,,,,,,,,,,;;;;
 c_hessen_adj                          ;Hesse   ;Hessen;;
 #Russia,,,,,,,,,,,,,,;;;;
-c_karelen_adj                         ;Karelian;Karelenian;;
+c_karelen_adj                         ;Karelian;Karelenian;;Kemian
 c_koporje_adj                         ;        ;Koporjan;;
 #Burgundy,,,,,,,,,,,,,,;;;;
-c_varais_adj                          ;        ;Varai;;
+c_varais_adj                          ;        ;Varai;;Burgundian
 ####Balkan,,,,,,,,,,,,,,;;;;
 ##Serbia,,,,,,,,,,,,,,;;;;
 #Rashka,,,,,,,,,,,,,,;;;;
 c_rashka_adj                          ;Raška   ;Raškan;;Rashkan
 c_rashka_adj_greek                    ;Rascian ;Rascian;;
-c_rashka_adj_east_gothic              ;Rascian ;Rascian;;
+c_rashka_adj_crimean_gothic           ;Rascian ;Rascian;;
 c_rashka_adj_arberian                 ;        ;Rashkëan;;
 c_macva_adj                           ;        ;Macvan;;
 c_macva_adj_greek                     ;        ;Capedounian;;
-c_macva_adj_east_gothic               ;        ;Capedounian;;
+c_macva_adj_crimean_gothic            ;        ;Capedounian;;
 c_macva_adj_german                    ;        ;Matschvan;;
 c_macva_adj_low_german                ;        ;Matschvan;;
 c_macva_adj_low_saxon                 ;        ;Matschvan;;
@@ -3197,7 +3197,7 @@ c_macva_adj_hungarian                 ;        ;Macsóan;;
 c_macva_adj_szekely                   ;        ;Macsóan;;
 c_prizren_adj                         ;        ;Hvosnoan;;
 c_prizren_adj_greek                   ;        ;Petrizenian;;
-c_prizren_adj_east_gothic             ;        ;Petrizenian;;
+c_prizren_adj_crimean_gothic          ;        ;Petrizenian;;
 c_prizren_adj_arberian                ;        ;Prizreni;;
 c_prizren_adj_oghuz                   ;        ;Pürzeynan;;
 c_prizren_adj_turkmen                 ;        ;Pürzeynan;;
@@ -3206,7 +3206,7 @@ c_prizren_adj_pecheneg                ;        ;Pürzeynan;;
 c_belgrade_adj                        ;Belgrade;Belgradan;;Belgradian
 c_belgrade_adj_hungarian              ;        ;Belgrádan;;
 c_belgrade_adj_greek                  ;Singidunum;Singidounan;;
-c_belgrade_adj_east_gothic            ;Singidunum;Singidounan;;
+c_belgrade_adj_crimean_gothic         ;Singidunum;Singidounan;;
 c_belgrade_adj_roman                  ;Singidunum;Singidunuman;;
 c_belgrade_adj_italian                ;        ;Belgradoese;;
 c_belgrade_adj_venetian               ;        ;Belgradoese;;
@@ -3221,17 +3221,17 @@ c_belgrade_adj_dalmatian              ;        ;Belgradoese;;
 c_belgrade_adj_sicilian               ;        ;Belgradoese;;
 #Zachlumia,,,,,,,,,,,,,,;;;;
 c_polimlje_adj                        ;        ;Polimljan;;
-c_hum_adj                             ;Drina   ;Podrinjan;;Humian
+c_hum_adj                             ;Drina   ;Podrinjan;;Rasi
 c_hum_adj_greek                       ;        ;Dreinosan;;
-c_hum_adj_east_gothic                 ;        ;Dreinosan;;
+c_hum_adj_crimean_gothic              ;        ;Dreinosan;;
 c_hum_adj_roman                       ;        ;Drinusan;;
 c_zachlumia_adj                       ;Podgorje;Podgorjan;;Zachlumian
 c_zachlumia_adj_greek                 ;Zachlumian;Zachloumian;;
-c_zachlumia_adj_east_gothic           ;Zachlumian;Zachloumian;;
+c_zachlumia_adj_crimean_gothic        ;Zachlumian;Zachloumian;;
 #Zeta,,,,,,,,,,,,,,;;;;
 c_travunija_adj                       ;        ;Travunijan;;
 c_travunija_adj_greek                 ;        ;Terbounian;;
-c_travunija_adj_east_gothic           ;        ;Terbounian;;
+c_travunija_adj_crimean_gothic        ;        ;Terbounian;;
 c_travunija_adj_italian               ;        ;Trebignan;;
 c_travunija_adj_venetian              ;        ;Trebignan;;
 c_travunija_adj_ligurian              ;        ;Trebignan;;
@@ -3244,7 +3244,7 @@ c_travunija_adj_sardinian             ;        ;Trebignan;;
 c_travunija_adj_dalmatian             ;        ;Trebignan;;
 c_travunija_adj_sicilian              ;        ;Trebignan;;
 c_zeta_adj_greek                      ;Dukljan ;Diokleian;;
-c_zeta_adj_east_gothic                ;Dukljan ;Diokleian;;
+c_zeta_adj_crimean_gothic             ;Dukljan ;Diokleian;;
 c_zeta_adj_roman                      ;Dioclean;Dioclean;;
 c_zeta_adj_oghuz                      ;Montenegrin;Karadagan;;
 c_zeta_adj_turkmen                    ;Montenegrin;Karadagan;;
@@ -3252,7 +3252,7 @@ c_zeta_adj_turkish                    ;Montenegrin;Karadagan;;
 c_zeta_adj_pecheneg                   ;Montenegrin;Karadagan;;
 c_primorje_adj                        ;        ;Primorjan;;
 c_primorje_adj_greek                  ;        ;Askrivionan;;
-c_primorje_adj_east_gothic            ;        ;Askrivionan;;
+c_primorje_adj_crimean_gothic         ;        ;Askrivionan;;
 c_primorje_adj_italian                ;        ;Càttaran;;
 c_primorje_adj_venetian               ;        ;Càttaran;;
 c_primorje_adj_ligurian               ;        ;Càttaran;;
@@ -3284,7 +3284,7 @@ c_ragusa_adj_dalmatian                ;Ragusan ;Ragusan;;
 c_ragusa_adj_sicilian                 ;Ragusan ;Ragusan;;
 c_ragusa_adj_roman                    ;Ragusian;Ragusian;;
 c_ragusa_adj_greek                    ;Ragusan ;Raguian;;
-c_ragusa_adj_east_gothic              ;Ragusan ;Raguian;;
+c_ragusa_adj_crimean_gothic           ;Ragusan ;Raguian;;
 c_ragusa_adj_frankish                 ;Ragusan ;Ragusan;;
 c_ragusa_adj_norman                   ;Ragusan ;Ragusan;;
 c_ragusa_adj_arpitan                  ;Ragusan ;Ragusan;;
@@ -3338,7 +3338,7 @@ c_veglia_adj_sardinian                ;        ;Veglian;;
 c_veglia_adj_sicilian                 ;        ;Veglian;;
 c_veglia_adj_roman                    ;        ;Curictan;;
 c_veglia_adj_greek                    ;        ;Kyrikonan;;
-c_veglia_adj_east_gothic              ;        ;Kyrikonan;;
+c_veglia_adj_crimean_gothic           ;        ;Kyrikonan;;
 #Southern,Dalmatian,Islands,,,,,,,,,,,,;;;;
 c_hvar_adj                            ;        ;Hvarian;;
 c_brac_adj                            ;        ;Bracan;;
@@ -3383,7 +3383,7 @@ c_zadar_adj_basque                    ;        ;Jadrean;;
 c_krizevci_adj                        ;Vukovar ;Vukovan;;Krizevcian
 c_krizevci_adj_german                 ;        ;Wukowarische;;
 c_krizevci_adj_hungarian              ;        ;Vlcoan;;
-c_syrmia_adj                          ;Syrmian ;Syrmian;;
+c_syrmia_adj                          ;Syrmian ;Syrmian;;Syrmian
 #Slavonia,,,,,,,,,,,,,,;;;;
 c_varazdin_adj                        ;        ;Zagorjean;;
 c_varazdin_adj_greek                  ;        ;Varasdinionan;;
@@ -3417,9 +3417,9 @@ c_zagreb_adj_georgian                 ;        ;Andautonian;;
 c_vrhbosna_adj                        ;Bosnian ;Bosnian;;
 c_donjikraji_adj                      ;        ;Donji Krajian;;
 c_zavrsje_adj                         ;        ;Zavrsjian;;
-c_rama_adj                            ;Rama    ;Raman;;Raman
-c_usora_adj                           ;Usora   ;Usoran;;Usoran
-c_soli_adj                            ;        ;Solin;;
+c_rama_adj                            ;Rama    ;Raman;;Solian
+c_usora_adj                           ;Usora   ;Usoran;;Donji Krajian
+c_soli_adj                            ;Tuzla   ;Solin;;Usoran
 ##Bulgaria,,,,,,,,,,,,,,;;;;
 #Vidin,,,,,,,,,,,,,,;;;;
 c_vidin_adj                           ;Vidin   ;Vidinan;;Vidinian
@@ -3578,7 +3578,7 @@ c_naissus_adj_georgian                ;        ;Nysosan;;
 c_naissus_adj_alan                    ;        ;Nysosan;;
 c_naissus_adj_arberian                ;        ;Nishian;;
 c_naissus_adj_german                  ;        ;Nischian;;
-c_ochrid_adj                          ;Ohrid   ;Ochridan;;Ochridian
+c_ochrid_adj                          ;Ohrid   ;Ochridan;;Ohridienne
 c_ochrid_adj_greek                    ;        ;Achrídan;;
 c_ochrid_adj_armenian                 ;        ;Achrídan;;
 c_ochrid_adj_georgian                 ;        ;Achrídan;;
@@ -3637,7 +3637,7 @@ c_lukomorie_adj_moravian              ;Lukomorian;Lukomorzían;;
 c_lukomorie_adj_serbian               ;Lukomorian;Lukomorian;;
 c_lukomorie_adj_croatian              ;Lukomorian;Lukomorian;;
 c_lukomorie_adj_bulgarian             ;Lukomorian;Lukomorian;;
-c_lukomorie_adj_karantanci            ;Lukomorian;Lukomorian;;
+c_lukomorie_adj_carantanian           ;Lukomorian;Lukomorian;;
 c_lukomorie_adj_bosnian               ;Lukomorian;Lukomorian;;
 c_lukomorie_adj_thuringian            ;Molochna;Gerrhusian;;
 c_lukomorie_adj_swabian               ;Molochna;Gerrhusian;;
@@ -3658,21 +3658,21 @@ c_crimea_adj_moravian                 ;        ;Krymian;;
 c_crimea_adj_serbian                  ;        ;Krymian;;
 c_crimea_adj_croatian                 ;        ;Krymian;;
 c_crimea_adj_bulgarian                ;        ;Krymian;;
-c_crimea_adj_karantanci               ;        ;Krymian;;
+c_crimea_adj_carantanian              ;        ;Krymian;;
 c_crimea_adj_bosnian                  ;        ;Krymian;;
 c_crimea_adj_lithuanian               ;        ;Krymasian;;
 c_crimea_adj_arberian                 ;        ;Taurikean;;
 c_crimea_adj_armenian                 ;        ;Taurikean;;
 c_crimea_adj_georgian                 ;        ;Taurikean;;
 c_crimea_adj_greek                    ;        ;Taurikean;;
-c_crimea_adj_east_gothic              ;        ;Taurikean;;
+c_crimea_adj_crimean_gothic           ;        ;Taurikean;;
 ##,,,,,,,,,,,,,,;;;;
 c_sarkel_adj                          ;Sarkel  ;Sarkelian;;Sarkelian
 c_sarkel_adj_arberian                 ;        ;Aspron Hospitionian;;
 c_sarkel_adj_armenian                 ;        ;Aspron Hospitionian;;
 c_sarkel_adj_georgian                 ;        ;Aspron Hospitionian;;
 c_sarkel_adj_greek                    ;        ;Aspron Hospitionian;;
-c_sarkel_adj_east_gothic              ;        ;Aspron Hospitionian;;
+c_sarkel_adj_crimean_gothic           ;        ;Aspron Hospitionian;;
 c_sarkel_adj_russian                  ;        ;Belaja Vežasky;;
 c_sarkel_adj_polish                   ;        ;Belaja Vežan;;
 c_sarkel_adj_pommeranian              ;        ;Belaja Vežan;;
@@ -3681,7 +3681,7 @@ c_sarkel_adj_moravian                 ;        ;Belaja Vežan;;
 c_sarkel_adj_serbian                  ;        ;Belaja Vežan;;
 c_sarkel_adj_croatian                 ;        ;Belaja Vežan;;
 c_sarkel_adj_bulgarian                ;        ;Belaja Vežan;;
-c_sarkel_adj_karantanci               ;        ;Belaja Vežan;;
+c_sarkel_adj_carantanian              ;        ;Belaja Vežan;;
 c_sarkel_adj_bosnian                  ;        ;Belaja Vežan;;
 c_sarkel_adj_khazar                   ;        ;Sharkilan;;
 c_sarkel_adj_pecheneg                 ;        ;Sharkilan;;
@@ -3707,7 +3707,7 @@ c_sugrov_adj_moravian                 ;        ;Donel'ian;;
 c_sugrov_adj_serbian                  ;        ;Donel'ian;;
 c_sugrov_adj_croatian                 ;        ;Donel'ian;;
 c_sugrov_adj_bulgarian                ;        ;Donel'ian;;
-c_sugrov_adj_karantanci               ;        ;Donel'ian;;
+c_sugrov_adj_carantanian              ;        ;Donel'ian;;
 c_sugrov_adj_bosnian                  ;        ;Donel'ian;;
 c_sugrov_adj_pecheneg                 ;        ;Buzan-Jükan;;
 c_sugrov_adj_bolghar                  ;        ;Buzan-Jükan;;
@@ -3726,7 +3726,7 @@ c_sharukan_adj_bashkir                ;        ;Chidmasian;;
 c_sharukan_adj_szekely                ;        ;Chidmasian;;
 c_sharukan_adj_hungarian              ;        ;Chidmasian;;
 ##,,,,,,,,,,,,,,;;;;
-c_lower_dniepr_adj                    ;Dnieper ;Özuan;;Lower Dnieprian
+c_lower_dniepr_adj                    ;Dnieper ;Özuan;;Oleshyan
 c_lower_dniepr_adj_russian            ;        ;Slavutychsky;;
 c_lower_dniepr_adj_polish             ;        ;Slavutychian;;
 c_lower_dniepr_adj_pommeranian        ;        ;Slavutychian;;
@@ -3735,7 +3735,7 @@ c_lower_dniepr_adj_moravian           ;        ;Slavutychian;;
 c_lower_dniepr_adj_serbian            ;        ;Slavutychian;;
 c_lower_dniepr_adj_croatian           ;        ;Slavutychian;;
 c_lower_dniepr_adj_bulgarian          ;        ;Slavutychian;;
-c_lower_dniepr_adj_karantanci         ;        ;Slavutychian;;
+c_lower_dniepr_adj_carantanian        ;        ;Slavutychian;;
 c_lower_dniepr_adj_bosnian            ;        ;Slavutychian;;
 c_lower_dniepr_adj_oghuz              ;        ;Özian;;
 c_lower_dniepr_adj_turkish            ;        ;Özian;;
@@ -3744,7 +3744,7 @@ c_lower_dniepr_adj_arberian           ;        ;Danaprisan;;
 c_lower_dniepr_adj_armenian           ;        ;Danaprisan;;
 c_lower_dniepr_adj_georgian           ;        ;Danaprisan;;
 c_lower_dniepr_adj_greek              ;        ;Danaprisan;;
-c_lower_dniepr_adj_east_gothic        ;        ;Varan;;
+c_lower_dniepr_adj_crimean_gothic     ;        ;Varan;;
 c_lower_dniepr_adj_roman              ;        ;Danaper;;
 c_lower_dniepr_adj_lithuanian         ;        ;Dnepraian;;
 c_lower_dniepr_adj_romanian           ;        ;Nipruian;;
@@ -3761,7 +3761,7 @@ c_chortitza_adj_moravian              ;        ;Sneporodian;;
 c_chortitza_adj_serbian               ;        ;Sneporodian;;
 c_chortitza_adj_croatian              ;        ;Sneporodian;;
 c_chortitza_adj_bulgarian             ;        ;Sneporodian;;
-c_chortitza_adj_karantanci            ;        ;Sneporodian;;
+c_chortitza_adj_carantanian           ;        ;Sneporodian;;
 c_chortitza_adj_bosnian               ;        ;Sneporodian;;
 c_chortitza_adj_oghuz                 ;        ;Ak Samaran;;
 c_chortitza_adj_turkish               ;        ;Ak Samaran;;
@@ -3777,7 +3777,7 @@ c_lower_don_adj_moravian              ;        ;Ugolian;;
 c_lower_don_adj_serbian               ;        ;Ugolian;;
 c_lower_don_adj_croatian              ;        ;Ugolian;;
 c_lower_don_adj_bulgarian             ;        ;Ugolian;;
-c_lower_don_adj_karantanci            ;        ;Ugolian;;
+c_lower_don_adj_carantanian           ;        ;Ugolian;;
 c_lower_don_adj_bosnian               ;        ;Ugolian;;
 c_lower_don_adj_khazar                ;        ;Erel'ian;;
 c_lower_don_adj_pecheneg              ;        ;Erel'ian;;
@@ -3803,7 +3803,7 @@ c_tana_adj_russian                    ;        ;Vorskla;;
 c_tana_adj_serbian                    ;        ;Vor'skolian;;
 c_tana_adj_croatian                   ;        ;Vor'skolian;;
 c_tana_adj_bulgarian                  ;        ;Vor'skolian;;
-c_tana_adj_karantanci                 ;        ;Vor'skolian;;
+c_tana_adj_carantanian                ;        ;Vor'skolian;;
 c_tana_adj_bosnian                    ;        ;Vor'skolian;;
 ##,,,,,,,,,,,,,,;;;;
 c_olvia_adj                           ;Yedisan ;Yedisanian;;Olvian
@@ -3815,14 +3815,14 @@ c_olvia_adj_russian                   ;Beloberezhye;Beloberezhye;;
 c_olvia_adj_serbian                   ;Beloberezhye;Beloberezhian;;
 c_olvia_adj_croatian                  ;Beloberezhye;Beloberezhian;;
 c_olvia_adj_bulgarian                 ;Beloberezhye;Beloberezhian;;
-c_olvia_adj_karantanci                ;Beloberezhye;Beloberezhian;;
+c_olvia_adj_carantanian               ;Beloberezhye;Beloberezhian;;
 c_olvia_adj_bosnian                   ;Beloberezhye;Beloberezhian;;
 c_olvia_adj_lithuanian                ;        ;Edisanasan;;
 c_olvia_adj_hungarian                 ;Dniester;Troullosian;;
 c_olvia_adj_bashkir                   ;Dniester;Troullosian;;
 c_olvia_adj_szekely                   ;Dniester;Troullosian;;
 #,,,,,,,,,,,,,,;;;;
-c_oleshye_adj                         ;Southern Bug;Bohian;;Oleshyan
+c_oleshye_adj                         ;Southern Bug;Bohian;;Lower Dnieprian
 c_oleshye_adj_khazar                  ;        ;Aq-Suian;;
 c_oleshye_adj_pecheneg                ;        ;Ak-Suian;;
 c_oleshye_adj_oghuz                   ;        ;Ak-Suian;;
@@ -3850,7 +3850,7 @@ c_peresechen_adj_russian              ;        ;Ponyzziye;;
 c_peresechen_adj_serbian              ;        ;Ponyzzian;;
 c_peresechen_adj_croatian             ;        ;Ponyzzian;;
 c_peresechen_adj_bulgarian            ;        ;Ponyzzian;;
-c_peresechen_adj_karantanci           ;        ;Ponyzzian;;
+c_peresechen_adj_carantanian          ;        ;Ponyzzian;;
 c_peresechen_adj_bosnian              ;        ;Ponyzzian;;
 c_peresechen_adj_dalmatian            ;        ;Podolian;;
 c_peresechen_adj_italian              ;        ;Podolian;;
@@ -3912,7 +3912,7 @@ c_theodosia_adj_russian               ;        ;Kaffasky;;
 c_theodosia_adj_serbian               ;        ;Kaffan;;
 c_theodosia_adj_croatian              ;        ;Kaffan;;
 c_theodosia_adj_bulgarian             ;        ;Kaffan;;
-c_theodosia_adj_karantanci            ;        ;Kaffan;;
+c_theodosia_adj_carantanian           ;        ;Kaffan;;
 c_theodosia_adj_bosnian               ;        ;Kaffan;;
 c_theodosia_adj_dalmatian             ;        ;Caffan;;
 c_theodosia_adj_italian               ;        ;Caffan;;
@@ -3934,7 +3934,7 @@ c_cherson_adj_russian                 ;        ;Korsunsky;;
 c_cherson_adj_serbian                 ;        ;Korsunian;;
 c_cherson_adj_croatian                ;        ;Korsunian;;
 c_cherson_adj_bulgarian               ;        ;Korsunian;;
-c_cherson_adj_karantanci              ;        ;Korsunian;;
+c_cherson_adj_carantanian             ;        ;Korsunian;;
 c_cherson_adj_bosnian                 ;        ;Korsunian;;
 c_cherson_adj_dalmatian               ;Gothia Maritima;Gothia Maritimian;;
 c_cherson_adj_italian                 ;Gothia Maritima;Gothia Maritimian;;
@@ -3959,7 +3959,7 @@ c_tmutarakan_adj_russian              ;        ;Tmutarakanian;;
 c_tmutarakan_adj_serbian              ;        ;Tmutarakanian;;
 c_tmutarakan_adj_croatian             ;        ;Tmutarakanian;;
 c_tmutarakan_adj_bulgarian            ;        ;Tmutarakanian;;
-c_tmutarakan_adj_karantanci           ;        ;Tmutarakanian;;
+c_tmutarakan_adj_carantanian          ;        ;Tmutarakanian;;
 c_tmutarakan_adj_bosnian              ;        ;Tmutarakanian;;
 c_tmutarakan_adj_dalmatian            ;Phanagorian;Matregan;;
 c_tmutarakan_adj_italian              ;Phanagorian;Matregan;;
@@ -3984,7 +3984,7 @@ c_tmutarakan_adj_arberian             ;        ;Tamatarxan;;
 c_tmutarakan_adj_armenian             ;        ;Tamatarxan;;
 c_tmutarakan_adj_georgian             ;        ;Tamatarxan;;
 c_tmutarakan_adj_greek                ;        ;Tamatarxan;;
-c_tmutarakan_adj_east_gothic          ;        ;Tamatarxan;;
+c_tmutarakan_adj_crimean_gothic       ;        ;Tamatarxan;;
 c_tmutarakan_adj_roman                ;Hermonassa;Hermonassan;;
 #,,,,,,,,,,,,,,;;;;
 c_korchev_adj                         ;Kerch   ;Kerchian;;Korchevian
@@ -3996,7 +3996,7 @@ c_korchev_adj_russian                 ;Korchev ;Korchev;;
 c_korchev_adj_serbian                 ;Korchev ;Korchevian;;
 c_korchev_adj_croatian                ;Korchev ;Korchevian;;
 c_korchev_adj_bulgarian               ;Korchev ;Korchevian;;
-c_korchev_adj_karantanci              ;Korchev ;Korchevian;;
+c_korchev_adj_carantanian             ;Korchev ;Korchevian;;
 c_korchev_adj_bosnian                 ;Korchev ;Korchevian;;
 c_korchev_adj_dalmatian               ;Bosporan;Vosporoian;;
 c_korchev_adj_italian                 ;Bosporan;Vosporoian;;
@@ -4016,7 +4016,7 @@ c_korchev_adj_arberian                ;Bosporan;Bosporian;;
 c_korchev_adj_armenian                ;Bosporan;Bosporian;;
 c_korchev_adj_georgian                ;Bosporan;Bosporian;;
 c_korchev_adj_greek                   ;Bosporan;Bosporian;;
-c_korchev_adj_east_gothic             ;Bosporan;Bosporian;;
+c_korchev_adj_crimean_gothic          ;Bosporan;Bosporian;;
 c_korchev_adj_roman                   ;Bosporan;Vosporoan;;
 ##,,,,,,,,,,,,,,;;;;
 c_azov_adj                            ;Azovian ;Azaqan;;Azovian
@@ -4029,7 +4029,7 @@ c_azov_adj_russian                    ;        ;Azov;;
 c_azov_adj_serbian                    ;        ;Azovan;;
 c_azov_adj_croatian                   ;        ;Azovan;;
 c_azov_adj_bulgarian                  ;        ;Azovan;;
-c_azov_adj_karantanci                 ;        ;Azovan;;
+c_azov_adj_carantanian                ;        ;Azovan;;
 c_azov_adj_bosnian                    ;        ;Azovan;;
 c_azov_adj_dalmatian                  ;Tana    ;Tanan;;
 c_azov_adj_italian                    ;Tana    ;Tanan;;
@@ -4048,7 +4048,7 @@ c_azov_adj_bolghar                    ;Don     ;Buzanian;;
 c_azov_adj_arberian                   ;Don     ;Tanaisan;;
 c_azov_adj_armenian                   ;Don     ;Tanaisan;;
 c_azov_adj_georgian                   ;Don     ;Tanaisan;;
-c_azov_adj_east_gothic                ;Don     ;Tanaiskvíslian;;
+c_azov_adj_crimean_gothic             ;Don     ;Tanaiskvíslian;;
 c_azov_adj_norse                      ;Don     ;Tanakvíslr;;
 c_azov_adj_greek                      ;Don     ;Tanaisan;;
 c_azov_adj_turkmen                    ;        ;Azakan;;
@@ -4065,7 +4065,7 @@ c_kuban_adj_russian                   ;        ;Kuban;;
 c_kuban_adj_serbian                   ;        ;Kubanian;;
 c_kuban_adj_croatian                  ;        ;Kubanian;;
 c_kuban_adj_bulgarian                 ;        ;Kubanian;;
-c_kuban_adj_karantanci                ;        ;Kubanian;;
+c_kuban_adj_carantanian               ;        ;Kubanian;;
 c_kuban_adj_bosnian                   ;        ;Kubanian;;
 c_kuban_adj_szekely                   ;        ;Kubányian;;
 c_kuban_adj_hungarian                 ;        ;Kubányian;;
@@ -4075,7 +4075,7 @@ c_kuban_adj_kasogi                    ;        ;Psizchian;;
 c_kuban_adj_arberian                  ;        ;Oukrouchian;;
 c_kuban_adj_armenian                  ;        ;Oukrouchian;;
 c_kuban_adj_georgian                  ;        ;Oukrouchian;;
-c_kuban_adj_east_gothic               ;        ;Oukrouchian;;
+c_kuban_adj_crimean_gothic            ;        ;Oukrouchian;;
 c_kuban_adj_norse                     ;        ;Oukrouchian;;
 c_kuban_adj_greek                     ;        ;Oukrouchian;;
 c_kuban_adj_roman                     ;        ;Vardanusan;;
@@ -4090,7 +4090,7 @@ c_itil_adj_russian                    ;Volga   ;Vl'gan;;
 c_itil_adj_serbian                    ;Volga   ;Vl'gan;;
 c_itil_adj_croatian                   ;Volga   ;Vl'gan;;
 c_itil_adj_bulgarian                  ;Volga   ;Vl'gan;;
-c_itil_adj_karantanci                 ;Volga   ;Vl'gan;;
+c_itil_adj_carantanian                ;Volga   ;Vl'gan;;
 c_itil_adj_bosnian                    ;Volga   ;Vl'gan;;
 c_itil_adj_dalmatian                  ;Volga   ;Atelian;;
 c_itil_adj_italian                    ;Volga   ;Atelian;;
@@ -4163,7 +4163,7 @@ c_itil_adj_baloch                     ;Volga   ;Atilian;;
 c_itil_adj_arberian                   ;Volga   ;Atelian;;
 c_itil_adj_armenian                   ;Volga   ;Atelian;;
 c_itil_adj_georgian                   ;Volga   ;Atelian;;
-c_itil_adj_east_gothic                ;Volga   ;Atelian;;
+c_itil_adj_crimean_gothic             ;Volga   ;Atelian;;
 c_itil_adj_greek                      ;Volga   ;Atelian;;
 c_itil_adj_alan                       ;Volga   ;Atelian;;
 #,,,,,,,,,,,,,,;;;;
@@ -4176,7 +4176,7 @@ c_manych_adj_russian                  ;        ;Manychian;;
 c_manych_adj_serbian                  ;        ;Manychian;;
 c_manych_adj_croatian                 ;        ;Manychian;;
 c_manych_adj_bulgarian                ;        ;Manychian;;
-c_manych_adj_karantanci               ;        ;Manychian;;
+c_manych_adj_carantanian              ;        ;Manychian;;
 c_manych_adj_bosnian                  ;        ;Manychian;;
 #,,,,,,,,,,,,,,;;;;
 c_semender_adj                        ;Samandar;Semenderain;;Semenderian
@@ -4205,7 +4205,7 @@ c_semender_adj_baloch                 ;        ;Samandarian;;
 c_semender_adj_arberian               ;        ;Zabenderian;;
 c_semender_adj_armenian               ;        ;Msndrian;;
 c_semender_adj_georgian               ;        ;Msndrian;;
-c_semender_adj_east_gothic            ;        ;Zabenderian;;
+c_semender_adj_crimean_gothic         ;        ;Zabenderian;;
 c_semender_adj_greek                  ;        ;Zabenderian;;
 c_semender_adj_alan                   ;        ;Msndrian;;
 #,,,,,,,,,,,,,,;;;;
@@ -4286,7 +4286,7 @@ c_don_portage_adj_russian             ;        ;Terk;;
 c_don_portage_adj_serbian             ;        ;Terkan;;
 c_don_portage_adj_croatian            ;        ;Terkan;;
 c_don_portage_adj_bulgarian           ;        ;Terkan;;
-c_don_portage_adj_karantanci          ;        ;Terkan;;
+c_don_portage_adj_carantanian         ;        ;Terkan;;
 c_don_portage_adj_bosnian             ;        ;Terkan;;
 #,,,,,,,,,,,,,,;;;;
 c_philan_adj                          ;        ;Philan;;
@@ -4302,7 +4302,7 @@ c_kasogs_adj_russian                  ;Kabardian;Kassogian;;
 c_kasogs_adj_serbian                  ;Kabardian;Kassogian;;
 c_kasogs_adj_croatian                 ;Kabardian;Kassogian;;
 c_kasogs_adj_bulgarian                ;Kabardian;Kassogian;;
-c_kasogs_adj_karantanci               ;Kabardian;Kassogian;;
+c_kasogs_adj_carantanian              ;Kabardian;Kassogian;;
 c_kasogs_adj_bosnian                  ;Kabardian;Kassogian;;
 c_kasogs_adj_dalmatian                ;        ;Cherkis;;
 c_kasogs_adj_italian                  ;        ;Cherkis;;
@@ -4339,7 +4339,7 @@ c_kasogs_adj_zanata                   ;        ;Sircasaan;;
 c_kasogs_adj_arberian                 ;Kabardian;Kasachian;;
 c_kasogs_adj_armenian                 ;Kabardian;Kashian;;
 c_kasogs_adj_georgian                 ;Kabardian;K'ašaget'ian;;
-c_kasogs_adj_east_gothic              ;Kabardian;Kasachian;;
+c_kasogs_adj_crimean_gothic           ;Kabardian;Kasachian;;
 c_kasogs_adj_greek                    ;Kabardian;Kasachian;;
 c_kasogs_adj_alan                     ;Kabardian;Kæsægian;;
 #####,,,,,,,,,,,,,,;;;;
@@ -4358,7 +4358,7 @@ c_lower_volga_adj_moravian            ;Voronezh;Voronežian;;
 c_lower_volga_adj_serbian             ;Voronezh;Voronežian;;
 c_lower_volga_adj_croatian            ;Voronezh;Voronežian;;
 c_lower_volga_adj_bulgarian           ;Voronezh;Voronežian;;
-c_lower_volga_adj_karantanci          ;Voronezh;Voronežian;;
+c_lower_volga_adj_carantanian         ;Voronezh;Voronežian;;
 c_lower_volga_adj_bosnian             ;Voronezh;Voronežian;;
 c_lower_volga_adj_thuringian          ;Voronezh;Woroneschian;;
 c_lower_volga_adj_swabian             ;Voronezh;Woroneschian;;
@@ -4436,7 +4436,7 @@ c_khantia_adj_russian                 ;        ;Samaraian;;
 c_khantia_adj_serbian                 ;        ;Samaraian;;
 c_khantia_adj_croatian                ;        ;Samaraian;;
 c_khantia_adj_bulgarian               ;        ;Samaraian;;
-c_khantia_adj_karantanci              ;        ;Samaraian;;
+c_khantia_adj_carantanian             ;        ;Samaraian;;
 c_khantia_adj_bosnian                 ;        ;Samaraian;;
 ##,,,,,,,,,,,,,,;;;;
 c_mordva_adj                          ;Mokshan ;Mokshan;;Mordvian
@@ -4570,17 +4570,17 @@ c_bashkirs_adj_russian                ;        ;Belayan;;
 c_bashkirs_adj_serbian                ;        ;Belayan;;
 c_bashkirs_adj_croatian               ;        ;Belayan;;
 c_bashkirs_adj_bulgarian              ;        ;Belayan;;
-c_bashkirs_adj_karantanci             ;        ;Belayan;;
+c_bashkirs_adj_carantanian            ;        ;Belayan;;
 c_bashkirs_adj_bosnian                ;        ;Belayan;;
 #,,,,,,,,,,,,,,;;;;
-c_pecheneg_adj                        ;Sakmara ;Haqmaran;;Pecheneg
+c_pecheneg_adj                        ;Sakmara ;Haqmaran;;Bandjan
 c_pecheneg_adj_bohemian               ;        ;Sakmarian;;
 c_pecheneg_adj_moravian               ;        ;Sakmarian;;
 c_pecheneg_adj_russian                ;        ;Sakmarian;;
 c_pecheneg_adj_serbian                ;        ;Sakmarian;;
 c_pecheneg_adj_croatian               ;        ;Sakmarian;;
 c_pecheneg_adj_bulgarian              ;        ;Sakmarian;;
-c_pecheneg_adj_karantanci             ;        ;Sakmarian;;
+c_pecheneg_adj_carantanian            ;        ;Sakmarian;;
 c_pecheneg_adj_bosnian                ;        ;Sakmarian;;
 ##,,,,,,,,,,,,,,;;;;
 c_bilyar_adj                          ;Bilär   ;Bilärian;;Bilyarian
@@ -4590,7 +4590,7 @@ c_bilyar_adj_russian                  ;        ;Bilir;;
 c_bilyar_adj_serbian                  ;        ;Bilirian;;
 c_bilyar_adj_croatian                 ;        ;Bilirian;;
 c_bilyar_adj_bulgarian                ;        ;Bilirian;;
-c_bilyar_adj_karantanci               ;        ;Bilirian;;
+c_bilyar_adj_carantanian              ;        ;Bilirian;;
 c_bilyar_adj_bosnian                  ;        ;Bilirian;;
 c_bilyar_adj_khazar                   ;        ;Bülerian;;
 c_bilyar_adj_bolghar                  ;        ;Bülerian;;
@@ -4603,7 +4603,7 @@ c_bulgar_adj_russian                  ;        ;Bulgar;;
 c_bulgar_adj_serbian                  ;        ;Bulgar;;
 c_bulgar_adj_croatian                 ;        ;Bulgar;;
 c_bulgar_adj_bulgarian                ;        ;Bulgar;;
-c_bulgar_adj_karantanci               ;        ;Bulgar;;
+c_bulgar_adj_carantanian              ;        ;Bulgar;;
 c_bulgar_adj_bosnian                  ;        ;Bulgar;;
 #,,,,,,,,,,,,,,;;;;
 c_ashli_adj                           ;Ashli   ;Ashlian;;Ashli
@@ -4613,20 +4613,20 @@ c_ashli_adj_russian                   ;        ;Oshel;;
 c_ashli_adj_serbian                   ;        ;Oshelian;;
 c_ashli_adj_croatian                  ;        ;Oshelian;;
 c_ashli_adj_bulgarian                 ;        ;Oshelian;;
-c_ashli_adj_karantanci                ;        ;Oshelian;;
+c_ashli_adj_carantanian               ;        ;Oshelian;;
 c_ashli_adj_bosnian                   ;        ;Oshelian;;
 c_ashli_adj_khazar                    ;        ;Ishlëian;;
 c_ashli_adj_bolghar                   ;        ;Ishlëian;;
 c_ashli_adj_avar                      ;        ;Ishlëian;;
 #,,,,,,,,,,,,,,;;;;
-c_tyumen_adj                          ;        ;Suarian;;
+c_tyumen_adj                          ;Suar    ;Suarian;;Turan
 c_tyumen_adj_bohemian                 ;        ;Suvarian;;
 c_tyumen_adj_moravian                 ;        ;Suvarian;;
 c_tyumen_adj_russian                  ;        ;Suvar;;
 c_tyumen_adj_serbian                  ;        ;Suvarian;;
 c_tyumen_adj_croatian                 ;        ;Suvarian;;
 c_tyumen_adj_bulgarian                ;        ;Suvarian;;
-c_tyumen_adj_karantanci               ;        ;Suvarian;;
+c_tyumen_adj_carantanian              ;        ;Suvarian;;
 c_tyumen_adj_bosnian                  ;        ;Suvarian;;
 c_tyumen_adj_khazar                   ;        ;Sävärian;;
 c_tyumen_adj_bolghar                  ;        ;Sävärian;;
@@ -4661,7 +4661,7 @@ c_qazan_adj_russian                   ;        ;Kazan';;
 c_qazan_adj_serbian                   ;        ;Kazan'ian;;
 c_qazan_adj_croatian                  ;        ;Kazan'ian;;
 c_qazan_adj_bulgarian                 ;        ;Kazan'ian;;
-c_qazan_adj_karantanci                ;        ;Kazan'ian;;
+c_qazan_adj_carantanian               ;        ;Kazan'ian;;
 c_qazan_adj_bosnian                   ;        ;Kazan'ian;;
 #################,,,,,,,,,,,,,,;;;;
 #Perm,,,,,,,,,,,,,,;;;;
@@ -4686,7 +4686,7 @@ c_kokshaga_adj_russian                ;        ;Kokšagan;;
 c_kokshaga_adj_serbian                ;        ;Kokšagan;;
 c_kokshaga_adj_croatian               ;        ;Kokšagan;;
 c_kokshaga_adj_bulgarian              ;        ;Kokšagan;;
-c_kokshaga_adj_karantanci             ;        ;Kokšagan;;
+c_kokshaga_adj_carantanian            ;        ;Kokšagan;;
 c_kokshaga_adj_bosnian                ;        ;Kokšagan;;
 c_kokshaga_adj_polish                 ;        ;Kokšagan;;
 c_kokshaga_adj_pommeranian            ;        ;Kokšagan;;
@@ -4698,7 +4698,7 @@ c_grassland_cheremisa_adj_russian     ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_serbian     ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_croatian    ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_bulgarian   ;        ;Vetlugan;;
-c_grassland_cheremisa_adj_karantanci  ;        ;Vetlugan;;
+c_grassland_cheremisa_adj_carantanian ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_bosnian     ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_polish      ;        ;Vetlugan;;
 c_grassland_cheremisa_adj_pommeranian ;        ;Vetlugan;;
@@ -4740,12 +4740,12 @@ c_hlynov_adj_russian                  ;        ;Vyatkan;;
 c_hlynov_adj_serbian                  ;        ;Vyatkan;;
 c_hlynov_adj_croatian                 ;        ;Vyatkan;;
 c_hlynov_adj_bulgarian                ;        ;Vyatkan;;
-c_hlynov_adj_karantanci               ;        ;Vyatkan;;
+c_hlynov_adj_carantanian              ;        ;Vyatkan;;
 c_hlynov_adj_bosnian                  ;        ;Vyatkan;;
 c_hlynov_adj_polish                   ;        ;Vyatkan;;
 c_hlynov_adj_pommeranian              ;        ;Vyatkan;;
 ###,,,,,,,,,,,,,,;;;;
-c_komi_adj                            ;Inva    ;Ivan;;Komian
+c_komi_adj                            ;Inva    ;Ivan;;Pil'van
 #,,,,,,,,,,,,,,;;;;
 c_votyaki_adj                         ;Izh     ;Otšian;;Votyakian
 c_votyaki_adj_bashkir                 ;        ;Ijian;;
@@ -4768,7 +4768,7 @@ c_votyaki_adj_russian                 ;        ;Ižish;;
 c_votyaki_adj_serbian                 ;        ;Ižish;;
 c_votyaki_adj_croatian                ;        ;Ižish;;
 c_votyaki_adj_bulgarian               ;        ;Ižish;;
-c_votyaki_adj_karantanci              ;        ;Ižish;;
+c_votyaki_adj_carantanian             ;        ;Ižish;;
 c_votyaki_adj_bosnian                 ;        ;Ižish;;
 c_votyaki_adj_polish                  ;        ;Ižish;;
 c_votyaki_adj_pommeranian             ;        ;Ižish;;
@@ -4781,7 +4781,7 @@ c_perm_adj_russian                    ;        ;Višeran;;
 c_perm_adj_serbian                    ;        ;Višeran;;
 c_perm_adj_croatian                   ;        ;Višeran;;
 c_perm_adj_bulgarian                  ;        ;Višeran;;
-c_perm_adj_karantanci                 ;        ;Višeran;;
+c_perm_adj_carantanian                ;        ;Višeran;;
 c_perm_adj_bosnian                    ;        ;Višeran;;
 c_perm_adj_polish                     ;        ;Višeran;;
 c_perm_adj_pommeranian                ;        ;Višeran;;
@@ -4809,7 +4809,7 @@ c_mansia_adj_russian                  ;        ;Pelymish;;
 c_mansia_adj_serbian                  ;        ;Pelymish;;
 c_mansia_adj_croatian                 ;        ;Pelymish;;
 c_mansia_adj_bulgarian                ;        ;Pelymish;;
-c_mansia_adj_karantanci               ;        ;Pelymish;;
+c_mansia_adj_carantanian              ;        ;Pelymish;;
 c_mansia_adj_bosnian                  ;        ;Pelymish;;
 c_mansia_adj_polish                   ;        ;Pelymish;;
 c_mansia_adj_pommeranian              ;        ;Pelymish;;
@@ -4821,12 +4821,12 @@ c_syrj_adj_russian                    ;        ;Vymish;;
 c_syrj_adj_serbian                    ;        ;Vymish;;
 c_syrj_adj_croatian                   ;        ;Vymish;;
 c_syrj_adj_bulgarian                  ;        ;Vymish;;
-c_syrj_adj_karantanci                 ;        ;Vymish;;
+c_syrj_adj_carantanian                ;        ;Vymish;;
 c_syrj_adj_bosnian                    ;        ;Vymish;;
 c_syrj_adj_polish                     ;        ;Vymish;;
 c_syrj_adj_pommeranian                ;        ;Vymish;;
 #,,,,,,,,,,,,,,;;;;
-c_zyriane_adj                         ;Vychegdan;Ežvan;;Zyrian
+c_zyriane_adj                         ;Vychegdan;Ežvan;;Illyinsker
 c_zyriane_adj_bashkir                 ;        ;Viçegdan;;
 c_zyriane_adj_bolghar                 ;        ;Viçegdan;;
 c_zyriane_adj_turkish                 ;        ;Viçegdan;;
@@ -4847,13 +4847,13 @@ c_zyriane_adj_russian                 ;        ;Vychegdan;;
 c_zyriane_adj_serbian                 ;        ;Vychegdan;;
 c_zyriane_adj_croatian                ;        ;Vychegdan;;
 c_zyriane_adj_bulgarian               ;        ;Vychegdan;;
-c_zyriane_adj_karantanci              ;        ;Vychegdan;;
+c_zyriane_adj_carantanian             ;        ;Vychegdan;;
 c_zyriane_adj_bosnian                 ;        ;Vychegdan;;
 c_zyriane_adj_polish                  ;        ;Vychegdan;;
 c_zyriane_adj_pommeranian             ;        ;Vychegdan;;
 ##########,,,,,,,,,,,,,,;;;;
 #Bjarmia,,,,,,,,,,,,,,;;;;
-c_onega_adj                           ;Onega   ;Änineish;;Äänian
+c_onega_adj                           ;Onega   ;Änineish;;Olonetsian
 c_onega_adj_finnish                   ;        ;Äänisan;;
 c_onega_adj_ugricbaltic               ;        ;Äänisan;;
 c_onega_adj_livonian                  ;        ;Äänisan;;
@@ -4866,7 +4866,7 @@ c_onega_adj_pommeranian               ;        ;Onegan;;
 c_onega_adj_croatian                  ;        ;Onegan;;
 c_onega_adj_bosnian                   ;        ;Onegan;;
 c_onega_adj_serbian                   ;        ;Onegan;;
-c_onega_adj_karantanci                ;        ;Onegan;;
+c_onega_adj_carantanian               ;        ;Onegan;;
 c_onega_adj_bulgarian                 ;        ;Onegan;;
 #,,,,,,,,,,,,,,;;;;
 c_romny_adj                           ;Lacha   ;Latšan;;Romnyian
@@ -4878,7 +4878,7 @@ c_romny_adj_pommeranian               ;        ;Lachan;;
 c_romny_adj_croatian                  ;        ;Lachan;;
 c_romny_adj_bosnian                   ;        ;Lachan;;
 c_romny_adj_serbian                   ;        ;Lachan;;
-c_romny_adj_karantanci                ;        ;Lachan;;
+c_romny_adj_carantanian               ;        ;Lachan;;
 c_romny_adj_bulgarian                 ;        ;Lachan;;
 ##,,,,,,,,,,,,,,;;;;
 c_chud_adj                            ;Vaga    ;Vagan;;Chudian
@@ -4892,7 +4892,7 @@ c_north_dvina_adj_pommeranian         ;        ;Dwinan;;
 c_north_dvina_adj_croatian            ;        ;Dvinan;;
 c_north_dvina_adj_bosnian             ;        ;Dvinan;;
 c_north_dvina_adj_serbian             ;        ;Dvinan;;
-c_north_dvina_adj_karantanci          ;        ;Dvinan;;
+c_north_dvina_adj_carantanian         ;        ;Dvinan;;
 c_north_dvina_adj_bulgarian           ;        ;Dvinan;;
 c_north_dvina_adj_lappish             ;        ;Vienan;;
 c_north_dvina_adj_livonian            ;        ;Vienan;;
@@ -4913,10 +4913,10 @@ c_ugra_adj_pommeranian                ;        ;Mezenian;;
 c_ugra_adj_croatian                   ;        ;Mezenian;;
 c_ugra_adj_bosnian                    ;        ;Mezenian;;
 c_ugra_adj_serbian                    ;        ;Mezenian;;
-c_ugra_adj_karantanci                 ;        ;Mezenian;;
+c_ugra_adj_carantanian                ;        ;Mezenian;;
 c_ugra_adj_bulgarian                  ;        ;Mezenian;;
 #,,,,,,,,,,,,,,;;;;
-c_samoyeds_adj                        ;Izhma   ;Ižvan;;Saamod
+c_samoyeds_adj                        ;Izhma   ;Ižvan;;Snopan
 c_samoyeds_adj_russian                ;        ;Ižman;;
 c_samoyeds_adj_bohemian               ;        ;Ižman;;
 c_samoyeds_adj_moravian               ;        ;Ižman;;
@@ -4925,7 +4925,7 @@ c_samoyeds_adj_pommeranian            ;        ;Ižman;;
 c_samoyeds_adj_croatian               ;        ;Ižman;;
 c_samoyeds_adj_bosnian                ;        ;Ižman;;
 c_samoyeds_adj_serbian                ;        ;Ižman;;
-c_samoyeds_adj_karantanci             ;        ;Ižman;;
+c_samoyeds_adj_carantanian            ;        ;Ižman;;
 c_samoyeds_adj_bulgarian              ;        ;Ižman;;
 ###############################################################,,,,,,,,,,,,,,;;;;
 #Shirvan/Aran,,,,,,,,,,,,,,;;;;
@@ -5006,7 +5006,7 @@ c_csanad_adj_german                   ;        ;Tschanadian;;
 c_csanad_adj_romanian                 ;        ;Cenadian;;
 c_csanad_adj_bohemian                 ;        ;Chanadian;;
 c_csanad_adj_moravian                 ;        ;Chanadian;;
-c_csanad_adj_east_gothic              ;Morisena;Morisenan;;
+c_csanad_adj_crimean_gothic           ;Morisena;Morisenan;;
 c_csanad_adj_greek                    ;Morisena;Morisenan;;
 c_csanad_adj_roman                    ;Morisena;Morisenan;;
 c_krasso_adj                          ;Carashovan;Krassóian;;
@@ -5063,3 +5063,6 @@ c_tigris_adj                          ;Wasit   ;Wasit;;Súsian
 c_hijaz_adj                           ;Al-‘Ula ;Al-Ula;;Al 'Ulan
 c_hajar_adj                           ;Nizwa   ;Nizwa;;Suhárian
 c_dhu_zabi_adj                        ;Ras al-Khaimah;Julfar;;Julfarian
+#India,,,,,,,,,,,,,,;;;;
+c_vodamayutja                         ;Budaun  ;Vodamayuta;;Vodamayutja
+c_vodamayutja_adj                     ;Budaun  ;Vodamayuti;;Vodamayutjan

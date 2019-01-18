@@ -118,6 +118,495 @@ Savolax                                        ;Savonia ;;;Savolax
 #CombatUpdate.csv;;;;
 #DE.csv;;;;
 #FR.csv;;;;
+#HolyFury.csv;;;;
+bon_reformed                                   ;Bön     ;;;Bön
+hellenic_pagan_reformed                        ;Hellenic;;;Hellenic
+c_chios_adj                                    ;Chios   ;;;Chiosan
+c_kashgar_adj                                  ;Kashgar ;;;Kashgari
+c_aksu_adj                                     ;Aksu    ;;;Aksuni
+c_khotan_adj                                   ;Khotanese;;;Khotani
+c_yarkand_adj                                  ;Yarkand ;;;Yarkandi
+c_cadota_adj                                   ;Niya    ;;;Cadotan
+c_karashar_adj                                 ;Karashahr;;;Karashari
+c_kucha_adj                                    ;Kuchanese;;;Kuchan
+c_chaghaniyan_adj                              ;Chaghaniyan;;;Chaghaniyani
+c_badakhshan_adj                               ;Badakhshan;;;Badakhshani
+c_gwalior_adj                                  ;Gwalior ;;;Gwalioran
+d_socotra_adj                                  ;Socotran;;;Socotran
+d_sauvira_adj                                  ;Sauvira ;;;Sauviran
+d_multan_adj                                   ;Multani ;;;Multani
+d_lahore_adj                                   ;Lahori  ;;;Lahoran
+d_gandhara_adj                                 ;Gandharan;;;Gandharan
+d_kuru_adj                                     ;Kuru    ;;;Kurui
+d_haritanaka_adj                               ;Haryana ;;;Haritanakan
+d_mathura_adj                                  ;Mathuran;;;Mathuran
+d_anartta_adj                                  ;Anarta  ;;;Anarttan
+d_saurashtra_adj                               ;Saurashtra;;;Saurashtran
+d_lata_adj                                     ;Lata    ;;;Latan
+d_maru_adj                                     ;Marwari ;;;Maruan
+d_jangladesh_adj                               ;Jangladesh;;;Jangladeshi
+d_stravani_adj                                 ;Stravani;;;Stravanian
+d_medapata_adj                                 ;Mewari  ;;;Medapatan
+d_ajmer_adj                                    ;Ajmer   ;;;Ajmeran
+d_dadhipadra_adj                               ;Avanti  ;;;Dadhipadran
+d_akara_dasarna_adj                            ;Dasharna;;;Akara Dasarnan
+d_anupa_adj                                    ;Anupa   ;;;Anupan
+d_kanyakubja_adj                               ;Kannauj ;;;Kanyakubjan
+d_saryupara_adj                                ;Sarvariya;;;Saryuparan
+d_jejakabhukti_adj                             ;Bundeli ;;;Jejakabhuktian
+d_dahala_adj                                   ;Chedi   ;;;Dahalan
+d_devagiri_adj                                 ;Devagiri;;;Devagirian
+radhanite_quarter_1_desc                       ;This fortified trade post is owned by the Radhanites, Jewish merchants known for their extensive trading contacts around the known world.;;;This fortified trade post is owned by the Radhanites, [jewish.GetName] merchants known for their extensive trading contacts around the known world.
+tb_culture_chinese_han_1                       ;Crossbow Range;;;Crossbow Range
+tb_culture_chinese_han_2                       ;Crossbow Range;;;Crossbow Range
+tb_culture_chinese_han_3                       ;Crossbow Range;;;Crossbow Range
+tb_culture_chinese_han_4                       ;Crossbow Range;;;Crossbow Range
+tb_culture_altaic_jurchen_1                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+tb_culture_altaic_jurchen_2                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+tb_culture_altaic_jurchen_3                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+tb_culture_altaic_jurchen_4                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+tb_culture_tibetan_1                           ;Mountaineer Academy;;;Mountaineer Academy
+tb_culture_tibetan_2                           ;Mountaineer Academy;;;Mountaineer Academy
+tb_culture_tibetan_3                           ;Mountaineer Academy;;;Mountaineer Academy
+tb_culture_tibetan_4                           ;Mountaineer Academy;;;Mountaineer Academy
+tb_culture_saxon_english_1                     ;Longbow Range;;;Longbow Range
+tb_culture_saxon_english_2                     ;Longbow Range;;;Longbow Range
+tb_culture_saxon_english_3                     ;Longbow Range;;;Longbow Range
+tb_culture_saxon_english_4                     ;Longbow Range;;;Longbow Range
+tb_culture_group_baltic_1                      ;Warrior Gathering Ground;;;Warrior Gathering Ground
+tb_culture_group_baltic_2                      ;Warrior Gathering Ground;;;Warrior Gathering Ground
+tb_culture_group_baltic_3                      ;Warrior Gathering Ground;;;Warrior Gathering Ground
+tb_culture_group_baltic_4                      ;Warrior Gathering Ground;;;Warrior Gathering Ground
+tb_culture_group_iberian_1                     ;Knight Training Ground;;;Caballero Training Ground
+tb_culture_group_iberian_2                     ;Knight Training Ground;;;Caballero Training Ground
+tb_culture_group_iberian_3                     ;Knight Training Ground;;;Caballero Training Ground
+tb_culture_group_iberian_4                     ;Knight Training Ground;;;Caballero Training Ground
+tb_culture_italian_1                           ;Pike Training Ground;;;Pike Training Ground
+tb_culture_italian_2                           ;Pike Training Ground;;;Pike Training Ground
+tb_culture_italian_3                           ;Pike Training Ground;;;Pike Training Ground
+tb_culture_italian_4                           ;Pike Training Ground;;;Pike Training Ground
+tb_culture_russian_1                           ;Druzhina Training Ground;;;Druzhina Training Ground
+tb_culture_russian_2                           ;Druzhina Training Ground;;;Druzhina Training Ground
+tb_culture_russian_3                           ;Druzhina Training Ground;;;Druzhina Training Ground
+tb_culture_russian_4                           ;Druzhina Training Ground;;;Druzhina Training Ground
+tb_culture_group_north_germanic_1              ;Housecarl Training Ground;;;Housecarl Training Ground
+tb_culture_group_north_germanic_2              ;Housecarl Training Ground;;;Housecarl Training Ground
+tb_culture_group_north_germanic_3              ;Housecarl Training Ground;;;Housecarl Training Ground
+tb_culture_group_north_germanic_4              ;Housecarl Training Ground;;;Housecarl Training Ground
+tb_culture_hungarian_1                         ;Hussar Training Ground;;;Hussar Training Ground
+tb_culture_hungarian_2                         ;Hussar Training Ground;;;Hussar Training Ground
+tb_culture_hungarian_3                         ;Hussar Training Ground;;;Hussar Training Ground
+tb_culture_hungarian_4                         ;Hussar Training Ground;;;Hussar Training Ground
+tb_culture_group_arabic_1                      ;Camel Riding Ground;;;Camel Riding Ground
+tb_culture_group_arabic_2                      ;Camel Riding Ground;;;Camel Riding Ground
+tb_culture_group_arabic_3                      ;Camel Riding Ground;;;Camel Riding Ground
+tb_culture_group_arabic_4                      ;Camel Riding Ground;;;Camel Riding Ground
+tb_culture_irish_1                             ;Gallowglass Training Ground;;;Gallowglass Training Ground
+tb_culture_irish_2                             ;Gallowglass Training Ground;;;Gallowglass Training Ground
+tb_culture_irish_3                             ;Gallowglass Training Ground;;;Gallowglass Training Ground
+tb_culture_irish_4                             ;Gallowglass Training Ground;;;Gallowglass Training Ground
+tb_culture_group_south_slavic_1                ;Hussar Training Ground;;;Gusar Training Ground
+tb_culture_group_south_slavic_2                ;Hussar Training Ground;;;Gusar Training Ground
+tb_culture_group_south_slavic_3                ;Hussar Training Ground;;;Gusar Training Ground
+tb_culture_group_south_slavic_4                ;Hussar Training Ground;;;Gusar Training Ground
+tb_culture_dutch_1                             ;Goedendag Militia Quarters;;;Goedendag Militia Quarters
+tb_culture_dutch_2                             ;Goedendag Militia Quarters;;;Goedendag Militia Quarters
+tb_culture_dutch_3                             ;Goedendag Militia Quarters;;;Goedendag Militia Quarters
+tb_culture_dutch_4                             ;Goedendag Militia Quarters;;;Goedendag Militia Quarters
+tb_culture_west_african_1                      ;Free Warrior Lodge;;;Free Warrior Lodge
+tb_culture_west_african_2                      ;Free Warrior Lodge;;;Free Warrior Lodge
+tb_culture_west_african_3                      ;Free Warrior Lodge;;;Free Warrior Lodge
+tb_culture_west_african_4                      ;Free Warrior Lodge;;;Free Warrior Lodge
+tb_culture_scottish_1                          ;Schiltron Training Ground;;;Schiltron Training Ground
+tb_culture_scottish_2                          ;Schiltron Training Ground;;;Schiltron Training Ground
+tb_culture_scottish_3                          ;Schiltron Training Ground;;;Schiltron Training Ground
+tb_culture_scottish_4                          ;Schiltron Training Ground;;;Schiltron Training Ground
+tb_culture_group_altaic_1                      ;Riding Grounds;;;Riding Grounds
+tb_culture_group_altaic_2                      ;Riding Grounds;;;Riding Grounds
+tb_culture_group_altaic_3                      ;Riding Grounds;;;Riding Grounds
+tb_culture_group_altaic_4                      ;Riding Grounds;;;Riding Grounds
+tb_culture_nahuatl_1                           ;Jaguar Warrior Lodge;;;Jaguar Warrior Lodge
+tb_culture_nahuatl_2                           ;Jaguar Warrior Lodge;;;Jaguar Warrior Lodge
+tb_culture_nahuatl_3                           ;Jaguar Warrior Lodge;;;Jaguar Warrior Lodge
+tb_culture_nahuatl_4                           ;Jaguar Warrior Lodge;;;Jaguar Warrior Lodge
+tb_culture_indian_1                            ;War Elephant Pens;;;War Elephant Pens
+tb_culture_indian_2                            ;War Elephant Pens;;;War Elephant Pens
+tb_culture_indian_3                            ;War Elephant Pens;;;War Elephant Pens
+tb_culture_indian_4                            ;War Elephant Pens;;;War Elephant Pens
+tb_culture_suebi_1                             ;Free Warrior Camp;;;Free Warrior Camp
+tb_culture_suebi_2                             ;Free Warrior Camp;;;Free Warrior Camp
+tb_culture_suebi_3                             ;Free Warrior Camp;;;Free Warrior Camp
+tb_culture_suebi_4                             ;Free Warrior Camp;;;Free Warrior Camp
+tb_culture_pictish_1                           ;Hall of War;;;Hall of War
+tb_culture_pictish_2                           ;Hall of War;;;Hall of War
+tb_culture_pictish_3                           ;Hall of War;;;Hall of War
+tb_culture_pictish_4                           ;Hall of War;;;Hall of War
+tb_culture_moors_1                             ;Moorish Cavalry Barracks;;;Moorish Cavalry Barracks
+tb_culture_moors_2                             ;Moorish Cavalry Barracks;;;Moorish Cavalry Barracks
+tb_culture_moors_3                             ;Moorish Cavalry Barracks;;;Moorish Cavalry Barracks
+tb_culture_moors_4                             ;Moorish Cavalry Barracks;;;Moorish Cavalry Barracks
+tb_culture_group_byzantine_1_desc              ;A combination of mobile cavalry and heavily armored infantry trains here.;;;A combination of mobile cavalry and heavily armored infantry trains here.
+tb_culture_frank_norman_german_1_desc          ;Hardened [GetGermanic] warriors meet here to train and exchange tactics.;;;Hardened [GetGermanic] warriors meet here to train and exchange tactics.
+tb_culture_ethiopian_1                         ;[ethiopian.GetName] Drilling Grounds;;;[ethiopian.GetName] Drilling Grounds
+tb_culture_ethiopian_2                         ;[ethiopian.GetName] Drilling Grounds;;;[ethiopian.GetName] Drilling Grounds
+tb_culture_ethiopian_3                         ;[ethiopian.GetName] Drilling Grounds;;;[ethiopian.GetName] Drilling Grounds
+tb_culture_ethiopian_4                         ;[ethiopian.GetName] Drilling Grounds;;;[ethiopian.GetName] Drilling Grounds
+tb_culture_jewish_1                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+tb_culture_jewish_2                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+tb_culture_jewish_3                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+tb_culture_jewish_4                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+tb_culture_nubian_1                            ;[nubian.GetName] Warrior Barracks;;;[nubian.GetName] Warrior Barracks
+tb_culture_nubian_2                            ;[nubian.GetName] Warrior Barracks;;;[nubian.GetName] Warrior Barracks
+tb_culture_nubian_3                            ;[nubian.GetName] Warrior Barracks;;;[nubian.GetName] Warrior Barracks
+tb_culture_nubian_4                            ;[nubian.GetName] Warrior Barracks;;;[nubian.GetName] Warrior Barracks
+tb_culture_somali_1                            ;[somali.GetName] Light Infantry Barracks;;;[somali.GetName] Light Infantry Barracks
+tb_culture_somali_2                            ;[somali.GetName] Light Infantry Barracks;;;[somali.GetName] Light Infantry Barracks
+tb_culture_somali_3                            ;[somali.GetName] Light Infantry Barracks;;;[somali.GetName] Light Infantry Barracks
+tb_culture_somali_4                            ;[somali.GetName] Light Infantry Barracks;;;[somali.GetName] Light Infantry Barracks
+tb_culture_germanic_1                          ;[GetGermanic] Infantry Barracks;;;[GetGermanic] Infantry Barracks
+tb_culture_germanic_2                          ;[GetGermanic] Infantry Barracks;;;[GetGermanic] Infantry Barracks
+tb_culture_germanic_3                          ;[GetGermanic] Infantry Barracks;;;[GetGermanic] Infantry Barracks
+tb_culture_germanic_4                          ;[GetGermanic] Infantry Barracks;;;[GetGermanic] Infantry Barracks
+tb_culture_group_byzantine_1                   ;[byzantine.GetGroupName] Riding Ground;;;[byzantine.GetGroupName] Riding Ground
+tb_culture_group_byzantine_2                   ;[byzantine.GetGroupName] Riding Ground;;;[byzantine.GetGroupName] Riding Ground
+tb_culture_group_byzantine_3                   ;[byzantine.GetGroupName] Riding Ground;;;[byzantine.GetGroupName] Riding Ground
+tb_culture_group_byzantine_4                   ;[byzantine.GetGroupName] Riding Ground;;;[byzantine.GetGroupName] Riding Ground
+tb_culture_frank_norman_german_1               ;[GetGermanic] Warrior Lodge;;;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_2               ;[GetGermanic] Warrior Lodge;;;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_3               ;[GetGermanic] Warrior Lodge;;;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_4               ;[GetGermanic] Warrior Lodge;;;[GetGermanic] Warrior Lodge
+ca_culture_altaic_jurchen_1                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+ca_culture_altaic_jurchen_2                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+ca_culture_altaic_jurchen_3                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+ca_culture_altaic_jurchen_4                    ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks
+ca_culture_altaic_jurchen_1_desc               ;The [jurchen.GetName] are famous for their skilled cavalry, the Tie-Futu and their unique battle tactics – this is their practice grounds where they train to improve upon their specialty.;;;The [jurchen.GetName] are famous for their skilled cavalry, the Tie-Futu and their unique battle tactics – this is their practice grounds where they train to improve upon their specialty.
+ca_culture_jewish_1                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+ca_culture_jewish_2                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+ca_culture_jewish_3                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+ca_culture_jewish_4                            ;[israelite.GetGroupName] Heavy Infantry Barracks;;;[israelite.GetGroupName] Heavy Infantry Barracks
+ca_culture_jewish_1_desc                       ;This is where the elite infantry serving an [israelite.GetGroupName] ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;;;This is where the elite infantry serving an [israelite.GetGroupName] ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.
+ca_culture_nubian_1_desc                       ;These barracks are where the ancient [nubian.GetName] warrior traditions are nurtured and developed. [GetNubia] has since ancient times been respected for its masterful archers, and other elite units of infantry are trained and drilled to support this potent weapon of the [nubian.GetName] rulers.;;;These barracks are where the ancient [nubian.GetName] warrior traditions are nurtured and developed. [GetNubia] has since ancient times been respected for its masterful archers, and other elite units of infantry are trained and drilled to support this potent weapon of the [nubian.GetName] rulers.
+ca_culture_somali_1_desc                       ;Highly trained light infantry is used to patrol and defend the borders of a [somali.GetName] ruler's domain. This is where they train and hone their skills.;;;Highly trained light infantry is used to patrol and defend the borders of a [somali.GetName] ruler's domain. This is where they train and hone their skills.
+ca_culture_germanic_1_desc                     ;The heavy infantry formations of the [old_frankish.GetName] and [lombard.GetName] are heavily influenced by the [roman.GetName] army’s organization and tactics. Here is where these elite warriors are trained and drilled to be ready for battle in the service of their liege.;;;The heavy infantry formations of the [old_frankish.GetName] and [lombard.GetName] are heavily influenced by the [roman.GetName] army's organization and tactics. Here is where these elite warriors are trained and drilled to be ready for battle in the service of their liege.
+ca_culture_pictish_1_desc                      ;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;;;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!
+ca_culture_chinese_han_1_desc                  ;Since the days of Zhuge Liang and the invention of his crossbow, [chinese_group.GetGroupName] soldiers carry an advantage on the battlefield. Here they gather, turning proficiency into mastery.;;;Since the days of Zhuge Liang and the invention of his crossbow, [chinese_group.GetGroupName] soldiers carry an advantage on the battlefield. Here they gather, turning proficiency into mastery.
+ca_culture_tibetan_desc                        ;[GetHimalayanDesc];;;[GetHimalayanDesc]
+ALT_MERC_BAND                                  ;[renaming_target.Culture.GetName] Band;;;[renaming_target.Culture.GetName] Band
+ALT_MERC_BAND_ADJ                              ;[renaming_target.Culture.GetName];;;[renaming_target.Culture.GetName]
+ALT_MERC_COMPANY                               ;[renaming_target.Religion.GetName] [renaming_target.Culture.GetName] Company;;;[renaming_target.Religion.GetName] [renaming_target.Culture.GetName] Company
+ALT_MERC_COMPANY_ADJ                           ;[renaming_target.Religion.GetName] [renaming_target.Culture.GetName];;;[renaming_target.Religion.GetName] [renaming_target.Culture.GetName]
+ALT_MERC_BROTHERS                              ;[renaming_target.Location.County.GetAdjective] [renaming_target.Culture.GetName] Brothers;;;[renaming_target.Location.County.GetAdjective] [renaming_target.Culture.GetName] Brothers
+ALT_MERC_BROTHERS_ADJ                          ;[renaming_target.Location.County.GetAdjective] [renaming_target.Culture.GetName];;;[renaming_target.Location.County.GetAdjective] [renaming_target.Culture.GetName]
+ALT_MERC_NAVY                                  ;[renaming_target.Culture.GetName]-[renaming_target.Location.County.GetAdjective] Navy;;;[renaming_target.Culture.GetName]-[renaming_target.Location.County.GetAdjective] Navy
+ALT_MERC_NAVY_ADJ                              ;[renaming_target.Culture.GetName]-[renaming_target.Location.County.GetAdjective];;;[renaming_target.Culture.GetName]-[renaming_target.Location.County.GetAdjective]
+ALT_MERC_COMPANY_ALT                           ;[renaming_target.Location.County.GetAdjective] Company;;;[renaming_target.Location.County.GetAdjective] Company
+ALT_MERC_COMPANY_ALT_ADJ                       ;[renaming_target.Location.County.GetAdjective];;;[renaming_target.Location.County.GetAdjective]
+weapon_battlefield_rename_1                    ;Knife of the [battlefield_location.GetTerrainCap];;;Knife of the [battlefield_location.GetTerrainCap]
+weapon_battlefield_rename_2                    ;Heavy [battlefield_location.GetGroundDescCap]-Blade;;;Heavy [battlefield_location.GetGroundDescCap]-Blade
+weapon_battlefield_rename_3                    ;Masterful Short-Sword;;;Masterful Short-Sword
+title_male_consort                             ;Consort ;;;Consort
+k_amalfi                                       ;Amalfi  ;;;Amalfi
+k_amalfi_adj                                   ;Amalfitan;;;Amalfitan
+k_switzerland                                  ;Swiss Confederacy;;;Swiss Confederation
+k_switzerland_adj                              ;Swiss   ;;;Swiss
+saint_finger_name                              ;Finger of Saint [target_burial_site.province_saint.GetFirstNameWithNick];;;Finger of Saint [target_burial_site.province_saint.GetFirstNameWithNick]
+saint_bone_name                                ;Bone from Saint [target_burial_site.province_saint.GetFirstNameWithNick];;;Bone from Saint [target_burial_site.province_saint.GetFirstNameWithNick]
+saint_skull_1_name                             ;Skull of Saint [target_burial_site.province_saint.GetFirstNameWithNick];;;Skull of Saint [target_burial_site.province_saint.GetFirstNameWithNick]
+saint_skull_2_name                             ;Well Preserved Skull of [target_burial_site.province_saint.GetFirstNameWithNick];;;Well Preserved Skull of [target_burial_site.province_saint.GetFirstNameWithNick]
+saint_tongue_name                              ;Incorruptible Tongue of Saint [target_burial_site.province_saint.GetFirstNameWithNick];;;Incorruptible Tongue of Saint [target_burial_site.province_saint.GetFirstNameWithNick]
+d_papal_guards                                 ;Papal Guards;;;Papal Guards
+k_hellenic_pagan                               ;College of Pontiffs;;;Collegium Pontificum
+k_hellenic_pagan_adj                           ;Pontifical;;;Pontifical
+d_bon_reformed                                 ;Sacred Bön Hierarchy;;;The Sacred Bön Hierarchy
+d_bon_reformed_adj                             ;Bön     ;;;Bön
+d_dralhas_children                             ;Dralha’s Children;;;Dralha's Chidren
+d_dralhas_children_adj                         ;Dralhan ;;;Dralhan
+d_baltic_pagan_reformed                        ;Romuvan Congregation;;;The Romuvan Congregation
+d_slavic_pagan_reformed                        ;Slavic Church;;;The Slavic Church
+d_tengri_pagan_reformed                        ;Sky-Temple;;;The Sky-Temple
+d_finnish_pagan_reformed                       ;Sacred Woods;;;The Sacred Woods
+d_west_african_pagan_reformed                  ;West African Congregation;;;The African Congregation
+d_myrmidons                                    ;Myrmidons;;;Myrmidons
+d_myrmidons_adj                                ;Myrmidonian;;;Myrmidonian
+tp_shrine_zeus                                 ;Shrine to [GetZeusJupiterName];;;Shrine to [GetZeusJupiterName]
+tp_shrine_zeus_desc                            ;This temple has been dedicated to [GetZeusJupiterName], god of heaven, justice and fertility.;;;This temple has been dedicated to [GetZeusJupiterName], god of heaven, justice and fertility.
+tp_shrine_poseidon                             ;Shrine to [GetPoseidonNeptuneName];;;Shrine to [GetPoseidonNeptuneName]
+tp_shrine_poseidon_desc                        ;This temple has been dedicated to [GetPoseidonNeptuneName], god of seas, horses and settlers.;;;This temple has been dedicated to [GetPoseidonNeptuneName], god of seas, horses and settlers.
+tp_shrine_hades                                ;Shrine to [GetHadesPlutoName];;;Shrine to [GetHadesPlutoName]
+tp_shrine_hades_desc                           ;This temple has been dedicated to [GetHadesPlutoName], god of the underworld, associated with secrets and precious minerals.;;;This temple has been dedicated to [GetHadesPlutoName], god of the underworld, associated with secrets and precious minerals.
+tp_shrine_hermes                               ;Shrine to [GetHermesMercuryName];;;Shrine to [GetHermesMercuryName]
+tp_shrine_hermes_desc                          ;This temple has been dedicated to [GetHermesMercuryName], god of traders and tricksters.;;;This temple has been dedicated to [GetHermesMercuryName], god of traders and tricksters.
+tp_shrine_demeter                              ;Shrine to [GetDemetraCeresName];;;Shrine to [GetDemetraCeresName]
+tp_shrine_demeter_desc                         ;This temple has been dedicated to [GetDemetraCeresName], goddess of earth, seasons and prosperity.;;;This temple has been dedicated to [GetDemetraCeresName], goddess of earth, seasons and prosperity.
+tp_shrine_athena                               ;Shrine to [GetAthenaMinervaName];;;Shrine to [GetAthenaMinervaName]
+tp_shrine_athena_desc                          ;This temple has been dedicated to [GetAthenaMinervaName], goddess of wisdom and military strategy.;;;This temple has been dedicated to [GetAthenaMinervaName], goddess of wisdom and military strategy.
+tp_shrine_apollo                               ;Shrine to Apollo;;;Shrine to Apollo
+tp_shrine_apollo_desc                          ;This temple has been dedicated to Apollo, god of the sun, associated with arts, medicine and vengeance.;;;This temple has been dedicated to Apollo, god of the sun, associated with arts, medicine and vengeance.
+tp_shrine_arthemis                             ;Shrine to [GetArtemisDianaName];;;Shrine to [GetArtemisDianaName]
+tp_shrine_arthemis_desc                        ;This temple has been dedicated to [GetArtemisDianaName], goddess of the moon, associated with purity and nature.;;;This temple has been dedicated to [GetArtemisDianaName], goddess of the moon, associated with purity and nature.
+tp_shrine_ares                                 ;Shrine to [GetAresMarsName];;;Shrine to [GetAresMarsName]
+tp_shrine_ares_desc                            ;This temple has been dedicated to [GetAresMarsName], god of war and wrath.;;;This temple has been dedicated to [GetAresMarsName], god of war and wrath.
+tp_shrine_aphrodite                            ;Shrine to [GetAphroditeVenusName];;;Shrine to [GetAphroditeVenusName]
+tp_shrine_aphrodite_desc                       ;This temple has been dedicated to [GetAphroditeVenusName], goddess of love and lust.;;;This temple has been dedicated to [GetAphroditeVenusName], goddess of love and lust.
+tp_shrine_ephaestus                            ;Shrine to [GetHephaestusVulcanName];;;Shrine to [GetHephaestusVulcanName]
+tp_shrine_ephaestus_desc                       ;This temple has been dedicated to [GetHephaestusVulcanName], god of fire, volcanoes and metalworking.;;;This temple has been dedicated to [GetHephaestusVulcanName], god of fire, volcanoes and metalworking.
+tp_shrine_hestia                               ;Shrine to [GetHestiaVestaName];;;Shrine to [GetHestiaVestaName]
+tp_shrine_hestia_desc                          ;This temple has been dedicated to [GetHestiaVestaName], goddess of hearth, home and family.;;;This temple has been dedicated to [GetHestiaVestaName], goddess of hearth, home and family.
+job_spiritual_hellenic_pagan                   ;Augur   ;;;Augur
+job_spiritual_hellenic_pagan_reformed          ;Augur   ;;;Augur
+job_spiritual_female_hellenic_pagan            ;Seeress ;;;Seeress
+job_spiritual_female_hellenic_pagan_reformed   ;Seeress ;;;Seeress
+temple_baron_hellenic_pagan                    ;Flamen  ;;;Flamen
+temple_baron_hellenic_pagan_reformed           ;Flamen  ;;;Flamen
+temple_baron_female_hellenic_pagan             ;Vestal  ;;;Vestal
+temple_baron_female_hellenic_pagan_reformed    ;Vestal  ;;;Vestal
+temple_count_hellenic_pagan                    ;High Augur;;;High Augur
+temple_count_hellenic_pagan_reformed           ;High Augur;;;High Augur
+temple_count_female_hellenic_pagan             ;High Vestal;;;High Vestal
+temple_count_female_hellenic_pagan_reformed    ;High Vestal;;;High Vestal
+temple_duke_hellenic_pagan                     ;Pontifex;;;Pontifex
+temple_duke_hellenic_pagan_reformed            ;Pontifex;;;Pontifex
+temple_duke_female_hellenic_pagan              ;Pontifex;;;Pontifex
+temple_duke_female_hellenic_pagan_reformed     ;Pontifex;;;Pontifex
+vice_royalty_duke_roman                        ;Governor;;;Governor
+vice_royalty_duke_female_roman                 ;Governess;;;Governess
+vice_royalty_duchy_of_roman                    ;Province of;;;Province of
+vice_royalty_king_roman                        ;Proconsul;;;Proconsul
+vice_royalty_king_female_roman                 ;Proconsul;;;Proconsula
+vice_royalty_kingdom_of_roman                  ;Proconsulate of;;;Proconsulate of
+vice_royalty_emperor_roman                     ;Princeps;;;Princeps
+vice_royalty_emperor_female_roman              ;Princess;;;Princess
+vice_royalty_empire_of_roman                   ;Principate of;;;Principate of
+city_baron_roman                               ;Magister;;;Magister
+city_baron_female_roman                        ;Magistra;;;Magistra
+city_count_roman                               ;Prefect ;;;Praefect
+city_count_female_roman                        ;Prefect ;;;Praefect
+city_duke_roman                                ;Tribune ;;;Tribune
+city_duke_female_roman                         ;Tribune ;;;Tribune
+city_king_roman                                ;Consul  ;;;Consul
+city_king_female_roman                         ;Consul  ;;;Consul
+city_emperor_roman                             ;Princeps;;;Princeps
+city_emperor_female_roman                      ;Princess;;;Princess
+city_barony_of_roman                           ;City of ;;;City of
+city_county_of_roman                           ;Grand City of;;;Grand City of
+city_duchy_of_roman                            ;League of;;;League of
+city_kingdom_of_roman                          ;Republic of;;;Republic of
+city_empire_of_roman                           ;Grand Republic of;;;Grand Republic of
+city_barony_roman                              ;City    ;;;City
+city_county_roman                              ;Grand City;;;Grand City
+city_duchy_roman                               ;League  ;;;League
+city_kingdom_roman                             ;Republic;;;Republic
+city_empire_roman                              ;Grand Republic;;;Grand Republic
+scepter_african_1_random_a                     ;[Root.GetOnlyDynastyName] Family Totem;;;[Root.GetOnlyDynastyName] Family Totem
+scepter_african_1_random_b                     ;Totem of [Root.Capital.GetName];;;Totem of [Root.Capital.GetName]
+scepter_african_1_random_c                     ;Great Totem of [Root.GetFirstName];;;Great Totem of [Root.GetFirstName]
+scepter_african_1_random_d                     ;War-Totem of [Root.PrimaryTitle.GetName];;;War-Totem of [Root.PrimaryTitle.GetName]
+scepter_african_2_random_a                     ;Howling Tusk of [Root.GetFirstName];;;Howling Tusk of [Root.GetFirstName]
+scepter_african_2_random_b                     ;Wind of [Root.PrimaryTitle.GetName];;;Wind of [Root.PrimaryTitle.GetName]
+scepter_african_2_random_c                     ;Ivory Man of [Root.Capital.GetName];;;Ivory Man of [Root.Capital.GetName]
+scepter_african_2_random_d                     ;Screeching Idol of [Root.Capital.GetName];;;Screeching Idol of [Root.Capital.GetName]
+scepter_african_3_random_a                     ;Thunderstick of [Root.Capital.GetName];;;Thunderstick of [Root.Capital.GetName]
+scepter_african_3_random_b                     ;Rainstick of [Root.Capital.GetName];;;Rainstick of [Root.Capital.GetName]
+scepter_african_3_random_c                     ;[Root.GetOnlyDynastyName] Weatherstaff;;;[Root.GetOnlyDynastyName] Weatherstaff
+scepter_african_3_random_d                     ;[Root.GetFirstName]'s Windcaller;;;[Root.GetFirstName]'s Windcaller
+crown_african_mask_1_random_a                  ;Shining Voice of [Root.GetFirstName];;;Shining Voice of [Root.GetFirstName]
+crown_african_mask_1_random_b                  ;White Guardian of [Root.Capital.GetName];;;White Guardian of [Root.Capital.GetName]
+crown_african_mask_1_random_c                  ;High Spirit of [Root.PrimaryTitle.GetName];;;High Spirit of [Root.PrimaryTitle.GetName]
+crown_african_mask_1_random_d                  ;Great Spirit-Mask of [Root.GetFirstName];;;Great Spirit-Mask of [Root.GetFirstName]
+crown_african_mask_2_random_a                  ;Bloodied Jaws of [Root.GetFirstName];;;Bloodied Jaws of [Root.GetFirstName]
+crown_african_mask_2_random_b                  ;Dark Fetish of [Root.Capital.GetName];;;Dark Fetish of [Root.Capital.GetName]
+crown_african_mask_2_random_c                  ;Terror-Mask of [Root.PrimaryTitle.GetName];;;Terror-Mask of [Root.PrimaryTitle.GetName]
+crown_african_mask_2_random_d                  ;Great Spirit-Mask of [Root.GetFirstName];;;Great Spirit-Mask of [Root.GetFirstName]
+crown_african_mask_3_random_a                  ;Stone-Face of [Root.Capital.GetName];;;Stone-Face of [Root.Capital.GetName]
+crown_african_mask_3_random_b                  ;Glaring Mask of [Root.PrimaryTitle.GetName];;;Glaring Mask of [Root.PrimaryTitle.GetName]
+crown_african_mask_3_random_c                  ;Staunch Defender of [Root.Capital.GetName];;;Staunch Defender of [Root.Capital.GetName]
+crown_african_mask_3_random_d                  ;Silent Guardian of [Root.Capital.GetName];;;Silent Guardian of [Root.Capital.GetName]
+crown_african_mask_4_random_a                  ;Creeping Shadow of [Root.PrimaryTitle.GetName];;;Creeping Shadow of [Root.PrimaryTitle.GetName]
+crown_african_mask_4_random_b                  ;Dark Mask of [Root.GetFirstName];;;Dark Mask of [Root.GetFirstName]
+crown_african_mask_4_random_c                  ;Flayed Face of [Root.Capital.GetName];;;Flayed Face of [Root.Capital.GetName]
+crown_african_mask_4_random_d                  ;Soul-Drinker of [Root.PrimaryTitle.GetName];;;Soul-Drinker of [Root.PrimaryTitle.GetName]
+crown_african_mask_5_random_a                  ;Laughing Man of [Root.Capital.GetName];;;Laughing Man of [Root.Capital.GetName]
+crown_african_mask_5_random_b                  ;[Root.GetOnlyDynastyName] Quarreling Fetish;;;[Root.GetOnlyDynastyName] Quarreling Fetish
+crown_african_mask_5_random_c                  ;Cross-eyed Idol of [Root.GetFirstName];;;Cross-eyed Idol of [Root.GetFirstName]
+crown_african_mask_5_random_d                  ;Smoking Eyes of [Root.Capital.GetName];;;Smoking Eyes of [Root.Capital.GetName]
+crown_african_mask_6_random_a                  ;Howling Mask of [Root.Capital.GetName];;;Howling Mask of [Root.Capital.GetName]
+crown_african_mask_6_random_b                  ;Red Face of [Root.GetFirstName];;;Red Face of [Root.GetFirstName]
+crown_african_mask_6_random_c                  ;[Root.GetOnlyDynastyName] Sharp Teeth;;;[Root.GetOnlyDynastyName] Sharp Teeth
+crown_african_mask_6_random_d                  ;Wrinkled Man of [Root.PrimaryTitle.GetName];;;Wrinkled Man of [Root.PrimaryTitle.GetName]
+crown_african_mask_7_random_a                  ;Hollow Guardian of [Root.Capital.GetName];;;Hollow Guardian of [Root.Capital.GetName]
+crown_african_mask_7_random_b                  ;Grey Mask of [Root.GetFirstName];;;Grey Mask of [Root.GetFirstName]
+crown_african_mask_7_random_c                  ;Silent Eyes of [Root.PrimaryTitle.GetName];;;Silent Eyes of [Root.PrimaryTitle.GetName]
+crown_african_mask_7_random_d                  ;Watchful Totem of [Root.Capital.GetName];;;Watchful Totem of [Root.Capital.GetName]
+crown_african_mask_8_random_a                  ;Winged Mask of [Root.GetFirstName];;;Winged Mask of [Root.GetFirstName]
+crown_african_mask_8_random_b                  ;Wind-Mask of [Root.GetFirstName];;;Wind-Mask of [Root.GetFirstName]
+crown_african_mask_8_random_c                  ;Sky-Guardian of [Root.PrimaryTitle.GetName];;;Sky-Guardian of [Root.PrimaryTitle.GetName]
+crown_african_mask_8_random_d                  ;Whirlwind of [Root.Capital.GetName];;;Whirlwind of [Root.Capital.GetName]
+KIEVAN_RUS                                     ;Kievan Rus’;;;Kievan Rus
+PROV515                                        ;Târgoviste;;c_tirgoviste;Târgoviste
+meshchera                                      ;Meshchera;;;Meshchera
+d_yaroslavl                                    ;Vologda ;;;Vologda
+d_yaroslavl_adj                                ;Vologda ;;;Vologdan
+d_papal_guards_adj                             ;Papal Guards;;;Papal Guard
+ca_culture_moors_1_desc                        ;This is where the elite of the [GetMoorish] cavalry are recruited and trained. The [GetMoors] have a long tradition fielding some of the finest cavalry in the world – armed with lances, swords and bows, they have great tactical flexibility.;;;This is where the elite of the [GetMoorish] cavalry are recruited and trained. The [GetMoors] have a long tradition fielding some of the finest cavalry in the world - armed with lances, swords and bows, they have great tactical flexibility.
+KIEVAN_RUS_ADJ                                 ;Rus’    ;;;Kievan Rus
+enemy_skull_named                              ;[enemy_commander.GetFirstName]’s Skull;;;[enemy_commander.GetFirstName]'s Skull
+enemy_skull_named_culture                      ;[enemy_commander.Culture.GetName] Skull;;;[enemy_commander.Culture.GetName] Skull
+enemy_skull_barbarian                          ;Barbarian’s Skull;;;Barbarian's Skull
+weapon_battlefield_rename                      ;[target_artifact.GetName] II;;;[target_artifact.GetName] II
+c_lombardia_adj                                ;Burgaria;;;Milanese
+c_consenza_adj                                 ;Tarsia  ;;;Cosenzan
+e_outremer_adj                                 ;Latin   ;;;Latin
+k_teutonic_state_adj                           ;Teutonic;;;Teutonics
+d_livonian_order_adj                           ;Livonian;;;Livonian
+d_livonian_order                               ;Livonian Order;;;Livonian Order
+tp_saint_shrine                                ;Local Saint Shrine;;;Local Saint Shrine
+knights_hospitaler_island_rename               ;Knights of [potential_title.GetBaseName];;;Knights of [potential_title.GetBaseName]
+crusade_state_duchy_adjective                  ;[current_crusade_beneficiary.Culture.GetName];;;[current_crusade_beneficiary.Culture.GetName]
+saintly_bloodline_name                         ;Blood of Saint [saint_person.GetDynName];;;Blood of Saint [saint_person.GetDynName]
+bloodline_seaking_viking_random_a              ;Stormblood of [Root.GetFirstName];;;Stormblood of [Root.GetFirstName]
+bloodline_seaking_viking_random_b              ;Blood of the Depths;;;Blood of the Depths
+bloodline_seaking_viking_random_c              ;Æsir Blood;;;Aesiryan Blood
+bloodline_seaking_viking_random_d              ;Blood of the Tempest;;;Blood of the Tempest
+bloodline_seaking_pirate_random_a              ;Saltblood of [Root.GetFirstName];;;Saltblood of [Root.GetFirstName]
+bloodline_seaking_pirate_random_b              ;Kraken of [Root.Capital.GetName];;;Kraken of [Root.Capital.GetName]
+bloodline_seaking_pirate_random_c              ;Abyssal Blood;;;Abyssal Blood
+bloodline_seaking_pirate_random_d              ;Stormforged;;;Stormforged
+bloodline_seaqueen_viking_random_a             ;Stormblood of [Root.GetFirstName];;;Stormblood of [Root.GetFirstName]
+bloodline_seaqueen_viking_random_b             ;Wyrm Blood;;;Wyrm Blood
+bloodline_seaqueen_viking_random_c             ;Valkyrie Blood;;;Valkyrian Blood
+bloodline_seaqueen_viking_random_d             ;Eye of the Maelstrom;;;Eye of the Maelstrom
+bloodline_seaqueen_pirate_random_a             ;Fury of [Root.Capital.GetName];;;Fury of [Root.Capital.GetName]
+bloodline_seaqueen_pirate_random_b             ;Siren Blood;;;Siren Blood
+bloodline_seaqueen_pirate_random_c             ;Saltblood of [Root.GetFirstName];;;Saltblood of [Root.GetFirstName]
+bloodline_seaqueen_pirate_random_d             ;Stormforged;;;Stormforged
+bloodline_bloodthirsty_name_random_a           ;Dark Blood of [Root.GetFirstName];;;Dark Blood of [Root.GetFirstName]
+bloodline_bloodthirsty_name_random_b           ;Crimson Tree;;;Crimson Tree
+bloodline_bloodthirsty_name_random_c           ;Scarlet Seeds of [Root.GetFirstName];;;Scarlet Seeds of [Root.GetFirstName]
+bloodline_bloodthirsty_name_random_d           ;Red Reaper of [Root.Capital.GetName];;;Red Reaper of [Root.Capital.GetName]
+bloodline_bloodthirsty_name_random_e           ;Soulflayers;;;Soulflayers
+bloodline_bloodthirsty_name_random_f           ;Dreaded ;;;Dreaded
+tb_great_pillar_norse                          ;Irminsul Tree;;;Irminsul Tree
+tp_great_pillar_norse                          ;Irminsul Tree;;;Irminsul Tree
+tb_great_pillar_norse_desc                     ;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;A sacred carved pillar bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_tengri                         ;Ovoo Shrine;;;Ovoo Shrine
+tb_great_pillar_tengri_desc                    ;A heap of banners and sacred stones bearing deep religious significance for the local pagan tribes.;;;A heap of banners and sacred stones bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_slavic                         ;Great [slavic_pagan.GetName] Pillar;;;Great [slavic_pagan.GetName] Pillar
+tb_great_pillar_slavic_desc                    ;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;A sacred carved pillar bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_baltic                         ;Great [baltic_pagan.GetName] Pillar;;;Great [baltic_pagan.GetName] Pillar
+tb_great_pillar_baltic_desc                    ;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;A sacred carved pillar bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_finnish                        ;Hiisi Grove;;;Hiisi Grove
+tb_great_pillar_finnish_desc                   ;A sacred hidden forest bearing deep religious significance for the local pagan tribes.;;;A sacred hidden forest bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_west_african                   ;Great Totem;;;Great Totem
+tb_great_pillar_west_african_desc              ;A tall sacred totem bearing deep religious significance for the local pagan tribes.;;;A tall sacred totem bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_aztec                          ;Skull Totem;;;Skull Totem
+tb_great_pillar_aztec_desc                     ;A tall sacred totem bearing deep religious significance for the local pagan tribes.;;;A tall sacred totem bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_bon                            ;Balancing Stone;;;Balancing Stone
+tb_great_pillar_bon_desc                       ;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;A sacred carved pillar bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_zun                            ;Sun Column;;;Sun Column
+tb_great_pillar_zun_desc                       ;A sacred golden pillar bearing deep religious significance for the local pagan tribes.;;;A sacred golden pillar bearing deep religious significance for the local pagan tribes.
+tb_great_pillar_hellenic                       ;[GetZeusJupiterName] Column;;;[GetZeusJupiterName] Column
+tb_great_pillar_hellenic_desc                  ;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;A sacred carved pillar bearing deep religious significance for the local pagan tribes.
+hedgehog_group                                 ;Erinaceidae;;;Erinaceidae
+hedgehog_culture                               ;Hedgehog;;;Hedgehog
+ct_planned_infrastructure_1                    ;Garrisoned Roads;;;Garrisoned Roads
+ct_planned_infrastructure_1_desc               ;By reorganizing the more rural areas around the city, it is possible to sustain a greater influx of travelers.;;;By reorganizing the more rural areas around the city, it is possible to sustain a greater influx of travelers.
+ct_planned_infrastructure_2                    ;Stone Roads;;;Stone Roads
+ct_planned_infrastructure_2_desc               ;A safe network of wide stone roads can significantly increase the number and size of caravans bringing commerce to the city.;;;A safe network of wide stone roads can significantly increase the number and size of caravans bringing commerce to the city.
+ct_planned_infrastructure_3                    ;Cleared Pathways;;;Cleared Pathways
+ct_planned_infrastructure_3_desc               ;Clearing out the major pathways and establishing official outposts around the city’s main roads can greatly facilitate the local garrison’s efforts to defend travelers from brigands and wild animals.;;;Clearing out the major pathways and establishing official outposts around the city's main roads can greatly facilitate the local garrison's efforts to defend travelers from brigands and wild animals.
+ct_planned_infrastructure_4                    ;Great Aqueduct;;;Great Aqueduct
+ct_planned_infrastructure_4_desc               ;A marvel of ancient empires, now restored for modern use, capable of quickly transporting water through the entire province.;;;A marvel of ancient empires, now restored for modern use, capable of quickly transporting water through the entire province.
+ca_special_fortifications_1                    ;Insulated Sections;;;Insulated Sections
+ca_special_fortifications_1_desc               ;Compartmentalized wall sections within the fortress ensure that, even in case of a breach, the garrison is able to trap the attackers within the outermost sections of the castle, preventing the sacking of the entire fortress.;;;Compartmentalized wall sections within the fortress ensure that, even in case of a breach, the garrison is able to trap the attackers within the outermost sections of the castle, preventing the sacking of the entire fortress.
+ca_special_fortifications_2                    ;Killing Fields;;;Killing Fields
+ca_special_fortifications_2_desc               ;The killing fields allow the garrison’s archers to safely keep throwing arrows and stones at the attackers even after they have breached through the main walls.;;;The killing fields allow the garrison's archers to safely keep throwing arrows and stones at the attackers even after they have breached through the main walls.
+ca_special_fortifications_3                    ;Extended Machicolations;;;Extended Machicolations
+ca_special_fortifications_3_desc               ;These overhanging holes embedded between the castle’s corbels allow the defenders to throw rocks, bees, boiling oil and other unpleasant items at the attackers from a relatively safe position.;;;These overhanging holes embedded between the castle's corbels allow the defenders to throw rocks, bees, boiling oil and other unpleasant items at the attackers from a relatively safe position.
+ca_special_fortifications_4                    ;Reinforced Barbican;;;Reinforced Barbican
+ca_special_fortifications_4_desc               ;The latest innovation in military engineering, a reinforced barbican will force the castle’s assailants through a crooked and narrow path after the breach of the main gate, exposing them to heavy retaliation from the defenders.;;;The latest innovation in military engineering, a reinforced barbican will force the castle's assailants through a crooked and narrow path after the breach of the main gate, exposing them to heavy retaliation from the defenders.
+tp_monumental_shrines_1                        ;Monumental Shrines;;;Monumental Shrines
+tp_monumental_shrines_1_desc                   ;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.;;;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.
+tp_monumental_shrines_2                        ;Monumental Shrines;;;Monumental Shrines
+tp_monumental_shrines_2_desc                   ;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.;;;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.
+tp_monumental_shrines_3                        ;Monumental Shrines;;;Monumental Shrines
+tp_monumental_shrines_3_desc                   ;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.;;;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.
+tp_monumental_shrines_4                        ;Monumental Shrines;;;Monumental Shrines
+tp_monumental_shrines_4_desc                   ;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.;;;Only by erecting ever taller and greater monuments can we truly prove our eternal devotion towards the heavens.
+ca_oppressive_fortifications_1                 ;Gloomy Monument;;;Gloomy Monument
+ca_oppressive_fortifications_1_desc            ;An austere and imposing statue, representing one of the esteemed members of the realm’s ruling dynasty. Its cold, stern gaze overlooks the battlements, inspiring a lingering sense of dread amongst the masses.;;;An austere and imposing statue, representing one of the esteemed members of the realm's ruling dynasty. Its cold, stern gaze overlooks the battlements, inspiring a lingering sense of dread amongst the masses.
+ca_oppressive_fortifications_2                 ;Connected Watchtowers;;;Connected Watchtowers
+ca_oppressive_fortifications_2_desc            ;An intricate network of watchtowers ensures that the garrison of this fortress can maintain absolute control over anything happening within the castle.;;;An intricate network of watchtowers ensures that the garrison of this fortress can maintain absolute control over anything happening within the castle.
+ca_oppressive_fortifications_3                 ;Lonely Spire;;;Lonely Spire
+ca_oppressive_fortifications_3_desc            ;An isolated tower, built not too far from the main castle, providing the garrison with an advanced outpost and a more secretive place to deal with inconvenient prisoners.;;;An isolated tower, built not too far from the main castle, providing the garrison with an advanced outpost and a more secretive place to deal with inconvenient prisoners.
+ca_oppressive_fortifications_4                 ;Palace of Justice;;;Palace of Justice
+ca_oppressive_fortifications_4_desc            ;A massive building raised within the fortress’s walls, surrounded by bloodied pikes and overlooking a large execution stand.;;;A massive building raised within the fortress' walls, surrounded by bloodied pikes and overlooking a large execution stand.
+c_galaz_adj                                    ;Bessarabian;;;Galatian
+c_torki_adj                                    ;Suceava ;;;Suceavan
+k_romagna_adj                                  ;Romagna ;;;Romagnol
+k_eastern_marches_adj                          ;Bavarian;;;Bavarian
+e_outremer                                     ;Outremer;;;Outremer
+k_eastern_marches                              ;Austria ;;;Austria
+k_romagna                                      ;Romagna ;;Ravenna;Romagna
+k_teutonic_state                               ;Teutonic State;;;Teutonic State
+c_tahoua_adj                                   ;Tahoua  ;;;Tahouan
+c_birlad_adj                                   ;Bârlad  ;;;Birlader
+c_buzachi_adj                                  ;Buzachi ;;;Buzachian
+c_barskhan_adj                                 ;Barskon ;;;Barskhaner
+c_kartli_adj                                   ;Kartlian;;;Tiflisite
+c_zaysan_adj                                   ;Zaysan  ;;;Zaysan
+c_irgiz_adj                                    ;Irgiz   ;;;Irgizian
+c_talas_adj                                    ;Talas   ;;;Talasi
+c_hellas_adj                                   ;Hellenic;;;Theban
+trans_saharan_trade_route                      ;Trans-Saharan Trade Route;;;Trans Saharan Trade Route
+tr_gold_mine_2                                 ;Gold Mine;;;Gold Mine
+tr_salt_mine_1                                 ;Salt Mine;;;Salt Mine
+tb_culture_coptic_1                            ;[coptic.GetName] Spearmen;;;[coptic.GetName] Spearmen
+tb_culture_coptic_2                            ;[coptic.GetName] Spearmen;;;[coptic.GetName] Spearmen
+tb_culture_coptic_3                            ;[coptic.GetName] Spearmen;;;[coptic.GetName] Spearmen
+tb_culture_coptic_4                            ;[coptic.GetName] Spearmen;;;[coptic.GetName] Spearmen
+ca_culture_coptic_1_desc                       ;These barracks provide [coptic.GetName] rulers with a strong force of spearmen to hold a defensive line against the enemy.;;;These barracks provide [coptic.GetName] rulers with a strong force of spearmen to hold a defensive line against the enemy.
+central_african                                ;Central African;;;Central African
+duck_group                                     ;Aves    ;;;Aves
+duck_culture                                   ;Duck    ;;;Duck
+dog_group                                      ;Canidae ;;;Canidae
+dog_culture                                    ;Dog     ;;;Dog
+dragon_group                                   ;Drachidae;;;Drachidae
+dragon_culture                                 ;Dragon  ;;;Dragon
+blessed_bloodline_name                         ;Blessed Blood of [saint_person.GetDynName];;;Blessed Blood of [saint_person.GetDynName]
+the_legendary_dynasty_warrior_root             ;The Legendary [From.OriginalOwner.GetOnlyDynastyName] [From.OriginalOwner.GetWarriorRoleCap];;;The Legendary [From.OriginalOwner.GetOnlyDynastyName] [From.OriginalOwner.GetWarriorRoleCap]
+the_legendary_dynasty_warrior_not_root         ;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap];;;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap]
+the_saintly_relative_1                         ;The Virtues of [saintly_relative.GetFirstName];;;The Virtues of [saintly_relative.GetFirstName]
+d_durham_palatine                              ;County Palatine of Durham;;;Durham
+d_durham_palatine_adj                          ;Durham  ;;;Durhamian
+crown_winged_helmet_bloodline_name_1           ;[Root.GetDynName] Crest;;;[Root.GetDynName] Crest
+elephant_group                                 ;Proboscidea;;;Proboscidea
+elephant_culture                               ;Elephant;;;Elephant
+outremer                                       ;Outremer;;;Outremer
+king_central_african                           ;Mai     ;;;Mai
+tribal_king_central_african                    ;Mai     ;;;Mai
+tr_sahara_1                                    ;Saharan Trade Post;;;Saharan Trade Post
+tr_sahara_1_desc                               ;A smaller trade post at which travelling merchants can buy and sell various trade goods.;;;A smaller trade post at which travelling merchants can buy and sell various trade goods.
+tr_sahara_2                                    ;Saharan Trade Market;;;Saharan Trade Market
+tr_sahara_2_desc                               ;A trade post that has grown into a large market, attracting a wider range of merchants and trade goods.;;;A trade post that has grown into a large market, attracting a wider range of merchants and trade goods.
+tr_sahara_3                                    ;Saharan Trade City;;;Saharan Trade City
+tr_sahara_3_desc                               ;This is a significant trading hub on the trans-Saharan trade route. It attracts merchants from all over Africa, trading wares and services that cannot be found anywhere else.;;;This is a significant trading hub on the Trans-Saharan trade route. It attracts merchants from all over Africa, trading wares and services that cannot be found anywhere else.
+tr_gold_mine_1                                 ;Gold Field;;;Gold Field
+tr_gold_mine_3                                 ;Large Gold Mine;;;Large Gold Mine
+tr_gold_mine_1_desc                            ;A small field for finding and extracting gold. This gleaming metal is highly valued and is often used as a currency.;;;A small field for finding and extracting gold. This gleaming metal is highly valued and is often used as a currency.
+tr_gold_mine_2_desc                            ;A well established mine capable of producing larger quantities of gold.;;;A well established mine capable of producing larger quantities of gold.
+tr_gold_mine_3_desc                            ;The production of this larger mining complex is unrivaled. It produces an immense amount of gold.;;;The production of this larger mining complex is unrivaled. It produces an immense amount of gold.
+tr_cloth_production_1                          ;Cloth Market;;;Cloth Market
+tr_cloth_production_1_desc                     ;A place where cloth of high quality is produced and sold.;;;A place where cloth of high quality is produced and sold.
+tr_salt_mine_1_desc                            ;A mine for extracting vast quantities of salt. A highly valued trade good said to be worth its weight in gold.;;;A mine for extracting vast quantities of salt. A highly valued trade good said to be worth its weight in gold.
+ALT_HO_LOCATION                                ;Knights of [coa_target.GetName];;;Knights of [coa_target.GetName]
+ALT_HO_LOCATION_ADJ                            ;[coa_target.GetName];;;[coa_target.GetName]
+d_african_massive                              ;Ton-Tigi Army;;;Ton-Tigi Army
+d_african_large                                ;Mandekalu Horsemen;;;Mandekalu Horsemen
+d_african_mid                                  ;Kèlè-Koun Infantry;;;Kèlè-Koun Infantry
+d_african_mid_low_1                            ;Mandekalu Band;;;Mandekalu Band
+d_african_mid_low_2                            ;Hausa Company;;;Hausa Company
+d_african_low                                  ;Band of the Hippo;;;Band of the Hippo
+d_african_tiny                                 ;Crocodile Company;;;Crocodile Company
 #India.csv;;;;
 PROV908                                        ;Rub‘ al Khali;;;Rub' al Khali Desert
 d_socotra                                      ;Socotra ;;;Socotra
@@ -135,18 +624,13 @@ c_balkhash_adj                                 ;Balkhash;;;Balkhashi
 c_socotra_adj                                  ;Socotran;;;Socotran
 k_sindh                                        ;Sindh   ;;;Sindh
 d_sauvira                                      ;Sauvira ;;;Sauvira
-d_bhakkar                                      ;Bhakkar ;;;Bhakkar
-k_punjab                                       ;Punjab  ;;India,Indike;Punjab
 d_multan                                       ;Multan  ;;;Multan
 d_lahore                                       ;Lahore  ;;;Lahore
 d_gandhara                                     ;Gandhara;;;Gandhara
-k_delhi                                        ;Delhi   ;;;Delhi
 d_kuru                                         ;Kuru    ;;;Kuru
 d_haritanaka                                   ;Haryana ;;;Haritanaka
 d_mathura                                      ;Mathura ;;;Mathura
-d_vodamayutja                                  ;Budaun  ;;;Vodamayutja
-k_gujarat                                      ;Gujarat ;;;Gujarat
-d_gurjara_mandala                              ;Gujarat ;;;Gurjara Mandala
+k_gujarat                                      ;Gujarat ;;al-Jurz;Gujarat
 d_anartta                                      ;Anarta  ;;;Anartta
 d_saurashtra                                   ;Saurashtra;;;Saurashtra
 d_lata                                         ;Lata    ;;;Lata
@@ -156,27 +640,28 @@ d_jangladesh                                   ;Jangladesh;;;Jangladesh
 d_stravani                                     ;Stravani;;;Stravani
 d_medapata                                     ;Mewar   ;;;Medapata
 d_ajmer                                        ;Ajmer   ;;;Ajmer
-k_malwa                                        ;Malwa   ;;;Malwa
+k_malwa                                        ;Malwa   ;;al-Máribah;Malwa
 d_dadhipadra                                   ;Avanti  ;;;Avanti
 d_akara_dasarna                                ;Dasharna;;;Akara-Dasarna
 d_anupa                                        ;Anupa   ;;;Anupa
-k_kosala                                       ;Kosala  ;;;Kosala
-d_kanyakubja                                   ;Kannauj ;;;Kanyakubja
-d_saryupara                                    ;Saryupara;;;Saryupara
+d_kanyakubja                                   ;Kannauj ;;Kannauj;Kanyakubja
+d_saryupara                                    ;Sarvariya;;;Saryupara
 d_jejakabhukti                                 ;Bundelkhand;;;Jejakabhukti
+d_dahala                                       ;Chedi   ;;;Dahala
+d_devagiri                                     ;Devagiri;;;Devagiri
+c_nasikya_adj                                  ;Nasikya ;;;Nasikyan
+c_nandurbar_adj                                ;Nandurbar;;;Nandurbaran
+c_devagiri_adj                                 ;Devagiri;;;Devagiri
+c_tripuri_adj                                  ;Tripuri ;;;Tripuri
+c_chauragarh_adj                               ;Chauragarh;;;Chauragarh
 c_kanyakubja_adj                               ;Kannauj ;;;Kanyakubjan
 c_lakhnau_adj                                  ;Lucknow ;;;Lakhnau
 c_kalpi_adj                                    ;Kalpi   ;;;Kalpi
-c_bharauli_adj                                 ;Barauli ;;;Bharauli
-c_prayaga_adj                                  ;Allahabad;;;Prayaga
 c_asni_adj                                     ;Asni    ;;;Asni
 c_naimisa_adj                                  ;Naimisha;;;Naimisan
-c_sravasti_adj                                 ;Sravasti;;;Sravasti
-c_ayodhya_adj                                  ;Ayodhya ;;;Ayodhya
 c_mahoba_adj                                   ;Mahoba  ;;;Mahoban
 c_kalanjara_adj                                ;Kalanjara;;;Kalanjaran
 c_damoh_adj                                    ;Damoh   ;;;Damoh
-c_gurgi_adj                                    ;Gurgi   ;;;Gurgi
 c_delhi_adj                                    ;Delhi   ;;;Delhi
 c_hastinapura_adj                              ;Hastinapur;;;Hastinapuran
 c_sthanisvara_adj                              ;Thanesar;;;Sthanisvaran
@@ -186,7 +671,6 @@ c_sarasvati_adj                                ;Saraswati;;;Sarasvati
 c_mathura_adj                                  ;Mathura ;;;Mathuran
 c_kol_adj                                      ;Aligarh ;;;Kol
 c_sripatha_adj                                 ;Bayana  ;;;Sripathan
-c_vodamayutja_adj                              ;Budaun  ;;;Vodamayutjan
 c_sambhal_adj                                  ;Sambhal ;;;Sambhal
 c_katehar_adj                                  ;Rohilkhand;;;Kateharan
 c_dadhipadra_adj                               ;Dahod   ;;;Dadhipadran
@@ -201,7 +685,7 @@ c_mandapika_adj                                ;Mandu   ;;;Mandapikan
 c_asirgarh_adj                                 ;Asirgarh;;;Asirgarh
 c_burhanpur_adj                                ;Burhanpur;;;Burhanpuran
 c_thalner_adj                                  ;Thalner ;;;Thalner
-c_sarasvata_mandala_adj                        ;Sarasvata;;;Sarasvatan
+c_sarasvata_mandala_adj                        ;Anhilwara;;;Sarasvatan
 c_khetaka_adj                                  ;Kheda   ;;;Khetakan
 c_mohadavasaka_adj                             ;Modasa  ;;;Mohadavasakan
 c_dhamalpur_adj                                ;Dhrol   ;;;Dhamalpuran
@@ -256,7 +740,7 @@ c_purushapura_adj                              ;Peshawar;;;Purushapuran
 c_nandana_adj                                  ;Nandana ;;;Nandana
 c_kasmira_adj                                  ;Kasmira ;;;Kasmiran
 c_wana_adj                                     ;Loralai ;;;Wana
-c_kandail_adj                                  ;Kandail ;;;Kandail
+c_kandail_adj                                  ;Gandawah;;;Kandail
 c_bamiyan_adj                                  ;Bamyan  ;;;Bamiyan
 #JadeDragon.csv;;;;
 title_administrator                            ;Scholar-Bureaucrat;;;Scholar-Bureaucrat
@@ -297,12 +781,6 @@ ca_culture_chinese_han_1                       ;Crossbow Range;;;Crossbow Range
 ca_culture_chinese_han_2                       ;Crossbow Range;;;Crossbow Range
 ca_culture_chinese_han_3                       ;Crossbow Range;;;Crossbow Range
 ca_culture_chinese_han_4                       ;Crossbow Range;;;Crossbow Range
-ca_culture_chinese_han_1_desc                  ;Since the days of Zhuge Liang and the invention of his crossbow, Chinese soldiers carry an advantage on the battlefield. Here they gather, turning proficiency into mastery.;;;Since the days of Zhuge Liang and the invention of his crossbow, Chinese soldiers carry an advantage on the battlefield. Here they gather, turning proficiency into mastery.
-ca_culture_altaic_jurchen_1                    ;Jurchen Cavalry Barracks;;;Jurchen Cavalry Barracks
-ca_culture_altaic_jurchen_2                    ;Jurchen Cavalry Barracks;;;Jurchen Cavalry Barracks
-ca_culture_altaic_jurchen_3                    ;Jurchen Cavalry Barracks;;;Jurchen Cavalry Barracks
-ca_culture_altaic_jurchen_4                    ;Jurchen Cavalry Barracks;;;Jurchen Cavalry Barracks
-ca_culture_altaic_jurchen_1_desc               ;The Jurchen are famous for their skilled cavalry, the Tie-Futu and their unique battle tactics – this is their practice grounds where they train to improve upon their specialty.;;;The Jurchen are famous for their skilled cavalry, the Tie-Futu and their unique battle tactics – this is their practice grounds where they train to improve upon their specialty.
 RETTYPE_CUL_HAN                                ;Nubing  ;;;Nubing
 RETTYPE_CUL_JURCHEN                            ;Tie-Futu;;;Tie-Futu
 e_china_west_governor                          ;Western Protectorate;;;Western Protectorate
@@ -311,6 +789,7 @@ title_china_emperor                            ;Emperor ;;;Emperor
 cat                                            ;Cat     ;;;Cat
 bon                                            ;Bön     ;;;Bön
 temple_baron_bon                               ;Lama    ;;;Lama
+temple_baron_bon_reformed                      ;Lama    ;;;Lama
 d_han_mid                                      ;Qilin Company;;;Qilin Company
 d_han_mid_low                                  ;Tortoise Company;;;Tortoise Company
 d_han_low                                      ;Crane Band;;;Crane Band
@@ -321,7 +800,6 @@ ca_culture_tibetan_1                           ;Mountaineer Academy;;;Mountainee
 ca_culture_tibetan_2                           ;Mountaineer Academy;;;Mountaineer Academy
 ca_culture_tibetan_3                           ;Mountaineer Academy;;;Mountaineer Academy
 ca_culture_tibetan_4                           ;Mountaineer Academy;;;Mountaineer Academy
-ca_culture_tibetan_desc                        ;The hardy peoples of the Himalayas are experts at fighting in rough and mountainous terrain.;;;The hardy peoples of the Himalayas are experts at fighting in rough and mountainous terrain.
 emperor_nepali                                 ;Samrata ;;;Samrata
 emperor_female_nepali                          ;Maharani;;;Maharani
 king_nepali                                    ;Raja    ;;;Raja
@@ -344,6 +822,8 @@ tangut                                         ;Tangut  ;;;Tangut
 bodpa                                          ;Bödpa   ;;;Bödpa
 nepali                                         ;Nepali  ;;;Nepali
 tibetan_group                                  ;Tibeto-Burman;;;Tibeto-Burman
+d_trigarta                                     ;        ;;;Trigarta
+d_trigarta_adj                                 ;        ;;;Trigartan
 e_tibet                                        ;Tibet   ;;Tufan,Tubbat,Töpät,Tüpüt;Tibet
 e_tibet_adj                                    ;Tibetan ;;;Tibetan
 k_guge                                         ;Guge    ;;Xangxung,Kuo-k'êk;Guge
@@ -365,10 +845,12 @@ k_kashmir                                      ;Kashmir ;;;Kashmir
 k_kashmir_adj                                  ;Kashmiri;;;Kashmiran
 d_kashmir                                      ;Kashmir ;;;Kashmir
 d_kashmir_adj                                  ;Kashmiri;;;Kashmiran
+d_pamir                                        ;Pamir   ;;;Pamir
+d_pamir_adj                                    ;Pamir   ;;;Pamiran
 c_gilgit_adj                                   ;Gilgit  ;;;Gilgitan
 c_tashkurgan_adj                               ;Tashkurgan;;;Tashkurgan
 c_skardu_adj                                   ;Skardu  ;;;Skardui
-c_kangra_adj                                   ;Kangra  ;;;Kangran
+c_kangra_adj                                   ;Kahlur  ;;;Kangran
 c_garhwal_adj                                  ;Garhwali;;;Garhwali
 c_kurmanchal_adj                               ;Kumaon  ;;;Kurmanchali
 khurmazta                                      ;Khurmazta;;;Khurmazta
@@ -383,6 +865,8 @@ ca_desert_stable_1                             ;Desert Cavalry;;;Desert Cavalry
 ca_desert_stable_2                             ;Desert Cavalry;;;Desert Cavalry
 ca_desert_stable_3                             ;Desert Cavalry;;;Desert Cavalry
 ca_desert_stable_4                             ;Desert Cavalry;;;Desert Cavalry
+ca_desert_stable_5                             ;Desert Cavalry;;;Desert Cavalry
+ca_desert_stable_6                             ;Desert Cavalry;;;Desert Cavalry
 job_spiritual_manichean                        ;Didaskalos;;;Didaskalos
 temple_baron_khurmazta                         ;Vahram  ;;;Vahram
 trade_offices_1                                ;Rudimentary Trade Offices;;;Rudimentary Trade Offices
@@ -424,10 +908,11 @@ title_china_emperor_female                     ;Empress ;;;Empress
 c_tihama_adj                                   ;Tihamah ;;;Tihaman
 c_badghis_adj                                  ;Badghis ;;;Badghisian
 c_guzgan_adj                                   ;Guzgan  ;;;Guzgian
-c_amol_adj                                     ;Amol    ;;;Amolian
+c_amol_adj                                     ;Ámul    ;;;Amolian
 c_sarakhs_adj                                  ;Sarakhs ;;;Sarakhian
 c_khojand_adj                                  ;Khujand ;;;Khojandian
-c_khaylam_adj                                  ;Khaylam ;;;Khaylamian
+c_khaylam_adj                                  ;Khailam ;;;Khaylamian
+c_nakhshab_adj                                 ;Nakhshab;;;Nakhshabian
 chinese_artwork_name                           ;[offmap_china.GetShortName] Artwork;;;[offmap_china.GetShortName] Artwork
 chinese_calligraphy_name                       ;[offmap_china.GetShortName] Calligraphy;;;[offmap_china.GetShortName] Calligraphy
 chinese_sculpture_name                         ;[offmap_china.GetShortName] Sculpture;;;[offmap_china.GetShortName] Sculpture
@@ -442,6 +927,10 @@ d_silk_road_sentinels_adj                      ;Silk Road Sentinels;;;Silk Road 
 d_turkic_guard                                 ;Turkic Guard;;;Turkic Guard
 d_turkic_guard_adj                             ;Turkic Guard;;;Turkic Guard
 c_gegyai_adj                                   ;Gê’gyai ;;;Gegyai
+d_sardinian_band                               ;Sardinian Band;;;Sardinian Band
+d_sardinian_band_adj                           ;Sardinian;;;Sardinian
+d_sardinian_company                            ;Sardinian Company;;;Sardinian Company
+d_sardinian_company_adj                        ;Sardinian;;;Sardinian
 sumpa                                          ;Sumpa   ;;;Sumpa
 zhangzhung                                     ;Zhangzhung;;;Zhangzhung
 job_chancellor_female_bodpa                    ;Great Minister;;;Lönchen
@@ -464,7 +953,6 @@ count_female_nepali                            ;Pramukha;;;Pramukha
 radhanite_quarter_1                            ;Small Radhanite Compound;;;Small Radhanite Compound
 radhanite_quarter_2                            ;Radhanite Compound;;;Radhanite Compound
 radhanite_quarter_3                            ;Large Radhanite Compound;;;Large Radhanite Compound
-radhanite_quarter_1_desc                       ;This fortified trade post is owned by the Radhanites, Jewish merchants known for their extensive trading contacts around the known world.;;;This fortified trade post is owned by the Radhanites, Jewish merchants known for their extensive trading contacts around the known world.
 bear                                           ;Bear    ;;;Bear
 bear_group                                     ;Bear    ;;;Bear
 how_to_carry_a_bow                             ;How To Carry a Bow;;;How To Carry a Bow
@@ -499,6 +987,7 @@ title_court_eunuch_desc                        ;Eunuchs perform many valued cour
 title_hermetics_apprentice                     ;Apprentice;;;Apprentice
 title_hermetics_apprentice_desc                ;Hermetic scholars may chose an apprentice. In exchange for tutoring, the apprentice will take care of one’s laboratory and assist during experiments.;;;Hermetic scholars may chose an apprentice. In exchange for tutoring, the apprentice will take care of one's laboratory and assist during experiments.
 temple_baron_female_christian                  ;Bishop  ;;;Bishop
+#PATCH - RedKing.csv;;;;
 #ReapersDue.csv;;;;
 hospital_building_1                            ;Sickhouse;;;Sick House
 hospital_building_1_desc                       ;A basic building to house the sick.;;;A basic building to house the sick.
@@ -541,8 +1030,12 @@ AUSTRASIA                                      ;Austrasia;;;Austrasia
 AUSTRASIA_ADJ                                  ;Austrasian;;;Austrasian
 #RedKing.csv;;;;
 #RulerDesigner.csv;;;;
+#SPA.csv;;;;
+#SecretReligionSocieties.csv;;;;
 #SwordOfIslam.csv;;;;
+#TODO.csv;;;;
 #WikipediaLinks.csv;;;;
+#commented_out_strings.csv;;;;
 #sunset_invasion.csv;;;;
 mesoamerican                                   ;Mesoamerican;;;Mesoamerican
 nahuatl                                        ;Nahua   ;;;Nahua
@@ -679,14 +1172,6 @@ emperor_female_altaic                          ;Khatun  ;;;Khatun
 king_altaic                                    ;Khan    ;;;Khan
 king_female_altaic                             ;Khanum  ;;;Khanum
 kingdom_of_altaic                              ;Khanate of;;;Khanate of
-baron_arabic                                   ;Wâli    ;;;Wâli
-barony_of_arabic                               ;Wilayah of;;;Wilayah of
-count_arabic                                   ;Sheikh  ;;;Sheikh
-county_of_arabic                               ;Sheikhdom of;;;Sheikhdom of
-duke_arabic                                    ;Emir    ;;;Emir
-duke_female_arabic                             ;Emira   ;;;Emira
-king_arabic                                    ;Sultan  ;;;Sultan
-king_female_arabic                             ;Sultana ;;;Sultana
 kingdom_of_arabic                              ;Sultanate of;;;Sultanate of
 baron_turkish                                  ;Timariot;;;Timariot
 barony_of_turkish                              ;Timar of;;;Timar of
@@ -736,7 +1221,6 @@ c_thessalonike_adj                             ;Thessalonian;;;Thessalonikian
 c_epeiros_adj                                  ;Epirote ;;;Epirotian
 c_arta_adj                                     ;Arta    ;;;Artan
 c_cephalonia_adj                               ;Cephalonian;;;Phaeacians
-c_hellas_adj                                   ;Hellenic;;;Hellenic
 c_atheniai_adj                                 ;Athenian;;;Athenian
 c_achaia_adj                                   ;Achaean ;;;Achaian
 c_korinthos_adj                                ;Corinthian;;;Korinthian
@@ -788,8 +1272,6 @@ d_courland                                     ;Courland;;Kuurinmaa,Kuramaa,Kurã
 d_courland_adj                                 ;Courlandian;;;Courlander
 c_zemigalians_adj                              ;Semigallian;;;Zemigallian
 c_kurs_adj                                     ;Courlandian;;;Kursian
-d_samogitia                                    ;Samogitia;;;Samogitia
-d_samogitia_adj                                ;Samogitian;;;Samogitian
 c_zhmud_adj                                    ;Lithuanian;;;Lithuanian
 c_lettigalians_adj                             ;Latgalian;;;Lettigallian
 c_livs_adj                                     ;Livonian;;;Livonian
@@ -815,13 +1297,9 @@ c_tavasts_adj                                  ;Tavastian;;;Tavastian
 c_satakunta_adj                                ;Satakunta;;;Satakuntan
 c_osterbotten_adj                              ;Ostrobothnian;;;Ostrobothnian
 c_velikiye_luki_adj                            ;Velikiye Luki;;;Lukian
-d_yaroslavl                                    ;Yaroslavl;;;Yaroslavl
-d_yaroslavl_adj                                ;Yaroslavian;;;Yaroslavian
 d_ryazan                                       ;Ryazan  ;;;Ryazan
 c_yaik_adj                                     ;Ural    ;;;Yaikian
-c_torki_adj                                    ;Oghuz   ;;;Torkian
 c_belgorod_adj                                 ;Belgorodian;;;Belgorodian
-c_birlad_adj                                   ;Bârlad  ;;;Birladian
 c_aqtobe_adj                                   ;Aktobe  ;;;Aqtobian
 c_turnu_adj                                    ;Turnu   ;;;Turnuian
 c_tirgoviste_adj                               ;Târgoviste;;;Tirgovistian
@@ -835,7 +1313,7 @@ c_merv_adj                                     ;Mervian ;;;Mervian
 c_dihistan_adj                                 ;Dehistan;;;Dihistian
 c_gurgan_adj                                   ;Gorgan  ;;;Gurgian
 c_nishapur_adj                                 ;Nishapur;;;Nishapuran
-c_qohistan_adj                                 ;Quhistan;;;Qohistian
+c_qohistan_adj                                 ;Qaen    ;;;Qohistian
 c_esfahan_adj                                  ;Isfahan ;;;Esfahanian
 c_yazd_adj                                     ;Yazd    ;;;Yazdian
 c_shiraz_adj                                   ;Shiraz  ;;;Shirazian
@@ -875,7 +1353,7 @@ c_vaspurakan_adj                               ;Vaspurakan;;;Vaspurakani
 c_dwin_adj                                     ;Dvin    ;;;Dwinian
 c_ani_adj                                      ;Ani     ;;;Anian
 c_amida_adj                                    ;Amidan  ;;;Amidan
-d_edessa                                       ;Edessa  ;;Ar-Ruha,Urfa,Riha,Urhây,Edesses;Edessa
+d_edessa                                       ;Edessa  ;;Ar-Ruha,Urfa,Riha,Urhây,Edesses,Urha;Edessa
 d_edessa_adj                                   ;Edessan ;;;Edessan
 c_edessa_adj                                   ;Edessan ;;;Edessan
 c_tell_bashir_adj                              ;Turbessel;;;Tell Bashirian
@@ -890,7 +1368,6 @@ c_seleukeia_adj                                ;Seleucian;;;Seleukeian
 c_theodosiopolis_adj                           ;Karin   ;;;Theodosiopolite
 c_trapezous_adj                                ;Trabzonian;;;Trapezousian
 c_chaldea_adj                                  ;Chaldian;;;Chaldean
-c_kartli_adj                                   ;Kartlian;;;Kartlian
 c_tao_adj                                      ;Taoian  ;;;Taoian
 c_guria_adj                                    ;Gurian  ;;;Gurian
 c_kakheti_adj                                  ;Kakhetian;;;Kakhetian
@@ -898,7 +1375,6 @@ c_albania_adj                                  ;Albanian;;;Albanian
 c_derbent_adj                                  ;Derbentian;;;Derbentian
 c_imeretia_adj                                 ;Imeretian;;;Imeretian
 c_abkhazia_adj                                 ;Abkhazian;;;Abkhazian
-c_galaz_adj                                    ;Galati  ;;;Galazian
 c_zeta_adj                                     ;Zetan   ;;;Zetan
 d_slavonia                                     ;Slavonia;;Pannonia Savia;Slavonia
 d_slavonia_adj                                 ;Slavonian;;;Slavonian
@@ -909,7 +1385,6 @@ d_ungvar                                       ;Uzhhorod;;Chrobatia,Ungwar;Ungva
 c_abauj_adj                                    ;Abaúj   ;;;Abaujian
 c_heves_adj                                    ;Heves   ;;;Hevian
 c_padova_adj                                   ;Paduan  ;;;Padovian
-c_lombardia_adj                                ;Lombard ;;;Lombard
 d_ferrara_adj                                  ;Ferrara ;;;Ferraran
 d_spoleto                                      ;Spoleto ;;Valeria,Oualeria;Spoleto
 d_spoleto_adj                                  ;Spoletine;;;Spoletan
@@ -918,7 +1393,6 @@ d_sardinia_adj                                 ;Sardinian;;;Sardinian
 d_benevento                                    ;Benevento;;Beneventum,Beneuenton;Benevento
 d_benevento_adj                                ;Beneventan;;;Benevenetian
 d_salerno_adj                                  ;Salernitan;;;Salernian
-c_consenza_adj                                 ;Catanzaro;;;Catanzaron
 d_savoie                                       ;Savoy   ;;;Savoy
 d_savoie_adj                                   ;Savoyard;;;Savoyard
 d_dauphine                                     ;Dauphiné;;;Dauphiné
@@ -931,7 +1405,7 @@ c_viviers_adj                                  ;Vivarais;;;Vivieran
 c_narbonne_adj                                 ;Narbonnese;;;Narbonnian
 c_toulouse_adj                                 ;Toulouse;;;Toulousian
 c_rouergue_adj                                 ;Rouergue;;;Rouerguian
-d_gascogne                                     ;Gascony ;;;Gascogne
+d_gascogne                                     ;Gascony ;;Gaskoinia,Gasconha;Gascogne
 d_gascogne_adj                                 ;Gascon  ;;;Gascognian
 c_foix_adj                                     ;Foix    ;;;Foixian
 c_bearn_adj                                    ;Béarn   ;;;Bearnian
@@ -977,15 +1451,12 @@ c_avranches_adj                                ;Avranches;;;Avranchesian
 c_vexin_adj                                    ;Norman Vexin;;;Vexinian
 c_arques_adj                                   ;Arques  ;;;Arquesian
 c_eu_adj                                       ;Eu      ;;;Euian
-d_orleans                                      ;Orléans ;;;Orleans
-d_orleans_adj                                  ;Orléans ;;;Orleanaise
 c_blois_adj                                    ;Blois   ;;;Bloisian
 c_orleans_adj                                  ;Orléans ;;;Orleanian
 c_chartres_adj                                 ;Chartres;;;Chartresian
 c_sens_adj                                     ;Sens    ;;;Sensian
 c_auxerre_adj                                  ;Auxerre ;;;Auxerrian
 c_reims_adj                                    ;Reimsian;;;Reimsian
-d_valois                                       ;Valois  ;;;Valois
 c_ile_de_france_adj                            ;Île-de-France;;;Ile de Francian
 c_vermandois_adj                               ;Vermandois;;;Vermandoisian
 c_amiens_adj                                   ;Amiens  ;;;Amienian
@@ -1002,7 +1473,7 @@ c_albarracin_adj                               ;Albarracín;;;Albarracinian
 c_alto_aragon_adj                              ;High Aragonian;;;Alto Aragónian
 c_zaragoza_adj                                 ;Zaragozan;;;Zaragozan
 c_calatayud_adj                                ;Calatayud;;;Calatayudian
-d_barcelona                                    ;Barcelona;;Barshiluna,Bartzelona,Barcelone,Barcino,Barkinon;Barcelona
+d_barcelona                                    ;Barcelona;;Barshilúna,Bartzelona,Barcelone,Barcino,Barkinon;Barcelona
 d_barcelona_adj                                ;Barcelonian;;;Barcelonian
 c_barcelona_adj                                ;Barcelonian;;;Barcelonian
 c_urgell_adj                                   ;Urgell  ;;;Urgellian
@@ -1049,7 +1520,7 @@ c_plasencia_adj                                ;Plasencian;;;Plasencian
 c_alcantara_adj                                ;Alcántaran;;;Alcantaran
 c_caceres_adj                                  ;Cáceres ;;;Caceresian
 c_badajoz_adj                                  ;Badajoz ;;;Badajozian
-d_porto                                        ;Portugal;;Burtughal,Portukale;Portucale
+d_porto                                        ;Portugal;;Burtuqál,Portukale;Portucale
 d_porto_adj                                    ;Portuguese;;;Portucalese
 c_porto_adj                                    ;Porto   ;;;Portan
 c_braganza_adj                                 ;Braganzan;;;Bragançan
@@ -1064,7 +1535,7 @@ c_faro_adj                                     ;Faro    ;;;Faronian
 c_canarias_adj                                 ;Canarian;;;Canarian
 c_makuria_adj                                  ;Makurian;;;Makurian
 c_nubia_adj                                    ;Nubian  ;;;Nubian
-d_sinai                                        ;Sinai   ;;Sina;Sinai
+d_sinai                                        ;Sinai   ;;Síná',Sina;Sinai
 d_sinai_adj                                    ;Sinaitic;;;Sinaite
 c_sinai_adj                                    ;Sinaitic;;;Sinaian
 c_eilat_adj                                    ;Eilatian;;;Eilatian
@@ -1110,7 +1581,7 @@ c_antalo_adj                                   ;Hintalo ;;;Antalonian
 c_matamma_adj                                  ;Al-Matamma;;;Matamman
 k_jerusalem                                    ;Jerusalem;;Filastin,Palaestina,Yerusalem;Jerusalem
 k_jerusalem_adj                                ;Jerusalemite;;;Jerusalemite
-d_oultrejourdain                               ;Oultrejordain;;Palaestina Salutaris;Oultrejourdain
+d_oultrejourdain                               ;Oultrejordain;;Palaestina Salutaris,Sharq al-Urdunn;Oultrejourdain
 d_oultrejourdain_adj                           ;Oultrejordain;;;Oultrejourdainian
 c_monreal_adj                                  ;Montreal;;;Monrealian
 c_kerak_adj                                    ;Kerak   ;;;Kerakian
@@ -1133,7 +1604,7 @@ c_homs_adj                                     ;Homs    ;;;Homsian
 c_hama_adj                                     ;Hama    ;;;Haman
 c_antiocheia_adj                               ;Antiochian;;;Antiochian
 c_archa_adj                                    ;Bourzey ;;;Archan
-d_tripoli                                      ;Tripoli ;;Tarabulus,Phoenice,Phoiníkes;Tripoli
+d_tripoli                                      ;Tripoli ;;Tarábulus,Phoenice,Phoiníkes;Tripoli
 d_tripoli_adj                                  ;Tripolitan;;;Tripolitanian
 c_tortosa_adj                                  ;Tartus  ;;;Tortosan
 c_tripoli_adj                                  ;Tripolitan;;;Tripolitanian
@@ -1222,7 +1693,6 @@ d_shiite_turkic_company                        ;Shi‘ite Turkmen Company;;;Turkom
 d_shiite_turkic_company_adj                    ;Shi‘ite Turkmen;;;Turkoman
 d_sunni_berber_company                         ;Berber Company;;;Berber Company
 d_sunni_berber_company_adj                     ;Berber  ;;;Berber
-d_shiite_berber_company                        ;Tuareg Company;;;Tuareg Company
 d_shiite_berber_company_adj                    ;Berber  ;;;Berber
 d_sunni_bedouin_company                        ;Arab Company;;;Arab Company
 d_sunni_bedouin_company_adj                    ;Arab    ;;;Arab
@@ -1369,52 +1839,52 @@ PROV145                                        ;La Marche;;c_la_marche;La Marche
 PROV146                                        ;Bourbon ;;c_bourbon;Bourbon
 PROV147                                        ;Limousin;;c_limousin,Augustoritum,Augoustoriton;Limousin
 PROV148                                        ;Angoulême;;c_angouleme,Iculisma;Angoulême
-PROV149                                        ;Bordeaux;;c_bordeaux,Burdigala,Bourdigala;Bordeaux
+PROV149                                        ;Bordeaux;;c_bordeaux,Burdigala,Bourdigala,Bordele,Bordéu;Bordeaux
 PROV151                                        ;Dax     ;;c_labourd,Lapurdum,Lapurdi;Dax
 PROV152                                        ;Navarre ;;c_navarra,al-Nahara,Nafarroa,Navarre;Navarra
 PROV153                                        ;Biscay  ;;c_viscaya,Bisqayya,Bizkaia,Biscaye,Biscaia;Viscaya
 PROV157                                        ;Santiago;;c_santiago,Yaqquba,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;Santiago
-PROV159                                        ;Coimbra ;;c_coimbra,Qulumriyah,Koimbra,Coimbre,Coímbra,Coïmbra,Aeminium,Aeminion;Coimbra
-PROV160                                        ;Lisbon  ;;c_lisboa,Lishbuna,Lisbona,Lisbonne,Olisipo,Olioseipon;Lisboa
-PROV161                                        ;Alcácer ;;c_alcacer_do_sal,al-Qasr-al-Baja,Alcàsser de la Sal,Alcázar de Sal,Gatza Gaztelua,Château du Sel,Salacia Imperatoria,Salakeia;Alcácer do Sal
-PROV162                                        ;Silves  ;;c_silves,Shleb,Silbes;Silves
-PROV163                                        ;Faro    ;;c_faro,Uhshunubah,Faru,Phare,Ossonoba;Faro
-PROV164                                        ;Niebla  ;;c_niebla,Lebla,Nieble;Niebla
-PROV166                                        ;Algeciras;;c_algeciras,al-Yazira al-Jadra,Alchezira,Algesires,Algésiras,Algecires,Gades,Gadeira;Algeciras
-PROV167                                        ;Málaga  ;;c_malaga,Malaqa,Màlaga,Malaga,Malaca,Malaka;Malaga
-PROV168                                        ;Almería ;;c_almeria,al-Mariyyat,Almérie,Almeria;Almeria
+PROV159                                        ;Coimbra ;;c_coimbra,Qulumriya,Koimbra,Coimbre,Coímbra,Coïmbra,Aeminium,Aeminion;Coimbra
+PROV160                                        ;Lisbon  ;;c_lisboa,al-Ushbúna,Lisbona,Lisbonne,Olisipo,Olioseipon;Lisboa
+PROV161                                        ;Alcácer ;;c_alcacer_do_sal,Qasr Abí Dánis,Alcàsser de la Sal,Alcázar de Sal,Gatza Gaztelua,Château du Sel,Salacia Imperatoria,Salakeia;Alcácer do Sal
+PROV162                                        ;Silves  ;;c_silves,Shilb,Silbes;Silves
+PROV163                                        ;Faro    ;;c_faro,Ukshúnuba,Faru,Phare,Ossonoba;Faro
+PROV164                                        ;Niebla  ;;c_niebla,Labla,Nieble;Niebla
+PROV166                                        ;Algeciras;;c_algeciras,al-Jazíra al-Khadrá,Alchezira,Algesires,Algésiras,Algecires,Gades,Gadeira;Algeciras
+PROV167                                        ;Málaga  ;;c_malaga,Málaqa,Màlaga,Malaga,Malaca,Malaka;Malaga
+PROV168                                        ;Almería ;;c_almeria,al-Mariyya,Almérie,Almeria;Almeria
 PROV169                                        ;Murcia  ;;c_murcia,Mursiya,Múrcia,Murtzia,Murcie;Murcia
-PROV170                                        ;Dénia   ;;c_denia,Deniyya,Dénia,Denya,Dianium,Dianion;Denia
-PROV171                                        ;Valencia;;c_valencia,Balansiyya,València,Balentzia,Valência,Valence,Valentia,Oualentia;Valencia
+PROV170                                        ;Dénia   ;;c_denia,Dániya,Dénia,Denya,Dianium,Dianion;Denia
+PROV171                                        ;Valencia;;c_valencia,Balansiya,València,Balentzia,Valência,Valence,Valentia,Oualentia;Valencia
 PROV172                                        ;Castelló;;c_castellon,Marmariya,Castelló,Gaztelu,Castelhão;Castellon
-PROV175                                        ;Calatayud;;c_calatayud,Qal'at Ayyub,Calatayú,Calataiud,Kalataiud;Calatayud
+PROV175                                        ;Calatayud;;c_calatayud,Qal'at Ayyúb,Calatayú,Calataiud,Kalataiud;Calatayud
 PROV176                                        ;Molina  ;;c_molina,Barusa;Molina
-PROV177                                        ;Cuenca  ;;c_cuenca,Qunka,Conca,Kuenka,Conque;Cuenca
-PROV180                                        ;Granada ;;c_granada,Gharnaatah,Grenade,Iliberri,Illiberis;Granada
-PROV181                                        ;Córdoba ;;c_cordoba,Qurtubah,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;Cordoba
-PROV184                                        ;Badajoz ;;c_badajoz,Balad al-Iawz,Badaxoz,Badalhouce;Badajoz
-PROV185                                        ;Mértola ;;c_mertola,Martulah,Myrtilis Iulia,Myrtilis Ioulia;Mértola
-PROV186                                        ;Évora   ;;c_evora,Yabura,Ebora,Eboura;Évora
+PROV177                                        ;Cuenca  ;;c_cuenca,Qúnka,Conca,Kuenka,Conque;Cuenca
+PROV180                                        ;Granada ;;c_granada,Gharnáta,Grenade,Iliberri,Illiberis;Granada
+PROV181                                        ;Córdoba ;;c_cordoba,Qurtuba,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;Cordoba
+PROV184                                        ;Badajoz ;;c_badajoz,Batalyaws,Badaxoz,Badalhouce;Badajoz
+PROV185                                        ;Mértola ;;c_mertola,Mártula,Myrtilis Iulia,Myrtilis Ioulia;Mértola
+PROV186                                        ;Évora   ;;c_evora,Yábura,Ebora,Eboura;Évora
 PROV187                                        ;Castelo Branco;;c_castelo_branco,Abiad al-Qal'at,Castiello Blanco,Châteaublanc,Castiellu Blancu,Castillo Blanco,Castrobranco,Gaztelu Zuria,Castell Blanc;Castelo Branco
 PROV188                                        ;Braganza;;c_braganza,Bragansiyya,Bragance,Bragança,Bragantza,Bergancia,Braganza;Bragança
-PROV189                                        ;Astorga ;;c_astorga,Sturiyya,Estorga,Astorgue,Asturica Augusta,Astourika Augousta;Astorga
-PROV190                                        ;León    ;;c_leon,al-Uyun,Llión,Lleó,Leão,Leyón;León
-PROV191                                        ;Zamora  ;;c_zamora,Samurah,Samora,Ocelum Duri,Okelon;Zamora
-PROV192                                        ;Salamanca;;c_salamanca,al-Mantiqa,Salamanque,Salamantica,Salmantika;Salamanca
+PROV189                                        ;Astorga ;;c_astorga,Ashtúrqa,Estorga,Astorgue,Asturica Augusta,Astourika Augousta;Astorga
+PROV190                                        ;León    ;;c_leon,Liyún,Llión,Lleó,Leão,Leyón;León
+PROV191                                        ;Zamora  ;;c_zamora,Shamúra,Samora,Ocelum Duri,Okelon;Zamora
+PROV192                                        ;Salamanca;;c_salamanca,Shalamanqa,Salamanque,Salamantica,Salmantika;Salamanca
 PROV193                                        ;Alcántara;;c_alcantara,al-Qantara,Alcàntara,Alkantara,Alcântara;Alcantara
 PROV194                                        ;Plasencia;;c_plasencia,Blasinsiyya,Plasence,Praséncia,Plasència,Plasentzia;Plasencia
-PROV196                                        ;Calatrava;;c_calatrava,Qal'at Rabah,Kalatraba,Calatrave;Calatrava
-PROV197                                        ;Toledo  ;;c_toledo,Tulaytulah,Tolède,Toletum,Toleton;Toledo
+PROV196                                        ;Calatrava;;c_calatrava,Qal'at Rabáh,Kalatraba,Calatrave;Calatrava
+PROV197                                        ;Toledo  ;;c_toledo,Tulaytula,Tolède,Toletum,Toleton;Toledo
 PROV198                                        ;Valladolid;;c_valladolid,Balad al-Walid,Baiadolitz,Valhadolide,Valladolit;Valladolid
-PROV199                                        ;Burgos  ;;c_burgos,Burchia,Burchs,Bourges;Burgos
+PROV199                                        ;Burgos  ;;c_burgos,Burghush,Burchs,Bourges;Burgos
 PROV200                                        ;Soria   ;;c_soria,Suria,Sòria,Sória,Sorie;Soria
-PROV201                                        ;Nájera  ;;c_najera,Náxara,Naiara,Nàxera,Náxera,Nachera,Najéra;Nájera
+PROV201                                        ;Nájera  ;;c_najera,Náshara,Naiara,Nàxera,Náxera,Nachera,Najéra;Nájera
 PROV202                                        ;Zaragoza;;c_zaragoza,Saraqusta,Saragossa,Saragoça,Saragosse,Caesaraugusta,Kaisaraugousta;Zaragoza
-PROV203                                        ;Lleida  ;;c_lleida,Larida,Lérida,Leida,Léria,Ilerda;Lleida
-PROV204                                        ;Barcelona;;c_barcelona,Barshiluna,Bartzelona,Barcelone,Barcino,Barkinon;Barcelona
+PROV203                                        ;Lleida  ;;c_lleida,Lárida,Lérida,Leida,Léria,Ilerda;Lleida
+PROV204                                        ;Barcelona;;c_barcelona,Barshilúna,Bartzelona,Barcelone,Barcino,Barkinon;Barcelona
 PROV205                                        ;Empúries;;c_empuries,Ympuriyyah,Ampurias,Empouries,Empúries,Ampúrias,Empuries,Emporiae,Emporion;Empuries
 PROV206                                        ;Urgell  ;;c_urgell,Urgil,Urgel,Urchel,Urtxelu;Urgell
-PROV207                                        ;High Aragon;;c_alto_aragon,Aragu'un al-Hala,Alt Aragó,Aragoi Garaia,Alto Aragão,Altu Aragón,Haut Aragon;Alto Aragón
+PROV207                                        ;High Aragon;;c_alto_aragon,Araghún al-Hala,Alt Aragó,Aragoi Garaia,Alto Aragão,Altu Aragón,Haut Aragon;Alto Aragón
 PROV208                                        ;Béarn   ;;c_bearn;Béarn
 PROV209                                        ;Armagnac;;c_armagnac;Armagnac
 PROV211                                        ;Roussillon;;c_rosello,Rusl'un,Rozeion,Roussillon,Rosellón,Roselló,Rossilhão,Ruscino,Rhouskinon;Rosello
@@ -1431,19 +1901,15 @@ PROV287                                        ;Dalarna ;;c_dalarna,Jernbæraland
 PROV289                                        ;Västmanland;;c_vastmanland,Vestmanland;Västmanland
 PROV291                                        ;Åland   ;;c_aland;Åland
 PROV295                                        ;Dal     ;;c_dal;Dal
-PROV299                                        ;Farah   ;;c_farah,Prophthasia,Phra,Aprah;Farrah
 PROV300                                        ;Öland   ;;c_oland,Øland;Öland
 PROV301                                        ;Gotland ;;c_gotland,Gautland,Gulland;Gotland
 PROV363                                        ;Litomerice;;c_litomerice,Leitmeritz,Litomierzicze,Litomierzyce;Litomerice
-PROV388                                        ;Karelia ;;c_karelen;Karjala
 PROV411                                        ;Ingria  ;;c_vodi;Ingria
 PROV448                                        ;Salzburg;;c_salzburg,Iuvavum;Salzburg
 PROV461                                        ;Zagreb  ;;c_zagreb,Andautonia,Agram,Zágráb,Zagabria;Zagreb
-PROV463                                        ;Usora   ;;c_usora;Usora
 PROV506                                        ;Vidin   ;;c_vidin,Bidyne,Bononia,Bodony,Diiu;Vidin
 PROV509                                        ;Balchik ;;c_karvuna,Krounoi,Balçik;Karvuna
 PROV514                                        ;Turnu   ;;c_turnu,Holavnik;Turnu
-PROV515                                        ;Târgoviste;;c_tirgoviste;Tirgoviste
 PROV516                                        ;Severin ;;c_severin,Szörényvár;Severin
 PROV521                                        ;Csanád  ;;c_csanad,Tschanad,Cenad,Chanad,Chanád,Morisena;Csanad
 PROV535                                        ;Volodymyr-Volynsky;;c_vladimir_volynsky,Wlodzimierz Wolynski;Vladimir Volynsky
@@ -1454,7 +1920,7 @@ PROV657                                        ;Lorestan;;c_luristan;Luristan
 PROV667                                        ;Tabriz  ;;c_tabriz,T'awreš;Tabriz
 PROV671                                        ;Syunik  ;;c_suenik,Sünik,Siwnik,Sivnieti;Suenik
 PROV672                                        ;Dvin    ;;c_dwin,Doúbios,Dvini,Dawin,Dabil;Dwin
-PROV674                                        ;Derbent ;;c_derbent;Derbent
+PROV674                                        ;Derbent ;;c_derbent,Báb al-Abwáb;Derbent
 PROV676                                        ;Kakheti ;;c_kakheti;Kakheti
 PROV677                                        ;Guria   ;;c_guria;Guria
 PROV678                                        ;Trabzon ;;c_trapezous,Trabzun,Trapizon,Trapizoni,Trébizonde,Trebisonda;Trapezous
@@ -1466,7 +1932,7 @@ PROV688                                        ;Kermanshah;;c_kermanshah,Kirmans
 PROV693                                        ;Baghdad ;;c_baghdad,Ctesiphon,Ktesiphon,Seliq,Tesifon;Baghdad
 PROV694                                        ;Karbala ;;c_karbala;Karbala
 PROV697                                        ;Mosul   ;;c_mosul,Mepsila,Nînwe,Mûsil,Nod-Ardashir;Mosul
-PROV699                                        ;Edessa  ;;c_edessa,Ar-Ruha,Urfa,Riha,Urhây;Edessa
+PROV699                                        ;Edessa  ;;c_edessa,Ar-Ruha,Urfa,Riha,Urhây,Edesses,Urha;Edessa
 PROV706                                        ;Shebinkarahisar;;c_koloneia,Šebin Kara Hisar,Kogoniya;Koloneia
 PROV707                                        ;Melitene;;c_melitene,Malat'ya,Malatiya,Melitena,Meletî,Melitene;Melitene
 PROV711                                        ;Sinjar  ;;c_sinjar,Singara,Beth Arabaye,Sengal;Sinjar
@@ -1481,21 +1947,19 @@ PROV773                                        ;Tiberias;;c_tiberias;Tiberias
 PROV775                                        ;Jaffa   ;;c_jaffa,Ioppe,Ioppa;Jaffa
 PROV777                                        ;Kerak   ;;c_kerak,Al-Karak;Kerak
 PROV778                                        ;Montreal;;c_monreal,Shobak;Monreal
-PROV780                                        ;Ashkelon;;c_ascalon,Asqalan,Iamnia;Ascalon
+PROV780                                        ;Ashkelon;;c_ascalon,Ásqalán,Iamnia;Ascalon
 PROV783                                        ;Ma’an   ;;c_maan;Maan
 PROV787                                        ;Arish   ;;c_el-arish,Pelusium,Pelousion,Peremun;El-Arish
 PROV792                                        ;Nubia   ;;c_nubia,Pachoras,Pakhôras,Para;Nubia
 PROV794                                        ;Aswan   ;;c_aswan,Syene,Suan;Aswan
 PROV795                                        ;Asyut   ;;c_asyut,Lycopolis,Lykopolis,Siout;Asyut
 PROV796                                        ;Cairo   ;;c_cairo,Babylon,Phystaton,Taqahirt,Kayro,Qáhira;Cairo
-PROV809                                        ;Sirte   ;;c_syrte,Macomades,Surt;Syrte
-PROV810                                        ;Leptis Magna;;c_leptis_magna,Lepcis Magna,Léptis Megále,Labda;Leptis Magna
-PROV811                                        ;Tripolitania;;c_tripolitana,Tripuli;Tripolitana
+PROV809                                        ;Sirte   ;;c_syrte,Iscina,Surt;Syrte
+PROV811                                        ;Tripolitania;;c_tripolitana,Tarábulus,Tripuli;Tripolitana
 PROV813                                        ;Djerba  ;;c_djerba,Girba;Djerba
 PROV814                                        ;Gabès   ;;c_gabes,Tacapae,Tacape;Gabes
-PROV815                                        ;Kairouan;;c_kairwan,Thysdrus,Takerwant;Kairwan
-PROV826                                        ;Minorca ;;c_menorca,Manurqa,Menorka,Minorque,Minorca;Menorca
-PROV827                                        ;Majorca ;;c_mallorca,Mayurqa,Maiorka,Maiorca,Majorque;Mallorca
+PROV826                                        ;Minorca ;;c_menorca,Minúrqa,Menorka,Minorque,Minorca;Menorca
+PROV827                                        ;Majorca ;;c_mallorca,Mayúrqa,Maiorka,Maiorca,Majorque;Mallorca
 PROV850                                        ;Kandalaksha;;c_kandalax;Kantalahti
 PROV855                                        ;Al Mahrah;;c_mahra;Mahra
 PROV858                                        ;Aden    ;;c_aden,Eudaemon,Eudaimon;Aden
@@ -1637,7 +2101,6 @@ d_ulster_adj                                   ;Ulster  ;;;Ulsterian
 d_gelre_adj                                    ;Guelders;;;Gelrian
 d_ryazan_adj                                   ;Ryazan  ;;;Ryazanian
 d_dauphine_adj                                 ;Dauphiné;;;Dauphinian
-d_valois_adj                                   ;Valois  ;;;Valoisaine
 d_abbasid_adj                                  ;Abbasid ;;;Abbasid
 #text9b.csv;;;;
 #v1_06.csv;;;;
@@ -1687,8 +2150,6 @@ temple_barony_muslim                           ;Mosque  ;;;Mosque
 temple_barony_pagan_group                      ;Temple  ;;;Temple
 empire_altaic                                  ;Khanate ;;;Khaganate
 kingdom_altaic                                 ;Khanate ;;;Khanate
-barony_arabic                                  ;Wilayah ;;;Wilayah
-county_arabic                                  ;Sheikhdom;;;Sheikhdom
 kingdom_arabic                                 ;Sultanate;;;Sultanate
 barony_turkish                                 ;Timar   ;;;Timar
 county_turkish                                 ;Beylik  ;;;Beylik
@@ -1696,21 +2157,11 @@ duchy_turkish                                  ;State   ;;;Beylerbeylik
 kingdom_turkish                                ;Sultanate;;;Sultanate
 county_mongol                                  ;Chiefdom;;;Chiefdom
 duchy_mongol                                   ;High Chiefdom;;;High Chiefdom
-baron_west_african                             ;Wâli    ;;;Wâli
-barony_of_west_african                         ;Wilayah of;;;Wilayah of
-barony_west_african                            ;Wilayah ;;;Wilayah
 count_west_african                             ;Farin   ;;;Farin
 count_female_west_african                      ;Farina  ;;;Farina
-county_of_west_african                         ;Sheikhdom of;;;Sheikhdom of
-county_west_african                            ;Sheikhdom;;;Sheikhdom
 duke_west_african                              ;Farba   ;;;Farbas
 duke_female_west_african                       ;Farba   ;;;Farba
-duchy_of_west_african                          ;Emirate of;;;Emirate of
-duchy_west_african                             ;Emirate ;;;Emirate
 king_west_african                              ;Mansa   ;;;Mansa
-king_female_west_african                       ;Sultana ;;;Sultana
-kingdom_of_west_african                        ;Sultanate of;;;Sultanate of
-kingdom_west_african                           ;Sultanate;;;Sultanate
 d_sunni                                        ;Sunni Caliphate;;;The Sunni Caliphate
 d_sunni_adj                                    ;Caliphal;;;Caliphal
 d_armenia_minor_adj_armenian                   ;Armenian;;;Armenian
@@ -1972,16 +2423,11 @@ tp_shipyard_4                                  ;Temple Shipyard;;;Temple Shipyar
 shipyard_desc                                  ;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.;;;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.
 d_norse_pagan_reformed                         ;Fylkirate;;;The Fylkirate
 d_norse_pagan_reformed_adj                     ;Norse   ;;;Norse
-d_baltic_pagan_reformed                        ;Romuvan Church;;;The Romuvan Church
 d_baltic_pagan_reformed_adj                    ;Romuvan ;;;Romuva
-d_slavic_pagan_reformed                        ;Slavic Church;;;The Slavic Church
 d_slavic_pagan_reformed_adj                    ;Slavic  ;;;Slavic
-d_tengri_pagan_reformed                        ;Tengrist Church;;;The Tengri Church
 d_tengri_pagan_reformed_adj                    ;Tengrist;;;Tengri
-d_finnish_pagan_reformed                       ;Suomenusko Church;;;The Suomenusko Church
 d_finnish_pagan_reformed_adj                   ;Suomenusko;;;Suomenusko
-d_west_african_pagan_reformed                  ;West African Church;;;West African Church
-d_west_african_pagan_reformed_adj              ;West African;;;West African
+d_west_african_pagan_reformed_adj              ;West African;;;African
 e_wendish_empire                               ;Wendish Empire;;Velké Czechy,Velká Morava,Wiêksza Polska,Vendia;Wendish Empire
 e_wendish_empire_adj                           ;Wendish ;;;Wendish
 d_pecs_adj_bohemian                            ;Lower Pannonian;;;Balaton
@@ -2015,8 +2461,8 @@ k_ruthenia_adj_norwegian                       ;        ;;;Kønugardian
 tengri_pagan_reformed                          ;Tengrist;;;Tengri
 baltic_pagan_reformed                          ;Romuvan ;;;Romuva
 aztec_reformed                                 ;Aztec   ;;;Aztec
-west_african_pagan                             ;West African;;;West African
-west_african_pagan_reformed                    ;West African;;;West African
+west_african_pagan                             ;West African;;;African
+west_african_pagan_reformed                    ;West African;;;African
 baron_norse_pagan_reformed                     ;Thegn   ;;;Þegn
 baron_norse                                    ;Thegn   ;;;Þegn
 manichean                                      ;Manichean;;;Manichean
@@ -2052,7 +2498,7 @@ county_iranian                                 ;Marzpanate;;;Marzpanate
 duchy_iranian                                  ;Satrapy ;;;Satrapy
 kingdom_iranian                                ;Shahdom ;;;Shahdom
 avar                                           ;Avar    ;;;Avar
-c_lepiel_adj                                   ;Lepel   ;;;Lepielian
+c_lepiel_adj                                   ;Lahoysk ;;;Lukomlian
 c_yaroslavl_adj_finno_ugric                    ;Meryan  ;;;Meryan
 d_slesvig_adj_german                           ;        ;;;Slesvigian
 d_meath_adj_north_germanic                     ;Dublin  ;;;Dubliner
@@ -2214,7 +2660,6 @@ d_ghanan_band                                  ;Ghanan Band;;;Ghanan Band
 d_ghanan_band_adj                              ;Ghanan  ;;;Ghanan
 hellenic_pagan                                 ;Hellenic;;;Hellenic
 d_aztec_reformed                               ;Aztec Church;;;The Aztec Church
-job_spiritual_hellenic_pagan                   ;Diviner ;;;Diviner
 job_spiritual_pagan                            ;Diviner ;;;Diviner
 #v1_102.csv;;;;
 #v1_103.csv;;;;
@@ -2328,11 +2773,6 @@ israelite                                      ;Israelite;;;Israelite
 #v2_00b.csv;;;;
 #v2_01.csv;;;;
 #v2_02.csv;;;;
-ca_culture_jewish_1                            ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks
-ca_culture_jewish_2                            ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks
-ca_culture_jewish_3                            ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks
-ca_culture_jewish_4                            ;Jewish Heavy Infantry Barracks;;;Jewish Heavy Infantry Barracks
-ca_culture_jewish_1_desc                       ;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;;;This is where the elite infantry serving a Jewish ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.
 RETTYPE_CUL_JEWISH                             ;Bar Kochba Guards;;;Bar Kochba Guards
 #v2_10.csv;;;;
 hindu                                          ;Hindu   ;;;Hindu
@@ -2481,8 +2921,6 @@ temple_baron_baltic_pagan_reformed             ;Shaman  ;;;Shaman
 temple_baron_aztec                             ;Shaman  ;;;Shaman
 temple_baron_aztec_reformed                    ;Shaman  ;;;Shaman
 temple_baron_mazdaki                           ;Verethragna;;;Vahram
-temple_baron_hellenic_pagan                    ;Priest  ;;;Priest
-temple_baron_female_hellenic_pagan             ;Priestess;;;Priestess
 #v2_20.csv;;;;
 e_germany                                      ;Germania;;;Germania
 e_germany_adj                                  ;German  ;;;German
@@ -2520,6 +2958,7 @@ job_spiritual_zun_pagan                        ;Diviner ;;;Diviner
 job_spiritual_zun_pagan_reformed               ;Diviner ;;;Diviner
 zun_pagan                                      ;Zunbil  ;;;Zunist
 zun_pagan_reformed                             ;Church of Zun;;;Church of Zun
+ca_culture_suebi_1_desc                        ;The [suebi.GetName] warrior tradition is held in high regard by every free man. Groups of highly mobile infantry armed with longspear, shield and axe train here in order to better defend their community in times of danger.;;;The [suebi.GetName] warrior tradition is held in high regard by every free man. Groups of highly mobile infantry armed with longspear, shield and axe train here in order to better defend their community in times of danger.
 duchy_of_norse                                 ;Jarldom of;;;Jarldom of
 duke_finnish_pagan                             ;High Chief;;;High Chief
 duke_female_finnish_pagan                      ;High Chieftess;;;High Chieftess
@@ -2584,7 +3023,6 @@ tribal_empire_of_altaic                        ;Khanate of;;;Khaganate of
 tribal_king_altaic                             ;Khan    ;;;Khan
 tribal_king_female_altaic                      ;Khanum  ;;;Khanum
 tribal_kingdom_of_altaic                       ;Khanate of;;;Khanate of
-tribal_king_arabic                             ;Sultan  ;;;Sultan
 tribal_king_female_arabic                      ;Sultana ;;;Sultana
 tribal_emperor_arabic                          ;Padishah;;;Badshah
 tribal_emperor_russian                         ;Tsar    ;;;Tsar
@@ -2639,16 +3077,9 @@ tribal_duchy_of                                ;High Chiefdom of;;;High Chiefdom
 tribal_duchy_of_norse                          ;Jarldom of;;;Jarldom of
 tribal_count_west_african                      ;Farin   ;;;Farin
 tribal_count_female_west_african               ;Farina  ;;;Farina
-tribal_county_of_west_african                  ;Sheikhdom of;;;Sheikhdom of
-tribal_county_west_african                     ;Sheikhdom;;;Sheikhdom
 tribal_duke_west_african                       ;Farba   ;;;Farbas
 tribal_duke_female_west_african                ;Farba   ;;;Farba
-tribal_duchy_of_west_african                   ;Emirate of;;;Emirate of
-tribal_duchy_west_african                      ;Emirate ;;;Emirate
 tribal_king_west_african                       ;Mansa   ;;;Mansa
-tribal_king_female_west_african                ;Sultana ;;;Sultana
-tribal_kingdom_of_west_african                 ;Sultanate of;;;Sultanate of
-tribal_kingdom_west_african                    ;Sultanate;;;Sultanate
 e_seljuk_turks                                 ;Seljuks ;;;Seljuk Empire
 jewish_group                                   ;Israelite;;;Israelite
 zoroastrian_group                              ;Ahura Mazda;;;Mazdan
@@ -2725,7 +3156,6 @@ tribal_emperor_female                          ;Empress ;;;Empress
 temple_duke_female_pagan_group                 ;Archpriestess;;;Archpriestess
 temple_king_female_pagan_group                 ;Queen-Priestess;;;Queen-Priestess
 temple_emperor_female_pagan_group              ;Empress ;;;Empress
-#v2_21b.csv;;;;
 #v2_30.csv;;;;
 #v2_30b.csv;;;;
 vice_royalty_duke_female_byzantine             ;Strategos;;;Strategitissa
@@ -3055,42 +3485,52 @@ tp_town_3                                      ;[Root.Holder.GetHouseOfWorshipCa
 tp_town_4                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
 tp_town_5                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
 tp_town_6                                      ;[Root.Holder.GetHouseOfWorshipCap] Town;;;[Root.Holder.GetHouseOfWorshipCap] Town
-#v2_83.csv;;;;
+#v3_01.csv;;;;
+count_hellenic_pagan                           ;Count   ;;;Comes
+count_hellenic_pagan_reformed                  ;Count   ;;;Comes
+count_female_hellenic_pagan                    ;Countess;;;Countess
+count_female_hellenic_pagan_reformed           ;Countess;;;Countess
+baron_hellenic_pagan                           ;Legatus ;;;Legatus
+baron_hellenic_pagan_reformed                  ;Legatus ;;;Legatus
+baron_female_hellenic_pagan                    ;Legate  ;;;Legata
+baron_female_hellenic_pagan_reformed           ;Legate  ;;;Legata
+ca_culture_animal_desc                         ;An idyllic collection of fields and meadows, perfect for any type of animal!;;;An idyllic collection of fields and meadows, perfect for any type of animal!
+tb_culture_animal_1                            ;Animal Farm;;;Animal Farm
+tb_culture_animal_2                            ;Animal Farm;;;Animal Farm
+tb_culture_animal_3                            ;Animal Farm;;;Animal Farm
+tb_culture_animal_4                            ;Animal Farm;;;Animal Farm
+cat_group                                      ;Cat     ;;;Cat
+d_thessalia                                    ;Thessalia;;;Thessalia
+d_thessalia_adj                                ;Thessalian;;;Thessalian
+d_peloponnese                                  ;Peloponnese;;;Peloponnese
+d_peloponnese_adj                              ;Peloponnesian;;;Peloponnesian
+tb_culture_arberian_1                          ;Stratioti Stables;;;Stratiotet Stables
+tb_culture_arberian_2                          ;Stratioti Stables;;;Stratiotet Stables
+tb_culture_arberian_3                          ;Stratioti Stables;;;Stratiotet Stables
+tb_culture_arberian_4                          ;Stratioti Stables;;;Stratiotet Stables
+#v3_misc.csv;;;;
 #z_Dan.csv;;;;
-#z_JD_patch.csv;;;;
+#z_Ewan.csv;;;;
+#z_Joachim.csv;;;;
+#z_Joachim_Map.csv;;;;
 #z_Joachim_Patch.csv;;;;
 #z_Joel.csv;;;;
 #z_Milla.csv;;;;
 #z_Milla_Patch.csv;;;;
-#z_PLACEHOLDER_DO_NOT_FORGET_ME.csv;;;;
-#z_alex.csv;;;;
 #z_arthur.csv;;;;
-#z_axel.csv;;;;
+#z_bianca.csv;;;;
 #z_custom.csv;;;;
-#z_david.csv;;;;
-#z_drikus.csv;;;;
 #z_emil.csv;;;;
+#z_flavio.csv;;;;
 #z_flavio_patch.csv;;;;
-#z_groogy.csv;;;;
-#z_gwenael.csv;;;;
-#z_henrik.csv;;;;
 #z_henrik_f.csv;;;;
-#z_henrik_h_zoroastrian_pets.csv;;;;
-#z_henrik_l.csv;;;;
-#z_jakob.csv;;;;
-#z_jimmy.csv;;;;
 #z_joel_patch.csv;;;;
 #z_launcher.csv;;;;
 #z_magne.csv;;;;
 #z_magne_patch.csv;;;;
-#z_markus.csv;;;;
-#z_mathilda.csv;;;;
 #z_matthew.csv;;;;
-#z_mohammed.csv;;;;
-#z_niklas.csv;;;;
 #z_notranslate.csv;;;;
-#z_olof.csv;;;;
+#z_ola.csv;;;;
 #z_proofreading_temp.csv;;;;
 #z_sara.csv;;;;
-#z_tobias.csv;;;;
 #z_true_alex.csv;;;;
