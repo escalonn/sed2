@@ -75,20 +75,24 @@ e_ulm = { # Ulm
 e_outremer = {
 	color = { 180 180 180 }
 	color2 = { 255 255 255 }
-	capital = 774
+	capital = 774 # Jerusalem
 	allow = {
-		conditional_tooltip = {
-			trigger = {
-				NOR = {
-					religion = catholic
-					religion = cathar
-					religion = fraticelli
-					religion = waldensian
-					religion = lollard
-					religion = adoptionist
-					religion = arian
+		trigger_if = {
+			limit = {
+				NAND = {
+					is_heretic = no
+					OR = {
+						religion = catholic
+						religion = cathar
+						religion = fraticelli
+						religion = waldensian
+						religion = lollard
+						religion = adoptionist
+						religion = arian
+					}
 				}
 			}
+			is_heretic = no
 			OR = {
 				religion = catholic
 				religion = cathar
@@ -106,6 +110,19 @@ e_outremer = {
 		title_emperor_basic_allow = yes
 	}
 } # end e_outremer
+
+e_lechczechrus = {
+	color = { 0 90 30 }
+	color2 = { 255 255 255 }
+	capital = 547 # Kiev
+	allow = {
+		trigger_if = {
+			limit = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_emperor_basic_allow = yes
+	}
+} # end e_lechczechrus
 
 e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
@@ -397,7 +414,7 @@ k_duklja = { # Duklja
 k_switzerland = {
 	color = { 255 80 80 }
 	color2 = { 200 50 50 }
-	capital = 244 # Bern # Rheinfelden (244)
+	capital = 245 # c_schwyz
 	allow = {
 		trigger_if = {
 			limit = { FROM = { is_de_jure_title = no } }
