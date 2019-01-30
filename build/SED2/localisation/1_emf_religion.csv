@@ -1,6 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 String_abba;abba;;;;;;;;;;;;;x
 String_amma;amma;;;;;;;;;;;;;x
+String_West_African;West African;;;;;;;;;;;;;x
 adoptionist;Adoptionist;;;;;;;;;;;;;x
 adoptionist_DESC;Adoptionists reject the Holy Trinity, believing that Jesus Christ was adopted as God’s son at his ascension, chosen because of his sinless devotion to the will of God. They do not revere the Holy Mary, and were declared a Christian heresy at the end of the 2nd century.;;;;;;;;;;;;;x
 apostolic;Apostolic;;;;;;;;;;;;;x
@@ -98,6 +99,7 @@ GREAT_PURIFICATION;Great Purification;;;;;;;;;;;;;x
 HAS_RELIGION_HEAD_AT_PEACE;Official religion head exists and is not at war\n;;;;;;;;;;;;;x
 HAS_THREE_MANICHEAN_VASSALS_AVAILABLE;Has at least three [manichean.GetName] vassals available\n;;;;;;;;;;;;;x
 HAS_THREE_YAZIDI_VASSALS_AVAILABLE;Has at least three [yazidi.GetName] vassals who can attend\n;;;;;;;;;;;;;x
+ibadi_creation_independent;Either independent or all lieges are §Y[ibadi.GetName]§!\n;;;;;;;;;;;;;x
 ISMAILI_CALIPHATE_REVOLT;Pretender [d_ismaili.GetFullName];;;;;;;;;;;;;x
 ismaili_creation_independent;Either independent or all lieges are §Y[ismaili.GetName]§!\n;;;;;;;;;;;;;x
 JEHOVAH;Jehovah;;;;;;;;;;;;;x
@@ -169,12 +171,20 @@ d_army_light;Army of Light;;;;;;;;;;;;;x
 d_army_light_adj;Forces of Light;;;;;;;;;;;;;x
 d_army_lucifer;Army of Lucifer;;;;;;;;;;;;;x
 d_army_lucifer_adj;Luciferian;;;;;;;;;;;;;x
+d_aztec_pagan_reformed;[aztec_pagan_reformed.GetName] Hierocracy;;;;;;;;;;;;;x
+d_aztec_pagan_reformed_adj;[aztec_pagan_reformed.GetName];;;;;;;;;;;;;x
+d_baltic_pagan_reformed;Romuvan Congregation;;;;;;;;;;;;;x
+d_baltic_pagan_reformed_adj;Romuvan;;;;;;;;;;;;;x
 d_bogomilist;Bogomil Church;;;;;;;;;;;;;x
 d_bogomilist_adj;Bogomil;;;;;;;;;;;;;x
+d_bon_reformed;Sacred Bön Hierarchy;;;;;;;;;;;;;x
+d_bon_reformed_adj;Bön;;;;;;;;;;;;;x
 d_cathar;Cathar Patriarchy;;;;;;;;;;;;;x
 d_cathar_adj;Patriarchal;;;;;;;;;;;;;x
 d_druze;Druze Sheikhdom;;;;;;;;;;;;;x
 d_druze_adj;Druze;;;;;;;;;;;;;x
+d_finnish_pagan_reformed;Sacred Woods;;;;;;;;;;;;;x
+d_finnish_pagan_reformed_adj;Suomenusko;;;;;;;;;;;;;x
 d_ismaili;Isma‘ili Caliphate;;;;;;;;;;;;;x
 d_ismaili_adj;Isma‘ili;;;;;;;;;;;;;x
 d_knights_saint_mark;Knights of Saint Mark;;;;;;;;;;;;;x
@@ -193,16 +203,30 @@ d_messalian;Euchite Patriarchy;;;;;;;;;;;;;x
 d_messalian_adj;Euchite;;;;;;;;;;;;;x
 d_nabawiyya;Nabawite Malikate;;;;;;;;;;;;;x
 d_nabawiyya_adj;Nabawite;;;;;;;;;;;;;x
+d_norse_pagan_reformed;Fylkirate;;;;;;;;;;;;;x
+d_norse_pagan_reformed_adj;Norse;;;;;;;;;;;;;x
 d_saint_blaise;Order of St. Blaise;;;;;;;;;;;;;x
 d_saint_blaise_adj;St. Blaise;;;;;;;;;;;;;x
 d_shiite;Shi‘ite Imamate;;;;;;;;;;;;;x
 d_shiite_adj;Shi‘ite;;;;;;;;;;;;;x
+d_slavic_pagan_reformed;Slavic Church;;;;;;;;;;;;;x
+d_slavic_pagan_reformed_adj;Slavic;;;;;;;;;;;;;x
+d_sunni;Sunni Caliphate;;;;;;;;;;;;;x
+d_sunni_adj;Caliphal;;;;;;;;;;;;;x
 d_syriac;Syriac Orthodox Church;;;;;;;;;;;;;x
 d_syriac_adj;West Syriac;;;;;;;;;;;;;x
+d_tengri_pagan_reformed;Sky-Temple;;;;;;;;;;;;;x
+d_tengri_pagan_reformed_adj;Tengrist;;;;;;;;;;;;;x
 d_waldensian;Waldensian Church;;;;;;;;;;;;;x
 d_waldensian_adj;Waldensian;;;;;;;;;;;;;x
+d_west_african_pagan_reformed;West African Congregation;;;;;;;;;;;;;x
+d_west_african_pagan_reformed_adj;West African;;;;;;;;;;;;;x
 d_zaydi;Zaydi Caliphate;;;;;;;;;;;;;x
 d_zaydi_adj;Zaydi;;;;;;;;;;;;;x
+k_papal_state;Papal States;;;;;;;;;;;;;x
+k_orthodox;Ecumenical Patriarchate;;;;;;;;;;;;;x
+e_sunni;Sunni Caliphate;;;;;;;;;;;;;x
+e_shiite;Shi‘ite Caliphate;;;;;;;;;;;;;x
 DESERT_FATHER_TITLE;Father;;;;;;;;;;;;;x
 DESERT_MOTHER_TITLE;Mother;;;;;;;;;;;;;x
 ELDER;Elder;;;;;;;;;;;;;x
@@ -520,6 +544,7 @@ messalian_master;Perfection;;;;;;;;;;;;;x
 messalian_master_desc;This character has rid himself of all internal demons and is now considered “Perfect,” which means they now have license to indulge in any manner of behavior they wish and not be held morally accountable for it. They are considered teachers by other Messalians, who consider them more holy than priests.;;;;;;;;;;;;;x
 novellani;Novellani;;;;;;;;;;;;;x
 novellani_desc;The Novellani typically travel town to town, preaching the Waldensian faith.;;;;;;;;;;;;;x
+nyames_shield_desc;This character is one of the chosen warriors who fight for the African faith.;;;;;;;;;;;;;x
 paragon;Paragon;;;;;;;;;;;;;x
 paragon_desc;This character is considered extremely pious and an example by others of their religion.;;;;;;;;;;;;;x
 perfecti;Perfecti;;;;;;;;;;;;;x
@@ -685,6 +710,10 @@ raise_zealot_units;Raise Zealots;;;;;;;;;;;;;x
 raise_zealot_units_desc;Call on your fellow [Root.Religion.GetName] faithful to rise up and aid your just and holy war!;;;;;;;;;;;;;x
 restore_court_order;Restore Order to the Court;;;;;;;;;;;;;x
 restore_court_order_desc;Perhaps it’s not possible to salvage the authority of your throne. It might require a bloody purge of your court, and that will require you to be strong… very strong, indeed.;;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site;Secretly Convert to West African;;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site_desc;The §YWest African§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site;Secretly Convert to West African;;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site_desc;The §YWest African§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
 vassalize_manichean_leader;Vassalize Archegos;;;;;;;;;;;;;x
 vassalize_manichean_leader_desc;It is only fitting that the Manichaean Archegos be a part of our realm. Perhaps enticing him with the offer of a temple at a holy site would help?;;;;;;;;;;;;;x
 vassalize_paulician_patriarch;Vassalize Paulician Patriarch;;;;;;;;;;;;;x
@@ -1439,6 +1468,7 @@ EVTDESC_RoI_10001_grandfather;My little [GetFromRelation], [From.GetFirstName], 
 EVTDESC_RoI_10001_grandmother;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] grandmother, [From.Reincarnation.GetBestName]. Could she truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
 EVTDESC_RoI_10001_great_grandfather;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] great grandfather, [From.Reincarnation.GetBestName]. Could he truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
 EVTDESC_RoI_10001_great_grandmother;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] great grandmother, [From.Reincarnation.GetBestName]. Could she truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
+EVTDESC_SOA_2109;With the reformation of the many West African pagan belief systems into a single coherent whole, several tribes have agreed to pool together their best warriors into a single holy order. They claim to be the Guardians of the Spirits and they have vowed to defend the spirits and those who believe in them from all who would do them harm.;;;;;;;;;;;;;x
 EVTDESC_SoA_5026;The rain has been pouring down for days, and it’s almost impossible to travel the roads. Why does [Root.GetHighGodName] punish His faithful pilgrims so?;;;;;;;;;;;;;x
 EVTOPTA_SoA_5039;[Root.Religion.GetHighGodName] is showing me the way;;;;;;;;;;;;;x
 EVTDESC_SoA_5056;As you walk around on this holy ground, you ponder the secrets and the essence of [Root.Religion.GetHighGodName]. The teachings of the [Root.Religion.GetName] faith have never felt more relevant to you than right now. Imagine the knowledge contained in the scriptures stored here!;;;;;;;;;;;;;x
