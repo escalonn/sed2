@@ -307,6 +307,7 @@ INSULT_TITS                                     ;        ;tits;tits;;;
 COMPL_IMPOSING                                  ;        ;imposing;imposing;;;
 INSULT_SCARY                                    ;        ;scary;scary;;;
 INSULT_CREEP                                    ;        ;creep;creep;;;
+#1_emf_DE.csv;;;;;
 #1_emf_adventurer.csv;;;;;
 #1_emf_ambitions.csv;;;;;
 #1_emf_autolander.csv;;;;;
@@ -395,7 +396,7 @@ religion_openly_east_african_or_reformed_tooltip;        ;Publicly follows the §
 #1_emf_cta.csv;;;;;
 #1_emf_customizer.csv;;;;;
 #1_emf_debug.csv;;;;;
-EMF_DEBUG_ID_NAME_COUNTY_TITLE                  ;        ;[This.GetID] #[This.Location.GetID];;;;
+EMF_DEBUG_ID_NAME_COUNTY_TITLE                  ;        ;[This.GetID] ([This.Location.GetID]);;;;
 EMF_DEBUG_ID_NAME_OTHER_TITLE                   ;        ;[This.GetID];;;;
 EMF_DEBUG_ID_NAME_PROVINCE                      ;        ;[This.GetID];;;;
 EMF_DEBUG_ID_NAME_PROVINCE_WITHOUT_COUNTY       ;        ;[This.GetID];;;;
@@ -404,19 +405,22 @@ EMF_DEBUG_ID_NAME_PROVINCE_WITHOUT_COUNTY       ;        ;[This.GetID];;;;
 #1_emf_decay_codegen.csv;;;;;
 #1_emf_dynlevy.csv;;;;;
 #1_emf_empires.csv;;;;;
+#1_emf_equalopportunity.csv;;;;;
 #1_emf_faction.csv;;;;;
 #1_emf_feudalizer.csv;;;;;
 #1_emf_formation.csv;;;;;
 #1_emf_game_rules.csv;;;;;
 #1_emf_gavelkind.csv;;;;;
 #1_emf_historical.csv;;;;;
-#1_emf_holy_orders.csv;;;;;
+#1_emf_holy_order.csv;;;;;
 d_arsiyah                                       ;        ;Arsiyah;;;;
 d_arsiyah_adj                                   ;        ;Arsiyah;;;;
-d_saqaliba                                      ;        ;Saqaliba;;;;
-d_saqaliba_adj                                  ;Saqaliba;Saqlabi;;;;
 d_hashshashin                                   ;Hashshashin;Hashshashin;Hashshashin;;Hashshashin;Fedayeen
 d_hashshashin_adj                               ;Hashshashin;Hashshashin;Hashshashin;;Hashshashin;Fedayeen
+d_livonian_brothers_of_the_sword                ;Livonian Brothers of the Sword;Schwertbrüderorden;Schwertbrüderorden;;Livonian Brothers of the Sword;
+d_livonian_brothers_of_the_sword_adj            ;Livonian;Schwertbrüderische;Schwertbrüderische;;Livonian;
+d_saqaliba                                      ;        ;Saqaliba;;;;
+d_saqaliba_adj                                  ;Saqaliba;Saqlabi;;;;
 #1_emf_hre.csv;;;;;
 #1_emf_imperial.csv;;;;;
 strong_basileus                                 ;        ;Strong Basileus;Strong Basileus;;;
@@ -487,6 +491,8 @@ tondrakian                                      ;        ;Tondrakian;Tondrakian;
 tondrakian_DESC                                 ;        ;Tondrakians are an anti-feudal, anti-church sect that originally flourished in Armenia between the 9th and 11th Century. They denied the immortality of the soul, the afterlife, and the rights of the church to rule over its fellow man. They supported property rights for peasants and equality between men and women.\n§Y*§! Learned Tondrakians may subscribe to the Alexandrite school of theology;Tondrakians are an anti-feudal, anti-church sect that originally flourished in Armenia between the 9th and 11th Century. They denied the immortality of the soul, the afterlife, and the rights of the church to rule over its fellow man. They supported property rights for peasants and equality between men and women.\n§Y*§! Learned Tondrakians may subscribe to the Alexandrite school of theology;;The Tondrakians are an anti-feudal, anti-church sect that originally flourished in Armenia between the 9th and 11th centuries. They denied the immortality of the soul, the afterlife, and the rights of the church to rule over its fellow man. They supported property rights for peasants and equality between men and women.\n§Y*§! Learned Tondrakians may subscribe to the Alexandrite school of theology;
 waqifi                                          ;        ;Waqifite;Waqifite;;Waqifite;
 waqifi_DESC                                     ;        ;The Waqifi believe that the Imamate has ended before the main branch of Shi'ism has accepted it. To the Waqifi, the final Imam is the Mahdi who will return at the end of days, and they wait faithfully for him.;The Waqifi believe that the Imamate has ended before the main branch of Shi'ism has accepted it. To the Waqifi, the final Imam is the Mahdi who will return at the end of days, and they wait faithfully for him.;;The Waqifites believe that the Imamate has ended before the main branch of Shi‘ism has accepted it. To the Waqifites, the final Imam is the Mahdi who will return at the end of days, and they wait faithfully for him.;
+west_african_pagan                              ;        ;West African;;;West African;African
+west_african_pagan_reformed                     ;        ;West African;;;West African;African
 zaydi                                           ;        ;Zaydi;Zaydi;;Zaydi;
 zaydi_DESC                                      ;        ;The Zaydis are a Shi'a group that believe that the 'Alid Imams are not infallible, but are divinely inspired and have a responsibility to lead rebellion against corrupt authority.;The Zaydis are a Shi'a group that believe that the 'Alid Imams are not infallible, but are divinely inspired and have a responsibility to lead rebellion against corrupt authority.;;The Zaydis are a Shi‘a group that believe that the Alid Imams are not infallible, but are divinely inspired and have a responsibility to lead rebellion against corrupt authority.;
 zurvanist                                       ;        ;Zurvanist;Zurvanist;;Zurvanite;
@@ -520,7 +526,7 @@ BOGO_READY_TO_FORMALIZE                         ;        ;The [bogomilist.GetNam
 BY_DECISION                                     ;        ;Enacted by decision only\n;Enacted by decision only\n;;Enacted by decision only\n;
 CAMPAIGN_FUND_CARDINALS_DESC                    ;        ;Money in the Campaign Fund will increase your influence and make your candidate more likely to be elected the next $RULER_TITLE$. You can freely adjust the amount until the next $RULER_TITLE$ is elected, when the Fund will be used up in the election campaign.;Money in the Campaign Fund will increase your influence and make your candidate more likely to be elected the next $RULER_TITLE$. You can freely adjust the amount until the next $RULER_TITLE$ is elected, when the Fund will be used up in the election campaign.;;Money in the Campaign Fund will increase your influence and make your candidate more likely to be elected the next $RULER_TITLE$. You can freely adjust the amount until the next $RULER_TITLE$ is elected, when the Fund will be used up in the election campaign.;Money in the Campaign Fund will increase your influence with the Papacy and make your candidate more likely to be elected the next $RULER_TITLE$. You can freely adjust the amount until the next $RULER_TITLE$ is elected, when the Fund will be used up in the election campaign.
 CANNOT_SING                                     ;        ;You are too shy to sing, and remain silent.\n;You are too shy to sing, and remain silent.\n;;You are too shy to sing, and remain silent.\n;
-cathar_holy_war_enabled_ctt                     ;        ;Is either not a [cathar.GetName] or holy wars have been unlocked for [cathar.GetName]s (by being attacked via holy war).\n;Is either not a [cathar.GetReligionAdherent] or holy wars have been unlocked for [cathar.GetName] (by being attacked via holy war).\n;;Is either not a [cathar.GetReligionAdherent] or holy wars have been unlocked for [cathar.GetName] (by being attacked via holy war).\n;
+cathar_holy_war_enabled_ctt                     ;        ;Holy wars have been unlocked for the [cathar.GetName] Faith (by being attacked via holy war)\n;Is either not a [cathar.GetReligionAdherent] or holy wars have been unlocked for [cathar.GetName] (by being attacked via holy war).\n;;Is either not a [cathar.GetReligionAdherent] or holy wars have been unlocked for [cathar.GetName] (by being attacked via holy war).\n;
 CB_NAME_ISMAILI_CALIPHATE_RISING                ;        ;The [d_ismaili.GetFullName] Rising in [Title.GetBaseName];[d_ismaili.GetFullName] Rising in [Title.GetBaseName];;[d_ismaili.GetFullName] Rising in [Title.GetBaseName];
 choose_mani_patron                              ;        ;Choose the shekhinah to which you will devote yourself;Choose the shekhinah to which you will devote yourself;;Choose the shekhinah to which you will devote yourself;
 choose_mazdaki_patron                           ;        ;Choose the Power to which you will devote yourself;Choose the Power to which you will devote yourself;;Choose the Power to which you will devote yourself;

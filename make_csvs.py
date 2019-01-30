@@ -112,7 +112,7 @@ def get_more_keys_to_override(parser, localisation, max_provs):
         ['narrative_event', 'option', 'if']
     ]
     for glob in ['decisions/*.txt', 'events/*.txt']:
-        for _, tree in parser.parse_files(glob):
+        for path, tree in parser.parse_files(glob):
             dfs = [(p, []) for p in tree]
             while dfs:
                 p, parents = dfs.pop()
@@ -128,18 +128,18 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                 if isinstance(v, Obj) and v.has_pairs:
                     dfs.extend((p2, parents + [n.val]) for p2 in v)
                 elif (parents not in bl_pars and
-                      n.val in ['set_name', 'adjective'] and v.val and
+                      n.val in ['set_name', 'adjective'] and v.val.strip() and
                       not re.match('\[|event_target', v.val)):
                     if v.val in localisation:
                         override.add(v.val)
                     elif v.val not in missing_loc:
                         missing_loc.append(v.val)
     for glob in ['history/provinces/*.txt', 'history/titles/*.txt']:
-        for _, tree in parser.parse_files(glob):
+        for path, tree in parser.parse_files(glob):
             for n, v in tree:
                 if isinstance(n, Date):
                     for n2, v2 in v:
-                        if n2.val in ['name', 'adjective']:
+                        if n2.val in ['name', 'adjective'] and v2.val.strip():
                             if v2.val in localisation:
                                 override.add(v2.val)
                             elif v2.val not in missing_loc:
