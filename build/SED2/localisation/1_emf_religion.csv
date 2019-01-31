@@ -1,7 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 String_abba;abba;;;;;;;;;;;;;x
 String_amma;amma;;;;;;;;;;;;;x
-String_West_African;West African;;;;;;;;;;;;;x
+String_West_African;African;;;;;;;;;;;;;x
 adoptionist;Adoptionist;;;;;;;;;;;;;x
 adoptionist_DESC;Adoptionists reject the Holy Trinity, believing that Jesus Christ was adopted as God’s son at his ascension, chosen because of his sinless devotion to the will of God. They do not revere the Holy Mary, and were declared a Christian heresy at the end of the 2nd century.;;;;;;;;;;;;;x
 apostolic;Apostolic;;;;;;;;;;;;;x
@@ -710,10 +710,6 @@ raise_zealot_units;Raise Zealots;;;;;;;;;;;;;x
 raise_zealot_units_desc;Call on your fellow [Root.Religion.GetName] faithful to rise up and aid your just and holy war!;;;;;;;;;;;;;x
 restore_court_order;Restore Order to the Court;;;;;;;;;;;;;x
 restore_court_order_desc;Perhaps it’s not possible to salvage the authority of your throne. It might require a bloody purge of your court, and that will require you to be strong… very strong, indeed.;;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site;Secretly Convert to West African;;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site_desc;The §YWest African§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site;Secretly Convert to West African;;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site_desc;The §YWest African§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
 vassalize_manichean_leader;Vassalize Archegos;;;;;;;;;;;;;x
 vassalize_manichean_leader_desc;It is only fitting that the Manichaean Archegos be a part of our realm. Perhaps enticing him with the offer of a temple at a holy site would help?;;;;;;;;;;;;;x
 vassalize_paulician_patriarch;Vassalize Paulician Patriarch;;;;;;;;;;;;;x
@@ -1468,7 +1464,6 @@ EVTDESC_RoI_10001_grandfather;My little [GetFromRelation], [From.GetFirstName], 
 EVTDESC_RoI_10001_grandmother;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] grandmother, [From.Reincarnation.GetBestName]. Could she truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
 EVTDESC_RoI_10001_great_grandfather;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] great grandfather, [From.Reincarnation.GetBestName]. Could he truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
 EVTDESC_RoI_10001_great_grandmother;My little [GetFromRelation], [From.GetFirstName], has an odd birthmark which closely matches that of [From.GetHerHis] great grandmother, [From.Reincarnation.GetBestName]. Could she truly have been reborn as my [GetFromRelation] in this life?;;;;;;;;;;;;;x
-EVTDESC_SOA_2109;With the reformation of the many West African pagan belief systems into a single coherent whole, several tribes have agreed to pool together their best warriors into a single holy order. They claim to be the Guardians of the Spirits and they have vowed to defend the spirits and those who believe in them from all who would do them harm.;;;;;;;;;;;;;x
 EVTDESC_SoA_5026;The rain has been pouring down for days, and it’s almost impossible to travel the roads. Why does [Root.GetHighGodName] punish His faithful pilgrims so?;;;;;;;;;;;;;x
 EVTOPTA_SoA_5039;[Root.Religion.GetHighGodName] is showing me the way;;;;;;;;;;;;;x
 EVTDESC_SoA_5056;As you walk around on this holy ground, you ponder the secrets and the essence of [Root.Religion.GetHighGodName]. The teachings of the [Root.Religion.GetName] faith have never felt more relevant to you than right now. Imagine the knowledge contained in the scriptures stored here!;;;;;;;;;;;;;x
