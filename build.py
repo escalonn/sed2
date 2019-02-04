@@ -7,7 +7,8 @@ import re
 import shutil
 import sys
 from ck2parser import (rootpath, files, csv_rows, is_codename, get_cultures,
-                       Obj, Pair, String, SimpleParser, FullParser)
+                       get_provinces, Obj, Pair, String, SimpleParser,
+                       FullParser)
 from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
@@ -26,8 +27,19 @@ emfswmhpath = rootpath / 'EMF/EMF+SWMH'
 province_loc_files = [
     'A_SWMHcounties.csv', 'A_SWMHnewprovinces.csv', 'A_SWMHprovinces.csv']
 
+def get_province_id(parser):
+    province_id = {}
+    province_title = {}
+    for number, title, tree in get_provinces(parser):
+        the_id = 'PROV{}'.format(number)
+        province_id[title] = the_id
+        province_title[the_id] = title
+    return province_id, province_title
+
 @print_time
 def main():
+    simple_parser = SimpleParser()
+    simple_parser.moddirs = [swmhpath]
     full_parser = FullParser()
     full_parser.newlines_to_depth = 0
     templates = sed2path / 'templates'
@@ -55,6 +67,8 @@ def main():
     swmh_files = set()
     sed2 = {}
     keys_to_blank = set()
+
+    province_id, province_title = get_province_id(simple_parser)
 
     for path in files('localisation/*', basedir=swmhpath):
         swmh_files.add(path.name)
@@ -87,6 +101,16 @@ def main():
                 sed2row[-1] = 'x'
                 if sed2row[1] or sed2row[0] in keys_to_blank:
                     sed2rows.append(sed2row)
+                elif not sed2row[1]:
+                    match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
+                    if match:
+                        title = match.group(1)
+                        if title in province_id:
+                            the_id = province_id[title]
+                            if the_id in sed2:
+                                sed2row[1] = sed2[the_id]
+                                sed2rows.append(sed2row)
+            print('Writing {}'.format(outpath))
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
                 csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
@@ -117,7 +141,17 @@ def main():
             row[2] == row[3] and sed2.get(sed2row[0], row[2]) != row[2]):
             sed2row[1] = sed2.get(sed2row[0], '')
             sed2rows.append(sed2row)
+        elif not sed2row[1]:
+            match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
+            if match:
+                title = match.group(1)
+                if title in province_id:
+                    the_id = province_id[title]
+                    if the_id in sed2:
+                        sed2row[1] = sed2[the_id]
+                        sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
+    print('Writing {}'.format(outpath))
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
         csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
@@ -136,11 +170,19 @@ def main():
             sed2row[-1] = 'x'
             if sed2row[1] or sed2row[0] in keys_to_blank:
                 sed2rows.append(sed2row)
+            elif not sed2row[1]:
+                match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
+                if match:
+                    title = match.group(1)
+                    if title in province_id:
+                        the_id = province_id[title]
+                        if the_id in sed2:
+                            sed2row[1] = sed2[the_id]
+                            sed2rows.append(sed2row)
+        print('Writing {}'.format(outpath))
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
             csv.writer(csvfile, dialect='ckii').writerows(sed2rows)
 
-    simple_parser = SimpleParser()
-    simple_parser.moddirs = [swmhpath]
     cultures = get_cultures(simple_parser, groups=False)
     lt_keys = [
         'title', 'title_female', 'foa', 'title_prefix', 'short_name',
@@ -200,6 +242,7 @@ def main():
             sed2[template][title].insert(title_title_index,
                 Pair('title_female', title_female_to_set))
         update_tree(tree, sed2[template], lt_keys)
+        print('Writing {}'.format(outpath))
         with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
             f.write(tree.str(full_parser))
 
@@ -225,11 +268,13 @@ def main():
         if template in sed2:
             outpath = build_mini_lt / inpath.name
             update_tree(tree, sed2[template], lt_keys)
+            print('Writing {}'.format(outpath))
             with outpath.open('w', encoding='cp1252', newline='\r\n') as f:
                 f.write(tree.str(full_parser))
 
     with (build_sed2 / 'version.txt').open('w', encoding='cp1252',
                                       newline='\r\n') as f:
+        print('Writing {}'.format(build_sed2 / 'version.txt'))
         print('{} - {}'.format(version, datetime.date.today()), file=f)
 
 if __name__ == '__main__':
