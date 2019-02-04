@@ -102,13 +102,18 @@ def main():
                 if sed2row[1] or sed2row[0] in keys_to_blank:
                     sed2rows.append(sed2row)
                 elif not sed2row[1]:
-                    match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
+                    match = re.fullmatch(r'([ekdcb]_.*)_adj', sed2row[0])
                     if match:
                         title = match.group(1)
-                        if title in province_id:
-                            the_id = province_id[title]
-                            if the_id in sed2:
-                                sed2row[1] = sed2[the_id]
+                        if title.startswith('c'):
+                            if title in province_id:
+                                the_id = province_id[title]
+                                if the_id in sed2:
+                                    sed2row[1] = sed2[the_id]
+                                    sed2rows.append(sed2row)
+                        else:
+                            if title in sed2:
+                                sed2row[1] = sed2[title]
                                 sed2rows.append(sed2row)
             print('Writing {}'.format(outpath))
             with outpath.open('w', encoding='cp1252', newline='') as csvfile:
@@ -141,15 +146,6 @@ def main():
             row[2] == row[3] and sed2.get(sed2row[0], row[2]) != row[2]):
             sed2row[1] = sed2.get(sed2row[0], '')
             sed2rows.append(sed2row)
-        elif not sed2row[1]:
-            match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
-            if match:
-                title = match.group(1)
-                if title in province_id:
-                    the_id = province_id[title]
-                    if the_id in sed2:
-                        sed2row[1] = sed2[the_id]
-                        sed2rows.append(sed2row)
     outpath = build_emf_loc / inpath.name
     print('Writing {}'.format(outpath))
     with outpath.open('w', encoding='cp1252', newline='') as csvfile:
@@ -171,13 +167,18 @@ def main():
             if sed2row[1] or sed2row[0] in keys_to_blank:
                 sed2rows.append(sed2row)
             elif not sed2row[1]:
-                match = re.fullmatch(r'(c_.*)_adj', sed2row[0])
+                match = re.fullmatch(r'([ekdcb]_.*)_adj', sed2row[0])
                 if match:
                     title = match.group(1)
-                    if title in province_id:
-                        the_id = province_id[title]
-                        if the_id in sed2:
-                            sed2row[1] = sed2[the_id]
+                    if title.startswith('c'):
+                        if title in province_id:
+                            the_id = province_id[title]
+                            if the_id in sed2:
+                                sed2row[1] = sed2[the_id]
+                                sed2rows.append(sed2row)
+                    else:
+                        if title in sed2:
+                            sed2row[1] = sed2[title]
                             sed2rows.append(sed2row)
         print('Writing {}'.format(outpath))
         with outpath.open('w', encoding='cp1252', newline='') as csvfile:
