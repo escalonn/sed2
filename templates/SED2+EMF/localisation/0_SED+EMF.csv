@@ -42,50 +42,25 @@ RETTYPE_CUL_FRANKISH                           ;        ;Chevalier;Chevalier;;Kn
 RETTYPE_CUL_ARMENIAN                           ;        ;Naxarar;Naxarar;;Nakharar;
 RETTYPE_CUL_BASQUE                             ;        ;Zaldun;Zaldun;;Knight;
 RETTYPE_CUL_ESTONIAN                           ;        ;Malev;Malev;;Malev;
-RETTYPE_CUL_ROMAN                              ;        ;Praetorianus;Praetoriani;;Praetorian Guard;Praetorian
+RETTYPE_CUL_ROMAN                              ;Praetorian Guard;Praetorianus;Praetoriani;;Praetorian Guard;Praetorian
 RETTYPE_CUL_AVAR                               ;        ;Sclavinia;Sclavinia;;Sclaveni;
 RETTYPE_CUL_NORSE                              ;        ;Heimþegi;Heimþegi;;Housecarl;
 RETTYPE_CUL_VISIGOTHIC                         ;Visigoth;Vesi;;;;
 RETTYPE_CUL_NORTHAFR                           ;A-Mazigh;a-Mazigh;;;;
 RETTYPE_CUL_SYR                                ;        ;Kashat;;;;
-RETTYPE_CUL_VENETIAN                           ;        ;Fanti da Mar;Oltremarino;;Oltremarino;
+RETTYPE_CUL_VENETIAN                           ;Fanti da Mar;Fanti da Mar;Oltremarino;;Oltremarino;
 #1_PB_buildings.csv;;;;;
 ca_culture_saxon_english_0                     ;        ;Longbow Range;;;;
-ca_culture_saxon_english_1                     ;        ;Longbow Range;Longbow Range;;Longbow Range;Longbow Range
-ca_culture_saxon_english_1_desc                ;        ;The strong tradition of archery in England, Wales, and Cumbria produces excellent bowmen. Here they can practise with their powerful longbows.;The strong tradition of archery in England and Wales produces excellent bowmen. Here they can practise with their powerful longbows.;;The strong tradition of archery in England and Wales produces excellent bowmen. Here they can practise with their powerful longbows.;[GetLongbowDesc]
-ca_culture_saxon_english_2                     ;        ;Longbow Range;Longbow Range;;Longbow Range;Longbow Range
-ca_culture_saxon_english_3                     ;        ;Longbow Range;Longbow Range;;Longbow Range;Longbow Range
-ca_culture_saxon_english_4                     ;        ;Longbow Range;Longbow Range;;Longbow Range;Longbow Range
 ca_culture_saxon_english_5                     ;        ;Longbow Range;;;;
 ca_culture_scottish_0                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
-ca_culture_scottish_1                          ;        ;Schiltron Training Ground;Schiltron Training Ground;;Schiltron Training Ground;Schiltron Training Ground
-ca_culture_scottish_2                          ;        ;Schiltron Training Ground;Schiltron Training Ground;;Schiltron Training Ground;Schiltron Training Ground
-ca_culture_scottish_3                          ;        ;Schiltron Training Ground;Schiltron Training Ground;;Schiltron Training Ground;Schiltron Training Ground
-ca_culture_scottish_4                          ;        ;Schiltron Training Ground;Schiltron Training Ground;;Schiltron Training Ground;Schiltron Training Ground
 ca_culture_scottish_5                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
 ca_culture_group_baltic_0                      ;        ;Warrior Gathering Ground;;;;
-ca_culture_group_baltic_1                      ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
-ca_culture_group_baltic_2                      ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
-ca_culture_group_baltic_3                      ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
-ca_culture_group_baltic_4                      ;        ;Warrior Gathering Ground;Warrior Gathering Ground;;Warrior Gathering Ground;Warrior Gathering Ground
 ca_culture_group_baltic_5                      ;        ;Warrior Gathering Ground;;;;
 ca_culture_group_altaic_0                      ;        ;Riding Grounds;;;;
-ca_culture_group_altaic_1                      ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
-ca_culture_group_altaic_2                      ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
-ca_culture_group_altaic_3                      ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
-ca_culture_group_altaic_4                      ;        ;Riding Grounds;Riding Grounds;;Riding Grounds;Riding Grounds
 ca_culture_group_altaic_5                      ;        ;Riding Grounds;;;;
 ca_culture_frank_norman_german_0               ;        ;Jousting Lists;;;;
-ca_culture_frank_norman_german_1               ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
-ca_culture_frank_norman_german_2               ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
-ca_culture_frank_norman_german_3               ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
-ca_culture_frank_norman_german_4               ;        ;Jousting Lists;Jousting Lists;;Jousting Lists;Jousting Lists
 ca_culture_frank_norman_german_5               ;        ;Jousting Lists;;;;
 ca_culture_group_iberian_0                     ;Knight Training Ground;Caballero Training Ground;;;;
-ca_culture_group_iberian_1                     ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
-ca_culture_group_iberian_2                     ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
-ca_culture_group_iberian_3                     ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
-ca_culture_group_iberian_4                     ;        ;Caballero Training Ground;Caballero Training Ground;;Knight Training Ground;Caballero Training Ground
 ca_culture_group_iberian_5                     ;Knight Training Ground;Caballero Training Ground;;;;
 ca_culture_italian_0                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
 ca_culture_italian_1                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
@@ -93,27 +68,23 @@ ca_culture_italian_2                           ;Cavalry Training Ground;Cavaller
 ca_culture_italian_3                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
 ca_culture_italian_4                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
 ca_culture_italian_5                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
-ca_culture_italian_cavalry_desc                ;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;Elite Italian mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;;;;
+ca_culture_italian_cavalry_desc                ;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;Elite [italian.GetName] mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from [italian.GetName]-[german.GetName] ([lombard.GetName]) origins.;;;;
 ca_culture_russian_0                           ;        ;Druzhina Training Ground;;;;
 ca_culture_russian_5                           ;        ;Druzhina Training Ground;;;;
-ca_culture_group_north_germanic_0              ;Housecarl Training Ground;Huscarl Training Ground;;;;
-ca_culture_group_north_germanic_5              ;Housecarl Training Ground;Huscarl Training Ground;;;;
+ca_culture_group_north_germanic_0              ;        ;Housecarl Training Ground;;;;
+ca_culture_group_north_germanic_5              ;        ;Housecarl Training Ground;;;;
 ca_culture_hungarian_0                         ;        ;Hussar Training Ground;;;;
 ca_culture_hungarian_5                         ;        ;Hussar Training Ground;;;;
-ca_culture_group_arabic_0                      ;        ;Camel Training Grounds;;;;
-ca_culture_group_arabic_1                      ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
-ca_culture_group_arabic_2                      ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
-ca_culture_group_arabic_3                      ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
-ca_culture_group_arabic_4                      ;Camel Training Grounds;Camel Training Grounds;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
-ca_culture_group_arabic_5                      ;        ;Camel Training Grounds;;;;
+ca_culture_group_arabic_0                      ;        ;Camel Riding Ground;;;;
+ca_culture_group_arabic_5                      ;        ;Camel Riding Ground;;;;
 ca_culture_group_byzantine_0                   ;        ;Cataphract Training Ground;;;;
 ca_culture_group_byzantine_5                   ;        ;Cataphract Training Ground;;;;
 ca_culture_irish_0                             ;        ;Gallowglass Training Ground;;;;
 ca_culture_irish_5                             ;        ;Gallowglass Training Ground;;;;
-ca_culture_ethiopian_0                         ;        ;Ethiopian Drilling Grounds;;;;
-ca_culture_ethiopian_5                         ;        ;Ethiopian Drilling Grounds;;;;
-ca_culture_west_african_0                      ;        ;Horon Warrior Lodge;;;;
-ca_culture_west_african_5                      ;        ;Horon Warrior Lodge;;;;
+ca_culture_ethiopian_0                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
+ca_culture_ethiopian_5                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
+ca_culture_west_african_0                      ;        ;Free Warrior Lodge;;;;
+ca_culture_west_african_5                      ;        ;Free Warrior Lodge;;;;
 ca_culture_group_south_slavic_0                ;Hussar Training Ground;Gusar Training Ground;;;;
 ca_culture_group_south_slavic_5                ;Hussar Training Ground;Gusar Training Ground;;;;
 ca_culture_coptic_0                            ;        ;[coptic.GetName] Spearmen;;;;
@@ -124,12 +95,8 @@ ca_culture_croatia_2                           ;        ;Infantry Training Groun
 ca_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
 ca_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
 ca_culture_croatia_5                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_1_desc                      ;        ;The southern Slavic nations trained powerful heavy infantry.;;;;
+ca_culture_croatia_1_desc                      ;        ;The [south_slavic.GetGroupName] nations trained powerful heavy infantry.;;;;
 ca_culture_dutch_0                             ;        ;Goedendag Militia Quarters;;;;
-ca_culture_dutch_1                             ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
-ca_culture_dutch_2                             ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
-ca_culture_dutch_3                             ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
-ca_culture_dutch_4                             ;        ;Goedendag Militia Quarters;Goedendag Militia Quarters;;Goedendag Militia Quarters;Goedendag Militia Quarters
 ca_culture_dutch_5                             ;        ;Goedendag Militia Quarters;;;;
 ca_culture_basque_0                            ;        ;Kuartela;;;;
 ca_culture_basque_1                            ;        ;Kuartela;;;;
@@ -137,9 +104,9 @@ ca_culture_basque_2                            ;        ;Kuartela;;;;
 ca_culture_basque_3                            ;        ;Kuartela;;;;
 ca_culture_basque_4                            ;        ;Kuartela;;;;
 ca_culture_basque_5                            ;        ;Kuartela;;;;
-ca_culture_basque_1_desc                       ;        ;The Basque were renowned for their powerful heavy infantry.;;;;
-ca_culture_jewish_0                            ;        ;Jewish Heavy Infantry Barracks;;;;
-ca_culture_jewish_5                            ;        ;Jewish Heavy Infantry Barracks;;;;
+ca_culture_basque_1_desc                       ;        ;The [basque.GetName] were renowned for their powerful heavy infantry.;;;;
+ca_culture_jewish_0                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
+ca_culture_jewish_5                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
 ca_culture_nahuatl_0                           ;        ;Jaguar Warrior Lodge;;;;
 ca_culture_nahuatl_5                           ;        ;Jaguar Warrior Lodge;;;;
 ca_culture_portuguese_galician_andalusian_0    ;        ;Jinete Riding Grounds;;;;
@@ -149,78 +116,47 @@ ca_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;
 ca_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
 ca_culture_portuguese_galician_andalusian_5    ;        ;Jinete Riding Grounds;;;;
 ca_culture_portuguese_galician_andalusian_desc ;        ;Lightly-armored cavalry train here in the art of flanking and peppering the enemy with arrows and javelins, softening them before the heavier elements of the army charge the lines.;;;;
-ca_culture_group_north_african_0               ;        ;Camel Riding Grounds;;;;
-ca_culture_group_north_african_1               ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_2               ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_3               ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_4               ;Camel Riding Grounds;Camel Riding Grounds;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_5               ;        ;Camel Riding Grounds;;;;
+ca_culture_group_north_african_0               ;        ;Camel Riding Ground;;;;
+ca_culture_group_north_african_1               ;        ;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_2               ;        ;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_3               ;        ;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_4               ;        ;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_5               ;        ;Camel Riding Ground;;;;
 ca_culture_group_north_african_1_desc          ;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins..;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren't slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren’t slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;
+ca_culture_catalan_0                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
 ca_culture_catalan_1                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
 ca_culture_catalan_2                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
 ca_culture_catalan_3                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
 ca_culture_catalan_4                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
 ca_culture_catalan_5                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
-ca_culture_catalan_0                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
 ca_culture_catalan_1_desc                      ;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;
+ca_culture_assyrian_0                          ;        ;Kashat Archery Range;;;;
 ca_culture_assyrian_1                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
 ca_culture_assyrian_2                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
 ca_culture_assyrian_3                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
 ca_culture_assyrian_4                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
 ca_culture_assyrian_5                          ;        ;Kashat Archery Range;;;;
-ca_culture_assyrian_0                          ;        ;Kashat Archery Range;;;;
-ca_culture_assyrian_1_desc                     ;        ;The Syrian tradition of training eagle-eyed archers is kept alive here, stretching back even to antiquity when these warriors served as auxiliaries in Roman legions.;;;;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.
-tb_culture_saxon_english_1                     ;        ;Longbow Range;;;Longbow Range;Longbow Range
-tb_culture_saxon_english_2                     ;        ;Longbow Range;;;Longbow Range;Longbow Range
-tb_culture_saxon_english_3                     ;        ;Longbow Range;;;Longbow Range;Longbow Range
-tb_culture_saxon_english_4                     ;        ;Longbow Range;;;Longbow Range;Longbow Range
-tb_culture_scottish_1                          ;        ;Schiltron Training Ground;;;Schiltron Training Ground;Schiltron Training Ground
-tb_culture_scottish_2                          ;        ;Schiltron Training Ground;;;Schiltron Training Ground;Schiltron Training Ground
-tb_culture_scottish_3                          ;        ;Schiltron Training Ground;;;Schiltron Training Ground;Schiltron Training Ground
-tb_culture_scottish_4                          ;        ;Schiltron Training Ground;;;Schiltron Training Ground;Schiltron Training Ground
-tb_culture_group_baltic_1                      ;        ;Warrior Gathering Ground;;;Warrior Gathering Ground;Warrior Gathering Ground
-tb_culture_group_baltic_2                      ;        ;Warrior Gathering Ground;;;Warrior Gathering Ground;Warrior Gathering Ground
-tb_culture_group_baltic_3                      ;        ;Warrior Gathering Ground;;;Warrior Gathering Ground;Warrior Gathering Ground
-tb_culture_group_baltic_4                      ;        ;Warrior Gathering Ground;;;Warrior Gathering Ground;Warrior Gathering Ground
-tb_culture_group_altaic_1                      ;        ;Riding Grounds;;;Riding Grounds;Riding Grounds
-tb_culture_group_altaic_2                      ;        ;Riding Grounds;;;Riding Grounds;Riding Grounds
-tb_culture_group_altaic_3                      ;        ;Riding Grounds;;;Riding Grounds;Riding Grounds
-tb_culture_group_altaic_4                      ;        ;Riding Grounds;;;Riding Grounds;Riding Grounds
-tb_culture_frank_norman_german_1               ;        ;Jousting Lists;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_2               ;        ;Jousting Lists;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_3               ;        ;Jousting Lists;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_4               ;        ;Jousting Lists;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_group_iberian_1                     ;        ;Caballero Training Ground;;;Knight Training Ground;Caballero Training Ground
-tb_culture_group_iberian_2                     ;        ;Caballero Training Ground;;;Knight Training Ground;Caballero Training Ground
-tb_culture_group_iberian_3                     ;        ;Caballero Training Ground;;;Knight Training Ground;Caballero Training Ground
-tb_culture_group_iberian_4                     ;        ;Caballero Training Ground;;;Knight Training Ground;Caballero Training Ground
+ca_culture_assyrian_1_desc                     ;        ;The [assyrian.GetName] tradition of training eagle-eyed archers is kept alive here, stretching back even to antiquity when these warriors served as auxiliaries in [roman.GetName] legions.;;;;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.
 tb_culture_italian_1                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
 tb_culture_italian_2                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
 tb_culture_italian_3                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
 tb_culture_italian_4                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
-tb_culture_group_arabic_1                      ;        ;Camel Training Grounds;;;Camel Riding Ground;Camel Riding Ground
-tb_culture_group_arabic_2                      ;        ;Camel Training Grounds;;;Camel Riding Ground;Camel Riding Ground
-tb_culture_group_arabic_3                      ;        ;Camel Training Grounds;;;Camel Riding Ground;Camel Riding Ground
-tb_culture_group_arabic_4                      ;        ;Camel Training Grounds;;;Camel Riding Ground;Camel Riding Ground
 tb_culture_croatia_1                           ;        ;Infantry Training Ground;;;;
 tb_culture_croatia_2                           ;        ;Infantry Training Ground;;;;
 tb_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
 tb_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
-tb_culture_dutch_1                             ;        ;Goedendag Militia Quarters;;;Goedendag Militia Quarters;Goedendag Militia Quarters
-tb_culture_dutch_2                             ;        ;Goedendag Militia Quarters;;;Goedendag Militia Quarters;Goedendag Militia Quarters
-tb_culture_dutch_3                             ;        ;Goedendag Militia Quarters;;;Goedendag Militia Quarters;Goedendag Militia Quarters
-tb_culture_dutch_4                             ;        ;Goedendag Militia Quarters;;;Goedendag Militia Quarters;Goedendag Militia Quarters
 tb_culture_basque_1                            ;        ;Kuartela;;;;
 tb_culture_basque_2                            ;        ;Kuartela;;;;
 tb_culture_basque_3                            ;        ;Kuartela;;;;
 tb_culture_basque_4                            ;        ;Kuartela;;;;
 tb_culture_portuguese_galician_andalusian_1    ;        ;Jinete Riding Grounds;;;;
 tb_culture_portuguese_galician_andalusian_2    ;        ;Jinete Riding Grounds;;;;
+tb_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;;;
 tb_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
-tb_culture_group_north_african_1               ;        ;Camel Riding Grounds;;;;
-tb_culture_group_north_african_2               ;        ;Camel Riding Grounds;;;;
-tb_culture_group_north_african_3               ;        ;Camel Riding Grounds;;;;
-tb_culture_group_north_african_4               ;        ;Camel Riding Grounds;;;;
+tb_culture_group_north_african_1               ;        ;Camel Riding Ground;;;;
+tb_culture_group_north_african_2               ;        ;Camel Riding Ground;;;;
+tb_culture_group_north_african_3               ;        ;Camel Riding Ground;;;;
+tb_culture_group_north_african_4               ;        ;Camel Riding Ground;;;;
 tb_culture_catalan_1                           ;        ;Almoghavars Conscription Camp;;;;
 tb_culture_catalan_2                           ;        ;Almoghavars Conscription Camp;;;;
 tb_culture_catalan_3                           ;        ;Almoghavars Conscription Camp;;;;
@@ -236,6 +172,14 @@ tb_culture_assyrian_4                          ;        ;Kashat Archery Range;;;
 #1_PB_laws.csv;;;;;
 #1_PB_loans.csv;;;;;
 #1_PB_martial_prowess.csv;;;;;
+master_warrior                                 ;        ;Formidable Fighter;Formidable Fighter;;Formidable Fighter;
+master_warrior_desc                            ;        ;This character is one of the greatest warriors in the world, favored by God and dreaded on the battlefield.;This character is one of the greatest warriors in the world, favored by God and dreaded on the battlefield.;;This character is one of the greatest warriors in the world, favored by God and dreaded on the battlefield.;
+poor_warrior                                   ;        ;Novice Fighter;Novice Fighter;;Novice Fighter;
+poor_warrior_desc                              ;        ;This character understands the basics of combat, but is sloppy, overconfident, and inexperienced.;This character understands the basics of combat, but is sloppy, overconfident, and inexperienced.;;This character understands the basics of combat, but is sloppy, overconfident, and inexperienced.;
+skilled_warrior                                ;        ;Skilled Fighter;Skilled Fighter;;Skilled Fighter;
+skilled_warrior_desc                           ;        ;This character possesses a certain talent for battle and swordplay.;This character possesses a certain talent for battle and swordplay.;;This character possesses a certain talent for battle and swordplay.;
+trained_warrior                                ;        ;Trained Fighter;Trained Fighter;;Trained Fighter;
+trained_warrior_desc                           ;        ;This character has received training in the art of combat. While no master, they can hold their own in a fight.;This character has received training in the art of combat. While no master, they can hold their own in a fight.;;This character has received training in the art of combat. While no master, [Root.GetSheHe] can hold [Root.GetHerHis] own in a fight.;
 #1_PB_new_titles.csv;;;;;
 e_bulgaria                                     ;        ;Bulgarian Empire;;;;
 e_bulgaria_adj                                 ;        ;Bulgarian;;;;
@@ -251,72 +195,73 @@ BM_OSMANS_DREAM_DESC                           ;With the breakup of the Sultanat
 BM_KHITAN                                      ;        ;The Khitan;;;;
 BM_KHITAN_DESC                                 ;For more than two centuries, the Khitan ruled a vast empire that stretched from Manchuria to Mongolia, perfectly balancing their traditional, nomadic way of life to the north, and the urbane, sophisticated culture of their Chinese subjects to the south. However, overthrown by their Jurchen vassals in the early years of the 12th century, remnants of the once-great Khitan have fled to Central Asia, where they seek to re-create their imperial splendor. Having just defeated the once-mighty Karakhanids and the Seljuks, the Khitan under the command of emperor Yelu Dashi now have a foothold in the region. Will they continue their conquests, spreading their Sinicized nomadic culture and their Buddhist faith, or will they settle down, content with re-creating their Chinese empire in Central Asia? All that is certain is that the Khitan are not the first horde to appear suddenly from the far east, nor will they be the last.;For more than two centuries, the Khitan ruled a vast empire that stretched from Manchuria to Mongolia, perfectly balancing their traditional, nomadic way of life to the north, and the urbane, sophisticated culture of their Chinese subjects to the south. However, overthrown by their Jurchen vassals in the early years of the 12th century, remnants of the once-great Khitan have fled to Central Asia, where they seek to re-create their imperial splendor. Having just defeated the once-mighty Kara-Khanids and the Seljuks, the Khitan under the command of emperor Yelu Dashi now have a foothold in the region. Will they continue their conquests, spreading their Sinicized nomadic culture and their Buddhist faith, or will they settle down, content with re-creating their Chinese empire in Central Asia? All that is certain is that the Khitan are not the first horde to appear suddenly from the far east, nor will they be the last.;;;;
 #1_VIET_Traits.csv;;;;;
-tall                                           ;        ;Tall;Tall;;;
-tall_desc                                      ;        ;This character is of considerable stature, taller than most.;This character is of considerable stature, taller than most.;;;
-agile                                          ;        ;Agile;Agile;;;
-agile_desc                                     ;        ;This character is nimbler and quicker than most.;This character is nimbler and quicker than most.;;;
-perceptive                                     ;        ;Perceptive;Perceptive;;;
-perceptive_desc                                ;        ;This character is sharp, possessing excellent senses and intuition.;This character is sharp, possessing excellent senses and intuition.;;;
-melodious_voice                                ;        ;Silver Tongue;Silver Tongue;;;
-melodious_voice_desc                           ;        ;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;;;
-powerful_voice                                 ;        ;Powerful Voice;Powerful Voice;;;
-powerful_voice_desc                            ;        ;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;;;
-ambidextrous                                   ;        ;Ambidextrous;Ambidextrous;;;
-ambidextrous_desc                              ;        ;This character can naturally use both hands with equal skill. As a result, they are more efficient in whatever they do, whether it is swinging swords or writing letters.;This character can naturally use both hands with equal skill. As a result, they are more efficient in whatever they do, whether it is swinging swords or writing letters.;;;
-lefthanded                                     ;        ;Lefthanded;Lefthanded;;;Left-Handed
-lefthanded_desc                                ;        ;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;;;This character is left-handed. While seen with suspicion by the clergy, left-handed people tend to have a considerable advantage in combat.
-wrymouth                                       ;        ;Wrymouth;Wrymouth;;;
-wrymouth_desc                                  ;        ;This character was born with an oddly-shaped chin or jaw – perhaps it is too big, or too small. Hopefully, this facial feature won’t spread with interbreeding.;This character was born with an oddly-shaped chin or jaw – perhaps it is too big, or too small. Hopefully, this facial feature won’t spread with interbreeding.;;;
-absentminded                                   ;        ;Absent-Minded;Absent-Minded;;;
-absentminded_desc                              ;        ;This erratic character was born with a scatterbrained temperament. They tend to forget things easily, get distracted too easily, or both. This behavior may be endearing to some, but to others it is an annoyance.;This erratic character was born with a scatterbrained temperament. They tend to forget things easily, get distracted too easily, or both. This behavior may be endearing to some, but to others it is an annoyance.;;;
-deaf                                           ;        ;Deaf;Deaf;;;
-deaf_desc                                      ;        ;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits their ability to function.;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits their ability to function.;;;
-wrymouth_death                                 ;        ;of health complications due to wrymouth;of health complications due to wrymouth;;;
-nick_longshanks                                ;        ;Longshanks;Longshanks;;;
-nick_wrymouth                                  ;        ;Wrymouth;Wrymouth;;;
-nick_deaf                                      ;        ;the Deaf;the Deaf;;;
-nick_swift                                     ;        ;the Swift;the Swift;;;
-nick_the_terrifying                            ;        ;the Terrifying;the Terrifying;;;
-calm_voice                                     ;        ;Calm Voice;Calm Voice;;;
-calm_voice_desc                                ;        ;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;;;
-imposing                                       ;        ;Imposing;Imposing;;;
-imposing_desc                                  ;        ;Whether because of their physical stature or just their typical complexion, this character has a striking posture and a commanding presence. To some, they are even terrifying at times.;Whether because of their physical stature or just their typical complexion, this character has a striking posture and a commanding presence. To some, they are even terrifying at times.;;;
-fertile                                        ;        ;Fertile;Fertile;;;
-fertile_desc                                   ;        ;This character has been blessed with a propensity for easily having children.;This character has been blessed with a propensity for easily having children.;;;
-COMPL_GIANT                                    ;        ;giant;giant;;;
-COMPL_FLEET_FOOT                               ;        ;fleet foot;fleet foot;;;
-COMPL_SWIFT                                    ;        ;swift;swift;;;
-INSULT_TWINKLE_TOES                            ;        ;twinkle toes;twinkle toes;;;
-INSULT_TWINKLE_TOED                            ;        ;twinkle toed;twinkle toed;;;
-COMPL_SHARP                                    ;        ;sharp;sharp;;;
-COMPL_HONEY_VOICE                              ;        ;honey-voiced;honey-voiced;;;
-COMPL_MIGHTY_VOICE                             ;        ;mighty-voiced;mighty-voiced;;;
-INSULT_DOUBLE_HANDED                           ;        ;double-handed;double-handed;;;
-INSULT_LEFT_HANDED                             ;        ;left handed;left handed;;;
-INSULT_LEFT_HANDED_FREAK                       ;        ;left handed freak;left handed freak;;;
-COMPL_DEFT                                     ;        ;deft;deft;;;
-INSULT_DROOLING                                ;        ;drooling;drooling;;;
-INSULT_DEAF                                    ;        ;deaf;deaf;;;
-COMPL_DAYDREAMER                               ;        ;daydreamer;daydreamer;;;
-INSULT_CUCKOOHEAD                              ;        ;cuckoohead;cuckoohead;;;
-INSULT_OBLIVIOUS                               ;        ;oblivious;oblivious;;;
-COMPL_WELL_ENDOWED                             ;        ;well-endowed;well-endowed;;;
-INSULT_PHALLUS                                 ;        ;phallus;phallus;;;
-INSULT_COCKY                                   ;        ;cocky;cocky;;;
-INSULT_TITS                                    ;        ;tits;tits;;;
-COMPL_IMPOSING                                 ;        ;imposing;imposing;;;
-INSULT_SCARY                                   ;        ;scary;scary;;;
-INSULT_CREEP                                   ;        ;creep;creep;;;
+tall                                           ;        ;Tall;Tall;;Tall;
+tall_desc                                      ;        ;This character is of considerable stature, taller than most.;This character is of considerable stature, taller than most.;;This character is of considerable stature, taller than most.;
+agile                                          ;        ;Agile;Agile;;Agile;
+agile_desc                                     ;        ;This character is nimbler and quicker than most.;This character is nimbler and quicker than most.;;This character is nimbler and quicker than most.;
+perceptive                                     ;        ;Perceptive;Perceptive;;Perceptive;
+perceptive_desc                                ;        ;This character is sharp, possessing excellent senses and intuition.;This character is sharp, possessing excellent senses and intuition.;;This character is sharp, possessing excellent senses and intuition.;
+melodious_voice                                ;        ;Silver Tongue;Silver Tongue;;Silver Tongue;
+melodious_voice_desc                           ;        ;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;;This character is said to have a pleasing voice, and can sing wonderfully. Somehow, when they talk, everyone simply listens.;
+powerful_voice                                 ;        ;Powerful Voice;Powerful Voice;;Powerful Voice;
+powerful_voice_desc                            ;        ;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;;This character speaks in an imposing tone that can persuade friends, frighten enemies, and inspire subordinates.;
+ambidextrous                                   ;        ;Ambidextrous;Ambidextrous;;Ambidextrous;
+ambidextrous_desc                              ;        ;This character can naturally use both hands with equal skill. As a result, they are more efficient in whatever they do, whether it is swinging swords or writing letters.;This character can naturally use both hands with equal skill. As a result, they are more efficient in whatever they do, whether it is swinging swords or writing letters.;;This character can naturally use both hands with equal skill. As a result, [Root.GetSheHe] is more efficient in whatever [Root.GetSheHe] does, whether it is swinging swords or writing letters.;
+lefthanded                                     ;        ;Lefthanded;Lefthanded;;Lefthanded;Left-Handed
+lefthanded_desc                                ;        ;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;This character is better at using their left hand than their right hand. It offers them many advantages when dealing with others, but it is viewed as impious by religious authorities.;;This character is better at using [Root.GetHerHis] left hand than [Root.GetHerHis] right hand. It offers [Root.GetHerHim] many advantages when dealing with others, but it is viewed as impious by religious authorities.;This character is left-handed. While seen with suspicion by the clergy, left-handed people tend to have a considerable advantage in combat.
+wrymouth                                       ;        ;Wrymouth;Wrymouth;;Wrymouth;
+wrymouth_desc                                  ;        ;This character was born with an oddly-shaped chin or jaw – perhaps it is too big, or too small. Hopefully, this facial feature won’t spread with interbreeding.;This character was born with an oddly-shaped chin or jaw – perhaps it is too big, or too small. Hopefully, this facial feature won’t spread with interbreeding.;;This character was born with an oddly-shaped chin or jaw – perhaps it is too big, or too small. Hopefully, this facial feature won’t spread with interbreeding.;
+absentminded                                   ;        ;Absent-Minded;Absent-Minded;;Absent-Minded;
+absentminded_desc                              ;        ;This erratic character was born with a scatterbrained temperament. They tend to forget things easily, get distracted too easily, or both. This behavior may be endearing to some, but to others it is an annoyance.;This erratic character was born with a scatterbrained temperament. They tend to forget things easily, get distracted too easily, or both. This behavior may be endearing to some, but to others it is an annoyance.;;This erratic character was born with a scatterbrained temperament. [Root.GetSheHe] tends to forget things easily, get distracted too easily, or both. This behavior may be endearing to some, but to others it is an annoyance.;
+deaf                                           ;        ;Deaf;Deaf;;Deaf;
+deaf_desc                                      ;        ;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits their ability to function.;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits their ability to function.;;This character is hard of hearing, or, worse, cannot hear at all. Such a disability limits [Root.GetHerHis] ability to function.;
+wrymouth_death                                 ;        ;of health complications due to wrymouth;of health complications due to wrymouth;;of health complications due to wrymouth;
+nick_longshanks                                ;        ;Longshanks;Longshanks;;Longshanks;
+nick_wrymouth                                  ;        ;Wrymouth;Wrymouth;;Wrymouth;
+nick_deaf                                      ;        ;the Deaf;the Deaf;;the Deaf;
+nick_swift                                     ;        ;the Swift;the Swift;;the Swift;
+nick_the_terrifying                            ;        ;the Terrifying;the Terrifying;;the Terrifying;
+calm_voice                                     ;        ;Calm Voice;Calm Voice;;Calm Voice;
+calm_voice_desc                                ;        ;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;This character's voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;;This character’s voice is naturally soothing. While it is neither powerful nor melodious, its mildness can calm even the angriest of people, and slyly persuade even the most skeptical of men.;
+imposing                                       ;        ;Imposing;Imposing;;Imposing;
+imposing_desc                                  ;        ;Whether because of their physical stature or just their typical complexion, this character has a striking posture and a commanding presence. To some, they are even terrifying at times.;Whether because of their physical stature or just their typical complexion, this character has a striking posture and a commanding presence. To some, they are even terrifying at times.;;Whether because of [Root.GetHerHis] physical stature or just [Root.GetHerHis] typical complexion, this character has a striking posture and a commanding presence. To some, [Root.GetSheHe] is even terrifying at times.;
+fertile                                        ;        ;Fertile;Fertile;;Fertile;
+fertile_desc                                   ;        ;This character has been blessed with a propensity for easily having children.;This character has been blessed with a propensity for easily having children.;;This character has been blessed with a propensity for easily having children.;
+COMPL_GIANT                                    ;        ;giant;giant;;giant;
+COMPL_FLEET_FOOT                               ;        ;fleet foot;fleet foot;;fleet foot;
+COMPL_SWIFT                                    ;        ;swift;swift;;swift;
+INSULT_TWINKLE_TOES                            ;        ;twinkle toes;twinkle toes;;twinkle toes;
+INSULT_TWINKLE_TOED                            ;        ;twinkle toed;twinkle toed;;twinkle toed;
+COMPL_SHARP                                    ;        ;sharp;sharp;;sharp;
+COMPL_HONEY_VOICE                              ;        ;honey-voiced;honey-voiced;;honey-voiced;
+COMPL_MIGHTY_VOICE                             ;        ;mighty-voiced;mighty-voiced;;mighty-voiced;
+INSULT_DOUBLE_HANDED                           ;        ;double-handed;double-handed;;double-handed;
+INSULT_LEFT_HANDED                             ;        ;left handed;left handed;;left handed;
+INSULT_LEFT_HANDED_FREAK                       ;        ;left handed freak;left handed freak;;left handed freak;
+COMPL_DEFT                                     ;        ;deft;deft;;deft;
+INSULT_DROOLING                                ;        ;drooling;drooling;;drooling;
+INSULT_DEAF                                    ;        ;deaf;deaf;;deaf;
+COMPL_DAYDREAMER                               ;        ;daydreamer;daydreamer;;daydreamer;
+INSULT_CUCKOOHEAD                              ;        ;cuckoohead;cuckoohead;;cuckoohead;
+INSULT_OBLIVIOUS                               ;        ;oblivious;oblivious;;oblivious;
+COMPL_WELL_ENDOWED                             ;        ;well-endowed;well-endowed;;well-endowed;
+INSULT_PHALLUS                                 ;        ;phallus;phallus;;phallus;
+INSULT_COCKY                                   ;        ;cocky;cocky;;cocky;
+INSULT_TITS                                    ;        ;tits;tits;;tits;
+COMPL_IMPOSING                                 ;        ;imposing;imposing;;imposing;
+INSULT_SCARY                                   ;        ;scary;scary;;scary;
+INSULT_CREEP                                   ;        ;creep;creep;;creep;
 #1_emf_DE.csv;;;;;
 #1_emf_adventurer.csv;;;;;
+#1_emf_altstart.csv;;;;;
 #1_emf_ambitions.csv;;;;;
 #1_emf_autolander.csv;;;;;
 #1_emf_builder.csv;;;;;
 #1_emf_buildings.csv;;;;;
 ca_culture_indian_0                            ;        ;War Elephant Pens;;;;
 ca_culture_indian_5                            ;        ;War Elephant Pens;;;;
-ca_culture_germanic_0                          ;        ;Germanic Infantry Barracks;;;;
-ca_culture_germanic_5                          ;        ;Germanic Infantry Barracks;;;;
+ca_culture_germanic_0                          ;        ;[GetGermanic] Infantry Barracks;;;;
+ca_culture_germanic_5                          ;        ;[GetGermanic] Infantry Barracks;;;;
 ca_culture_pictish_0                           ;        ;Hall of War;;;;
 ca_culture_pictish_5                           ;        ;Hall of War;;;;
 ca_culture_suebi_0                             ;        ;Free Warrior Camp;;;;
@@ -335,17 +280,16 @@ ca_culture_venetian_2                          ;Marine Barracks;Marine Barracks;
 ca_culture_venetian_3                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
 ca_culture_venetian_4                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
 ca_culture_venetian_5                          ;Marine Barracks;Marine Barracks;;;;
-ca_culture_venetian_1_desc                     ;The bulk of the Venetian infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of Venetian marines was a boon to their republic’s ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;The bulk of the Venetian infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of Venetian marines was a boon to their republic's ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;
+ca_culture_venetian_1_desc                     ;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm’s ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm's ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;
 ca_culture_chinese_han_0                       ;        ;Crossbow Range;;;;
 ca_culture_chinese_han_5                       ;        ;Crossbow Range;;;;
-ca_culture_altaic_jurchen_0                    ;        ;Jurchen Cavalry Barracks;;;;
-ca_culture_altaic_jurchen_5                    ;        ;Jurchen Cavalry Barracks;;;;
+ca_culture_altaic_jurchen_0                    ;        ;[jurchen.GetName] Cavalry Barracks;;;;
+ca_culture_altaic_jurchen_5                    ;        ;[jurchen.GetName] Cavalry Barracks;;;;
 ca_culture_tibetan_0                           ;        ;Mountaineer Academy;;;;
 ca_culture_tibetan_5                           ;        ;Mountaineer Academy;;;;
-ca_culture_tibetan_1_desc                      ;        ;The hardy peoples of the Himalayas are experts at fighting in rough and mountainous terrain.;;;;
 ca_culture_animal_0                            ;        ;Animal Farm;;;;
 ca_culture_animal_5                            ;        ;Animal Farm;;;;
-ca_culture_pictish_1_desc                      ;The Hall of War is where the most experienced and fierce Celtic warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce Celtic warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!;;;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!
+ca_culture_pictish_1_desc                      ;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!;;;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!
 tb_culture_roman_1                             ;        ;Field of Mars;;;;
 tb_culture_roman_2                             ;        ;Field of Mars;;;;
 tb_culture_roman_3                             ;        ;Field of Mars;;;;
@@ -420,10 +364,17 @@ d_saqaliba                                     ;        ;Saqaliba;;;;
 d_saqaliba_adj                                 ;Saqaliba;Saqlabi;;;;
 #1_emf_hre.csv;;;;;
 #1_emf_imperial.csv;;;;;
-strong_basileus                                ;        ;Strong Basileus;Strong Basileus;;;
-strong_basileus_desc                           ;        ;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;;;
-weak_basileus                                  ;        ;Coronated Basileus;Coronated Basileus;;;
-weak_basileus_desc                             ;        ;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;;;
+bogomilist_imperial_government                 ;Patarene Imperial;Patareni Imperial;;;;
+emf_crowned                                    ;        ;Crowned;Crowned;;Crowned;
+emf_crowned_desc                               ;        ;This character has been officially coronated and recognized as ruler in front of their gathered vassals.;This character has been officially coronated and recognized as ruler in front of their gathered vassals.;;This character has been officially coronated and recognized as ruler in front of [Root.GetHerHis] gathered vassals.;
+emf_crowned_by_pope                            ;        ;Crowned By The Pope;Crowned By The Pope;;Crowned By The Pope;
+emf_crowned_by_pope_desc                       ;        ;This character has been officially coronated and recognized as ruler in front of their gathered vassals in a ceremony administered by His Holiness the Pope.;This character has been officially coronated and recognized as ruler in front of their gathered vassals in a ceremony administered by His Holiness the Pope.;;This character has been officially coronated and recognized as ruler in front of [Root.GetHerHis] gathered vassals in a ceremony administered by His Holiness the Pope.;
+imperial_government                            ;        ;Imperial;;;;
+muslim_imperial_government                     ;        ;al-Mulk;;;;
+strong_basileus                                ;        ;Strong Basileus;Strong Basileus;;Strong Basileus;
+strong_basileus_desc                           ;        ;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;;This ruler of the Byzantine Empire is recognised throughout the realm as strong and powerful.;
+weak_basileus                                  ;        ;Coronated Basileus;Coronated Basileus;;Coronated Basileus;
+weak_basileus_desc                             ;        ;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;;This ruler of the Byzantine Empire has been officially coronated, but is not considered strong enough to truly unify the support of the empire.;
 #1_emf_intrigue.csv;;;;;
 #1_emf_ir.csv;;;;;
 #1_emf_laws.csv;;;;;
@@ -432,6 +383,12 @@ weak_basileus_desc                             ;        ;This ruler of the Byzan
 tb_emf_magyar_1                                ;        ;Magyar Divisions;;;;
 tb_emf_magyar_desc                             ;        ;For years, the Magyar clans have been torn apart by internal wars and strife. Many believe this has left the clans weakened, and while there is hope for eventual recovery, some believe it will be too late and that the clans are in a state which has left them weak to attack from neighbors.;;;;
 #1_emf_marriage.csv;;;;;
+infertile                                      ;        ;Infertile;Infertile;;Infertile;
+infertile_desc                                 ;        ;This character is less prone to producing children.;This character is less prone to producing children.;;This character is less prone to producing children.;
+sterile_known                                  ;        ;Sterile;Sterile;;Sterile;
+sterile_known_desc                             ;        ;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;
+sterile_secret                                 ;        ;Sterile;Sterile;;Sterile;
+sterile_secret_desc                            ;        ;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;;This character is unable to have children, either having been born this way or having lost the ability through sickness or injury.;
 #1_emf_melt.csv;;;;;
 #1_emf_mnm.csv;;;;;
 #1_emf_mongols.csv;;;;;
@@ -611,63 +568,56 @@ CATHOLICOS                                     ;        ;Catholicos;Catholicos;;
 COUNCIL_OF_ADVISORS                            ;        ;Council of Advisors;Council of Advisors;;Council of Advisors;
 COUNCIL_OF_APOSTLES                            ;        ;Council of Apostles;Council of Apostles;;Council of Apostles;
 COUNCIL_OF_PERFECTI                            ;        ;Council of Perfecti;Council of Perfecti;;Council of Perfecti;
-d_apostolic                                    ;        ;[apostolic.GetName] Church;[apostolic.GetName] Church;;[apostolic.GetName] Church;
-d_apostolic_adj                                ;        ;[apostolic.GetName];[apostolic.GetName];;[apostolic.GetName];
+d_apostolic                                    ;        ;Apostolic Church;Apostolic Church;;Apostolic Church;
+d_apostolic_adj                                ;        ;Apostolic;Apostolic;;Apostolic;
 d_army_light                                   ;        ;Army of Light;Army of Light;;Army of Light;Army of Light
 d_army_light_adj                               ;        ;Forces of Light;Forces of Light;;Forces of Light;
 d_army_lucifer                                 ;        ;Army of Lucifer;Army of Lucifer;;Army of Lucifer;
 d_army_lucifer_adj                             ;        ;Luciferian;Luciferian;;Luciferian;
-d_baltic_pagan_reformed                        ;        ;[baltic_pagan_reformed.GetName] Congregation;[baltic_pagan_reformed.GetName] Congregation;;[baltic_pagan_reformed.GetName] Congregation;The Romuvan Congregation
-d_baltic_pagan_reformed_adj                    ;        ;[baltic_pagan_reformed.GetName];[baltic_pagan_reformed.GetName];;[baltic_pagan_reformed.GetName];Romuva
-d_bogomilist                                   ;        ;[bogomilist.GetName] Church;[bogomilist.GetName] Church;;[bogomilist.GetName] Church;
-d_bogomilist_adj                               ;        ;[bogomilist.GetName];[bogomilist.GetName];;[bogomilist.GetName];
-d_bon_reformed                                 ;        ;Sacred [bon_reformed.GetName] Hierarchy;Sacred [bon_reformed.GetName] Hierarchy;;Sacred [bon_reformed.GetName] Hierarchy;The Sacred Bön Hierarchy
-d_bon_reformed_adj                             ;        ;[bon_reformed.GetName];[bon_reformed.GetName];;[bon_reformed.GetName];Bön
-d_cathar                                       ;        ;[cathar.GetName] Patriarchy;[cathar.GetName] Patriarchy;;[cathar.GetName] Patriarchy;
+d_baltic_pagan_reformed                        ;        ;Romuva Congregation;Romuva Congregation;;Romuva Congregation;The Romuvan Congregation
+d_bogomilist                                   ;        ;Bogomilist Church;Bogomilist Church;;Bogomil Church;
+d_bogomilist_adj                               ;        ;Bogomilist;Bogomilist;;Bogomil;
+d_bon_reformed                                 ;        ;Sacred Bön Hierarchy;Sacred Bön Hierarchy;;Sacred Bön Hierarchy;The Sacred Bön Hierarchy
+d_cathar                                       ;        ;Cathar Patriarchy;Cathar Patriarchy;;Cathar Patriarchy;
 d_cathar_adj                                   ;        ;Patriarchal;Patriarchal;;Patriarchal;
-d_druze                                        ;        ;[druze.GetName] Shaykhdom;[druze.GetName] Shaykhdom;;[druze.GetName] Sheikhdom;
-d_druze_adj                                    ;        ;[druze.GetName];[druze.GetName];;[druze.GetName];
+d_druze                                        ;        ;Druze Shaykhdom;Druze Shaykhdom;;Druze Sheikhdom;
+d_druze_adj                                    ;        ;Druze;Druze;;Druze;
 d_finnish_pagan_reformed                       ;        ;Sacred Woods;Sacred Woods;;Sacred Woods;The Sacred Woods
-d_finnish_pagan_reformed_adj                   ;        ;[finnish_pagan_reformed.GetName];[finnish_pagan_reformed.GetName];;[finnish_pagan_reformed.GetName];Suomenusko
-d_ismaili                                      ;        ;[ismaili.GetName] Caliphate;[ismaili.GetName] Caliphate;;[ismaili.GetName] Caliphate;
-d_ismaili_adj                                  ;        ;[ismaili.GetName];[ismaili.GetName];;[ismaili.GetName];
+d_ismaili                                      ;        ;Isma'ili Caliphate;Isma'ili Caliphate;;Isma‘ili Caliphate;
+d_ismaili_adj                                  ;        ;Isma'ili;Isma'ili;;Isma‘ili;
 d_knights_saint_mark                           ;        ;Knights of Saint Mark;Knights of Saint Mark;;Knights of Saint Mark;
 d_knights_saint_mark_adj                       ;        ;Saint Mark;Saint Mark;;Saint Mark;
-d_lollard                                      ;        ;[lollard.GetName] Church;[lollard.GetName] Church;;[lollard.GetName] Church;
-d_lollard_adj                                  ;        ;[lollard.GetName];[lollard.GetName];;[lollard.GetName];
-d_mahdiyya                                     ;        ;[mahdiyya.GetName] Caliphate;[mahdiyya.GetName] Caliphate;;[mahdiyya.GetName] Caliphate;
-d_mahdiyya_adj                                 ;        ;[mahdiyya.GetName];[mahdiyya.GetName];;[mahdiyya.GetName];
-d_manichean                                    ;        ;[manichean.GetName] Church;[manichean.GetName] Church;;[manichean.GetName] Church;The Manichean Church
-d_manichean_adj                                ;        ;[manichean.GetName];[manichean.GetName];;[manichean.GetName];
-d_maronite                                     ;        ;[maronite.GetName] Church;[maronite.GetName] Church;;[maronite.GetName] Church;
-d_maronite_adj                                 ;        ;[maronite.GetName];[maronite.GetName];;[maronite.GetName];
-d_mazdaki                                      ;        ;[mazdaki.GetName] Priesthood;[mazdaki.GetName] Priesthood;;[mazdaki.GetName] Priesthood;
-d_mazdaki_adj                                  ;        ;[mazdaki.GetName];[mazdaki.GetName];;[mazdaki.GetName];
+d_lollard                                      ;        ;Lollard Church;Lollard Church;;Lollard Church;
+d_lollard_adj                                  ;        ;Lollard;Lollard;;Lollard;
+d_mahdiyya                                     ;        ;Mahdite Caliphate;Mahdite Caliphate;;Mahdite Caliphate;
+d_mahdiyya_adj                                 ;        ;Mahdite;Mahdite;;Mahdite;
+d_manichean                                    ;        ;Manichean Church;Manichean Church;;Manichaean Church;The Manichean Church
+d_manichean_adj                                ;        ;Manichean;Manichean;;Manichaean;
+d_maronite                                     ;        ;Maronite Church;Maronite Church;;Maronite Church;
+d_maronite_adj                                 ;        ;Maronite;Maronite;;Maronite;
+d_mazdaki                                      ;        ;Mazdaki Priesthood;Mazdaki Priesthood;;Mazdakite Priesthood;
+d_mazdaki_adj                                  ;        ;Mazdaki;Mazdaki;;Mazdakite;
 d_messalian                                    ;        ;Euchite Patriarchy;Euchite Patriarchy;;Euchite Patriarchy;
 d_messalian_adj                                ;        ;Euchite;Euchite;;Euchite;
-d_nabawiyya                                    ;        ;[nabawiyya.GetName] Malikate;[nabawiyya.GetName] Malikate;;[nabawiyya.GetName] Malikate;
-d_nabawiyya_adj                                ;        ;[nabawiyya.GetName];[nabawiyya.GetName];;[nabawiyya.GetName];
+d_nabawiyya                                    ;        ;Nabawite Malikate;Nabawite Malikate;;Nabawite Malikate;
+d_nabawiyya_adj                                ;        ;Nabawite;Nabawite;;Nabawite;
 d_norse_pagan_reformed                         ;        ;Fylkirate;Fylkirate;;Fylkirate;The Fylkirate
-d_norse_pagan_reformed_adj                     ;        ;[norse_pagan_reformed.GetName];[norse_pagan_reformed.GetName];;[norse_pagan_reformed.GetName];Norse
 d_saint_blaise                                 ;        ;Order of St. Blaise;Order of St. Blaise;;Order of St. Blaise;
 d_saint_blaise_adj                             ;        ;St. Blaise;St. Blaise;;St. Blaise;
-d_shiite                                       ;        ;[shiite.GetName] Imamate;[shiite.GetName] Imamate;;[shiite.GetName] Imamate;The Shia Caliphate
-d_shiite_adj                                   ;        ;[shiite.GetName];[shiite.GetName];;[shiite.GetName];Caliphal
-d_slavic_pagan_reformed                        ;        ;[slavic_pagan_reformed.GetName] Church;[slavic_pagan_reformed.GetName] Church;;[slavic_pagan_reformed.GetName] Church;The Slavic Church
-d_slavic_pagan_reformed_adj                    ;        ;[slavic_pagan_reformed.GetName];[slavic_pagan_reformed.GetName];;[slavic_pagan_reformed.GetName];Slavic
-d_sunni                                        ;        ;[sunni.GetName] Caliphate;[sunni.GetName] Caliphate;;[sunni.GetName] Caliphate;The Sunni Caliphate
-d_sunni_adj                                    ;        ;[sunni.GetName];[sunni.GetName];;[sunni.GetName];Caliphal
-d_syriac                                       ;        ;[syriac.GetName] Orthodox Church;[syriac.GetName] Orthodox Church;;Syriac Orthodox Church;
-d_syriac_adj                                   ;        ;[syriac.GetName];[syriac.GetName];;[syriac.GetName];
+d_shiite                                       ;        ;Shia Imamate;Shia Imamate;;Shi‘ite Imamate;The Shia Caliphate
+d_shiite_adj                                   ;        ;Shia;Shia;;Shi‘ite;Caliphal
+d_slavic_pagan_reformed                        ;        ;Slavic Church;Slavic Church;;Slavic Church;The Slavic Church
+d_sunni                                        ;        ;Sunni Caliphate;Sunni Caliphate;;Sunni Caliphate;The Sunni Caliphate
+d_sunni_adj                                    ;        ;Sunni;Sunni;;Sunni;Caliphal
+d_syriac                                       ;        ;Syriac Orthodox Church;Syriac Orthodox Church;;Syriac Orthodox Church;
+d_syriac_adj                                   ;        ;Syriac;Syriac;;Syriac;
 d_tengri_pagan_reformed                        ;        ;Sky-Temple;Sky-Temple;;Sky-Temple;The Sky-Temple
-d_tengri_pagan_reformed_adj                    ;        ;[tengri_pagan_reformed.GetName];[tengri_pagan_reformed.GetName];;[tengri_pagan_reformed.GetName];Tengri
-d_waldensian                                   ;        ;[waldensian.GetName] Church;[waldensian.GetName] Church;;[waldensian.GetName] Church;
-d_waldensian_adj                               ;        ;[waldensian.GetName];[waldensian.GetName];;[waldensian.GetName];
-d_west_african_pagan_reformed                  ;        ;[west_african_pagan_reformed.GetName] Congregation;[west_african_pagan_reformed.GetName] Congregation;;[west_african_pagan_reformed.GetName] Congregation;The African Congregation
-d_west_african_pagan_reformed_adj              ;        ;[west_african_pagan_reformed.GetName];[west_african_pagan_reformed.GetName];;[west_african_pagan_reformed.GetName];African
-d_zaydi                                        ;        ;[zaydi.GetName] Caliphate;[zaydi.GetName] Caliphate;;[zaydi.GetName] Caliphate;
-d_zaydi_adj                                    ;        ;[zaydi.GetName];[zaydi.GetName];;[zaydi.GetName];
-k_papal_state                                  ;        ;Papacy;Status Pontificius;;Papal States;The Papacy
+d_waldensian                                   ;        ;Waldensian Church;Waldensian Church;;Waldensian Church;
+d_waldensian_adj                               ;        ;Waldensian;Waldensian;;Waldensian;
+d_west_african_pagan_reformed                  ;        ;African Congregation;African Congregation;;African Congregation;The African Congregation
+d_zaydi                                        ;        ;Zaydi Caliphate;Zaydi Caliphate;;Zaydi Caliphate;
+d_zaydi_adj                                    ;        ;Zaydi;Zaydi;;Zaydi;
+k_papal_state                                  ;        ;Status Pontificius;Status Pontificius;;Papal States;The Papacy
 k_orthodox                                     ;        ;Ecumenical Patriarchate;Ecumenical Patriarchate;;Ecumenical Patriarchate;The Ecumenical Patriarchate
 e_sunni                                        ;        ;Sunni Caliphate;Sunni Caliphate;;Sunni Caliphate;The Sunni Caliphate
 e_shiite                                       ;        ;Shia Caliphate;Shia Caliphate;;Shi‘ite Caliphate;The Shia Caliphate
@@ -811,7 +761,7 @@ bogomil_appears                                ;        ;Bogomil Appears;Bogomil
 bogomilism_formalized                          ;        ;[bogomilist.GetName] Faith Formalized;[bogomilist.GetName] Faith Formalized;;[bogomilist.GetName] Faith Formalized;
 bogomilism_organized                           ;        ;[bogomilist.GetName] Faith Organized;[bogomilist.GetName] Faith Organized;;[bogomilist.GetName] Faith Organized;
 bogomilism_spreading                           ;        ;[bogomilist.GetName] Faith Spreading;[bogomilist.GetName] Faith Spreading;;[bogomilist.GetName] Faith Spreading;
-bogomilist_government                          ;        ;[bogomilist.GetName];[bogomilist.GetName];;[bogomilist.GetName];
+bogomilist_government                          ;        ;Patareni;Patareni;;Patarene;
 bogomilist_government_desc                     ;        ;This is a form of government which is essentially feudal, and thus reliant upon the oaths between liege and vassal, but also melded with the precepts of the [bogomilist.GetName] faith.;This is a form of government which is essentially feudal, and thus reliant upon the oaths between liege and vassal, but also melded with the precepts of the [bogomilist.GetName] faith.;;This is a form of government which is essentially feudal, and thus reliant upon the oaths between liege and vassal, but also melded with the precepts of the [bogomilist.GetName] faith.;
 building_st_bogomil                            ;        ;Building Church of St. Bogomil;Building Church of St. Bogomil;;Building Church of St. Bogomil;
 building_st_bogomil_desc                       ;        ;The Church of St. Bogomil is being constructed here, a process that will take many years to complete.;The Church of St. Bogomil is being constructed here, a process that will take many years to complete.;;The Church of St. Bogomil is being constructed here, a process that will take many years to complete.;
@@ -1941,8 +1891,8 @@ e_italy_adj                                    ;        ;Italian;Italiano;;Itali
 e_russia                                       ;        ;Rus;Rus;Garðaríki;Rus’;Russia
 k_italy                                        ;        ;Lombardia;Lombardia;Italia Annonaria,Annonaria;Italy;Italy
 k_italy_adj                                    ;        ;Lombard;Lombardian;;Italian;Italian
-k_nikaea                                       ;        ;Nikaea;Nikaia;;Nicaea;
-k_nikaea_adj                                   ;        ;Nikaean;Nikaian;;Nicaean;
+k_nikaea                                       ;Nicaea  ;Nikaea;Nikaia;;Nicaea;
+k_nikaea_adj                                   ;Nicaean ;Nikaean;Nikaian;;Nicaean;
 k_emf_bavaria                                  ;Bavaria ;Baiern;;;;
 k_emf_bavaria_adj                              ;Bavarian;Bairische;;;;
 k_emf_franconia                                ;Franconia;Franken;;;;

@@ -316,6 +316,7 @@ saint_tongue_name                              ;Incorruptible Tongue of Saint [t
 d_papal_guards                                 ;Papal Guards;;;Papal Guards
 k_hellenic_pagan                               ;College of Pontiffs;;;Collegium Pontificum
 k_hellenic_pagan_adj                           ;Pontifical;;;Pontifical
+d_bon_reformed_adj                             ;Bön     ;;;Bön
 d_dralhas_children                             ;Dralha’s Children;;;Dralha's Chidren
 d_dralhas_children_adj                         ;Dralhan ;;;Dralhan
 d_myrmidons                                    ;Myrmidons;;;Myrmidons
@@ -737,6 +738,7 @@ c_wana_adj                                     ;Loralai ;;;Wana
 c_kandail_adj                                  ;Gandawah;;;Kandail
 c_bamiyan_adj                                  ;Bamyan  ;;;Bamiyan
 #JadeDragon.csv;;;;
+confucian_bureaucracy                          ;Confucian Bureaucracy;;;Confucian Bureaucracy
 title_administrator                            ;Scholar-Bureaucrat;;;Scholar-Bureaucrat
 title_master_engineer                          ;Master Engineer;;;Master Engineer
 title_master_engineer_desc                     ;The master engineer will construct wonders of Chinese ingenuity throughout your demesne, such as dry docks and blast furnaces.;;;The master engineer will construct wonders of Chinese ingenuity throughout your demesne, such as dry docks and blast furnaces.
@@ -878,6 +880,7 @@ tr_silk_road_garrison_3_desc                   ;An enormous amount of mercenarie
 title_teacher                                  ;Court Tutor;;;Court Tutor
 title_teacher_desc                             ;The court tutor will serve as the default educator for all children at court who don't have an assigned guardian.;;;The Court Tutor will serve as the default Educator for all children at court who don't have an assigned Guardian.
 title_court_jester_desc                        ;The court jester is kept around to provide general entertainment to the court. Also known as a fool, it is generally not considered to be the most prestigious office at court.;;;The court Jester is kept around to provide general entertainment to the court. Also known as a fool it is generally not considered to be the most prestigious office at court.
+theocratic_feudal_government                   ;Monastic Feudal;;;Monastic Feudal
 ca_government_monastery_1                      ;Gompa Monastery;;;Gompa Monastery
 ca_government_monastery_2                      ;Gompa Monastery;;;Gompa Monastery
 ca_government_monastery_3                      ;Gompa Monastery;;;Gompa Monastery
@@ -920,6 +923,7 @@ d_silk_road_sentinels                          ;Silk Road Sentinels;;;Silk Road 
 d_silk_road_sentinels_adj                      ;Silk Road Sentinels;;;Silk Road Sentinels
 d_turkic_guard                                 ;Turkic Guard;;;Turkic Guard
 d_turkic_guard_adj                             ;Turkic Guard;;;Turkic Guard
+chinese_imperial_government                    ;Chinese Imperial;;;Chinese Imperial
 c_gegyai_adj                                   ;Gê’gyai ;;;Gegyai
 d_sardinian_band                               ;Sardinian Band;;;Sardinian Band
 d_sardinian_band_adj                           ;Sardinian;;;Sardinian
@@ -2410,6 +2414,12 @@ tp_shipyard_2                                  ;Temple Shipyard;;;Temple Shipyar
 tp_shipyard_3                                  ;Temple Shipyard;;;Temple Shipyard
 tp_shipyard_4                                  ;Temple Shipyard;;;Temple Shipyard
 shipyard_desc                                  ;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.;;;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.
+d_norse_pagan_reformed_adj                     ;Norse   ;;;Norse
+d_baltic_pagan_reformed_adj                    ;Romuva  ;;;Romuva
+d_slavic_pagan_reformed_adj                    ;Slavic  ;;;Slavic
+d_tengri_pagan_reformed_adj                    ;Tengrist;;;Tengri
+d_finnish_pagan_reformed_adj                   ;Uralic  ;;;Suomenusko
+d_west_african_pagan_reformed_adj              ;African ;;;African
 e_wendish_empire                               ;Wendish Empire;;Velké Czechy,Velká Morava,Wiêksza Polska,Vendia;Wendish Empire
 e_wendish_empire_adj                           ;Wendish ;;;Wendish
 d_pecs_adj_bohemian                            ;Lower Pannonian;;;Balaton
@@ -2443,11 +2453,11 @@ k_ruthenia_adj_norwegian                       ;        ;;;Kønugardian
 tengri_pagan_reformed                          ;Tengrist;;;Tengri
 baltic_pagan_reformed                          ;Romuvan ;;;Romuva
 aztec_reformed                                 ;Aztec   ;;;Aztec
-west_african_pagan                             ;West African;;;African
-west_african_pagan_reformed                    ;West African;;;African
+west_african_pagan                             ;African ;;;African
+west_african_pagan_reformed                    ;African ;;;African
 baron_norse_pagan_reformed                     ;Thegn   ;;;Þegn
 baron_norse                                    ;Thegn   ;;;Þegn
-manichean                                      ;Manichean;;;Manichean
+manichean                                      ;Manichaean;;;Manichean
 mazdaki                                        ;Mazdakite;;;Mazdaki
 job_spiritual_norse_pagan                      ;Seer    ;;;Seer
 job_spiritual_norse_pagan_reformed             ;Seer    ;;;Seer
@@ -3150,6 +3160,13 @@ temple_barony_of_zun_pagan                     ;Sun Temple of;;;Sun Temple of
 temple_barony_of_zun_pagan_reformed            ;Sun Temple of;;;Sun Temple of
 #v2_34.csv;;;;
 #v2_40.csv;;;;
+feudal_government                              ;Feudal  ;;;Feudal
+republic_government                            ;Republican;;;Republic
+merchant_republic_government                   ;Mercantile Republican;;;Merchant Republic
+theocracy_government                           ;Theocratic;;;Theocracy
+muslim_government                              ;Iqta‘   ;;;Iqta
+tribal_government                              ;Tribal  ;;;Tribal
+nomadic_government                             ;Nomadic ;;;Nomadic
 nomadic_king                                   ;Khan    ;;;Khan
 nomadic_emperor                                ;Khagan  ;;;Khagan
 nomadic_empire                                 ;Khanate ;;;Khaganate

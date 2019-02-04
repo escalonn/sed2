@@ -44,18 +44,20 @@ def get_dynamics(parser, cultures, prov_id):
         recurse(tree)
     return dynamics
 
-def get_gov_prefixes(parser):
+def get_gov_locs(parser):
     prefixes = []
+    names = []
     for _, tree in parser.parse_files('common/governments/*.txt'):
         for _, v in tree:
             for n2, v2 in v:
+                names.append(n2.val)
                 try:
                     prefix = v2['title_prefix'].val
                 except KeyError:
                     continue
                 if prefix not in prefixes:
                     prefixes.append(prefix)
-    return prefixes
+    return prefixes, names
 
 def get_more_keys_to_override(parser, localisation, max_provs):
     override = set()
@@ -236,7 +238,8 @@ def main():
             prev_lt.update({(row[0].strip(), row[1].strip()): row[2].strip()
                             for row in csv_rows(path)})
 
-        gov_prefixes = get_gov_prefixes(parser)
+        gov_prefixes, gov_names = get_gov_locs(parser)
+        keys_to_override.update(gov_names)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
 
@@ -354,7 +357,8 @@ def main():
         inpath = templates / 'SED2+EMF/localisation/0_SED+EMF.csv'
         prev_loc_emf.update({row[0].strip(): row[1].strip()
                              for row in csv_rows(inpath)})
-        gov_prefixes = get_gov_prefixes(parser)
+        gov_prefixes, gov_names = get_gov_locs(parser)
+        keys_to_override.update(gov_names)
         noble_regex = make_noble_title_regex(cultures + cult_groups,
             religions + rel_groups, ul_titles, gov_prefixes)
         for _, tree in parser.parse_files('common/landed_titles/*.txt',
