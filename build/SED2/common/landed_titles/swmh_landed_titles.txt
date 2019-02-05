@@ -15761,22 +15761,20 @@ e_britannia = { # Britannia
 			}
 		}
 		allow = {
-			OR = {
-				FROM = { is_de_jure_title = yes }
-				AND = {
-					independent = yes
-					custom_tooltip = {
-						text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-						hidden_tooltip = {
-							# AI creates this title solely via explicit maintenance,
-							# so none of this is for them
-							ai = no
-							any_realm_province = {
-								# there are 43 counties in the current custom_england;
-								# this is >50%
-								count = 22
-								region = custom_england
-							}
+			trigger_if = {
+				limit = { FROM = { is_de_jure_title = no } }
+				independent = yes
+				custom_tooltip = {
+					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+					hidden_tooltip = {
+						# AI creates this title solely via explicit maintenance,
+						# so none of this is for them
+						ai = no
+						any_realm_province = {
+							# there are 43 counties in the current custom_england;
+							# this is >50%
+							count = 22
+							region = custom_england
 						}
 					}
 				}
