@@ -14057,12 +14057,10 @@ e_britannia = {
 				independent = yes
 				custom_tooltip = {
 					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-					hidden_tooltip = {
-						ai = no
-						any_realm_province = {
-							count = 22
-							region = custom_england
-						}
+					ai = no
+					any_realm_province = {
+						count = 22
+						region = custom_england
 					}
 				}
 			}
