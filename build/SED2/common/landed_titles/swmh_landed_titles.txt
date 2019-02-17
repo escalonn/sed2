@@ -8053,7 +8053,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 			limit = { e_latin_empire = { has_holder = yes } }
 			e_latin_empire = { has_holder = no }
 		}
-		e_roman_empire = { has_holder = no }
 		c_byzantion = { owner_under_ROOT = yes }
 		title_emperor_basic_allow = yes
 	}
@@ -31330,11 +31329,13 @@ e_latin_empire = { # Imperium Romaniae
 			is_heresy_of = catholic
 			FROM = { is_de_jure_title = yes }
 		}
-		e_byzantium = { # Basileia Rhõmaiõn
-			has_holder = no
+		trigger_if = {
+			limit = { e_roman_empire = { has_holder = yes } }
+			e_roman_empire = { has_holder = no }
 		}
-		e_roman_empire = { # Roman Empire
-			has_holder = no
+		trigger_if = {
+			limit = { e_byzantium = { has_holder = yes } }
+			e_byzantium = { has_holder = no }
 		}
 		custom_tooltip = {
 			text = controls_kaliopolis_thrake
@@ -31347,10 +31348,11 @@ e_latin_empire = { # Imperium Romaniae
 				}
 			}
 		}
+		c_byzantion = { owner_under_ROOT = yes }
 		title_emperor_basic_allow = yes
 	}
 	short_name = yes
-}
+} # end e_latin_empire
 
 e_tibet = {
 	color = { 250 40 0 }
