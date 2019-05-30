@@ -22656,6 +22656,16 @@ e_spain = { # España
 			title_king_basic_allow = yes
 		}
 	} # end k_andalusia
+	d_pechina = { # Pechina, Maritime Republic near Almeria
+		color = { 230 135 10 }
+		color2 = { 255 255 255 }
+		capital = 168 # Almeria
+		dignity = 10
+		allow = {
+			is_republic = yes
+			title_duke_basic_allow = yes
+		}
+	}
 	# TITULAR SWMH Spain
 	# Kingdom level:
 	# reino de Galicia
