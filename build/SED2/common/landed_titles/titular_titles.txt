@@ -125,6 +125,33 @@ e_lechczechrus = {
 	short_name = yes
 } # end e_lechczechrus
 
+e_bulgaria = {
+	color = { 108 78 110 }
+	color2 = { 255 255 255 }
+	culture = bulgarian
+	# NOTE: TODO: capital unchecked for SWMH map
+	capital = 499 # Tyrnovo
+	allow = {
+		conditional_tooltip = {
+			trigger = { FROM = { is_de_jure_title = no } }
+			FROM = { is_de_jure_title = yes }
+		}
+		title_emperor_basic_allow = yes
+	}
+} # end e_bulgaria
+
+e_cordoba = {
+	color = { 255 218 185 }
+	color2 = { 255 255 255 }
+	# NOTE: TODO: capital unchecked for SWMH map
+	capital = 181 # Cordoba
+	#short_name = yes
+	religion = sunni
+	allow = { always = no }
+	assimilate = no
+	caliphate = yes
+}
+
 e_khazaria = { # Qasarstan
 	color = { 200 157 81 }
 	capital = 620 # Itil
