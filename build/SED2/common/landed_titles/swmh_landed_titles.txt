@@ -1094,13 +1094,6 @@ d_sardinian_company = {
 	color = { 210 165 165 }
 	color2 = { 255 255 255 }
 	capital = 326 # Cagliari
-	# Hire Trigger
-	allow = {
-		conditional_tooltip = {
-			trigger = { is_alternate_start = no }
-			religion_group = christian
-		}
-	}
 	# Parent Religion
 	religion = catholic
 	culture = sardinian
@@ -1113,6 +1106,13 @@ d_sardinian_company = {
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = sardinian_company_composition
+	# Hire Trigger
+	allow = {
+		conditional_tooltip = {
+			trigger = { is_alternate_start = no }
+			religion_group = christian
+		}
+	}
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -1122,13 +1122,6 @@ d_sardinian_band = {
 	color = { 210 65 65 }
 	color2 = { 255 255 255 }
 	capital = 325 # Arborea
-	# Hire Trigger
-	allow = {
-		conditional_tooltip = {
-			trigger = { is_alternate_start = no }
-			religion_group = christian
-		}
-	}
 	# Parent Religion
 	religion = catholic
 	culture = sardinian
@@ -1141,6 +1134,13 @@ d_sardinian_band = {
 	independent = yes
 	strength_growth_per_century = 1.0
 	mercenary_type = sardinian_band_composition
+	# Hire Trigger
+	allow = {
+		conditional_tooltip = {
+			trigger = { is_alternate_start = no }
+			religion_group = christian
+		}
+	}
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -2746,7 +2746,6 @@ d_papal_guards = {
 	color = { 255 240 240 }
 	color2 = { 220 220 0 }
 	capital = 333 # Rome
-	allow = { has_landed_title = k_papal_state }
 	# Always exists
 	landless = yes
 	mercenary = yes
@@ -2755,6 +2754,7 @@ d_papal_guards = {
 	religion = catholic
 	# Cannot be held as a secondary title
 	primary = yes
+	allow = { has_landed_title = k_papal_state }
 	title = CAPTAIN
 	title_female = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -18632,6 +18632,28 @@ e_italy = { # Italia
 			title_king_basic_allow = yes
 		}
 	}
+	gain_effect = {
+		if = {
+			limit = {
+				k_naples = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			k_naples = {
+				show_scope_change = no
+				de_jure_liege = FROM
+			}
+		}
+		if = {
+			limit = {
+				k_trinacria = { is_de_jure_title = yes }
+				NOT = { de_jure_liege = FROM }
+			}
+			k_trinacria = {
+				show_scope_change = no
+				de_jure_liege = FROM
+			}
+		}
+	}
 	allow = {
 		trigger_if = {
 			limit = { NOT = { religion_group = christian } }
@@ -18654,28 +18676,6 @@ e_italy = { # Italia
 			has_landed_title = k_trinacria
 		}
 		title_emperor_basic_allow = yes
-	}
-	gain_effect = {
-		if = {
-			limit = {
-				k_naples = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
-			}
-			k_naples = {
-				show_scope_change = no
-				de_jure_liege = FROM
-			}
-		}
-		if = {
-			limit = {
-				k_trinacria = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
-			}
-			k_trinacria = {
-				show_scope_change = no
-				de_jure_liege = FROM
-			}
-		}
 	}
 } # end e_italy
 
@@ -22757,6 +22757,14 @@ e_spain = { # España
 			title_king_basic_allow = yes
 		}
 	}
+	gain_effect = {
+		if = {
+			limit = { NOT = { has_global_flag = reconquista_finished } }
+			any_playable_ruler = { narrative_event = { id = HF.49451 } }
+			ROOT = { narrative_event = { id = HF.49451 } }
+			set_global_flag = reconquista_finished
+		}
+	}
 	# Creation/usurpation trigger
 	allow = {
 		hidden_tooltip = {
@@ -22784,14 +22792,6 @@ e_spain = { # España
 			}
 		}
 		title_emperor_basic_allow = yes
-	}
-	gain_effect = {
-		if = {
-			limit = { NOT = { has_global_flag = reconquista_finished } }
-			any_playable_ruler = { narrative_event = { id = HF.49451 } }
-			ROOT = { narrative_event = { id = HF.49451 } }
-			set_global_flag = reconquista_finished
-		}
 	}
 	# END TITULAR SWMH Spain
 } # end e_spain

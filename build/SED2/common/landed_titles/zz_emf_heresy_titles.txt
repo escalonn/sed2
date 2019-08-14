@@ -40,6 +40,17 @@ d_ismaili = {
 		data = { 0 0 0 9 1 7 7 }
 		religion = ismaili
 	}
+	gain_effect = {
+		if = {
+			limit = { d_ismaili = { NOT = { has_title_flag = ismaili_followers } } }
+			hidden_effect = {
+				character_event = {
+					id = emf_heresy.1973
+					days = 30
+				}
+			}
+		}
+	}
 	allow = {
 		trigger_if = {
 			limit = { NOT = { religion = ismaili } }
@@ -140,17 +151,6 @@ d_ismaili = {
 						has_bloodline_flag = bloodline_ismaili_leader
 						bloodline_is_active_for = PREV
 					}
-				}
-			}
-		}
-	}
-	gain_effect = {
-		if = {
-			limit = { d_ismaili = { NOT = { has_title_flag = ismaili_followers } } }
-			hidden_effect = {
-				character_event = {
-					id = emf_heresy.1973
-					days = 30
 				}
 			}
 		}
