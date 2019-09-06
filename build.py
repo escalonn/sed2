@@ -13,7 +13,7 @@ from print_time import print_time
 
 no_provinces = '--no-provinces' in sys.argv[1:]
 
-version = 'v2.2.26'
+version = 'v2.2.27'
 if no_provinces:
     version += '-noprovinces'
 
