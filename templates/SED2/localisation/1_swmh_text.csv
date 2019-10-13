@@ -1,11 +1,12 @@
 #CODE                             ;SED     ;SWMH;OTHER;VANILLA
 #CODE,ENGLISH,FRENCH,GERMAN,,SPANISH,,,,,,,,,x;;;;
-#### TOOLTIPS ####,,,,,,,,,,,,,,x;;;;
+#### TOOLTIPS ####;;;;
 BYZANTINE_LOCKOUT_TRIGGER_TT      ;Is NOT in the Byzantine Empire\n;Is NOT in the Byzantine Empire\n;;
 EMF_TRIGGER_TT                    ;The §MEMF§! module is activated\n;The §MEMF§! module is activated\n;;
 EMF_TRIGGER_NOT_TT                ;The §MEMF§! module is NOT activated\n;The §MEMF§! module is NOT activated\n;;
-ENGLAND_BECOMES_DE_JURE_TT        ;The title §Y[From.GetFullBaseName]§! becomes de jure suzerain to the §YEngland§! region.\n;The title §Y[From.GetFullBaseName]§! becomes de jure suzerain to the §YEngland§! region.\n;;
+ENGLAND_BECOMES_DE_JURE_TT        ;§Y[From.GetFullBaseName]§! becomes de jure suzerain to the §YEngland§! region.\n;§Y[From.GetFullBaseName]§! becomes de jure suzerain to the §YEngland§! region.\n;;
 CONTROLS_HALF_OF_ENGLISH_REGION_TT;Controls more than half (22+) of the provinces in the §YEngland§! region.\n;Controls more than half (22+) of the provinces in the §YEngland§! region.\n;;
+#### MODIFIER DEFINITIONS ####;;;;
 oghuz_opinion                     ;[oghuz.GetName] Opinion;[oghuz.GetName] Opinion;;
 turkmen_opinion                   ;[turkmen.GetName] Opinion;[turkmen.GetName] Opinion;;
 anglonorse_opinion                ;[anglonorse.GetName] Opinion;[anglonorse.GetName] Opinion;;
@@ -21,3 +22,12 @@ karluk_opinion                    ;[karluk.GetName] Opinion;[karluk.GetName] Opi
 serbian_opinion                   ;[serbian.GetName] Opinion;[serbian.GetName] Opinion;;
 rajput_opinion                    ;[rajput.GetName] Opinion;[rajput.GetName] Opinion;;
 hindustani_opinion                ;[hindustani.GetName] Opinion;[hindustani.GetName] Opinion;;
+low_german_opinion                ;[low_german.GetName] Opinion;[low_german.GetName] Opinion;;
+low_saxon_opinion                 ;[low_saxon.GetName] Opinion;[low_saxon.GetName] Opinion;;
+thuringian_opinion                ;[thuringian.GetName] Opinion;[thuringian.GetName] Opinion;;
+franconian_opinion                ;[franconian.GetName] Opinion;[franconian.GetName] Opinion;;
+swabian_opinion                   ;[swabian.GetName] Opinion;[swabian.GetName] Opinion;;
+bavarian_opinion                  ;[bavarian.GetName] Opinion;[bavarian.GetName] Opinion;;
+yemeni_opinion                    ;[yemeni.GetName] Opinion;[yemeni.GetName] Opinion;;
+italian_group_opinion             ;[italian_group.GetGroupName] Opinion;[italian_group.GetGroupName] Opinion;;
+bloodline_effect_ismaili_leader   ;§Y[ismaili.GetName] Leadership§!;§Y[ismaili.GetName] Leadership§!;;

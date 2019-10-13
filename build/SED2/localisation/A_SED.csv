@@ -32,6 +32,7 @@ Wei Empire;Wei Empire;;;;;;;;;;;;;x
 Jin Empire;Jin Empire;;;;;;;;;;;;;x
 Tang Empire;Tang Empire;;;;;;;;;;;;;x
 Rome;Rome;;;;;;;;;;;;;x
+Stephen;Stephen;;;;;;;;;;;;;x
 Wu;Wu;;;;;;;;;;;;;x
 Shun;Shun;;;;;;;;;;;;;x
 Yin;Yin;;;;;;;;;;;;;x
@@ -280,6 +281,14 @@ ca_culture_jewish_2;[israelite.GetGroupName] Heavy Infantry Barracks;;;;;;;;;;;;
 ca_culture_jewish_3;[israelite.GetGroupName] Heavy Infantry Barracks;;;;;;;;;;;;;x
 ca_culture_jewish_4;[israelite.GetGroupName] Heavy Infantry Barracks;;;;;;;;;;;;;x
 ca_culture_jewish_1_desc;This is where the elite infantry serving an [israelite.GetGroupName] ruler is trained. Special care is taken to equip the soldiers with the finest heavy armor that money can buy. This, combined with rigorous training and iron discipline, makes them an elite force to be truly feared.;;;;;;;;;;;;;x
+tb_defensive_fortifications_1;Wall and Ditch;;;;;;;;;;;;;x
+tb_defensive_fortifications_2;Camouflaged Outposts;;;;;;;;;;;;;x
+tb_defensive_fortifications_3;Layered Palisades;;;;;;;;;;;;;x
+tb_defensive_fortifications_4;Stone Watchtowers;;;;;;;;;;;;;x
+tb_defensive_fortifications_1_desc;Sharpened palisade walls and trenches dug in strategic areas aid in defending our settlement.;;;;;;;;;;;;;x
+tb_defensive_fortifications_2_desc;Outposts stationed by archers allow for a rapid defense.;;;;;;;;;;;;;x
+tb_defensive_fortifications_3_desc;Extra layers of palisade walls allow our defenders to safely retreat should one of them fall.;;;;;;;;;;;;;x
+tb_defensive_fortifications_4_desc;Long trenches lead out of the settlement to watchtowers built of stone.;;;;;;;;;;;;;x
 ca_culture_nubian_1_desc;These barracks are where the ancient [nubian.GetName] warrior traditions are nurtured and developed. [GetNubia] has since ancient times been respected for its masterful archers, and other elite units of infantry are trained and drilled to support this potent weapon of the [nubian.GetName] rulers.;;;;;;;;;;;;;x
 ca_culture_somali_1_desc;Highly trained light infantry is used to patrol and defend the borders of a [somali.GetName] ruler's domain. This is where they train and hone their skills.;;;;;;;;;;;;;x
 ca_culture_germanic_1_desc;The heavy infantry formations of the [old_frankish.GetName] and [lombard.GetName] are heavily influenced by the [roman.GetName] army’s organization and tactics. Here is where these elite warriors are trained and drilled to be ready for battle in the service of their liege.;;;;;;;;;;;;;x
@@ -451,6 +460,22 @@ tp_saint_shrine;Local Saint Shrine;;;;;;;;;;;;;x
 knights_hospitaler_island_rename;Knights of [potential_title.GetBaseName];;;;;;;;;;;;;x
 crusade_state_duchy_adjective;[current_crusade_beneficiary.Culture.GetName];;;;;;;;;;;;;x
 saintly_bloodline_name;Blood of Saint [saint_person.GetDynName];;;;;;;;;;;;;x
+order_government;Holy Order;;;;;;;;;;;;;x
+order_emperor;Prince;;;;;;;;;;;;;x
+order_emperor_female;Princess;;;;;;;;;;;;;x
+order_king;Grandmaster;;;;;;;;;;;;;x
+order_king_female;Grandmistress;;;;;;;;;;;;;x
+order_duke;Master;;;;;;;;;;;;;x
+order_duke_female;Mistress;;;;;;;;;;;;;x
+order_count;Commander;;;;;;;;;;;;;x
+order_count_female;Commander;;;;;;;;;;;;;x
+order_baron;Knight;;;;;;;;;;;;;x
+order_baron_female;Dame;;;;;;;;;;;;;x
+order_empire_of;Monastic State of;;;;;;;;;;;;;x
+order_kingdom_of;Grand Order of;;;;;;;;;;;;;x
+order_duchy_of;Order of;;;;;;;;;;;;;x
+order_county_of;Fortress of;;;;;;;;;;;;;x
+order_barony_of;Garrison Town of;;;;;;;;;;;;;x
 bloodline_seaking_viking_random_a;Stormblood of [Root.GetFirstName];;;;;;;;;;;;;x
 bloodline_seaking_viking_random_b;Blood of the Depths;;;;;;;;;;;;;x
 bloodline_seaking_viking_random_c;Æsir Blood;;;;;;;;;;;;;x
@@ -561,6 +586,7 @@ dog_group;Canidae;;;;;;;;;;;;;x
 dog_culture;Dog;;;;;;;;;;;;;x
 dragon_group;Drachidae;;;;;;;;;;;;;x
 dragon_culture;Dragon;;;;;;;;;;;;;x
+roman_imperial_government;Imperial;;;;;;;;;;;;;x
 blessed_bloodline_name;Blessed Blood of [saint_person.GetDynName];;;;;;;;;;;;;x
 the_legendary_dynasty_warrior_root;The Legendary [From.OriginalOwner.GetOnlyDynastyName] [From.OriginalOwner.GetWarriorRoleCap];;;;;;;;;;;;;x
 the_legendary_dynasty_warrior_not_root;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap];;;;;;;;;;;;;x
@@ -920,6 +946,88 @@ emperor_tangut;Thu Ghu;;;;;;;;;;;;;x
 the_republic_rename;The [Root.Government.GetName] Realm;;;;;;;;;;;;;x
 the_chinese_royals_favorite;[Root.GetFirstName]’s Favorite [This.GetName];;;;;;;;;;;;;x
 the_chinese_royals_personal_note_book;The Journal of [Root.GetFirstName];;;;;;;;;;;;;x
+title_lighthouse_custodian;Lighthouse Custodian;;;;;;;;;;;;;x
+title_lighthouse_custodian_desc;This honorific is awarded to a person who has shown themselves responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.;;;;;;;;;;;;;x
+title_stone_custodian;Custodian of the Stone;;;;;;;;;;;;;x
+title_stone_custodian_desc;This honorific is awarded to a person who has shown themselves steadfast in their loyalty and discipline.;;;;;;;;;;;;;x
+panda_group;Ailuridae;;;;;;;;;;;;;x
+red_panda;Red Panda;;;;;;;;;;;;;x
+looted_wonder_artifact_bells_rename;The Bells from the [target_wonder.GetName];;;;;;;;;;;;;x
+ruins_of_wonder_name;Ruins of [This.GetName];;;;;;;;;;;;;x
+destroyed_wonder_type;Destroyed [This.GetWonderTypeShortCap];;;;;;;;;;;;;x
+title_guardian_of_the_deep;Guardian of the Deep;;;;;;;;;;;;;x
+title_guardian_of_the_deep_desc;This honorific is awarded to a person who has shown exceptional vigilance and steadfastness.;;;;;;;;;;;;;x
+title_watcher_of_giants;Watcher of Giants;;;;;;;;;;;;;x
+title_watcher_of_giants_desc;This honorific is awarded to a person who has shown exceptional vigilance and skills of observation, and he is ultimately responsible for the maintenance and upkeep of the great statue.;;;;;;;;;;;;;x
+title_wall_walker;Walker of the Wall;;;;;;;;;;;;;x
+title_wall_walker_desc;This honorific is awarded to a person who has shown diligence and can spend the majority of their day on his feet, inspecting and maintaining the wall.;;;;;;;;;;;;;x
+title_master_of_tides;Master of the Tides;;;;;;;;;;;;;x
+title_master_of_tides_desc;This honorific is awarded to a person who has shown aptitude for all things marine, and the overarching responsibility of the §YHarbor§! rests on his shoulders.;;;;;;;;;;;;;x
+title_master_of_games;Master of the Games;;;;;;;;;;;;;x
+title_master_of_games_desc;This honorific is awarded to a person with a strong personality and presence, capable of bending a whole crowd to his will.;;;;;;;;;;;;;x
+title_royal_custodian;Royal Custodian;;;;;;;;;;;;;x
+title_royal_custodian_desc;This honorific is awarded to a person who has proven himself dependable, and he is responsible for the upkeep and maintenance of the §YRoyal Palace§!.;;;;;;;;;;;;;x
+title_guardian_of_knowledge;Guardian of Knowledge;;;;;;;;;;;;;x
+title_guardian_of_knowledge_desc;This honorific is awarded to a person who has shown his wisdom and courage.;;;;;;;;;;;;;x
+title_keeper_of_tomes;Keeper of the Tomes;;;;;;;;;;;;;x
+title_keeper_of_tomes_desc;This honorific is awarded to a person who has shown great aptitude for learning and all related skills.;;;;;;;;;;;;;x
+title_keeper_of_the_dead;Keeper of the Dead;;;;;;;;;;;;;x
+title_keeper_of_the_dead_desc;The Keeper of the Dead is responsible for the final rest of everyone placed in the §YMausoleum§!.;;;;;;;;;;;;;x
+title_overseer_of_rites;Overseer of the Rites;;;;;;;;;;;;;x
+title_overseer_of_rites_desc;The Overseer of Rites is responsible for all rites and rituals related to the §YPyramid§!.;;;;;;;;;;;;;x
+title_custodian_of_the_mosque;Custodian of the Mosque;;;;;;;;;;;;;x
+title_custodian_of_the_mosque_desc;This honorific is awarded to a person who has shown exceptional devotion to [Root.Religion.GetHighGodNameCap].;;;;;;;;;;;;;x
+title_custodian_of_the_temple;Custodian of the Temple;;;;;;;;;;;;;x
+title_custodian_of_the_temple_desc;This honorific is awarded to a person who has shown exceptional devotion to [Root.Religion.GetHighGodNameCap].;;;;;;;;;;;;;x
+title_castellan;Castellan;;;;;;;;;;;;;x
+title_castellan_desc;This honorific is awarded to a vassal that is held in high regard by his liege. As Castellan he is responsible for the maintenance and daily ongoings of the Fortress.;;;;;;;;;;;;;x
+COUNTY_KLEVE;Cleves;;;;;;;;;;;;;x
+COUNTY_KLEVE_ADJ;Cleves;;;;;;;;;;;;;x
+c_orava_adj;Zvolen;;;;;;;;;;;;;x
+PROV187;Castelo Branco;;;;;;;;;;;;;x
+title_hypatos;Hypatos;;;;;;;;;;;;;x
+title_augusta;Augusta;;;;;;;;;;;;;x
+DUCHY_HOLLAND;Holland;;;;;;;;;;;;;x
+DUCHY_HOLLAND_ADJ;Hollander;;;;;;;;;;;;;x
+COUNTY_HOLLAND;Holland;;;;;;;;;;;;;x
+COUNTY_HOLLAND_ADJ;Hollander;;;;;;;;;;;;;x
+COUNTY_WESTFRIESLAND;West Frisia;;;;;;;;;;;;;x
+COUNTY_WESTFRIESLAND_ADJ;West Frisian;;;;;;;;;;;;;x
+COUNTY_GELRE;Guelders;;;;;;;;;;;;;x
+COUNTY_GELRE_ADJ;Guelders;;;;;;;;;;;;;x
+DUCHY_GELRE;Guelders;;;;;;;;;;;;;x
+DUCHY_GELRE_ADJ;Guelders;;;;;;;;;;;;;x
+COUNTY_BREDA;Antwerp;;;;;;;;;;;;;x
+COUNTY_BREDA_ADJ;Antwerp;;;;;;;;;;;;;x
+e_bulgaria;Bulgaria;;;;;;;;;;;;;x
+e_bulgaria_adj;Bulgarian;;;;;;;;;;;;;x
+d_scholae_palatinae;Scholae Palatinae;;;;;;;;;;;;;x
+e_cordoba;Cordoba;;;;;;;;;;;;;x
+e_cordoba_adj;Cordoban;;;;;;;;;;;;;x
+k_franconia_otto;Franconia;;;;;;;;;;;;;x
+k_franconia_otto_adj;Franconian;;;;;;;;;;;;;x
+k_thuringia_otto;Thuringia;;;;;;;;;;;;;x
+k_thuringia_otto_adj;Thuringian;;;;;;;;;;;;;x
+k_swabia_otto;Swabia;;;;;;;;;;;;;x
+k_swabia_otto_adj;Swabian;;;;;;;;;;;;;x
+title_hypatos_female;Hypatissa;;;;;;;;;;;;;x
+title_hypatos_desc;Consul: Though only honorary now, it denotes the wearer as an important servant of the Empire.;;;;;;;;;;;;;x
+title_patrikios;Patrikios;;;;;;;;;;;;;x
+title_patrikios_female;Patrikia;;;;;;;;;;;;;x
+title_patrikios_desc;Patrician: Recognizes the wearer as an elite member of Roman society and is reserved for only the most influential servants of the Empire.;;;;;;;;;;;;;x
+title_sebastos;Sebastos;;;;;;;;;;;;;x
+title_sebastos_female;Sebaste;;;;;;;;;;;;;x
+title_sebastos_desc;Venerable one: Only important members of the imperial family and those related to them by marriage or blood may bear this venerable title.;;;;;;;;;;;;;x
+title_augusta_desc;Most Pious Augusta: Unlike the male counterpart the Augusta continues to be the most important woman of the empire. Wielding great power and authority, she is second only to the Basileus.;;;;;;;;;;;;;x
+tb_culture_sardinian_1;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
+tb_culture_sardinian_2;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
+tb_culture_sardinian_3;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
+tb_culture_sardinian_4;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
+ca_culture_sardinian_1_desc;These garrisons are commonplace in [sardinian.GetName] lands, with the most elite of troops ready to protect the region.;;;;;;;;;;;;;x
+c_castelo_branco_adj;Castelo Branco;;;;;;;;;;;;;x
+tribal_king_hungarian;Grand Prince;;;;;;;;;;;;;x
+tribal_kingdom_of_hungarian;Principality of;;;;;;;;;;;;;x
+tribal_king_female_hungarian;Grand Princess;;;;;;;;;;;;;x
 title_imperial_eunuch;Parakoimomenos;;;;;;;;;;;;;x
 title_imperial_eunuch_desc;The parakoimomenos, “the one who sleeps beside the Emperor’s chamber,” is a prestigious office at the Imperial Court reserved for eunuchs, who are valued for their perceived loyalty and discretion.;;;;;;;;;;;;;x
 title_court_eunuch;Court Eunuch;;;;;;;;;;;;;x
@@ -969,18 +1077,6 @@ AUSTRASIA_ADJ;Austrasian;;;;;;;;;;;;;x
 mesoamerican;Mesoamerican;;;;;;;;;;;;;x
 nahuatl;Nahua;;;;;;;;;;;;;x
 aztec;Aztec;;;;;;;;;;;;;x
-e_mexikha;Aztec Empire;;;;;;;;;;;;;x
-e_mexikha_adj;Aztec;;;;;;;;;;;;;x
-emperor_nahuatl;Huetlatoani;;;;;;;;;;;;;x
-emperor_female_nahuatl;Huetlatoani;;;;;;;;;;;;;x
-king_nahuatl;King;;;;;;;;;;;;;x
-king_female_nahuatl;Queen;;;;;;;;;;;;;x
-duke_nahuatl;Huecalpixqui;;;;;;;;;;;;;x
-duke_female_nahuatl;Huecalpixqui;;;;;;;;;;;;;x
-count_nahuatl;Calpixqui;;;;;;;;;;;;;x
-count_female_nahuatl;Calpixqui;;;;;;;;;;;;;x
-baron_nahuatl;Lord;;;;;;;;;;;;;x
-baron_female_nahuatl;Lady;;;;;;;;;;;;;x
 job_chancellor_aztec;Cihuacoatl;;;;;;;;;;;;;x
 job_marshal_aztec;Tlacateccatl;;;;;;;;;;;;;x
 job_treasurer_aztec;Petlacalcatl;;;;;;;;;;;;;x
@@ -1117,6 +1213,7 @@ duke_female_mongol;High Chieftess;;;;;;;;;;;;;x
 duchy_of_mongol;High Chiefdom of;;;;;;;;;;;;;x
 duke_norse;Jarl;;;;;;;;;;;;;x
 count_pagan_group;Chief;;;;;;;;;;;;;x
+baron_pagan_group;Hetman;;;;;;;;;;;;;x
 d_uppland;Uppland;;;;;;;;;;;;;x
 d_uppland_adj;Upplandic;;;;;;;;;;;;;x
 c_uppland_adj;Tiundaland;;;;;;;;;;;;;x
@@ -1452,7 +1549,6 @@ d_porto;Portugal;;;;;;;;;;;;;x
 d_porto_adj;Portuguese;;;;;;;;;;;;;x
 c_porto_adj;Porto;;;;;;;;;;;;;x
 c_braganza_adj;Braganzan;;;;;;;;;;;;;x
-c_castelo_branco_adj;Castelo Branco;;;;;;;;;;;;;x
 c_coimbra_adj;Coimbran;;;;;;;;;;;;;x
 c_lisboa_adj;Lisboner;;;;;;;;;;;;;x
 c_evora_adj;Évoran;;;;;;;;;;;;;x
@@ -1567,7 +1663,7 @@ c_orkney_adj;Orcadian;;;;;;;;;;;;;x
 c_rogaland_adj;Rogaland;;;;;;;;;;;;;x
 d_bohemia_adj;Bohemian;;;;;;;;;;;;;x
 c_litomerice_adj;Litomerice;;;;;;;;;;;;;x
-d_moravia_adj;slovieni;;;;;;;;;;;;;x
+d_moravia_adj;Moravian;;;;;;;;;;;;;x
 c_olomouc_adj;Olomoucian;;;;;;;;;;;;;x
 d_abbasid;Abbasids;;;;;;;;;;;;;x
 d_pronsk;Pronsk;;;;;;;;;;;;;x
@@ -1791,7 +1887,6 @@ PROV181;Córdoba;;;;;;;;;;;;;x
 PROV184;Badajoz;;;;;;;;;;;;;x
 PROV185;Mértola;;;;;;;;;;;;;x
 PROV186;Évora;;;;;;;;;;;;;x
-PROV187;Castelo Branco;;;;;;;;;;;;;x
 PROV188;Braganza;;;;;;;;;;;;;x
 PROV189;Astorga;;;;;;;;;;;;;x
 PROV190;León;;;;;;;;;;;;;x
@@ -1977,7 +2072,6 @@ desc_job_spymaster;§Y$JOB$§! is an unofficial position on the council. The offic
 desc_job_spiritual;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.;;;;;;;;;;;;;x
 job_spiritual_pagan_group;Chief Diviner;;;;;;;;;;;;;x
 job_spiritual_christian;Court Chaplain;;;;;;;;;;;;;x
-job_chancellor_arabic;Grand Vizier;;;;;;;;;;;;;x
 c_carcassonne_adj;Carcassonne;;;;;;;;;;;;;x
 e_timurids;Timurids;;;;;;;;;;;;;x
 e_timurids_adj;Timurid;;;;;;;;;;;;;x
@@ -2035,9 +2129,8 @@ title_chief_qadi_desc;The chief qadi is the supreme judge and authority of the l
 title_court_dwarf;Court Dwarf;;;;;;;;;;;;;x
 title_court_dwarf_desc;Dwarves are objects of fascination and curiosity. Having one at court is a matter of prestige.;;;;;;;;;;;;;x
 job_spiritual_muslim;Court Imam;;;;;;;;;;;;;x
-job_spiritual_shiite;Court Mullah;;;;;;;;;;;;;x
 job_chancellor_turkish;Grand Vizier;;;;;;;;;;;;;x
-e_arabia;Arabia;;;;;;;;;;;;;x
+e_arabia;Arabian Empire;;;;;;;;;;;;;x
 e_arabia_adj;Arabian;;;;;;;;;;;;;x
 west_african;West African;;;;;;;;;;;;;x
 manden;Mandé;;;;;;;;;;;;;x
@@ -2110,7 +2203,6 @@ RETTYPE_INF2;Defense;;;;;;;;;;;;;x
 RETTYPE_CAV1;Cavalry;;;;;;;;;;;;;x
 RETTYPE_SKIR1;Skirmish;;;;;;;;;;;;;x
 RETTYPE_CUL_W_AFR;Free Warrior;;;;;;;;;;;;;x
-c_orava_adj;Zvolen;;;;;;;;;;;;;x
 monothelite;Monothelite;;;;;;;;;;;;;x
 d_miaphysite;Coptic Papacy;;;;;;;;;;;;;x
 d_miaphysite_adj;Coptic Papal;;;;;;;;;;;;;x
@@ -2324,6 +2416,7 @@ tp_shipyard_3;Temple Shipyard;;;;;;;;;;;;;x
 tp_shipyard_4;Temple Shipyard;;;;;;;;;;;;;x
 shipyard_desc;Skilled shipwrights are hard at work here, building all sorts of seafaring vessels.;;;;;;;;;;;;;x
 d_norse_pagan_reformed_adj;Norse;;;;;;;;;;;;;x
+d_baltic_pagan_reformed_adj;Romuva;;;;;;;;;;;;;x
 e_wendish_empire;Wendish Empire;;;;;;;;;;;;;x
 e_wendish_empire_adj;Wendish;;;;;;;;;;;;;x
 d_pecs_adj_bohemian;Lower Pannonian;;;;;;;;;;;;;x
@@ -2819,7 +2912,7 @@ count_pictish;Earl;;;;;;;;;;;;;x
 c_chandax_adj_greek;Gortynian;;;;;;;;;;;;;x
 ERA_CHAR_INFO_163112;Halfdan was born the son of legendary Viking Ragnar Lodbrok. He made several successful expeditions, journeying primarily to England, and later was one of the leaders of the Great Heathen Army of 865. Halfdan managed to build a large realm for himself in England, including areas as far south as London, but later ran into trouble with his peers and was expelled from the realm. He then sought out new adventures and eventually died as a Viking on another bold expedition.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_40605;Rurik was a viking of Swedish origin who took advantage of the internal struggles of the tribes around Ladoga to conquer and establish a strong Norse realm in the east. His successors expanded their influence and eventually ruled as far south as Kiev, and the dynasty soon also adopted the Slavic language and customs (as Viking settlers often did). The descendants of Rurik would eventually become the first Tsars of Russia.;;;;;;;;;;;;;x
-ERA_CHAR_INFO_90107;After making peace with his brothers with the Treaty of Verdun, Louis ruled over East Francia and Bavaria, lands that he had already administrated before his father’s death. After this, he was locked in constant struggles to expand his power in Francia, sometimes allying with his brother Charles the Bald and sometimes fighting him. He was also engaged with suppressing rebellions in Saxony and fighting wars on the slovieni border. He was a great sponsor of the church, cooperating in the suppression of pagan subjects, and Germany started to develop its own identity as a kingdom during his reign.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_90107;After making peace with his brothers with the Treaty of Verdun, Louis ruled over East Francia and Bavaria, lands that he had already administrated before his father’s death. After this, he was locked in constant struggles to expand his power in Francia, sometimes allying with his brother Charles the Bald and sometimes fighting him. He was also engaged with suppressing rebellions in Saxony and fighting wars on the Moravian border. He was a great sponsor of the church, cooperating in the suppression of pagan subjects, and Germany started to develop its own identity as a kingdom during his reign.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1700;Basil the Macedonian was born to simple peasant parents in Macedonia. After a tumultuous early life, he eventually entered the service of relatives of the imperial house. With time, he became a friend and confidant of Emperor Michael. Using his position to advance his interests, he soon became co-emperor and eventually murdered Michael to become sole emperor. Once in power, he developed a reputation for efficiency and dedication to the empire. He restored good relations with the Pope and strengthened the eastern frontier in spite of hard-fought wars with the Paulicians and the Arabs.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_34014;Al-Mu‘tazz became caliph in 866, at only 19 years of age, in a situation where the Abbasid Empire was rife with power struggles between different factions. After a very bloody period of dealing with his various enemies he looked like he was coming out on top, but by then his coffers were empty and a rebellion among the soldiers turned his fortunes around. In the end he was taken prisoner, beaten and locked in a room to starve to death. He was 24 years old when he died.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_140;William the Conqueror, a descendant of the Viking chief Rollo, became duke of Normandy at a very young age, a situation compounded by the fact that he was also a bastard. Early on he was constantly being used as a pawn by rival factions in the duchy, with a succession of his guardians being murdered. Once he reached adulthood, he faced years of warfare in order to take full control over his duchy, eventually emerging victorious. In 1066 he successfully invaded England to press a claim on the English throne. He spent the remainder of his reign consolidating and reforming his new kingdom in the face of sometimes fierce opposition.;;;;;;;;;;;;;x

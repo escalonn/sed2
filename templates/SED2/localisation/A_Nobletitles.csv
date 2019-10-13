@@ -932,8 +932,8 @@ count_bulgarian                                       ;Boyar   ;Bolyar;;
 duke_bulgarian                                        ;Voivode ;Voevoda;;
 king_bulgarian                                        ;Tsar    ;Tsar;;
 king_female_bulgarian                                 ;Tsarina ;Tsaritsa;;
-emperor_bulgarian                                     ;Tsar    ;Tsar;;
-emperor_female_bulgarian                              ;Tsarina ;Tsaritsa;;
+emperor_bulgarian                                     ;Tsar    ;Tsar;;Tsar
+emperor_female_bulgarian                              ;Tsarina ;Tsaritsa;;Tsarina
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #PAGAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -982,19 +982,23 @@ title_prince_hungarian                                ;Prince  ;Királyi Herceg;;
 title_prince_female_hungarian                         ;Princess;Királyi Hercegnö;;
 emperor_hungarian                                     ;Emperor ;Császár;;
 emperor_female_hungarian                              ;Empress ;Császárnö;;
+emperor_title_ruler_consort_hungarian                 ;        ;Császár;;
+emperor_title_ruler_consort_female_hungarian          ;        ;Császárné;;
 city_baron_hungarian                                  ;Judge   ;Bíró;;
-city_count_hungarian                                  ;Judge   ;Bíró;;
-city_duke_hungarian                                   ;Judge   ;Bíró;;
-city_king_hungarian                                   ;Judge   ;Bíró;;
+city_count_hungarian                                  ;Judge   ;Polgármester;;
+city_duke_hungarian                                   ;Judge   ;Föpolgármester;;
+city_king_hungarian                                   ;Judge   ;Fejedelem;;
+city_emperor_hungarian                                ;Grand Prince;Nagyfejedelem;;
 temple_baron_hungarian                                ;Bishop  ;Püspök;;
-temple_count_hungarian                                ;Bishop  ;Püspök;;
-temple_duke_hungarian                                 ;Bishop  ;Püspök;;
-temple_king_hungarian                                 ;Bishop  ;Püspök;;
-temple_emperor_hungarian                              ;Bishop  ;Püspök;;
+temple_count_hungarian                                ;Archbishop;Érsek;;
+temple_duke_hungarian                                 ;Primate Archbishop;Prímás Érsek;;
+temple_king_hungarian                                 ;King Bishop;Királyi Érsek;;
+temple_emperor_hungarian                              ;Emperor Bishop;Császári Érsek;;
 barony_of_hungarian                                   ;Estate of;Uradalom of;;
 county_of_hungarian                                   ;County of;Vármegye of;;
-duchy_of_hungarian                                    ;Duchy of;Dukátus of;;
+duchy_of_hungarian                                    ;Principality of;Hercegség of;;
 kingdom_of_hungarian                                  ;Kingdom of;Királyság of;;
+empire_of_hungarian                                   ;Empire of;Birodalom of;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0;;;;
 #ITALIAN(padan),,,,,,,,,,,,,,,,,,,,,,,,,,,,,0;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0;;;;
@@ -1332,8 +1336,8 @@ baron_sardinian                                       ;Lord    ;Donnu;;
 baron_female_sardinian                                ;Lady    ;Donna;;
 baron_title_ruler_consort_sardinian                   ;        ;Donnu;;
 baron_title_ruler_consort_female_sardinian            ;        ;Donna;;
-count_sardinian                                       ;Curator ;Curatore;;
-count_female_sardinian                                ;Curatrix;Curatessa;;
+count_sardinian                                       ;Curator ;Curatore;;Giudice
+count_female_sardinian                                ;Curatrix;Curatessa;;Giudessa
 count_title_ruler_consort_sardinian                   ;        ;Curatore;;
 count_title_ruler_consort_female_sardinian            ;        ;Curatessa;;
 duke_sardinian                                        ;Judge   ;Iudice;;
@@ -1363,7 +1367,7 @@ temple_baron_sardinian                                ;Bishop of;Vescovo de;;
 temple_count_sardinian                                ;Bishop of;Vescovo de;;
 temple_barony_of_sardinian                            ;Diocese of;Diocesi de;;
 temple_county_of_sardinian                            ;Diocese of;Diocesi de;;
-county_of_sardinian                                   ;Curadoria of;Curatoria de;;
+county_of_sardinian                                   ;Curadoria of;Curatoria de;;Giudicato of
 duchy_of_sardinian                                    ;Duchy of;Ducato de;;
 kingdom_of_sardinian                                  ;Kingdom of;Rennu de;;
 family_palace_baron_sardinian                         ;Patrician;Patriciu;;
@@ -4227,7 +4231,6 @@ barony_of_mongol                                      ;Darugha of;Darugha of;;Ta
 tribal_baron_mongol                                   ;Darugha ;Darugha;;Taishi
 tribal_barony_of_mongol                               ;Darugha of;Darugha of;;Taishi of
 city_baron_mongol                                     ;Urtaq   ;Urtaq;;
-baron_pagan_group                                     ;        ;;;Hetman
 ####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Coptic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -4254,6 +4257,49 @@ kingdom_assyrian                                      ;Kingdom ;Malkuta;;
 kingdom_of_assyrian                                   ;Kingdom of;Malkuta;;
 emperor_assyrian                                      ;Emperor ;Imprator;;
 emperor_female_assyrian                               ;Empress ;Impraturta;;
+####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+#Nahuatl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+####################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
+temple_baron_nahuatl                                  ;Teopixqui;Teopixqui;;
+temple_baron_female_nahuatl                           ;Cihuateopixqui;Cihuateopixqui;;
+temple_count_nahuatl                                  ;Hueteopixqui;Hueteopixqui;;
+temple_count_female_nahuatl                           ;Huecihuateopixqui;Huecihuateopixqui;;
+temple_barony_nahuatl                                 ;Teocalli;Teocalli;;
+temple_barony_of_nahuatl                              ;Teocalli of;Teocalli;;
+temple_county_nahuatl                                 ;Huey Teocalli;Hueteocalli;;
+temple_county_of_nahuatl                              ;Huey Teocalli of;Hueteocalli;;
+barony_nahuatl                                        ;Altepetl;Altepetl;;
+barony_of_nahuatl                                     ;Altepetl of;Altepetl;;
+county_nahuatl                                        ;Altepetl;Altepetl;;
+county_of_nahuatl                                     ;Altepetl of;Altepetl;;
+duchy_nahuatl                                         ;Huealtepetl;Huealtepetl;;
+duchy_of_nahuatl                                      ;Huealtepetl of;Huealtepetl;;
+kingdom_nahuatl                                       ;Tlatocayotl;Tlatocayotl;;
+kingdom_of_nahuatl                                    ;Tlatocayotl of;Tlatocayotl;;
+empire_nahuatl                                        ;Huetlatocayotl;Huetlatocayotl;;
+empire_of_nahuatl                                     ;Huetlatocayotl of;Huetlatocayotl;;
+baron_nahuatl                                         ;Lord    ;Teuctli;;Teuctli
+baron_female_nahuatl                                  ;Lady    ;Cihuateuctli;;Teuctli
+baron_title_ruler_consort_nahuatl                     ;        ;Teuctli;;
+baron_title_ruler_consort_female_nahuatl              ;        ;Cihuateuctli;;
+count_nahuatl                                         ;Calpixqui;Calpixqui;;Calpixqui
+count_female_nahuatl                                  ;Calpixqui;Cihuacalpixqui;;Calpixqui
+count_title_ruler_consort_nahuatl                     ;        ;Calpixqui;;
+count_title_ruler_consort_female_nahuatl              ;        ;Cihuacalpixqui;;
+duke_nahuatl                                          ;Huecalpixqui;Huecalpixqui;;Huecalpixqui
+duke_female_nahuatl                                   ;Huecalpixqui;Huecihuacalpixqui;;Huecalpixqui
+duke_title_ruler_consort_nahuatl                      ;        ;Huecalpixqui;;
+duke_title_ruler_consort_female_nahuatl               ;        ;Huecihuacalpixqui;;
+king_nahuatl                                          ;King    ;Tlatoani;;Tlatoani
+king_female_nahuatl                                   ;Queen   ;Cihuatlatoani;;Tlatoani
+king_title_ruler_consort_nahuatl                      ;        ;Tlatoani;;
+king_title_ruler_consort_female_nahuatl               ;        ;Cihuatlatoani;;
+emperor_nahuatl                                       ;Huetlatoani;Huetlatoani;;Huetlatoani
+emperor_female_nahuatl                                ;Huetlatoani;Huecihuatlatoani;;Huetlatoani
+emperor_title_ruler_consort_nahuatl                   ;        ;Huetlatoani;;
+emperor_title_ruler_consort_female_nahuatl            ;        ;Huecihuatlatoani;;
+title_prince_nahuatl                                  ;Pilli   ;Pilli;;
+title_prince_female_nahuatl                           ;Cihuapilli;Cihuapilli;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #ANGLONORSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;

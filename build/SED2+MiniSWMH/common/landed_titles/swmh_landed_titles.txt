@@ -2170,6 +2170,9 @@ d_scholae_palatinae = {
 	replace_captain_on_death = yes
 	strength_growth_per_century = 0.1
 	mercenary_type = scholae_palatinae_composition
+	title = domestic
+	title_female = domestic_female
+	foa = domestic_FOA
 }
 
 e_hre = {
@@ -10935,6 +10938,7 @@ e_arabia = {
 	color2 = { 255 255 255 }
 	capital = 719
 	culture = bedouin_arabic
+	short_name = yes
 	k_arabia = {
 		color = { 45 169 12 }
 		color2 = { 255 255 255 }

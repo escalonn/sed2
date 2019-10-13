@@ -230,6 +230,9 @@ d_african_tiny                  ;title               ;WARCHIEF;WARCHIEF
 d_african_tiny                  ;foa                 ;WARCHIEF_FOA;WARCHIEF_FOA
 d_papal_guards                  ;title               ;CAPTAIN ;CAPTAIN
 d_papal_guards                  ;foa                 ;CAPTAIN_FOA;CAPTAIN_FOA
+d_scholae_palatinae             ;title               ;domestic;domestic
+d_scholae_palatinae             ;title_female        ;domestic_female;domestic_female
+d_scholae_palatinae             ;foa                 ;domestic_FOA;domestic_FOA
 e_hre                           ;short_name          ;yes     ;yes
 e_hre                           ;bohemian            ;        ;Swatá Rzímská Rzísse
 k_austria                       ;title               ;ADA     ;ADA
@@ -1443,17 +1446,17 @@ k_candia                        ;dalmatian           ;        ;Candia
 d_krete                         ;frankish            ;        ;Candie
 d_krete                         ;arpitan             ;        ;Candie
 d_krete                         ;norman              ;        ;Candie
-d_krete                         ;andalusian_arabic   ;        ;Iqritish
+d_krete                         ;andalusian_arabic   ;        ;Iqrítish
 d_krete                         ;turkish             ;        ;Girit
 d_krete                         ;turkmen             ;        ;Girit
 d_krete                         ;oghuz               ;        ;Girit
 d_krete                         ;pecheneg            ;        ;Girit
-d_krete                         ;bedouin_arabic      ;        ;Iqritish
-d_krete                         ;yemeni              ;        ;Iqritish
-d_krete                         ;hijazi              ;        ;Iqritish
-d_krete                         ;maghreb_arabic      ;        ;Iqritish
-d_krete                         ;levantine_arabic    ;        ;Iqritish
-d_krete                         ;egyptian_arabic     ;        ;Iqritish
+d_krete                         ;bedouin_arabic      ;        ;Iqrítish
+d_krete                         ;yemeni              ;        ;Iqrítish
+d_krete                         ;hijazi              ;        ;Iqrítish
+d_krete                         ;maghreb_arabic      ;        ;Iqrítish
+d_krete                         ;levantine_arabic    ;        ;Iqrítish
+d_krete                         ;egyptian_arabic     ;        ;Iqrítish
 d_krete                         ;sardinian           ;        ;Candia
 d_krete                         ;sicilian            ;        ;Candia
 d_krete                         ;umbrian             ;        ;Candia
@@ -4270,6 +4273,7 @@ c_varadzin                      ;italian             ;Varaždin;Varasdino
 c_varadzin                      ;venetian            ;Varaždin;Varasdino
 c_varadzin                      ;dalmatian           ;Varaždin;Varasdino
 c_varadzin                      ;roman               ;Varaždin;Varasdinum
+e_arabia                        ;short_name          ;yes     ;yes
 d_arabia_petrae                 ;greek               ;Arabia Petraea;Arabia Petraea
 d_arabia_petrae                 ;roman               ;Arabia Petraea;Arabia Petraea
 c_damman                        ;assyrian            ;Hatta   ;Hatta
@@ -4399,11 +4403,11 @@ c_fayyum                        ;coptic              ;        ;Peiom
 c_fayyum                        ;roman               ;        ;Arsinoë
 c_quattara                      ;greek               ;        ;Ammonion
 c_quattara                      ;coptic              ;        ;Sekhetam
-c_quattara                      ;sanhaja             ;        ;Isiwan
-c_quattara                      ;tagelmust           ;        ;Isiwan
-c_quattara                      ;masmuda             ;        ;Isiwan
-c_quattara                      ;zanata              ;        ;Isiwan
-c_quattara                      ;tuareg              ;        ;Isiwan
+c_quattara                      ;sanhaja             ;        ;Síwa
+c_quattara                      ;tagelmust           ;        ;Síwa
+c_quattara                      ;masmuda             ;        ;Síwa
+c_quattara                      ;zanata              ;        ;Síwa
+c_quattara                      ;tuareg              ;        ;Síwa
 c_quattara                      ;roman               ;        ;Ammonium
 d_aswan                         ;greek               ;Thebaid ;Thebaïs
 d_aswan                         ;roman               ;Thebaid ;Thebais
