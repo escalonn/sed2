@@ -10956,7 +10956,7 @@ e_carpathia = { # Magyarország
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_gyor
-		d_nyitra = { # Nyitraország
+		d_nyitra = { # Nyitraország / Felföld / Felvidék
 			color = { 54 77 27 }
 			color2 = { 255 255 255 }
 			capital = 443 # Nyitra # Nitra
@@ -28017,7 +28017,11 @@ e_null = { #
 				b_bakhmut = {}
 				b_balin = {}
 				b_sviatohirsk = {}
-				b_sugrov = {}
+				b_sugrov = {
+					#hungarian = "Chingilous"
+					#bashkir = "Chingilous" # Duplicate name of c_sharukan
+					#szekely = "Chingilous"
+				}
 			} # end c_sugrov
 			c_sharukan = { # Uda (565)
 				color = { 238 203 121 }
