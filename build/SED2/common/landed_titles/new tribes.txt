@@ -1094,14 +1094,14 @@ d_mordvins_erza = { # Erzyät
 	color2 = { 255 255 255 }
 	culture = mordvin
 	#tribe = yes
-	capital = 579 # Moksha
+	capital = 1273 # Kadom
 	allow = { always = no }
 }
 
 d_mordvins = { # Mokshet
 	color = { 148 165 45 }
 	color2 = { 255 255 255 }
-	capital = 591 # Alatyr' # Cheremisa(Sura)
+	capital = 579 # Moksha
 	culture = mordvin
 	#tribe = yes
 	allow = { always = no }
@@ -1484,6 +1484,18 @@ d_nafusa = { # Nafusa/Infusen
 	allow = { title_duke_basic_allow = yes }
 }
 
+####
+# Uri
+####
+d_darfur = { # Uri
+	color = { 105 121 97 }
+	color2 = { 255 255 255 }
+	culture = daju
+	#tribe = yes
+	capital = 1229 # Uri
+	allow = { title_duke_basic_allow = yes }
+}
+
 ######################################
 # nomads for HL compatch
 ######################################
@@ -1507,12 +1519,11 @@ d_kufichi = { # Kufichi # Qufs
 	capital = 899 # Pandjgúr
 	allow = { always = no }
 }
-
-k_hilal = { # Hilal
-	color = { 173 150 43 }
-	color2 = { 0 128 128 }
-	capital = 1352 # Qashtiliya # Qamuda
-	#tribe = yes
-	culture = bedouin_arabic
-	allow = { FROM = { is_de_jure_title = yes } }
-}
+#k_hilal = { # Hilal
+#	color = { 173 150 43 }
+#	color2 = { 0 128 128 }
+#	capital = 1352 # Qashtiliya # Qamuda
+#	#tribe = yes
+#	culture = bedouin_arabic
+#	allow = { FROM = { is_de_jure_title = yes } }
+#}

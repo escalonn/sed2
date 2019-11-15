@@ -309,11 +309,14 @@ c_esfahan = { # Isfahan (646)
 
 c_shiraz = { # Shíráz (644) # Shiraz
 	holy_site = nabawiyya
-	holy_site = zoroastrian # The Great Fire of Adur Farnbag (Pars)
-	holy_site = mazdaki
-	holy_site = manichean
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
+}
+
+c_larestan = { # Darabjird (642) # Larestan
+	holy_site = zoroastrian # The Great Fire of Adur Farnbag (unidentified location in Pars, possibly near Juyum)
+	holy_site = mazdaki
+	holy_site = manichean
 }
 
 c_sistan = { # Sistan (637)
@@ -321,22 +324,14 @@ c_sistan = { # Sistan (637)
 	holy_site = mazdaki
 }
 
-c_yazd = { # Yazd (638)
-	holy_site = zoroastrian # Seems to still be a fairly important Zoroastrian centre and it contains several important Holy sites for Zoroastrians
-	holy_site = mazdaki
-}
-
-c_gilan = { # Gilan (666)
-	holy_site = zoroastrian # The Great Fire of Adur Gushnasp (Media)
-	holy_site = mazdaki
-}
-
 c_maragheh = { # Maragheh (650)
+	holy_site = zoroastrian # The Great Fire of Adur Gushnasp (Shiz, Media)
+	holy_site = mazdaki
 	holy_site = yazidi # Placeholder
 }
 
 c_nishapur = { # Níshápúr (634) # Nishápur
-	holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr (possibly a mountain near Nishapur)
+	holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr (on a mountain near Nishapur)
 	holy_site = mazdaki
 	holy_site = manichean
 	holy_site = yazidi
@@ -361,6 +356,8 @@ c_baghdad = { # Baghdad (693)
 	holy_site = sunni
 	holy_site = nestorian
 	holy_site = manichean
+	holy_site = zoroastrian # Great fire temples of Ctesiphon and Madain
+	holy_site = mazdaki
 }
 
 c_mathura = { # Mathura (1664)
@@ -567,7 +564,7 @@ c_kashgar = { # Kashgar (1567)
 	holy_site = taoist # one of the four main bases of the Anxi Protectorate
 }
 
-c_kucha = { # Kashgar (1569)
+c_kucha = { # Kucha (1569)
 	holy_site = taoist # one of the four main bases of the Anxi Protectorate
 }
 

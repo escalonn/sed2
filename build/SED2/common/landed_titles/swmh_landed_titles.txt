@@ -592,7 +592,7 @@ d_myrmidons = {
 d_sunni_turkic_company = { # Turkmen Company
 	color = { 130 173 70 }
 	color2 = { 255 255 255 }
-	capital = 621 # Buzachi
+	capital = 900 # Jand
 	# Parent Religion
 	religion = sunni
 	culture = oghuz
@@ -706,7 +706,7 @@ d_sunni_bedouin_company = { # Arab Company
 d_shiite_turkic_company = { # Turkoman Company
 	color = { 135 170 60 }
 	color2 = { 255 255 255 }
-	capital = 621 # Buzachi
+	capital = 900 # Jand
 	# Parent Religion
 	religion = shiite
 	culture = oghuz
@@ -760,7 +760,7 @@ d_shiite_berber_company = { # Tuareg Company; renamed to Zenata Company
 	color2 = { 255 255 255 }
 	capital = 833 # Táhart # Atlas
 	# Parent Religion
-	religion = shiite
+	religion = ibadi
 	culture = zanata
 	mercenary = yes
 	# Always exists
@@ -1639,7 +1639,7 @@ d_abyssinian_band = { # Abyssinian Band
 d_nubian_band = { # Nubian Band
 	color = { 155 165 80 }
 	color2 = { 255 255 255 }
-	capital = 878 # Bádi # Hayya
+	capital = 793 # Dongola # Makuria
 	# Parent Religion
 	religion = miaphysite
 	culture = nubian
@@ -11227,13 +11227,13 @@ e_carpathia = { # Magyarország
 			} # end c_zemplen
 			allow = { title_duke_basic_allow = yes }
 		} # end d_ungvar
-		d_ujavar = { # Újavár
+		d_ujavar = { # Újvár
 			color = { 74 130 183 }
 			color2 = { 255 255 255 }
 			capital = 538 # Abauj
 			culture = hungarian
 			name_tier = count
-			c_abauj = { # Abauj (538)
+			c_abauj = { # Abaúj (538)
 				color = { 162 21 21 }
 				color2 = { 255 255 255 }
 				b_telkibanya = {}
@@ -11426,7 +11426,7 @@ e_carpathia = { # Magyarország
 			} # end c_bekes
 			allow = { title_duke_basic_allow = yes }
 		} # end d_pest
-		d_transylvania = { # Erdélyország
+		d_transylvania = { # Erdély
 			color = { 63 31 95 }
 			color2 = { 255 255 255 }
 			capital = 539 # Szatmár
@@ -11501,7 +11501,7 @@ e_carpathia = { # Magyarország
 					ai = yes
 				}
 				OR = {
-					NOT = { culture = hungarian }
+					NOT = { culture = old_hungarian }
 					is_tribal = no
 					has_global_flag = emf_conquest_hungary_completed
 				}
@@ -11988,6 +11988,7 @@ e_arabia = { # Arabian Empire
 				color = { 192 45 43 }
 				color2 = { 255 255 255 }
 				b_hafaralbatin = {}
+				b_kazima = {}
 				b_nibaj = {}
 			}
 			allow = { title_duke_basic_allow = yes }
@@ -12022,14 +12023,17 @@ e_arabia = { # Arabian Empire
 				b_bahla = {}
 				b_nakhal = {}
 				b_rustaq_nizwa = {}
+				b_izki = {}
+				b_ibri = {}
 			}
-			c_muscat = { # Masqat (868) # Muscat
+			c_muscat = { # Qalhát (868) # Muscat
 				color = { 100 203 9 }
 				color2 = { 255 255 255 }
+				b_dama_muscat = {}
 				b_muscat = {}
 				b_sur = {}
 				b_qalhat = {}
-				b_quryat = {}
+				b_qurayat = {}
 				b_qalatmirani = {}
 			}
 			c_suhar = { # Suhar (1592)
@@ -12038,6 +12042,7 @@ e_arabia = { # Arabian Empire
 				b_qalatsuhar = {}
 				b_sohar = {}
 				b_dibba = {}
+				b_khabura = {}
 				b_khorfakkan = {}
 			}
 			c_duqm = { # Duqm (867)
@@ -12054,7 +12059,7 @@ e_arabia = { # Arabian Empire
 		color = { 230 29 61 }
 		color2 = { 255 255 255 }
 		capital = 860 # Sanaa
-		culture = bedouin_arabic
+		culture = yemeni
 		muslim = 100 # Crusade target weigh
 		greek = "Arabia Felix"
 		roman = "Arabia Felix"
@@ -12396,8 +12401,8 @@ e_arabia = { # Arabian Empire
 				color = { 170 135 120 }
 				color2 = { 255 255 255 }
 				b_kharija = {}
-				b_alkalamun = {}
 				b_alkasr = {}
+				b_ins = {}
 			}
 			c_dakhila = { # Dakhila (1342)
 				color = { 185 135 120 }
@@ -12406,6 +12411,8 @@ e_arabia = { # Arabian Empire
 				roman = "Mut el-Kharab"
 				b_dakhila = {}
 				b_farfarun = {}
+				b_alkasr_dakhila = {}
+				b_alkalamun = {}
 			}
 			c_bahriya = { # Bahriya (1343)
 				color = { 187 235 127 }
@@ -12423,8 +12430,8 @@ e_arabia = { # Arabian Empire
 			c_quattara = { # Santariya (803)
 				color = { 106 225 140 }
 				color2 = { 255 255 255 }
-				b_siwa = {}
 				b_santariya = {}
+				b_shali = {}
 				b_quattara = {}
 				b_caraoasis = {}
 				b_qaretagnes = {}
@@ -12445,7 +12452,6 @@ e_arabia = { # Arabian Empire
 				color = { 32 244 127 }
 				color2 = { 255 255 255 }
 				roman = "Myos Hormos"
-				b_quena = {}
 				b_kosseir = {}
 				b_abughusun = {}
 				b_safaga = {}
@@ -12509,9 +12515,7 @@ e_arabia = { # Arabian Empire
 				b_isna = {}
 				b_elefantina = {}
 				b_veset = {}
-				b_philae = {}
-				#b_girge = {}
-				#b_jebeladda = {}
+				b_girge = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_aswan
@@ -13725,7 +13729,7 @@ e_abyssinia = { # Abyssinia
 	k_abyssinia = { # Abyssinia
 		color = { 201 143 68 }
 		color2 = { 255 255 255 }
-		capital = 1514 # Angot
+		capital = 875 # Axum
 		culture = ethiopian
 		orthodox = 300 # Crusade target weight
 		catholic = 10 # Crusade target weight
@@ -13742,10 +13746,9 @@ e_abyssinia = { # Abyssinia
 				color2 = { 255 255 255 }
 				b_adwa = {}
 				b_aksum = {}
+				b_goh = {}
 				b_mekele = {}
-				b_sembel = {}
 				b_adigrat = {}
-				b_qohaito = {}
 				b_yeha = {}
 			}
 			c_akordat = { # Sera'é (876) # Serae
@@ -13783,6 +13786,7 @@ e_abyssinia = { # Abyssinia
 				b_debredamo = {}
 				b_bugena = {}
 				b_sekota = {}
+				b_wokro_meskale_christos = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_axum
@@ -13794,22 +13798,22 @@ e_abyssinia = { # Abyssinia
 				color = { 2 150 15 }
 				color2 = { 255 255 255 }
 				b_ankober = {}
+				b_gafat = {}
 				b_doqaqit = {}
 				b_qundi = {}
 				b_saqqa = {}
 				b_aliyuamba = {}
 				b_berehet = {}
-				b_keyagebriel = {}
+				#b_keyagebriel = {}
 			}
-			c_matamma = { # Agaw (885)
+			c_matamma = { # Agawmeder (885)
 				color = { 5 148 12 }
 				color2 = { 255 255 255 }
 				b_quenzla = {}
-				b_ginbo = {}
 				b_bonga = {}
 				b_wacha = {}
 				b_chiri = {}
-				b_kaffa = {}
+				#b_kaffa = {}
 				b_yadeta = {}
 				#b_garo = {}
 			}
@@ -13817,9 +13821,8 @@ e_abyssinia = { # Abyssinia
 				color = { 8 155 18 }
 				color2 = { 255 255 255 }
 				b_guihon = {}
-				b_debremarqos = {}
-				b_mertulematiam = {}
-				b_gafat = {}
+				b_dima = {}
+				b_mertulemaryam = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_damot
@@ -13850,9 +13853,9 @@ e_abyssinia = { # Abyssinia
 			c_begemder = { # Begemdir (1513)
 				color = { 150 69 88 }
 				color2 = { 255 255 255 }
-				b_begemdir = {}
+				b_wayna_dega = {}
 				b_sana = {}
-				b_debrelibanos = {}
+				b_kibran = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -13874,6 +13877,7 @@ e_abyssinia = { # Abyssinia
 				b_lalibela = {}
 				b_adafa = {}
 				b_berakit = {}
+				b_debre_egziabeher = {}
 				b_gashena = {}
 				b_arbit = {}
 			}
@@ -13881,6 +13885,7 @@ e_abyssinia = { # Abyssinia
 				color = { 207 145 68 }
 				color2 = { 255 255 255 }
 				b_shewa = {}
+				b_debrelibanos = {}
 				b_antsokia = {}
 				b_debreberhan = {}
 			}
@@ -13890,7 +13895,7 @@ e_abyssinia = { # Abyssinia
 	} # end k_abyssinia
 	k_nubia = { # Noubia # Nubia
 		color = { 161 172 86 }
-		capital = 793 # Makouria # Makuria
+		capital = 793 # Dongola # Makuria
 		orthodox = 300 # Crusade target weight
 		catholic = 10 # Crusade target weight
 		muslim = 25 # Crusade target weight
@@ -13905,13 +13910,8 @@ e_abyssinia = { # Abyssinia
 				b_altekaina = {}
 				b_rufaa = {}
 				b_arbagi = {}
-			}
-			c_alwa = { # Aloudia (1491) # Alwa
-				color = { 123 87 30 }
-				color2 = { 255 255 255 }
-				b_alwa = {}
-				b_omdurman = {}
 				b_kadero = {}
+				b_omdurman = {}
 			}
 			c_butana = { # Butana (1492)
 				color = { 123 95 40 }
@@ -13933,37 +13933,42 @@ e_abyssinia = { # Abyssinia
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_alodia
-		d_nubia = { # Noubia # Nubia
+		d_nubia = { # Makuria # Nubia
 			color = { 141 162 79 }
 			capital = 793 # Makouria # Makuria
-			c_makuria = { # Makouria (793) # Makuria
+			c_makuria = { # Makouria (793) # Dongola
 				color = { 135 168 70 }
 				color2 = { 255 255 255 }
-				b_meroe = {}
-				b_nuri = {}
-				b_kareima = {}
-				b_djebel_barka = {}
-				b_ghazali = { # Originaly in c_nubia
-				}
-				b_tankasi = {}
-				b_korti = {}
-				#b_dotawo = {}
-				#b_kawa = {}
-				#b_qubban = {}
-				#b_kalabsha = {}
-				#b_wawa = {}
-			}
-			c_dongola = { # Dongola (1230)
-				color = { 142 172 70 }
-				color2 = { 255 255 255 }
-				coptic = "Toungoul"
-				nubian = "Toungoul"
 				b_dongola = {}
+				b_ghazali = {}
+				b_hambukol = {}
+				b_banganarti = {}
+				b_korti = {}
 				b_tumbus = {}
 				b_kerma = {}
-				b_old_dongola = {}
-				b_eddeba = {}
-				b_grnetti = {}
+				#b_djebel_barka = {
+				#	roman = "Napata"
+				#	greek = "Napata"
+				#}
+				#b_eddeba = {}
+				#b_grnetti = {}
+				#b_nuri = {}
+				#b_kareima = {}
+				#b_tankasi = {}
+				#b_kawa = {}
+				#b_qubban = {}
+				#b_wawa = {}
+			}
+			c_semna = { # Semna (1499)
+				color = { 168 110 95 }
+				color2 = { 255 255 255 }
+				b_sai = {}
+				b_akasha = {}
+				b_kulb = {}
+				b_sonqi_tino = {}
+				b_semna = {}
+				b_gemai = {}
+				b_attiri = {}
 			}
 			c_abuhammad = { # Abu Hammad (1494)
 				color = { 147 177 77 }
@@ -13985,42 +13990,33 @@ e_abyssinia = { # Abyssinia
 				roman = "Faras"
 				b_faras = {}
 				b_meinarti = {}
+				b_gindinarri = {}
+				b_kasanarti = {}
+				b_tamit = {}
 				b_gebeladda = {}
-				b_arramal = {}
-				b_qasrelwizz = {}
-				b_arminna = {}
 				b_debeira = {}
-			}
-			c_semna = { # Semna (1499)
-				color = { 168 110 95 }
-				color2 = { 255 255 255 }
-				b_semna = {}
-				b_sai = {}
-				b_akasha = {}
-				b_kulb = {}
-				b_gemai = {}
-				#b_tanjur = {}
-				b_attiri = {}
+				#b_arramal = {}
+				b_qasrelwizz = {}
 			}
 			c_qasribrim = { # Qasr Ibrim (1500)
 				color = { 160 125 89 }
 				color2 = { 255 255 255 }
 				b_qasribrim = {}
-				b_qurta = {}
-				b_aniba = {}
-				b_ikhmindi = {}
-				b_sheikhdaud = {}
+				b_arminna = {}
 				b_mahareaka = {}
+			}
+			c_qurta = { # Qurta (1230)
+				color = { 142 172 70 }
+				color2 = { 255 255 255 }
+				b_qurta = {}
+				b_ikhmindi = {}
+				b_sabagura = {}
+				b_philae = {}
+				b_talmis = {}
+				b_sheikhdaud = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_nobatia
-		allow = { title_king_basic_allow = yes }
-	} # end k_nubia
-	k_sennar = { # Sennar
-		color = { 200 48 110 }
-		capital = 880 # Sennar
-		orthodox = 150 # Crusade target weight
-		muslim = 10 # Crusade target weight
 		d_sennar = { # Sennar
 			color = { 200 42 100 }
 			color2 = { 255 255 255 }
@@ -14029,7 +14025,6 @@ e_abyssinia = { # Abyssinia
 				color = { 210 42 105 }
 				color2 = { 255 255 255 }
 				b_sennar = {}
-				b_kosti = {}
 				b_sinjah = {}
 				b_bakkah = {}
 				b_kukur = {}
@@ -14049,29 +14044,15 @@ e_abyssinia = { # Abyssinia
 				b_ketema = {}
 				#b_kormuk = {}
 			}
-			allow = { title_duke_basic_allow = yes }
-		}
-		d_darfur = { # Uri
-			color = { 105 121 97 }
-			color2 = { 255 255 255 }
-			capital = 1229 # Uri
-			c_uri = { # Uri (1229)
-				color = { 232 236 108 }
-				color2 = { 255 255 255 }
-				b_uri = {}
-				b_elfasher = {}
-				b_ainfarah = {}
-			}
 			c_kordofan = { # Kordofan (1485)
 				color = { 220 240 100 }
 				color2 = { 255 255 255 }
 				b_elobeid = {}
 				b_tagali = {}
 			}
-			allow = { title_duke_basic_allow = yes }
 		}
 		allow = { title_king_basic_allow = yes }
-	} # end k_sennar
+	} # end k_nubia
 	k_maikelebahr = { # Maikele Bahr
 		color = { 255 67 20 }
 		capital = 1501 # Aydhab
@@ -14088,27 +14069,31 @@ e_abyssinia = { # Abyssinia
 				greek = "Berenice"
 				roman = "Berenice"
 				b_aydhab = {}
+				b_gebeit = {}
 				b_halaib = {}
 				b_birshalatayn = {}
 			}
 			c_allaqi = { # Allaqi (1593)
 				color = { 255 57 25 }
 				color2 = { 255 255 255 }
-				b_hajar = {}
-				b_wadi_al_allaqi = {}
+				b_allaqi = {}
+				b_duh = {}
+				b_mizab = {}
 			}
 			c_suakin = { # Suakin (1503)
 				color = { 242 57 18 }
 				color2 = { 255 255 255 }
-				b_alkabli = {}
+				b_sinkat = {}
 				b_sawakin = {}
+				b_alkabli = {}
 				b_shafia = {}
 			}
 			c_maikele_bahr = { # Maikele Bahr (1502)
 				color = { 248 60 12 }
 				color2 = { 255 255 255 }
-				b_sinkat = {}
+				b_hajar = {}
 				b_khawr_nubt = {}
+				b_shanka = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_aydhab
@@ -14120,6 +14105,7 @@ e_abyssinia = { # Abyssinia
 				color = { 245 72 15 }
 				color2 = { 255 255 255 }
 				b_badi = {}
+				b_barakat = {}
 				b_ini = {}
 			}
 			c_marya = { # Marya (1507)
@@ -14132,8 +14118,10 @@ e_abyssinia = { # Abyssinia
 				color = { 245 78 10 }
 				color2 = { 255 255 255 }
 				b_adulis = {}
-				b_misiwwa = {}
+				b_masawwa = {}
 				b_debarwa = {}
+				b_sembel = {}
+				b_qohaito = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -17762,12 +17750,16 @@ e_italy = { # Italia
 				color2 = { 255 255 255 }
 				christian = 10000 # Crusade target weight
 				b_roma = { used_for_dynasty_names = no }
-				b_castelsantangelo = {}
-				b_astura = {}
+				b_cittadiroma = { used_for_dynasty_names = no }
 				b_tivoli = {}
+				b_porto_roma = {}
+				b_castellodilunghezza = {}
+				b_silvacandida = {}
+				b_albano = {}
 				b_ostia_gregoriopolis = {}
-				b_bracciano = {}
-				b_colosseo = {}
+				#b_astura = {}
+				#b_castelsantangelo = {}
+				#b_colosseo = {}
 			}
 			c_tusculum = { # Tusculum (1119)
 				color = { 166 19 156 }
@@ -17775,7 +17767,6 @@ e_italy = { # Italia
 				b_palestrina = {}
 				b_tusculum = {}
 				b_velletri = {}
-				b_albano = {}
 				b_subiaco = {}
 				b_molara = {}
 			}
@@ -18533,6 +18524,7 @@ e_italy = { # Italia
 				b_paterno = {}
 				b_agosta = {}
 				b_milazzo = {}
+				b_rometta = {}
 			} # end c_siracusa
 			c_modica = { # Modica (1126) # Muòrica
 				color = { 150 231 143 }
@@ -20417,6 +20409,153 @@ e_france = { # France
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_limousin
+		d_barcelona = { # Barcelona
+			color = { 167 39 0 }
+			color2 = { 255 255 255 }
+			capital = 204 # Barcelona
+			culture = catalan
+			name_tier = count
+			c_barcelona = { # Barcelona (204)
+				color = { 255 241 173 }
+				color2 = { 255 255 255 }
+				b_barcelona = {}
+				b_manresa = {}
+				b_vich = {}
+				b_osona = {}
+				b_montcada = {}
+				b_solsona = {}
+				b_cardona = {}
+				#b_sant_cugat = {
+				#	bedouin_arabic = "Quqfat" # ?
+				#	maghreb_arabic = "Quqfat"
+				#	levantine_arabic = "Quqfat"
+				#	egyptian_arabic = "Quqfat"
+				#	andalusian_arabic = "Quqfat"
+				#	sicilian_arabic = "Quqfat"
+				#	aragonese = "Sant Cocobat"
+				#	basque = "Donekokobat"
+				#	castillan = "San Cucufate"
+				#	galician = "San Cucufate"
+				#	portuguese = "São Cucufate"
+				#	leonese = "San Cucufate"
+				#	frankish = "Saint Cucufa"
+				#}
+				#b_penedes = {
+				#	bedouin_arabic = "Bindesh" # ?
+				#	maghreb_arabic = "Bindesh"
+				#	levantine_arabic = "Bindesh"
+				#	egyptian_arabic = "Bindesh"
+				#	andalusian_arabic = "Bindesh"
+				#	sicilian_arabic = "Bindesh"
+				#	basque = "Penedes"
+				#}
+			} # end c_barcelona
+			c_rosello = { # Rosello (211)
+				color = { 251 3 4 }
+				color2 = { 255 255 255 }
+				greek = "Ruscino"
+				roman = "Ruscino"
+				b_castellrossello = {}
+				b_elna = {}
+				b_perpinya = {}
+				b_vallespir = {}
+				b_capcir = {}
+				b_fenolleda = {}
+				#b_banyuls = {
+				#	bedouin_arabic = "Baniyyul" # ?
+				#	maghreb_arabic = "Baniyyul"
+				#	levantine_arabic = "Baniyyul"
+				#	egyptian_arabic = "Baniyyul"
+				#	andalusian_arabic = "Baniyyul"
+				#	sicilian_arabic = "Baniyyul"
+				#	castillan = "Bañules"
+				#	leonese = "Bañules"
+				#	galician = "Bañules"
+				#	portuguese = "Banhules"
+				#	basque = "Bañules"
+				#}
+				#b_cuixa = {
+				#	bedouin_arabic = "Qussah" # ?
+				#	maghreb_arabic = "Qussah"
+				#	levantine_arabic = "Qussah"
+				#	egyptian_arabic = "Qussah"
+				#	andalusian_arabic = "Qussah"
+				#	sicilian_arabic = "Qussah"
+				#	castillan = "Cuizán"
+				#	leonese = "Cuijá"
+				#	galician = "Cuixá"
+				#	portuguese = "Cuixá"
+				#	basque = "Kuixa"
+				#	aragonese = "Cuixá"
+				#	catalan = "Cuixà"
+				#	frankish = "Cuxa"
+				#}
+			} # end c_rosello
+			c_empuries = { # Empuries (205)
+				color = { 255 206 1 }
+				color2 = { 255 255 255 }
+				b_castellodempuries = {}
+				b_santperederoda = {}
+				b_torroellademontgri = {}
+				b_peralada = {}
+				b_verges = {}
+				b_quermanco = {}
+			} # end c_empuries
+			c_girona = { # Girona (1210)
+				color = { 50 167 98 }
+				color2 = { 255 255 255 }
+				b_cabrera = {}
+				b_girona = {}
+				b_la_bisbal = {}
+				b_besalu = {}
+				b_bas = {}
+				b_ripoll = {}
+				b_figueres = {}
+				#b_mataplana = {
+				#	bedouin_arabic = "Medabanah" # ?
+				#	maghreb_arabic = "Medabanah"
+				#	levantine_arabic = "Medabanah"
+				#	egyptian_arabic = "Medabanah"
+				#	andalusian_arabic = "Medabanah"
+				#	sicilian_arabic = "Medabanah"
+				#	frankish = "Mateplaine"
+				#}
+			} # end c_girona
+			allow = { title_duke_basic_allow = yes }
+		} # end d_barcelona
+		d_urgell = { # Urgell
+			color = { 118 107 55 }
+			color2 = { 255 255 255 }
+			capital = 206 # Urgell
+			name_tier = count
+			c_urgell = { # Urgell (206)
+				color = { 91 78 19 }
+				color2 = { 255 255 255 }
+				b_castellciutat = {}
+				b_laseudurgell = {}
+				b_balaguer = {}
+				b_ager = {}
+				b_gerri = {}
+				b_camarassa = {}
+			} # end c_urgell
+			c_pallars = { # Pallars (2013)
+				color = { 110 5 119 }
+				color2 = { 255 255 255 }
+				b_sort = {}
+				b_tremp = {}
+				b_lladorre = {}
+				b_llorda = {}
+				b_llimiana = {}
+				b_pallars_jussa = {}
+			} # end c_pallars
+			c_cerdanya = { # Cerdanya (967)
+				color = { 55 66 80 }
+				color2 = { 255 255 255 }
+				b_llivia = {}
+				b_puigcerda = {}
+				b_meranges = {}
+			} # end c_cerdanya
+		} # end d_urgell
 		allow = {
 			NOT = { has_landed_title = k_france }
 			title_king_basic_allow = yes
@@ -20454,7 +20593,7 @@ e_spain = { # España
 		color2 = { 200 80 10 }
 		capital = 199 # Burgos
 		culture = castillan
-		dignity = 0 # Counted as having 0 more counties than it does
+		dignity = 15 # Counted as having 15 more counties than it does
 		catholic = 250 # Crusade target weight
 		sunni = 25 # Crusade target weight
 		d_castilla = { # Castilla
@@ -20473,7 +20612,7 @@ e_spain = { # España
 				b_arandadeduero = {}
 				b_frias = {}
 				#b_silos = {
-				#	bedouin_arabic = "Shlil"
+				#	bedouin_arabic = "Shlil" # ?
 				#	maghreb_arabic = "Shlil"
 				#	levantine_arabic = "Shlil"
 				#	egyptian_arabic = "Shlil"
@@ -20531,62 +20670,6 @@ e_spain = { # España
 			} # end c_palencia
 			allow = { title_duke_basic_allow = yes }
 		} # end d_castilla
-		d_segovia = { # Segovia
-			color = { 237 28 36 }
-			color2 = { 255 255 255 }
-			capital = 1199 # Segovia
-			c_segovia = { # Segovia (1199)
-				color = { 0 113 188 }
-				color2 = { 255 255 255 }
-				b_segovia = {}
-				b_sepulveda = {}
-				b_sacramenia = {}
-				b_cuellar = {}
-				b_villacastin = {}
-				b_parraces = {}
-			} # end c_segovia
-			c_avila = { # Ávila (1198)
-				color = { 224 83 90 }
-				color2 = { 255 255 255 }
-				b_avila = {}
-				b_arevalo = {}
-				b_valdeiglesias = {}
-				b_valdecorneja = {}
-				b_piedrahita = {}
-				b_bonilla = {}
-			} # end c_avila
-			c_medina_del_campo = { # Medina del Campo (1197)
-				color = { 241 229 221 }
-				color2 = { 255 255 255 }
-				b_portillo = {}
-				b_medinadelcampo = {}
-				b_tordesillas = {}
-			} # end c_medina_del_campo
-			allow = { title_duke_basic_allow = yes }
-		} # end d_segovia
-		d_najera = { # Nájera
-			color = { 0 113 188 }
-			color2 = { 255 255 255 }
-			capital = 201 # Nájera # Najera
-			c_najera = { # Nájera (201)
-				color = { 219 181 2 }
-				color2 = { 255 255 255 }
-				b_najera = {}
-				b_haro = {}
-				b_santodomingodelacalzada = {}
-				b_anguiano = {}
-				b_san_millan = {}
-			} # end c_najera
-			c_logrono = { # Logroño (1217)
-				color = { 7 97 148 }
-				color2 = { 255 255 255 }
-				b_logronyo = {}
-				b_alfaro = {}
-				b_calahorra = {}
-				b_arnedo = {}
-			} # end c_logrono
-			allow = { title_duke_basic_allow = yes }
-		} # end d_najera
 		d_alba_de_tormes = { # Alba de Tormes
 			color = { 255 224 94 }
 			color2 = { 255 255 255 }
@@ -20673,7 +20756,19 @@ e_spain = { # España
 			}
 		}
 		# Creation/usurpation trigger
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
+			c_valladolid = { owner_under_ROOT = yes }
+			c_soria = { owner_under_ROOT = yes }
+			c_plasencia = { owner_under_ROOT = yes }
+			title_king_basic_allow = yes
+		}
 	} # end k_castille
 	k_navarra = { # Navarra
 		color = { 225 22 22 }
@@ -20743,166 +20838,24 @@ e_spain = { # España
 		color2 = { 255 255 255 }
 		capital = 190 # León # Leon
 		culture = castillan
-		dignity = 0 # Counted as having 0 more counties than it does
+		dignity = 15 # Counted as having 15 more counties than it does
 		catholic = 250 # Crusade target weight
 		sunni = 25 # Crusade target weight
+		# Creation/usurpation trigger
+		allow = {
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
+			c_zamora = { owner_under_ROOT = yes }
+			c_toro = { owner_under_ROOT = yes }
+			title_king_basic_allow = yes
+		}
 		greek = "Gallaecia"
 		roman = "Gallaecia"
-		d_galicia = { # Galicia
-			color = { 81 170 227 }
-			color2 = { 255 255 255 }
-			capital = 157 # Santiago
-			greek = "Gallaecia"
-			roman = "Gallaecia"
-			c_santiago = { # Santiago (157)
-				color = { 204 205 206 }
-				color2 = { 255 255 255 }
-				b_santiago = {}
-				b_pontevedra = {}
-				b_tuy = {}
-				b_vigo = {}
-				b_vilagarcia = {}
-				b_padron = {}
-			} # end c_santiago
-			c_coruna = { # Trastámara (156)
-				color = { 82 142 56 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "A Coruña"
-				greek = "A Coruña"
-				bedouin_arabic = "A Coruña"
-				yemeni = "A Coruña"
-				hijazi = "A Coruña"
-				maghreb_arabic = "A Coruña"
-				levantine_arabic = "A Coruña"
-				egyptian_arabic = "A Coruña"
-				sicilian_arabic = "A Coruña"
-				roman = "A Coruña"
-				b_corunya = {}
-				b_betanzos = {}
-				b_cambre = {}
-				b_ferrol = {}
-			} # end c_coruna
-			c_lugo = { # Lugo (1190)
-				color = { 237 28 36 }
-				color2 = { 255 255 255 }
-				b_lugo = {}
-				b_villalba = {}
-				b_mondonedo = {}
-				b_sarria = {}
-				b_ribadeo = {}
-				b_ocebreiro = {}
-			} # end c_lugo
-			c_lemos = { # Lemos (1191)
-				color = { 243 158 51 }
-				color2 = { 255 255 255 }
-				b_monforte_de_lemos = {}
-				b_ourense = {}
-				b_ribadavia = {}
-				b_allariz = {}
-				b_valdeorras = {}
-				b_santoestevo = {}
-			} # end c_lemos
-			allow = { title_duke_basic_allow = yes }
-		} # end d_galicia
-		d_leon = { # León
-			color = { 227 228 229 }
-			color2 = { 255 255 255 }
-			capital = 190 # León # Leon
-			c_leon = { # León (190)
-				color = { 99 11 87 }
-				color2 = { 255 255 255 }
-				b_leon = {}
-				b_sahagun = {}
-				b_mansilladelasmulas = {}
-				b_luna = {}
-				b_coyanza = {}
-				b_puentedeorbigo = {}
-				b_cistierna = {}
-			} # end c_leon
-			c_zamora = { # Zamora (191)
-				color = { 3 154 3 }
-				color2 = { 255 255 255 }
-				greek = "Oceloduri"
-				roman = "Oceloduri"
-				b_zamora = {}
-				b_tabara = {}
-				b_sanabria = {}
-				b_albadealiste = {}
-				b_castanyeda = {}
-			} # end c_zamora
-			c_asturias_de_oviedo = { # Asturias de Oviedo (155)
-				color = { 19 83 180 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Oviedo"
-				bedouin_arabic = "Oviedo"
-				yemeni = "Oviedo"
-				hijazi = "Oviedo"
-				maghreb_arabic = "Oviedo"
-				levantine_arabic = "Oviedo"
-				egyptian_arabic = "Oviedo"
-				sicilian_arabic = "Oviedo"
-				b_oviedo = {}
-				b_gijon = {}
-				b_cangasdeonis = {}
-				b_quiros = {}
-				b_norena = {}
-				b_aviles = {}
-				b_santamariadelnaranco = {}
-			} # end c_asturias_de_oviedo
-			c_astorga = { # Astorga (189)
-				color = { 237 28 36 }
-				color2 = { 255 255 255 }
-				b_ulver = {}
-				b_astorga = {}
-				b_villafrancadelbierzo = {}
-				b_ponferrada = {}
-				b_villablino = {}
-				b_carracedo = {}
-			} # end c_astorga
-			c_toro = { # Toro (1193)
-				color = { 234 193 2 }
-				color2 = { 255 255 255 }
-				b_benavente = {}
-				b_toro = {}
-				b_villalpando = {}
-			} # end c_toro
-			allow = { title_duke_basic_allow = yes }
-		} # end d_leon
-		d_salamanca = { # Salamanca
-			color = { 8 132 74 }
-			color2 = { 255 255 255 }
-			capital = 192 # Salamanca
-			c_salamanca = { # Salamanca (192)
-				color = { 37 61 19 }
-				color2 = { 255 255 255 }
-				b_salamanca = {}
-				b_bejar = {}
-				b_guijuelo = {}
-				b_albadetormes = {}
-				b_penyaranda = {}
-				b_ciudadrodrigo = {}
-				b_sanctispiritus = {}
-			} # end c_salamanca
-			c_ledesma = { # Ledesma (1194)
-				color = { 250 206 2 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Bletisa"
-				bedouin_arabic = "Bletisa"
-				yemeni = "Bletisa"
-				hijazi = "Bletisa"
-				maghreb_arabic = "Bletisa"
-				levantine_arabic = "Bletisa"
-				egyptian_arabic = "Bletisa"
-				sicilian_arabic = "Bletisa"
-				b_ledesma = {}
-				b_fuentesauco = {}
-				b_fermoselle = {}
-				b_lapenya = {}
-			} # end c_ledesma
-			allow = { title_duke_basic_allow = yes }
-		} # end d_salamanca
-		# Creation/usurpation trigger
-		allow = { title_king_basic_allow = yes }
 	} # end k_leon
 	k_aragon = { # Aragón
 		color = { 255 237 120 }
@@ -20968,7 +20921,7 @@ e_spain = { # España
 				b_munebrega = {}
 				b_calmarza = {}
 				#b_cimballa = {
-				#	bedouin_arabic = "Simbalah"
+				#	bedouin_arabic = "Simbalah" # ?
 				#	maghreb_arabic = "Simbalah"
 				#	levantine_arabic = "Simbalah"
 				#	egyptian_arabic = "Simbalah"
@@ -20991,153 +20944,6 @@ e_spain = { # España
 			} # end c_huesca
 			allow = { title_duke_basic_allow = yes }
 		} # end d_zaragoza
-		d_barcelona = { # Barcelona
-			color = { 167 39 0 }
-			color2 = { 255 255 255 }
-			capital = 204 # Barcelona
-			culture = catalan
-			name_tier = count
-			c_barcelona = { # Barcelona (204)
-				color = { 255 241 173 }
-				color2 = { 255 255 255 }
-				b_barcelona = {}
-				b_manresa = {}
-				b_vich = {}
-				b_osona = {}
-				b_montcada = {}
-				b_solsona = {}
-				b_cardona = {}
-				#b_sant_cugat = {
-				#	bedouin_arabic = "Quqfat"
-				#	maghreb_arabic = "Quqfat"
-				#	levantine_arabic = "Quqfat"
-				#	egyptian_arabic = "Quqfat"
-				#	andalusian_arabic = "Quqfat"
-				#	sicilian_arabic = "Quqfat"
-				#	aragonese = "Sant Cocobat"
-				#	basque = "Donekokobat"
-				#	castillan = "San Cucufate"
-				#	galician = "San Cucufate"
-				#	portuguese = "São Cucufate"
-				#	leonese = "San Cucufate"
-				#	frankish = "Saint Cucufa"
-				#}
-				#b_penedes = {
-				#	bedouin_arabic = "Bindesh"
-				#	maghreb_arabic = "Bindesh"
-				#	levantine_arabic = "Bindesh"
-				#	egyptian_arabic = "Bindesh"
-				#	andalusian_arabic = "Bindesh"
-				#	sicilian_arabic = "Bindesh"
-				#	basque = "Penedes"
-				#}
-			} # end c_barcelona
-			c_rosello = { # Rosello (211)
-				color = { 251 3 4 }
-				color2 = { 255 255 255 }
-				greek = "Ruscino"
-				roman = "Ruscino"
-				b_castellrossello = {}
-				b_elna = {}
-				b_perpinya = {}
-				b_vallespir = {}
-				b_capcir = {}
-				b_fenolleda = {}
-				#b_banyuls = {
-				#	bedouin_arabic = "Baniyyul"
-				#	maghreb_arabic = "Baniyyul"
-				#	levantine_arabic = "Baniyyul"
-				#	egyptian_arabic = "Baniyyul"
-				#	andalusian_arabic = "Baniyyul"
-				#	sicilian_arabic = "Baniyyul"
-				#	castillan = "Bañules"
-				#	leonese = "Bañules"
-				#	galician = "Bañules"
-				#	portuguese = "Banhules"
-				#	basque = "Bañules"
-				#}
-				#b_cuixa = {
-				#	bedouin_arabic = "Qussah"
-				#	maghreb_arabic = "Qussah"
-				#	levantine_arabic = "Qussah"
-				#	egyptian_arabic = "Qussah"
-				#	andalusian_arabic = "Qussah"
-				#	sicilian_arabic = "Qussah"
-				#	castillan = "Cuizán"
-				#	leonese = "Cuijá"
-				#	galician = "Cuixá"
-				#	portuguese = "Cuixá"
-				#	basque = "Kuixa"
-				#	aragonese = "Cuixá"
-				#	catalan = "Cuixà"
-				#	frankish = "Cuxa"
-				#}
-			} # end c_rosello
-			c_empuries = { # Empuries (205)
-				color = { 255 206 1 }
-				color2 = { 255 255 255 }
-				b_castellodempuries = {}
-				b_santperederoda = {}
-				b_torroellademontgri = {}
-				b_peralada = {}
-				b_verges = {}
-				b_quermanco = {}
-			} # end c_empuries
-			c_girona = { # Girona (1210)
-				color = { 50 167 98 }
-				color2 = { 255 255 255 }
-				b_cabrera = {}
-				b_girona = {}
-				b_la_bisbal = {}
-				b_besalu = {}
-				b_bas = {}
-				b_ripoll = {}
-				b_figueres = {}
-				#b_mataplana = {
-				#	bedouin_arabic = "Medabanah"
-				#	maghreb_arabic = "Medabanah"
-				#	levantine_arabic = "Medabanah"
-				#	egyptian_arabic = "Medabanah"
-				#	andalusian_arabic = "Medabanah"
-				#	sicilian_arabic = "Medabanah"
-				#	frankish = "Mateplaine"
-				#}
-			} # end c_girona
-			allow = { title_duke_basic_allow = yes }
-		} # end d_barcelona
-		d_urgell = { # Urgell
-			color = { 118 107 55 }
-			color2 = { 255 255 255 }
-			capital = 206 # Urgell
-			name_tier = count
-			c_urgell = { # Urgell (206)
-				color = { 91 78 19 }
-				color2 = { 255 255 255 }
-				b_castellciutat = {}
-				b_laseudurgell = {}
-				b_balaguer = {}
-				b_ager = {}
-				b_gerri = {}
-				b_camarassa = {}
-			} # end c_urgell
-			c_pallars = { # Pallars (2013)
-				color = { 110 5 119 }
-				color2 = { 255 255 255 }
-				b_sort = {}
-				b_tremp = {}
-				b_lladorre = {}
-				b_llorda = {}
-				b_llimiana = {}
-				b_pallars_jussa = {}
-			} # end c_pallars
-			c_cerdanya = { # Cerdanya (967)
-				color = { 55 66 80 }
-				color2 = { 255 255 255 }
-				b_llivia = {}
-				b_puigcerda = {}
-				b_meranges = {}
-			} # end c_cerdanya
-		} # end d_urgell
 		d_catalunya_nova = { # Catalunya Nova
 			color = { 228 77 21 }
 			color2 = { 255 255 255 }
@@ -21184,7 +20990,7 @@ e_spain = { # España
 				b_poblet = {}
 				b_miravet = {}
 				#b_amposta = {
-				#	bedouin_arabic = "Ybusda"
+				#	bedouin_arabic = "Ybusda" # ?
 				#	maghreb_arabic = "Ybusda"
 				#	levantine_arabic = "Ybusda"
 				#	egyptian_arabic = "Ybusda"
@@ -21264,7 +21070,18 @@ e_spain = { # España
 			}
 		}
 		# Creation/usurpation trigger
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
+			c_sobrarbe = { owner_under_ROOT = yes }
+			c_ribagorza = { owner_under_ROOT = yes }
+			title_king_basic_allow = yes
+		}
 	} # end k_aragon
 	k_portugal = { # Portugal
 		color = { 207 160 255 }
@@ -21275,387 +21092,6 @@ e_spain = { # España
 		sunni = 25 # Crusade target weight
 		greek = "Lusitania"
 		roman = "Lusitania"
-		d_ribatejo = { # Ribatejo
-			color = { 0 76 127 }
-			color2 = { 255 255 255 }
-			capital = 160 # Lisboa
-			andalusian_arabic = "Belatha"
-			maghreb_arabic = "Belatha"
-			levantine_arabic = "Belatha"
-			egyptian_arabic = "Belatha"
-			sicilian_arabic = "Belatha"
-			c_lisboa = { # Lisboa (160)
-				color = { 61 206 255 }
-				color2 = { 255 255 255 }
-				greek = "Olisipo"
-				roman = "Olisipo"
-				b_lisboa = {}
-				b_sintra = {}
-				b_mafra = {}
-				b_alenquer = {}
-				b_lourinha = {}
-				b_vila_franca_de_xira = {}
-				b_torres_vedras = {}
-				#b_cascais = {
-				#	bedouin_arabic = "Qas Qadish"
-				#	maghreb_arabic = "Qas Qadish"
-				#	levantine_arabic = "Qas Qadish"
-				#	egyptian_arabic = "Qas Qadish"
-				#	andalusian_arabic = "Qas Qadish"
-				#	sicilian_arabic = "Qas Qadish"
-				#	leonese = "Cascaes"
-				#	castillan = "Cascaes"
-				#	basque = "Kaskais"
-				#}
-				#b_cadaval = {
-				#	bedouin_arabic = "Qad Abbal"
-				#	maghreb_arabic = "Qad Abbal"
-				#	levantine_arabic = "Qad Abbal"
-				#	egyptian_arabic = "Qad Abbal"
-				#	andalusian_arabic = "Qad Abbal"
-				#	sicilian_arabic = "Qad Abbal"
-				#	basque = "Kadabal"
-				#}
-				#b_azambuja = {
-				#	bedouin_arabic = "Azam Buxa"
-				#	maghreb_arabic = "Azam Buxa"
-				#	levantine_arabic = "Azam Buxa"
-				#	egyptian_arabic = "Azam Buxa"
-				#	andalusian_arabic = "Azam Buxa"
-				#	sicilian_arabic = "Azam Buxa"
-				#	basque = "Azambuia"
-				#	frankish = "Azambouille"
-				#}
-			} # end c_lisboa
-			c_castelo_branco = { # Castelo Branco (187)
-				color = { 85 78 68 }
-				color2 = { 255 255 255 }
-				b_castelobranco = {}
-				b_covilha = {}
-				b_belmonte = {}
-				b_oleiros = {}
-				b_idanha_a_nova = {}
-				b_penamacor = {}
-				b_proenca_a_nova = {}
-				#b_vila_velha_de_rodao = {
-				#	bedouin_arabic = "Ruddun"
-				#	maghreb_arabic = "Ruddun"
-				#	levantine_arabic = "Ruddun"
-				#	egyptian_arabic = "Ruddun"
-				#	andalusian_arabic = "Ruddun"
-				#	sicilian_arabic = "Ruddun"
-				#	basque = "Zaharraherria Rodon"
-				#	aragonese = "Villaviella de Rodón"
-				#	catalan = "Vilavella de Rodó"
-				#	galician = "Vilavella de Rodón"
-				#	leonese = "Villavieya de Rodón"
-				#	castillan = "Villavieja de Rodón"
-				#	frankish = "Villevieille de Rodon"
-				#}
-				#b_vila_de_rei = {
-				#	bedouin_arabic = "Zezere"
-				#	maghreb_arabic = "Zezere"
-				#	levantine_arabic = "Zezere"
-				#	egyptian_arabic = "Zezere"
-				#	andalusian_arabic = "Zezere"
-				#	sicilian_arabic = "Zezere"
-				#	basque = "Erregeko Herri"
-				#	aragonese = "Villa de Rey"
-				#	catalan = "Vila de Rei"
-				#	leonese = "Villa de Rey"
-				#	castillan = "Villa de Rey"
-				#	frankish = "Ville-de-Roi"
-				#}
-			} # end c_castelo_branco
-			c_thomar = { # Tomar (1195)
-				color = { 220 54 50 }
-				color2 = { 255 255 255 }
-				b_tomar = {}
-				b_santarem = {}
-				b_abrantes = {}
-				b_ourem = {}
-				b_macao = {}
-				b_ferreira_do_zezere = {}
-				b_torres_novas = {}
-			} # end c_thomar
-			c_leiria = { # Leiria (1215)
-				color = { 254 203 193 }
-				color2 = { 255 255 255 }
-				b_leiria = {}
-				b_batalha = {}
-				b_alcobaca = {}
-				b_alvaiazere = {}
-				b_figueiro_dos_vinhos = {}
-				b_obidos = {}
-				b_pedrogao_grande = {}
-				#b_pombal = {
-				#	bedouin_arabic = "Bumbal"
-				#	maghreb_arabic = "Bumbal"
-				#	levantine_arabic = "Bumbal"
-				#	egyptian_arabic = "Bumbal"
-				#	andalusian_arabic = "Bumbal"
-				#	sicilian_arabic = "Bumbal"
-				#}
-				#b_porto_de_mos = {
-				#	bedouin_arabic = "Burtu al-Muz"
-				#	maghreb_arabic = "Burtu al-Muz"
-				#	levantine_arabic = "Burtu al-Muz"
-				#	egyptian_arabic = "Burtu al-Muz"
-				#	andalusian_arabic = "Burtu al-Muz"
-				#	sicilian_arabic = "Burtu al-Muz"
-				#	castillan = "Puerto de Muelas"
-				#	leonese = "Puertu de Mueles"
-				#	galician = "Porto de Moas"
-				#	basque = "Errotariako Portu"
-				#	aragonese = "Puerto de Ruellos"
-				#	catalan = "Port de Moles"
-				#	frankish = "Port de Meules"
-				#}
-			} # end c_leiria
-			allow = { title_duke_basic_allow = yes }
-		} # end d_ribatejo
-		d_beira = { # Beira
-			color = { 19 83 180 }
-			color2 = { 255 255 255 }
-			capital = 159 # Coimbra
-			andalusian_arabic = "Coimbra"
-			bedouin_arabic = "Coimbra"
-			yemeni = "Coimbra"
-			hijazi = "Coimbra"
-			maghreb_arabic = "Coimbra"
-			levantine_arabic = "Coimbra"
-			egyptian_arabic = "Coimbra"
-			sicilian_arabic = "Coimbra"
-			c_coimbra = { # Coimbra (159)
-				color = { 242 237 65 }
-				color2 = { 255 255 255 }
-				greek = "Aeminium"
-				roman = "Aeminium"
-				b_coimbra = {}
-				b_cantanhede = {}
-				b_penela = {}
-				b_condeixa = {}
-				b_miranda_do_corvo = {}
-				b_montemor = {}
-				b_penacova = {}
-				#b_soure = {
-				#	bedouin_arabic = "Sure"
-				#	maghreb_arabic = "Sure"
-				#	levantine_arabic = "Sure"
-				#	egyptian_arabic = "Sure"
-				#	andalusian_arabic = "Sure"
-				#	sicilian_arabic = "Sure"
-				#	castillan = "Sore"
-				#	basque = "Sore"
-				#	leonese = "Sore"
-				#	aragonese = "Sore"
-				#}
-				#b_arganil = {
-				#	bedouin_arabic = "Irganil"
-				#	maghreb_arabic = "Irganil"
-				#	levantine_arabic = "Irganil"
-				#	egyptian_arabic = "Irganil"
-				#	andalusian_arabic = "Irganil"
-				#	sicilian_arabic = "Irganil"
-				#}
-			} # end c_coimbra
-			c_viseu = { # Viseu (1213)
-				color = { 220 54 50 }
-				color2 = { 255 255 255 }
-				b_aveiro = {}
-				b_viseu = {}
-				b_lamego = {}
-				b_castro_daire = {}
-				b_penedono = {}
-				b_mangualde = {}
-				b_moimenta_da_beira = {}
-				#b_mortagua = {
-				#	bedouin_arabic = "Maut'maa"
-				#	maghreb_arabic = "Maut'maa"
-				#	levantine_arabic = "Maut'maa"
-				#	egyptian_arabic = "Maut'maa"
-				#	andalusian_arabic = "Maut'maa"
-				#	sicilian_arabic = "Maut'maa"
-				#	castillan = "Mortagua"
-				#	leonese = "Mortagua"
-				#	basque = "Urheriotza"
-				#	aragonese = "Mortaugua"
-				#	catalan = "Mortaigua"
-				#	frankish = "Morteau"
-				#}
-				#b_nelas = {
-				#	bedouin_arabic = "Nilah"
-				#	maghreb_arabic = "Nilah"
-				#	levantine_arabic = "Nilah"
-				#	egyptian_arabic = "Nilah"
-				#	andalusian_arabic = "Nilah"
-				#	sicilian_arabic = "Nilah"
-				#	leonese = "Neles"
-				#	frankish = "Neles"
-				#}
-				#b_penalva_do_castelo = {
-				#	bedouin_arabic = "Sajrabiad al-Qal'at"
-				#	maghreb_arabic = "Sajrabiad al-Qal'at"
-				#	levantine_arabic = "Sajrabiad al-Qal'at"
-				#	egyptian_arabic = "Sajrabiad al-Qal'at"
-				#	andalusian_arabic = "Sajrabiad al-Qal'at"
-				#	sicilian_arabic = "Sajrabiad al-Qal'at"
-				#	castillan = "Peñalba del Castillo"
-				#	leonese = "Peñalba del Castiellu"
-				#	basque = "Gazteluako Peñazuria"
-				#	aragonese = "Penyalba d'o Castiello"
-				#	catalan = "Penyalba del Castell"
-				#	frankish = "Rocheblanche-du-Château"
-				#}
-				#b_satao = {
-				#	bedouin_arabic = "Satunn"
-				#	maghreb_arabic = "Satunn"
-				#	levantine_arabic = "Satunn"
-				#	egyptian_arabic = "Satunn"
-				#	andalusian_arabic = "Satunn"
-				#	sicilian_arabic = "Satunn"
-				#	galician = "Satón"
-				#	castillan = "Satón"
-				#	leonese = "Satón"
-				#	basque = "Saton"
-				#	aragonese = "Saton"
-				#	catalan = "Sató"
-				#	frankish = "Saton"
-				#}
-				#b_sernancelhe = {
-				#	bedouin_arabic = "Sirnan Silam"
-				#	maghreb_arabic = "Sirnan Silam"
-				#	levantine_arabic = "Sirnan Silam"
-				#	egyptian_arabic = "Sirnan Silam"
-				#	andalusian_arabic = "Sirnan Silam"
-				#	sicilian_arabic = "Sirnan Silam"
-				#	galician = "Sernancelle"
-				#	castillan = "Sernancelle"
-				#	leonese = "Sernancielle"
-				#	basque = "Sernantzeia"
-				#	aragonese = "Sernanzelle"
-				#	catalan = "Sernancelle"
-				#	frankish = "Sernancelle"
-				#}
-				#b_tarouca = {
-				#	bedouin_arabic = "Taruqqa"
-				#	maghreb_arabic = "Taruqqa"
-				#	levantine_arabic = "Taruqqa"
-				#	egyptian_arabic = "Taruqqa"
-				#	andalusian_arabic = "Taruqqa"
-				#	sicilian_arabic = "Taruqqa"
-				#	castillan = "Taroca"
-				#	leonese = "Taroca"
-				#	basque = "Taroka"
-				#	aragonese = "Taroca"
-				#	catalan = "Taroca"
-				#	frankish = "Taroque"
-				#}
-				#b_ilhavo = {
-				#	bedouin_arabic = "Il-Halb"
-				#	maghreb_arabic = "Il-Halb"
-				#	levantine_arabic = "Il-Halb"
-				#	egyptian_arabic = "Il-Halb"
-				#	andalusian_arabic = "Il-Halb"
-				#	sicilian_arabic = "Il-Halb"
-				#	castillan = "Íllavo"
-				#	leonese = "Íllavo"
-				#	basque = "Illabo"
-				#	aragonese = "Íllavo"
-				#	catalan = "Íllavo"
-				#	frankish = "Illave"
-				#	galician = "Íllavo"
-				#}
-				#b_ovar = {
-				#	bedouin_arabic = "Ubbar"
-				#	maghreb_arabic = "Ubbar"
-				#	levantine_arabic = "Ubbar"
-				#	egyptian_arabic = "Ubbar"
-				#	andalusian_arabic = "Ubbar"
-				#	sicilian_arabic = "Ubbar"
-				#	basque = "Obar"
-				#}
-			} # end c_viseu
-			c_trancoso = { # Trancoso (1214)
-				color = { 182 105 5 }
-				color2 = { 255 255 255 }
-				b_trancoso = {}
-				b_guarda = {}
-				b_seia = {}
-				b_manteigas = {}
-				b_celorico_da_beira = {}
-				b_aguiar_da_beira = {}
-				b_gouveia = {}
-				#b_figeira_de_castelo_rodrigo = {
-				#	bedouin_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	maghreb_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	levantine_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	egyptian_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	andalusian_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	sicilian_arabic = "Figyira al-Qal'at al-Ludhriq"
-				#	castillan = "Figuera de Castillo Rodrigo"
-				#	galician = "Figuera de Castro Rui"
-				#	leonese = "Figuera de Castiellu Rodrigu"
-				#	basque = "Errodeika-Gaztelua Figuera"
-				#	aragonese = "Figuera de Castiello Roderic"
-				#	catalan = "Figuera de Castell Roderic"
-				#	frankish = "Figuere-de-Château Rodrigue"
-				#}
-				#b_almeida = {
-				#	bedouin_arabic = "Talmeyda"
-				#	maghreb_arabic = "Talmeyda"
-				#	levantine_arabic = "Talmeyda"
-				#	egyptian_arabic = "Talmeyda"
-				#	andalusian_arabic = "Talmeyda"
-				#	sicilian_arabic = "Talmeyda"
-				#	frankish = "Almeide"
-				#}
-				#b_pinhel = {
-				#	bedouin_arabic = "Sanaubar"
-				#	maghreb_arabic = "Sanaubar"
-				#	levantine_arabic = "Sanaubar"
-				#	egyptian_arabic = "Sanaubar"
-				#	andalusian_arabic = "Sanaubar"
-				#	sicilian_arabic = "Sanaubar"
-				#	castillan = "Piñel"
-				#	galician = "Piñel"
-				#	leonese = "Piñel"
-				#	basque = "Piñel"
-				#	aragonese = "Pinyel"
-				#	catalan = "Pinyel"
-				#	frankish = "Pignel"
-				#}
-				#b_sabugal = {
-				#	bedouin_arabic = "Khman"
-				#	maghreb_arabic = "Khman"
-				#	levantine_arabic = "Khman"
-				#	egyptian_arabic = "Khman"
-				#	andalusian_arabic = "Khman"
-				#	sicilian_arabic = "Khman"
-				#	leonese = "Saucal"
-				#	frankish = "Sureale"
-				#	catalan = "Saücal"
-				#	aragonese = "Sabucal"
-				#	basque = "Iturrioa"
-				#}
-				#b_vila_nova_de_foz_coa = {
-				#	bedouin_arabic = "Fuza al-Qua"
-				#	maghreb_arabic = "Fuza al-Qua"
-				#	levantine_arabic = "Fuza al-Qua"
-				#	egyptian_arabic = "Fuza al-Qua"
-				#	andalusian_arabic = "Fuza al-Qua"
-				#	sicilian_arabic = "Fuza al-Qua"
-				#	castillan = "Villanueva de Foz Cuda"
-				#	galician = "Vila Nova de Foz Coa"
-				#	leonese = "Villanueva de Foz Cuda"
-				#	basque = "Herriberria Foz Kuta"
-				#	aragonese = "Vilanova de Foz Cuda"
-				#	catalan = "Vilanova de Foz Cuda"
-				#	frankish = "Villeneuve de Foz-sur-Coa"
-				#}
-			} # end c_trancoso
-			allow = { title_duke_basic_allow = yes }
-		} # end d_beira
 		d_porto = { # Portucale
 			color = { 221 230 255 }
 			color2 = { 255 255 255 }
@@ -21691,7 +21127,7 @@ e_spain = { # España
 				b_castelomelhor = {}
 				b_castelorodrigo = {}
 				#b_azinhoso = {
-				#	bedouin_arabic = "al-Balluta"
+				#	bedouin_arabic = "al-Balluta" # ?
 				#	maghreb_arabic = "al-Balluta"
 				#	levantine_arabic = "al-Balluta"
 				#	egyptian_arabic = "al-Balluta"
@@ -21709,7 +21145,19 @@ e_spain = { # España
 			allow = { title_duke_basic_allow = yes }
 		} # end d_porto
 		# Creation/usurpation trigger
-		allow = { title_king_basic_allow = yes }
+		# allow = { title_king_basic_allow = yes }
+		allow = {
+			OR = {
+				AND = {
+					culture_group = iberian
+					religion_group = christian
+				}
+				FROM = { is_de_jure_title = yes }
+			}
+			c_braga = { owner_under_ROOT = yes }
+			c_braganza = { owner_under_ROOT = yes }
+			title_king_basic_allow = yes
+		}
 	} # end k_portugal
 	k_andalusia = { # Al-Andalus
 		color = { 140 186 128 }
@@ -21928,7 +21376,7 @@ e_spain = { # España
 		d_algarve = { # Algarve
 			color = { 157 189 212 }
 			color2 = { 255 255 255 }
-			capital = 163 # Faro
+			capital = 162 # Silves
 			c_faro = { # Faro (163)
 				color = { 0 128 255 }
 				color2 = { 255 255 255 }
@@ -22092,21 +21540,10 @@ e_spain = { # España
 				b_gibraltar = {}
 				b_tarifa = {}
 				b_algeciras = {}
-				b_ronda = {}
 				b_cadiz = {}
 				b_medinasidonia = {}
 				b_jerez = {}
-				#b_arcos = {
-				#	bedouin_arabic = "Arkush"
-				#	maghreb_arabic = "Arkush"
-				#	levantine_arabic = "Arkush"
-				#	egyptian_arabic = "Arkush"
-				#	andalusian_arabic = "Arkush"
-				#	sicilian_arabic = "Arkush"
-				#	catalan = "Arcs"
-				#	frankish = "Arcs"
-				#	basque = "Arkos"
-				#}
+				b_arcos = {}
 				#b_sanjosedelvalle = {
 				#	bedouin_arabic = "Hisn Tanbul"
 				#	maghreb_arabic = "Hisn Tanbul"
@@ -22122,12 +21559,12 @@ e_spain = { # España
 				#	aragonese = "Sant Chusé d'o Val"
 				#}
 				#b_sanlucadebarrameda = {
-				#	bedouin_arabic = "Shaluqa al-Bar-am-Ma'ida"
-				#	maghreb_arabic = "Shaluqa al-Bar-am-Ma'ida"
-				#	levantine_arabic = "Shaluqa al-Bar-am-Ma'ida"
-				#	egyptian_arabic = "Shaluqa al-Bar-am-Ma'ida"
-				#	andalusian_arabic = "Shaluqa al-Bar-am-Ma'ida"
-				#	sicilian_arabic = "Shaluqa al-Bar-am-Ma'ida"
+				#	bedouin_arabic = "Barr al-Ma'ida"
+				#	maghreb_arabic = "Barr al-Ma'ida"
+				#	levantine_arabic = "Barr al-Ma'ida"
+				#	egyptian_arabic = "Barr al-Ma'ida"
+				#	andalusian_arabic = "Barr al-Ma'ida"
+				#	sicilian_arabic = "Barr al-Ma'ida"
 				#	frankish = "Sainluque de Barramède"
 				#	leonese = "Sanlúcar de Barramieda"
 				#	galician = "Sanlúcar de Barrameida"
@@ -22258,6 +21695,7 @@ e_spain = { # España
 				b_almeria = {}
 				b_adra = {}
 				b_pechina = {}
+				b_vera = {}
 				b_roquetasdemar = {}
 				b_berja = {}
 				b_purchena = {}
@@ -22269,11 +21707,28 @@ e_spain = { # España
 				b_motril = {}
 				b_baza = {}
 				b_guadix = {}
+				b_alhama_granada = {}
 				b_almunyecar = {}
 				b_loja = {}
-				b_huelma = {}
+				#b_huelma = {
+				#	bedouin_arabic = "Walma" # ?
+				#	hijazi = "Walma"
+				#	yemeni = "Walma"
+				#	maghreb_arabic = "Walma"
+				#	levantine_arabic = "Walma"
+				#	egyptian_arabic = "Walma"
+				#	andalusian_arabic = "Walma"
+				#	sicilian_arabic = "Walma"
+				#	sanhaja = "Walma"
+				#	tagelmust = "Walma"
+				#	tuareg = "Walma"
+				#	masmuda = "Walma"
+				#	zanata = "Walma"
+				#	leonese = "Güelma"
+				#	frankish = "Huelme"
+				#}
 				#b_armilla = {
-				#	bedouin_arabic = "Armillat al-Aflum"
+				#	bedouin_arabic = "Armillat al-Aflum" # ?
 				#	maghreb_arabic = "Armillat al-Aflum"
 				#	levantine_arabic = "Armillat al-Aflum"
 				#	egyptian_arabic = "Armillat al-Aflum"
@@ -22288,12 +21743,64 @@ e_spain = { # España
 				color = { 0 64 128 }
 				color2 = { 255 255 255 }
 				b_malaga = {}
+				b_archidona = {}
+				b_bobastro = {}
+				b_ronda = {}
+				b_velezmalaga = {}
 				b_antequera = {}
 				b_benalmadena = {}
-				b_marbella = {}
-				b_velezmalaga = {}
-				b_mijas = {}
-				b_estepona = {}
+				#b_marbella = {
+				#	bedouin_arabic = "Marbil'la"
+				#	hijazi = "Marbil'la"
+				#	yemeni = "Marbil'la"
+				#	maghreb_arabic = "Marbil'la"
+				#	levantine_arabic = "Marbil'la"
+				#	egyptian_arabic = "Marbil'la"
+				#	andalusian_arabic = "Marbil'la"
+				#	sicilian_arabic = "Marbil'la"
+				#	sanhaja = "Marbil'la"
+				#	tagelmust = "Marbil'la"
+				#	tuareg = "Marbil'la"
+				#	masmuda = "Marbil'la"
+				#	zanata = "Marbil'la"
+				#	portuguese = "Marbelha"
+				#}
+				#b_mijas = {
+				#	bedouin_arabic = "Misha" # ?
+				#	hijazi = "Misha"
+				#	yemeni = "Misha"
+				#	maghreb_arabic = "Misha"
+				#	levantine_arabic = "Misha"
+				#	egyptian_arabic = "Misha"
+				#	andalusian_arabic = "Misha"
+				#	sicilian_arabic = "Misha"
+				#	sanhaja = "Misha"
+				#	tagelmust = "Misha"
+				#	tuareg = "Misha"
+				#	masmuda = "Misha"
+				#	zanata = "Misha"
+				#	leonese = "Mixes"
+				#	galician = "Mixas"
+				#	portuguese = "Mixas"
+				#	catalan = "Mixes"
+				#	aragonese = "Michas"
+				#}
+				#b_estepona = {
+				#	bedouin_arabic = "al-Eshtebunna" # ?
+				#	hijazi = "al-Eshtebunna"
+				#	yemeni = "al-Eshtebunna"
+				#	maghreb_arabic = "al-Eshtebunna"
+				#	levantine_arabic = "al-Eshtebunna"
+				#	egyptian_arabic = "al-Eshtebunna"
+				#	andalusian_arabic = "al-Eshtebunna"
+				#	sicilian_arabic = "al-Eshtebunna"
+				#	sanhaja = "al-Eshtebunna"
+				#	tagelmust = "al-Eshtebunna"
+				#	tuareg = "al-Eshtebunna"
+				#	masmuda = "al-Eshtebunna"
+				#	zanata = "al-Eshtebunna"
+				#	frankish = "Steponne"
+				#}
 				#b_torremolinos = {
 				#	bedouin_arabic = "Burj Mul'in"
 				#	maghreb_arabic = "Burj Mul'in"
@@ -22384,7 +21891,7 @@ e_spain = { # España
 			color = { 203 152 74 }
 			color2 = { 255 255 255 }
 			capital = 196 # Calatrava
-			c_la_mancha = { # Alarcón (178)
+			c_la_mancha = { # Ucles (178)
 				color = { 255 0 128 }
 				color2 = { 255 255 255 }
 				b_alarcon = {}
@@ -22413,59 +21920,6 @@ e_spain = { # España
 			} # end c_calatrava
 			allow = { title_duke_basic_allow = yes }
 		} # end d_la_mancha
-		d_valencia = { # Valencia
-			color = { 210 73 50 }
-			color2 = { 255 255 255 }
-			capital = 171 # Valencia
-			c_castellon = { # Castellon (172)
-				color = { 0 128 64 }
-				color2 = { 255 255 255 }
-				andalusian_arabic = "Marmaria"
-				bedouin_arabic = "Marmaria"
-				yemeni = "Marmaria"
-				hijazi = "Marmaria"
-				maghreb_arabic = "Marmaria"
-				levantine_arabic = "Marmaria"
-				egyptian_arabic = "Marmaria"
-				sicilian_arabic = "Marmaria"
-				b_castellon = {}
-				b_nules = {}
-				b_vinaros = {}
-				b_morella = {}
-				b_vilarreal = {}
-				b_alcalaten = {}
-				b_burriana = {}
-			} # end c_castellon
-			c_denia = { # Denia (170)
-				color = { 0 0 255 }
-				color2 = { 255 255 255 }
-				b_denia = {}
-				b_elche = {}
-				b_castalla = {}
-				b_benissa = {}
-			} # end c_denia
-			c_valencia = { # Valencia (171)
-				color = { 0 0 160 }
-				color2 = { 255 255 255 }
-				b_gandia = {}
-				b_valencia = {}
-				b_jativa = {}
-				b_alacuas = {}
-				b_cuartdepoblet = {}
-				b_alberique = {}
-				b_chiva = {}
-				#b_torrent = {
-				#	bedouin_arabic = "Turint"
-				#	maghreb_arabic = "Turint"
-				#	levantine_arabic = "Turint"
-				#	egyptian_arabic = "Turint"
-				#	andalusian_arabic = "Turint"
-				#	sicilian_arabic = "Turint"
-				#	castillan = "Torrente"
-				#}
-			} # end c_valencia
-			allow = { title_duke_basic_allow = yes }
-		} # end d_valencia
 		d_murcia = { # Murcia
 			color = { 240 201 101 }
 			color2 = { 255 255 255 }
@@ -22484,10 +21938,20 @@ e_spain = { # España
 				b_murcia = {}
 				b_cartagena = {}
 				b_lorca = {}
+				b_orihuela = {}
 				b_alcantarilla = {}
 				b_medinasiyasa = {}
 				b_molinalaseca = {}
-				b_nogalte = {}
+				#b_nogalte = {
+				#	bedouin_arabic = "ar-Rataba"
+				#	hijazi = "ar-Rataba"
+				#	yemeni = "ar-Rataba"
+				#	maghreb_arabic = "ar-Rataba"
+				#	levantine_arabic = "ar-Rataba"
+				#	egyptian_arabic = "ar-Rataba"
+				#	andalusian_arabic = "ar-Rataba"
+				#	sicilian_arabic = "ar-Rataba"
+				#}
 				#b_yecla = {
 				#	bedouin_arabic = "Yakka"
 				#	maghreb_arabic = "Yakka"
@@ -22498,28 +21962,6 @@ e_spain = { # España
 				#	catalan = "Iecla"
 				#	basque = "Iekla"
 				#	frankish = "Yecle"
-				#}
-				#b_alicante = {
-				#	bedouin_arabic = "al-Laqant"
-				#	maghreb_arabic = "al-Laqant"
-				#	levantine_arabic = "al-Laqant"
-				#	egyptian_arabic = "al-Laqant"
-				#	andalusian_arabic = "al-Laqant"
-				#	sicilian_arabic = "al-Laqant"
-				#	catalan = "Alacant"
-				#	basque = "Alakant"
-				#	aragonese = "Alicant"
-				#}
-				#b_orihuela = {
-				#	bedouin_arabic = "Uryula"
-				#	maghreb_arabic = "Uryula"
-				#	levantine_arabic = "Uryula"
-				#	egyptian_arabic = "Uryula"
-				#	andalusian_arabic = "Uryula"
-				#	sicilian_arabic = "Uryula"
-				#	catalan = "Oriola"
-				#	aragonese = "Oriuela"
-				#	frankish = "Oriole"
 				#}
 				#b_albatera = {
 				#	bedouin_arabic = "al-Watira"
@@ -22628,7 +22070,7 @@ e_spain = { # España
 				b_santlluis = {}
 				b_escastell = {}
 				#b_ferreries = {
-				#	bedouin_arabic = "Firira"
+				#	bedouin_arabic = "Firira" # ?
 				#	maghreb_arabic = "Firira"
 				#	levantine_arabic = "Firira"
 				#	egyptian_arabic = "Firira"
@@ -22655,6 +22097,9 @@ e_spain = { # España
 					culture = levantine_arabic
 					culture = egyptian_arabic
 					culture = andalusian_arabic
+					culture = hijazi
+					culture = yemeni
+					culture = sicilian_arabic
 				}
 			}
 			title_king_basic_allow = yes
@@ -22662,25 +22107,453 @@ e_spain = { # España
 	} # end k_andalusia
 	# TITULAR SWMH Spain
 	# Kingdom level:
-	# reino de Galicia
+	# reino de Galicia - now de jure
 	k_spanish_galicia = { # Galicia
 		color = { 43 185 186 }
 		color2 = { 255 255 255 }
 		capital = 157 # Santiago
-		allow = {
-			OR = {
-				AND = {
-					culture_group = iberian
-					religion_group = christian
-				}
-				FROM = { is_de_jure_title = yes }
-			}
-			c_coruna = { owner_under_ROOT = yes }
-			c_lugo = { owner_under_ROOT = yes }
-			c_lemos = { owner_under_ROOT = yes }
-			title_king_basic_allow = yes
-		}
-	}
+		catholic = 250 # Crusade target weight
+		sunni = 25 # Crusade target weight
+		d_galicia = { # Galicia
+			color = { 81 170 227 }
+			color2 = { 255 255 255 }
+			capital = 157 # Santiago
+			greek = "Gallaecia"
+			roman = "Gallaecia"
+			c_santiago = { # Santiago (157)
+				color = { 204 205 206 }
+				color2 = { 255 255 255 }
+				b_santiago = {}
+				b_pontevedra = {}
+				b_tuy = {}
+				b_vigo = {}
+				b_vilagarcia = {}
+				b_padron = {}
+			} # end c_santiago
+			c_coruna = { # Trastámara (156)
+				color = { 82 142 56 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "A Coruña"
+				greek = "A Coruña"
+				bedouin_arabic = "A Coruña"
+				yemeni = "A Coruña"
+				hijazi = "A Coruña"
+				maghreb_arabic = "A Coruña"
+				levantine_arabic = "A Coruña"
+				egyptian_arabic = "A Coruña"
+				sicilian_arabic = "A Coruña"
+				roman = "A Coruña"
+				b_corunya = {}
+				b_betanzos = {}
+				b_cambre = {}
+				b_ferrol = {}
+			} # end c_coruna
+			c_lugo = { # Lugo (1190)
+				color = { 237 28 36 }
+				color2 = { 255 255 255 }
+				b_lugo = {}
+				b_villalba = {}
+				b_mondonedo = {}
+				b_sarria = {}
+				b_ribadeo = {}
+				b_ocebreiro = {}
+			} # end c_lugo
+			c_lemos = { # Lemos (1191)
+				color = { 243 158 51 }
+				color2 = { 255 255 255 }
+				b_monforte_de_lemos = {}
+				b_ourense = {}
+				b_ribadavia = {}
+				b_allariz = {}
+				b_valdeorras = {}
+				b_santoestevo = {}
+			} # end c_lemos
+			allow = { title_duke_basic_allow = yes }
+		} # end d_galicia
+		d_ribatejo = { # Ribatejo
+			color = { 0 76 127 }
+			color2 = { 255 255 255 }
+			capital = 160 # Lisboa
+			andalusian_arabic = "Belatha"
+			maghreb_arabic = "Belatha"
+			levantine_arabic = "Belatha"
+			egyptian_arabic = "Belatha"
+			sicilian_arabic = "Belatha"
+			c_lisboa = { # Lisboa (160)
+				color = { 61 206 255 }
+				color2 = { 255 255 255 }
+				greek = "Olisipo"
+				roman = "Olisipo"
+				b_lisboa = {}
+				b_sintra = {}
+				b_mafra = {}
+				b_alenquer = {}
+				b_lourinha = {}
+				b_vila_franca_de_xira = {}
+				b_torres_vedras = {}
+				#b_cascais = {
+				#	bedouin_arabic = "Qas Qadish" # ?
+				#	maghreb_arabic = "Qas Qadish"
+				#	levantine_arabic = "Qas Qadish"
+				#	egyptian_arabic = "Qas Qadish"
+				#	andalusian_arabic = "Qas Qadish"
+				#	sicilian_arabic = "Qas Qadish"
+				#	leonese = "Cascaes"
+				#	castillan = "Cascaes"
+				#	basque = "Kaskais"
+				#}
+				#b_cadaval = {
+				#	bedouin_arabic = "Qad Abbal" # ?
+				#	maghreb_arabic = "Qad Abbal"
+				#	levantine_arabic = "Qad Abbal"
+				#	egyptian_arabic = "Qad Abbal"
+				#	andalusian_arabic = "Qad Abbal"
+				#	sicilian_arabic = "Qad Abbal"
+				#	basque = "Kadabal"
+				#}
+				#b_azambuja = {
+				#	bedouin_arabic = "Azam Buxa" # ?
+				#	maghreb_arabic = "Azam Buxa"
+				#	levantine_arabic = "Azam Buxa"
+				#	egyptian_arabic = "Azam Buxa"
+				#	andalusian_arabic = "Azam Buxa"
+				#	sicilian_arabic = "Azam Buxa"
+				#	basque = "Azambuia"
+				#	frankish = "Azambouille"
+				#}
+			} # end c_lisboa
+			c_castelo_branco = { # Castelo Branco (187)
+				color = { 85 78 68 }
+				color2 = { 255 255 255 }
+				b_castelobranco = {}
+				b_covilha = {}
+				b_belmonte = {}
+				b_oleiros = {}
+				b_idanha_a_nova = {}
+				b_penamacor = {}
+				b_proenca_a_nova = {}
+				#b_vila_velha_de_rodao = {
+				#	bedouin_arabic = "Ruddun" # ?
+				#	maghreb_arabic = "Ruddun"
+				#	levantine_arabic = "Ruddun"
+				#	egyptian_arabic = "Ruddun"
+				#	andalusian_arabic = "Ruddun"
+				#	sicilian_arabic = "Ruddun"
+				#	basque = "Zaharraherria Rodon"
+				#	aragonese = "Villaviella de Rodón"
+				#	catalan = "Vilavella de Rodó"
+				#	galician = "Vilavella de Rodón"
+				#	leonese = "Villavieya de Rodón"
+				#	castillan = "Villavieja de Rodón"
+				#	frankish = "Villevieille de Rodon"
+				#}
+				#b_vila_de_rei = {
+				#	bedouin_arabic = "Zezere" # ?
+				#	maghreb_arabic = "Zezere"
+				#	levantine_arabic = "Zezere"
+				#	egyptian_arabic = "Zezere"
+				#	andalusian_arabic = "Zezere"
+				#	sicilian_arabic = "Zezere"
+				#	basque = "Erregeko Herri"
+				#	aragonese = "Villa de Rey"
+				#	catalan = "Vila de Rei"
+				#	leonese = "Villa de Rey"
+				#	castillan = "Villa de Rey"
+				#	frankish = "Ville-de-Roi"
+				#}
+			} # end c_castelo_branco
+			c_thomar = { # Tomar (1195)
+				color = { 220 54 50 }
+				color2 = { 255 255 255 }
+				b_tomar = {}
+				b_santarem = {}
+				b_abrantes = {}
+				b_ourem = {}
+				b_macao = {}
+				b_ferreira_do_zezere = {}
+				b_torres_novas = {}
+			} # end c_thomar
+			c_leiria = { # Leiria (1215)
+				color = { 254 203 193 }
+				color2 = { 255 255 255 }
+				b_leiria = {}
+				b_batalha = {}
+				b_alcobaca = {}
+				b_alvaiazere = {}
+				b_figueiro_dos_vinhos = {}
+				b_obidos = {}
+				b_pedrogao_grande = {}
+				#b_pombal = {
+				#	bedouin_arabic = "Bumbal" # ?
+				#	maghreb_arabic = "Bumbal"
+				#	levantine_arabic = "Bumbal"
+				#	egyptian_arabic = "Bumbal"
+				#	andalusian_arabic = "Bumbal"
+				#	sicilian_arabic = "Bumbal"
+				#}
+				#b_porto_de_mos = {
+				#	bedouin_arabic = "Burtu al-Muz" # ?
+				#	maghreb_arabic = "Burtu al-Muz"
+				#	levantine_arabic = "Burtu al-Muz"
+				#	egyptian_arabic = "Burtu al-Muz"
+				#	andalusian_arabic = "Burtu al-Muz"
+				#	sicilian_arabic = "Burtu al-Muz"
+				#	castillan = "Puerto de Muelas"
+				#	leonese = "Puertu de Mueles"
+				#	galician = "Porto de Moas"
+				#	basque = "Errotariako Portu"
+				#	aragonese = "Puerto de Ruellos"
+				#	catalan = "Port de Moles"
+				#	frankish = "Port de Meules"
+				#}
+			} # end c_leiria
+			allow = { title_duke_basic_allow = yes }
+		} # end d_ribatejo
+		d_beira = { # Beira
+			color = { 19 83 180 }
+			color2 = { 255 255 255 }
+			capital = 159 # Coimbra
+			andalusian_arabic = "Coimbra"
+			bedouin_arabic = "Coimbra"
+			yemeni = "Coimbra"
+			hijazi = "Coimbra"
+			maghreb_arabic = "Coimbra"
+			levantine_arabic = "Coimbra"
+			egyptian_arabic = "Coimbra"
+			sicilian_arabic = "Coimbra"
+			c_coimbra = { # Coimbra (159)
+				color = { 242 237 65 }
+				color2 = { 255 255 255 }
+				greek = "Aeminium"
+				roman = "Aeminium"
+				b_coimbra = {}
+				b_cantanhede = {}
+				b_penela = {}
+				b_condeixa = {}
+				b_miranda_do_corvo = {}
+				b_montemor = {}
+				b_penacova = {}
+				#b_soure = {
+				#	bedouin_arabic = "Sure" # ?
+				#	maghreb_arabic = "Sure"
+				#	levantine_arabic = "Sure"
+				#	egyptian_arabic = "Sure"
+				#	andalusian_arabic = "Sure"
+				#	sicilian_arabic = "Sure"
+				#	castillan = "Sore"
+				#	basque = "Sore"
+				#	leonese = "Sore"
+				#	aragonese = "Sore"
+				#}
+				#b_arganil = {
+				#	bedouin_arabic = "Irganil" # ?
+				#	maghreb_arabic = "Irganil"
+				#	levantine_arabic = "Irganil"
+				#	egyptian_arabic = "Irganil"
+				#	andalusian_arabic = "Irganil"
+				#	sicilian_arabic = "Irganil"
+				#}
+			} # end c_coimbra
+			c_viseu = { # Viseu (1213)
+				color = { 220 54 50 }
+				color2 = { 255 255 255 }
+				b_aveiro = {}
+				b_viseu = {}
+				b_lamego = {}
+				b_castro_daire = {}
+				b_penedono = {}
+				b_mangualde = {}
+				b_moimenta_da_beira = {}
+				#b_mortagua = {
+				#	bedouin_arabic = "Maut'maa" # ?
+				#	maghreb_arabic = "Maut'maa"
+				#	levantine_arabic = "Maut'maa"
+				#	egyptian_arabic = "Maut'maa"
+				#	andalusian_arabic = "Maut'maa"
+				#	sicilian_arabic = "Maut'maa"
+				#	castillan = "Mortagua"
+				#	leonese = "Mortagua"
+				#	basque = "Urheriotza"
+				#	aragonese = "Mortaugua"
+				#	catalan = "Mortaigua"
+				#	frankish = "Morteau"
+				#}
+				#b_nelas = {
+				#	bedouin_arabic = "Nilah" # ?
+				#	maghreb_arabic = "Nilah"
+				#	levantine_arabic = "Nilah"
+				#	egyptian_arabic = "Nilah"
+				#	andalusian_arabic = "Nilah"
+				#	sicilian_arabic = "Nilah"
+				#	leonese = "Neles"
+				#	frankish = "Neles"
+				#}
+				#b_penalva_do_castelo = {
+				#	bedouin_arabic = "Sajrabiad al-Qal'at" # ?
+				#	maghreb_arabic = "Sajrabiad al-Qal'at"
+				#	levantine_arabic = "Sajrabiad al-Qal'at"
+				#	egyptian_arabic = "Sajrabiad al-Qal'at"
+				#	andalusian_arabic = "Sajrabiad al-Qal'at"
+				#	sicilian_arabic = "Sajrabiad al-Qal'at"
+				#	castillan = "Peñalba del Castillo"
+				#	leonese = "Peñalba del Castiellu"
+				#	basque = "Gazteluako Peñazuria"
+				#	aragonese = "Penyalba d'o Castiello"
+				#	catalan = "Penyalba del Castell"
+				#	frankish = "Rocheblanche-du-Château"
+				#}
+				#b_satao = {
+				#	bedouin_arabic = "Satunn" # ?
+				#	maghreb_arabic = "Satunn"
+				#	levantine_arabic = "Satunn"
+				#	egyptian_arabic = "Satunn"
+				#	andalusian_arabic = "Satunn"
+				#	sicilian_arabic = "Satunn"
+				#	galician = "Satón"
+				#	castillan = "Satón"
+				#	leonese = "Satón"
+				#	basque = "Saton"
+				#	aragonese = "Saton"
+				#	catalan = "Sató"
+				#	frankish = "Saton"
+				#}
+				#b_sernancelhe = {
+				#	bedouin_arabic = "Sirnan Silam" # ?
+				#	maghreb_arabic = "Sirnan Silam"
+				#	levantine_arabic = "Sirnan Silam"
+				#	egyptian_arabic = "Sirnan Silam"
+				#	andalusian_arabic = "Sirnan Silam"
+				#	sicilian_arabic = "Sirnan Silam"
+				#	galician = "Sernancelle"
+				#	castillan = "Sernancelle"
+				#	leonese = "Sernancielle"
+				#	basque = "Sernantzeia"
+				#	aragonese = "Sernanzelle"
+				#	catalan = "Sernancelle"
+				#	frankish = "Sernancelle"
+				#}
+				#b_tarouca = {
+				#	bedouin_arabic = "Taruqqa" # ?
+				#	maghreb_arabic = "Taruqqa"
+				#	levantine_arabic = "Taruqqa"
+				#	egyptian_arabic = "Taruqqa"
+				#	andalusian_arabic = "Taruqqa"
+				#	sicilian_arabic = "Taruqqa"
+				#	castillan = "Taroca"
+				#	leonese = "Taroca"
+				#	basque = "Taroka"
+				#	aragonese = "Taroca"
+				#	catalan = "Taroca"
+				#	frankish = "Taroque"
+				#}
+				#b_ilhavo = {
+				#	bedouin_arabic = "Il-Halb" # ?
+				#	maghreb_arabic = "Il-Halb"
+				#	levantine_arabic = "Il-Halb"
+				#	egyptian_arabic = "Il-Halb"
+				#	andalusian_arabic = "Il-Halb"
+				#	sicilian_arabic = "Il-Halb"
+				#	castillan = "Íllavo"
+				#	leonese = "Íllavo"
+				#	basque = "Illabo"
+				#	aragonese = "Íllavo"
+				#	catalan = "Íllavo"
+				#	frankish = "Illave"
+				#	galician = "Íllavo"
+				#}
+				#b_ovar = {
+				#	bedouin_arabic = "Ubbar" # ?
+				#	maghreb_arabic = "Ubbar"
+				#	levantine_arabic = "Ubbar"
+				#	egyptian_arabic = "Ubbar"
+				#	andalusian_arabic = "Ubbar"
+				#	sicilian_arabic = "Ubbar"
+				#	basque = "Obar"
+				#}
+			} # end c_viseu
+			c_trancoso = { # Trancoso (1214)
+				color = { 182 105 5 }
+				color2 = { 255 255 255 }
+				b_trancoso = {}
+				b_guarda = {}
+				b_seia = {}
+				b_manteigas = {}
+				b_celorico_da_beira = {}
+				b_aguiar_da_beira = {}
+				b_gouveia = {}
+				#b_figeira_de_castelo_rodrigo = {
+				#	bedouin_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	maghreb_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	levantine_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	egyptian_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	andalusian_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	sicilian_arabic = "Figyira al-Qal'at al-Ludhriq"
+				#	castillan = "Figuera de Castillo Rodrigo"
+				#	galician = "Figuera de Castro Rui"
+				#	leonese = "Figuera de Castiellu Rodrigu"
+				#	basque = "Errodeika-Gaztelua Figuera"
+				#	aragonese = "Figuera de Castiello Roderic"
+				#	catalan = "Figuera de Castell Roderic"
+				#	frankish = "Figuere-de-Château Rodrigue"
+				#}
+				#b_almeida = {
+				#	bedouin_arabic = "Talmeyda"
+				#	maghreb_arabic = "Talmeyda"
+				#	levantine_arabic = "Talmeyda"
+				#	egyptian_arabic = "Talmeyda"
+				#	andalusian_arabic = "Talmeyda"
+				#	sicilian_arabic = "Talmeyda"
+				#	frankish = "Almeide"
+				#}
+				#b_pinhel = {
+				#	bedouin_arabic = "Sanaubar"
+				#	maghreb_arabic = "Sanaubar"
+				#	levantine_arabic = "Sanaubar"
+				#	egyptian_arabic = "Sanaubar"
+				#	andalusian_arabic = "Sanaubar"
+				#	sicilian_arabic = "Sanaubar"
+				#	castillan = "Piñel"
+				#	galician = "Piñel"
+				#	leonese = "Piñel"
+				#	basque = "Piñel"
+				#	aragonese = "Pinyel"
+				#	catalan = "Pinyel"
+				#	frankish = "Pignel"
+				#}
+				#b_sabugal = {
+				#	bedouin_arabic = "Khman"
+				#	maghreb_arabic = "Khman"
+				#	levantine_arabic = "Khman"
+				#	egyptian_arabic = "Khman"
+				#	andalusian_arabic = "Khman"
+				#	sicilian_arabic = "Khman"
+				#	leonese = "Saucal"
+				#	frankish = "Sureale"
+				#	catalan = "Saücal"
+				#	aragonese = "Sabucal"
+				#	basque = "Iturrioa"
+				#}
+				#b_vila_nova_de_foz_coa = {
+				#	bedouin_arabic = "Fuza al-Qua"
+				#	maghreb_arabic = "Fuza al-Qua"
+				#	levantine_arabic = "Fuza al-Qua"
+				#	egyptian_arabic = "Fuza al-Qua"
+				#	andalusian_arabic = "Fuza al-Qua"
+				#	sicilian_arabic = "Fuza al-Qua"
+				#	castillan = "Villanueva de Foz Cuda"
+				#	galician = "Vila Nova de Foz Coa"
+				#	leonese = "Villanueva de Foz Cuda"
+				#	basque = "Herriberria Foz Kuta"
+				#	aragonese = "Vilanova de Foz Cuda"
+				#	catalan = "Vilanova de Foz Cuda"
+				#	frankish = "Villeneuve de Foz-sur-Coa"
+				#}
+			} # end c_trancoso
+			allow = { title_duke_basic_allow = yes }
+		} # end d_beira
+		# Creation/usurpation trigger
+		allow = { title_king_basic_allow = yes }
+	} # end k_spanish_galicia
 	# Principado de Cataluña
 	k_catalunya = { # Catalunya
 		color = { 200 0 50 }
@@ -22703,11 +22576,80 @@ e_spain = { # España
 			title_king_basic_allow = yes
 		}
 	}
-	# Reino de Valencia
+	# Reino de Valencia - now de jure as a placeholder kingdom
 	k_valencia = { # Valencia
 		color = { 200 0 50 }
 		color2 = { 255 255 255 }
 		capital = 171 # Valencia
+		catholic = 250 # Crusade target weight
+		sunni = 25 # Crusade target weight
+		d_valencia = { # Valencia
+			color = { 210 73 50 }
+			color2 = { 255 255 255 }
+			capital = 171 # Valencia
+			c_castellon = { # Castellon (172)
+				color = { 0 128 64 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Marmaria"
+				bedouin_arabic = "Marmaria"
+				yemeni = "Marmaria"
+				hijazi = "Marmaria"
+				maghreb_arabic = "Marmaria"
+				levantine_arabic = "Marmaria"
+				egyptian_arabic = "Marmaria"
+				sicilian_arabic = "Marmaria"
+				b_castellon = {}
+				b_burriana = {}
+				b_segorbe = {}
+				b_nules = {}
+				b_vinaros = {}
+				b_morella = {}
+				b_vilarreal = {}
+				#b_alcalaten = {
+				#	bedouin_arabic = "al-Qal'atyn" # ?
+				#	hijazi = "al-Qal'atyn"
+				#	yemeni = "al-Qal'atyn"
+				#	maghreb_arabic = "al-Qal'atyn"
+				#	levantine_arabic = "al-Qal'atyn"
+				#	egyptian_arabic = "al-Qal'atyn"
+				#	andalusian_arabic = "al-Qal'atyn"
+				#	sicilian_arabic = "al-Qal'atyn"
+				#	catalan = "l'Alcalatén"
+				#	basque = "Alkalaten"
+				#	frankish = "Alcalaten"
+				#}
+			} # end c_castellon
+			c_denia = { # Denia (170)
+				color = { 0 0 255 }
+				color2 = { 255 255 255 }
+				b_denia = {}
+				b_elche = {}
+				b_alicante = {}
+				b_castalla = {}
+				b_benissa = {}
+			} # end c_denia
+			c_valencia = { # Valencia (171)
+				color = { 0 0 160 }
+				color2 = { 255 255 255 }
+				b_gandia = {}
+				b_valencia = {}
+				b_jativa = {}
+				b_alacuas = {}
+				b_cuartdepoblet = {}
+				b_alberique = {}
+				b_chiva = {}
+				#b_torrent = {
+				#	bedouin_arabic = "Turint"
+				#	maghreb_arabic = "Turint"
+				#	levantine_arabic = "Turint"
+				#	egyptian_arabic = "Turint"
+				#	andalusian_arabic = "Turint"
+				#	sicilian_arabic = "Turint"
+				#	castillan = "Torrente"
+				#}
+			} # end c_valencia
+			allow = { title_duke_basic_allow = yes }
+		} # end d_valencia
 		allow = {
 			OR = {
 				AND = {
@@ -22718,8 +22660,8 @@ e_spain = { # España
 			}
 			c_denia = { owner_under_ROOT = yes }
 			c_castellon = { owner_under_ROOT = yes }
-			c_murcia = { owner_under_ROOT = yes }
-			c_almansa = { owner_under_ROOT = yes }
+			#c_murcia = { owner_under_ROOT = yes }
+			#c_almansa = { owner_under_ROOT = yes }
 			title_king_basic_allow = yes
 		}
 	}
@@ -22748,19 +22690,175 @@ e_spain = { # España
 		color2 = { 0 0 0 }
 		capital = 155 # Asturias de Oviedo # Asturas de Oviedo
 		dignity = 15 # Counted as having 15 more counties than it does
-		allow = {
-			OR = {
-				AND = {
-					culture_group = iberian
-					religion_group = christian
+		catholic = 250 # Crusade target weight
+		sunni = 25 # Crusade target weight
+		d_leon = { # León
+			color = { 227 228 229 }
+			color2 = { 255 255 255 }
+			capital = 190 # León # Leon
+			c_leon = { # León (190)
+				color = { 99 11 87 }
+				color2 = { 255 255 255 }
+				b_leon = {}
+				b_sahagun = {}
+				b_mansilladelasmulas = {}
+				b_luna = {}
+				b_coyanza = {}
+				b_puentedeorbigo = { # ?
 				}
-				FROM = { is_de_jure_title = yes }
-			}
-			c_asturias_de_oviedo = { owner_under_ROOT = yes }
-			c_asturias_de_santillana = { owner_under_ROOT = yes }
+				b_cistierna = {}
+			} # end c_leon
+			c_zamora = { # Zamora (191)
+				color = { 3 154 3 }
+				color2 = { 255 255 255 }
+				greek = "Oceloduri"
+				roman = "Oceloduri"
+				b_zamora = {}
+				b_tabara = {}
+				b_sanabria = {}
+				b_albadealiste = {}
+				b_castanyeda = {}
+			} # end c_zamora
+			c_asturias_de_oviedo = { # Asturias de Oviedo (155)
+				color = { 19 83 180 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Oviedo"
+				bedouin_arabic = "Oviedo"
+				yemeni = "Oviedo"
+				hijazi = "Oviedo"
+				maghreb_arabic = "Oviedo"
+				levantine_arabic = "Oviedo"
+				egyptian_arabic = "Oviedo"
+				sicilian_arabic = "Oviedo"
+				b_oviedo = {}
+				b_gijon = {}
+				b_cangasdeonis = {}
+				b_quiros = {}
+				b_norena = {}
+				b_aviles = {}
+				b_santamariadelnaranco = {}
+			} # end c_asturias_de_oviedo
+			c_astorga = { # Astorga (189)
+				color = { 237 28 36 }
+				color2 = { 255 255 255 }
+				b_ulver = {}
+				b_astorga = {}
+				b_villafrancadelbierzo = {}
+				b_ponferrada = {}
+				b_villablino = {}
+				b_carracedo = {}
+			} # end c_astorga
+			c_toro = { # Toro (1193)
+				color = { 234 193 2 }
+				color2 = { 255 255 255 }
+				b_benavente = {}
+				b_toro = {}
+				b_villalpando = {}
+			} # end c_toro
+			allow = { title_duke_basic_allow = yes }
+		} # end d_leon
+		d_salamanca = { # Salamanca
+			color = { 8 132 74 }
+			color2 = { 255 255 255 }
+			capital = 192 # Salamanca
+			c_salamanca = { # Salamanca (192)
+				color = { 37 61 19 }
+				color2 = { 255 255 255 }
+				b_salamanca = {}
+				b_bejar = {}
+				b_guijuelo = {}
+				b_albadetormes = {}
+				b_penyaranda = {}
+				b_ciudadrodrigo = {}
+				b_sanctispiritus = {}
+			} # end c_salamanca
+			c_ledesma = { # Ledesma (1194)
+				color = { 250 206 2 }
+				color2 = { 255 255 255 }
+				andalusian_arabic = "Bletisa"
+				bedouin_arabic = "Bletisa"
+				yemeni = "Bletisa"
+				hijazi = "Bletisa"
+				maghreb_arabic = "Bletisa"
+				levantine_arabic = "Bletisa"
+				egyptian_arabic = "Bletisa"
+				sicilian_arabic = "Bletisa"
+				b_ledesma = {}
+				b_fuentesauco = {}
+				b_fermoselle = {}
+				b_lapenya = {}
+			} # end c_ledesma
+			allow = { title_duke_basic_allow = yes }
+		} # end d_salamanca
+		d_segovia = { # Segovia
+			color = { 237 28 36 }
+			color2 = { 255 255 255 }
+			capital = 1199 # Segovia
+			c_segovia = { # Segovia (1199)
+				color = { 0 113 188 }
+				color2 = { 255 255 255 }
+				b_segovia = {}
+				b_sepulveda = {}
+				b_sacramenia = {}
+				b_cuellar = {}
+				b_villacastin = {}
+				b_parraces = {}
+			} # end c_segovia
+			c_avila = { # Ávila (1198)
+				color = { 224 83 90 }
+				color2 = { 255 255 255 }
+				b_avila = {}
+				b_arevalo = {}
+				b_valdeiglesias = {}
+				b_valdecorneja = {}
+				b_piedrahita = {}
+				b_bonilla = {}
+			} # end c_avila
+			c_medina_del_campo = { # Medina del Campo (1197)
+				color = { 241 229 221 }
+				color2 = { 255 255 255 }
+				b_portillo = {}
+				b_medinadelcampo = {}
+				b_tordesillas = {}
+			} # end c_medina_del_campo
+			allow = { title_duke_basic_allow = yes }
+		} # end d_segovia
+		d_najera = { # Nájera
+			color = { 0 113 188 }
+			color2 = { 255 255 255 }
+			capital = 201 # Nájera # Najera
+			c_najera = { # Nájera (201)
+				color = { 219 181 2 }
+				color2 = { 255 255 255 }
+				b_najera = {}
+				b_haro = {}
+				b_santodomingodelacalzada = {}
+				b_anguiano = {}
+				b_san_millan = {}
+			} # end c_najera
+			c_logrono = { # Logroño (1217)
+				color = { 7 97 148 }
+				color2 = { 255 255 255 }
+				b_logronyo = {}
+				b_alfaro = {}
+				b_calahorra = {}
+				b_arnedo = {}
+			} # end c_logrono
+			allow = { title_duke_basic_allow = yes }
+		} # end d_najera
+		allow = {
+			#OR = {
+			#	AND = {
+			#		culture_group = iberian
+			#		religion_group = christian
+			#	}
+			#	FROM = { is_de_jure_title = yes }
+			#}
+			#c_asturias_de_oviedo = { owner_under_ROOT = yes }
+			#c_asturias_de_santillana = { owner_under_ROOT = yes }
 			title_king_basic_allow = yes
 		}
-	}
+	} # end k_asturias
 	gain_effect = {
 		if = {
 			limit = { NOT = { has_global_flag = reconquista_finished } }
@@ -23254,7 +23352,7 @@ e_africa = { # Africa
 				greek = "Cherchell"
 				roman = "Cherchell"
 				b_algiers = {}
-				b_mattija = {}
+				#b_mattija = {} # duplicate of b_lemdiyya
 				b_miliana = {}
 				b_sharshal = {}
 				b_elachour = {}
@@ -23274,6 +23372,7 @@ e_africa = { # Africa
 				roman = "Cartennas"
 				b_suq_ibrahim = {}
 				b_tanas = {}
+				b_mostaganem = {}
 				b_marat = {}
 				b_mazouna = {}
 				b_sidiakacha = {}
@@ -23314,14 +23413,11 @@ e_africa = { # Africa
 				greek = "Siga"
 				roman = "Siga"
 				b_oran = {}
-				b_arshgul = {}
 				b_kasribnsinan = {}
 				b_aintemouchent = {}
 				b_marsafarukh = {}
 				b_maghnia = {}
-				b_mostaganem = {}
-				#b_benisaf = {}
-				#b_ainelberd = {}
+				b_ainelberd = {}
 				#b_merselhadjad = {}
 				#b_gdyel = {}
 			}
@@ -23329,20 +23425,23 @@ e_africa = { # Africa
 				color = { 47 194 81 }
 				color2 = { 255 255 255 }
 				b_hanyan = {}
+				b_arshgul = {}
 				b_nadruma = {}
+				b_berkane = {}
 				b_alkasdir = {}
 				b_alancha = {}
 				b_magoura = {}
 				b_raselma = {}
-				b_bougtob = {}
+				#b_benisaf = {}
+				#b_bougtob = {}
 				#b_saida = {} # c_atlas_mnt
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_tlemcen
-		d_tangiers = { # Tanja
+		d_tangiers = { # Sebta
 			color = { 128 113 120 }
 			color2 = { 255 255 255 }
-			capital = 841 # Tandja # Tangiers
+			capital = 839 # Sebta # Ceuta
 			greek = "Mauretania Tingitana"
 			roman = "Mauretania Tingitana"
 			c_tangiers = { # Tandja (841)
@@ -23372,13 +23471,13 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				b_cueta = {}
 				b_tetouan = {}
+				b_kasrsaghir = {}
 				b_afrag = {}
 				b_mdiq = {}
 				b_martil = {}
 				b_aulef = {}
-				b_Xauen = {}
+				#b_Xauen = {}
 				#b_babtaza = {}
-				#b_targuist = {}
 			}
 			c_nakur = { # Nakur (1360)
 				color = { 54 255 12 }
@@ -23391,6 +23490,7 @@ e_africa = { # Africa
 				b_midar = {}
 				b_alhoceima = {}
 				b_driouch = {}
+				#b_targuist = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_tangiers
@@ -23411,14 +23511,15 @@ e_africa = { # Africa
 				b_walila = {}
 				b_qarawiyyin = {}
 				b_qalat_mahdi = {}
-				b_zerhoun = {}
+				b_tagragra = {}
+				#b_zerhoun = {}
 				#b_elhajeb = {}
 				#b_missour = {}
 				#b_enjil = {}
 				#b_tiflet = {}
 				#b_oulmes = {}
 			}
-			c_infa = { # Ribát al-Fath (842)
+			c_infa = { # Shalla (842)
 				color = { 48 255 6 }
 				color2 = { 255 255 255 }
 				greek = "Anfa"
@@ -23431,13 +23532,13 @@ e_africa = { # Africa
 				b_azemmour = {}
 				b_khouribga = {}
 			}
-			c_sa = { # Sa (1358)
+			c_tadla = { # Tadla (1358)
 				color = { 48 255 6 }
 				color2 = { 255 255 255 }
-				b_sa = {}
-				b_guercif = {}
-				b_debdou = {}
-				b_berkane = {}
+				b_dai = {}
+				b_tadla = {}
+				b_tagrart = {}
+				b_afza = {}
 			}
 			c_sala = { # Sala (1361)
 				color = { 48 255 6 }
@@ -23445,13 +23546,16 @@ e_africa = { # Africa
 				b_sale = {}
 				b_albasra = {}
 			}
-			c_el_rif = { # El-Ríf (838)
+			c_el_rif = { # Tázá (838)
 				color = { 28 240 63 }
 				color2 = { 255 255 255 }
 				b_taza = {}
+				b_sa = {}
+				b_guercif = {}
+				b_debdou = {}
 				b_ketama = {}
 				b_saka = {}
-				b_nador = {} # c_malila
+				#b_nador = {} # c_malila
 				#b_melilla = {} # c_malila
 				#b_alhoceima = {} # c_nakur
 				#b_midar = {} # c_nakur
@@ -23469,10 +23573,9 @@ e_africa = { # Africa
 				b_marrakech = {}
 				b_aghmat = {}
 				b_naffis = {}
-				b_dai = {}
 				b_tasgimut = {}
-				b_asni = {}
 				b_demnat = {}
+				b_asni = {}
 			}
 			c_tharasset = { # Tarúdant (847)
 				color = { 47 154 36 }
@@ -23534,8 +23637,9 @@ e_africa = { # Africa
 				color = { 49 156 38 }
 				color2 = { 255 255 255 }
 				b_thineghir = {}
-				b_ouarzazate = {}
 				b_alnif = {}
+				b_ansa = {}
+				b_ouarzazate = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -24059,7 +24163,6 @@ e_persia = { # Érán
 				b_abada = {}
 				b_sarvistan = {}
 				#b_yazdikhwast = {}
-				#b_lurdagan = {}
 			}
 			c_qom = { # Qom (659)
 				color = { 60 240 215 }
@@ -24092,13 +24195,10 @@ e_persia = { # Érán
 				roman = "Nahavand"
 				b_karadj_igharayn = {}
 				b_nihavand = {}
-				b_shapurkhwast = {}
-				b_khurramabad = {}
-				b_burujerd = {}
 				b_lishtar = {}
 				b_burdj = {}
-				#b_aligoodarz = {}
-				#b_dorood = {}
+				b_aligoodarz = {}
+				b_dorood = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_jebal
@@ -24136,28 +24236,34 @@ e_persia = { # Érán
 				color2 = { 255 255 255 }
 				pahlavi = "Istakhr"
 				b_shiraz = {}
-				b_djuyum = {}
-				b_istakhr = {}
 				b_bayda_shiraz = {}
-				b_mayin = {}
-				b_kamin = {}
-				b_fasa = {}
+				b_kazarun = {}
+				b_nawbandajan = {}
+				b_khubdhan = {}
+				b_khabr = {}
 			}
-			c_siraf = { # Irahistan (1594)
+			c_istakhr = { # Istakhr (1594)
 				color = { 40 190 189 }
+				color2 = { 255 255 255 }
+				b_istakhr = {}
+				b_mayin = {}
+				b_abarquh = {}
+				b_unas = {}
+				b_kamin = {}
+				b_budanjan = {}
+			}
+			c_larestan = { # Irahistan (642)
+				color = { 30 200 185 }
 				color2 = { 255 255 255 }
 				b_siraf = {}
 				b_kuran = {}
-				b_naband = {}
-				b_lawan = {}
-			}
-			c_larestan = { # Larestan (642)
-				color = { 30 200 185 }
-				color2 = { 255 255 255 }
-				b_huzu = {}
-				b_lar = {}
-				b_hisn-ibn-umara = {}
 				b_kariyan = {}
+				b_naband = {}
+				b_huzu = {}
+				b_hisn-ibn-umara = {}
+				b_laghir = {}
+				#b_lawan = {}
+				#b_djuyum = {}
 			}
 			c_mandistan = { # Mandistan (643)
 				color = { 35 200 195 }
@@ -24165,18 +24271,15 @@ e_persia = { # Érán
 				b_nadjiram = {}
 				b_khurmuj = {}
 				b_djur = {}
-				b_laghir = {}
-				b_djarhum = {}
+				b_djahrum = {}
 				b_ghundidjan = {}
-				b_khabr = {}
 			}
 			c_arrajan = { # Arrajan (645)
 				color = { 35 195 180 }
 				color2 = { 255 255 255 }
 				b_arrajan = {}
 				b_ganava = {}
-				b_kazarun = {}
-				b_khubdhan = {}
+				b_rishahr = {}
 				b_siniz = {}
 				b_tavvadj = {}
 			}
@@ -24188,26 +24291,26 @@ e_persia = { # Érán
 				b_furg = {}
 				b_qutruh = {}
 				b_niriz = {}
+				b_fasa = {}
 				b_istahbanat = {}
+				#b_lar = {}
 			}
 			c_yazd = { # Yazd (638)
 				color = { 115 150 18 }
 				color2 = { 255 255 255 }
-				b_abarquh = {}
 				b_yazd = {}
 				b_andjira = {}
-				b_unas = {}
 				b_maybudh = {}
 				b_fahradj = {}
+				b_nain = {}
 				b_bafq = {}
-				#b_nain = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_fars
 		d_kerman = { # Kermán
 			color = { 196 79 255 }
 			color2 = { 255 255 255 }
-			capital = 639 # Kermán # Kerman
+			capital = 640 # Sírján
 			greek = "Carmania"
 			pahlavi = "Kirman"
 			roman = "Carmania"
@@ -24229,9 +24332,10 @@ e_persia = { # Érán
 				color = { 195 75 250 }
 				color2 = { 255 255 255 }
 				b_djiruft = {}
-				b_rudkan = {}
+				b_rudhkan = {}
 				b_maghun = {}
 				b_darfarid = {}
+				b_valashgird = {}
 			}
 			c_sirjan = { # Sírján (640)
 				color = { 195 85 250 }
@@ -24246,12 +24350,14 @@ e_persia = { # Érán
 				color = { 40 65 10 }
 				color2 = { 255 255 255 }
 				b_hormuz = {}
-				b_sharuva = {}
-				b_laft = {}
+				b_manujan = {}
+				b_darahqan = {}
+				b_shahruva = {}
 				b_qeshm = {}
-				b_jarun = {}
-				b_larak = {}
 				b_kishqeshmi = {}
+				b_larak = {}
+				#b_jarun = {}
+				#b_laft = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_kerman
@@ -24283,9 +24389,33 @@ e_persia = { # Érán
 				b_askar-mukram = {}
 				b_tustar = {}
 				b_sus-khuzestani = {}
+				b_lurdagan = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_ahwaz
+		d_luristan = { # Lorestan # Luristan
+			color = { 58 83 130 }
+			color2 = { 255 255 255 }
+			capital = 1491 # Shapurkhwast
+			c_luristan = { # Luristan (657)
+				color = { 76 113 182 }
+				color2 = { 255 255 255 }
+				b_sirawan = {}
+				b_saimara = {}
+				b_tarhan = {}
+				b_koohdasht = {}
+				b_poledokhtar = {}
+				b_abdanan = {}
+			}
+			c_shapurkhwast = { # Shapurkhwast (1491)
+				color = { 42 159 121 }
+				color2 = { 255 255 255 }
+				b_shapurkhwast = {}
+				b_khurramabad = {}
+				b_burujerd = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_luristan
 		allow = { title_king_basic_allow = yes }
 	} # end k_persia
 	k_daylam = { # Daylam
@@ -24953,7 +25083,6 @@ e_persia = { # Érán
 				b_abbadan = {}
 				b_alubulla = {}
 				b_bayan = {}
-				b_kazima = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_tigris
@@ -24987,30 +25116,6 @@ e_persia = { # Érán
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_kermanshah = { # Kermanshah # Lorestan # Luristan
-			color = { 58 83 130 }
-			color2 = { 255 255 255 }
-			capital = 688 # Kermanshah
-			c_luristan = { # Luristan (657)
-				color = { 76 113 182 }
-				color2 = { 255 255 255 }
-				b_sirawan = {}
-				b_saimara = {}
-				b_tarhan = {}
-				b_koohdasht = {}
-				b_poledokhtar = {}
-				b_abdanan = {}
-			}
-			c_kermanshah = { # Kermanshah (688)
-				color = { 74 111 180 }
-				color2 = { 255 255 255 }
-				b_kangivar = {}
-				b_kermanshah = {}
-				b_hulwan = {}
-				b_mahalkufa = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_kermanshah
 		d_baghdad = { # Baghdad
 			color = { 125 165 239 }
 			color2 = { 255 255 255 }
@@ -25028,7 +25133,7 @@ e_persia = { # Érán
 				b_madain = {}
 				b_muhawwal = {}
 				b_baradan = {}
-				b_nahrawan = {}
+				b_sabat_baghdad = {}
 				b_awana = {}
 			}
 			c_al_amarah = { # Nahrawan (690) # Al Amarah
@@ -25036,6 +25141,7 @@ e_persia = { # Érán
 				color2 = { 255 255 255 }
 				assyrian = "Dasqarta d’Malka"
 				pahlavi = "Dastagird"
+				b_nahrawan = {}
 				b_bandanijin = {}
 				b_baqubah = {}
 				b_daskara = {}
@@ -25067,6 +25173,7 @@ e_persia = { # Érán
 				b_ukbara = {}
 				b_balad = {}
 				b_harba = {}
+				b_alth = {}
 				b_aldur = {}
 			}
 			c_deir = { # Anbar (695) # Deir
@@ -25097,8 +25204,16 @@ e_persia = { # Érán
 		d_kurdistan = { # Kurdistan
 			color = { 115 148 55 }
 			color2 = { 255 255 255 }
-			capital = 687 # Daquqa # Kirkuk
+			capital = 688 # Kermanshah
 			pahlavi = "Beth Garmai"
+			c_kermanshah = { # Kermanshah (688)
+				color = { 74 111 180 }
+				color2 = { 255 255 255 }
+				b_kangivar = {}
+				b_kermanshah = {}
+				b_hulwan = {}
+				b_mahalkufa = {}
+			}
 			c_kirkuk = { # Daquqa (687) # Kirkuk
 				color = { 141 181 254 }
 				color2 = { 255 255 255 }
@@ -28017,11 +28132,7 @@ e_null = { #
 				b_bakhmut = {}
 				b_balin = {}
 				b_sviatohirsk = {}
-				b_sugrov = {
-					#hungarian = "Chingilous"
-					#bashkir = "Chingilous" # Duplicate name of c_sharukan
-					#szekely = "Chingilous"
-				}
+				b_sugrov = {}
 			} # end c_sugrov
 			c_sharukan = { # Uda (565)
 				color = { 238 203 121 }
@@ -28695,7 +28806,7 @@ e_null = { #
 		color = { 124 60 128 }
 		color2 = { 255 255 255 }
 		capital = 1550 # Kabul
-		d_zabolestan = { # Zábolestán
+		d_zabulistan = { # Zábolestán
 			color = { 10 220 160 }
 			color2 = { 255 255 255 }
 			capital = 1547 # Ghazna
@@ -30464,6 +30575,13 @@ e_null = { #
 				b_gasga = {}
 				b_wara = {}
 			}
+			c_uri = { # Uri (1229)
+				color = { 232 236 108 }
+				color2 = { 255 255 255 }
+				b_uri = {}
+				b_elfasher = {}
+				b_ainfarah = {}
+			}
 			allow = { title_duke_basic_allow = yes }
 		}
 		d_kawar = { # Kawar
@@ -30653,7 +30771,7 @@ d_hilal = { # Banu Hilál
 	allow = { title_duke_basic_allow = yes }
 }
 
-d_qurra = { # Banu Zughba
+d_zughba = { # Banu Zughba
 	color = { 180 115 40 }
 	color2 = { 0 128 128 }
 	capital = 1351 # Nafzawa
@@ -30667,6 +30785,8 @@ d_massufa = { # Massúfa
 	capital = 916 # Taghaza
 	#tribe = yes
 	culture = sanhaja
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30678,6 +30798,8 @@ d_lamtuna = { # Lamtúna
 	capital = 920 # Wadán # Ouadane/Wadán
 	#tribe = yes
 	culture = tagelmust
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30689,6 +30811,8 @@ d_lamta = { # Lamta
 	capital = 846 # Ifni
 	#tribe = yes
 	culture = tagelmust
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30700,6 +30824,8 @@ d_lamta_east = { # Lamta
 	capital = 1396 # Tuat
 	#tribe = yes
 	culture = tagelmust
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30711,6 +30837,8 @@ d_guddala = { # Guddála
 	capital = 1368 # Amatlus
 	#tribe = yes
 	culture = tagelmust
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30722,6 +30850,8 @@ d_gazzula = { # Gazzúla
 	capital = 846 # Núl
 	#tribe = yes
 	culture = tagelmust
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30733,6 +30863,8 @@ d_lawata = { # Lawata
 	#tribe = yes
 	culture = zanata
 	capital = 807 # Awjíla
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30744,6 +30876,8 @@ d_masila = { # Masila
 	#tribe = yes
 	culture = zanata
 	capital = 804 # Sullum
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30755,6 +30889,8 @@ d_dakhila = { # Dakhila
 	#tribe = yes
 	culture = zanata
 	capital = 1342 # Dakhila
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30766,6 +30902,8 @@ d_musab = { # Mus'ab
 	capital = 829 # Al-Aghwat # Ghardaiya
 	#tribe = yes
 	culture = zaghawa
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30777,6 +30915,8 @@ d_azger = { # Azger
 	capital = 1402 # Djanet
 	#tribe = yes
 	culture = sanhaja
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30788,6 +30928,8 @@ d_mazata = { # Mazáta
 	capital = 809 # Syrte
 	#tribe = yes
 	culture = zanata
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30799,8 +30941,8 @@ d_mazata = { # Mazáta
 #	capital = 1225 # Agadez # Takkeda
 #	#tribe = yes
 #	culture = tuareg
-#	title = RAIS
-#	foa = RAIS_FOA
+#	#title = RAIS
+#	#foa = RAIS_FOA
 #	allow = { always = no }
 #}
 d_naqis = { # Naqís
@@ -30808,6 +30950,8 @@ d_naqis = { # Naqís
 	capital = 1593 # Allaqi
 	#tribe = yes
 	culture = beja
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30830,6 +30974,8 @@ d_baqlin = { # Baqlín
 	#tribe = yes
 	culture = beja
 	capital = 878 # Bádi
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30841,6 +30987,8 @@ d_djarin = { # Djarín
 	#tribe = yes
 	culture = beja
 	capital = 1507 # Marya
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30852,6 +31000,8 @@ d_qataa = { # Qata'a
 	#tribe = yes
 	culture = beja
 	capital = 1489 # Wolqayt
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30863,6 +31013,8 @@ d_bazin = { # Bazín
 	#tribe = yes
 	culture = beja
 	capital = 877 # Kassala
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30874,6 +31026,8 @@ d_nagash = { # Nagash
 	#tribe = yes
 	culture = beja
 	capital = 1508 # Adulis
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -30885,6 +31039,8 @@ d_danakil = { # Danakil
 	#tribe = yes
 	culture = afar
 	capital = 1517 # Danakil
+	#title = RAIS
+	#foa = RAIS_FOA
 	allow = { title_duke_basic_allow = yes }
 	title = RAIS
 	title_female = RAIS
@@ -31104,10 +31260,10 @@ d_karaman = { # Qaraman
 	greek = "Lycaonia"
 }
 
-k_magyar = { # Hét Magyar
+k_magyar = { # Hetumoger
 	color = { 187 70 70 }
 	#tribe = yes
-	culture = hungarian
+	culture = old_hungarian
 	capital = 522 # Veszprém # Pest
 	allow = { title_king_basic_allow = yes }
 }
@@ -31327,7 +31483,7 @@ k_ziyanids = { # Ziyanids
 
 k_makuria = { # Makouria # Makuria
 	color = { 165 180 95 }
-	capital = 793 # Makouria # Makuria
+	capital = 793 # Dongola # Makuria
 	allow = { title_king_basic_allow = yes }
 }
 
@@ -31358,14 +31514,13 @@ k_ifat = { # Ifat
 	allow = { title_king_basic_allow = yes }
 }
 
-k_blemmyes = { # Béja
-	color = { 255 67 20 }
-	#tribe = yes
-	culture = beja
-	capital = 1593 # Allaqi
-	allow = { title_king_basic_allow = yes }
-}
-
+#k_blemmyes = { # Béja
+#	color = { 255 67 20 }
+#	#tribe = yes
+#	culture = beja
+#	capital = 1593 # Allaqi
+#	allow = { title_king_basic_allow = yes }
+#}
 k_kimek = { # Kimek
 	color = { 131 70 186 }
 	#tribe = yes

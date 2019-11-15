@@ -523,6 +523,42 @@ d_narbonne = { # Narbona # titre porté par les ducs de Toulouse pour affirmer le
 }
 
 # King
+d_saxon_ostmark = { # Ostmark # March of the East or March of Gero
+	color = { 94 83 162 }
+	culture = german
+	allow = {
+		OR = {
+			AND = {
+				OR = {
+					culture = thuringian
+					culture = low_saxon
+					culture = franconian
+					culture = bavarian
+					culture = swabian
+				}
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
+		}
+		title_king_basic_allow = yes
+	}
+}
+
+d_billungmark = { # Billungmark # March of the Billungs
+	color = { 120 7 188 }
+	culture = german
+	allow = {
+		OR = {
+			AND = {
+				OR = { culture = low_saxon }
+				religion_group = christian
+			}
+			FROM = { is_de_jure_title = yes }
+		}
+		title_king_basic_allow = yes
+	}
+}
+
 d_paulicians = { # Paulikianoi
 	color = { 78 33 125 }
 	capital = 944 # Tephrike
@@ -850,7 +886,7 @@ d_sharif_mecca = { # Makkah # Mecca
 
 d_siraf = { # Siráf
 	color = { 40 200 200 }
-	capital = 1594 # Irahistan # Siraf
+	capital = 642 # Irahistan
 	allow = {
 		OR = {
 			culture = persian
