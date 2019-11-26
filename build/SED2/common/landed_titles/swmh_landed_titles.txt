@@ -12161,6 +12161,12 @@ e_arabia = { # Arabian Empire
 				b_shihr = {}
 				b_qishn = {}
 			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_hadramaut
+		d_socotra = { # Socotra
+			color = { 142 255 85 }
+			color2 = { 255 255 255 }
+			capital = 1552 # Suqutra # Socotra
 			c_socotra = { # Suqutra (1552) # Socotra
 				color = { 142 255 55 }
 				color2 = { 255 255 255 }
@@ -12173,7 +12179,7 @@ e_arabia = { # Arabian Empire
 				b_qashiu = {}
 			}
 			allow = { title_duke_basic_allow = yes }
-		} # end d_hadramaut
+		} # end d_socotra
 		allow = { title_king_basic_allow = yes }
 	} # end k_yemen
 	k_egypt = { # Misr
