@@ -20198,13 +20198,13 @@ e_africa = {
 				color2 = { 255 255 255 }
 				greek = "Hadrumetum"
 				roman = "Hadrumetum"
+				b_mahdia = {}
+				b_salakta = {}
 				b_monastir = {}
 				b_sousse = {}
 				b_akuda = {}
 				b_siliana = {}
 				b_lekef = {}
-				b_kasserine = {}
-				b_sidimubarak = {}
 			}
 			c_bizerte = {
 				color = { 29 241 104 }
@@ -20234,10 +20234,8 @@ e_africa = {
 				greek = "Thapsus"
 				roman = "Thapsus"
 				b_sfax = {}
-				b_mahdia = {}
-				b_haydaran = {}
-				b_salakta = {}
 				b_chebba = {}
+				b_kerkennah = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -20253,6 +20251,7 @@ e_africa = {
 				b_haddej = {}
 				b_gabes = {}
 				b_alhamma = {}
+				b_haydaran = {}
 				b_tataouine = {}
 				b_medenine = {}
 				b_steftimi = {}
