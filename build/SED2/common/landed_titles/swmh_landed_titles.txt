@@ -5437,32 +5437,32 @@ e_hre = { # Heiliges Römisches Reich
 	}
 	allow = {
 		FROM = { is_de_jure_title = yes }
-		conditional_tooltip = {
-			trigger = { has_global_flag = EMF }
-			FROM = { has_holder = yes }
+		trigger_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = yes } # Usurpation
+			}
 			OR = {
-				realm_size = 320
-				AND = {
-					realm_size = 120
+				realm_size >= 320
+				FROM = { has_law = crown_authority_4 }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = no } # Creation
+			}
+			OR = {
+				realm_size >= 320
+				primary_title = {
 					OR = {
-						FROM = {
-							has_holder = yes
-							has_law = crown_authority_4
-						}
-						AND = {
-							FROM = { has_holder = no }
-							primary_title = {
-								OR = {
-									has_law = crown_authority_3
-									has_law = crown_authority_4
-								}
-							}
-						}
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
 		}
-		title_emperor_basic_allow = yes
+		title_emperor_basic_allow = yes # Takes care of the min. 120 realm_size requirement
 	}
 } # end e_hre
 
@@ -5475,26 +5475,27 @@ e_roman_empire = { # Roman Empire
 	religion = orthodox
 	allow = {
 		FROM = { is_de_jure_title = yes }
-		conditional_tooltip = {
-			trigger = { has_global_flag = EMF }
+		trigger_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = yes } # Usurpation
+			}
 			OR = {
-				realm_size = 420
-				AND = {
-					realm_size = 120
+				realm_size >= 420
+				FROM = { has_law = crown_authority_4 }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = no } # Creation
+			}
+			OR = {
+				realm_size >= 420
+				primary_title = {
 					OR = {
-						FROM = {
-							has_holder = yes
-							has_law = crown_authority_4
-						}
-						AND = {
-							FROM = { has_holder = no }
-							primary_title = {
-								OR = {
-									has_law = crown_authority_3
-									has_law = crown_authority_4
-								}
-							}
-						}
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
@@ -8127,7 +8128,13 @@ e_byzantium = { # Basileia Rhõmaiõn
 			limit = { e_latin_empire = { has_holder = yes } }
 			e_latin_empire = { has_holder = no }
 		}
-		c_byzantion = { owner_under_ROOT = yes }
+		c_byzantion = {
+			owner_under_ROOT = yes
+			trigger_if = {
+				limit = { NOT = { empire = { title = FROM } } }
+				empire = { title = FROM }
+			}
+		}
 		title_emperor_basic_allow = yes
 	}
 } # end e_byzantium
@@ -12077,7 +12084,6 @@ e_arabia = { # Arabian Empire
 				roman = "Eudaemon"
 				b_qalatsira = {}
 				b_aden = {}
-				b_ahwar = {}
 				b_lahej = {}
 				b_khadra = {}
 				b_zinjibar = {}
@@ -13581,26 +13587,27 @@ e_arabia = { # Arabian Empire
 		allow = { title_king_basic_allow = yes }
 	} # end k_aljazira
 	allow = {
-		conditional_tooltip = {
-			trigger = { has_global_flag = EMF }
+		trigger_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = yes } # Usurpation
+			}
 			OR = {
-				realm_size = 220
-				AND = {
-					realm_size = 120
+				realm_size >= 220
+				FROM = { has_law = crown_authority_4 }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = no } # Creation
+			}
+			OR = {
+				realm_size >= 220
+				primary_title = {
 					OR = {
-						FROM = {
-							has_holder = yes
-							has_law = crown_authority_4
-						}
-						AND = {
-							FROM = { has_holder = no }
-							primary_title = {
-								OR = {
-									has_law = crown_authority_3
-									has_law = crown_authority_4
-								}
-							}
-						}
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
@@ -24234,6 +24241,18 @@ e_persia = { # Érán
 				b_alamut = {}
 				b_lambassar = {}
 			}
+			c_kharraqan = { # Kharraqan (665)
+				color = { 64 89 136 }
+				color2 = { 255 255 255 }
+				pahlavi = "Apahr"
+				b_zanjan = {}
+				b_abhar = {}
+				b_shamiran = {}
+				b_suhravard = {}
+				b_sharuyaz = {}
+				b_khunaj = {}
+				b_aba = {}
+			}
 			allow = { title_duke_basic_allow = yes }
 		}
 		d_fars = { # Párs
@@ -24491,18 +24510,6 @@ e_persia = { # Érán
 				b_lahidjan = {}
 				b_fumin = {}
 				b_kutum = {}
-			}
-			c_kharraqan = { # Kharraqan (665)
-				color = { 64 89 136 }
-				color2 = { 255 255 255 }
-				pahlavi = "Apahr"
-				b_zanjan = {}
-				b_abhar = {}
-				b_shamiran = {}
-				b_suhravard = {}
-				b_sharuyaz = {}
-				b_khunaj = {}
-				b_aba = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
@@ -24893,6 +24900,7 @@ e_persia = { # Érán
 				b_bezda = {}
 				b_subakh = {}
 				b_kandak = {}
+				b_qarshi = {}
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_soghd
@@ -25544,26 +25552,27 @@ e_persia = { # Érán
 		allow = { title_king_basic_allow = yes }
 	} # end k_sistan
 	allow = {
-		conditional_tooltip = {
-			trigger = { has_global_flag = EMF }
+		trigger_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = yes } # Usurpation
+			}
 			OR = {
-				realm_size = 220
-				AND = {
-					realm_size = 120
+				realm_size >= 220
+				FROM = { has_law = crown_authority_4 }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_global_flag = EMF
+				FROM = { has_holder = no } # Creation
+			}
+			OR = {
+				realm_size >= 220
+				primary_title = {
 					OR = {
-						FROM = {
-							has_holder = yes
-							has_law = crown_authority_4
-						}
-						AND = {
-							FROM = { has_holder = no }
-							primary_title = {
-								OR = {
-									has_law = crown_authority_3
-									has_law = crown_authority_4
-								}
-							}
-						}
+						has_law = crown_authority_3
+						has_law = crown_authority_4
 					}
 				}
 			}
@@ -27242,7 +27251,7 @@ e_deccan = {
 	k_tamilakam = { # Tamilakam
 		color = { 200 25 65 }
 		color2 = { 255 255 255 }
-		capital = 1115 # Cholamandalam
+		capital = 2052 # Mahoyadapuram
 		d_pandya_nadu = {
 			color = { 180 80 130 }
 			color2 = { 255 255 255 }
@@ -27308,7 +27317,7 @@ e_deccan = {
 	k_telingana = { # Telingana
 		color = { 195 50 55 }
 		color2 = { 220 220 0 }
-		capital = 1256 # Orangallu
+		capital = 2020 # Balkonda
 		d_warangal = {
 			color = { 185 39 45 }
 			color2 = { 255 255 255 }
@@ -29630,6 +29639,7 @@ e_null = { #
 				b_almaliq = {}
 				b_pulad = {}
 				b_quyash = {}
+				b_quchlug = {}
 				b_sarbulaq = {}
 			}
 			c_barskhan = { # Barskhan (1577)
