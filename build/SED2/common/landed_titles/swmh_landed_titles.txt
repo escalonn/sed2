@@ -5408,7 +5408,6 @@ e_hre = { # Heiliges Römisches Reich
 	k_franconia_otto = {
 		color = { 105 135 105 }
 		color2 = { 255 255 255 }
-		# NOTE: TODO: capital unchecked for SWMH map
 		capital = 254 # Wurzburg
 		allow = {
 			FROM = { is_de_jure_title = yes }
@@ -5418,7 +5417,6 @@ e_hre = { # Heiliges Römisches Reich
 	k_thuringia_otto = {
 		color = { 212 211 231 }
 		color2 = { 255 255 255 }
-		# NOTE: TODO: capital unchecked for SWMH map
 		capital = 255 # Thuringen
 		allow = {
 			FROM = { is_de_jure_title = yes }
@@ -5428,8 +5426,7 @@ e_hre = { # Heiliges Römisches Reich
 	k_swabia_otto = {
 		color = { 173 186 255 }
 		color2 = { 255 255 255 }
-		# NOTE: TODO: capital unchecked for SWMH map
-		capital = 249 # Schwaben
+		capital = 1964 # Nellenburg
 		allow = {
 			FROM = { is_de_jure_title = yes }
 			title_king_basic_allow = yes
