@@ -26613,3 +26613,28 @@ e_india = {
 	title_female = SAMRAJNI_CHAKRAVARTIN
 	dynasty_title_names = no
 }
+
+e_russian_empire = {
+	color = { 220 60 70 }
+	color2 = { 255 255 255 }
+	capital = 582
+	culture = russian
+	allow = { always = no }
+}
+
+e_nicaea = {
+	color = { 240 17 17 }
+	color2 = { 255 255 20 }
+	capital = 750
+	culture = greek
+	has_top_de_jure_capital = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = { has_global_flag = EMF }
+				e_nicaea = { is_titular = yes }
+			}
+			e_nicaea = { is_titular = no }
+		}
+	}
+}
