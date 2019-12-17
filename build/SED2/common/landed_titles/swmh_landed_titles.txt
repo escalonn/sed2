@@ -32244,11 +32244,9 @@ e_nicaea = {
 	culture = greek
 	has_top_de_jure_capital = yes
 	allow = {
+		NOT = { has_global_flag = EMF } # EMF+SWMH has special code for a Fourth Crusade-like scenario
 		conditional_tooltip = {
-			trigger = {
-				NOT = { has_global_flag = EMF } # EMF+SWMH has special code for a Fourth Crusade-like scenario
-				e_nicaea = { is_titular = yes }
-			}
+			trigger = { e_nicaea = { is_titular = yes } }
 			e_nicaea = { is_titular = no }
 		}
 	}
