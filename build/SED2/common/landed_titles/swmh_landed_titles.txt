@@ -5521,21 +5521,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 		zoroastrian_group = 100 # Crusade target weight
 		hellenic_pagan_reformed = 5000 # Crusade target weight
 		greek = "Thessaloniki"
-		d_aegean_islands = { # Aigaiou Pelàgous
+		d_abydos = { # Aigaiou Pelàgous
 			color = { 104 8 103 }
 			color2 = { 255 255 255 }
 			capital = 484 # Kykládes # Naxos
-			sardinian = "The Archipelago"
-			sicilian = "The Archipelago"
-			umbrian = "The Archipelago"
-			laziale = "The Archipelago"
-			neapolitan = "The Archipelago"
-			tuscan = "The Archipelago"
-			ligurian = "The Archipelago"
-			langobardisch = "The Archipelago"
-			italian = "The Archipelago"
-			venetian = "The Archipelago"
-			dalmatian = "The Archipelago"
 			c_kyzikos = { # Kyzikos (743)
 				color = { 214 113 179 }
 				color2 = { 255 255 255 }
@@ -5629,7 +5618,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				b_skyros = {}
 			} # end c_lesbos
 			allow = { title_duke_basic_allow = yes }
-		} # end d_aegean_islands
+		} # end d_abydos
 		d_thrace = { # Thrakes
 			color = { 194 129 1 }
 			color2 = { 255 255 255 }
