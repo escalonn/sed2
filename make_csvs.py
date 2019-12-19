@@ -125,7 +125,6 @@ def get_more_keys_to_override(parser, localisation, max_provs):
                                     'character_event'] and
                         p.val in ['random', 70]):
                         continue
-                    import pdb; pdb.set_trace()
                     raise
                 if isinstance(v, Obj) and v.has_pairs:
                     dfs.extend((p2, parents + [n.val]) for p2 in v)
