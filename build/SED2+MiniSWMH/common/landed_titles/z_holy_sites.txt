@@ -262,14 +262,11 @@ c_esfahan = {
 
 c_shiraz = {
 	holy_site = nabawiyya
-	holy_site = zun_pagan
-	holy_site = zun_pagan_reformed
-}
-
-c_larestan = {
 	holy_site = zoroastrian
 	holy_site = mazdaki
 	holy_site = manichean
+	holy_site = zun_pagan
+	holy_site = zun_pagan_reformed
 }
 
 c_sistan = {
@@ -277,11 +274,17 @@ c_sistan = {
 	holy_site = mazdaki
 }
 
-c_maragheh = {
+c_yazd = {
 	holy_site = zoroastrian
 	holy_site = mazdaki
-	holy_site = yazidi
 }
+
+c_gilan = {
+	holy_site = zoroastrian
+	holy_site = mazdaki
+}
+
+c_maragheh = { holy_site = yazidi }
 
 c_nishapur = {
 	holy_site = zoroastrian
@@ -305,8 +308,6 @@ c_baghdad = {
 	holy_site = sunni
 	holy_site = nestorian
 	holy_site = manichean
-	holy_site = zoroastrian
-	holy_site = mazdaki
 }
 
 c_garhwal = { holy_site = hindu }
@@ -414,7 +415,7 @@ c_ghazna = {
 	holy_site = buddhist
 }
 
-c_zamindawar = {
+c_zamindavar = {
 	holy_site = zun_pagan
 	holy_site = zun_pagan_reformed
 }

@@ -1422,7 +1422,7 @@ c_derbent_adj                                  ;Derbentian;;;Derbentian
 c_imeretia_adj                                 ;Imeretian;;;Imeretian
 c_abkhazia_adj                                 ;Abkhazian;;;Abkhazian
 c_zeta_adj                                     ;Zetan   ;;;Zetan
-d_slavonia                                     ;Slavonia;;Pannonia Savia;Slavonia
+d_slavonia                                     ;Slavonia;;Pannonia Savia,Szlavónia;Slavonia
 d_slavonia_adj                                 ;Slavonian;;;Slavonian
 c_varadzin_adj                                 ;Varaždin;;;Varazdinian
 c_vas_adj                                      ;Vas     ;;;Vasian
@@ -1948,7 +1948,7 @@ PROV301                                        ;Gotland ;;c_gotland,Gautland,Gul
 PROV363                                        ;Litomerice;;c_litomerice,Leitmeritz,Litomierzicze,Litomierzyce;Litomerice
 PROV411                                        ;Ingria  ;;c_vodi;Ingria
 PROV448                                        ;Salzburg;;c_salzburg,Iuvavum;Salzburg
-PROV461                                        ;Zagreb  ;;c_zagreb,Andautonia,Agram,Zágráb,Zagabria;Zagreb
+PROV461                                        ;Zagreb  ;;c_zagreb,Andautonia,Agram,Gréc,Zagabria;Zagreb
 PROV506                                        ;Vidin   ;;c_vidin,Bidyne,Bononia,Bodony,Diiu;Vidin
 PROV509                                        ;Balchik ;;c_karvuna,Krounoi,Balçik;Karvuna
 PROV514                                        ;Turnu   ;;c_turnu,Holavnik;Turnu
@@ -2088,7 +2088,7 @@ title_master_of_the_hunt_desc                  ;In an era when hunting was an op
 title_high_almoner_desc                        ;The handing out of alms was an integral part of rulership and religious observance. The one responsible for this task is a very important personage.;;;The handing out of alms was an integral part of rulership and religious observance. The one responsible for this task is a very important personage.
 title_seneschal_desc                           ;Originally responsible for the organization of feasts and domestic entertainment. Although left mainly in the hands of deputies, the key role at such major occasions makes the post prestigious.;;;Originally responsible for the organization of feasts and domestic entertainment. Although left mainly in the hands of deputies, the key role at such major occasions makes the post prestigious.
 desc_job_chancellor                            ;The §Y$JOB$§! is your advisor on matters of diplomacy. The position is traditionally considered the highest on the council.;;;The §Y$JOB$§! is your advisor on matters of diplomacy. The position is traditionally considered the highest on the council.
-desc_job_marshal                               ;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.;;;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.
+desc_job_marshal                               ;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.;;;The §Y$JOB$§! is the councilor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.
 desc_job_treasurer                             ;The §Y$JOB$§! helps you collect taxes and administer your demesne.;;;The §Y$JOB$§! helps you collect taxes and administer your demesne.
 desc_job_spymaster                             ;§Y$JOB$§! is an unofficial position on the council. The office holder is responsible for all matters of intrigue and skullduggery.;;;§Y$JOB$§! is an unofficial position on the council. The office holder is responsible for all matters of intrigue and skullduggery.
 desc_job_spiritual                             ;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.;;;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.
@@ -3565,6 +3565,7 @@ tb_culture_arberian_4                          ;Stratioti Stables;;;Stratiotet S
 #z_custom.csv;;;;
 #z_emil.csv;;;;
 #z_emma.csv;;;;
+#z_erik.csv;;;;
 #z_flavio.csv;;;;
 #z_flavio_patch.csv;;;;
 #z_henrik_f.csv;;;;

@@ -69,26 +69,26 @@ PROV428 ;Brzesc  ;Brzesc;c_kujawy,Brest;Kujawy
 ########################################,,,,,,,,,,,,,,;;;;
 PROV459 ;Krk     ;Krk;c_veglia,Vegl,Veglia,Kyrikon,Curicta;Veglia
 PROV460 ;Zagorje ;Zagorje;c_varadzin,Warasdin,Varasd,Varasdino,Varasdinum,Varasdinion;Varazdin
-PROV462 ;Vukovar ;Vukova;c_krizevci,Wukowar,Vlco,Mursa,Moursa;Krizevci
+PROV462 ;Vukovar ;Vukova;c_krizevci,Wukowar,Vukovár,Mursa,Moursa;Krizevci
 PROV463 ;Usora   ;Usora;c_usora;Donji Kraji
 PROV464 ;Lika    ;Lika;c_senj,Licca,Attienities;Senj
 PROV466 ;Podgorje;Podgorje;c_zachlumia,Zachloumia;Zachlumia
 PROV502 ;Raška   ;Raška;c_rashka,Rascia,Rashkës;Rashka
 PROV503 ;Drina Valley;Podrinje;c_hum,Drinus,Dreinos;Ras
 PROV504 ;Rama    ;Rama;c_rama;Soli
-PROV465 ;Zadar   ;Zadar;c_zadar,Jadres,Zara,Jatara,Iadera,Diadora,Jadhara;Zadar
+PROV465 ;Zadar   ;Zadar;c_zadar,Jadres,Zara,Jatara,Zára,Iadera,Diadora,Jadhara;Zadar
 PROV467 ;Cetina  ;Cetina;c_split,Spalatum,Spálathos;Split
-PROV505 ;Belgrade;Belgrad;c_belgrade,Belgrád,Singidounon,Singidunum,Belgrado;Belgrade
+PROV505 ;Belgrade;Belgrad;c_belgrade,Nándorfehérvár,Singidounon,Singidunum,Belgrado;Belgrade
 PROV469 ;Duklja  ;Duklja;c_zeta,Diokleia,Dioclea,Karadag;Zeta
 PROV507 ;Kran    ;Kran;c_nikopolis,Seuthoupolis,Seuthopolis,Hasat;Nikopolis
 PROV498 ;Zagore  ;Zagore;c_mesembria,Zagoria,Misivri;Mesembria
-PROV493 ;Plovdiv ;Plovdiv;c_philippopolis,Philippopolis,Philippoupolis,Filibe;Philippopolis
+PROV493 ;Plovdiv ;Plovdiv;c_philippopolis,Filipápoly,Philippopolis,Philippoupolis,Filibe;Philippopolis
 PROV508 ;Preslav ;Preslav;c_dorostotum,Durostoulon,Dorostorum,Stamboluk;Dorostotum
 PROV500 ;Sredets ;Sredets;c_serdica,Triaditsa,Serdica,Sofya;Serdica
 PROV499 ;Tarnovo ;Tarnovo;c_tyrnovo,Moisía,Moesia Secunda,Tirnova;Tyrnovo
 PROV501 ;Niš     ;Niš;c_naissus,Nysos,Nishi,Naissus,Nisch;Naissos
 PROV471 ;Ohrid   ;Ohrid;c_ochrid,Achrída,Ohër,Lychnidus,Ohri,Ohrida;Ohrid
-PROV494 ;Edirne  ;Adrianopol;c_adrianopolis,Adrianopolis,Adrianupleos,Adrianoupolis,Hadrianoúpolis,Hadrianopolis,Edirne;Adrianopolis
+PROV494 ;Adrianople;Adrianopol;c_adrianopolis,Drinápoly,Adrianopolis,Adrianupleos,Adrianoupolis,Hadrianoúpolis,Hadrianopolis,Edirne;Adrianopolis
 PROV468 ;Dubrovnik;Dubrovnik;c_ragusa,Ragusa,Ragusium,Raguia;Ragusa
 PROV510 ;Constanta;Konstanta;c_constantia,Konstantia,Constantia,Köstence,Constanta;Constantia
 ########################################,,,,,,,,,,,,,,;;;;
@@ -504,7 +504,7 @@ PROV540 ;Torda   ;Torda;c_szekelyfold,Thorenburg,Turda;Szekelyföld
 ########################################,,,,,,,,,,,,,,;;;;
 #Moldavia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV545 ;Suceava ;Suceava;c_torki,Seretos,Sedschopff,Szépvásár,Suczawa;Suceava
+PROV545 ;Suceava ;Suceava;c_torki,Szöcsvásár,Sedschopff,Suczawa;Suceava
 PROV511 ;Bessarabia;Basarabia;c_galaz;Galati
 PROV512 ;Bender  ;Tighina;c_belgorod,Bender;Belgorod
 PROV513 ;Bârlad  ;Bârlad;c_birlad,Barlád,Bariach;Bârlad
@@ -962,11 +962,11 @@ PROV907 ;Biyar   ;Biyár;c_biyar;Mandesh
 #Steppes,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
 PROV541 ;Podolia ;Podolya;c_peresechen,Podole,Podolí,Ponyzziye,Ponyzzia,Podolia,Podólia;Peresechen
-PROV542 ;Yedisan ;Yedisan;c_olvia,Jedysan,Jedisan,Beloberezhye,Beloberezhia,Edisanas,Troullos;Olvia
-PROV543 ;Southern Bug;Boh;c_oleshye,Aq-Su,Ak-Su,Koubou;Lower Dniepr
+PROV542 ;Yedisan ;Yedisan;c_olvia,Jedysan,Jedisan,Beloberezhye,Beloberezhia,Edisanas,Trullos,Troullos;Olvia
+PROV543 ;Southern Bug;Boh;c_oleshye,Aq-Su,Ak-Su,Koubou,Bug;Lower Dniepr
 #,,,,,,,,,,,,,,;;;;
 PROV556 ;Samara  ;Aq Samar;c_chortitza,Ak Samar,Tsagaan Samar,Sneporod;Chortitza
-PROV558 ;Dnieper ;Özü;c_lower_dniepr,Slavutych,Özi,Var,Danapris,Danaper,Dnepra,Nipru,Barouch;Oleshye
+PROV558 ;Dnieper ;Özü;c_lower_dniepr,Slavutych,Özi,Var,Danapris,Danaper,Dnepra,Nipru,Baruch,Barouch;Oleshye
 #,,,,,,,,,,,,,,;;;;
 PROV557 ;Tokmak  ;Tokmak;c_lukomorie,Lukomorye,Lucomoria,Lukomorzí,Lukomoria,Gerrhus;Lukomorie
 PROV559 ;Crimea  ;Qirim;c_crimea,Krym,Krymas,Taurike;Crimea
@@ -979,7 +979,7 @@ PROV594 ;Sarkel  ;Sharkel;c_sarkel,Aspron Hospition,Belaja Veža,Sharkil,Sarqhal,
 PROV566 ;Donets  ;Duna-Jük;c_sugrov,Doniec,Donecas,Buzan-Jük,Donel',Šugr';Sugrov
 #,,,,,,,,,,,,,,;;;;
 PROV597 ;Azov    ;Azaq;c_azov,Tana,Buzan,Jazy,Azak,Azow,Azova,Azov,Tanais,Tanakvísl,Tanaiskvísl,Asow;Azov
-PROV599 ;Kuban   ;Cuba;c_kuban,Psizch,Kubá,Kubány,Kubana,Kubán,Kuban,Oukrouch,Vardanus;Kuban
+PROV599 ;Kuban   ;Cuba;c_kuban,Psizch,Kubá,Kubán,Kubana,Kuban,Oukrouch,Vardanus;Kuban
 #,,,,,,,,,,,,,,;;;;
 PROV605 ;Manych  ;Ugru;c_manych,Manych,Manycz;Manych
 PROV606 ;Yegorlyk;Yegorlyk;c_yegorlyk;Yegorlyk
@@ -990,14 +990,14 @@ PROV562 ;Kerch   ;Kerch;c_korchev,Karcha,Bosporos,Vosporo,Vospor,Korchev,Korczev
 PROV598 ;Tmutarakan;Tamatarkha;c_tmutarakan,Tamanas,Tamatarcha,Tmutarakan,Matrega,Samkarsh,Matrika,Hermonassa;Tmutarakan
 #,,,,,,,,,,,,,,;;;;
 PROV604 ;Kuma    ;Kuma;c_kuma;Kuma
-PROV620 ;Atil    ;Itil;c_itil,Etil,Idhel,Jul,Ejil,Edil,Idil,Atil,Sari-Su,Atel,Vl'ga,Volha;Itil
+PROV620 ;Atil    ;Itil;c_itil,Etel,Idhel,Jul,Ejil,Edil,Idil,Atil,Sari-Su,Atel,Vl'ga,Volha;Itil
 PROV675 ;Samandar;Semender;c_semender,Zabender,Msndr,Samandar;Semender
 #,,,,,,,,,,,,,,;;;;
 PROV618 ;Saray-Jük;Saray-Jük;c_guryev;Atyrau
 PROV895 ;Ural    ;Yaik;c_yaik;Yaik
 PROV896 ;Or      ;Op;c_aqtobe;Aqtobe
 #,,,,,,,,,,,,,,;;;;
-PROV602 ;Circassia;Cherkezistan;c_kasogs,Kassogye,Kassogia,Kassogie,Kasachia,Kaisihi,K'ašaget'i,Kæsægia,Cherkisiaia,Cherkisia,Tcherkezistan,Sircasaa;Kasogia
+PROV602 ;Circassia;Cherkezistan;c_kasogs,Kassogye,Kassogia,Kassogie,Kasachia,Kaisihi,K'ašaget'i,Kæsægia,Cherkisiaia,Cherkisia,Szícsia,Tcherkezistan,Sircasaa;Kasogia
 #,,,,,,,,,,,,,,;;;;
 PROV595 ;Terek   ;Terk;c_don_portage,Terch,Terk,Lomeki,Arm,Terka;Don-Portage
 #PROV1697,Malkhicho,Malkhicho,Malkhicho,,Malkhicho,,,,,,,,,x;;;;

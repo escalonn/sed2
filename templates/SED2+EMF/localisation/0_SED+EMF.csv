@@ -12,12 +12,13 @@ RETTYPE_CUL_BULGARIAN                          ;        ;Bolqr;Bolqr;;Boyar;
 RETTYPE_CUL_BOHEMIAN                           ;        ;Rytír;Rytír;;Knight;
 RETTYPE_CUL_ROMANIAN                           ;        ;Calarasi;Calarasi;;Calarasi;
 RETTYPE_CUL_HUNG                               ;        ;Bandérium;Bandérium;;Banderium;Hussar
+RETTYPE_CUL_MOGER                              ;        ;Lovosiiazu;;;;
 RETTYPE_CUL_FINNO_UGRIC                        ;        ;Soturi Lempo;Soturi Lempo;;Warrior of Lempo;
 RETTYPE_CUL_BALT                               ;        ;Karavirs Perkons;Karavirs Perkons;;Warrior of Perkunas;Baltic Warrior
 RETTYPE_CUL_NORMAN                             ;        ;Chevalier;Chevalier;;Knight;
 RETTYPE_CUL_SOUTH_SLA                          ;        ;Gusar;Gusar;;Hussar;Gusar
 RETTYPE_CUL_SCOT                               ;        ;Schiltron;Schiltron;;Schiltron;Schiltron
-RETTYPE_CUL_IRISH                              ;        ;Gallóglach;Gallóglach;;Gallowglass;Gallowglass
+RETTYPE_CUL_IRISH                              ;Ceithern;Ceithern;Gallóglach;;Gallowglass;Gallowglass
 RETTYPE_CUL_NORSEGAELIC                        ;Housecarl;Huscarl;Gallóglach;;Gallowglass;
 RETTYPE_CUL_ENG                                ;Longbowman;Longbowman;Longbow;;Longbow;Longbow
 RETTYPE_CUL_SAXON                              ;Thingman;Þingalið;Gesith;;Gesith;
@@ -28,10 +29,13 @@ RETTYPE_CUL_RUS                                ;        ;Druzhýna;Druzhýna;;Druz
 RETTYPE_CUL_POLISH                             ;        ;Druzyna;Druzyna;;Druzhina;
 RETTYPE_CUL_LITHUANIAN                         ;        ;Perkuno Karys;Perkuno Karys;;Warrior of Perkunas;
 RETTYPE_CUL_E_AFR                              ;        ;Zãbãnnya;Zãbãnnya;;Guard;
-RETTYPE_CUL_IRANIAN                            ;        ;Khwarezmiyya;Khwarezmiyya;;Khwarezmiyya;
+RETTYPE_CUL_IRANIAN                            ;Gholaman;Gholaman;Khwarezmiyya;;Khwarezmiyya;
+RETTYPE_CUL_PERSIAN                            ;Persian Swordsman;Sarbazan Qalacur;;;;
+RETTYPE_CUL_DAYLAMITE                          ;Daylamite Spearman;Sarbazan Upin;;;;
+RETTYPE_CUL_AFGHAN                             ;Highland Militia;Da Gra Jungyaly;;;;
 RETTYPE_CUL_BYZ                                ;        ;Kataphraktos;Kataphraktos;;Cataphract;Cataphract
 RETTYPE_CUL_TURKISH                            ;        ;Sipahi;Sipahi;;Sipahi;
-RETTYPE_CUL_ALTAIC                             ;        ;Kheshig;Kheshig;;Kheshig;Horse Archer
+RETTYPE_CUL_ALTAIC                             ;Steppe Riders;At Yasu;Kheshig;;Kheshig;Horse Archer
 RETTYPE_CUL_GEORGIAN                           ;        ;Mona'spa;Mona'spa;;Royal Cavalry;
 RETTYPE_CUL_ITA                                ;        ;Cavaliere;Cavaliere;;Knight;Pike
 RETTYPE_CUL_ARAB                               ;        ;Al-Faris;Al-Faris;;Knight;Camel Warrior
@@ -47,128 +51,11 @@ RETTYPE_CUL_ROMAN                              ;Praetorian Guard;Praetorianus;Pr
 RETTYPE_CUL_AVAR                               ;        ;Sclavinia;Sclavinia;;Sclaveni;
 RETTYPE_CUL_NORSE                              ;        ;Heimþegi;Heimþegi;;Housecarl;
 RETTYPE_CUL_VISIGOTHIC                         ;Visigoth;Vesi;;;;
-RETTYPE_CUL_NORTHAFR                           ;A-Mazigh;a-Mazigh;;;;
+RETTYPE_CUL_NORTHAFR                           ;        ;Desert Cavalry;;;;
 RETTYPE_CUL_SYR                                ;        ;Kashat;;;;
 RETTYPE_CUL_VENETIAN                           ;Fanti da Mar;Fanti da Mar;Oltremarino;;Oltremarino;
-#1_PB_buildings.csv;;;;;
-ca_culture_saxon_english_0                     ;        ;Longbow Range;;;;
-ca_culture_saxon_english_5                     ;        ;Longbow Range;;;;
-ca_culture_scottish_0                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
-ca_culture_scottish_5                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
-ca_culture_group_baltic_0                      ;        ;Warrior Gathering Ground;;;;
-ca_culture_group_baltic_5                      ;        ;Warrior Gathering Ground;;;;
-ca_culture_group_altaic_0                      ;        ;Riding Grounds;;;;
-ca_culture_group_altaic_5                      ;        ;Riding Grounds;;;;
-ca_culture_frank_norman_german_0               ;        ;Jousting Lists;;;;
-ca_culture_frank_norman_german_5               ;        ;Jousting Lists;;;;
-ca_culture_group_iberian_0                     ;Knight Training Ground;Caballero Training Ground;;;;
-ca_culture_group_iberian_5                     ;Knight Training Ground;Caballero Training Ground;;;;
-ca_culture_italian_0                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
-ca_culture_italian_1                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
-ca_culture_italian_2                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
-ca_culture_italian_3                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
-ca_culture_italian_4                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
-ca_culture_italian_5                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
-ca_culture_italian_cavalry_desc                ;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;Elite [italian.GetName] mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from [italian.GetName]-[german.GetName] ([lombard.GetName]) origins.;;;;
-ca_culture_russian_0                           ;        ;Druzhina Training Ground;;;;
-ca_culture_russian_5                           ;        ;Druzhina Training Ground;;;;
-ca_culture_group_north_germanic_0              ;        ;Housecarl Training Ground;;;;
-ca_culture_group_north_germanic_5              ;        ;Housecarl Training Ground;;;;
-ca_culture_hungarian_0                         ;        ;Hussar Training Ground;;;;
-ca_culture_hungarian_5                         ;        ;Hussar Training Ground;;;;
-ca_culture_group_arabic_0                      ;        ;Camel Riding Ground;;;;
-ca_culture_group_arabic_5                      ;        ;Camel Riding Ground;;;;
-ca_culture_group_byzantine_0                   ;        ;Cataphract Training Ground;;;;
-ca_culture_group_byzantine_5                   ;        ;Cataphract Training Ground;;;;
-ca_culture_irish_0                             ;        ;Gallowglass Training Ground;;;;
-ca_culture_irish_5                             ;        ;Gallowglass Training Ground;;;;
-ca_culture_ethiopian_0                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
-ca_culture_ethiopian_5                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
-ca_culture_west_african_0                      ;        ;Free Warrior Lodge;;;;
-ca_culture_west_african_5                      ;        ;Free Warrior Lodge;;;;
-ca_culture_group_south_slavic_0                ;Hussar Training Ground;Gusar Training Ground;;;;
-ca_culture_group_south_slavic_5                ;Hussar Training Ground;Gusar Training Ground;;;;
-ca_culture_coptic_0                            ;        ;[coptic.GetName] Spearmen;;;;
-ca_culture_coptic_5                            ;        ;[coptic.GetName] Spearmen;;;;
-ca_culture_croatia_0                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_1                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_2                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_5                           ;        ;Infantry Training Ground;;;;
-ca_culture_croatia_1_desc                      ;        ;The [south_slavic.GetGroupName] nations trained powerful heavy infantry.;;;;
-ca_culture_dutch_0                             ;        ;Goedendag Militia Quarters;;;;
-ca_culture_dutch_5                             ;        ;Goedendag Militia Quarters;;;;
-ca_culture_sardinian_0                         ;        ;[sardinian.GetName] Garrison;;;;
-ca_culture_sardinian_5                         ;        ;[sardinian.GetName] Garrison;;;;
-ca_culture_basque_0                            ;        ;Kuartela;;;;
-ca_culture_basque_1                            ;        ;Kuartela;;;;
-ca_culture_basque_2                            ;        ;Kuartela;;;;
-ca_culture_basque_3                            ;        ;Kuartela;;;;
-ca_culture_basque_4                            ;        ;Kuartela;;;;
-ca_culture_basque_5                            ;        ;Kuartela;;;;
-ca_culture_basque_1_desc                       ;        ;The [basque.GetName] were renowned for their powerful heavy infantry.;;;;
-ca_culture_jewish_0                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
-ca_culture_jewish_5                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
-ca_culture_nahuatl_0                           ;        ;Jaguar Warrior Lodge;;;;
-ca_culture_nahuatl_5                           ;        ;Jaguar Warrior Lodge;;;;
-ca_culture_portuguese_galician_andalusian_0    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_1    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_2    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_5    ;        ;Jinete Riding Grounds;;;;
-ca_culture_portuguese_galician_andalusian_desc ;        ;Lightly-armored cavalry train here in the art of flanking and peppering the enemy with arrows and javelins, softening them before the heavier elements of the army charge the lines.;;;;
-ca_culture_group_north_african_0               ;        ;Camel Riding Ground;;;;
-ca_culture_group_north_african_1               ;Camel Riding Ground;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_2               ;Camel Riding Ground;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_3               ;Camel Riding Ground;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_4               ;Camel Riding Ground;Camel Riding Ground;Zanatan Riding Ground;;Zenata Riding Ground;
-ca_culture_group_north_african_5               ;        ;Camel Riding Ground;;;;
-ca_culture_group_north_african_1_desc          ;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins..;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren't slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren’t slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;
-ca_culture_catalan_0                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
-ca_culture_catalan_1                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
-ca_culture_catalan_2                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
-ca_culture_catalan_3                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
-ca_culture_catalan_4                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
-ca_culture_catalan_5                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
-ca_culture_catalan_1_desc                      ;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;
-ca_culture_assyrian_0                          ;        ;Kashat Archery Range;;;;
-ca_culture_assyrian_1                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
-ca_culture_assyrian_2                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
-ca_culture_assyrian_3                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
-ca_culture_assyrian_4                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
-ca_culture_assyrian_5                          ;        ;Kashat Archery Range;;;;
-ca_culture_assyrian_1_desc                     ;        ;The [assyrian.GetName] tradition of training eagle-eyed archers is kept alive here, stretching back even to antiquity when these warriors served as auxiliaries in [roman.GetName] legions.;;;;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.
-tb_culture_italian_1                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
-tb_culture_italian_2                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
-tb_culture_italian_3                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
-tb_culture_italian_4                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
-tb_culture_croatia_1                           ;        ;Infantry Training Ground;;;;
-tb_culture_croatia_2                           ;        ;Infantry Training Ground;;;;
-tb_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
-tb_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
-tb_culture_basque_1                            ;        ;Kuartela;;;;
-tb_culture_basque_2                            ;        ;Kuartela;;;;
-tb_culture_basque_3                            ;        ;Kuartela;;;;
-tb_culture_basque_4                            ;        ;Kuartela;;;;
-tb_culture_portuguese_galician_andalusian_1    ;        ;Jinete Riding Grounds;;;;
-tb_culture_portuguese_galician_andalusian_2    ;        ;Jinete Riding Grounds;;;;
-tb_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;;;
-tb_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
-tb_culture_group_north_african_1               ;        ;Camel Riding Ground;;;;
-tb_culture_group_north_african_2               ;        ;Camel Riding Ground;;;;
-tb_culture_group_north_african_3               ;        ;Camel Riding Ground;;;;
-tb_culture_group_north_african_4               ;        ;Camel Riding Ground;;;;
-tb_culture_catalan_1                           ;        ;Almoghavars Conscription Camp;;;;
-tb_culture_catalan_2                           ;        ;Almoghavars Conscription Camp;;;;
-tb_culture_catalan_3                           ;        ;Almoghavars Conscription Camp;;;;
-tb_culture_catalan_4                           ;        ;Almoghavars Conscription Camp;;;;
-tb_culture_assyrian_1                          ;        ;Kashat Archery Range;;;;
-tb_culture_assyrian_2                          ;        ;Kashat Archery Range;;;;
-tb_culture_assyrian_3                          ;        ;Kashat Archery Range;;;;
-tb_culture_assyrian_4                          ;        ;Kashat Archery Range;;;;
-#1_PB_decisions.csv;;;;;
+RETTYPE_CUL_BEDOUIN                            ;Advance Guard;Tali'a;;;;
+RETTYPE_CUL_MONGOL                             ;        ;Kheshig;Kheshig;;Kheshig;
 #1_PB_effects.csv;;;;;
 #1_PB_events.csv;;;;;
 #1_PB_flavor.csv;;;;;
@@ -183,13 +70,7 @@ skilled_warrior                                ;        ;Skilled Fighter;Skilled
 skilled_warrior_desc                           ;        ;This character possesses a certain talent for battle and swordplay.;This character possesses a certain talent for battle and swordplay.;;This character possesses a certain talent for battle and swordplay.;
 trained_warrior                                ;        ;Trained Fighter;Trained Fighter;;Trained Fighter;
 trained_warrior_desc                           ;        ;This character has received training in the art of combat. While no master, they can hold their own in a fight.;This character has received training in the art of combat. While no master, they can hold their own in a fight.;;This character has received training in the art of combat. While no master, [Root.GetSheHe] can hold [Root.GetHerHis] own in a fight.;
-#1_PB_new_titles.csv;;;;;
-e_bulgaria                                     ;Bulgarian Empire;Bulgarian Empire;;;Bulgaria;Bulgaria
-e_bulgaria_adj                                 ;        ;Bulgarian;;;Bulgarian;Bulgarian
 #1_PB_objectives.csv;;;;;
-#1_PB_tournaments.csv;;;;;
-#1_PB_various.csv;;;;;
-#1_PB_war_checks.csv;;;;;
 #1_VIET_Bookmarks.csv;;;;;
 BM_SCOURGE_OF_GOD                              ;        ;Scourge of God;Scourge of God;;Scourge of God;
 BM_SCOURGE_OF_GOD_DESC                         ;        ;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;;From the East they came, ruthless and without mercy: strange men, dressed in exotic armor and speaking in guttural tongues that none understood. Rumors carried across the Silk Road and the Indian Ocean have told of how Genghis Khan and his invincible Mongol hordes shattered the greatest empires of the known world, from Cathay to Persia. Though Genghis Khan is now dead, the sons and grandsons of Genghis intend to continue his conquests. They have their eyes upon Europe and the rest of the Middle East, and the entire world may be united under the banner of Genghis… if his descendants do not end up fighting among themselves, that is. Perhaps the end of days has finally come at last, a punishment for the sins of the wicked… or perhaps this is God’s greatest test yet for the faithful.;
@@ -259,99 +140,341 @@ INSULT_CREEP                                   ;        ;creep;creep;;creep;
 #1_emf_ai.csv;;;;;
 #1_emf_altstart.csv;;;;;
 #1_emf_ambitions.csv;;;;;
+#1_emf_artifacts.csv;;;;;
 #1_emf_autolander.csv;;;;;
 #1_emf_bloodlines.csv;;;;;
 #1_emf_bugfix.csv;;;;;
 #1_emf_builder.csv;;;;;
 #1_emf_buildings.csv;;;;;
-ca_culture_indian_0                            ;        ;War Elephant Pens;;;;
-ca_culture_indian_1                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
-ca_culture_indian_2                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
-ca_culture_indian_3                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
-ca_culture_indian_4                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
-ca_culture_indian_5                            ;        ;War Elephant Pens;;;;
-ca_culture_germanic_0                          ;        ;[GetGermanic] Infantry Barracks;;;;
-ca_culture_germanic_1                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
-ca_culture_germanic_2                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
-ca_culture_germanic_3                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
-ca_culture_germanic_4                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
-ca_culture_germanic_5                          ;        ;[GetGermanic] Infantry Barracks;;;;
-ca_culture_pictish_0                           ;        ;Hall of War;;;;
-ca_culture_pictish_1                           ;        ;Hall of War;;;;Hall of War
-ca_culture_pictish_2                           ;        ;Hall of War;;;;Hall of War
-ca_culture_pictish_3                           ;        ;Hall of War;;;;Hall of War
-ca_culture_pictish_4                           ;        ;Hall of War;;;;Hall of War
-ca_culture_pictish_5                           ;        ;Hall of War;;;;
-ca_culture_pictish_1_desc                      ;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!;;;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force – woe to those that come in their path!;The Hall of War is where the most experienced and fierce of the [pictish.GetName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!
-ca_culture_suebi_0                             ;        ;Free Warrior Camp;;;;
-ca_culture_suebi_1                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
-ca_culture_suebi_2                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
-ca_culture_suebi_3                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
-ca_culture_suebi_4                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
-ca_culture_suebi_5                             ;        ;Free Warrior Camp;;;;
-ca_culture_roman_0                             ;        ;Field of Mars;;;;
-ca_culture_roman_1                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
-ca_culture_roman_2                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
-ca_culture_roman_3                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
-ca_culture_roman_4                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
-ca_culture_roman_5                             ;        ;Field of Mars;;;;
-ca_culture_ligurian_0                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
-ca_culture_ligurian_1                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
-ca_culture_ligurian_2                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
-ca_culture_ligurian_3                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
-ca_culture_ligurian_4                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
-ca_culture_ligurian_5                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
-ca_culture_ligurian_1_desc                     ;While crossbows have become increasingly common across Europe, the [ligurian.GetName]s have really capitalized on this new weapon’s advantages. [ligurian.GetName] Balestrieri are drilled not only in the use of crossbows, but are also trained to use large-but-portable pavise shields as cover while reloading.;While crossbows have become increasingly common across Europe, the [ligurian.GetName]s have really capitalized on this new weapon's advantages. [ligurian.GetName] Balestrieri are drilled not only in the use of crossbows, but are also trained to use large-but-portable pavise shields as cover while reloading.;The Balestrieri company was an integral part of the Genoese republic, and while its services might be purchased by other states or nobles in the form of hiring a regiment of its famed crossbowmen, its army commanders were still subject to Genoese regulation and could only fly the Genoese flag on the battlefield.;;The Balestrieri company was an integral part of the Genoese republic, and while its services might be purchased by other states or nobles in the form of hiring a regiment of its famed crossbowmen, its army commanders were still subject to Genoese regulation and could only fly the Genoese flag on the battlefield.;
-ca_culture_venetian_0                          ;Marine Barracks;Marine Barracks;;;;
-ca_culture_venetian_1                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
-ca_culture_venetian_2                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
-ca_culture_venetian_3                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
-ca_culture_venetian_4                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
-ca_culture_venetian_5                          ;Marine Barracks;Marine Barracks;;;;
-ca_culture_venetian_1_desc                     ;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm’s ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm's ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;
-ca_culture_chinese_han_0                       ;        ;Crossbow Range;;;;
-ca_culture_chinese_han_1                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
-ca_culture_chinese_han_2                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
-ca_culture_chinese_han_3                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
-ca_culture_chinese_han_4                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
-ca_culture_chinese_han_5                       ;        ;Crossbow Range;;;;
+ca_culture_afghan_0                            ;        ;Highland Militia Quarters;;;;
+ca_culture_afghan_1                            ;        ;Highland Militia Quarters;;;;
+ca_culture_afghan_1_desc                       ;        ;These militias excel at wearing down the enemy in the mountains that they call home.;;;;
+ca_culture_afghan_2                            ;        ;Highland Militia Quarters;;;;
+ca_culture_afghan_3                            ;        ;Highland Militia Quarters;;;;
+ca_culture_afghan_4                            ;        ;Highland Militia Quarters;;;;
+ca_culture_afghan_5                            ;        ;Highland Militia Quarters;;;;
 ca_culture_altaic_jurchen_0                    ;        ;[jurchen.GetName] Cavalry Barracks;;;;
 ca_culture_altaic_jurchen_1                    ;        ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks;[jurchen.GetName] Cavalry Barracks
 ca_culture_altaic_jurchen_2                    ;        ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks;[jurchen.GetName] Cavalry Barracks
 ca_culture_altaic_jurchen_3                    ;        ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks;[jurchen.GetName] Cavalry Barracks
 ca_culture_altaic_jurchen_4                    ;        ;[jurchen.GetName] Cavalry Barracks;;;[jurchen.GetName] Cavalry Barracks;[jurchen.GetName] Cavalry Barracks
 ca_culture_altaic_jurchen_5                    ;        ;[jurchen.GetName] Cavalry Barracks;;;;
-ca_culture_tibetan_0                           ;        ;Mountaineer Academy;;;;
-ca_culture_tibetan_1                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
-ca_culture_tibetan_2                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
-ca_culture_tibetan_3                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
-ca_culture_tibetan_4                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
-ca_culture_tibetan_5                           ;        ;Mountaineer Academy;;;;
 ca_culture_animal_0                            ;        ;Animal Farm;;;;
 ca_culture_animal_1                            ;        ;Animal Farm;;;;Animal Farm
 ca_culture_animal_2                            ;        ;Animal Farm;;;;Animal Farm
 ca_culture_animal_3                            ;        ;Animal Farm;;;;Animal Farm
 ca_culture_animal_4                            ;        ;Animal Farm;;;;Animal Farm
 ca_culture_animal_5                            ;        ;Animal Farm;;;;
+ca_culture_assyrian_0                          ;        ;Kashat Archery Range;;;;
+ca_culture_assyrian_1                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
+ca_culture_assyrian_1_desc                     ;        ;The [assyrian.GetName] tradition of training eagle-eyed archers is kept alive here, stretching back even to antiquity when these warriors served as auxiliaries in [roman.GetName] legions.;;;;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.
+ca_culture_assyrian_2                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
+ca_culture_assyrian_3                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
+ca_culture_assyrian_4                          ;        ;Kashat Archery Range;;;;[assyrian.GetName] Infantry
+ca_culture_assyrian_5                          ;        ;Kashat Archery Range;;;;
+ca_culture_basque_0                            ;        ;Kuartela;;;;
+ca_culture_basque_1                            ;        ;Kuartela;;;;
+ca_culture_basque_1_desc                       ;        ;The [basque.GetName] were renowned for their powerful heavy infantry.;;;;
+ca_culture_basque_2                            ;        ;Kuartela;;;;
+ca_culture_basque_3                            ;        ;Kuartela;;;;
+ca_culture_basque_4                            ;        ;Kuartela;;;;
+ca_culture_basque_5                            ;        ;Kuartela;;;;
+ca_culture_bedouin_0                           ;        ;Camel Riding Ground;;;;
+ca_culture_bedouin_1                           ;        ;Camel Riding Ground;;;;
+ca_culture_bedouin_1_desc                      ;        ;Camels make adaptable and sturdy mounts, especially in desert environments. Not only does their smell often frighten horses, but they are excellent pack animals that free up faster mounts for use in battle when the situation dictates.;;;;
+ca_culture_bedouin_2                           ;        ;Camel Riding Ground;;;;
+ca_culture_bedouin_3                           ;        ;Camel Riding Ground;;;;
+ca_culture_bedouin_4                           ;        ;Camel Riding Ground;;;;
+ca_culture_bedouin_5                           ;        ;Camel Riding Ground;;;;
+ca_culture_catalan_0                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
+ca_culture_catalan_1                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_1_desc                      ;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;;Almoghavars are a hardy bunch. Lightly armored but unrelenting, these mercenaries are a force to be respected.;
+ca_culture_catalan_2                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_3                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_4                           ;        ;Almoghavars Conscription Camp;Almoghavars Conscription Camp;;Almogavar Conscription Camp;
+ca_culture_catalan_5                           ;Almogavar Conscription Camp;Almoghavars Conscription Camp;;;;
+ca_culture_chinese_han_0                       ;        ;Crossbow Range;;;;
+ca_culture_chinese_han_1                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
+ca_culture_chinese_han_2                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
+ca_culture_chinese_han_3                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
+ca_culture_chinese_han_4                       ;        ;Crossbow Range;;;Crossbow Range;Crossbow Range
+ca_culture_chinese_han_5                       ;        ;Crossbow Range;;;;
+ca_culture_coptic_0                            ;        ;[coptic.GetName] Spearmen;;;;
+ca_culture_coptic_5                            ;        ;[coptic.GetName] Spearmen;;;;
+ca_culture_croatia_0                           ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_1                           ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_1_desc                      ;        ;The [south_slavic.GetGroupName] nations trained powerful heavy infantry.;;;;
+ca_culture_croatia_2                           ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
+ca_culture_croatia_5                           ;        ;Infantry Training Ground;;;;
+ca_culture_daylamite_0                         ;        ;[daylamite.GetName] Infantry Barracks;;;;
+ca_culture_daylamite_1                         ;[daylamite.GetName] Infantry Barracks;[daylamite.GetName] Infantry Barracks;Daylamite Training Ground;;Dailamite Training Ground;
+ca_culture_daylamite_1_desc                    ;The hardy [daylamite.GetName]s and [kurdish.GetName]s are experts at fighting in rough and rocky terrain.;The hardy [daylamite.GetName]s and [kurdish.GetName]s are experts at fighting in rough and rocky terrain.;Daylamite Training Ground;;Dailamite Training Ground;
+ca_culture_daylamite_2                         ;[daylamite.GetName] Infantry Barracks;[daylamite.GetName] Infantry Barracks;Daylamite Training Ground;;Dailamite Training Ground;
+ca_culture_daylamite_3                         ;[daylamite.GetName] Infantry Barracks;[daylamite.GetName] Infantry Barracks;Daylamite Training Ground;;Dailamite Training Ground;
+ca_culture_daylamite_4                         ;[daylamite.GetName] Infantry Barracks;[daylamite.GetName] Infantry Barracks;Daylamite Training Ground;;Dailamite Training Ground;
+ca_culture_daylamite_5                         ;[daylamite.GetName] Infantry Barracks;[daylamite.GetName] Infantry Barracks;;;;
+ca_culture_dutch_0                             ;        ;Goedendag Militia Quarters;;;;
+ca_culture_dutch_5                             ;        ;Goedendag Militia Quarters;;;;
+ca_culture_ethiopian_0                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
+ca_culture_ethiopian_5                         ;        ;[ethiopian.GetName] Drilling Grounds;;;;
+ca_culture_frank_norman_german_0               ;        ;Jousting Lists;;;;
+ca_culture_frank_norman_german_5               ;        ;Jousting Lists;;;;
+ca_culture_germanic_0                          ;        ;[GetGermanic] Infantry Barracks;;;;
+ca_culture_germanic_1                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
+ca_culture_germanic_2                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
+ca_culture_germanic_3                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
+ca_culture_germanic_4                          ;        ;[GetGermanic] Infantry Barracks;;;;[GetGermanic] Infantry Barracks
+ca_culture_germanic_5                          ;        ;[GetGermanic] Infantry Barracks;;;;
+ca_culture_group_altaic_0                      ;        ;Riding Grounds;;;;
+ca_culture_group_altaic_5                      ;        ;Riding Grounds;;;;
+ca_culture_group_arabic_0                      ;Faris Training Ground;Al-Faris Training Ground;;;;
+ca_culture_group_arabic_1                      ;Faris Training Ground;Al-Faris Training Ground;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_1_desc                 ;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow, and, above else, horsemanship, all of which a true faris must master.;At the pinnacle of Arab cavalry tradition is Furusiyya. The code demands strict training in the use of lance, sword, bow, and, above else, horsemanship, all of which a true Faris must master.;Camels make adaptable and sturdy mounts, especially in desert environments. Not only does their smell often frighten horses, but they are excellent pack animals that free up faster mounts for use in battle when the situation dictates.;;Camels make adaptable and sturdy mounts, especially in desert environments. Not only does their smell often frighten horses, but they are excellent pack animals that free up faster mounts for use in battle when the situation dictates.;Camels make adaptable and sturdy mounts, especially in desert environments. Not only do their smell often frighten horses, but they are excellent pack animals that free up faster mounts for use in battle when the situation dictates.
+ca_culture_group_arabic_2                      ;Faris Training Ground;Al-Faris Training Ground;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_3                      ;Faris Training Ground;Al-Faris Training Ground;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_4                      ;Faris Training Ground;Al-Faris Training Ground;Camel Riding Ground;;Camel Riding Ground;Camel Riding Ground
+ca_culture_group_arabic_5                      ;Faris Training Ground;Al-Faris Training Ground;;;;
+ca_culture_group_baltic_0                      ;        ;Warrior Gathering Ground;;;;
+ca_culture_group_baltic_5                      ;        ;Warrior Gathering Ground;;;;
+ca_culture_group_byzantine_0                   ;        ;Cataphract Training Ground;;;;
+ca_culture_group_byzantine_5                   ;        ;Cataphract Training Ground;;;;
+ca_culture_group_iberian_0                     ;Knight Training Ground;Caballero Training Ground;;;;
+ca_culture_group_iberian_5                     ;Knight Training Ground;Caballero Training Ground;;;;
+ca_culture_group_north_african_0               ;        ;Desert Cavalry Training Ground;;;;
+ca_culture_group_north_african_1               ;Desert Cavalry Training Ground;Desert Cavalry Training Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_1_desc          ;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins.;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren't slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;;Capable of producing the fastest and most mobile cavalry in North Africa, the Zenata tribe was revered for their horsemanship to a degree that they were deemed essential for the Almohad effort to expand their power. Catholic Iberians weren’t slow to realize the potency of these warriors and as a result moved to copy the tactics of the hard tribesmen with their own Jinettes.;
+ca_culture_group_north_african_2               ;Desert Cavalry Training Ground;Desert Cavalry Training Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_3               ;Desert Cavalry Training Ground;Desert Cavalry Training Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_4               ;Desert Cavalry Training Ground;Desert Cavalry Training Ground;Zanatan Riding Ground;;Zenata Riding Ground;
+ca_culture_group_north_african_5               ;        ;Desert Cavalry Training Ground;;;;
+ca_culture_group_north_germanic_0              ;        ;Housecarl Training Ground;;;;
+ca_culture_group_north_germanic_5              ;        ;Housecarl Training Ground;;;;
+ca_culture_group_south_slavic_0                ;Hussar Training Ground;Gusar Training Ground;;;;
+ca_culture_group_south_slavic_5                ;Hussar Training Ground;Gusar Training Ground;;;;
+ca_culture_hungarian_0                         ;        ;Hussar Training Ground;;;;
+ca_culture_hungarian_5                         ;        ;Hussar Training Ground;;;;
+ca_culture_indian_0                            ;        ;War Elephant Pens;;;;
+ca_culture_indian_1                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
+ca_culture_indian_2                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
+ca_culture_indian_3                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
+ca_culture_indian_4                            ;        ;War Elephant Pens;;;War Elephant Pens;War Elephant Pens
+ca_culture_indian_5                            ;        ;War Elephant Pens;;;;
+ca_culture_irish_0                             ;        ;Hall of War;;;;
+ca_culture_irish_1                             ;Hall of War;Hall of War;Gallowglass Training Ground;;Gallowglass Training Ground;Gallowglass Training Ground
+ca_culture_irish_1_desc                        ;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!;The Hall of War is where the most experienced and fierce [celtic.GetGroupName] warriors gather to train their skills and exchange stories of battle. When the horns call them to war they are a fearsome force - woe to those that come in their path!;Originally from Scotland, the gallowglass warriors are excellent heavy infantrymen renowned for their stubborn defense.;;Originally from Scotland, the gallowglass warriors are excellent heavy infantrymen renowned for their stubborn defense.;The gallowglass warriors are excellent heavy infantrymen renowned for their stubborn defense.
+ca_culture_irish_2                             ;Hall of War;Hall of War;Gallowglass Training Ground;;Gallowglass Training Ground;Gallowglass Training Ground
+ca_culture_irish_3                             ;Hall of War;Hall of War;Gallowglass Training Ground;;Gallowglass Training Ground;Gallowglass Training Ground
+ca_culture_irish_4                             ;Hall of War;Hall of War;Gallowglass Training Ground;;Gallowglass Training Ground;Gallowglass Training Ground
+ca_culture_irish_5                             ;        ;Hall of War;;;;
+ca_culture_italian_0                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
+ca_culture_italian_1                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_2                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_3                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_4                           ;Cavalry Training Ground;Cavalleria Training Ground;Militia Training Ground;;Militia Training Ground;Pike Training Ground
+ca_culture_italian_5                           ;Cavalry Training Ground;Cavalleria Training Ground;;;;
+ca_culture_italian_cavalry_desc                ;Elite Italian mounted crossbowmen (balestrieri) train here, using a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;Elite [italian.GetName] mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from [italian.GetName]-[german.GetName] ([lombard.GetName]) origins.;;;;
+ca_culture_jewish_0                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
+ca_culture_jewish_5                            ;        ;[israelite.GetGroupName] Heavy Infantry Barracks;;;;
+ca_culture_ligurian_0                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
+ca_culture_ligurian_1                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
+ca_culture_ligurian_1_desc                     ;While crossbows have become increasingly common across Europe, the [ligurian.GetName]s have really capitalized on this new weapon’s advantages. [ligurian.GetName] Balestrieri are drilled not only in the use of crossbows, but are also trained to use large-but-portable pavise shields as cover while reloading.;While crossbows have become increasingly common across Europe, the [ligurian.GetName]s have really capitalized on this new weapon's advantages. [ligurian.GetName] Balestrieri are drilled not only in the use of crossbows, but are also trained to use large-but-portable pavise shields as cover while reloading.;The Balestrieri company was an integral part of the Genoese republic, and while its services might be purchased by other states or nobles in the form of hiring a regiment of its famed crossbowmen, its army commanders were still subject to Genoese regulation and could only fly the Genoese flag on the battlefield.;;The Balestrieri company was an integral part of the Genoese republic, and while its services might be purchased by other states or nobles in the form of hiring a regiment of its famed crossbowmen, its army commanders were still subject to Genoese regulation and could only fly the Genoese flag on the battlefield.;
+ca_culture_ligurian_2                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
+ca_culture_ligurian_3                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
+ca_culture_ligurian_4                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;Balestrieri Conscription Center;;Crossbowman Conscription Center;
+ca_culture_ligurian_5                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
+ca_culture_mongol_0                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_mongol_1                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_mongol_1_desc                       ;Originally a small group of personal bodyguards for the Great Khan, the kheshig have since blossomed into a large, elite force tasked with protecting the [Root.Holder.TopLiege.GetTitle].;Originally a small group of personal bodyguards for the Great Khan, the Kheshig have since blossomed into a large, elite force tasked with protecting the [Root.Holder.TopLiege.GetTitle].;;;;
+ca_culture_mongol_2                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_mongol_3                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_mongol_4                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_mongol_5                            ;        ;Kheshig Drilling Grounds;;;;
+ca_culture_nahuatl_0                           ;        ;Jaguar Warrior Lodge;;;;
+ca_culture_nahuatl_5                           ;        ;Jaguar Warrior Lodge;;;;
+ca_culture_persian_0                           ;        ;Gholaman Training Ground;;;;
+ca_culture_persian_1                           ;Gholaman Training Ground;Gholaman Training Ground;Zhayedán Training Ground;;Zhayedan Training Ground;
+ca_culture_persian_1_desc                      ;Slave-soldiers purchased and recruited from a variety of peoples gather here to train.;Slave-soldiers purchased and/or recruited from a variety of peoples gather here to train.;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;;Renowned for their ferocity, the heavily armed Zhayedan immortals are a force to be reckoned with.;
+ca_culture_persian_2                           ;Gholaman Training Ground;Gholaman Training Ground;Zhayedán Training Ground;;Zhayedan Training Ground;
+ca_culture_persian_3                           ;Gholaman Training Ground;Gholaman Training Ground;Zhayedán Training Ground;;Zhayedan Training Ground;
+ca_culture_persian_4                           ;Gholaman Training Ground;Gholaman Training Ground;Zhayedán Training Ground;;Zhayedan Training Ground;
+ca_culture_persian_5                           ;        ;Gholaman Training Ground;;;;
+ca_culture_portuguese_galician_andalusian_0    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_1    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_2    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_5    ;        ;Jinete Riding Grounds;;;;
+ca_culture_portuguese_galician_andalusian_desc ;        ;Lightly-armored cavalry train here in the art of flanking and peppering the enemy with arrows and javelins, softening them before the heavier elements of the army charge the lines.;;;;
+ca_culture_roman_0                             ;        ;Field of Mars;;;;
+ca_culture_roman_1                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
+ca_culture_roman_2                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
+ca_culture_roman_3                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
+ca_culture_roman_4                             ;Field of Mars;Field of Mars;Legionary Drilling Grounds;;Legionary Drilling Grounds;Field of Mars
+ca_culture_roman_5                             ;        ;Field of Mars;;;;
+ca_culture_russian_0                           ;        ;Druzhina Training Ground;;;;
+ca_culture_russian_5                           ;        ;Druzhina Training Ground;;;;
+ca_culture_sardinian_0                         ;        ;[sardinian.GetName] Garrison;;;;
+ca_culture_sardinian_5                         ;        ;[sardinian.GetName] Garrison;;;;
+ca_culture_saxon_english_0                     ;        ;Longbow Range;;;;
+ca_culture_saxon_english_5                     ;        ;Longbow Range;;;;
+ca_culture_scottish_0                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
+ca_culture_scottish_5                          ;Schiltron Training Ground;Schiltron Training Ground;;;;
+ca_culture_suebi_0                             ;        ;Free Warrior Camp;;;;
+ca_culture_suebi_1                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
+ca_culture_suebi_2                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
+ca_culture_suebi_3                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
+ca_culture_suebi_4                             ;        ;Free Warrior Camp;;;;Free Warrior Camp
+ca_culture_suebi_5                             ;        ;Free Warrior Camp;;;;
+ca_culture_tibetan_0                           ;        ;Mountaineer Academy;;;;
+ca_culture_tibetan_1                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
+ca_culture_tibetan_2                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
+ca_culture_tibetan_3                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
+ca_culture_tibetan_4                           ;        ;Mountaineer Academy;;;Mountaineer Academy;Mountaineer Academy
+ca_culture_tibetan_5                           ;        ;Mountaineer Academy;;;;
+ca_culture_turkish_0                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_turkish_1                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_turkish_1_desc                      ;        ;These heavy cavalry, recruited from local [turkish.GetName] landowners, are given the rights to collect revenue from fiefs (timars) in exchange for military service.;;;;
+ca_culture_turkish_2                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_turkish_3                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_turkish_4                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_turkish_5                           ;        ;Timarli Sipahi Training Ground;;;;
+ca_culture_venetian_0                          ;Marine Barracks;Marine Barracks;;;;
+ca_culture_venetian_1                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
+ca_culture_venetian_1_desc                     ;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm’s ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The bulk of the [venetian.GetName] infantry also served as sailors or marine infantry, sometimes even both. In an age where naval combat was primarily done by boarding action, the hardiness of [venetian.GetName] marines was a boon to their realm's ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the realm.;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;;The core of the Venetian infantry usually consisted of Dalmatian Slavs. Serving both as soldiers and sailors, the hardiness of the Schiavoni was a boon to Venetian ambition. The most skilled might eventually find their way to join the Oltremarini, the elite infantry of the republic.;
+ca_culture_venetian_2                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
+ca_culture_venetian_3                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
+ca_culture_venetian_4                          ;Marine Barracks;Marine Barracks;Schiavoni Barrack;;Schiavone Barrack;
+ca_culture_venetian_5                          ;Marine Barracks;Marine Barracks;;;;
+ca_culture_west_african_0                      ;        ;Free Warrior Lodge;;;;
+ca_culture_west_african_5                      ;        ;Free Warrior Lodge;;;;
+ca_government_monastery_5                      ;        ;Gompa Monastery;;;;
+ca_government_monastery_6                      ;        ;Gompa Monastery;;;;
+no_camp_fortifications_desc                    ;Small, portable barricades have been erected around the camp to protect it from bandits and raiders.;Small, portable barricades have been erected around the camp to protect it from bandits and raiders.;;;Small barricades have been erected around the camp to protect it from bandits and raiders.;Small barricades have been errected around the camp to protect it from bandits and raiders.
+no_gathering_hall_1                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_2                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_3                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_4                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_5                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_6                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_7                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_8                            ;[EMF_Get_no_gathering_hall_Name];[EMF_Get_no_gathering_hall_Name];;;Clan Gathering Hall;Clan Gathering Hall
+no_gathering_hall_desc                         ;A more permanent meeting place for our clan can help us centralize and rely less on other clans.;A more permanent meeting place for our clan can help us centralize and rely less on other clans.;;;A meeting place for the different clans in the nomad realm to discuss various internal affairs.;A meeting place for the different clans in the nomad realm to discuss various internal affairs.
+no_horse_breeder_desc                          ;Steppe horses are not as fast as other horses, but have much greater endurance and can withstand harsher climates. More refined breeding can help accentuate these advantages.;Steppe horses are not as fast as other horses, but have much greater endurance and can withstand harsher climates. More refined breeding can help accentuate these advantages.;;;There is always demand for fast and strong horses on the steppe.;There is always demand for fast and strong horses on the steppe.
+no_messenger_system_1                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_2                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_3                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_4                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_5                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_6                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_7                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_8                          ;        ;[EMF_Get_no_messenger_system_Name];;;;
+no_messenger_system_desc                       ;        ;A fast messenger system made from a network of checkpoints giving supplies and fresh horses can help relay information quickly over the large distances of our realm, facilitating reconnaissance, the organization of our armies, and trade.;;;;
+no_craftsmens_quarter_1                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_2                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_3                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_4                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_5                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_6                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_7                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_8                        ;Craftsmen’s Quarter;Craftsmen's Quarter;;;;
+no_craftsmens_quarter_desc                     ;        ;Certain necessities, such as yurts, kumis, borts, and composite bows, cannot be imported from settled peoples and need to be made by clansmen. It is more efficient to have certain people specialize in their manufacture instead of having everyone make their own versions.;;;;
+no_training_grounds_1                          ;        ;Training Grounds;;;;
+no_training_grounds_2                          ;        ;Training Grounds;;;;
+no_training_grounds_3                          ;        ;Training Grounds;;;;
+no_training_grounds_4                          ;        ;Training Grounds;;;;
+no_training_grounds_5                          ;        ;Training Grounds;;;;
+no_training_grounds_6                          ;        ;Training Grounds;;;;
+no_training_grounds_7                          ;        ;Training Grounds;;;;
+no_training_grounds_8                          ;        ;Training Grounds;;;;
+no_training_grounds_desc                       ;        ;Dedicated areas for training our population can help us train more of them for conducting and defending against raids.;;;;
+no_wagon_train_1                               ;        ;Wagon Train;;;;
+no_wagon_train_2                               ;        ;Wagon Train;;;;
+no_wagon_train_3                               ;        ;Wagon Train;;;;
+no_wagon_train_4                               ;        ;Wagon Train;;;;
+no_wagon_train_5                               ;        ;Wagon Train;;;;
+no_wagon_train_6                               ;        ;Wagon Train;;;;
+no_wagon_train_7                               ;        ;Wagon Train;;;;
+no_wagon_train_8                               ;        ;Wagon Train;;;;
+no_wagon_train_desc                            ;        ;Expanding the capacity of our wagon trains can help increase the amount of civilians our clan can support.;;;;
+tb_culture_afghan_1                            ;        ;Highland Militia Quarters;;;;
+tb_culture_afghan_2                            ;        ;Highland Militia Quarters;;;;
+tb_culture_afghan_3                            ;        ;Highland Militia Quarters;;;;
+tb_culture_afghan_4                            ;        ;Highland Militia Quarters;;;;
+tb_culture_assyrian_1                          ;        ;Kashat Archery Range;;;;
+tb_culture_assyrian_2                          ;        ;Kashat Archery Range;;;;
+tb_culture_assyrian_3                          ;        ;Kashat Archery Range;;;;
+tb_culture_assyrian_4                          ;        ;Kashat Archery Range;;;;
+tb_culture_basque_1                            ;        ;Kuartela;;;;
+tb_culture_basque_2                            ;        ;Kuartela;;;;
+tb_culture_basque_3                            ;        ;Kuartela;;;;
+tb_culture_basque_4                            ;        ;Kuartela;;;;
+tb_culture_bedouin_1                           ;        ;Camel Riding Ground;;;;
+tb_culture_bedouin_2                           ;        ;Camel Riding Ground;;;;
+tb_culture_bedouin_3                           ;        ;Camel Riding Ground;;;;
+tb_culture_bedouin_4                           ;        ;Camel Riding Ground;;;;
+tb_culture_catalan_1                           ;Almoghavar Conscription Camp;Almoghavars Conscription Camp;;;;
+tb_culture_catalan_2                           ;Almoghavar Conscription Camp;Almoghavars Conscription Camp;;;;
+tb_culture_catalan_3                           ;Almoghavar Conscription Camp;Almoghavars Conscription Camp;;;;
+tb_culture_catalan_4                           ;Almoghavar Conscription Camp;Almoghavars Conscription Camp;;;;
+tb_culture_croatia_1                           ;        ;Infantry Training Ground;;;;
+tb_culture_croatia_2                           ;        ;Infantry Training Ground;;;;
+tb_culture_croatia_3                           ;        ;Infantry Training Ground;;;;
+tb_culture_croatia_4                           ;        ;Infantry Training Ground;;;;
+tb_culture_daylamite_1                         ;        ;[daylamite.GetName] Infantry Barracks;;;;
+tb_culture_daylamite_2                         ;        ;[daylamite.GetName] Infantry Barracks;;;;
+tb_culture_daylamite_3                         ;        ;[daylamite.GetName] Infantry Barracks;;;;
+tb_culture_daylamite_4                         ;        ;[daylamite.GetName] Infantry Barracks;;;;
+tb_culture_frank_norman_german_1               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_1_desc          ;Hardened warriors meet here to train and exchange tactics.;Hardened warriors meet here to train and exchange tactics.;;;Hardened [GetGermanic] warriors meet here to train and exchange tactics.;Hardened [GetGermanic] warriors meet here to train and exchange tactics.
+tb_culture_frank_norman_german_2               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_3               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
+tb_culture_frank_norman_german_4               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
+tb_culture_group_arabic_1                      ;Faris Training Ground;Al-Faris Training Ground;;;Camel Riding Ground;Camel Riding Ground
+tb_culture_group_arabic_2                      ;Faris Training Ground;Al-Faris Training Ground;;;Camel Riding Ground;Camel Riding Ground
+tb_culture_group_arabic_3                      ;Faris Training Ground;Al-Faris Training Ground;;;Camel Riding Ground;Camel Riding Ground
+tb_culture_group_arabic_4                      ;Faris Training Ground;Al-Faris Training Ground;;;Camel Riding Ground;Camel Riding Ground
+tb_culture_group_north_african_1               ;        ;Desert Cavalry Training Ground;;;;
+tb_culture_group_north_african_2               ;        ;Desert Cavalry Training Ground;;;;
+tb_culture_group_north_african_3               ;        ;Desert Cavalry Training Ground;;;;
+tb_culture_group_north_african_4               ;        ;Desert Cavalry Training Ground;;;;
+tb_culture_irish_1                             ;Hall of War;Hall of War;;;Gallowglass Training Ground;Gallowglass Training Ground
+tb_culture_irish_2                             ;Hall of War;Hall of War;;;Gallowglass Training Ground;Gallowglass Training Ground
+tb_culture_irish_3                             ;Hall of War;Hall of War;;;Gallowglass Training Ground;Gallowglass Training Ground
+tb_culture_irish_4                             ;Hall of War;Hall of War;;;Gallowglass Training Ground;Gallowglass Training Ground
+tb_culture_italian_1                           ;Cavalleria Training Ground;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
+tb_culture_italian_2                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
+tb_culture_italian_3                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
+tb_culture_italian_4                           ;        ;Cavalleria Training Ground;;;Pike Training Ground;Pike Training Ground
 tb_culture_ligurian_1                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
 tb_culture_ligurian_2                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
 tb_culture_ligurian_3                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
 tb_culture_ligurian_4                          ;Crossbowman Drilling Grounds;Balestrieri Drilling Grounds;;;;
-tb_culture_venetian_1                          ;        ;Marine Barracks;;;;
-tb_culture_venetian_2                          ;        ;Marine Barracks;;;;
-tb_culture_venetian_3                          ;        ;Marine Barracks;;;;
-tb_culture_venetian_4                          ;        ;Marine Barracks;;;;
+tb_culture_mongol_1                            ;        ;Kheshig Drilling Grounds;;;;
+tb_culture_mongol_2                            ;        ;Kheshig Drilling Grounds;;;;
+tb_culture_mongol_3                            ;        ;Kheshig Drilling Grounds;;;;
+tb_culture_mongol_4                            ;        ;Kheshig Drilling Grounds;;;;
+tb_culture_persian_1                           ;        ;Gholaman Training Ground;;;;
+tb_culture_persian_2                           ;        ;Gholaman Training Ground;;;;
+tb_culture_persian_3                           ;        ;Gholaman Training Ground;;;;
+tb_culture_persian_4                           ;        ;Gholaman Training Ground;;;;
+tb_culture_portuguese_galician_andalusian_1    ;        ;Jinete Riding Grounds;;;;
+tb_culture_portuguese_galician_andalusian_2    ;        ;Jinete Riding Grounds;;;;
+tb_culture_portuguese_galician_andalusian_3    ;        ;Jinete Riding Grounds;;;;
+tb_culture_portuguese_galician_andalusian_4    ;        ;Jinete Riding Grounds;;;;
 tb_culture_roman_1                             ;        ;Field of Mars;;;;
 tb_culture_roman_2                             ;        ;Field of Mars;;;;
 tb_culture_roman_3                             ;        ;Field of Mars;;;;
 tb_culture_roman_4                             ;        ;Field of Mars;;;;
-tb_culture_frank_norman_german_1               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_2               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_3               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_4               ;Jousting Lodge;Jousting Lodge;;;[GetGermanic] Warrior Lodge;[GetGermanic] Warrior Lodge
-tb_culture_frank_norman_german_1_desc          ;Hardened warriors meet here to train and exchange tactics.;Hardened warriors meet here to train and exchange tactics.;;;Hardened [GetGermanic] warriors meet here to train and exchange tactics.;Hardened [GetGermanic] warriors meet here to train and exchange tactics.
-ca_government_monastery_5                      ;        ;Gompa Monastery;;;;
-ca_government_monastery_6                      ;        ;Gompa Monastery;;;;
+tb_culture_turkish_1                           ;        ;Timarli Sipahi Training Ground;;;;
+tb_culture_turkish_2                           ;        ;Timarli Sipahi Training Ground;;;;
+tb_culture_turkish_3                           ;        ;Timarli Sipahi Training Ground;;;;
+tb_culture_turkish_4                           ;        ;Timarli Sipahi Training Ground;;;;
+tb_culture_venetian_1                          ;        ;Marine Barracks;;;;
+tb_culture_venetian_2                          ;        ;Marine Barracks;;;;
+tb_culture_venetian_3                          ;        ;Marine Barracks;;;;
+tb_culture_venetian_4                          ;        ;Marine Barracks;;;;
 #1_emf_cadet.csv;;;;;
 #1_emf_cadet_codegen.csv;;;;;
 #1_emf_cb.csv;;;;;
@@ -404,6 +527,7 @@ e_china_chu_adj                                ;        ;Chu;;;;
 e_china_yue_adj                                ;        ;Yue;;;;
 e_china_yin_adj                                ;        ;Yin;;;;
 e_china_shun_adj                               ;        ;Shun;;;;
+#1_emf_combat_tactics_codegen.csv;;;;;
 #1_emf_core.csv;;;;;
 ERA_CHAR_INFO_122                              ;        ; ; ;;;
 #1_emf_cost_tooltips_codegen.csv;;;;;
@@ -479,19 +603,20 @@ italian_group_opinion                          ;        ;[italian_group.GetGroup
 MOGHUL                                         ;        ;Moghul Khanate;;;;
 MOGHUL_ADJ                                     ;        ;Moghul;;;;
 #1_emf_mr.csv;;;;;
-title_great_councillor_1                       ;        ;Great Councillor;;;;
-title_great_councillor_2                       ;        ;Great Councillor;;;;
-title_great_councillor_3                       ;        ;Great Councillor;;;;
-title_great_councillor_4                       ;        ;Great Councillor;;;;
-title_great_councillor_1_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councillors, they use this title to take their place at their liege's side.;;;;
-title_great_councillor_2_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councillors, they use this title to take their place at their liege's side.;;;;
-title_great_councillor_3_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councillors, they use this title to take their place at their liege's side.;;;;
-title_great_councillor_4_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councillors, they use this title to take their place at their liege's side.;;;;
+title_great_councillor_1                       ;        ;Great Councilor;;;;
+title_great_councillor_2                       ;        ;Great Councilor;;;;
+title_great_councillor_3                       ;        ;Great Councilor;;;;
+title_great_councillor_4                       ;        ;Great Councilor;;;;
+title_great_councillor_1_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councilors, they use this title to take their place at their liege's side.;;;;
+title_great_councillor_2_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councilors, they use this title to take their place at their liege's side.;;;;
+title_great_councillor_3_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councilors, they use this title to take their place at their liege's side.;;;;
+title_great_councillor_4_desc                  ;Patricians of Merchant Republics are permanent members of their doge’s council. If they are not regular councillors, they use this title to take their place at their liege’s side.;Patricians of Merchant Republics are permanent members of their doge's council. If they are not regular councilors, they use this title to take their place at their liege's side.;;;;
 muslim_merchant_republic_government            ;        ;Muslim Merchant Republic;;;;
 #1_emf_nde.csv;;;;;
 #1_emf_nomad.csv;;;;;
 no_lucky_desc                                  ;        ;AI bonus for nomad Lucky Rulers.;;;;
 no_lucky_1                                     ;        ;Lucky Warhorse Stables;;;;
+HORDE_RETTYPE_TEMUJIN                          ;        ;Jaghun;;;;
 #1_emf_notify_codegen.csv;;;;;
 #1_emf_nwo.csv;;;;;
 #1_emf_prisoner.csv;;;;;
@@ -519,7 +644,7 @@ manichean_FEATURES                             ;        ;§Y*§! The Manichaean Ar
 maronite                                       ;        ;Maronite;Maronite;;Maronite;
 maronite_DESC                                  ;        ;Beginning as a movement founded by the monk Maron in the fourth century, the Maronites are a Christian Church in full communion with the Holy See yet under the leadership of the Maronite Primate.\n§Y*§! Learned Maronites may subscribe to either the Antiochian or Alexandrite schools of theology;Beginning as a movement founded by the monk Maron in the fourth century, the Maronites are a Christian Church in full communion with the Holy See yet under the leadership of the Maronite Primate.\n§Y*§! Learned Maronites may subscribe to either the Antiochian or Alexandrite schools of theology;;Beginning as a movement founded by the monk Maron in the fourth century, the Maronites are a Christian Church in full communion with the Holy See yet under the leadership of the Maronite Patriarch. \n§Y*§! Learned Maronites may subscribe to either the Antiochian or Alexandrite schools of theology;
 messalian_DESC                                 ;        ;The Messalians, or Euchites ('Those who Pray'), are a heretical Christian sect that originated in Mesopotamia, influenced by dualistic faiths like Zoroastrianism. Messalians believe that God can be perceived by the carnal senses, and that this perception is necessary to reach perfection. Each person is born with an inner demon, and only intense prayer can drive it out. They also believe that Lucifer is the elder son of God and a force for good, and that incest is sacred since it was practised by the children of Adam and Eve. They have no formal rites and no strict church hierarchy.;The Messalians, or Euchites ('Those who Pray'), are a heretical Christian sect that originated in Mesopotamia, influenced by dualistic faiths like Zoroastrianism. Messalians believe that God can be perceived by the carnal senses, and that this perception is necessary to reach perfection. Each person is born with an inner demon, and only intense prayer can drive it out. They also believe that Lucifer is the elder son of God and a force for good, and that incest is sacred since it was practised by the children of Adam and Eve. They have no formal rites and no strict church hierarchy.;;The Messalians, or Euchites (“those who pray”), are a heretical Christian sect that originated in Mesopotamia, influenced by dualistic faiths like Zoroastrianism. Messalians believe that God can be perceived by the carnal senses, and that this perception is necessary to reach perfection. Each person is born with an inner demon, and only intense prayer can drive it out. They also believe that Lucifer is the elder son of God and a force for good, and that incest is sacred since it was practised by the children of Adam and Eve. They have no formal rites and no strict church hierarchy.;The Messalians, or Euchites ("Those who Pray"), are a heretical Christian sect that originated in Mesopotamia, influenced by dualistic faiths like Zoroastrianism. Messalians believe that God can be perceived by the carnal senses, and that this perception is necessary to reach perfection. Each person is born with an inner demon, and only intense prayer can drive it out. They also believe that Lucifer is the elder son of God and a force for good, and that incest is sacred since it was practised by the children of Adam and Eve. They have no formal rites and no strict church hierarchy.
-messalian_FEATURES                             ;        ;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;§Y*§! Women may hold all councillor positions\n§Y*§! Women may lead armies
+messalian_FEATURES                             ;        ;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;;§Y*§! Messalians must pray to expel their personal demons\n§Y*§! Once the demons are driven out, they can achieve the status of Perfection\n§Y*§! Learned Messalians may subscribe to the Antiochian school of theology\n§Y*§! Messalians may choose a patron saint to worship\n§Y*§! Messalians can create their own Holy Order, the Army of Lucifer\n§Y*§! The Patriarch of Antioch will automatically become the new religion head;§Y*§! Women may hold all councilor positions\n§Y*§! Women may lead armies
 miaphysite                                     ;        ;Coptic;Coptic;;Coptic;Miaphysite
 miaphysite_DESC                                ;        ;Copts are miaphysite, stressing that Christ had but a single nature, but of both human and divine character. This stance split them off from the main branch of Christianity after the Council of Chalcedon in 451. Though not viewed as outright heretics by Orthodox and Catholic Christians, it is a fine distinction. The nominal head of the Coptic Church is the Pope of Alexandria.;Copts are miaphysite, stressing that Christ had but a single nature, but of both human and divine character. This stance split them off from the main branch of Christianity after the Council of Chalcedon in 451. Though not viewed as outright heretics by Orthodox and Catholic Christians, it is a fine distinction. The nominal head of the Coptic Church is the Pope of Alexandria.;;Copts are miaphysite, stressing that Christ had but a single nature, but of both human and divine character. This stance split them off from the main branch of Christianity after the council of Chalcedon in 451. Though not viewed as outright heretics by Orthodox and Catholic Christians, it is a fine distinction. The nominal head of the Coptic Church is the Pope of Alexandria.;Miaphysite Christianity encompasses the Coptic Church and the Armenian Apostolic Church. Miaphysites stress that Christ had but a single nature, but of both human and divine character. This stance split them off from the main branch of Christianity after the council of Chalcedon in 451. Though not viewed as outright heretics by Orthodox and Catholic Christians, it is a fine distinction. The nominal head of the Miaphysite Church is the Pope of Alexandria.
 miaphysite_FEATURES                            ;        ;§Y*§! Copts may opt to become Desert Fathers and Desert Mothers instead of monks and nuns\n§Y*§! Learned Copts may subscribe to the Alexandrite school of theology;§Y*§! Copts may opt to become Desert Fathers and Desert Mothers instead of monks and nuns\n§Y*§! Learned Copts may subscribe to the Alexandrite school of theology;;§Y*§! Copts may opt to become Desert Fathers and Desert Mothers instead of monks and nuns\n§Y*§! Learned Copts may subscribe to the Alexandrite school of theology;
@@ -630,7 +755,6 @@ PROPHET_ENOCH                                  ;        ;The Prophet Enoch;The P
 PROPHET_JOHN_BAPTIST                           ;        ;John the Baptist;John the Baptist;;John the Baptist;
 PROPHET_NOAH                                   ;        ;The Prophet Noah;The Prophet Noah;;The Prophet Noah;
 PROPHET_SETH                                   ;        ;The Prophet Seth;The Prophet Seth;;The Prophet Seth;
-PHOPHET_SHEM                                   ;        ;The Prophet Shem;The Prophet Shem;;The Prophet Shem;
 PRIEST_CONDEMNS                                ;        ;[doubting_priest.GetBestName] finds you wanting...\n;[doubting_priest.GetBestName] finds you wanting...\n;;[doubting_priest.GetBestName] finds you wanting…\n;
 PRIEST_WON_OVER                                ;        ;[doubting_priest.GetBestName] is convinced of your piety\n;[doubting_priest.GetBestName] is convinced of your piety\n;;[doubting_priest.GetBestName] is convinced of your piety\n;
 RADIANT_JESUS                                  ;        ;The Radiant Jesus;The Radiant Jesus;;The Radiant Jesus;
@@ -678,6 +802,7 @@ d_army_light_adj                               ;        ;Forces of Light;Forces 
 d_army_lucifer                                 ;        ;Army of Lucifer;Army of Lucifer;;Army of Lucifer;
 d_army_lucifer_adj                             ;        ;Luciferian;Luciferian;;Luciferian;
 d_baltic_pagan_reformed                        ;        ;Romuva Congregation;Romuva Congregation;;Romuva Congregation;The Romuvan Congregation
+d_baltic_pagan_reformed_adj                    ;        ;Romuvan;;;Romuva;Romuva
 d_bogomilist                                   ;        ;Bogomilist Church;Bogomilist Church;;Bogomil Church;
 d_bogomilist_adj                               ;        ;Bogomilist;Bogomilist;;Bogomil;
 d_bon_reformed                                 ;        ;Sacred Bön Hierarchy;Sacred Bön Hierarchy;;Sacred Bön Hierarchy;The Sacred Bön Hierarchy
@@ -1209,7 +1334,7 @@ waldensian_charity_desc                        ;        ;Every faithful [waldens
 waldensian_choose_path                         ;        ;Choose [waldensian.GetName] Path;Choose [waldensian.GetName] Path;;Choose [waldensian.GetName] Path;
 waldensian_choose_path_desc                    ;        ;The [waldensian.GetName]s offer three different paths for their faithful to follow, each with their individual benefits and drawbacks.;The [waldensian.GetName]s offer three different paths for their faithful to follow, each with their individual benefits and drawbacks.;;The [waldensian.GetName]s offer three different paths for their faithful to follow, each with their individual benefits and drawbacks.;
 waldensian_hospital                            ;        ;Build Hospital;Build Hospital;;Build Hospital;
-waldensian_hospital_desc                       ;        ;To better care for the poor, your councillors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;To better care for the poor, your councillors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;;To better care for the poor, your councillors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;
+waldensian_hospital_desc                       ;        ;To better care for the poor, your councilors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;To better care for the poor, your councilors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;;To better care for the poor, your councillors have advised building a hospital in [Root.Capital.GetName] to give proper medical care to the city. While it would be expensive to build and maintain, it would benefit the people enormously.;
 yazidi_peacock_feast                           ;        ;Celebrate Tawûsgeran;Celebrate Tawûsgeran;;Celebrate Tawûsgeran;
 yazidi_peacock_feast_desc                      ;        ;Tawûsgeran, also known as 'Circulation of the Peacock', is an important [yazidi.GetName] festival where Qewals and other religious dignitaries visit [yazidi.GetName] villages, bringing the senjaq, sacred images of a peacock made from brass symbolising Tawûsê Melek. These are venerated, taxes are collected from the pious, sermons are preached and holy water distributed.;Tawûsgeran, also known as 'Circulation of the Peacock', is an important [yazidi.GetName] festival where Qewals and other religious dignitaries visit [yazidi.GetName] villages, bringing the senjaq, sacred images of a peacock made from brass symbolising Tawûsê Melek. These are venerated, taxes are collected from the pious, sermons are preached and holy water distributed.;;Tawûsgeran, also known as “Circulation of the Peacock,” is an important [yazidi.GetName] festival where Qewals and other religious dignitaries visit [yazidi.GetName] villages, bringing the senjaq, sacred images of a peacock made from brass symbolising Tawûsê Melek. These are venerated, taxes are collected from the pious, sermons are preached and holy water distributed.;
 yazidi_pilgrimage                              ;        ;[yazidi.GetName] Pilgrimage;[yazidi.GetName] Pilgrimage;;[yazidi.GetName] Pilgrimage;
@@ -1570,7 +1695,7 @@ EVTOPTA_emf_heresy_2001                        ;        ;It's technically not ba
 EVTDESC_emf_heresy_2002                        ;        ;The [cathar.GetName] Church frowns upon contact with members of the opposite sex. Thus you are raised mostly among other [cathar.GetName] women, and rarely see boys your age at all. You start to feel strange urges, and it occurs to you that the church really only frowns upon reproduction...;The [cathar.GetName] Church frowns upon contact with members of the opposite sex. Thus you are raised mostly among other [cathar.GetName] women, and rarely see boys your age at all. You start to feel strange urges, and it occurs to you that the church really only frowns upon reproduction...;;The [cathar.GetName] Church frowns upon contact with members of the opposite sex. Thus you are raised mostly among other [cathar.GetName] women, and rarely see boys your age at all. You start to feel strange urges, and it occurs to you that the church really only frowns upon reproduction…;
 EVTDESC_emf_heresy_2003                        ;        ;A life of sinful urges is not something you can relegate yourself to. You are a devout [cathar.GetName], and that means that such sins are best put behind you.;A life of sinful urges is not something you can relegate yourself to. You are a devout [cathar.GetName], and that means that such sins are best put behind you.;;A life of sinful urges is not something you can relegate yourself to. You are a devout [cathar.GetName], and that means that such sins are best put behind you.;
 EVTOPTA_emf_heresy_2003                        ;        ;For the glory of God!;For the glory of God!;;For the glory of God!;
-EVTDESC_emf_heresy_2006                        ;        ;After a long search, a young boy has been found who might make for an ideal candidate. Your councillors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;After a long search, a young boy has been found who might make for an ideal candidate. Your councillors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;;After a long search, a young boy has been found who might make for an ideal candidate. Your councillors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;
+EVTDESC_emf_heresy_2006                        ;        ;After a long search, a young boy has been found who might make for an ideal candidate. Your councilors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;After a long search, a young boy has been found who might make for an ideal candidate. Your councilors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;;After a long search, a young boy has been found who might make for an ideal candidate. Your councillors tell you he comes from an orphanage in [adopted_province.GetName], his parents both killed by a recent plague. Although a bit grimy and shy, you feel the child might make a good ruler one day, provided he is cleaned up and raised properly.;
 EVTOPTA_emf_heresy_2006                        ;        ;I suppose he will do.;I suppose he will do.;;I suppose he will do.;
 EVTTITLE_emf_heresy_2011                       ;        ;The Council of [council_location.GetName];The Council of [council_location.GetName];;The Council of [council_location.GetName];
 EVTDESC_emf_heresy_2011                        ;        ;A [cathar.GetName] heresy has been brewing for some time, begun by numerous ascetic priests who espouse strange beliefs regarding there being two Gods--a 'Good God' who created the spiritual realm, and an 'Evil God' who created the material realm and all of humanity, and the reason why all humans are filled with sin--but with the gathering of these priests at a council in the province of [From.GetName], the heresy has begun to spread like wildfire. At this council, the priests codified many of their laws and spread territories into 'bishoprics', and they have since gained many followers.;A [cathar.GetName] heresy has been brewing for some time, begun by numerous ascetic priests who espouse strange beliefs regarding there being two Gods--a 'Good God' who created the spiritual realm, and an 'Evil God' who created the material realm and all of humanity, and the reason why all humans are filled with sin--but with the gathering of these priests at a council in the province of [From.GetName], the heresy has begun to spread like wildfire. At this council, the priests codified many of their laws and spread territories into 'bishoprics', and they have since gained many followers.;;A [cathar.GetName] heresy has been brewing for some time, begun by numerous ascetic priests who espouse strange beliefs regarding there being two Gods—a “Good God” who created the spiritual realm, and an “Evil God” who created the material realm and all of humanity, and the reason why all humans are filled with sin—but with the gathering of these priests at a council in the province of [From.GetName], the heresy has begun to spread like wildfire. At this council, the priests codified many of their laws and spread territories into “bishoprics,” and they have since gained many followers.;
@@ -1651,7 +1776,7 @@ EVTOPTA_emf_heresy_2037                        ;        ;They must be helped!;Th
 EVTOPTB_emf_heresy_2037                        ;        ;There is nothing to be done.;There is nothing to be done.;;There is nothing to be done.;
 EVTDESC_emf_heresy_2038                        ;        ;In the sermon today, your priest expounded on the sin of greed, and how no greedy [Root.GetManWoman] can enter heaven. You just wish he didn't use yourself as an example.;In the sermon today, your priest expounded on the sin of greed, and how no greedy [Root.GetManWoman] can enter heaven. You just wish he didn't use yourself as an example.;;In the sermon today, your priest expounded on the sin of greed, and how no greedy [Root.GetManWoman] can enter heaven. You just wish he didn’t use yourself as an example.;
 EVTOPTA_emf_heresy_2038                        ;        ;He's not wrong...;He's not wrong...;;He’s not wrong…;
-EVTDESC_emf_heresy_2039                        ;        ;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councillors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councillors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councillors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;
+EVTDESC_emf_heresy_2039                        ;        ;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councilors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councilors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;;A recent opportunity to improve the facilities in [Root.Capital.GetName] for assisting the poor has arisen, and it is something your councillors tell you will not only assist the people but make the city far better than it has ever been. It does, however, require a significant investment.;
 EVTOPTA_emf_heresy_2039                        ;        ;Then we must do it!;Then we must do it!;;Then we must do it!;
 EVTOPTB_emf_heresy_2039                        ;        ;We cannot afford it.;We cannot afford it.;;We cannot afford it.;
 EVTDESC_emf_heresy_2040                        ;        ;The ideals of the [waldensian.GetName] faith have made a big impression on you. You have decided to be charitable at all times.;The ideals of the [waldensian.GetName] faith have made a big impression on you. You have decided to be charitable at all times.;;The ideals of the [waldensian.GetName] faith have made a big impression on you. You have decided to be charitable at all times.;
@@ -1971,9 +2096,9 @@ REVOLT_RELIGIOUS_VICTORY_TITLE_RENAMED         ;        ;[Root.Religion.GetName]
 #1_emf_rr.csv;;;;;
 #1_emf_seljuk.csv;;;;;
 #1_emf_siege.csv;;;;;
+#1_emf_societies.csv;;;;;
 #1_emf_sr_codegen.csv;;;;;
 #1_emf_startup.csv;;;;;
-#1_emf_sts.csv;;;;;
 #1_emf_succession_voting.csv;;;;;
 #1_emf_terrain_leader_traits.csv;;;;;
 #1_emf_titles.csv;;;;;
@@ -2130,3 +2255,4 @@ imperial_duke_female_byzantine                 ;Strategos;Strategitissa;;;;
 imperial_king_female_byzantine                 ;Exarch  ;Exarchessa;;;;
 #1_plus_faction.csv;;;;;
 #1_plus_misc.csv;;;;;
+#zz~emf_dynlevy.csv;;;;;
