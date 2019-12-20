@@ -69,7 +69,7 @@ PROV428 ;Brzesc  ;Brzesc;c_kujawy,Brest;Kujawy
 ########################################,,,,,,,,,,,,,,;;;;
 PROV459 ;Krk     ;Krk;c_veglia,Vegl,Veglia,Kyrikon,Curicta;Veglia
 PROV460 ;Zagorje ;Zagorje;c_varadzin,Warasdin,Varasd,Varasdino,Varasdinum,Varasdinion;Varazdin
-PROV462 ;Vukovar ;Vukova;c_krizevci,Wukowar,Vukovár,Mursa,Moursa;Krizevci
+PROV462 ;Vukovar ;Vukova;c_krizevci,Wukowar,Vukovaru,Vukovár,Mursa,Moursa;Krizevci
 PROV463 ;Usora   ;Usora;c_usora;Donji Kraji
 PROV464 ;Lika    ;Lika;c_senj,Licca,Attienities;Senj
 PROV466 ;Podgorje;Podgorje;c_zachlumia,Zachloumia;Zachlumia
@@ -83,6 +83,7 @@ PROV469 ;Duklja  ;Duklja;c_zeta,Diokleia,Dioclea,Karadag;Zeta
 PROV507 ;Kran    ;Kran;c_nikopolis,Seuthoupolis,Seuthopolis,Hasat;Nikopolis
 PROV498 ;Zagore  ;Zagore;c_mesembria,Zagoria,Misivri;Mesembria
 PROV493 ;Plovdiv ;Plovdiv;c_philippopolis,Filipápoly,Philippopolis,Philippoupolis,Filibe;Philippopolis
+PROV495 ;Selymbria;Selymbria;c_selymbria,Silivri;Kaliopolis
 PROV508 ;Preslav ;Preslav;c_dorostotum,Durostoulon,Dorostorum,Stamboluk;Dorostotum
 PROV500 ;Sredets ;Sredets;c_serdica,Triaditsa,Serdica,Sofya;Serdica
 PROV499 ;Tarnovo ;Tarnovo;c_tyrnovo,Moisía,Moesia Secunda,Tirnova;Tyrnovo
@@ -369,7 +370,7 @@ PROV229 ;Forcalquier;Forcalquier;c_forcalquier;Forcalquier
 ########################################,,,,,,,,,,,,,,;;;;
 #Italy,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV335 ;Buonalbergo;Buonalbergo;c_benevento,Beneventum,Beneuenton;Benevento
+PROV335 ;Buonalbergo;Buonalbergo;c_benevento,Beneventum,Beneuenton,Benavent;Benevento
 PROV1112;Molise  ;Molise;c_molise;Madurai
 PROV334 ;Acerra  ;Acerra;c_napoli,Neapolis;Napoli
 PROV851 ;Aversa  ;Aversa;c_capua,Kapue;Capua
@@ -378,7 +379,7 @@ PROV1105;Fondi   ;Fondi;c_fondi,Caieta,Kaiete;Moskva
 PROV347 ;Melfi   ;Melfi;c_apulia,Potentia;Apulia
 PROV1111;Andria  ;Andria;c_andria,Bardoulos;Aegean Sea
 PROV348 ;Monte Sant’Angelo;Monte Sant' Angelo;c_foggia,Sipontum,Sipious;Foggia
-PROV346 ;Conversano;Conversano;c_bari,Barium,Barion;Bari
+PROV346 ;Conversano;Conversano;c_bari,Barium,Barion,Báru;Bari
 PROV1110;Gravina ;Gravina;c_gravina,Silvium,Sìlbion;Gulf of Venice
 PROV1108;Loritello;Loritello;c_loritello,Larinum,Larinon;Garonne
 PROV344 ;Taranto ;Taranto;c_taranto,Tarentum,Taras;Taranto
@@ -393,11 +394,11 @@ PROV337 ;Tarsia  ;Tarsia;c_consenza,Consentia,Konsentia;Cosenza
 PROV1136;Catanzaro;Catanzaro;c_catanzaro,Croton,Kroton,Qatansar;Dvaraka
 PROV338 ;Gerace  ;Gerace;c_reggio,Rhegium,Rhegion,Rivàh;Reggio
 PROV340 ;Palermo ;Palermo;c_palermo,Balarm,Panormos;Palermo
-PROV339 ;Geraci  ;Geraci;c_messina,Kefaloídion,Gafludi;Messina
-PROV343 ;Paterno ;Paterno;c_siracusa,Tauromenion,Mu'izziyya;Siracusa
+PROV339 ;Geraci  ;Geraci;c_messina,Kefaloídion,Julfúdh;Messina
+PROV343 ;Paterno ;Paterno;c_siracusa,Tauromenion,Qatániya;Siracusa
 PROV1126;Modica  ;Modica;c_modica,Syrakousai,Noto,Muòrica;Daman
-PROV342 ;Butera  ;Butera;c_agrigento,Akragas,Kerkent;Girgenti
-PROV341 ;Aderno  ;Aderno;c_trapani,Enna,Qasr Ianni;Trapani
+PROV342 ;Butera  ;Butera;c_agrigento,Akragas,Jirjent;Girgenti
+PROV341 ;Aderno  ;Aderno;c_trapani,Ennae,Qasryánnih;Trapani
 PROV812 ;Malta   ;Malta;c_malta,Melite;Malta
 PROV929 ;Abruzzo ;Aprutio;c_aprutium,Adria;Aquila
 PROV356 ;Venice  ;Venezia;c_venezia,Venexia;Venezia
@@ -479,32 +480,32 @@ PROV65  ;Maelor  ;Maelor;c_powys,Powys Fadog,Powis Fadog;Powys
 ########################################,,,,,,,,,,,,,,;;;;
 #Hungary,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV442 ;Trencín ;Trencsén;c_trencin,Trencsén,Trencín,Trentschin;Trencín
-PROV443 ;Nitra   ;Nyitra;c_nitra,Nyitra,Nitra,Neutra;Nitra
-PROV444 ;Visegrád;Visegrád;c_esztergom,Ostrihom,Gran,Aquincum,Akouinkon;Esztergom
-PROV445 ;Bratislava;Pozsony;c_pressburg,Pozsony,Prešpurk,Prešporok,Pressburg;Pressburg
-PROV450 ;Sopron  ;Sopron;c_sopron,Ödenburg,Scarabantia,Skarabantia;Sopron
-PROV451 ;Fejér   ;Fejér;c_fejer;Fejer
+PROV442 ;Trencín ;Trencsén;c_trencin,Trencen,Trencín,Trentschin;Trencín
+PROV443 ;Nitra   ;Nyitra;c_nitra,Nýitra,Nitra,Neutra;Nitra
+PROV444 ;Visegrád;Visegrád;c_esztergom,Iztergam,Ostrihom,Gran,Aquincum,Akouinkon;Esztergom
+PROV445 ;Bratislava;Pozsony;c_pressburg,Poson,Prešpurk,Prešporok,Pressburg;Pressburg
+PROV450 ;Sopron  ;Sopron;c_sopron,Suprun,Ödenburg,Scarabantia,Skarabantia;Sopron
+PROV451 ;Fejér   ;Fejér;c_fejer,Feier;Fejer
 PROV452 ;Tolna   ;Tolna;c_pecs,Blatnohrad,Fünfkirchen,Sopianae,Sopianai;Pecs
-PROV453 ;Csongrád;Csongrád;c_szekezfehervar,Czernohrad,Cierny hrad,Ciongrad,Stuhlweißenburg;Szekesfehervar
-PROV454 ;Zala    ;Kolon;c_vas,Eisenburg,Zelezna;Vas
+PROV453 ;Csongrád;Csongrád;c_szekezfehervar,Congrad,Czernohrad,Cierny hrad,Ciongrad,Stuhlweißenburg;Szekesfehervar
+PROV454 ;Zala    ;Kolon;c_vas,Vos,Eisenburg,Zelezna;Vas
 PROV517 ;Temes   ;Temes;c_temes,Temeš,Temes,Timish,Temiš,Timiš,Tymes;Temes
-PROV518 ;Bodrog  ;Bodrog;c_bacs,Bách,Baci,Batsch,Bach,Baç;Bacs
-PROV519 ;Fehér   ;Fehér;c_feher,Weißenburg,Weyssenburg,Alba de Jos,Belgrad-i Erdel;Feher
+PROV518 ;Bodrog  ;Bodrog;c_bacs,Bac,Bách,Baci,Batsch,Bach,Baç;Bacs
+PROV519 ;Fehér   ;Fehér;c_feher,Feher,Weißenburg,Weyssenburg,Alba de Jos,Belgrad-i Erdel;Feher
 PROV520 ;Bihar   ;Bihar;c_bihar,Bihor,Bihár;Bihar
-PROV522 ;Veszprém;Veszprém;c_pest;Pest
+PROV522 ;Veszprém;Veszprém;c_pest,Vezprem;Pest
 PROV523 ;Heves   ;Heves;c_heves;Heves
-PROV524 ;Gyõr    ;Gyõr;c_gemer,Ráb,Jura,Vjura,Raab,Arrabona;Gemer
-PROV525 ;Árva    ;Árva;c_orava,Árva,Orava,Arwa,Orawa;Orava
+PROV524 ;Gyõr    ;Gyõr;c_gemer,Gor,Ráb,Jura,Vjura,Raab,Arrabona;Gemer
+PROV525 ;Árva    ;Árva;c_orava,Arva,Orava,Arwa,Orawa;Orava
 PROV533 ;Borsod  ;Borsod;c_saris,Šariš,Scharosch;Spis
-PROV537 ;Somogy  ;Somogy;c_bereg;Bereg
-PROV538 ;Abaúj   ;Abauj;c_abauj,Abov,Abaujwar;Abauj
-PROV539 ;Szatmár ;Szatmár;c_marmaros,Sathmar,Maramures;Marmaros
+PROV537 ;Somogy  ;Somogy;c_bereg,Somog;Bereg
+PROV538 ;Abaúj   ;Abaúj;c_abauj,Aba Uianvaru,Abov,Abaujwar;Abauj
+PROV539 ;Szatmár ;Szatmár;c_marmaros,Zatmar,Sathmar,Maramures;Marmaros
 PROV540 ;Torda   ;Torda;c_szekelyfold,Thorenburg,Turda;Szekelyföld
 ########################################,,,,,,,,,,,,,,;;;;
 #Moldavia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV545 ;Suceava ;Suceava;c_torki,Szöcsvásár,Sedschopff,Suczawa;Suceava
+PROV545 ;Suceava ;Suceava;c_torki,Zeret,Szõcsvásár,Sedschopff,Suczawa;Suceava
 PROV511 ;Bessarabia;Basarabia;c_galaz;Galati
 PROV512 ;Bender  ;Tighina;c_belgorod,Bender;Belgorod
 PROV513 ;Bârlad  ;Bârlad;c_birlad,Barlád,Bariach;Bârlad
@@ -525,8 +526,8 @@ PROV210 ;Foix    ;Fois;c_foix;Foix
 PROV214 ;Toulouse;Tolosa;c_toulouse,Tolosa;Toulouse
 PROV218 ;Rouergue;Roergue;c_rouergue;Rouergue
 PROV219 ;Gévaudan;Gavaudan;c_gevaudan;Gévaudan
-PROV212 ;Narbonne;Narbona;c_narbonne,Narbo Martius,Narbonesios;Narbonne
-PROV213 ;Carcassonne;Carcassona;c_carcassonne,Carcasum;Carcassonne
+PROV212 ;Narbonne;Narbona;c_narbonne,Narbo Martius,Narbonesios,Arbúna;Narbonne
+PROV213 ;Carcassonne;Carcassona;c_carcassonne,Carcasum,Qarqashúna;Carcassonne
 PROV220 ;Melgueil;Melguèlh;c_montpellier;Melgueil
 PROV150 ;Albret  ;Labrit;c_albret;Marsan
 ########################################,,,,,,,,,,,,,,;;;;
@@ -545,14 +546,14 @@ PROV100 ;Avranches;Avranches;c_avranches,Ingena;Mortain
 PROV154 ;Asturias de Santillana;Asturias de Santillana;c_asturias_de_santillana,Sant'ianna,Santillanako Asturias,Astúries de Santillana,Asturies de Santillana,Astúrias de Santilhana,Asturies de Sainte-Julianne;Asturias de Santillana
 PROV155 ;Asturias de Oviedo;Asturias de Oviedo;c_asturias_de_oviedo,Tubit,Astúrias d'Oviedo,Asturies d'Uviéu,Astúries d'Oviedo,Obiedoko Asturias,Asturies d'Ouviet;Asturias de Oviedo
 PROV156 ;Trastámara;Trastámara;c_coruna,Qruniyyah,Trastamare,Trastâmara,Trastamara,Trastàmara,Brigantium,Brigantion;Coruña
-PROV158 ;Porto   ;Oporto;c_porto,Uburtu,Porto,Portu,Oporto,Porteau;Porto
+PROV158 ;Porto   ;Oporto;c_porto,Burtuqál,Porto,Portu,Oporto,Porteau;Porto
 PROV165 ;Carmona ;Carmona;c_cadiz,Qarmúna,Karmona,Carmonne;Cadiz
-PROV173 ;Tortosa ;Tortosa;c_tarragona,Turtúsha,Tortose,Tarraco,Tarrakon;Tarragona
+PROV173 ;Tortosa ;Tortosa;c_tarragona,Turtúsha,Tortose,Julia Augusta,Tarrakon;Tarragona
 PROV174 ;Albarracín;Albarracín;c_albarracin,al-Sahla,Albarrazín,Albarrasí,Albarratzin;Albarracin
-PROV178 ;Alarcón ;Alarcón;c_la_mancha,al-Urqub,Alarcó,Alarkon,Alarcon;La Mancha
-PROV179 ;Villena ;Villena;c_almansa,Bilyana,Bilena,Vilhena,Villène;Almansa
+PROV178 ;Uclés   ;Ucles;c_la_mancha,Uqlísh;La Mancha
+PROV179 ;Villena ;Villena;c_almansa,al-Basít,Bilena,Vilhena,Villène;Almansa
 PROV183 ;Mérida  ;Mérida;c_aracena,Márida,Merida,Emerita Augusta,Emerita Augousta;Aracena
-PROV195 ;Talavera;Talavera;c_caceres,Talabira,Talabera,Caesarobriga,Kaisarobriga;Caceres
+PROV195 ;Talavera;Talavera;c_caceres,Talabíra,Talabera,Caesarobriga,Kaisarobriga;Caceres
 PROV182 ;Seville ;Sevilla;c_sevilla,Ishbíliya,Sebilla,Séville,Sevilha,Hispalis,Ispalis;Seville
 ########################################,,,,,,,,,,,,,,;;;;
 #Anatolia,,,,,,,,,,,,,,;;;;
@@ -581,14 +582,14 @@ PROV747 ;Lycia   ;Lykía;c_lykia,Lycie,Licia,Teke;Lykia
 PROV748 ;Caria   ;Karía;c_laodikeia,Laodicée,Laodicea,Ladik;Laodikeia
 PROV749 ;Dorylaeum;Dorylaion;c_dorylaion,Dorylée,Dorylaeum,Kütahya,Daruliyyah;Dorylaion
 PROV750 ;Nicaea  ;Nikaia;c_nikaea,Nicée,Nicea,Níqíya,Iznik;Nikaea
-PROV751 ;Paphlagonia;Paphlagonia;c_paphlagonia,Paphlagonie,Paphlagonia,Kastamoni;Paphlagonia
+PROV751 ;Paphlagonia;Paphlagonia;c_paphlagonia,Paphlagonie,Paphlagonia,Aflakhúniya,Kastamoni;Paphlagonia
 PROV752 ;Galatia ;Galatía;c_galatia,Galatie,Bozok;Galatia
 PROV753 ;Ancyra  ;Ankyra;c_ankyra,Engürü;Ancyra
 PROV754 ;Pisidia ;Pisidía;c_sozopolis,Hamid;Sozopolis
 PROV755 ;Attalea ;Attáleia;c_attaleia,Sattalie,Sattalia,Antáliyya,Atalya;Attaleia
 PROV756 ;Limassol;Lemesos;c_limisol,Leymosun,Limassol,Limisso;Limisol
-PROV757 ;Famagusta;Ammókhõstos;c_famagusta,Magusa,Famagouste,Famagosta;Famagusta
-PROV758 ;Seleucia;Seleukeia;c_seleukeia,Silifke,Selewkia,Séleph;Seleukeia
+PROV757 ;Famagusta;Ammókhõstos;c_famagusta,Magosha,Magusa,Famagouste,Famagosta;Famagusta
+PROV758 ;Seleucia;Seleukeia;c_seleukeia,Salúqiya,Silifke,Selewkia,Séleph;Seleukeia
 PROV759 ;Iconium ;Ikonion;c_ikonion,Konya;Ikonion
 PROV760 ;Tyana   ;Tyana;c_tyana,Nigde;Tyana
 PROV761 ;Tarsus  ;Tarsos;c_tarsos,Tarsus,Darson,Tarse;Tarsos
@@ -628,7 +629,7 @@ PROV715 ;Shahrizor;Shahrazur;c_shahrazur,Sehrezûr,Šehr-i Zor,Syarzur;Zanjan-Abha
 PROV685 ;Nineveh ;Ninawa;c_nineveh,Hadyab;Irbil
 PROV709 ;Al-Raqqah;Ar-Raqqa;c_asas,Callinicum,Kallinikos,Qaliniqos;Asas
 PROV731 ;Homs    ;Hims;c_homs,La Chamelle,Emesa;Homs
-PROV768 ;Beqaa   ;Bekaa;c_baalbek,Balbec,Heliopolis,Helioupolis;Baalbek
+PROV768 ;Beqaa   ;Bekaa;c_baalbek,Boqée,al-Biqá',Heliopolis,Helioupolis;Baalbek
 PROV728 ;Ghouta  ;Ghúta;c_damascus,Damascus,Damaskos,Darmsûq;Damascus
 PROV727 ;Batanaea;Bathaniyya;c_syria,Adraa;Bostra
 PROV710 ;Rahba   ;Rahba;c_al_bichri,Circesium,Kirkesion,Qerqesin;Al Bichri
@@ -641,8 +642,8 @@ PROV733 ;Aleppo  ;Halab;c_aleppo,Beroea,Berroia,Halapia;Aleppo
 PROV722 ;Elim    ;Elim;c_petra,Aqabah,Aila;Al 'Aqabah
 PROV767 ;Tripoli ;Trípolis;c_tripoli,Tarábulus;Tripoli
 PROV769 ;Toron   ;Toron;c_safed,Paneas,Tsfat,Safad;Safed
-PROV779 ;Nablus  ;Naples;c_beersheb,Nablus,Neapolis;Beersheb
-PROV776 ;Hebron  ;St-Abraham;c_hebron,El-Khail,Hebron,Hebrón;Hebron
+PROV779 ;Nablus  ;Naples;c_beersheb,Nábulus,Neapolis;Beersheb
+PROV776 ;Hebron  ;St-Abraham;c_hebron,al-Khalíl,Hebron,Hebrón;Hebron
 PROV782 ;Negev   ;Negev Desert;;Negev
 PROV774 ;Jerusalem;Jérusalem;c_jerusalem,Al-Quds,Kudüs,Ierosolyma,Hierosolyma,Ierousalmi,Yerusalem;Jerusalem
 PROV781 ;Deir al-Balah;Darom;c_darum;Darum
@@ -674,7 +675,6 @@ PROV489 ;Thessaly;Thessalía;c_thessalia,Tessaglia,Thessalie,Tessália,Tesalya;The
 PROV490 ;Thessaloniki;Thessaloníke;c_thessalonike,Thessalonique,Tessalonica,Solun,Selánik;Thessalonike
 PROV491 ;Chalkidiki;Chalkidike;c_chalkidike,Halkidikya;Chalkidike
 PROV492 ;Strymon ;Strymonos;c_strymon,Syar,Ser,Serez;Strymon
-PROV495 ;Kallipolis;Kallipolis;c_kaliopolis,Gelibolu;Kaliopolis
 PROV496 ;Constantinople;Konstantinoupolis;c_byzantion,Miklagarðr,Carzihrad,Tsargrad,al-Qustantíniyya,Kostantiniye,Konstantinusesburg;Constantinople
 PROV497 ;Thrace  ;Thráke;c_thrake,Trakija,Trakya;Thrake
 PROV1014;Kerkyra ;Kérkyra;c_corfu,Corfú,Corfu,Krf,Körfuz;Coast of Asturias
@@ -704,9 +704,9 @@ PROV863 ;Al-Yamama;Al-Yamáma;c_hajr;Hajr
 PROV865 ;Sa‘dah  ;Sa'da;c_rafha;Rafha
 PROV866 ;Dhofar  ;Zufar;c_dhofar,Moscha;Dhofar
 PROV867 ;Duqm    ;Duqm;c_duqm;Nizwa
-PROV868 ;Muscat  ;Masqat;c_muscat;Muscat
-PROV869 ;Nizwa   ;Nizwa;c_hajar;Suhár
-PROV870 ;Ras al-Khaimah;Julfar;c_dhu_zabi;Julfar
+PROV868 ;Qalhat  ;Qalhát;c_muscat;Muscat
+PROV869 ;Nizwa   ;Nizwá;c_hajar;Suhár
+PROV870 ;Ras al-Khaimah;Julfár;c_dhu_zabi;Julfar
 ########################################,,,,,,,,,,,,,,;;;;
 #Rhos,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
@@ -746,7 +746,7 @@ PROV568 ;Smolensk;Smolensk;c_smolensk,Smaleskja;Smolensk
 PROV551 ;Mstislavl;Mstislavl;c_mstislavl;Mstislavl
 PROV418 ;Krasny  ;Krasen;c_orsha;Orsha
 PROV410 ;Toropets;Toropets;c_toropets;Toropets
-PROV569 ;Vyazma  ;Vyazma;c_vyazma;Vyazma
+PROV569 ;Rzhev   ;Rzhev;c_vyazma;Vyazma
 PROV552 ;Turov   ;Turov;c_turov;Turov
 PROV548 ;Pinsk   ;Pinsk;c_pinsk;Pinsk
 PROV424 ;Vawkavysk;Volkovysk;c_jacwiez,Wolkowysk;Grodno
@@ -814,15 +814,15 @@ PROV829 ;Laghwat ;Al-Aghwat;c_mzab;Ghardaia
 PROV830 ;Achir   ;Ashír;c_lemdiyya,Auzia;Tahert
 PROV831 ;Algiers ;Al-Jazáir;c_al_djazair,Iol Caesarea;Al Djazair
 PROV832 ;Oran    ;Wahrán;c_orania,Siga;Orania
-PROV833 ;Tiaret  ;Táhart;c_atlas_mnt,Ala Miliaria;Askedal
+PROV833 ;Tiaret  ;Táhart;c_atlas_mnt,Tagdemt,Ala Miliaria;Askedal
 PROV834 ;Tlemcen ;Tilimsán;c_tlemcen;Tlemcen
 PROV835 ;Honaine ;Hunayn;c_hanyan;Yalála
 PROV836 ;Ténès   ;Tanas;c_snassen,Cartenna;Wajda
 PROV837 ;Figuig  ;Figuig;c_figuig,Fajíj;Tendara
-PROV838 ;Rif     ;El-Ríf;c_el_rif;El Rif
+PROV838 ;Taza    ;Tázá;c_el_rif;El Rif
 PROV839 ;Ceuta   ;Sebta;c_cebta,Septem;Ceuta
 PROV840 ;Fez     ;Fás;c_fes,Volubilis;Fes
-PROV841 ;Tangier ;Tandja;c_tangiers,Tingis;Tangier
+PROV841 ;Tangier ;Tanja;c_tangiers,Tingis;Tangier
 PROV842 ;Chellah ;Shalla;c_infa,Anfa;Infa
 PROV843 ;Marrakesh;Marrákush;c_marrakech;Marrakech
 PROV844 ;Safi    ;Asfí;c_massat;Anfa
@@ -861,7 +861,7 @@ PROV791 ;Al-Qusayr;Qusayr;c_quena,Myos Hormos;Quena
 PROV797 ;Manuf   ;Manúf;c_manupura,Athribis,Panaho;El-Malhalla
 PROV798 ;Damietta;Dimyát;c_delta,Tamiathis,Tamiati;Damietta
 PROV799 ;Nastarawa;Nastaráwa;c_gabiyaha,Bolbitinum,Bolbitinon,Rosette,Rosetta,Rashit;Rasheed
-PROV800 ;Giza    ;Gíza;c_gizeh,Memphis,Giza;Giza
+PROV800 ;Giza    ;Giza;c_gizeh,Memphis,Giza,Jíza;Giza
 PROV801 ;Al-Hawf al-Gharbi;Hawf Gharbí;c_buhairya,Hermopolis,Timinhor;Bahariya
 PROV802 ;Alexandria;Iskandaríya;c_alexandria,Rakote,Alexandreia,Alexandre,Taskendrit;Alexandria
 PROV803 ;Siwa    ;Santariya;c_quattara,Ammonium,Ammonion,Sekhetam,Síwa;Siwa
@@ -873,14 +873,15 @@ PROV808 ;Barca   ;Barqa;c_benghazi,Cyrene,Kyrene,Barqet;Benghazi
 ########################################,,,,,,,,,,,,,,;;;;
 #Abyssinia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV793 ;Makuria ;Makouria;c_makuria;Makuria
+PROV792 ;Faras   ;Faras;c_nubia,Pachoras,Pakhôras,Para;Nubia
+PROV793 ;Dongola ;Dongola;c_makuria,Touggoul;Makuria
 PROV873 ;Adal    ;Adal;c_harer;Harer
 PROV876 ;Sera’e  ;Sera'é;c_akordat;Akordat
 PROV878 ;Badi    ;Bádi;c_hayya;Hayya
 PROV882 ;Damot   ;Damot;c_ankober;Ankober
 PROV883 ;Dembiya ;Dembiya;c_gondar;Gondar
 PROV884 ;Amhara  ;Amhara;c_antalo;Antalo
-PROV885 ;Agaw    ;Agaw;c_matamma;Matamma
+PROV885 ;Agawmeder;Agawmeder;c_matamma;Matamma
 ########################################,,,,,,,,,,,,,,;;;;
 #Persia, Iraq and Central Asia,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
@@ -906,14 +907,14 @@ PROV638 ;Yazd    ;Yazd;c_yazd;Yazd
 PROV639 ;Kerman  ;Kermán;c_kerman,Veh-Ardashir;Kerman
 PROV640 ;Sirjan  ;Sírján;c_sirjan;Sirjan
 PROV641 ;Hormuz  ;Hormuz;c_hormuz,Ohrmazd;Hormuz
-PROV642 ;Larestan;Larestan;c_larestan;Darabjerd
+PROV642 ;Irahistan;Irahistan;c_larestan;Darabjerd
 PROV643 ;Mandestan;Mandistan;c_mandistan;Dashtestan
-PROV644 ;Shiraz  ;Shíráz;c_shiraz,Stakhr;Shiraz
+PROV644 ;Shiraz  ;Shíráz;c_shiraz;Shiraz
 PROV645 ;Arrajan ;Arrajan;c_arrajan,Veh-az-Amid-Kavad;Arrajan
 PROV646 ;Isfahan ;Isfahan;c_esfahan,Espahan,Spahan;Esfahan
-PROV647 ;Izeh    ;Idhaj;c_idhaj,Susa,Sousa,Shush;Ahvaz
+PROV647 ;Izeh    ;Idhaj;c_idhaj;Ahvaz
 PROV648 ;Ahvaz   ;Ahwaz;c_ahwaz,Ohrmazd-Ardashir;Khozistan
-PROV649 ;Basra   ;Basra;c_basra,Perath d’Maishan,Wahištabad Ardashir;Basra
+PROV649 ;Basra   ;Basra;c_basra,Wahištabad Ardashir;Basra
 PROV650 ;Maragheh;Maragheh;c_maragheh;Kuwait
 PROV655 ;Kufa    ;Al-Kúfa;c_kufa,Hirta;Kufa
 PROV656 ;Wasit   ;Wasit;c_tigris,Kashkar,Khusraw-Shapur;Sús
@@ -928,7 +929,7 @@ PROV665 ;Kharraqan;Kharraqan;c_kharraqan,Apahr;Daylam
 PROV666 ;Gilan   ;Gilan;c_gilan;Gilan
 PROV668 ;Absheron;Abšaran;c_absheron;Shirvan
 PROV669 ;Maskat  ;Maskat;c_maskat,Shapuran;Shemakha
-PROV670 ;Mugan   ;Muqan;c_azerbaijan,Paytakaran,Paidangaran,Aturpatakan;Azerbaijan
+PROV670 ;Ardabil ;Ardabíl;c_azerbaijan,Artavel,Ardebil;Azerbaijan
 PROV673 ;Layzan  ;Layzan;c_albania;Albania
 PROV684 ;Amadiya ;Amádiya;c_amadiya,Kordyene,Korchayk,Amadiye,Kardox,Amadiya;Nisibin
 PROV687 ;Daquq   ;Daquqa;c_kirkuk,Corcura,Korkyra,Dakuk,Garmagan;Kirkuk
@@ -941,9 +942,9 @@ PROV696 ;Samarra ;Sámarrá;c_euphrates,Sumere,Souma,Sumra;Samarra
 PROV698 ;Cizre   ;Jazírat ibn 'Umar;c_al_jazira,Bethzabde,Cizre,Cizîr,Gazarta;Hasakah
 PROV700 ;Nusaybin;Nasíbín;c_bira,Mtsbin,Nisibis,Nusaybin,Nisêbîn,Nsibin;Bira
 PROV729 ;Hillah  ;Al-Hilla;c_tadmor;Al-Sukhnah
-PROV852 ;Zamindawar;Zamíndávar;c_zamindavar,Zamin-i-datbar;Zahedan
+PROV852 ;Zamindawar;Zamíndávar;c_zamindawar,Zamin-i-datbar;Zahedan
 PROV853 ;Jiroft  ;Jiruft;c_jiruft;Bam
-PROV854 ;Tis     ;Tíz;c_makran,Paradan;Zamindawar
+PROV854 ;Tis     ;Tíz;c_makran;Zamindawar
 PROV887 ;Sary Su ;Sarisu;c_sarisu;Yamalia
 PROV893 ;Turgai  ;Turgay;c_turgay,Turgay;Sibir
 PROV894 ;Mashkel ;Mashkél;c_mashkel;Saravan
@@ -953,7 +954,7 @@ PROV899 ;Panjgur ;Pandjgúr;c_pandjgur;Tis
 PROV900 ;Jand    ;Jand;c_jand;Syganak
 PROV901 ;Kyzyl Kum;Kyzyl-Kum;;Kyzul-Kum Desert
 PROV902 ;Hazorasp;Hazárasp;c_hazarasp;Dashhowuz
-PROV903 ;Samarkand;Samarqand;c_samarqand,Maracanda,Marakanda;Samarkand
+PROV903 ;Samarkand;Samarqand;c_samarqand,Maracanda,Marakanda,Semizkänd;Samarkand
 PROV904 ;Balkh   ;Balkh;c_balkh,Bactra,Baktra,Bakhdhi;Balkh
 PROV905 ;Badghis ;Bádghís;c_badghis,Alexandria in Ariana,Alexandreia Areion,Hariy;Herat
 PROV906 ;Rivsharan;Rívshárán;c_rivsharan;Birjand
@@ -979,7 +980,7 @@ PROV594 ;Sarkel  ;Sharkel;c_sarkel,Aspron Hospition,Belaja Veža,Sharkil,Sarqhal,
 PROV566 ;Donets  ;Duna-Jük;c_sugrov,Doniec,Donecas,Buzan-Jük,Donel',Šugr';Sugrov
 #,,,,,,,,,,,,,,;;;;
 PROV597 ;Azov    ;Azaq;c_azov,Tana,Buzan,Jazy,Azak,Azow,Azova,Azov,Tanais,Tanakvísl,Tanaiskvísl,Asow;Azov
-PROV599 ;Kuban   ;Cuba;c_kuban,Psizch,Kubá,Kubán,Kubana,Kuban,Oukrouch,Vardanus;Kuban
+PROV599 ;Kuban   ;Cuba;c_kuban,Psizch,Kubá,Kuban,Kubán,Kubana,Oukrouch,Vardanus;Kuban
 #,,,,,,,,,,,,,,;;;;
 PROV605 ;Manych  ;Ugru;c_manych,Manych,Manycz;Manych
 PROV606 ;Yegorlyk;Yegorlyk;c_yegorlyk;Yegorlyk
@@ -1001,7 +1002,7 @@ PROV602 ;Circassia;Cherkezistan;c_kasogs,Kassogye,Kassogia,Kassogie,Kasachia,Kai
 #,,,,,,,,,,,,,,;;;;
 PROV595 ;Terek   ;Terk;c_don_portage,Terch,Terk,Lomeki,Arm,Terka;Don-Portage
 #PROV1697,Malkhicho,Malkhicho,Malkhicho,,Malkhicho,,,,,,,,,x;;;;
-PROV603 ;Alania  ;Alania;c_alania,Ovset'i,Alauni,Al-Lan,Aslar,Aslär;Alania
+PROV603 ;Alania  ;Alania;c_alania,Ovset'i,Alauni,Al-Lán,Aslar,Aslär;Alania
 #,,,,,,,,,,,,,,;;;;
 PROV564 ;Oskol   ;Vskol';c_desht-i-kipchak,Oskolas,Esen;Desht-i-Kipchak
 PROV608 ;Qaratayak;Qaratayak;c_lower_volga,Voronežas,Woronesch,Voronež;Lower Volga
@@ -1050,4 +1051,4 @@ PROV393 ;Onega   ;Änine;c_onega,Onega,Äänis;Olonets
 ########################################,,,,,,,,,,,,,,;;;;
 #Levant,,,,,,,,,,,,,,;;;;
 ########################################,,,,,,,,,,,,,,;;;;
-PROV771 ;Sidon   ;Sidon;c_tyrus,Sayda;Tyrus
+PROV771 ;Sidon   ;Sidon;c_tyrus,Saydá;Tyrus

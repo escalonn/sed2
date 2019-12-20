@@ -8,11 +8,11 @@ PROV911 ;Timbuktu;Timbuktu;c_timbuktu;Timbuktu
 PROV912 ;Aoudaghost;Awdaghust;c_aoudaghost;Aoudaghost
 PROV913 ;Ghana   ;Wagadu;c_ghana;Wagadu
 PROV914 ;Gao     ;Gao;c_gao;Gao
-PROV915 ;Djenné  ;Djenné;c_djenne;Djenné
+PROV915 ;Djenné  ;Jenné;c_djenne;Djenné
 PROV916 ;Taghaza ;Taghaza;c_taghaza;Taghaza
 PROV917 ;Araouane;Arawán;c_araouane;Araouane
 PROV918 ;Sijilmasa;Sijilmása;c_sijilmasa;Sijilmasa
-PROV919 ;Oualata ;Walata;c_oualata;Oualata
+PROV919 ;Oualata ;Walata;c_oualata,Iwalatan,Biru;Oualata
 PROV920 ;Ouadane ;Wadán;c_ouadane;Ouadane
 PROV921 ;Idjil   ;Idjil;c_idjil,Izal;Bir Um Grein
 PROV922 ;Tadmekka;Tadmekka;c_tadmekka;Tadmekka
@@ -60,7 +60,7 @@ PROV963 ;Jersika ;Jersika;c_jeriska;Vänern
 PROV964 ;Richmond;Richmond;c_richmond,Ghellinges,Gellinges;White Sea
 PROV965 ;Travunija;Travunija;c_travunija,Terbounia,Trebigne,Trebing;Strait of Dover
 PROV966 ;Vorotynsk;Vorotynsk;c_vorotynsk;The Solent
-PROV967 ;Cerdanya;Cerdanya;c_cerdanya,Syrdanna,Cerdagne,Cerdaña,Zerdaña,Cerdanha;Land's End
+PROV967 ;Cerdanya;Cerdanya;c_cerdanya,Sartániyya,Cerdagne,Cerdaña,Zerdaña,Cerdanha;Land's End
 PROV968 ;Saône   ;Saone;c_saone,al-Ladiqiya,Laodikeia;St. George's Channel
 #PROV969,Sision,Sision,Sision,,Sision,,,,,x,,,,;;;;
 #PROV970,Sulzbach,,,,,,,,,,,,,x;;;;
@@ -93,13 +93,13 @@ PROV995 ;Gomel   ;Gomel;c_gomel;Dogger Bank
 PROV997 ;Nalšia  ;Nalshia;c_utena,Nal'šany,Nalsen;Onega
 #PROV998,Voigtland,,,,,,,,,,,,,x;;;;
 #PROV999,Legnica,,,,,,,,,,,,,x;;;;
-PROV1000;Syrmia  ;Srem;c_syrmia,Sirmiou,Sriem,Srijem,Syrmien,Várad,Sirem;Gulf of Heligoland
+PROV1000;Syrmia  ;Srem;c_syrmia,Sirmiou,Sriem,Srijem,Syrmien,Zerem,Szerém,Sirem;Gulf of Heligoland
 PROV1001;Tropolje;Zavrsje;c_zavrsje,Delminium,Delminithós;Kattegat
 PROV1002;Donji Kraji;Donji Kraji;c_donjikraji;Gulf of Danzig
 PROV1003;Pomorje ;Primorje;c_primorje,Càttaro,Acruvium,Dekaderon,Kotur;Bight of Hanö
 PROV1004;Požega  ;Požega;c_pozega,Incerum;Baltic Sea
 PROV1005;Zarand  ;Zaránd;c_zarand,Zarand;Sea of Åland
-PROV1006;Krassó  ;Krassó;c_krasso,Karaševo,Carashova,Adakale;Gulf of Finland
+PROV1006;Krassó  ;Krassó;c_krasso,Krasso,Karaševo,Carashova,Adakale;Gulf of Finland
 #PROV1007,Katzenelbogen,,,,,,,,,,,,,x;;;;
 #PROV1008,Zweibrücken,,,,,,,,,,,,,x;;;;
 #PROV1009,Mark,,,,,,,,,,,,,x;;;;
@@ -162,7 +162,7 @@ PROV1052;Hardsyssel;Harthæsysæl;c_western_jylland;Vistula
 #PROV1066,Wagrien,,,,,,,,,,,,,x;;;;
 PROV1067;Fjordane;Firðafylki;c_foerde;Danube
 PROV1068;Riga    ;Rìga;c_toreida,Toreida,Turaida,Thoreveda;Danube
-PROV1069;Nicosia ;Leukousía;c_nicosia,Lefkosa,Nigosia,Nicosie,Nicosia;Danube
+PROV1069;Nicosia ;Leukousía;c_nicosia,Lefqosha,Lefkosa,Nigosia,Nicosie,Nicosia;Danube
 #PROV1070,Vithynion,Vithynion,Vithynion,,Vithynion,,,,,x,,,,;;;;
 PROV1071;Skara   ;Skara;c_skara;Dnieper
 PROV1072;Fjärdhundraland;Fjädrundaland;c_fjadrundaland;Dnieper
@@ -196,15 +196,15 @@ PROV1099;Gudbrandsdalen;Guðbrandzdalar;c_gudbrandzdalar;Volga
 PROV1100;Romerike;Raumríkí;c_raumrike;Volga
 PROV1127;Macva   ;Macva;c_macva,Kapedounon,Matschva,Macsó;Navasarika
 PROV1144;Eastern Scania;Østær Skane;c_eastern_skane,Wetlandi;Kollipake
-PROV1146;Iasi    ;Iasi;c_iasi,Yas,Jassenmarkt,Jászvásár,Yassy,Jaši,Yaš;Naldurg
+PROV1146;Iasi    ;Iasi;c_iasi,Yas,Jassenmarkt,Prut,Jászvásár,Yassy,Jaši,Yaš;Naldurg
 PROV1147;Bacau   ;Bacau;c_bacau,Baka,Barchau,Bákó,Bakova;Mandapika
 PROV1148;Târgu Jiu;Targu Jiu;c_targujiu,Zsilvásárhely;Dasapura
 PROV1149;Buzau   ;Buzau;c_buzau;Dhara
-PROV1150;Bars    ;Bars;c_bars,Bars,Tekov;Sarangpur
-PROV1151;Komárom ;Komarom;c_komarom,Komárno,Brigetio;Laksmanavati
-PROV1152;Békés   ;Békés;c_bekes,Bekesch,Bischish,Békéš;Mudgagiri
-PROV1153;Zemplén ;Zemplén;c_zemplen,Zemplín,Semplin;Kotivarsa
-PROV1154;Szepes  ;Szepes;c_szepes,Spiš,Spisz,Zips;Magadha
+PROV1150;Bars    ;Bars;c_bars,Bors,Tekov;Sarangpur
+PROV1151;Komárom ;Komárom;c_komarom,Komarum,Komárno,Brigetio;Laksmanavati
+PROV1152;Békés   ;Békés;c_bekes,Bekes,Bekesch,Bischish,Békéš;Mudgagiri
+PROV1153;Zemplén ;Zemplén;c_zemplen,Zemplen,Zemplín,Semplin;Kotivarsa
+PROV1154;Szepes  ;Szepes;c_szepes,Zepes,Spiš,Spisz,Zips;Magadha
 PROV1155;Hont    ;Hont;c_hont;Sripuri
 PROV1156;Velay   ;Velay;c_velay;Kodalaka Mandala
 PROV1157;Comminges;Comminges;c_comminges;Balkonda
@@ -244,24 +244,24 @@ PROV1190;Lugo    ;Lugo;c_lugo,Luq;Gurjaratra
 PROV1191;Lemos   ;Lemos;c_lemos,Lyimus;Bannu
 PROV1192;Jaén    ;Jaén;c_jaen,Jayyán,Chaén,Xaén,Xaém,Jaen,Aurgi;Bhera
 PROV1193;Toro    ;Toro;c_toro,Turu;Trigarta
-PROV1194;Ledesma ;Ledesma;c_ledesma,Bletisa,Ledesme;Nagadipa
-PROV1195;Tomar   ;Tomar;c_thomar,Tummar;Pihiti
+PROV1194;Ledesma ;Ledesma;c_ledesma,al-Hamma,Ledesme;Nagadipa
+PROV1195;Tomar   ;Tomar;c_thomar,Shantarín;Pihiti
 PROV1196;Palencia;Palencia;c_palencia,Belansiya,Palentzia,Palència,Palência,Palence;Srirangapatna
 PROV1197;Medina del Campo;Medina del Campo;c_medina_del_campo,Madína al-Marje,Medina Zelaia,Medina del Camp,Medina'l Campu,Medina d'o Campo,Medina do Campo,Almedina do Campo,Médine du Champ;Dwarasamudra
 PROV1198;Ávila   ;Ávila;c_avila,Abbila,Abila,Àvila,Obila;Vatapi
 PROV1199;Segovia ;Segovia;c_segovia,Shaqúbiya,Segobia,Segòvia,Segóvia,Ségovie,Segovia,Segoubia;Penugonda
 PROV1200;Setúbal ;Setúbal;c_setubal,Shetubre,Setubal,Caetobriga,Kaitobrie;Kanara
-PROV1201;Guadalajara;Guadalajara;c_guadalajara,Wádí 'l-Hijára,Guadalachara,Guadalaxara,Guadalaiara;Kongu
-PROV1202;Álava   ;Álava;c_alava,Alabba,Araba,Alava,Àlaba;Kudalasangama
+PROV1201;Guadalajara;Guadalajara;c_guadalajara,Wádí 'l-Hijára,Guadalachara,Guadalaxara,Guadalaiara,Arriaca,Arriaka;Kongu
+PROV1202;Álava   ;Álava;c_alava,Álaba,Araba,Alava,Àlaba;Kudalasangama
 PROV1203;Gipuzkoa;Guipúzcoa;c_guipuzcoa,Ybbusqa,Gipuzkoa,Guipuzcua,Guipuscoa,Guipúscoa;Idatarainadu
 PROV1204;Tudela  ;Tudela;c_tudela,Tutíla,Tutera,Tudèle;Nellore
 PROV1205;Sobrarbe;Sobrarbe;c_sobrarbe,Subrarb,Sobrarb;Narim
 PROV1206;Ribagorza;Ribagorza;c_ribagorza,Ribbagursa,Ribagorça,Ribagorce;Taradavadi
 PROV1207;Huesca  ;Huesca;c_huesca,Washqa,Uesca,Osca,Oska,Güesca,Osque;Amaravati
 PROV1208;Teruel  ;Teruel;c_teruel,Tirwal;Kambampet
-PROV1209;Caspe   ;Caspe;c_caspe,Qasp,Casp;Racakonda
+PROV1209;Caspe   ;Caspe;c_caspe,Qashb,Casp;Racakonda
 PROV1210;Girona  ;Girona;c_girona,Jarunda,Chirona,Girona,Gérone,Gerona,Gerunda,Xirona,Xerona,Gerounda;Manyakheta
-PROV1211;Beja    ;Beja;c_beja,Bája al-Zayt,Pax Iulia,Pax Ioulia;Pannagallu
+PROV1211;Beja    ;Beja;c_beja,Bájat al-Zayt,Pax Iulia,Pax Ioulia;Pannagallu
 PROV1212;Braga   ;Braga;c_braga,Braqara,Brague,Bracara Augusta,Braikar Augousta;Lattalura
 PROV1213;Viseu   ;Viseu;c_viseu,Buza,Biseu;Kondana
 PROV1214;Trancoso;Trancoso;c_trancoso,Tranqusu,Trankoso,Trancosu,Trancose;Tirunelveli
@@ -280,7 +280,7 @@ PROV1226;Ghat    ;Ghat;c_ghat;Nandapur
 PROV1227;Kaouar  ;Kawar;c_bilma;Cakrakuta
 #PROV1228,,,,,,,,,,x,,,,;;;;
 PROV1229;Uri     ;Uri;c_uri;Khinjali Mandala
-PROV1230;Dongola ;Dongola;c_dongola,Toungoul;Suvarnapura
+PROV1230;Qurta   ;Qurta;c_qurta,Kourte;Suvarnapura
 #PROV1231,,,,,,,,,,x,,,,;;;;
 PROV1232;Ayrarat ;Ayrarat;c_bagrewand,Airarati,Igdir;Midnapore
 #PROV1233,Tanzeruft Desert,Désert Tanzerouft,Tanzeruft Desert,,Tanzerouft,,,,,x,,,,;;;;
@@ -294,7 +294,7 @@ PROV1240;Manbij  ;Manbij;c_manbij,Mombech,Hierapolis,Mabbug,Minbij;Kumara Mandal
 #PROV1241,Badiyat ash-sham,Badiyat ash-sham,Badiyat ash-sham,,Badiyat ash-sham,,,,,x,,,,;;;;
 PROV1242;Salamiyah;Salamiyah;c_salamiyah,Salamias;Radha
 PROV1243;Kafartab;Kafr-Tab;c_kafrtab,La Marre,Arra;Gauda
-PROV1244;Baarin  ;Monferrand;c_monferrand,Hisn -al Akrad,Raphaniai;Kamatapur
+PROV1244;Monferrand;Monferrand;c_monferrand,Hisn al-Akrád,Raphaniai;Kamatapur
 PROV1245;Byblos  ;Gibelet;c_gibelet,Jebail,Byblus,Byblos;Srihatta
 PROV1246;Aunis   ;Aunis;c_aunis;Goalpara
 #PROV1247,Görz,,,,,,,,,,,,,x;;;;
@@ -381,7 +381,7 @@ PROV1329;Kanem   ;Kanem;c_kanem;Anuy
 PROV1330;Omiš    ;Omis;c_omis,Drijeva,Onaeum,Almiyssion;Suakin
 PROV1331;Bilbeis ;Bilbays;c_bilbays,Bilbeis,Phelbs;Sonda
 #PROV1332,Placeholder,Placeholder,Placeholder,,Placeholder,,,,,x,,,,;;;;
-PROV1333;Burzenland;Barcaság;c_burzenland,Burzenland,Tara Bârsei;Siwistan
+PROV1333;Burzenland;Barcaság;c_burzenland,Barcasag,Burzenland,Tara Bârsei;Siwistan
 PROV1334;Faiyum  ;Fayyum;c_fayyum,Arsinoë,Peiom;Alodia
 PROV1335;Atfih   ;Itfih;c_itfih,Aphroditopolis,Aphroditoupolis,Tpeh;Kosti
 PROV1336;Oxyrhynchus;Bahnasa;c_bahnasa,Oxyrhynchus,Oxyrynchos,Pemdje;Vijnot
@@ -389,9 +389,9 @@ PROV1337;Manfalut;Manfalut;c_manfalut,Manbalot;Uch
 PROV1338;Eastern Desert;Eastern Desert;;Multan
 PROV1339;Akhmim  ;Ikhmin;c_ikhmin,Panopolis,Shmin;Rajanpur
 PROV1340;Qus     ;Qus;c_qus,Thebae,Thebai,Ne,Luqsur;Karor
-PROV1341;Kharga  ;Kharija;c_kharija,Oasis Magna,Oasis Megas,Uhiresi;Nandana
-PROV1342;Dakhla  ;Dakhila;c_dakhila,Mothis;Purushapura
-PROV1343;Bahariya;Bahriya;c_bahriya,Oasis Parva,Oasis Mikra;Massawa
+PROV1341;Kharga  ;Khárija;c_kharija,Oasis Magna,Oasis Megas,Uhiresi;Nandana
+PROV1342;Dakhla  ;Dákhila;c_dakhila,Mothis;Purushapura
+PROV1343;Bahariya;Bahriyya;c_bahriya,Oasis Parva,Oasis Mikra;Massawa
 #PROV1344,,,,,,,,,,x,,,,;;;;
 PROV1345;Ajdabiya;Adjadabiya;c_ajadabiya,Corniclanum;Medapata
 #PROV1346,,,,,,,,,,x,,,,;;;;
@@ -406,7 +406,7 @@ PROV1354;Tébessa ;Tabassa;c_tabassa,Theveste;Nagauda
 PROV1355;Kabylia ;Kabylia;c_setif,Setifis;Ranthambore
 PROV1356;Oued Righ;Arigh;c_arigh;Kanyakubja
 PROV1357;Tbilisi ;Tbilisi;c_tbilisi,Tiflis;Sripatha
-PROV1358;Taza    ;Sa;c_sa;Vodamayutja
+PROV1358;Tadla   ;Tádlá;c_tadla;Vodamayutja
 PROV1359;Ardahan ;Artaani;c_artaani,Ardahan;Mathura
 PROV1360;Nekor   ;Nakúr;c_nakur,Rusaddir;Maldives
 PROV1361;Chellah ;Sala;c_sala,Sala Colonia;Shorkot
@@ -427,7 +427,7 @@ PROV1375;Sosso   ;Soso;c_soso;Kafirkot
 PROV1376;Awgham  ;Awgham;c_awkar;Bori
 PROV1377;Méma    ;Mema;c_mema;Maymana
 PROV1378;Macina  ;Massina;c_massina;Madminiya
-PROV1379;Jolof   ;Djolof;c_djolof;Asayita
+PROV1379;Jolof   ;Jolof;c_djolof;Asayita
 PROV1380;Traungau;Traungau;c_traungau;Semien
 PROV1381;Gajaaga ;Galam;c_galam;Pundravardhana
 PROV1382;Cayor   ;Cayor;c_cayor;Sea of Calm
@@ -448,11 +448,11 @@ PROV1396;Tuat    ;Tuat;c_tuat,Tuwát;Coast of Makran
 PROV1397;El Goléa;El Golea;c_elgolea;Indus Delta
 PROV1398;Nafusa  ;Nafusa;c_nafusa,Thenteos;Coast of Gujarat
 PROV1399;Waddan  ;Waddan;c_waddan,Gholaia;Coast of Konkan
-PROV1400;Djado   ;Djado;c_djado;Coast of Malabar
+PROV1400;Djado   ;Jado;c_djado;Coast of Malabar
 PROV1401;Azawagh ;Ain Azawa;c_ainazawa;Karnataka Coast
-PROV1402;Djanet  ;Djanet;c_djanet;Gulf of Mannar
+PROV1402;Djanet  ;Janet;c_djanet;Gulf of Mannar
 PROV1403;Hoggar  ;Hoggar;c_hoggar;South Lanka Coast
-PROV1404;Germa   ;Djarma;c_djarma;Palk Strait
+PROV1404;Germa   ;Jarma;c_djarma;Palk Strait
 PROV1405;Zwila   ;Zawila;c_zawila;North Lanka Coast
 PROV1406;Gherma  ;Gherma;c_tazerbo;South Coromandel Coast
 PROV1407;Javakheti;Javakheti;c_javakheti,Ahilkelek;North Coromandel Coast
@@ -523,7 +523,7 @@ PROV1471;Buellt  ;Buellt;c_buellt,Buellt,Builth;Kurmanchal
 PROV1472;Radnor  ;Rhwng Gwy A Hafren;c_rhwng,Rhwng Gwy a Hafren,Radnor;Jumla
 PROV1473;Gower   ;Gwyr;c_gwyr,Gwyr,Gower;Doti
 PROV1474;Munio   ;Munio;c_munio;Lumbini
-PROV1475;Rann of Kutch;Rann of Kutch;;Pokhara
+PROV1475;Dathina ;Dathina;c_dathina;Pokhara
 PROV1476;Borno   ;Bornu;c_bornu;Mangyul
 PROV1477;Kaga    ;Kagha;c_kagha;Janakpur
 PROV1478;Baguirmi;Bagirmi;c_bagirmi;Kathmandu
@@ -539,7 +539,7 @@ PROV1487;Central Africa;Central Africa;;Gar
 PROV1488;Dumbarton;Dun Breatainn;c_dunbreatainn,Dùn Breatainn,Lennox,Alt Clut;Pangong
 PROV1489;Wolqayt ;Wolqayt;c_wolqayt;Kunlun
 PROV1490;Soba    ;Soba;c_soba;Kyunglung
-PROV1491;Alodia  ;Aloudia;c_alwa;Purang
+PROV1491;Shapur-Khwast;Shapurkhwast;c_shapurkhwast;Purang
 PROV1492;Butana  ;Butana;c_butana;Sakya
 PROV1493;Nubian Desert;Nubian Desert;;Coqen
 PROV1494;Abu Hamad;Abu Hammad;c_abuhammad;Gerze
@@ -551,7 +551,7 @@ PROV1499;Semna   ;Semna;c_semna;Shigatse
 PROV1500;Qasr Ibrim;Qasr Ibrim;c_qasribrim,Premis,Primis,Prim,Phrim;Nyingchi
 PROV1501;‘Aydhab ;Aydhab;c_aydhab,Berenice,Berenike;Nagormo
 PROV1502;Medri Bahri;Maikele Bahr;c_maikele_bahr;Fuqi
-PROV1503;Suakin  ;Suakin;c_suakin,Limen Evangelis;Nangqen
+PROV1503;Suakin  ;Suakin;c_suakin,u-Sok,Limen Evangelis;Nangqen
 PROV1504;Ténéré  ;Ténéré;;Lingtsang
 #PROV1505,Barth,,,,,,,,,,,,,x;;;;
 PROV1506;Tigray  ;Tigre;c_tigre;Dege
@@ -620,7 +620,7 @@ PROV1568;Aksu    ;Aqsu;c_aksu,Bharuka;Yumen
 PROV1569;Kucha   ;Kucha;c_kucha,Küsän,Kuchi;Delingha
 PROV1570;Karashahr;Qarashahr;c_karashar,Agnidesha;Qaidam
 PROV1571;Yulduz  ;Yulduz;c_yulduz;Lenghu
-PROV1572;Balasagun;Balasaghun;c_balasaghun,Quz-Ulush,Gobalik;Arjin
+PROV1572;Balasagun;Balasaghun;c_balasaghun,Quz-Ulush,Khosun-Ordu,Gobalik;Arjin
 PROV1573;Zhetysu ;Yetisu;c_yeti-su;Tanggula
 PROV1574;Emil    ;Emil;c_emil;Gallura
 PROV1575;Zaysan  ;Zaysan;c_zaysan;Zadoi
@@ -638,11 +638,11 @@ PROV1586;Samso   ;Samsø;c_samsoe,Sámsey;Wielun
 PROV1587;Northern Halland;Nørræ Halland;c_northern_halland;Bytow
 PROV1588;Changtang;Changtang;;Neumark
 PROV1589;Tian Shan;Tian Shan;;Gorlitz
-PROV1590;India   ;India;;Nalsia
+PROV1590;Thane   ;Thana;c_thana,Tánah;Nalsia
 PROV1591;Erbil   ;Erbil;c_erbil,Arbil,Arbela,Arbel,Erbil;Selija
-PROV1592;Sohar   ;Suhar;c_suhar;Tukums
+PROV1592;Sohar   ;Suhár;c_suhar;Tukums
 PROV1593;Wadi Allaqi;Allaqi;c_allaqi;Vanema
-PROV1594;Irahistan;Irahistan;c_siraf;Jersika
+PROV1594;Istakhr ;Istakhr;c_istakhr;Jersika
 PROV1595;Lake Balkhash;Lake Balkash;;Talava
 PROV1596;Lake Issyk;Lake Issyk;;Riga
 PROV1597;Lake Zaysan;Lake Zaysan;;Deltuva
@@ -658,7 +658,7 @@ PROV1606;Bhakkar ;Bhakkar;c_bhakkar;Karjaa
 PROV1607;Gardman ;Gardman;c_gardman;Keitele
 PROV1608;Gandawah;Kandabil;c_kandail;Montbéliard
 PROV1609;Rajanpur;Rajanpur;c_rajanpur;Portois
-PROV1610;Sibi    ;Sibi;c_sibi;Aosta
+PROV1610;Sibi    ;Sibi;c_sibi,Paradan;Aosta
 PROV1611;Loralai ;Bori;c_wana;Vaud
 PROV1612;Kafir Kot;Kafirkot;c_kafirkot;Bellinzona
 PROV1613;Uch     ;Uch;c_uch;Bolzano
@@ -672,11 +672,11 @@ PROV1620;Lahore  ;Lahur;c_lahur;Romerike
 PROV1621;Trigarta;Trigarta;c_trigarta;Gudbrandsdalen
 PROV1622;Sagala  ;Sakala;c_sakala;Romsdal
 PROV1623;Gujrat  ;Gurjarata;c_gurjaratra;Sunnmøre
-PROV1624;Hund    ;Udabhanda;c_udabhanda,Waihind;Førde
+PROV1624;Hund    ;Udabhanda;c_udabhanda,Vayhind,Waihind;Førde
 PROV1625;Peshawar;Purushapura;c_purushapura;Sogn
 PROV1626;Bannu   ;Bannu;c_bannu;Pripyat
 PROV1627;Nandana ;Nandana;c_nandana;Dniester
-PROV1628;Kashmir ;Kasmira;c_kasmira;Kama
+PROV1628;Kashmir ;Kasmira;c_kasmira,Kashmír;Kama
 PROV1629;Anhilwara;Anahilapataka;c_sarasvata_mandala;Kama
 PROV1630;Kheda   ;Khetaka;c_khetaka;Kama
 PROV1631;Modasa  ;Mohadavasaka;c_mohadavasaka;Zaslav
@@ -895,7 +895,7 @@ PROV1843;Indus   ;Indus;;Thisageta
 PROV1844;Arabian Sea;Arabian Sea;;Vishera
 PROV1845;Gulf of Khambhat;Gulf of Khambhat;;Tynea
 PROV1846;Gulf of Kutch;Gulf of Kutch;;Chosha Bay
-PROV1847;Malabar Coast;Coast of Malabar;;Arctic Sea
+PROV1847;Rann of Kutch;Rann of Kutch;;Arctic Sea
 PROV1848;Indus River Delta;Indus Delta;;Sakmara
 PROV1849;Svir    ;Svir;;Irtek
 PROV1850;Andoma  ;Andoma;;Or
@@ -1063,3 +1063,51 @@ PROV2010;Wadden Sea;Waddenzee;;al-Wadi al-Kabir
 PROV2011;Coast of Marche;Coast of Marche;;al-Wadi al-Kabir
 PROV2012;Sari    ;Sari;c_sari;Egitanea
 PROV2013;Pallars ;Pallars;c_pallars,Balirs;Almada
+PROV2014;Maysan  ;Maysán;c_maysan,Mayshan,Meshan;Huelva
+PROV2015;Susa    ;Sús;c_sus,Susa,Sousa,Shush;
+PROV2016;Ramagiri;Ramagiri;c_ramagiri;
+PROV2017;Kherla  ;Kherla;c_kherla;
+PROV2018;Achalpur;Acalapura;c_acalapura;
+PROV2019;Parnakheta;Parnakheta;c_parnakheta;
+PROV2020;Balkonda;Balkonda;c_balkonda;
+PROV2021;Nanded  ;Nanded;c_nanded;
+PROV2022;Vatsagulma;Vatsagulma;c_vatsagulma;
+PROV2023;Paithan ;Pratishthana;c_pratishthana;
+PROV2024;Kondhana;Kondana;c_kondana;
+PROV2025;Naldurg ;Naldurg;c_naldurg;
+PROV2026;Kalyana ;Kalyani;c_kalyani;
+PROV2027;Lattalura;Lattalura;c_lattalura;
+PROV2028;Medak   ;Medak;c_medak;
+PROV2029;Vemulawada;Vemulavada;c_vemulavada;
+PROV2030;Kollipake;Kollipake;c_kollipake;
+PROV2031;Taradavadi;Taradavadi;c_taradavadi;
+PROV2032;Manyakheta;Manyakheta;c_manyakheta,Mánkír;
+PROV2033;Sagar   ;Sagar;c_sagar;
+PROV2034;Pannagallu;Pannagallu;c_pannagallu;
+PROV2035;Kolhapur;Kolhapur;c_kolhapur;
+PROV2036;Goa     ;Goa;c_goa;
+PROV2037;Vatapi  ;Vatapi;c_vatapi;
+PROV2038;Kudalasangama;Kudalasangama;c_kudalasangama;
+PROV2039;Idatarainadu;Idatarainadu;c_idatarainadu;
+PROV2040;Alampur ;Alampur;c_alampur;
+PROV2041;Honnore ;Honnore;c_honnore;
+PROV2042;Banavasi;Banavasi;c_banavasi;
+PROV2043;Uchangidurga;Uchangidurga;c_uchangidurga;
+PROV2044;Penugonda;Penugonda;c_penugonda;
+PROV2045;Kanara  ;Kanara;c_kanara;
+PROV2046;Dwarasamudra;Dwarasamudra;c_dwarasamudra;
+PROV2047;Manyapura;Manyapura;c_manyapura;
+PROV2048;Dzoraget;Dzoraget;c_dzoraget;
+PROV2049;Calicut ;Qalqut;c_qalqut,Kallikkottai;
+PROV2050;Srirangapatna;Srirangapatna;c_srirangapatna;
+PROV2051;Talakadu;Talakad;c_talakad;
+PROV2052;Kodungallur;Mahodayapuram;c_mahoyadapuram;
+PROV2053;Gallipoli;Kallipolis;c_kaliopolis,Gelibolu;
+PROV2054;Kambechovani;Kambechovani;c_kambechovani;
+PROV2055;Kongu   ;Kongu;c_kongu;
+PROV2056;Bidar   ;Bidar;c_bidar;
+PROV2057;Bampur  ;Bampúr;c_bampur;
+PROV2058;Ma’rib  ;Marib;c_marib;
+PROV2059;Konkan Coast;Konkan Coast;;
+PROV2060;Malabar Coast;Coast of Malabar;;
+PROV2061;Mughan  ;Muqan;c_muqan;

@@ -31,7 +31,7 @@ Qi Empire                                      ;Qi Empire;;;Qi Empire
 Wei Empire                                     ;Wei Empire;;;Wei Empire
 Jin Empire                                     ;Jin Empire;;;Jin Empire
 Tang Empire                                    ;Tang Empire;;;Tang Empire
-Rome                                           ;Rome    ;;;Rome
+Roma                                           ;Rome    ;;;Roma
 Stephen                                        ;Stephen ;;;Stephen
 Wu                                             ;Wu      ;;;Wu
 Shun                                           ;Shun    ;;;Shun
@@ -155,7 +155,19 @@ d_kanyakubja_adj                               ;Kannauj ;;;Kanyakubjan
 d_saryupara_adj                                ;Sarvariya;;;Saryuparan
 d_jejakabhukti_adj                             ;Bundeli ;;;Jejakabhuktian
 d_dahala_adj                                   ;Chedi   ;;;Dahalan
+d_vidharba_adj                                 ;Vidarbha;;;Vidharbani
+d_konkana_adj                                  ;Konkana ;;;Konkanan
+d_nasikya_adj                                  ;Nasikya ;;;Nasikyani
 d_devagiri_adj                                 ;Devagiri;;;Devagirian
+d_rattapadi_adj                                ;Rattapadi;;;Rattapadian
+d_kalyani_adj                                  ;Kalyani ;;;Kalyanian
+d_gangavadi_adj                                ;Gangavadi;;;Gangavadian
+d_nulambavadi_adj                              ;Nulambavadi;;;Nulambvadian
+d_raichur_doab_adj                             ;Raichur Doab;;;Raichur Doaban
+d_pandya_nadu_adj                              ;Pandya Nadu;;;Pandya Naduan
+d_chera_nadu_adj                               ;Chera Nadu;;;Chera Naduan
+d_warangal_adj                                 ;Warangalite;;;Warangali
+d_racakonda_adj                                ;Racakonda;;;Racacondan
 radhanite_quarter_1_desc                       ;This fortified trade post is owned by the Radhanites, Jewish merchants known for their extensive trading contacts around the known world.;;;This fortified trade post is owned by the Radhanites, [jewish.GetName] merchants known for their extensive trading contacts around the known world.
 tb_culture_chinese_han_1                       ;Crossbow Range;;;Crossbow Range
 tb_culture_chinese_han_2                       ;Crossbow Range;;;Crossbow Range
@@ -596,6 +608,8 @@ the_legendary_dynasty_warrior_root             ;The Legendary [From.OriginalOwne
 the_legendary_dynasty_warrior_not_root         ;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap];;;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap]
 the_saintly_relative_1                         ;The Virtues of [saintly_relative.GetFirstName];;;The Virtues of [saintly_relative.GetFirstName]
 d_durham_palatine                              ;County Palatine of Durham;;;Durham
+e_nicaea                                       ;Nicene Empire;;;Nicene Empire
+e_nicaea_adj                                   ;Nicene  ;;;Nicaean
 d_durham_palatine_adj                          ;Durham  ;;;Durhamian
 crown_winged_helmet_bloodline_name_1           ;[Root.GetDynName] Crest;;;[Root.GetDynName] Crest
 elephant_group                                 ;Proboscidea;;;Proboscidea
@@ -658,7 +672,6 @@ d_jangladesh                                   ;Jangladesh;;;Jangladesh
 d_stravani                                     ;Stravani;;;Stravani
 d_medapata                                     ;Mewar   ;;;Medapata
 d_ajmer                                        ;Ajmer   ;;;Ajmer
-k_malwa                                        ;Malwa   ;;al-Máribah;Malwa
 d_dadhipadra                                   ;Avanti  ;;;Avanti
 d_akara_dasarna                                ;Dasharna;;;Akara-Dasarna
 d_anupa                                        ;Anupa   ;;;Anupa
@@ -666,9 +679,66 @@ d_kanyakubja                                   ;Kannauj ;;Kannauj;Kanyakubja
 d_saryupara                                    ;Sarvariya;;;Saryupara
 d_jejakabhukti                                 ;Bundelkhand;;;Jejakabhukti
 d_dahala                                       ;Chedi   ;;;Dahala
+e_deccan                                       ;Deccan Empire;;;Deccan Empire
+e_deccan_adj                                   ;Deccan  ;;;Deccan
+k_maharastra                                   ;Maharashtra;;;Maharastra
+d_vidharba                                     ;Vidarbha;;;Vidharba
+d_konkana                                      ;Konkana ;;Kumkam;Konkana
+d_nasikya                                      ;Nasikya ;;;Nasikya
 d_devagiri                                     ;Devagiri;;;Devagiri
+d_rattapadi                                    ;Rattapadi;;;Rattapadi
+k_karnata                                      ;Karnata ;;;Karnata
+d_kalyani                                      ;Kalyana ;;;Kalyani
+d_gangavadi                                    ;Gangavadi;;;Gangavadi
+d_nulambavadi                                  ;Nulambavadi;;;Nulambavadi
+d_raichur_doab                                 ;Raichur Doab;;;Raichur Doab
+k_tamilakam                                    ;Tamilakam;;;Tamilakam
+d_pandya_nadu                                  ;Pandya Nadu;;;Pandya Nadu
+d_chera_nadu                                   ;Chera Nadu;;;Chera Nadu
+k_telingana                                    ;Telangana;;;Telingana
+d_warangal                                     ;Warangal;;;Warangal
+d_racakonda                                    ;Racakonda;;;Racakonda
+c_kongu_adj                                    ;Kongu   ;;;Konguan
+c_mahoyadapuram_adj                            ;Kodungallur;;;Mahoyadapuram
+c_qalqut_adj                                   ;        ;;;Qalquttan
+c_kanara_adj                                   ;Kanara  ;;;Kanaran
+c_kalyani_adj                                  ;Kalyani ;;;Kalyani
+c_bidar_adj                                    ;Bidar   ;;;Bidaran
+c_manyakheta_adj                               ;Manyakheta;;;Manyakhetan
+c_sagar_adj                                    ;Sagar   ;;;Sagaran
+c_srirangapatna_adj                            ;Srirangapatna;;;Srirangapatnan
+c_talakad_adj                                  ;Talakadu;;;Talakadian
+c_manyapura_adj                                ;Manyapura;;;Manyapuran
+c_uchangidurga_adj                             ;Uchangidurga;;;Uchangidurgan
+c_dwarasamudra_adj                             ;Dwarasamudra;;;Dwarasamudran
+c_alampur_adj                                  ;Alampur ;;;Alampuran
+c_idatarainadu_adj                             ;Idatarainadu;;;Idatarainadu
+c_kudalasangama_adj                            ;Kudalasangama;;;Kudalasangaman
+c_banavasi_adj                                 ;Banavasi;;;Banavasi
+c_vatapi_adj                                   ;Vatapi  ;;;Vatapi
+c_acalapura_adj                                ;Achalpur;;;Acalapuran
+c_ramagiri_adj                                 ;Ramagiri;;;Ramagiri
+c_kherla_adj                                   ;Kherla  ;;;Kherlan
+c_goa_adj                                      ;Goan    ;;;Goan
+c_thana_adj                                    ;Thane   ;;;Thanan
+c_honnore_adj                                  ;Honnore ;;;Honnoran
 c_nasikya_adj                                  ;Nashik  ;;;Nasikyan
 c_nandurbar_adj                                ;Nandurbar;;;Nandurbaran
+c_kondana_adj                                  ;Kondhana;;;Kondanan
+c_pratishthana_adj                             ;Paithan ;;;Pratishthanan
+c_vatsagulma_adj                               ;Vatsagulma;;;Vatsagulman
+c_nanded_adj                                   ;Nanded  ;;;Nanded
+c_parnakheta_adj                               ;Parnakheta;;;Parnakhetan
+c_lattalura_adj                                ;Lattalura;;;Lattaluran
+c_naldurg_adj                                  ;Naldurg ;;;Naldurgan
+c_kolhapur_adj                                 ;Kolhapur;;;Kolhapuran
+c_taradavadi_adj                               ;Taradavadi;;;Taradavadi
+c_penugonda_adj                                ;Penugonda;;;Penugondan
+c_vemulavada_adj                               ;Vemulawada;;;Vemulavadan
+c_balkonda_adj                                 ;Balkonda;;;Balkondan
+c_pannagallu_adj                               ;Pannagallu;;;Pannagallu
+c_medak_adj                                    ;Medak   ;;;Medak
+c_kollipake_adj                                ;Kollipake;;;Kollipake
 c_kanyakubja_adj                               ;Kannauj ;;;Kanyakubjan
 c_naimisa_adj                                  ;Naimisha;;;Naimisan
 c_mahoba_adj                                   ;Mahoba  ;;;Mahoban
@@ -814,9 +884,9 @@ c_kyunglung_adj                                ;Kyunglung;;;Kyunglungi
 c_purang_adj                                   ;Burang  ;;;Purangi
 d_ladakh                                       ;Ladakh  ;;Maryul,Ladake;Ladakh
 d_ladakh_adj                                   ;Ladakhi ;;;Ladakhi
-k_kashmir                                      ;Kashmir ;;;Kashmir
+k_kashmir                                      ;Kashmir ;;Kashmír;Kashmir
 k_kashmir_adj                                  ;Kashmiri;;;Kashmiran
-d_kashmir                                      ;Kashmir ;;;Kashmir
+d_kashmir                                      ;Kashmir ;;Kashmír;Kashmir
 d_kashmir_adj                                  ;Kashmiri;;;Kashmiran
 d_pamir                                        ;Pamir   ;;;Pamir
 d_pamir_adj                                    ;Pamir   ;;;Pamiran
@@ -953,6 +1023,8 @@ the_republic_rename                            ;The [Root.Government.GetName] Re
 the_chinese_royals_favorite                    ;[Root.GetFirstName]’s Favorite [This.GetName];;;[Root.GetFirstName]'s Favorite [This.GetName]
 the_chinese_royals_personal_note_book          ;The Journal of [Root.GetFirstName];;;The Journal of [Root.GetFirstName]
 #LT.csv;;;;
+e_russian_empire                               ;Russia  ;;;Russia
+e_russian_empire_adj                           ;Russian ;;;Russian
 title_lighthouse_custodian                     ;Lighthouse Custodian;;;Lighthouse Custodian
 title_lighthouse_custodian_desc                ;This honorific is awarded to a person who has shown himself responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.;;;This honorific is awarded to a person who has shown themselves responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.
 title_stone_custodian                          ;Custodian of the Stone;;;Custodian of the Stone
@@ -991,7 +1063,7 @@ title_castellan_desc                           ;This honorific is awarded to a v
 COUNTY_KLEVE                                   ;Cleves  ;;;Kleve
 COUNTY_KLEVE_ADJ                               ;Cleves  ;;;Klevian
 c_orava_adj                                    ;Zvolen  ;;;Oravan
-PROV187                                        ;Castelo Branco;;c_castelo_branco,Abiad al-Qal'at,Castiello Blanco,Châteaublanc,Castiellu Blancu,Castillo Blanco,Castrobranco,Gaztelu Zuria,Castell Blanc;Guarda
+PROV187                                        ;Castelo Branco;;c_castelo_branco,Qal'at al-Abiad,Castiello Blanco,Châteaublanc,Castiellu Blancu,Castillo Blanco,Castrobranco,Gaztelu Zuria,Castell Blanc;Guarda
 title_hypatos                                  ;Hypatos ;;;Hypatos
 title_augusta                                  ;Augusta ;;;Augusta
 DUCHY_HOLLAND                                  ;Holland ;;;Holland
@@ -1006,6 +1078,8 @@ DUCHY_GELRE                                    ;Guelders;;;Gelre
 DUCHY_GELRE_ADJ                                ;Guelders;;;Gelrian
 COUNTY_BREDA                                   ;Antwerp ;;;Breda
 COUNTY_BREDA_ADJ                               ;Antwerp ;;;Bredian
+OTTO_THE_FIRST_ERA                             ;The Iron Century;;;The Iron Century
+OTTO_THE_FIRST_ERA_INFO                        ;On the 7th of August 936, Otto I was crowned King of the Germans. He initiated his arduous campaign to crush his rivals and reconquer the lost territory in Italy to reform the Holy Roman Empire. The Magyars settled down in the Carpathian Basin and began to make their mark on the world as they conquered and pillaged their neighbors, becoming feared across Europe. In the north the Christians were trying to push into the Scandinavian Peninsula to start converting the pagan kings, but the Germanic faith still stood strong among the vikings. In Baghdad far to the south-east, the ancient Abbasid Caliphate that once ruled an empire stretching from Persia to Hispania finally fell to infighting, left only with the heartland of their former empire. And on the shores of Africa a new rival rose up in the form of the Fatimid Caliphate, ready to fill the vacant regions left behind by their adversary.;;;On the 7th of August 936, Otto I was crowned King of the Germans. He initiated his arduous campaign to crush his rivals and reconquer the lost territory in Italy to reform the Holy Roman Empire. The Magyars settled down in the Carpathian Basin and began to make their mark on the world as they conquered and pillaged their neighbors, becoming feared across Europe. In the north the Christians were trying to push into the Scandinavian Peninsula to start converting the pagan kings, but the Germanic faith still stood strong among the vikings. In Baghdad far to the south-east, the ancient Abbasid Caliphate that once ruled an empire stretching from Persia to Hispania finally fell to infighting, left only with the heartland of their former empire. And on the shores of Africa a new rival rose up in the form of the Fatimid Caliphate, ready to fill the vacant regions left behind by their adversary.
 e_bulgaria                                     ;Bulgaria;;;Bulgaria
 e_bulgaria_adj                                 ;Bulgarian;;;Bulgarian
 d_scholae_palatinae                            ;Scholae Palatinae;;;Scholae Palatinae
@@ -1026,14 +1100,24 @@ title_sebastos                                 ;Sebastos;;;Sebastos
 title_sebastos_female                          ;Sebaste ;;;Sebaste
 title_sebastos_desc                            ;Venerable one: Only important members of the imperial family and those related to them by marriage or blood may bear this venerable title.;;;Venerable one: Only important members of the imperial family and those related to them by marriage or blood may bear this venerable title.
 title_augusta_desc                             ;Most Pious Augusta: Unlike the male counterpart the Augusta continues to be the most important woman of the empire. Wielding great power and authority, she is second only to the Basileus.;;;Most Pious Augusta: Unlike the male counterpart the Augusta continues to be the most important woman of the empire. Wielding great power and authority, she is second only to the Basileus.
+era_char_name_1282                             ;Otto I  ;;;Otto I
+ERA_CHAR_INFO_1282                             ;Otto was crowned King of Germany after the death of his father Henry I. Early in his reign he had to push back a rebellion by Duke Eberhard of Bavaria, as well as fight a war against Louis IV of West Francia and Duke Gilbert of Lorraine. After securing peace in the war, Otto went on to fight for the Italian throne as well as push back the Hungarian threat in the east. In his later years, after his coronation as Emperor, he had to continue his struggles in Italy to keep his newfound empire under control. The Ottonian dynasty went on to control the empire for almost half a century after his death, until it finally ended with the demise of Henry II in 1024.;;;Otto was crowned King of the Germans after the death of his father Henry I. Early in his reign he had to push back a rebellion by Duke Eberhard of Bavaria, as well as fight a war against Louis IV of West-Francia and Duke Gilbert of Lorraine. After securing peace in the war, Otto went on to fight for the Italian throne as well as push back the Hungarian threat in the east. In his later years, after his coronation as the Emperor of the Holy Roman Empire, he had to continue his struggles in Italy to keep his newfound empire under control. The Ottonian dynasty went on to control the empire for almost half a century after his death, until it finally ended with the demise of Henry II in 1024.
+era_char_name_32901                            ;Caliph al-Qa’im;;;Caliph al-Qaim
+ERA_CHAR_INFO_32901                            ;Al-Qa’im followed his father, Caliph al-Mahdi, as he settled down in Ifriqiya and established the Fatimid Caliphate. In direct opposition to the Abbasid Caliphate in Baghdad, they filled the room left behind as the Abbasids had lost control of their peripheral regions. Early in al-Qa’im's reign, a large rebellion rose up in the west led by Abu Yazid. For several years the Fatimid armies were pushed back, as the rebellion grew ever closer to their capital in Mahdia. After al-Qaim's death, his son and successor al-Mansur finally managed to beat the rebellion back and take control of their lands once again. The dynasty would later go on to invade Ikhshidid Egypt and establish Cairo as the new capital of their Caliphate.;;;Al-Qaim followed his father, Caliph al-Mahdi, as he settled down in Ifriqiya and established the Fatimid Caliphate. In direct opposition to the Abbasid Caliphate in Baghdad, they filled the room left behind as the Abbasids had lost control of their peripheral regions. Early in al-Qaim's reign, a large rebellion rose up in the west led by Abu Yazid. For several years the Fatimid armies were pushed back, as the rebellion grew ever closer to their capital in Mahdia. After al-Qaim's death, his son and successor al-Mansur finally managed to beat the rebellion back and take control of their lands once again. The dynasty would later go on to invade Ikhshidid Egypt and establish Cairo as the new capital of their Caliphate.
+era_char_name_33350                            ;Æthelstan;;;Æthelstan
+ERA_CHAR_INFO_33350                            ;As the son of Edward the Elder, he gained the Kingdom of Mercia after the death of his father, and Wessex after the death of his brother only weeks afterwards. Waging war against the Norsemen in York, Æthelstan pushed northwards and took the city in 927, becoming the first king of a truly united England. Ten years later, in 937, a coalition led by the Kings of Scotland, Strathclyde, and Dublin waged war against Æthelstan, which ended with the Battle of Brunanburh. With a decisive victory it seemed Æthelstan had finally secured his rule in England, but only two years later he died and was succeeded by his half-brother Edmund.;;;As the son of Edward the Elder, he gained the Kingdom of Mercia after the death of his father, and Wessex after the death of his brother only weeks afterwards. Waging war against the Norsemen in York, Æthelstan pushed northwards and took the city in 927, becoming the first king of a truly united England. Ten years later, in 937, a coalition led by the Kings of Scotland, Strathclyde, and Dublin waged war against Æthelstan, which ended with the Battle of Brunanburh. With a decisive victory it seemed Æthelstan had finally secured his rule in England, but only two years later he died and was succeeded by his half-brother Edmund.
+era_char_name_260976                           ;Abu Tahir al-Jannabi;;;Abu Tahir al-Jannabi
+ERA_CHAR_INFO_260976                           ;Abu Sa‘id started the Qarmatian faith centered around his capital in Eastern Arabia when the Fatimid caliphate rose in the west. After his father’s demise, Abu Tahir continued as the new leader and became infamous throughout the Arabian Peninsula for his raids into Egyptian and Abbasid lands. In 930 he pillaged Mecca, murdered the many pilgrims who had travelled there and stole the Black Stone. After this sacrilege the Qarmatians became even more hated throughout the whole Muslim world, but that did not deter Abu Tahir as he continued the raids and assaults on his neighbors, until he finally died a decade later.;;;Abu'l-Qasim Sa'id started the Qarmatian faith centered around his capital in al-Bahrein when the Fatimid Caliphate rose in the west. After his father's demise, Abu Tahir continued as the new leader and became infamous throughout the Arabian Peninsula for his raids into Egyptian and Abbasid lands. In 930 he pillaged Mecca, murdered the many pilgrims who had travelled there and stole the Black Stone. After this sacrilege the Qarmatians became even more hated throughout the whole Muslim world, but that did not deter Abu Tahir as he continued the raids and assaults on his neighbours, until he finally died a decade later.
+era_char_name_159135                           ;Zoltán  ;;;Árpád Zolta
+ERA_CHAR_INFO_159135                           ;As the third grand prince of the Hungarians and the successor to the legendary Árpád, Zoltán led his people for several decades in the early 10th century. Throughout this period the Hungarians were feared raiders who travelled across all of Europe, from Byzantium to Córdoba. After his death in the year 950, only a few years passed until Otto I beat back the Hungarian raiders in the Battle of Lechfeld, putting an end to their tyranny.;;;As the third grand prince of the Hungarians and the successor to the legendary Árpád, Zolta led their people for several decades in the early 10th century. Throughout this period the Hungarians were feared raiders who travelled across all of Europe, from Byzantium to Córdoba. After his death in the year 950, only a few years passed until Otto I beat back the Hungarian raiders in the Battle of Lechfeld, putting an end to their tyranny.
+era_char_name_144001                           ;Haakon I;;;Hakon I
+ERA_CHAR_INFO_144001                           ;Haakon was one of the many many sons of Harald Fairhair, legendary king of Norway. When his brother Eric took control of Norway, not many years passed until his despotic rule made him unpopular to the point of rebellion. Haakon who had been raised by King Æthelstan of England was sent back home to Norway to take over the rule of the kingdom. As a Christian in a very pagan country, he had a long and tenuous rule over the many Norwegian tribes. Throughout his rule he was threatened by the Danish king who supported the claims of his grandsons, the sons of his half-brother Eric. In the end Haakon fell as he repelled the Danes at the Battle of Fitjar, and was succeeded by his nephew Harald II Greycloak.;;;Hakon was one of the many many sons of Harald Fairhair, legendary king of Norway. When his brother Eirik took control of Norway, not many years passed until his despotic rule made him unpopular to the point of rebellion. Hakon who had been raised by King Æthelstan of England was sent back home to Norway to take over the rule of the kingdom. As a christian in a very pagan country, he had a long and tenuous rule over the many norwegian tribes. Throughout his rule he was threatened by the Danish king who supported the claims of his grandsons, the sons of his half-brother Eirik. In the end Hakon fell as he repelled the Danes at the Battle of Fitjar, and was succeeded by his nephew Harald II Greycloak.
 tb_culture_sardinian_1                         ;[sardinian.GetName] Garrison;;;[sardinian.GetName] Garrison
 tb_culture_sardinian_2                         ;[sardinian.GetName] Garrison;;;[sardinian.GetName] Garrison
 tb_culture_sardinian_3                         ;[sardinian.GetName] Garrison;;;[sardinian.GetName] Garrison
 tb_culture_sardinian_4                         ;[sardinian.GetName] Garrison;;;[sardinian.GetName] Garrison
 ca_culture_sardinian_1_desc                    ;These garrisons are commonplace in [sardinian.GetName] lands, with the most elite of troops ready to protect the region.;;;These garrisons are commonplace in [sardinian.GetName] lands, with the most elite of troops ready to protect the region.
 c_castelo_branco_adj                           ;Castelo Branco;;;Guardan
-tribal_king_hungarian                          ;Grand Prince;;;Grand Prince
-tribal_kingdom_of_hungarian                    ;Principality of;;;Principality of
 tribal_king_female_hungarian                   ;Grand Princess;;;Grand Princess
 #LegacyOfRome.csv;;;;
 title_imperial_eunuch                          ;Parakoimomenos;;;Parakoimomenos
@@ -1262,7 +1346,7 @@ c_ikonion_adj                                  ;Ikonion ;;;Ikonionian
 c_smyrna_adj                                   ;Smyrnan ;;;Smyrnan
 c_abydos_adj                                   ;Abydos  ;;;Abydosian
 c_euboia_adj                                   ;Euboeote;;;Euboian
-c_kaliopolis_adj                               ;Kallipolis;;;Kaliopolisian
+c_kaliopolis_adj                               ;Gallipoli;;;Kaliopolisian
 c_thessalonike_adj                             ;Thessalonian;;;Thessalonikian
 c_epeiros_adj                                  ;Epirote ;;;Epirotian
 c_arta_adj                                     ;Arta    ;;;Artan
@@ -1424,10 +1508,8 @@ c_abkhazia_adj                                 ;Abkhazian;;;Abkhazian
 c_zeta_adj                                     ;Zetan   ;;;Zetan
 d_slavonia                                     ;Slavonia;;Pannonia Savia,Szlavónia;Slavonia
 d_slavonia_adj                                 ;Slavonian;;;Slavonian
-c_varadzin_adj                                 ;Varaždin;;;Varazdinian
 c_vas_adj                                      ;Vas     ;;;Vasian
 c_sopron_adj                                   ;Sopronian;;;Sopronian
-d_ungvar                                       ;Uzhhorod;;Chrobatia,Ungwar;Ungvar
 c_abauj_adj                                    ;Abaúj   ;;;Abaujian
 c_heves_adj                                    ;Heves   ;;;Hevian
 c_padova_adj                                   ;Paduan  ;;;Padovian
@@ -1436,7 +1518,7 @@ d_spoleto                                      ;Spoleto ;;Valeria,Oualeria;Spole
 d_spoleto_adj                                  ;Spoletine;;;Spoletan
 d_sardinia                                     ;Sardinia;;Sardiniae,Sardo;Sardinia
 d_sardinia_adj                                 ;Sardinian;;;Sardinian
-d_benevento                                    ;Benevento;;Beneventum,Beneuenton;Benevento
+d_benevento                                    ;Benevento;;Beneventum,Beneuenton,Benavent;Benevento
 d_benevento_adj                                ;Beneventan;;;Benevenetian
 d_salerno_adj                                  ;Salernitan;;;Salernian
 d_savoie                                       ;Savoy   ;;;Savoy
@@ -1444,7 +1526,7 @@ d_savoie_adj                                   ;Savoyard;;;Savoyard
 d_dauphine                                     ;Dauphiné;;;Dauphiné
 c_forez_adj                                    ;Forez   ;;;Forezian
 c_chalons_adj                                  ;Chalon  ;;;Chalonnian
-k_france                                       ;France  ;;Franza,França,Francia,Francland,Frantzia,Galliae,Gallia;France
+k_france                                       ;France  ;;Franza,França,Francia,Francland,Frantzia,Ifranja,Galliae,Gallia;France
 k_france_adj                                   ;French  ;;;French
 c_montpellier_adj                              ;Montpellier;;;Montpellierian
 c_viviers_adj                                  ;Vivarais;;;Vivieran
@@ -1579,7 +1661,7 @@ c_silves_adj                                   ;Silves  ;;;Silvesian
 c_faro_adj                                     ;Faro    ;;;Faronian
 c_canarias_adj                                 ;Canarian;;;Canarian
 c_makuria_adj                                  ;Makurian;;;Makurian
-c_nubia_adj                                    ;Nubian  ;;;Nubian
+c_nubia_adj                                    ;Faras   ;;;Nubian
 d_sinai                                        ;Sinai   ;;Síná',Sina;Sinai
 d_sinai_adj                                    ;Sinaitic;;;Sinaite
 c_sinai_adj                                    ;Sinaitic;;;Sinaian
@@ -1601,10 +1683,10 @@ c_sanaa_adj                                    ;Sana’a  ;;;Sanaan
 c_taizz_adj                                    ;Taizian ;;;Taizzian
 c_aden_adj                                     ;Adenian ;;;Adenian
 c_kathiri_adj                                  ;Kathiri ;;;Kathirian
-c_muscat_adj                                   ;Muscatian;;;Muscatian
+c_muscat_adj                                   ;Qalhat  ;;;Muscatian
 c_dhofar_adj                                   ;Dhofar  ;;;Dhofarian
 c_mahra_adj                                    ;Al Mahrah;;;Mahran
-k_abyssinia                                    ;Abyssinia;;Ityoppya,Ethaush,Habasha,Itoobiya;Abyssinia
+k_abyssinia                                    ;Abyssinia;;Ityoppya,Ethaush,Habash,Itoobiya;Abyssinia
 k_abyssinia_adj                                ;Abyssinian;;;Abyssinian
 c_busaso_adj                                   ;Bosaso  ;;;Busasonian
 c_berbera_adj                                  ;Berbera ;;;Berberan
@@ -1687,6 +1769,8 @@ c_litomerice_adj                               ;Litomerice;;;Litomerician
 d_moravia_adj                                  ;Moravian;;;Moravian
 c_olomouc_adj                                  ;Olomoucian;;;Olomoucian
 d_abbasid                                      ;Abbasids;;;Abbasid
+d_luristan                                     ;Lorestan;;;Luristan
+d_luristan_adj                                 ;Lorestan;;;Luristani
 d_pronsk                                       ;Pronsk  ;;;Pronsk
 d_pronsk_adj                                   ;Pronsk  ;;;Pronskian
 d_sandomiersk                                  ;Sandomierz;;;Sandomiersk
@@ -1884,9 +1968,9 @@ PROV147                                        ;Limousin;;c_limousin,Augustoritu
 PROV148                                        ;Angoulême;;c_angouleme,Iculisma;Angoulême
 PROV149                                        ;Bordeaux;;c_bordeaux,Burdigala,Bourdigala,Bordele,Bordéu;Bordeaux
 PROV151                                        ;Dax     ;;c_labourd,Lapurdum,Lapurdi;Dax
-PROV152                                        ;Navarre ;;c_navarra,al-Nahara,Nafarroa,Navarre;Navarra
+PROV152                                        ;Navarre ;;c_navarra,Nabarra,Nafarroa,Navarre;Navarra
 PROV153                                        ;Biscay  ;;c_viscaya,Bisqayya,Bizkaia,Biscaye,Biscaia;Viscaya
-PROV157                                        ;Santiago;;c_santiago,Yaqquba,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;Santiago
+PROV157                                        ;Santiago;;c_santiago,Shant Yáqub,Saint-Jacques,Sant'Iago,Santiagu,Sant Jaume,Done Jakue,Sant Chaime;Santiago
 PROV159                                        ;Coimbra ;;c_coimbra,Qulumriya,Koimbra,Coimbre,Coímbra,Coïmbra,Aeminium,Aeminion;Coimbra
 PROV160                                        ;Lisbon  ;;c_lisboa,al-Ushbúna,Lisbona,Lisbonne,Olisipo,Olioseipon;Lisboa
 PROV161                                        ;Alcácer ;;c_alcacer_do_sal,Qasr Abí Dánis,Alcàsser de la Sal,Alcázar de Sal,Gatza Gaztelua,Château du Sel,Salacia Imperatoria,Salakeia;Alcácer do Sal
@@ -1899,9 +1983,9 @@ PROV168                                        ;Almería ;;c_almeria,al-Mariyya,A
 PROV169                                        ;Murcia  ;;c_murcia,Mursiya,Múrcia,Murtzia,Murcie;Murcia
 PROV170                                        ;Dénia   ;;c_denia,Dániya,Dénia,Denya,Dianium,Dianion;Denia
 PROV171                                        ;Valencia;;c_valencia,Balansiya,València,Balentzia,Valência,Valence,Valentia,Oualentia;Valencia
-PROV172                                        ;Castelló;;c_castellon,Marmariya,Castelló,Gaztelu,Castelhão;Castellon
+PROV172                                        ;Castelló;;c_castellon,Buríyána,Castelló,Gaztelu,Castelhão;Castellon
 PROV175                                        ;Calatayud;;c_calatayud,Qal'at Ayyúb,Calatayú,Calataiud,Kalataiud;Calatayud
-PROV176                                        ;Molina  ;;c_molina,Barusa;Molina
+PROV176                                        ;Molina  ;;c_molina,Bárúsha;Molina
 PROV177                                        ;Cuenca  ;;c_cuenca,Qúnka,Conca,Kuenka,Conque;Cuenca
 PROV180                                        ;Granada ;;c_granada,Gharnáta,Grenade,Iliberri,Illiberis;Granada
 PROV181                                        ;Córdoba ;;c_cordoba,Qurtuba,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;Cordoba
@@ -1913,14 +1997,14 @@ PROV189                                        ;Astorga ;;c_astorga,Ashtúrqa,Est
 PROV190                                        ;León    ;;c_leon,Liyún,Llión,Lleó,Leão,Leyón;León
 PROV191                                        ;Zamora  ;;c_zamora,Shamúra,Samora,Ocelum Duri,Okelon;Zamora
 PROV192                                        ;Salamanca;;c_salamanca,Shalamanqa,Salamanque,Salamantica,Salmantika;Salamanca
-PROV193                                        ;Alcántara;;c_alcantara,al-Qantara,Alcàntara,Alkantara,Alcântara;Alcantara
+PROV193                                        ;Alcántara;;c_alcantara,Qúriya,Alcàntara,Alkantara,Alcântara;Alcantara
 PROV194                                        ;Plasencia;;c_plasencia,Blasinsiyya,Plasence,Praséncia,Plasència,Plasentzia;Plasencia
 PROV196                                        ;Calatrava;;c_calatrava,Qal'at Rabáh,Kalatraba,Calatrave;Calatrava
 PROV197                                        ;Toledo  ;;c_toledo,Tulaytula,Tolède,Toletum,Toleton;Toledo
 PROV198                                        ;Valladolid;;c_valladolid,Balad al-Walid,Baiadolitz,Valhadolide,Valladolit;Valladolid
 PROV199                                        ;Burgos  ;;c_burgos,Burghush,Burchs,Bourges;Burgos
 PROV200                                        ;Soria   ;;c_soria,Suria,Sòria,Sória,Sorie;Soria
-PROV201                                        ;Nájera  ;;c_najera,Náshara,Naiara,Nàxera,Náxera,Nachera,Najéra;Nájera
+PROV201                                        ;Nájera  ;;c_najera,Nájira,Naiara,Nàxera,Náxera,Nachera,Najéra;Nájera
 PROV202                                        ;Zaragoza;;c_zaragoza,Saraqusta,Saragossa,Saragoça,Saragosse,Caesaraugusta,Kaisaraugousta;Zaragoza
 PROV203                                        ;Lleida  ;;c_lleida,Lárida,Lérida,Leida,Léria,Ilerda;Lleida
 PROV204                                        ;Barcelona;;c_barcelona,Barshilúna,Bartzelona,Barcelone,Barcino,Barkinon;Barcelona
@@ -1953,7 +2037,7 @@ PROV506                                        ;Vidin   ;;c_vidin,Bidyne,Bononia
 PROV509                                        ;Balchik ;;c_karvuna,Krounoi,Balçik;Karvuna
 PROV514                                        ;Turnu   ;;c_turnu,Holavnik;Turnu
 PROV516                                        ;Severin ;;c_severin,Szörényvár;Severin
-PROV521                                        ;Csanád  ;;c_csanad,Tschanad,Cenad,Chanad,Chanád,Morisena;Csanad
+PROV521                                        ;Csanád  ;;c_csanad,Canad,Tschanad,Cenad,Chanad,Chanád,Morisena;Csanad
 PROV535                                        ;Volodymyr-Volynsky;;c_vladimir_volynsky,Wlodzimierz Wolynski;Vladimir Volynsky
 PROV560                                        ;Chersonesus;;c_cherson,Gothia Maritima,Cherson,Korsun;Cherson
 PROV561                                        ;Feodosia;;c_theodosia,Sudaq,Kefe,Cafà,Caffa,Kaffa;Theodosia
@@ -1984,15 +2068,14 @@ PROV732                                        ;Hama    ;;c_hama,Epiphania;Hama
 PROV764                                        ;Antioch ;;c_antiocheia,Antakiya,Antiok,Antiokia,Ansokya;Antioch
 PROV766                                        ;Tartus  ;;c_tortosa,Antartus,Antarados;Tortosa
 PROV770                                        ;Beirut  ;;c_beirut,Berytus,Berytos;Beirut
-PROV772                                        ;Acre    ;;c_acre,Akka,Ptolemais;Acre
-PROV773                                        ;Tiberias;;c_tiberias;Tiberias
+PROV772                                        ;Acre    ;;c_acre,'Akká,Ptolemais;Acre
+PROV773                                        ;Tiberias;;c_tiberias,Tabariyya;Tiberias
 PROV775                                        ;Jaffa   ;;c_jaffa,Ioppe,Ioppa;Jaffa
 PROV777                                        ;Kerak   ;;c_kerak,Al-Karak;Kerak
-PROV778                                        ;Montreal;;c_monreal,Shobak;Monreal
+PROV778                                        ;Montreal;;c_monreal,Shawbak;Monreal
 PROV780                                        ;Ashkelon;;c_ascalon,Ásqalán,Iamnia;Ascalon
 PROV783                                        ;Ma’an   ;;c_maan;Maan
 PROV787                                        ;Arish   ;;c_el-arish,Pelusium,Pelousion,Peremun;El-Arish
-PROV792                                        ;Nubia   ;;c_nubia,Pachoras,Pakhôras,Para;Nubia
 PROV794                                        ;Aswan   ;;c_aswan,Syene,Suan;Aswan
 PROV795                                        ;Asyut   ;;c_asyut,Lycopolis,Lykopolis,Siout;Asyut
 PROV796                                        ;Cairo   ;;c_cairo,Babylon,Phystaton,Taqahirt,Kayro,Qáhira;Cairo
@@ -2014,8 +2097,8 @@ PROV872                                        ;Berbera ;;c_berbera;Berbera
 PROV874                                        ;Tadjoura;;c_tadjoura,Tagura,Tagórri,Tajuura;Tadjoura
 PROV875                                        ;Axum    ;;c_aksum;Aksum
 PROV877                                        ;Kassala ;;c_kassala;Kassala
-PROV879                                        ;Atbara  ;;c_atbara;Atbara
-PROV880                                        ;Sennar  ;;c_sennar;Sennar
+PROV879                                        ;Atbara  ;;c_atbara,Abwab;Atbara
+PROV880                                        ;Sennar  ;;c_sennar,Sinnár;Sennar
 PROV881                                        ;Asosa   ;;c_asosa;Asosa
 PROV910                                        ;Siberia ;;;Siberian Wastes
 christian                                      ;Christian;;;Christian
@@ -3514,7 +3597,7 @@ temple_barony_of_taoist                        ;Temple of;;;Temple of
 #v2_82.csv;;;;
 tr_enclave_1_desc                              ;A small enclave established by traders from all over the region in order to conduct trade.;;;A small enclave established by traders from all over the region in order to conduct trade.
 artifact_name                                  ;[GetWeaponName];;;[GetWeaponName]
-e_rajastan                                     ;Rajasthan;;;Rajasthan
+e_rajastan                                     ;Rajasthan;;Hindustan,al-Hind;Rajasthan
 tp_monastery_1                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]
 tp_monastery_2                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]
 tp_monastery_3                                 ;[Root.Holder.GetHouseOfWorshipCap];;;[Root.Holder.GetHouseOfWorshipCap]

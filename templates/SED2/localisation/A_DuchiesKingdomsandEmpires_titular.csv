@@ -34,9 +34,9 @@ d_lower_lorraine                    ;Lower Lorraine;Niederlothringen;;Lower Lorr
 d_lower_lorraine_adj                ;Lower Lorrainian;Niederlothringische;;Lower Lorrainian
 d_brabanttitular                    ;Brabant ;Brabant;;
 d_brabanttitular_adj                ;Brabant ;Brabantse;;
-k_valencia                          ;Valencia;Valencia;;Valencia
+k_valencia                          ;Valencia;Valencia;Balansiya,València,Balentzia,Valência,Valence,Valentia,Oualentia;Valencia
 k_valencia_adj                      ;Valencian;Valenciana;;Valencian
-k_spanish_galicia                   ;Galicia ;Galicia;;Galicia
+k_spanish_galicia                   ;Galicia ;Galicia;Jillíqiyya,Galice,Galiza,Galizia,Galícia,Gallaecia,Kallaikia;Galicia
 k_spanish_galicia_adj               ;Galician;Gallega;;Galician
 k_granada                           ;Granada ;Granada;;
 k_granada_adj                       ;Granadan;Granadina;;
@@ -66,6 +66,10 @@ d_krain                             ;Carniola;Krain;;
 d_krain_adj                         ;Carniolan;Krainische;;
 d_carinthia                         ;Carinthia;Kärnten;Noricum Mediterraneum;Carinthia
 d_carinthia_adj                     ;Carinthian;Kärntnische;;Carinthian
+d_billungmark                       ;Billungs;Billungmark;;
+d_billungmark_adj                   ;Billung ;Billungmarkische;;
+d_saxon_ostmark                     ;Saxon Ostmark;Ostmark;;
+d_saxon_ostmark_adj                 ;Ostmark ;Ostmarkische;;
 d_saxony                            ;Saxony  ;Sachsen;;Saxony
 d_saxony_adj                        ;Saxon   ;Sächsische;;Saxon
 d_bavaria                           ;Bavaria ;Baiern;;Bavaria
@@ -248,10 +252,10 @@ d_duguwa                            ;Duguwa  ;Duguwa;;
 d_duguwa_adj                        ;Duguwa  ;Duguwí;;
 d_blemmyes                          ;Beja    ;Béja;;
 d_blemmyes_adj                      ;Beja    ;Béjí;;
-k_makuria                           ;Makuria ;Makouria;Makouria,Muqurra;
-k_makuria_adj                       ;Makurian;Makourian;;
-k_alodia                            ;Alodia  ;Aloudia;;
-k_alodia_adj                        ;Alodian ;Aloudian;;
+k_makuria                           ;Makuria ;Makuria;Makouria,Muqurra;
+k_makuria_adj                       ;Makurian;Makurian;;
+k_alodia                            ;Alodia  ;Alodia;Aroua,'Alwa;
+k_alodia_adj                        ;Alodian ;Alodian;;
 k_moravia                           ;Great Moravia;Velká Morava;;Great Moravia
 k_moravia_adj                       ;Great Moravian;Velkomoravský;;Moravian
 k_sunni                             ;Sunni   ;Sunni;;
@@ -280,8 +284,8 @@ d_naqis                             ;Naqis   ;Naqís;;
 d_naqis_adj                         ;Naqis   ;Naqísí;;
 d_baqlin                            ;Baqlin  ;Baqlín;;
 d_baqlin_adj                        ;Baqlin  ;Baqlíní;;
-d_djarin                            ;Jarin   ;Djarín;;
-d_djarin_adj                        ;Jarin   ;Djaríní;;
+d_djarin                            ;Jarin   ;Jarín;;
+d_djarin_adj                        ;Jarin   ;Jaríní;;
 d_qataa                             ;Qita’a  ;Qata'a;;
 d_qataa_adj                         ;Qita’a  ;Qata'í;;
 d_bazin                             ;Bazin   ;Bazín;;
@@ -305,8 +309,8 @@ d_dregovichi_adj                    ;Dregovich;Dregovichi;;Dregovichian
 d_radimichi_adj                     ;Radimich;Radimichi;;Radimichian
 d_hilal                             ;Banu Hilal;Banu Hilál;;
 d_hilal_adj                         ;Banu Hilal;Hilálí;;
-d_qurra                             ;Banu Zughba;Banu Zughba;;
-d_qurra_adj                         ;Banu Zughba;Zughbí;;
+d_zughba                            ;Banu Zughba;Banu Zughba;;
+d_zughba_adj                        ;Banu Zughba;Zughbí;;
 d_candar                            ;Isfendiyar;Candar;Paphlagonia;
 d_candar_adj                        ;Isfendiyarid;Candari;;
 d_karasi                            ;Karasi  ;Qarasi;Neokastra;
@@ -422,7 +426,7 @@ d_qarluq                            ;Karluks ;Qarluq;;
 d_qarluq_adj                        ;Karluk  ;Qarluq;;
 d_naimans                           ;Naiman  ;Naiman;;
 d_naimans_adj                       ;Naiman  ;Nainam;;
-e_khitan                            ;Kara-Khitan Khanate;Huldji Qidai Gur;;
+e_khitan                            ;Kara-Khitan Khanate;Hulji Qidai Gur;;
 e_khitan_adj                        ;Kara-Khitan;Kara Khitan;;
 k_cuman                             ;Cumans  ;Kumanlar;;Cumania
 k_cuman_adj                         ;Cuman   ;Kuman;;Cuman
@@ -517,10 +521,10 @@ d_black_caps                        ;Black Caps;Karakalpaklar;;
 d_black_caps_adj                    ;Black Cap;Karakalpaklan;;
 d_black_caps_adj_russian            ;        ;Chyornye Klobuki;;
 #,,,,,,,,,,,,,,;;;;
-k_magyar                            ;Hétmagyar;Hét Magyar;;Magyar
+k_magyar                            ;Hétmagyar;Hetumoger;Hét Magyar;Magyar
 #,,,,,,,,,,,,,,;;;;
 #,,,,,,,,,,,,,,;;;;
-d_mordvins                          ;Mokshas ;Mokshet;Tuqshi,Tuqšilar,Tuqšilär,Mordia,Mordens,Merdas,Mordva;Mordva
+d_mordvins                          ;Mokshas ;Mokshet;Tuqshi,Tuqšilar,Tuqšilär,Mordva,Mordia,Mordens,Merdas;Mordva
 d_mordvins_adj                      ;Mokshan ;Mokshetian;;Mordvin
 d_mordvins_adj_levantine_arabic     ;        ;Tuqshi;;
 d_mordvins_adj_maghreb_arabic       ;        ;Tuqshi;;
@@ -554,6 +558,7 @@ d_mordvins_adj_kirghiz              ;        ;Tuqshi;;
 d_mordvins_adj_uyghur               ;        ;Tuqshi;;
 d_mordvins_adj_cuman                ;        ;Tuqshi;;
 d_mordvins_adj_khazar               ;        ;Tuqshi;;
+d_mordvins_adj_khavar               ;        ;Tuqshi;;
 d_mordvins_adj_pecheneg             ;        ;Tuqshi;;
 d_mordvins_adj_karluk               ;        ;Tuqshi;;
 d_mordvins_adj_avar                 ;        ;Tuqshi;;
@@ -593,7 +598,9 @@ d_mordvins_adj_danish               ;Mordvin ;Mersdasian;;
 d_mordvins_adj_swedish              ;Mordvin ;Mersdasian;;
 d_mordvins_adj_norwegian            ;Mordvin ;Mersdasian;;
 d_mordvins_adj_gothic               ;Mordvin ;Mersdasian;;
-d_mordvins_adj_hungarian            ;Mordvin ;Mersdasian;;
+d_mordvins_adj_old_hungarian        ;Mordvin ;Mordva;;
+d_mordvins_adj_hungarian            ;Mordvin ;Mordva;;
+d_mordvins_adj_szekely              ;Mordvin ;Mordva;;
 d_mordvins_adj_leonese              ;Mordvin ;Mersdasian;;
 d_mordvins_adj_castillan            ;Mordvin ;Mersdasian;;
 d_mordvins_adj_aragonese            ;Mordvin ;Mersdasian;;
@@ -645,6 +652,7 @@ d_burtas_adj_kirghiz                ;        ;Bortas;;
 d_burtas_adj_uyghur                 ;        ;Bortas;;
 d_burtas_adj_cuman                  ;        ;Bortas;;
 d_burtas_adj_khazar                 ;        ;Bortas;;
+d_burtas_adj_khavar                 ;        ;Bortas;;
 d_burtas_adj_pecheneg               ;        ;Bortas;;
 d_burtas_adj_karluk                 ;        ;Bortas;;
 d_burtas_adj_avar                   ;        ;Bortas;;
@@ -664,6 +672,7 @@ d_mordvins_erza                     ;Erzya   ;Erzyät;Irçëlar,Irçilar,Ïrzälar,Ïrz
 d_mordvins_erza_adj                 ;Erzyan  ;Erzyätan;;
 d_mordvins_erza_adj_bolghar         ;        ;Irçëian;;
 d_mordvins_erza_adj_khazar          ;        ;Irçëian;;
+d_mordvins_erza_adj_khavar          ;        ;Irçëian;;
 d_mordvins_erza_adj_avar            ;        ;Irçëian;;
 d_mordvins_erza_adj_bashkir         ;        ;Ïrzäian;;
 d_mordvins_erza_adj_turkish         ;        ;Irçian;;
@@ -704,6 +713,7 @@ d_maris_vetluga_adj_kirghiz         ;Vetluga Cheremis;Tepe Çirmeslärian;;
 d_maris_vetluga_adj_uyghur          ;Vetluga Cheremis;Tepe Çirmeslärian;;
 d_maris_vetluga_adj_cuman           ;Vetluga Cheremis;Tepe Çirmeslärian;;
 d_maris_vetluga_adj_khazar          ;Vetluga Cheremis;Tuçi Sarmäslärian;;
+d_maris_vetluga_adj_khavar          ;Vetluga Cheremis;Tuçi Sarmäslärian;;
 d_maris_vetluga_adj_pecheneg        ;Vetluga Cheremis;Tepe Çirmeslarian;;
 d_maris_vetluga_adj_karluk          ;Vetluga Cheremis;Tepe Çirmeslärian;;
 d_maris_vetluga_adj_avar            ;Vetluga Cheremis;Tuçi Sarmäslärian;;
@@ -731,6 +741,7 @@ d_maris_adj_kirghiz                 ;Cheremis;Çirmeslärian;;
 d_maris_adj_uyghur                  ;Cheremis;Çirmeslärian;;
 d_maris_adj_cuman                   ;Cheremis;Çirmeslärian;;
 d_maris_adj_khazar                  ;Cheremis;Sarmäslärian;;
+d_maris_adj_khavar                  ;Cheremis;Sarmäslärian;;
 d_maris_adj_pecheneg                ;Cheremis;Çirmislarian;;
 d_maris_adj_karluk                  ;Cheremis;Çirmeslärian;;
 d_maris_adj_avar                    ;Cheremis;Sarmäslärian;;
@@ -969,8 +980,8 @@ d_bolohoveni_adj                    ;Bolokhoveni;Bolohovenian;;
 ##########,,,,,,,,,,,,,,;;;;
 #Khasars,,,,,,,,,,,,,,;;;;
 ##########,,,,,,,,,,,,,,;;;;
-d_kabars                            ;Kabars  ;Qabarlar;;
-d_kabars_adj                        ;Kabar   ;Qabarish;;
+d_khavars                           ;Kabars  ;Qavarlar;;
+d_khavars_adj                       ;Kabar   ;Qavarish;;
 ##########,,,,,,,,,,,,,,;;;;
 #Qipchaqs,,,,,,,,,,,,,,;;;;
 ##########,,,,,,,,,,,,,,;;;;

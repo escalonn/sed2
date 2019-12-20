@@ -150,7 +150,7 @@ d_provence_adj                          ;Provençal;Provençal;;Provencal
 #Bohemia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 k_bohemia                               ;Bohemia ;Czechy;Böhmen,Behmen,Bohemen,Czechy,Pihm,Boemías;Bohemia
 k_bohemia_adj                           ;Bohemian;Ceský;;Bohemian
-d_moravia                               ;Moravia ;Morawske;Morawa,Morawy,Mähren,Mähre,Mährn,Moravië,Mehren,Morvaország,Moravías;Moravia
+d_moravia                               ;Moravia ;Morawske;Morawa,Morawy,Mähren,Mähre,Mährn,Moravië,Mehren,Morva Uruzag,Morvaország,Moravías;Moravia
 d_bohemia                               ;Bohemia ;Czeske;Böhmen,Behmen,Bohemen,Czechy,Boemías;Bohemia
 #################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Greater Hungary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -171,16 +171,17 @@ d_moldau_adj                            ;Moldovan;Moldovenesc;;Moldavian
 d_basarabia                             ;Lower Country;Tara de Jos;;
 d_basarabia_adj                         ;Moldovan;Moldovenesc;;
 #Hungary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_hungary                               ;Hungary ;Magyarország;Uhry,Wegry,Ungarn,Hongaarnlaand,Hongarije,Ugarska,Ungaria,Macaristan,Oungarías,Ungern,Ógrska,Ungariya,Hungarland,Ungerland,Ungar Uls;Hungary
+k_hungary                               ;Hungary ;Magyarország;Moger Uruzag,Uhry,Wegry,Ungarn,Hongaarnlaand,Hongarije,Ugarska,Ungaria,Macaristan,Oungarías,Ungern,Ógrska,Ungariya,Hungarland,Ungerland,Ungar Uls;Hungary
 k_hungary_adj                           ;Hungarian;Magyar;;Hungarian
-d_esztergom                             ;Visegrád;Visegrád;Ostrihom,Gran,Pannonia Valeria;Esztergom
-d_pecs                                  ;Somogy  ;Somogyország;Balaton,Fünfkirchen,Pannonia Prima;Pecs
-d_pecs_adj                              ;Somogy  ;Somogyországian;;Pecsian
+d_esztergom                             ;Visegrád;Visegrád;Iztergam,Ostrihom,Gran,Pannonia Valeria;Esztergom
+d_pecs                                  ;Somogy  ;Somogy;Somog,Balaton,Fünfkirchen,Pannonia Prima;Pecs
+d_pecs_adj                              ;Somogy  ;Somogyian;;Pecsian
 d_esztergom_adj                         ;Esztergom;Esztergomite;;Esztergomite
 d_temes                                 ;Temes   ;Temes;;Temes
 d_temes_adj                             ;Temes   ;Temesite;;Temesite
-d_ungvar_adj                            ;Uzhhorod;Ungvaran;;Ungvaran
-d_bacs                                  ;Bács    ;Bács;Bách,Baci,Batsch,Bach,Baç;
+d_ungvar                                ;Ung     ;Ung;Chrobatia;Ungvar
+d_ungvar_adj                            ;Ung     ;Ungian;;Ungvaran
+d_bacs                                  ;Bács    ;Bács;Bac,Bách,Baci,Batsch,Bach,Baç;
 d_bacs_adj                              ;Bács    ;Bácsish;;
 d_bacs_adj_slovieni                     ;        ;Báchian;;
 d_bacs_adj_bohemian                     ;        ;Báchian;;
@@ -193,7 +194,7 @@ d_bacs_adj_turkish                      ;        ;Baçian;;
 d_bacs_adj_oghuz                        ;        ;Baçian;;
 d_bacs_adj_turkmen                      ;        ;Baçian;;
 d_bacs_adj_pecheneg                     ;        ;Baçian;;
-d_csanad                                ;Csanád  ;Csanád;Tschanad,Cenad,Chanad,Chanád,Morisena;
+d_csanad                                ;Csanád  ;Csanád;Canad,Tschanad,Cenad,Chanad,Chanád,Morisena;
 d_csanad_adj                            ;Csanád  ;Csanádian;;
 d_csanad_adj_german                     ;        ;Tschanadian;;
 d_csanad_adj_romanian                   ;        ;Cenadian;;
@@ -202,13 +203,13 @@ d_csanad_adj_slovieni                   ;        ;Chanadian;;
 d_csanad_adj_crimean_gothic             ;Morisena;Morisenan;;
 d_csanad_adj_greek                      ;Morisena;Morisenan;;
 d_csanad_adj_roman                      ;Morisena;Morisenan;;
-d_pest                                  ;Bihar   ;Biharország;;Pest
-d_pest_adj                              ;Bihar   ;Biharországian;;Pesti
+d_pest                                  ;Bihar   ;Bihar;;Pest
+d_pest_adj                              ;Bihar   ;Biharian;;Pesti
 d_pest_adj_romanian                     ;        ;Bihorian;;
 d_pest_adj_slovieni                     ;        ;Bihárian;;
 d_pest_adj_bohemian                     ;        ;Bihárian;;
-d_transylvania                          ;Transylvania;Erdélyország;Ardeal,Sedmohradsko,Siebenbürgen,Zevenburgen,Erdehstan,Siedmiogród;Transylvania
-d_transylvania_adj                      ;Transylvanian;Erdélyországian;;Transylvanian
+d_transylvania                          ;Transylvania;Erdõelve;Erdeelv,Ardeal,Sedmohradsko,Siebenbürgen,Zevenburgen,Erdehstan,Siedmiogród;Transylvania
+d_transylvania_adj                      ;Transylvanian;Erdõelveian;;Transylvanian
 d_transylvania_adj_romanian             ;        ;Ardealian;;
 d_transylvania_adj_slovieni             ;        ;Sedmohradskoian;;
 d_transylvania_adj_bohemian             ;        ;Sedmohradskoian;;
@@ -218,13 +219,13 @@ d_transylvania_adj_turkish              ;        ;Erdehstanian;;
 d_transylvania_adj_turkmen              ;        ;Erdehstanian;;
 d_transylvania_adj_oghuz                ;        ;Erdehstanian;;
 d_transylvania_adj_pecheneg             ;        ;Erdehstanian;;
-d_nyitra                                ;Nitra   ;Nyitraország;Felföld,Nitra,Neutra;Nyitra
-d_nyitra_adj                            ;Nitra   ;Nyitraországian;;Nyitran
-d_ujavar                                ;Abaúj   ;Újavár;;
-d_ujavar_adj                            ;Abaúj   ;Újavárian;;
-d_gyor                                  ;Gyõr    ;Gyõr;Ráb,Jura,Vjura,Raab,Pannonia Scarabantia,Pannonia Skarabantia;
+d_nyitra                                ;Upper Hungary;Felföld;Nýitra,Nitra,Neutra;Nyitra
+d_nyitra_adj                            ;Upper Hungarian;Felföldian;;Nyitran
+d_ujavar                                ;Abaúj   ;Újvár;Uianvaru;
+d_ujavar_adj                            ;Abaúj   ;Újvárian;;
+d_gyor                                  ;Gyõr    ;Gyõr;Gor,Ráb,Jura,Vjura,Raab,Pannonia Scarabantia,Pannonia Skarabantia;
 d_gyor_adj                              ;Gyõr    ;Gyõrian;;
-d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sirmiou,Srijem,Sriem,Syrmien,Szerém,Sirem;Syrmia
+d_syrmia                                ;Syrmia  ;Srem;Pannonia Secunda,Sirmiou,Srijem,Sriem,Syrmien,Zerem,Szerém,Sirem;Syrmia
 d_syrmia_adj                            ;Syrmian ;Srem;;Syrmian
 d_syrmia_adj_greek                      ;        ;Syrmian;;
 d_syrmia_adj_armenian                   ;        ;Syrmian;;
@@ -233,6 +234,7 @@ d_syrmia_adj_alan                       ;        ;Syrmian;;
 d_syrmia_adj_arberian                   ;        ;Syrmian;;
 d_syrmia_adj_roman                      ;        ;Syrmian;;
 d_syrmia_adj_german                     ;        ;Syrmische;;
+d_syrmia_adj_old_hungarian              ;        ;Zeremi;;
 d_syrmia_adj_hungarian                  ;        ;Szerémi;;
 d_syrmia_adj_szekely                    ;        ;Szerémi;;
 d_syrmia_adj_turkish                    ;        ;Sireman;;
@@ -391,13 +393,13 @@ d_sicily_adj                            ;Sicilian;Siciliani;;Sicilian
 d_apulia                                ;Apulia  ;Puglia;Apulia et Calabria,Longobardias;Apulia
 d_apulia_adj                            ;Apulian ;Pugliani;;Apulian
 d_salerno                               ;Salerno ;Salerno;Leukanias;Salerno
-d_calabria                              ;Calabria;Calabria;Lucania et Brutii,Kalabrias;Calabria
+d_calabria                              ;Calabria;Calabria;Lucania et Brutii,Kalabrias,Qillawriya;Calabria
 d_calabria_adj                          ;Calabrian;Calabria;;Calabrian
 d_gaeta                                 ;Gaeta   ;Gaeta;Caieta,Kaiete;
 d_gaeta_adj                             ;Gaetan  ;Gaeta;;
 d_atri                                  ;Atri    ;Atri;Adria;
 d_atri_adj                              ;Atri    ;Atri;;
-d_bari                                  ;Bari    ;Bari;;
+d_bari                                  ;Bari    ;Bari;Báru;
 d_bari_adj                              ;Bari    ;Bari;;
 ####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Poland-Lithuanian commonwealth,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -559,9 +561,9 @@ e_spain                                 ;Spain   ;España;Isbaniyya,Espainia,Espa
 e_spain_adj                             ;Spanish ;Española;;Hispanian
 k_portugal                              ;Portugal;Portugal;Burtuqál,Lusitania,Lysitania;Portugal
 k_portugal_adj                          ;Portuguese;Portuguesa;;Portuguese
-d_beja                                  ;Alentejo;Alentejo;Taghr al-Adna,Alentiexu,Oltratacho,Alentexo,Alenteix,Loin-du-Tage;Beja
+d_beja                                  ;Alentejo;Alentejo;Bája,Alentiexu,Oltratacho,Alentexo,Alenteix,Loin-du-Tage;Beja
 d_beja_adj                              ;Alentejo;Alentejana;;Bejan
-d_algarve                               ;Algarve ;Algarve;al-Gharb,Algarbe;Algarve
+d_algarve                               ;Algarve ;Algarve;Ukshúnuba,Algarbe;Algarve
 d_algarve_adj                           ;Algarve ;Algarvia;;Algarvian
 d_beira                                 ;Beira   ;Beira;Qulumriya,Beire;
 d_beira_adj                             ;Beira   ;Beiroa;;
@@ -573,9 +575,9 @@ k_castille                              ;Castile ;Castilla;Qashtála,Gaztela,Cast
 k_castille_adj                          ;Castilian;Castellana;;Castilian
 k_leon                                  ;León    ;León;Liyún,Llión,Lleó,Leão,Leyón,Gallaecia,Kallaikia;León
 k_leon_adj                              ;Leonese ;Leonesa;;Léonese
-k_navarra                               ;Navarre ;Navarra;Bashkiyya,Nafarroa,Navarre;Navarra
+k_navarra                               ;Navarre ;Navarra;Nabarra,Nafarroa,Navarre;Navarra
 k_navarra_adj                           ;Navarrese;Navarra;;Navarrese
-d_navarra                               ;Navarre ;Navarra;Bashkiyya,Nafarroa,Navarre;Navarra
+d_navarra                               ;Navarre ;Navarra;Nabarra,Nafarroa,Navarre;Navarra
 d_navarra_adj                           ;Navarrese;Navarra;;Navarran
 k_andalusia                             ;Al-Andalus;Al-Andalus;Carthaginiensis;Andalusia
 k_andalusia_adj                         ;Andalusi;Andalusí;;Andalusian
@@ -591,13 +593,13 @@ d_catalunya_nova                        ;New Catalonia;Catalunya Nova;Turtúsha,K
 d_catalunya_nova_adj                    ;New Catalan;Catalana;;
 d_catalunya_vella                       ;Old Catalonia;Catalunya Vella;;
 d_catalunya_vella_adj                   ;Old Catalan;Catalana;;
-d_la_mancha                             ;La Mancha;La Mancha;al-Manya,La Manxa,Mantxa,A Mancha,Mancha;
+d_la_mancha                             ;La Mancha;La Mancha;Shantabariyya,La Manxa,Mantxa,A Mancha,Mancha;
 d_la_mancha_adj                         ;Manchego;Manchega;;
 d_cordoba                               ;Córdoba ;Córdoba;Qurtuba,Còrdova,Cordoba,Kordoba,Córduba,Cordoue,Córdova,Corduba,Kordyba;Cordoba
 d_cordoba_adj                           ;Cordoban;Cordobesa;;Cordoban
 d_badajoz                               ;Extremadura;Extremadura;Batalyaws,Badaxoz,Badalhouce;Badajoz
 d_badajoz_adj                           ;Extremaduran;Extremeña;;Badajozan
-d_galicia                               ;Galicia ;Galicia;Jilíqiyya,Galice,Galiza,Galizia,Galícia,Gallaecia,Kallaikia;Galicia
+d_galicia                               ;Galicia ;Galicia;Jillíqiyya,Galice,Galiza,Galizia,Galícia,Gallaecia,Kallaikia;Galicia
 d_galicia_adj                           ;Galician;Gallega;;Galician
 d_granada                               ;Granada ;Granada;Gharnáta,Grenade,Iliberri,Illiberis;Granada
 d_granada_adj                           ;Granadan;Granadina;;Granadan
@@ -605,9 +607,9 @@ d_mallorca                              ;Majorca ;Mallorca;Mayúrqa,Maiorka,Maior
 d_mallorca_adj                          ;Majorcan;Mallorquina;;Mallorcan
 d_murcia                                ;Murcia  ;Murcia;Tudmír,Múrcia,Murtzia,Murcie;Murcia
 d_murcia_adj                            ;Murcian ;Murciana;;Murcian
-d_najera                                ;Nájera  ;Nájera;Náshara,Naiara,Nàxera,Náxera,Nachera,Najéra;
+d_najera                                ;Nájera  ;Nájera;Nájira,Naiara,Nàxera,Náxera,Nachera,Najéra;
 d_najera_adj                            ;Nájera  ;Najerina;;
-d_ribatejo                              ;Ribatejo;Ribatejo;Belatha,Ribatexo,Ribatiexu,Ribatacho,Rivière-du-Tage;
+d_ribatejo                              ;Ribatejo;Ribatejo;al-Balát,Ribatexo,Ribatiexu,Ribatacho,Rivière-du-Tage;
 d_ribatejo_adj                          ;Ribatejo;Ribatejana;;
 d_salamanca                             ;Salamanca;Salamanca;Shalamanqa,Salamanque;Salamanca
 d_salamanca_adj                         ;Salmantinian;Salmantina;;Salamancan
@@ -689,14 +691,14 @@ k_awlil_adj                             ;Awlil   ;Awlil;;
 #Levant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Antioch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-d_acre                                  ;Acre    ;Acre;Akka,Tyrus,Tyros;
+d_acre                                  ;Acre    ;Acre;'Akká,Tyrus,Tyros;
 d_acre_adj                              ;Acre    ;Acrean;;
 d_acre_adj_greek                        ;Tyrian  ;Tyrian;;
 d_ascalon                               ;Jaffa and Ascalon;Jaffa-Ascalon;Ásqalán;Ascalon
 d_ascalon_adj                           ;Jaffa   ;Jaffan;;Ascalonite
 d_ascalon_adj_greek                     ;Ashkelon;Ascalonian;;
 d_jerusalem_adj_greek                   ;Palaestina Prima;Palaestina Priman;;
-d_galilee                               ;Galilee ;Galilée;Al-Jalil,Palaestina Secunda,Principauté de Galilée;Galilee
+d_galilee                               ;Galilee ;Galilée;Al-Jalíl,Palaestina Secunda,Principauté de Galilée;Galilee
 d_galilee_adj                           ;Palestinian;Palaestinian;;Galilean
 d_galilee_adj_greek                     ;        ;Palaestina Secundan;;
 d_galilee_adj_bedouin_arabic            ;Galilean;Jalilan;;
@@ -813,7 +815,7 @@ d_mema                                  ;Méma    ;Mema;;
 d_mema_adj                              ;Méma    ;Meman;;
 d_tagant                                ;Tagant  ;Tagant;;Tagant
 d_tagant_adj                            ;Tagant  ;Taganti;;Tagantian
-d_oualata                               ;Oualata ;Walata;;
+d_oualata                               ;Oualata ;Walata;Iwalatan,Biru;
 d_oualata_adj                           ;Oualata ;Walatan;;
 d_mali                                  ;Mali    ;Mali;;Manding
 d_mali_adj                              ;Malian  ;Malinese;;Mandingian
@@ -858,12 +860,12 @@ d_zab                                   ;Zab     ;Zab;Numidia Militiana;
 d_zab_adj                               ;Zab     ;Zabi;;
 d_zab_adj_greek                         ;Numidian;Numidia Militianan;;
 d_zab_adj_roman                         ;Numidian;Numidia Militianan;;
-d_alger                                 ;Tiaret  ;Tahart;Mauretania Caesariensis;Alger
+d_alger                                 ;Tiaret  ;Tahart;Tagdemt,Mauretania Caesariensis;Alger
 d_alger_adj                             ;Tiaret  ;Taharti;;Algerian
 d_tlemcen                               ;Tlemcen ;Tilimsan;Mauretania Siga;Tlemcen
 d_tlemcen_adj                           ;Tlemcenian;Tilimsani;;Tlemcenian
-d_tangiers                              ;Tangier ;Tanja;Mauretania Tingitana;Tangier
-d_tangiers_adj                          ;Tangier ;Tanji;;Tangieran
+d_tangiers                              ;Ceuta   ;Sebta;Mauretania Tingitana;Tangier
+d_tangiers_adj                          ;Ceuta   ;Sebti;;Tangieran
 d_fes                                   ;Fes     ;Fas;Mauretania Volubilis;Fes
 d_fes_adj                               ;Fes     ;Fasi;;Fesian
 d_marrakech                             ;Marrakesh;Marrákush;;Marrakech
@@ -899,10 +901,10 @@ d_aswan_adj_greek                       ;Theban  ;Thebaïan;;
 d_cyrenaica                             ;Cyrenaica;Barqa;Libya Pentapolis,Barqet;Cyrenaica
 d_cyrenaica_adj                         ;Cyrenaican;Barqí;;Cyrenaican
 d_cyrenaica_adj_greek                   ;        ;Lybia Pentapolitan;;
-k_nubia                                 ;Nubia   ;Noubia;;Nubia
-k_nubia_adj                             ;Nubian  ;Noubian;;Nubian
-d_nubia                                 ;Nubia   ;Noubia;;Makuria
-d_nubia_adj                             ;Nubian  ;Noubian;;Makurian
+k_nubia                                 ;Nubia   ;Nubia;Dotawo,Núba;Nubia
+k_nubia_adj                             ;Nubian  ;Nubian;;Nubian
+d_nubia                                 ;Makuria ;Makuria;Makouria,Muqurra;Makuria
+d_nubia_adj                             ;Makurian;Makurian;;Makurian
 #,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,;;;;
 k_tuat                                  ;Tuat    ;Tuat;;
 k_tuat_adj                              ;Tuat    ;Tuatian;;
@@ -937,10 +939,10 @@ k_maikelebahr                           ;Medri Bahri;Maikele Bahr;Medri Bahri;
 k_maikelebahr_adj                       ;Medri Bahri;Maikele Bahrí;;
 d_aydhab                                ;‘Aydhab ;Aydhab;;
 d_aydhab_adj                            ;‘Aydhab ;Aydhabí;;
-d_alodia                                ;Alodia  ;Aloudia;;
-d_alodia_adj                            ;Alodian ;Aloudian;;
-d_nobatia                               ;Nobatia ;Noubadia;;Nobatia
-d_nobatia_adj                           ;Nobatian;Noubadian;;Nobatian
+d_alodia                                ;Alodia  ;Alodia;Aroua,'Alwa;
+d_alodia_adj                            ;Alodian ;Alodian;;
+d_nobatia                               ;Nobatia ;Nobatia;Nobadia,Migi,Marís;Nobatia
+d_nobatia_adj                           ;Nobatian;Nobatian;;Nobatian
 k_kanem                                 ;Kanem   ;Kanem;;Kanem
 k_kanem_adj                             ;Kanembu ;Kanemí;;Kanemian
 k_bornu                                 ;Bornu   ;Bornu;;
@@ -1572,7 +1574,7 @@ d_vidin_adj_georgian                    ;        ;Bononian;;
 d_vidin_adj_hungarian                   ;        ;Bodonyi;;
 d_vidin_adj_szekely                     ;        ;Bodonyi;;
 d_vidin_adj_romanian                    ;        ;Diiuan;;
-d_adrianopolis                          ;Plovdiv ;Plovdiv;Maqaduniya,Rumelí,Makedonía,Filipápoly,Philippopolis;Adrianopolis
+d_adrianopolis                          ;Plovdiv ;Plovdiv;Maqadúniya,Rumelí,Makedonía,Filipápoly,Philippopolis;Adrianopolis
 d_adrianopolis_adj                      ;Plovdiv ;Plovdivian;;Adrianopolitan
 d_adrianopolis_adj_greek                ;Macedonian;Makedonían;;
 d_adrianopolis_adj_arberian             ;Macedonian;Makedonían;;
@@ -1809,7 +1811,7 @@ d_strymon_adj_turkmen                   ;Serres  ;Serezian;;
 d_strymon_adj_turkish                   ;Serres  ;Serezian;;
 d_strymon                               ;Strymon ;Strymonos;Serez;Strymon
 d_thrace_adj                            ;Thracian;Thracian;;Thracian
-d_thrace                                ;Thrace  ;Thrakes;Thrace,Trakija,Trakya;Thrace
+d_thrace                                ;Thrace  ;Thrakes;Thrace,Trakija,Tráqiya,Trakya;Thrace
 d_samos_adj                             ;Samian  ;Samian;;Samosian
 d_samos_adj_oghuz                       ;Izmir   ;Izmiran;;
 d_samos_adj_turkmen                     ;Izmir   ;Izmiran;;
@@ -1860,12 +1862,12 @@ d_optimatoi_adj_sicilian                ;Nicomedian;Nicomedian;;
 d_optimatoi_adj_italian                 ;Nicomedian;Nicomedian;;
 d_optimatoi_adj_frankish                ;Nicomedian;Nicomédian;;
 d_optimatoi_adj_norman                  ;Nicomedian;Nicomédian;;
-d_optimatoi                             ;Optimatoi;Optimàton;Nicomédie,Nicomedia,Niqmúdiyah,Koca-eli;Optimatoi
+d_optimatoi                             ;Optimatoi;Optimàton;Nicomédie,Nicomedia,Uftimát,Koca-eli;Optimatoi
 d_paphlagonia_adj                       ;Paphlagonian;Paphlagonian;;Paphlagonian
 d_paphlagonia_adj_oghuz                 ;Kastamonu;Kastamúniyyan;;
 d_paphlagonia_adj_turkmen               ;Kastamonu;Kastamúniyyan;;
 d_paphlagonia_adj_turkish               ;Kastamonu;Kastamúniyyan;;
-d_paphlagonia                           ;Paphlagonia;Paphlagonias;Paphlagonie,Paphlagonia,Kastamoni;Paphlagonia
+d_paphlagonia                           ;Paphlagonia;Paphlagonias;Paphlagonie,Paphlagonia,Aflakhúniya,Kastamoni;Paphlagonia
 d_boukellarion_adj                      ;Bucellarian;Boukellarian;;
 d_boukellarion_adj_oghuz                ;Ankaran ;Engüran;;
 d_boukellarion_adj_turkmen              ;Ankaran ;Engüran;;
@@ -1877,7 +1879,7 @@ d_anatolia_adj                          ;Anatolic;Anatolian;;Anatolian
 d_anatolia_adj_oghuz                    ;Rûm     ;Rúmian;;
 d_anatolia_adj_turkmen                  ;Rûm     ;Rúmian;;
 d_anatolia_adj_turkish                  ;Rûm     ;Rúmian;;
-d_anatolia                              ;Anatolics;Anatolikon;Rúm;Anatolia
+d_anatolia                              ;Anatolics;Anatolikon;Nátlíq,Rúm;Anatolia
 d_germiyan                              ;Germiyan;Germiyan;Eskisehir,Dorylaion;
 d_germiyan_adj                          ;Germiyan;Germiyani;;
 d_cibyrrhaeot_adj                       ;Cibyrrhaeot;Kibyrrhaiotan;;Cibyrrhaeotian
@@ -1889,7 +1891,7 @@ d_cappadocia_adj                        ;Cappadocian;Kappadokian;;Cappadocian
 d_cappadocia_adj_oghuz                  ;Nigde   ;Nigdean;;
 d_cappadocia_adj_turkmen                ;Nigde   ;Nigdean;;
 d_cappadocia_adj_turkish                ;Nigde   ;Nigdean;;
-d_cappadocia                            ;Cappadocia;Kappadokias;Nigde;Cappadocia
+d_cappadocia                            ;Cappadocia;Kappadokias;Qabádhaq,Nigde;Cappadocia
 d_charsianon_adj                        ;Charsianon;Kharsianian;;Charsianine
 d_charsianon_adj_oghuz                  ;Kayserian;Kayseriyyan;;
 d_charsianon_adj_turkmen                ;Kayserian;Kayseriyyan;;
@@ -1897,7 +1899,7 @@ d_charsianon_adj_turkish                ;Kayserian;Kayseriyyan;;
 d_charsianon_adj_frankish               ;Caesarean;Césaréan;;
 d_charsianon_adj_norman                 ;Caesarean;Césaréan;;
 d_charsianon_adj_armenian               ;Caesarean;Gesarian;;
-d_charsianon                            ;Charsianon;Kharsianoù;Gesaria,Césarée,Kayseriye;Charsianon
+d_charsianon                            ;Charsianon;Kharsianoù;Gesaria,Césarée,Kharshana,Kayseriye;Charsianon
 d_cyprus_adj                            ;Cypriot ;Kyprouan;;Cypriot
 d_cyprus_adj_oghuz                      ;        ;Kibrisi;;
 d_cyprus_adj_turkmen                    ;        ;Kibrisi;;
@@ -1925,7 +1927,7 @@ d_thracesia_adj                         ;Thracesian;Thrakesian;;Thracesian
 d_thracesia_adj_oghuz                   ;Alasehir;Ala Šehiran;;
 d_thracesia_adj_turkmen                 ;Alasehir;Ala Šehiran;;
 d_thracesia_adj_turkish                 ;Alasehir;Ala Šehiran;;
-d_thracesia                             ;Thracesians;Thrakesion;Ala Šehir;Thracesia
+d_thracesia                             ;Thracesians;Thrakesion;Tarqasís,Ala Šehir;Thracesia
 d_krete_adj                             ;Cretan  ;Kretan;;Cretan
 d_krete_adj_dalmatian                   ;        ;Candian;;
 d_krete_adj_venetian                    ;        ;Candian;;
@@ -1941,36 +1943,37 @@ d_krete_adj_italian                     ;        ;Candian;;
 d_krete_adj_frankish                    ;        ;Candian;;
 d_krete_adj_norman                      ;        ;Candian;;
 d_krete                                 ;Crete   ;Kretes;Candie,Candia,Girit,Iqrítish;Krete
-d_aegean_islands_adj                    ;Aegean  ;Aigaían;;Aegean
-d_aegean_islands_adj_dalmatian          ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_venetian           ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_ligurian           ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_laziale            ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_southern_italian   ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_tuscan             ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_neapolitan         ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_umbrian            ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_sardinian          ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_sicilian           ;Archipelago;Arcipelagan;;
-d_aegean_islands_adj_italian            ;Archipelago;Arcipelagan;;
-d_aegean_islands                        ;Aegean Sea;Aigaiou Pelàgous;dell'arcipelago;Aegean Islands
+d_abydos_adj                            ;Aegean  ;Aigaían;;Abydosian
+d_abydos_adj_dalmatian                  ;Archipelago;Arcipelagan;;
+d_abydos_adj_venetian                   ;Archipelago;Arcipelagan;;
+d_abydos_adj_ligurian                   ;Archipelagic;Arcipelagan;;
+d_abydos_adj_laziale                    ;Archipelagic;Arcipelagan;;
+d_abydos_adj_southern_italian           ;Archipelagic;Arcipelagan;;
+d_abydos_adj_tuscan                     ;Archipelagic;Arcipelagan;;
+d_abydos_adj_neapolitan                 ;Archipelagic;Arcipelagan;;
+d_abydos_adj_umbrian                    ;Archipelagic;Arcipelagan;;
+d_abydos_adj_sardinian                  ;Archipelagic;Arcipelagan;;
+d_abydos_adj_sicilian                   ;Archipelagic;Arcipelagan;;
+d_abydos_adj_italian                    ;Archipelagic;Arcipelagan;;
+d_abydos                                ;Aegean Sea;Aigaiou Pelàgous;dell'arcipelago;Abydos
 d_armeniacon_adj                        ;Armeniac;Armeniakan;;Armeniaconian
 d_armeniacon_adj_oghuz                  ;Amasya  ;Amasiyyan;;
 d_armeniacon_adj_turkmen                ;Amasya  ;Amasiyyan;;
 d_armeniacon_adj_turkish                ;Amasya  ;Amasiyyan;;
 d_armeniacon_adj_frankish               ;Amasya  ;Amaséan;;
 d_armeniacon_adj_norman                 ;Amasya  ;Amaséan;;
-d_armeniacon                            ;Armeniacs;Armeniakon;Amasiyya,Amasée;Armeniacon
+d_armeniacon                            ;Armeniacs;Armeniakon;Arminyáq,Amasiyya,Amasée;Armeniacon
 d_trebizond_adj                         ;Chaldia ;Chaldian;;Trebizondian
 d_trebizond_adj_oghuz                   ;Trabzon ;Trapzuntian;;
 d_trebizond_adj_turkmen                 ;Trabzon ;Trapzuntian;;
 d_trebizond_adj_turkish                 ;Trabzon ;Trapzuntian;;
 d_trebizond_adj_armenian                ;Trabzon ;Trapizontian;;
 d_trebizond_adj_georgian                ;Trabzon ;T'rap'izontian;;
-d_trebizond                             ;Chaldia ;Chaldia;Trabzun,Trapizon,T'rap'izoni,Chaldée,Chaldia;Trebizond
+d_trebizond                             ;Chaldia ;Chaldia;Kháldiya,Trabzun,Trapizon,T'rap'izoni,Chaldée,Chaldia;Trebizond
 d_cherson                               ;Cherson ;Chersõnos;Gothia,Theodoro,Cherson,Korsun,Sudaq,Kefe;Cherson
 d_cherson_adj                           ;Chersonese;Chersonosian;;Chersonian
 d_cherson_adj_khazar                    ;Sudak   ;Sudaqan;;
+d_cherson_adj_khavar                    ;Sudak   ;Sudaqan;;
 d_cherson_adj_pecheneg                  ;Sudak   ;Sudaqan;;
 d_cherson_adj_oghuz                     ;Sudak   ;Sudaqan;;
 d_cherson_adj_turkmen                   ;Sudak   ;Sudaqan;;
@@ -2036,7 +2039,7 @@ d_seleukeia_adj_oghuz                   ;Silifke ;Silifkan;;
 d_seleukeia_adj_turkmen                 ;Silifke ;Silifkan;;
 d_seleukeia_adj_turkish                 ;Karamanid;Qarámani;;
 d_seleukeia_adj_armenian                ;Seleucian;Selewkian;;
-d_seleukeia                             ;Seleucia;Seleukeia;Silifke,Qaráman,Selewkia,Séleph;
+d_seleukeia                             ;Seleucia;Seleukeia;Salúqiya,Silifke,Qaráman,Selewkia,Séleph;
 d_armenia_minor_adj                     ;Cilician;Kilikían;;Cilician
 d_armenia_minor_adj_oghuz               ;Adana   ;Atanán;;
 d_armenia_minor_adj_turkmen             ;Adana   ;Atanán;;
@@ -2048,7 +2051,7 @@ d_armenia_minor                         ;Cilicia ;Kilikía;Ataná,Kilikia,Cilicie;
 #Steppes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ###################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Khazaria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_khazaria                              ;Khazaria;Qazarstan;Qasarstan,Xäzärstan,Qazahrstan,Khazarstan,Xazarstán,Chazaria,Xazir-k',Xazar'i,Cassaria,Hazarstan,Kozariaia,Chazarsko,Kozaria,Kozariya,Kazária,Kozárstan;Khazaria
+k_khazaria                              ;Khazaria;Qazarstan;Qasarstan,Xäzärstan,Qazahrstan,Khazarstan,Xazarstán,Chazaria,Xazir-k',Xazar'i,Cassaria,Hazarstan,Kozariaia,Chazarsko,Kozaria,Kozariya,Kazaria,Kazária,Kozárstan;Khazaria
 k_khazaria_adj                          ;Khazar  ;Qazar;;Khazarian
 k_khazaria_adj_uyghur                   ;        ;Qasar;;
 k_khazaria_adj_khitan                   ;        ;Ho-sa;;
@@ -2107,6 +2110,7 @@ k_khazaria_adj_tagelmust                ;        ;Khazar;;
 k_khazaria_adj_tuareg                   ;        ;Khazar;;
 k_khazaria_adj_masmuda                  ;        ;Khazar;;
 k_khazaria_adj_zanata                   ;        ;Khazar;;
+k_khazaria_adj_old_hungarian            ;        ;Kazar;;
 k_khazaria_adj_hungarian                ;        ;Kazár;;
 k_khazaria_adj_bashkir                  ;        ;Kozár;;
 k_khazaria_adj_szekely                  ;        ;Kazár;;
@@ -2137,6 +2141,7 @@ d_tmutarakan_adj_sardinian              ;Gazaria ;Cassarian;;
 d_tmutarakan_adj_sicilian               ;Gazaria ;Cassarian;;
 d_tmutarakan_adj_lithuanian             ;Taman   ;Tamanasian;;
 d_tmutarakan_adj_khazar                 ;        ;Samkarshan;;
+d_tmutarakan_adj_khavar                 ;        ;Samkarshan;;
 d_tmutarakan_adj_avar                   ;        ;Samkarshan;;
 d_tmutarakan_adj_mongol                 ;        ;Matrikan;;
 d_tmutarakan_adj_cuman                  ;        ;Matrikan;;
@@ -2175,6 +2180,7 @@ d_azov_adj_umbrian                      ;Tana    ;Tanan;;
 d_azov_adj_sardinian                    ;Tana    ;Tanan;;
 d_azov_adj_sicilian                     ;Tana    ;Tanan;;
 d_azov_adj_khazar                       ;Don     ;Buzanian;;
+d_azov_adj_khavar                       ;Don     ;Buzanian;;
 d_azov_adj_pecheneg                     ;Don     ;Jazyian;;
 d_azov_adj_bolghar                      ;Don     ;Buzanian;;
 d_azov_adj_arberian                     ;Don     ;Tanaisan;;
@@ -2233,6 +2239,7 @@ d_itil_adj_leonese                      ;Volga   ;Atelian;;
 d_itil_adj_castillan                    ;Volga   ;Atelian;;
 d_itil_adj_aragonese                    ;Volga   ;Atelian;;
 d_itil_adj_basque                       ;Volga   ;Atelian;;
+d_itil_adj_old_hungarian                ;Volga   ;Eteli;;
 d_itil_adj_hungarian                    ;Volga   ;Eteli;;
 d_itil_adj_romanian                     ;Volga   ;Atelian;;
 d_itil_adj_szekely                      ;Volga   ;Eteli;;
@@ -2278,6 +2285,7 @@ d_itil_adj_alan                         ;Volga   ;Atelian;;
 d_saray                                 ;Sarai   ;Saray;Ugru,Sarai;
 d_saray_adj                             ;Sarai   ;Sarayan;;
 d_saray_adj_khazar                      ;Ugru    ;Ugruan;;
+d_saray_adj_khavar                      ;Ugru    ;Ugruan;;
 d_saray_adj_levantine_arabic            ;        ;Saraian;;
 d_saray_adj_maghreb_arabic              ;        ;Saraian;;
 d_saray_adj_bedouin_arabic              ;        ;Saraian;;
@@ -2302,7 +2310,7 @@ d_saray_adj_qufs                        ;        ;Saraian;;
 d_saray_adj_baloch                      ;        ;Saraian;;
 ###########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Alania,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_alania                                ;Alania  ;Alania;Ovset'i,Alauni,Al-Lan,Aslar,Aslär;Alania
+k_alania                                ;Alania  ;Alania;Ovset'i,Alauni,Al-Lán,Aslar,Aslär;Alania
 k_alania_adj                            ;Alanian ;Alanian;;Alanian
 k_alania_adj_levantine_arabic           ;        ;Al-Lanian;;
 k_alania_adj_maghreb_arabic             ;        ;Al-Lanian;;
@@ -2336,12 +2344,13 @@ k_alania_adj_kirghiz                    ;        ;As;;
 k_alania_adj_uyghur                     ;        ;As;;
 k_alania_adj_cuman                      ;        ;As;;
 k_alania_adj_khazar                     ;        ;As;;
+k_alania_adj_khavar                     ;        ;As;;
 k_alania_adj_pecheneg                   ;        ;As;;
 k_alania_adj_karluk                     ;        ;As;;
 k_alania_adj_armenian                   ;        ;Alaunian;;
 k_alania_adj_georgian                   ;        ;Ovset'ian;;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-d_alania                                ;Alania  ;Alania;Ovset'i,Alauni,Al-Lan,Aslar,Aslär;Alania
+d_alania                                ;Alania  ;Alania;Ovset'i,Alauni,Al-Lán,Aslar,Aslär;Alania
 d_alania_adj                            ;Alanian ;Alanian;;Alanian
 d_alania_adj_levantine_arabic           ;        ;Al-Lanian;;
 d_alania_adj_maghreb_arabic             ;        ;Al-Lanian;;
@@ -2375,6 +2384,7 @@ d_alania_adj_kirghiz                    ;        ;As;;
 d_alania_adj_uyghur                     ;        ;As;;
 d_alania_adj_cuman                      ;        ;As;;
 d_alania_adj_khazar                     ;        ;As;;
+d_alania_adj_khavar                     ;        ;As;;
 d_alania_adj_pecheneg                   ;        ;As;;
 d_alania_adj_karluk                     ;        ;As;;
 d_alania_adj_armenian                   ;        ;Alaunian;;
@@ -2414,11 +2424,12 @@ d_sarir_adj_kirghiz                     ;        ;Seriran;;
 d_sarir_adj_uyghur                      ;        ;Seriran;;
 d_sarir_adj_cuman                       ;        ;Seriran;;
 d_sarir_adj_khazar                      ;        ;Seriran;;
+d_sarir_adj_khavar                      ;        ;Seriran;;
 d_sarir_adj_pecheneg                    ;        ;Seriran;;
 d_sarir_adj_karluk                      ;        ;Seriran;;
 d_sarir_adj_georgian                    ;        ;Gunjet'ian;;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-d_zichia                                ;Circassia;Adyghe Khaeku;Zichia,Sicia,Szícsia,Jiket'i,Ziquia,Zikhiya,Tcherkezistan,Sircasaa,Kassogye,Cherkezistan;
+d_zichia                                ;Circassia;Adyghe Khaeku;Zichia,Sicia,Zicia,Szícsia,Jiket'i,Ziquia,Zikhiya,Tcherkezistan,Sircasaa,Kassogye,Cherkezistan;
 d_zichia_adj                            ;Circassian;Adyghe;;
 d_zichia_adj_bashkir                    ;        ;Cherkezian;;
 d_zichia_adj_bolghar                    ;        ;Cherkezian;;
@@ -2426,6 +2437,7 @@ d_zichia_adj_turkish                    ;        ;Cherkezian;;
 d_zichia_adj_turkmen                    ;        ;Cherkezian;;
 d_zichia_adj_oghuz                      ;        ;Cherkezian;;
 d_zichia_adj_khazar                     ;        ;Cherkezian;;
+d_zichia_adj_khavar                     ;        ;Cherkezian;;
 d_zichia_adj_pecheneg                   ;        ;Cherkezian;;
 d_zichia_adj_karluk                     ;        ;Cherkezian;;
 d_zichia_adj_polish                     ;        ;Zichian;;
@@ -2474,6 +2486,7 @@ d_zichia_adj_castillan                  ;        ;Zichian;;
 d_zichia_adj_aragonese                  ;        ;Zichian;;
 d_zichia_adj_basque                     ;        ;Zichian;;
 d_zichia_adj_hungarian                  ;        ;Szícs;;
+d_zichia_adj_old_hungarian              ;        ;Zic;;
 d_zichia_adj_szekely                    ;        ;Szícs;;
 d_zichia_adj_mongol                     ;        ;Tcherkezian;;
 d_zichia_adj_kirghiz                    ;        ;Tcherkezian;;
@@ -2551,6 +2564,7 @@ d_sarkel_adj_bosnian                    ;        ;Donel'ian;;
 d_sarkel_adj_pecheneg                   ;        ;Buzan-Jükan;;
 d_sarkel_adj_bolghar                    ;        ;Buzan-Jükan;;
 d_sarkel_adj_khazar                     ;        ;Buzan-Jükan;;
+d_sarkel_adj_khavar                     ;        ;Buzan-Jükan;;
 d_sarkel_adj_lithuanian                 ;        ;Donecasan;;
 d_sarkel_adj_dalmatian                  ;Levedia ;Levedian;;
 d_sarkel_adj_italian                    ;Levedia ;Levedian;;
@@ -2585,6 +2599,7 @@ d_sarkel_adj_leonese                    ;Levedia ;Levedian;;
 d_sarkel_adj_castillan                  ;Levedia ;Levedian;;
 d_sarkel_adj_aragonese                  ;Levedia ;Levedian;;
 d_sarkel_adj_basque                     ;Levedia ;Levedian;;
+d_sarkel_adj_old_hungarian              ;Levedia ;Levediai;;
 d_sarkel_adj_hungarian                  ;Levedia ;Levédiai;;
 d_sarkel_adj_szekely                    ;Levedia ;Levédiai;;
 d_sarkel_adj_romanian                   ;Levedia ;Levedian;;
@@ -2599,8 +2614,7 @@ d_sarkel_adj_szekely                    ;Levedia ;Levédian;;
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 d_zaporizhia                            ;Dnieper ;Özü;Danapris,Var,Danaper,Zaporozh'ye,Zaporoze,Zaporojia,Slavutych,Özi,Baruch,Barouch;
 d_zaporizhia_adj                        ;Dnieper ;Özüan;;
-d_zaporizhia_adj_hungarian              ;        ;Baruchi;;
-d_zaporizhia_adj_szekely                ;        ;Baruchi;;
+d_zaporizhia_adj_old_hungarian          ;        ;Baruchi;;
 d_zaporizhia_adj_bashkir                ;        ;Barouchan;;
 d_zaporizhia_adj_russian                ;Zaporizhian;Zaporozh'ye;;
 d_zaporizhia_adj_polish                 ;Zaporizhian;Zaporoze;;
@@ -2670,6 +2684,7 @@ d_podolia_adj_leonese                   ;Podolian;Podolian;;
 d_podolia_adj_castillan                 ;Podolian;Podolian;;
 d_podolia_adj_aragonese                 ;Podolian;Podolian;;
 d_podolia_adj_basque                    ;Podolian;Podolian;;
+d_podolia_adj_old_hungarian             ;Podolian;Podoliai;;
 d_podolia_adj_hungarian                 ;Podolian;Podóliai;;
 d_podolia_adj_romanian                  ;Podolian;Podolian;;
 d_podolia_adj_szekely                   ;Podolian;Podóliai;;
@@ -2689,10 +2704,10 @@ d_vorskla_adj_bosnian                   ;        ;Vor'skolian;;
 ########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Volga Bulgaria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ########,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_volga_bulgaria                        ;Volga Bulgaria;Bolgar;Povolzhye,Dentü-Mogyer,Bulgar;Volga Bulgaria
+k_volga_bulgaria                        ;Volga Bulgaria;Bolgar;Povolzhye,Dentumoger,Bulgar;Volga Bulgaria
 k_volga_bulgaria_adj                    ;Volga Bulgarian;Bolgar;;Volga Bulgarian
 k_volga_bulgaria_russian                ;Volga   ;Povolzhye;;
-k_volga_bulgaria_hungarian              ;Dentumoger;Dentü-Mogyerian;;
+k_volga_bulgaria_adj_old_hungarian      ;Dentumoger;Dentumogeri;;
 k_volga_bulgaria_adj_bohemian           ;        ;Bulgar;;
 k_volga_bulgaria_adj_slovieni           ;        ;Bulgar;;
 k_volga_bulgaria_adj_serbian            ;        ;Bulgar;;
@@ -2767,6 +2782,7 @@ d_mordva_adj_kirghiz                    ;        ;Muqshian;;
 d_mordva_adj_uyghur                     ;        ;Muqshian;;
 d_mordva_adj_cuman                      ;        ;Muqshian;;
 d_mordva_adj_khazar                     ;        ;Mäqshän;;
+d_mordva_adj_khavar                     ;        ;Mäqshän;;
 d_mordva_adj_pecheneg                   ;        ;Mukshian;;
 d_mordva_adj_karluk                     ;        ;Muqshian;;
 d_mordva_adj_avar                       ;        ;Mäqshän;;
@@ -2795,6 +2811,7 @@ d_sura_adj_kirghiz                      ;        ;Sarian;;
 d_sura_adj_uyghur                       ;        ;Sarian;;
 d_sura_adj_cuman                        ;        ;Sarian;;
 d_sura_adj_khazar                       ;        ;Särian;;
+d_sura_adj_khavar                       ;        ;Särian;;
 d_sura_adj_pecheneg                     ;        ;Sarian;;
 d_sura_adj_karluk                       ;        ;Sarian;;
 d_sura_adj_avar                         ;        ;Särian;;
@@ -2980,6 +2997,7 @@ d_perm_vychegda_adj_kirghiz             ;        ;Viçegdan;;
 d_perm_vychegda_adj_uyghur              ;        ;Viçegdan;;
 d_perm_vychegda_adj_cuman               ;        ;Viçegdan;;
 d_perm_vychegda_adj_khazar              ;        ;Viçegdan;;
+d_perm_vychegda_adj_khavar              ;        ;Viçegdan;;
 d_perm_vychegda_adj_pecheneg            ;        ;Viçegdan;;
 d_perm_vychegda_adj_karluk              ;        ;Viçegdan;;
 d_perm_vychegda_adj_avar                ;        ;Viçegdan;;
@@ -3020,6 +3038,7 @@ d_vyatka_adj_kirghiz                    ;        ;Noqratan;;
 d_vyatka_adj_uyghur                     ;        ;Noqratan;;
 d_vyatka_adj_cuman                      ;        ;Noqratan;;
 d_vyatka_adj_khazar                     ;        ;Nukhratan;;
+d_vyatka_adj_khavar                     ;        ;Nukhratan;;
 d_vyatka_adj_pecheneg                   ;        ;Noqratan;;
 d_vyatka_adj_karluk                     ;        ;Noqratan;;
 d_vyatka_adj_avar                       ;        ;Nukhratan;;
@@ -3129,8 +3148,8 @@ d_kufa                                  ;Kufa    ;al-Kúfa;;
 d_kufa_adj                              ;Kufan   ;Kúfan;;
 d_zhetysu_adj                           ;Zhetysu ;Zhetisu;;Zhetysu
 d_zhetysu                               ;Zhetysu ;Zhetisu;;Zhetysu
-d_zabolestan_adj                        ;Zabulistan;Zábolestání;;
-d_zabolestan                            ;Zabulistan;Zábolestán;;
+d_zabulistan_adj                        ;Zabulistan;Zábolestání;;Zabuli
+d_zabulistan                            ;Zabulistan;Zábolestán;;Zabulistan
 d_kabul_adj                             ;Kabul   ;Kábulí;;Kabulian
 d_kabul                                 ;Kabul   ;Kábul;;Kabulistan
 d_walishtan_adj                         ;Walishtan;Wálishtání;;
@@ -3151,8 +3170,8 @@ d_nishapur_adj                          ;Nishapuri;Níshápúrí;;
 d_nishapur                              ;Nishapur;Níshápúr;Abarshahr;
 d_merv_adj                              ;Mervian ;Marï;;Mervian
 d_merv                                  ;Merv    ;Marï;Margiane,Marv;Merv
-d_makran_adj                            ;Makran  ;Makrání;;
-d_makran                                ;Makran  ;Makrán;Gedrosia,Makuran;
+d_baluchistan_adj                       ;Makran  ;Makrání;;Makranian
+d_baluchistan                           ;Makran  ;Makrán;Gedrosia,Makuran;Makran
 d_khwarazm_adj                          ;Khwarezmian;Khwárazmí;;
 d_khwarazm                              ;Khwarezm;Khwárazm;Khwarazm;
 d_khottal_adj                           ;Khatlon ;Khatlóní;;
@@ -3406,7 +3425,7 @@ d_albania_adj                           ;Albania ;ar-Rani;;
 d_azerbaijan                            ;Azerbaijan;Adharbaygan;Media Atropatene,Aturpatakan,Azarbaijan,Paytakaran,Paidangaran;Azerbaijan
 d_azerbaijan_adj                        ;Azerbaijani;Adharbaygani;;Azerbaijani
 #Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-d_sennar                                ;Sennar  ;Sennar;;Alodia
+d_sennar                                ;Sennar  ;Sennar;Sinnár;Alodia
 d_sennar_adj                            ;Sennar  ;Sennar;;Alodian
 ####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #Arabia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
@@ -3439,12 +3458,14 @@ d_uttaranchal_adj                       ;Kuninda ;Kunindi;;Uttaranchan
 ####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 #India,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
 ####################,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;
-k_punjab                                ;Punjab  ;Panchanada;Hindustan,Hind,India,Indike;Punjab
+k_punjab                                ;Punjab  ;Panchanada;Hindustan,al-Hind,India,Indike;Punjab
 k_punjab_adj                            ;Punjabi ;Panchanadi;;
 k_delhi                                 ;Kuru    ;Kuru;Dihlí;Delhi
 k_delhi_adj                             ;Kuru    ;Kuri;;
 k_kosala                                ;Panchala;Panchala;Kannauj;Kosala
 k_kosala_adj                            ;Panchala;Panchali;;
+k_malwa                                 ;Malwa   ;Malava;al-Máribah;Malwa
+k_malwa_adj                             ;Malwa   ;Malavi;;
 k_gondwana                              ;Chedi   ;Cedi;;Gondwana
 k_gondwana_adj                          ;Chedi   ;Cedi;;
 d_bhakkar                               ;Indus   ;Sindhu;;Bhakkar

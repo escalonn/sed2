@@ -31,7 +31,7 @@ Qi Empire;Qi Empire;;;;;;;;;;;;;x
 Wei Empire;Wei Empire;;;;;;;;;;;;;x
 Jin Empire;Jin Empire;;;;;;;;;;;;;x
 Tang Empire;Tang Empire;;;;;;;;;;;;;x
-Rome;Rome;;;;;;;;;;;;;x
+Roma;Rome;;;;;;;;;;;;;x
 Stephen;Stephen;;;;;;;;;;;;;x
 Wu;Wu;;;;;;;;;;;;;x
 Shun;Shun;;;;;;;;;;;;;x
@@ -151,7 +151,19 @@ d_kanyakubja_adj;Kannauj;;;;;;;;;;;;;x
 d_saryupara_adj;Sarvariya;;;;;;;;;;;;;x
 d_jejakabhukti_adj;Bundeli;;;;;;;;;;;;;x
 d_dahala_adj;Chedi;;;;;;;;;;;;;x
+d_vidharba_adj;Vidarbha;;;;;;;;;;;;;x
+d_konkana_adj;Konkana;;;;;;;;;;;;;x
+d_nasikya_adj;Nasikya;;;;;;;;;;;;;x
 d_devagiri_adj;Devagiri;;;;;;;;;;;;;x
+d_rattapadi_adj;Rattapadi;;;;;;;;;;;;;x
+d_kalyani_adj;Kalyani;;;;;;;;;;;;;x
+d_gangavadi_adj;Gangavadi;;;;;;;;;;;;;x
+d_nulambavadi_adj;Nulambavadi;;;;;;;;;;;;;x
+d_raichur_doab_adj;Raichur Doab;;;;;;;;;;;;;x
+d_pandya_nadu_adj;Pandya Nadu;;;;;;;;;;;;;x
+d_chera_nadu_adj;Chera Nadu;;;;;;;;;;;;;x
+d_warangal_adj;Warangalite;;;;;;;;;;;;;x
+d_racakonda_adj;Racakonda;;;;;;;;;;;;;x
 radhanite_quarter_1_desc;This fortified trade post is owned by the Radhanites, Jewish merchants known for their extensive trading contacts around the known world.;;;;;;;;;;;;;x
 tb_culture_chinese_han_1;Crossbow Range;;;;;;;;;;;;;x
 tb_culture_chinese_han_2;Crossbow Range;;;;;;;;;;;;;x
@@ -592,6 +604,8 @@ the_legendary_dynasty_warrior_root;The Legendary [From.OriginalOwner.GetOnlyDyna
 the_legendary_dynasty_warrior_not_root;The Legendary [warrior_relative.GetOnlyDynastyName] [warrior_relative.GetWarriorRoleCap];;;;;;;;;;;;;x
 the_saintly_relative_1;The Virtues of [saintly_relative.GetFirstName];;;;;;;;;;;;;x
 d_durham_palatine;County Palatine of Durham;;;;;;;;;;;;;x
+e_nicaea;Nicene Empire;;;;;;;;;;;;;x
+e_nicaea_adj;Nicene;;;;;;;;;;;;;x
 d_durham_palatine_adj;Durham;;;;;;;;;;;;;x
 crown_winged_helmet_bloodline_name_1;[Root.GetDynName] Crest;;;;;;;;;;;;;x
 elephant_group;Proboscidea;;;;;;;;;;;;;x
@@ -653,7 +667,6 @@ d_jangladesh;Jangladesh;;;;;;;;;;;;;x
 d_stravani;Stravani;;;;;;;;;;;;;x
 d_medapata;Mewar;;;;;;;;;;;;;x
 d_ajmer;Ajmer;;;;;;;;;;;;;x
-k_malwa;Malwa;;;;;;;;;;;;;x
 d_dadhipadra;Avanti;;;;;;;;;;;;;x
 d_akara_dasarna;Dasharna;;;;;;;;;;;;;x
 d_anupa;Anupa;;;;;;;;;;;;;x
@@ -661,9 +674,66 @@ d_kanyakubja;Kannauj;;;;;;;;;;;;;x
 d_saryupara;Sarvariya;;;;;;;;;;;;;x
 d_jejakabhukti;Bundelkhand;;;;;;;;;;;;;x
 d_dahala;Chedi;;;;;;;;;;;;;x
+e_deccan;Deccan Empire;;;;;;;;;;;;;x
+e_deccan_adj;Deccan;;;;;;;;;;;;;x
+k_maharastra;Maharashtra;;;;;;;;;;;;;x
+d_vidharba;Vidarbha;;;;;;;;;;;;;x
+d_konkana;Konkana;;;;;;;;;;;;;x
+d_nasikya;Nasikya;;;;;;;;;;;;;x
 d_devagiri;Devagiri;;;;;;;;;;;;;x
+d_rattapadi;Rattapadi;;;;;;;;;;;;;x
+k_karnata;Karnata;;;;;;;;;;;;;x
+d_kalyani;Kalyana;;;;;;;;;;;;;x
+d_gangavadi;Gangavadi;;;;;;;;;;;;;x
+d_nulambavadi;Nulambavadi;;;;;;;;;;;;;x
+d_raichur_doab;Raichur Doab;;;;;;;;;;;;;x
+k_tamilakam;Tamilakam;;;;;;;;;;;;;x
+d_pandya_nadu;Pandya Nadu;;;;;;;;;;;;;x
+d_chera_nadu;Chera Nadu;;;;;;;;;;;;;x
+k_telingana;Telangana;;;;;;;;;;;;;x
+d_warangal;Warangal;;;;;;;;;;;;;x
+d_racakonda;Racakonda;;;;;;;;;;;;;x
+c_kongu_adj;Kongu;;;;;;;;;;;;;x
+c_mahoyadapuram_adj;Kodungallur;;;;;;;;;;;;;x
+c_qalqut_adj;;;;;;;;;;;;;;x
+c_kanara_adj;Kanara;;;;;;;;;;;;;x
+c_kalyani_adj;Kalyani;;;;;;;;;;;;;x
+c_bidar_adj;Bidar;;;;;;;;;;;;;x
+c_manyakheta_adj;Manyakheta;;;;;;;;;;;;;x
+c_sagar_adj;Sagar;;;;;;;;;;;;;x
+c_srirangapatna_adj;Srirangapatna;;;;;;;;;;;;;x
+c_talakad_adj;Talakadu;;;;;;;;;;;;;x
+c_manyapura_adj;Manyapura;;;;;;;;;;;;;x
+c_uchangidurga_adj;Uchangidurga;;;;;;;;;;;;;x
+c_dwarasamudra_adj;Dwarasamudra;;;;;;;;;;;;;x
+c_alampur_adj;Alampur;;;;;;;;;;;;;x
+c_idatarainadu_adj;Idatarainadu;;;;;;;;;;;;;x
+c_kudalasangama_adj;Kudalasangama;;;;;;;;;;;;;x
+c_banavasi_adj;Banavasi;;;;;;;;;;;;;x
+c_vatapi_adj;Vatapi;;;;;;;;;;;;;x
+c_acalapura_adj;Achalpur;;;;;;;;;;;;;x
+c_ramagiri_adj;Ramagiri;;;;;;;;;;;;;x
+c_kherla_adj;Kherla;;;;;;;;;;;;;x
+c_goa_adj;Goan;;;;;;;;;;;;;x
+c_thana_adj;Thane;;;;;;;;;;;;;x
+c_honnore_adj;Honnore;;;;;;;;;;;;;x
 c_nasikya_adj;Nashik;;;;;;;;;;;;;x
 c_nandurbar_adj;Nandurbar;;;;;;;;;;;;;x
+c_kondana_adj;Kondhana;;;;;;;;;;;;;x
+c_pratishthana_adj;Paithan;;;;;;;;;;;;;x
+c_vatsagulma_adj;Vatsagulma;;;;;;;;;;;;;x
+c_nanded_adj;Nanded;;;;;;;;;;;;;x
+c_parnakheta_adj;Parnakheta;;;;;;;;;;;;;x
+c_lattalura_adj;Lattalura;;;;;;;;;;;;;x
+c_naldurg_adj;Naldurg;;;;;;;;;;;;;x
+c_kolhapur_adj;Kolhapur;;;;;;;;;;;;;x
+c_taradavadi_adj;Taradavadi;;;;;;;;;;;;;x
+c_penugonda_adj;Penugonda;;;;;;;;;;;;;x
+c_vemulavada_adj;Vemulawada;;;;;;;;;;;;;x
+c_balkonda_adj;Balkonda;;;;;;;;;;;;;x
+c_pannagallu_adj;Pannagallu;;;;;;;;;;;;;x
+c_medak_adj;Medak;;;;;;;;;;;;;x
+c_kollipake_adj;Kollipake;;;;;;;;;;;;;x
 c_kanyakubja_adj;Kannauj;;;;;;;;;;;;;x
 c_naimisa_adj;Naimisha;;;;;;;;;;;;;x
 c_mahoba_adj;Mahoba;;;;;;;;;;;;;x
@@ -946,6 +1016,8 @@ emperor_tangut;Thu Ghu;;;;;;;;;;;;;x
 the_republic_rename;The [Root.Government.GetName] Realm;;;;;;;;;;;;;x
 the_chinese_royals_favorite;[Root.GetFirstName]’s Favorite [This.GetName];;;;;;;;;;;;;x
 the_chinese_royals_personal_note_book;The Journal of [Root.GetFirstName];;;;;;;;;;;;;x
+e_russian_empire;Russia;;;;;;;;;;;;;x
+e_russian_empire_adj;Russian;;;;;;;;;;;;;x
 title_lighthouse_custodian;Lighthouse Custodian;;;;;;;;;;;;;x
 title_lighthouse_custodian_desc;This honorific is awarded to a person who has shown himself responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.;;;;;;;;;;;;;x
 title_stone_custodian;Custodian of the Stone;;;;;;;;;;;;;x
@@ -999,6 +1071,8 @@ DUCHY_GELRE;Guelders;;;;;;;;;;;;;x
 DUCHY_GELRE_ADJ;Guelders;;;;;;;;;;;;;x
 COUNTY_BREDA;Antwerp;;;;;;;;;;;;;x
 COUNTY_BREDA_ADJ;Antwerp;;;;;;;;;;;;;x
+OTTO_THE_FIRST_ERA;The Iron Century;;;;;;;;;;;;;x
+OTTO_THE_FIRST_ERA_INFO;On the 7th of August 936, Otto I was crowned King of the Germans. He initiated his arduous campaign to crush his rivals and reconquer the lost territory in Italy to reform the Holy Roman Empire. The Magyars settled down in the Carpathian Basin and began to make their mark on the world as they conquered and pillaged their neighbors, becoming feared across Europe. In the north the Christians were trying to push into the Scandinavian Peninsula to start converting the pagan kings, but the Germanic faith still stood strong among the vikings. In Baghdad far to the south-east, the ancient Abbasid Caliphate that once ruled an empire stretching from Persia to Hispania finally fell to infighting, left only with the heartland of their former empire. And on the shores of Africa a new rival rose up in the form of the Fatimid Caliphate, ready to fill the vacant regions left behind by their adversary.;;;;;;;;;;;;;x
 e_bulgaria;Bulgaria;;;;;;;;;;;;;x
 e_bulgaria_adj;Bulgarian;;;;;;;;;;;;;x
 d_scholae_palatinae;Scholae Palatinae;;;;;;;;;;;;;x
@@ -1019,14 +1093,24 @@ title_sebastos;Sebastos;;;;;;;;;;;;;x
 title_sebastos_female;Sebaste;;;;;;;;;;;;;x
 title_sebastos_desc;Venerable one: Only important members of the imperial family and those related to them by marriage or blood may bear this venerable title.;;;;;;;;;;;;;x
 title_augusta_desc;Most Pious Augusta: Unlike the male counterpart the Augusta continues to be the most important woman of the empire. Wielding great power and authority, she is second only to the Basileus.;;;;;;;;;;;;;x
+era_char_name_1282;Otto I;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1282;Otto was crowned King of Germany after the death of his father Henry I. Early in his reign he had to push back a rebellion by Duke Eberhard of Bavaria, as well as fight a war against Louis IV of West Francia and Duke Gilbert of Lorraine. After securing peace in the war, Otto went on to fight for the Italian throne as well as push back the Hungarian threat in the east. In his later years, after his coronation as Emperor, he had to continue his struggles in Italy to keep his newfound empire under control. The Ottonian dynasty went on to control the empire for almost half a century after his death, until it finally ended with the demise of Henry II in 1024.;;;;;;;;;;;;;x
+era_char_name_32901;Caliph al-Qa’im;;;;;;;;;;;;;x
+ERA_CHAR_INFO_32901;Al-Qa’im followed his father, Caliph al-Mahdi, as he settled down in Ifriqiya and established the Fatimid Caliphate. In direct opposition to the Abbasid Caliphate in Baghdad, they filled the room left behind as the Abbasids had lost control of their peripheral regions. Early in al-Qa’im's reign, a large rebellion rose up in the west led by Abu Yazid. For several years the Fatimid armies were pushed back, as the rebellion grew ever closer to their capital in Mahdia. After al-Qaim's death, his son and successor al-Mansur finally managed to beat the rebellion back and take control of their lands once again. The dynasty would later go on to invade Ikhshidid Egypt and establish Cairo as the new capital of their Caliphate.;;;;;;;;;;;;;x
+era_char_name_33350;Æthelstan;;;;;;;;;;;;;x
+ERA_CHAR_INFO_33350;As the son of Edward the Elder, he gained the Kingdom of Mercia after the death of his father, and Wessex after the death of his brother only weeks afterwards. Waging war against the Norsemen in York, Æthelstan pushed northwards and took the city in 927, becoming the first king of a truly united England. Ten years later, in 937, a coalition led by the Kings of Scotland, Strathclyde, and Dublin waged war against Æthelstan, which ended with the Battle of Brunanburh. With a decisive victory it seemed Æthelstan had finally secured his rule in England, but only two years later he died and was succeeded by his half-brother Edmund.;;;;;;;;;;;;;x
+era_char_name_260976;Abu Tahir al-Jannabi;;;;;;;;;;;;;x
+ERA_CHAR_INFO_260976;Abu Sa‘id started the Qarmatian faith centered around his capital in Eastern Arabia when the Fatimid caliphate rose in the west. After his father’s demise, Abu Tahir continued as the new leader and became infamous throughout the Arabian Peninsula for his raids into Egyptian and Abbasid lands. In 930 he pillaged Mecca, murdered the many pilgrims who had travelled there and stole the Black Stone. After this sacrilege the Qarmatians became even more hated throughout the whole Muslim world, but that did not deter Abu Tahir as he continued the raids and assaults on his neighbors, until he finally died a decade later.;;;;;;;;;;;;;x
+era_char_name_159135;Zoltán;;;;;;;;;;;;;x
+ERA_CHAR_INFO_159135;As the third grand prince of the Hungarians and the successor to the legendary Árpád, Zoltán led his people for several decades in the early 10th century. Throughout this period the Hungarians were feared raiders who travelled across all of Europe, from Byzantium to Córdoba. After his death in the year 950, only a few years passed until Otto I beat back the Hungarian raiders in the Battle of Lechfeld, putting an end to their tyranny.;;;;;;;;;;;;;x
+era_char_name_144001;Haakon I;;;;;;;;;;;;;x
+ERA_CHAR_INFO_144001;Haakon was one of the many many sons of Harald Fairhair, legendary king of Norway. When his brother Eric took control of Norway, not many years passed until his despotic rule made him unpopular to the point of rebellion. Haakon who had been raised by King Æthelstan of England was sent back home to Norway to take over the rule of the kingdom. As a Christian in a very pagan country, he had a long and tenuous rule over the many Norwegian tribes. Throughout his rule he was threatened by the Danish king who supported the claims of his grandsons, the sons of his half-brother Eric. In the end Haakon fell as he repelled the Danes at the Battle of Fitjar, and was succeeded by his nephew Harald II Greycloak.;;;;;;;;;;;;;x
 tb_culture_sardinian_1;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
 tb_culture_sardinian_2;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
 tb_culture_sardinian_3;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
 tb_culture_sardinian_4;[sardinian.GetName] Garrison;;;;;;;;;;;;;x
 ca_culture_sardinian_1_desc;These garrisons are commonplace in [sardinian.GetName] lands, with the most elite of troops ready to protect the region.;;;;;;;;;;;;;x
 c_castelo_branco_adj;Castelo Branco;;;;;;;;;;;;;x
-tribal_king_hungarian;Grand Prince;;;;;;;;;;;;;x
-tribal_kingdom_of_hungarian;Principality of;;;;;;;;;;;;;x
 tribal_king_female_hungarian;Grand Princess;;;;;;;;;;;;;x
 title_imperial_eunuch;Parakoimomenos;;;;;;;;;;;;;x
 title_imperial_eunuch_desc;The parakoimomenos, “the one who sleeps beside the Emperor’s chamber,” is a prestigious office at the Imperial Court reserved for eunuchs, who are valued for their perceived loyalty and discretion.;;;;;;;;;;;;;x
@@ -1241,7 +1325,7 @@ c_ikonion_adj;Ikonion;;;;;;;;;;;;;x
 c_smyrna_adj;Smyrnan;;;;;;;;;;;;;x
 c_abydos_adj;Abydos;;;;;;;;;;;;;x
 c_euboia_adj;Euboeote;;;;;;;;;;;;;x
-c_kaliopolis_adj;Kallipolis;;;;;;;;;;;;;x
+c_kaliopolis_adj;Gallipoli;;;;;;;;;;;;;x
 c_thessalonike_adj;Thessalonian;;;;;;;;;;;;;x
 c_epeiros_adj;Epirote;;;;;;;;;;;;;x
 c_arta_adj;Arta;;;;;;;;;;;;;x
@@ -1403,10 +1487,8 @@ c_abkhazia_adj;Abkhazian;;;;;;;;;;;;;x
 c_zeta_adj;Zetan;;;;;;;;;;;;;x
 d_slavonia;Slavonia;;;;;;;;;;;;;x
 d_slavonia_adj;Slavonian;;;;;;;;;;;;;x
-c_varadzin_adj;Varaždin;;;;;;;;;;;;;x
 c_vas_adj;Vas;;;;;;;;;;;;;x
 c_sopron_adj;Sopronian;;;;;;;;;;;;;x
-d_ungvar;Uzhhorod;;;;;;;;;;;;;x
 c_abauj_adj;Abaúj;;;;;;;;;;;;;x
 c_heves_adj;Heves;;;;;;;;;;;;;x
 c_padova_adj;Paduan;;;;;;;;;;;;;x
@@ -1558,7 +1640,7 @@ c_silves_adj;Silves;;;;;;;;;;;;;x
 c_faro_adj;Faro;;;;;;;;;;;;;x
 c_canarias_adj;Canarian;;;;;;;;;;;;;x
 c_makuria_adj;Makurian;;;;;;;;;;;;;x
-c_nubia_adj;Nubian;;;;;;;;;;;;;x
+c_nubia_adj;Faras;;;;;;;;;;;;;x
 d_sinai;Sinai;;;;;;;;;;;;;x
 d_sinai_adj;Sinaitic;;;;;;;;;;;;;x
 c_sinai_adj;Sinaitic;;;;;;;;;;;;;x
@@ -1580,7 +1662,7 @@ c_sanaa_adj;Sana’a;;;;;;;;;;;;;x
 c_taizz_adj;Taizian;;;;;;;;;;;;;x
 c_aden_adj;Adenian;;;;;;;;;;;;;x
 c_kathiri_adj;Kathiri;;;;;;;;;;;;;x
-c_muscat_adj;Muscatian;;;;;;;;;;;;;x
+c_muscat_adj;Qalhat;;;;;;;;;;;;;x
 c_dhofar_adj;Dhofar;;;;;;;;;;;;;x
 c_mahra_adj;Al Mahrah;;;;;;;;;;;;;x
 k_abyssinia;Abyssinia;;;;;;;;;;;;;x
@@ -1666,6 +1748,8 @@ c_litomerice_adj;Litomerice;;;;;;;;;;;;;x
 d_moravia_adj;Moravian;;;;;;;;;;;;;x
 c_olomouc_adj;Olomoucian;;;;;;;;;;;;;x
 d_abbasid;Abbasids;;;;;;;;;;;;;x
+d_luristan;Lorestan;;;;;;;;;;;;;x
+d_luristan_adj;Lorestan;;;;;;;;;;;;;x
 d_pronsk;Pronsk;;;;;;;;;;;;;x
 d_pronsk_adj;Pronsk;;;;;;;;;;;;;x
 d_sandomiersk;Sandomierz;;;;;;;;;;;;;x
@@ -1971,7 +2055,6 @@ PROV778;Montreal;;;;;;;;;;;;;x
 PROV780;Ashkelon;;;;;;;;;;;;;x
 PROV783;Ma’an;;;;;;;;;;;;;x
 PROV787;Arish;;;;;;;;;;;;;x
-PROV792;Nubia;;;;;;;;;;;;;x
 PROV794;Aswan;;;;;;;;;;;;;x
 PROV795;Asyut;;;;;;;;;;;;;x
 PROV796;Cairo;;;;;;;;;;;;;x
