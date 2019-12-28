@@ -192,6 +192,13 @@ k_sorbs = { # Sorbi
 ######################################
 # Lutici tribes
 #####
+d_lutici = { # Ljutici
+	color = { 22 57 233 }
+	capital = 365 # Mittelmark # Brandenburg
+	culture = pommeranian
+	allow = { always = no }
+}
+
 d_hevelli = { # Hawolani
 	color = { 66 35 86 }
 	capital = 365 # Mittelmark # Brandenburg
@@ -347,6 +354,13 @@ d_kashubians = { # Kassubi
 ########################################
 # Sorbs
 #########
+d_sorbs = { # Sorbi
+	color = { 209 147 2 }
+	capital = 364 # Oberlausitz
+	culture = pommeranian
+	allow = { always = no }
+}
+
 d_chutizi = { # Chutici # Chutizi
 	color = { 81 126 201 }
 	color2 = { 255 255 255 }
