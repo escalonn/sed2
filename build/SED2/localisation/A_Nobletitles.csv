@@ -1503,6 +1503,7 @@ king_female_ethiopian;Nigist;;;;;;;;;;;;;x
 king_title_ruler_consort_female_ethiopian;Itege;;;;;;;;;;;;;x
 emperor_ethiopian;Emperor;;;;;;;;;;;;;x
 emperor_female_ethiopian;Empress;;;;;;;;;;;;;x
+emperor_title_ruler_consort_ethiopian;Negusa Negest;;;;;;;;;;;;;x
 title_prince_ethiopian;Le‘ul;;;;;;;;;;;;;x
 title_prince_female_ethiopian;Le‘elt;;;;;;;;;;;;;x
 baron_ethiopian;Fit’awrari;;;;;;;;;;;;;x
@@ -1518,6 +1519,7 @@ king_afar;Sultan;;;;;;;;;;;;;x
 king_female_afar;Sultan;;;;;;;;;;;;;x
 emperor_afar;Boqor;;;;;;;;;;;;;x
 emperor_female_afar;Boqorad;;;;;;;;;;;;;x
+emperor_title_ruler_consort_afar;Boqor;;;;;;;;;;;;;x
 baron_afar;Akil;;;;;;;;;;;;;x
 count_somali;Ugaas;;;;;;;;;;;;;x
 count_female_somali;Ugaasad;;;;;;;;;;;;;x
@@ -1527,6 +1529,7 @@ king_somali;Suldaan;;;;;;;;;;;;;x
 king_female_somali;Suldaanad;;;;;;;;;;;;;x
 emperor_somali;Boqor;;;;;;;;;;;;;x
 emperor_female_somali;Boqorad;;;;;;;;;;;;;x
+emperor_title_ruler_consort_somali;Boqor;;;;;;;;;;;;;x
 baron_somali;Akil;;;;;;;;;;;;;x
 count_sogdian;Jamug;;;;;;;;;;;;;x
 count_female_sogdian;Jamuga;;;;;;;;;;;;;x
@@ -1536,8 +1539,42 @@ king_sogdian;King;;;;;;;;;;;;;x
 king_female_sogdian;Queen;;;;;;;;;;;;;x
 emperor_sogdian;King;;;;;;;;;;;;;x
 emperor_female_sogdian;Queen;;;;;;;;;;;;;x
+emperor_title_ruler_consort_sogdian;Ighshíd;;;;;;;;;;;;;x
 title_prince_sogdian;Ighvatáv;;;;;;;;;;;;;x
 title_prince_female_sogdian;Ighvatáva;;;;;;;;;;;;;x
+count_pecheneg;Beg;;;;;;;;;;;;;x
+count_female_pecheneg;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_pecheneg;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_pecheneg;Begum;;;;;;;;;;;;;x
+duke_pecheneg;Elteber;;;;;;;;;;;;;x
+duke_female_pecheneg;Khatun;;;;;;;;;;;;;x
+duke_title_ruler_consort_pecheneg;Khan;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_pecheneg;Khatun;;;;;;;;;;;;;x
+king_pecheneg;Ishad;;;;;;;;;;;;;x
+king_female_pecheneg;Ishadum;;;;;;;;;;;;;x
+king_title_ruler_consort_pecheneg;Ishad;;;;;;;;;;;;;x
+king_title_ruler_consort_female_pecheneg;Ishadum;;;;;;;;;;;;;x
+emperor_pecheneg;Qaghan;;;;;;;;;;;;;x
+emperor_female_pecheneg;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_pecheneg;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_pecheneg;Qaghatun;;;;;;;;;;;;;x
+count_cuman;Beg;;;;;;;;;;;;;x
+count_female_cuman;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_cuman;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_cuman;Begum;;;;;;;;;;;;;x
+duke_cuman;Ilek;;;;;;;;;;;;;x
+duke_female_cuman;Ilkan;;;;;;;;;;;;;x
+duke_title_ruler_consort_cuman;Ilek;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_cuman;Ilkan;;;;;;;;;;;;;x
+king_cuman;Khan;;;;;;;;;;;;;x
+king_female_cuman;Khatun;;;;;;;;;;;;;x
+king_title_ruler_consort_cuman;Khan;;;;;;;;;;;;;x
+king_title_ruler_consort_female_cuman;Khatun;;;;;;;;;;;;;x
+emperor_cuman;Qaghan;;;;;;;;;;;;;x
+emperor_female_cuman;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_cuman;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_cuman;Qaghatun;;;;;;;;;;;;;x
+baron_oghuz;Tutuq;;;;;;;;;;;;;x
 count_oghuz;Bey;;;;;;;;;;;;;x
 count_female_oghuz;Begum;;;;;;;;;;;;;x
 duke_oghuz;Ilek;;;;;;;;;;;;;x
@@ -1545,14 +1582,49 @@ duke_female_oghuz;Ilkan;;;;;;;;;;;;;x
 king_oghuz;Yabgu;;;;;;;;;;;;;x
 king_female_oghuz;Yabga;;;;;;;;;;;;;x
 emperor_female_oghuz;Khagan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_oghuz;Qaghan;;;;;;;;;;;;;x
 title_prince_oghuz;Inal;;;;;;;;;;;;;x
 title_prince_female_oghuz;Terken;;;;;;;;;;;;;x
+barony_oghuz;Tutuqlik;;;;;;;;;;;;;x
 barony_of_oghuz;Tutuqlik of;;;;;;;;;;;;;x
-county_of_oghuz;Beylik of;;;;;;;;;;;;;x
-duchy_of_oghuz;Yabgunlik of;;;;;;;;;;;;;x
-baron_oghuz;Tutuq;;;;;;;;;;;;;x
 county_oghuz;Beylik;;;;;;;;;;;;;x
+county_of_oghuz;Beylik of;;;;;;;;;;;;;x
 duchy_oghuz;Il;;;;;;;;;;;;;x
+duchy_of_oghuz;Yabgunlik of;;;;;;;;;;;;;x
+empire_oghuz;Qaghanlik;;;;;;;;;;;;;x
+empire_of_oghuz;Qaghanlik of;;;;;;;;;;;;;x
+count_khazar;Beg;;;;;;;;;;;;;x
+count_female_khazar;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_khazar;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_khazar;Begum;;;;;;;;;;;;;x
+duke_khazar;Elteber;;;;;;;;;;;;;x
+duke_female_khazar;Khatun;;;;;;;;;;;;;x
+duke_title_ruler_consort_khazar;Khan;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_khazar;Khatun;;;;;;;;;;;;;x
+king_khazar;Ishad;;;;;;;;;;;;;x
+king_female_khazar;Ishadum;;;;;;;;;;;;;x
+king_title_ruler_consort_khazar;Ishad;;;;;;;;;;;;;x
+king_title_ruler_consort_female_khazar;Ishadum;;;;;;;;;;;;;x
+emperor_khazar;Qaghan;;;;;;;;;;;;;x
+emperor_female_khazar;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_khazar;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_khazar;Qaghatun;;;;;;;;;;;;;x
+count_khavar;Beg;;;;;;;;;;;;;x
+count_female_khavar;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_khavar;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_khavar;Begum;;;;;;;;;;;;;x
+duke_khavar;Elteber;;;;;;;;;;;;;x
+duke_female_khavar;Khatun;;;;;;;;;;;;;x
+duke_title_ruler_consort_khavar;Khan;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_khavar;Khatun;;;;;;;;;;;;;x
+king_khavar;Ishad;;;;;;;;;;;;;x
+king_female_khavar;Ishadum;;;;;;;;;;;;;x
+king_title_ruler_consort_khavar;Ishad;;;;;;;;;;;;;x
+king_title_ruler_consort_female_khavar;Ishadum;;;;;;;;;;;;;x
+emperor_khavar;Qaghan;;;;;;;;;;;;;x
+emperor_female_khavar;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_khavar;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_khavar;Qaghatun;;;;;;;;;;;;;x
 count_kirghiz;Bey;;;;;;;;;;;;;x
 count_female_kirghiz;Begum;;;;;;;;;;;;;x
 duke_kirghiz;Emir;;;;;;;;;;;;;x
@@ -1566,10 +1638,48 @@ title_prince_female_kirghiz;Malika;;;;;;;;;;;;;x
 county_of_kirghiz;Beylik of;;;;;;;;;;;;;x
 duchy_of_kirghiz;Beylerbeylik of;;;;;;;;;;;;;x
 kingdom_of_kirghiz;Sultanate of;;;;;;;;;;;;;x
+empire_of_kirghiz;Sultanlik of;;;;;;;;;;;;;x
 city_baron_kirghiz;Wâli;;;;;;;;;;;;;x
 county_kirghiz;Beylik;;;;;;;;;;;;;x
 duchy_kirghiz;Beylerbeylik;;;;;;;;;;;;;x
 kingdom_kirghiz;Sultanate;;;;;;;;;;;;;x
+empire_kirghiz;Sultanlik of;;;;;;;;;;;;;x
+tribal_count_kirghiz;Beg;;;;;;;;;;;;;x
+tribal_count_female_kirghiz;Begum;;;;;;;;;;;;;x
+tribal_count_title_ruler_consort_kirghiz;Beg;;;;;;;;;;;;;x
+tribal_count_title_ruler_consort_female_kirghiz;Begum;;;;;;;;;;;;;x
+tribal_duke_kirghiz;Ilek;;;;;;;;;;;;;x
+tribal_duke_female_kirghiz;Ilkan;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_kirghiz;Ilek;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_female_kirghiz;Ilkan;;;;;;;;;;;;;x
+tribal_king_kirghiz;Khan;;;;;;;;;;;;;x
+tribal_king_female_kirghiz;Khatun;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_kirghiz;Khan;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_female_kirghiz;Khatun;;;;;;;;;;;;;x
+tribal_emperor_kirghiz;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_female_kirghiz;Qaghatun;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_kirghiz;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_female_kirghiz;Qaghatun;;;;;;;;;;;;;x
+count_kasogi;Beg;;;;;;;;;;;;;x
+count_female_kasogi;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_kasogi;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_kasogi;Begum;;;;;;;;;;;;;x
+duke_kasogi;Khan;;;;;;;;;;;;;x
+duke_female_kasogi;Khatun;;;;;;;;;;;;;x
+duke_title_ruler_consort_kasogi;Khan;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_kasogi;Khatun;;;;;;;;;;;;;x
+king_kasogi;Ishad;;;;;;;;;;;;;x
+king_female_kasogi;Ishadum;;;;;;;;;;;;;x
+king_title_ruler_consort_kasogi;Ishad;;;;;;;;;;;;;x
+king_title_ruler_consort_female_kasogi;Ishadum;;;;;;;;;;;;;x
+emperor_kasogi;Qaghan;;;;;;;;;;;;;x
+emperor_female_kasogi;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_kasogi;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_kasogi;Qaghatun;;;;;;;;;;;;;x
+baron_uyghur;Tutuq;;;;;;;;;;;;;x
+baron_female_uyghur;Tutuqum;;;;;;;;;;;;;x
+baron_title_ruler_consort_uyghur;Tutuq;;;;;;;;;;;;;x
+baron_title_ruler_consort_female_uyghur;Tutuqum;;;;;;;;;;;;;x
 count_uyghur;Tutuq;;;;;;;;;;;;;x
 count_female_uyghur;Tutuqa;;;;;;;;;;;;;x
 duke_uyghur;Idiqut;;;;;;;;;;;;;x
@@ -1578,11 +1688,66 @@ king_female_uyghur;Khana;;;;;;;;;;;;;x
 emperor_female_uyghur;Khagan;;;;;;;;;;;;;x
 title_prince_uyghur;Tegin;;;;;;;;;;;;;x
 title_prince_female_uyghur;Terken;;;;;;;;;;;;;x
-county_of_uyghur;Tutuqluk of;;;;;;;;;;;;;x
-duchy_of_uyghur;Idiqutluk of;;;;;;;;;;;;;x
 city_baron_uyghur;Wâli;;;;;;;;;;;;;x
+barony_uyghur;Tutuqluk;;;;;;;;;;;;;x
+barony_of_uyghur;Tutuqluk of;;;;;;;;;;;;;x
 county_uyghur;Tutuqluk;;;;;;;;;;;;;x
+county_of_uyghur;Tutuqluk of;;;;;;;;;;;;;x
 duchy_uyghur;Idiqutluk;;;;;;;;;;;;;x
+duchy_of_uyghur;Idiqutluk of;;;;;;;;;;;;;x
+empire_uyghur;Khaghanluk;;;;;;;;;;;;;x
+empire_of_uyghur;Khaghanluk of;;;;;;;;;;;;;x
+count_bolghar;Wirgh;;;;;;;;;;;;;x
+count_female_bolghar;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_bolghar;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_bolghar;Begum;;;;;;;;;;;;;x
+duke_bolghar;Elteber;;;;;;;;;;;;;x
+duke_female_bolghar;Buyruqa;;;;;;;;;;;;;x
+duke_title_ruler_consort_bolghar;Buyruq;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_bolghar;Buyruqa;;;;;;;;;;;;;x
+king_bolghar;Khan;;;;;;;;;;;;;x
+king_female_bolghar;Khatun;;;;;;;;;;;;;x
+king_title_ruler_consort_bolghar;Khan;;;;;;;;;;;;;x
+king_title_ruler_consort_female_bolghar;Khatun;;;;;;;;;;;;;x
+emperor_bolghar;Qaghan;;;;;;;;;;;;;x
+emperor_female_bolghar;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_bolghar;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_bolghar;Qaghatun;;;;;;;;;;;;;x
+baron_bashkir;Aqhaqal;;;;;;;;;;;;;x
+barony_bashkir;Ara;;;;;;;;;;;;;x
+barony_of_bashkir;Ara of;;;;;;;;;;;;;x
+count_bashkir;Aqhaqal;;;;;;;;;;;;;x
+county_bashkir;Ara;;;;;;;;;;;;;x
+county_of_bashkir;Ara of;;;;;;;;;;;;;x
+duke_bashkir;Bey;;;;;;;;;;;;;x
+duchy_bashkir;Yryw;;;;;;;;;;;;;x
+duchy_of_bashkir;Yryw of;;;;;;;;;;;;;x
+king_bashkir;Khan;;;;;;;;;;;;;x
+king_female_bashkir;Khatun;;;;;;;;;;;;;x
+king_title_ruler_consort_bashkir;Khan;;;;;;;;;;;;;x
+king_title_ruler_consort_female_bashkir;Khatun;;;;;;;;;;;;;x
+kingdom_of_bashkir;Khanlyghy of;;;;;;;;;;;;;x
+kingdom_bashkir;Khanlyghy;;;;;;;;;;;;;x
+emperor_bashkir;Khagan;;;;;;;;;;;;;x
+emperor_female_bashkir;Khagatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_bashkir;Khagan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_bashkir;Khagatun;;;;;;;;;;;;;x
+empire_of_bashkir;Khaganlyghy of;;;;;;;;;;;;;x
+empire_bashkir;Khaganlyghy;;;;;;;;;;;;;x
+title_prince_bashkir;Murza;;;;;;;;;;;;;x
+city_duke_bashkir;Ruler;;;;;;;;;;;;;x
+city_king_bashkir;Ruler;;;;;;;;;;;;;x
+city_emperor_bashkir;Ruler;;;;;;;;;;;;;x
+city_duchy_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
+city_duchy_bashkir;Khakimäte;;;;;;;;;;;;;x
+city_kingdom_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
+city_kingdom_bashkir;Khakimäte;;;;;;;;;;;;;x
+city_empire_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
+city_empire_bashkir;Khakimäte;;;;;;;;;;;;;x
+baron_karluk;Tutuq;;;;;;;;;;;;;x
+baron_female_karluk;Tutuqum;;;;;;;;;;;;;x
+baron_title_ruler_consort_karluk;Tutuq;;;;;;;;;;;;;x
+baron_title_ruler_consort_female_karluk;Tutuqum;;;;;;;;;;;;;x
 count_karluk;Tutuq;;;;;;;;;;;;;x
 count_female_karluk;Tutuqa;;;;;;;;;;;;;x
 duke_karluk;Ilek;;;;;;;;;;;;;x
@@ -1591,11 +1756,15 @@ king_female_karluk;Khana;;;;;;;;;;;;;x
 emperor_female_karluk;Khagan;;;;;;;;;;;;;x
 title_prince_karluk;Tegin;;;;;;;;;;;;;x
 title_prince_female_karluk;Terken;;;;;;;;;;;;;x
-county_of_karluk;Tutuqluk of;;;;;;;;;;;;;x
-duchy_of_karluk;Iligluk of;;;;;;;;;;;;;x
 city_baron_karluk;Wâli;;;;;;;;;;;;;x
+barony_karluk;Tutuqluk;;;;;;;;;;;;;x
+barony_of_karluk;Tutuqluk of;;;;;;;;;;;;;x
 county_karluk;Tutuqluk;;;;;;;;;;;;;x
+county_of_karluk;Tutuqluk of;;;;;;;;;;;;;x
 duchy_karluk;Iligluk;;;;;;;;;;;;;x
+duchy_of_karluk;Iligluk of;;;;;;;;;;;;;x
+empire_karluk;Kaganluk;;;;;;;;;;;;;x
+empire_of_karluk;Kaganluk of;;;;;;;;;;;;;x
 baron_turkmen;Muqta;;;;;;;;;;;;;x
 count_turkmen;Bey;;;;;;;;;;;;;x
 count_female_turkmen;Begum;;;;;;;;;;;;;x
@@ -1605,6 +1774,19 @@ king_turkmen;Sultan;;;;;;;;;;;;;x
 king_female_turkmen;Sultana;;;;;;;;;;;;;x
 emperor_turkmen;Shahanshah;;;;;;;;;;;;;x
 emperor_female_turkmen;Khatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_turkmen;Sháhansháh;;;;;;;;;;;;;x
+tribal_duke_turkmen;Ilek;;;;;;;;;;;;;x
+tribal_duke_female_turkmen;Ilkan;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_turkmen;Ilek;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_female_turkmen;Ilkan;;;;;;;;;;;;;x
+tribal_king_turkmen;Khan;;;;;;;;;;;;;x
+tribal_king_female_turkmen;Khatun;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_turkmen;Khan;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_female_turkmen;Khatun;;;;;;;;;;;;;x
+tribal_emperor_turkmen;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_female_turkmen;Qaghatun;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_turkmen;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_female_turkmen;Qaghatun;;;;;;;;;;;;;x
 title_prince_turkmen;Malik;;;;;;;;;;;;;x
 title_prince_female_turkmen;Malika;;;;;;;;;;;;;x
 barony_of_turkmen;Iqta‘ of;;;;;;;;;;;;;x
@@ -1627,6 +1809,73 @@ vice_royalty_barony_of_turkmen;Muqta of;;;;;;;;;;;;;x
 vice_royalty_county_of_turkmen;Emirate of;;;;;;;;;;;;;x
 vice_royalty_duchy_of_turkmen;Emirate of;;;;;;;;;;;;;x
 vice_royalty_kingdom_of_turkmen;Emirate of;;;;;;;;;;;;;x
+baron_turkish;Timariot;;;;;;;;;;;;;x
+count_turkish;Bey;;;;;;;;;;;;;x
+count_female_turkish;Bayan;;;;;;;;;;;;;x
+count_title_ruler_consort_turkish;Bey;;;;;;;;;;;;;x
+count_title_ruler_consort_female_turkish;Beyum;;;;;;;;;;;;;x
+duke_turkish;Beylerbey;;;;;;;;;;;;;x
+duke_female_turkish;Beylerbayan;;;;;;;;;;;;;x
+duke_title_ruler_consort_turkish;Beylerbey;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_turkish;Hanimbeylerbey;;;;;;;;;;;;;x
+king_turkish;Sultan;;;;;;;;;;;;;x
+king_female_turkish;Sultana;;;;;;;;;;;;;x
+king_title_ruler_consort_turkish;Haseki Sultána;;;;;;;;;;;;;x
+king_title_ruler_consort_female_turkish;Haseki Sultán;;;;;;;;;;;;;x
+emperor_turkish;Padishah;;;;;;;;;;;;;x
+emperor_female_turkish;Sultána;;;;;;;;;;;;;x
+emperor_title_ruler_consort_turkish;Haseki Sultána;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_turkish;Haseki Sultán;;;;;;;;;;;;;x
+tribal_duke_turkish;Ilek;;;;;;;;;;;;;x
+tribal_duke_female_turkish;Ilkan;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_turkish;Ilek;;;;;;;;;;;;;x
+tribal_duke_title_ruler_consort_female_turkish;Ilkan;;;;;;;;;;;;;x
+tribal_king_turkish;Khan;;;;;;;;;;;;;x
+tribal_king_female_turkish;Khatun;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_turkish;Khan;;;;;;;;;;;;;x
+tribal_king_title_ruler_consort_female_turkish;Khatun;;;;;;;;;;;;;x
+tribal_emperor_turkish;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_female_turkish;Qaghatun;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_turkish;Qaghan;;;;;;;;;;;;;x
+tribal_emperor_title_ruler_consort_female_turkish;Qaghatun;;;;;;;;;;;;;x
+title_prince_turkish;Sultanzade;;;;;;;;;;;;;x
+title_prince_female_turkish;Hanimsultan;;;;;;;;;;;;;x
+barony_of_turkish;Timar of;;;;;;;;;;;;;x
+county_of_turkish;Beylik of;;;;;;;;;;;;;x
+duchy_of_turkish;State of;;;;;;;;;;;;;x
+kingdom_of_turkish;Sultanate of;;;;;;;;;;;;;x
+empire_of_turkish;Imparatorlugu of;;;;;;;;;;;;;x
+city_baron_turkish;Ra'ís;;;;;;;;;;;;;x
+city_count_turkish;Shahna;;;;;;;;;;;;;x
+barony_turkish;Timar;;;;;;;;;;;;;x
+county_turkish;Beylik;;;;;;;;;;;;;x
+duchy_turkish;State;;;;;;;;;;;;;x
+kingdom_turkish;Sultanate;;;;;;;;;;;;;x
+empire_turkish;Imparatorlugu;;;;;;;;;;;;;x
+vice_royalty_baron_turkish;Shahna;;;;;;;;;;;;;x
+vice_royalty_count_turkish;Wálí;;;;;;;;;;;;;x
+vice_royalty_duke_turkish;Amír;;;;;;;;;;;;;x
+vice_royalty_king_turkish;Amír;;;;;;;;;;;;;x
+vice_royalty_barony_of_turkish;Muqta';;;;;;;;;;;;;x
+vice_royalty_county_of_turkish;Imára;;;;;;;;;;;;;x
+vice_royalty_duchy_of_turkish;Imára;;;;;;;;;;;;;x
+vice_royalty_kingdom_of_turkish;Imára;;;;;;;;;;;;;x
+count_avar;Beg;;;;;;;;;;;;;x
+count_female_avar;Begum;;;;;;;;;;;;;x
+count_title_ruler_consort_avar;Beg;;;;;;;;;;;;;x
+count_title_ruler_consort_female_avar;Begum;;;;;;;;;;;;;x
+duke_avar;Elteber;;;;;;;;;;;;;x
+duke_female_avar;Khatun;;;;;;;;;;;;;x
+duke_title_ruler_consort_avar;Khan;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_avar;Khatun;;;;;;;;;;;;;x
+king_avar;Ishad;;;;;;;;;;;;;x
+king_female_avar;Ishadum;;;;;;;;;;;;;x
+king_title_ruler_consort_avar;Ishad;;;;;;;;;;;;;x
+king_title_ruler_consort_female_avar;Ishadum;;;;;;;;;;;;;x
+emperor_avar;Qaghan;;;;;;;;;;;;;x
+emperor_female_avar;Qaghatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_avar;Qaghan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_avar;Qaghatun;;;;;;;;;;;;;x
 baron_caucasian_avar;Marzban;;;;;;;;;;;;;x
 count_caucasian_avar;Salifan;;;;;;;;;;;;;x
 baron_german;Lord;;;;;;;;;;;;;x
@@ -2272,39 +2521,6 @@ county_of_saka;Commandery of;;;;;;;;;;;;;x
 county_saka;Commandery;;;;;;;;;;;;;x
 duchy_of_saka;Kingdom of;;;;;;;;;;;;;x
 duchy_saka;Kingdom;;;;;;;;;;;;;x
-tribal_duke_tengri_pagan;Ilek;;;;;;;;;;;;;x
-tribal_duke_female_tengri_pagan;Ilkan;;;;;;;;;;;;;x
-tribal_king_tengri_pagan;Khan;;;;;;;;;;;;;x
-tribal_king_female_tengri_pagan;Khatun;;;;;;;;;;;;;x
-tribal_emperor_tengri_pagan;Khagan;;;;;;;;;;;;;x
-tribal_emperor_female_tengri_pagan;Khagan;;;;;;;;;;;;;x
-duke_bolghar;Elteber;;;;;;;;;;;;;x
-count_bolghar;Wirgh;;;;;;;;;;;;;x
-king_khazar;Ishad;;;;;;;;;;;;;x
-king_khavar;Ishad;;;;;;;;;;;;;x
-duke_khazar;Elteber;;;;;;;;;;;;;x
-duke_khavar;Elteber;;;;;;;;;;;;;x
-duke_avar;Elteber;;;;;;;;;;;;;x
-duke_pecheneg;Elteber;;;;;;;;;;;;;x
-baron_bashkir;Aqhaqal;;;;;;;;;;;;;x
-barony_bashkir;Ara;;;;;;;;;;;;;x
-barony_of_bashkir;Ara of;;;;;;;;;;;;;x
-count_bashkir;Aqhaqal;;;;;;;;;;;;;x
-county_bashkir;Ara;;;;;;;;;;;;;x
-county_of_bashkir;Ara of;;;;;;;;;;;;;x
-duke_bashkir;Bey;;;;;;;;;;;;;x
-duchy_bashkir;Yryw;;;;;;;;;;;;;x
-duchy_of_bashkir;Yryw of;;;;;;;;;;;;;x
-title_prince_bashkir;Murza;;;;;;;;;;;;;x
-city_duke_bashkir;Ruler;;;;;;;;;;;;;x
-city_king_bashkir;Ruler;;;;;;;;;;;;;x
-city_emperor_bashkir;Ruler;;;;;;;;;;;;;x
-city_duchy_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
-city_duchy_bashkir;Khakimäte;;;;;;;;;;;;;x
-city_kingdom_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
-city_kingdom_bashkir;Khakimäte;;;;;;;;;;;;;x
-city_empire_of_bashkir;Khakimäte of;;;;;;;;;;;;;x
-city_empire_bashkir;Khakimäte;;;;;;;;;;;;;x
 duke_khanty;Kanas;;;;;;;;;;;;;x
 duke_mari;Kugyzha;;;;;;;;;;;;;x
 duchy_mari;Kugyzhanysh;;;;;;;;;;;;;x
@@ -2387,56 +2603,141 @@ duchy_of_arabic;Emirate of;;;;;;;;;;;;;x
 duchy_arabic;Emirate;;;;;;;;;;;;;x
 king_arabic;Sultan;;;;;;;;;;;;;x
 king_female_arabic;Sultana;;;;;;;;;;;;;x
+nomadic_king_avar;Yil-Tawar;;;;;;;;;;;;;x
+nomadic_emperor_avar;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_female_avar;Qaghatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_avar;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_avar;Qaghatun;;;;;;;;;;;;;x
+nomadic_kingdom_avar;Tawarlik;;;;;;;;;;;;;x
+nomadic_kingdom_of_avar;Tawarlik of;;;;;;;;;;;;;x
+nomadic_empire_avar;Qaghanlik;;;;;;;;;;;;;x
+nomadic_empire_of_avar;Qaghanlik of;;;;;;;;;;;;;x
 nomadic_king_oghuz;Bey;;;;;;;;;;;;;x
+nomadic_king_female_oghuz;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_oghuz;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_oghuz;Begum;;;;;;;;;;;;;x
 nomadic_emperor_oghuz;Yabgu;;;;;;;;;;;;;x
+nomadic_emperor_female_oghuz;Yabgha;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_oghuz;Yabghu;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_oghuz;Yabgha;;;;;;;;;;;;;x
 nomadic_kingdom_oghuz;Beylik;;;;;;;;;;;;;x
 nomadic_kingdom_of_oghuz;Beylik of;;;;;;;;;;;;;x
 nomadic_empire_oghuz;Yabguluq;;;;;;;;;;;;;x
 nomadic_empire_of_oghuz;Yabguluq of;;;;;;;;;;;;;x
+nomadic_king_turkish;Beg;;;;;;;;;;;;;x
+nomadic_king_female_turkish;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_turkish;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_turkish;Begum;;;;;;;;;;;;;x
+nomadic_emperor_turkish;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_turkish;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_turkish;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_turkish;Khatun;;;;;;;;;;;;;x
+nomadic_kingdom_turkish;Beglik;;;;;;;;;;;;;x
+nomadic_kingdom_of_turkish;Beglik of;;;;;;;;;;;;;x
+nomadic_empire_turkish;Khanlik;;;;;;;;;;;;;x
+nomadic_empire_of_turkish;Khanlik of;;;;;;;;;;;;;x
 nomadic_king_turkmen;Bey;;;;;;;;;;;;;x
+nomadic_king_female_turkmen;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_turkmen;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_turkmen;Begum;;;;;;;;;;;;;x
 nomadic_emperor_turkmen;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_turkmen;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_turkmen;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_turkmen;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_turkmen;Beylik;;;;;;;;;;;;;x
 nomadic_kingdom_of_turkmen;Beylik of;;;;;;;;;;;;;x
 nomadic_king_pecheneg;Elteber;;;;;;;;;;;;;x
 nomadic_emperor_pecheneg;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_pecheneg;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_pecheneg;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_pecheneg;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_pecheneg;Teberlik;;;;;;;;;;;;;x
 nomadic_kingdom_of_pecheneg;Teberlik of;;;;;;;;;;;;;x
 nomadic_king_cuman;Bey;;;;;;;;;;;;;x
+nomadic_king_female_cuman;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_cuman;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_cuman;Begum;;;;;;;;;;;;;x
 nomadic_emperor_cuman;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_cuman;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_cuman;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_cuman;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_cuman;Beylik;;;;;;;;;;;;;x
 nomadic_kingdom_of_cuman;Beylik of;;;;;;;;;;;;;x
 nomadic_king_khazar;Elteber;;;;;;;;;;;;;x
+nomadic_emperor_female_khazar;Qaghatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_khazar;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_khazar;Qaghatun;;;;;;;;;;;;;x
 nomadic_kingdom_khazar;Tawarlik;;;;;;;;;;;;;x
 nomadic_kingdom_of_khazar;Tawarlik of;;;;;;;;;;;;;x
 nomadic_king_khavar;Elteber;;;;;;;;;;;;;x
+nomadic_emperor_female_khavar;Qaghatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_khavar;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_khavar;Qaghatun;;;;;;;;;;;;;x
 nomadic_kingdom_khavar;Tawarlik;;;;;;;;;;;;;x
 nomadic_kingdom_of_khavar;Tawarlik of;;;;;;;;;;;;;x
+nomadic_empire_of_khavar;Qaghanlik of;;;;;;;;;;;;;x
+nomadic_king_kasogi;Yil-Tawar;;;;;;;;;;;;;x
+nomadic_emperor_kasogi;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_female_kasogi;Qaghatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_kasogi;Qaghan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_kasogi;Qaghatun;;;;;;;;;;;;;x
+nomadic_kingdom_kasogi;Tawarlik;;;;;;;;;;;;;x
+nomadic_kingdom_of_kasogi;Tawarlik of;;;;;;;;;;;;;x
+nomadic_empire_kasogi;Qaghanlik;;;;;;;;;;;;;x
+nomadic_empire_of_kasogi;Qaghanlik of;;;;;;;;;;;;;x
 nomadic_king_bolghar;Elteber;;;;;;;;;;;;;x
 nomadic_emperor_bolghar;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_bolghar;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_bolghar;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_bolghar;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_bolghar;Tawarlik;;;;;;;;;;;;;x
 nomadic_kingdom_of_bolghar;Tawarlik of;;;;;;;;;;;;;x
 nomadic_king_karluk;Tutuq;;;;;;;;;;;;;x
 nomadic_emperor_karluk;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_karluk;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_karluk;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_karluk;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_karluk;Tutuqluk;;;;;;;;;;;;;x
 nomadic_kingdom_of_karluk;Tutuqluk of;;;;;;;;;;;;;x
 nomadic_king_kirghiz;Bey;;;;;;;;;;;;;x
+nomadic_king_female_kirghiz;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_kirghiz;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_kirghiz;Begum;;;;;;;;;;;;;x
 nomadic_emperor_kirghiz;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_kirghiz;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_kirghiz;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_kirghiz;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_kirghiz;Beylik;;;;;;;;;;;;;x
 nomadic_kingdom_of_kirghiz;Beylik of;;;;;;;;;;;;;x
 nomadic_king_uyghur;Idiqut;;;;;;;;;;;;;x
 nomadic_emperor_uyghur;Khagan;;;;;;;;;;;;;x
+nomadic_emperor_female_uyghur;Kaghana;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_uyghur;Kaghan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_uyghur;Kaghana;;;;;;;;;;;;;x
 nomadic_kingdom_uyghur;Idiqutluk;;;;;;;;;;;;;x
 nomadic_kingdom_of_uyghur;Idiqutluk of;;;;;;;;;;;;;x
 nomadic_king_bashkir;Bey;;;;;;;;;;;;;x
+nomadic_king_female_bashkir;Begum;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_bashkir;Beg;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_bashkir;Begum;;;;;;;;;;;;;x
 nomadic_emperor_bashkir;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_bashkir;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_bashkir;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_bashkir;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_bashkir;Yryw;;;;;;;;;;;;;x
 nomadic_kingdom_of_bashkir;Yryw of;;;;;;;;;;;;;x
 nomadic_king_kurdish;Ustandar;;;;;;;;;;;;;x
 nomadic_emperor_kurdish;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_kurdish;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_kurdish;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_kurdish;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_kurdish;Province;;;;;;;;;;;;;x
 nomadic_kingdom_of_kurdish;Province of;;;;;;;;;;;;;x
 nomadic_king_baloch;Ustandar;;;;;;;;;;;;;x
 nomadic_emperor_baloch;Khan;;;;;;;;;;;;;x
+nomadic_emperor_female_baloch;Khatun;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_baloch;Khan;;;;;;;;;;;;;x
+nomadic_emperor_title_ruler_consort_female_baloch;Khatun;;;;;;;;;;;;;x
 nomadic_kingdom_baloch;Province;;;;;;;;;;;;;x
 nomadic_kingdom_of_baloch;Province of;;;;;;;;;;;;;x
 emperor_khitan;Emperor;;;;;;;;;;;;;x
@@ -2486,18 +2787,28 @@ duke_prussian;King;;;;;;;;;;;;;x
 count_prussian;Knight;;;;;;;;;;;;;x
 baron_prussian;Chief;;;;;;;;;;;;;x
 baron_female_prussian;Lady;;;;;;;;;;;;;x
-nomadic_emperor_mongol;Khan;;;;;;;;;;;;;x
-nomadic_empire_of_mongol;Khanate of;;;;;;;;;;;;;x
-nomadic_empire_mongol;Khanate;;;;;;;;;;;;;x
+emperor_mongol;Khan;;;;;;;;;;;;;x
+emperor_female_mongol;Khatun;;;;;;;;;;;;;x
+emperor_title_ruler_consort_mongol;Khan;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_mongol;Khatun;;;;;;;;;;;;;x
+empire_of_mongol;Khanate of;;;;;;;;;;;;;x
+empire_mongol;Khanate;;;;;;;;;;;;;x
 nomadic_king_mongol;Chief;;;;;;;;;;;;;x
+nomadic_king_female_mongol;Aga;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_mongol;Aqa;;;;;;;;;;;;;x
+nomadic_king_title_ruler_consort_female_mongol;Aga;;;;;;;;;;;;;x
 nomadic_kingdom_of;Tribe of;;;;;;;;;;;;;x
 nomadic_kingdom;Tribe;;;;;;;;;;;;;x
+king_mongol;Khan;;;;;;;;;;;;;x
+king_female_mongol;Khatun;;;;;;;;;;;;;x
+king_title_ruler_consort_mongol;Khan;;;;;;;;;;;;;x
+king_title_ruler_consort_female_mongol;Khatun;;;;;;;;;;;;;x
+kingdom_of;Kingdom of;;;;;;;;;;;;;x
+kingdom;Kingdom;;;;;;;;;;;;;x
 duke_mongol;Noyan;;;;;;;;;;;;;x
 baron_mongol;Darugha;;;;;;;;;;;;;x
 barony_mongol;Darugha;;;;;;;;;;;;;x
 barony_of_mongol;Darugha of;;;;;;;;;;;;;x
-tribal_baron_mongol;Darugha;;;;;;;;;;;;;x
-tribal_barony_of_mongol;Darugha of;;;;;;;;;;;;;x
 city_baron_mongol;Urtaq;;;;;;;;;;;;;x
 baron_coptic;Lord;;;;;;;;;;;;;x
 count_coptic;Pagarch;;;;;;;;;;;;;x
