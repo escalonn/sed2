@@ -20693,6 +20693,7 @@ e_france = { # France
 				b_puigcerda = {}
 				b_meranges = {}
 			} # end c_cerdanya
+			allow = { title_duke_basic_allow = yes }
 		} # end d_urgell
 		allow = {
 			NOT = { has_landed_title = k_france }
