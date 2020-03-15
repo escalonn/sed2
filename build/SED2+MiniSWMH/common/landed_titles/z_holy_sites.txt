@@ -10,7 +10,7 @@ c_karnten = {
 	holy_site = slavic_pagan_reformed
 }
 
-c_siracusa = {
+c_napoli = {
 	holy_site = hellenic_pagan
 	holy_site = hellenic_pagan_reformed
 }
@@ -30,7 +30,7 @@ b_hagiasophia = {
 
 c_chalkidike = { holy_site = orthodox }
 
-c_thessalonike = {
+c_achaia = {
 	holy_site = hellenic_pagan
 	holy_site = hellenic_pagan_reformed
 }
@@ -142,8 +142,6 @@ c_alexandria = {
 	holy_site = miaphysite
 	holy_site = monophysite
 	holy_site = nestorian
-	holy_site = hellenic_pagan
-	holy_site = hellenic_pagan_reformed
 	holy_site = paulician
 	holy_site = apostolic
 	holy_site = maronite
@@ -151,6 +149,11 @@ c_alexandria = {
 }
 
 b_alexandria = { pentarchy = yes }
+
+c_quattara = {
+	holy_site = hellenic_pagan
+	holy_site = hellenic_pagan_reformed
+}
 
 c_cairo = { holy_site = druze }
 
