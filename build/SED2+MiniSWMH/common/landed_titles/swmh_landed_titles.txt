@@ -14264,7 +14264,10 @@ e_britannia = {
 		capital = 70
 		culture = saxon
 		dignity = 30
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			NOT = { has_landed_title = k_england }
+			title_king_basic_allow = yes
+		}
 	}
 	k_northumberland = {
 		color = { 234 207 99 }
@@ -14272,7 +14275,10 @@ e_britannia = {
 		capital = 52
 		culture = saxon
 		dignity = 30
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			NOT = { has_landed_title = k_england }
+			title_king_basic_allow = yes
+		}
 	}
 	k_mercia = {
 		color = { 6 42 127 }
@@ -14280,7 +14286,10 @@ e_britannia = {
 		capital = 17
 		culture = saxon
 		dignity = 30
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			NOT = { has_landed_title = k_england }
+			title_king_basic_allow = yes
+		}
 	}
 	k_wessex = {
 		color = { 68 140 48 }
@@ -14288,7 +14297,10 @@ e_britannia = {
 		capital = 26
 		culture = saxon
 		dignity = 30
-		allow = { title_king_basic_allow = yes }
+		allow = {
+			NOT = { has_landed_title = k_england }
+			title_king_basic_allow = yes
+		}
 	}
 	k_wales = {
 		color = { 135 25 3 }
