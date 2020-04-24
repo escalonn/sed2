@@ -18763,8 +18763,10 @@ e_italy = { # Italia
 	gain_effect = {
 		if = {
 			limit = {
-				k_naples = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
+				k_naples = {
+					is_de_jure_title = yes
+					NOT = { de_jure_liege = FROM }
+				}
 			}
 			k_naples = {
 				show_scope_change = no
@@ -18773,8 +18775,10 @@ e_italy = { # Italia
 		}
 		if = {
 			limit = {
-				k_trinacria = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
+				k_trinacria = {
+					is_de_jure_title = yes
+					NOT = { de_jure_liege = FROM }
+				}
 			}
 			k_trinacria = {
 				show_scope_change = no
@@ -18788,18 +18792,31 @@ e_italy = { # Italia
 			FROM = { is_de_jure_title = yes }
 		}
 		has_landed_title = k_italy
-		has_landed_title = k_sicily
+		trigger_if = {
+			limit = { k_sicily = { is_de_jure_title = yes } }
+			has_landed_title = k_sicily
+		}
 		trigger_if = {
 			limit = {
-				k_naples = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
+				k_naples = {
+					is_de_jure_title = yes
+					OR = {
+						k_sicily = { is_de_jure_title = no }
+						NOT = { de_jure_liege = FROM }
+					}
+				}
 			}
 			has_landed_title = k_naples
 		}
 		trigger_if = {
 			limit = {
-				k_trinacria = { is_de_jure_title = yes }
-				NOT = { de_jure_liege = FROM }
+				k_trinacria = {
+					is_de_jure_title = yes
+					OR = {
+						k_sicily = { is_de_jure_title = no }
+						NOT = { de_jure_liege = FROM }
+					}
+				}
 			}
 			has_landed_title = k_trinacria
 		}
